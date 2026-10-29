@@ -17,6 +17,8 @@ the catalog schema.
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- The hero title is two phrases that never break inside (description + highlighted angle count), with Shisei moved
+  to an eyebrow: Chinese and Japanese no longer split a word such as 姿势 across lines, Korean keeps words whole.
 - The category row drops the NEW and all-five-angles chips (NEW equalled "not std", already a series tab; all five
   angles covered 41 % of sets) and is hidden under All series. Old `?new=1` / `?full=1` links are ignored.
 - Cards no longer carry a NEW badge: the latest version covered 75 % of sets.

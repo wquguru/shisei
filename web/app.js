@@ -153,6 +153,8 @@
     // The hero counts the whole published library, so the number does not move when suggestive poses are hidden.
     const n = poses.length;
     const views = poses.reduce((s, p) => s + p.line.filter(Boolean).length, 0);
+    // Two phrases that never break inside: CJK has no spaces, so a single string let balance split a word across lines.
+    $('heroTitle').innerHTML = '<span class="tp">' + esc(T.heroTitle[0]) + '</span> <span class="tp mark">' + esc(T.heroTitle[1]) + '</span>';
     document.querySelector('.hero-sub').textContent = T.heroSub(n, views.toLocaleString('en-US'));
     document.querySelector('[data-i18n="browse"]').textContent = T.browse(n);
     $('heroSeries').innerHTML = SERIES.map((k) => [k, poses.filter((p) => p.series === k).length]).filter((x) => x[1])

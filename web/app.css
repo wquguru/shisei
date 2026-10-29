@@ -2,7 +2,7 @@
   --bg: #F5F2ED; --bg2: #ECE7DF; --field: #F8F6F2; --card: #FFFFFF;
   --line: #DCD6CC; --line2: #E4DFD7;
   --ink: #18181B; --ink2: #3F3D39; --ink3: #55534E; --ink4: #6B6862;
-  --accent: #E07A52; --shadow: #EDB79C; --new: #F2F08A; --new-ink: #18181B;
+  --accent: #E07A52; --shadow: #EDB79C; --new: #F2F08A; --new-ink: #18181B; --mark: #F2F08A;
   --tile: #ECE7DF; --tile-photo: #ECE7DF; --tile-photo-on: #E3DDD3;
   --btn: #18181B; --btn-ink: #FFFFFF;
   --glow: #F3E6DC;
@@ -15,7 +15,7 @@
     --bg: #161513; --bg2: #24221F; --field: #1D1B19; --card: #1D1B19;
     --line: #3A3733; --line2: #2E2B28;
     --ink: #F2EFE9; --ink2: #D9D4CB; --ink3: #B7B1A7; --ink4: #9E988E;
-    --shadow: #6E4331; --glow: #2A211C;
+    --shadow: #6E4331; --glow: #2A211C; --mark: #5C5318;
     --btn: #F2EFE9; --btn-ink: #161513;
     color-scheme: dark;
   }
@@ -24,7 +24,7 @@
   --bg: #161513; --bg2: #24221F; --field: #1D1B19; --card: #1D1B19;
   --line: #3A3733; --line2: #2E2B28;
   --ink: #F2EFE9; --ink2: #D9D4CB; --ink3: #B7B1A7; --ink4: #9E988E;
-  --shadow: #6E4331; --glow: #2A211C;
+  --shadow: #6E4331; --glow: #2A211C; --mark: #5C5318;
   --btn: #F2EFE9; --btn-ink: #161513;
   color-scheme: dark;
 }
@@ -67,7 +67,13 @@ img { display: block; }
 
 /* hero */
 .hero { padding: 80px 0 40px; display: flex; flex-direction: column; align-items: center; gap: 22px; background: radial-gradient(900px 420px at 50% 30%, var(--glow) 0, transparent 70%); }
-.hero h1 { margin: 0; padding: 0 16px; max-width: 1200px; text-align: center; font-size: clamp(40px, 6.6vw, 104px); line-height: 1.04; font-weight: 800; letter-spacing: -0.05em; text-shadow: 3px 4px 0 var(--shadow); text-wrap: balance; }
+.hero h1 { margin: 0; padding: 0 16px; max-width: 1200px; text-align: center; font-size: clamp(40px, 7.4vw, 104px); line-height: 1.08; font-weight: 800; letter-spacing: -0.04em; text-shadow: 3px 4px 0 var(--shadow); text-wrap: balance; word-break: keep-all; }
+/* The title breaks only between its two phrases; English words may still wrap inside a phrase. */
+.hero h1 .tp { white-space: nowrap; }
+.hero h1:lang(en) .tp { white-space: normal; }
+.hero h1 .mark { padding: 0 0.06em; background: linear-gradient(transparent 58%, var(--mark) 58%, var(--mark) 92%, transparent 92%); }
+.hero-eye { margin: 0 0 -6px; }
+.hero-sub:lang(ko) { word-break: keep-all; }
 .hero-sub { margin: 0; padding: 0 16px; max-width: 660px; text-align: center; font-size: 19px; line-height: 1.6; color: var(--ink3); }
 .marquee { width: 100%; display: flex; flex-direction: column; gap: 22px; padding: 26px 0 10px; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%); mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%); }
 .mq-row { display: flex; gap: 22px; width: max-content; }
@@ -287,7 +293,8 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .nav-tools > .pill { display: none; }
   /* The hero fits one phone screen with the nav: one marquee row, smaller type and chips. */
   .hero { padding: 16px 0 20px; gap: 12px; }
-  .hero h1 { font-size: 32px; text-shadow: 2px 3px 0 var(--shadow); }
+  .hero h1 { font-size: 38px; line-height: 1.12; text-shadow: 2px 3px 0 var(--shadow); }
+  .hero-eye { font-size: 12px; letter-spacing: 0.22em; margin: 0; }
   .hero-sub { font-size: 15px; line-height: 1.55; }
   .mq-tile { width: 96px; height: 96px; border-radius: 20px; }
   .marquee { padding: 8px 0 4px; }
