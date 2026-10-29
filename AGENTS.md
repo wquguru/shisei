@@ -57,7 +57,8 @@ images/photo/…       same two tiers for photo renders
 web/                 gallery source: index.html template, app.js, app.css, i18n.js, common.js (share sheet, copy,
                      language links), favicon.svg, changelog.yaml (reader-facing changelog, four languages)
 site/                build output of tools/build_site.py (git-ignored; deploy this): home, pose pages and changelog
-                     per language (zh at the root, ja/ en/ ko/), og/ share cards, sitemap, robots, 404, manifest
+                     per language (zh at the root, ja/ en/ ko/), og/ share cards, sitemap, robots, 404, manifest,
+                     _headers (Cloudflare cache rules)
 build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.py,
                      import_series.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py, export_csv.py

@@ -13,7 +13,7 @@ Usage: python3 tools/build_site.py [--site URL] [--repo URL] [--link-images] [--
 --public        the public deploy: the series in PUBLIC_SERIES, line art and photo renders that passed QC; only the files
                 the catalog lists are copied (DECISIONS D-03, D-06)
 """
-import argparse, datetime, json, os, pathlib, re, shutil, subprocess, sys
+import argparse, datetime, hashlib, json, os, pathlib, re, shutil, subprocess, sys
 from html.parser import HTMLParser
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))  # -I drops the script dir from sys.path
@@ -173,6 +173,32 @@ def check_site(out, site):
     return bad
 
 
+# Cloudflare Pages response headers. Scripts and styles are referenced as ?v=<content hash>, so a cached copy is
+# never stale and can be kept for a year. Image names stay the same when a view is redrawn, so images get a week
+# plus background revalidation rather than immutable. Pages without a rule keep the Pages default (revalidate).
+HEADERS = """/*.js
+  Cache-Control: public, max-age=31536000, immutable
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+/images/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+/og/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+"""
+STAMPED = ("app.css", "app.js", "common.js", "i18n.js")
+
+
+def stamp_assets(out, ver):
+    """Swap the release version in ?v= for each asset's content hash, so an edit between releases busts caches."""
+    for name in STAMPED:
+        digest = hashlib.sha256((out / name).read_bytes()).hexdigest()[:10]
+        pat = re.compile(re.escape(name) + r"\?v=" + re.escape(ver) + r"(?=\")")
+        for f in out.rglob("*.html"):
+            doc = f.read_text()
+            if name in doc:
+                f.write_text(pat.sub(f"{name}?v={digest}", doc))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--site", default=os.environ.get("SHISEI_SITE_URL", DEFAULT_SITE))
@@ -300,6 +326,8 @@ def main() -> None:
         "name": "Shisei 姿勢", "short_name": "Shisei", "start_url": "./", "scope": "./", "display": "standalone",
         "background_color": "#F5F2ED", "theme_color": "#F5F2ED", "icons": icons}, ensure_ascii=False, indent=1))
     (out / ".nojekyll").write_text("")  # GitHub Pages: serve files as they are
+    stamp_assets(out, ver)
+    (out / "_headers").write_text(HEADERS)
 
     # sitemap.xml with hreflang alternates and the line art as image entries; robots.txt
     cat_day, cl_day = git_day("data/catalog.json"), entries[0]["date"]

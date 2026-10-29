@@ -14,6 +14,8 @@ the catalog schema.
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- Repeat visits load faster: scripts and styles are cached for a year under a content-hash `?v=`, images for a
+  week with background revalidation (`site/_headers` for Cloudflare Pages). The hero marquee loads at low priority.
 - Images and the project's own data are now CC0 1.0 (`LICENSE-images`); code and docs stay Apache-2.0. Every zip ships
   LICENSE, LICENSE-images and NOTICE. README and NOTICE credit the pose list to ai-pose-gallery by ギア (@giaaibusi).
 - The README logo and screenshot link to the gallery at shisei.indaloop.app, in the README's language.
