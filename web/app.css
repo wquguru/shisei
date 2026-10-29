@@ -138,9 +138,8 @@ img { display: block; }
 .seg { display: inline-flex; flex-wrap: wrap; padding: 4px; border-radius: 999px; background: var(--bg2); }
 .seg button { min-height: 40px; padding: 0 16px; border: 0; border-radius: 999px; background: transparent; color: var(--ink2); font-size: 15px; font-weight: 500; cursor: pointer; }
 .seg button[aria-pressed="true"] { background: var(--btn); color: var(--btn-ink); font-weight: 600; }
-.sheet-btn { display: none; }
-.sheet-btn b { min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--new); color: var(--new-ink); font-family: var(--mono); font-size: 12px; display: inline-flex; align-items: center; justify-content: center; }
-.sheet-btn b:empty { display: none; }
+.cols-btn { display: none; }
+.cols-btn[aria-pressed="true"] { background: var(--btn); color: var(--btn-ink); border-color: var(--btn); }
 
 /* grid */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 36px 28px; }
@@ -224,16 +223,6 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 .info-h { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
 .info-h h2 { margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
 .info ul { margin: 0; padding-left: 1.2em; font-size: 15px; line-height: 1.85; color: var(--ink2); }
-.sheet { width: 100%; max-width: 100%; margin: auto 0 0; padding: 10px 16px calc(24px + env(safe-area-inset-bottom)); border-radius: 30px 30px 0 0; background: var(--bg); }
-.sheet .grip { display: block; width: 40px; height: 5px; border-radius: 3px; background: var(--line); margin: 0 auto 10px; }
-#sheetFilters { display: flex; flex-direction: column; gap: 18px; }
-#sheetFilters .grp { display: flex; flex-direction: column; gap: 8px; }
-#sheetFilters .grp > span { font-size: 13px; color: var(--ink4); }
-#sheetFilters .seg { display: flex; }
-#sheetFilters .seg button { flex: 1 1 auto; }
-.sheet-actions { display: flex; gap: 10px; padding-top: 20px; }
-.sheet-actions .pill { height: 54px; font-size: 16px; }
-.sheet-actions .pill:first-child { flex: 1; } .sheet-actions .pill:last-child { flex: 2; }
 .toast { position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 20px); padding: 10px 18px; border-radius: 999px; background: var(--btn); color: var(--btn-ink); font-size: 14px; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 100; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
@@ -241,12 +230,39 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 @media (max-width: 1100px) {
   .nav-links { display: none; }
 }
+/* Phone lightbox: full screen, and one set fits it without scrolling: title, image, angle strip, then a bar with
+   previous / next set, details and download. The side panel and its action block dissolve (display: contents) so
+   their children can be ordered around the image; names, description and the secondary actions show under the
+   bar only when details is open, and only then does the box scroll. */
 @media (max-width: 860px) {
-  .lb-box { flex-direction: column; height: calc(100vh - 24px); width: calc(100vw - 24px); margin-top: 12px; border-radius: 26px; overflow-y: auto; }
-  .lb-stage { flex: 0 0 auto; height: 58vh; margin: 12px; }
-  .lb-side { flex: 0 0 auto; padding: 4px 18px 24px; overflow: visible; }
-  .lb-nav { width: 48px; height: 48px; margin-top: -24px; }
-  .lb-nav.l { left: 10px; } .lb-nav.r { right: 10px; }
+  .lb-box { flex-direction: column; width: 100vw; height: 100vh; height: 100dvh; margin: 0; border-radius: 0; overflow: hidden; }
+  .lb.more .lb-box { overflow-y: auto; }
+  .lb-side, .lb-head, .lb-actions { display: contents; }
+  #lbMeta { order: 0; padding: 12px 64px 0 16px; font-size: 12px; }
+  .lb-head h2 { order: 0; padding: 2px 64px 0 16px; font-size: 19px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  /* Only the image gives up height; everything else keeps its own (the title would otherwise shrink to nothing). */
+  #lbMeta, .lb-head h2, .lb-names, .lb-chips, .lb-side .seg, .lb-desc, .lb-dls, .lb-row { flex-shrink: 0; }
+  .lb-stage { order: 1; flex: 1 1 auto; min-height: 0; margin: 10px 12px 0; }
+  .lb.more .lb-stage { flex: 0 0 auto; height: 52vh; }
+  .lb-chips { order: 2; gap: 6px; padding: 10px 12px 0; }
+  .lb-chips button { font-size: 11px; gap: 3px; }
+  .lb-chips button span { aspect-ratio: 1 / 1; border-radius: 10px; }
+  .lb-side .seg { order: 3; align-self: flex-start; margin: 10px 12px 0; }
+  .lb.no-photo .lb-side .seg { display: none; }
+  .lb-dls { order: 4; align-items: center; gap: 8px; padding: 10px 12px calc(12px + env(safe-area-inset-bottom)); }
+  .lb-dls .lb-pose { display: flex; gap: 8px; flex: 0 0 auto; }
+  .lb-pose .circle { width: 48px; height: 48px; }
+  .lb.more #lbMore { background: var(--bg2); }
+  .lb-dls .pill { height: 48px; padding: 0 12px; font-size: 14px; }
+  .lb-names, .lb-desc, .lb-row { display: none; }
+  .lb.more .lb-names { order: 5; display: grid; margin: 4px 16px 0; }
+  .lb.more .lb-desc { order: 6; display: flex; margin: 12px 12px 0; }
+  .lb.more .lb-row { order: 7; display: flex; margin: 10px 12px 0; }
+  .lb.more .lb-row:last-of-type { margin-bottom: calc(20px + env(safe-area-inset-bottom)); }
+  .lb-nav { width: 44px; height: 44px; margin-top: -22px; }
+  .lb-nav.l { left: 8px; } .lb-nav.r { right: 8px; }
+  .lb-counter { left: 12px; top: 12px; height: 28px; font-size: 12px; }
+  .lb-close { top: 8px; right: 8px; width: 44px; height: 44px; }
   .keys { display: none; }
 }
 @media (max-width: 720px) {
@@ -260,10 +276,32 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .pill.big { height: 54px; font-size: 16px; padding: 0 22px; }
   .section { padding-top: 48px; }
   .sec-head h2 { font-size: 26px; }
-  .inline-filters { display: none; }
-  .sheet-btn { display: inline-flex; margin-left: auto; }
+  /* One compact sticky bar instead of a filter sheet: the series row scrolls away under the top edge (its 48px row
+     plus the 8px padding above it), categories and angle stay. Every row scrolls sideways instead of wrapping. */
+  .filters { top: -56px; margin: 12px -16px 14px; padding: 8px 16px; gap: 8px; }
+  .series-row { flex-wrap: nowrap; height: 48px; overflow-x: auto; scrollbar-width: none; }
+  .series-row::-webkit-scrollbar, .inline-filters::-webkit-scrollbar { display: none; }
+  .series.seg { flex-wrap: nowrap; flex: 0 0 auto; }
+  .series.seg button, .series-row .chip { white-space: nowrap; }
+  .filter-row { flex-wrap: nowrap; gap: 8px; }
+  .inline-filters { flex-wrap: nowrap; min-width: 0; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+  .inline-filters .seg { flex: 0 0 auto; flex-wrap: nowrap; }
+  .inline-filters .seg.view { margin-left: 0; }
+  .inline-filters .seg button { padding: 0 12px; font-size: 14px; white-space: nowrap; }
+  .cols-btn { display: inline-flex; width: 48px; height: 48px; }
   .chip { min-height: 42px; padding: 0 14px; font-size: 14px; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 12px; }
+  /* Three columns: ID and name only. The dots go; the angle row in the sticky bar switches every card at once. */
+  .grid.c3:not(.single) { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 8px; }
+  .c3 .card { gap: 6px; }
+  .c3 .tile { border-radius: 16px; }
+  .c3 .badge.ph, .c3 .dots { display: none; }
+  .c3 .badge.new { top: 6px; left: 6px; height: 20px; padding: 0 6px; font-size: 10px; }
+  .c3 .card-foot { align-items: stretch; }
+  .c3 .card-t h3 { font-size: 12px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .c3 .card-t span { font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .c3 .missing { inset: 6px; padding: 4px; border-radius: 12px; }
+  .c3 .missing b { font-size: 11px; } .c3 .missing span { display: none; }
   .grid.single { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tile { border-radius: 22px; }
   .badge { height: 24px; padding: 0 8px; font-size: 11px; }
@@ -276,7 +314,6 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .dots { margin-left: -6px; }
 }
 .seg button:disabled { opacity: 0.4; cursor: default; }
-#sheetFilters .seg.angle { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-radius: 22px; }
 /* Photos are opaque renders: no multiply, or they darken against the tile. */
 .photo-mode .tile img, .lb.photo .lb-stage img, .lb.photo .lb-chips img { mix-blend-mode: normal; }
 /* Photos are 1:2 renders: show them as rounded prints centred on the 3:4 tile instead of letterboxing. */
@@ -303,6 +340,7 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 .lb-chips span.both { position: relative; }
 .lb-chips span.both::after { content: ''; position: absolute; right: 5px; top: 5px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 2px var(--bg); }
 .lb-dls { display: flex; gap: 10px; }
+.lb-pose { display: none; }
 .lb-dls .pill { flex: 1 1 0; min-width: 0; }
 
 @media (max-width: 1100px) { .static .nav-links { display: flex; } }

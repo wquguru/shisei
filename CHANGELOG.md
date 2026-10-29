@@ -14,6 +14,11 @@ the catalog schema.
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- Phone layout is more compact. The filter sheet and its button are gone: the angle, source and view switches sit in
+  the sticky bar, which is down from 184 px to 114 px because the series row scrolls away. The grid defaults to three
+  columns (about 11 poses per screen instead of 4.5), with a toggle back to two; the choice is kept in localStorage.
+  The lightbox goes full screen, so one set fits without scrolling: previous / next set buttons, a set counter, and
+  names, description and the secondary actions behind a details button.
 - A third image tier, `w600` (600 × 800, ~17 KB), feeds the grid on high-density screens, which used to fetch w900:
   about 40% fewer bytes per grid image. The repository grows to about 56 MB.
 - Repeat visits load faster: scripts and styles are cached for a year under a content-hash `?v=`, images for a

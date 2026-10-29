@@ -74,7 +74,7 @@ __HEAD__
     <div class="cats" role="tablist" id="cats"></div>
     <div class="filter-row">
       <div class="inline-filters" id="inlineFilters"></div>
-      <button type="button" class="pill dark small sheet-btn" id="sheetBtn" aria-haspopup="dialog"><span data-i18n="filters"></span><b id="sheetBadge"></b></button>
+      <button type="button" class="circle cols-btn" id="cols" aria-pressed="false"></button>
     </div>
   </div>
   <div id="grid"></div>
@@ -124,6 +124,11 @@ __NOSCRIPT__
       </div>
       <div class="lb-actions">
         <div class="lb-dls">
+        <div class="lb-pose">
+          <button type="button" class="circle" id="lbPrevPose" data-i18n-aria="prevPose"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></svg></button>
+          <button type="button" class="circle" id="lbNextPose" data-i18n-aria="nextPose"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14m0 0-6-6m6 6 6-6"/></svg></button>
+          <button type="button" class="circle" id="lbMore" aria-expanded="false" data-i18n-aria="details"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg></button>
+        </div>
         <a class="pill dark block" id="lbDl" download>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg><span id="lbDlText"></span></a>
         <a class="pill dark block" id="lbDl2" download hidden>
@@ -156,15 +161,6 @@ __NOSCRIPT__
 <dialog class="info dl" id="dlgDl" aria-labelledby="dlT">
   <div class="info-h"><div><h2 id="dlT" data-i18n="downloadAll"></h2><p class="dl-lic" id="dlLic"></p></div><button type="button" class="circle" data-close data-i18n-aria="close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
   <div id="dlBody"></div>
-</dialog>
-<dialog class="sheet" id="sheet" aria-labelledby="sheetT">
-  <span class="grip" aria-hidden="true"></span>
-  <div class="info-h"><h2 id="sheetT" data-i18n="filters"></h2><button type="button" class="circle" data-close data-i18n-aria="close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
-  <div id="sheetFilters"></div>
-  <div class="sheet-actions">
-    <button type="button" class="pill light big" id="sheetReset" data-i18n="reset"></button>
-    <button type="button" class="pill dark big" id="sheetApply"></button>
-  </div>
 </dialog>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 

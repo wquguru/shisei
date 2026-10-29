@@ -5,6 +5,22 @@
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
   - date: 2026-10-29
+    tag: improve
+    title: More poses per screen on phones
+    desc: Phones get three columns, about 11 poses per screen, with the angle switch in the top bar instead of a filter panel. The large view fills the screen, with download and next pose in reach.
+    link: /
+    cta: Open the gallery
+    title_zh: 手机上一屏能看更多姿势
+    desc_zh: 手机上画廊改成三列，一屏大约 11 套，机位切换放在顶部吸顶条，不用再打开筛选面板。大图全屏显示，下载和下一套按钮都在手边，不用滚动。
+    cta_zh: 打开画廊
+    title_ja: スマホで一画面に多くのポーズを
+    desc_ja: スマホではギャラリーが 3 列になり、一画面に約 11 ポーズ。アングル切り替えは上部のバーにあり、絞り込みパネルは不要になりました。拡大表示は全画面で、ダウンロードと次のポーズにすぐ手が届きます。
+    cta_ja: ギャラリーを開く
+    title_ko: 휴대폰에서 한 화면에 더 많은 포즈를
+    desc_ko: 휴대폰에서 갤러리가 3열로 바뀌어 한 화면에 약 11개 포즈가 보입니다. 앵글 전환은 상단 바에 있어 필터 패널이 필요 없습니다. 크게 보기는 전체 화면이고 다운로드와 다음 포즈 버튼이 바로 손 닿는 곳에 있습니다.
+    cta_ko: 갤러리 열기
+
+  - date: 2026-10-29
     tag: new
     title: Line art and photo side by side
     desc: Poses with photos get a Compare option in the large view and a side-by-side section on their pose page, to see how the line art becomes a body at the same angle. L cycles line art, photo and compare.

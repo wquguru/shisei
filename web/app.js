@@ -68,6 +68,8 @@
     angle: intParam('angle', 0, 4, -1),
     medium: params.get('src') === 'photo' && poses.some((p) => p.photo.some(Boolean)) ? 'photo' : 'line',
     view: params.get('view') === 'single' ? 'single' : 'pose',
+    // Phone column count (CSS ignores it above 720px): a per-reader preference, so storage, not the URL.
+    cols: store.get('cols') === '2' ? 2 : 3,
     per: {}
   };
 
@@ -210,9 +212,11 @@
   function renderFilters() {
     const groups = filterGroups();
     $('inlineFilters').innerHTML = groups.map((g) => g[1]).join('');
-    $('sheetFilters').innerHTML = groups.map((g) => '<div class="grp"><span>' + esc(g[0]) + '</span>' + g[1] + '</div>').join('');
-    const n = (S.angle >= 0) + (S.medium === 'photo') + (S.view === 'single');
-    $('sheetBadge').textContent = n ? String(n) : '';
+    const cols = $('cols');
+    cols.setAttribute('aria-label', t().cols3);
+    cols.setAttribute('aria-pressed', String(S.cols === 3));
+    cols.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">' +
+      [3, 9.75, 16.5].map((x) => '<rect x="' + x + '" y="4" width="4.5" height="7" rx="1"/><rect x="' + x + '" y="13" width="4.5" height="7" rx="1"/>').join('') + '</svg>';
   }
 
   /* grid */
@@ -279,7 +283,7 @@
     const list = pool();
     const grid = $('grid');
     const photo = S.medium === 'photo';
-    grid.className = 'grid' + (S.view === 'single' ? ' single' : '') + (photo ? ' photo-mode' : '');
+    grid.className = 'grid' + (S.view === 'single' ? ' single' : '') + (S.cols === 3 ? ' c3' : '') + (photo ? ' photo-mode' : '');
     let count = list.length;
     if (!list.length) {
       grid.className = '';
@@ -299,7 +303,6 @@
       grid.innerHTML = tiles.join('');
     }
     $('count').textContent = S.view === 'pose' ? T.countPoses(list.length, inSeries().length) : T.countImages(count);
-    $('sheetApply').textContent = T.show(list.length);
   }
 
   function renderAll() {
@@ -426,17 +429,17 @@
     if (c) c.closest('dialog').close();
   });
   document.querySelectorAll('dialog').forEach((d) => d.addEventListener('click', (e) => { if (e.target === d) d.close(); }));
-  $('sheetBtn').addEventListener('click', () => $('sheet').showModal());
-  $('sheetApply').addEventListener('click', () => $('sheet').close());
-  $('sheetReset').addEventListener('click', () => {
-    S.angle = -1; S.medium = 'line'; S.view = 'pose'; S.per = {};
-    renderFilters(); renderGrid(); syncUrl();
+  $('cols').addEventListener('click', () => {
+    S.cols = S.cols === 3 ? 2 : 3;
+    store.set('cols', String(S.cols));
+    renderFilters(); renderGrid();
   });
 
   /* lightbox */
   // medium: 'line' | 'photo' | 'compare'. Compare exists only here, not in the grid: a side-by-side pair
   // needs the room of one large image, and only the std sets with photos have anything to compare.
-  const LB = { id: null, v: 0, medium: 'line' };
+  // more: the phone lightbox keeps names, description and secondary actions folded away so one set fits one screen.
+  const LB = { id: null, v: 0, medium: 'line', more: false };
   const MEDIA = ['line', 'photo', 'compare'];
   // In compare a view counts when either side has it; the missing side shows the usual gap box.
   const lbFiles = (p, m) => (m === 'compare' ? p.line.map((f, i) => f || p.photo[i]) : files(p, m === 'photo'));
@@ -492,7 +495,10 @@
     $('lbCounter').textContent = T.views[LB.v] + ' ' + (LB.v + 1) + '/5';
     // With one view or none there is nowhere to step; a live-looking arrow that does nothing reads as broken.
     $('lbPrev').disabled = $('lbNext').disabled = arr.filter(Boolean).length < 2;
-    $('lbMeta').textContent = p.id + ' · ' + T.series[p.series] + ' · ' + catLabel(p);
+    const list = lbList();
+    $('lbMeta').textContent = p.id + ' · ' + T.series[p.series] + ' · ' + catLabel(p) + ' · ' + (list.indexOf(p) + 1) + '/' + list.length;
+    $('lb').classList.toggle('more', LB.more);
+    $('lbMore').setAttribute('aria-expanded', String(LB.more));
     $('lbTitle').textContent = nameOf(p);
     $('lbNames').innerHTML = ['cn', 'jp', 'en', 'kr'].filter((s) => s !== T.suffix)
       .map((s) => '<dt>' + NAME_LABEL[s] + '</dt><dd>' + esc(p['name_' + s]) + '</dd>').join('');
@@ -505,6 +511,7 @@
         '<span class="' + tk + (both ? ' both' : '') + '">' + (arr[i] ? '<img src="' + src(tk, 'w300', arr[i]) + '" alt="">' : '') + '</span>' + esc(T.views[i]) + '</button>';
     }).join('');
     const hasPhoto = p.photo.some(Boolean);
+    $('lb').classList.toggle('no-photo', !hasPhoto);
     $('lbMedium').setAttribute('aria-label', T.medium);
     $('lbMedium').innerHTML = MEDIA.map((k) => '<button type="button" data-lbm="' + k + '" aria-pressed="' + (m === k) + '"' +
       (k === 'line' || hasPhoto ? '' : ' disabled') + '>' + esc(T[k]) + '</button>').join('');
@@ -542,6 +549,9 @@
   $('lbPrev').addEventListener('click', () => stepAngle(-1));
   $('lbNext').addEventListener('click', () => stepAngle(1));
   $('lbClose').addEventListener('click', () => $('lb').close());
+  $('lbPrevPose').addEventListener('click', () => stepPose(-1));
+  $('lbNextPose').addEventListener('click', () => stepPose(1));
+  $('lbMore').addEventListener('click', () => { LB.more = !LB.more; renderLb(); });
   $('lbChips').addEventListener('click', (e) => {
     const b = e.target.closest('[data-lbv]');
     if (b && !b.disabled) { LB.v = +b.dataset.lbv; renderLb(); }
