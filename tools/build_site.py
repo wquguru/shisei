@@ -37,6 +37,28 @@ def strings():
     return json.loads(s.split("// BEGIN-JSON", 1)[1].split("// END-JSON", 1)[0])
 
 
+def library_stats(catalog, ver, updated):
+    """The library's numbers, computed once per build: page titles, descriptions, share cards and /stats.json all
+    read them, so no surface carries a count of its own. Suggestive poses count (they are public behind the switch,
+    D-06); only their images stay off previews."""
+    shown = [p for p in catalog if any(p["views"].values())]
+    n_views = lambda p: sum(1 for v in VIEWS if p["views"].get(v))
+    series = {}
+    for p in catalog:
+        s = series.setdefault(p["series"], {"sets": 0, "sets_total": 0, "views": 0, "sets_full": 0})
+        s["sets_total"] += 1
+        if n_views(p):
+            s["sets"] += 1
+            s["views"] += n_views(p)
+            s["sets_full"] += n_views(p) == len(VIEWS)
+    views = sum(n_views(p) for p in shown)
+    # Long-cached surfaces (search titles, share cards) round down to the hundred so they never overstate.
+    return {"version": ver, "updated": updated, "sets": len(shown), "views": views,
+            "views_round": f"{views // 100 * 100:,}+", "sets_full": sum(n_views(p) == len(VIEWS) for p in shown),
+            "sets_general": sum(p["rating"] == "general" for p in shown),
+            "photos": sum(len(p.get("photos") or {}) for p in shown), "languages": 4, "series": series}
+
+
 def git_day(path):
     try:
         out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", path], cwd=ROOT, capture_output=True, text=True)
@@ -239,12 +261,15 @@ def main() -> None:
                   photo=[(p.get("photos") or {}).get(v) for v in VIEWS])
              for p in catalog if p.get("series", "std") == "std" and p.get("rating", "general") == "general"
              and any(p["views"].values())]
-    S = strings()
-    for T in S.values():  # pose counts in titles follow the catalog
-        for k in ("metaTitle", "metaDesc", "ogLine"):
-            T[k] = fill(T[k], n=len(poses))
     ver = version()
     entries = changelog_entries({p["id"] for p in poses})
+    stats = library_stats(catalog, ver, entries[0]["date"])
+    S = strings()
+    for T in S.values():  # every count on a page comes from stats, the same numbers stats.json publishes
+        for k in ("metaTitle", "metaDesc", "ogLine"):
+            T[k] = fill(T[k], n=stats["sets"], views=f"{stats['views']:,}", views_round=stats["views_round"])
+            if re.search(r"\{\w+\}", T[k]):
+                sys.exit(f"web/i18n.js {k}: unfilled placeholder in {T[k]!r}")
 
     # Share cards first: pages point at them only when they exist.
     chrome = None if args.no_og else og_cards.find_chrome()
@@ -287,6 +312,7 @@ def main() -> None:
              "description": T["metaDesc"]},
             {"@type": "Dataset", "name": T["metaTitle"], "description": T["metaDesc"], "url": home,
              "inLanguage": HTML_LANG[loc], "version": ver, "license": site_pages.LICENSE,
+             "dateModified": stats["updated"],
              "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json",
                                "contentUrl": site.abs("catalog.json")}]}]}
         head = site.head(loc, "", T["metaTitle"], T["metaDesc"], site.og_image(loc, "home"), T["ogAlt"], ld,
@@ -313,6 +339,7 @@ def main() -> None:
         if f.is_file() and f.name not in ("index.html", "changelog.yaml"):
             shutil.copy2(f, out / f.name)
     (out / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=1) + "\n")
+    (out / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=1) + "\n")
     if args.link_images:
         (out / "images").symlink_to(ROOT / "images", target_is_directory=True)
     elif args.public:

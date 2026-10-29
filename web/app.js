@@ -154,7 +154,8 @@
     $('langName').textContent = I18N[S.lang].langName;
     // The hero counts the whole published library, so the number does not move when suggestive poses are hidden.
     const n = poses.length;
-    document.querySelector('.hero-sub').textContent = T.heroSub(n);
+    const views = poses.reduce((s, p) => s + p.line.filter(Boolean).length, 0);
+    document.querySelector('.hero-sub').textContent = T.heroSub(n, views.toLocaleString('en-US'));
     document.querySelector('[data-i18n="browse"]').textContent = T.browse(n);
     $('heroSeries').innerHTML = SERIES.map((k) => [k, poses.filter((p) => p.series === k).length]).filter((x) => x[1])
       .map(([k, c]) => '<span><i style="background:' + SERIES_TINT[k] + '"></i>' + esc(T.series[k]) + '<b>' + c + '</b></span>').join('');
