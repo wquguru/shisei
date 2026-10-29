@@ -1,0 +1,238 @@
+{
+ "source": "digi",
+ "reviewed": [
+  "P054.jpg",
+  "P072.jpg",
+  "P073.jpg",
+  "S011.jpg",
+  "S012.jpg",
+  "S017.jpg",
+  "S019.jpg",
+  "S036.jpg",
+  "S037.jpg",
+  "S039.jpg",
+  "S046.jpg",
+  "S052.jpg",
+  "S056.jpg",
+  "S064.jpg",
+  "S065.jpg",
+  "S068.jpg",
+  "U004.jpg",
+  "U007.jpg",
+  "U010.jpg",
+  "U012.jpg",
+  "U017.jpg",
+  "U026.jpg",
+  "U028.jpg",
+  "U032.jpg",
+  "U037.jpg",
+  "U038.jpg",
+  "U051.jpg",
+  "U052.jpg",
+  "U053.jpg",
+  "U068.jpg",
+  "U072.jpg",
+  "U075.jpg",
+  "U078.jpg"
+ ],
+ "sets": [
+  {
+   "set": "P054",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying on back, both legs straight up vertical, arms flat at sides"
+  },
+  {
+   "set": "P072",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Upright kneeling, both arms raised overhead; torso nearly straight, back arch barely visible"
+  },
+  {
+   "set": "P073",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Standing on tiptoe, arms spread wide; torso twist is slight or absent in diag view"
+  },
+  {
+   "set": "S011",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, both arms overhead with hands joined, legs crossed, slight hip/waist twist"
+  },
+  {
+   "set": "S012",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing on one leg, other leg raised high to the side and held by the hand (vertical split)"
+  },
+  {
+   "set": "S017",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Upright kneeling on heels, chest lifted, back slightly arched, arms down at sides"
+  },
+  {
+   "set": "S019",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Seated on floor with knees raised and feet apart, hands resting on knees; not an M-sit/wariza with legs folded to the sides"
+  },
+  {
+   "set": "S036",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling with knees wide apart, hips low, both hands on the floor in front"
+  },
+  {
+   "set": "S037",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling with knees wide, hips low, both hands behind/in hair at head"
+  },
+  {
+   "set": "S039",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Upright kneeling, one arm raised overhead, other hand at thigh, slight torso turn"
+  },
+  {
+   "set": "S046",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying on side, head propped on hand, waist curved, upper knee bent forward"
+  },
+  {
+   "set": "S052",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying on side/back with one arm extended overhead, hips turned, upper knee bent over lower leg"
+  },
+  {
+   "set": "S056",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Supine with both arms raised overhead and legs together; the named back arch is not visible (only front and above views)"
+  },
+  {
+   "set": "S064",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying on back, hands behind head, one knee raised and the other leg dropped open and folded"
+  },
+  {
+   "set": "S065",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Reclining on one side propped on arm, one knee raised, other leg extended"
+  },
+  {
+   "set": "S068",
+   "match": "no",
+   "category_ok": true,
+   "actual": "Lying on back with both legs straight up vertical (leg raise); legs are not folded over the head with toes down (plow)"
+  },
+  {
+   "set": "U004",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands making peace signs beside/under the chin, elbows in front"
+  },
+  {
+   "set": "U007",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both arms raised, hands above head with index fingers up like rabbit ears"
+  },
+  {
+   "set": "U010",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Index finger raised to lips, other arm across waist supporting elbow"
+  },
+  {
+   "set": "U012",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand raised palm up at the mouth in a blowing-kiss gesture, other arm down"
+  },
+  {
+   "set": "U017",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Arms crossed over chest, hands on opposite shoulders in a self-hug"
+  },
+  {
+   "set": "U026",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Palms pressed together at the chest, forearms together; no clear forward lean"
+  },
+  {
+   "set": "U028",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Arms folded across under the chest, elbows tucked, torso/head slightly turned"
+  },
+  {
+   "set": "U032",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Leaning forward on a table with both forearms resting on it, chest forward"
+  },
+  {
+   "set": "U037",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands pressed against the ribs/lower chest, elbows out"
+  },
+  {
+   "set": "U038",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Hands clasped behind the back, chest pushed out"
+  },
+  {
+   "set": "U051",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands cupped at the sides of the chest"
+  },
+  {
+   "set": "U052",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands on the chest with fingers spread"
+  },
+  {
+   "set": "U053",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Arms crossed over the chest with hands resting on the upper arms rather than flat on the chest"
+  },
+  {
+   "set": "U068",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling with deep back arch, one hand reaching back to the heel, other arm raised"
+  },
+  {
+   "set": "U072",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Hands crossed and pressed to the chest, chest forward"
+  },
+  {
+   "set": "U075",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Supine, both arms stretched overhead, back arched"
+  },
+  {
+   "set": "U078",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "One forearm across the waist with hand under the elbow, other hand raised near the shoulder/face rather than over the chest"
+  }
+ ]
+}

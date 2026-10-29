@@ -1,0 +1,150 @@
+{
+ "source": "digi",
+ "reviewed": [
+  "P040__below.jpg",
+  "P040__front-diag-side.jpg",
+  "P043__front-below.jpg",
+  "P044__below.jpg",
+  "P044__front-diag-side.jpg",
+  "P045__above-below.jpg",
+  "P045__front-diag-side.jpg",
+  "P046__above-below.jpg",
+  "P046__front-diag-side.jpg",
+  "P047__above-below.jpg",
+  "P047__front-diag-side.jpg",
+  "P048__above-below.jpg",
+  "P048__front-diag-side.jpg",
+  "P049__front-diag-side.jpg",
+  "P050__below.jpg",
+  "P050__front-diag-above.jpg",
+  "P051__front-diag-above.jpg",
+  "P052__below.jpg",
+  "P052__front-diag-side.jpg",
+  "P053__below.jpg",
+  "P053__front-diag-above.jpg",
+  "P054__above-below.jpg",
+  "P054__front-diag-side.jpg",
+  "P072__front-diag-below.jpg",
+  "P073__above-below.jpg",
+  "P073__front-diag-side.jpg",
+  "S011__above-below.jpg",
+  "S011__front-diag-side.jpg",
+  "S012__above-below.jpg",
+  "S012__front-diag-side.jpg",
+  "S017__above-below.jpg",
+  "S017__front-diag-side.jpg",
+  "S019__above-below.jpg",
+  "S019__front-diag-side.jpg",
+  "S036__below.jpg",
+  "S036__front-diag-side.jpg",
+  "S037__above.jpg",
+  "S037__front-diag-side.jpg",
+  "S039__below.jpg",
+  "S039__front-diag-side.jpg",
+  "S046__front-diag-below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P040",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Reads as the front view at eye level, practically the same image as front; no below perspective"
+  },
+  {
+   "set": "P049",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Arms rise diagonally off the floor and the head is hidden or doubled behind them; not a readable lying-on-back side view"
+  },
+  {
+   "set": "P050",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Practically identical to the front panel; no below perspective"
+  },
+  {
+   "set": "P051",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Chest and breasts drawn below the head of a face-down figure and legs overlap oddly; torso/head order unreadable from above"
+  },
+  {
+   "set": "P052",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Practically identical to the front panel, eye-level propped pose"
+  },
+  {
+   "set": "P052",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "Shows a seated figure with both knees raised together, not lying on back with one knee raised"
+  },
+  {
+   "set": "P052",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Shows an upright seated figure leaning on one hand, not lying on back"
+  },
+  {
+   "set": "P053",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Practically identical to the front panel; no below perspective"
+  },
+  {
+   "set": "P072",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Nearly the same image as diag, eye-level; no below perspective"
+  },
+  {
+   "set": "P073",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Eye-level front view of a plain arms-spread stance with no twist; not an above view and near-duplicate of diag"
+  },
+  {
+   "set": "S011",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Eye-level front view, practically the same as front; no above perspective"
+  },
+  {
+   "set": "S012",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Eye-level view practically the same as front; no above perspective"
+  },
+  {
+   "set": "S017",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Eye-level front view, practically the same as front; no above perspective"
+  },
+  {
+   "set": "S019",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Eye-level front view of a wide squat with hands on knees; not an above view and pose differs from the other angles"
+  },
+  {
+   "set": "S037",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Eye-level front view, practically the same as front; no above perspective"
+  },
+  {
+   "set": "S039",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Eye-level front view, practically the same as front; no below perspective"
+  },
+  {
+   "set": "S046",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Knee and ankle joints drawn as heavy dark blobs at the feet, legs read fused; hardly differs from front"
+  }
+ ]
+}

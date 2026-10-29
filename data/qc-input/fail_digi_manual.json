@@ -1,0 +1,24 @@
+{
+ "source": "digi",
+ "reviewed": [],
+ "fails": [
+  {
+   "set": "P038",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "second foot is only a stub behind the hanging hand (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "P038",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "a foot sole sticks out on top of the thigh beside the hand (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "P073",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "extra hand-like blob at the chest edge besides the hand at the neck (limb-count check, pulled by a person as uncertain)"
+  }
+ ]
+}

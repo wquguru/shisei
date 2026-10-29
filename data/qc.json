@@ -8,90 +8,20 @@
    "category_ok": true,
    "actual": "Standing relaxed, arms at sides; head not clearly turned back over shoulder"
   },
-  "P019": {
-   "match": "no",
-   "category_ok": true,
-   "actual": "Standing with arms stretched forward/out in front, not overhead"
-  },
-  "P020": {
-   "match": "no",
-   "category_ok": true,
-   "actual": "Standing with both palms raised in front of chest, no hand behind head"
-  },
   "P021": {
    "match": "partial",
    "category_ok": true,
    "actual": "Standing with one arm raised high waving, other arm at side; no hand at neck/thigh"
-  },
-  "P022": {
-   "match": "no",
-   "category_ok": true,
-   "actual": "Standing with hands clasped at chin in front, not arms behind"
   },
   "P024": {
    "match": "partial",
    "category_ok": true,
    "actual": "Standing, one hand on head and other on hip, legs nearly together with slight leg crossing; leg not clearly lifted behind"
   },
-  "P025": {
-   "match": "no",
-   "category_ok": true,
-   "actual": "Standing back view, arms at sides, narrow stance, no hands on hips"
-  },
-  "P026": {
-   "match": "no",
-   "category_ok": true,
-   "actual": "Standing with arms crossed over chest, no raised arm or hip push"
-  },
-  "P027": {
-   "match": "no",
-   "category_ok": true,
-   "actual": "Standing with both arms straight overhead, not hands at nape"
-  },
-  "P029": {
-   "match": "no",
-   "category_ok": true,
-   "actual": "Standing bowing forward with hands clasped behind back; no wind-blown hair"
-  },
-  "P030": {
-   "match": "no",
-   "category_ok": true,
-   "actual": "Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
-  },
-  "P031": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Walking stride, not kneeling"
-  },
-  "P032": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Walking, arms swinging, not kneeling and no hands behind head"
-  },
-  "P033": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Running/leaping pose in mid-air, not half-kneeling"
-  },
-  "P034": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Standing on one leg with other knee raised, arm out; not kneeling"
-  },
-  "P035": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Standing high side kick, one leg raised; not kneeling"
-  },
-  "P036": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Standing in wide lunge bent forward with hands on knees; not kneeling"
-  },
   "P037": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Standing deep forward fold touching toes; not kneeling"
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Half-kneeling with hand on knee; head only slightly raised, looking up not clearly shown."
   },
   "P038": {
    "match": "no",
@@ -103,45 +33,25 @@
    "category_ok": true,
    "actual": "Kneeling upright sitting on heels, hands on thighs; back not notably arched, hands not on hips"
   },
-  "P040": {
-   "match": "partial",
-   "category_ok": true,
-   "actual": "Kneeling lunge on one knee, arms hanging at sides; no raised arm"
-  },
   "P042": {
    "match": "partial",
    "category_ok": false,
    "actual": "Kneeling on all fours with hands on floor in front; more crawling than W-sit"
   },
   "P043": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Seated on floor, hands behind head; front view knees together flared thighs (W-like), below view shows one knee up, legs not clearly W-sit."
   },
   "P044": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Kneeling on one knee tying shoe; not W-sit"
-  },
-  "P045": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Deep squat with arms stretched forward; not side sit"
-  },
-  "P046": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
-  },
-  "P047": {
-   "match": "no",
-   "category_ok": false,
-   "actual": "Cross-legged seated, hands on knees; no arm stretched up"
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Seated on floor leaning back on hands behind; knees up with legs forward in diag/side, not a clear W-sit."
   },
   "P048": {
-   "match": "no",
+   "match": "partial",
    "category_ok": false,
-   "actual": "Sitting hugging knees to chest, head down; no hand at neck"
+   "actual": "Seated cross-legged (criss-cross) with one hand at neck/chin; not a W-sit or side sit."
   },
   "P049": {
    "match": "partial",
@@ -176,12 +86,7 @@
   "P073": {
    "match": "partial",
    "category_ok": true,
-   "actual": "Standing facing front with arms spread wide; no visible torso twist"
-  },
-  "S011": {
-   "match": "partial",
-   "category_ok": true,
-   "actual": "standing with both arms stretched overhead; waist twist barely visible, one leg bent back in diag"
+   "actual": "Standing on tiptoe, arms spread wide; torso twist is slight or absent in diag view"
   },
   "S012": {
    "match": "partial",
@@ -218,11 +123,6 @@
    "category_ok": true,
    "actual": "side view lying with one knee raised; front and diag read as seated/leaning with knee lifted, not clearly dropped open"
   },
-  "U004": {
-   "match": "partial",
-   "category_ok": true,
-   "actual": "Both hands making peace signs beside the head/cheeks, not under the chin"
-  },
   "U010": {
    "match": "partial",
    "category_ok": true,
@@ -233,10 +133,15 @@
    "category_ok": true,
    "actual": "One arm extended forward with open palm; no hand at mouth for blowing kiss"
   },
-  "U037": {
+  "U026": {
    "match": "partial",
    "category_ok": true,
-   "actual": "Both open palms held up at chest height, not pressing in at the ribs"
+   "actual": "Palms pressed together at the chest, forearms together; no clear forward lean"
+  },
+  "U053": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Arms crossed over the chest with hands resting on the upper arms rather than flat on the chest"
   },
   "U068": {
    "match": "partial",
@@ -247,6 +152,11 @@
    "match": "partial",
    "category_ok": true,
    "actual": "Arms raised overhead with arched torso; front view looks upright rather than supine"
+  },
+  "U078": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "One forearm across the waist with hand under the elbow, other hand raised near the shoulder/face rather than over the chest"
   },
   "D003": {
    "match": "partial",
@@ -303,6 +213,51 @@
    "category_ok": true,
    "actual": "Man seated with woman seated in front facing away between his knees; she sits upright, not leaning back"
   }
+ },
+ "sources": {
+  "P019": "digi",
+  "P020": "digi",
+  "P022": "digi",
+  "P025": "digi",
+  "P026": "digi",
+  "P027": "digi",
+  "P029": "digi",
+  "P030": "digi",
+  "P031": "digi",
+  "P032": "digi",
+  "P033": "digi",
+  "P034": "digi",
+  "P035": "digi",
+  "P036": "digi",
+  "P037": "digi",
+  "P040": "digi",
+  "P043": "digi",
+  "P044": "digi",
+  "P045": "digi",
+  "P046": "digi",
+  "P047": "digi",
+  "P048": "digi",
+  "P054": "digi",
+  "P073": "digi",
+  "S011": "digi",
+  "S017": "digi",
+  "S036": "digi",
+  "S037": "digi",
+  "S039": "digi",
+  "S052": "digi",
+  "S065": "digi",
+  "U004": "digi",
+  "U007": "digi",
+  "U017": "digi",
+  "U026": "digi",
+  "U028": "digi",
+  "U037": "digi",
+  "U038": "digi",
+  "U051": "digi",
+  "U052": "digi",
+  "U053": "digi",
+  "U072": "digi",
+  "U078": "digi"
  },
  "views": {
   "P001": {
@@ -719,55 +674,47 @@
   "P019": {
    "front": {
     "file": "std_P019_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P019_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+    "status": "pass"
    },
    "side": {
     "file": "std_P019_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+    "status": "pass"
    },
    "above": {
     "file": "std_P019_above.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+    "reason": "eye-level, practically identical to front, not an above view"
    },
    "below": {
     "file": "std_P019_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+    "reason": "eye-level 3/4 view, not clearly from below"
    }
   },
   "P020": {
    "front": {
     "file": "std_P020_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P020_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+    "status": "pass"
    },
    "side": {
     "file": "std_P020_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+    "status": "pass"
    },
    "above": {
     "file": "std_P020_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+    "status": "pass"
    },
    "below": {
     "file": "std_P020_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+    "status": "pass"
    }
   },
   "P021": {
@@ -795,28 +742,25 @@
   "P022": {
    "front": {
     "file": "std_P022_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P022_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+    "status": "pass"
    },
    "side": {
     "file": "std_P022_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+    "status": "pass"
    },
    "above": {
     "file": "std_P022_above.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+    "reason": "eye-level front view, not an above view; arms differ from front"
    },
    "below": {
     "file": "std_P022_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+    "reason": "eye-level 3/4 view, not from below"
    }
   },
   "P024": {
@@ -844,325 +788,279 @@
   "P025": {
    "front": {
     "file": "std_P025_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P025_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+    "status": "pass"
    },
    "side": {
     "file": "std_P025_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+    "status": "pass"
    },
    "above": {
     "file": "std_P025_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+    "status": "pass"
    },
    "below": {
     "file": "std_P025_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+    "reason": "eye-level 3/4 view, not from below"
    }
   },
   "P026": {
    "front": {
     "file": "std_P026_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P026_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+    "status": "pass"
    },
    "side": {
     "file": "std_P026_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+    "status": "pass"
    },
    "above": {
     "file": "std_P026_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+    "status": "pass"
    },
    "below": {
     "file": "std_P026_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+    "status": "pass"
    }
   },
   "P027": {
    "front": {
     "file": "std_P027_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P027_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+    "status": "pass"
    },
    "side": {
     "file": "std_P027_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+    "status": "pass"
    },
    "above": {
     "file": "std_P027_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+    "status": "pass"
    },
    "below": {
     "file": "std_P027_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+    "status": "pass"
    }
   },
   "P029": {
    "front": {
     "file": "std_P029_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P029_diag.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+    "reason": "practically the same image as the front panel"
    },
    "side": {
     "file": "std_P029_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+    "status": "pass"
    },
    "above": {
     "file": "std_P029_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+    "status": "pass"
    },
    "below": {
     "file": "std_P029_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+    "status": "pass"
    }
   },
   "P030": {
    "front": {
     "file": "std_P030_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P030_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+    "status": "pass"
    },
    "side": {
     "file": "std_P030_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+    "status": "pass"
    },
    "above": {
     "file": "std_P030_above.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+    "reason": "eye-level, practically identical to front, not an above view"
    },
    "below": {
     "file": "std_P030_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+    "reason": "eye-level 3/4 view with doubled knee circles, not from below"
    }
   },
   "P031": {
    "front": {
     "file": "std_P031_front.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Walking stride, not kneeling"
+    "reason": "hands hang away from thighs, pose says hands on thighs"
    },
    "diag": {
     "file": "std_P031_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Walking stride, not kneeling"
+    "status": "pass"
    },
    "side": {
     "file": "std_P031_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Walking stride, not kneeling"
+    "status": "pass"
    },
    "above": {
     "file": "std_P031_above.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Walking stride, not kneeling"
+    "reason": "eye-level front-like view, not above; hands not on thighs"
    },
    "below": {
     "file": "std_P031_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Walking stride, not kneeling"
+    "reason": "eye-level 3/4 view, near duplicate of diag, not from below"
    }
   },
   "P032": {
    "front": {
     "file": "std_P032_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P032_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+    "status": "pass"
    },
    "side": {
     "file": "std_P032_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+    "status": "pass"
    },
    "above": {
     "file": "std_P032_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+    "status": "pass"
    },
    "below": {
     "file": "std_P032_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+    "reason": "eye-level 3/4 view, near duplicate of diag, not from below"
    }
   },
   "P033": {
    "front": {
     "file": "std_P033_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P033_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+    "status": "pass"
    },
    "side": {
     "file": "std_P033_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+    "status": "pass"
    },
    "above": {
     "file": "std_P033_above.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+    "reason": "back foot reads as a blob at the hip; limb connection unclear"
    },
    "below": {
     "file": "std_P033_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+    "reason": "eye-level view, near duplicate of diag, not from below"
    }
   },
   "P034": {
    "front": {
     "file": "std_P034_front.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+    "reason": "pure profile view, not a front view; small dot-like marks on the head"
    },
    "diag": {
     "file": "std_P034_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+    "status": "pass"
    },
    "side": {
-    "file": "std_P034_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+    "status": "missing"
    },
    "above": {
-    "file": "std_P034_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+    "status": "missing"
    },
    "below": {
     "file": "std_P034_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+    "reason": "near duplicate of diag, not clearly from below"
    }
   },
   "P035": {
    "front": {
     "file": "std_P035_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P035_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+    "status": "pass"
    },
    "side": {
     "file": "std_P035_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+    "status": "pass"
    },
    "above": {
     "file": "std_P035_above.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+    "reason": "eye-level, practically identical to front, not an above view"
    },
    "below": {
     "file": "std_P035_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+    "reason": "eye-level 3/4 view, not clearly from below"
    }
   },
   "P036": {
    "front": {
     "file": "std_P036_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P036_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+    "status": "pass"
    },
    "side": {
     "file": "std_P036_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+    "status": "pass"
    },
    "above": {
     "file": "std_P036_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+    "status": "pass"
    },
    "below": {
     "file": "std_P036_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+    "reason": "eye-level 3/4 view, near duplicate of diag, not from below"
    }
   },
   "P037": {
    "front": {
     "file": "std_P037_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P037_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+    "status": "pass"
    },
    "side": {
     "file": "std_P037_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+    "status": "pass"
    },
    "above": {
     "file": "std_P037_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+    "status": "pass"
    },
    "below": {
     "file": "std_P037_below.webp",
     "status": "structure",
-    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+    "reason": "eye-level, practically identical to front, not from below"
    }
   },
   "P038": {
@@ -1222,22 +1120,19 @@
    },
    "diag": {
     "file": "std_P040_diag.webp",
-    "status": "structure",
-    "reason": "arms end at wrist circles with no hands (missing hands)"
+    "status": "pass"
    },
    "side": {
     "file": "std_P040_side.webp",
-    "status": "structure",
-    "reason": "arms end at wrist circles with no hands (missing hands)"
+    "status": "pass"
    },
    "above": {
-    "file": "std_P040_above.webp",
-    "status": "pass"
+    "status": "missing"
    },
    "below": {
     "file": "std_P040_below.webp",
     "status": "structure",
-    "reason": "arms end at wrist circles with no hands (missing hands)"
+    "reason": "Reads as the front view at eye level, practically the same image as front; no below perspective"
    }
   },
   "P041": {
@@ -1289,163 +1184,129 @@
   "P043": {
    "front": {
     "file": "std_P043_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+    "status": "pass"
    },
    "diag": {
-    "file": "std_P043_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+    "status": "missing"
    },
    "side": {
-    "file": "std_P043_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+    "status": "missing"
    },
    "above": {
-    "file": "std_P043_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+    "status": "missing"
    },
    "below": {
     "file": "std_P043_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+    "status": "pass"
    }
   },
   "P044": {
    "front": {
     "file": "std_P044_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P044_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+    "status": "pass"
    },
    "side": {
     "file": "std_P044_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+    "status": "pass"
    },
    "above": {
-    "file": "std_P044_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+    "status": "missing"
    },
    "below": {
     "file": "std_P044_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+    "status": "pass"
    }
   },
   "P045": {
    "front": {
     "file": "std_P045_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P045_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+    "status": "pass"
    },
    "side": {
     "file": "std_P045_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+    "status": "pass"
    },
    "above": {
     "file": "std_P045_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+    "status": "pass"
    },
    "below": {
     "file": "std_P045_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+    "status": "pass"
    }
   },
   "P046": {
    "front": {
     "file": "std_P046_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P046_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+    "status": "pass"
    },
    "side": {
     "file": "std_P046_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+    "status": "pass"
    },
    "above": {
     "file": "std_P046_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+    "status": "pass"
    },
    "below": {
     "file": "std_P046_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+    "status": "pass"
    }
   },
   "P047": {
    "front": {
     "file": "std_P047_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P047_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+    "status": "pass"
    },
    "side": {
     "file": "std_P047_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+    "status": "pass"
    },
    "above": {
     "file": "std_P047_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+    "status": "pass"
    },
    "below": {
     "file": "std_P047_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+    "status": "pass"
    }
   },
   "P048": {
    "front": {
     "file": "std_P048_front.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P048_diag.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+    "status": "pass"
    },
    "side": {
     "file": "std_P048_side.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+    "status": "pass"
    },
    "above": {
     "file": "std_P048_above.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+    "status": "pass"
    },
    "below": {
     "file": "std_P048_below.webp",
-    "status": "structure",
-    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+    "status": "pass"
    }
   },
   "P049": {
@@ -1572,18 +1433,15 @@
   "P054": {
    "front": {
     "file": "std_P054_front.webp",
-    "status": "line",
-    "reason": "floor line / ground scribbles and texture"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P054_diag.webp",
-    "status": "line",
-    "reason": "dots on breast/chest resembling nipple marks"
+    "status": "pass"
    },
    "side": {
     "file": "std_P054_side.webp",
-    "status": "line",
-    "reason": "floor line / ground scribbles and texture"
+    "status": "pass"
    },
    "above": {
     "file": "std_P054_above.webp",
@@ -1591,8 +1449,7 @@
    },
    "below": {
     "file": "std_P054_below.webp",
-    "status": "line",
-    "reason": "floor line / ground scribbles and texture"
+    "status": "pass"
    }
   },
   "P055": {
@@ -2005,8 +1862,7 @@
   "P073": {
    "front": {
     "file": "std_P073_front.webp",
-    "status": "line",
-    "reason": "circle on breast reads as nipple"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P073_diag.webp",
@@ -2014,16 +1870,17 @@
    },
    "side": {
     "file": "std_P073_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "extra hand-like blob at the chest edge besides the hand at the neck (limb-count check, pulled by a person as uncertain)"
    },
    "above": {
     "file": "std_P073_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "Eye-level front view of a plain arms-spread stance with no twist; not an above view and near-duplicate of diag"
    },
    "below": {
     "file": "std_P073_below.webp",
-    "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    }
   },
   "P074": {
@@ -2299,22 +2156,20 @@
   "S011": {
    "front": {
     "file": "sexy_S011_front.webp",
-    "status": "structure",
-    "reason": "hands and feet missing"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S011_diag.webp",
-    "status": "structure",
-    "reason": "hands missing, grey fill on arm, odd leg"
+    "status": "pass"
    },
    "side": {
     "file": "sexy_S011_side.webp",
-    "status": "structure",
-    "reason": "hands missing"
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S011_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "Eye-level front view, practically the same as front; no above perspective"
    },
    "below": {
     "file": "sexy_S011_below.webp",
@@ -2433,7 +2288,8 @@
   },
   "S017": {
    "front": {
-    "status": "missing"
+    "file": "sexy_S017_front.webp",
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S017_diag.webp",
@@ -2441,15 +2297,16 @@
    },
    "side": {
     "file": "sexy_S017_side.webp",
-    "status": "structure",
-    "reason": "practically identical to diag panel"
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S017_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "Eye-level front view, practically the same as front; no above perspective"
    },
    "below": {
-    "status": "missing"
+    "file": "sexy_S017_below.webp",
+    "status": "pass"
    }
   },
   "S018": {
@@ -2856,7 +2713,8 @@
   },
   "S036": {
    "front": {
-    "status": "missing"
+    "file": "sexy_S036_front.webp",
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S036_diag.webp",
@@ -2864,27 +2722,24 @@
    },
    "side": {
     "file": "sexy_S036_side.webp",
-    "status": "structure",
-    "reason": "practically identical to the diag panel"
-   },
-   "above": {
-    "file": "sexy_S036_above.webp",
     "status": "pass"
    },
-   "below": {
+   "above": {
     "status": "missing"
+   },
+   "below": {
+    "file": "sexy_S036_below.webp",
+    "status": "pass"
    }
   },
   "S037": {
    "front": {
     "file": "sexy_S037_front.webp",
-    "status": "line",
-    "reason": "hair strands drawn at top of head by hands"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S037_diag.webp",
-    "status": "line",
-    "reason": "hair strands drawn at top of head by hands"
+    "status": "pass"
    },
    "side": {
     "file": "sexy_S037_side.webp",
@@ -2892,12 +2747,11 @@
    },
    "above": {
     "file": "sexy_S037_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "Eye-level front view, practically the same as front; no above perspective"
    },
    "below": {
-    "file": "sexy_S037_below.webp",
-    "status": "line",
-    "reason": "hair strands drawn at top of head by hands"
+    "status": "missing"
    }
   },
   "S038": {
@@ -2925,28 +2779,23 @@
   "S039": {
    "front": {
     "file": "sexy_S039_front.webp",
-    "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S039_diag.webp",
-    "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "side": {
     "file": "sexy_S039_side.webp",
-    "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "above": {
-    "file": "sexy_S039_above.webp",
-    "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "status": "missing"
    },
    "below": {
     "file": "sexy_S039_below.webp",
     "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "reason": "Eye-level front view, practically the same as front; no below perspective"
    }
   },
   "S040": {
@@ -3225,26 +3074,21 @@
   "S052": {
    "front": {
     "file": "sexy_S052_front.webp",
-    "status": "line",
-    "reason": "several small dots/circles on torso and beside breast"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S052_diag.webp",
     "status": "pass"
    },
    "side": {
-    "file": "sexy_S052_side.webp",
-    "status": "structure",
-    "reason": "feet fused into scissor-like shape, hand malformed"
+    "status": "missing"
    },
    "above": {
-    "file": "sexy_S052_above.webp",
-    "status": "pass"
+    "status": "missing"
    },
    "below": {
     "file": "sexy_S052_below.webp",
-    "status": "structure",
-    "reason": "three arms, two from the left shoulder (limb-count check, confirmed by a person)"
+    "status": "pass"
    }
   },
   "S053": {
@@ -3525,8 +3369,7 @@
   "S065": {
    "front": {
     "file": "sexy_S065_front.webp",
-    "status": "structure",
-    "reason": "foot cut by right frame edge"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S065_diag.webp",
@@ -3534,13 +3377,10 @@
    },
    "side": {
     "file": "sexy_S065_side.webp",
-    "status": "structure",
-    "reason": "foot cut by right frame edge"
+    "status": "pass"
    },
    "above": {
-    "file": "sexy_S065_above.webp",
-    "status": "structure",
-    "reason": "other leg/foot cut by right frame edge, extra blob"
+    "status": "missing"
    },
    "below": {
     "file": "sexy_S065_below.webp",
@@ -3965,7 +3805,8 @@
     "status": "pass"
    },
    "above": {
-    "status": "missing"
+    "file": "upper_U004_above.webp",
+    "status": "pass"
    },
    "below": {
     "file": "upper_U004_below.webp",
@@ -4019,28 +3860,23 @@
   "U007": {
    "front": {
     "file": "upper_U007_front.webp",
-    "status": "line",
-    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+    "status": "pass"
    },
    "diag": {
     "file": "upper_U007_diag.webp",
-    "status": "line",
-    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+    "status": "pass"
    },
    "side": {
     "file": "upper_U007_side.webp",
-    "status": "line",
-    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+    "status": "structure",
+    "reason": "head hidden and fused with the crossed arms, limbs merge; rabbit-ears pose unreadable"
    },
    "above": {
     "file": "upper_U007_above.webp",
-    "status": "line",
-    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+    "status": "pass"
    },
    "below": {
-    "file": "upper_U007_below.webp",
-    "status": "line",
-    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+    "status": "missing"
    }
   },
   "U008": {
@@ -4254,18 +4090,15 @@
    },
    "diag": {
     "file": "upper_U017_diag.webp",
-    "status": "line",
-    "reason": "small circle on breast reads as nipple"
+    "status": "pass"
    },
    "side": {
     "file": "upper_U017_side.webp",
-    "status": "line",
-    "reason": "nipple bump on side-view breast outline"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U017_above.webp",
-    "status": "structure",
-    "reason": "eye-level frontal view, not an above camera angle"
+    "status": "pass"
    },
    "below": {
     "file": "upper_U017_below.webp",
@@ -4456,7 +4289,8 @@
   },
   "U026": {
    "front": {
-    "status": "missing"
+    "file": "upper_U026_front.webp",
+    "status": "pass"
    },
    "diag": {
     "file": "upper_U026_diag.webp",
@@ -4464,14 +4298,15 @@
    },
    "side": {
     "file": "upper_U026_side.webp",
-    "status": "structure",
-    "reason": "practically same image as diag"
+    "status": "pass"
    },
    "above": {
-    "status": "missing"
+    "file": "upper_U026_above.webp",
+    "status": "pass"
    },
    "below": {
-    "status": "missing"
+    "file": "upper_U026_below.webp",
+    "status": "pass"
    }
   },
   "U027": {
@@ -4498,22 +4333,24 @@
   },
   "U028": {
    "front": {
-    "status": "missing"
+    "file": "upper_U028_front.webp",
+    "status": "pass"
    },
    "diag": {
-    "status": "missing"
+    "file": "upper_U028_diag.webp",
+    "status": "pass"
    },
    "side": {
     "file": "upper_U028_side.webp",
-    "status": "structure",
-    "reason": "hand is a flat wedge blob"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U028_above.webp",
     "status": "pass"
    },
    "below": {
-    "status": "missing"
+    "file": "upper_U028_below.webp",
+    "status": "pass"
    }
   },
   "U029": {
@@ -4716,15 +4553,18 @@
     "status": "pass"
    },
    "below": {
-    "status": "missing"
+    "file": "upper_U037_below.webp",
+    "status": "pass"
    }
   },
   "U038": {
    "front": {
-    "status": "missing"
+    "file": "upper_U038_front.webp",
+    "status": "pass"
    },
    "diag": {
-    "status": "missing"
+    "file": "upper_U038_diag.webp",
+    "status": "pass"
    },
    "side": {
     "file": "upper_U038_side.webp",
@@ -5006,19 +4846,24 @@
   },
   "U051": {
    "front": {
-    "status": "missing"
+    "file": "upper_U051_front.webp",
+    "status": "pass"
    },
    "diag": {
-    "status": "missing"
+    "file": "upper_U051_diag.webp",
+    "status": "pass"
    },
    "side": {
-    "status": "missing"
+    "file": "upper_U051_side.webp",
+    "status": "pass"
    },
    "above": {
-    "status": "missing"
+    "file": "upper_U051_above.webp",
+    "status": "pass"
    },
    "below": {
-    "status": "missing"
+    "file": "upper_U051_below.webp",
+    "status": "pass"
    }
   },
   "U052": {
@@ -5027,24 +4872,26 @@
     "status": "pass"
    },
    "diag": {
-    "status": "missing"
+    "file": "upper_U052_diag.webp",
+    "status": "pass"
    },
    "side": {
     "file": "upper_U052_side.webp",
     "status": "pass"
    },
    "above": {
-    "status": "missing"
+    "file": "upper_U052_above.webp",
+    "status": "pass"
    },
    "below": {
     "file": "upper_U052_below.webp",
-    "status": "structure",
-    "reason": "practically identical to the front panel"
+    "status": "pass"
    }
   },
   "U053": {
    "front": {
-    "status": "missing"
+    "file": "upper_U053_front.webp",
+    "status": "pass"
    },
    "diag": {
     "file": "upper_U053_diag.webp",
@@ -5052,8 +4899,7 @@
    },
    "side": {
     "file": "upper_U053_side.webp",
-    "status": "structure",
-    "reason": "practically the same image as diag"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U053_above.webp",
@@ -5061,8 +4907,7 @@
    },
    "below": {
     "file": "upper_U053_below.webp",
-    "status": "structure",
-    "reason": "head/neck detached, one arm ends without a hand, pose unreadable"
+    "status": "pass"
    }
   },
   "U054": {
@@ -5464,19 +5309,24 @@
   },
   "U072": {
    "front": {
-    "status": "missing"
+    "file": "upper_U072_front.webp",
+    "status": "pass"
    },
    "diag": {
-    "status": "missing"
+    "file": "upper_U072_diag.webp",
+    "status": "pass"
    },
    "side": {
-    "status": "missing"
+    "file": "upper_U072_side.webp",
+    "status": "pass"
    },
    "above": {
-    "status": "missing"
+    "file": "upper_U072_above.webp",
+    "status": "pass"
    },
    "below": {
-    "status": "missing"
+    "file": "upper_U072_below.webp",
+    "status": "pass"
    }
   },
   "U073": {
@@ -5593,13 +5443,16 @@
   },
   "U078": {
    "front": {
-    "status": "missing"
+    "file": "upper_U078_front.webp",
+    "status": "pass"
    },
    "diag": {
-    "status": "missing"
+    "file": "upper_U078_diag.webp",
+    "status": "pass"
    },
    "side": {
-    "status": "missing"
+    "file": "upper_U078_side.webp",
+    "status": "pass"
    },
    "above": {
     "file": "upper_U078_above.webp",
@@ -7314,41 +7167,50 @@
   "P019": {
    "front": {
     "file": "std_P019_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "diag": {
     "file": "std_P019_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "side": {
     "file": "std_P019_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "above": {
     "file": "std_P019_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "below": {
     "file": "std_P019_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    }
   },
   "P020": {
    "front": {
     "file": "std_P020_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "diag": {
     "file": "std_P020_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "side": {
     "file": "std_P020_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "above": {
     "file": "std_P020_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "below": {
     "file": "std_P020_below.webp",
@@ -7381,23 +7243,28 @@
   "P022": {
    "front": {
     "file": "std_P022_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "diag": {
     "file": "std_P022_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "side": {
     "file": "std_P022_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "above": {
     "file": "std_P022_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    },
    "below": {
     "file": "std_P022_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
    }
   },
   "P050": {

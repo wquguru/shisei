@@ -1,0 +1,240 @@
+{
+ "source": "digi",
+ "reviewed": [
+  "D024__below.jpg",
+  "D024__front-side-above.jpg",
+  "P017__above-below.jpg",
+  "P017__front-diag-side.jpg",
+  "P019__above-below.jpg",
+  "P019__front-diag-side.jpg",
+  "P020__above-below.jpg",
+  "P020__front-diag-side.jpg",
+  "P021__below.jpg",
+  "P021__front-diag-side.jpg",
+  "P022__above-below.jpg",
+  "P022__front-diag-side.jpg",
+  "P024__above-below.jpg",
+  "P024__front-diag-side.jpg",
+  "P025__above-below.jpg",
+  "P025__front-diag-side.jpg",
+  "P026__above-below.jpg",
+  "P026__front-diag-side.jpg",
+  "P027__above-below.jpg",
+  "P027__front-diag-side.jpg",
+  "P029__above-below.jpg",
+  "P029__front-diag-side.jpg",
+  "P030__above-below.jpg",
+  "P030__front-diag-side.jpg",
+  "P031__above-below.jpg",
+  "P031__front-diag-side.jpg",
+  "P032__above-below.jpg",
+  "P032__front-diag-side.jpg",
+  "P033__above-below.jpg",
+  "P033__front-diag-side.jpg",
+  "P034__front-diag-below.jpg",
+  "P035__above-below.jpg",
+  "P035__front-diag-side.jpg",
+  "P036__above-below.jpg",
+  "P036__front-diag-side.jpg",
+  "P037__above-below.jpg",
+  "P037__front-diag-side.jpg",
+  "P038__below.jpg",
+  "P038__front-side-above.jpg",
+  "P039__below.jpg",
+  "P039__front-diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "D024",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "woman stands behind seated man instead of sitting on his lap; both figures' feet cut off at frame bottom"
+  },
+  {
+   "set": "D024",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose does not match 'seated on lap': woman standing behind, bending over man's back"
+  },
+  {
+   "set": "D024",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose does not match 'seated on lap': woman standing behind man"
+  },
+  {
+   "set": "D024",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level view, not from below; pose is not seated on lap"
+  },
+  {
+   "set": "P017",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "eye-level front view, not an above view"
+  },
+  {
+   "set": "P017",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, not a below view"
+  },
+  {
+   "set": "P017",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "back 3/4 view nearly identical to diag, not a side view"
+  },
+  {
+   "set": "P019",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "eye-level, practically identical to front, not an above view"
+  },
+  {
+   "set": "P019",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, not clearly from below"
+  },
+  {
+   "set": "P021",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, not clearly from below"
+  },
+  {
+   "set": "P022",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "eye-level front view, not an above view; arms differ from front"
+  },
+  {
+   "set": "P022",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, not from below"
+  },
+  {
+   "set": "P024",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level view, not from below"
+  },
+  {
+   "set": "P025",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, not from below"
+  },
+  {
+   "set": "P029",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "practically the same image as the front panel"
+  },
+  {
+   "set": "P030",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "eye-level, practically identical to front, not an above view"
+  },
+  {
+   "set": "P030",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view with doubled knee circles, not from below"
+  },
+  {
+   "set": "P031",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "hands hang away from thighs, pose says hands on thighs"
+  },
+  {
+   "set": "P031",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "eye-level front-like view, not above; hands not on thighs"
+  },
+  {
+   "set": "P031",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, near duplicate of diag, not from below"
+  },
+  {
+   "set": "P032",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, near duplicate of diag, not from below"
+  },
+  {
+   "set": "P033",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "back foot reads as a blob at the hip; limb connection unclear"
+  },
+  {
+   "set": "P033",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level view, near duplicate of diag, not from below"
+  },
+  {
+   "set": "P034",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pure profile view, not a front view; small dot-like marks on the head"
+  },
+  {
+   "set": "P034",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "near duplicate of diag, not clearly from below"
+  },
+  {
+   "set": "P035",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "eye-level, practically identical to front, not an above view"
+  },
+  {
+   "set": "P035",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, not clearly from below"
+  },
+  {
+   "set": "P036",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, near duplicate of diag, not from below"
+  },
+  {
+   "set": "P037",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level, practically identical to front, not from below"
+  },
+  {
+   "set": "P038",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "arm hangs down, no leaning sideways/raised arm; pose differs from the other views"
+  },
+  {
+   "set": "P038",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "near duplicate of front, not from below"
+  },
+  {
+   "set": "P039",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level 3/4 view, not from below"
+  }
+ ]
+}

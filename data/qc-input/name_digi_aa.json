@@ -1,0 +1,238 @@
+{
+ "reviewed": [
+  "D024.jpg",
+  "P017.jpg",
+  "P019.jpg",
+  "P020.jpg",
+  "P021.jpg",
+  "P022.jpg",
+  "P024.jpg",
+  "P025.jpg",
+  "P026.jpg",
+  "P027.jpg",
+  "P029.jpg",
+  "P030.jpg",
+  "P031.jpg",
+  "P032.jpg",
+  "P033.jpg",
+  "P034.jpg",
+  "P035.jpg",
+  "P036.jpg",
+  "P037.jpg",
+  "P038.jpg",
+  "P039.jpg",
+  "P040.jpg",
+  "P043.jpg",
+  "P044.jpg",
+  "P045.jpg",
+  "P046.jpg",
+  "P047.jpg",
+  "P048.jpg",
+  "P049.jpg",
+  "P050.jpg",
+  "P051.jpg",
+  "P052.jpg",
+  "P053.jpg"
+ ],
+ "source": "digi",
+ "sets": [
+  {
+   "set": "D024",
+   "match": "no",
+   "category_ok": true,
+   "actual": "Man sits on floor with knees up; woman stands/bends behind him with hands on his shoulders. She is not seated on his lap and not back to him."
+  },
+  {
+   "set": "P017",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, body turned away, head turned back over shoulder, one hand on hip, legs crossed slightly."
+  },
+  {
+   "set": "P019",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, feet together, both arms straight overhead with hands together."
+  },
+  {
+   "set": "P020",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, one hand behind head, other hand on hip, weight shifted."
+  },
+  {
+   "set": "P021",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, one hand at chin/neck, other arm lowered at thigh, legs crossed."
+  },
+  {
+   "set": "P022",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, both arms behind the back, chest forward, feet together."
+  },
+  {
+   "set": "P024",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Standing on one leg; other knee lifted and bent with foot tucked behind the standing leg. Thigh comes forward rather than a clear lift behind."
+  },
+  {
+   "set": "P025",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing wide stance, both hands on hips."
+  },
+  {
+   "set": "P026",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, one arm raised, other hand on hip, hip pushed out, legs crossed."
+  },
+  {
+   "set": "P027",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, both hands clasped behind the neck, elbows out."
+  },
+  {
+   "set": "P029",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing mid-step, one hand raised to forehead, other arm down and out; hair itself not drawable on mannequin."
+  },
+  {
+   "set": "P030",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing on tiptoe, both arms raised in a V."
+  },
+  {
+   "set": "P031",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling upright; front view arms hang slightly out, diag/side hands rest on thighs."
+  },
+  {
+   "set": "P032",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling upright, both hands behind head, elbows out."
+  },
+  {
+   "set": "P033",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Half-kneeling on one knee, hand resting on raised knee."
+  },
+  {
+   "set": "P034",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling, torso arched back with head dropped back, hands on lower legs (camel-like)."
+  },
+  {
+   "set": "P035",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling upright, both arms stretched straight up."
+  },
+  {
+   "set": "P036",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling, one hand on top of head, other hand on hip."
+  },
+  {
+   "set": "P037",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Half-kneeling with hand on knee; head only slightly raised, looking up not clearly shown."
+  },
+  {
+   "set": "P038",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling, torso leaning sideways, one hand on floor, other arm raised; side view is more upright."
+  },
+  {
+   "set": "P039",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling upright, both hands on hips, chest forward with mild arch."
+  },
+  {
+   "set": "P040",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling, hips shifted, one arm raised high, other hand on hip/thigh."
+  },
+  {
+   "set": "P043",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Seated on floor, hands behind head; front view knees together flared thighs (W-like), below view shows one knee up, legs not clearly W-sit."
+  },
+  {
+   "set": "P044",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Seated on floor leaning back on hands behind; knees up with legs forward in diag/side, not a clear W-sit."
+  },
+  {
+   "set": "P045",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Seated with legs bent and swept to one side, one hand on knee, other hand on floor."
+  },
+  {
+   "set": "P046",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Seated on floor, legs folded to side, one hand on cheek, elbow on knee."
+  },
+  {
+   "set": "P047",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Seated side-sit, legs folded to one side, one arm propped on floor, other arm stretched up."
+  },
+  {
+   "set": "P048",
+   "match": "partial",
+   "category_ok": false,
+   "actual": "Seated cross-legged (criss-cross) with one hand at neck/chin; not a W-sit or side sit."
+  },
+  {
+   "set": "P049",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying on back with both arms stretched overhead; side view shows torso somewhat raised."
+  },
+  {
+   "set": "P050",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying on side, head resting on hand, upper arm on hip, legs extended."
+  },
+  {
+   "set": "P051",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying face down propped on forearms, knees bent with feet kicked up."
+  },
+  {
+   "set": "P052",
+   "match": "no",
+   "category_ok": false,
+   "actual": "Semi-reclined/sitting propped on one arm with BOTH knees raised; side view is nearly seated upright, not lying on back with one knee raised."
+  },
+  {
+   "set": "P053",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying on side, head on arm, waist slightly curved, legs stacked and extended."
+  }
+ ]
+}

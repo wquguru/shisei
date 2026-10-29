@@ -1,0 +1,137 @@
+{
+ "source": "digi",
+ "reviewed": [
+  "S052__front-diag-below.jpg",
+  "S056__front-above.jpg",
+  "S064__above.jpg",
+  "S064__front-diag-side.jpg",
+  "S065__below.jpg",
+  "S065__front-diag-side.jpg",
+  "S068__above-below.jpg",
+  "S068__front-diag-side.jpg",
+  "U004__above-below.jpg",
+  "U004__front-diag-side.jpg",
+  "U007__above.jpg",
+  "U007__front-diag-side.jpg",
+  "U010__above-below.jpg",
+  "U010__front-diag-side.jpg",
+  "U012__above-below.jpg",
+  "U012__front-diag-side.jpg",
+  "U017__above-below.jpg",
+  "U017__front-diag-side.jpg",
+  "U026__above-below.jpg",
+  "U026__front-diag-side.jpg",
+  "U028__above-below.jpg",
+  "U028__front-diag-side.jpg",
+  "U032__above.jpg",
+  "U032__front-diag-side.jpg",
+  "U037__above-below.jpg",
+  "U037__front-diag-side.jpg",
+  "U038__above.jpg",
+  "U038__front-diag-side.jpg",
+  "U051__above-below.jpg",
+  "U051__front-diag-side.jpg",
+  "U052__above-below.jpg",
+  "U052__front-diag-side.jpg",
+  "U053__above-below.jpg",
+  "U053__front-diag-side.jpg",
+  "U068__diag-above-below.jpg",
+  "U072__above-below.jpg",
+  "U072__front-diag-side.jpg",
+  "U075__front-diag-side.jpg",
+  "U078__above.jpg",
+  "U078__front-diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S056",
+   "angle": "above",
+   "kind": "line",
+   "reason": "faint eye/eyebrow-like curved marks inside the head"
+  },
+  {
+   "set": "S064",
+   "angle": "above",
+   "kind": "line",
+   "reason": "stray black line fragment at bottom-left corner of the panel; small tick at the groin"
+  },
+  {
+   "set": "S064",
+   "angle": "front",
+   "kind": "line",
+   "reason": "small tick mark at the groin, possible genital detail"
+  },
+  {
+   "set": "S068",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "legs raised straight up; pose name says legs folded past head (plow), drawing does not match"
+  },
+  {
+   "set": "S068",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "legs raised straight up; pose name says legs folded past head (plow), drawing does not match"
+  },
+  {
+   "set": "S068",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "legs raised straight up; pose name says legs folded past head (plow), drawing does not match"
+  },
+  {
+   "set": "S068",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "legs raised straight up; pose name says legs folded past head (plow), drawing does not match"
+  },
+  {
+   "set": "S068",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "legs raised straight up; pose name says legs folded past head (plow), drawing does not match"
+  },
+  {
+   "set": "U007",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "head hidden and fused with the crossed arms, limbs merge; rabbit-ears pose unreadable"
+  },
+  {
+   "set": "U032",
+   "angle": "front",
+   "kind": "line",
+   "reason": "table drawn in the panel (background object)"
+  },
+  {
+   "set": "U032",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "table drawn in the panel (background object)"
+  },
+  {
+   "set": "U032",
+   "angle": "side",
+   "kind": "line",
+   "reason": "table drawn in the panel (background object)"
+  },
+  {
+   "set": "U032",
+   "angle": "above",
+   "kind": "line",
+   "reason": "table drawn in the panel (background object)"
+  },
+  {
+   "set": "U075",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "head merges into the raised arm, wavy hair-like strand beside the head"
+  },
+  {
+   "set": "U075",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "head fused with the arms, doubled torso construction lines, cropped so badly the pose is hard to read"
+  }
+ ]
+}

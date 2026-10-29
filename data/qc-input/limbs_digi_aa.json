@@ -1,0 +1,628 @@
+{
+ "source": "digi",
+ "reviewed": [
+  "P019__front-diag.jpg",
+  "P019__side.jpg",
+  "P020__below.jpg",
+  "P020__front-diag.jpg",
+  "P020__side-above.jpg",
+  "P022__front-diag.jpg",
+  "P022__side.jpg",
+  "P025__front-diag.jpg",
+  "P025__side-above.jpg",
+  "P026__below.jpg",
+  "P026__front-diag.jpg",
+  "P026__side-above.jpg",
+  "P027__below.jpg",
+  "P027__front-diag.jpg",
+  "P027__side-above.jpg",
+  "P029__above-below.jpg",
+  "P029__front-side.jpg",
+  "P030__front-diag.jpg",
+  "P030__side.jpg",
+  "P031__diag-side.jpg",
+  "P032__front-diag.jpg",
+  "P032__side-above.jpg",
+  "P033__front-diag.jpg",
+  "P033__side.jpg",
+  "P034__diag.jpg",
+  "P035__front-diag.jpg",
+  "P035__side.jpg",
+  "P036__front-diag.jpg",
+  "P036__side-above.jpg",
+  "P037__front-diag.jpg",
+  "P037__side-above.jpg",
+  "P038__front-above.jpg",
+  "P040__front-diag.jpg",
+  "P040__side.jpg"
+ ],
+ "panels": [
+  {
+   "set": "P019",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms from shoulders straight overhead, both hands meet palm to palm above head; legs together, both feet side by side on the floor",
+   "note": ""
+  },
+  {
+   "set": "P019",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms overhead from their shoulders, hands together above head; legs together, near foot flat, far foot on tiptoe behind it",
+   "note": ""
+  },
+  {
+   "set": "P019",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm straight up, hand above head; far arm overhead behind it, hand just left of near hand; legs overlap, feet together on tiptoe",
+   "note": "far arm/leg largely overlapped by near ones, both still traceable"
+  },
+  {
+   "set": "P020",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R-of-image arm up, hand behind head (hidden by head); other arm bent, hand on hip; both legs wide apart, feet planted",
+   "note": "hand behind head is hidden by the head"
+  },
+  {
+   "set": "P020",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Arm up with hand behind head (hidden); other arm bent with hand on hip; both legs traced to feet, far foot on toe",
+   "note": "hand behind head hidden"
+  },
+  {
+   "set": "P020",
+   "angle": "side",
+   "arms": 2,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm hangs at side, hand at thigh; far arm up behind head, hand hidden; legs overlap, near foot flat, far foot behind on toe",
+   "note": "far arm and its hand hidden behind head/body"
+  },
+  {
+   "set": "P020",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm up with hand behind head (hidden by head), other bent with hand on hip; both legs to two feet at bottom",
+   "note": "hand behind head hidden"
+  },
+  {
+   "set": "P020",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm up with hand behind head (hidden), other bent with hand on hip; both legs traced to two feet, one on toe",
+   "note": "hand behind head hidden"
+  },
+  {
+   "set": "P022",
+   "angle": "front",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms bent behind the back, hands hidden behind body at waist; legs together, two feet at bottom",
+   "note": "both hands hidden behind back"
+  },
+  {
+   "set": "P022",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms bent back, forearms go behind the body, hands hidden; legs together, feet on toes",
+   "note": "hands hidden behind body"
+  },
+  {
+   "set": "P022",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm hangs back, hand open behind hip; far arm hidden behind torso; legs overlap, near foot visible, far foot behind",
+   "note": "far arm hidden by body"
+  },
+  {
+   "set": "P025",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands on hips, elbows out; legs wide apart, two feet planted at bottom",
+   "note": ""
+  },
+  {
+   "set": "P025",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm hand on hip; far arm hand on hip at left side; both legs traced, far foot on toe, near foot flat",
+   "note": ""
+  },
+  {
+   "set": "P025",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm bent with hand on hip; far hand also visible on front of hip; legs overlap, one long leg visible with second foot behind it",
+   "note": "second leg mostly overlapped by first"
+  },
+  {
+   "set": "P025",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands on hips, elbows out; wide stance, both legs to two feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "P026",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R arm raised overhead, hand up; other arm bent, hand on hip; legs crossed, both feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "P026",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm up with hand above head; other hand on hip; legs crossed, both feet traced at bottom",
+   "note": ""
+  },
+  {
+   "set": "P026",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm hangs, hand at hip; far arm raised overhead behind head, hand above head; legs crossed, two feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "P026",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm raised, hand by head; other arm bent, hand on hip; legs crossed, two feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "P026",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm raised, hand above head; other hand on hip; legs crossed, two feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "P027",
+   "angle": "front",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms up, both hands behind head at nape (hidden by head); legs together, feet at bottom, one slightly crossed",
+   "note": "hands at nape hidden behind head"
+  },
+  {
+   "set": "P027",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms up, hands behind head at nape, near hand visible at hair; legs together, two feet",
+   "note": "far hand hidden"
+  },
+  {
+   "set": "P027",
+   "angle": "side",
+   "arms": 2,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both elbows up, near hand at nape visible by head, far hand hidden; legs side by side, two feet at bottom",
+   "note": "far hand hidden"
+  },
+  {
+   "set": "P027",
+   "angle": "above",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms up, hands at nape behind head (hidden); legs forward, two feet at bottom",
+   "note": "hands hidden behind head"
+  },
+  {
+   "set": "P027",
+   "angle": "below",
+   "arms": 2,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms up, hands at nape behind head, near-side hand visible; legs together, two feet on toes",
+   "note": "far hand hidden"
+  },
+  {
+   "set": "P029",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R-of-image arm up with hand on head/forehead; other arm hangs out, hand open at side; legs stepping, two feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "P029",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Far arm hand at head (shielding); near arm hangs, hand by thigh; legs overlap, both feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "P029",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm bent, hand on forehead; other arm out, hand open; legs to two feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "P029",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm bent with hand on forehead; other arm out, hand open at right; two legs, two feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "P030",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms in V, hands up; legs together, feet side by side on tiptoe",
+   "note": ""
+  },
+  {
+   "set": "P030",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms up in V, hands open overhead; legs together, near foot on tiptoe",
+   "note": ""
+  },
+  {
+   "set": "P030",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm up, hand overhead; far arm up behind it, hand lower left; legs overlap, feet together on tiptoe",
+   "note": ""
+  },
+  {
+   "set": "P031",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm hangs, hand on thigh; far arm hand on far thigh at left edge; kneeling, both lower legs/feet behind at bottom right",
+   "note": ""
+  },
+  {
+   "set": "P031",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm bent, hand on thigh; far arm hidden behind torso; legs kneeling overlapped, two feet at right",
+   "note": "far arm hidden by body"
+  },
+  {
+   "set": "P032",
+   "angle": "front",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 0,
+   "trace": "Both arms up, both hands behind head at nape (hidden); kneeling, only knees visible at bottom, feet hidden behind",
+   "note": "hands hidden behind head; feet hidden behind knees in kneeling"
+  },
+  {
+   "set": "P032",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms up, hands behind head (far hand hidden); kneeling, shins back, both feet visible at right",
+   "note": "hands at nape mostly hidden"
+  },
+  {
+   "set": "P032",
+   "angle": "side",
+   "arms": 2,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm up with hand at nape; far arm elbow behind head, hand hidden; kneeling, feet behind at right",
+   "note": "far arm mostly hidden"
+  },
+  {
+   "set": "P032",
+   "angle": "above",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 0,
+   "trace": "Both arms up behind head, hands hidden; both thighs forward, knees at bottom, feet hidden",
+   "note": "hands hidden behind head; lower legs/feet foreshortened out of view"
+  },
+  {
+   "set": "P033",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One hand on raised knee at left; other arm hangs at right, hand at thigh; right knee down with foot at right, left foot planted at bottom-left",
+   "note": ""
+  },
+  {
+   "set": "P033",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Far hand on raised knee at left; near arm hangs, hand at thigh; raised-leg foot at bottom left, kneeling foot at right",
+   "note": ""
+  },
+  {
+   "set": "P033",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm hangs, hand at thigh; far hand on raised knee; two legs, front foot flat, back foot on toes at right",
+   "note": ""
+  },
+  {
+   "set": "P034",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms hang down toward knees, hands rest near shins; kneeling, two feet at bottom right",
+   "note": ""
+  },
+  {
+   "set": "P035",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "Both arms straight up, both hands overhead; kneeling, knees at bottom, feet hidden behind",
+   "note": "feet hidden behind kneeling legs"
+  },
+  {
+   "set": "P035",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms up, hands overhead; kneeling, both feet at bottom right",
+   "note": ""
+  },
+  {
+   "set": "P035",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm up, hand overhead; far arm up behind it; kneeling, feet behind at right",
+   "note": ""
+  },
+  {
+   "set": "P036",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "R-of-image arm raised, hand on head; other arm bent, hand on hip; kneeling, one foot visible at right, other hidden behind",
+   "note": "second foot hidden"
+  },
+  {
+   "set": "P036",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm raised, hand on head; other hand on hip; kneeling, two feet visible at right",
+   "note": ""
+  },
+  {
+   "set": "P036",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Far arm raised with hand at head; near arm bent, hand on hip; kneeling, feet at right",
+   "note": ""
+  },
+  {
+   "set": "P036",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "One arm raised, hand on head; other arm bent, hand on hip; legs kneeling, one foot visible at left, other hidden",
+   "note": "second foot hidden"
+  },
+  {
+   "set": "P037",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near hand on raised knee at left; other arm hangs at right; kneeling leg foot at right, raised leg foot at bottom-left",
+   "note": ""
+  },
+  {
+   "set": "P037",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Far hand on raised knee; near arm hangs, hand at thigh; raised foot at bottom left, kneeling foot at right",
+   "note": ""
+  },
+  {
+   "set": "P037",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm hangs, hand by hip; far hand on raised knee; two legs, two feet",
+   "note": ""
+  },
+  {
+   "set": "P037",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Left hand on raised knee; right arm hangs to hand near right foot; raised-leg foot bottom, kneeling foot at right",
+   "note": "right hand sits next to right foot; still traced to shoulder"
+  },
+  {
+   "set": "P038",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm raised up, hand open; other arm down to floor, hand touching floor next to feet; one foot clearly visible near ankle circle at bottom-left, second foot only a small stub behind",
+   "note": "second foot is only a stub; hand overlaps foot"
+  },
+  {
+   "set": "P038",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm raised right, hand curled; other arm down, hand on floor at left; one foot at left visible, other foot hidden behind shin",
+   "note": "second foot not clearly visible, likely hidden"
+  },
+  {
+   "set": "P040",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm raised, hand up; other hand on hip/thigh; kneeling, one foot at right, second foot stub behind",
+   "note": "second foot partly hidden"
+  },
+  {
+   "set": "P040",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm raised, hand open; other hand on thigh; kneeling, two feet at right",
+   "note": ""
+  },
+  {
+   "set": "P040",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm hangs, hand at thigh; far arm raised overhead; kneeling, feet at right",
+   "note": ""
+  }
+ ],
+ "flags": [
+  {
+   "set": "P038",
+   "angle": "front",
+   "reason": "Second foot is only a small stub behind the first foot and the hanging hand overlaps the foot; second foot cannot be cleanly traced. A person should look."
+  }
+ ]
+}

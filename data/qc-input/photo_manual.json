@@ -1,0 +1,89 @@
+{
+ "reviewed": [],
+ "fails": [
+  {
+   "set": "P019",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P019",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P019",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P019",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P019",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P020",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P020",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P020",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P020",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P022",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P022",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P022",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P022",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  },
+  {
+   "set": "P022",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "rendered from the old drawing, which shows another pose; the line art was redrawn (decided by a person)"
+  }
+ ]
+}

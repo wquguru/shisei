@@ -591,26 +591,18 @@
   "name_kr": "서서 양팔 위로 뻗기",
   "desc_en": "standing with both arms stretched straight up high overhead in a full-body stretch, legs straight",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
-  },
-  "photos": {
    "front": "std_P019_front.webp",
    "diag": "std_P019_diag.webp",
    "side": "std_P019_side.webp",
-   "above": "std_P019_above.webp",
-   "below": "std_P019_below.webp"
+   "above": null,
+   "below": null
   },
+  "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
    "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P020",
@@ -628,25 +620,15 @@
   "name_kr": "서서 한손 뒤통수에",
   "desc_en": "standing with one hand resting on the back of her head, the other arm relaxed at her side",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
-  },
-  "photos": {
    "front": "std_P020_front.webp",
    "diag": "std_P020_diag.webp",
    "side": "std_P020_side.webp",
-   "above": "std_P020_above.webp"
+   "above": "std_P020_above.webp",
+   "below": "std_P020_below.webp"
   },
-  "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+  "photos": {},
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "P021",
@@ -695,26 +677,18 @@
   "name_kr": "서서 팔 뒤로·가슴 펴기",
   "desc_en": "standing with both arms pulled behind her back, chest pushed out proudly, legs straight",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
-  },
-  "photos": {
    "front": "std_P022_front.webp",
    "diag": "std_P022_diag.webp",
    "side": "std_P022_side.webp",
-   "above": "std_P022_above.webp",
-   "below": "std_P022_below.webp"
+   "above": null,
+   "below": null
   },
+  "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
    "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P024",
@@ -757,20 +731,17 @@
   "name_kr": "서서 다리 벌리고 양손 허리에",
   "desc_en": "standing in a wide stance with legs apart, both hands on her hips, confident posture",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
+   "front": "std_P025_front.webp",
+   "diag": "std_P025_diag.webp",
+   "side": "std_P025_side.webp",
+   "above": "std_P025_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P026",
@@ -788,20 +759,15 @@
   "name_kr": "서서 한팔 들고 골반 내밀기",
   "desc_en": "standing with one arm raised up, her hip pushed out to one side in a playful pose",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
+   "front": "std_P026_front.webp",
+   "diag": "std_P026_diag.webp",
+   "side": "std_P026_side.webp",
+   "above": "std_P026_above.webp",
+   "below": "std_P026_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "P027",
@@ -819,20 +785,15 @@
   "name_kr": "서서 양손 목덜미에",
   "desc_en": "standing with both hands raised behind her head, resting on the nape of her neck, elbows out",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
+   "front": "std_P027_front.webp",
+   "diag": "std_P027_diag.webp",
+   "side": "std_P027_side.webp",
+   "above": "std_P027_above.webp",
+   "below": "std_P027_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "P029",
@@ -850,20 +811,17 @@
   "name_kr": "서서 머리카락 휘날리기",
   "desc_en": "standing gracefully with her long hair flowing and billowing in the wind, arms relaxed",
   "views": {
-   "front": null,
+   "front": "std_P029_front.webp",
    "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
+   "side": "std_P029_side.webp",
+   "above": "std_P029_above.webp",
+   "below": "std_P029_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+   "diag": "structure"
+  },
+  "source": "digi"
  },
  {
   "id": "P030",
@@ -881,20 +839,18 @@
   "name_kr": "서서 까치발·양팔 V자",
   "desc_en": "standing on tiptoe with both arms raised diagonally upward in a V shape, legs straight",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
+   "front": "std_P030_front.webp",
+   "diag": "std_P030_diag.webp",
+   "side": "std_P030_side.webp",
    "above": null,
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
    "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P031",
@@ -913,19 +869,18 @@
   "desc_en": "kneeling upright on both knees on the floor, back straight, both hands resting flat on her thighs",
   "views": {
    "front": null,
-   "diag": null,
-   "side": null,
+   "diag": "std_P031_diag.webp",
+   "side": "std_P031_side.webp",
    "above": null,
    "below": null
   },
   "photos": {},
   "gaps": {
    "front": "structure",
-   "diag": "structure",
-   "side": "structure",
    "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P032",
@@ -943,20 +898,17 @@
   "name_kr": "무릎 꿇고 양손 머리 뒤로",
   "desc_en": "kneeling upright on both knees, both hands clasped behind her head, elbows out",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
+   "front": "std_P032_front.webp",
+   "diag": "std_P032_diag.webp",
+   "side": "std_P032_side.webp",
+   "above": "std_P032_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P033",
@@ -974,20 +926,18 @@
   "name_kr": "한쪽 무릎 꿇고 무릎에 손",
   "desc_en": "in a half-kneeling pose with one knee on the floor and the other foot planted flat in front with knee bent, one hand resting on her front knee",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
+   "front": "std_P033_front.webp",
+   "diag": "std_P033_diag.webp",
+   "side": "std_P033_side.webp",
    "above": null,
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
    "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P034",
@@ -1006,7 +956,7 @@
   "desc_en": "kneeling on both knees, arching her upper body backward in a deep backbend, arms hanging relaxed",
   "views": {
    "front": null,
-   "diag": null,
+   "diag": "std_P034_diag.webp",
    "side": null,
    "above": null,
    "below": null
@@ -1014,11 +964,11 @@
   "photos": {},
   "gaps": {
    "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
+   "side": "missing",
+   "above": "missing",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P035",
@@ -1036,20 +986,18 @@
   "name_kr": "무릎 꿇고 양팔 위로 뻗기",
   "desc_en": "kneeling on both knees with both arms stretched straight upward toward the ceiling",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
+   "front": "std_P035_front.webp",
+   "diag": "std_P035_diag.webp",
+   "side": "std_P035_side.webp",
    "above": null,
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
    "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P036",
@@ -1067,20 +1015,17 @@
   "name_kr": "무릎 꿇고 한손 머리에·한손 허리에",
   "desc_en": "kneeling on both knees, one hand raised touching her hair, the other hand resting on her hip",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
+   "front": "std_P036_front.webp",
+   "diag": "std_P036_diag.webp",
+   "side": "std_P036_side.webp",
+   "above": "std_P036_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P037",
@@ -1098,20 +1043,17 @@
   "name_kr": "한쪽 무릎 꿇고 올려다보기",
   "desc_en": "in a half-kneeling pose with one knee on the floor and the other foot planted in front, face turned looking upward",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
+   "front": "std_P037_front.webp",
+   "diag": "std_P037_diag.webp",
+   "side": "std_P037_side.webp",
+   "above": "std_P037_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P038",
@@ -1188,17 +1130,17 @@
   "desc_en": "kneeling on both knees with her hips swayed to one side, one arm raised up in the air",
   "views": {
    "front": "std_P040_front.webp",
-   "diag": null,
-   "side": null,
-   "above": "std_P040_above.webp",
+   "diag": "std_P040_diag.webp",
+   "side": "std_P040_side.webp",
+   "above": null,
    "below": null
   },
   "photos": {},
   "gaps": {
-   "diag": "structure",
-   "side": "structure",
+   "above": "missing",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "P041",
@@ -1270,20 +1212,19 @@
   "name_kr": "여자아이 앉기·양손 머리 뒤로",
   "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, both hands clasped behind her head",
   "views": {
-   "front": null,
+   "front": "std_P043_front.webp",
    "diag": null,
    "side": null,
    "above": null,
-   "below": null
+   "below": "std_P043_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+   "diag": "missing",
+   "side": "missing",
+   "above": "missing"
+  },
+  "source": "digi"
  },
  {
   "id": "P044",
@@ -1301,20 +1242,17 @@
   "name_kr": "여자아이 앉기·뒤에 손 짚기",
   "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, leaning back slightly with both hands placed on the floor behind her",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
+   "front": "std_P044_front.webp",
+   "diag": "std_P044_diag.webp",
+   "side": "std_P044_side.webp",
    "above": null,
-   "below": null
+   "below": "std_P044_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+   "above": "missing"
+  },
+  "source": "digi"
  },
  {
   "id": "P045",
@@ -1332,20 +1270,15 @@
   "name_kr": "옆으로 앉아 다리 오른쪽으로",
   "desc_en": "sitting on the floor with both legs swept together to her right side in a side-saddle sit, torso upright and straight",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
+   "front": "std_P045_front.webp",
+   "diag": "std_P045_diag.webp",
+   "side": "std_P045_side.webp",
+   "above": "std_P045_above.webp",
+   "below": "std_P045_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "P046",
@@ -1363,20 +1296,15 @@
   "name_kr": "옆으로 앉아 뺨에 손",
   "desc_en": "sitting on the floor with both legs swept together to one side, one hand raised with fingers resting gently against her cheek",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
+   "front": "std_P046_front.webp",
+   "diag": "std_P046_diag.webp",
+   "side": "std_P046_side.webp",
+   "above": "std_P046_above.webp",
+   "below": "std_P046_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "P047",
@@ -1394,20 +1322,15 @@
   "name_kr": "옆으로 앉아 한팔 위로 뻗기",
   "desc_en": "sitting on the floor with both legs swept together to one side, one arm stretched straight upward",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
+   "front": "std_P047_front.webp",
+   "diag": "std_P047_diag.webp",
+   "side": "std_P047_side.webp",
+   "above": "std_P047_above.webp",
+   "below": "std_P047_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "P048",
@@ -1425,20 +1348,15 @@
   "name_kr": "여자아이 앉기·목덜미에 손",
   "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, one hand resting at her neck and collarbone",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
+   "front": "std_P048_front.webp",
+   "diag": "std_P048_diag.webp",
+   "side": "std_P048_side.webp",
+   "above": "std_P048_above.webp",
+   "below": "std_P048_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "structure"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "P049",
@@ -1596,19 +1514,15 @@
   "name_kr": "누워서 양다리 위로",
   "desc_en": "lying flat on her back on the floor with both legs raised straight up toward the ceiling together, arms resting beside her body",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
+   "front": "std_P054_front.webp",
+   "diag": "std_P054_diag.webp",
+   "side": "std_P054_side.webp",
    "above": "std_P054_above.webp",
-   "below": null
+   "below": "std_P054_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "line",
-   "diag": "line",
-   "side": "line",
-   "below": "line"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "P055",
@@ -2100,17 +2014,18 @@
   "name_kr": "서서 비틀어 양팔 벌리기",
   "desc_en": "standing with her upper body twisted to the side, both arms spread wide open",
   "views": {
-   "front": null,
+   "front": "std_P073_front.webp",
    "diag": "std_P073_diag.webp",
-   "side": "std_P073_side.webp",
-   "above": "std_P073_above.webp",
-   "below": null
+   "side": null,
+   "above": null,
+   "below": "std_P073_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "line",
-   "below": "structure"
-  }
+   "side": "structure",
+   "above": "structure"
+  },
+  "source": "digi"
  },
  {
   "id": "P074",
@@ -2440,18 +2355,17 @@
   "name_kr": "서서 기지개·허리 비틀기",
   "desc_en": "",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": "sexy_S011_above.webp",
+   "front": "sexy_S011_front.webp",
+   "diag": "sexy_S011_diag.webp",
+   "side": "sexy_S011_side.webp",
+   "above": null,
    "below": "sexy_S011_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure"
-  }
+   "above": "structure"
+  },
+  "source": "digi"
  },
  {
   "id": "S012",
@@ -2598,18 +2512,17 @@
   "name_kr": "정좌 가슴 펴고 젖히기",
   "desc_en": "",
   "views": {
-   "front": null,
+   "front": "sexy_S017_front.webp",
    "diag": "sexy_S017_diag.webp",
-   "side": null,
-   "above": "sexy_S017_above.webp",
-   "below": null
+   "side": "sexy_S017_side.webp",
+   "above": null,
+   "below": "sexy_S017_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "missing",
-   "side": "structure",
-   "below": "missing"
-  }
+   "above": "structure"
+  },
+  "source": "digi"
  },
  {
   "id": "S018",
@@ -3100,18 +3013,17 @@
   "name_kr": "무릎 벌려 앉아 손 앞 짚고 골반 내리기",
   "desc_en": "",
   "views": {
-   "front": null,
+   "front": "sexy_S036_front.webp",
    "diag": "sexy_S036_diag.webp",
-   "side": null,
-   "above": "sexy_S036_above.webp",
-   "below": null
+   "side": "sexy_S036_side.webp",
+   "above": null,
+   "below": "sexy_S036_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "missing",
-   "side": "structure",
-   "below": "missing"
-  }
+   "above": "missing"
+  },
+  "source": "digi"
  },
  {
   "id": "S037",
@@ -3129,18 +3041,18 @@
   "name_kr": "무릎 벌려 골반 내리고 머리 손",
   "desc_en": "",
   "views": {
-   "front": null,
-   "diag": null,
+   "front": "sexy_S037_front.webp",
+   "diag": "sexy_S037_diag.webp",
    "side": "sexy_S037_side.webp",
-   "above": "sexy_S037_above.webp",
+   "above": null,
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "line",
-   "diag": "line",
-   "below": "line"
-  }
+   "above": "structure",
+   "below": "missing"
+  },
+  "source": "digi"
  },
  {
   "id": "S038",
@@ -3183,20 +3095,18 @@
   "name_kr": "무릎 서기 허리 비틀어 한 팔 들기",
   "desc_en": "",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
+   "front": "sexy_S039_front.webp",
+   "diag": "sexy_S039_diag.webp",
+   "side": "sexy_S039_side.webp",
    "above": null,
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
+   "above": "missing",
    "below": "structure"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "S040",
@@ -3541,18 +3451,18 @@
   "name_kr": "옆으로 누워 팔 머리 위·S자",
   "desc_en": "",
   "views": {
-   "front": null,
+   "front": "sexy_S052_front.webp",
    "diag": "sexy_S052_diag.webp",
    "side": null,
-   "above": "sexy_S052_above.webp",
-   "below": null
+   "above": null,
+   "below": "sexy_S052_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "line",
-   "side": "structure",
-   "below": "structure"
-  }
+   "side": "missing",
+   "above": "missing"
+  },
+  "source": "digi"
  },
  {
   "id": "S053",
@@ -3890,18 +3800,17 @@
   "name_kr": "옆으로 팔꿈치 짚고 상체 일으켜 한 무릎 세우기",
   "desc_en": "",
   "views": {
-   "front": null,
+   "front": "sexy_S065_front.webp",
    "diag": "sexy_S065_diag.webp",
-   "side": null,
+   "side": "sexy_S065_side.webp",
    "above": null,
    "below": "sexy_S065_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
-   "side": "structure",
-   "above": "structure"
-  }
+   "above": "missing"
+  },
+  "source": "digi"
  },
  {
   "id": "S066",
@@ -4398,13 +4307,12 @@
    "front": "upper_U004_front.webp",
    "diag": "upper_U004_diag.webp",
    "side": "upper_U004_side.webp",
-   "above": null,
+   "above": "upper_U004_above.webp",
    "below": "upper_U004_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "above": "missing"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "U005",
@@ -4472,20 +4380,18 @@
   "name_kr": "토끼 귀 포즈",
   "desc_en": "",
   "views": {
-   "front": null,
-   "diag": null,
+   "front": "upper_U007_front.webp",
+   "diag": "upper_U007_diag.webp",
    "side": null,
-   "above": null,
+   "above": "upper_U007_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "line",
-   "diag": "line",
-   "side": "line",
-   "above": "line",
-   "below": "line"
-  }
+   "side": "structure",
+   "below": "missing"
+  },
+  "source": "digi"
  },
  {
   "id": "U008",
@@ -4739,17 +4645,14 @@
   "desc_en": "",
   "views": {
    "front": "upper_U017_front.webp",
-   "diag": null,
-   "side": null,
-   "above": null,
+   "diag": "upper_U017_diag.webp",
+   "side": "upper_U017_side.webp",
+   "above": "upper_U017_above.webp",
    "below": "upper_U017_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "diag": "line",
-   "side": "line",
-   "above": "structure"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "U018",
@@ -4979,19 +4882,15 @@
   "name_kr": "숙여 팔뚝 모으기",
   "desc_en": "",
   "views": {
-   "front": null,
+   "front": "upper_U026_front.webp",
    "diag": "upper_U026_diag.webp",
-   "side": null,
-   "above": null,
-   "below": null
+   "side": "upper_U026_side.webp",
+   "above": "upper_U026_above.webp",
+   "below": "upper_U026_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "missing",
-   "side": "structure",
-   "above": "missing",
-   "below": "missing"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "U027",
@@ -5034,19 +4933,15 @@
   "name_kr": "팔꿈치 붙이고 허리 비틀기",
   "desc_en": "",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
+   "front": "upper_U028_front.webp",
+   "diag": "upper_U028_diag.webp",
+   "side": "upper_U028_side.webp",
    "above": "upper_U028_above.webp",
-   "below": null
+   "below": "upper_U028_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "missing",
-   "diag": "missing",
-   "side": "structure",
-   "below": "missing"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "U029",
@@ -5283,12 +5178,11 @@
    "diag": "upper_U037_diag.webp",
    "side": "upper_U037_side.webp",
    "above": "upper_U037_above.webp",
-   "below": null
+   "below": "upper_U037_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "below": "missing"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "U038",
@@ -5306,18 +5200,17 @@
   "name_kr": "뒷짐 지고 가슴 펴기",
   "desc_en": "",
   "views": {
-   "front": null,
-   "diag": null,
+   "front": "upper_U038_front.webp",
+   "diag": "upper_U038_diag.webp",
    "side": "upper_U038_side.webp",
    "above": "upper_U038_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "missing",
-   "diag": "missing",
    "below": "missing"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "U039",
@@ -5652,20 +5545,15 @@
   "name_kr": "양손 옆에서 감싸기",
   "desc_en": "",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
+   "front": "upper_U051_front.webp",
+   "diag": "upper_U051_diag.webp",
+   "side": "upper_U051_side.webp",
+   "above": "upper_U051_above.webp",
+   "below": "upper_U051_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "missing",
-   "diag": "missing",
-   "side": "missing",
-   "above": "missing",
-   "below": "missing"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "U052",
@@ -5684,17 +5572,14 @@
   "desc_en": "",
   "views": {
    "front": "upper_U052_front.webp",
-   "diag": null,
+   "diag": "upper_U052_diag.webp",
    "side": "upper_U052_side.webp",
-   "above": null,
-   "below": null
+   "above": "upper_U052_above.webp",
+   "below": "upper_U052_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "diag": "missing",
-   "above": "missing",
-   "below": "structure"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "U053",
@@ -5712,18 +5597,15 @@
   "name_kr": "양손으로 가슴 가리기",
   "desc_en": "",
   "views": {
-   "front": null,
+   "front": "upper_U053_front.webp",
    "diag": "upper_U053_diag.webp",
-   "side": null,
+   "side": "upper_U053_side.webp",
    "above": "upper_U053_above.webp",
-   "below": null
+   "below": "upper_U053_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "missing",
-   "side": "structure",
-   "below": "structure"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "U054",
@@ -6220,20 +6102,15 @@
   "name_kr": "양손 안으로 모아 내밀기",
   "desc_en": "",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
-   "below": null
+   "front": "upper_U072_front.webp",
+   "diag": "upper_U072_diag.webp",
+   "side": "upper_U072_side.webp",
+   "above": "upper_U072_above.webp",
+   "below": "upper_U072_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "missing",
-   "diag": "missing",
-   "side": "missing",
-   "above": "missing",
-   "below": "missing"
-  }
+  "gaps": {},
+  "source": "digi"
  },
  {
   "id": "U073",
@@ -6384,19 +6261,17 @@
   "name_kr": "한 손 가슴 위·한 손 아래",
   "desc_en": "",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
+   "front": "upper_U078_front.webp",
+   "diag": "upper_U078_diag.webp",
+   "side": "upper_U078_side.webp",
    "above": "upper_U078_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "missing",
-   "diag": "missing",
-   "side": "missing",
    "below": "missing"
-  }
+  },
+  "source": "digi"
  },
  {
   "id": "U079",

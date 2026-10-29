@@ -1,0 +1,601 @@
+{
+ "source": "digi",
+ "reviewed": [
+  "U004__below.jpg",
+  "U004__front-diag.jpg",
+  "U004__side-above.jpg",
+  "U007__above.jpg",
+  "U007__front-diag.jpg",
+  "U017__below.jpg",
+  "U017__front-diag.jpg",
+  "U017__side-above.jpg",
+  "U026__below.jpg",
+  "U026__front-diag.jpg",
+  "U026__side-above.jpg",
+  "U028__below.jpg",
+  "U028__front-diag.jpg",
+  "U028__side-above.jpg",
+  "U037__below.jpg",
+  "U037__front-diag.jpg",
+  "U037__side-above.jpg",
+  "U038__front-diag.jpg",
+  "U038__side-above.jpg",
+  "U051__below.jpg",
+  "U051__front-diag.jpg",
+  "U051__side-above.jpg",
+  "U052__below.jpg",
+  "U052__front-diag.jpg",
+  "U052__side-above.jpg",
+  "U053__below.jpg",
+  "U053__front-diag.jpg",
+  "U053__side-above.jpg",
+  "U072__below.jpg",
+  "U072__front-diag.jpg",
+  "U072__side-above.jpg",
+  "U078__front-diag.jpg",
+  "U078__side-above.jpg"
+ ],
+ "panels": [
+  {
+   "set": "U004",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand peace sign at cheek, R hand peace sign by chin, elbows low; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U004",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands in peace signs under chin, R from R shoulder via elbow low, L likewise; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U004",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "far hand peace sign at cheek, near hand peace sign at chin; each from its own shoulder; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U004",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand and far hand both peace signs beside face, two forearms rising from two elbows; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U004",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands peace signs below chin, elbows low at sides; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U007",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands up beside head, index fingers up; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U007",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands above head with index fingers up like ears, elbows out wide; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U007",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "far hand up by head, near hand up above shoulder with index up; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U017",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands grip opposite upper arms, crossed; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U017",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms crossed, each hand grips opposite upper arm; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U017",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "far hand at near upper arm, near hand on far shoulder area, crossed forearms; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing); far-side hand/arm partly hidden by torso"
+  },
+  {
+   "set": "U017",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near forearm across chest with hand on far upper arm, far hand/forearm at left of torso; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing); far-side hand/arm partly hidden by torso"
+  },
+  {
+   "set": "U017",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "crossed arms, hands on opposite shoulders/arms; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U026",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands together under chin, forearms from two elbows; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U026",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "palms pressed together at chest, forearms in V from two elbows; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U026",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped at chest, one forearm from each shoulder; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing); far-side hand/arm partly hidden by torso"
+  },
+  {
+   "set": "U026",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "clasped hands at chest, near forearm down to elbow, far arm mostly hidden; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing); far-side hand/arm partly hidden by torso"
+  },
+  {
+   "set": "U026",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "clasped hands at chest, two forearms from two elbows; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U028",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "folded arms at chest, hands tucked at both elbows; both legs hip to two feet at bottom",
+   "note": "full figure, both feet visible"
+  },
+  {
+   "set": "U028",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms folded, hands tucked under opposite arms at sides; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U028",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms folded, far hand at near elbow, near hand at far side; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U028",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "folded arms, hands under near arm at chest; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U028",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "folded arms, hands at both sides; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U037",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand on chest, R hand at chest side, elbows down; both legs to two feet at bottom",
+   "note": "full figure, both feet visible"
+  },
+  {
+   "set": "U037",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands flat on lower ribs, forearms down to elbows at sides; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U037",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "far hand at near rib side, near hand on chest, near forearm down to elbow; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing); far-side hand/arm partly hidden by torso"
+  },
+  {
+   "set": "U037",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near forearm up to fist at chest, far hand beside it at chest; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing); far-side hand/arm partly hidden by torso"
+  },
+  {
+   "set": "U037",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on ribs, elbows bent out; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U038",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands behind back (hidden), forearms angle behind torso from two elbows; feet cropped",
+   "note": "hands hidden behind back, far arm hidden by body; feet cropped"
+  },
+  {
+   "set": "U038",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand behind back at hip (visible small), far arm hidden behind body; feet cropped",
+   "note": "hands hidden behind back, far arm hidden by body; feet cropped"
+  },
+  {
+   "set": "U038",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near arm straight down, hand hooked behind hip, far arm hidden; feet cropped",
+   "note": "hands hidden behind back, far arm hidden by body; feet cropped"
+  },
+  {
+   "set": "U038",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands behind back, one fist peeks at left hip; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U051",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands overlapped at upper chest, elbows out; legs spread, feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U051",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands cupped on chest above breasts, two forearms from two elbows; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U051",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "far hand on near breast side, near hand raised over chest; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing); far-side hand/arm partly hidden by torso"
+  },
+  {
+   "set": "U051",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near forearm up to cupped hand at breast, far hand hidden; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing); far-side hand/arm partly hidden by torso"
+  },
+  {
+   "set": "U051",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands cupped at chest from both elbows; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U052",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on chest, elbows out; both legs to bottom, feet cropped",
+   "note": "full figure, both feet visible"
+  },
+  {
+   "set": "U052",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands with spread fingers on chest, forearms from two elbows; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U052",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "far hand and near hand on chest; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U052",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand at chest with far hand beside it, near forearm to elbow; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U052",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both spread hands on chest; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U053",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "crossed arms at chest; both legs hip-knee-ankle to two feet at bottom",
+   "note": "full figure, both feet visible"
+  },
+  {
+   "set": "U053",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms crossed, hands flat on opposite upper arms; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U053",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms crossed, far hand at elbow, near hand on far arm; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U053",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "crossed forearms, two hands clustered at chest, near upper arm from shoulder; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U053",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "crossed arms, hands at opposite arms; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U072",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands crossed on chest; both legs to two feet at bottom",
+   "note": "full figure, both feet visible"
+  },
+  {
+   "set": "U072",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands crossed flat on chest, forearms from two elbows; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U072",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "far hand and near hand overlapped on chest; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U072",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "clasped hands at chest, near forearm to elbow, far arm hidden; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U072",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands crossed on chest; two feet at bottom",
+   "note": "both legs and feet visible"
+  },
+  {
+   "set": "U078",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R (viewer-right) hand raised by shoulder, L arm across belly with hand under opposite elbow; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U078",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "far arm across belly, near forearm raised with hand at neck; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U078",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand raised at ear, far hand at belly side; feet cropped",
+   "note": "legs/feet cropped by frame (upper-body framing)"
+  },
+  {
+   "set": "U078",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand raised away at right, other forearm across belly, hand beside elbow; two feet at bottom",
+   "note": "both legs and feet visible"
+  }
+ ],
+ "flags": []
+}

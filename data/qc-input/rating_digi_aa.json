@@ -1,0 +1,358 @@
+{
+ "reviewed": [
+  "P019.jpg",
+  "P020.jpg",
+  "P022.jpg",
+  "P025.jpg",
+  "P026.jpg",
+  "P027.jpg",
+  "P029.jpg",
+  "P030.jpg",
+  "P031.jpg",
+  "P032.jpg",
+  "P033.jpg",
+  "P034.jpg",
+  "P035.jpg",
+  "P036.jpg",
+  "P037.jpg",
+  "P038.jpg",
+  "P040.jpg",
+  "P043.jpg",
+  "P044.jpg",
+  "P045.jpg",
+  "P046.jpg",
+  "P047.jpg",
+  "P048.jpg",
+  "P054.jpg",
+  "P073.jpg",
+  "S011.jpg",
+  "S017.jpg",
+  "S036.jpg",
+  "S037.jpg",
+  "S039.jpg",
+  "S052.jpg",
+  "S065.jpg",
+  "U004.jpg",
+  "U007.jpg",
+  "U017.jpg",
+  "U026.jpg",
+  "U028.jpg",
+  "U037.jpg",
+  "U038.jpg",
+  "U051.jpg",
+  "U052.jpg",
+  "U053.jpg",
+  "U072.jpg",
+  "U078.jpg"
+ ],
+ "sets": [
+  {
+   "set": "P019",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "overhead stretch",
+   "problem": false
+  },
+  {
+   "set": "P020",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "hand behind head, standing",
+   "problem": false
+  },
+  {
+   "set": "P022",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "arms behind back, mild chest-out stance",
+   "problem": false
+  },
+  {
+   "set": "P025",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "hands on hips, wide stance",
+   "problem": false
+  },
+  {
+   "set": "P026",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "one arm up, hip pushed out, everyday pose",
+   "problem": false
+  },
+  {
+   "set": "P027",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "hands at nape, standing",
+   "problem": false
+  },
+  {
+   "set": "P029",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "hair in wind, standing",
+   "problem": false
+  },
+  {
+   "set": "P030",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "tiptoe arms in V",
+   "problem": false
+  },
+  {
+   "set": "P031",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "upright kneeling, hands on thighs",
+   "problem": false
+  },
+  {
+   "set": "P032",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "kneeling hands behind head, neutral",
+   "problem": false
+  },
+  {
+   "set": "P033",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "half-kneel, hand on knee",
+   "problem": false
+  },
+  {
+   "set": "P034",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "kneeling, back arched with chest thrust up; only one view",
+   "problem": false
+  },
+  {
+   "set": "P035",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "kneeling arms up",
+   "problem": false
+  },
+  {
+   "set": "P036",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "kneeling, hand in hair and on hip",
+   "problem": false
+  },
+  {
+   "set": "P037",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "half-kneel looking up",
+   "problem": false
+  },
+  {
+   "set": "P038",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "kneeling lean, hand on floor",
+   "problem": false
+  },
+  {
+   "set": "P040",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "kneeling, one arm raised, mild hip sway",
+   "problem": false
+  },
+  {
+   "set": "P043",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "W-sit hands behind head, neutral",
+   "problem": false
+  },
+  {
+   "set": "P044",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "W-sit, hands on floor behind",
+   "problem": false
+  },
+  {
+   "set": "P045",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "side sit, legs swept, neutral",
+   "problem": false
+  },
+  {
+   "set": "P046",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "seated, hand on cheek",
+   "problem": false
+  },
+  {
+   "set": "P047",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "side sit, arm up",
+   "problem": false
+  },
+  {
+   "set": "P048",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "cross-legged, hand at neck",
+   "problem": false
+  },
+  {
+   "set": "P054",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "lying on back, legs straight up, exercise",
+   "problem": false
+  },
+  {
+   "set": "P073",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "standing twist, arms wide",
+   "problem": false
+  },
+  {
+   "set": "S011",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "standing stretch overhead, neutral despite sexy series",
+   "problem": false
+  },
+  {
+   "set": "S017",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "seiza with chest out and arched back, chest-focused",
+   "problem": false
+  },
+  {
+   "set": "S036",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "all fours, hips low, chest hanging forward",
+   "problem": false
+  },
+  {
+   "set": "S037",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "wide kneel, knees spread toward camera, hands in hair",
+   "problem": false
+  },
+  {
+   "set": "S039",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "kneeling arm up, neutral",
+   "problem": false
+  },
+  {
+   "set": "S052",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "side-lying S-curve pin-up, hips emphasised",
+   "problem": false
+  },
+  {
+   "set": "S065",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "reclining pin-up pose, propped, knee raised",
+   "problem": false
+  },
+  {
+   "set": "U004",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "double peace, cute",
+   "problem": false
+  },
+  {
+   "set": "U007",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "rabbit-ears gesture, cute",
+   "problem": false
+  },
+  {
+   "set": "U017",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "shy self-hug, arms crossed",
+   "problem": false
+  },
+  {
+   "set": "U026",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "hands together in front, prayer-like",
+   "problem": false
+  },
+  {
+   "set": "U028",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "arms under chest pushing it up, chest-centred",
+   "problem": false
+  },
+  {
+   "set": "U037",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "hands cupping the chest, chest-centred",
+   "problem": false
+  },
+  {
+   "set": "U038",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "arms behind, chest thrust out, camera built around chest",
+   "problem": false
+  },
+  {
+   "set": "U051",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "hands cupping chest from the sides",
+   "problem": false
+  },
+  {
+   "set": "U052",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "hands on chest with spread fingers",
+   "problem": false
+  },
+  {
+   "set": "U053",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "arms crossed covering chest, not pushed out",
+   "problem": false
+  },
+  {
+   "set": "U072",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "hands pressed on chest, chest forward",
+   "problem": false
+  },
+  {
+   "set": "U078",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "hand over chest and hand under, arm gesture",
+   "problem": false
+  }
+ ]
+}
