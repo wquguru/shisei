@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/logo.svg" width="72" alt="Shisei">
+<a href="https://shisei.indaloop.app/en/"><img src="docs/logo.svg" width="72" alt="Shisei"></a>
 
 # Shisei 姿勢
 
@@ -23,7 +23,7 @@ English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readm
 > **Content note:** the sexy and duo series are suggestive adult pose references (faceless mannequins, no
 > nudity detail). They are kept out of previews and search pages, and the gallery hides them until you turn them on.
 
-![Shisei gallery: hero with a marquee of mannequin poses on pastel category tiles](docs/screenshot.png)
+[![Shisei gallery: hero with a marquee of mannequin poses on pastel category tiles](docs/screenshot.png)](https://shisei.indaloop.app/en/)
 
 Shisei is a self-made pose reference library. Every pose is a faceless mannequin drawn from five angles — front,
 three-quarter, side, above and below — so you can feed the same pose to an image model from whichever camera you

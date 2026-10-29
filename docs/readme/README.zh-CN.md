@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../logo.svg" width="72" alt="Shisei">
+<a href="https://shisei.indaloop.app/"><img src="../logo.svg" width="72" alt="Shisei"></a>
 
 # Shisei 姿勢
 
@@ -22,7 +22,7 @@
 
 > **内容提示：**全身・性感和双人系列是偏性感的成人姿势参考（素体人偶，无裸露细节），不进预览和搜索页面，图库里默认隐藏，打开开关才显示。
 
-![Shisei 画廊：首屏是一排排彩色分类色块上的素体姿势](../screenshot.png)
+[![Shisei 画廊：首屏是一排排彩色分类色块上的素体姿势](../screenshot.png)](https://shisei.indaloop.app/)
 
 Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体，画了正面、斜侧、侧面、俯视、仰视五个机位，需要哪个角度就拿哪张喂给模型。姿势名和分类有日、中、英、韩四种语言。
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../logo.svg" width="72" alt="Shisei">
+<a href="https://shisei.indaloop.app/ko/"><img src="../logo.svg" width="72" alt="Shisei"></a>
 
 # Shisei 姿勢
 
@@ -22,7 +22,7 @@
 
 > **콘텐츠 안내:** 전신・섹시와 2인 시리즈는 다소 선정적인 성인용 포즈 참고입니다(마네킹, 노출 묘사 없음). 미리보기와 검색용 페이지에는 넣지 않으며, 갤러리에서는 스위치를 켜야 표시됩니다.
 
-![Shisei 갤러리: 카테고리 색 타일 위에 마네킹 포즈가 늘어선 첫 화면](../screenshot.png)
+[![Shisei 갤러리: 카테고리 색 타일 위에 마네킹 포즈가 늘어선 첫 화면](../screenshot.png)](https://shisei.indaloop.app/ko/)
 
 Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는 얼굴 없는 마네킹으로, 정면·사선·측면·위에서·아래에서의 다섯 앵글로 그렸습니다. 필요한 카메라 위치의 한 장을 그대로 이미지 모델에 넣으면 됩니다. 포즈 이름과 카테고리는 일본어·중국어·영어·한국어 네 가지 언어로 제공합니다.
 

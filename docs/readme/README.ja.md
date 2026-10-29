@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../logo.svg" width="72" alt="Shisei">
+<a href="https://shisei.indaloop.app/ja/"><img src="../logo.svg" width="72" alt="Shisei"></a>
 
 # Shisei 姿勢
 
@@ -22,7 +22,7 @@
 
 > **ご注意：**全身・セクシーとふたりのシリーズは、やや性的な成人向けポーズ参考です（素体、露出の描写なし）。プレビューや検索用ページには出さず、ギャラリーではスイッチを入れるまで表示されません。
 
-![Shisei ギャラリー：カテゴリ色のタイルに素体ポーズが並ぶトップ画面](../screenshot.png)
+[![Shisei ギャラリー：カテゴリ色のタイルに素体ポーズが並ぶトップ画面](../screenshot.png)](https://shisei.indaloop.app/ja/)
 
 Shisei は自作のポーズ参照ライブラリです。すべてのポーズは顔なしの素体で、正面・斜め・横・上から・下からの五つのアングルで描いています。必要なカメラ位置の一枚をそのまま画像モデルに渡せます。ポーズ名とカテゴリは日本語・中国語・英語・韓国語の四か国語です。
 
