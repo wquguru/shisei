@@ -38,11 +38,11 @@ All images are original to this project.
 |---|---:|---:|---|
 | Full body · standard (`std`, P###) | 71 of 73 | 287 / 365 | shown |
 | Upper body (`upper`, U###) | 80 of 80 | 337 / 400 | shown |
-| Full body · sexy (`sexy`, S###) | 80 of 80 | 323 / 400 | hidden; a switch shows it |
-| Duo (`duo`, D###) | 49 of 55 | 186 / 275 | hidden; a switch shows it |
+| Full body · sexy (`sexy`, S###) | 80 of 80 | 323 / 400 | blurred until tapped or switched on |
+| Duo (`duo`, D###) | 49 of 55 | 186 / 275 | blurred until tapped or switched on |
 
-Poses rated `suggestive` (the sexy and duo series, upper's Sexy and Chest emphasis) are hidden by default and kept off
-the marquee, pose pages, share cards and sitemap; one switch shows them.
+Poses rated `suggestive` (the sexy and duo series, upper's Sexy and Chest emphasis) are blurred in the gallery by default and kept off
+the marquee, pose pages, share cards and sitemap; tap one to see it, or one switch shows them all.
 
 - **Every view is reviewed** ([docs/qc/](docs/qc/README.md)). A view that fails (nipple marks, a face or hair,
   clothing, background, broken anatomy, the wrong camera angle, a figure that reads as a minor, or a drawing that is not

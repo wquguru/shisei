@@ -23,7 +23,7 @@ two are rated suggestive. Plus photo renders for 23 std sets, a four-language ca
   enters `images/`; photo renders likewise need a `pass` in qc.json `photos` (docs/qc/photo_prompt.md). Never mark a
   view `pass` by hand to get it in.
 - **Ratings.** Every pose has `rating` (`general` / `suggestive`). Everything that passed QC is public; suggestive poses
-  are hidden by default behind one show switch and stay out of the marquee, pose pages, share cards and sitemap (D-06).
+  are blurred in the gallery by default (tap one to see it, one switch shows all) and stay out of the marquee, pose pages, share cards and sitemap (D-06).
   Nipple marks, exposure, genital detail and a figure that reads as a minor are generation errors: they fail QC.
   A per-pose rating change is a human decision recorded in `data/rating_overrides.json`, not a catalog edit:
   `import_series.py` applies it on re-import and `verify.py` checks it.
