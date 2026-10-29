@@ -5,16 +5,19 @@
   const I18N = window.I18N;
   const LANGS = ['zh', 'ja', 'en', 'ko'];
   const VIEWS = ['front', 'diag', 'side', 'above', 'below'];
-  const SERIES = ['std', 'upper', 'sexy'];
+  const SERIES = ['std', 'upper', 'sexy', 'duo'];
   // Categories per series, keyed by the catalog's class_en. std's order matches I18N[*].cats (its catalog names are
   // long); the other series use their catalog class_* names as labels.
   const CATS = {
     std: [['Sitting', '#D3D1E6'], ['Standing', '#AFC3E0'], ['Kneeling', '#BCD3C6'], ['Lying', '#E3CBB0'], ['Side sit / W-sit', '#EBC0BC'],
       ['Squatting', '#C7DCD6'], ['Leaning forward', '#E6B7A1'], ['Arching back', '#CBD0AC'], ['Twist', '#DDB9C8']],
     upper: [['Cute', '#EBC0BC'], ['Sexy', '#E6B7A1'], ['Chest emphasis', '#CBD0AC']],
-    sexy: [['Standing', '#AFC3E0'], ['Sitting', '#D3D1E6'], ['Lying', '#E3CBB0'], ['Kneeling & all fours', '#BCD3C6'], ['Special', '#DDB9C8']]
+    sexy: [['Standing', '#AFC3E0'], ['Sitting', '#D3D1E6'], ['Lying', '#E3CBB0'], ['Kneeling & all fours', '#BCD3C6'], ['Special', '#DDB9C8']],
+    duo: [['Face-to-face lying', '#E3CBB0'], ['From-behind', '#E6B7A1'], ['Seated, back to partner', '#D3D1E6'], ['Face-close', '#EBC0BC'],
+      ['Straddling', '#DDB9C8'], ['Standing', '#AFC3E0'], ['Standing close', '#C7DCD6'], ['Side-lying', '#CBD0AC'], ['Seated', '#D3D1E6'],
+      ['Face-to-face seated', '#BCD3C6'], ['Seated close', '#D3D1E6'], ['Lying', '#E3CBB0'], ['Close contact', '#EBC0BC']]
   };
-  // Suggestive poses (the sexy series, upper's Sexy / Chest emphasis) show by default; the reader can hide them (DECISIONS D-06).
+  // Suggestive poses (the sexy and duo series, upper's Sexy / Chest emphasis) show by default; the reader can hide them (DECISIONS D-06).
   const SHOW_SUGGESTIVE_DEFAULT = true;
   const TOOLS = ['ComfyUI', 'Stable Diffusion', 'Flux', 'Midjourney', 'Nano Banana', 'Qwen-Image', '即梦'];
   const NAME_LABEL = { cn: 'ZH', jp: 'JA', en: 'EN', kr: 'KO' };
@@ -535,7 +538,7 @@
 
   // Deep links: #P001, #P001-diag, #P001-diag-photo
   function openFromHash() {
-    const m = location.hash.match(/^#([PSU]\d{3})(?:-(front|diag|side|above|below))?(-photo)?$/);
+    const m = location.hash.match(/^#([PSUD]\d{3})(?:-(front|diag|side|above|below))?(-photo)?$/);
     if (m && byId.has(m[1])) openLb(m[1], m[2] ? VIEWS.indexOf(m[2]) : 0, !!m[3]);
   }
   window.addEventListener('hashchange', openFromHash);
