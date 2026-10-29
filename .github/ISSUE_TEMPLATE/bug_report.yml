@@ -1,0 +1,39 @@
+name: Bug report
+description: A wrong image, a catalog or translation mistake, or the gallery misbehaving
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Image (wrong pose, artefact, wrong angle), Catalog / names / translation, Gallery page, Tools or release zip]
+    validations:
+      required: true
+  - type: input
+    id: pose
+    attributes:
+      label: Pose and view
+      description: ID and angle, or the deep link from the gallery
+      placeholder: e.g. P034 diag, or #P034-diag-photo
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: For the gallery, the URL (with query string) and the steps; a screenshot helps.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Release tag or commit hash; the gallery footer shows the version
+  - type: input
+    id: env
+    attributes:
+      label: Browser / OS
+      placeholder: e.g. Safari 26 on iOS 26

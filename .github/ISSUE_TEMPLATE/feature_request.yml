@@ -1,0 +1,25 @@
+name: Pose or feature request
+description: A pose, angle or category you need, or something the gallery should do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What are you trying to make?
+      description: The image or scene you have in mind, and where Shisei stops you today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should Shisei add?
+      description: |
+        For a pose: describe the posture in words (body, arms, legs, weight, head) and the angles you need. A stick-figure
+        sketch of your own is fine. Please do not link or attach images from other pose collections.
+    validations:
+      required: true
+  - type: input
+    id: names
+    attributes:
+      label: Suggested name (optional)
+      description: In any of ja / zh / en / ko, in the `動作・手の位置` shape
