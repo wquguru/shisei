@@ -494,7 +494,6 @@
     return '<figure class="lb-cell ' + kind + '"><img src="' + src(kind, 'w900', f) + '" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[LB.v] + ' · ' + label) + '">' +
       '<figcaption>' + esc(label) + '</figcaption></figure>';
   }
-  function renderLb() {
   // Lightbox gap: the same angle in the other medium is the best way out when it exists, else the nearest angle.
   function lbGapHtml(p, arr, photo, T) {
     const v = LB.v;
@@ -509,6 +508,7 @@
       '<span class="gap-sub">' + esc(photo ? (other ? T.gapPhotoSub : T.gapOther) : T.gapLineSub) + '</span>' +
       (acts.length ? '<span class="gap-acts">' + acts.join('') + '</span>' : '');
   }
+  function renderLb() {
     const T = t();
     const p = byId.get(LB.id);
     const m = LB.medium;
@@ -592,13 +592,13 @@
     const b = e.target.closest('[data-lbv]');
     if (b && !b.disabled) { LB.v = +b.dataset.lbv; renderLb(); }
   });
-  $('lbMedium').addEventListener('click', (e) => {
   $('lbMissing').addEventListener('click', (e) => {
     const go = e.target.closest('[data-lbgo]');
     const gm = e.target.closest('[data-lbgm]');
     if (go) { LB.v = +go.dataset.lbgo; renderLb(); }
     else if (gm) openLb(LB.id, LB.v, gm.dataset.lbgm);
   });
+  $('lbMedium').addEventListener('click', (e) => {
     const b = e.target.closest('[data-lbm]');
     if (b && !b.disabled) openLb(LB.id, LB.v, b.dataset.lbm);
   });
