@@ -24,12 +24,13 @@ __HEAD__
     <a href="__CHANGELOG__" data-i18n="navChangelog"></a>
   </div>
   <div class="nav-tools">
-    <label class="search">
-      <span class="sr" data-i18n="search"></span>
-      <input id="q" type="search" autocomplete="off" data-i18n-ph="search">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-    </label>
-    <button type="button" class="circle" id="lang" data-i18n-aria="langLabel"></button>
+    <div class="lang-menu">
+      <button type="button" class="pill light small lang-btn" id="lang" aria-expanded="false" aria-controls="langList" data-i18n-aria="langLabel">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg><span id="langName"></span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <nav class="lang-list" id="langList" data-i18n-aria="langLabel" hidden></nav>
+    </div>
     <button type="button" class="circle" id="theme" data-i18n-aria="theme">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
     </button>
@@ -47,27 +48,18 @@ __HEAD__
     <div class="mq-row mq-l" id="mq1"></div>
     <div class="mq-row mq-r" id="mq2"></div>
   </div>
+  <div class="hero-series" id="heroSeries"></div>
   <div class="cta">
     <a class="pill dark big" href="#all"><span data-i18n="browse"></span>
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14m0 0-6-6m6 6 6-6"/></svg></a>
-    <a class="pill light big" href="__REPO__/releases/latest">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg><span data-i18n="downloadAll"></span></a>
+    <button type="button" class="pill light big" data-open="dl" aria-haspopup="dialog">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg><span data-i18n="downloadAll"></span><b class="size-tag" data-pack-size="all"></b></button>
   </div>
   <div class="works">
     <span class="eyebrow" data-i18n="worksWith"></span>
     <div class="chips-static" id="tools"></div>
   </div>
 </header>
-
-<section class="wrap section" aria-labelledby="new-title">
-  <div class="sec-head">
-    <h2 id="new-title" data-i18n="newTitle"></h2>
-    <button type="button" class="linkarrow" id="viewNew"><span data-i18n="viewAll"></span>
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14m0 0-6-6m6 6-6 6"/></svg></button>
-  </div>
-  <p class="sec-sub" data-i18n="newSub"></p>
-  <div class="featured" id="featured"></div>
-</section>
 
 <section class="wrap section" id="all" aria-labelledby="all-title">
   <div class="sec-head">
@@ -134,7 +126,7 @@ __NOSCRIPT__
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg><span id="lbDlText"></span></a>
         <div class="lb-row">
           <button type="button" class="pill light" id="lbCopyId" data-i18n="copyId"></button>
-          <a class="pill light" href="__REPO__/releases/latest" data-i18n="fullZip"></a>
+          <button type="button" class="pill light" data-open="dl" aria-haspopup="dialog" data-i18n="fullZip"></button>
         </div>
         <div class="lb-row">
           <button type="button" class="pill light" id="lbShare">
@@ -156,6 +148,10 @@ __NOSCRIPT__
   <div class="info-h"><h2 id="termsT" data-i18n="termsTitle"></h2><button type="button" class="circle" data-close data-i18n-aria="close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
   <ul id="termsList"></ul>
 </dialog>
+<dialog class="info dl" id="dlgDl" aria-labelledby="dlT">
+  <div class="info-h"><div><h2 id="dlT" data-i18n="downloadAll"></h2><p class="dl-lic" id="dlLic"></p></div><button type="button" class="circle" data-close data-i18n-aria="close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <div id="dlBody"></div>
+</dialog>
 <dialog class="sheet" id="sheet" aria-labelledby="sheetT">
   <span class="grip" aria-hidden="true"></span>
   <div class="info-h"><h2 id="sheetT" data-i18n="filters"></h2><button type="button" class="circle" data-close data-i18n-aria="close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
@@ -168,7 +164,7 @@ __NOSCRIPT__
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script id="catalog" type="application/json">__CATALOG__</script>
-<script>window.SHISEI = { repo: '__REPO__', version: '__VERSION__', base: '__BASE__', lang: '__LOC__' };</script>
+<script>window.SHISEI = { repo: '__REPO__', version: '__VERSION__', base: '__BASE__', lang: '__LOC__', packs: __PACKS__ };</script>
 <script src="__BASE__i18n.js?v=__VERSION__"></script>
 <script src="__BASE__common.js?v=__VERSION__"></script>
 <script src="__BASE__app.js?v=__VERSION__"></script>

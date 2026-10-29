@@ -240,15 +240,18 @@ def main() -> None:
     # Gallery home per language
     tpl = (ROOT / "web/index.html").read_text()
     compact = json.dumps(catalog, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    # Download sizes for the gallery's download panel; without a packs.json the panel links to the latest Release.
+    packs_file = ROOT / "data/packs.json"
+    packs = json.loads(packs_file.read_text()) if packs_file.exists() else None
+    if packs and packs["version"] != ver:
+        print(f"warning: data/packs.json is for v{packs['version']}, the site is v{ver}", file=sys.stderr)
     for loc in LOCS:
         T = S[loc]
         rel = Site.rel(PREFIX[loc])
         home = site.abs(PREFIX[loc])
         ld = {"@context": "https://schema.org", "@graph": [
             {"@type": "WebSite", "name": "Shisei", "alternateName": "Shisei 姿勢", "url": home, "inLanguage": HTML_LANG[loc],
-             "description": T["metaDesc"],
-             "potentialAction": {"@type": "SearchAction", "target": home + "?q={search_term_string}#all",
-                                 "query-input": "required name=search_term_string"}},
+             "description": T["metaDesc"]},
             {"@type": "Dataset", "name": T["metaTitle"], "description": T["metaDesc"], "url": home,
              "inLanguage": HTML_LANG[loc], "version": ver, "license": site_pages.LICENSE,
              "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json",
@@ -261,7 +264,8 @@ def main() -> None:
         doc = (tpl.replace("__HEAD__", head).replace("__HTMLLANG__", HTML_LANG[loc]).replace("__LOC__", loc)
                .replace("__SKIP__", esc(T["skip"])).replace("__NOSCRIPT__", noscript)
                .replace("__CHANGELOG__", f"{rel}{PREFIX[loc]}changelog/").replace("__BASE__", rel)
-               .replace("__CATALOG__", compact).replace("__REPO__", site.repo).replace("__VERSION__", ver))
+               .replace("__CATALOG__", compact).replace("__REPO__", site.repo).replace("__VERSION__", ver)
+               .replace("__PACKS__", json.dumps(packs, separators=(",", ":"))))
         write(PREFIX[loc], doc)
 
         for i in range(len(poses)):

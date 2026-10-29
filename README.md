@@ -63,12 +63,13 @@ the figure consistent across shots. Face, clothing and background come from your
 | `w900` | `images/*/w900/` | 900 × 1200 | ~26 KB |
 | full | [Releases](../../releases) zip | 1344 × 1792 (photos 1120 × 2240) | ~100 KB |
 
-The repository holds the two web tiers (about 17 MB). Full-size originals ship as a Release asset so cloning stays
-fast.
+The repository holds the two web tiers (about 17 MB). Each Release carries the downloads the gallery offers: the w900
+tier as one zip per series and one for everything (recommended, about a quarter of the originals' size), plus the
+originals. Only views that passed QC go in, and every zip includes LICENSE and NOTICE.
 
 ## Gallery
 
-`web/` is a zero-dependency static gallery built from the catalog: category tabs, search, an angle filter, a
+`web/` is a zero-dependency static gallery built from the catalog: category tabs, an angle filter, a
 line-art / photo switch, a by-pose or single-image view, a lightbox with keyboard and swipe navigation, four UI
 languages and a dark theme. The spec is in [docs/DESIGN.md](docs/DESIGN.md).
 
@@ -87,7 +88,7 @@ Deep links open the lightbox directly: `#P001-diag`, `#P001-diag-photo`; filters
 data/       catalog.json, catalog.csv — the source of truth
 images/     line/ and photo/, each with w300/ and w900/ tiers
 web/        static gallery source (index.html, app.js, app.css, i18n.js)
-tools/      build_images.py, build_site.py, verify.py, qc_merge.py, review_sheets.py, pack_release.sh
+tools/      build_images.py, build_site.py, verify.py, qc_merge.py, review_sheets.py, pack_release.py
 docs/       DESIGN, DECISIONS, GENERATION, LICENSING, translated READMEs, logo, screenshot
 ```
 

@@ -53,11 +53,11 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 | `w900` | `images/*/w900/` | 900×1200 | 26 KB |
 | 原图 | [Releases](../../../../releases) 压缩包 | 1344×1792（实拍 1120×2240） | 100 KB |
 
-仓库里只放网页用的两档，约 17 MB；全尺寸原图放在 Release 压缩包里，克隆会快很多。
+仓库里只放网页用的两档，约 17 MB，克隆会快很多。每个 Release 附带画廊里的下载：w900 档按系列各一个压缩包、再加一个全系列包（推荐，体积约为原图的四分之一），以及原图包。只打包质检通过的机位，每个压缩包都带 LICENSE 和 NOTICE。
 
 ## 画廊
 
-`web/` 是从 catalog 生成的零依赖静态画廊：分类标签、搜索、机位筛选、线稿 / 实拍切换、按套或单张浏览、支持键盘和滑动的大图灯箱、四种界面语言和深色模式。规格见 [DESIGN.md](../DESIGN.md)。
+`web/` 是从 catalog 生成的零依赖静态画廊：分类标签、机位筛选、线稿 / 实拍切换、按套或单张浏览、支持键盘和滑动的大图灯箱、四种界面语言和深色模式。规格见 [DESIGN.md](../DESIGN.md)。
 
 ```bash
 python3 tools/build_site.py --link-images      # 生成 site/（图片用符号链接，预览快）
@@ -73,7 +73,7 @@ python3 tools/build_site.py                    # 可部署的完整副本，约 
 data/       catalog.json、catalog.csv：唯一的数据源
 images/     line/ 和 photo/，各有 w300/ 和 w900/ 两档
 web/        静态画廊源码（index.html、app.js、app.css、i18n.js）
-tools/      build_images.py、build_site.py、verify.py、qc_merge.py、review_sheets.py、pack_release.sh
+tools/      build_images.py、build_site.py、verify.py、qc_merge.py、review_sheets.py、pack_release.py
 docs/       DESIGN、DECISIONS、GENERATION、LICENSING、各语言 README、logo、截图
 ```
 

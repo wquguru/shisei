@@ -53,11 +53,11 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 | `w900` | `images/*/w900/` | 900 × 1200 | 約 26 KB |
 | 原寸 | [Releases](../../../../releases) の zip | 1344 × 1792（実写 1120 × 2240） | 約 100 KB |
 
-リポジトリには Web 用の 2 サイズ（約 17 MB）だけを置き、原寸画像は Release の zip で配布しているので、クローンは軽く済みます。
+リポジトリには Web 用の 2 サイズ（約 17 MB）だけを置いているので、クローンは軽く済みます。各 Release にはギャラリーのダウンロードを添付しています。w900 をシリーズごとの zip と全シリーズの zip（おすすめ、原寸の約 4 分の 1）にまとめたものと、原寸の zip です。品質チェックを通ったアングルだけを収録し、どの zip にも LICENSE と NOTICE が入っています。
 
 ## ギャラリー
 
-`web/` はカタログから生成する依存ゼロの静的ギャラリーです。カテゴリタブ、検索、アングル絞り込み、線画 / 実写の切り替え、ポーズ単位・一枚単位の表示、キーボードとスワイプで操作できるライトボックス、四か国語の UI、ダークモードに対応しています。仕様は [DESIGN.md](../DESIGN.md) にあります。
+`web/` はカタログから生成する依存ゼロの静的ギャラリーです。カテゴリタブ、アングル絞り込み、線画 / 実写の切り替え、ポーズ単位・一枚単位の表示、キーボードとスワイプで操作できるライトボックス、四か国語の UI、ダークモードに対応しています。仕様は [DESIGN.md](../DESIGN.md) にあります。
 
 ```bash
 python3 tools/build_site.py --link-images      # site/ を生成（画像はシンボリックリンクで高速プレビュー）
@@ -73,7 +73,7 @@ python3 tools/build_site.py                    # 画像込みのデプロイ用�
 data/       catalog.json、catalog.csv — 唯一のデータソース
 images/     line/ と photo/、それぞれ w300/ と w900/
 web/        静的ギャラリーのソース（index.html、app.js、app.css、i18n.js）
-tools/      build_images.py、build_site.py、verify.py、qc_merge.py、review_sheets.py、pack_release.sh
+tools/      build_images.py、build_site.py、verify.py、qc_merge.py、review_sheets.py、pack_release.py
 docs/       DESIGN、DECISIONS、GENERATION、LICENSING、各言語の README、ロゴ、スクリーンショット
 ```
 

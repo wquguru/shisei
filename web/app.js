@@ -26,6 +26,7 @@
   // link previews see it in that language; BASE leads back to the site root from here.
   const BASE = window.SHISEI.base || '';
   const PREFIX = { zh: '', ja: 'ja/', en: 'en/', ko: 'ko/' };
+  const SERIES_TINT = { std: '#AFC3E0', upper: '#D3D1E6', sexy: '#EBC0BC', duo: '#BCD3C6' };
   const PACKS = window.SHISEI.packs;  // null when the build found no data/packs.json
   const mb = (b) => { const m = b / 1e6; return (m < 10 ? m.toFixed(1) : Math.round(m)) + ' MB'; };
   const DL_ICON = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>';
@@ -138,7 +139,7 @@
     document.querySelector('.hero-sub').textContent = T.heroSub(n);
     document.querySelector('[data-i18n="browse"]').textContent = T.browse(n);
     $('heroSeries').innerHTML = SERIES.map((k) => [k, poses.filter((p) => p.series === k).length]).filter((x) => x[1])
-      .map(([k, c]) => '<span><i style="background:' + CATS[k][0][1] + '"></i>' + esc(T.series[k]) + '<b>' + c + '</b></span>').join('');
+      .map(([k, c]) => '<span><i style="background:' + SERIES_TINT[k] + '"></i>' + esc(T.series[k]) + '<b>' + c + '</b></span>').join('');
     document.querySelectorAll('[data-pack-size]').forEach((el) => {
       const k = PACKS && PACKS.packs[el.dataset.packSize];
       el.textContent = k ? mb(k.bytes) : '';
@@ -404,7 +405,7 @@
       '<p class="dl-note">' + esc(T.dlNote(Math.round(P.original.bytes / P.all.bytes))) + '</p>' +
       row('all', 'main', esc(T.dlAll) + ' <em>' + esc(T.dlRec) + '</em>', T.dlSetsAll(P.all.sets)) +
       '<h3>' + esc(T.dlBySeries) + '</h3>' +
-      series.map((k) => row(k, '', esc(T.series[k]), T.dlSets(P[k].sets), CATS[k][0][1])).join('') +
+      series.map((k) => row(k, '', esc(T.series[k]), T.dlSets(P[k].sets), SERIES_TINT[k])).join('') +
       '<h3 class="dl-sep">' + esc(T.dlOriginal) + '</h3>' +
       row('original', 'orig', esc(T.dlOriginalAll), '');
   }
