@@ -4,12 +4,12 @@
 
 # Shisei 姿勢
 
-**무료(CC0) 마네킹 포즈 자료. 4개 시리즈 256가지 포즈 × 5개 앵글의 선화를 Nano Banana, ChatGPT, ComfyUI, Midjourney 등 AI 그림 도구의 포즈 참고로 바로 쓸 수 있습니다.**
+**무료(CC0) 마네킹 포즈 자료. 4개 시리즈 255가지 포즈 × 5개 앵글의 선화를 Nano Banana, ChatGPT, ComfyUI, Midjourney 등 AI 그림 도구의 포즈 참고로 바로 쓸 수 있습니다.**
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
-[![Poses](https://img.shields.io/badge/포즈-256-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/선화-1049%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Poses](https://img.shields.io/badge/포즈-255-15171A?style=flat-square)](../../data/catalog.json)
+[![Line art](https://img.shields.io/badge/선화-999%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/실사-103-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/이름-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/런타임%20의존성-0-E07A52?style=flat-square)](../../web)

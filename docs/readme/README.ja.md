@@ -4,12 +4,12 @@
 
 # Shisei 姿勢
 
-**無料（CC0）の素体ポーズ集。4 シリーズ 256 ポーズ × 5 アングルの線画を、Nano Banana・ChatGPT・ComfyUI・Midjourney など画像生成 AI のポーズ指定にそのまま使えます。**
+**無料（CC0）の素体ポーズ集。4 シリーズ 255 ポーズ × 5 アングルの線画を、Nano Banana・ChatGPT・ComfyUI・Midjourney など画像生成 AI のポーズ指定にそのまま使えます。**
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
-[![Poses](https://img.shields.io/badge/ポーズ-256-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/線画-1049%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Poses](https://img.shields.io/badge/ポーズ-255-15171A?style=flat-square)](../../data/catalog.json)
+[![Line art](https://img.shields.io/badge/線画-999%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/実写-103-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/ランタイム依存-0-E07A52?style=flat-square)](../../web)

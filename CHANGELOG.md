@@ -14,6 +14,7 @@ the catalog schema.
 - Page titles, descriptions, hero headings and README taglines now say what people search for in each language:
   白模 / 素体ポーズ集 / mannequin pose reference / 마네킹 포즈 자료, free CC0, and the AI tools (Nano Banana, ChatGPT,
   ComfyUI, Midjourney).
+- README screenshot retaken from the live gallery; README pose and view counts brought up to date.
 
 ### Removed
 - P006 front view: the drawing has three arms, which the QC review missed. Manual QC results now go in

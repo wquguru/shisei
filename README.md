@@ -4,13 +4,13 @@
 
 # Shisei 姿勢
 
-**A free (CC0) mannequin pose reference library: 256 poses in four series × 5 camera angles, drawn as clean line art
+**A free (CC0) mannequin pose reference library: 255 poses in four series × 5 camera angles, drawn as clean line art
 for Nano Banana, ChatGPT, ComfyUI, Midjourney and other AI image tools.**
 
 English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md)
 
-[![Poses](https://img.shields.io/badge/poses-256-15171A?style=flat-square)](data/catalog.json)
-[![Line art](https://img.shields.io/badge/line%20art-1049%20QC%20passed-1A5CC8?style=flat-square)](docs/GENERATION.md)
+[![Poses](https://img.shields.io/badge/poses-255-15171A?style=flat-square)](data/catalog.json)
+[![Line art](https://img.shields.io/badge/line%20art-999%20QC%20passed-1A5CC8?style=flat-square)](docs/GENERATION.md)
 [![Photos](https://img.shields.io/badge/photos-103-5B616A?style=flat-square)](docs/GENERATION.md)
 [![Languages](https://img.shields.io/badge/names-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/runtime%20deps-0-E07A52?style=flat-square)](web)
