@@ -8,9 +8,9 @@
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
-[![Poses](https://img.shields.io/badge/ポーズ-255-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/線画-999%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
-[![Photos](https://img.shields.io/badge/実写-103-5B616A?style=flat-square)](../GENERATION.md)
+[![Poses](https://img.shields.io/badge/ポーズ-280-15171A?style=flat-square)](../../data/catalog.json)
+[![Line art](https://img.shields.io/badge/線画-1133%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Photos](https://img.shields.io/badge/実写-89-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/ランタイム依存-0-E07A52?style=flat-square)](../../web)
 [![Images](https://img.shields.io/badge/images-CC0--1.0-blue?style=flat-square)](../../LICENSE-images)
@@ -32,16 +32,17 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 
 | シリーズ | 表示ポーズ | 品質チェック合格 | サイトでの扱い |
 |---|---:|---:|---|
-| 全身・標準（`std`、P###） | 50 / 73 | 208 / 365 | 表示 |
-| 上半身（`upper`、U###） | 77 / 80 | 307 / 400 | 表示 |
-| 全身・セクシー（`sexy`、S###） | 80 / 80 | 341 / 400 | 非表示（スイッチで表示できます） |
-| ふたり（`duo`、D###） | 49 / 55 | 193 / 275 | 非表示（スイッチで表示できます） |
+| 全身・標準（`std`、P###） | 71 / 73 | 287 / 365 | 表示 |
+| 上半身（`upper`、U###） | 80 / 80 | 337 / 400 | 表示 |
+| 全身・セクシー（`sexy`、S###） | 80 / 80 | 323 / 400 | 非表示（スイッチで表示できます） |
+| ふたり（`duo`、D###） | 49 / 55 | 186 / 275 | 非表示（スイッチで表示できます） |
 
 `suggestive` のポーズ（全身・セクシー、ふたり、上半身のセクシー系・胸元強調系）は初期状態で非表示で、トップのスクロール、ポーズページ、シェアカード、sitemap には入りません。スイッチひとつでまとめて表示できます。
 
-- **すべてのアングルを品質チェック**しています（[docs/qc/](../qc/README.md)）。乳首の印、顔や髪、衣服、背景、崩れた構造、違うアングル、未成年に見える人物、名前と違うポーズのものは `images/` と catalog から外し、理由を `data/qc.json` に残しています。std の 23 ポーズは名前と絵が合わないため、名前を直すまで非表示です。
+- **すべてのアングルを品質チェック**しています（[docs/qc/](../qc/README.md)）。乳首の印、顔や髪、衣服、背景、崩れた構造、違うアングル、未成年に見える人物、名前と違うポーズのものは `images/` と catalog から外し、理由を `data/qc.json` に残しています。
+- 元の絵が 2 アングル以下、または名前と違うポーズだった 43 セットは、別の生成元で描き直しました（catalog の `source: digi`。少し違うマネキンで、俯瞰・あおりの角度は控えめ。セット単位で差し替え、混在はさせません）。P038 と P052 は名前と絵が合わないため非表示のままです。
 - 生成できなかったアングルは、崩れた絵で埋めずに空けています。
-- **実写 103 枚**（std の P001–P022 と P050）。線画と同じく品質チェック済みです。AI 生成の成人で、実在の人物ではありません。
+- **実写 89 枚**（std の P001–P022 と P050。P019・P020・P022 は旧い絵のポーズなので外しています）。線画と同じく品質チェック済みです。AI 生成の成人で、実在の人物ではありません。
 - `data/catalog.json` / `catalog.csv`：シリーズ、レーティング、4 言語の分類と名前、std の英語ポーズ説明、アングルごとのファイル、空欄の理由。
 
 ## 使い方

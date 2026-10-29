@@ -8,9 +8,9 @@
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
-[![Poses](https://img.shields.io/badge/포즈-255-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/선화-999%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
-[![Photos](https://img.shields.io/badge/실사-103-5B616A?style=flat-square)](../GENERATION.md)
+[![Poses](https://img.shields.io/badge/포즈-280-15171A?style=flat-square)](../../data/catalog.json)
+[![Line art](https://img.shields.io/badge/선화-1133%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Photos](https://img.shields.io/badge/실사-89-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/이름-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/런타임%20의존성-0-E07A52?style=flat-square)](../../web)
 [![Images](https://img.shields.io/badge/images-CC0--1.0-blue?style=flat-square)](../../LICENSE-images)
@@ -32,16 +32,17 @@ Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는
 
 | 시리즈 | 표시 포즈 | 품질 검사 통과 앵글 | 사이트에서 |
 |---|---:|---:|---|
-| 전신・표준 (`std`, P###) | 50 / 73 | 208 / 365 | 표시 |
-| 상반신 (`upper`, U###) | 77 / 80 | 307 / 400 | 표시 |
-| 전신・섹시 (`sexy`, S###) | 80 / 80 | 341 / 400 | 숨김 (스위치로 표시할 수 있음) |
-| 2인 (`duo`, D###) | 49 / 55 | 193 / 275 | 숨김 (스위치로 표시할 수 있음) |
+| 전신・표준 (`std`, P###) | 71 / 73 | 287 / 365 | 표시 |
+| 상반신 (`upper`, U###) | 80 / 80 | 337 / 400 | 표시 |
+| 전신・섹시 (`sexy`, S###) | 80 / 80 | 323 / 400 | 숨김 (스위치로 표시할 수 있음) |
+| 2인 (`duo`, D###) | 49 / 55 | 186 / 275 | 숨김 (스위치로 표시할 수 있음) |
 
 `suggestive` 등급 포즈(전신・섹시, 2인, 상반신의 섹시계·가슴 강조계)는 기본으로 숨겨지며, 첫 화면 스크롤, 포즈 페이지, 공유 카드, sitemap에는 들어가지 않습니다. 스위치 하나로 모두 표시할 수 있습니다.
 
-- **모든 앵글을 품질 검사**했습니다([docs/qc/](../qc/README.md)). 유두 표시, 얼굴이나 머리카락, 옷, 배경, 망가진 구조, 잘못된 앵글, 미성년자로 보이는 인물, 이름과 다른 포즈는 `images/`와 catalog에서 뺐고, 이유는 `data/qc.json`에 남겼습니다. std의 23개 세트는 그림이 이름과 달라 이름을 고칠 때까지 숨깁니다.
+- **모든 앵글을 품질 검사**했습니다([docs/qc/](../qc/README.md)). 유두 표시, 얼굴이나 머리카락, 옷, 배경, 망가진 구조, 잘못된 앵글, 미성년자로 보이는 인물, 이름과 다른 포즈는 `images/`와 catalog에서 뺐고, 이유는 `data/qc.json`에 남겼습니다. 
+- 원래 그림이 2앵글 이하였거나 이름과 다른 포즈였던 43개 세트는 다른 생성원으로 다시 그렸습니다(catalog의 `source: digi`. 약간 다른 마네킹이고 위·아래 앵글이 완만합니다. 세트 단위로 교체하며 섞지 않습니다). P038과 P052는 그림이 이름과 달라 계속 숨깁니다.
 - 생성하지 못한 앵글은 잘못된 그림으로 채우지 않고 비워 둡니다.
-- **실사 103장** (std의 P001–P022, P050). 선화와 같이 품질 검사를 거쳤습니다. AI로 생성한 성인이며 실존 인물이 아닙니다.
+- **실사 89장** (std의 P001–P022, P050. P019·P020·P022는 예전 그림의 포즈라 뺐습니다). 선화와 같이 품질 검사를 거쳤습니다. AI로 생성한 성인이며 실존 인물이 아닙니다.
 - `data/catalog.json` / `catalog.csv`: 시리즈, 등급, 4개 언어 분류와 이름, std의 영문 포즈 설명, 앵글별 파일, 빈 앵글의 이유.
 
 ## 사용 방법

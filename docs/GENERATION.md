@@ -18,6 +18,18 @@
 - 成品 252/275，生成阶段缺 23 格（四个系列里被拒率最高，双人接触 + 正面机位最甚）；D022 整套未成。明细见源包 README，已记成 `gaps: missing`。
 - 全系 `rating: suggestive`。
 
+## 重画补缺 digi（2026-10-29，43 套）
+另一个会话（comfyui-digi）用同一份姿势目录、同一个基准素体重画了 66 套 shisei 缺图或画错的套，交付 290 格 900×1200 PNG
+（含每套四语标签和它自己的质检结果，只作参考）。素体是蛋形头、带结构线和球关节，比原画略丰满；俯视约 30°，仰视约 45° 偏左低角度。
+- 暂存：`tools/import_redraws.py` 无损转成 `~/Downloads/pose-gallery-digi66/img/<series>_<ID>_<view>.webp`（源包 index、README、labels 一并拷过去，只读），
+  catalog 里这些姿势加 `source: "digi"`、整套换成新画的机位。名字、分类、分级、`orig_id` 都不动（ja 为准，不用对方的译名）。
+- 质检：按 [qc/README.md](qc/README.md) 第三轮重新审，对方的结果不入库。
+- 选套（人定）：旧画优先，新画通过的机位比旧画多才整套换，不按机位混用（五个机位必须是同一张画的同一个姿势）。66 套里 43 套换：
+  P019、P020、P022、P025、P026、P027、P029、P030、P031、P032、P033、P034、P035、P036、P037、P040、P043、P044、P045、P046、P047、P048、P054、P073、S011、S017、S036、S037、S039、S052、S065、U004、U007、U017、U026、U028、U037、U038、U051、U052、U053、U072、U078。其余 23 套保留旧画（含 P038：新画两格过了，但肢体复核后为 0，和旧画一样）。
+- 分辨率：这 43 套的「原图」是 900×1200，Release 的 originals 包里照此发布。
+- 实拍：P019、P020、P022 的实拍是按旧画（另一个姿势）渲染的，人定下架（`photo_manual.json`），源包里仍保留。
+- 发布：`build_images.py` / `pack_release.py` / `review_sheets.py` 要多给一个 `digi=~/Downloads/pose-gallery-digi66`。
+
 ## 质检
 四个系列的线稿和实拍都过了质检，方法和结果见 [qc/README.md](qc/README.md)。
 

@@ -8,12 +8,19 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- 43 sets redrawn from a second generator (`source: digi`, D-09) where the original had at most two usable views or
+  showed another pose: 21 of the 23 hidden std sets (D-07), U051 and U072 (never generated before) and 20 sparse
+  sets. Whole sets only, after the full QC round 3. std now shows 71 of 73 sets, upper 80 of 80; 1,133 views pass.
 - Compare mode: the lightbox's source switch is now line art / photo / compare. Compare shows both at one height side
   by side (no overlay: they are framed differently), keeps the gap box for a missing side, marks angles that have both,
   and offers both 900 downloads. `L` cycles the three; deep link `#P001-diag-compare`. Pose pages with photos get a
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- The redrawn sets use a slightly different mannequin (construction lines, milder high and low angles), and their
+  full-size originals are 900 × 1200.
+- `qc_merge.py` scopes result files by `source`; `import_redraws.py` stages whole-set redraws; build, sheet, dup and
+  pack tools take a `digi=` source; `verify.py` checks sources; `catalog.csv` gains a `source` column.
 - Phone layout is more compact. The filter sheet and its button are gone: the angle, source and view switches sit in
   the sticky bar, which is down from 184 px to 114 px because the series row scrolls away. The grid defaults to three
   columns (about 11 poses per screen instead of 4.5), with a toggle back to two; the choice is kept in localStorage.
@@ -40,6 +47,7 @@ the catalog schema.
   none instead of looking live and doing nothing.
 
 ### Removed
+- Photo renders of P019, P020 and P022 (14): they show the old drawing's pose, not the redrawn one.
 - P006 front view: the drawing has three arms, which the QC review missed. Manual QC results now go in
   `data/qc-input/fail_manual.json`.
 - Eight views a reviewer had failed but `qc_merge.py` let through: the floor-line rule matched "ground" inside

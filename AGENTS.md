@@ -45,9 +45,10 @@ CONTRIBUTING.md      contributor guide; SECURITY.md, CODE_OF_CONDUCT.md; .github
 CHANGELOG.md         Keep a Changelog; every user-visible change adds a line under [Unreleased]
 data/catalog.json    288 poses: id, orig_id, series, rating, added_in, class_*, name_* (jp/cn/en/kr), desc_en,
                      views{front..below} (file or null), gaps{view: missing|line|structure}, photos{view: file},
-                     bodies (duo only: MF / FF)
+                     bodies (duo only: MF / FF), source (redrawn sets only: digi, D-09)
 data/packs.json      Release download zips: file, bytes, sets (tools/pack_release.py; the gallery shows the sizes)
-data/qc.json         per-view and per-photo QC status, reason and file name; per-set pose-name notes (docs/qc/README.md)
+data/qc.json         per-view and per-photo QC status, reason and file name; per-set pose-name notes; sources of
+                     redrawn sets (docs/qc/README.md)
 data/qc-input/       every reviewer result behind qc.json; `qc_merge.py data/qc-input` rebuilds it exactly
 data/rating_overrides.json   per-pose rating decisions that win over the category rule (human-decided)
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
@@ -62,7 +63,8 @@ site/                build output of tools/build_site.py (git-ignored; deploy th
                      _headers (Cloudflare cache rules)
 build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.py,
-                     import_series.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py, export_csv.py
+                     import_series.py, import_redraws.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py,
+                     export_csv.py
 docs/qc/             QC method, results and the reviewer prompts (panels, name, limbs, proportion, photo, rating)
 .claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
@@ -83,13 +85,15 @@ All series share `data/catalog.json`; a new series gets its own prefix and ID le
 ## 5. Common commands
 ```bash
 python3 tools/build_images.py std=~/Downloads/pose-gallery-std73 sexy=~/Downloads/pose-gallery-sexy80 \
-  upper=~/Downloads/pose-gallery-upper80 duo=~/Downloads/pose-gallery-duo55   # passing views only; prunes the rest
+  upper=~/Downloads/pose-gallery-upper80 duo=~/Downloads/pose-gallery-duo55 \
+  digi=~/Downloads/pose-gallery-digi66   # passing views only; prunes the rest. digi = redrawn sets (D-09)
 python3 tools/verify.py                                # catalog ↔ qc.json ↔ images, gaps, orphans
 python3 tools/import_series.py SRC --series X --added 0.2.0 [--general Cute]   # merge a new series
+python3 -I tools/import_redraws.py SRC OUT --source digi --only P019,…   # whole-set redraws, then QC (D-09)
 python3 tools/qc_merge.py data/qc-input               # apply review results (docs/qc/README.md)
 python3 tools/build_site.py --link-images && python3 -m http.server 8000 -d site   # preview the gallery
 python3 -I tools/build_site.py --public --site https://shisei.indaloop.app   # deploy build (D-05); share cards need Chrome, --no-og skips
-python3 -I tools/pack_release.py 0.2.0 std=… upper=… sexy=… duo=…   # dist/*.zip + sha256, data/packs.json
+python3 -I tools/pack_release.py 0.2.0 std=… upper=… sexy=… duo=… digi=…   # dist/*.zip + sha256, data/packs.json
 ```
 
 ## 6. Way of working
@@ -134,5 +138,6 @@ adding a new image series.
 | Fill P062 below | ☐ open |
 | upper + sexy series, line-art QC, series / rating filters | ✅ v0.2.0 (2026-10-29) |
 | duo series (55 sets) and photo QC | ✅ v0.2.0 (2026-10-29) |
-| Relabel the 23 std sets whose drawing is another pose (D-07) | ☐ waiting on a human |
+| Relabel the 23 std sets whose drawing is another pose (D-07) | ◐ 21 redrawn (D-09); P038, P052 open |
+| Redraw gaps from a second source, whole sets only (D-09) | ✅ 43 sets, 2026-10-29 |
 | Rewrite failed views out of git history before going public (D-08) | ✅ 2026-10-29 |

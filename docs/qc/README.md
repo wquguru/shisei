@@ -99,9 +99,21 @@ S068 正面 / 侧面 / 仰视（顶部横线），U032 仰视（桌沿线），D
 - 改成性感：P057、P071（因此不再有静态姿势页和分享卡）。
 其余 59 处保持按分类分级。
 
+## 第三轮（2026-10-29）：重画补缺 digi
+另一个生成源重画的 66 套（290 格，docs/GENERATION.md），按本流程从头审，生成源自己的质检不算数：
+- 逐格：3 个 Sonnet 审 122 张审图（`fail_digi_a?.json`），64 格不过；多数是「俯视 / 仰视其实是平视」或和正面几乎一样。
+  姿势名：2 个 Sonnet（`name_digi_a?.json`），51 yes / 12 partial / 3 no（D024、P052、S068）。`line_dups.py --source digi`：0 个重复。
+- 人定只换「新画通过的机位比旧画多」的套，最终 43 套（对照页逐套给人看过）。对这 43 套已通过的机位再跑：
+  肢体计数 3 个 Sonnet（`limbs_digi_a?.json`，标 2 格，人看后加 P038 正面共下架 3 格，写在 `fail_digi_manual.json`）；
+  儿童比例 1 个 Sonnet，0 格；分级 1 个 Sonnet（`rating_digi_aa.json`），6 套和分类规则不一致，人定不改。
+- 合并规则：结果文件顶层写 `"source": "digi"` 的只作用于 catalog 里同一 `source` 的姿势，旧文件只作用于原画，所以两套结果都留在
+  `data/qc-input/` 里，`qc_merge.py` 照样能整目录重算；新画有机位没出现在任何一张已审审图上、或缺姿势名检查时，`qc_merge.py` 拒绝合并。
+  `qc.json` 新增 `sources`，记每个重画姿势的来源，`verify.py` 核对它和 catalog 一致。
+- 结果：std 71/73 套、287 格；upper 80/80、337 格；sexy 80/80、323 格；duo 不变。实拍 89/112（P019、P020、P022 按旧画拍的 14 张人定下架）。
+
 ## 复审 / 新系列
 ```bash
-SRC="std=$HOME/Downloads/pose-gallery-std73 sexy=$HOME/Downloads/pose-gallery-sexy80 upper=$HOME/Downloads/pose-gallery-upper80 duo=$HOME/Downloads/pose-gallery-duo55"
+SRC="std=$HOME/Downloads/pose-gallery-std73 sexy=$HOME/Downloads/pose-gallery-sexy80 upper=$HOME/Downloads/pose-gallery-upper80 duo=$HOME/Downloads/pose-gallery-duo55 digi=$HOME/Downloads/pose-gallery-digi66"
 python3 tools/review_sheets.py /tmp/qc/panels --mode panels ${=SRC}          # zsh: ${=SRC} 才会按空格拆开；只给要审的系列
 ls /tmp/qc/panels/*.jpg | split -l 35 - /tmp/qc/panels/batch_
 # 每个批次派一个 qc-reviewer：提示词 docs/qc/review_prompt.md，输出 data/qc-input/fail_r3_<批次>.json

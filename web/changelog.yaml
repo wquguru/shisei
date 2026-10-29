@@ -5,6 +5,22 @@
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
   - date: 2026-10-29
+    tag: new
+    title: 43 pose sets redrawn, 25 back on show
+    desc: Sets with at most two usable angles or the wrong pose were redrawn whole and checked again. Standard now shows 71 of 73 sets, upper body all 80. The new mannequin looks a little different.
+    link: /
+    cta: Open the gallery
+    title_zh: 重画 43 套姿势，25 套重新上架
+    desc_zh: 原来只有两个以下可用机位、或画错姿势的套，整套重画并重新质检。标准系现在显示 73 套里的 71 套，上半身 80 套全部显示。新画的素体略有不同。
+    cta_zh: 打开画廊
+    title_ja: 43 セットを描き直し、25 セットが復活
+    desc_ja: 使えるアングルが 2 つ以下、またはポーズが違っていたセットをセットごと描き直し、改めて品質チェックしました。標準は 73 セット中 71、上半身は 80 セットすべてを表示します。新しい絵はマネキンが少し違います。
+    cta_ja: ギャラリーを開く
+    title_ko: 43개 세트를 다시 그려 25개 세트 복귀
+    desc_ko: 쓸 수 있는 앵글이 2개 이하이거나 포즈가 틀렸던 세트를 세트 단위로 다시 그리고 품질 검사를 다시 했습니다. 표준은 73개 중 71개, 상반신은 80개 모두 표시합니다. 새 그림은 마네킹이 조금 다릅니다.
+    cta_ko: 갤러리 열기
+
+  - date: 2026-10-29
     tag: improve
     title: More poses per screen on phones
     desc: Phones get three columns, about 11 poses per screen, with the angle switch in the top bar instead of a filter panel. The large view fills the screen, with download and next pose in reach.

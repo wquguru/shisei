@@ -9,9 +9,9 @@ for Nano Banana, ChatGPT, ComfyUI, Midjourney and other AI image tools.**
 
 English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md)
 
-[![Poses](https://img.shields.io/badge/poses-255-15171A?style=flat-square)](data/catalog.json)
-[![Line art](https://img.shields.io/badge/line%20art-999%20QC%20passed-1A5CC8?style=flat-square)](docs/GENERATION.md)
-[![Photos](https://img.shields.io/badge/photos-103-5B616A?style=flat-square)](docs/GENERATION.md)
+[![Poses](https://img.shields.io/badge/poses-280-15171A?style=flat-square)](data/catalog.json)
+[![Line art](https://img.shields.io/badge/line%20art-1133%20QC%20passed-1A5CC8?style=flat-square)](docs/GENERATION.md)
+[![Photos](https://img.shields.io/badge/photos-89-5B616A?style=flat-square)](docs/GENERATION.md)
 [![Languages](https://img.shields.io/badge/names-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/runtime%20deps-0-E07A52?style=flat-square)](web)
 [![Images](https://img.shields.io/badge/images-CC0--1.0-blue?style=flat-square)](LICENSE-images)
@@ -36,10 +36,10 @@ All images are original to this project.
 
 | Series | Poses shown | Views that passed QC | On the site |
 |---|---:|---:|---|
-| Full body · standard (`std`, P###) | 50 of 73 | 208 / 365 | shown |
-| Upper body (`upper`, U###) | 77 of 80 | 307 / 400 | shown |
-| Full body · sexy (`sexy`, S###) | 80 of 80 | 341 / 400 | hidden; a switch shows it |
-| Duo (`duo`, D###) | 49 of 55 | 193 / 275 | hidden; a switch shows it |
+| Full body · standard (`std`, P###) | 71 of 73 | 287 / 365 | shown |
+| Upper body (`upper`, U###) | 80 of 80 | 337 / 400 | shown |
+| Full body · sexy (`sexy`, S###) | 80 of 80 | 323 / 400 | hidden; a switch shows it |
+| Duo (`duo`, D###) | 49 of 55 | 186 / 275 | hidden; a switch shows it |
 
 Poses rated `suggestive` (the sexy and duo series, upper's Sexy and Chest emphasis) are hidden by default and kept off
 the marquee, pose pages, share cards and sitemap; one switch shows them.
@@ -47,10 +47,12 @@ the marquee, pose pages, share cards and sitemap; one switch shows them.
 - **Every view is reviewed** ([docs/qc/](docs/qc/README.md)). A view that fails (nipple marks, a face or hair,
   clothing, background, broken anatomy, the wrong camera angle, a figure that reads as a minor, or a drawing that is not
   the named pose) is removed
-  from `images/` and the catalog, and `data/qc.json` keeps the reason. 23 std sets show a different pose from their
-  name and stay hidden until they are relabelled.
+  from `images/` and the catalog, and `data/qc.json` keeps the reason.
+- 43 sets were redrawn by a second generator where the original had at most two usable views or showed another pose
+  (catalog `source: digi`, a slightly different mannequin with milder high and low angles; whole sets, never mixed).
+  P038 and P052 still show a different pose from their name and stay hidden.
 - Views that were never generated stay empty rather than being filled with a bad drawing.
-- **103 photo renders** for std P001–P022 and P050, reviewed like the line art: AI-generated adults, not real people.
+- **89 photo renders** for std P001–P022 and P050 (P019, P020 and P022 are off: they show the old drawing), reviewed like the line art: AI-generated adults, not real people.
 - `data/catalog.json` / `catalog.csv`: series, rating, category and name in four languages, an English pose
   description for std, the file for each view, and why a view is empty.
 

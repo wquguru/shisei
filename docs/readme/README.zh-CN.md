@@ -8,9 +8,9 @@
 
 [English](../../README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-[![Poses](https://img.shields.io/badge/姿势-255-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/线稿-999%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
-[![Photos](https://img.shields.io/badge/实拍-103-5B616A?style=flat-square)](../GENERATION.md)
+[![Poses](https://img.shields.io/badge/姿势-280-15171A?style=flat-square)](../../data/catalog.json)
+[![Line art](https://img.shields.io/badge/线稿-1133%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Photos](https://img.shields.io/badge/实拍-89-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/运行时依赖-0-E07A52?style=flat-square)](../../web)
 [![Images](https://img.shields.io/badge/images-CC0--1.0-blue?style=flat-square)](../../LICENSE-images)
@@ -32,16 +32,17 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 
 | 系列 | 显示的套数 | 质检通过的机位 | 页面上 |
 |---|---:|---:|---|
-| 全身・标准（`std`，P###） | 50 / 73 | 208 / 365 | 默认显示 |
-| 上半身（`upper`，U###） | 77 / 80 | 307 / 400 | 默认显示 |
-| 全身・性感（`sexy`，S###） | 80 / 80 | 341 / 400 | 默认隐藏，开关可显示 |
-| 双人（`duo`，D###） | 49 / 55 | 193 / 275 | 默认隐藏，开关可显示 |
+| 全身・标准（`std`，P###） | 71 / 73 | 287 / 365 | 默认显示 |
+| 上半身（`upper`，U###） | 80 / 80 | 337 / 400 | 默认显示 |
+| 全身・性感（`sexy`，S###） | 80 / 80 | 323 / 400 | 默认隐藏，开关可显示 |
+| 双人（`duo`，D###） | 49 / 55 | 186 / 275 | 默认隐藏，开关可显示 |
 
 标为 `suggestive` 的姿势（全身・性感、双人，上半身的性感系、胸线强调系）默认隐藏，不进首屏滚动方块、姿势页、分享卡和 sitemap，一个开关就能全部显示。
 
-- **每个机位都过了质检**（[docs/qc/](../qc/README.md)）。有乳头标记、五官或头发、衣物、背景、结构畸形、机位不对、人物看起来像未成年，或者画的不是这个姿势的，都从 `images/` 和 catalog 里拿掉了，原因记在 `data/qc.json`。std 有 23 套画的姿势和名字对不上，重新命名之前先不显示。
+- **每个机位都过了质检**（[docs/qc/](../qc/README.md)）。有乳头标记、五官或头发、衣物、背景、结构畸形、机位不对、人物看起来像未成年，或者画的不是这个姿势的，都从 `images/` 和 catalog 里拿掉了，原因记在 `data/qc.json`。
+- 原画只有两个以下可用机位、或画的不是这个姿势的 43 套，用另一个生成源整套重画（catalog 里 `source: digi`；素体略有不同，俯视、仰视角度更缓；整套替换，不混用）。P038、P052 仍然和名字对不上，继续不显示。
 - 没生成出来的机位宁可留空，也不放一张画错的。
-- **103 张实拍**，覆盖 std 的 P001–P022 和 P050，和线稿一样过了质检，都是 AI 生成的成年人物，不对应任何真人。
+- **89 张实拍**，覆盖 std 的 P001–P022 和 P050（P019、P020、P022 拍的是旧画的姿势，已拿掉），和线稿一样过了质检，都是 AI 生成的成年人物，不对应任何真人。
 - `data/catalog.json` 和 `catalog.csv` 里有系列、分级、四语分类和名称、std 的英文姿势描述、每个机位的文件，以及机位为空的原因。
 
 ## 怎么用
