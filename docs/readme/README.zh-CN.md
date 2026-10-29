@@ -4,9 +4,11 @@
 
 # Shisei 姿勢
 
-**免费（CC0）白模姿势参考库：四个系列 255 套无脸白模（素体）姿势，每套 5 个机位，线稿可直接喂给 Nano Banana、ChatGPT、ComfyUI、Midjourney 等 AI 绘图工具。**
+**免费（CC0）白模姿势参考库：四个系列 280 套无脸白模（素体）姿势，每套 5 个机位，线稿可直接喂给 Nano Banana、ChatGPT、ComfyUI、Midjourney 等 AI 绘图工具。**
 
 [English](../../README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
+
+**[打开画廊](https://shisei.indaloop.app/) · [下载全部（w900，34.1 MB）](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip) · [其他下载](#下载)**
 
 [![Poses](https://img.shields.io/badge/姿势-280-15171A?style=flat-square)](../../data/catalog.json)
 [![Line art](https://img.shields.io/badge/线稿-1133%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
@@ -54,29 +56,42 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 | `w300` | `images/*/w300/` | 宽 300 | 7 KB |
 | `w600` | `images/*/w600/` | 600×800 | 17 KB |
 | `w900` | `images/*/w900/` | 900×1200 | 29 KB |
-| 原图 | [Releases](../../../../releases) 压缩包 | 1344×1792（实拍 1120×2240） | 100 KB |
+| 原图 | [原图包](#下载) | 1344×1792（实拍 1120×2240，重画的套 900×1200） | 100 KB |
 
-仓库里只放网页用的三档，约 56 MB，克隆会快很多。每个 Release 附带画廊里的下载：w900 档按系列各一个压缩包、再加一个全系列包（推荐，体积约为原图的四分之一），以及原图包。只打包质检通过的机位，每个压缩包都带 LICENSE、LICENSE-images 和 NOTICE。
+仓库里只放网页用的三档，约 63 MB，克隆会快很多。原图和打好的压缩包在 [Releases](https://github.com/wquguru/shisei/releases) 页面。
+
+### 下载
+
+v0.3.0，和画廊下载面板里的是同一批文件。每个包里是质检通过的机位的 w900 档（线稿和实拍），外加 LICENSE、LICENSE-images 和 NOTICE；每个压缩包旁边都有一个 `.sha256` 校验文件。
+
+| 压缩包 | 套数 | 图片 | 大小 |
+|---|---:|---:|---:|
+| [全部系列](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip)（推荐） | 280 | 1222 | 34.1 MB |
+| [全身・标准](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-std-v0.3.0.zip) | 71 | 376 | 9.0 MB |
+| [上半身](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-upper-v0.3.0.zip) | 80 | 337 | 9.4 MB |
+| [全身・性感](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-sexy-v0.3.0.zip)（偏性感） | 80 | 323 | 8.5 MB |
+| [双人](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-duo-v0.3.0.zip)（偏性感） | 49 | 186 | 7.1 MB |
+| [原图](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-original-v0.3.0.zip) | 280 | 1222 | 144.8 MB |
 
 ## 画廊
 
-`web/` 是从 catalog 生成的零依赖静态画廊：分类标签、机位筛选、线稿 / 实拍切换、按套或单张浏览、支持键盘和滑动的大图灯箱、四种界面语言和深色模式。规格见 [DESIGN.md](../DESIGN.md)。
+`web/` 是从 catalog 生成的零依赖静态画廊：系列标签（选了系列后再按分类筛）、机位筛选、线稿 / 实拍切换、按套或单张浏览、一键取消性感系列的模糊、支持键盘和滑动并可切换线稿 / 实拍 / 对照的大图灯箱、每个姿势一个页面、四种界面语言和深色模式。规格见 [DESIGN.md](../DESIGN.md)。
 
 ```bash
 python3 tools/build_site.py --link-images      # 生成 site/（图片用符号链接，预览快）
 python3 -m http.server 8000 -d site            # http://localhost:8000
-python3 tools/build_site.py                    # 可部署的完整副本，约 17 MB
+python3 -I tools/build_site.py --public --site https://shisei.indaloop.app   # 部署用构建，含图片和分享卡
 ```
 
-深链接直接打开大图：`#P001-diag`、`#P001-diag-photo`；筛选条件在查询串里（`?lang=zh&cat=5&angle=1&src=photo`）。
+深链接直接打开大图：`#P001-diag`、`#P001-diag-photo`、`#P001-diag-compare`；筛选条件在查询串里（`?lang=zh&series=std&cat=5&angle=1&src=photo`）。
 
 ## 目录
 
 ```
 data/       catalog.json、catalog.csv：唯一的数据源
 images/     line/ 和 photo/，各有 w300/、w600/ 和 w900/ 三档
-web/        静态画廊源码（index.html、app.js、app.css、i18n.js）
-tools/      build_images.py、build_site.py、verify.py、qc_merge.py、review_sheets.py、pack_release.py
+web/        静态画廊源码（index.html、app.js、app.css、i18n.js、common.js、changelog.yaml）
+tools/      build_images.py、build_site.py、verify.py、import_series.py、qc_merge.py、review_sheets.py、pack_release.py 等
 docs/       DESIGN、DECISIONS、GENERATION、LICENSING、各语言 README、logo、截图
 ```
 
@@ -90,15 +105,17 @@ python3 tools/verify.py
 
 ## 状态与路线
 
-当前 **v0.1.0**：73 套标准姿势和 catalog 已稳定，编号不会变，画廊是新做的。发布说明见 [CHANGELOG.md](../../CHANGELOG.md)，待定事项见 [DECISIONS.md](../DECISIONS.md)。
+当前 **v0.3.0**：四个系列共 280 套姿势，catalog 已稳定，编号不会变。发布说明见 [CHANGELOG.md](../../CHANGELOG.md)，待定事项见 [DECISIONS.md](../DECISIONS.md)。
 
 | 里程碑 | 状态 |
 |---|---|
-| 73 套标准姿势 × 5 机位、catalog、两档网页图、校验 | ✅ 完成 |
-| 从 catalog 生成的静态画廊 | ✅ 完成 |
-| 公开画廊 shisei.indaloop.app（Cloudflare Pages） | ☐ 下一步 |
-| 补上 P062 仰视 | ☐ 未解决 |
+| 73 套标准姿势 × 5 机位、catalog、网页图档、校验 | ✅ v0.1.0 |
+| 上半身、性感、双人系列，逐机位质检 | ✅ v0.2.0 |
 | 实拍图过质检后公开（D-03） | ✅ 公开 |
+| 公开画廊 [shisei.indaloop.app](https://shisei.indaloop.app/)（Cloudflare Pages） | ✅ 已上线 |
+| 43 套机位过少或画错姿势的整套重画（D-09） | ✅ v0.3.0 |
+| P038、P052：画的是别的姿势 | ☐ 未解决 |
+| 补上 P062 仰视 | ☐ 未解决 |
 
 ## 致谢
 

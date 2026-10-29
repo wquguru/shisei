@@ -4,10 +4,12 @@
 
 # Shisei 姿勢
 
-**A free (CC0) mannequin pose reference library: 255 poses in four series × 5 camera angles, drawn as clean line art
+**A free (CC0) mannequin pose reference library: 280 poses in four series × 5 camera angles, drawn as clean line art
 for Nano Banana, ChatGPT, ComfyUI, Midjourney and other AI image tools.**
 
 English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md)
+
+**[Open the gallery](https://shisei.indaloop.app/en/) · [Download all, w900 (34.1 MB)](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip) · [Other downloads](#downloads)**
 
 [![Poses](https://img.shields.io/badge/poses-280-15171A?style=flat-square)](data/catalog.json)
 [![Line art](https://img.shields.io/badge/line%20art-1133%20QC%20passed-1A5CC8?style=flat-square)](docs/GENERATION.md)
@@ -22,7 +24,8 @@ English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readm
 ---
 
 > **Content note:** the sexy and duo series are suggestive adult pose references (faceless mannequins, no
-> nudity detail). They are kept out of previews and search pages, and the gallery hides them until you turn them on.
+> nudity detail). They stay out of previews and search pages, and the gallery shows them blurred until you tap one
+> or flip the switch.
 
 [![Shisei gallery: hero with a marquee of mannequin poses on pastel category tiles](docs/screenshot.png)](https://shisei.indaloop.app/en/)
 
@@ -66,34 +69,48 @@ the figure consistent across shots. Face, clothing and background come from your
 | `w300` | `images/*/w300/` | 300 px wide | ~7 KB |
 | `w600` | `images/*/w600/` | 600 × 800 | ~17 KB |
 | `w900` | `images/*/w900/` | 900 × 1200 | ~29 KB |
-| full | [Releases](../../releases) zip | 1344 × 1792 (photos 1120 × 2240) | ~100 KB |
+| full | [original zip](#downloads) | 1344 × 1792 (photos 1120 × 2240, redrawn sets 900 × 1200) | ~100 KB |
 
-The repository holds the three web tiers (about 56 MB). Each Release carries the downloads the gallery offers: the w900
-tier as one zip per series and one for everything (recommended, about a quarter of the originals' size), plus the
-originals. Only views that passed QC go in, and every zip includes LICENSE, LICENSE-images and NOTICE.
+The repository holds the three web tiers (about 63 MB). The full-size originals and ready-made zips are on the
+[Releases](https://github.com/wquguru/shisei/releases) page.
+
+### Downloads
+
+v0.3.0, the same files the gallery's download panel offers. Each holds the w900 tier, line art and photo renders, of
+the views that passed QC, plus LICENSE, LICENSE-images and NOTICE; a `.sha256` sits next to each zip.
+
+| Pack | Sets | Images | Size |
+|---|---:|---:|---:|
+| [All series](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip) (recommended) | 280 | 1222 | 34.1 MB |
+| [Full body · standard](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-std-v0.3.0.zip) | 71 | 376 | 9.0 MB |
+| [Upper body](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-upper-v0.3.0.zip) | 80 | 337 | 9.4 MB |
+| [Full body · sexy](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-sexy-v0.3.0.zip) (suggestive) | 80 | 323 | 8.5 MB |
+| [Duo](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-duo-v0.3.0.zip) (suggestive) | 49 | 186 | 7.1 MB |
+| [Originals, full size](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-original-v0.3.0.zip) | 280 | 1222 | 144.8 MB |
 
 ## Gallery
 
-`web/` is a zero-dependency static gallery built from the catalog: category tabs, an angle filter, a
-line-art / photo switch, a by-pose or single-image view, a lightbox with keyboard and swipe navigation, four UI
-languages and a dark theme. The spec is in [docs/DESIGN.md](docs/DESIGN.md).
+`web/` is a zero-dependency static gallery built from the catalog: series tabs with categories inside a
+series, an angle filter, a line-art / photo switch, a by-pose or single-image view, a switch that unblurs the
+suggestive series, a lightbox with keyboard and swipe navigation and a line-art / photo / compare mode, a page per
+pose, four UI languages and a dark theme. The spec is in [docs/DESIGN.md](docs/DESIGN.md).
 
 ```bash
 python3 tools/build_site.py --link-images      # writes site/ (images symlinked for a fast preview)
 python3 -m http.server 8000 -d site            # http://localhost:8000
-python3 tools/build_site.py                    # deployable copy with images, ~17 MB
+python3 -I tools/build_site.py --public --site https://shisei.indaloop.app   # deploy build with images and share cards
 ```
 
-Deep links open the lightbox directly: `#P001-diag`, `#P001-diag-photo`; filters live in the query string
-(`?lang=ja&cat=5&angle=1&src=photo`).
+Deep links open the lightbox directly: `#P001-diag`, `#P001-diag-photo`, `#P001-diag-compare`; filters live in the
+query string (`?lang=ja&series=std&cat=5&angle=1&src=photo`).
 
 ## Layout
 
 ```
 data/       catalog.json, catalog.csv — the source of truth
 images/     line/ and photo/, each with w300/, w600/ and w900/ tiers
-web/        static gallery source (index.html, app.js, app.css, i18n.js)
-tools/      build_images.py, build_site.py, verify.py, qc_merge.py, review_sheets.py, pack_release.py
+web/        static gallery source (index.html, app.js, app.css, i18n.js, common.js, changelog.yaml)
+tools/      build_images.py, build_site.py, verify.py, import_series.py, qc_merge.py, review_sheets.py, pack_release.py, …
 docs/       DESIGN, DECISIONS, GENERATION, LICENSING, translated READMEs, logo, screenshot
 ```
 
@@ -108,16 +125,18 @@ Contributions are welcome: read **[CONTRIBUTING.md](CONTRIBUTING.md)** first (co
 
 ## Status and roadmap
 
-Shisei is at **v0.1.0**: the 73 standard poses and the catalog are stable, IDs never change, and the gallery is
-new. Release notes are in [CHANGELOG.md](CHANGELOG.md); open questions in [docs/DECISIONS.md](docs/DECISIONS.md).
+Shisei is at **v0.3.0**: four series and 280 poses; the catalog is stable and IDs never change. Release notes are
+in [CHANGELOG.md](CHANGELOG.md); open questions in [docs/DECISIONS.md](docs/DECISIONS.md).
 
 | Milestone | State |
 |---|---|
-| 73 standard poses × 5 angles, catalog, two web tiers, verify | ✅ done |
-| Static gallery generated from the catalog | ✅ done |
-| Public gallery at shisei.indaloop.app (Cloudflare Pages) | ☐ next |
-| Fill the P062 *below* view | ☐ open |
+| 73 standard poses × 5 angles, catalog, web tiers, verify | ✅ v0.1.0 |
+| Upper body, sexy and duo series, each view reviewed | ✅ v0.2.0 |
 | Photo renders, after their own QC pass (D-03) | ✅ public |
+| Public gallery at [shisei.indaloop.app](https://shisei.indaloop.app/en/) (Cloudflare Pages) | ✅ live |
+| 43 sparse or mislabelled sets redrawn as whole sets (D-09) | ✅ v0.3.0 |
+| P038 and P052: the drawing is another pose | ☐ open |
+| Fill the P062 *below* view | ☐ open |
 
 ## Acknowledgements
 

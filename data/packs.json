@@ -1,41 +1,41 @@
 {
- "version": "0.2.0",
+ "version": "0.3.0",
  "packs": {
   "std": {
-   "file": "shisei-std-v0.2.0.zip",
-   "bytes": 7586209,
-   "sets": 50,
-   "images": 297
+   "file": "shisei-std-v0.3.0.zip",
+   "bytes": 9034205,
+   "sets": 71,
+   "images": 376
   },
   "upper": {
-   "file": "shisei-upper-v0.2.0.zip",
-   "bytes": 8925752,
-   "sets": 77,
-   "images": 307
+   "file": "shisei-upper-v0.3.0.zip",
+   "bytes": 9425473,
+   "sets": 80,
+   "images": 337
   },
   "sexy": {
-   "file": "shisei-sexy-v0.2.0.zip",
-   "bytes": 9242050,
+   "file": "shisei-sexy-v0.3.0.zip",
+   "bytes": 8540063,
    "sets": 80,
-   "images": 341
+   "images": 323
   },
   "duo": {
-   "file": "shisei-duo-v0.2.0.zip",
-   "bytes": 7356491,
+   "file": "shisei-duo-v0.3.0.zip",
+   "bytes": 7092094,
    "sets": 49,
-   "images": 193
+   "images": 186
   },
   "all": {
-   "file": "shisei-all-v0.2.0.zip",
-   "bytes": 33096981,
-   "sets": 256,
-   "images": 1138
+   "file": "shisei-all-v0.3.0.zip",
+   "bytes": 34068657,
+   "sets": 280,
+   "images": 1222
   },
   "original": {
-   "file": "shisei-original-v0.2.0.zip",
-   "bytes": 131857482,
-   "sets": 256,
-   "images": 1138
+   "file": "shisei-original-v0.3.0.zip",
+   "bytes": 144791064,
+   "sets": 280,
+   "images": 1222
   }
  }
 }

@@ -4,9 +4,11 @@
 
 # Shisei 姿勢
 
-**無料（CC0）の素体ポーズ集。4 シリーズ 255 ポーズ × 5 アングルの線画を、Nano Banana・ChatGPT・ComfyUI・Midjourney など画像生成 AI のポーズ指定にそのまま使えます。**
+**無料（CC0）の素体ポーズ集。4 シリーズ 280 ポーズ × 5 アングルの線画を、Nano Banana・ChatGPT・ComfyUI・Midjourney など画像生成 AI のポーズ指定にそのまま使えます。**
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
+
+**[ギャラリーを開く](https://shisei.indaloop.app/ja/) · [すべてダウンロード（w900、34.1 MB）](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip) · [ほかのダウンロード](#ダウンロード)**
 
 [![Poses](https://img.shields.io/badge/ポーズ-280-15171A?style=flat-square)](../../data/catalog.json)
 [![Line art](https://img.shields.io/badge/線画-1133%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
@@ -54,29 +56,42 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 | `w300` | `images/*/w300/` | 幅 300 px | 約 7 KB |
 | `w600` | `images/*/w600/` | 600 × 800 | 約 17 KB |
 | `w900` | `images/*/w900/` | 900 × 1200 | 約 29 KB |
-| 原寸 | [Releases](../../../../releases) の zip | 1344 × 1792（実写 1120 × 2240） | 約 100 KB |
+| 原寸 | [原寸の zip](#ダウンロード) | 1344 × 1792（実写 1120 × 2240、描き直したセット 900 × 1200） | 約 100 KB |
 
-リポジトリには Web 用の 3 サイズ（約 56 MB）だけを置いているので、クローンは軽く済みます。各 Release にはギャラリーのダウンロードを添付しています。w900 をシリーズごとの zip と全シリーズの zip（おすすめ、原寸の約 4 分の 1）にまとめたものと、原寸の zip です。品質チェックを通ったアングルだけを収録し、どの zip にも LICENSE、LICENSE-images、NOTICE が入っています。
+リポジトリには Web 用の 3 サイズ（約 63 MB）だけを置いているので、クローンは軽く済みます。原寸とまとめた zip は [Releases](https://github.com/wquguru/shisei/releases) ページにあります。
+
+### ダウンロード
+
+v0.3.0。ギャラリーのダウンロードパネルと同じファイルです。品質チェックを通ったアングルの w900（線画と実写）に、LICENSE、LICENSE-images、NOTICE が入っています。各 zip の隣に `.sha256` があります。
+
+| zip | セット | 画像 | サイズ |
+|---|---:|---:|---:|
+| [全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip)（おすすめ） | 280 | 1222 | 34.1 MB |
+| [全身・標準](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-std-v0.3.0.zip) | 71 | 376 | 9.0 MB |
+| [上半身](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-upper-v0.3.0.zip) | 80 | 337 | 9.4 MB |
+| [全身・セクシー](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-sexy-v0.3.0.zip)（やや性的） | 80 | 323 | 8.5 MB |
+| [ふたり](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-duo-v0.3.0.zip)（やや性的） | 49 | 186 | 7.1 MB |
+| [原寸](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-original-v0.3.0.zip) | 280 | 1222 | 144.8 MB |
 
 ## ギャラリー
 
-`web/` はカタログから生成する依存ゼロの静的ギャラリーです。カテゴリタブ、アングル絞り込み、線画 / 実写の切り替え、ポーズ単位・一枚単位の表示、キーボードとスワイプで操作できるライトボックス、四か国語の UI、ダークモードに対応しています。仕様は [DESIGN.md](../DESIGN.md) にあります。
+`web/` はカタログから生成する依存ゼロの静的ギャラリーです。シリーズタブ（シリーズを選ぶと分類で絞り込み）、アングル絞り込み、線画 / 実写の切り替え、ポーズ単位・一枚単位の表示、セクシー系のぼかしを外すスイッチ、キーボードとスワイプで操作でき線画 / 実写 / 比較を切り替えられるライトボックス、ポーズごとのページ、四か国語の UI、ダークモードに対応しています。仕様は [DESIGN.md](../DESIGN.md) にあります。
 
 ```bash
 python3 tools/build_site.py --link-images      # site/ を生成（画像はシンボリックリンクで高速プレビュー）
 python3 -m http.server 8000 -d site            # http://localhost:8000
-python3 tools/build_site.py                    # 画像込みのデプロイ用コピー、約 17 MB
+python3 -I tools/build_site.py --public --site https://shisei.indaloop.app   # 画像とシェアカード込みのデプロイ用ビルド
 ```
 
-ディープリンクでライトボックスを直接開けます：`#P001-diag`、`#P001-diag-photo`。絞り込み条件はクエリ文字列に入ります（`?lang=ja&cat=5&angle=1&src=photo`）。
+ディープリンクでライトボックスを直接開けます：`#P001-diag`、`#P001-diag-photo`、`#P001-diag-compare`。絞り込み条件はクエリ文字列に入ります（`?lang=ja&series=std&cat=5&angle=1&src=photo`）。
 
 ## 構成
 
 ```
 data/       catalog.json、catalog.csv — 唯一のデータソース
 images/     line/ と photo/、それぞれ w300/、w600/、w900/
-web/        静的ギャラリーのソース（index.html、app.js、app.css、i18n.js）
-tools/      build_images.py、build_site.py、verify.py、qc_merge.py、review_sheets.py、pack_release.py
+web/        静的ギャラリーのソース（index.html、app.js、app.css、i18n.js、common.js、changelog.yaml）
+tools/      build_images.py、build_site.py、verify.py、import_series.py、qc_merge.py、review_sheets.py、pack_release.py ほか
 docs/       DESIGN、DECISIONS、GENERATION、LICENSING、各言語の README、ロゴ、スクリーンショット
 ```
 
@@ -90,15 +105,17 @@ python3 tools/verify.py
 
 ## 状況とロードマップ
 
-現在 **v0.1.0**。73 の標準ポーズとカタログは安定しており、ID は変わりません。ギャラリーは新しく作ったものです。リリースノートは [CHANGELOG.md](../../CHANGELOG.md)、未決事項は [DECISIONS.md](../DECISIONS.md) にあります。
+現在 **v0.3.0**。4 シリーズ 280 ポーズで、カタログは安定しており ID は変わりません。リリースノートは [CHANGELOG.md](../../CHANGELOG.md)、未決事項は [DECISIONS.md](../DECISIONS.md) にあります。
 
 | マイルストーン | 状況 |
 |---|---|
-| 標準 73 ポーズ × 5 アングル、カタログ、Web 用 2 サイズ、検証 | ✅ 完了 |
-| カタログから生成する静的ギャラリー | ✅ 完了 |
-| 公開ギャラリー shisei.indaloop.app（Cloudflare Pages） | ☐ 次 |
-| P062 の下からのアングル | ☐ 未解決 |
+| 標準 73 ポーズ × 5 アングル、カタログ、Web 用サイズ、検証 | ✅ v0.1.0 |
+| 上半身・セクシー・ふたりのシリーズ、アングルごとの品質チェック | ✅ v0.2.0 |
 | 実写を品質チェック後に公開（D-03） | ✅ 公開 |
+| 公開ギャラリー [shisei.indaloop.app](https://shisei.indaloop.app/ja/)（Cloudflare Pages） | ✅ 公開中 |
+| アングルが少ない・別のポーズだった 43 セットをセット単位で描き直し（D-09） | ✅ v0.3.0 |
+| P038・P052：絵が別のポーズ | ☐ 未解決 |
+| P062 の下からのアングル | ☐ 未解決 |
 
 ## 謝辞
 
