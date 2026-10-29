@@ -1,0 +1,7 @@
+.DS_Store
+/dist/
+/Reviews/
+/.claude/worktrees/
+# full-size originals live in Release assets, never in git (docs/DECISIONS.md D-02)
+/images/*/full/
+/site/

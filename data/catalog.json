@@ -1,0 +1,1669 @@
+[
+ {
+  "id": "P001",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "仰け反り座り・片膝立て",
+  "name_cn": "后仰坐・单膝竖起",
+  "name_en": "Sitting leaning back, one knee raised",
+  "name_kr": "뒤로 젖혀 앉기·한쪽 무릎 세우기",
+  "desc_en": "sitting on the floor leaning back with her torso arched slightly backward, one knee raised and bent, the other leg extended forward, both hands resting on the floor behind her for support",
+  "views": {
+   "front": "std_P001_front.webp",
+   "diag": "std_P001_diag.webp",
+   "side": "std_P001_side.webp",
+   "above": "std_P001_above.webp",
+   "below": "std_P001_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P002",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "片手支え・脚前方流し",
+  "name_cn": "单手支撑・双腿前伸",
+  "name_en": "Sitting, one-hand support, legs swept forward",
+  "name_kr": "한손 지지·다리 앞으로 뻗기",
+  "desc_en": "sitting on the floor with both legs swept together toward the front-left, leaning on one hand placed flat on the floor beside her for support, torso upright",
+  "views": {
+   "front": "std_P002_front.webp",
+   "diag": "std_P002_diag.webp",
+   "side": "std_P002_side.webp",
+   "above": "std_P002_above.webp",
+   "below": "std_P002_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P003",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "両手後ろ支え・胸を張る",
+  "name_cn": "双手后撑・挺胸坐",
+  "name_en": "Sitting, hands behind, chest out",
+  "name_kr": "양손 뒤로 짚고 가슴 펴기",
+  "desc_en": "sitting on the floor with legs extended forward, both hands on the floor behind her supporting her, chest pushed out proudly",
+  "views": {
+   "front": "std_P003_front.webp",
+   "diag": "std_P003_diag.webp",
+   "side": "std_P003_side.webp",
+   "above": "std_P003_above.webp",
+   "below": "std_P003_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P004",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "三角座り・膝を左へ傾ける",
+  "name_cn": "三角坐・双膝左倾",
+  "name_en": "Triangle sit, knees tilted left",
+  "name_kr": "삼각 앉기·무릎 왼쪽으로 기울이기",
+  "desc_en": "sitting on the floor with her legs folded beneath her in a triangle shape, both knees tilted over to her left side, hands resting in her lap",
+  "views": {
+   "front": "std_P004_front.webp",
+   "diag": "std_P004_diag.webp",
+   "side": "std_P004_side.webp",
+   "above": "std_P004_above.webp",
+   "below": "std_P004_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P005",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "片膝立て・髪に手",
+  "name_cn": "单膝竖起・手触发",
+  "name_en": "Sitting, one knee raised, hand in hair",
+  "name_kr": "한쪽 무릎 세우고 머리에 손",
+  "desc_en": "sitting on the floor with one knee raised and bent, the other leg extended, one hand raised touching her hair",
+  "views": {
+   "front": "std_P005_front.webp",
+   "diag": "std_P005_diag.webp",
+   "side": "std_P005_side.webp",
+   "above": "std_P005_above.webp",
+   "below": "std_P005_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P006",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "脚を斜めに伸ばして腰に手",
+  "name_cn": "双腿斜伸・手扶腰",
+  "name_en": "Sitting, legs extended diagonally, hand on hip",
+  "name_kr": "다리 대각선으로 뻗고 허리에 손",
+  "desc_en": "sitting on the floor, both legs extended straight out diagonally to her left side together, one hand resting on her hip, her other arm extended behind her with the hand on the floor supporting her upright torso",
+  "views": {
+   "front": "std_P006_front.webp",
+   "diag": "std_P006_diag.webp",
+   "side": "std_P006_side.webp",
+   "above": "std_P006_above.webp",
+   "below": "std_P006_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P007",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "両肘ついて寝そべり座り",
+  "name_cn": "双肘撑地俯卧",
+  "name_en": "Lying prone propped on both elbows",
+  "name_kr": "양 팔꿈치 짚고 엎드리기",
+  "desc_en": "lying prone on the floor propped up on both elbows, upper body lifted, legs stretched out straight behind her",
+  "views": {
+   "front": "std_P007_front.webp",
+   "diag": "std_P007_diag.webp",
+   "side": "std_P007_side.webp",
+   "above": "std_P007_above.webp",
+   "below": "std_P007_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P008",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "膝を立てて両手を頭の後ろ",
+  "name_cn": "双膝竖起・双手抱头",
+  "name_en": "Sitting, knees up, hands behind head",
+  "name_kr": "무릎 세우고 양손 머리 뒤로",
+  "desc_en": "sitting on the floor with both knees raised and bent, feet flat on the floor, both hands clasped behind her head",
+  "views": {
+   "front": "std_P008_front.webp",
+   "diag": "std_P008_diag.webp",
+   "side": "std_P008_side.webp",
+   "above": "std_P008_above.webp",
+   "below": "std_P008_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P009",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "右へ傾く・肘支え",
+  "name_cn": "右倾・肘撑坐",
+  "name_en": "Sitting leaning right on elbow",
+  "name_kr": "오른쪽으로 기울어 팔꿈치 지지",
+  "desc_en": "sitting on the floor leaning over to her right side, propped up on her right elbow, legs extended together to her left",
+  "views": {
+   "front": "std_P009_front.webp",
+   "diag": "std_P009_diag.webp",
+   "side": "std_P009_side.webp",
+   "above": "std_P009_above.webp",
+   "below": "std_P009_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P010",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "足首に手を添える",
+  "name_cn": "手扶脚踝坐",
+  "name_en": "Sitting, hand resting on ankle",
+  "name_kr": "발목에 손 얹기",
+  "desc_en": "sitting on the floor with both legs extended straight forward, leaning slightly forward with one hand resting gently on her ankle",
+  "views": {
+   "front": "std_P010_front.webp",
+   "diag": "std_P010_diag.webp",
+   "side": "std_P010_side.webp",
+   "above": "std_P010_above.webp",
+   "below": "std_P010_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P011",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "両手頭の後ろ・胸反り",
+  "name_cn": "双手抱头・挺胸",
+  "name_en": "Sitting, hands behind head, chest arched",
+  "name_kr": "양손 머리 뒤로·가슴 젖히기",
+  "desc_en": "sitting on the floor with legs extended forward, both hands clasped behind her head, chest arched outward",
+  "views": {
+   "front": "std_P011_front.webp",
+   "diag": "std_P011_diag.webp",
+   "side": "std_P011_side.webp",
+   "above": "std_P011_above.webp",
+   "below": "std_P011_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P012",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "片膝立て・頬杖",
+  "name_cn": "单膝竖起・托腮",
+  "name_en": "Sitting, one knee up, cheek on hand",
+  "name_kr": "한쪽 무릎 세우고 턱 괴기",
+  "desc_en": "sitting on the floor with one knee raised and bent, her elbow resting on the raised knee and her cheek resting on that hand in a thoughtful pose, the other leg extended",
+  "views": {
+   "front": "std_P012_front.webp",
+   "diag": "std_P012_diag.webp",
+   "side": "std_P012_side.webp",
+   "above": "std_P012_above.webp",
+   "below": "std_P012_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P013",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "両脚を浮かせた後ろ寄りかかり",
+  "name_cn": "后撑・双腿离地",
+  "name_en": "Leaning back on hands, both legs lifted",
+  "name_kr": "뒤로 기대어 양다리 들기",
+  "desc_en": "sitting on the floor leaning back on both hands placed behind her, both legs lifted off the ground together, balancing on her seat",
+  "views": {
+   "front": "std_P013_front.webp",
+   "diag": "std_P013_diag.webp",
+   "side": "std_P013_side.webp",
+   "above": "std_P013_above.webp",
+   "below": "std_P013_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P014",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "足首を持つ片膝立て",
+  "name_cn": "单膝竖起・握脚踝",
+  "name_en": "Sitting, one knee up, holding ankle",
+  "name_kr": "한쪽 무릎 세우고 발목 잡기",
+  "desc_en": "sitting on the floor with one knee raised and bent, holding that leg's ankle with her hand, the other leg extended forward",
+  "views": {
+   "front": "std_P014_front.webp",
+   "diag": "std_P014_diag.webp",
+   "side": "std_P014_side.webp",
+   "above": "std_P014_above.webp",
+   "below": "std_P014_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P015",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・コントラポスト腰に手",
+  "name_cn": "站立・单手叉腰",
+  "name_en": "Standing contrapposto, hand on hip",
+  "name_kr": "서서 한손 허리에",
+  "desc_en": "standing in a relaxed contrapposto pose with her weight on one leg, one hand resting on her hip, the other arm hanging relaxed",
+  "views": {
+   "front": "std_P015_front.webp",
+   "diag": "std_P015_diag.webp",
+   "side": "std_P015_side.webp",
+   "above": "std_P015_above.webp",
+   "below": "std_P015_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P016",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・両手で髪をかき上げ",
+  "name_cn": "站立・双手撩发",
+  "name_en": "Standing, both hands lifting hair",
+  "name_kr": "서서 양손으로 머리카락 쓸어올리기",
+  "desc_en": "standing with both hands raised to her head, fingers running through her hair and lifting it up",
+  "views": {
+   "front": "std_P016_front.webp",
+   "diag": "std_P016_diag.webp",
+   "side": "std_P016_side.webp",
+   "above": "std_P016_above.webp",
+   "below": "std_P016_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P017",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・肩越しに振り向く",
+  "name_cn": "站立・回眸",
+  "name_en": "Standing, looking back over shoulder",
+  "name_kr": "서서 어깨 너머로 돌아보기",
+  "desc_en": "standing with her body turned mostly away from the camera, looking back over her shoulder toward the camera",
+  "views": {
+   "front": "std_P017_front.webp",
+   "diag": "std_P017_diag.webp",
+   "side": "std_P017_side.webp",
+   "above": "std_P017_above.webp",
+   "below": "std_P017_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P018",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・両手を腰に",
+  "name_cn": "站立・双手叉腰",
+  "name_en": "Standing, both hands on hips",
+  "name_kr": "서서 양손 허리에",
+  "desc_en": "standing straight facing forward with both hands placed firmly on her hips, elbows out, legs straight and slightly apart",
+  "views": {
+   "front": "std_P018_front.webp",
+   "diag": "std_P018_diag.webp",
+   "side": "std_P018_side.webp",
+   "above": "std_P018_above.webp",
+   "below": "std_P018_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P019",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・両腕を頭上に伸ばす",
+  "name_cn": "站立・双臂上伸",
+  "name_en": "Standing, arms stretched overhead",
+  "name_kr": "서서 양팔 위로 뻗기",
+  "desc_en": "standing with both arms stretched straight up high overhead in a full-body stretch, legs straight",
+  "views": {
+   "front": "std_P019_front.webp",
+   "diag": "std_P019_diag.webp",
+   "side": "std_P019_side.webp",
+   "above": "std_P019_above.webp",
+   "below": "std_P019_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P020",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・片手を後頭部に",
+  "name_cn": "站立・单手扶后脑",
+  "name_en": "Standing, one hand behind head",
+  "name_kr": "서서 한손 뒤통수에",
+  "desc_en": "standing with one hand resting on the back of her head, the other arm relaxed at her side",
+  "views": {
+   "front": "std_P020_front.webp",
+   "diag": "std_P020_diag.webp",
+   "side": "std_P020_side.webp",
+   "above": "std_P020_above.webp",
+   "below": "std_P020_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P021",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・首元と腿に手",
+  "name_cn": "站立・手扶颈侧与大腿",
+  "name_en": "Standing, hands at neck and thigh",
+  "name_kr": "서서 목덜미와 허벅지에 손",
+  "desc_en": "standing with one hand resting at her neck and collarbone, the other hand resting flat on her thigh",
+  "views": {
+   "front": "std_P021_front.webp",
+   "diag": "std_P021_diag.webp",
+   "side": "std_P021_side.webp",
+   "above": "std_P021_above.webp",
+   "below": "std_P021_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P022",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・腕を後ろに胸を張る",
+  "name_cn": "站立・双臂后展挺胸",
+  "name_en": "Standing, arms behind, chest out",
+  "name_kr": "서서 팔 뒤로·가슴 펴기",
+  "desc_en": "standing with both arms pulled behind her back, chest pushed out proudly, legs straight",
+  "views": {
+   "front": "std_P022_front.webp",
+   "diag": "std_P022_diag.webp",
+   "side": "std_P022_side.webp",
+   "above": "std_P022_above.webp",
+   "below": "std_P022_below.webp"
+  },
+  "photos": [
+   "front",
+   "diag",
+   "side",
+   "above",
+   "below"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P024",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・片足を後ろに上げる",
+  "name_cn": "站立・单腿后抬",
+  "name_en": "Standing, one leg lifted behind",
+  "name_kr": "서서 한쪽 다리 뒤로 들기",
+  "desc_en": "standing balanced on one leg, the other leg lifted behind her with the knee bent and foot up",
+  "views": {
+   "front": "std_P024_front.webp",
+   "diag": "std_P024_diag.webp",
+   "side": "std_P024_side.webp",
+   "above": "std_P024_above.webp",
+   "below": "std_P024_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P025",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・脚を開いて両手を腰",
+  "name_cn": "站立・双腿分开叉腰",
+  "name_en": "Standing wide stance, hands on hips",
+  "name_kr": "서서 다리 벌리고 양손 허리에",
+  "desc_en": "standing in a wide stance with legs apart, both hands on her hips, confident posture",
+  "views": {
+   "front": "std_P025_front.webp",
+   "diag": "std_P025_diag.webp",
+   "side": "std_P025_side.webp",
+   "above": "std_P025_above.webp",
+   "below": "std_P025_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P026",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・片腕を上げて腰を突き出す",
+  "name_cn": "站立・单臂上举扭腰",
+  "name_en": "Standing, one arm up, hip pushed out",
+  "name_kr": "서서 한팔 들고 골반 내밀기",
+  "desc_en": "standing with one arm raised up, her hip pushed out to one side in a playful pose",
+  "views": {
+   "front": "std_P026_front.webp",
+   "diag": "std_P026_diag.webp",
+   "side": "std_P026_side.webp",
+   "above": "std_P026_above.webp",
+   "below": "std_P026_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P027",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・うなじに両手",
+  "name_cn": "站立・双手扶颈后",
+  "name_en": "Standing, both hands at nape",
+  "name_kr": "서서 양손 목덜미에",
+  "desc_en": "standing with both hands raised behind her head, resting on the nape of her neck, elbows out",
+  "views": {
+   "front": "std_P027_front.webp",
+   "diag": "std_P027_diag.webp",
+   "side": "std_P027_side.webp",
+   "above": "std_P027_above.webp",
+   "below": "std_P027_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P029",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・髪をなびかせる",
+  "name_cn": "站立・长发飘扬",
+  "name_en": "Standing, hair flowing in the wind",
+  "name_kr": "서서 머리카락 휘날리기",
+  "desc_en": "standing gracefully with her long hair flowing and billowing in the wind, arms relaxed",
+  "views": {
+   "front": "std_P029_front.webp",
+   "diag": "std_P029_diag.webp",
+   "side": "std_P029_side.webp",
+   "above": "std_P029_above.webp",
+   "below": "std_P029_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P030",
+  "class_jp": "立ち",
+  "class_cn": "站立",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・つま先立ちで両腕V字",
+  "name_cn": "踮脚站立・双臂V字",
+  "name_en": "Standing on tiptoe, arms in V",
+  "name_kr": "서서 까치발·양팔 V자",
+  "desc_en": "standing on tiptoe with both arms raised diagonally upward in a V shape, legs straight",
+  "views": {
+   "front": "std_P030_front.webp",
+   "diag": "std_P030_diag.webp",
+   "side": "std_P030_side.webp",
+   "above": "std_P030_above.webp",
+   "below": "std_P030_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P031",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "膝立ち・両手を腿に",
+  "name_cn": "跪立・双手放大腿",
+  "name_en": "Kneeling upright, hands on thighs",
+  "name_kr": "무릎 꿇고 양손 허벅지에",
+  "desc_en": "kneeling upright on both knees on the floor, back straight, both hands resting flat on her thighs",
+  "views": {
+   "front": "std_P031_front.webp",
+   "diag": "std_P031_diag.webp",
+   "side": "std_P031_side.webp",
+   "above": "std_P031_above.webp",
+   "below": "std_P031_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P032",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "膝立ち・両手を頭の後ろ",
+  "name_cn": "跪立・双手抱头",
+  "name_en": "Kneeling, hands behind head",
+  "name_kr": "무릎 꿇고 양손 머리 뒤로",
+  "desc_en": "kneeling upright on both knees, both hands clasped behind her head, elbows out",
+  "views": {
+   "front": "std_P032_front.webp",
+   "diag": "std_P032_diag.webp",
+   "side": "std_P032_side.webp",
+   "above": "std_P032_above.webp",
+   "below": "std_P032_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P033",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "片膝立ち・膝に手",
+  "name_cn": "单膝跪・手放膝上",
+  "name_en": "Half-kneeling, hand on knee",
+  "name_kr": "한쪽 무릎 꿇고 무릎에 손",
+  "desc_en": "in a half-kneeling pose with one knee on the floor and the other foot planted flat in front with knee bent, one hand resting on her front knee",
+  "views": {
+   "front": "std_P033_front.webp",
+   "diag": "std_P033_diag.webp",
+   "side": "std_P033_side.webp",
+   "above": "std_P033_above.webp",
+   "below": "std_P033_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P034",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "膝立ち・上体を反らす",
+  "name_cn": "跪立・上身后仰",
+  "name_en": "Kneeling, upper body arched back",
+  "name_kr": "무릎 꿇고 상체 뒤로 젖히기",
+  "desc_en": "kneeling on both knees, arching her upper body backward in a deep backbend, arms hanging relaxed",
+  "views": {
+   "front": "std_P034_front.webp",
+   "diag": "std_P034_diag.webp",
+   "side": "std_P034_side.webp",
+   "above": "std_P034_above.webp",
+   "below": "std_P034_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P035",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "膝立ち・両腕を上に伸ばす",
+  "name_cn": "跪立・双臂上伸",
+  "name_en": "Kneeling, arms stretched up",
+  "name_kr": "무릎 꿇고 양팔 위로 뻗기",
+  "desc_en": "kneeling on both knees with both arms stretched straight upward toward the ceiling",
+  "views": {
+   "front": "std_P035_front.webp",
+   "diag": "std_P035_diag.webp",
+   "side": "std_P035_side.webp",
+   "above": "std_P035_above.webp",
+   "below": "std_P035_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P036",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "膝立ち・片手で髪・片手は腰",
+  "name_cn": "跪立・一手触发一手叉腰",
+  "name_en": "Kneeling, one hand in hair, one on hip",
+  "name_kr": "무릎 꿇고 한손 머리에·한손 허리에",
+  "desc_en": "kneeling on both knees, one hand raised touching her hair, the other hand resting on her hip",
+  "views": {
+   "front": "std_P036_front.webp",
+   "diag": "std_P036_diag.webp",
+   "side": "std_P036_side.webp",
+   "above": "std_P036_above.webp",
+   "below": "std_P036_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P037",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "片膝立ち・見上げる",
+  "name_cn": "单膝跪・仰望",
+  "name_en": "Half-kneeling, looking up",
+  "name_kr": "한쪽 무릎 꿇고 올려다보기",
+  "desc_en": "in a half-kneeling pose with one knee on the floor and the other foot planted in front, face turned looking upward",
+  "views": {
+   "front": "std_P037_front.webp",
+   "diag": "std_P037_diag.webp",
+   "side": "std_P037_side.webp",
+   "above": "std_P037_above.webp",
+   "below": "std_P037_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P038",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "膝立ち・横に傾き床に手",
+  "name_cn": "跪立・侧倾手撑地",
+  "name_en": "Kneeling leaning sideways, hand on floor",
+  "name_kr": "무릎 꿇고 옆으로 기울어 손 짚기",
+  "desc_en": "kneeling on both knees leaning over sideways, one hand placed flat on the floor beside her for support",
+  "views": {
+   "front": "std_P038_front.webp",
+   "diag": "std_P038_diag.webp",
+   "side": "std_P038_side.webp",
+   "above": "std_P038_above.webp",
+   "below": "std_P038_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P039",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "膝立ち・腰に手で反る",
+  "name_cn": "跪立・叉腰后仰",
+  "name_en": "Kneeling, hands on hips, back arched",
+  "name_kr": "무릎 꿇고 허리에 손·뒤로 젖히기",
+  "desc_en": "kneeling on both knees with both hands on her hips, arching her back, chest out",
+  "views": {
+   "front": "std_P039_front.webp",
+   "diag": "std_P039_diag.webp",
+   "side": "std_P039_side.webp",
+   "above": "std_P039_above.webp",
+   "below": "std_P039_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P040",
+  "class_jp": "膝立ち",
+  "class_cn": "跪姿",
+  "class_en": "Kneeling",
+  "class_kr": "무릎 꿇기",
+  "name_jp": "膝立ち・腰を振って片腕を上げる",
+  "name_cn": "跪立・扭腰单臂上举",
+  "name_en": "Kneeling, hips swayed, one arm raised",
+  "name_kr": "무릎 꿇고 골반 흔들며 한팔 들기",
+  "desc_en": "kneeling on both knees with her hips swayed to one side, one arm raised up in the air",
+  "views": {
+   "front": "std_P040_front.webp",
+   "diag": "std_P040_diag.webp",
+   "side": "std_P040_side.webp",
+   "above": "std_P040_above.webp",
+   "below": "std_P040_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P041",
+  "class_jp": "横座り・女の子座り",
+  "class_cn": "侧坐・少女坐",
+  "class_en": "Side sit / W-sit",
+  "class_kr": "옆 앉기·여자아이 앉기",
+  "name_jp": "女の子座り・両手を腿に",
+  "name_cn": "少女坐・双手放大腿",
+  "name_en": "W-sit, hands on thighs",
+  "name_kr": "여자아이 앉기·양손 허벅지에",
+  "desc_en": "sitting on the floor in a W-sit with her legs folded out to both sides of her hips, back straight, both hands resting on her thighs",
+  "views": {
+   "front": "std_P041_front.webp",
+   "diag": "std_P041_diag.webp",
+   "side": "std_P041_side.webp",
+   "above": "std_P041_above.webp",
+   "below": "std_P041_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P042",
+  "class_jp": "横座り・女の子座り",
+  "class_cn": "侧坐・少女坐",
+  "class_en": "Side sit / W-sit",
+  "class_kr": "옆 앉기·여자아이 앉기",
+  "name_jp": "女の子座り・前に手をつく",
+  "name_cn": "少女坐・双手前撑",
+  "name_en": "W-sit, hands on floor in front",
+  "name_kr": "여자아이 앉기·앞에 손 짚기",
+  "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, leaning slightly forward with both hands placed on the floor in front of her",
+  "views": {
+   "front": "std_P042_front.webp",
+   "diag": "std_P042_diag.webp",
+   "side": "std_P042_side.webp",
+   "above": "std_P042_above.webp",
+   "below": "std_P042_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P043",
+  "class_jp": "横座り・女の子座り",
+  "class_cn": "侧坐・少女坐",
+  "class_en": "Side sit / W-sit",
+  "class_kr": "옆 앉기·여자아이 앉기",
+  "name_jp": "女の子座り・両手を頭の後ろ",
+  "name_cn": "少女坐・双手抱头",
+  "name_en": "W-sit, hands behind head",
+  "name_kr": "여자아이 앉기·양손 머리 뒤로",
+  "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, both hands clasped behind her head",
+  "views": {
+   "front": "std_P043_front.webp",
+   "diag": "std_P043_diag.webp",
+   "side": "std_P043_side.webp",
+   "above": "std_P043_above.webp",
+   "below": "std_P043_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P044",
+  "class_jp": "横座り・女の子座り",
+  "class_cn": "侧坐・少女坐",
+  "class_en": "Side sit / W-sit",
+  "class_kr": "옆 앉기·여자아이 앉기",
+  "name_jp": "女の子座り・後ろに手をつく",
+  "name_cn": "少女坐・双手后撑",
+  "name_en": "W-sit, hands on floor behind",
+  "name_kr": "여자아이 앉기·뒤에 손 짚기",
+  "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, leaning back slightly with both hands placed on the floor behind her",
+  "views": {
+   "front": "std_P044_front.webp",
+   "diag": "std_P044_diag.webp",
+   "side": "std_P044_side.webp",
+   "above": "std_P044_above.webp",
+   "below": "std_P044_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P045",
+  "class_jp": "横座り・女の子座り",
+  "class_cn": "侧坐・少女坐",
+  "class_en": "Side sit / W-sit",
+  "class_kr": "옆 앉기·여자아이 앉기",
+  "name_jp": "横座り・右に脚を流す",
+  "name_cn": "侧坐・双腿右流",
+  "name_en": "Side sit, legs swept right",
+  "name_kr": "옆으로 앉아 다리 오른쪽으로",
+  "desc_en": "sitting on the floor with both legs swept together to her right side in a side-saddle sit, torso upright and straight",
+  "views": {
+   "front": "std_P045_front.webp",
+   "diag": "std_P045_diag.webp",
+   "side": "std_P045_side.webp",
+   "above": "std_P045_above.webp",
+   "below": "std_P045_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P046",
+  "class_jp": "横座り・女の子座り",
+  "class_cn": "侧坐・少女坐",
+  "class_en": "Side sit / W-sit",
+  "class_kr": "옆 앉기·여자아이 앉기",
+  "name_jp": "横座り・頬に手",
+  "name_cn": "侧坐・手贴脸颊",
+  "name_en": "Side sit, hand on cheek",
+  "name_kr": "옆으로 앉아 뺨에 손",
+  "desc_en": "sitting on the floor with both legs swept together to one side, one hand raised with fingers resting gently against her cheek",
+  "views": {
+   "front": "std_P046_front.webp",
+   "diag": "std_P046_diag.webp",
+   "side": "std_P046_side.webp",
+   "above": "std_P046_above.webp",
+   "below": "std_P046_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P047",
+  "class_jp": "横座り・女の子座り",
+  "class_cn": "侧坐・少女坐",
+  "class_en": "Side sit / W-sit",
+  "class_kr": "옆 앉기·여자아이 앉기",
+  "name_jp": "横座り・片腕を上に伸ばす",
+  "name_cn": "侧坐・单臂上伸",
+  "name_en": "Side sit, one arm stretched up",
+  "name_kr": "옆으로 앉아 한팔 위로 뻗기",
+  "desc_en": "sitting on the floor with both legs swept together to one side, one arm stretched straight upward",
+  "views": {
+   "front": "std_P047_front.webp",
+   "diag": "std_P047_diag.webp",
+   "side": "std_P047_side.webp",
+   "above": "std_P047_above.webp",
+   "below": "std_P047_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P048",
+  "class_jp": "横座り・女の子座り",
+  "class_cn": "侧坐・少女坐",
+  "class_en": "Side sit / W-sit",
+  "class_kr": "옆 앉기·여자아이 앉기",
+  "name_jp": "女の子座り・首元に手",
+  "name_cn": "少女坐・手扶颈侧",
+  "name_en": "W-sit, hand at neck",
+  "name_kr": "여자아이 앉기·목덜미에 손",
+  "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, one hand resting at her neck and collarbone",
+  "views": {
+   "front": "std_P048_front.webp",
+   "diag": "std_P048_diag.webp",
+   "side": "std_P048_side.webp",
+   "above": "std_P048_above.webp",
+   "below": "std_P048_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P049",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向け・両腕を頭上へ",
+  "name_cn": "仰卧・双臂过头",
+  "name_en": "Lying on back, arms overhead",
+  "name_kr": "누워서 양팔 머리 위로",
+  "desc_en": "lying flat on her back on the floor with both arms extended above her head resting on the floor, legs straight and together",
+  "views": {
+   "front": "std_P049_front.webp",
+   "diag": "std_P049_diag.webp",
+   "side": "std_P049_side.webp",
+   "above": "std_P049_above.webp",
+   "below": "std_P049_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P050",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "横向き寝・頬杖",
+  "name_cn": "侧卧・托腮",
+  "name_en": "Lying on side, cheek on hand",
+  "name_kr": "옆으로 누워 턱 괴기",
+  "desc_en": "lying on her side on the floor, propped up on her lower elbow with her cheek resting on that hand, legs extended straight together",
+  "views": {
+   "front": "std_P050_front.webp",
+   "diag": "std_P050_diag.webp",
+   "side": "std_P050_side.webp",
+   "above": "std_P050_above.webp",
+   "below": "std_P050_below.webp"
+  },
+  "photos": [
+   "front"
+  ],
+  "orig_id": null
+ },
+ {
+  "id": "P051",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "うつ伏せ・足を上げる",
+  "name_cn": "俯卧・双腿上踢",
+  "name_en": "Lying face down, legs kicked up",
+  "name_kr": "엎드려 다리 들기",
+  "desc_en": "lying face down on her stomach on the floor, both legs bent upward behind her with feet kicked up in the air, chin resting on her hands",
+  "views": {
+   "front": "std_P051_front.webp",
+   "diag": "std_P051_diag.webp",
+   "side": "std_P051_side.webp",
+   "above": "std_P051_above.webp",
+   "below": "std_P051_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P052",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向け・片膝を立てる",
+  "name_cn": "仰卧・单膝竖起",
+  "name_en": "Lying on back, one knee raised",
+  "name_kr": "누워서 한쪽 무릎 세우기",
+  "desc_en": "lying on her back on the floor with one knee raised and bent with foot flat on the floor, the other leg extended straight, arms resting beside her",
+  "views": {
+   "front": "std_P052_front.webp",
+   "diag": "std_P052_diag.webp",
+   "side": "std_P052_side.webp",
+   "above": "std_P052_above.webp",
+   "below": "std_P052_below.webp"
+  },
+  "photos": [],
+  "orig_id": null
+ },
+ {
+  "id": "P053",
+  "orig_id": "P054",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "横向き寝・腰のカーブ",
+  "name_cn": "侧卧・腰部曲线",
+  "name_en": "Lying on side, waist curved",
+  "name_kr": "옆으로 누워 허리 곡선",
+  "desc_en": "lying on her side on the floor, her waist curving in an S line, legs extended together",
+  "views": {
+   "front": "std_P053_front.webp",
+   "diag": "std_P053_diag.webp",
+   "side": "std_P053_side.webp",
+   "above": "std_P053_above.webp",
+   "below": "std_P053_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P054",
+  "orig_id": "P056",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向け・両脚を真上に",
+  "name_cn": "仰卧・双腿竖直上举",
+  "name_en": "Lying on back, both legs straight up",
+  "name_kr": "누워서 양다리 위로",
+  "desc_en": "lying flat on her back on the floor with both legs raised straight up toward the ceiling together, arms resting beside her body",
+  "views": {
+   "front": "std_P054_front.webp",
+   "diag": "std_P054_diag.webp",
+   "side": "std_P054_side.webp",
+   "above": "std_P054_above.webp",
+   "below": "std_P054_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P055",
+  "orig_id": "P057",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "横向き寝・片腕を頭上",
+  "name_cn": "侧卧・单臂过头",
+  "name_en": "Lying on side, one arm overhead",
+  "name_kr": "옆으로 누워 한팔 머리 위로",
+  "desc_en": "lying on her side on the floor with one arm extended above her head resting on the floor, legs extended together",
+  "views": {
+   "front": "std_P055_front.webp",
+   "diag": "std_P055_diag.webp",
+   "side": "std_P055_side.webp",
+   "above": "std_P055_above.webp",
+   "below": "std_P055_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P056",
+  "orig_id": "P058",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "うつ伏せ・腕枕",
+  "name_cn": "俯卧・臂枕",
+  "name_en": "Lying face down, head on folded arms",
+  "name_kr": "엎드려 팔 베개",
+  "desc_en": "lying face down on her stomach on the floor, her head resting on her folded arms used as a pillow, legs extended straight",
+  "views": {
+   "front": "std_P056_front.webp",
+   "diag": "std_P056_diag.webp",
+   "side": "std_P056_side.webp",
+   "above": "std_P056_above.webp",
+   "below": "std_P056_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P057",
+  "orig_id": "P059",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向け・胸を反らす",
+  "name_cn": "仰卧・挺胸",
+  "name_en": "Lying on back, chest arched",
+  "name_kr": "누워서 가슴 젖히기",
+  "desc_en": "lying on her back on the floor with her chest arched upward, knees bent with feet flat on the floor",
+  "views": {
+   "front": "std_P057_front.webp",
+   "diag": "std_P057_diag.webp",
+   "side": "std_P057_side.webp",
+   "above": "std_P057_above.webp",
+   "below": "std_P057_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P058",
+  "orig_id": "P061",
+  "class_jp": "しゃがみ",
+  "class_cn": "蹲姿",
+  "class_en": "Squatting",
+  "class_kr": "쪼그려 앉기",
+  "name_jp": "しゃがみ・膝に手",
+  "name_cn": "深蹲・手放膝上",
+  "name_en": "Squatting, hands on knees",
+  "name_kr": "쪼그려 앉아 무릎에 손",
+  "desc_en": "squatting low with both feet flat on the floor, both hands resting on her knees",
+  "views": {
+   "front": "std_P058_front.webp",
+   "diag": "std_P058_diag.webp",
+   "side": "std_P058_side.webp",
+   "above": "std_P058_above.webp",
+   "below": "std_P058_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P059",
+  "orig_id": "P062",
+  "class_jp": "しゃがみ",
+  "class_cn": "蹲姿",
+  "class_en": "Squatting",
+  "class_kr": "쪼그려 앉기",
+  "name_jp": "しゃがみ・片手を床に",
+  "name_cn": "深蹲・单手撑地",
+  "name_en": "Squatting, one hand on floor",
+  "name_kr": "쪼그려 앉아 한손 바닥에",
+  "desc_en": "squatting low, one hand placed flat on the floor beside her for support, the other hand resting on her knee",
+  "views": {
+   "front": "std_P059_front.webp",
+   "diag": "std_P059_diag.webp",
+   "side": "std_P059_side.webp",
+   "above": "std_P059_above.webp",
+   "below": "std_P059_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P060",
+  "orig_id": "P063",
+  "class_jp": "しゃがみ",
+  "class_cn": "蹲姿",
+  "class_en": "Squatting",
+  "class_kr": "쪼그려 앉기",
+  "name_jp": "しゃがみ・頬杖",
+  "name_cn": "深蹲・托腮",
+  "name_en": "Squatting, cheek on hand",
+  "name_kr": "쪼그려 앉아 턱 괴기",
+  "desc_en": "squatting low with her elbow resting on her knee and her cheek resting on that hand",
+  "views": {
+   "front": "std_P060_front.webp",
+   "diag": "std_P060_diag.webp",
+   "side": "std_P060_side.webp",
+   "above": "std_P060_above.webp",
+   "below": "std_P060_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P061",
+  "orig_id": "P064",
+  "class_jp": "しゃがみ",
+  "class_cn": "蹲姿",
+  "class_en": "Squatting",
+  "class_kr": "쪼그려 앉기",
+  "name_jp": "しゃがみ・髪に手",
+  "name_cn": "深蹲・手触发",
+  "name_en": "Squatting, hand in hair",
+  "name_kr": "쪼그려 앉아 머리에 손",
+  "desc_en": "squatting low, one hand raised touching her hair, the other hand resting on her knee",
+  "views": {
+   "front": "std_P061_front.webp",
+   "diag": "std_P061_diag.webp",
+   "side": "std_P061_side.webp",
+   "above": "std_P061_above.webp",
+   "below": "std_P061_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P062",
+  "orig_id": "P065",
+  "class_jp": "しゃがみ",
+  "class_cn": "蹲姿",
+  "class_en": "Squatting",
+  "class_kr": "쪼그려 앉기",
+  "name_jp": "しゃがみ・つま先立ちで両手を床に",
+  "name_cn": "深蹲踮脚・双手撑地",
+  "name_en": "Deep squat on tiptoe, both hands on floor",
+  "name_kr": "까치발 쪼그려 앉아 양손 바닥에",
+  "desc_en": "in a deep squat up on the balls of her feet, both hands placed flat on the floor in front of her",
+  "views": {
+   "front": "std_P062_front.webp",
+   "diag": "std_P062_diag.webp",
+   "side": "std_P062_side.webp",
+   "above": "std_P062_above.webp",
+   "below": null
+  },
+  "photos": []
+ },
+ {
+  "id": "P063",
+  "orig_id": "P066",
+  "class_jp": "しゃがみ",
+  "class_cn": "蹲姿",
+  "class_en": "Squatting",
+  "class_kr": "쪼그려 앉기",
+  "name_jp": "しゃがみ・振り向く",
+  "name_cn": "深蹲・回头",
+  "name_en": "Squatting, looking back",
+  "name_kr": "쪼그려 앉아 돌아보기",
+  "desc_en": "squatting low, her upper body turned to look back over her shoulder",
+  "views": {
+   "front": "std_P063_front.webp",
+   "diag": "std_P063_diag.webp",
+   "side": "std_P063_side.webp",
+   "above": "std_P063_above.webp",
+   "below": "std_P063_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P064",
+  "orig_id": "P067",
+  "class_jp": "前かがみ",
+  "class_cn": "前倾",
+  "class_en": "Leaning forward",
+  "class_kr": "상체 숙이기",
+  "name_jp": "前かがみ・膝に手",
+  "name_cn": "前倾・手放膝上",
+  "name_en": "Bent forward, hands on knees",
+  "name_kr": "상체 숙여 무릎에 손",
+  "desc_en": "standing bent forward at the waist, both hands resting on her knees, back nearly horizontal",
+  "views": {
+   "front": "std_P064_front.webp",
+   "diag": "std_P064_diag.webp",
+   "side": "std_P064_side.webp",
+   "above": "std_P064_above.webp",
+   "below": "std_P064_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P065",
+  "orig_id": "P068",
+  "class_jp": "前かがみ",
+  "class_cn": "前倾",
+  "class_en": "Leaning forward",
+  "class_kr": "상체 숙이기",
+  "name_jp": "前かがみ・すねに触れる",
+  "name_cn": "前倾・手摸小腿",
+  "name_en": "Bent forward deeply, hands touching shins",
+  "name_kr": "상체 숙여 정강이 만지기",
+  "desc_en": "standing bent forward deeply at the waist, both hands reaching down touching her shins",
+  "views": {
+   "front": "std_P065_front.webp",
+   "diag": "std_P065_diag.webp",
+   "side": "std_P065_side.webp",
+   "above": "std_P065_above.webp",
+   "below": "std_P065_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P066",
+  "orig_id": "P069",
+  "class_jp": "前かがみ",
+  "class_cn": "前倾",
+  "class_en": "Leaning forward",
+  "class_kr": "상체 숙이기",
+  "name_jp": "前かがみ・片手を腰・見上げる",
+  "name_cn": "前倾・单手叉腰仰望",
+  "name_en": "Bent forward, one hand on hip, looking up",
+  "name_kr": "상체 숙여 한손 허리에·올려다보기",
+  "desc_en": "standing bent forward at the waist with one hand on her hip, her face turned looking upward",
+  "views": {
+   "front": "std_P066_front.webp",
+   "diag": "std_P066_diag.webp",
+   "side": "std_P066_side.webp",
+   "above": "std_P066_above.webp",
+   "below": "std_P066_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P067",
+  "orig_id": "P070",
+  "class_jp": "前かがみ",
+  "class_cn": "前倾",
+  "class_en": "Leaning forward",
+  "class_kr": "상체 숙이기",
+  "name_jp": "前かがみ・腿に手・腰を引く",
+  "name_cn": "前倾・手放大腿挺臀",
+  "name_en": "Bent forward, hands on thighs, hips back",
+  "name_kr": "상체 숙여 허벅지에 손·골반 뒤로",
+  "desc_en": "standing bent forward at the waist with both hands resting on her thighs, her hips pushed back",
+  "views": {
+   "front": "std_P067_front.webp",
+   "diag": "std_P067_diag.webp",
+   "side": "std_P067_side.webp",
+   "above": "std_P067_above.webp",
+   "below": "std_P067_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P068",
+  "orig_id": "P071",
+  "class_jp": "前かがみ",
+  "class_cn": "前倾",
+  "class_en": "Leaning forward",
+  "class_kr": "상체 숙이기",
+  "name_jp": "前かがみ・腕をだらりと下げる",
+  "name_cn": "前倾・双臂垂落",
+  "name_en": "Bent forward, arms hanging limp",
+  "name_kr": "상체 숙여 팔 늘어뜨리기",
+  "desc_en": "standing bent forward at the waist, both arms hanging down limp and relaxed toward the floor",
+  "views": {
+   "front": "std_P068_front.webp",
+   "diag": "std_P068_diag.webp",
+   "side": "std_P068_side.webp",
+   "above": "std_P068_above.webp",
+   "below": "std_P068_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P069",
+  "orig_id": "P072",
+  "class_jp": "前かがみ",
+  "class_cn": "前倾",
+  "class_en": "Leaning forward",
+  "class_kr": "상체 숙이기",
+  "name_jp": "前かがみ・片脚を後ろに上げる",
+  "name_cn": "前倾・单腿后抬",
+  "name_en": "Bent forward, one leg lifted behind",
+  "name_kr": "상체 숙여 한쪽 다리 뒤로 들기",
+  "desc_en": "standing bent forward at the waist, balancing on one leg with the other leg lifted behind her",
+  "views": {
+   "front": "std_P069_front.webp",
+   "diag": "std_P069_diag.webp",
+   "side": "std_P069_side.webp",
+   "above": "std_P069_above.webp",
+   "below": "std_P069_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P070",
+  "orig_id": "P073",
+  "class_jp": "のけぞり・反り",
+  "class_cn": "后仰",
+  "class_en": "Arching back",
+  "class_kr": "뒤로 젖히기",
+  "name_jp": "のけぞり・立ち姿勢で反る",
+  "name_cn": "站立后仰反弓",
+  "name_en": "Standing, arched backward",
+  "name_kr": "서서 뒤로 젖히기",
+  "desc_en": "standing with her upper body arched strongly backward, head tilted back",
+  "views": {
+   "front": "std_P070_front.webp",
+   "diag": "std_P070_diag.webp",
+   "side": "std_P070_side.webp",
+   "above": "std_P070_above.webp",
+   "below": "std_P070_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P071",
+  "orig_id": "P074",
+  "class_jp": "のけぞり・反り",
+  "class_cn": "后仰",
+  "class_en": "Arching back",
+  "class_kr": "뒤로 젖히기",
+  "name_jp": "膝立ち・後ろに手をついて反る",
+  "name_cn": "跪立・后撑反弓",
+  "name_en": "Kneeling, hands behind on floor, arched back",
+  "name_kr": "무릎 꿇고 뒤에 손 짚어 젖히기",
+  "desc_en": "kneeling on both knees, leaning back with both hands placed on the floor behind her, her back arched",
+  "views": {
+   "front": "std_P071_front.webp",
+   "diag": "std_P071_diag.webp",
+   "side": "std_P071_side.webp",
+   "above": "std_P071_above.webp",
+   "below": "std_P071_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P072",
+  "orig_id": "P075",
+  "class_jp": "のけぞり・反り",
+  "class_cn": "后仰",
+  "class_en": "Arching back",
+  "class_kr": "뒤로 젖히기",
+  "name_jp": "のけぞり・両腕を上げて反る",
+  "name_cn": "后仰・双臂上举反弓",
+  "name_en": "Arched back, both arms raised",
+  "name_kr": "양팔 들고 뒤로 젖히기",
+  "desc_en": "standing with both arms raised up while arching her whole body backward, head tilted back",
+  "views": {
+   "front": "std_P072_front.webp",
+   "diag": "std_P072_diag.webp",
+   "side": "std_P072_side.webp",
+   "above": "std_P072_above.webp",
+   "below": "std_P072_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P073",
+  "orig_id": "P077",
+  "class_jp": "ひねり",
+  "class_cn": "扭转",
+  "class_en": "Twist",
+  "class_kr": "비틀기",
+  "name_jp": "ひねり・立ち姿勢で腕を広げる",
+  "name_cn": "站立扭转・双臂展开",
+  "name_en": "Standing twist, arms spread wide",
+  "name_kr": "서서 비틀어 양팔 벌리기",
+  "desc_en": "standing with her upper body twisted to the side, both arms spread wide open",
+  "views": {
+   "front": "std_P073_front.webp",
+   "diag": "std_P073_diag.webp",
+   "side": "std_P073_side.webp",
+   "above": "std_P073_above.webp",
+   "below": "std_P073_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P074",
+  "orig_id": "P078",
+  "class_jp": "ひねり",
+  "class_cn": "扭转",
+  "class_en": "Twist",
+  "class_kr": "비틀기",
+  "name_jp": "ひねり・膝立ちで振り向く",
+  "name_cn": "跪立扭转・回头",
+  "name_en": "Kneeling twist, looking back",
+  "name_kr": "무릎 꿇고 비틀어 돌아보기",
+  "desc_en": "kneeling on both knees with her upper body twisted, looking back over her shoulder",
+  "views": {
+   "front": "std_P074_front.webp",
+   "diag": "std_P074_diag.webp",
+   "side": "std_P074_side.webp",
+   "above": "std_P074_above.webp",
+   "below": "std_P074_below.webp"
+  },
+  "photos": []
+ },
+ {
+  "id": "P075",
+  "orig_id": "P079",
+  "class_jp": "ひねり",
+  "class_cn": "扭转",
+  "class_en": "Twist",
+  "class_kr": "비틀기",
+  "name_jp": "ひねり・座って上体をひねる",
+  "name_cn": "坐姿・上身扭转",
+  "name_en": "Sitting, upper body twisted",
+  "name_kr": "앉아서 상체 비틀기",
+  "desc_en": "sitting on the floor with legs extended forward, her upper body twisted to the side, one hand placed on the floor behind her for support",
+  "views": {
+   "front": "std_P075_front.webp",
+   "diag": "std_P075_diag.webp",
+   "side": "std_P075_side.webp",
+   "above": "std_P075_above.webp",
+   "below": "std_P075_below.webp"
+  },
+  "photos": []
+ }
+]
