@@ -23,7 +23,8 @@ the catalog schema.
   gallery heading shows on first load.
 - A third image tier, `w600` (600 × 800, ~17 KB), feeds the grid on high-density screens, which used to fetch w900:
   about 40% fewer bytes per grid image. The repository grows to about 56 MB.
-- Repeat visits load faster: scripts and styles are cached for a year under a content-hash `?v=`, images for a
+- Repeat visits load faster: scripts and styles are cached for a year as `assets/<name>.<content hash>.<ext>` (a
+  hash in the name, not a `?v=` query, which Pages ignores when looking up a file), images for a
   week with background revalidation (`site/_headers` for Cloudflare Pages). The hero marquee loads at low priority.
 - Images and the project's own data are now CC0 1.0 (`LICENSE-images`); code and docs stay Apache-2.0. Every zip ships
   LICENSE, LICENSE-images and NOTICE. README and NOTICE credit the pose list to ai-pose-gallery by ギア (@giaaibusi).

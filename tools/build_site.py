@@ -173,12 +173,13 @@ def check_site(out, site):
     return bad
 
 
-# Cloudflare Pages response headers. Scripts and styles are referenced as ?v=<content hash>, so a cached copy is
-# never stale and can be kept for a year. Image names stay the same when a view is redrawn, so images get a week
-# plus background revalidation rather than immutable. Pages without a rule keep the Pages default (revalidate).
-HEADERS = """/*.js
-  Cache-Control: public, max-age=31536000, immutable
-/*.css
+# Cloudflare Pages response headers. Scripts and styles ship as assets/<name>.<content hash>.<ext>: the hash lives in
+# the file name, not a ?v= query, because Pages ignores the query when it looks up a file. With ?v=, an edge still on
+# the previous deployment answered the new URL with the old script, and the zone cache kept that for a year (a blank
+# gallery on 2026-10-29). A hashed name the old deployment lacks cannot be filled with old code, so only assets/ is
+# immutable; the unhashed copies stay for HTML cached before the switch and revalidate like pages. Image names stay
+# the same when a view is redrawn, so images get a week plus background revalidation rather than immutable.
+HEADERS = """/assets/*
   Cache-Control: public, max-age=31536000, immutable
 /images/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
@@ -189,14 +190,19 @@ STAMPED = ("app.css", "app.js", "common.js", "i18n.js")
 
 
 def stamp_assets(out, ver):
-    """Swap the release version in ?v= for each asset's content hash, so an edit between releases busts caches."""
+    """Copy each asset to assets/<stem>.<content hash><ext> and point every page's name?v=<release> reference at it."""
+    (out / "assets").mkdir(exist_ok=True)
+    pages = list(out.rglob("*.html"))
     for name in STAMPED:
-        digest = hashlib.sha256((out / name).read_bytes()).hexdigest()[:10]
+        data = (out / name).read_bytes()
+        stem, ext = os.path.splitext(name)
+        hashed = f"{stem}.{hashlib.sha256(data).hexdigest()[:10]}{ext}"
+        (out / "assets" / hashed).write_bytes(data)
         pat = re.compile(re.escape(name) + r"\?v=" + re.escape(ver) + r"(?=\")")
-        for f in out.rglob("*.html"):
+        for f in pages:
             doc = f.read_text()
             if name in doc:
-                f.write_text(pat.sub(f"{name}?v={digest}", doc))
+                f.write_text(pat.sub("assets/" + hashed, doc))
 
 
 def main() -> None:
