@@ -10,6 +10,10 @@
   const TINT = ['#D3D1E6', '#AFC3E0', '#BCD3C6', '#E3CBB0', '#EBC0BC', '#C7DCD6', '#E6B7A1', '#CBD0AC', '#DDB9C8'];
   const TOOLS = ['ComfyUI', 'Stable Diffusion', 'Flux', 'Midjourney', 'Nano Banana', 'Qwen-Image', '即梦'];
   const NAME_LABEL = { cn: 'ZH', jp: 'JA', en: 'EN', kr: 'KO' };
+  // Each language has its own copy of this page (zh at the root, the others under ja/ en/ ko/) so search engines and
+  // link previews see it in that language; BASE leads back to the site root from here.
+  const BASE = window.SHISEI.base || '';
+  const PREFIX = { zh: '', ja: 'ja/', en: 'en/', ko: 'ko/' };
 
   const poses = CATALOG.map((p) => ({
     ...p,
@@ -33,20 +37,9 @@
     const n = parseInt(params.get(k), 10);
     return Number.isInteger(n) && n >= lo && n <= hi ? n : dflt;
   };
-  const pickLang = () => {
-    const q = params.get('lang');
-    if (LANGS.includes(q)) return q;
-    const saved = store.get('lang');
-    if (LANGS.includes(saved)) return saved;
-    const nav = (navigator.language || '').toLowerCase();
-    if (nav.startsWith('ja')) return 'ja';
-    if (nav.startsWith('ko')) return 'ko';
-    if (nav.startsWith('zh')) return 'zh';
-    return nav ? 'en' : 'zh';
-  };
-
+  // The page's own language; the head script already moved the reader if ?lang or their saved choice says otherwise.
   const S = {
-    lang: pickLang(),
+    lang: LANGS.includes(window.SHISEI.lang) ? window.SHISEI.lang : 'zh',
     cat: intParam('cat', 0, CAT_KEYS.length - 1, -1),
     newOnly: params.get('new') === '1',
     angle: intParam('angle', 0, 4, -1),
@@ -60,7 +53,7 @@
   const t = () => I18N[S.lang];
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const nameOf = (p) => p['name_' + t().suffix];
-  const src = (kind, tier, file) => 'images/' + kind + '/' + tier + '/' + file;
+  const src = (kind, tier, file) => BASE + 'images/' + kind + '/' + tier + '/' + file;
   const srcset = (kind, file) => src(kind, 'w300', file) + ' 300w, ' + src(kind, 'w900', file) + ' 900w';
   const files = (p, photo) => (photo ? p.photo : p.line);
   const firstView = (arr) => Math.max(0, arr.findIndex(Boolean));
@@ -84,7 +77,6 @@
 
   function syncUrl() {
     const p = new URLSearchParams();
-    if (S.lang !== 'zh') p.set('lang', S.lang);
     if (S.cat >= 0) p.set('cat', S.cat);
     if (S.newOnly) p.set('new', '1');
     if (S.angle >= 0) p.set('angle', S.angle);
@@ -325,10 +317,9 @@
   q.addEventListener('keydown', (e) => { if (e.key === 'Enter') $('all').scrollIntoView(); });
 
   $('lang').addEventListener('click', () => {
-    S.lang = LANGS[(LANGS.indexOf(S.lang) + 1) % LANGS.length];
-    store.set('lang', S.lang);
-    renderAll();
-    syncUrl();
+    const next = LANGS[(LANGS.indexOf(S.lang) + 1) % LANGS.length];
+    store.set('lang', next);
+    location.assign(BASE + PREFIX[next] + location.search + location.hash);
   });
   $('theme').addEventListener('click', () => {
     const root = document.documentElement;
@@ -401,8 +392,10 @@
     $('lbDlText').textContent = T.download + ' · ' + (LB.photo ? '900×1800' : '900×1200');
     if (f) { dl.href = src(kind, 'w900', f); dl.setAttribute('download', 'shisei_' + p.id + '_' + VIEWS[LB.v] + (LB.photo ? '_photo' : '') + '.webp'); dl.removeAttribute('aria-disabled'); }
     else { dl.removeAttribute('href'); dl.setAttribute('aria-disabled', 'true'); }
+    $('lbPage').href = posePage(p.id);
     history.replaceState(null, '', location.pathname + location.search + '#' + p.id + '-' + VIEWS[LB.v] + (LB.photo ? '-photo' : ''));
   }
+  const posePage = (id) => BASE + PREFIX[S.lang] + 'pose/' + id + '/';
   function stepAngle(d) {
     const arr = files(byId.get(LB.id), LB.photo);
     for (let k = 1; k <= 5; k++) {
@@ -430,6 +423,17 @@
   });
   $('lbCopyDesc').addEventListener('click', () => copy(byId.get(LB.id).desc_en));
   $('lbCopyId').addEventListener('click', () => copy(LB.id));
+  // Share the pose page, not this #hash: link previews never see a fragment, the pose page has its own card.
+  $('lbShare').addEventListener('click', () => {
+    const p = byId.get(LB.id);
+    const f = p.line[LB.v] || p.line[firstView(p.line)];
+    window.ShiseiShare.open({
+      url: posePage(p.id),
+      heading: t().shareTitle,
+      text: t().shareText.replace('{name}', nameOf(p)),
+      image: new URL(src('line', 'w900', f), location.href).href
+    });
+  });
   $('lb').addEventListener('close', () => history.replaceState(null, '', location.pathname + location.search));
   $('lb').addEventListener('keydown', (e) => {
     if (e.target.closest('input, textarea')) return;

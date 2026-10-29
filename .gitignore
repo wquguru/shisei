@@ -5,3 +5,5 @@
 # full-size originals live in Release assets, never in git (docs/DECISIONS.md D-02)
 /images/*/full/
 /site/
+# share-card render cache (tools/og_cards.py)
+/build/

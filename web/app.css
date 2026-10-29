@@ -265,3 +265,81 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 .lb.photo .lb-stage img { width: auto; max-width: 100%; height: 100%; border-radius: 18px; box-shadow: 0 10px 30px -16px rgba(24,24,27,0.5); }
 .lb.photo .lb-chips button span { display: flex; justify-content: center; }
 .lb.photo .lb-chips img { width: auto; height: 100%; }
+
+@media (max-width: 1100px) { .static .nav-links { display: flex; } }
+/* ---- generated pages (tools/site_pages.py): pose pages, changelog, 404; share sheet ---- */
+.page { padding-top: 24px; padding-bottom: 72px; }
+.crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font-size: 15px; color: var(--ink4); }
+.crumbs a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; color: var(--ink3); }
+.crumbs a:hover { color: var(--ink); }
+.pp-head { display: flex; flex-direction: column; gap: 10px; margin-top: 8px; max-width: 820px; }
+.pp-meta { margin: 0; font-size: 14px; color: var(--ink4); }
+.pp-head h1 { margin: 0; font-size: clamp(30px, 4vw, 48px); line-height: 1.15; font-weight: 800; letter-spacing: -0.03em; }
+.pp-head .lb-names { max-width: 560px; }
+.pp-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+.pp-desc { max-width: 820px; margin-top: 24px; }
+.pp-sec { margin-top: 48px; }
+.pp-sec h2 { margin: 0 0 18px; font-size: 26px; font-weight: 700; letter-spacing: -0.02em; }
+.pp-views { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; }
+.pp-view { margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.pp-tile { display: block; aspect-ratio: 3 / 4; border-radius: 24px; overflow: hidden; background: var(--tint); position: relative; }
+.pp-tile img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
+.pp-tile.missing { display: flex; align-items: center; justify-content: center; text-align: center; padding: 16px; border: 2px dashed rgba(24,24,27,0.28); background: var(--tile); color: var(--ink3); font-size: 14px; }
+.pp-view figcaption { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 10px; font-size: 14px; color: var(--ink3); }
+.pp-view figcaption a { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink2); font-size: 13px; }
+.pp-pn { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 40px; }
+.pp-pn a { display: flex; flex-direction: column; gap: 4px; padding: 16px 20px; border-radius: 20px; border: 1px solid var(--line); background: var(--field); text-decoration: none; min-width: 0; }
+.pp-pn a span { font-size: 13px; color: var(--ink4); }
+.pp-pn a b { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pp-pn-r { text-align: right; }
+.pp-rels { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
+.pp-rel { display: flex; flex-direction: column; gap: 8px; text-decoration: none; }
+.pp-rel-t { display: block; aspect-ratio: 3 / 4; border-radius: 20px; overflow: hidden; }
+.pp-rel-t img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
+.pp-rel-n { display: flex; flex-direction: column; gap: 2px; font-size: 14px; }
+.pp-rel-n .mono { font-size: 12px; color: var(--ink4); }
+.foot-langs { display: flex; flex-wrap: wrap; gap: 4px 18px; width: 100%; }
+.foot-langs a { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink3); text-decoration: none; }
+.foot-langs a[aria-current] { color: var(--ink); font-weight: 600; }
+
+.cl-page { max-width: 880px; }
+.cl-page h1 { margin: 10px 0 0; font-size: clamp(32px, 4vw, 48px); font-weight: 800; letter-spacing: -0.03em; }
+.cl-lead { margin: 14px 0 0; font-size: 17px; line-height: 1.7; color: var(--ink3); }
+.cl-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 22px; font-size: 14px; }
+.cl-filter { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+.cl-filter .chip[aria-pressed="true"] { background: var(--btn); color: var(--btn-ink); border-color: var(--btn); }
+.cl-list section { margin-top: 32px; }
+.cl-list h2 { margin: 0; padding-bottom: 10px; border-bottom: 1px solid var(--line); font-size: 13px; letter-spacing: 0.14em; color: var(--ink4); font-weight: 500; }
+.cl-item { display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--line2); }
+.cl-item time { flex: 0 0 110px; padding-top: 3px; font-size: 13px; color: var(--ink4); }
+.cl-body { min-width: 0; }
+.cl-tag { display: inline-flex; align-items: center; height: 24px; padding: 0 10px; border-radius: 999px; font-size: 12px; font-weight: 600; background: var(--bg2); color: var(--ink2); }
+.cl-tag.t-new { background: var(--new); color: var(--new-ink); }
+.cl-tag.t-announce { background: #E6B7A1; color: #18181B; }
+.cl-body h3 { margin: 10px 0 6px; font-size: 19px; line-height: 1.4; }
+.cl-body h3 a { text-decoration: none; }
+.cl-body p { margin: 0; font-size: 15px; line-height: 1.7; color: var(--ink3); }
+.cl-cta { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+.share-sheet .share-url { display: flex; gap: 8px; margin-top: 12px; }
+.share-sheet input { flex: 1; min-width: 0; height: 46px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--field); font-size: 14px; }
+.share-sheet .share-nets { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
+.share-sheet .share-nets .pill { height: 48px; font-size: 15px; }
+
+.nf-page { display: flex; flex-direction: column; gap: 28px; max-width: 720px; padding-top: 48px; }
+.nf-page .brand { align-self: flex-start; }
+.nf-block h1 { margin: 0 0 6px; font-size: 26px; }
+.nf-block p { margin: 0 0 12px; color: var(--ink3); }
+
+@media (max-width: 720px) {
+  .static .nav-tools { width: auto; margin-left: auto; }
+  .static .nav-links { display: flex; gap: 4px 18px; font-size: 15px; }
+  .static .nav-links a { display: inline-flex; align-items: center; min-height: 44px; }
+  .pp-views { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .pp-tile { border-radius: 20px; }
+  .pp-pn { grid-template-columns: 1fr; }
+  .pp-pn-r { text-align: left; }
+  .pp-rels { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cl-item { flex-direction: column; gap: 6px; }
+  .cl-item time { flex: none; }
+}

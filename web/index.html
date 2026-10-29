@@ -1,27 +1,19 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="__HTMLLANG__" data-loc="__LOC__">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Shisei 姿勢 · 73 套姿势，每套 5 个机位</title>
-<meta name="description" content="73 套无脸素体线稿，正面、斜侧、侧面、俯视、仰视五个机位，给 AI 绘图当姿势参考。">
-<meta property="og:title" content="Shisei 姿勢">
-<meta property="og:description" content="73 poses × 5 camera angles of faceless mannequin line art for AI image tools.">
+__HEAD__
 <meta name="theme-color" content="#F5F2ED">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500&display=swap">
-<link rel="stylesheet" href="app.css?v=__VERSION__">
-<script>
-  // Apply the saved theme before first paint to avoid a flash.
-  try { var t = localStorage.getItem('shisei.theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
-</script>
+<link rel="stylesheet" href="__BASE__app.css?v=__VERSION__">
 </head>
 <body>
-<a class="skip" href="#all">跳到姿势列表</a>
+<a class="skip" href="#all">__SKIP__</a>
 
-<nav class="nav wrap" aria-label="主导航">
+<nav class="nav wrap" aria-label="Shisei">
   <a class="brand" href="./">
     <svg class="logo" width="40" height="40" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="24" fill="#18181B"/><circle cx="60" cy="23" r="8" fill="none" stroke="#F5F2ED" stroke-width="6"/><path d="M57 37C38 52 42 68 64 82" fill="none" stroke="#E07A52" stroke-width="11" stroke-linecap="round"/></svg>
     <span>Shisei</span>
@@ -29,7 +21,7 @@
   <div class="nav-links">
     <a href="#all" data-i18n="navPoses"></a>
     <button type="button" class="linklike" data-open="how" data-i18n="navHow"></button>
-    <a href="__REPO__/blob/main/CHANGELOG.md" data-i18n="navChangelog"></a>
+    <a href="__CHANGELOG__" data-i18n="navChangelog"></a>
   </div>
   <div class="nav-tools">
     <label class="search">
@@ -83,6 +75,10 @@
     <span class="count" id="count" aria-live="polite"></span>
   </div>
   <div class="filters">
+    <div class="series-row">
+      <div class="seg series" role="group" id="series"></div>
+      <button type="button" class="chip adult" id="adult" aria-pressed="false"></button>
+    </div>
     <div class="cats" role="tablist" id="cats"></div>
     <div class="filter-row">
       <div class="inline-filters" id="inlineFilters"></div>
@@ -92,6 +88,7 @@
   <div id="grid"></div>
 </section>
 
+__NOSCRIPT__
 </main>
 
 <footer class="foot">
@@ -101,10 +98,11 @@
       <strong>Shisei 姿勢</strong>
       <span data-i18n="footer"></span>
     </div>
-    <nav class="foot-links" aria-label="页脚">
+    <nav class="foot-links" aria-label="Footer">
       <a href="__REPO__">GitHub</a>
-      <a href="__REPO__/blob/main/CHANGELOG.md"><span data-i18n="navChangelog"></span> v__VERSION__</a>
-      <a href="catalog.json">catalog.json</a>
+      <a href="__CHANGELOG__"><span data-i18n="navChangelog"></span> v__VERSION__</a>
+      <a href="__BASE__catalog.json">catalog.json</a>
+      <button type="button" class="linklike" data-share data-share-site data-i18n="shareSite"></button>
       <button type="button" class="linklike" data-open="terms" data-i18n="terms"></button>
     </nav>
   </div>
@@ -127,7 +125,7 @@
       </div>
       <div class="lb-chips" role="group" id="lbChips"></div>
       <div class="seg" role="group" id="lbMedium"></div>
-      <div class="lb-desc">
+      <div class="lb-desc" id="lbDescBox">
         <div class="lb-desc-h"><span data-i18n="descLabel"></span><button type="button" class="pill light tiny" id="lbCopyDesc" data-i18n="copy"></button></div>
         <p id="lbDesc"></p>
       </div>
@@ -137,6 +135,11 @@
         <div class="lb-row">
           <button type="button" class="pill light" id="lbCopyId" data-i18n="copyId"></button>
           <a class="pill light" href="__REPO__/releases/latest" data-i18n="fullZip"></a>
+        </div>
+        <div class="lb-row">
+          <button type="button" class="pill light" id="lbShare">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3m0 0L7.5 7.5M12 3l4.5 4.5M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg><span data-i18n="share"></span></button>
+          <a class="pill light" id="lbPage" data-i18n="posePage"></a>
         </div>
         <p class="keys" data-i18n="keys"></p>
       </div>
@@ -165,8 +168,9 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script id="catalog" type="application/json">__CATALOG__</script>
-<script>window.SHISEI = { repo: '__REPO__', version: '__VERSION__' };</script>
-<script src="i18n.js?v=__VERSION__"></script>
-<script src="app.js?v=__VERSION__"></script>
+<script>window.SHISEI = { repo: '__REPO__', version: '__VERSION__', base: '__BASE__', lang: '__LOC__' };</script>
+<script src="__BASE__i18n.js?v=__VERSION__"></script>
+<script src="__BASE__common.js?v=__VERSION__"></script>
+<script src="__BASE__app.js?v=__VERSION__"></script>
 </body>
 </html>

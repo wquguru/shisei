@@ -1,0 +1,53 @@
+# Public changelog: tools/build_site.py turns this into /changelog/ (+ /ja/ /en/ /ko/), an Atom feed per language and
+# sitemap rows. CHANGELOG.md stays the maintainer log; this file is written for readers: what they can see or try now.
+# Every entry carries title / desc / cta in English plus _zh, _ja and _ko; the build stops if one is missing or too long.
+# tag: new | improve | announce | removed. link: an in-site path without language prefix (/, /changelog/, /pose/P001/),
+# optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
+entries:
+  - date: 2026-10-28
+    tag: new
+    title: Share any pose, with its own preview card
+    desc: Every pose now has its own page with all five angles and its names in four languages. Share it and the link preview shows that pose.
+    link: /pose/P064/
+    cta: Open a pose page
+    title_zh: 每套姿势都能单独分享
+    desc_zh: 每套姿势都有自己的页面，五个机位和四种语言的名称都在上面。分享到微博、X 或 Pinterest 时，预览图就是这套姿势。
+    cta_zh: 打开一套姿势
+    title_ja: ポーズごとに共有できるように
+    desc_ja: すべてのポーズに専用ページができました。5 アングルと 4 言語の名前を掲載。X・LINE・Pinterest に共有するとプレビューにそのポーズが表示されます。
+    cta_ja: ポーズページを開く
+    title_ko: 포즈마다 따로 공유할 수 있어요
+    desc_ko: 모든 포즈에 전용 페이지가 생겼습니다. 5개 앵글과 4개 언어 이름을 담았고, X·LINE·Pinterest에 공유하면 미리보기에 그 포즈가 나옵니다.
+    cta_ko: 포즈 페이지 열기
+
+  - date: 2026-10-28
+    tag: new
+    title: 23 new lying, squatting, leaning, arching and twisting poses
+    desc: Five lying, six squatting, six leaning forward, three arching back and three twisting poses, each drawn from five angles.
+    link: /?new=1#all
+    cta: See the new poses
+    title_zh: 新增 23 套：躺、蹲、前倾、后仰、扭转
+    desc_zh: 躺姿 5 套、蹲姿 6 套、前倾 6 套、后仰 3 套、扭转 3 套，每套都有五个机位。
+    cta_zh: 看新增的姿势
+    title_ja: 寝そべり・しゃがみ・前かがみ・反り・ひねりの 23 ポーズを追加
+    desc_ja: 寝そべり 5、しゃがみ 6、前かがみ 6、反り 3、ひねり 3。どれも 5 アングルで描いています。
+    cta_ja: 新しいポーズを見る
+    title_ko: 눕기·쪼그려 앉기·숙이기·젖히기·비틀기 23개 추가
+    desc_ko: 눕기 5개, 쪼그려 앉기 6개, 숙이기 6개, 젖히기 3개, 비틀기 3개. 모두 5개 앵글로 그렸습니다.
+    cta_ko: 새 포즈 보기
+
+  - date: 2026-10-28
+    tag: announce
+    title: The Shisei gallery is open
+    desc: Browse 73 faceless mannequin poses, switch every card between five angles, search in four languages and download any view at 900×1200.
+    link: /
+    cta: Browse the gallery
+    title_zh: Shisei 画廊上线
+    desc_zh: 浏览 73 套无脸素体姿势，每张卡片都能在五个机位间切换，支持四种语言搜索，任意机位都能下载 900×1200 的图。
+    cta_zh: 浏览画廊
+    title_ja: Shisei ギャラリーを公開しました
+    desc_ja: 顔なし素体の 73 ポーズを閲覧できます。カードごとに 5 アングルを切り替え、4 言語で検索し、どのアングルも 900×1200 でダウンロードできます。
+    cta_ja: ギャラリーを見る
+    title_ko: Shisei 갤러리를 열었습니다
+    desc_ko: 얼굴 없는 마네킹 포즈 73가지를 둘러보세요. 카드마다 5개 앵글을 바꿔 보고, 4개 언어로 검색하고, 900×1200으로 내려받을 수 있습니다.
+    cta_ko: 갤러리 둘러보기
