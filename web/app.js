@@ -45,7 +45,6 @@
       tint: (CATS[p.series] || CATS.std)[ci][1],
       isNew: p.added_in === LATEST,
       suggestive: p.rating === 'suggestive',
-      full: line.every(Boolean),
       photo: VIEWS.map((v) => (p.photos && p.photos[v]) || null)
     };
   });
@@ -66,9 +65,7 @@
     lang: LANGS.includes(window.SHISEI.lang) ? window.SHISEI.lang : 'zh',
     series: SERIES.includes(params.get('series')) ? params.get('series') : 'all',
     cat: intParam('cat', 0, 8, -1),
-    full: params.get('full') === '1',
     adult: (store.get('adult') ?? (SHOW_SUGGESTIVE_DEFAULT ? '1' : '0')) === '1',
-    newOnly: params.get('new') === '1',
     angle: intParam('angle', 0, 4, -1),
     medium: params.get('src') === 'photo' && poses.some((p) => p.photo.some(Boolean)) ? 'photo' : 'line',
     view: params.get('view') === 'single' ? 'single' : 'pose',
@@ -137,8 +134,6 @@
     const p = new URLSearchParams();
     if (S.series !== 'all') p.set('series', S.series);
     if (S.cat >= 0) p.set('cat', S.cat);
-    if (S.full) p.set('full', '1');
-    if (S.newOnly) p.set('new', '1');
     if (S.angle >= 0) p.set('angle', S.angle);
     if (S.medium === 'photo') p.set('src', 'photo');
     if (S.view === 'single') p.set('view', 'single');
@@ -210,11 +205,9 @@
       const sample = base.find((p) => p.ci === i);
       return sample ? chip(catLabel(sample), base.filter((p) => p.ci === i).length, S.cat === i, c[1], 'cat:' + i) : '';
     });
-    const nNew = base.filter((p) => p.isNew).length;
-    const nFull = base.filter((p) => p.full).length;
-    $('cats').innerHTML = chip(T.all, base.length, S.cat < 0 && !S.newOnly && !S.full, 'var(--accent)', 'cat:-1') + cats.join('') +
-      (nNew && nNew < base.length ? chip(T.newBadge, nNew, S.newOnly, 'var(--new)', 'new') : '') +
-      chip(T.full, nFull, S.full, 'var(--ink)', 'full');
+    // Categories only mean something inside one series; on "all" the row would hold a lone 全部 chip.
+    $('cats').hidden = !cats.length;
+    $('cats').innerHTML = cats.length ? chip(T.all, base.length, S.cat < 0, 'var(--accent)', 'cat:-1') + cats.join('') : '';
   }
 
   function segHtml(cls, label, opts) {
@@ -245,8 +238,6 @@
   function pool() {
     return inSeries().filter((p) => {
       if (S.series !== 'all' && S.cat >= 0 && p.ci !== S.cat) return false;
-      if (S.newOnly && !p.isNew) return false;
-      if (S.full && !p.full) return false;
       return !(S.medium === 'photo' && !p.photo.some(Boolean));
     });
   }
@@ -345,10 +336,8 @@
   /* actions */
   function act(a) {
     const [k, v] = a.split(':');
-    if (k === 'cat') { S.cat = +v; S.newOnly = false; if (S.cat < 0) S.full = false; }
-    else if (k === 'series') { S.series = v; S.cat = -1; S.newOnly = false; }
-    else if (k === 'new') { S.newOnly = !S.newOnly; if (S.newOnly) S.cat = -1; }
-    else if (k === 'full') { S.full = !S.full; }
+    if (k === 'cat') { S.cat = +v; }
+    else if (k === 'series') { S.series = v; S.cat = -1; }
     else if (k === 'angle') { S.angle = +v; S.per = {}; }
     else if (k === 'medium') { S.medium = v; S.per = {}; }
     else if (k === 'view') { S.view = v; }

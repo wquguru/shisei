@@ -17,6 +17,8 @@ the catalog schema.
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- The category row drops the NEW and all-five-angles chips (NEW equalled "not std", already a series tab; all five
+  angles covered 41 % of sets) and is hidden under All series. Old `?new=1` / `?full=1` links are ignored.
 - Suggestive poses are blurred in place instead of hidden (D-06): every series and count is visible, one tap reveals
   a set for this visit, the switch (now `role="switch"`, first in the phone row) shows all; after two single reveals a
   bar offers to show all. The lightbox opens veiled sets blurred with downloads held back.
