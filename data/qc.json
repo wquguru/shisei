@@ -2186,11 +2186,13 @@
    },
    "diag": {
     "file": "sexy_S006_diag.webp",
-    "status": "pass"
+    "status": "line",
+    "reason": "wall hatching background"
    },
    "side": {
     "file": "sexy_S006_side.webp",
-    "status": "pass"
+    "status": "line",
+    "reason": "wall and floor lines; nipple bump"
    },
    "above": {
     "file": "sexy_S006_above.webp",
@@ -2198,7 +2200,8 @@
    },
    "below": {
     "file": "sexy_S006_below.webp",
-    "status": "pass"
+    "status": "line",
+    "reason": "wall hatching background and floor"
    }
   },
   "S007": {
@@ -3567,7 +3570,8 @@
   "S068": {
    "front": {
     "file": "sexy_S068_front.webp",
-    "status": "pass"
+    "status": "line",
+    "reason": "horizontal ruled line (background object) at top of panel"
    },
    "diag": {
     "file": "sexy_S068_diag.webp",
@@ -3575,7 +3579,8 @@
    },
    "side": {
     "file": "sexy_S068_side.webp",
-    "status": "pass"
+    "status": "line",
+    "reason": "horizontal ruled line (background object) at top of panel"
    },
    "above": {
     "file": "sexy_S068_above.webp",
@@ -3583,7 +3588,8 @@
    },
    "below": {
     "file": "sexy_S068_below.webp",
-    "status": "pass"
+    "status": "line",
+    "reason": "horizontal ruled line (background object) at top of panel"
    }
   },
   "S069": {
@@ -4564,7 +4570,8 @@
    },
    "below": {
     "file": "upper_U032_below.webp",
-    "status": "pass"
+    "status": "line",
+    "reason": "table/floor line drawn at bottom (background object)"
    }
   },
   "U033": {
@@ -6689,7 +6696,8 @@
    },
    "side": {
     "file": "duo_D048_side.webp",
-    "status": "pass"
+    "status": "line",
+    "reason": "grey floor lines drawn at the bottom left, man's leg cropped at frame edge"
    },
    "above": {
     "file": "duo_D048_above.webp",

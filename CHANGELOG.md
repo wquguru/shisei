@@ -15,6 +15,10 @@ the catalog schema.
 ### Removed
 - P006 front view: the drawing has three arms, which the QC review missed. Manual QC results now go in
   `data/qc-input/fail_manual.json`.
+- Eight views a reviewer had failed but `qc_merge.py` let through: the floor-line rule matched "ground" inside
+  "background". S006 diag / side / below (wall drawn), S068 front / side / below (ruled line), U032 below (table
+  edge), D048 side (leg cut by the frame). The rule now only forgives line-level fails that name nothing but a floor
+  line.
 
 ## [0.2.0] - 2026-10-29
 

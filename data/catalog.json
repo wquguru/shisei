@@ -2306,14 +2306,17 @@
   "desc_en": "",
   "views": {
    "front": null,
-   "diag": "sexy_S006_diag.webp",
-   "side": "sexy_S006_side.webp",
+   "diag": null,
+   "side": null,
    "above": "sexy_S006_above.webp",
-   "below": "sexy_S006_below.webp"
+   "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "missing"
+   "front": "missing",
+   "diag": "line",
+   "side": "line",
+   "below": "line"
   }
  },
  {
@@ -3934,14 +3937,18 @@
   "name_kr": "누워 양다리 접어 머리 너머로 뻗기",
   "desc_en": "",
   "views": {
-   "front": "sexy_S068_front.webp",
+   "front": null,
    "diag": "sexy_S068_diag.webp",
-   "side": "sexy_S068_side.webp",
+   "side": null,
    "above": "sexy_S068_above.webp",
-   "below": "sexy_S068_below.webp"
+   "below": null
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "front": "line",
+   "side": "line",
+   "below": "line"
+  }
  },
  {
   "id": "S069",
@@ -5094,13 +5101,14 @@
    "diag": null,
    "side": null,
    "above": null,
-   "below": "upper_U032_below.webp"
+   "below": null
   },
   "photos": {},
   "gaps": {
    "diag": "structure",
    "side": "structure",
-   "above": "structure"
+   "above": "structure",
+   "below": "line"
   }
  },
  {
@@ -7729,7 +7737,7 @@
   "views": {
    "front": null,
    "diag": null,
-   "side": "duo_D048_side.webp",
+   "side": null,
    "above": "duo_D048_above.webp",
    "below": "duo_D048_below.webp"
   },
@@ -7737,7 +7745,8 @@
   "bodies": "MF",
   "gaps": {
    "front": "structure",
-   "diag": "structure"
+   "diag": "structure",
+   "side": "line"
   }
  },
  {

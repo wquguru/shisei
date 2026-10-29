@@ -526,25 +526,25 @@
    "set": "P024",
    "angle": "front",
    "kind": "structure",
-   "reason": "no leg lifted behind; both legs on ground"
+   "reason": "pose mismatch: no leg lifted behind; both legs on ground"
   },
   {
    "set": "P024",
    "angle": "side",
    "kind": "structure",
-   "reason": "no leg lifted behind; both legs on ground"
+   "reason": "pose mismatch: no leg lifted behind; both legs on ground"
   },
   {
    "set": "P024",
    "angle": "above",
    "kind": "structure",
-   "reason": "no leg lifted behind; both legs on ground"
+   "reason": "pose mismatch: no leg lifted behind; both legs on ground"
   },
   {
    "set": "P024",
    "angle": "below",
    "kind": "structure",
-   "reason": "no leg lifted behind; both legs on ground"
+   "reason": "pose mismatch: no leg lifted behind; both legs on ground"
   }
  ]
 }
