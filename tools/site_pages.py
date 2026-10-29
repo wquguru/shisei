@@ -209,7 +209,7 @@ class Site:
                 eager = ' fetchpriority="high"' if f == first else ' loading="lazy"'
                 figs.append(
                     f'<figure class="pp-view"><a class="pp-tile" href="{home}#{p["id"]}-{VIEWS[k]}">'
-                    f'<img src="{img("w900", f)}" srcset="{img("w300", f)} 300w, {img("w900", f)} 900w" sizes="(max-width: 720px) 50vw, 280px" '
+                    f'<img src="{img("w900", f)}" srcset="{img("w300", f)} 300w, {img("w600", f)} 600w, {img("w900", f)} 900w" sizes="(max-width: 720px) 50vw, 280px" '
                     f'width="900" height="1200" alt="{esc(p["id"] + " " + name + " · " + v)}"{eager} decoding="async"></a>'
                     f'<figcaption><span>{esc(v)}</span><a href="{img("w900", f)}" download="shisei_{p["id"]}_{VIEWS[k]}.webp">'
                     f'{esc(T["downloadView"])}</a></figcaption></figure>')
@@ -226,9 +226,9 @@ class Site:
             alt = esc(p["id"] + " " + name + " · " + v)
             pairs.append(
                 f'<figure class="pp-pair"><div class="pp-pair-imgs">'
-                f'<a class="pp-pair-line" href="{home}#{p["id"]}-{VIEWS[k]}-compare"><img src="{img("w900", lf)}" srcset="{img("w300", lf)} 300w, {img("w900", lf)} 900w" '
+                f'<a class="pp-pair-line" href="{home}#{p["id"]}-{VIEWS[k]}-compare"><img src="{img("w900", lf)}" srcset="{img("w300", lf)} 300w, {img("w600", lf)} 600w, {img("w900", lf)} 900w" '
                 f'sizes="(max-width: 720px) 50vw, 300px" width="900" height="1200" alt="{alt} · {esc(T["lineArt"])}" loading="lazy" decoding="async"></a>'
-                f'<a class="pp-pair-photo" href="{home}#{p["id"]}-{VIEWS[k]}-compare"><img src="{pimg("w900", pf)}" srcset="{pimg("w300", pf)} 300w, {pimg("w900", pf)} 900w" '
+                f'<a class="pp-pair-photo" href="{home}#{p["id"]}-{VIEWS[k]}-compare"><img src="{pimg("w900", pf)}" srcset="{pimg("w300", pf)} 300w, {pimg("w600", pf)} 600w, {pimg("w900", pf)} 900w" '
                 f'sizes="(max-width: 720px) 34vw, 200px" width="900" height="1800" alt="{alt} · {esc(T["photo"])}" loading="lazy" decoding="async"></a></div>'
                 f'<figcaption><span>{esc(v)}</span><span class="pp-pair-dl">'
                 f'<a href="{img("w900", lf)}" download="shisei_{p["id"]}_{VIEWS[k]}.webp">{esc(T["lineArt"])} 900</a>'

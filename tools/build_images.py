@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Build the committed image tiers (w300, w900) for every view that passed QC, and prune everything else.
+"""Build the committed image tiers (w300, w600, w900) for every view that passed QC, and prune everything else.
 
 Usage: python3 tools/build_images.py std=~/Downloads/pose-gallery-std73 sexy=... upper=...
 Line art comes from <src>/img/<file>, photos from <src>/photo/<file>. Only catalog views (non-null) and catalog
 photos are built; any other file under images/ is deleted, so a view that fails QC leaves the repo.
-Re-encoding is downscale-only from already-lossy sources: w900 q75 (lightbox/download), w300 q70 (grid).
+Re-encoding is downscale-only from already-lossy sources: w900 q75 (lightbox/download),
+w600 q72 (grid on 2x and 3x screens), w300 q70 (grid on 1x screens, thumbnails).
 """
 import json, pathlib, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-TIERS = (("w900", 900, 75), ("w300", 300, 70))
+TIERS = (("w900", 900, 75), ("w600", 600, 72), ("w300", 300, 70))
 
 
 def main() -> None:

@@ -76,7 +76,7 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const nameOf = (p) => p['name_' + t().suffix];
   const src = (kind, tier, file) => BASE + 'images/' + kind + '/' + tier + '/' + file;
-  const srcset = (kind, file) => src(kind, 'w300', file) + ' 300w, ' + src(kind, 'w900', file) + ' 900w';
+  const srcset = (kind, file) => src(kind, 'w300', file) + ' 300w, ' + src(kind, 'w600', file) + ' 600w, ' + src(kind, 'w900', file) + ' 900w';
   const files = (p, photo) => (photo ? p.photo : p.line);
   const catLabel = (p) => (p.series === 'std' ? t().cats[p.ci] : p['class_' + t().suffix]);
   // What the reader may see at all: rating first, then the series tab.

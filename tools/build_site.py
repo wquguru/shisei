@@ -312,7 +312,7 @@ def main() -> None:
     elif args.public:
         for kind, key in (("line", "views"), ("photo", "photos")):
             files = {f for p in catalog for f in (p.get(key) or {}).values() if f}
-            for tier in ("w300", "w900"):
+            for tier in ("w300", "w600", "w900"):
                 (out / "images" / kind / tier).mkdir(parents=True)
                 for f in sorted(files):
                     shutil.copy2(ROOT / "images" / kind / tier / f, out / "images" / kind / tier / f)

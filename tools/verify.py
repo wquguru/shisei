@@ -10,7 +10,7 @@ import json, pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 VIEWS = ("front", "diag", "side", "above", "below")
-TIERS = ("w300", "w900")
+TIERS = ("w300", "w600", "w900")
 
 
 def main() -> int:
