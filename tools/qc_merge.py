@@ -7,7 +7,7 @@ and photo_*.json (photo-render review, docs/qc/photo_prompt.md). Without photo_*
 Rules (docs/qc/README.md):
 - a set whose drawing does not show the named pose (match "no") fails every view as `structure`;
 - per-panel "pose mismatch" fails are dropped when the set-level check says yes/partial (the set check decides names);
-- a thin floor/ground line alone is not a defect;
+- a thin floor/ground line alone is not a defect (line fails only; a reason that names anything else still fails);
 - `structure` beats `line` when a panel has both.
 Catalog views keep their file only when the status is `pass`; other views become null and get a `gaps` entry.
 qc.json keeps every file name, so a later re-review can bring a view back.
@@ -17,7 +17,9 @@ import argparse, datetime, glob, json, pathlib, re
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 VIEWS = ("front", "diag", "side", "above", "below")
 HARMLESS = re.compile(r"floor|ground", re.I)
-REAL = re.compile(r"textur|scribbl|shadow|speckl|chair|furniture|noise|box|guide|blob|malform|melt", re.I)
+# Words that mean the floor line comes with a real defect: background objects, nipple marks, crops.
+REAL = re.compile(r"textur|scribbl|shadow|speckl|chair|furniture|noise|box|guide|blob|malform|melt|wall|hatch|table|"
+                  r"background|ruled|nipple|areola|crop", re.I)
 MISMATCH = re.compile(r"pose mismatch", re.I)
 
 
@@ -43,7 +45,8 @@ def main() -> None:
 
     panel = {}
     for x in fails:
-        if HARMLESS.search(x["reason"]) and not REAL.search(x["reason"]):
+        # Structure fails are never a floor line, even when the reason mentions the floor (a hand on the ground).
+        if x["kind"] == "line" and HARMLESS.search(x["reason"]) and not REAL.search(x["reason"]):
             continue
         if MISMATCH.search(x["reason"]) and sets.get(x["set"], {}).get("match") != "no":
             continue
