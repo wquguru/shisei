@@ -5,6 +5,22 @@
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
   - date: 2026-10-29
+    tag: new
+    title: Line art and photo side by side
+    desc: Poses with photos get a Compare option in the large view and a side-by-side section on their pose page, to see how the line art becomes a body at the same angle. L cycles line art, photo and compare.
+    link: /pose/P001/
+    cta: See P001 compared
+    title_zh: 线稿和实拍可以并排对比了
+    desc_zh: 有实拍的姿势，大图里多了「对比」，姿势页也加了一节并排对照，同一机位下线稿怎么变成真人一眼就能看清。按 L 在线稿、实拍、对比之间切换。
+    cta_zh: 看 P001 的对比
+    title_ja: 線画と実写を並べて比較
+    desc_ja: 実写のあるポーズは、拡大表示に「比較」が加わり、ポーズページにも並べて見る欄ができました。同じアングルで線画がどう人体になるかがすぐ分かります。L キーで線画・実写・比較を切り替えます。
+    cta_ja: P001 の比較を見る
+    title_ko: 선화와 실사를 나란히 비교
+    desc_ko: 실사가 있는 포즈는 크게 보기에 '비교'가 생겼고, 포즈 페이지에도 나란히 보는 섹션이 추가됐습니다. 같은 앵글에서 선화가 실제 몸으로 어떻게 바뀌는지 바로 보입니다. L 키로 선화, 실사, 비교를 오갑니다.
+    cta_ko: P001 비교 보기
+
+  - date: 2026-10-29
     tag: improve
     title: Angle arrows that always respond
     desc: In the large view, the ← → keys now keep switching angles after you click a thumbnail or the image. On poses with a single angle the arrows grey out instead of doing nothing.

@@ -216,6 +216,29 @@ class Site:
             else:
                 figs.append(f'<figure class="pp-view"><div class="pp-tile missing"><b>{esc(v)} · {esc(T["notYet"])}</b></div>'
                             f'<figcaption><span>{esc(v)}</span></figcaption></figure>')
+        # Line art next to the photo for every angle that has both; the gallery lightbox has the same pairing.
+        pimg = lambda tier, f: f"{rel}images/photo/{tier}/{f}"
+        pairs = []
+        for k, (lf, pf) in enumerate(zip(p["line"], p.get("photo") or [None] * 5)):
+            if not (lf and pf):
+                continue
+            v = T["views"][k]
+            alt = esc(p["id"] + " " + name + " · " + v)
+            pairs.append(
+                f'<figure class="pp-pair"><div class="pp-pair-imgs">'
+                f'<a class="pp-pair-line" href="{home}#{p["id"]}-{VIEWS[k]}-compare"><img src="{img("w900", lf)}" srcset="{img("w300", lf)} 300w, {img("w900", lf)} 900w" '
+                f'sizes="(max-width: 720px) 50vw, 300px" width="900" height="1200" alt="{alt} · {esc(T["lineArt"])}" loading="lazy" decoding="async"></a>'
+                f'<a class="pp-pair-photo" href="{home}#{p["id"]}-{VIEWS[k]}-compare"><img src="{pimg("w900", pf)}" srcset="{pimg("w300", pf)} 300w, {pimg("w900", pf)} 900w" '
+                f'sizes="(max-width: 720px) 34vw, 200px" width="900" height="1800" alt="{alt} · {esc(T["photo"])}" loading="lazy" decoding="async"></a></div>'
+                f'<figcaption><span>{esc(v)}</span><span class="pp-pair-dl">'
+                f'<a href="{img("w900", lf)}" download="shisei_{p["id"]}_{VIEWS[k]}.webp">{esc(T["lineArt"])} 900</a>'
+                f'<a href="{pimg("w900", pf)}" download="shisei_{p["id"]}_{VIEWS[k]}_photo.webp">{esc(T["photo"])} 900</a></span></figcaption></figure>')
+        compare = (f"""
+  <section class="pp-sec" aria-labelledby="cmp-h">
+    <h2 id="cmp-h">{esc(T["compareTitle"])}</h2>
+    <p class="pp-lead">{esc(T["compareLead"])}</p>
+    <div class="pp-pairs">{"".join(pairs)}</div>
+  </section>""" if pairs else "")
         prev, nxt = self.poses[i - 1], self.poses[(i + 1) % len(self.poses)]
         pn = lambda q, label, cls: (f'<a class="pp-pn-{cls}" href="../{q["id"]}/" rel="{"prev" if cls == "l" else "next"}">'
                                     f'<span>{esc(label)}</span><b>{q["id"]} · {esc(q["name_" + NAME_KEY[loc]])}</b></a>')
@@ -245,7 +268,7 @@ class Site:
   <section class="pp-sec" aria-labelledby="angles-h">
     <h2 id="angles-h">{esc(T["anglesTitle"])}</h2>
     <div class="pp-views">{"".join(figs)}</div>
-  </section>
+  </section>{compare}
   <nav class="pp-pn" aria-label="{esc(T["prevPose"])} / {esc(T["nextPose"])}">{pn(prev, T["prevPose"], "l")}{pn(nxt, T["nextPose"], "r")}</nav>
   <section class="pp-sec" aria-labelledby="rel-h">
     <h2 id="rel-h">{esc(T["related"])}</h2>

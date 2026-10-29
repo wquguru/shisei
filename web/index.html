@@ -105,6 +105,7 @@ __NOSCRIPT__
     <div class="lb-stage" id="lbStage">
       <img id="lbImg" alt="">
       <div class="lb-missing" id="lbMissing" hidden></div>
+      <div class="lb-pair" id="lbPair" hidden></div>
       <button type="button" class="lb-nav l" id="lbPrev" data-i18n-aria="prevAngle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
       <button type="button" class="lb-nav r" id="lbNext" data-i18n-aria="nextAngle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
       <span class="lb-counter" id="lbCounter"></span>
@@ -122,8 +123,12 @@ __NOSCRIPT__
         <p id="lbDesc"></p>
       </div>
       <div class="lb-actions">
+        <div class="lb-dls">
         <a class="pill dark block" id="lbDl" download>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg><span id="lbDlText"></span></a>
+        <a class="pill dark block" id="lbDl2" download hidden>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg><span id="lbDl2Text"></span></a>
+        </div>
         <div class="lb-row">
           <button type="button" class="pill light" id="lbCopyId" data-i18n="copyId"></button>
           <button type="button" class="pill light" data-open="dl" aria-haspopup="dialog" data-i18n="fullZip"></button>

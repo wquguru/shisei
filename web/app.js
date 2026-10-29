@@ -360,11 +360,11 @@
     if (tile) {
       e.preventDefault();
       const p = byId.get(tile.closest('.card').dataset.id);
-      openLb(p.id, curView(p), S.medium === 'photo');
+      openLb(p.id, curView(p), S.medium);
       return;
     }
     const s = e.target.closest('.stile');
-    if (s) { e.preventDefault(); openLb(s.dataset.open, +s.dataset.v, S.medium === 'photo'); }
+    if (s) { e.preventDefault(); openLb(s.dataset.open, +s.dataset.v, S.medium); }
   });
   // An explicit list of the four languages: a single button that cycles them hid where the next click would land.
   // ?lang is dropped from the targets, because on arrival it outranks the reader's pick (tools/site_pages.py).
@@ -434,36 +434,60 @@
   });
 
   /* lightbox */
-  const LB = { id: null, v: 0, photo: false };
+  // medium: 'line' | 'photo' | 'compare'. Compare exists only here, not in the grid: a side-by-side pair
+  // needs the room of one large image, and only the std sets with photos have anything to compare.
+  const LB = { id: null, v: 0, medium: 'line' };
+  const MEDIA = ['line', 'photo', 'compare'];
+  // In compare a view counts when either side has it; the missing side shows the usual gap box.
+  const lbFiles = (p, m) => (m === 'compare' ? p.line.map((f, i) => f || p.photo[i]) : files(p, m === 'photo'));
   function lbList() {
     const list = pool();
     return list.some((p) => p.id === LB.id) ? list : allowed();
   }
-  function openLb(id, v, photo) {
+  function openLb(id, v, medium) {
     const p = byId.get(id);
     if (!p || (p.suggestive && !S.adult)) return;
     LB.id = id;
-    LB.photo = photo && p.photo.some(Boolean);
-    const arr = files(p, LB.photo);
+    LB.medium = MEDIA.includes(medium) && p.photo.some(Boolean) ? medium : 'line';
+    const arr = lbFiles(p, LB.medium);
     LB.v = arr[v] ? v : firstView(arr);
     renderLb();
     if (!$('lb').open) $('lb').showModal();
   }
+  function setDl(a, label, f, kind, p) {
+    a.querySelector('span').textContent = label;
+    if (f) { a.href = src(kind, 'w900', f); a.setAttribute('download', 'shisei_' + p.id + '_' + VIEWS[LB.v] + (kind === 'photo' ? '_photo' : '') + '.webp'); a.removeAttribute('aria-disabled'); }
+    else { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); }
+  }
+  function pairCell(p, kind, f, T) {
+    const label = kind === 'photo' ? T.photo : T.line;
+    if (!f) {
+      const [b, s] = missingText(p, LB.v, kind === 'photo');
+      return '<div class="lb-cell ' + kind + ' gap"><b>' + esc(b) + '</b><span>' + esc(s) + '</span></div>';
+    }
+    return '<figure class="lb-cell ' + kind + '"><img src="' + src(kind, 'w900', f) + '" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[LB.v] + ' · ' + label) + '">' +
+      '<figcaption>' + esc(label) + '</figcaption></figure>';
+  }
   function renderLb() {
     const T = t();
     const p = byId.get(LB.id);
-    const arr = files(p, LB.photo);
+    const m = LB.medium;
+    const photo = m === 'photo', compare = m === 'compare';
+    const arr = lbFiles(p, m);
     const f = arr[LB.v];
-    const kind = LB.photo ? 'photo' : 'line';
-    const tint = LB.photo ? 'var(--tile)' : p.tint;
-    $('lb').style.setProperty('--tint', tint);
-    $('lb').classList.toggle('photo', LB.photo);
+    const kind = photo ? 'photo' : 'line';
+    $('lb').style.setProperty('--tint', m === 'line' ? p.tint : 'var(--tile)');
+    $('lb').classList.toggle('photo', photo);
+    $('lb').classList.toggle('compare', compare);
     const img = $('lbImg');
-    if (f) { img.src = src(kind, 'w900', f); img.alt = p.id + ' ' + nameOf(p) + ' · ' + T.views[LB.v]; }
-    img.hidden = !f;
+    if (f && !compare) { img.src = src(kind, 'w900', f); img.alt = p.id + ' ' + nameOf(p) + ' · ' + T.views[LB.v]; }
+    img.hidden = !f || compare;
+    const pair = $('lbPair');
+    pair.hidden = !compare;
+    pair.innerHTML = compare ? pairCell(p, 'line', p.line[LB.v], T) + pairCell(p, 'photo', p.photo[LB.v], T) : '';
     const miss = $('lbMissing');
     miss.hidden = !!f;
-    const [mb, ms] = missingText(p, LB.v, LB.photo);
+    const [mb, ms] = missingText(p, LB.v, photo);
     miss.innerHTML = f ? '' : '<b>' + esc(mb) + '</b><span>' + esc(ms) + '</span>';
     $('lbCounter').textContent = T.views[LB.v] + ' ' + (LB.v + 1) + '/5';
     // With one view or none there is nowhere to step; a live-looking arrow that does nothing reads as broken.
@@ -473,29 +497,36 @@
     $('lbNames').innerHTML = ['cn', 'jp', 'en', 'kr'].filter((s) => s !== T.suffix)
       .map((s) => '<dt>' + NAME_LABEL[s] + '</dt><dd>' + esc(p['name_' + s]) + '</dd>').join('');
     $('lbChips').setAttribute('aria-label', T.angle);
-    $('lbChips').innerHTML = VIEWS.map((_, i) => '<button type="button" data-lbv="' + i + '" aria-pressed="' + (i === LB.v) + '"' + (arr[i] ? '' : ' disabled') + '>' +
-      '<span>' + (arr[i] ? '<img src="' + src(kind, 'w300', arr[i]) + '" alt="">' : '') + '</span>' + esc(T.views[i]) + '</button>').join('');
+    // Compare thumbnails show the line art when there is one; a dot marks the angles that have both sides.
+    $('lbChips').innerHTML = VIEWS.map((_, i) => {
+      const tk = compare ? (p.line[i] ? 'line' : 'photo') : kind;
+      const both = compare && p.line[i] && p.photo[i];
+      return '<button type="button" data-lbv="' + i + '" aria-pressed="' + (i === LB.v) + '"' + (arr[i] ? '' : ' disabled') + '>' +
+        '<span class="' + tk + (both ? ' both' : '') + '">' + (arr[i] ? '<img src="' + src(tk, 'w300', arr[i]) + '" alt="">' : '') + '</span>' + esc(T.views[i]) + '</button>';
+    }).join('');
     const hasPhoto = p.photo.some(Boolean);
     $('lbMedium').setAttribute('aria-label', T.medium);
-    $('lbMedium').innerHTML = '<button type="button" data-lbm="line" aria-pressed="' + !LB.photo + '">' + esc(T.line) + '</button>' +
-      '<button type="button" data-lbm="photo" aria-pressed="' + LB.photo + '"' + (hasPhoto ? '' : ' disabled') + '>' + esc(T.photo) + '</button>';
+    $('lbMedium').innerHTML = MEDIA.map((k) => '<button type="button" data-lbm="' + k + '" aria-pressed="' + (m === k) + '"' +
+      (k === 'line' || hasPhoto ? '' : ' disabled') + '>' + esc(T[k]) + '</button>').join('');
     $('lbDesc').textContent = p.desc_en || '';
     $('lbDescBox').hidden = !p.desc_en;
-    const dl = $('lbDl');
-    $('lbDlText').textContent = T.download + ' · ' + (LB.photo ? '900×1800' : '900×1200');
-    if (f) { dl.href = src(kind, 'w900', f); dl.setAttribute('download', 'shisei_' + p.id + '_' + VIEWS[LB.v] + (LB.photo ? '_photo' : '') + '.webp'); dl.removeAttribute('aria-disabled'); }
-    else { dl.removeAttribute('href'); dl.setAttribute('aria-disabled', 'true'); }
+    const dl2 = $('lbDl2');
+    dl2.hidden = !compare;
+    if (compare) {
+      setDl($('lbDl'), T.line + ' 900', p.line[LB.v], 'line', p);
+      setDl(dl2, T.photo + ' 900', p.photo[LB.v], 'photo', p);
+    } else setDl($('lbDl'), T.download + ' · ' + (photo ? '900×1800' : '900×1200'), f, kind, p);
     // Static pose pages exist only for general std poses (tools/site_pages.py).
     const hasPage = hasPosePage(p);
     $('lbPage').hidden = !hasPage;
     if (hasPage) $('lbPage').href = posePage(p.id);
-    history.replaceState(null, '', location.pathname + location.search + '#' + p.id + '-' + VIEWS[LB.v] + (LB.photo ? '-photo' : ''));
+    history.replaceState(null, '', location.pathname + location.search + '#' + p.id + '-' + VIEWS[LB.v] + (m === 'line' ? '' : '-' + m));
   }
   const posePage = (id) => BASE + PREFIX[S.lang] + 'pose/' + id + '/';
   // Same rule as tools/build_site.py: only general-rated std poses get a static page.
   const hasPosePage = (p) => p.series === 'std' && !p.suggestive;
   function stepAngle(d) {
-    const arr = files(byId.get(LB.id), LB.photo);
+    const arr = lbFiles(byId.get(LB.id), LB.medium);
     for (let k = 1; k <= 5; k++) {
       const i = (LB.v + d * k + 25) % 5;
       if (arr[i]) { LB.v = i; break; }
@@ -506,7 +537,7 @@
     const list = lbList();
     const i = list.findIndex((p) => p.id === LB.id);
     const next = list[(i + d + list.length) % list.length];
-    openLb(next.id, LB.v, LB.photo);
+    openLb(next.id, LB.v, LB.medium);
   }
   $('lbPrev').addEventListener('click', () => stepAngle(-1));
   $('lbNext').addEventListener('click', () => stepAngle(1));
@@ -517,7 +548,7 @@
   });
   $('lbMedium').addEventListener('click', (e) => {
     const b = e.target.closest('[data-lbm]');
-    if (b && !b.disabled) openLb(LB.id, LB.v, b.dataset.lbm === 'photo');
+    if (b && !b.disabled) openLb(LB.id, LB.v, b.dataset.lbm);
   });
   $('lbCopyDesc').addEventListener('click', () => copy(byId.get(LB.id).desc_en));
   $('lbCopyId').addEventListener('click', () => copy(LB.id));
@@ -544,7 +575,7 @@
     else if (e.key === 'ArrowUp') { e.preventDefault(); stepPose(-1); }
     else if (e.key === 'ArrowDown') { e.preventDefault(); stepPose(1); }
     else if (e.key === 'l' || e.key === 'L') {
-      if (byId.get(LB.id).photo.some(Boolean)) openLb(LB.id, LB.v, !LB.photo);
+      if (byId.get(LB.id).photo.some(Boolean)) openLb(LB.id, LB.v, MEDIA[(MEDIA.indexOf(LB.medium) + 1) % 3]);
     }
   });
   let swipeX = null;
@@ -556,10 +587,10 @@
     if (Math.abs(dx) > 50) stepAngle(dx < 0 ? 1 : -1);
   });
 
-  // Deep links: #P001, #P001-diag, #P001-diag-photo
+  // Deep links: #P001, #P001-diag, #P001-diag-photo, #P001-diag-compare
   function openFromHash() {
-    const m = location.hash.match(/^#([PSUD]\d{3})(?:-(front|diag|side|above|below))?(-photo)?$/);
-    if (m && byId.has(m[1])) openLb(m[1], m[2] ? VIEWS.indexOf(m[2]) : 0, !!m[3]);
+    const m = location.hash.match(/^#([PSUD]\d{3})(?:-(front|diag|side|above|below))?(?:-(photo|compare))?$/);
+    if (m && byId.has(m[1])) openLb(m[1], m[2] ? VIEWS.indexOf(m[2]) : 0, m[3]);
   }
   window.addEventListener('hashchange', openFromHash);
 

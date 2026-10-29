@@ -203,7 +203,8 @@ def main() -> None:
     # imported and reviewed, and a new series needs a human OK (AGENTS.md §8) before it gets indexable pages.
     # Suggestive poses never get indexable pages or share cards; a pose with no usable view is hidden.
     poses = [dict(p, ci=CAT_KEYS.index(p["class_en"]) if p["class_en"] in CAT_KEYS else 0,
-                  line=[p["views"].get(v) for v in VIEWS])
+                  line=[p["views"].get(v) for v in VIEWS],
+                  photo=[(p.get("photos") or {}).get(v) for v in VIEWS])
              for p in catalog if p.get("series", "std") == "std" and p.get("rating", "general") == "general"
              and any(p["views"].values())]
     S = strings()

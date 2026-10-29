@@ -7,6 +7,12 @@ the catalog schema.
 
 ## [Unreleased]
 
+### Added
+- Compare mode: the lightbox's source switch is now line art / photo / compare. Compare shows both at one height side
+  by side (no overlay: they are framed differently), keeps the gap box for a missing side, marks angles that have both,
+  and offers both 900 downloads. `L` cycles the three; deep link `#P001-diag-compare`. Pose pages with photos get a
+  「线稿与实拍对照」 section. The grid keeps two modes.
+
 ### Changed
 - Images and the project's own data are now CC0 1.0 (`LICENSE-images`); code and docs stay Apache-2.0. Every zip ships
   LICENSE, LICENSE-images and NOTICE. README and NOTICE credit the pose list to ai-pose-gallery by ギア (@giaaibusi).
