@@ -4,7 +4,8 @@
 
 # Shisei 姿勢
 
-**256 mannequin poses in four series × 5 camera angles, drawn as clean line art for AI image tools.**
+**A free (CC0) mannequin pose reference library: 256 poses in four series × 5 camera angles, drawn as clean line art
+for Nano Banana, ChatGPT, ComfyUI, Midjourney and other AI image tools.**
 
 English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md)
 

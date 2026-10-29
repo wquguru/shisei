@@ -4,7 +4,7 @@
 
 # Shisei 姿勢
 
-**四个系列 256 套素体姿势，每套 5 个机位，给 AI 绘图当姿势参考的线稿库。**
+**免费（CC0）白模姿势参考库：四个系列 256 套无脸白模（素体）姿势，每套 5 个机位，线稿可直接喂给 Nano Banana、ChatGPT、ComfyUI、Midjourney 等 AI 绘图工具。**
 
 [English](../../README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 

@@ -11,6 +11,9 @@ the catalog schema.
 - Images and the project's own data are now CC0 1.0 (`LICENSE-images`); code and docs stay Apache-2.0. Every zip ships
   LICENSE, LICENSE-images and NOTICE. README and NOTICE credit the pose list to ai-pose-gallery by ギア (@giaaibusi).
 - The README logo and screenshot link to the gallery at shisei.indaloop.app, in the README's language.
+- Page titles, descriptions, hero headings and README taglines now say what people search for in each language:
+  白模 / 素体ポーズ集 / mannequin pose reference / 마네킹 포즈 자료, free CC0, and the AI tools (Nano Banana, ChatGPT,
+  ComfyUI, Midjourney).
 
 ### Removed
 - P006 front view: the drawing has three arms, which the QC review missed. Manual QC results now go in

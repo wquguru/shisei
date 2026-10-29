@@ -4,7 +4,7 @@
 
 # Shisei 姿勢
 
-**4개 시리즈 256가지 포즈 × 5개 앵글. AI 이미지 도구의 포즈 참고용 마네킹 선화 라이브러리.**
+**무료(CC0) 마네킹 포즈 자료. 4개 시리즈 256가지 포즈 × 5개 앵글의 선화를 Nano Banana, ChatGPT, ComfyUI, Midjourney 등 AI 그림 도구의 포즈 참고로 바로 쓸 수 있습니다.**
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 

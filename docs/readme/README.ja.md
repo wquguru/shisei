@@ -4,7 +4,7 @@
 
 # Shisei 姿勢
 
-**4 シリーズ 256 ポーズ × 5 アングル。AI 画像生成のポーズ参照に使える素体の線画ライブラリ。**
+**無料（CC0）の素体ポーズ集。4 シリーズ 256 ポーズ × 5 アングルの線画を、Nano Banana・ChatGPT・ComfyUI・Midjourney など画像生成 AI のポーズ指定にそのまま使えます。**
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
