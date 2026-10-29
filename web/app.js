@@ -455,12 +455,14 @@
     if (f) { dl.href = src(kind, 'w900', f); dl.setAttribute('download', 'shisei_' + p.id + '_' + VIEWS[LB.v] + (LB.photo ? '_photo' : '') + '.webp'); dl.removeAttribute('aria-disabled'); }
     else { dl.removeAttribute('href'); dl.setAttribute('aria-disabled', 'true'); }
     // Static pose pages exist only for general std poses (tools/site_pages.py).
-    const hasPage = p.series === 'std' && !p.suggestive;
+    const hasPage = hasPosePage(p);
     $('lbPage').hidden = !hasPage;
     if (hasPage) $('lbPage').href = posePage(p.id);
     history.replaceState(null, '', location.pathname + location.search + '#' + p.id + '-' + VIEWS[LB.v] + (LB.photo ? '-photo' : ''));
   }
   const posePage = (id) => BASE + PREFIX[S.lang] + 'pose/' + id + '/';
+  // Same rule as tools/build_site.py: only general-rated std poses get a static page.
+  const hasPosePage = (p) => p.series === 'std' && !p.suggestive;
   function stepAngle(d) {
     const arr = files(byId.get(LB.id), LB.photo);
     for (let k = 1; k <= 5; k++) {
@@ -489,11 +491,12 @@
   $('lbCopyDesc').addEventListener('click', () => copy(byId.get(LB.id).desc_en));
   $('lbCopyId').addEventListener('click', () => copy(LB.id));
   // Share the pose page, not this #hash: link previews never see a fragment, the pose page has its own card.
+  // Poses without a page fall back to the gallery deep link (generic card, but it opens the pose).
   $('lbShare').addEventListener('click', () => {
     const p = byId.get(LB.id);
     const f = p.line[LB.v] || p.line[firstView(p.line)];
     window.ShiseiShare.open({
-      url: posePage(p.id),
+      url: hasPosePage(p) ? posePage(p.id) : BASE + PREFIX[S.lang] + '#' + p.id + '-' + VIEWS[LB.v],
       heading: t().shareTitle,
       text: t().shareText.replace('{name}', nameOf(p)),
       image: new URL(src('line', 'w900', f), location.href).href
