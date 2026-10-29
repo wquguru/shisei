@@ -241,7 +241,7 @@ D006,P006,duo,suggestive,顔寄せ系,贴脸系,Face-close,얼굴 밀착계,逆�
 D007,P007,duo,suggestive,後背位,背后位,From-behind,후위,膝に手をつき前屈みで立つ,手扶膝前屈站立,"Bent forward, hands on knees",무릎에 손·숙여 서기,o,-,o,x,o
 D008,P008,duo,suggestive,座位,坐位,Seated,앉은 자세,脚を絡めて腕を引き合う,并坐缠腿拉手,"Seated, legs tangled, pulling arms",앉아 다리 얽어 팔 당기기,o,o,o,o,o
 D009,P009,duo,suggestive,背面座位,背向坐位,"Seated, back to partner",등 돌려 앉기,背中から抱いて膝に座らせる,背后抱坐腿上,"Held from behind, seated on lap",뒤에서 안아 무릎에 앉히기,o,o,o,x,x
-D010,P010,duo,suggestive,背面座位,背向坐位,"Seated, back to partner",등 돌려 앉기,膝の上に横座りで抱かれる,横坐腿上被抱,"Seated sideways on lap, held",무릎 위 옆으로 앉아 안기기,o,o,x,o,o
+D010,P010,duo,suggestive,背面座位,背向坐位,"Seated, back to partner",등 돌려 앉기,膝の上に横座りで抱かれる,横坐腿上被抱,"Seated sideways on lap, held",무릎 위 옆으로 앉아 안기기,x,o,x,o,o
 D011,P011,duo,suggestive,正常位,正对卧位,Face-to-face lying,마주 누운 자세,脚を伸ばして重なり合う,伸腿重叠,"Overlapping, legs extended",다리 뻗고 겹치기,-,o,o,o,o
 D012,P013,duo,suggestive,後背位,背后位,From-behind,후위,四つん這いの後ろで膝立ち,四肢着地后方跪立,"On all fours, kneeling behind",네발 기기 뒤 무릎 서기,o,o,o,o,o
 D013,P014,duo,suggestive,後背位,背后位,From-behind,후위,床に手をつき脚を抱えられる,手撑地抱起腿,"Hands on floor, leg held up",손 짚고 다리 들어올리기,o,o,o,o,o
@@ -255,7 +255,7 @@ D020,P021,duo,suggestive,騎乗位,骑乘位,Straddling,기승위,上に重な�
 D021,P022,duo,suggestive,正常位,正对卧位,Face-to-face lying,마주 누운 자세,手首を頭上で重ね膝を抱える,手腕头上交叉抱膝,"Wrists crossed overhead, knees held",손목 머리 위 교차·무릎 안기,o,o,x,o,o
 D022,P023,duo,suggestive,騎乗位,骑乘位,Straddling,기승위,向き合って腰の上に座る,面对面坐在腰上,Seated on hips facing him,마주 보고 허리에 앉기,-,-,-,-,-
 D023,P024,duo,suggestive,正常位,正对卧位,Face-to-face lying,마주 누운 자세,膝で腰を持ち上げる仰向け,膝顶抬腰仰卧,"On back, hips lifted by knees",무릎으로 허리 들기·누운 자세,o,o,o,o,o
-D024,P025,duo,suggestive,背面座位,背向坐位,"Seated, back to partner",등 돌려 앉기,膝の上で前にもたれる,坐在腿上前靠,"Seated on lap, leaning forward",무릎 위 앞으로 기대기,o,o,o,o,o
+D024,P025,duo,suggestive,背面座位,背向坐位,"Seated, back to partner",등 돌려 앉기,膝の上で前にもたれる,坐在腿上前靠,"Seated on lap, leaning forward",무릎 위 앞으로 기대기,x,o,o,x,x
 D025,P026,duo,suggestive,正常位,正对卧位,Face-to-face lying,마주 누운 자세,腰を高く抱え上げる仰向け,高抱腰仰卧,"Hips lifted high, on her back",허리 높이 안아 올리기·누운 자세,o,o,o,o,o
 D026,P030,duo,suggestive,立位,站立位,Standing,서기,腕を前に伸ばし腰を支えられる,双臂前伸扶腰,"Arms stretched forward, waist supported",팔 앞으로 뻗어 허리 지지,-,o,o,o,o
 D027,P031,duo,suggestive,騎乗位,骑乘位,Straddling,기승위,立てた膝にもたれて座る,靠着抬起的膝坐,Seated against raised knee,세운 무릎에 기대어 앉기,o,o,o,o,o
@@ -265,7 +265,7 @@ D030,P036,duo,suggestive,座位,坐位,Seated,앉은 자세,後ろ手をつい�
 D031,P037,duo,suggestive,騎乗位,骑乘位,Straddling,기승위,上げた片脚を抱きしめる,抱起抬高的一腿,Holding one raised leg,들어올린 한 다리 안기,o,o,o,o,x
 D032,P040,duo,suggestive,正常位,正对卧位,Face-to-face lying,마주 누운 자세,覆いかぶさって胸元に口づけ,俯身贴近胸前,"Leaning over, close to her chest",덮어 가슴 가까이,x,x,o,x,x
 D033,P041,duo,suggestive,後背位,背后位,From-behind,후위,胸を床につけ腰を上げる,胸贴地抬腰,"Chest to floor, hips raised",가슴 바닥·허리 들기,o,o,o,o,o
-D034,P042,duo,suggestive,対面座位,面对面坐位,Face-to-face seated,마주 앉기,あぐらの上で抱き合う,盘腿上相拥,Embracing on cross-legged lap,양반다리 위 안기,o,o,x,o,o
+D034,P042,duo,suggestive,対面座位,面对面坐位,Face-to-face seated,마주 앉기,あぐらの上で抱き合う,盘腿上相拥,Embracing on cross-legged lap,양반다리 위 안기,o,o,x,x,o
 D035,P043,duo,suggestive,正常位,正对卧位,Face-to-face lying,마주 누운 자세,膝を肩まで引き寄せ足首を持つ,膝拉到肩握脚踝,"Knees to shoulders, holding ankles",무릎 어깨까지·발목 잡기,o,o,o,o,o
 D036,P044,duo,suggestive,背面座位,背向坐位,"Seated, back to partner",등 돌려 앉기,背中越しに胸元へ手を添える,背后手贴胸前,Hands at her chest from behind,뒤에서 가슴에 손 얹기,-,o,o,o,x
 D037,P045,duo,suggestive,後背位,背后位,From-behind,후위,深く前屈し床に手をつく,深前屈手撑地,"Deep bend, hands on floor",깊이 숙여 손 바닥에,o,o,o,o,x
@@ -276,7 +276,7 @@ D041,P049,duo,suggestive,立位密着,站立贴合,Standing close,서서 밀착,
 D042,P050,duo,suggestive,立位密着,站立贴合,Standing close,서서 밀착,背伸びして片足を後ろへ,踮脚单脚后踢站立,"On tiptoe, one leg kicked back",까치발·한 발 뒤로,o,o,o,o,o
 D043,P051,duo,suggestive,立位密着,站立贴合,Standing close,서서 밀착,耳元でささやき頬に触れる,耳边低语抚脸,"Whispering, hand on cheek",귓가에 속삭이며 볼 만지기,o,o,o,o,o
 D044,P052,duo,suggestive,立位,站立位,Standing,서기,両手首を頭上で押さえる,头上按住双手腕,Both wrists held overhead,양 손목 머리 위로 잡기,o,o,o,o,-
-D045,P053,duo,suggestive,立位,站立位,Standing,서기,背後から胸元を抱きしめる,背后环抱胸前,Embracing chest from behind,뒤에서 가슴 안기,o,o,o,o,o
+D045,P053,duo,suggestive,立位,站立位,Standing,서기,背後から胸元を抱きしめる,背后环抱胸前,Embracing chest from behind,뒤에서 가슴 안기,o,o,o,x,o
 D046,P054,duo,suggestive,立位密着,站立贴合,Standing close,서서 밀착,横抱きにされて背を反らす,横抱后仰,"Carried sideways, back arched",옆으로 안겨 등 젖히기,o,o,o,o,o
 D047,P055,duo,suggestive,座位密着,坐位贴合,Seated close,앉아 밀착,横座りで片脚を高く伸ばす,横坐高伸一腿,"Seated sideways, one leg raised high",옆으로 앉아 한 다리 높이 뻗기,o,x,o,o,o
 D048,P056,duo,suggestive,側位,侧位,Side-lying,옆 자세,肘をついて隣から見下ろす,肘撑在旁俯视,"On elbow beside her, looking down",팔꿈치 짚고 옆에서 내려다보기,x,x,o,o,o

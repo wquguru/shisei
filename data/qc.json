@@ -5813,7 +5813,8 @@
   "D010": {
    "front": {
     "file": "duo_D010_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
    },
    "diag": {
     "file": "duo_D010_diag.webp",
@@ -6132,7 +6133,8 @@
   "D024": {
    "front": {
     "file": "duo_D024_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
    },
    "diag": {
     "file": "duo_D024_diag.webp",
@@ -6144,11 +6146,13 @@
    },
    "above": {
     "file": "duo_D024_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
    },
    "below": {
     "file": "duo_D024_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
    }
   },
   "D025": {
@@ -6372,7 +6376,8 @@
    },
    "above": {
     "file": "duo_D034_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
    },
    "below": {
     "file": "duo_D034_below.webp",
@@ -6617,7 +6622,8 @@
    },
    "above": {
     "file": "duo_D045_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
    },
    "below": {
     "file": "duo_D045_below.webp",

@@ -6660,7 +6660,7 @@
   "name_kr": "무릎 위 옆으로 앉아 안기기",
   "desc_en": "",
   "views": {
-   "front": "duo_D010_front.webp",
+   "front": null,
    "diag": "duo_D010_diag.webp",
    "side": null,
    "above": "duo_D010_above.webp",
@@ -6669,6 +6669,7 @@
   "photos": [],
   "bodies": "MF",
   "gaps": {
+   "front": "structure",
    "side": "structure"
   }
  },
@@ -7060,15 +7061,19 @@
   "name_kr": "무릎 위 앞으로 기대기",
   "desc_en": "",
   "views": {
-   "front": "duo_D024_front.webp",
+   "front": null,
    "diag": "duo_D024_diag.webp",
    "side": "duo_D024_side.webp",
-   "above": "duo_D024_above.webp",
-   "below": "duo_D024_below.webp"
+   "above": null,
+   "below": null
   },
   "photos": [],
   "bodies": "MF",
-  "gaps": {}
+  "gaps": {
+   "front": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "D025",
@@ -7341,13 +7346,14 @@
    "front": "duo_D034_front.webp",
    "diag": "duo_D034_diag.webp",
    "side": null,
-   "above": "duo_D034_above.webp",
+   "above": null,
    "below": "duo_D034_below.webp"
   },
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "side": "structure"
+   "side": "structure",
+   "above": "structure"
   }
  },
  {
@@ -7641,12 +7647,14 @@
    "front": "duo_D045_front.webp",
    "diag": "duo_D045_diag.webp",
    "side": "duo_D045_side.webp",
-   "above": "duo_D045_above.webp",
+   "above": null,
    "below": "duo_D045_below.webp"
   },
   "photos": [],
   "bodies": "MF",
-  "gaps": {}
+  "gaps": {
+   "above": "structure"
+  }
  },
  {
   "id": "D046",
