@@ -1,0 +1,733 @@
+{
+ "reviewed": [
+  "D020__front-side.jpg",
+  "D021__above-below.jpg",
+  "D021__front-diag.jpg",
+  "D023__below.jpg",
+  "D023__front-diag.jpg",
+  "D023__side-above.jpg",
+  "D024__diag-side.jpg",
+  "D025__below.jpg",
+  "D025__front-diag.jpg",
+  "D025__side-above.jpg",
+  "D026__above-below.jpg",
+  "D026__diag-side.jpg",
+  "D027__below.jpg",
+  "D027__front-diag.jpg",
+  "D027__side-above.jpg",
+  "D028__below.jpg",
+  "D028__front-side.jpg",
+  "D030__below.jpg",
+  "D030__front-diag.jpg",
+  "D030__side-above.jpg",
+  "D031__front-diag.jpg",
+  "D031__side-above.jpg",
+  "D032__side.jpg",
+  "D033__below.jpg",
+  "D033__front-diag.jpg",
+  "D033__side-above.jpg",
+  "D034__below.jpg",
+  "D034__front-diag.jpg",
+  "D035__below.jpg",
+  "D035__front-diag.jpg",
+  "D035__side-above.jpg",
+  "D036__above.jpg",
+  "D036__diag-side.jpg",
+  "D037__front-diag.jpg",
+  "D037__side-above.jpg",
+  "D038__below.jpg",
+  "D038__front-diag.jpg",
+  "D038__side-above.jpg",
+  "D039__below.jpg",
+  "D039__front-above.jpg"
+ ],
+ "panels": [
+  {
+   "set": "D020",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D020",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D021",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D021",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D021",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D021",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D023",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D023",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D023",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D023",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D023",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D024",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D024",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D025",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D025",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D025",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D025",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D025",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D026",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D026",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D026",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D026",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D027",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D027",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D027",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D027",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D027",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D028",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 3,
+   "trace": "each woman has both hands visible; three feet visible, fourth leg ambiguous under overlap",
+   "note": "fourth foot hidden/ambiguous under the bottom figure"
+  },
+  {
+   "set": "D028",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D028",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 5,
+   "feet": 5,
+   "trace": "five feet and five lower legs can be traced for two figures",
+   "note": "Two women: only one arm each visible, other arms hidden; legs: 5 distinct shin/foot shapes, one too many"
+  },
+  {
+   "set": "D030",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D030",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D030",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D030",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D030",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D031",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D031",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D031",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D031",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D032",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D033",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D033",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D033",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D033",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D033",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D034",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D034",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D034",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D035",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D035",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D035",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D035",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D035",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D036",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D036",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D036",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D037",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D037",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D037",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D037",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D038",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D038",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D038",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D038",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D038",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D039",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D039",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  },
+  {
+   "set": "D039",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "both figures' hands and feet traced to shoulders/hips; hidden ones behind bodies or partners",
+   "note": "some limbs hidden by overlap or the other figure"
+  }
+ ],
+ "flags": [
+  {
+   "set": "D028",
+   "angle": "side",
+   "reason": "Five separate lower legs/feet are visible for two figures (feet at left x2, upper-right, lower-right, lower-left): one extra leg"
+  }
+ ]
+}

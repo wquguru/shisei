@@ -1,0 +1,783 @@
+{
+ "reviewed": [
+  "U006__side-above.jpg",
+  "U008__front-diag.jpg",
+  "U008__side-below.jpg",
+  "U009__front-diag.jpg",
+  "U009__side-below.jpg",
+  "U010__below.jpg",
+  "U010__front-diag.jpg",
+  "U010__side-above.jpg",
+  "U011__front-diag.jpg",
+  "U011__side-above.jpg",
+  "U012__below.jpg",
+  "U012__front-diag.jpg",
+  "U012__side-above.jpg",
+  "U013__below.jpg",
+  "U013__front-diag.jpg",
+  "U013__side-above.jpg",
+  "U014__below.jpg",
+  "U014__front-diag.jpg",
+  "U014__side-above.jpg",
+  "U015__below.jpg",
+  "U015__front-diag.jpg",
+  "U015__side-above.jpg",
+  "U016__below.jpg",
+  "U016__front-diag.jpg",
+  "U016__side-above.jpg",
+  "U017__front-below.jpg",
+  "U018__below.jpg",
+  "U018__front-diag.jpg",
+  "U018__side-above.jpg",
+  "U019__above-below.jpg",
+  "U019__front-diag.jpg",
+  "U020__below.jpg",
+  "U020__front-diag.jpg",
+  "U020__side-above.jpg",
+  "U021__front-diag.jpg",
+  "U021__side-below.jpg",
+  "U022__above-below.jpg",
+  "U022__front-side.jpg",
+  "U023__above-below.jpg",
+  "U023__front-diag.jpg"
+ ],
+ "panels": [
+  {
+   "set": "U006",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near fist at cheek (forearm down to elbow, upper arm back to shoulder); far arm hidden",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U006",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L fist at cheek; R arm hangs, hand cropped at bottom",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U008",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both cat-paw hands raised beside head",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U008",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both paw hands raised beside head",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U008",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both paw hands raised above head",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U008",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both paw hands raised",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U009",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both clawed hands raised beside head",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U009",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands raised",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U009",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands raised",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U009",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands raised",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U010",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand finger raised; R arm hangs, fist at bottom",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U010",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L finger up; R fist hangs at bottom",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U010",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R finger up; L fist hangs",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U010",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "far arm finger up; near arm hangs to hand at bottom",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U010",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one finger up; other arm down with fist",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U011",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand at head; L arm hangs, hand cropped",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U011",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand at head; R arm hangs, hand cropped",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U011",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand at forehead; second arm not seen",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U011",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand at head; L arm down, hand lower left",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U012",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R arm extended with open palm; L arm hangs, hand bottom-left",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U012",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L arm extended palm up; R arm hangs, hand bottom",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U012",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one arm extended palm up; other hangs, hand bottom right",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U012",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near arm extended palm up; other arm hangs, hand bottom",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U012",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one arm extended palm toward camera; other hangs, hand right",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U013",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at cheeks, forearms crossed in front",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U013",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at cheeks, forearms crossed",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U013",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at cheeks",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U013",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at chin; two forearms, one upper arm visible",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U013",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at cheeks",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U014",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R-side finger poking cheek; shoulder ball on other side has no arm (hidden behind torso?)",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U014",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand finger at cheek; L arm hangs, hand cropped",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U014",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "hand finger at cheek; other shoulder ball without visible arm (hidden behind torso)",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U014",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand finger at cheek; near shoulder ball has no arm attached",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U014",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand finger at neck; L arm hangs, hand lower left",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U015",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together at mouth, two forearms",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U015",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together at mouth",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U015",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together at mouth",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U015",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together at mouth; two forearms",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U015",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together at chest",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U016",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together at chest",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U016",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together at chest",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U016",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together at chest",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U016",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together; two forearms",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U016",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "palms together",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U017",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "arms crossed, hands on opposite shoulders",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U017",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "arms crossed, hands on opposite shoulders",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U018",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands raised in finger frame",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U018",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands in finger frame at eyes",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U018",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands in frame",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U018",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands in frame; two forearms, one upper arm visible",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U018",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands in frame above head",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U019",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand at ear; other arm hangs, hand bottom right",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U019",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand at ear; other arm hangs, hand bottom right",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U019",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand at ear; R arm hangs, hand bottom right",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U019",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand at ear; L arm hangs, hand bottom left",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U020",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands cupping cheeks",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U020",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands cupping cheeks",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U020",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at cheeks",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U020",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at cheek; two forearms, one upper arm visible",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U020",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands cupping cheeks",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U021",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand salute; R arm hangs, hand cropped",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U021",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand salute; L arm hangs, hand cropped",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U021",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "far hand salute; near arm hangs, hand bottom-left",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U021",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand salute; R arm hangs, hand cropped",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U022",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L arm toward camera, hand pointing at bottom (extra joint ball mid upper arm, probably foreshortened); R arm hangs, hand small at lower right",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U022",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L fist pointing at camera; R arm hangs, hand bottom right",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U022",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand pointing at camera; R arm hangs, hand on hip",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U022",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near arm pointing; far arm hidden",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs; far arm hidden behind body"
+  },
+  {
+   "set": "U023",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand over face; R arm out, cropped by frame",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U023",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand at head; L arm out, hand bottom-left",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U023",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand at face; L arm out, cropped by frame",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  },
+  {
+   "set": "U023",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand at head; L arm out, hand left",
+   "note": "upper set: legs/feet cropped by frame (fine); counts are visible limbs"
+  }
+ ],
+ "flags": [
+  {
+   "set": "U011",
+   "angle": "side",
+   "reason": "Only one arm (hand at forehead) is drawn; near shoulder socket at right of torso has no arm attached and the drawn arm's upper arm ends at the chest, not at that socket. Low confidence: second arm may be hidden."
+  },
+  {
+   "set": "U014",
+   "angle": "side",
+   "reason": "Only one arm (finger at cheek) is drawn; the near shoulder ball on the back has no arm attached. Low confidence: second arm may be hidden."
+  },
+  {
+   "set": "U014",
+   "angle": "below",
+   "reason": "Only one arm drawn (finger at cheek); the shoulder ball on the other side has no arm. Low confidence: arm may be hidden behind the torso."
+  }
+ ]
+}

@@ -6,6 +6,252 @@
    "angle": "front",
    "kind": "structure",
    "reason": "three arms: right shoulder has one arm on hip and a second arm propped down beside the hip (found by a person, missed by panel and name review)"
+  },
+  {
+   "set": "D004",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "woman drawn with four legs (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "D004",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "woman drawn with four legs (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "D004",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "woman drawn with extra legs over the man's shoulders (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "D028",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "five feet for two figures (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S024",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "three legs (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S052",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "three arms, two from the left shoulder (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S059",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "three arms (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S069",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "three feet, two shins from one knee (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S016",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "one arm missing in the front view (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S045",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "one arm missing in the front view (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S079",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "no arms drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "U011",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "near shoulder has no arm (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "U014",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "near shoulder has no arm (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "U014",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "one shoulder has no arm (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "U033",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "each arm has an extra segment (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "U046",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "far arm breaks off, not joined to a shoulder (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "U046",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "arms joined wrongly (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "P050",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "the cheek-on-hand arm is missing; foot cut by the frame (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "P072",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "P073",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S040",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S043",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S049",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S049",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S050",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S050",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S051",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S059",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S076",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "legs end in stumps, no feet drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S039",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S039",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S039",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S039",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S039",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S028",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "foot cut by the frame edge (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "P051",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "foot cut by the frame edge (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S072",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "two limbs end in one hand (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S079",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "stray third hand under the chin (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "D048",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "woman appears to have three arms (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "D051",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "legs cannot be traced to one body (limb-count check, confirmed by a person)"
+  },
+  {
+   "set": "S041",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "stray foot-like shape beside the pelvis (limb-count check, confirmed by a person)"
   }
  ]
 }

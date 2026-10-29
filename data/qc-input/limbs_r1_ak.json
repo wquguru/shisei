@@ -1,0 +1,748 @@
+{
+ "reviewed": [
+  "S071__side.jpg",
+  "S072__below.jpg",
+  "S072__front-diag.jpg",
+  "S072__side-above.jpg",
+  "S073__below.jpg",
+  "S073__front-diag.jpg",
+  "S073__side-above.jpg",
+  "S074__front-diag.jpg",
+  "S074__side.jpg",
+  "S075__below.jpg",
+  "S075__front-diag.jpg",
+  "S075__side-above.jpg",
+  "S076__below.jpg",
+  "S076__front-diag.jpg",
+  "S076__side-above.jpg",
+  "S077__below.jpg",
+  "S077__front-diag.jpg",
+  "S077__side-above.jpg",
+  "S078__front-diag.jpg",
+  "S078__side.jpg",
+  "S079__below.jpg",
+  "S079__front-diag.jpg",
+  "S079__side-above.jpg",
+  "S080__below.jpg",
+  "S080__front-diag.jpg",
+  "S080__side-above.jpg",
+  "U001__below.jpg",
+  "U001__front-diag.jpg",
+  "U001__side-above.jpg",
+  "U002__front-diag.jpg",
+  "U002__side-below.jpg",
+  "U003__front-diag.jpg",
+  "U003__side-above.jpg",
+  "U004__front-diag.jpg",
+  "U004__side-below.jpg",
+  "U005__below.jpg",
+  "U005__front-diag.jpg",
+  "U005__side-above.jpg",
+  "U006__below.jpg",
+  "U006__front-diag.jpg"
+ ],
+ "panels": [
+  {
+   "set": "S071",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands flat on floor in front, feet on floor under hips",
+   "note": " far limbs partly overlap near ones"
+  },
+  {
+   "set": "S072",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor at bottom, feet up at top",
+   "note": ""
+  },
+  {
+   "set": "S072",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand on floor bottom-left, R hand hidden behind R foot; both feet on floor",
+   "note": "hands/feet overlap at floor, hard to separate"
+  },
+  {
+   "set": "S072",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor right, both feet on floor left",
+   "note": ""
+  },
+  {
+   "set": "S072",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor left, feet on floor right (far limbs overlap near)",
+   "note": ""
+  },
+  {
+   "set": "S072",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands bottom, feet at top",
+   "note": ""
+  },
+  {
+   "set": "S073",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands hang toward floor; standing foot on floor, other leg raised with foot at top",
+   "note": ""
+  },
+  {
+   "set": "S073",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands hang down; standing foot bottom centre, raised foot at top",
+   "note": ""
+  },
+  {
+   "set": "S073",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands hang; standing foot on floor, raised foot top right",
+   "note": ""
+  },
+  {
+   "set": "S073",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand hangs; far arm hidden behind body",
+   "note": "far arm hidden by body"
+  },
+  {
+   "set": "S073",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands hang; standing foot bottom, raised foot top right",
+   "note": ""
+  },
+  {
+   "set": "S074",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms reach out sideways, hands in air; front foot lower left, back foot right",
+   "note": ""
+  },
+  {
+   "set": "S074",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand on floor left, far hand on floor behind it; feet at far left bottom and right",
+   "note": ""
+  },
+  {
+   "set": "S074",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "near arm raised right, far arm hand lower left; legs stretched along floor, left foot not clearly drawn (ball at knee/ankle only)",
+   "note": "left leg end is a circle without a clear foot"
+  },
+  {
+   "set": "S075",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor in front; feet left and right",
+   "note": ""
+  },
+  {
+   "set": "S075",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor beside hips; feet left and right",
+   "note": ""
+  },
+  {
+   "set": "S075",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor right of torso; feet far left and right",
+   "note": ""
+  },
+  {
+   "set": "S075",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand floor left, far hand floor right; feet left and right edge",
+   "note": ""
+  },
+  {
+   "set": "S075",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor beside hips; feet bottom left and right",
+   "note": ""
+  },
+  {
+   "set": "S076",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands support lower back near hips; feet up top-left and top-right",
+   "note": ""
+  },
+  {
+   "set": "S076",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on lower back; feet up top",
+   "note": ""
+  },
+  {
+   "set": "S076",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "hands on back; legs up, ends look like blunt stubs with no foot",
+   "note": "leg ends at round stubs, feet not drawn; may be foot pointing away"
+  },
+  {
+   "set": "S076",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand on back, far arm hidden; feet up top",
+   "note": "far arm hidden"
+  },
+  {
+   "set": "S076",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on lower back; feet up top",
+   "note": ""
+  },
+  {
+   "set": "S077",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "both hands on floor in front of knees; one foot visible right, other hidden behind legs",
+   "note": "one foot hidden"
+  },
+  {
+   "set": "S077",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "hands on floor beside knees; feet hidden behind thighs",
+   "note": "feet hidden by thighs"
+  },
+  {
+   "set": "S077",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor right; feet near hands",
+   "note": ""
+  },
+  {
+   "set": "S077",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor near feet; feet bottom centre",
+   "note": ""
+  },
+  {
+   "set": "S077",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor left/centre; one foot left, other foot hidden/near hand",
+   "note": "a foot sits near the hand, belongs to far leg"
+  },
+  {
+   "set": "S078",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands behind head; feet on floor",
+   "note": ""
+  },
+  {
+   "set": "S078",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands behind head; feet on floor",
+   "note": ""
+  },
+  {
+   "set": "S078",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped behind head, far arm overlaps near; two feet on floor",
+   "note": "arms overlap"
+  },
+  {
+   "set": "S079",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms lie on floor at bottom; one foot raised top, other foot on floor right",
+   "note": ""
+  },
+  {
+   "set": "S079",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor at bottom beside head; raised foot top, other foot on floor right",
+   "note": ""
+  },
+  {
+   "set": "S079",
+   "angle": "diag",
+   "arms": 0,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "only shoulder circle visible, no arm or hand drawn; raised foot top, planted foot lower right",
+   "note": "no arm/hand visible beyond shoulder ball"
+  },
+  {
+   "set": "S079",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near arm along floor to hand, far arm hidden; raised foot top, planted foot bottom right",
+   "note": "far arm hidden"
+  },
+  {
+   "set": "S079",
+   "angle": "above",
+   "arms": 2,
+   "hands": 3,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand bottom left, R hand bottom right, plus small hand-like shape under chin; raised foot top, planted foot right",
+   "note": "possible third hand under the head near centre bottom"
+  },
+  {
+   "set": "S080",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor left/right bottom; feet bottom centre",
+   "note": ""
+  },
+  {
+   "set": "S080",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor beside feet; feet bottom centre",
+   "note": ""
+  },
+  {
+   "set": "S080",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor right; feet on floor left",
+   "note": ""
+  },
+  {
+   "set": "S080",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 1,
+   "feet": 1,
+   "trace": "near hand on floor right; far arm hidden; one foot visible left",
+   "note": "far limbs hidden"
+  },
+  {
+   "set": "S080",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands bottom; feet top",
+   "note": ""
+  },
+  {
+   "set": "U001",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "hands form heart at chest; arms 2",
+   "note": "legs/hips cropped"
+  },
+  {
+   "set": "U001",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "hands form heart at chest",
+   "note": "lower body cropped by frame"
+  },
+  {
+   "set": "U001",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "hands form heart at chest",
+   "note": "lower body cropped"
+  },
+  {
+   "set": "U001",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "hands form heart at chest",
+   "note": "lower body cropped"
+  },
+  {
+   "set": "U001",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "hands form heart at chest",
+   "note": "lower body cropped"
+  },
+  {
+   "set": "U002",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands joined into heart overhead, arms bent up",
+   "note": "upper-body crop; legs cropped"
+  },
+  {
+   "set": "U002",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands joined into heart overhead, arms bent up",
+   "note": "upper-body crop; legs cropped"
+  },
+  {
+   "set": "U002",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands joined into heart overhead, arms bent up",
+   "note": "upper-body crop; legs cropped"
+  },
+  {
+   "set": "U002",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands joined into heart overhead, arms bent up",
+   "note": "upper-body crop; legs cropped"
+  },
+  {
+   "set": "U003",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand at cheek finger heart, R hand hangs low at hip",
+   "note": "upper-body crop; legs cropped"
+  },
+  {
+   "set": "U003",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "far hand at cheek, near hand low at hip",
+   "note": "upper-body crop; legs cropped"
+  },
+  {
+   "set": "U003",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near hand at cheek; other arm hidden/overlapped",
+   "note": "upper-body crop; legs cropped"
+  },
+  {
+   "set": "U003",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand at cheek, other hand low at hip",
+   "note": "upper-body crop; legs cropped"
+  },
+  {
+   "set": "U004",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands peace sign beside head",
+   "note": "legs cropped"
+  },
+  {
+   "set": "U004",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands peace sign beside head",
+   "note": "legs cropped"
+  },
+  {
+   "set": "U004",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "two forearms/hands with peace signs in front of chin; one upper arm visible, other hidden; faint extra outline behind lower forearm at left",
+   "note": "faint extra rounded outline near forearm (~160,560); unclear"
+  },
+  {
+   "set": "U004",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands peace sign beside head",
+   "note": "legs cropped"
+  },
+  {
+   "set": "U005",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand peace sign up, L hand hangs bottom left",
+   "note": "legs cropped"
+  },
+  {
+   "set": "U005",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand peace sign, L hand hangs bottom left",
+   "note": "legs cropped"
+  },
+  {
+   "set": "U005",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand peace sign, L hand hangs bottom left",
+   "note": "legs cropped"
+  },
+  {
+   "set": "U005",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near arm bent with peace sign hand; far arm hidden",
+   "note": "far arm hidden"
+  },
+  {
+   "set": "U005",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand peace sign top right, other hand hangs bottom left",
+   "note": "legs cropped"
+  },
+  {
+   "set": "U006",
+   "angle": "below",
+   "arms": 2,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R fist at cheek, L hand off frame bottom left",
+   "note": "L hand cropped at frame edge; legs cropped"
+  },
+  {
+   "set": "U006",
+   "angle": "front",
+   "arms": 2,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L fist at cheek, R arm hangs, hand cropped",
+   "note": "R hand cropped at bottom"
+  },
+  {
+   "set": "U006",
+   "angle": "diag",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "far-side fist at cheek, other arm hidden by torso",
+   "note": "one arm hidden/cropped"
+  }
+ ],
+ "flags": [
+  {
+   "set": "S072",
+   "angle": "front",
+   "reason": "Hands/feet at the floor overlap: left side has two limbs (leg and arm) ending at one spot, right hand not visible behind right foot; cannot confirm 2 hands and 2 feet."
+  },
+  {
+   "set": "S074",
+   "angle": "side",
+   "reason": "Legs stretched along floor: left leg ends in a circle at the knee/ankle with no clear foot, and a line runs through both legs; foot count unclear."
+  },
+  {
+   "set": "S076",
+   "angle": "diag",
+   "reason": "Both raised legs end in blunt stubs with no foot drawn (possible missing feet)."
+  },
+  {
+   "set": "S079",
+   "angle": "diag",
+   "reason": "No arm or hand visible except a shoulder ball; arms/hands missing or hidden under body."
+  },
+  {
+   "set": "S079",
+   "angle": "above",
+   "reason": "Besides the two arms/hands at bottom, a small hand-like shape under the chin near centre may be a third hand."
+  },
+  {
+   "set": "U004",
+   "angle": "side",
+   "reason": "A faint extra rounded outline behind the lower forearm at left may be a stray limb piece; probably the far arm, check."
+  }
+ ]
+}

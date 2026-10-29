@@ -1,0 +1,758 @@
+{
+ "reviewed": [
+  "S054__front-diag.jpg",
+  "S055__above-below.jpg",
+  "S055__front-diag.jpg",
+  "S056__above.jpg",
+  "S056__front-diag.jpg",
+  "S057__below.jpg",
+  "S057__side-above.jpg",
+  "S058__above-below.jpg",
+  "S058__diag-side.jpg",
+  "S059__below.jpg",
+  "S059__side-above.jpg",
+  "S060__below.jpg",
+  "S060__diag-above.jpg",
+  "S061__below.jpg",
+  "S061__front-diag.jpg",
+  "S061__side-above.jpg",
+  "S062__below.jpg",
+  "S062__front-diag.jpg",
+  "S062__side-above.jpg",
+  "S063__below.jpg",
+  "S063__front-diag.jpg",
+  "S063__side-above.jpg",
+  "S064__below.jpg",
+  "S064__front-diag.jpg",
+  "S064__side-above.jpg",
+  "S065__diag-below.jpg",
+  "S066__below.jpg",
+  "S066__front-diag.jpg",
+  "S066__side-above.jpg",
+  "S067__below.jpg",
+  "S067__front-diag.jpg",
+  "S067__side-above.jpg",
+  "S068__diag-above.jpg",
+  "S069__below.jpg",
+  "S069__front-diag.jpg",
+  "S069__side-above.jpg",
+  "S070__below.jpg",
+  "S070__front-diag.jpg",
+  "S070__side-above.jpg",
+  "S071__front-diag.jpg"
+ ],
+ "panels": [
+  {
+   "set": "S054",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped under head, forearms folded; feet soles up at bottom",
+   "note": ""
+  },
+  {
+   "set": "S054",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L arm on floor to left, R arm propped down, hands under head; legs kneeling, feet at right",
+   "note": ""
+  },
+  {
+   "set": "S055",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms out/up by sides, hands open; legs raised in V, feet at top",
+   "note": ""
+  },
+  {
+   "set": "S055",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms out/up by sides, hands open; legs raised in V, feet at top",
+   "note": ""
+  },
+  {
+   "set": "S055",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms out/up by sides, hands open; legs raised in V, feet at top",
+   "note": ""
+  },
+  {
+   "set": "S055",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms out/up by sides, hands open; legs raised in V, feet at top",
+   "note": ""
+  },
+  {
+   "set": "S056",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms overhead, hands up; legs together, feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "S056",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms overhead, hands up; legs together, feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "S056",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms overhead, hands up; legs together, feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "S057",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand near hip, R hand at right; one knee bent foot out left, other leg down",
+   "note": "right hand/forearm marks at (540,235) and (555,310) read as one hand"
+  },
+  {
+   "set": "S057",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped at the front on the floor; one leg bent up foot left, other flat foot left",
+   "note": ""
+  },
+  {
+   "set": "S057",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L arm outstretched hand upper-left, R arm bent hand at head; legs both trail down, feet at bottom",
+   "note": ""
+  },
+  {
+   "set": "S058",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand holds raised ankle, other hand on floor; raised leg foot up, other leg foot lower right",
+   "note": ""
+  },
+  {
+   "set": "S058",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand holds raised ankle, other hand on floor; second foot lower right",
+   "note": ""
+  },
+  {
+   "set": "S058",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand holds raised ankle, other on floor; second foot at right",
+   "note": ""
+  },
+  {
+   "set": "S058",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand holds raised ankle, other hand on floor lower; second foot left",
+   "note": ""
+  },
+  {
+   "set": "S059",
+   "angle": "below",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R arm up behind head, no hand drawn; L arm hangs ending in bare cylinder; feet bottom",
+   "note": "hands not drawn"
+  },
+  {
+   "set": "S059",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm raised, hand upper left; knees up, feet at right",
+   "note": "second arm hidden behind body"
+  },
+  {
+   "set": "S059",
+   "angle": "above",
+   "arms": 3,
+   "hands": 3,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arm A up-left hand top left; arm B from SAME right shoulder out right hand right; arm C hanging from left shoulder hand low; feet bottom right",
+   "note": ""
+  },
+  {
+   "set": "S060",
+   "angle": "below",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm visible at left hand small; legs frog, feet up",
+   "note": "second arm hidden"
+  },
+  {
+   "set": "S060",
+   "angle": "diag",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L arm folded hand left, other arm hidden behind torso; feet at right",
+   "note": "one arm hidden"
+  },
+  {
+   "set": "S060",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped at bottom; frog legs feet top",
+   "note": ""
+  },
+  {
+   "set": "S061",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm along body, other arm elbow to hand near hip; feet top",
+   "note": ""
+  },
+  {
+   "set": "S061",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "upper arm hand right, lower arm hand right; feet right",
+   "note": ""
+  },
+  {
+   "set": "S061",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L arm hanging hand low, R arm to right hand; feet bottom right",
+   "note": ""
+  },
+  {
+   "set": "S061",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm visible bent at head; other hidden behind body; feet right",
+   "note": "second arm hidden"
+  },
+  {
+   "set": "S061",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L arm hand at lower centre, R arm hand at right; feet bottom",
+   "note": ""
+  },
+  {
+   "set": "S062",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands wrapped on knees; feet bottom",
+   "note": ""
+  },
+  {
+   "set": "S062",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped on shins; feet bottom",
+   "note": ""
+  },
+  {
+   "set": "S062",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped on shin; feet bottom left",
+   "note": ""
+  },
+  {
+   "set": "S062",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "hands clasped on shin at centre; one foot visible at right",
+   "note": "second foot hidden behind legs; overlap of limbs is hard to trace, not flagged"
+  },
+  {
+   "set": "S062",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms hands clasped on shins; feet at bottom right",
+   "note": ""
+  },
+  {
+   "set": "S063",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands under chin; legs up, feet top",
+   "note": ""
+  },
+  {
+   "set": "S063",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 1,
+   "feet": 1,
+   "trace": "both hands at jaw; one foot visible at upper left",
+   "note": "only one leg/foot traceable, second leg hidden behind foreshortened thigh"
+  },
+  {
+   "set": "S063",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands under chin at left; one leg bent up foot top, other foot bottom right",
+   "note": ""
+  },
+  {
+   "set": "S063",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands under chin; one leg up foot upper left, other foot left",
+   "note": ""
+  },
+  {
+   "set": "S063",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands under chin; one leg up foot top, other leg foot bottom right",
+   "note": ""
+  },
+  {
+   "set": "S064",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand left, R hand right behind raised leg; feet bottom and right",
+   "note": ""
+  },
+  {
+   "set": "S064",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand left, R hand on hip; one foot low, other foot raised right",
+   "note": ""
+  },
+  {
+   "set": "S064",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand left, R hand on hip; feet low left and right",
+   "note": ""
+  },
+  {
+   "set": "S064",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm visible hand at lower right; one knee up foot top right, other foot right",
+   "note": "second arm hidden"
+  },
+  {
+   "set": "S064",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand left, R hand right; one foot far left, other foot bottom right",
+   "note": ""
+  },
+  {
+   "set": "S065",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L arm propped on floor lower left hand at 230,625, R hand at belly; feet at right",
+   "note": ""
+  },
+  {
+   "set": "S065",
+   "angle": "below",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R arm propped hand bottom; second arm not traceable",
+   "note": "shoulder ball at neck with no arm attached"
+  },
+  {
+   "set": "S066",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor bottom both sides; feet at lower sides",
+   "note": ""
+  },
+  {
+   "set": "S066",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands bottom both sides; feet lower sides",
+   "note": ""
+  },
+  {
+   "set": "S066",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor left; feet at right",
+   "note": ""
+  },
+  {
+   "set": "S066",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands left on floor (overlapping); feet right bottom",
+   "note": ""
+  },
+  {
+   "set": "S066",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands lower left and bottom; feet upper right",
+   "note": ""
+  },
+  {
+   "set": "S067",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands grip thighs; feet top left",
+   "note": ""
+  },
+  {
+   "set": "S067",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands at thighs; feet top",
+   "note": ""
+  },
+  {
+   "set": "S067",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands holding thighs; feet top right",
+   "note": ""
+  },
+  {
+   "set": "S067",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand grips shin, other hidden; feet top left",
+   "note": "second hand partly hidden"
+  },
+  {
+   "set": "S067",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands hold thighs; feet top",
+   "note": ""
+  },
+  {
+   "set": "S068",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm on floor bottom left ending bare cylinder, second arm mostly hidden; feet top",
+   "note": "no hands visible"
+  },
+  {
+   "set": "S068",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand at lower left, R hand at right; feet top",
+   "note": ""
+  },
+  {
+   "set": "S069",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor at bottom; feet left and right",
+   "note": ""
+  },
+  {
+   "set": "S069",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands at bottom; feet left and right",
+   "note": ""
+  },
+  {
+   "set": "S069",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand down left, R hand at bottom; feet top right",
+   "note": ""
+  },
+  {
+   "set": "S069",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm visible hand right; second arm hidden",
+   "note": "second arm hidden behind body"
+  },
+  {
+   "set": "S069",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 3,
+   "feet": 3,
+   "trace": "hands at both sides; feet top: two toes at top plus a third foot at right",
+   "note": ""
+  },
+  {
+   "set": "S070",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands together between knees; feet bottom",
+   "note": ""
+  },
+  {
+   "set": "S070",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands between knees; feet bottom",
+   "note": ""
+  },
+  {
+   "set": "S070",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands down at right near foot; feet bottom",
+   "note": ""
+  },
+  {
+   "set": "S070",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand over knee; second arm partly hidden behind torso",
+   "note": "far arm partly hidden"
+  },
+  {
+   "set": "S070",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands hanging between knees; feet bottom",
+   "note": ""
+  },
+  {
+   "set": "S071",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor; feet bottom",
+   "note": ""
+  },
+  {
+   "set": "S071",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands on floor bottom; feet bottom",
+   "note": ""
+  }
+ ],
+ "flags": [
+  {
+   "set": "S059",
+   "angle": "below",
+   "reason": "both arms end in bare wrist cylinders with no visible hand (L arm at lower left clearly open-ended)"
+  },
+  {
+   "set": "S059",
+   "angle": "above",
+   "reason": "three arms: two leave the same (upper right) shoulder, one up-left to the hand at top-left and one out right, plus the hanging arm on the left"
+  },
+  {
+   "set": "S063",
+   "angle": "front",
+   "reason": "only one leg and one foot (raised shin, top left) can be traced; second leg is not visible, may be missing"
+  },
+  {
+   "set": "S065",
+   "angle": "below",
+   "reason": "a second shoulder ball at the neck has no arm; only one arm (propping on the floor, lower right) can be traced"
+  },
+  {
+   "set": "S068",
+   "angle": "diag",
+   "reason": "no hand drawn on either arm (forearm ends in bare cylinder at lower centre-left; other arm hidden by head); person should check"
+  },
+  {
+   "set": "S069",
+   "angle": "above",
+   "reason": "extra lower leg and foot: the right knee has two shins (one to the toes at top, one to a foot at right of the thigh), giving three feet"
+  }
+ ]
+}

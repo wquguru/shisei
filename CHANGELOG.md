@@ -19,6 +19,9 @@ the catalog schema.
   "background". S006 diag / side / below (wall drawn), S068 front / side / below (ruled line), U032 below (table
   edge), D048 side (leg cut by the frame). The rule now only forgives line-level fails that name nothing but a floor
   line.
+- 41 views with extra, missing or malformed limbs, hands drawn as stumps, or feet cut by the frame, found by a new
+  limb-count check (`docs/qc/limbs_prompt.md`, `review_sheets.py --mode limbs`) and confirmed by a person. S039
+  (every view drew stumps for hands) is no longer shown.
 
 ## [0.2.0] - 2026-10-29
 

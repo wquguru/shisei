@@ -1,0 +1,748 @@
+{
+ "reviewed": [
+  "D001__below.jpg",
+  "D001__front-diag.jpg",
+  "D001__side-above.jpg",
+  "D002__front-diag.jpg",
+  "D002__side-above.jpg",
+  "D003__above-below.jpg",
+  "D003__front-side.jpg",
+  "D004__front-diag.jpg",
+  "D004__side-above.jpg",
+  "D005__below.jpg",
+  "D005__front-diag.jpg",
+  "D005__side-above.jpg",
+  "D006__front-diag.jpg",
+  "D006__side-below.jpg",
+  "D007__below.jpg",
+  "D007__front-side.jpg",
+  "D008__below.jpg",
+  "D008__front-diag.jpg",
+  "D008__side-above.jpg",
+  "D009__front-diag.jpg",
+  "D009__side.jpg",
+  "D010__below.jpg",
+  "D010__diag-above.jpg",
+  "D011__above-below.jpg",
+  "D011__diag-side.jpg",
+  "D012__below.jpg",
+  "D012__front-diag.jpg",
+  "D012__side-above.jpg",
+  "D013__below.jpg",
+  "D013__front-diag.jpg",
+  "D013__side-above.jpg",
+  "D015__below.jpg",
+  "D015__front-diag.jpg",
+  "D015__side-above.jpg",
+  "D017__below.jpg",
+  "D017__front-diag.jpg",
+  "D017__side-above.jpg",
+  "D019__below.jpg",
+  "D019__front-diag.jpg",
+  "D020__below.jpg"
+ ],
+ "panels": [
+  {
+   "set": "D001",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D001",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D001",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D001",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D001",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D002",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D002",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D002",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D002",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D003",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "woman's far arm not visible (hidden under torso/back); near arm extended"
+  },
+  {
+   "set": "D003",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "woman's far arm not visible (hidden under torso); near arm extended"
+  },
+  {
+   "set": "D003",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D003",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "man's hands: one hangs, one grips ankle"
+  },
+  {
+   "set": "D004",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 6,
+   "feet": 6,
+   "trace": "woman has two legs straight up AND two more legs bent over the man's shoulders with feet on his shoulders/chest; man has two legs kneeling",
+   "note": ""
+  },
+  {
+   "set": "D004",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 6,
+   "feet": 6,
+   "trace": "woman has two legs straight up AND two more legs bent over the man's shoulders with feet on his shoulders/chest; man has two legs kneeling",
+   "note": ""
+  },
+  {
+   "set": "D004",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "woman's legs both vertical and overlapping; no draped legs shown here, unlike the other views"
+  },
+  {
+   "set": "D004",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 6,
+   "feet": 6,
+   "trace": "woman has two legs straight up AND two more legs bent over the man's shoulders with feet on his shoulders/chest; man has two legs kneeling",
+   "note": ""
+  },
+  {
+   "set": "D005",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "man's far hand and woman's far leg partly hidden by overlap; woman's two raised hands traced to her two shoulders"
+  },
+  {
+   "set": "D005",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D005",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D005",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D005",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D006",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D006",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D006",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D006",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "man's legs largely hidden behind woman; one man leg foreshortened to lower left"
+  },
+  {
+   "set": "D007",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "man's legs seen behind woman's legs"
+  },
+  {
+   "set": "D007",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D007",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D008",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D008",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "hand cluster overlaps; four feet confirmed at lower left and right"
+  },
+  {
+   "set": "D008",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "hand cluster overlaps; four feet confirmed"
+  },
+  {
+   "set": "D008",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D008",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D009",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D009",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D009",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D010",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D010",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D010",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D011",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "far arms partly hidden under torsos"
+  },
+  {
+   "set": "D011",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D011",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "two figures overlap heavily; only two hands clearly visible, others hidden under bodies"
+  },
+  {
+   "set": "D011",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "far arms and one leg each hidden by overlap"
+  },
+  {
+   "set": "D012",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D012",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D012",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D012",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D012",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "small rounded shape with ring beside the man's left forearm/leg (left of picture) could be a stray hand or wrist; flagged for a person"
+  },
+  {
+   "set": "D013",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D013",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D013",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "man's far leg partly hidden"
+  },
+  {
+   "set": "D013",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D013",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D015",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D015",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D015",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D015",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D015",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D017",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D017",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "man's legs hidden behind woman, knees up; feet cropped by overlap"
+  },
+  {
+   "set": "D017",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "man's far leg hidden behind woman"
+  },
+  {
+   "set": "D017",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "man's far arm hidden under torso"
+  },
+  {
+   "set": "D017",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  },
+  {
+   "set": "D019",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "woman's second leg bent with foot behind man's head; man's far arm hidden"
+  },
+  {
+   "set": "D019",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "woman's lower leg bent behind man's neck with foot hidden; man's far arm hidden behind body"
+  },
+  {
+   "set": "D019",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": "woman's second leg is bent with foot behind man's head (left of head); man's far arm hidden"
+  },
+  {
+   "set": "D020",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "man and woman: each arm and leg traced to its shoulder/hip; hands and feet resolved to one of the two bodies",
+   "note": ""
+  }
+ ],
+ "flags": [
+  {
+   "set": "D004",
+   "angle": "front",
+   "reason": "woman drawn with four legs: two vertical legs plus two legs draped over the man's shoulders (6 legs total in the pair)"
+  },
+  {
+   "set": "D004",
+   "angle": "diag",
+   "reason": "woman drawn with four legs: two vertical legs plus two legs draped over the man's shoulders (6 legs total in the pair)"
+  },
+  {
+   "set": "D004",
+   "angle": "above",
+   "reason": "woman has at least three legs: two vertical plus a bent leg draped over the man's shoulder (a fourth likely overlapped)"
+  },
+  {
+   "set": "D012",
+   "angle": "above",
+   "reason": "possible stray hand/wrist beside man's left leg, low confidence (may be man's own hand behind thigh)"
+  }
+ ]
+}

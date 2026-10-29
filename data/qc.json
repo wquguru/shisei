@@ -1491,13 +1491,15 @@
    },
    "below": {
     "file": "std_P050_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "the cheek-on-hand arm is missing; foot cut by the frame (limb-count check, confirmed by a person)"
    }
   },
   "P051": {
    "front": {
     "file": "std_P051_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "foot cut by the frame edge (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "std_P051_diag.webp",
@@ -1983,7 +1985,8 @@
    },
    "diag": {
     "file": "std_P072_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "side": {
     "file": "std_P072_side.webp",
@@ -2019,7 +2022,8 @@
    },
    "below": {
     "file": "std_P073_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    }
   },
   "P074": {
@@ -2407,7 +2411,8 @@
   "S016": {
    "front": {
     "file": "sexy_S016_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "one arm missing in the front view (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "sexy_S016_diag.webp",
@@ -2586,7 +2591,8 @@
    },
    "diag": {
     "file": "sexy_S024_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "three legs (limb-count check, confirmed by a person)"
    },
    "side": {
     "file": "sexy_S024_side.webp",
@@ -2676,7 +2682,8 @@
    },
    "side": {
     "file": "sexy_S028_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "foot cut by the frame edge (limb-count check, confirmed by a person)"
    },
    "above": {
     "file": "sexy_S028_above.webp",
@@ -2918,23 +2925,28 @@
   "S039": {
    "front": {
     "file": "sexy_S039_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "sexy_S039_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "side": {
     "file": "sexy_S039_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "above": {
     "file": "sexy_S039_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "below": {
     "file": "sexy_S039_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    }
   },
   "S040": {
@@ -2952,7 +2964,8 @@
    },
    "above": {
     "file": "sexy_S040_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "below": {
     "file": "sexy_S040_below.webp",
@@ -2962,7 +2975,8 @@
   "S041": {
    "front": {
     "file": "sexy_S041_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "stray foot-like shape beside the pelvis (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "sexy_S041_diag.webp",
@@ -3005,7 +3019,8 @@
   "S043": {
    "front": {
     "file": "sexy_S043_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "sexy_S043_diag.webp",
@@ -3050,7 +3065,8 @@
   "S045": {
    "front": {
     "file": "sexy_S045_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "one arm missing in the front view (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "sexy_S045_diag.webp",
@@ -3137,7 +3153,8 @@
   "S049": {
    "front": {
     "file": "sexy_S049_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "sexy_S049_diag.webp",
@@ -3153,13 +3170,15 @@
    },
    "below": {
     "file": "sexy_S049_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    }
   },
   "S050": {
    "front": {
     "file": "sexy_S050_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "sexy_S050_diag.webp",
@@ -3167,7 +3186,8 @@
    },
    "side": {
     "file": "sexy_S050_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    },
    "above": {
     "file": "sexy_S050_above.webp",
@@ -3198,7 +3218,8 @@
    },
    "below": {
     "file": "sexy_S051_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    }
   },
   "S052": {
@@ -3222,7 +3243,8 @@
    },
    "below": {
     "file": "sexy_S052_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "three arms, two from the left shoulder (limb-count check, confirmed by a person)"
    }
   },
   "S053": {
@@ -3381,11 +3403,13 @@
    },
    "above": {
     "file": "sexy_S059_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "three arms (limb-count check, confirmed by a person)"
    },
    "below": {
     "file": "sexy_S059_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
    }
   },
   "S060": {
@@ -3607,7 +3631,8 @@
    },
    "above": {
     "file": "sexy_S069_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "three feet, two shins from one knee (limb-count check, confirmed by a person)"
    },
    "below": {
     "file": "sexy_S069_below.webp",
@@ -3659,7 +3684,8 @@
   "S072": {
    "front": {
     "file": "sexy_S072_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "two limbs end in one hand (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "sexy_S072_diag.webp",
@@ -3753,7 +3779,8 @@
    },
    "diag": {
     "file": "sexy_S076_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "legs end in stumps, no feet drawn (limb-count check, confirmed by a person)"
    },
    "side": {
     "file": "sexy_S076_side.webp",
@@ -3819,7 +3846,8 @@
    },
    "diag": {
     "file": "sexy_S079_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "no arms drawn (limb-count check, confirmed by a person)"
    },
    "side": {
     "file": "sexy_S079_side.webp",
@@ -3827,7 +3855,8 @@
    },
    "above": {
     "file": "sexy_S079_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "stray third hand under the chin (limb-count check, confirmed by a person)"
    },
    "below": {
     "file": "sexy_S079_below.webp",
@@ -4093,7 +4122,8 @@
    },
    "side": {
     "file": "upper_U011_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "near shoulder has no arm (limb-count check, confirmed by a person)"
    },
    "above": {
     "file": "upper_U011_above.webp",
@@ -4160,7 +4190,8 @@
    },
    "side": {
     "file": "upper_U014_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "near shoulder has no arm (limb-count check, confirmed by a person)"
    },
    "above": {
     "file": "upper_U014_above.webp",
@@ -4168,7 +4199,8 @@
    },
    "below": {
     "file": "upper_U014_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "one shoulder has no arm (limb-count check, confirmed by a person)"
    }
   },
   "U015": {
@@ -4594,7 +4626,8 @@
    },
    "below": {
     "file": "upper_U033_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "each arm has an extra segment (limb-count check, confirmed by a person)"
    }
   },
   "U034": {
@@ -4867,7 +4900,8 @@
    },
    "diag": {
     "file": "upper_U046_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "far arm breaks off, not joined to a shoulder (limb-count check, confirmed by a person)"
    },
    "side": {
     "file": "upper_U046_side.webp",
@@ -4875,7 +4909,8 @@
    },
    "above": {
     "file": "upper_U046_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "arms joined wrongly (limb-count check, confirmed by a person)"
    },
    "below": {
     "file": "upper_U046_below.webp",
@@ -5687,11 +5722,13 @@
   "D004": {
    "front": {
     "file": "duo_D004_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman drawn with four legs (limb-count check, confirmed by a person)"
    },
    "diag": {
     "file": "duo_D004_diag.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman drawn with four legs (limb-count check, confirmed by a person)"
    },
    "side": {
     "file": "duo_D004_side.webp",
@@ -5699,7 +5736,8 @@
    },
    "above": {
     "file": "duo_D004_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman drawn with extra legs over the man's shoulders (limb-count check, confirmed by a person)"
    },
    "below": {
     "status": "missing"
@@ -6240,7 +6278,8 @@
    },
    "side": {
     "file": "duo_D028_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "five feet for two figures (limb-count check, confirmed by a person)"
    },
    "above": {
     "file": "duo_D028_above.webp",
@@ -6701,7 +6740,8 @@
    },
    "above": {
     "file": "duo_D048_above.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "woman appears to have three arms (limb-count check, confirmed by a person)"
    },
    "below": {
     "file": "duo_D048_below.webp",
@@ -6774,7 +6814,8 @@
    },
    "below": {
     "file": "duo_D051_below.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "legs cannot be traced to one body (limb-count check, confirmed by a person)"
    }
   },
   "D052": {

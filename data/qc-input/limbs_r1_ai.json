@@ -1,0 +1,813 @@
+{
+ "reviewed": [
+  "S038__front-diag.jpg",
+  "S038__side-above.jpg",
+  "S039__below.jpg",
+  "S039__front-diag.jpg",
+  "S039__side-above.jpg",
+  "S040__below.jpg",
+  "S040__front-diag.jpg",
+  "S040__side-above.jpg",
+  "S041__below.jpg",
+  "S041__front-diag.jpg",
+  "S041__side-above.jpg",
+  "S042__front-diag.jpg",
+  "S042__side-above.jpg",
+  "S043__front-diag.jpg",
+  "S043__side-below.jpg",
+  "S044__below.jpg",
+  "S044__front-diag.jpg",
+  "S044__side-above.jpg",
+  "S045__front-diag.jpg",
+  "S045__side-above.jpg",
+  "S046__front-above.jpg",
+  "S047__below.jpg",
+  "S047__front-diag.jpg",
+  "S047__side-above.jpg",
+  "S048__above-below.jpg",
+  "S048__front-diag.jpg",
+  "S049__below.jpg",
+  "S049__front-diag.jpg",
+  "S049__side-above.jpg",
+  "S050__below.jpg",
+  "S050__front-diag.jpg",
+  "S050__side-above.jpg",
+  "S051__above-below.jpg",
+  "S051__diag-side.jpg",
+  "S052__below.jpg",
+  "S052__diag-above.jpg",
+  "S053__below.jpg",
+  "S053__front-diag.jpg",
+  "S053__side-above.jpg",
+  "S054__above-below.jpg"
+ ],
+ "panels": [
+  {
+   "set": "S038",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands grip heels/feet; both knees on floor",
+   "note": ""
+  },
+  {
+   "set": "S038",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands grip heels/feet; both knees on floor",
+   "note": ""
+  },
+  {
+   "set": "S038",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands grip heels/feet; both knees on floor",
+   "note": ""
+  },
+  {
+   "set": "S038",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands grip heels/feet; both knees on floor",
+   "note": ""
+  },
+  {
+   "set": "S039",
+   "angle": "below",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 1,
+   "trace": "R arm raised, L arm hangs; knees on floor",
+   "note": "hands are bare wrist stubs in this mannequin style; one foot hidden"
+  },
+  {
+   "set": "S039",
+   "angle": "front",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm raised, other arm down/back; kneeling legs",
+   "note": "hands are bare wrist stubs in this mannequin style"
+  },
+  {
+   "set": "S039",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm raised, other arm down/back; kneeling legs",
+   "note": "hands are bare wrist stubs in this mannequin style"
+  },
+  {
+   "set": "S039",
+   "angle": "side",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm raised, other arm down/back; kneeling legs",
+   "note": "hands are bare wrist stubs in this mannequin style"
+  },
+  {
+   "set": "S039",
+   "angle": "above",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm raised, other arm down/back; kneeling legs",
+   "note": "hands are bare wrist stubs in this mannequin style"
+  },
+  {
+   "set": "S040",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, knees down, feet at upper right",
+   "note": ""
+  },
+  {
+   "set": "S040",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands splayed on floor, legs hidden behind torso",
+   "note": "legs/feet hidden by torso in this foreshortened view"
+  },
+  {
+   "set": "S040",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, knees down, feet behind",
+   "note": ""
+  },
+  {
+   "set": "S040",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near arm and far arm on floor in a line, knees down, feet behind",
+   "note": "far arm largely overlaps near arm"
+  },
+  {
+   "set": "S040",
+   "angle": "above",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms reach down-left/down with no hands drawn; one foot visible behind right, other leg largely hidden",
+   "note": "arms end in bare stubs with no hand; hand-bearing in other views"
+  },
+  {
+   "set": "S041",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, raised leg foot at top left, kneeling leg foot at right",
+   "note": ""
+  },
+  {
+   "set": "S041",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor; raised leg foot at top; kneeling leg with foot behind at lower right",
+   "note": "extra rounded lump with toe-like dots at left of pelvis (about 240,635) not clearly part of either leg"
+  },
+  {
+   "set": "S041",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, one leg raised, other kneeling",
+   "note": ""
+  },
+  {
+   "set": "S041",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, one leg raised, other kneeling",
+   "note": ""
+  },
+  {
+   "set": "S041",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, one leg raised, other kneeling",
+   "note": ""
+  },
+  {
+   "set": "S042",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor in front, wide knees, feet small behind knees",
+   "note": "feet partly hidden under thighs"
+  },
+  {
+   "set": "S042",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, wide kneeling legs, feet behind",
+   "note": ""
+  },
+  {
+   "set": "S042",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, wide kneeling legs, feet behind",
+   "note": ""
+  },
+  {
+   "set": "S042",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, wide kneeling legs, feet behind",
+   "note": ""
+  },
+  {
+   "set": "S043",
+   "angle": "front",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "arms hang at sides ending in wrist stubs; kneeling, feet behind",
+   "note": "hands are bare wrist stubs in this mannequin style in this view"
+  },
+  {
+   "set": "S043",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms down, hands near thighs; kneeling",
+   "note": ""
+  },
+  {
+   "set": "S043",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm hanging visible, other hidden behind torso; legs overlap",
+   "note": "far arm hidden"
+  },
+  {
+   "set": "S043",
+   "angle": "below",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms hang, forearm stubs; kneeling, both feet visible",
+   "note": "hands are bare wrist stubs in this mannequin style"
+  },
+  {
+   "set": "S044",
+   "angle": "below",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 1,
+   "trace": "one arm to hand on floor at lower right; kneeling, knees at lower left",
+   "note": "second arm not visible (probably hidden behind torso); one foot visible"
+  },
+  {
+   "set": "S044",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand on floor, other hand on thigh/hip; kneeling",
+   "note": ""
+  },
+  {
+   "set": "S044",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand on floor, other hand on thigh/hip; kneeling",
+   "note": ""
+  },
+  {
+   "set": "S044",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand on floor, other hand on thigh/hip; kneeling",
+   "note": "far arm hidden behind near arm"
+  },
+  {
+   "set": "S044",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand on floor, other hand on thigh/hip; kneeling",
+   "note": ""
+  },
+  {
+   "set": "S045",
+   "angle": "front",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R arm hangs to hand on heel; left arm not visible",
+   "note": "left shoulder joint at upper left but no arm traceable from it"
+  },
+  {
+   "set": "S045",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands reach heels; kneeling",
+   "note": ""
+  },
+  {
+   "set": "S045",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands reach heels; kneeling",
+   "note": ""
+  },
+  {
+   "set": "S045",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands reach heels; kneeling",
+   "note": ""
+  },
+  {
+   "set": "S046",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one forearm on chest, other arm along floor; one knee bent up, one leg straight",
+   "note": ""
+  },
+  {
+   "set": "S046",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand on hip, other hand by hip at right; one knee bent, one leg extended",
+   "note": ""
+  },
+  {
+   "set": "S047",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped under chin, arms spread; legs crossed in air, both feet up",
+   "note": ""
+  },
+  {
+   "set": "S047",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped under chin; legs crossed, both feet up",
+   "note": ""
+  },
+  {
+   "set": "S047",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped under chin; legs crossed up",
+   "note": ""
+  },
+  {
+   "set": "S047",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped at chin, far arm overlapped; legs bent up, two feet",
+   "note": ""
+  },
+  {
+   "set": "S047",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped under head; legs crossed up",
+   "note": ""
+  },
+  {
+   "set": "S048",
+   "angle": "above",
+   "arms": 2,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand at left, R arm ends under torso at elbow; legs and both feet at bottom",
+   "note": "right forearm/hand hidden under body"
+  },
+  {
+   "set": "S048",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand on floor at lower centre, other hand on floor right; legs folded left, small feet",
+   "note": ""
+  },
+  {
+   "set": "S048",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor; legs folded to right, second leg partly hidden behind torso",
+   "note": "left hip joint has no visible leg of its own; assumed hidden behind torso"
+  },
+  {
+   "set": "S048",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor, legs extended right with two feet",
+   "note": ""
+  },
+  {
+   "set": "S049",
+   "angle": "below",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms on floor behind head ending in bare stubs; one leg raised, one leg bent with foot on floor",
+   "note": "hands are bare wrist stubs in this mannequin style"
+  },
+  {
+   "set": "S049",
+   "angle": "front",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms along floor as stubs; one leg raised, one bent",
+   "note": "hands are bare wrist stubs in this mannequin style in this view"
+  },
+  {
+   "set": "S049",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor; one leg raised, one bent with foot on floor",
+   "note": ""
+  },
+  {
+   "set": "S049",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both forearms/hands on floor; one leg raised, one bent",
+   "note": ""
+  },
+  {
+   "set": "S049",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms out with hands; one leg raised, other bent with foot at right",
+   "note": ""
+  },
+  {
+   "set": "S050",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms out with hands; both knees up, both feet",
+   "note": ""
+  },
+  {
+   "set": "S050",
+   "angle": "front",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms stretched with bare stub ends; both legs bent to the right, both feet",
+   "note": "hands are bare wrist stubs in this mannequin style"
+  },
+  {
+   "set": "S050",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms out with hands; both legs bent, two feet at right",
+   "note": ""
+  },
+  {
+   "set": "S050",
+   "angle": "side",
+   "arms": 1,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near arm along floor ends in stub; far arm hidden; both knees up, two feet",
+   "note": "far arm hidden"
+  },
+  {
+   "set": "S050",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms out with hands; legs bent, two feet at bottom right",
+   "note": ""
+  },
+  {
+   "set": "S051",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both forearms with hands in front; legs extended, two feet",
+   "note": ""
+  },
+  {
+   "set": "S051",
+   "angle": "below",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms ending in rounded stubs; two legs raised, two feet",
+   "note": "hands are bare wrist stubs in this mannequin style"
+  },
+  {
+   "set": "S051",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both hands on floor in front; two legs back, two feet",
+   "note": ""
+  },
+  {
+   "set": "S051",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "two forearms/hands on floor at left; two legs, two feet at right",
+   "note": "one upper arm hidden"
+  },
+  {
+   "set": "S052",
+   "angle": "below",
+   "arms": 3,
+   "hands": 3,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hanging arm A hand at lower left; arm B raised overhead from the same left shoulder; arm C bent at upper right",
+   "note": "three arms: two separate arms leave the same left shoulder joint (hanging arm and overhead arm), plus a third bent arm at upper right"
+  },
+  {
+   "set": "S052",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "overhead bent arm with hand at left; other arm along floor with hand",
+   "note": ""
+  },
+  {
+   "set": "S052",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm overhead, other hand on hip; two legs, two feet",
+   "note": ""
+  },
+  {
+   "set": "S053",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 1,
+   "feet": 1,
+   "trace": "hand on floor at left, other arm bent behind to hip; one leg visible, foot at lower right",
+   "note": "second leg is not visible; possibly hidden behind the first, or missing; a lone joint ring at left of pelvis"
+  },
+  {
+   "set": "S053",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "one hand on floor/lap, other forearm across waist; one leg bent up, one straight",
+   "note": "bent leg's foot not drawn (ankle ends at thigh), probably hidden"
+  },
+  {
+   "set": "S053",
+   "angle": "diag",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 1,
+   "trace": "hand on floor, other arm hidden behind torso; one leg bent, one straight",
+   "note": "bent leg's foot not drawn, probably hidden; far arm hidden"
+  },
+  {
+   "set": "S053",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one arm on floor with hand; far arm hidden; legs bent and straight, two feet",
+   "note": "far arm hidden"
+  },
+  {
+   "set": "S053",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "one hand on floor, other hand on knee; legs bent and extended, two feet",
+   "note": ""
+  },
+  {
+   "set": "S054",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms back to hands clasped under chin; folded legs with feet at top",
+   "note": ""
+  },
+  {
+   "set": "S054",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "hands clasped under head, arms bent; legs kneeling, feet at right",
+   "note": "second leg largely hidden behind first"
+  }
+ ],
+ "flags": [
+  {
+   "set": "S040",
+   "angle": "above",
+   "reason": "Both arms end in bare stubs with no hands (other views of S040 draw hands)."
+  },
+  {
+   "set": "S041",
+   "angle": "front",
+   "reason": "Unexplained rounded lump with toe-like dots at left of pelvis (about 240,635): possible extra foot or leg part. Low confidence."
+  },
+  {
+   "set": "S043",
+   "angle": "front",
+   "reason": "Arms end at wrist circles with no hands; diag view draws hands."
+  },
+  {
+   "set": "S045",
+   "angle": "front",
+   "reason": "Only the right arm is drawn; the left shoulder has no arm and no second hand reaches a heel."
+  },
+  {
+   "set": "S049",
+   "angle": "front",
+   "reason": "Both arms end in bare stubs with no hands; diag/side/above draw hands. Low severity."
+  },
+  {
+   "set": "S049",
+   "angle": "below",
+   "reason": "Both arms end in bare stubs with no hands. Low severity."
+  },
+  {
+   "set": "S050",
+   "angle": "front",
+   "reason": "Both arms end in bare stubs with no hands. Low severity."
+  },
+  {
+   "set": "S050",
+   "angle": "side",
+   "reason": "Visible arm ends in a stub with no hand. Low severity."
+  },
+  {
+   "set": "S051",
+   "angle": "below",
+   "reason": "Both arms end in rounded stubs with no hands. Low severity."
+  },
+  {
+   "set": "S052",
+   "angle": "below",
+   "reason": "Three arms: arm A (hangs, hand at lower left) and arm B (raised overhead, hand at top left) both leave the same left shoulder joint; arm C (bent, hand at top right) leaves the right shoulder. One arm too many."
+  },
+  {
+   "set": "S053",
+   "angle": "below",
+   "reason": "Only one leg is visible (hip at centre, knee, foot at lower right); the second leg is missing or hidden behind the first. A stray joint ring sits left of the pelvis. Unsure."
+  }
+ ]
+}

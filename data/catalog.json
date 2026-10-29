@@ -1488,10 +1488,12 @@
    "diag": "std_P050_diag.webp",
    "side": "std_P050_side.webp",
    "above": "std_P050_above.webp",
-   "below": "std_P050_below.webp"
+   "below": null
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "below": "structure"
+  }
  },
  {
   "id": "P051",
@@ -1509,7 +1511,7 @@
   "name_kr": "엎드려 다리 들기",
   "desc_en": "lying face down on her stomach on the floor, both legs bent upward behind her with feet kicked up in the air, chin resting on her hands",
   "views": {
-   "front": "std_P051_front.webp",
+   "front": null,
    "diag": null,
    "side": null,
    "above": "std_P051_above.webp",
@@ -1517,6 +1519,7 @@
   },
   "photos": {},
   "gaps": {
+   "front": "structure",
    "diag": "structure",
    "side": "structure"
   }
@@ -2069,7 +2072,7 @@
   "desc_en": "standing with both arms raised up while arching her whole body backward, head tilted back",
   "views": {
    "front": null,
-   "diag": "std_P072_diag.webp",
+   "diag": null,
    "side": "std_P072_side.webp",
    "above": null,
    "below": "std_P072_below.webp"
@@ -2077,6 +2080,7 @@
   "photos": {},
   "gaps": {
    "front": "line",
+   "diag": "structure",
    "above": "line"
   }
  },
@@ -2100,11 +2104,12 @@
    "diag": "std_P073_diag.webp",
    "side": "std_P073_side.webp",
    "above": "std_P073_above.webp",
-   "below": "std_P073_below.webp"
+   "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "line"
+   "front": "line",
+   "below": "structure"
   }
  },
  {
@@ -2566,14 +2571,16 @@
   "name_kr": "옆으로 앉아 한 손 짚고 몸 비틀기",
   "desc_en": "",
   "views": {
-   "front": "sexy_S016_front.webp",
+   "front": null,
    "diag": "sexy_S016_diag.webp",
    "side": "sexy_S016_side.webp",
    "above": "sexy_S016_above.webp",
    "below": "sexy_S016_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "front": "structure"
+  }
  },
  {
   "id": "S017",
@@ -2774,13 +2781,14 @@
   "desc_en": "",
   "views": {
    "front": "sexy_S024_front.webp",
-   "diag": "sexy_S024_diag.webp",
+   "diag": null,
    "side": "sexy_S024_side.webp",
    "above": "sexy_S024_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
+   "diag": "structure",
    "below": "missing"
   }
  },
@@ -2879,12 +2887,14 @@
   "views": {
    "front": "sexy_S028_front.webp",
    "diag": "sexy_S028_diag.webp",
-   "side": "sexy_S028_side.webp",
+   "side": null,
    "above": "sexy_S028_above.webp",
    "below": "sexy_S028_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "side": "structure"
+  }
  },
  {
   "id": "S029",
@@ -3173,14 +3183,20 @@
   "name_kr": "무릎 서기 허리 비틀어 한 팔 들기",
   "desc_en": "",
   "views": {
-   "front": "sexy_S039_front.webp",
-   "diag": "sexy_S039_diag.webp",
-   "side": "sexy_S039_side.webp",
-   "above": "sexy_S039_above.webp",
-   "below": "sexy_S039_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "S040",
@@ -3201,11 +3217,13 @@
    "front": "sexy_S040_front.webp",
    "diag": "sexy_S040_diag.webp",
    "side": "sexy_S040_side.webp",
-   "above": "sexy_S040_above.webp",
+   "above": null,
    "below": "sexy_S040_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "above": "structure"
+  }
  },
  {
   "id": "S041",
@@ -3223,14 +3241,16 @@
   "name_kr": "네발 엎드려 한 다리 뒤로 들기",
   "desc_en": "",
   "views": {
-   "front": "sexy_S041_front.webp",
+   "front": null,
    "diag": "sexy_S041_diag.webp",
    "side": "sexy_S041_side.webp",
    "above": "sexy_S041_above.webp",
    "below": "sexy_S041_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "front": "structure"
+  }
  },
  {
   "id": "S042",
@@ -3275,7 +3295,7 @@
   "name_kr": "무릎 서기 골반 앞으로",
   "desc_en": "",
   "views": {
-   "front": "sexy_S043_front.webp",
+   "front": null,
    "diag": "sexy_S043_diag.webp",
    "side": "sexy_S043_side.webp",
    "above": null,
@@ -3283,6 +3303,7 @@
   },
   "photos": {},
   "gaps": {
+   "front": "structure",
    "above": "structure"
   }
  },
@@ -3327,7 +3348,7 @@
   "name_kr": "무릎 서기 젖혀 한 손 발뒤꿈치로",
   "desc_en": "",
   "views": {
-   "front": "sexy_S045_front.webp",
+   "front": null,
    "diag": "sexy_S045_diag.webp",
    "side": "sexy_S045_side.webp",
    "above": "sexy_S045_above.webp",
@@ -3335,6 +3356,7 @@
   },
   "photos": {},
   "gaps": {
+   "front": "structure",
    "below": "missing"
   }
  },
@@ -3435,14 +3457,17 @@
   "name_kr": "누워 골반 들고 한 다리 들기",
   "desc_en": "",
   "views": {
-   "front": "sexy_S049_front.webp",
+   "front": null,
    "diag": "sexy_S049_diag.webp",
    "side": "sexy_S049_side.webp",
    "above": "sexy_S049_above.webp",
-   "below": "sexy_S049_below.webp"
+   "below": null
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "front": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "S050",
@@ -3460,14 +3485,17 @@
   "name_kr": "누워 양 무릎 모아 옆으로 넘기기",
   "desc_en": "",
   "views": {
-   "front": "sexy_S050_front.webp",
+   "front": null,
    "diag": "sexy_S050_diag.webp",
-   "side": "sexy_S050_side.webp",
+   "side": null,
    "above": "sexy_S050_above.webp",
    "below": "sexy_S050_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "front": "structure",
+   "side": "structure"
+  }
  },
  {
   "id": "S051",
@@ -3489,11 +3517,12 @@
    "diag": "sexy_S051_diag.webp",
    "side": "sexy_S051_side.webp",
    "above": "sexy_S051_above.webp",
-   "below": "sexy_S051_below.webp"
+   "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure"
+   "front": "structure",
+   "below": "structure"
   }
  },
  {
@@ -3516,12 +3545,13 @@
    "diag": "sexy_S052_diag.webp",
    "side": null,
    "above": "sexy_S052_above.webp",
-   "below": "sexy_S052_below.webp"
+   "below": null
   },
   "photos": {},
   "gaps": {
    "front": "line",
-   "side": "structure"
+   "side": "structure",
+   "below": "structure"
   }
  },
  {
@@ -3705,13 +3735,15 @@
    "front": null,
    "diag": null,
    "side": "sexy_S059_side.webp",
-   "above": "sexy_S059_above.webp",
-   "below": "sexy_S059_below.webp"
+   "above": null,
+   "below": null
   },
   "photos": {},
   "gaps": {
    "front": "structure",
-   "diag": "structure"
+   "diag": "structure",
+   "above": "structure",
+   "below": "structure"
   }
  },
  {
@@ -3969,11 +4001,13 @@
    "front": "sexy_S069_front.webp",
    "diag": "sexy_S069_diag.webp",
    "side": "sexy_S069_side.webp",
-   "above": "sexy_S069_above.webp",
+   "above": null,
    "below": "sexy_S069_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "above": "structure"
+  }
  },
  {
   "id": "S070",
@@ -4044,14 +4078,16 @@
   "name_kr": "브릿지(양손 양발)",
   "desc_en": "",
   "views": {
-   "front": "sexy_S072_front.webp",
+   "front": null,
    "diag": "sexy_S072_diag.webp",
    "side": "sexy_S072_side.webp",
    "above": "sexy_S072_above.webp",
    "below": "sexy_S072_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "front": "structure"
+  }
  },
  {
   "id": "S073",
@@ -4148,13 +4184,15 @@
   "desc_en": "",
   "views": {
    "front": "sexy_S076_front.webp",
-   "diag": "sexy_S076_diag.webp",
+   "diag": null,
    "side": "sexy_S076_side.webp",
    "above": "sexy_S076_above.webp",
    "below": "sexy_S076_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "diag": "structure"
+  }
  },
  {
   "id": "S077",
@@ -4226,13 +4264,16 @@
   "desc_en": "",
   "views": {
    "front": "sexy_S079_front.webp",
-   "diag": "sexy_S079_diag.webp",
+   "diag": null,
    "side": "sexy_S079_side.webp",
-   "above": "sexy_S079_above.webp",
+   "above": null,
    "below": "sexy_S079_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "diag": "structure",
+   "above": "structure"
+  }
  },
  {
   "id": "S080",
@@ -4543,12 +4584,13 @@
   "views": {
    "front": "upper_U011_front.webp",
    "diag": "upper_U011_diag.webp",
-   "side": "upper_U011_side.webp",
+   "side": null,
    "above": "upper_U011_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
+   "side": "structure",
    "below": "line"
   }
  },
@@ -4620,12 +4662,15 @@
   "views": {
    "front": "upper_U014_front.webp",
    "diag": "upper_U014_diag.webp",
-   "side": "upper_U014_side.webp",
+   "side": null,
    "above": "upper_U014_above.webp",
-   "below": "upper_U014_below.webp"
+   "below": null
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "side": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "U015",
@@ -5131,11 +5176,12 @@
    "diag": "upper_U033_diag.webp",
    "side": "upper_U033_side.webp",
    "above": "upper_U033_above.webp",
-   "below": "upper_U033_below.webp"
+   "below": null
   },
   "photos": {},
   "gaps": {
-   "front": "structure"
+   "front": "structure",
+   "below": "structure"
   }
  },
  {
@@ -5477,13 +5523,16 @@
   "desc_en": "",
   "views": {
    "front": "upper_U046_front.webp",
-   "diag": "upper_U046_diag.webp",
+   "diag": null,
    "side": "upper_U046_side.webp",
-   "above": "upper_U046_above.webp",
+   "above": null,
    "below": "upper_U046_below.webp"
   },
   "photos": {},
-  "gaps": {}
+  "gaps": {
+   "diag": "structure",
+   "above": "structure"
+  }
  },
  {
   "id": "U047",
@@ -6503,15 +6552,18 @@
   "name_kr": "다리 어깨에 얹고 덮기",
   "desc_en": "",
   "views": {
-   "front": "duo_D004_front.webp",
-   "diag": "duo_D004_diag.webp",
+   "front": null,
+   "diag": null,
    "side": "duo_D004_side.webp",
-   "above": "duo_D004_above.webp",
+   "above": null,
    "below": null
   },
   "photos": [],
   "bodies": "MF",
   "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "above": "structure",
    "below": "missing"
   }
  },
@@ -7182,7 +7234,7 @@
   "views": {
    "front": "duo_D028_front.webp",
    "diag": null,
-   "side": "duo_D028_side.webp",
+   "side": null,
    "above": null,
    "below": "duo_D028_below.webp"
   },
@@ -7190,6 +7242,7 @@
   "bodies": "FF",
   "gaps": {
    "diag": "structure",
+   "side": "structure",
    "above": "structure"
   }
  },
@@ -7738,7 +7791,7 @@
    "front": null,
    "diag": null,
    "side": null,
-   "above": "duo_D048_above.webp",
+   "above": null,
    "below": "duo_D048_below.webp"
   },
   "photos": [],
@@ -7746,7 +7799,8 @@
   "gaps": {
    "front": "structure",
    "diag": "structure",
-   "side": "line"
+   "side": "line",
+   "above": "structure"
   }
  },
  {
@@ -7831,12 +7885,13 @@
    "diag": "duo_D051_diag.webp",
    "side": "duo_D051_side.webp",
    "above": "duo_D051_above.webp",
-   "below": "duo_D051_below.webp"
+   "below": null
   },
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "front": "structure"
+   "front": "structure",
+   "below": "structure"
   }
  },
  {

@@ -25,6 +25,7 @@
 | 姿势名对不对 | [name_prompt.md](name_prompt.md) | `name` | `name_*.json` | `no` 整套不通过；以它为准处理「pose mismatch」 |
 | 同一套里重复的机位 | 本地脚本 `tools/line_dups.py` | — | `dups.json` | `qc_merge.py` 直接生效 |
 | 儿童比例专项（只看比例） | [proportion_prompt.md](proportion_prompt.md) | `proportion --passed` | `flags`（建议） | 人工逐张确认后写进 `fail_proportion.json` |
+| 肢体计数（多 / 少 / 接错的手脚） | [limbs_prompt.md](limbs_prompt.md) | `limbs --passed` | `limbs_*.json`（建议） | 人工逐张确认后写进 `fail_manual.json` |
 | 实拍 | [photo_prompt.md](photo_prompt.md) | `photo` | `photo_*.json` | `qc_merge.py` 直接生效（qc.json `photos`） |
 | 内容分级 | [rating_prompt.md](rating_prompt.md) | `rating --passed` | `rating_*.json`（建议） | `tools/rating_check.py` 列出分歧，人定，不自动改 |
 
@@ -78,6 +79,18 @@ P006 正面画了三条手臂（右肩同时伸出叉腰和撑地两条），逐
 理由里出现 wall / table / background / ruled / nipple / crop 等词照常不通过。修正后下架 8 格：S006 斜侧 / 侧面 / 仰视（画了墙），
 S068 正面 / 侧面 / 仰视（顶部横线），U032 仰视（桌沿线），D048 侧面（腿出框）。P024 的 4 条「没有抬腿」本质是姿势名不符，
 补了 `pose mismatch:` 前缀，仍由姿势名检查决定（partial，保留）。
+
+### 肢体计数专项（2026-10-29）
+新提示词 [limbs_prompt.md](limbs_prompt.md)：每张审图 2 格，要求从肩、髋逐条追到手脚再计数。先用 11 张审图（含 P006 正面）验证：
+抓到了 P006，其余 10 张无误报。然后 15 个 Sonnet 审全部已通过的 600 张审图（约 1,040 格），标出 49 格；另一个会话逐张看图，
+加上代理备注里提到的几格，共 60 格，用户目视确认后下架 41 格（写在 `fail_manual.json`，原始结果 `limbs_r1_*.json`）：
+- 多 / 少 / 接错肢体 18 格：D004 正面 / 斜侧 / 俯视，D028 侧面，S024 斜侧，S052 仰视，S059 俯视，S069 俯视，S016 正面，S045 正面，
+  S079 斜侧，U011 侧面，U014 侧面 / 仰视，U033 仰视，U046 斜侧 / 俯视，P050 仰视；
+- 手臂末端是断头、没画手（或脚）16 格：P072 斜侧，P073 仰视，S040 俯视，S043 正面，S049 正面 / 仰视，S050 正面 / 侧面，S051 仰视，
+  S059 仰视，S076 斜侧，以及 S039 全部 5 格（S039 因此整套不显示）；
+- 全身系列脚出框 2 格：S028 侧面，P051 正面；
+- 没把握、用户决定下架 5 格：S072 正面，S079 俯视，D048 俯视，D051 仰视，S041 正面。
+注意：多数代理没有逐格写计数，没问题的格子填了默认值，所以这一轮只保证「标出来的都核过」。下次跑要在批次里抽查 `trace` 是否逐格书写。
 
 ## 分级复核（2026-10-29）
 `rating_prompt.md` 逐套审了站上 256 套：0 个问题，74 套和按分类定的分级不一致。人定（用户）：只改把握大的，加上 P057、P071，共 15 套，

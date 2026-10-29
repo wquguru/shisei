@@ -1,0 +1,778 @@
+{
+ "reviewed": [
+  "P063__front-diag.jpg",
+  "P063__side-below.jpg",
+  "P064__below.jpg",
+  "P064__front-diag.jpg",
+  "P064__side-above.jpg",
+  "P065__above-below.jpg",
+  "P065__diag-side.jpg",
+  "P066__below.jpg",
+  "P066__front-diag.jpg",
+  "P066__side-above.jpg",
+  "P067__below.jpg",
+  "P067__front-diag.jpg",
+  "P067__side-above.jpg",
+  "P068__front-diag.jpg",
+  "P068__side-below.jpg",
+  "P069__below.jpg",
+  "P069__front-diag.jpg",
+  "P069__side-above.jpg",
+  "P070__side-below.jpg",
+  "P071__above-below.jpg",
+  "P071__front-diag.jpg",
+  "P072__below.jpg",
+  "P072__diag-side.jpg",
+  "P073__above-below.jpg",
+  "P073__diag-side.jpg",
+  "P074__front-diag.jpg",
+  "P074__side-above.jpg",
+  "P075__below.jpg",
+  "P075__front-diag.jpg",
+  "P075__side-above.jpg",
+  "S001__below.jpg",
+  "S001__front-diag.jpg",
+  "S001__side-above.jpg",
+  "S002__above.jpg",
+  "S002__diag-side.jpg",
+  "S003__below.jpg",
+  "S003__front-diag.jpg",
+  "S003__side-above.jpg",
+  "S004__front-diag.jpg",
+  "S004__side-below.jpg"
+ ],
+ "panels": [
+  {
+   "set": "P063",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P063",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P063",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P063",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P064",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P064",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P064",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P064",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P064",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P065",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P065",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P065",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P065",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P066",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P066",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P066",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P066",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P066",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P067",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P067",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P067",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P067",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P067",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P068",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P068",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P068",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P068",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P069",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P069",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P069",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P069",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P069",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P070",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P070",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand hangs by head; far hand appears at hip edge with no visible forearm; feet both on toes",
+   "note": "far forearm presumably hidden behind thigh/torso"
+  },
+  {
+   "set": "P071",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P071",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P071",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P071",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P072",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P072",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms raised overhead, end at wrist with no hand drawn; both feet on tiptoe",
+   "note": "hands missing"
+  },
+  {
+   "set": "P072",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P073",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P073",
+   "angle": "below",
+   "arms": 2,
+   "hands": 0,
+   "legs": 2,
+   "feet": 2,
+   "trace": "both arms spread wide, end at wrist with no hand; feet below hips",
+   "note": "hands missing"
+  },
+  {
+   "set": "P073",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P073",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "P074",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P074",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P074",
+   "angle": "side",
+   "arms": 2,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand on floor beside knee; far arm bends behind back, hand hidden",
+   "note": "far hand hidden"
+  },
+  {
+   "set": "P074",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P075",
+   "angle": "below",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R-side arm braced on floor behind; other shoulder ball has no arm visible; both feet forward",
+   "note": "second arm not traceable, may be hidden by torso"
+  },
+  {
+   "set": "P075",
+   "angle": "front",
+   "arms": 2,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "viewer-right hand on floor; viewer-left forearm ends behind thigh",
+   "note": "left hand hidden by thigh"
+  },
+  {
+   "set": "P075",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "P075",
+   "angle": "side",
+   "arms": 2,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand on floor at left; far arm hidden behind torso",
+   "note": "far arm hidden"
+  },
+  {
+   "set": "P075",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "near hand on floor at left; far hand small behind torso; feet at bottom right",
+   "note": ""
+  },
+  {
+   "set": "S001",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S001",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S001",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S001",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "S001",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S002",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S002",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S002",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "S003",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S003",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S003",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S003",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "S003",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S004",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S004",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  },
+  {
+   "set": "S004",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": "far-side limbs may be partly hidden by body"
+  },
+  {
+   "set": "S004",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "all limbs trace to shoulders/hips; hands and feet accounted for",
+   "note": ""
+  }
+ ],
+ "flags": [
+  {
+   "set": "P072",
+   "angle": "diag",
+   "reason": "Both raised arms end at wrist circles; no hands drawn (0 hands)"
+  },
+  {
+   "set": "P073",
+   "angle": "below",
+   "reason": "Both outstretched arms end at wrist; no hands drawn (0 hands)"
+  },
+  {
+   "set": "P075",
+   "angle": "below",
+   "reason": "Left shoulder ball has no arm; only one arm (braced on floor, right of image) visible; may be hidden by torso, check"
+  },
+  {
+   "set": "P070",
+   "angle": "below",
+   "reason": "Hand at right hip edge has no visible forearm; likely hidden behind thigh/torso, low confidence"
+  }
+ ]
+}

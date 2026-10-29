@@ -1,0 +1,763 @@
+{
+ "reviewed": [
+  "U061__side-below.jpg",
+  "U062__below.jpg",
+  "U062__front-diag.jpg",
+  "U062__side-above.jpg",
+  "U063__above.jpg",
+  "U063__front-side.jpg",
+  "U064__front-diag.jpg",
+  "U064__side-above.jpg",
+  "U065__above.jpg",
+  "U065__front-side.jpg",
+  "U066__above-below.jpg",
+  "U066__diag-side.jpg",
+  "U067__below.jpg",
+  "U067__front-diag.jpg",
+  "U067__side-above.jpg",
+  "U068__below.jpg",
+  "U068__diag-side.jpg",
+  "U069__above-below.jpg",
+  "U069__front-diag.jpg",
+  "U070__front-diag.jpg",
+  "U070__side-below.jpg",
+  "U071__below.jpg",
+  "U071__front-diag.jpg",
+  "U071__side-above.jpg",
+  "U073__below.jpg",
+  "U073__front-diag.jpg",
+  "U073__side-above.jpg",
+  "U074__above-below.jpg",
+  "U074__diag-side.jpg",
+  "U075__above-below.jpg",
+  "U075__front-diag.jpg",
+  "U076__above-below.jpg",
+  "U076__front-diag.jpg",
+  "U077__front-diag.jpg",
+  "U077__side-below.jpg",
+  "U078__above.jpg",
+  "U079__front-diag.jpg",
+  "U079__side.jpg",
+  "U080__above.jpg",
+  "U080__diag-side.jpg"
+ ],
+ "panels": [
+  {
+   "set": "U061",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near hand at chest, far hand on hip/thigh at lower right",
+   "note": "far arm hidden behind torso; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U061",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand at chest, other hangs down at lower right",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U062",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand on chest, one on stomach",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U062",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand on chest, one on stomach",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U062",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand on chest, one on stomach",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U062",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand on chest, one on stomach",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U062",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand on chest, one on stomach",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U063",
+   "angle": "front",
+   "arms": 2,
+   "hands": 0,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both forearms go behind the back, hands hidden",
+   "note": "hands hidden behind back; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U063",
+   "angle": "side",
+   "arms": 2,
+   "hands": 0,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both arms reach back behind torso, hands mostly hidden/cropped",
+   "note": "hands hidden behind back; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U063",
+   "angle": "above",
+   "arms": 2,
+   "hands": 0,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both forearms go behind the back, hands hidden",
+   "note": "hands hidden behind back; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U064",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand on chest, R hand on floor at bottom right",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U064",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand on chest, other hand on floor at lower left",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U064",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand on chest, other hand on floor at left edge",
+   "note": "far arm partly hidden by torso; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U064",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand behind head, other hand raised at right",
+   "note": "hips/legs cropped"
+  },
+  {
+   "set": "U065",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands flat on floor at bottom",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U065",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near hand flat on floor at bottom left",
+   "note": "far arm hidden behind near arm; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U065",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "both hands on floor at bottom; curved shape with circle at right edge (475,580) is a thigh/knee of the kneeling figure",
+   "note": "thigh/knee stubs at lower edge, not extra arms; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U066",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "one hand on chest, other hand on floor at bottom right",
+   "note": "legs both visible, feet cropped"
+  },
+  {
+   "set": "U066",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "one hand on chest, other hand on floor at bottom left",
+   "note": "legs partly visible (kneeling) lower right; feet cropped"
+  },
+  {
+   "set": "U066",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand on chest, other hand on floor at bottom",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U066",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near hand on floor at lower right, far hand at chest",
+   "note": "far arm upper part hidden; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U067",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands on floor at bottom",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U067",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands on floor at lower left",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U067",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands on floor at lower right",
+   "note": "two forearms overlap; traced to two shoulders; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U067",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands on floor at bottom right",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U067",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands on floor at bottom",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U068",
+   "angle": "diag",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near arm hangs down, hand at bottom right",
+   "note": "far arm hidden behind torso; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U068",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near arm hangs down, hand at bottom right",
+   "note": "far arm hidden behind torso; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U068",
+   "angle": "below",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near arm hangs down, hand at lower right; a second elbow ball and tapered limb-like shape at (285,505)-(350,690) behind the torso, no hand seen",
+   "note": "second limb partly hidden by torso; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U069",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands behind head",
+   "note": "hands behind head, one hidden; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U069",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand visible behind head at top left, other hidden behind head",
+   "note": "hands behind head; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U069",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "hands clasped behind head at top",
+   "note": "hands clasped; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U069",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand at back of neck, other hidden behind head",
+   "note": "hands behind head; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U070",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand at face with index finger up, R hand fist at bottom right",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U070",
+   "angle": "diag",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near hand at chin with finger up",
+   "note": "far arm hidden behind torso; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U070",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near hand with finger up at lips",
+   "note": "far arm hidden; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U070",
+   "angle": "below",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand with finger up at face; a tapered strip (845,215)-(890,295) beside the head that may be the other arm or neck",
+   "note": "unclear strip left of head; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U071",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand at neck, R hand hangs down at bottom right",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U071",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "far hand at neck, near hand hangs down at bottom left",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U071",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "far hand at neck, near hand hangs down at bottom left",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U071",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "far arm raised to neck, near hand at bottom left",
+   "note": "near hand cropped at bottom; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U071",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand at neck, other hand at bottom left",
+   "note": "hand partly cropped at bottom; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U073",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "cross-armed hug: hand on L shoulder, hand on R shoulder",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U073",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "cross-armed hug, hands on both shoulders",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U073",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "cross-armed hug, hands on both shoulders",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U073",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "cross-armed hug, hands on both shoulders",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U073",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "cross-armed hug, hands on both shoulders",
+   "note": "hip/leg stub lower right; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U074",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands flat on chest",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U074",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands on chest/shoulder",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U074",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands flat on chest",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U074",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands on chest",
+   "note": "arms folded over chest; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U075",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands raised overhead",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U075",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands raised overhead",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U075",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands raised overhead",
+   "note": "thigh ends at bottom; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U075",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "both hands raised overhead",
+   "note": "thigh stubs at bottom corners; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U076",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand hangs down at bottom, R hand hidden behind body at waist",
+   "note": "far hand hidden behind hip; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U076",
+   "angle": "diag",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near hand reaches down at bottom right",
+   "note": "far arm hidden; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U076",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand reaches down at bottom, other hand hidden behind hip",
+   "note": "far hand hidden; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U076",
+   "angle": "below",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near hand reaches down at bottom",
+   "note": "far arm hidden; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U077",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands behind back at waist, hidden",
+   "note": "hands hidden behind back; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U077",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands behind back at lower left",
+   "note": "hands partly visible behind back; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U077",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "clasped hands at shoulder blade upper left; two forearms overlap",
+   "note": "overlapping forearms; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U077",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "forearms folded behind back, hands at lower left; overlapping tubes hard to trace",
+   "note": "overlapping tubes at left; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U078",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand on chest, other on stomach",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U079",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand flat at chest, other arm hangs down, hand cropped at bottom left",
+   "note": "hand cropped at bottom edge; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U079",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "one hand at chest, other arm hangs down, hand cropped at right",
+   "note": "hand cropped at bottom; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U079",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "near arm hangs down with hand cropped at bottom; far hand at chest",
+   "note": "hand cropped; far arm hidden; legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U080",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at chest",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U080",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at chest",
+   "note": "legs/feet cropped by upper-body framing"
+  },
+  {
+   "set": "U080",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "both hands at chest, forearms overlap",
+   "note": "far arm partly hidden; legs/feet cropped by upper-body framing"
+  }
+ ],
+ "flags": [
+  {
+   "set": "U068",
+   "angle": "below",
+   "reason": "possible second limb: elbow ball at (285,505) plus a tapered limb-like shape running down to (350,690) behind the torso with no hand. Likely the hidden other arm, but a person should confirm it is not a stray limb."
+  },
+  {
+   "set": "U070",
+   "angle": "below",
+   "reason": "tapered strip beside the head at (845,215)-(890,295) from the shoulder up behind the head; may be the other arm or an odd neck. Unsure; a person should look."
+  },
+  {
+   "set": "U077",
+   "angle": "below",
+   "reason": "two or three overlapping arm tubes tangled at lower left behind the back; traced as two arms but could hide a third forearm. Unsure; a person should look."
+  }
+ ]
+}
