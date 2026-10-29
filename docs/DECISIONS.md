@@ -4,6 +4,14 @@
 
 ## 待定
 
+### D-05 站点域名（canonical / og:image / sitemap 用的绝对地址）
+分享卡、canonical、hreflang、sitemap 都要绝对 URL。`tools/build_site.py --site URL`（或环境变量 `SHISEI_SITE_URL`）指定，
+默认先用 GitHub Pages 地址 `https://wquguru.github.io/shisei`。可选：
+1. GitHub Pages 子路径（默认）：零成本；但 `robots.txt` 只在域名根目录生效，子路径下的那份会被忽略，sitemap 要去
+   Search Console 手动提交；
+2. 自定义域名（如 `shisei.xxx`）：robots.txt 生效、链接更短、以后换托管不改 URL；要买域名、配 DNS。
+部署前定下来；换域名后重新 build，旧地址的分享卡会失效（各平台缓存的是旧 og:image）。
+
 ### D-03 实拍图是否进公开仓库
 111 张实拍是 AI 生成的成年人物（背心、紧身裤，含躺、后仰类姿势），暴露面和素体线稿不一样。可选：
 1. 和线稿一起进仓库，注意事项写明「AI 生成、成年、不对应真人、元数据已清除」；

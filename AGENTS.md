@@ -38,9 +38,12 @@ data/catalog.csv     same data for spreadsheets (o = view present)
 images/line/w300/    grid tier, 300 px wide WebP q70
 images/line/w900/    lightbox/download tier, 900×1200 WebP q75
 images/photo/…       same two tiers for photo renders
-web/                 gallery source: index.html template, app.js, app.css, i18n.js, favicon.svg
-site/                build output of tools/build_site.py (git-ignored; deploy this)
-tools/               build_images.sh, build_site.py, verify.py, pack_release.sh
+web/                 gallery source: index.html template, app.js, app.css, i18n.js, common.js (share sheet, copy,
+                     language links), favicon.svg, changelog.yaml (reader-facing changelog, four languages)
+site/                build output of tools/build_site.py (git-ignored; deploy this): home, pose pages and changelog
+                     per language (zh at the root, ja/ en/ ko/), og/ share cards, sitemap, robots, 404, manifest
+build/og-cache/      share-card render cache (git-ignored)
+tools/               build_images.sh, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.sh
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
 docs/DECISIONS.md    open questions and decisions awaiting a human
 docs/GENERATION.md   how the sets were made, gap log
@@ -61,6 +64,7 @@ series gets its own prefix and its own catalog file.
 tools/build_images.sh ~/Downloads/pose-gallery-std73   # (re)build w300 + w900, skips up-to-date files
 python3 tools/verify.py                                # catalog ↔ files, known gaps, orphans
 python3 tools/build_site.py --link-images && python3 -m http.server 8000 -d site   # preview the gallery
+python3 tools/build_site.py --site https://… # deploy build: absolute URLs (D-05); share cards need Chrome, --no-og skips
 tools/pack_release.sh ~/Downloads/pose-gallery-std73 0.1.0   # dist/shisei-std73-full-v0.1.0.zip + sha256
 ```
 
@@ -74,6 +78,10 @@ tools/pack_release.sh ~/Downloads/pose-gallery-std73 0.1.0   # dist/shisei-std73
   (`__CATALOG__`, `__REPO__`, `__VERSION__`) are filled by `build_site.py`. Zero runtime dependencies, works at 390×844 without horizontal scroll, every
   string in all four languages, images lazy-loaded with `alt` = ID + name + view, keyboard: ← → angle, ↑ ↓ pose,
   Esc closes, `/` focuses search.
+- **Pages and SEO**: strings the build needs (page titles, share sheet, changelog) live in the strict-JSON
+  `I18N_PAGES` block at the end of `web/i18n.js`. Reader-facing updates go in `web/changelog.yaml` (all four
+  languages; the build audits them) as well as CHANGELOG.md. Share what has a page: pose pages, not `#P001` hashes.
+  Only std / general-rated poses with a usable view get pose pages, cards and sitemap rows.
 - **Comments and docs**: code comments in English, explain why. `docs/` may be Chinese; README is English-first with
   translated copies.
 

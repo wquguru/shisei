@@ -17,6 +17,15 @@ the catalog schema.
   colour on hover, per-card angle dots, lightbox with downloads and copyable pose description, keyboard (← → ↑ ↓ L Esc,
   `/` for search) and swipe navigation, deep links, ja / zh / en / ko UI, dark theme, mobile filter sheet.
 - Logo (line of action) and favicon.
+- A page per pose in four languages (`pose/P001/`, `ja/pose/P001/` …) with all angles, other-language names,
+  prev / next and same-category links; the gallery and each language get their own URL (`/`, `/ja/`, `/en/`, `/ko/`).
+- Share button (lightbox, pose pages, changelog, footer): system share sheet on phones, otherwise copy link plus X,
+  Facebook, Pinterest and per-language Weibo / LINE / Reddit. Every page has a 1200×630 share card rendered from the
+  line art (`tools/og_cards.py`, headless Chrome).
+- In-site changelog (`web/changelog.yaml` → `/changelog/` in four languages, Atom feed per language).
+- SEO: canonical, hreflang + x-default, Open Graph and Twitter cards, JSON-LD (WebSite + Dataset, ImageGallery,
+  BreadcrumbList, CollectionPage), sitemap.xml with image entries, robots.txt, 404 page, web manifest and icons;
+  the build fails on a missing share tag or a broken relative link.
 - Gallery design: desktop, lightbox, mobile filter sheet and five pose-card states ([docs/DESIGN.md](docs/DESIGN.md)).
 
 ## [0.1.0] - 2026-10-28
