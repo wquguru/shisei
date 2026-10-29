@@ -50,11 +50,12 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 
 | 档位 | 位置 | 尺寸 | 单张约 |
 |---|---|---|---|
-| `w300` | `images/*/w300/` | 宽 300 | 6 KB |
-| `w900` | `images/*/w900/` | 900×1200 | 26 KB |
+| `w300` | `images/*/w300/` | 宽 300 | 7 KB |
+| `w600` | `images/*/w600/` | 600×800 | 17 KB |
+| `w900` | `images/*/w900/` | 900×1200 | 29 KB |
 | 原图 | [Releases](../../../../releases) 压缩包 | 1344×1792（实拍 1120×2240） | 100 KB |
 
-仓库里只放网页用的两档，约 17 MB，克隆会快很多。每个 Release 附带画廊里的下载：w900 档按系列各一个压缩包、再加一个全系列包（推荐，体积约为原图的四分之一），以及原图包。只打包质检通过的机位，每个压缩包都带 LICENSE、LICENSE-images 和 NOTICE。
+仓库里只放网页用的三档，约 56 MB，克隆会快很多。每个 Release 附带画廊里的下载：w900 档按系列各一个压缩包、再加一个全系列包（推荐，体积约为原图的四分之一），以及原图包。只打包质检通过的机位，每个压缩包都带 LICENSE、LICENSE-images 和 NOTICE。
 
 ## 画廊
 
@@ -72,7 +73,7 @@ python3 tools/build_site.py                    # 可部署的完整副本，约 
 
 ```
 data/       catalog.json、catalog.csv：唯一的数据源
-images/     line/ 和 photo/，各有 w300/ 和 w900/ 两档
+images/     line/ 和 photo/，各有 w300/、w600/ 和 w900/ 三档
 web/        静态画廊源码（index.html、app.js、app.css、i18n.js）
 tools/      build_images.py、build_site.py、verify.py、qc_merge.py、review_sheets.py、pack_release.py
 docs/       DESIGN、DECISIONS、GENERATION、LICENSING、各语言 README、logo、截图

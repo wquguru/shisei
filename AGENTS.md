@@ -29,7 +29,7 @@ two are rated suggestive. Plus photo renders for 23 std sets, a four-language ca
   `import_series.py` applies it on re-import and `verify.py` checks it.
 - **IDs are stable.** `P001`… never get renumbered or reused (P023 and P028 are retired). New poses take the next
   free number; the source-list number goes in `orig_id`.
-- **Full-size originals stay out of git.** Commit only the `w300` and `w900` tiers; downloads ship as Release
+- **Full-size originals stay out of git.** Commit only the `w300`, `w600` and `w900` tiers; downloads ship as Release
   zips (`tools/pack_release.py`: w900 per series + all, recommended; originals), sizes in `data/packs.json`.
 - **Content safety.** Figures are mannequins or AI-generated adults. Nothing that reads as a minor, a real person or
   explicit content enters the repo.
@@ -51,7 +51,8 @@ data/qc.json         per-view and per-photo QC status, reason and file name; per
 data/qc-input/       every reviewer result behind qc.json; `qc_merge.py data/qc-input` rebuilds it exactly
 data/rating_overrides.json   per-pose rating decisions that win over the category rule (human-decided)
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
-images/line/w300/    grid tier, 300 px wide WebP q70
+images/line/w300/    grid tier for 1x screens and thumbnails, 300 px wide WebP q70
+images/line/w600/    grid tier for 2x / 3x screens, 600×800 WebP q72
 images/line/w900/    lightbox/download tier, 900×1200 WebP q75
 images/photo/…       same two tiers for photo renders
 web/                 gallery source: index.html template, app.js, app.css, i18n.js, common.js (share sheet, copy,

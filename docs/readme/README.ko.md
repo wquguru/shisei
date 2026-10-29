@@ -50,11 +50,12 @@ Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는
 
 | 크기 | 위치 | 규격 | 장당 |
 |---|---|---|---|
-| `w300` | `images/*/w300/` | 너비 300 px | 약 6 KB |
-| `w900` | `images/*/w900/` | 900 × 1200 | 약 26 KB |
+| `w300` | `images/*/w300/` | 너비 300 px | 약 7 KB |
+| `w600` | `images/*/w600/` | 600 × 800 | 약 17 KB |
+| `w900` | `images/*/w900/` | 900 × 1200 | 약 29 KB |
 | 원본 | [Releases](../../../../releases) zip | 1344 × 1792 (실사 1120 × 2240) | 약 100 KB |
 
-저장소에는 웹용 두 가지 크기(약 17 MB)만 두므로 클론이 가볍습니다. 각 Release에는 갤러리의 다운로드가 첨부됩니다. w900을 시리즈별 zip과 전체 시리즈 zip(추천, 원본의 약 4분의 1 용량)으로 묶은 것과 원본 zip입니다. 품질 검사를 통과한 앵글만 담고, 모든 zip에 LICENSE, LICENSE-images, NOTICE가 들어 있습니다.
+저장소에는 웹용 세 가지 크기(약 56 MB)만 두므로 클론이 가볍습니다. 각 Release에는 갤러리의 다운로드가 첨부됩니다. w900을 시리즈별 zip과 전체 시리즈 zip(추천, 원본의 약 4분의 1 용량)으로 묶은 것과 원본 zip입니다. 품질 검사를 통과한 앵글만 담고, 모든 zip에 LICENSE, LICENSE-images, NOTICE가 들어 있습니다.
 
 ## 갤러리
 
@@ -72,7 +73,7 @@ python3 tools/build_site.py                    # 이미지를 포함한 배포�
 
 ```
 data/       catalog.json, catalog.csv — 유일한 데이터 원본
-images/     line/과 photo/, 각각 w300/과 w900/
+images/     line/과 photo/, 각각 w300/, w600/, w900/
 web/        정적 갤러리 소스 (index.html, app.js, app.css, i18n.js)
 tools/      build_images.py, build_site.py, verify.py, qc_merge.py, review_sheets.py, pack_release.py
 docs/       DESIGN, DECISIONS, GENERATION, LICENSING, 언어별 README, 로고, 스크린샷

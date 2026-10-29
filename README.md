@@ -61,11 +61,12 @@ the figure consistent across shots. Face, clothing and background come from your
 
 | Tier | Where | Size | Typical file |
 |---|---|---|---|
-| `w300` | `images/*/w300/` | 300 px wide | ~6 KB |
-| `w900` | `images/*/w900/` | 900 × 1200 | ~26 KB |
+| `w300` | `images/*/w300/` | 300 px wide | ~7 KB |
+| `w600` | `images/*/w600/` | 600 × 800 | ~17 KB |
+| `w900` | `images/*/w900/` | 900 × 1200 | ~29 KB |
 | full | [Releases](../../releases) zip | 1344 × 1792 (photos 1120 × 2240) | ~100 KB |
 
-The repository holds the two web tiers (about 17 MB). Each Release carries the downloads the gallery offers: the w900
+The repository holds the three web tiers (about 56 MB). Each Release carries the downloads the gallery offers: the w900
 tier as one zip per series and one for everything (recommended, about a quarter of the originals' size), plus the
 originals. Only views that passed QC go in, and every zip includes LICENSE, LICENSE-images and NOTICE.
 
@@ -88,7 +89,7 @@ Deep links open the lightbox directly: `#P001-diag`, `#P001-diag-photo`; filters
 
 ```
 data/       catalog.json, catalog.csv — the source of truth
-images/     line/ and photo/, each with w300/ and w900/ tiers
+images/     line/ and photo/, each with w300/, w600/ and w900/ tiers
 web/        static gallery source (index.html, app.js, app.css, i18n.js)
 tools/      build_images.py, build_site.py, verify.py, qc_merge.py, review_sheets.py, pack_release.py
 docs/       DESIGN, DECISIONS, GENERATION, LICENSING, translated READMEs, logo, screenshot
