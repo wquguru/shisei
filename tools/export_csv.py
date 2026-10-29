@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Write data/catalog.csv from data/catalog.json (o = view passed QC, x = failed QC, - = not generated)."""
+"""Write data/catalog.csv from data/catalog.json (o = view passed QC, x = failed QC, - = not generated).
+`source` is empty for the original generation and names the redraw source otherwise (tools/import_redraws.py)."""
 import csv, json, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 VIEWS = ("front", "diag", "side", "above", "below")
 COLS = ("id", "orig_id", "series", "rating", "class_jp", "class_cn", "class_en", "class_kr",
-        "name_jp", "name_cn", "name_en", "name_kr")
+        "name_jp", "name_cn", "name_en", "name_kr", "source")
 
 
 def main() -> None:

@@ -4,6 +4,9 @@
 Usage: python3 tools/qc_merge.py QC_DIR [--date YYYY-MM-DD]
 QC_DIR holds fail_*.json (panel review), name_*.json (pose-name check), optionally dups.json (tools/line_dups.py)
 and photo_*.json (photo-render review, docs/qc/photo_prompt.md). Without photo_*.json the previous photo results stay.
+A result file with a top-level "source" applies only to poses whose catalog `source` matches; files without one apply
+to poses without one. A redrawn set (tools/import_redraws.py) is therefore judged only on reviews of its new drawing,
+while the old files stay so the old results remain reproducible (dups*.json from line_dups.py works the same way).
 Rules (docs/qc/README.md):
 - a set whose drawing does not show the named pose (match "no") fails every view as `structure`;
 - per-panel "pose mismatch" fails are dropped when the set-level check says yes/partial (the set check decides names);
@@ -12,7 +15,7 @@ Rules (docs/qc/README.md):
 Catalog views keep their file only when the status is `pass`; other views become null and get a `gaps` entry.
 qc.json keeps every file name, so a later re-review can bring a view back.
 """
-import argparse, datetime, glob, json, pathlib, re
+import argparse, datetime, glob, json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 VIEWS = ("front", "diag", "side", "above", "below")
@@ -33,15 +36,28 @@ def main() -> None:
     cat = json.loads(cat_path.read_text())
     old = json.loads(qc_path.read_text()) if qc_path.exists() else {"views": {}}
 
-    sets = {}
-    for f in sorted(d.glob("name_*.json")):
-        for s in json.loads(f.read_text())["sets"]:
-            sets[s["set"]] = s
-    fails = []
-    for f in sorted(d.glob("fail_*.json")):
-        fails += json.loads(f.read_text())["fails"]
-    if (d / "dups.json").exists():
-        fails += json.loads((d / "dups.json").read_text())
+    def load(pattern, key):
+        """Entries of every matching file, each tagged with the file's source (None = the original generation)."""
+        out = []
+        for f in sorted(d.glob(pattern)):
+            doc = json.loads(f.read_text())
+            doc = {"fails": doc} if isinstance(doc, list) else doc
+            out += [(doc.get("source"), x) for x in doc.get(key, [])]
+        return out
+
+    src = {p["id"]: p.get("source") for p in cat}
+    # A redrawn set has no older results to fall back on, so an unreviewed view would pass silently: every view of
+    # it must be on a panel sheet its source's reviewers listed, and the set must have a name check.
+    seen = {(source, n.split("__")[0], v) for source, n in load("fail_*.json", "reviewed") if source and "__" in n
+            for v in n.split("__")[1].removesuffix(".jpg").split("-")}
+    named = {(source, n) for source, n in load("name_*.json", "reviewed") if source}
+    todo = [f"{p['id']} {v}" for p in cat if p.get("source") for v in VIEWS
+            if p["views"].get(v) and (p["source"], p["id"], v) not in seen] + \
+           [f"{p['id']} name check" for p in cat if p.get("source") and (p["source"], f"{p['id']}.jpg") not in named]
+    if todo:
+        sys.exit(f"not reviewed yet ({len(todo)}): {', '.join(todo[:8])} ...")
+    sets = {s["set"]: s for source, s in load("name_*.json", "sets") if src.get(s["set"]) == source}
+    fails = [x for source, x in load("fail_*.json", "fails") + load("dups*.json", "fails") if src.get(x["set"]) == source]
 
     panel = {}
     for x in fails:
@@ -57,7 +73,8 @@ def main() -> None:
     views, set_notes = {}, {}
     for p in cat:
         pid, row = p["id"], {}
-        prev = old["views"].get(pid, {})
+        # The previous run's file names belong to the old drawing until a merge has recorded the new source.
+        prev = old["views"].get(pid, {}) if old.get("sources", {}).get(pid) == src[pid] else {}
         match = sets.get(pid, {}).get("match", "yes")
         if match != "yes":
             s = sets[pid]
@@ -90,8 +107,8 @@ def main() -> None:
             photos[p["id"]] = row
             p["photos"] = {v: r["file"] for v, r in row.items() if r["status"] == "pass"}
 
-    qc = {"schema": 1, "reviewed": a.date, "method": "docs/qc/README.md", "sets": set_notes, "views": views,
-          "photos": photos}
+    qc = {"schema": 1, "reviewed": a.date, "method": "docs/qc/README.md", "sets": set_notes,
+          "sources": {pid: s for pid, s in src.items() if s}, "views": views, "photos": photos}
     qc_path.write_text(json.dumps(qc, ensure_ascii=False, indent=1) + "\n")
     cat_path.write_text(json.dumps(cat, ensure_ascii=False, indent=1) + "\n")
 

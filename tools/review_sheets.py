@@ -3,7 +3,8 @@
 
 Usage: python3 tools/review_sheets.py OUT_DIR [--mode MODE] [--passed] std=SRC sexy=SRC upper=SRC duo=SRC
 SRC is a source set (e.g. ~/Downloads/pose-gallery-std73); line art is read from SRC/img, photos from SRC/photo.
-Only the series given are drawn, so one series can be reviewed on its own.
+Only the series given are drawn, so one series can be reviewed on its own. Redrawn sets (catalog `source`) are drawn
+only when their source is given too (digi=SRC), and only then; --only-source digi limits the run to them.
 
 Modes (each pairs with a prompt in docs/qc/):
   panels      up to 3 views per sheet, 600x800 each        review_prompt.md      <id>__<view>-<view>.jpg
@@ -50,6 +51,7 @@ def main() -> None:
     ap.add_argument("out")
     ap.add_argument("--mode", default="panels", choices=MODES)
     ap.add_argument("--passed", action="store_true")
+    ap.add_argument("--only-source", default=None)
     ap.add_argument("srcs", nargs="+", metavar="series=SRC")
     a = ap.parse_args()
     srcs = {k: pathlib.Path(v).expanduser() for k, v in (s.split("=", 1) for s in a.srcs)}
@@ -60,9 +62,10 @@ def main() -> None:
     qc = json.loads(qc_path.read_text()) if qc_path.exists() else {}
     n = 0
     for p in json.loads((ROOT / "data/catalog.json").read_text()):
-        if p["series"] not in srcs:
+        line_src = p.get("source") or p["series"]
+        if p["series"] not in srcs or line_src not in srcs or (a.only_source and p.get("source") != a.only_source):
             continue
-        src, pid = srcs[p["series"]], p["id"]
+        src, pid = srcs[line_src if a.mode != "photo" else p["series"]], p["id"]
         expect = EXPECT[p["series"]] + (f" ({BODIES[p['bodies']]})" if p.get("bodies") else "")
         if a.mode == "photo":
             files = {v: r["file"] for v, r in qc.get("photos", {}).get(pid, {}).items()} | (p.get("photos") or {})

@@ -5,7 +5,8 @@ Usage: python3 -I tools/pack_release.py 0.2.0 std=~/Downloads/pose-gallery-std73
 Writes to dist/:
   shisei-<series>-v<ver>.zip   one per series, the w900 tier (line art + photos): the recommended download
   shisei-all-v<ver>.zip        every series, w900
-  shisei-original-v<ver>.zip   every series at the source resolution, from <src>/img and <src>/photo
+  shisei-original-v<ver>.zip   every series at the source resolution, from <src>/img and <src>/photo; redrawn sets
+                               (catalog `source`) from that source set, at its resolution (digi: 900x1200)
 Only files the catalog lists go in, so a view that failed QC never ships, even though the source sets still hold it.
 Every zip carries LICENSE-images (CC0, the images), LICENSE (Apache-2.0) and NOTICE, which credits the pose list. The
 images are already lossy WebP, so deflate barely shrinks them; it is used anyway because it costs nothing for the text.
@@ -22,7 +23,8 @@ def entries(poses, original, srcs):
     for p in poses:
         for kind, key, sub in (("line", "views", "img"), ("photo", "photos", "photo")):
             for f in sorted(v for v in (p.get(key) or {}).values() if v):
-                disk = srcs[p["series"]] / sub / f if original else ROOT / "images" / kind / "w900" / f
+                root = srcs[p.get("source") or p["series"]] if kind == "line" else srcs[p["series"]]
+                disk = root / sub / f if original else ROOT / "images" / kind / "w900" / f
                 out.append((disk, f"{kind}/{f}"))
     return out
 
@@ -45,8 +47,9 @@ def main() -> None:
     ver = sys.argv[1]
     srcs = {k: pathlib.Path(v).expanduser() for k, v in (a.split("=", 1) for a in sys.argv[2:])}
     catalog = [p for p in json.loads((ROOT / "data/catalog.json").read_text()) if any(p["views"].values())]
-    if set(srcs) != {p["series"] for p in catalog}:
-        sys.exit(f"need a source dir for each series: {sorted({p['series'] for p in catalog})}")
+    need = {p["series"] for p in catalog} | {p["source"] for p in catalog if p.get("source")}
+    if set(srcs) != need:
+        sys.exit(f"need a source dir for each series and redraw source: {sorted(need)}")
     dist = ROOT / "dist"
     dist.mkdir(exist_ok=True)
 

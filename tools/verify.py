@@ -4,6 +4,7 @@
 - every non-null catalog view has a `pass` in qc.json and exists in both tiers;
 - every null view has a non-pass qc status and a matching `gaps` entry (missing, line or structure);
 - every rating override in data/rating_overrides.json is applied;
+- every redrawn pose (catalog `source`) was merged as such: qc.json `sources` names the same source;
 - every photo has a `pass` in qc.json photos and exists in both tiers; nothing under images/ is unreferenced.
 """
 import json, pathlib, sys
@@ -22,6 +23,9 @@ def main() -> int:
     for pid, o in (json.loads(ov_path.read_text()) if ov_path.exists() else {}).items():
         if next((p["rating"] for p in cat if p["id"] == pid), None) != o["rating"]:
             errs.append(f"{pid}: rating should be {o['rating']} (data/rating_overrides.json)")
+    sources = {p["id"]: p["source"] for p in cat if p.get("source")}
+    if sources != qcd.get("sources", {}):
+        errs.append("catalog sources differ from qc.json sources (run qc_merge.py after import_redraws.py)")
     ids = [p["id"] for p in cat]
     if len(ids) != len(set(ids)):
         errs.append("duplicate ids in catalog")

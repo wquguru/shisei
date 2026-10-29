@@ -2,6 +2,8 @@
 """Flag views of one pose that are practically the same image (the edit model sometimes ignores the target angle).
 
 Usage: python3 tools/line_dups.py OUT.json std=SRC_IMG_DIR sexy=SRC_IMG_DIR upper=SRC_IMG_DIR
+       python3 tools/line_dups.py data/qc-input/dups_digi.json --source digi digi=SRC_IMG_DIR
+With --source only poses redrawn from that source are checked and the output is tagged with it (qc_merge.py).
 Lines are thickened with a min filter, then compared at 96x128; the same image scores < 6, distinct angles > 8.
 The non-front (later) view of each near-identical pair is flagged.
 """
@@ -15,18 +17,22 @@ VIEWS = ("front", "diag", "side", "above", "below")
 
 
 def main() -> None:
-    out, srcs, flags = pathlib.Path(sys.argv[1]), dict(a.split("=", 1) for a in sys.argv[2:]), []
+    args = sys.argv[2:]
+    source = args[args.index("--source") + 1] if "--source" in args else None
+    args = [x for x in args if "=" in x]
+    out, srcs, flags = pathlib.Path(sys.argv[1]), dict(a.split("=", 1) for a in args), []
     for p in json.loads((ROOT / "data/catalog.json").read_text()):
-        if p["series"] not in srcs:
+        key = p.get("source") or p["series"]
+        if p.get("source") != source or key not in srcs:
             continue
-        d = pathlib.Path(srcs[p["series"]]).expanduser()
+        d = pathlib.Path(srcs[key]).expanduser()
         im = {v: np.asarray(Image.open(d / p["views"][v]).convert("L").filter(ImageFilter.MinFilter(5)).resize((96, 128)), dtype=float)
               for v in VIEWS if p["views"].get(v)}
         for a, b in itertools.combinations(im, 2):
             diff = float(np.abs(im[a] - im[b]).mean())
             if diff < 6:
                 flags.append({"set": p["id"], "angle": b, "kind": "structure", "reason": f"same image as {a} (diff {diff:.1f})"})
-    out.write_text(json.dumps(flags, ensure_ascii=False, indent=1))
+    out.write_text(json.dumps({"source": source, "fails": flags} if source else flags, ensure_ascii=False, indent=1))
     print(f"duplicate panels {len(flags)}")
 
 
