@@ -1,22 +1,25 @@
 <div align="center">
 
+<img src="docs/logo.svg" width="72" alt="Shisei">
+
 # Shisei 姿勢
 
 **73 mannequin poses × 5 camera angles, drawn as clean line art for AI image tools.**
 
-English · [简体中文](docs/readme/README.zh-CN.md) · 日本語 (planned) · 한국어 (planned)
+English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md)
 
-![Poses](https://img.shields.io/badge/poses-73-15171A?style=flat-square)
-![Line art](https://img.shields.io/badge/line%20art-364%2F365-1A5CC8?style=flat-square)
-![Photos](https://img.shields.io/badge/photos-111-5B616A?style=flat-square)
-![Languages](https://img.shields.io/badge/names-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)
-![License](https://img.shields.io/badge/license-TBD-lightgrey?style=flat-square)
+[![Poses](https://img.shields.io/badge/poses-73-15171A?style=flat-square)](data/catalog.json)
+[![Line art](https://img.shields.io/badge/line%20art-364%2F365-1A5CC8?style=flat-square)](docs/GENERATION.md)
+[![Photos](https://img.shields.io/badge/photos-111-5B616A?style=flat-square)](docs/GENERATION.md)
+[![Languages](https://img.shields.io/badge/names-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](data/catalog.csv)
+[![Dependencies](https://img.shields.io/badge/runtime%20deps-0-E07A52?style=flat-square)](web)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](LICENSE)
 
 </div>
 
 ---
 
-<!-- TODO: docs/screenshot.png once web/ is built from the design canvas -->
+![Shisei gallery: hero with a marquee of mannequin poses on pastel category tiles](docs/screenshot.png)
 
 Shisei is a self-made pose reference library. Every pose is a faceless mannequin drawn from five angles — front,
 three-quarter, side, above and below — so you can feed the same pose to an image model from whichever camera you
@@ -63,7 +66,7 @@ languages and a dark theme. The spec is in [docs/DESIGN.md](docs/DESIGN.md).
 ```bash
 python3 tools/build_site.py --link-images      # writes site/ (images symlinked for a fast preview)
 python3 -m http.server 8000 -d site            # http://localhost:8000
-python3 tools/build_site.py --repo https://github.com/<owner>/shisei   # deployable copy, ~17 MB
+python3 tools/build_site.py                    # deployable copy with images, ~17 MB
 ```
 
 Deep links open the lightbox directly: `#P001-diag`, `#P001-diag-photo`; filters live in the query string
@@ -76,7 +79,7 @@ data/       catalog.json, catalog.csv — the source of truth
 images/     line/ and photo/, each with w300/ and w900/ tiers
 web/        static gallery source (index.html, app.js, app.css, i18n.js)
 tools/      build_images.sh, build_site.py, verify.py, pack_release.sh
-docs/       DESIGN, DECISIONS, GENERATION, translated READMEs
+docs/       DESIGN, DECISIONS, GENERATION, LICENSING, translated READMEs, logo, screenshot
 ```
 
 Check that the catalog and the images agree:
@@ -85,13 +88,38 @@ Check that the catalog and the images agree:
 python3 tools/verify.py
 ```
 
-Contributions are welcome. Coding agents follow [AGENTS.md](AGENTS.md). Release notes are in
-[CHANGELOG.md](CHANGELOG.md).
+Contributions are welcome: read **[CONTRIBUTING.md](CONTRIBUTING.md)** first (coding agents also follow
+**[AGENTS.md](AGENTS.md)**). Please report security issues privately as described in [SECURITY.md](SECURITY.md).
+
+## Status and roadmap
+
+Shisei is at **v0.1.0**: the 73 standard poses and the catalog are stable, IDs never change, and the gallery is
+new. Release notes are in [CHANGELOG.md](CHANGELOG.md); open questions in [docs/DECISIONS.md](docs/DECISIONS.md).
+
+| Milestone | State |
+|---|---|
+| 73 standard poses × 5 angles, catalog, two web tiers, verify | ✅ done |
+| Static gallery generated from the catalog | ✅ done |
+| Public gallery on GitHub Pages | ☐ next |
+| Fill the P062 *below* view | ☐ open |
+| Photo renders in the public repository (D-03) | ☐ to be decided |
+
+## Acknowledgements
+
+The gallery uses [Inter Tight](https://fonts.google.com/specimen/Inter+Tight),
+[Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC) and
+[JetBrains Mono](https://www.jetbrains.com/lp/mono/) (SIL OFL 1.1), served by Google Fonts, and
+[shields.io](https://shields.io) badges in this README. Licensing rules are in [docs/LICENSING.md](docs/LICENSING.md).
+
+## Notes
+
+Every image was made for this project; none are copied, traced or derived from other pose collections. The figures
+are mannequins or AI-generated adults and do not depict real people. Do not use them to depict real people or minors,
+or for explicit content. Image metadata is stripped.
 
 ## License
 
-**To be decided** before the first public release — see [docs/DECISIONS.md](docs/DECISIONS.md) D-01. Code and images
-will carry separate licences.
-
-The figures are mannequins or AI-generated adults and do not depict real people. Do not use them to depict real
-people or minors.
+Shisei — code, catalog, documentation and images — is licensed under the [Apache License 2.0](LICENSE); see also
+[NOTICE](NOTICE). You may use, modify and redistribute the images, including commercially, as long as you keep the
+licence and notice with any redistributed copy of the files. Using them as a pose reference puts no conditions on the
+images you generate.

@@ -29,7 +29,9 @@ gallery in `web/`.
 ## 3. Layout
 ```
 AGENTS.md            this file; CLAUDE.md only includes it
-README.md            overview (English); docs/readme/README.zh-CN.md (ja / ko planned)
+README.md            overview (English); docs/readme/README.{zh-CN,ja,ko}.md — keep all four in step
+LICENSE, NOTICE      Apache-2.0 for code, catalog, docs and images (D-01); NOTICE ships in every zip
+CONTRIBUTING.md      contributor guide; SECURITY.md, CODE_OF_CONDUCT.md; .github/ issue + PR templates
 CHANGELOG.md         Keep a Changelog; every user-visible change adds a line under [Unreleased]
 data/catalog.json    73 poses: id, orig_id, class_*, name_* (jp/cn/en/kr), desc_en, views{front..below}, photos[]
 data/catalog.csv     same data for spreadsheets (o = view present)
@@ -42,6 +44,8 @@ tools/               build_images.sh, build_site.py, verify.py, pack_release.sh
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
 docs/DECISIONS.md    open questions and decisions awaiting a human
 docs/GENERATION.md   how the sets were made, gap log
+docs/LICENSING.md    licensing rules (outside images, redistribution, AI-generated images)
+docs/logo.svg, docs/screenshot.png   README assets; retake the screenshot when the hero changes
 .github/workflows/   CI: verify.py
 ```
 File names are `std_<ID>_<view>.webp`, identical across tiers. `std` is the series (standard full-body); a future
@@ -91,6 +95,7 @@ adding a new image series.
 | Gallery design (desktop, lightbox, mobile, card states, logo directions) | ✅ design canvas |
 | `web/` static gallery generated from the catalog | ✅ |
 | Pages deploy of `site/` | ☐ needs a human OK (§8) |
-| ja / ko README copies, screenshot | ☐ |
-| Licence decision (D-01), photo policy (D-03) | ☐ waiting on a human |
+| ja / ko README copies, screenshot, community files | ✅ |
+| Licence (D-01): Apache-2.0 | ✅ 2026-10-28 |
+| Photo policy (D-03) | ☐ waiting on a human |
 | Fill P062 below | ☐ open |

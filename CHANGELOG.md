@@ -8,6 +8,10 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- Licensed under Apache-2.0 (`LICENSE`, `NOTICE`) for code, catalog, docs and images; the full-size zip now includes
+  both files. Licensing rules in [docs/LICENSING.md](docs/LICENSING.md).
+- `CONTRIBUTING.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md`, issue templates (bug, pose request) and a PR template.
+- Japanese and Korean READMEs; all four READMEs gain the logo, a gallery screenshot, roadmap and licence sections.
 - Static gallery in `web/`, built into `site/` by `tools/build_site.py`: hero with pose marquee, 23 new poses row,
   category / angle / line-art-or-photo / by-pose-or-single filters, search, warm-grey cards that take their category
   colour on hover, per-card angle dots, lightbox with downloads and copyable pose description, keyboard (← → ↑ ↓ L Esc,
