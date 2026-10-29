@@ -19,6 +19,10 @@ the catalog schema.
 - Tools: `import_series.py`, `review_sheets.py`, `line_dups.py`, `qc_merge.py`, `export_csv.py`; `build_images.py`
   replaces `build_images.sh` and prunes files that are no longer in the catalog.
 
+### Changed
+- Neutral names for suggestive poses: duo categories no longer use sex-position terms (e.g. 後背位 → 前後に並ぶ,
+  From-behind → One behind the other), and ja names in the sexy and upper series match the plainer zh / en / ko wording.
+
 ### Removed
 - 157 std views that failed QC, including 23 whole sets whose drawing is a different pose from their name (D-07).
 - 9 photo renders that failed QC (cropped limbs, an extra foot).
