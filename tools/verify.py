@@ -3,6 +3,7 @@
 
 - every non-null catalog view has a `pass` in qc.json and exists in both tiers;
 - every null view has a non-pass qc status and a matching `gaps` entry (missing, line or structure);
+- every rating override in data/rating_overrides.json is applied;
 - every photo has a `pass` in qc.json photos and exists in both tiers; nothing under images/ is unreferenced.
 """
 import json, pathlib, sys
@@ -17,6 +18,10 @@ def main() -> int:
     qcd = json.loads((ROOT / "data/qc.json").read_text())
     qc, qc_photos = qcd["views"], qcd.get("photos", {})
     errs, want = [], set()
+    ov_path = ROOT / "data/rating_overrides.json"
+    for pid, o in (json.loads(ov_path.read_text()) if ov_path.exists() else {}).items():
+        if next((p["rating"] for p in cat if p["id"] == pid), None) != o["rating"]:
+            errs.append(f"{pid}: rating should be {o['rating']} (data/rating_overrides.json)")
     ids = [p["id"] for p in cat]
     if len(ids) != len(set(ids)):
         errs.append("duplicate ids in catalog")

@@ -53,7 +53,7 @@ P053,P054,std,general,寝そべり,躺姿,Lying,눕기,横向き寝・腰のカ�
 P054,P056,std,general,寝そべり,躺姿,Lying,눕기,仰向け・両脚を真上に,仰卧・双腿竖直上举,"Lying on back, both legs straight up",누워서 양다리 위로,x,x,x,o,x
 P055,P057,std,general,寝そべり,躺姿,Lying,눕기,横向き寝・片腕を頭上,侧卧・单臂过头,"Lying on side, one arm overhead",옆으로 누워 한팔 머리 위로,o,o,o,o,o
 P056,P058,std,general,寝そべり,躺姿,Lying,눕기,うつ伏せ・腕枕,俯卧・臂枕,"Lying face down, head on folded arms",엎드려 팔 베개,o,o,o,o,o
-P057,P059,std,general,寝そべり,躺姿,Lying,눕기,仰向け・胸を反らす,仰卧・挺胸,"Lying on back, chest arched",누워서 가슴 젖히기,o,o,o,o,o
+P057,P059,std,suggestive,寝そべり,躺姿,Lying,눕기,仰向け・胸を反らす,仰卧・挺胸,"Lying on back, chest arched",누워서 가슴 젖히기,o,o,o,o,o
 P058,P061,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・膝に手,深蹲・手放膝上,"Squatting, hands on knees",쪼그려 앉아 무릎에 손,o,o,o,o,o
 P059,P062,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・片手を床に,深蹲・单手撑地,"Squatting, one hand on floor",쪼그려 앉아 한손 바닥에,o,o,o,o,o
 P060,P063,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・頬杖,深蹲・托腮,"Squatting, cheek on hand",쪼그려 앉아 턱 괴기,o,x,o,o,o
@@ -67,7 +67,7 @@ P067,P070,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前�
 P068,P071,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前かがみ・腕をだらりと下げる,前倾・双臂垂落,"Bent forward, arms hanging limp",상체 숙여 팔 늘어뜨리기,o,o,o,x,o
 P069,P072,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前かがみ・片脚を後ろに上げる,前倾・单腿后抬,"Bent forward, one leg lifted behind",상체 숙여 한쪽 다리 뒤로 들기,o,o,o,o,o
 P070,P073,std,general,のけぞり・反り,后仰,Arching back,뒤로 젖히기,のけぞり・立ち姿勢で反る,站立后仰反弓,"Standing, arched backward",서서 뒤로 젖히기,x,x,o,x,o
-P071,P074,std,general,のけぞり・反り,后仰,Arching back,뒤로 젖히기,膝立ち・後ろに手をついて反る,跪立・后撑反弓,"Kneeling, hands behind on floor, arched back",무릎 꿇고 뒤에 손 짚어 젖히기,o,o,x,o,o
+P071,P074,std,suggestive,のけぞり・反り,后仰,Arching back,뒤로 젖히기,膝立ち・後ろに手をついて反る,跪立・后撑反弓,"Kneeling, hands behind on floor, arched back",무릎 꿇고 뒤에 손 짚어 젖히기,o,o,x,o,o
 P072,P075,std,general,のけぞり・反り,后仰,Arching back,뒤로 젖히기,のけぞり・両腕を上げて反る,后仰・双臂上举反弓,"Arched back, both arms raised",양팔 들고 뒤로 젖히기,x,o,o,x,o
 P073,P077,std,general,ひねり,扭转,Twist,비틀기,ひねり・立ち姿勢で腕を広げる,站立扭转・双臂展开,"Standing twist, arms spread wide",서서 비틀어 양팔 벌리기,x,o,o,o,o
 P074,P078,std,general,ひねり,扭转,Twist,비틀기,ひねり・膝立ちで振り向く,跪立扭转・回头,"Kneeling twist, looking back",무릎 꿇고 비틀어 돌아보기,o,o,o,o,x
@@ -83,9 +83,9 @@ S008,P008,sexy,suggestive,立ち,站姿,Standing,서기,立ち・片脚を肩ま
 S009,P009,sexy,suggestive,立ち,站姿,Standing,서기,シャワー中を思わせる髪かき上げ,站姿双手撩发,Standing hands in hair,서서 양손 머리,o,o,o,o,o
 S010,P010,sexy,suggestive,立ち,站姿,Standing,서기,立って前腕を寄せる,站姿双臂夹胸,Standing forearms pressed together,서서 팔뚝 모으기,o,o,o,o,o
 S011,P011,sexy,suggestive,立ち,站姿,Standing,서기,両腕を上に伸ばして背伸び・腰をひねる,站姿伸懒腰扭腰,"Standing stretch overhead, waist twist",서서 기지개·허리 비틀기,x,x,x,o,o
-S012,P012,sexy,suggestive,立ち,站姿,Standing,서기,立ちV字（片脚を横に高く上げる）,站立侧抬腿（V字）,Standing side leg raise (V),서서 옆으로 다리 들기(V자),o,o,o,o,o
+S012,P012,sexy,general,立ち,站姿,Standing,서기,立ちV字（片脚を横に高く上げる）,站立侧抬腿（V字）,Standing side leg raise (V),서서 옆으로 다리 들기(V자),o,o,o,o,o
 S013,P013,sexy,suggestive,立ち,站姿,Standing,서기,後ろ手で胸を張る,背手挺胸站姿,"Hands behind back, chest out",뒷짐·가슴 펴기,o,o,o,o,-
-S014,P014,sexy,suggestive,立ち,站姿,Standing,서기,立ち前屈で両手を床へ,站立前屈・手触地,"Deep forward fold, hands to floor",서서 상체 숙이기·손 바닥으로,o,o,o,o,o
+S014,P014,sexy,general,立ち,站姿,Standing,서기,立ち前屈で両手を床へ,站立前屈・手触地,"Deep forward fold, hands to floor",서서 상체 숙이기·손 바닥으로,o,o,o,o,o
 S015,P015,sexy,suggestive,立ち,站姿,Standing,서기,腰に両手・片膝を内に入れて反る,叉腰站姿・单膝内扣后仰,"Hands on hips, knee in, back arched",양손 허리·한쪽 무릎 안쪽·젖히기,o,o,o,o,o
 S016,P016,sexy,suggestive,座り,坐姿,Sitting,앉기,横座りで片手をつき体をしならせる,侧坐・单手撑地扭身,"Side-saddle sit, torso curved",옆으로 앉아 한 손 짚고 몸 비틀기,o,o,o,o,o
 S017,P017,sexy,suggestive,座り,坐姿,Sitting,앉기,正座から胸を張って背中を反らす,正坐挺胸后仰,"Seiza, chest out, back arched",정좌 가슴 펴고 젖히기,-,o,x,o,-
@@ -101,12 +101,12 @@ S026,P026,sexy,suggestive,座り,坐姿,Sitting,앉기,横座りで髪をかき�
 S027,P027,sexy,suggestive,座り,坐姿,Sitting,앉기,ぺたん座りで両手を前につきバストを寄せる,W坐前倾・双手撑地,W-sit leaning forward,W자 앉기 앞으로 숙여 손 짚기,o,o,o,-,o
 S028,P028,sexy,suggestive,座り,坐姿,Sitting,앉기,片膝を立てて後ろに手をつく,坐姿单膝竖起・双手后撑,"Seated one knee up, hands behind",앉아 한 무릎 세우고 손 뒤 짚기,o,o,o,o,o
 S029,P029,sexy,suggestive,座り,坐姿,Sitting,앉기,片脚だけ大きく開く座り（片M字）,坐姿单腿大开,Seated one-leg wide,앉아 한 다리 크게 벌리기,o,o,o,o,x
-S030,P030,sexy,suggestive,座り,坐姿,Sitting,앉기,体育座りから膝を少し開く,抱膝坐・双膝微开,"Knees hugged, slightly apart",무릎 안고 앉기·살짝 벌리기,o,o,o,o,o
+S030,P030,sexy,general,座り,坐姿,Sitting,앉기,体育座りから膝を少し開く,抱膝坐・双膝微开,"Knees hugged, slightly apart",무릎 안고 앉기·살짝 벌리기,o,o,o,o,o
 S031,P031,sexy,suggestive,膝立ち・四つん這い,跪姿・爬姿,Kneeling & all fours,무릎·네발 자세,膝立ちで上体を反らし両手を後頭部,跪立后仰・双手抱头后,"Kneeling arch, hands behind head",무릎 서기 젖히기·손 머리 뒤,o,o,x,o,o
 S032,P032,sexy,suggestive,膝立ち・四つん這い,跪姿・爬姿,Kneeling & all fours,무릎·네발 자세,四つん這いで背中を反らし前を見る,四肢着地塌腰抬头,"All fours, back arched, head up",네발 엎드려 허리 젖히고 고개 들기,o,o,o,o,-
 S033,P033,sexy,suggestive,膝立ち・四つん這い,跪姿・爬姿,Kneeling & all fours,무릎·네발 자세,膝を大きく開いた膝立ちで腰を落とす,开膝跪立沉髋,"Wide kneel, hips low",무릎 크게 벌려 서기·골반 내리기,o,o,o,o,o
 S034,P034,sexy,suggestive,膝立ち・四つん這い,跪姿・爬姿,Kneeling & all fours,무릎·네발 자세,正座で髪をかき上げる,正坐撩发,"Seiza, hands in hair",정좌 머리 손,x,x,x,x,o
-S035,P035,sexy,suggestive,膝立ち・四つん這い,跪姿・爬姿,Kneeling & all fours,무릎·네발 자세,片膝立ちで太ももに手を置く,单膝跪・手扶前腿,"Half-kneel, hand on thigh",한쪽 무릎 꿇고 허벅지에 손,o,o,o,o,x
+S035,P035,sexy,general,膝立ち・四つん這い,跪姿・爬姿,Kneeling & all fours,무릎·네발 자세,片膝立ちで太ももに手を置く,单膝跪・手扶前腿,"Half-kneel, hand on thigh",한쪽 무릎 꿇고 허벅지에 손,o,o,o,o,x
 S036,P036,sexy,suggestive,膝立ち・四つん這い,跪姿・爬姿,Kneeling & all fours,무릎·네발 자세,膝を開き前に手をついて腰を落とす,开膝跪坐沉髋・双手前撑,"Wide kneel, hips low, hands front",무릎 벌려 앉아 손 앞 짚고 골반 내리기,-,o,x,o,-
 S037,P037,sexy,suggestive,膝立ち・四つん這い,跪姿・爬姿,Kneeling & all fours,무릎·네발 자세,膝を開いて腰を落とし髪をかき上げる,开膝跪坐沉髋・撩发,"Wide kneel, hips low, hands in hair",무릎 벌려 골반 내리고 머리 손,x,x,o,o,x
 S038,P038,sexy,suggestive,膝立ち・四つん這い,跪姿・爬姿,Kneeling & all fours,무릎·네발 자세,膝立ちで大きく反り両手でかかとを持つ,跪姿深后仰・双手抓脚跟,"Kneeling deep arch, holding heels",무릎 꿇고 크게 젖혀 발뒤꿈치 잡기,o,o,o,o,o
@@ -133,7 +133,7 @@ S058,P058,sexy,suggestive,寝そべり,躺姿,Lying,눕기,横寝で上の脚を
 S059,P059,sexy,suggestive,寝そべり,躺姿,Lying,눕기,仰向けで両膝を立て片腕を頭上へ,仰卧双膝竖起・单臂过头,"Supine knees up, arm overhead",누워 양 무릎 세우고 한 팔 머리 위,x,x,o,o,o
 S060,P060,sexy,suggestive,寝そべり,躺姿,Lying,눕기,うつ伏せでカエル脚（膝を横に開く）,俯卧蛙腿（双膝侧开）,Prone frog legs,엎드려 개구리 다리,-,o,x,o,o
 S061,P061,sexy,suggestive,寝そべり,躺姿,Lying,눕기,背中向きで横向きに寝る,背向侧躺,"Side-lying, back to viewer",등 보이며 옆으로 눕기,o,o,o,o,o
-S062,P062,sexy,suggestive,寝そべり,躺姿,Lying,눕기,仰向けで両膝を胸に引き寄せる,仰卧双膝抱胸,Supine knees to chest,누워 양 무릎 가슴으로 안기,o,o,o,o,o
+S062,P062,sexy,general,寝そべり,躺姿,Lying,눕기,仰向けで両膝を胸に引き寄せる,仰卧双膝抱胸,Supine knees to chest,누워 양 무릎 가슴으로 안기,o,o,o,o,o
 S063,P063,sexy,suggestive,寝そべり,躺姿,Lying,눕기,うつ伏せで頬杖・片脚を上げる,俯卧托腮・单腿后翘,"Prone chin on hands, one leg up",엎드려 턱 괴고 한 다리 들기,o,o,o,o,o
 S064,P064,sexy,suggestive,寝そべり,躺姿,Lying,눕기,仰向けで片膝を外に倒して開く,仰卧单膝外倒打开,Supine one knee dropped open,누워 한 무릎 바깥으로 열어 눕히기,o,o,o,o,o
 S065,P065,sexy,suggestive,寝そべり,躺姿,Lying,눕기,肘をついて上体を起こし片膝を立てる,侧卧单肘撑起上身・单膝竖起,"Side-lying propped, knee raised",옆으로 팔꿈치 짚고 상체 일으켜 한 무릎 세우기,x,o,x,x,o
@@ -186,12 +186,12 @@ U031,P031,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴
 U032,P032,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,テーブルに前腕をついて前かがみ,前倾前臂平放桌面,Leaning on forearms (table),상체 숙여 팔뚝 기대기,o,x,x,x,o
 U033,P033,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,前腕を縦にして内へ寄せる,双前臂竖直内夹,"Forearms vertical, pressing in",팔뚝 세워 안쪽으로,x,o,o,o,o
 U034,P034,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,片方の前腕を胸の下に,单前臂横托,One forearm under chest,한쪽 팔뚝 가로로 받치기,o,o,x,o,o
-U035,P035,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,見下ろし構図で両手を鎖骨に,双手平放锁骨,Hands flat on collarbones,양손 쇄골에 얹기,o,o,x,o,o
+U035,P035,upper,general,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,見下ろし構図で両手を鎖骨に,双手平放锁骨,Hands flat on collarbones,양손 쇄골에 얹기,o,o,x,o,o
 U036,P036,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,両手でくびれをつかみ胸を張る,双手掐腰挺胸,"Hands on waist, chest out",양손 허리·가슴 펴기,o,o,o,o,o
 U037,P037,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,両手で脇腹を内へ押す,双手肋侧内推,Hands pressing in at ribs,양손 옆구리서 안으로,o,o,o,o,-
 U038,P038,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,後ろ手を組んで胸を張る,双手背后交握挺胸,"Hands clasped behind, chest out",뒷짐 지고 가슴 펴기,-,-,o,o,-
 U039,P039,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,膝立ちで両手を前につく,跪姿前倾双手撑地,"Kneeling lean, hands on floor",무릎 꿇고 숙여 손 짚기,o,o,o,o,o
-U040,P040,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,片肘を膝について頬杖,单肘支膝托腮,"Elbow on knee, chin on hand",팔꿈치 무릎에·턱 괴기,o,o,x,o,o
+U040,P040,upper,general,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,片肘を膝について頬杖,单肘支膝托腮,"Elbow on knee, chin on hand",팔꿈치 무릎에·턱 괴기,o,o,x,o,o
 U041,P041,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,両腕で自分を抱く,双臂环抱自己,Self-embrace,양팔로 안기,o,o,o,o,o
 U042,P042,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,片手を胸元・片手は髪,单手胸侧・单手扶头,Hand at chest + hand at head,한 손 가슴·한 손 머리,o,o,o,o,x
 U043,P043,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,片肩を落として前のめり,沉单肩前倾,"One shoulder dropped, leaning in",한쪽 어깨 내리고 숙이기,o,x,o,o,o
@@ -232,7 +232,7 @@ U077,P077,upper,suggestive,セクシー系,性感系,Sexy,섹시계,両手を背
 U078,P078,upper,suggestive,セクシー系,性感系,Sexy,섹시계,片手を胸の上・片手を下に,单手覆胸・单手托下,Hand over chest + hand under,한 손 가슴 위·한 손 아래,-,-,-,o,-
 U079,P079,upper,suggestive,セクシー系,性感系,Sexy,섹시계,胸の中央に手を当てて指を下へ,单手平覆胸口中央指尖向下,"Hand flat at chest center, fingers down",한 손 가슴 중앙·손가락 아래로,o,o,o,x,x
 U080,P080,upper,suggestive,セクシー系,性感系,Sexy,섹시계,両手を胸に・少し顔を上げる,双手平放胸前微抬头,"Both hands on chest, head up",양손 가슴·고개 살짝 들기,-,o,o,o,-
-D001,P001,duo,suggestive,立ち,站立,Standing,서기,向き合い片膝を抱え上げる,面对面抬起一膝,"Facing, one knee lifted",마주 보고 한쪽 무릎 들기,o,o,o,o,o
+D001,P001,duo,general,立ち,站立,Standing,서기,向き合い片膝を抱え上げる,面对面抬起一膝,"Facing, one knee lifted",마주 보고 한쪽 무릎 들기,o,o,o,o,o
 D002,P002,duo,suggestive,顔寄せ系,贴脸系,Face-close,얼굴 밀착계,相手の足元にうつ伏せ,在对方脚下俯卧,Prone at partner's feet,상대 발치에 엎드리기,o,o,o,o,-
 D003,P003,duo,suggestive,向かい合って寝る,正对卧位,Face-to-face lying,마주 누운 자세,足首を持ち上げV字に開く,握脚踝双腿V字打开,"Ankles held, legs in V",발목 잡고 다리 V자,o,x,o,o,o
 D004,P004,duo,suggestive,向かい合って寝る,正对卧位,Face-to-face lying,마주 누운 자세,両脚を肩にかけて覆いかぶさる,双腿搭肩俯身,"Legs over shoulders, leaning over",다리 어깨에 얹고 덮기,o,o,o,o,-
@@ -257,11 +257,11 @@ D022,P023,duo,suggestive,上に座る,坐在上方,Seated on top,위에 앉기,�
 D023,P024,duo,suggestive,向かい合って寝る,正对卧位,Face-to-face lying,마주 누운 자세,膝で腰を持ち上げる仰向け,膝顶抬腰仰卧,"On back, hips lifted by knees",무릎으로 허리 들기·누운 자세,o,o,o,o,o
 D024,P025,duo,suggestive,背を向けて座る,背向坐,"Seated, back to partner",등 돌려 앉기,膝の上で前にもたれる,坐在腿上前靠,"Seated on lap, leaning forward",무릎 위 앞으로 기대기,x,o,o,x,x
 D025,P026,duo,suggestive,向かい合って寝る,正对卧位,Face-to-face lying,마주 누운 자세,腰を高く抱え上げる仰向け,高抱腰仰卧,"Hips lifted high, on back",허리 높이 안아 올리기·누운 자세,o,o,o,o,o
-D026,P030,duo,suggestive,立ち,站立,Standing,서기,腕を前に伸ばし腰を支えられる,双臂前伸扶腰,"Arms stretched forward, waist supported",팔 앞으로 뻗어 허리 지지,-,o,o,o,o
+D026,P030,duo,general,立ち,站立,Standing,서기,腕を前に伸ばし腰を支えられる,双臂前伸扶腰,"Arms stretched forward, waist supported",팔 앞으로 뻗어 허리 지지,-,o,o,o,o
 D027,P031,duo,suggestive,上に座る,坐在上方,Seated on top,위에 앉기,立てた膝にもたれて座る,靠着抬起的膝坐,Seated against raised knee,세운 무릎에 기대어 앉기,o,o,o,o,o
 D028,P032,duo,suggestive,顔寄せ系,贴脸系,Face-close,얼굴 밀착계,上に重なる互い違い,头尾交错重叠,Head-to-toe overlapping,머리와 발 엇갈려 겹치기,o,x,o,x,o
 D029,P034,duo,suggestive,顔寄せ系,贴脸系,Face-close,얼굴 밀착계,仰向けの相手の頭上で膝立ち,跪在仰卧者头部上方,Kneeling above partner's head,누운 상대 머리 위 무릎 꿇기,-,x,-,x,x
-D030,P036,duo,suggestive,座り,坐姿,Seated,앉은 자세,後ろ手をついて脚を絡める,手撑地缠腿坐,"Seated, hands back, legs tangled",손 뒤로 짚고 다리 얽어 앉기,o,o,o,o,o
+D030,P036,duo,general,座り,坐姿,Seated,앉은 자세,後ろ手をついて脚を絡める,手撑地缠腿坐,"Seated, hands back, legs tangled",손 뒤로 짚고 다리 얽어 앉기,o,o,o,o,o
 D031,P037,duo,suggestive,上に座る,坐在上方,Seated on top,위에 앉기,上げた片脚を抱きしめる,抱起抬高的一腿,Holding one raised leg,들어올린 한 다리 안기,o,o,o,o,x
 D032,P040,duo,suggestive,向かい合って寝る,正对卧位,Face-to-face lying,마주 누운 자세,四つん這いで覆いかぶさる,四肢撑在对方上方,On all fours over partner,네발로 상대 위에 숙이기,x,x,o,x,x
 D033,P041,duo,suggestive,前後に並ぶ,前后位置,One behind the other,앞뒤 자세,胸を床につけ腰を上げる,胸贴地抬腰,"Chest to floor, hips raised",가슴 바닥·허리 들기,o,o,o,o,o
@@ -273,11 +273,11 @@ D038,P046,duo,suggestive,上に座る,坐在上方,Seated on top,위에 앉기,�
 D039,P047,duo,suggestive,横向き,侧卧,Side-lying,옆으로 눕기,脚を交差させ片脚を肩へ,腿交叉单腿搭肩,"Legs crossed, one leg on shoulder",다리 교차·한 다리 어깨에,o,x,x,o,o
 D040,P048,duo,suggestive,前後に並ぶ,前后位置,One behind the other,앞뒤 자세,うつ伏せで片脚を持ち上げる,俯卧抬起一腿,"Face down, one leg lifted",엎드려 한 다리 들기,o,o,o,o,o
 D041,P049,duo,suggestive,立って寄り添う,站立贴近,Standing close,서서 가까이,抱き合い脚を絡める,相拥缠腿站立,"Standing embrace, legs tangled",안고 다리 얽어 서기,o,x,o,o,o
-D042,P050,duo,suggestive,立って寄り添う,站立贴近,Standing close,서서 가까이,背伸びして片足を後ろへ,踮脚单脚后踢站立,"On tiptoe, one leg kicked back",까치발·한 발 뒤로,o,o,o,o,o
-D043,P051,duo,suggestive,立って寄り添う,站立贴近,Standing close,서서 가까이,耳元でささやき頬に触れる,耳边低语抚脸,"Whispering, hand on cheek",귓가에 속삭이며 볼 만지기,o,o,o,o,o
+D042,P050,duo,general,立って寄り添う,站立贴近,Standing close,서서 가까이,背伸びして片足を後ろへ,踮脚单脚后踢站立,"On tiptoe, one leg kicked back",까치발·한 발 뒤로,o,o,o,o,o
+D043,P051,duo,general,立って寄り添う,站立贴近,Standing close,서서 가까이,耳元でささやき頬に触れる,耳边低语抚脸,"Whispering, hand on cheek",귓가에 속삭이며 볼 만지기,o,o,o,o,o
 D044,P052,duo,suggestive,立ち,站立,Standing,서기,両手首を頭上で持つ,头上握住双手腕,Both wrists held overhead,양 손목 머리 위로 잡기,o,o,o,o,-
 D045,P053,duo,suggestive,立ち,站立,Standing,서기,背後から抱きしめる,背后环抱,Hug from behind,뒤에서 안기,o,o,o,x,o
-D046,P054,duo,suggestive,立って寄り添う,站立贴近,Standing close,서서 가까이,横抱きにされて背を反らす,横抱后仰,"Carried sideways, back arched",옆으로 안겨 등 젖히기,o,o,o,o,o
+D046,P054,duo,general,立って寄り添う,站立贴近,Standing close,서서 가까이,横抱きにされて背を反らす,横抱后仰,"Carried sideways, back arched",옆으로 안겨 등 젖히기,o,o,o,o,o
 D047,P055,duo,suggestive,座って寄り添う,坐着贴近,Seated close,앉아 가까이,横座りで片脚を高く伸ばす,横坐高伸一腿,"Seated sideways, one leg raised high",옆으로 앉아 한 다리 높이 뻗기,o,x,o,o,o
 D048,P056,duo,suggestive,横向き,侧卧,Side-lying,옆으로 눕기,肘をついて隣から見下ろす,肘撑在旁俯视,"On elbow beside partner, looking down",팔꿈치 짚고 옆에서 내려다보기,x,x,o,o,o
 D049,P057,duo,suggestive,寝そべり,躺卧,Lying,누운 자세,脚をかけて添い寝する,腿搭着依偎睡,"Cuddling, leg draped over",다리 걸고 기대어 자기,-,o,-,x,o

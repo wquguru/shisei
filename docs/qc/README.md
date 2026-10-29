@@ -70,6 +70,13 @@ std 的 130 个 structure 里有 115 个来自 23 套姿势名不符（P019–P0
   理由写在 `qc.json`，审图结果放在合并目录的 `fail_child.json`。
 - 合并时把第一轮的 fail / name / dups 和第二轮的放在同一个目录跑 `qc_merge.py`，第一轮三个系列的结果逐行比对没有变化。
 
+## 分级复核（2026-10-29）
+`rating_prompt.md` 逐套审了站上 256 套：0 个问题，74 套和按分类定的分级不一致。人定（用户）：只改把握大的，加上 P057、P071，共 15 套，
+记在 `data/rating_overrides.json`（`import_series.py` 重导入时也优先用它，`verify.py` 检查已生效）：
+- 改成全年龄：S012、S014、S030、S035、S062，U035、U040，D001、D026、D030、D042、D043、D046；
+- 改成性感：P057、P071（因此不再有静态姿势页和分享卡）。
+其余 59 处保持按分类分级。
+
 ## 复审 / 新系列
 ```bash
 SRC="std=$HOME/Downloads/pose-gallery-std73 sexy=$HOME/Downloads/pose-gallery-sexy80 upper=$HOME/Downloads/pose-gallery-upper80 duo=$HOME/Downloads/pose-gallery-duo55"

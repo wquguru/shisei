@@ -1,0 +1,92 @@
+{
+ "D001": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "standing embrace, one knee lifted",
+  "decided": "2026-10-29"
+ },
+ "D026": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "standing, arm outstretched, waist supported",
+  "decided": "2026-10-29"
+ },
+ "D030": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "seated side by side, legs crossed",
+  "decided": "2026-10-29"
+ },
+ "D042": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "standing embrace on tiptoe",
+  "decided": "2026-10-29"
+ },
+ "D043": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "standing close, hand on cheek and waist",
+  "decided": "2026-10-29"
+ },
+ "D046": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "carried sideways in arms",
+  "decided": "2026-10-29"
+ },
+ "P057": {
+  "rating": "suggestive",
+  "was": "general",
+  "reason": "lying on back arched chest up, knees apart",
+  "decided": "2026-10-29"
+ },
+ "P071": {
+  "rating": "suggestive",
+  "was": "general",
+  "reason": "kneeling arched back, chest pushed forward",
+  "decided": "2026-10-29"
+ },
+ "S012": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "side leg raise",
+  "decided": "2026-10-29"
+ },
+ "S014": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "forward fold",
+  "decided": "2026-10-29"
+ },
+ "S030": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "Knees hugged sitting, neutral",
+  "decided": "2026-10-29"
+ },
+ "S035": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "Half-kneel, hand on thigh, neutral",
+  "decided": "2026-10-29"
+ },
+ "S062": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "Knees hugged to chest, neutral",
+  "decided": "2026-10-29"
+ },
+ "U035": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "hands on collarbones",
+  "decided": "2026-10-29"
+ },
+ "U040": {
+  "rating": "general",
+  "was": "suggestive",
+  "reason": "thinker pose, chin on hand",
+  "decided": "2026-10-29"
+ }
+}

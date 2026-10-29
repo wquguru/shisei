@@ -5,6 +5,7 @@ Usage: python3 tools/import_series.py SRC --series sexy --added 0.2.0 [--general
 Entries of that series are replaced; others are kept. Views become bare file names (null = not generated).
 --general lists class_en values rated "general"; every other category of the series is "suggestive".
 Without --general the whole series is rated by --rating (default general).
+Per-pose decisions in data/rating_overrides.json (docs/qc/README.md, rating check) win over the category rule.
 """
 import argparse, json, pathlib
 
@@ -24,6 +25,8 @@ def main() -> None:
     ap.add_argument("--rating", default="general", choices=("general", "suggestive"))
     a = ap.parse_args()
     general = {s for s in a.general.split(",") if s}
+    ov_path = ROOT / "data/rating_overrides.json"
+    overrides = json.loads(ov_path.read_text()) if ov_path.exists() else {}
     src = json.loads((pathlib.Path(a.src).expanduser() / "catalog.json").read_text())
     path = ROOT / "data/catalog.json"
     cat = [p for p in json.loads(path.read_text()) if p.get("series") != a.series]
@@ -32,6 +35,7 @@ def main() -> None:
         q["series"] = a.series
         q["added_in"] = a.added
         q["rating"] = ("general" if p["class_en"] in general else "suggestive") if general else a.rating
+        q["rating"] = overrides.get(p["id"], {}).get("rating", q["rating"])
         q.setdefault("desc_en", "")
         q["views"] = {v: (pathlib.Path(p["views"][v]).name if p["views"].get(v) else None) for v in VIEWS}
         q.setdefault("photos", [])
