@@ -4,6 +4,22 @@
 # tag: new | improve | announce | removed. link: an in-site path without language prefix (/, /changelog/, /pose/P001/),
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
+  - date: 2026-10-29
+    tag: improve
+    title: Download a whole series in one small zip
+    desc: The download button now offers one zip per series or all of them, at a size that is quick on a phone. Originals are still there for tracing or print.
+    link: /
+    cta: Open the gallery
+    title_zh: 一个压缩包下载整个系列
+    desc_zh: 下载按钮现在可以按系列或一次下载全部，体积小，手机上也很快。需要描线或打印时，原图包依然可以下载。
+    cta_zh: 打开画廊
+    title_ja: シリーズ単位で軽い zip をダウンロード
+    desc_ja: ダウンロードボタンからシリーズごと、またはすべてをまとめて取得できます。スマホでもすぐ終わるサイズです。原寸パックも引き続き用意しています。
+    cta_ja: ギャラリーを開く
+    title_ko: 시리즈 전체를 가벼운 zip 하나로
+    desc_ko: 다운로드 버튼에서 시리즈별 또는 전체를 한 번에 받을 수 있습니다. 휴대폰에서도 금방 받는 크기이며, 원본 묶음도 그대로 받을 수 있습니다.
+    cta_ko: 갤러리 열기
+
   - date: 2026-10-28
     tag: new
     title: Share any pose, with its own preview card

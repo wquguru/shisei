@@ -7,26 +7,21 @@ the catalog schema.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-29
+
 ### Added
 - Two new series: upper body (80 poses, U001–U080) and full-body sexy (80 poses, S001–S080). The catalog gains
   `series`, `rating`, `added_in` and `gaps`; `photos` becomes a `{view: file}` map.
 - Duo series: 55 two-figure poses (D001–D055, `bodies` MF / FF), rated suggestive; 49 sets and 193 / 275 views pass QC.
 - Line-art QC for all 1,375 views ([docs/qc/](docs/qc/README.md)): Sonnet panel review plus a pose-name check,
   merged by `tools/qc_merge.py` into `data/qc.json`. 1,049 views pass; failed views leave `images/` and the catalog.
+- Content-rating review of every shown set ([docs/qc/rating_prompt.md](docs/qc/rating_prompt.md)); 15 ratings changed by hand
+  (`data/rating_overrides.json`): 13 to general, P057 and P071 to suggestive.
 - Photo-render QC ([docs/qc/photo_prompt.md](docs/qc/photo_prompt.md)): 103 / 112 pass, results in `qc.json` `photos`.
 - Gallery: series tabs, a "sexy content" switch (hidden by default, D-06), an "all 5 angles" filter, "failed QC" vs
   "not generated" placeholders, and counts computed from the data.
 - Tools: `import_series.py`, `review_sheets.py`, `line_dups.py`, `qc_merge.py`, `export_csv.py`; `build_images.py`
   replaces `build_images.sh` and prunes files that are no longer in the catalog.
-
-### Changed
-- Suggestive poses (sexy, duo, upper's Sexy and Chest emphasis) are now hidden by default; the switch shows them (D-06).
-- Neutral names for suggestive poses: duo categories no longer use sex-position terms (e.g. 後背位 → 前後に並ぶ,
-  From-behind → One behind the other), and ja names in the sexy and upper series match the plainer zh / en / ko wording.
-
-### Removed
-- 157 std views that failed QC, including 23 whole sets whose drawing is a different pose from their name (D-07).
-- 9 photo renders that failed QC (cropped limbs, an extra foot).
 - Licensed under Apache-2.0 (`LICENSE`, `NOTICE`) for code, catalog, docs and images; the full-size zip now includes
   both files. Licensing rules in [docs/LICENSING.md](docs/LICENSING.md).
 - `CONTRIBUTING.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md`, issue templates (bug, pose request) and a PR template.
@@ -46,6 +41,22 @@ the catalog schema.
   BreadcrumbList, CollectionPage), sitemap.xml with image entries, robots.txt, 404 page, web manifest and icons;
   the build fails on a missing share tag or a broken relative link.
 - Gallery design: desktop, lightbox, mobile filter sheet and five pose-card states ([docs/DESIGN.md](docs/DESIGN.md)).
+- Gallery download panel: the w900 tier as one zip per series and one for all series (recommended, about a quarter
+  of the originals' size), plus an originals zip; sizes come from `data/packs.json`. `tools/pack_release.py` replaces
+  `pack_release.sh` and packs only views that passed QC (the old script zipped the whole source set).
+
+### Changed
+- Suggestive poses (sexy, duo, upper's Sexy and Chest emphasis) are now hidden by default; the switch shows them (D-06).
+- Neutral names for suggestive poses: duo categories no longer use sex-position terms (e.g. 後背位 → 前後に並ぶ,
+  From-behind → One behind the other), and ja names in the sexy and upper series match the plainer zh / en / ko wording.
+- Gallery: the language button is now a menu listing all four languages (it used to cycle through them, and a
+  `?lang` in the address could send the reader back); pose counts in the hero cover the whole library and no longer
+  change with the sexy-content switch.
+
+### Removed
+- 157 std views that failed QC, including 23 whole sets whose drawing is a different pose from their name (D-07).
+- 9 photo renders that failed QC (cropped limbs, an extra foot).
+- Gallery search (and the `/` shortcut, `?q=`) and the "N new poses" row on the home page; the NEW filter stays.
 
 ## [0.1.0] - 2026-10-28
 
