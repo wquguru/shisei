@@ -5,6 +5,22 @@
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
   - date: 2026-10-29
+    tag: improve
+    title: GitHub on phones
+    desc: The top bar on phones now keeps the GitHub button as an icon next to language and dark mode.
+    link: /
+    cta: Open the gallery
+    title_zh: 手机上也能找到 GitHub
+    desc_zh: 手机顶栏现在保留 GitHub 按钮，以图标形式放在语言和深色模式旁边。
+    cta_zh: 打开图库
+    title_ja: スマホでも GitHub へ
+    desc_ja: スマホの上部バーに GitHub ボタンを残しました。言語・ダークモードの隣にアイコンで並びます。
+    cta_ja: ギャラリーを開く
+    title_ko: 휴대폰에서도 GitHub
+    desc_ko: 휴대폰 상단 바에 GitHub 버튼을 아이콘으로 남겨 언어・다크 모드 옆에 두었습니다.
+    cta_ko: 갤러리 열기
+
+  - date: 2026-10-29
     tag: removed
     title: Simpler filters
     desc: The NEW badges and the NEW and all-five-angles chips are gone; pick a series to filter by category, or pick an angle above the grid.

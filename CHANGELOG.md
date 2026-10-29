@@ -17,6 +17,8 @@ the catalog schema.
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- Phone nav (≤720 px) keeps GitHub as a 44 px icon button with the GitHub mark (it was hidden); the language pill
+  shows a short code (中 / 日 / EN / 한) and the brand shrinks so it all fits 360 px. Pose and changelog pages too.
 - The hero title is two phrases that never break inside (description + highlighted angle count), with Shisei moved
   to an eyebrow: Chinese and Japanese no longer split a word such as 姿势 across lines, Korean keeps words whole.
 - The category row drops the NEW and all-five-angles chips (NEW equalled "not std", already a series tab; all five

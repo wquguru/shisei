@@ -150,6 +150,7 @@
     document.querySelectorAll('[data-i18n-ph]').forEach((el) => { el.placeholder = T[el.dataset.i18nPh]; });
     document.querySelectorAll('[data-i18n-aria]').forEach((el) => { el.setAttribute('aria-label', T[el.dataset.i18nAria]); });
     $('langName').textContent = I18N[S.lang].langName;
+    $('langShort').textContent = I18N[S.lang].langShort;
     // The hero counts the whole published library, so the number does not move when suggestive poses are hidden.
     const n = poses.length;
     const views = poses.reduce((s, p) => s + p.line.filter(Boolean).length, 0);

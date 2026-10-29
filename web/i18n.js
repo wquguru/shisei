@@ -137,7 +137,7 @@ window.I18N = {
 window.I18N_PAGES = // BEGIN-JSON
 {
   "zh": {
-    "langName": "中文", "ogLocale": "zh_CN",
+    "langName": "中文", "langShort": "中", "ogLocale": "zh_CN",
     "navPoses": "姿势", "navChangelog": "更新日志",
     "views": ["正面", "斜侧", "侧面", "俯视", "仰视"],
     "descLabel": "英文姿势描述，可直接放进提示词", "copy": "复制", "copied": "已复制",
@@ -165,7 +165,7 @@ window.I18N_PAGES = // BEGIN-JSON
     "nfTitle": "找不到这个页面", "nfBody": "链接可能写错了，或者页面已经移走。", "backHome": "回到画廊"
   },
   "ja": {
-    "langName": "日本語", "ogLocale": "ja_JP",
+    "langName": "日本語", "langShort": "日", "ogLocale": "ja_JP",
     "navPoses": "ポーズ", "navChangelog": "更新履歴",
     "views": ["正面", "斜め", "横", "上から", "下から"],
     "descLabel": "英語のポーズ説明（プロンプトにそのまま使えます）", "copy": "コピー", "copied": "コピーしました",
@@ -193,7 +193,7 @@ window.I18N_PAGES = // BEGIN-JSON
     "nfTitle": "ページが見つかりません", "nfBody": "リンクが間違っているか、ページが移動しました。", "backHome": "ギャラリーへ戻る"
   },
   "en": {
-    "langName": "English", "ogLocale": "en_US",
+    "langName": "English", "langShort": "EN", "ogLocale": "en_US",
     "navPoses": "Poses", "navChangelog": "Changelog",
     "views": ["Front", "3/4", "Side", "Above", "Below"],
     "descLabel": "Pose description, ready for a prompt", "copy": "Copy", "copied": "Copied",
@@ -221,7 +221,7 @@ window.I18N_PAGES = // BEGIN-JSON
     "nfTitle": "Page not found", "nfBody": "The link may be mistyped, or the page has moved.", "backHome": "Back to the gallery"
   },
   "ko": {
-    "langName": "한국어", "ogLocale": "ko_KR",
+    "langName": "한국어", "langShort": "한", "ogLocale": "ko_KR",
     "navPoses": "포즈", "navChangelog": "변경 내역",
     "views": ["정면", "대각선", "옆", "위에서", "아래에서"],
     "descLabel": "영문 포즈 설명 (프롬프트에 바로 사용)", "copy": "복사", "copied": "복사됨",

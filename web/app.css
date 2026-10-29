@@ -88,6 +88,7 @@ img { display: block; }
 /* language menu: an explicit list, the current one checked */
 .lang-menu { position: relative; }
 .lang-btn { gap: 8px; padding: 0 16px; font-weight: 500; }
+.lang-short { display: none; }
 .lang-list { position: absolute; right: 0; top: calc(100% + 8px); z-index: 60; width: 200px; padding: 6px; display: flex; flex-direction: column; gap: 2px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); box-shadow: 0 16px 40px -12px rgba(24,24,27,0.25); }
 .lang-list[hidden] { display: none; }
 .lang-list a { display: flex; align-items: center; justify-content: space-between; min-height: 44px; padding: 0 14px; border-radius: 12px; text-decoration: none; font-size: 15px; color: var(--ink); }
@@ -289,8 +290,19 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .keys { display: none; }
 }
 @media (max-width: 720px) {
-  .nav { gap: 10px; }
-  .nav-tools > .pill { display: none; }
+  /* GitHub stays on the phone as an icon button; the language pill shows its short code so brand + three buttons
+     fit 360 px. */
+  .nav { gap: 8px; padding-top: 14px; padding-bottom: 14px; }
+  .brand { gap: 8px; padding: 4px 12px 4px 4px; border-radius: 14px; font-size: 18px; }
+  .brand .logo { width: 36px; height: 36px; }
+  .nav-tools { gap: 8px; }
+  .nav-tools .pill.small { height: 44px; }
+  .nav-tools .circle { width: 44px; height: 44px; }
+  .lang-btn { gap: 6px; padding: 0 12px; font-weight: 600; font-size: 15px; }
+  .lang-full { display: none; }
+  .lang-short { display: inline; }
+  .nav-tools > .gh { width: 44px; padding: 0; }
+  .nav-tools > .gh span { display: none; }
   /* The hero fits one phone screen with the nav: one marquee row, smaller type and chips. */
   .hero { padding: 16px 0 20px; gap: 12px; }
   .hero h1 { font-size: 38px; line-height: 1.12; text-shadow: 2px 3px 0 var(--shadow); }
