@@ -14,8 +14,8 @@
     upper: [['Cute', '#EBC0BC'], ['Sexy', '#E6B7A1'], ['Chest emphasis', '#CBD0AC']],
     sexy: [['Standing', '#AFC3E0'], ['Sitting', '#D3D1E6'], ['Lying', '#E3CBB0'], ['Kneeling & all fours', '#BCD3C6'], ['Special', '#DDB9C8']]
   };
-  // Suggestive poses (the sexy series, upper's Sexy / Chest emphasis) stay hidden until the reader opts in (DECISIONS D-06).
-  const SHOW_SUGGESTIVE_DEFAULT = false;
+  // Suggestive poses (the sexy series, upper's Sexy / Chest emphasis) show by default; the reader can hide them (DECISIONS D-06).
+  const SHOW_SUGGESTIVE_DEFAULT = true;
   const TOOLS = ['ComfyUI', 'Stable Diffusion', 'Flux', 'Midjourney', 'Nano Banana', 'Qwen-Image', '即梦'];
   const NAME_LABEL = { cn: 'ZH', jp: 'JA', en: 'EN', kr: 'KO' };
   // Each language has its own copy of this page (zh at the root, the others under ja/ en/ ko/) so search engines and
