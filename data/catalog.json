@@ -171,7 +171,7 @@
   "name_kr": "다리 대각선으로 뻗고 허리에 손",
   "desc_en": "sitting on the floor, both legs extended straight out diagonally to her left side together, one hand resting on her hip, her other arm extended behind her with the hand on the floor supporting her upright torso",
   "views": {
-   "front": "std_P006_front.webp",
+   "front": null,
    "diag": "std_P006_diag.webp",
    "side": "std_P006_side.webp",
    "above": "std_P006_above.webp",
@@ -185,6 +185,7 @@
    "below": "std_P006_below.webp"
   },
   "gaps": {
+   "front": "structure",
    "below": "line"
   }
  },

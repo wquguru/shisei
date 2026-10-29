@@ -419,7 +419,8 @@
   "P006": {
    "front": {
     "file": "std_P006_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "three arms: right shoulder has one arm on hip and a second arm propped down beside the hip (found by a person, missed by panel and name review)"
    },
    "diag": {
     "file": "std_P006_diag.webp",

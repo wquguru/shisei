@@ -1,0 +1,11 @@
+{
+ "reviewed": [],
+ "fails": [
+  {
+   "set": "P006",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "three arms: right shoulder has one arm on hip and a second arm propped down beside the hip (found by a person, missed by panel and name review)"
+  }
+ ]
+}

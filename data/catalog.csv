@@ -4,7 +4,7 @@ P002,,std,general,座り,坐姿,Sitting,앉기,片手支え・脚前方流し,�
 P003,,std,general,座り,坐姿,Sitting,앉기,両手後ろ支え・胸を張る,双手后撑・挺胸坐,"Sitting, hands behind, chest out",양손 뒤로 짚고 가슴 펴기,o,o,o,o,o
 P004,,std,general,座り,坐姿,Sitting,앉기,三角座り・膝を左へ傾ける,三角坐・双膝左倾,"Triangle sit, knees tilted left",삼각 앉기·무릎 왼쪽으로 기울이기,o,o,o,o,x
 P005,,std,general,座り,坐姿,Sitting,앉기,片膝立て・髪に手,单膝竖起・手触发,"Sitting, one knee raised, hand in hair",한쪽 무릎 세우고 머리에 손,o,o,o,o,o
-P006,,std,general,座り,坐姿,Sitting,앉기,脚を斜めに伸ばして腰に手,双腿斜伸・手扶腰,"Sitting, legs extended diagonally, hand on hip",다리 대각선으로 뻗고 허리에 손,o,o,o,o,x
+P006,,std,general,座り,坐姿,Sitting,앉기,脚を斜めに伸ばして腰に手,双腿斜伸・手扶腰,"Sitting, legs extended diagonally, hand on hip",다리 대각선으로 뻗고 허리에 손,x,o,o,o,x
 P007,,std,general,座り,坐姿,Sitting,앉기,両肘ついて寝そべり座り,双肘撑地俯卧,Lying prone propped on both elbows,양 팔꿈치 짚고 엎드리기,o,o,o,o,o
 P008,,std,general,座り,坐姿,Sitting,앉기,膝を立てて両手を頭の後ろ,双膝竖起・双手抱头,"Sitting, knees up, hands behind head",무릎 세우고 양손 머리 뒤로,x,o,o,o,x
 P009,,std,general,座り,坐姿,Sitting,앉기,右へ傾く・肘支え,右倾・肘撑坐,Sitting leaning right on elbow,오른쪽으로 기울어 팔꿈치 지지,o,x,o,o,o

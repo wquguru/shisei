@@ -11,6 +11,10 @@ the catalog schema.
 - Images and the project's own data are now CC0 1.0 (`LICENSE-images`); code and docs stay Apache-2.0. Every zip ships
   LICENSE, LICENSE-images and NOTICE. README and NOTICE credit the pose list to ai-pose-gallery by ギア (@giaaibusi).
 
+### Removed
+- P006 front view: the drawing has three arms, which the QC review missed. Manual QC results now go in
+  `data/qc-input/fail_manual.json`.
+
 ## [0.2.0] - 2026-10-29
 
 ### Added
