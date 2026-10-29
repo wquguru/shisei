@@ -17,6 +17,9 @@ the catalog schema.
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- Every count on the site comes from one computation in `build_site.py`, also published as `/stats.json`. Page
+  titles and the home share card say 1,100+ line-art views instead of "69 poses × 5 angles" (which counted only std
+  general sets); descriptions give 280 sets and 1,133 views; no copy says every pose has five angles.
 - Missing views read as friendly, not as errors: the dashed box and the「暂未收录」/「质检未通过」 copy give way to an
   icon, 「正在补画」 (or 「暂无实拍」 for photos) and a button to the nearest angle that has one; hollow dots mark the
   missing angles, the phone's three columns keep only the icon and a word, pose pages match. All four languages.
