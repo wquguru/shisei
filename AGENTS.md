@@ -61,7 +61,7 @@ site/                build output of tools/build_site.py (git-ignored; deploy th
 build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.py,
                      import_series.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py, export_csv.py
-docs/qc/             QC method, results and the reviewer prompts (panels, name, proportion, photo, rating)
+docs/qc/             QC method, results and the reviewer prompts (panels, name, limbs, proportion, photo, rating)
 .claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
 docs/DECISIONS.md    open questions and decisions awaiting a human
@@ -92,7 +92,7 @@ python3 -I tools/pack_release.py 0.2.0 std=… upper=… sexy=… duo=…   # di
 
 ## 6. Way of working
 - **Adding poses or views**: drop sources into the source set → `import_series.py` (or edit the catalog: all four
-  languages, `desc_en` where possible) → QC per docs/qc/README.md (panels + name; proportion and rating on what passed)
+  languages, `desc_en` where possible) → QC per docs/qc/README.md (panels + name; limbs, proportion and rating on what passed)
   → `qc_merge.py data/qc-input` → `build_images.py` → `verify.py`
   → `export_csv.py` → CHANGELOG line and a GENERATION.md note.
 - **Translations**: ja is the original naming; zh / en / ko are translations. Keep names short (`動作・手の位置`

@@ -11,6 +11,7 @@ Modes (each pairs with a prompt in docs/qc/):
   proportion  every view of a set, 360x480 each             proportion_prompt.md  <id>.jpg
   rating      first 3 views of a set on one sheet           rating_prompt.md      <id>.jpg
   photo       up to 3 photo renders per sheet, 400x800      photo_prompt.md       <id>__<view>-<view>.jpg
+  limbs       up to 2 views per sheet, 600x800 each        limbs_prompt.md       <id>__<view>-<view>.jpg
 Views are every generated file (catalog or qc.json), so a failed view can be re-reviewed; --passed keeps only the
 views now in the catalog — use it for proportion and rating, which judge what ships.
 A batch file for a reviewer is just a list of sheet paths: `ls OUT_DIR/*.jpg | split -l 35 - OUT_DIR/batch_`.
@@ -30,7 +31,7 @@ EXPECT = {
 BODIES = {"MF": "1 man (broad shoulders) + 1 woman", "FF": "2 women"}
 # panel size, views per sheet (None = all), per-set sheet name
 MODES = {"panels": ((600, 800), 3, False), "name": ((600, 800), 3, True), "proportion": ((360, 480), None, True),
-         "rating": ((600, 800), 3, True), "photo": ((400, 800), 3, False)}
+         "rating": ((600, 800), 3, True), "photo": ((400, 800), 3, False), "limbs": ((600, 800), 2, False)}
 
 
 def sheet(path, title, panels, size):
@@ -74,6 +75,7 @@ def main() -> None:
                      for v in VIEWS}
             panels = [(v, src / "img" / files[v]) for v in VIEWS if files[v]]
             title = {"panels": f"{pid} | {p['name_en']} | expected: {expect}",
+                     "limbs": f"{pid} | {p['name_en']} | expected: {expect}",
                      "name": f"{pid} | {p['class_en']} | {p['name_en']} | ja: {p['name_jp']}"
                              + (f" | bodies {p['bodies']}" if p.get("bodies") else ""),
                      "proportion": f"{pid} | {p['name_en']} | bodies {p.get('bodies') or 'F'}",
