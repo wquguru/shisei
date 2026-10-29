@@ -8,6 +8,17 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- Two new series: upper body (80 poses, U001–U080) and full-body sexy (80 poses, S001–S080). The catalog gains
+  `series`, `rating`, `added_in` and `gaps`; `photos` becomes a `{view: file}` map.
+- Line-art QC for all 1,100 views ([docs/qc/](docs/qc/README.md)): Sonnet panel review plus a pose-name check,
+  merged by `tools/qc_merge.py` into `data/qc.json`. 856 views pass; failed views leave `images/` and the catalog.
+- Gallery: series tabs, a "sexy content" toggle (off by default, D-06), an "all 5 angles" filter, "failed QC" vs
+  "not generated" placeholders, and counts computed from the data.
+- Tools: `import_series.py`, `review_sheets.py`, `line_dups.py`, `qc_merge.py`, `export_csv.py`; `build_images.py`
+  replaces `build_images.sh` and prunes files that are no longer in the catalog.
+
+### Removed
+- 157 std views that failed QC, including 23 whole sets whose drawing is a different pose from their name (D-07).
 - Licensed under Apache-2.0 (`LICENSE`, `NOTICE`) for code, catalog, docs and images; the full-size zip now includes
   both files. Licensing rules in [docs/LICENSING.md](docs/LICENSING.md).
 - `CONTRIBUTING.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md`, issue templates (bug, pose request) and a PR template.

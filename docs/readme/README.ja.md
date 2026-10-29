@@ -4,12 +4,12 @@
 
 # Shisei 姿勢
 
-**73 ポーズ × 5 アングル。AI 画像生成のポーズ参照に使える素体の線画ライブラリ。**
+**3 シリーズ 207 ポーズ × 5 アングル。AI 画像生成のポーズ参照に使える素体の線画ライブラリ。**
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
-[![Poses](https://img.shields.io/badge/ポーズ-73-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/線画-364%2F365-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Poses](https://img.shields.io/badge/ポーズ-207-15171A?style=flat-square)](../../data/catalog.json)
+[![Line art](https://img.shields.io/badge/線画-856%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/実写-111-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/ランタイム依存-0-E07A52?style=flat-square)](../../web)
@@ -27,17 +27,16 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 
 ## 収録内容
 
-| カテゴリ | ポーズ数 | | カテゴリ | ポーズ数 |
-|---|---:|---|---|---:|
-| 座り | 14 | | しゃがみ | 6 |
-| 立ち | 14 | | 前かがみ | 6 |
-| 膝立ち | 10 | | 反り | 3 |
-| 寝そべり | 9 | | ひねり | 3 |
-| 横座り | 8 | | **合計** | **73** |
+| シリーズ | 表示ポーズ | 品質チェック合格 | サイトでの扱い |
+|---|---:|---:|---|
+| 全身・標準（`std`、P###） | 50 / 73 | 208 / 365 | 表示 |
+| 上半身（`upper`、U###） | 77 / 80 | 307 / 400 | かわいい系は表示、セクシー系・胸寄せ系はスイッチで表示 |
+| 全身・セクシー（`sexy`、S###） | 80 / 80 | 341 / 400 | スイッチで表示 |
 
-- 線画は **365 枚中 364 枚**。唯一の欠番は P062 の下からのアングルで、9 回試して失敗したため、出来の悪い絵で埋めずに欠番としています。
-- **実写 111 枚**（23 ポーズ：P001–P022 は 5 アングル、P050 は正面）。AI 生成の成人で、実在の人物ではありません。
-- `data/catalog.json` / `catalog.csv`：ID、四か国語のカテゴリと名称、プロンプトに貼れる英語のポーズ説明、アングルごとのファイル名。
+- **すべてのアングルを品質チェック**しています（[docs/qc/](../qc/README.md)）。乳首の印、顔や髪、衣服、背景、崩れた構造、違うアングル、名前と違うポーズのものは `images/` と catalog から外し、理由を `data/qc.json` に残しています。std の 23 ポーズは名前と絵が合わないため、名前を直すまで非表示です。
+- 生成できなかったアングルは、崩れた絵で埋めずに空けています。
+- **実写 112 枚**（std の P001–P022 と P050）。AI 生成の成人で、実在の人物ではありません。
+- `data/catalog.json` / `catalog.csv`：シリーズ、レーティング、4 言語の分類と名前、std の英語ポーズ説明、アングルごとのファイル、空欄の理由。
 
 ## 使い方
 
@@ -69,7 +68,7 @@ python3 tools/build_site.py                    # 画像込みのデプロイ用�
 data/       catalog.json、catalog.csv — 唯一のデータソース
 images/     line/ と photo/、それぞれ w300/ と w900/
 web/        静的ギャラリーのソース（index.html、app.js、app.css、i18n.js）
-tools/      build_images.sh、build_site.py、verify.py、pack_release.sh
+tools/      build_images.py、build_site.py、verify.py、qc_merge.py、review_sheets.py、pack_release.sh
 docs/       DESIGN、DECISIONS、GENERATION、LICENSING、各言語の README、ロゴ、スクリーンショット
 ```
 

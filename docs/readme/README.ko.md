@@ -4,12 +4,12 @@
 
 # Shisei 姿勢
 
-**73가지 포즈 × 5개 앵글. AI 이미지 도구의 포즈 참고용 마네킹 선화 라이브러리.**
+**3개 시리즈 207가지 포즈 × 5개 앵글. AI 이미지 도구의 포즈 참고용 마네킹 선화 라이브러리.**
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
-[![Poses](https://img.shields.io/badge/포즈-73-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/선화-364%2F365-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Poses](https://img.shields.io/badge/포즈-207-15171A?style=flat-square)](../../data/catalog.json)
+[![Line art](https://img.shields.io/badge/선화-856%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/실사-111-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/이름-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/런타임%20의존성-0-E07A52?style=flat-square)](../../web)
@@ -27,17 +27,16 @@ Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는
 
 ## 구성 내용
 
-| 카테고리 | 포즈 수 | | 카테고리 | 포즈 수 |
-|---|---:|---|---|---:|
-| 앉기 | 14 | | 쪼그려 앉기 | 6 |
-| 서기 | 14 | | 숙이기 | 6 |
-| 무릎 꿇기 | 10 | | 젖히기 | 3 |
-| 눕기 | 9 | | 비틀기 | 3 |
-| 옆 앉기 | 8 | | **합계** | **73** |
+| 시리즈 | 표시 포즈 | 품질 검사 통과 앵글 | 사이트에서 |
+|---|---:|---:|---|
+| 전신・표준 (`std`, P###) | 50 / 73 | 208 / 365 | 표시 |
+| 상반신 (`upper`, U###) | 77 / 80 | 307 / 400 | 귀여운계는 표시, 섹시계·가슴 강조계는 스위치를 켜야 표시 |
+| 전신・섹시 (`sexy`, S###) | 80 / 80 | 341 / 400 | 스위치를 켜야 표시 |
 
-- 선화 **365장 중 364장**. 유일하게 빠진 것은 P062의 아래에서 본 앵글로, 9번 시도해 실패해서 잘못된 그림으로 채우지 않고 빈칸으로 두었습니다.
-- **실사 111장** (23가지 포즈: P001–P022는 5개 앵글, P050은 정면). AI로 생성한 성인이며 실존 인물이 아닙니다.
-- `data/catalog.json` / `catalog.csv`: ID, 4개 언어의 카테고리와 이름, 프롬프트에 붙여 넣을 수 있는 영어 포즈 설명, 앵글별 파일.
+- **모든 앵글을 품질 검사**했습니다([docs/qc/](../qc/README.md)). 유두 표시, 얼굴이나 머리카락, 옷, 배경, 망가진 구조, 잘못된 앵글, 이름과 다른 포즈는 `images/`와 catalog에서 뺐고, 이유는 `data/qc.json`에 남겼습니다. std의 23개 세트는 그림이 이름과 달라 이름을 고칠 때까지 숨깁니다.
+- 생성하지 못한 앵글은 잘못된 그림으로 채우지 않고 비워 둡니다.
+- **실사 112장** (std의 P001–P022, P050). AI로 생성한 성인이며 실존 인물이 아닙니다.
+- `data/catalog.json` / `catalog.csv`: 시리즈, 등급, 4개 언어 분류와 이름, std의 영문 포즈 설명, 앵글별 파일, 빈 앵글의 이유.
 
 ## 사용 방법
 
@@ -69,7 +68,7 @@ python3 tools/build_site.py                    # 이미지를 포함한 배포�
 data/       catalog.json, catalog.csv — 유일한 데이터 원본
 images/     line/과 photo/, 각각 w300/과 w900/
 web/        정적 갤러리 소스 (index.html, app.js, app.css, i18n.js)
-tools/      build_images.sh, build_site.py, verify.py, pack_release.sh
+tools/      build_images.py, build_site.py, verify.py, qc_merge.py, review_sheets.py, pack_release.sh
 docs/       DESIGN, DECISIONS, GENERATION, LICENSING, 언어별 README, 로고, 스크린샷
 ```
 

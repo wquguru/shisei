@@ -29,17 +29,17 @@ has no runtime dependencies and no build step beyond `build_site.py`.
 python3 -I tools/verify.py                                   # catalog ↔ files, known gaps, orphans
 python3 -I tools/build_site.py --link-images                 # writes site/ with symlinked images
 python3 -m http.server 8000 -d site                          # http://localhost:8000
-tools/build_images.sh ~/path/to/source-set                   # (re)build w300 + w900 from full-size sources
+python3 tools/build_images.py std=~/path/to/std-source-set …  # (re)build w300 + w900 for views that passed QC
 ```
 
 ## What a pull request needs
 
 1. **`tools/verify.py` passes.** Never weaken it to make it pass. A view that could not be made is `null` in the
-   catalog, listed in `KNOWN_GAPS`, and explained in [docs/GENERATION.md](docs/GENERATION.md) — never filled with a
+   catalog, listed in `gaps` (`missing`), and explained in [docs/GENERATION.md](docs/GENERATION.md) — never filled with a
    mirrored, flipped or low-quality drawing.
 2. **Catalog entries are complete**: `class_*` and `name_*` in ja / zh / en / ko and an English `desc_en`. Japanese is
    the original naming; change all four names together and keep them short (`動作・手の位置`).
-3. **Images**: only the `w300` and `w900` tiers are committed, built by `tools/build_images.sh` (metadata stripped).
+3. **Images**: only the `w300` and `w900` tiers are committed, built by `tools/build_images.py` (metadata stripped), and only for views with a QC `pass` in `data/qc.json` ([docs/qc/](docs/qc/README.md)).
    Full-size originals ship in the Release zip. Image rebuilds go in their own commit.
 4. **Web changes** follow [docs/DESIGN.md](docs/DESIGN.md), include a screenshot, work at 390×844 without horizontal
    scroll, and add every user-visible string to `web/i18n.js` in all four languages. Check with

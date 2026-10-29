@@ -343,3 +343,15 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .cl-item { flex-direction: column; gap: 6px; }
   .cl-item time { flex: none; }
 }
+
+/* series tabs + rating toggle (above the category chips) */
+.series-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+.seg.series .n { font-family: var(--mono); font-size: 12px; opacity: 0.7; }
+.chip.adult { margin-left: auto; }
+.chip.adult[aria-pressed="true"] { background: var(--field); color: var(--ink); border-color: var(--accent); }
+@media (max-width: 720px) {
+  .series-row { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .seg.series { flex-wrap: nowrap; flex: 0 0 auto; }
+  .seg.series button { white-space: nowrap; }
+  .chip.adult { margin-left: 0; }
+}

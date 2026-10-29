@@ -4,12 +4,12 @@
 
 # Shisei 姿勢
 
-**73 mannequin poses × 5 camera angles, drawn as clean line art for AI image tools.**
+**207 mannequin poses in three series × 5 camera angles, drawn as clean line art for AI image tools.**
 
 English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md)
 
-[![Poses](https://img.shields.io/badge/poses-73-15171A?style=flat-square)](data/catalog.json)
-[![Line art](https://img.shields.io/badge/line%20art-364%2F365-1A5CC8?style=flat-square)](docs/GENERATION.md)
+[![Poses](https://img.shields.io/badge/poses-207-15171A?style=flat-square)](data/catalog.json)
+[![Line art](https://img.shields.io/badge/line%20art-856%20QC%20passed-1A5CC8?style=flat-square)](docs/GENERATION.md)
 [![Photos](https://img.shields.io/badge/photos-111-5B616A?style=flat-square)](docs/GENERATION.md)
 [![Languages](https://img.shields.io/badge/names-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/runtime%20deps-0-E07A52?style=flat-square)](web)
@@ -29,19 +29,20 @@ All images are original to this project.
 
 ## What's inside
 
-| Category | Poses | | Category | Poses |
-|---|---:|---|---|---:|
-| Sitting 座り | 14 | | Squatting しゃがみ | 6 |
-| Standing 立ち | 14 | | Leaning forward 前かがみ | 6 |
-| Kneeling 膝立ち | 10 | | Arching back 反り | 3 |
-| Lying 寝そべり | 9 | | Twist ひねり | 3 |
-| Side sit / W-sit 横座り | 8 | | **Total** | **73** |
+| Series | Poses shown | Views that passed QC | On the site |
+|---|---:|---:|---|
+| Full body · standard (`std`, P###) | 50 of 73 | 208 / 365 | shown |
+| Upper body (`upper`, U###) | 77 of 80 | 307 / 400 | Cute shown; Sexy and Chest emphasis behind a toggle |
+| Full body · sexy (`sexy`, S###) | 80 of 80 | 341 / 400 | behind a toggle |
 
-- **364 of 365** line-art views. The one gap is P062 *below*: nine attempts failed, so it is marked missing rather
-  than filled with a bad drawing.
-- **111 photo renders** for 23 poses (P001–P022 in five angles, P050 front) — AI-generated adults, not real people.
-- `data/catalog.json` / `catalog.csv`: ID, category and name in four languages, an English pose description you can
-  paste into a prompt, and the file for each view.
+- **Every view is reviewed** ([docs/qc/](docs/qc/README.md)). A view that fails (nipple marks, a face or hair,
+  clothing, background, broken anatomy, the wrong camera angle, or a drawing that is not the named pose) is removed
+  from `images/` and the catalog, and `data/qc.json` keeps the reason. 23 std sets show a different pose from their
+  name and stay hidden until they are relabelled.
+- Views that were never generated stay empty rather than being filled with a bad drawing.
+- **112 photo renders** for std P001–P022 and P050: AI-generated adults, not real people.
+- `data/catalog.json` / `catalog.csv`: series, rating, category and name in four languages, an English pose
+  description for std, the file for each view, and why a view is empty.
 
 ## Using the images
 
@@ -78,7 +79,7 @@ Deep links open the lightbox directly: `#P001-diag`, `#P001-diag-photo`; filters
 data/       catalog.json, catalog.csv — the source of truth
 images/     line/ and photo/, each with w300/ and w900/ tiers
 web/        static gallery source (index.html, app.js, app.css, i18n.js)
-tools/      build_images.sh, build_site.py, verify.py, pack_release.sh
+tools/      build_images.py, build_site.py, verify.py, qc_merge.py, review_sheets.py, pack_release.sh
 docs/       DESIGN, DECISIONS, GENERATION, LICENSING, translated READMEs, logo, screenshot
 ```
 
