@@ -26,8 +26,8 @@ two are rated suggestive. Plus photo renders for 23 std sets, a four-language ca
   Nipple marks, exposure, genital detail and a figure that reads as a minor are generation errors: they fail QC.
 - **IDs are stable.** `P001`… never get renumbered or reused (P023 and P028 are retired). New poses take the next
   free number; the source-list number goes in `orig_id`.
-- **Full-size originals stay out of git.** Commit only the `w300` and `w900` tiers; full size ships as a Release
-  zip (`tools/pack_release.sh`).
+- **Full-size originals stay out of git.** Commit only the `w300` and `w900` tiers; downloads ship as Release
+  zips (`tools/pack_release.py`: w900 per series + all, recommended; originals), sizes in `data/packs.json`.
 - **Content safety.** Figures are mannequins or AI-generated adults. Nothing that reads as a minor, a real person or
   explicit content enters the repo.
 - **Do not publish the repo, create releases, deploy, post or spend money** without a human's OK (§8).
@@ -43,8 +43,10 @@ CHANGELOG.md         Keep a Changelog; every user-visible change adds a line und
 data/catalog.json    288 poses: id, orig_id, series, rating, added_in, class_*, name_* (jp/cn/en/kr), desc_en,
                      views{front..below} (file or null), gaps{view: missing|line|structure}, photos{view: file},
                      bodies (duo only: MF / FF)
+data/packs.json      Release download zips: file, bytes, sets (tools/pack_release.py; the gallery shows the sizes)
 data/qc.json         per-view and per-photo QC status, reason and file name; per-set pose-name notes (docs/qc/README.md)
 data/qc-input/       every reviewer result behind qc.json; `qc_merge.py data/qc-input` rebuilds it exactly
+data/rating_overrides.json   per-pose rating decisions that win over the category rule (human-decided)
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
 images/line/w300/    grid tier, 300 px wide WebP q70
 images/line/w900/    lightbox/download tier, 900×1200 WebP q75
@@ -54,7 +56,7 @@ web/                 gallery source: index.html template, app.js, app.css, i18n.
 site/                build output of tools/build_site.py (git-ignored; deploy this): home, pose pages and changelog
                      per language (zh at the root, ja/ en/ ko/), og/ share cards, sitemap, robots, 404, manifest
 build/og-cache/      share-card render cache (git-ignored)
-tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.sh,
+tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.py,
                      import_series.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py, export_csv.py
 docs/qc/             QC method, results and the reviewer prompts (panels, name, proportion, photo, rating)
 .claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
@@ -82,7 +84,7 @@ python3 tools/import_series.py SRC --series X --added 0.2.0 [--general Cute]   #
 python3 tools/qc_merge.py data/qc-input               # apply review results (docs/qc/README.md)
 python3 tools/build_site.py --link-images && python3 -m http.server 8000 -d site   # preview the gallery
 python3 -I tools/build_site.py --public --site https://shisei.indaloop.app   # deploy build (D-05); share cards need Chrome, --no-og skips
-tools/pack_release.sh ~/Downloads/pose-gallery-std73 0.1.0   # dist/shisei-std73-full-v0.1.0.zip + sha256
+python3 -I tools/pack_release.py 0.2.0 std=… upper=… sexy=… duo=…   # dist/*.zip + sha256, data/packs.json
 ```
 
 ## 6. Way of working

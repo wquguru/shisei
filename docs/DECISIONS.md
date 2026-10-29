@@ -38,7 +38,7 @@ Cloudflare Pages，项目名 `shisei`。部署构建：`python3 -I tools/build_s
 
 ### D-01 授权：Apache-2.0，代码和图片同一许可证（2026-10-28，人定）
 人定：和作者的另一个开源项目（TryBoard）用同一套许可证与开源文件规范。整个仓库——代码、catalog、文档、图片——都是 **Apache-2.0**（`LICENSE` 全文 + `NOTICE`），外部贡献按 §5 入站即出站，不另签 CLA。细则见 [LICENSING.md](LICENSING.md)。
-- 效果：图片可商用、可改作、可再分发，条件是再分发时带上 LICENSE 与 NOTICE；Release zip 里一并打包（`tools/pack_release.sh`）。
+- 效果：图片可商用、可改作、可再分发，条件是再分发时带上 LICENSE 与 NOTICE；Release zip 里一并打包（`tools/pack_release.py`）。
 - 和原先的推荐（图片用 CC BY 4.0）相比：Apache-2.0 用在图片上不常见但有效，实际要求同样是署名 + 附声明；好处是全仓一个许可证，贡献规则简单。
 - 原先列出的候选方案保留如下，作为记录：
 
