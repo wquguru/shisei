@@ -1,0 +1,5559 @@
+{
+ "schema": 1,
+ "reviewed": "2026-10-28",
+ "method": "docs/qc/README.md",
+ "sets": {
+  "P017": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Standing relaxed, arms at sides; head not clearly turned back over shoulder"
+  },
+  "P019": {
+   "match": "no",
+   "category_ok": true,
+   "actual": "Standing with arms stretched forward/out in front, not overhead"
+  },
+  "P020": {
+   "match": "no",
+   "category_ok": true,
+   "actual": "Standing with both palms raised in front of chest, no hand behind head"
+  },
+  "P021": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Standing with one arm raised high waving, other arm at side; no hand at neck/thigh"
+  },
+  "P022": {
+   "match": "no",
+   "category_ok": true,
+   "actual": "Standing with hands clasped at chin in front, not arms behind"
+  },
+  "P024": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Standing, one hand on head and other on hip, legs nearly together with slight leg crossing; leg not clearly lifted behind"
+  },
+  "P025": {
+   "match": "no",
+   "category_ok": true,
+   "actual": "Standing back view, arms at sides, narrow stance, no hands on hips"
+  },
+  "P026": {
+   "match": "no",
+   "category_ok": true,
+   "actual": "Standing with arms crossed over chest, no raised arm or hip push"
+  },
+  "P027": {
+   "match": "no",
+   "category_ok": true,
+   "actual": "Standing with both arms straight overhead, not hands at nape"
+  },
+  "P029": {
+   "match": "no",
+   "category_ok": true,
+   "actual": "Standing bowing forward with hands clasped behind back; no wind-blown hair"
+  },
+  "P030": {
+   "match": "no",
+   "category_ok": true,
+   "actual": "Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+  },
+  "P031": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Walking stride, not kneeling"
+  },
+  "P032": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Walking, arms swinging, not kneeling and no hands behind head"
+  },
+  "P033": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Running/leaping pose in mid-air, not half-kneeling"
+  },
+  "P034": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Standing on one leg with other knee raised, arm out; not kneeling"
+  },
+  "P035": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Standing high side kick, one leg raised; not kneeling"
+  },
+  "P036": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Standing in wide lunge bent forward with hands on knees; not kneeling"
+  },
+  "P037": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Standing deep forward fold touching toes; not kneeling"
+  },
+  "P038": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Standing with hands on hips, head tilted; not kneeling or leaning to floor"
+  },
+  "P039": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Kneeling upright sitting on heels, hands on thighs; back not notably arched, hands not on hips"
+  },
+  "P040": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Kneeling lunge on one knee, arms hanging at sides; no raised arm"
+  },
+  "P042": {
+   "match": "partial",
+   "category_ok": false,
+   "actual": "Kneeling on all fours with hands on floor in front; more crawling than W-sit"
+  },
+  "P043": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+  },
+  "P044": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Kneeling on one knee tying shoe; not W-sit"
+  },
+  "P045": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Deep squat with arms stretched forward; not side sit"
+  },
+  "P046": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+  },
+  "P047": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Cross-legged seated, hands on knees; no arm stretched up"
+  },
+  "P048": {
+   "match": "no",
+   "category_ok": false,
+   "actual": "Sitting hugging knees to chest, head down; no hand at neck"
+  },
+  "P049": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Lying on back with legs raised straight up, arms along floor (not overhead)"
+  },
+  "P050": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Lying on side propped on elbow in front/side views, diag looks reclined sitting; cheek on hand not clear"
+  },
+  "P051": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Lying on back/side with arms spread and legs bent/kicked; not clearly face down"
+  },
+  "P052": {
+   "match": "no",
+   "category_ok": true,
+   "actual": "Lying prone propped on elbows chin on hands, legs crossed up; not on back with one knee raised"
+  },
+  "P053": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Lying on side with legs extended, minimal waist curve"
+  },
+  "P057": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Reverse bridge/tabletop with hips up and arms on floor; chest arched but not lying flat on back"
+  },
+  "P073": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Standing facing front with arms spread wide; no visible torso twist"
+  },
+  "S011": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "standing with both arms stretched overhead; waist twist barely visible, one leg bent back in diag"
+  },
+  "S012": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "standing on one leg, arms out, other leg raised high out to the side in front view but forward in side view"
+  },
+  "S019": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "front: kneeling wide (W-sit) with hands on knees; side view is a squat-like crouch, inconsistent with M-sit"
+  },
+  "S046": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "lying on back with one knee bent, arms along body; side-lying and waist curve not clear"
+  },
+  "S051": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "prone on elbows in diag/side with legs together; front view is an upright seated mannequin"
+  },
+  "S054": {
+   "match": "partial",
+   "category_ok": false,
+   "actual": "kneeling child-pose style, head down on forearms, hips raised; not lying prone"
+  },
+  "S056": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "lying on back with arms overhead, body fairly straight; arch not evident"
+  },
+  "S064": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "side view lying with one knee raised; front and diag read as seated/leaning with knee lifted, not clearly dropped open"
+  },
+  "U004": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Both hands making peace signs beside the head/cheeks, not under the chin"
+  },
+  "U010": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "One index finger raised vertically beside the head, not touching lips"
+  },
+  "U012": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "One arm extended forward with open palm; no hand at mouth for blowing kiss"
+  },
+  "U037": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Both open palms held up at chest height, not pressing in at the ribs"
+  },
+  "U068": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Kneeling with back arched and head thrown back; arm hangs down, no hand reaching to heel"
+  },
+  "U075": {
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Arms raised overhead with arched torso; front view looks upright rather than supine"
+  }
+ },
+ "views": {
+  "P001": {
+   "front": {
+    "file": "std_P001_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P001_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P001_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P001_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P001_below.webp",
+    "status": "pass"
+   }
+  },
+  "P002": {
+   "front": {
+    "file": "std_P002_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P002_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P002_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P002_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P002_below.webp",
+    "status": "pass"
+   }
+  },
+  "P003": {
+   "front": {
+    "file": "std_P003_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P003_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P003_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P003_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P003_below.webp",
+    "status": "pass"
+   }
+  },
+  "P004": {
+   "front": {
+    "file": "std_P004_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P004_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P004_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P004_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P004_below.webp",
+    "status": "line",
+    "reason": "scribbly background texture at top-left and floor scribbles"
+   }
+  },
+  "P005": {
+   "front": {
+    "file": "std_P005_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P005_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P005_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P005_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P005_below.webp",
+    "status": "pass"
+   }
+  },
+  "P006": {
+   "front": {
+    "file": "std_P006_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P006_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P006_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P006_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P006_below.webp",
+    "status": "line",
+    "reason": "grey floor shadow/ground lines drawn around hand and legs"
+   }
+  },
+  "P007": {
+   "front": {
+    "file": "std_P007_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P007_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P007_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P007_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P007_below.webp",
+    "status": "pass"
+   }
+  },
+  "P008": {
+   "front": {
+    "file": "std_P008_front.webp",
+    "status": "structure",
+    "reason": "feet are melted blobs; wide squat, not sitting knees up"
+   },
+   "diag": {
+    "file": "std_P008_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P008_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P008_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P008_below.webp",
+    "status": "structure",
+    "reason": "huge teardrop outlines around legs, malformed thighs/pelvis"
+   }
+  },
+  "P009": {
+   "front": {
+    "file": "std_P009_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P009_diag.webp",
+    "status": "line",
+    "reason": "small dots on chest/torso at breast edge that could read as nipple marks"
+   },
+   "side": {
+    "file": "std_P009_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P009_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P009_below.webp",
+    "status": "pass"
+   }
+  },
+  "P010": {
+   "front": {
+    "file": "std_P010_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P010_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P010_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P010_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P010_below.webp",
+    "status": "pass"
+   }
+  },
+  "P011": {
+   "front": {
+    "file": "std_P011_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P011_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P011_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P011_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P011_below.webp",
+    "status": "pass"
+   }
+  },
+  "P012": {
+   "front": {
+    "file": "std_P012_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P012_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P012_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P012_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P012_below.webp",
+    "status": "structure",
+    "reason": "left foot is a melted mitten blob"
+   }
+  },
+  "P013": {
+   "front": {
+    "file": "std_P013_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P013_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P013_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P013_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P013_below.webp",
+    "status": "pass"
+   }
+  },
+  "P014": {
+   "front": {
+    "file": "std_P014_front.webp",
+    "status": "structure",
+    "reason": "raised foot detached from leg, held ankle/leg connection unreadable"
+   },
+   "diag": {
+    "file": "std_P014_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P014_side.webp",
+    "status": "line",
+    "reason": "grey triangle/box guide lines and floor line behind figure"
+   },
+   "above": {
+    "file": "std_P014_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P014_below.webp",
+    "status": "pass"
+   }
+  },
+  "P015": {
+   "front": {
+    "file": "std_P015_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P015_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P015_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P015_above.webp",
+    "status": "line",
+    "reason": "circle drawn inside the face"
+   },
+   "below": {
+    "file": "std_P015_below.webp",
+    "status": "line",
+    "reason": "shoe-like feet with sole lines"
+   }
+  },
+  "P016": {
+   "front": {
+    "file": "std_P016_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P016_diag.webp",
+    "status": "line",
+    "reason": "spiky hair strokes above head"
+   },
+   "side": {
+    "file": "std_P016_side.webp",
+    "status": "line",
+    "reason": "hair strokes above head"
+   },
+   "above": {
+    "file": "std_P016_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P016_below.webp",
+    "status": "pass"
+   }
+  },
+  "P017": {
+   "front": {
+    "file": "std_P017_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P017_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P017_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P017_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P017_below.webp",
+    "status": "line",
+    "reason": "stray curl mark on thigh/groin area"
+   }
+  },
+  "P018": {
+   "front": {
+    "file": "std_P018_front.webp",
+    "status": "line",
+    "reason": "hairline cap arc and ears on head reads as hair"
+   },
+   "diag": {
+    "file": "std_P018_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P018_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P018_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P018_below.webp",
+    "status": "pass"
+   }
+  },
+  "P019": {
+   "front": {
+    "file": "std_P019_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+   },
+   "diag": {
+    "file": "std_P019_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+   },
+   "side": {
+    "file": "std_P019_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+   },
+   "above": {
+    "file": "std_P019_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+   },
+   "below": {
+    "file": "std_P019_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms stretched forward/out in front, not overhead"
+   }
+  },
+  "P020": {
+   "front": {
+    "file": "std_P020_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+   },
+   "diag": {
+    "file": "std_P020_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+   },
+   "side": {
+    "file": "std_P020_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+   },
+   "above": {
+    "file": "std_P020_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+   },
+   "below": {
+    "file": "std_P020_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both palms raised in front of chest, no hand behind head"
+   }
+  },
+  "P021": {
+   "front": {
+    "file": "std_P021_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P021_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P021_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P021_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P021_below.webp",
+    "status": "pass"
+   }
+  },
+  "P022": {
+   "front": {
+    "file": "std_P022_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+   },
+   "diag": {
+    "file": "std_P022_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+   },
+   "side": {
+    "file": "std_P022_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+   },
+   "above": {
+    "file": "std_P022_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+   },
+   "below": {
+    "file": "std_P022_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands clasped at chin in front, not arms behind"
+   }
+  },
+  "P024": {
+   "front": {
+    "file": "std_P024_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P024_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P024_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P024_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P024_below.webp",
+    "status": "pass"
+   }
+  },
+  "P025": {
+   "front": {
+    "file": "std_P025_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+   },
+   "diag": {
+    "file": "std_P025_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+   },
+   "side": {
+    "file": "std_P025_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+   },
+   "above": {
+    "file": "std_P025_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+   },
+   "below": {
+    "file": "std_P025_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing back view, arms at sides, narrow stance, no hands on hips"
+   }
+  },
+  "P026": {
+   "front": {
+    "file": "std_P026_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+   },
+   "diag": {
+    "file": "std_P026_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+   },
+   "side": {
+    "file": "std_P026_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+   },
+   "above": {
+    "file": "std_P026_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+   },
+   "below": {
+    "file": "std_P026_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with arms crossed over chest, no raised arm or hip push"
+   }
+  },
+  "P027": {
+   "front": {
+    "file": "std_P027_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+   },
+   "diag": {
+    "file": "std_P027_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+   },
+   "side": {
+    "file": "std_P027_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+   },
+   "above": {
+    "file": "std_P027_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+   },
+   "below": {
+    "file": "std_P027_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with both arms straight overhead, not hands at nape"
+   }
+  },
+  "P029": {
+   "front": {
+    "file": "std_P029_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+   },
+   "diag": {
+    "file": "std_P029_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+   },
+   "side": {
+    "file": "std_P029_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+   },
+   "above": {
+    "file": "std_P029_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+   },
+   "below": {
+    "file": "std_P029_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing bowing forward with hands clasped behind back; no wind-blown hair"
+   }
+  },
+  "P030": {
+   "front": {
+    "file": "std_P030_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+   },
+   "diag": {
+    "file": "std_P030_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+   },
+   "side": {
+    "file": "std_P030_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+   },
+   "above": {
+    "file": "std_P030_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+   },
+   "below": {
+    "file": "std_P030_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking/standing with crossed legs, arms at sides; not on tiptoe, arms not in V"
+   }
+  },
+  "P031": {
+   "front": {
+    "file": "std_P031_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking stride, not kneeling"
+   },
+   "diag": {
+    "file": "std_P031_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking stride, not kneeling"
+   },
+   "side": {
+    "file": "std_P031_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking stride, not kneeling"
+   },
+   "above": {
+    "file": "std_P031_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking stride, not kneeling"
+   },
+   "below": {
+    "file": "std_P031_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking stride, not kneeling"
+   }
+  },
+  "P032": {
+   "front": {
+    "file": "std_P032_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+   },
+   "diag": {
+    "file": "std_P032_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+   },
+   "side": {
+    "file": "std_P032_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+   },
+   "above": {
+    "file": "std_P032_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+   },
+   "below": {
+    "file": "std_P032_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Walking, arms swinging, not kneeling and no hands behind head"
+   }
+  },
+  "P033": {
+   "front": {
+    "file": "std_P033_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+   },
+   "diag": {
+    "file": "std_P033_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+   },
+   "side": {
+    "file": "std_P033_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+   },
+   "above": {
+    "file": "std_P033_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+   },
+   "below": {
+    "file": "std_P033_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Running/leaping pose in mid-air, not half-kneeling"
+   }
+  },
+  "P034": {
+   "front": {
+    "file": "std_P034_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+   },
+   "diag": {
+    "file": "std_P034_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+   },
+   "side": {
+    "file": "std_P034_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+   },
+   "above": {
+    "file": "std_P034_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+   },
+   "below": {
+    "file": "std_P034_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing on one leg with other knee raised, arm out; not kneeling"
+   }
+  },
+  "P035": {
+   "front": {
+    "file": "std_P035_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+   },
+   "diag": {
+    "file": "std_P035_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+   },
+   "side": {
+    "file": "std_P035_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+   },
+   "above": {
+    "file": "std_P035_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+   },
+   "below": {
+    "file": "std_P035_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing high side kick, one leg raised; not kneeling"
+   }
+  },
+  "P036": {
+   "front": {
+    "file": "std_P036_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+   },
+   "diag": {
+    "file": "std_P036_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+   },
+   "side": {
+    "file": "std_P036_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+   },
+   "above": {
+    "file": "std_P036_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+   },
+   "below": {
+    "file": "std_P036_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing in wide lunge bent forward with hands on knees; not kneeling"
+   }
+  },
+  "P037": {
+   "front": {
+    "file": "std_P037_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+   },
+   "diag": {
+    "file": "std_P037_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+   },
+   "side": {
+    "file": "std_P037_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+   },
+   "above": {
+    "file": "std_P037_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+   },
+   "below": {
+    "file": "std_P037_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing deep forward fold touching toes; not kneeling"
+   }
+  },
+  "P038": {
+   "front": {
+    "file": "std_P038_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands on hips, head tilted; not kneeling or leaning to floor"
+   },
+   "diag": {
+    "file": "std_P038_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands on hips, head tilted; not kneeling or leaning to floor"
+   },
+   "side": {
+    "file": "std_P038_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands on hips, head tilted; not kneeling or leaning to floor"
+   },
+   "above": {
+    "file": "std_P038_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands on hips, head tilted; not kneeling or leaning to floor"
+   },
+   "below": {
+    "file": "std_P038_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Standing with hands on hips, head tilted; not kneeling or leaning to floor"
+   }
+  },
+  "P039": {
+   "front": {
+    "file": "std_P039_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P039_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P039_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P039_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P039_below.webp",
+    "status": "structure",
+    "reason": "hands merge into thigh/knee shapes; lower legs and feet malformed"
+   }
+  },
+  "P040": {
+   "front": {
+    "file": "std_P040_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P040_diag.webp",
+    "status": "structure",
+    "reason": "arms end at wrist circles with no hands (missing hands)"
+   },
+   "side": {
+    "file": "std_P040_side.webp",
+    "status": "structure",
+    "reason": "arms end at wrist circles with no hands (missing hands)"
+   },
+   "above": {
+    "file": "std_P040_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P040_below.webp",
+    "status": "structure",
+    "reason": "arms end at wrist circles with no hands (missing hands)"
+   }
+  },
+  "P041": {
+   "front": {
+    "file": "std_P041_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P041_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P041_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P041_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P041_below.webp",
+    "status": "line",
+    "reason": "speckled background texture and distorted blob thighs"
+   }
+  },
+  "P042": {
+   "front": {
+    "file": "std_P042_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P042_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P042_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P042_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P042_below.webp",
+    "status": "line",
+    "reason": "speckled grey background texture"
+   }
+  },
+  "P043": {
+   "front": {
+    "file": "std_P043_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+   },
+   "diag": {
+    "file": "std_P043_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+   },
+   "side": {
+    "file": "std_P043_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+   },
+   "above": {
+    "file": "std_P043_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+   },
+   "below": {
+    "file": "std_P043_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Squatting hugging knees with crossed arms; not W-sit, no hands behind head"
+   }
+  },
+  "P044": {
+   "front": {
+    "file": "std_P044_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+   },
+   "diag": {
+    "file": "std_P044_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+   },
+   "side": {
+    "file": "std_P044_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+   },
+   "above": {
+    "file": "std_P044_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+   },
+   "below": {
+    "file": "std_P044_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Kneeling on one knee tying shoe; not W-sit"
+   }
+  },
+  "P045": {
+   "front": {
+    "file": "std_P045_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+   },
+   "diag": {
+    "file": "std_P045_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+   },
+   "side": {
+    "file": "std_P045_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+   },
+   "above": {
+    "file": "std_P045_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+   },
+   "below": {
+    "file": "std_P045_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Deep squat with arms stretched forward; not side sit"
+   }
+  },
+  "P046": {
+   "front": {
+    "file": "std_P046_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+   },
+   "diag": {
+    "file": "std_P046_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+   },
+   "side": {
+    "file": "std_P046_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+   },
+   "above": {
+    "file": "std_P046_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+   },
+   "below": {
+    "file": "std_P046_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting on a chair with legs crossed, hands on lap; not floor side sit, no hand on cheek"
+   }
+  },
+  "P047": {
+   "front": {
+    "file": "std_P047_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+   },
+   "diag": {
+    "file": "std_P047_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+   },
+   "side": {
+    "file": "std_P047_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+   },
+   "above": {
+    "file": "std_P047_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+   },
+   "below": {
+    "file": "std_P047_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Cross-legged seated, hands on knees; no arm stretched up"
+   }
+  },
+  "P048": {
+   "front": {
+    "file": "std_P048_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+   },
+   "diag": {
+    "file": "std_P048_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+   },
+   "side": {
+    "file": "std_P048_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+   },
+   "above": {
+    "file": "std_P048_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+   },
+   "below": {
+    "file": "std_P048_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Sitting hugging knees to chest, head down; no hand at neck"
+   }
+  },
+  "P049": {
+   "front": {
+    "file": "std_P049_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P049_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P049_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P049_above.webp",
+    "status": "structure",
+    "reason": "practically identical to front (and each other): same top-down view"
+   },
+   "below": {
+    "file": "std_P049_below.webp",
+    "status": "structure",
+    "reason": "practically identical to front (and each other): same top-down view"
+   }
+  },
+  "P050": {
+   "front": {
+    "file": "std_P050_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P050_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P050_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P050_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P050_below.webp",
+    "status": "pass"
+   }
+  },
+  "P051": {
+   "front": {
+    "file": "std_P051_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P051_diag.webp",
+    "status": "structure",
+    "reason": "arms end in stubs/ovals with no hands"
+   },
+   "side": {
+    "file": "std_P051_side.webp",
+    "status": "structure",
+    "reason": "arms end in stubs/ovals with no hands"
+   },
+   "above": {
+    "file": "std_P051_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P051_below.webp",
+    "status": "pass"
+   }
+  },
+  "P052": {
+   "front": {
+    "file": "std_P052_front.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Lying prone propped on elbows chin on hands, legs crossed up; not on back with one knee raised"
+   },
+   "diag": {
+    "file": "std_P052_diag.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Lying prone propped on elbows chin on hands, legs crossed up; not on back with one knee raised"
+   },
+   "side": {
+    "file": "std_P052_side.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Lying prone propped on elbows chin on hands, legs crossed up; not on back with one knee raised"
+   },
+   "above": {
+    "file": "std_P052_above.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Lying prone propped on elbows chin on hands, legs crossed up; not on back with one knee raised"
+   },
+   "below": {
+    "file": "std_P052_below.webp",
+    "status": "structure",
+    "reason": "pose does not match its name: Lying prone propped on elbows chin on hands, legs crossed up; not on back with one knee raised"
+   }
+  },
+  "P053": {
+   "front": {
+    "file": "std_P053_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P053_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P053_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P053_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P053_below.webp",
+    "status": "pass"
+   }
+  },
+  "P054": {
+   "front": {
+    "file": "std_P054_front.webp",
+    "status": "line",
+    "reason": "floor line / ground scribbles and texture"
+   },
+   "diag": {
+    "file": "std_P054_diag.webp",
+    "status": "line",
+    "reason": "dots on breast/chest resembling nipple marks"
+   },
+   "side": {
+    "file": "std_P054_side.webp",
+    "status": "line",
+    "reason": "floor line / ground scribbles and texture"
+   },
+   "above": {
+    "file": "std_P054_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P054_below.webp",
+    "status": "line",
+    "reason": "floor line / ground scribbles and texture"
+   }
+  },
+  "P055": {
+   "front": {
+    "file": "std_P055_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P055_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P055_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P055_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P055_below.webp",
+    "status": "pass"
+   }
+  },
+  "P056": {
+   "front": {
+    "file": "std_P056_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P056_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P056_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P056_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P056_below.webp",
+    "status": "pass"
+   }
+  },
+  "P057": {
+   "front": {
+    "file": "std_P057_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P057_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P057_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P057_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P057_below.webp",
+    "status": "pass"
+   }
+  },
+  "P058": {
+   "front": {
+    "file": "std_P058_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P058_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P058_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P058_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P058_below.webp",
+    "status": "pass"
+   }
+  },
+  "P059": {
+   "front": {
+    "file": "std_P059_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P059_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P059_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P059_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P059_below.webp",
+    "status": "pass"
+   }
+  },
+  "P060": {
+   "front": {
+    "file": "std_P060_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P060_diag.webp",
+    "status": "line",
+    "reason": "top and shorts hem lines suggest clothing"
+   },
+   "side": {
+    "file": "std_P060_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P060_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P060_below.webp",
+    "status": "pass"
+   }
+  },
+  "P061": {
+   "front": {
+    "file": "std_P061_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P061_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P061_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P061_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P061_below.webp",
+    "status": "structure",
+    "reason": "oversized distorted foot; legs tangled and malformed"
+   }
+  },
+  "P062": {
+   "front": {
+    "file": "std_P062_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P062_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P062_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P062_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "P063": {
+   "front": {
+    "file": "std_P063_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P063_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P063_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P063_above.webp",
+    "status": "line",
+    "reason": "small circle on breast reads as nipple mark"
+   },
+   "below": {
+    "file": "std_P063_below.webp",
+    "status": "pass"
+   }
+  },
+  "P064": {
+   "front": {
+    "file": "std_P064_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P064_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P064_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P064_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P064_below.webp",
+    "status": "pass"
+   }
+  },
+  "P065": {
+   "front": {
+    "file": "std_P065_front.webp",
+    "status": "line",
+    "reason": "speckled background texture"
+   },
+   "diag": {
+    "file": "std_P065_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P065_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P065_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P065_below.webp",
+    "status": "pass"
+   }
+  },
+  "P066": {
+   "front": {
+    "file": "std_P066_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P066_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P066_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P066_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P066_below.webp",
+    "status": "pass"
+   }
+  },
+  "P067": {
+   "front": {
+    "file": "std_P067_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P067_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P067_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P067_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P067_below.webp",
+    "status": "pass"
+   }
+  },
+  "P068": {
+   "front": {
+    "file": "std_P068_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P068_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P068_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P068_above.webp",
+    "status": "line",
+    "reason": "small nipple dot on breast"
+   },
+   "below": {
+    "file": "std_P068_below.webp",
+    "status": "pass"
+   }
+  },
+  "P069": {
+   "front": {
+    "file": "std_P069_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P069_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P069_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P069_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P069_below.webp",
+    "status": "pass"
+   }
+  },
+  "P070": {
+   "front": {
+    "file": "std_P070_front.webp",
+    "status": "structure",
+    "reason": "arms end in stubs, hands missing; sketchy style"
+   },
+   "diag": {
+    "file": "std_P070_diag.webp",
+    "status": "structure",
+    "reason": "arm ends without hand"
+   },
+   "side": {
+    "file": "std_P070_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P070_above.webp",
+    "status": "line",
+    "reason": "faint sketchy background texture/noise; arms end without hands"
+   },
+   "below": {
+    "file": "std_P070_below.webp",
+    "status": "pass"
+   }
+  },
+  "P071": {
+   "front": {
+    "file": "std_P071_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P071_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P071_side.webp",
+    "status": "line",
+    "reason": "sketchy background texture noise"
+   },
+   "above": {
+    "file": "std_P071_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P071_below.webp",
+    "status": "pass"
+   }
+  },
+  "P072": {
+   "front": {
+    "file": "std_P072_front.webp",
+    "status": "line",
+    "reason": "facial feature/mouth mark inside head"
+   },
+   "diag": {
+    "file": "std_P072_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P072_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P072_above.webp",
+    "status": "line",
+    "reason": "row of button-like circles down torso; eye mark on head"
+   },
+   "below": {
+    "file": "std_P072_below.webp",
+    "status": "pass"
+   }
+  },
+  "P073": {
+   "front": {
+    "file": "std_P073_front.webp",
+    "status": "line",
+    "reason": "circle on breast reads as nipple"
+   },
+   "diag": {
+    "file": "std_P073_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P073_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P073_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P073_below.webp",
+    "status": "pass"
+   }
+  },
+  "P074": {
+   "front": {
+    "file": "std_P074_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P074_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P074_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P074_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P074_below.webp",
+    "status": "line",
+    "reason": "nipple bump on breast outline; stray circle on foot"
+   }
+  },
+  "P075": {
+   "front": {
+    "file": "std_P075_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P075_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P075_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P075_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P075_below.webp",
+    "status": "pass"
+   }
+  },
+  "S001": {
+   "front": {
+    "file": "sexy_S001_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S001_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S001_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S001_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S001_below.webp",
+    "status": "pass"
+   }
+  },
+  "S002": {
+   "front": {
+    "file": "sexy_S002_front.webp",
+    "status": "structure",
+    "reason": "head doubled/malformed, mask-like face region"
+   },
+   "diag": {
+    "file": "sexy_S002_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S002_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S002_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S002_below.webp",
+    "status": "line",
+    "reason": "button-like dots down torso"
+   }
+  },
+  "S003": {
+   "front": {
+    "file": "sexy_S003_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S003_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S003_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S003_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S003_below.webp",
+    "status": "pass"
+   }
+  },
+  "S004": {
+   "front": {
+    "file": "sexy_S004_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S004_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S004_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S004_above.webp",
+    "status": "line",
+    "reason": "nipple circle on breast; dot on head top"
+   },
+   "below": {
+    "file": "sexy_S004_below.webp",
+    "status": "pass"
+   }
+  },
+  "S005": {
+   "front": {
+    "file": "sexy_S005_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S005_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S005_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S005_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S005_below.webp",
+    "status": "pass"
+   }
+  },
+  "S006": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "sexy_S006_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S006_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S006_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S006_below.webp",
+    "status": "pass"
+   }
+  },
+  "S007": {
+   "front": {
+    "file": "sexy_S007_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S007_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S007_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S007_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S007_below.webp",
+    "status": "pass"
+   }
+  },
+  "S008": {
+   "front": {
+    "file": "sexy_S008_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S008_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S008_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S008_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S008_below.webp",
+    "status": "pass"
+   }
+  },
+  "S009": {
+   "front": {
+    "file": "sexy_S009_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S009_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S009_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S009_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S009_below.webp",
+    "status": "pass"
+   }
+  },
+  "S010": {
+   "front": {
+    "file": "sexy_S010_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S010_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S010_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S010_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S010_below.webp",
+    "status": "pass"
+   }
+  },
+  "S011": {
+   "front": {
+    "file": "sexy_S011_front.webp",
+    "status": "structure",
+    "reason": "hands and feet missing"
+   },
+   "diag": {
+    "file": "sexy_S011_diag.webp",
+    "status": "structure",
+    "reason": "hands missing, grey fill on arm, odd leg"
+   },
+   "side": {
+    "file": "sexy_S011_side.webp",
+    "status": "structure",
+    "reason": "hands missing"
+   },
+   "above": {
+    "file": "sexy_S011_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S011_below.webp",
+    "status": "pass"
+   }
+  },
+  "S012": {
+   "front": {
+    "file": "sexy_S012_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S012_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S012_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S012_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S012_below.webp",
+    "status": "pass"
+   }
+  },
+  "S013": {
+   "front": {
+    "file": "sexy_S013_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S013_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S013_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S013_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S014": {
+   "front": {
+    "file": "sexy_S014_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S014_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S014_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S014_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S014_below.webp",
+    "status": "pass"
+   }
+  },
+  "S015": {
+   "front": {
+    "file": "sexy_S015_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S015_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S015_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S015_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S015_below.webp",
+    "status": "pass"
+   }
+  },
+  "S016": {
+   "front": {
+    "file": "sexy_S016_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S016_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S016_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S016_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S016_below.webp",
+    "status": "pass"
+   }
+  },
+  "S017": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "sexy_S017_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S017_side.webp",
+    "status": "structure",
+    "reason": "practically identical to diag panel"
+   },
+   "above": {
+    "file": "sexy_S017_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S018": {
+   "front": {
+    "file": "sexy_S018_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S018_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S018_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S018_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S018_below.webp",
+    "status": "pass"
+   }
+  },
+  "S019": {
+   "front": {
+    "file": "sexy_S019_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S019_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S019_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S019_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S019_below.webp",
+    "status": "pass"
+   }
+  },
+  "S020": {
+   "front": {
+    "file": "sexy_S020_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S020_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S020_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S020_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S020_below.webp",
+    "status": "pass"
+   }
+  },
+  "S021": {
+   "front": {
+    "file": "sexy_S021_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S021_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S021_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S021_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S021_below.webp",
+    "status": "pass"
+   }
+  },
+  "S022": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "sexy_S022_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S022_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S022_above.webp",
+    "status": "line",
+    "reason": "small circle nipple dot on breast"
+   },
+   "below": {
+    "file": "sexy_S022_below.webp",
+    "status": "pass"
+   }
+  },
+  "S023": {
+   "front": {
+    "file": "sexy_S023_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S023_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S023_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S023_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S023_below.webp",
+    "status": "pass"
+   }
+  },
+  "S024": {
+   "front": {
+    "file": "sexy_S024_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S024_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S024_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S024_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S025": {
+   "front": {
+    "file": "sexy_S025_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S025_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S025_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S025_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S025_below.webp",
+    "status": "pass"
+   }
+  },
+  "S026": {
+   "front": {
+    "file": "sexy_S026_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S026_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S026_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S026_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S026_below.webp",
+    "status": "pass"
+   }
+  },
+  "S027": {
+   "front": {
+    "file": "sexy_S027_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S027_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S027_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "file": "sexy_S027_below.webp",
+    "status": "pass"
+   }
+  },
+  "S028": {
+   "front": {
+    "file": "sexy_S028_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S028_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S028_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S028_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S028_below.webp",
+    "status": "pass"
+   }
+  },
+  "S029": {
+   "front": {
+    "file": "sexy_S029_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S029_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S029_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S029_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S029_below.webp",
+    "status": "structure",
+    "reason": "limbs tangled, foot a flared blob, raised arm/leg overlap unreadable"
+   }
+  },
+  "S030": {
+   "front": {
+    "file": "sexy_S030_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S030_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S030_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S030_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S030_below.webp",
+    "status": "pass"
+   }
+  },
+  "S031": {
+   "front": {
+    "file": "sexy_S031_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S031_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S031_side.webp",
+    "status": "structure",
+    "reason": "head distorted into a flattened cap shape, merged with raised hands"
+   },
+   "above": {
+    "file": "sexy_S031_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S031_below.webp",
+    "status": "pass"
+   }
+  },
+  "S032": {
+   "front": {
+    "file": "sexy_S032_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S032_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S032_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S032_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S033": {
+   "front": {
+    "file": "sexy_S033_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S033_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S033_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S033_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S033_below.webp",
+    "status": "pass"
+   }
+  },
+  "S034": {
+   "front": {
+    "file": "sexy_S034_front.webp",
+    "status": "line",
+    "reason": "hair strand strokes at top of head by the hands"
+   },
+   "diag": {
+    "file": "sexy_S034_diag.webp",
+    "status": "line",
+    "reason": "hair strand strokes at top of head by the hands"
+   },
+   "side": {
+    "file": "sexy_S034_side.webp",
+    "status": "line",
+    "reason": "hair strand strokes at top of head by the hands"
+   },
+   "above": {
+    "file": "sexy_S034_above.webp",
+    "status": "line",
+    "reason": "hair strand strokes at top of head by the hands"
+   },
+   "below": {
+    "file": "sexy_S034_below.webp",
+    "status": "pass"
+   }
+  },
+  "S035": {
+   "front": {
+    "file": "sexy_S035_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S035_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S035_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S035_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S035_below.webp",
+    "status": "structure",
+    "reason": "huge distorted foot and odd tail-like contour at right of hip; limbs unclear"
+   }
+  },
+  "S036": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "sexy_S036_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S036_side.webp",
+    "status": "structure",
+    "reason": "practically identical to the diag panel"
+   },
+   "above": {
+    "file": "sexy_S036_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S037": {
+   "front": {
+    "file": "sexy_S037_front.webp",
+    "status": "line",
+    "reason": "hair strands drawn at top of head by hands"
+   },
+   "diag": {
+    "file": "sexy_S037_diag.webp",
+    "status": "line",
+    "reason": "hair strands drawn at top of head by hands"
+   },
+   "side": {
+    "file": "sexy_S037_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S037_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S037_below.webp",
+    "status": "line",
+    "reason": "hair strands drawn at top of head by hands"
+   }
+  },
+  "S038": {
+   "front": {
+    "file": "sexy_S038_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S038_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S038_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S038_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S038_below.webp",
+    "status": "pass"
+   }
+  },
+  "S039": {
+   "front": {
+    "file": "sexy_S039_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S039_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S039_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S039_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S039_below.webp",
+    "status": "pass"
+   }
+  },
+  "S040": {
+   "front": {
+    "file": "sexy_S040_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S040_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S040_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S040_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S040_below.webp",
+    "status": "pass"
+   }
+  },
+  "S041": {
+   "front": {
+    "file": "sexy_S041_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S041_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S041_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S041_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S041_below.webp",
+    "status": "pass"
+   }
+  },
+  "S042": {
+   "front": {
+    "file": "sexy_S042_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S042_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S042_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S042_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S043": {
+   "front": {
+    "file": "sexy_S043_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S043_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S043_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S043_above.webp",
+    "status": "structure",
+    "reason": "not an above view (looks like front); extra hand-like shapes behind thighs"
+   },
+   "below": {
+    "file": "sexy_S043_below.webp",
+    "status": "pass"
+   }
+  },
+  "S044": {
+   "front": {
+    "file": "sexy_S044_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S044_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S044_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S044_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S044_below.webp",
+    "status": "pass"
+   }
+  },
+  "S045": {
+   "front": {
+    "file": "sexy_S045_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S045_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S045_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S045_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S046": {
+   "front": {
+    "file": "sexy_S046_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S046_diag.webp",
+    "status": "line",
+    "reason": "diagonal guide/floor line crossing the figure and frame"
+   },
+   "side": {
+    "status": "missing"
+   },
+   "above": {
+    "file": "sexy_S046_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S047": {
+   "front": {
+    "file": "sexy_S047_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S047_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S047_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S047_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S047_below.webp",
+    "status": "pass"
+   }
+  },
+  "S048": {
+   "front": {
+    "file": "sexy_S048_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S048_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S048_side.webp",
+    "status": "structure",
+    "reason": "practically identical to the diag panel"
+   },
+   "above": {
+    "file": "sexy_S048_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S048_below.webp",
+    "status": "pass"
+   }
+  },
+  "S049": {
+   "front": {
+    "file": "sexy_S049_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S049_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S049_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S049_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S049_below.webp",
+    "status": "pass"
+   }
+  },
+  "S050": {
+   "front": {
+    "file": "sexy_S050_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S050_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S050_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S050_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S050_below.webp",
+    "status": "pass"
+   }
+  },
+  "S051": {
+   "front": {
+    "file": "sexy_S051_front.webp",
+    "status": "structure",
+    "reason": "seated robotic mannequin with shoe-like feet and boxy torso, not prone on elbows; style differs"
+   },
+   "diag": {
+    "file": "sexy_S051_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S051_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S051_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S051_below.webp",
+    "status": "pass"
+   }
+  },
+  "S052": {
+   "front": {
+    "file": "sexy_S052_front.webp",
+    "status": "line",
+    "reason": "several small dots/circles on torso and beside breast"
+   },
+   "diag": {
+    "file": "sexy_S052_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S052_side.webp",
+    "status": "structure",
+    "reason": "feet fused into scissor-like shape, hand malformed"
+   },
+   "above": {
+    "file": "sexy_S052_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S052_below.webp",
+    "status": "pass"
+   }
+  },
+  "S053": {
+   "front": {
+    "file": "sexy_S053_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S053_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S053_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S053_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S053_below.webp",
+    "status": "pass"
+   }
+  },
+  "S054": {
+   "front": {
+    "file": "sexy_S054_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S054_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S054_side.webp",
+    "status": "line",
+    "reason": "dot on side-view breast (nipple)"
+   },
+   "above": {
+    "file": "sexy_S054_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S054_below.webp",
+    "status": "pass"
+   }
+  },
+  "S055": {
+   "front": {
+    "file": "sexy_S055_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S055_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S055_side.webp",
+    "status": "structure",
+    "reason": "torso tiny/legs attach at wrong place, anatomy unreadable"
+   },
+   "above": {
+    "file": "sexy_S055_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S055_below.webp",
+    "status": "pass"
+   }
+  },
+  "S056": {
+   "front": {
+    "file": "sexy_S056_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S056_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S056_side.webp",
+    "status": "line",
+    "reason": "circle dot on side-view breast (nipple)"
+   },
+   "above": {
+    "file": "sexy_S056_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S056_below.webp",
+    "status": "structure",
+    "reason": "feet melted into huge blobs, anatomy/proportions broken"
+   }
+  },
+  "S057": {
+   "front": {
+    "file": "sexy_S057_front.webp",
+    "status": "line",
+    "reason": "faint grey scribble/texture background across panel"
+   },
+   "diag": {
+    "file": "sexy_S057_diag.webp",
+    "status": "structure",
+    "reason": "figure reads as upright mid-air kicking, not prone"
+   },
+   "side": {
+    "file": "sexy_S057_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S057_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S057_below.webp",
+    "status": "pass"
+   }
+  },
+  "S058": {
+   "front": {
+    "file": "sexy_S058_front.webp",
+    "status": "structure",
+    "reason": "extended leg cut off by right frame edge"
+   },
+   "diag": {
+    "file": "sexy_S058_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S058_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S058_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S058_below.webp",
+    "status": "pass"
+   }
+  },
+  "S059": {
+   "front": {
+    "file": "sexy_S059_front.webp",
+    "status": "structure",
+    "reason": "upright seated figure, legs straight down; not supine knees up"
+   },
+   "diag": {
+    "file": "sexy_S059_diag.webp",
+    "status": "structure",
+    "reason": "legs hang down, knees not raised; pose not supine knees up"
+   },
+   "side": {
+    "file": "sexy_S059_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S059_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S059_below.webp",
+    "status": "pass"
+   }
+  },
+  "S060": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "sexy_S060_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S060_side.webp",
+    "status": "structure",
+    "reason": "near-duplicate (mirror) of diag panel"
+   },
+   "above": {
+    "file": "sexy_S060_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S060_below.webp",
+    "status": "pass"
+   }
+  },
+  "S061": {
+   "front": {
+    "file": "sexy_S061_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S061_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S061_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S061_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S061_below.webp",
+    "status": "pass"
+   }
+  },
+  "S062": {
+   "front": {
+    "file": "sexy_S062_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S062_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S062_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S062_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S062_below.webp",
+    "status": "pass"
+   }
+  },
+  "S063": {
+   "front": {
+    "file": "sexy_S063_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S063_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S063_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S063_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S063_below.webp",
+    "status": "pass"
+   }
+  },
+  "S064": {
+   "front": {
+    "file": "sexy_S064_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S064_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S064_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S064_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S064_below.webp",
+    "status": "pass"
+   }
+  },
+  "S065": {
+   "front": {
+    "file": "sexy_S065_front.webp",
+    "status": "structure",
+    "reason": "foot cut by right frame edge"
+   },
+   "diag": {
+    "file": "sexy_S065_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S065_side.webp",
+    "status": "structure",
+    "reason": "foot cut by right frame edge"
+   },
+   "above": {
+    "file": "sexy_S065_above.webp",
+    "status": "structure",
+    "reason": "other leg/foot cut by right frame edge, extra blob"
+   },
+   "below": {
+    "file": "sexy_S065_below.webp",
+    "status": "pass"
+   }
+  },
+  "S066": {
+   "front": {
+    "file": "sexy_S066_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S066_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S066_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S066_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S066_below.webp",
+    "status": "pass"
+   }
+  },
+  "S067": {
+   "front": {
+    "file": "sexy_S067_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S067_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S067_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S067_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S067_below.webp",
+    "status": "pass"
+   }
+  },
+  "S068": {
+   "front": {
+    "file": "sexy_S068_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S068_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S068_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S068_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S068_below.webp",
+    "status": "pass"
+   }
+  },
+  "S069": {
+   "front": {
+    "file": "sexy_S069_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S069_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S069_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S069_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S069_below.webp",
+    "status": "pass"
+   }
+  },
+  "S070": {
+   "front": {
+    "file": "sexy_S070_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S070_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S070_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S070_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S070_below.webp",
+    "status": "pass"
+   }
+  },
+  "S071": {
+   "front": {
+    "file": "sexy_S071_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S071_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S071_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S072": {
+   "front": {
+    "file": "sexy_S072_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S072_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S072_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S072_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S072_below.webp",
+    "status": "pass"
+   }
+  },
+  "S073": {
+   "front": {
+    "file": "sexy_S073_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S073_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S073_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S073_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S073_below.webp",
+    "status": "pass"
+   }
+  },
+  "S074": {
+   "front": {
+    "file": "sexy_S074_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S074_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S074_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S074_above.webp",
+    "status": "structure",
+    "reason": "head/torso unreadable, hair-like scribble beside torso; cross-shaped figure"
+   },
+   "below": {
+    "file": "sexy_S074_below.webp",
+    "status": "line",
+    "reason": "dot on breast/chest looks like nipple dot"
+   }
+  },
+  "S075": {
+   "front": {
+    "file": "sexy_S075_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S075_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S075_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S075_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S075_below.webp",
+    "status": "pass"
+   }
+  },
+  "S076": {
+   "front": {
+    "file": "sexy_S076_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S076_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S076_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S076_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S076_below.webp",
+    "status": "pass"
+   }
+  },
+  "S077": {
+   "front": {
+    "file": "sexy_S077_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S077_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S077_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S077_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S077_below.webp",
+    "status": "pass"
+   }
+  },
+  "S078": {
+   "front": {
+    "file": "sexy_S078_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S078_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S078_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S078_above.webp",
+    "status": "structure",
+    "reason": "eye-level front view, practically same as front; not from above"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "S079": {
+   "front": {
+    "file": "sexy_S079_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S079_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S079_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S079_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S079_below.webp",
+    "status": "pass"
+   }
+  },
+  "S080": {
+   "front": {
+    "file": "sexy_S080_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S080_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S080_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S080_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S080_below.webp",
+    "status": "pass"
+   }
+  },
+  "U001": {
+   "front": {
+    "file": "upper_U001_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U001_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U001_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U001_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U001_below.webp",
+    "status": "pass"
+   }
+  },
+  "U002": {
+   "front": {
+    "file": "upper_U002_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U002_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U002_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U002_above.webp",
+    "status": "structure",
+    "reason": "practically same image as front panel"
+   },
+   "below": {
+    "file": "upper_U002_below.webp",
+    "status": "pass"
+   }
+  },
+  "U003": {
+   "front": {
+    "file": "upper_U003_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U003_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U003_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U003_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U004": {
+   "front": {
+    "file": "upper_U004_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U004_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U004_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "file": "upper_U004_below.webp",
+    "status": "pass"
+   }
+  },
+  "U005": {
+   "front": {
+    "file": "upper_U005_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U005_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U005_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U005_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U005_below.webp",
+    "status": "pass"
+   }
+  },
+  "U006": {
+   "front": {
+    "file": "upper_U006_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U006_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U006_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U006_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U006_below.webp",
+    "status": "pass"
+   }
+  },
+  "U007": {
+   "front": {
+    "file": "upper_U007_front.webp",
+    "status": "line",
+    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+   },
+   "diag": {
+    "file": "upper_U007_diag.webp",
+    "status": "line",
+    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+   },
+   "side": {
+    "file": "upper_U007_side.webp",
+    "status": "line",
+    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+   },
+   "above": {
+    "file": "upper_U007_above.webp",
+    "status": "line",
+    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+   },
+   "below": {
+    "file": "upper_U007_below.webp",
+    "status": "line",
+    "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+   }
+  },
+  "U008": {
+   "front": {
+    "file": "upper_U008_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U008_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U008_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U008_above.webp",
+    "status": "structure",
+    "reason": "practically same image as front panel"
+   },
+   "below": {
+    "file": "upper_U008_below.webp",
+    "status": "pass"
+   }
+  },
+  "U009": {
+   "front": {
+    "file": "upper_U009_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U009_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U009_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U009_above.webp",
+    "status": "structure",
+    "reason": "practically same image as front panel"
+   },
+   "below": {
+    "file": "upper_U009_below.webp",
+    "status": "pass"
+   }
+  },
+  "U010": {
+   "front": {
+    "file": "upper_U010_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U010_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U010_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U010_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U010_below.webp",
+    "status": "pass"
+   }
+  },
+  "U011": {
+   "front": {
+    "file": "upper_U011_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U011_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U011_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U011_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U011_below.webp",
+    "status": "line",
+    "reason": "skirt-like hem/flare at bottom of torso reads as clothing"
+   }
+  },
+  "U012": {
+   "front": {
+    "file": "upper_U012_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U012_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U012_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U012_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U012_below.webp",
+    "status": "pass"
+   }
+  },
+  "U013": {
+   "front": {
+    "file": "upper_U013_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U013_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U013_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U013_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U013_below.webp",
+    "status": "pass"
+   }
+  },
+  "U014": {
+   "front": {
+    "file": "upper_U014_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U014_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U014_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U014_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U014_below.webp",
+    "status": "pass"
+   }
+  },
+  "U015": {
+   "front": {
+    "file": "upper_U015_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U015_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U015_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U015_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U015_below.webp",
+    "status": "pass"
+   }
+  },
+  "U016": {
+   "front": {
+    "file": "upper_U016_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U016_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U016_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U016_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U016_below.webp",
+    "status": "pass"
+   }
+  },
+  "U017": {
+   "front": {
+    "file": "upper_U017_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U017_diag.webp",
+    "status": "line",
+    "reason": "small circle on breast reads as nipple"
+   },
+   "side": {
+    "file": "upper_U017_side.webp",
+    "status": "line",
+    "reason": "nipple bump on side-view breast outline"
+   },
+   "above": {
+    "file": "upper_U017_above.webp",
+    "status": "structure",
+    "reason": "eye-level frontal view, not an above camera angle"
+   },
+   "below": {
+    "file": "upper_U017_below.webp",
+    "status": "pass"
+   }
+  },
+  "U018": {
+   "front": {
+    "file": "upper_U018_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U018_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U018_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U018_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U018_below.webp",
+    "status": "pass"
+   }
+  },
+  "U019": {
+   "front": {
+    "file": "upper_U019_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U019_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U019_side.webp",
+    "status": "structure",
+    "reason": "practically same torso/pose as diag, not a true side view"
+   },
+   "above": {
+    "file": "upper_U019_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U019_below.webp",
+    "status": "pass"
+   }
+  },
+  "U020": {
+   "front": {
+    "file": "upper_U020_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U020_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U020_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U020_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U020_below.webp",
+    "status": "pass"
+   }
+  },
+  "U021": {
+   "front": {
+    "file": "upper_U021_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U021_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U021_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U021_above.webp",
+    "status": "structure",
+    "reason": "stray arcs beside torso/hip, malformed hip/torso outline"
+   },
+   "below": {
+    "file": "upper_U021_below.webp",
+    "status": "pass"
+   }
+  },
+  "U022": {
+   "front": {
+    "file": "upper_U022_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U022_diag.webp",
+    "status": "structure",
+    "reason": "practically identical to front, not a diagonal view"
+   },
+   "side": {
+    "file": "upper_U022_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U022_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U022_below.webp",
+    "status": "pass"
+   }
+  },
+  "U023": {
+   "front": {
+    "file": "upper_U023_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U023_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U023_side.webp",
+    "status": "structure",
+    "reason": "practically same image as diag, not a side view"
+   },
+   "above": {
+    "file": "upper_U023_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U023_below.webp",
+    "status": "pass"
+   }
+  },
+  "U024": {
+   "front": {
+    "file": "upper_U024_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U024_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U024_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U024_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U024_below.webp",
+    "status": "line",
+    "reason": "small circle nipple mark on right breast"
+   }
+  },
+  "U025": {
+   "front": {
+    "file": "upper_U025_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U025_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U025_side.webp",
+    "status": "structure",
+    "reason": "practically same image as diag, not a side view"
+   },
+   "above": {
+    "file": "upper_U025_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U025_below.webp",
+    "status": "pass"
+   }
+  },
+  "U026": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "upper_U026_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U026_side.webp",
+    "status": "structure",
+    "reason": "practically same image as diag"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U027": {
+   "front": {
+    "file": "upper_U027_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U027_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U027_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U027_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U027_below.webp",
+    "status": "pass"
+   }
+  },
+  "U028": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "file": "upper_U028_side.webp",
+    "status": "structure",
+    "reason": "hand is a flat wedge blob"
+   },
+   "above": {
+    "file": "upper_U028_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U029": {
+   "front": {
+    "file": "upper_U029_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U029_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U029_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U029_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U029_below.webp",
+    "status": "pass"
+   }
+  },
+  "U030": {
+   "front": {
+    "file": "upper_U030_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U030_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U030_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U030_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U030_below.webp",
+    "status": "pass"
+   }
+  },
+  "U031": {
+   "front": {
+    "file": "upper_U031_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U031_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U031_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U032": {
+   "front": {
+    "file": "upper_U032_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U032_diag.webp",
+    "status": "structure",
+    "reason": "hands are flat blobs without fingers"
+   },
+   "side": {
+    "file": "upper_U032_side.webp",
+    "status": "structure",
+    "reason": "mirror duplicate of diag with blob hands"
+   },
+   "above": {
+    "file": "upper_U032_above.webp",
+    "status": "structure",
+    "reason": "hands are mitten blobs without fingers"
+   },
+   "below": {
+    "file": "upper_U032_below.webp",
+    "status": "pass"
+   }
+  },
+  "U033": {
+   "front": {
+    "file": "upper_U033_front.webp",
+    "status": "structure",
+    "reason": "forearms have no hands (missing hands), torso malformed"
+   },
+   "diag": {
+    "file": "upper_U033_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U033_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U033_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U033_below.webp",
+    "status": "pass"
+   }
+  },
+  "U034": {
+   "front": {
+    "file": "upper_U034_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U034_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U034_side.webp",
+    "status": "structure",
+    "reason": "practically mirror duplicate of diag"
+   },
+   "above": {
+    "file": "upper_U034_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U034_below.webp",
+    "status": "pass"
+   }
+  },
+  "U035": {
+   "front": {
+    "file": "upper_U035_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U035_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U035_side.webp",
+    "status": "structure",
+    "reason": "practically same image as diag, not a side view"
+   },
+   "above": {
+    "file": "upper_U035_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U035_below.webp",
+    "status": "pass"
+   }
+  },
+  "U036": {
+   "front": {
+    "file": "upper_U036_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U036_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U036_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U036_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U036_below.webp",
+    "status": "pass"
+   }
+  },
+  "U037": {
+   "front": {
+    "file": "upper_U037_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U037_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U037_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U037_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U038": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "file": "upper_U038_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U038_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U039": {
+   "front": {
+    "file": "upper_U039_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U039_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U039_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U039_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U039_below.webp",
+    "status": "pass"
+   }
+  },
+  "U040": {
+   "front": {
+    "file": "upper_U040_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U040_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U040_side.webp",
+    "status": "structure",
+    "reason": "practically same image as diag"
+   },
+   "above": {
+    "file": "upper_U040_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U040_below.webp",
+    "status": "pass"
+   }
+  },
+  "U041": {
+   "front": {
+    "file": "upper_U041_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U041_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U041_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U041_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U041_below.webp",
+    "status": "pass"
+   }
+  },
+  "U042": {
+   "front": {
+    "file": "upper_U042_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U042_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U042_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U042_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U042_below.webp",
+    "status": "line",
+    "reason": "waistband/crop-top hem reads as clothing"
+   }
+  },
+  "U043": {
+   "front": {
+    "file": "upper_U043_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U043_diag.webp",
+    "status": "structure",
+    "reason": "practically mirrored duplicate of front"
+   },
+   "side": {
+    "file": "upper_U043_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U043_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U043_below.webp",
+    "status": "pass"
+   }
+  },
+  "U044": {
+   "front": {
+    "file": "upper_U044_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U044_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U044_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "file": "upper_U044_below.webp",
+    "status": "structure",
+    "reason": "head/neck/hips malformed, forearms melted into blobs, not a readable prone-on-elbows view"
+   }
+  },
+  "U045": {
+   "front": {
+    "file": "upper_U045_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "file": "upper_U045_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U045_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U046": {
+   "front": {
+    "file": "upper_U046_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U046_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U046_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U046_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U046_below.webp",
+    "status": "pass"
+   }
+  },
+  "U047": {
+   "front": {
+    "file": "upper_U047_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U047_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U047_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U047_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U047_below.webp",
+    "status": "pass"
+   }
+  },
+  "U048": {
+   "front": {
+    "file": "upper_U048_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U048_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U048_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U048_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U048_below.webp",
+    "status": "pass"
+   }
+  },
+  "U049": {
+   "front": {
+    "file": "upper_U049_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U049_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U049_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "file": "upper_U049_below.webp",
+    "status": "pass"
+   }
+  },
+  "U050": {
+   "front": {
+    "file": "upper_U050_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U050_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U050_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U050_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U050_below.webp",
+    "status": "pass"
+   }
+  },
+  "U051": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "status": "missing"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U052": {
+   "front": {
+    "file": "upper_U052_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "file": "upper_U052_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "file": "upper_U052_below.webp",
+    "status": "structure",
+    "reason": "practically identical to the front panel"
+   }
+  },
+  "U053": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "upper_U053_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U053_side.webp",
+    "status": "structure",
+    "reason": "practically the same image as diag"
+   },
+   "above": {
+    "file": "upper_U053_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U053_below.webp",
+    "status": "structure",
+    "reason": "head/neck detached, one arm ends without a hand, pose unreadable"
+   }
+  },
+  "U054": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "file": "upper_U054_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U054_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U054_below.webp",
+    "status": "pass"
+   }
+  },
+  "U055": {
+   "front": {
+    "file": "upper_U055_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U055_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U055_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U055_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U055_below.webp",
+    "status": "pass"
+   }
+  },
+  "U056": {
+   "front": {
+    "file": "upper_U056_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U056_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U056_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U056_above.webp",
+    "status": "structure",
+    "reason": "one arm missing at the left shoulder, which ends in a point"
+   },
+   "below": {
+    "file": "upper_U056_below.webp",
+    "status": "pass"
+   }
+  },
+  "U057": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "upper_U057_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U057_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U057_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U057_below.webp",
+    "status": "pass"
+   }
+  },
+  "U058": {
+   "front": {
+    "file": "upper_U058_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "file": "upper_U058_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U058_above.webp",
+    "status": "structure",
+    "reason": "practically identical to the front panel, not an above view"
+   },
+   "below": {
+    "file": "upper_U058_below.webp",
+    "status": "pass"
+   }
+  },
+  "U059": {
+   "front": {
+    "file": "upper_U059_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U059_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U059_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U059_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U059_below.webp",
+    "status": "pass"
+   }
+  },
+  "U060": {
+   "front": {
+    "file": "upper_U060_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U060_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U060_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U060_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U060_below.webp",
+    "status": "pass"
+   }
+  },
+  "U061": {
+   "front": {
+    "file": "upper_U061_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U061_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U061_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U061_above.webp",
+    "status": "structure",
+    "reason": "practically identical to the front panel"
+   },
+   "below": {
+    "file": "upper_U061_below.webp",
+    "status": "pass"
+   }
+  },
+  "U062": {
+   "front": {
+    "file": "upper_U062_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U062_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U062_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U062_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U062_below.webp",
+    "status": "pass"
+   }
+  },
+  "U063": {
+   "front": {
+    "file": "upper_U063_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "file": "upper_U063_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U063_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U064": {
+   "front": {
+    "file": "upper_U064_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U064_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U064_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U064_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U064_below.webp",
+    "status": "structure",
+    "reason": "tangled overlapping limbs and extra stray contours, anatomy unreadable"
+   }
+  },
+  "U065": {
+   "front": {
+    "file": "upper_U065_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U065_diag.webp",
+    "status": "structure",
+    "reason": "pelvis a jagged malformed blob, no clear hips or legs"
+   },
+   "side": {
+    "file": "upper_U065_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U065_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U066": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "upper_U066_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U066_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U066_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U066_below.webp",
+    "status": "pass"
+   }
+  },
+  "U067": {
+   "front": {
+    "file": "upper_U067_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U067_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U067_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U067_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U067_below.webp",
+    "status": "pass"
+   }
+  },
+  "U068": {
+   "front": {
+    "file": "upper_U068_front.webp",
+    "status": "structure",
+    "reason": "viewer-left arm reduced to a stub, head and neck malformed"
+   },
+   "diag": {
+    "file": "upper_U068_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U068_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U068_above.webp",
+    "status": "structure",
+    "reason": "head detached and twisted behind the chest, doubled arms, anatomy unreadable"
+   },
+   "below": {
+    "file": "upper_U068_below.webp",
+    "status": "pass"
+   }
+  },
+  "U069": {
+   "front": {
+    "file": "upper_U069_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U069_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U069_side.webp",
+    "status": "line",
+    "reason": "hatching/shading strokes along the back contour"
+   },
+   "above": {
+    "file": "upper_U069_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U069_below.webp",
+    "status": "pass"
+   }
+  },
+  "U070": {
+   "front": {
+    "file": "upper_U070_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U070_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U070_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U070_above.webp",
+    "status": "structure",
+    "reason": "viewer-left arm missing, only a shoulder circle"
+   },
+   "below": {
+    "file": "upper_U070_below.webp",
+    "status": "pass"
+   }
+  },
+  "U071": {
+   "front": {
+    "file": "upper_U071_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U071_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U071_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U071_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U071_below.webp",
+    "status": "pass"
+   }
+  },
+  "U072": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "status": "missing"
+   },
+   "above": {
+    "status": "missing"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U073": {
+   "front": {
+    "file": "upper_U073_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U073_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U073_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U073_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U073_below.webp",
+    "status": "pass"
+   }
+  },
+  "U074": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "upper_U074_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U074_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U074_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U074_below.webp",
+    "status": "pass"
+   }
+  },
+  "U075": {
+   "front": {
+    "file": "upper_U075_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U075_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U075_side.webp",
+    "status": "structure",
+    "reason": "hands drawn as head-like blobs at the arm ends, anatomy malformed"
+   },
+   "above": {
+    "file": "upper_U075_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U075_below.webp",
+    "status": "pass"
+   }
+  },
+  "U076": {
+   "front": {
+    "file": "upper_U076_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U076_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U076_side.webp",
+    "status": "structure",
+    "reason": "mirror copy of the diag panel"
+   },
+   "above": {
+    "file": "upper_U076_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U076_below.webp",
+    "status": "pass"
+   }
+  },
+  "U077": {
+   "front": {
+    "file": "upper_U077_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U077_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U077_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U077_above.webp",
+    "status": "structure",
+    "reason": "arms are raised behind the head, not hands behind the back at the shoulder blades"
+   },
+   "below": {
+    "file": "upper_U077_below.webp",
+    "status": "pass"
+   }
+  },
+  "U078": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "status": "missing"
+   },
+   "side": {
+    "status": "missing"
+   },
+   "above": {
+    "file": "upper_U078_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  },
+  "U079": {
+   "front": {
+    "file": "upper_U079_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U079_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U079_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U079_above.webp",
+    "status": "structure",
+    "reason": "viewer-right forearm cut off abruptly with no hand"
+   },
+   "below": {
+    "file": "upper_U079_below.webp",
+    "status": "structure",
+    "reason": "arm ends in a circle with no hand, hand attached oddly at the neck, pose unreadable"
+   }
+  },
+  "U080": {
+   "front": {
+    "status": "missing"
+   },
+   "diag": {
+    "file": "upper_U080_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U080_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U080_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "status": "missing"
+   }
+  }
+ }
+}

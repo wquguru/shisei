@@ -1,6 +1,10 @@
 [
  {
   "id": "P001",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -17,17 +21,21 @@
    "above": "std_P001_above.webp",
    "below": "std_P001_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P001_front.webp",
+   "diag": "std_P001_diag.webp",
+   "side": "std_P001_side.webp",
+   "above": "std_P001_above.webp",
+   "below": "std_P001_below.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P002",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -44,17 +52,21 @@
    "above": "std_P002_above.webp",
    "below": "std_P002_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P002_front.webp",
+   "diag": "std_P002_diag.webp",
+   "side": "std_P002_side.webp",
+   "above": "std_P002_above.webp",
+   "below": "std_P002_below.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P003",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -71,17 +83,21 @@
    "above": "std_P003_above.webp",
    "below": "std_P003_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P003_front.webp",
+   "diag": "std_P003_diag.webp",
+   "side": "std_P003_side.webp",
+   "above": "std_P003_above.webp",
+   "below": "std_P003_below.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P004",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -96,19 +112,25 @@
    "diag": "std_P004_diag.webp",
    "side": "std_P004_side.webp",
    "above": "std_P004_above.webp",
+   "below": null
+  },
+  "photos": {
+   "front": "std_P004_front.webp",
+   "diag": "std_P004_diag.webp",
+   "side": "std_P004_side.webp",
+   "above": "std_P004_above.webp",
    "below": "std_P004_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "below": "line"
+  }
  },
  {
   "id": "P005",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -125,17 +147,21 @@
    "above": "std_P005_above.webp",
    "below": "std_P005_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P005_front.webp",
+   "diag": "std_P005_diag.webp",
+   "side": "std_P005_side.webp",
+   "above": "std_P005_above.webp",
+   "below": "std_P005_below.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P006",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -150,19 +176,25 @@
    "diag": "std_P006_diag.webp",
    "side": "std_P006_side.webp",
    "above": "std_P006_above.webp",
+   "below": null
+  },
+  "photos": {
+   "front": "std_P006_front.webp",
+   "diag": "std_P006_diag.webp",
+   "side": "std_P006_side.webp",
+   "above": "std_P006_above.webp",
    "below": "std_P006_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "below": "line"
+  }
  },
  {
   "id": "P007",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -179,17 +211,21 @@
    "above": "std_P007_above.webp",
    "below": "std_P007_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P007_front.webp",
+   "diag": "std_P007_diag.webp",
+   "side": "std_P007_side.webp",
+   "above": "std_P007_above.webp",
+   "below": "std_P007_below.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P008",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -200,23 +236,30 @@
   "name_kr": "무릎 세우고 양손 머리 뒤로",
   "desc_en": "sitting on the floor with both knees raised and bent, feet flat on the floor, both hands clasped behind her head",
   "views": {
+   "front": null,
+   "diag": "std_P008_diag.webp",
+   "side": "std_P008_side.webp",
+   "above": "std_P008_above.webp",
+   "below": null
+  },
+  "photos": {
    "front": "std_P008_front.webp",
    "diag": "std_P008_diag.webp",
    "side": "std_P008_side.webp",
    "above": "std_P008_above.webp",
    "below": "std_P008_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "front": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P009",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -228,22 +271,28 @@
   "desc_en": "sitting on the floor leaning over to her right side, propped up on her right elbow, legs extended together to her left",
   "views": {
    "front": "std_P009_front.webp",
+   "diag": null,
+   "side": "std_P009_side.webp",
+   "above": "std_P009_above.webp",
+   "below": "std_P009_below.webp"
+  },
+  "photos": {
+   "front": "std_P009_front.webp",
    "diag": "std_P009_diag.webp",
    "side": "std_P009_side.webp",
    "above": "std_P009_above.webp",
    "below": "std_P009_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "diag": "line"
+  }
  },
  {
   "id": "P010",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -260,17 +309,21 @@
    "above": "std_P010_above.webp",
    "below": "std_P010_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P010_front.webp",
+   "diag": "std_P010_diag.webp",
+   "side": "std_P010_side.webp",
+   "above": "std_P010_above.webp",
+   "below": "std_P010_below.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P011",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -287,17 +340,21 @@
    "above": "std_P011_above.webp",
    "below": "std_P011_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P011_front.webp",
+   "diag": "std_P011_diag.webp",
+   "side": "std_P011_side.webp",
+   "above": "std_P011_above.webp",
+   "below": "std_P011_below.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P012",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -312,19 +369,25 @@
    "diag": "std_P012_diag.webp",
    "side": "std_P012_side.webp",
    "above": "std_P012_above.webp",
+   "below": null
+  },
+  "photos": {
+   "front": "std_P012_front.webp",
+   "diag": "std_P012_diag.webp",
+   "side": "std_P012_side.webp",
+   "above": "std_P012_above.webp",
    "below": "std_P012_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "below": "structure"
+  }
  },
  {
   "id": "P013",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -341,17 +404,21 @@
    "above": "std_P013_above.webp",
    "below": "std_P013_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P013_front.webp",
+   "diag": "std_P013_diag.webp",
+   "side": "std_P013_side.webp",
+   "above": "std_P013_above.webp",
+   "below": "std_P013_below.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P014",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "座り",
   "class_cn": "坐姿",
   "class_en": "Sitting",
@@ -362,23 +429,30 @@
   "name_kr": "한쪽 무릎 세우고 발목 잡기",
   "desc_en": "sitting on the floor with one knee raised and bent, holding that leg's ankle with her hand, the other leg extended forward",
   "views": {
+   "front": null,
+   "diag": "std_P014_diag.webp",
+   "side": null,
+   "above": "std_P014_above.webp",
+   "below": "std_P014_below.webp"
+  },
+  "photos": {
    "front": "std_P014_front.webp",
    "diag": "std_P014_diag.webp",
    "side": "std_P014_side.webp",
    "above": "std_P014_above.webp",
    "below": "std_P014_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "front": "structure",
+   "side": "line"
+  }
  },
  {
   "id": "P015",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -392,20 +466,27 @@
    "front": "std_P015_front.webp",
    "diag": "std_P015_diag.webp",
    "side": "std_P015_side.webp",
+   "above": null,
+   "below": null
+  },
+  "photos": {
+   "front": "std_P015_front.webp",
+   "diag": "std_P015_diag.webp",
+   "side": "std_P015_side.webp",
    "above": "std_P015_above.webp",
    "below": "std_P015_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "above": "line",
+   "below": "line"
+  }
  },
  {
   "id": "P016",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -417,22 +498,29 @@
   "desc_en": "standing with both hands raised to her head, fingers running through her hair and lifting it up",
   "views": {
    "front": "std_P016_front.webp",
+   "diag": null,
+   "side": null,
+   "above": "std_P016_above.webp",
+   "below": "std_P016_below.webp"
+  },
+  "photos": {
+   "front": "std_P016_front.webp",
    "diag": "std_P016_diag.webp",
    "side": "std_P016_side.webp",
    "above": "std_P016_above.webp",
    "below": "std_P016_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "diag": "line",
+   "side": "line"
+  }
  },
  {
   "id": "P017",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -447,19 +535,25 @@
    "diag": "std_P017_diag.webp",
    "side": "std_P017_side.webp",
    "above": "std_P017_above.webp",
+   "below": null
+  },
+  "photos": {
+   "front": "std_P017_front.webp",
+   "diag": "std_P017_diag.webp",
+   "side": "std_P017_side.webp",
+   "above": "std_P017_above.webp",
    "below": "std_P017_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "below": "line"
+  }
  },
  {
   "id": "P018",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -470,23 +564,29 @@
   "name_kr": "서서 양손 허리에",
   "desc_en": "standing straight facing forward with both hands placed firmly on her hips, elbows out, legs straight and slightly apart",
   "views": {
+   "front": null,
+   "diag": "std_P018_diag.webp",
+   "side": "std_P018_side.webp",
+   "above": "std_P018_above.webp",
+   "below": "std_P018_below.webp"
+  },
+  "photos": {
    "front": "std_P018_front.webp",
    "diag": "std_P018_diag.webp",
    "side": "std_P018_side.webp",
    "above": "std_P018_above.webp",
    "below": "std_P018_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "front": "line"
+  }
  },
  {
   "id": "P019",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -497,23 +597,33 @@
   "name_kr": "서서 양팔 위로 뻗기",
   "desc_en": "standing with both arms stretched straight up high overhead in a full-body stretch, legs straight",
   "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
+  },
+  "photos": {
    "front": "std_P019_front.webp",
    "diag": "std_P019_diag.webp",
    "side": "std_P019_side.webp",
    "above": "std_P019_above.webp",
    "below": "std_P019_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P020",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -524,23 +634,33 @@
   "name_kr": "서서 한손 뒤통수에",
   "desc_en": "standing with one hand resting on the back of her head, the other arm relaxed at her side",
   "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
+  },
+  "photos": {
    "front": "std_P020_front.webp",
    "diag": "std_P020_diag.webp",
    "side": "std_P020_side.webp",
    "above": "std_P020_above.webp",
    "below": "std_P020_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P021",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -557,17 +677,21 @@
    "above": "std_P021_above.webp",
    "below": "std_P021_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P021_front.webp",
+   "diag": "std_P021_diag.webp",
+   "side": "std_P021_side.webp",
+   "above": "std_P021_above.webp",
+   "below": "std_P021_below.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P022",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -578,23 +702,33 @@
   "name_kr": "서서 팔 뒤로·가슴 펴기",
   "desc_en": "standing with both arms pulled behind her back, chest pushed out proudly, legs straight",
   "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
+  },
+  "photos": {
    "front": "std_P022_front.webp",
    "diag": "std_P022_diag.webp",
    "side": "std_P022_side.webp",
    "above": "std_P022_above.webp",
    "below": "std_P022_below.webp"
   },
-  "photos": [
-   "front",
-   "diag",
-   "side",
-   "above",
-   "below"
-  ],
-  "orig_id": null
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P024",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -611,11 +745,15 @@
    "above": "std_P024_above.webp",
    "below": "std_P024_below.webp"
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P025",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -626,17 +764,27 @@
   "name_kr": "서서 다리 벌리고 양손 허리에",
   "desc_en": "standing in a wide stance with legs apart, both hands on her hips, confident posture",
   "views": {
-   "front": "std_P025_front.webp",
-   "diag": "std_P025_diag.webp",
-   "side": "std_P025_side.webp",
-   "above": "std_P025_above.webp",
-   "below": "std_P025_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P026",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -647,17 +795,27 @@
   "name_kr": "서서 한팔 들고 골반 내밀기",
   "desc_en": "standing with one arm raised up, her hip pushed out to one side in a playful pose",
   "views": {
-   "front": "std_P026_front.webp",
-   "diag": "std_P026_diag.webp",
-   "side": "std_P026_side.webp",
-   "above": "std_P026_above.webp",
-   "below": "std_P026_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P027",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -668,17 +826,27 @@
   "name_kr": "서서 양손 목덜미에",
   "desc_en": "standing with both hands raised behind her head, resting on the nape of her neck, elbows out",
   "views": {
-   "front": "std_P027_front.webp",
-   "diag": "std_P027_diag.webp",
-   "side": "std_P027_side.webp",
-   "above": "std_P027_above.webp",
-   "below": "std_P027_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P029",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -689,17 +857,27 @@
   "name_kr": "서서 머리카락 휘날리기",
   "desc_en": "standing gracefully with her long hair flowing and billowing in the wind, arms relaxed",
   "views": {
-   "front": "std_P029_front.webp",
-   "diag": "std_P029_diag.webp",
-   "side": "std_P029_side.webp",
-   "above": "std_P029_above.webp",
-   "below": "std_P029_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P030",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "立ち",
   "class_cn": "站立",
   "class_en": "Standing",
@@ -710,17 +888,27 @@
   "name_kr": "서서 까치발·양팔 V자",
   "desc_en": "standing on tiptoe with both arms raised diagonally upward in a V shape, legs straight",
   "views": {
-   "front": "std_P030_front.webp",
-   "diag": "std_P030_diag.webp",
-   "side": "std_P030_side.webp",
-   "above": "std_P030_above.webp",
-   "below": "std_P030_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P031",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -731,17 +919,27 @@
   "name_kr": "무릎 꿇고 양손 허벅지에",
   "desc_en": "kneeling upright on both knees on the floor, back straight, both hands resting flat on her thighs",
   "views": {
-   "front": "std_P031_front.webp",
-   "diag": "std_P031_diag.webp",
-   "side": "std_P031_side.webp",
-   "above": "std_P031_above.webp",
-   "below": "std_P031_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P032",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -752,17 +950,27 @@
   "name_kr": "무릎 꿇고 양손 머리 뒤로",
   "desc_en": "kneeling upright on both knees, both hands clasped behind her head, elbows out",
   "views": {
-   "front": "std_P032_front.webp",
-   "diag": "std_P032_diag.webp",
-   "side": "std_P032_side.webp",
-   "above": "std_P032_above.webp",
-   "below": "std_P032_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P033",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -773,17 +981,27 @@
   "name_kr": "한쪽 무릎 꿇고 무릎에 손",
   "desc_en": "in a half-kneeling pose with one knee on the floor and the other foot planted flat in front with knee bent, one hand resting on her front knee",
   "views": {
-   "front": "std_P033_front.webp",
-   "diag": "std_P033_diag.webp",
-   "side": "std_P033_side.webp",
-   "above": "std_P033_above.webp",
-   "below": "std_P033_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P034",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -794,17 +1012,27 @@
   "name_kr": "무릎 꿇고 상체 뒤로 젖히기",
   "desc_en": "kneeling on both knees, arching her upper body backward in a deep backbend, arms hanging relaxed",
   "views": {
-   "front": "std_P034_front.webp",
-   "diag": "std_P034_diag.webp",
-   "side": "std_P034_side.webp",
-   "above": "std_P034_above.webp",
-   "below": "std_P034_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P035",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -815,17 +1043,27 @@
   "name_kr": "무릎 꿇고 양팔 위로 뻗기",
   "desc_en": "kneeling on both knees with both arms stretched straight upward toward the ceiling",
   "views": {
-   "front": "std_P035_front.webp",
-   "diag": "std_P035_diag.webp",
-   "side": "std_P035_side.webp",
-   "above": "std_P035_above.webp",
-   "below": "std_P035_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P036",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -836,17 +1074,27 @@
   "name_kr": "무릎 꿇고 한손 머리에·한손 허리에",
   "desc_en": "kneeling on both knees, one hand raised touching her hair, the other hand resting on her hip",
   "views": {
-   "front": "std_P036_front.webp",
-   "diag": "std_P036_diag.webp",
-   "side": "std_P036_side.webp",
-   "above": "std_P036_above.webp",
-   "below": "std_P036_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P037",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -857,17 +1105,27 @@
   "name_kr": "한쪽 무릎 꿇고 올려다보기",
   "desc_en": "in a half-kneeling pose with one knee on the floor and the other foot planted in front, face turned looking upward",
   "views": {
-   "front": "std_P037_front.webp",
-   "diag": "std_P037_diag.webp",
-   "side": "std_P037_side.webp",
-   "above": "std_P037_above.webp",
-   "below": "std_P037_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P038",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -878,17 +1136,27 @@
   "name_kr": "무릎 꿇고 옆으로 기울어 손 짚기",
   "desc_en": "kneeling on both knees leaning over sideways, one hand placed flat on the floor beside her for support",
   "views": {
-   "front": "std_P038_front.webp",
-   "diag": "std_P038_diag.webp",
-   "side": "std_P038_side.webp",
-   "above": "std_P038_above.webp",
-   "below": "std_P038_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P039",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -903,13 +1171,19 @@
    "diag": "std_P039_diag.webp",
    "side": "std_P039_side.webp",
    "above": "std_P039_above.webp",
-   "below": "std_P039_below.webp"
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "below": "structure"
+  }
  },
  {
   "id": "P040",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "膝立ち",
   "class_cn": "跪姿",
   "class_en": "Kneeling",
@@ -921,16 +1195,24 @@
   "desc_en": "kneeling on both knees with her hips swayed to one side, one arm raised up in the air",
   "views": {
    "front": "std_P040_front.webp",
-   "diag": "std_P040_diag.webp",
-   "side": "std_P040_side.webp",
+   "diag": null,
+   "side": null,
    "above": "std_P040_above.webp",
-   "below": "std_P040_below.webp"
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "diag": "structure",
+   "side": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P041",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "横座り・女の子座り",
   "class_cn": "侧坐・少女坐",
   "class_en": "Side sit / W-sit",
@@ -945,13 +1227,19 @@
    "diag": "std_P041_diag.webp",
    "side": "std_P041_side.webp",
    "above": "std_P041_above.webp",
-   "below": "std_P041_below.webp"
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "below": "line"
+  }
  },
  {
   "id": "P042",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "横座り・女の子座り",
   "class_cn": "侧坐・少女坐",
   "class_en": "Side sit / W-sit",
@@ -966,13 +1254,19 @@
    "diag": "std_P042_diag.webp",
    "side": "std_P042_side.webp",
    "above": "std_P042_above.webp",
-   "below": "std_P042_below.webp"
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "below": "line"
+  }
  },
  {
   "id": "P043",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "横座り・女の子座り",
   "class_cn": "侧坐・少女坐",
   "class_en": "Side sit / W-sit",
@@ -983,17 +1277,27 @@
   "name_kr": "여자아이 앉기·양손 머리 뒤로",
   "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, both hands clasped behind her head",
   "views": {
-   "front": "std_P043_front.webp",
-   "diag": "std_P043_diag.webp",
-   "side": "std_P043_side.webp",
-   "above": "std_P043_above.webp",
-   "below": "std_P043_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P044",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "横座り・女の子座り",
   "class_cn": "侧坐・少女坐",
   "class_en": "Side sit / W-sit",
@@ -1004,17 +1308,27 @@
   "name_kr": "여자아이 앉기·뒤에 손 짚기",
   "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, leaning back slightly with both hands placed on the floor behind her",
   "views": {
-   "front": "std_P044_front.webp",
-   "diag": "std_P044_diag.webp",
-   "side": "std_P044_side.webp",
-   "above": "std_P044_above.webp",
-   "below": "std_P044_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P045",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "横座り・女の子座り",
   "class_cn": "侧坐・少女坐",
   "class_en": "Side sit / W-sit",
@@ -1025,17 +1339,27 @@
   "name_kr": "옆으로 앉아 다리 오른쪽으로",
   "desc_en": "sitting on the floor with both legs swept together to her right side in a side-saddle sit, torso upright and straight",
   "views": {
-   "front": "std_P045_front.webp",
-   "diag": "std_P045_diag.webp",
-   "side": "std_P045_side.webp",
-   "above": "std_P045_above.webp",
-   "below": "std_P045_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P046",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "横座り・女の子座り",
   "class_cn": "侧坐・少女坐",
   "class_en": "Side sit / W-sit",
@@ -1046,17 +1370,27 @@
   "name_kr": "옆으로 앉아 뺨에 손",
   "desc_en": "sitting on the floor with both legs swept together to one side, one hand raised with fingers resting gently against her cheek",
   "views": {
-   "front": "std_P046_front.webp",
-   "diag": "std_P046_diag.webp",
-   "side": "std_P046_side.webp",
-   "above": "std_P046_above.webp",
-   "below": "std_P046_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P047",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "横座り・女の子座り",
   "class_cn": "侧坐・少女坐",
   "class_en": "Side sit / W-sit",
@@ -1067,17 +1401,27 @@
   "name_kr": "옆으로 앉아 한팔 위로 뻗기",
   "desc_en": "sitting on the floor with both legs swept together to one side, one arm stretched straight upward",
   "views": {
-   "front": "std_P047_front.webp",
-   "diag": "std_P047_diag.webp",
-   "side": "std_P047_side.webp",
-   "above": "std_P047_above.webp",
-   "below": "std_P047_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P048",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "横座り・女の子座り",
   "class_cn": "侧坐・少女坐",
   "class_en": "Side sit / W-sit",
@@ -1088,17 +1432,27 @@
   "name_kr": "여자아이 앉기·목덜미에 손",
   "desc_en": "sitting on the floor in a W-sit with legs folded to both sides, one hand resting at her neck and collarbone",
   "views": {
-   "front": "std_P048_front.webp",
-   "diag": "std_P048_diag.webp",
-   "side": "std_P048_side.webp",
-   "above": "std_P048_above.webp",
-   "below": "std_P048_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P049",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "寝そべり",
   "class_cn": "躺姿",
   "class_en": "Lying",
@@ -1112,14 +1466,21 @@
    "front": "std_P049_front.webp",
    "diag": "std_P049_diag.webp",
    "side": "std_P049_side.webp",
-   "above": "std_P049_above.webp",
-   "below": "std_P049_below.webp"
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P050",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "寝そべり",
   "class_cn": "躺姿",
   "class_en": "Lying",
@@ -1136,13 +1497,17 @@
    "above": "std_P050_above.webp",
    "below": "std_P050_below.webp"
   },
-  "photos": [
-   "front"
-  ],
-  "orig_id": null
+  "photos": {
+   "front": "std_P050_front.webp"
+  },
+  "gaps": {}
  },
  {
   "id": "P051",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "寝そべり",
   "class_cn": "躺姿",
   "class_en": "Lying",
@@ -1154,16 +1519,23 @@
   "desc_en": "lying face down on her stomach on the floor, both legs bent upward behind her with feet kicked up in the air, chin resting on her hands",
   "views": {
    "front": "std_P051_front.webp",
-   "diag": "std_P051_diag.webp",
-   "side": "std_P051_side.webp",
+   "diag": null,
+   "side": null,
    "above": "std_P051_above.webp",
    "below": "std_P051_below.webp"
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "diag": "structure",
+   "side": "structure"
+  }
  },
  {
   "id": "P052",
+  "orig_id": null,
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "寝そべり",
   "class_cn": "躺姿",
   "class_en": "Lying",
@@ -1174,18 +1546,27 @@
   "name_kr": "누워서 한쪽 무릎 세우기",
   "desc_en": "lying on her back on the floor with one knee raised and bent with foot flat on the floor, the other leg extended straight, arms resting beside her",
   "views": {
-   "front": "std_P052_front.webp",
-   "diag": "std_P052_diag.webp",
-   "side": "std_P052_side.webp",
-   "above": "std_P052_above.webp",
-   "below": "std_P052_below.webp"
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
   },
-  "photos": [],
-  "orig_id": null
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure",
+   "below": "structure"
+  }
  },
  {
   "id": "P053",
   "orig_id": "P054",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "寝そべり",
   "class_cn": "躺姿",
   "class_en": "Lying",
@@ -1202,11 +1583,15 @@
    "above": "std_P053_above.webp",
    "below": "std_P053_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P054",
   "orig_id": "P056",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "寝そべり",
   "class_cn": "躺姿",
   "class_en": "Lying",
@@ -1217,17 +1602,26 @@
   "name_kr": "누워서 양다리 위로",
   "desc_en": "lying flat on her back on the floor with both legs raised straight up toward the ceiling together, arms resting beside her body",
   "views": {
-   "front": "std_P054_front.webp",
-   "diag": "std_P054_diag.webp",
-   "side": "std_P054_side.webp",
+   "front": null,
+   "diag": null,
+   "side": null,
    "above": "std_P054_above.webp",
-   "below": "std_P054_below.webp"
+   "below": null
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "front": "line",
+   "diag": "line",
+   "side": "line",
+   "below": "line"
+  }
  },
  {
   "id": "P055",
   "orig_id": "P057",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "寝そべり",
   "class_cn": "躺姿",
   "class_en": "Lying",
@@ -1244,11 +1638,15 @@
    "above": "std_P055_above.webp",
    "below": "std_P055_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P056",
   "orig_id": "P058",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "寝そべり",
   "class_cn": "躺姿",
   "class_en": "Lying",
@@ -1265,11 +1663,15 @@
    "above": "std_P056_above.webp",
    "below": "std_P056_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P057",
   "orig_id": "P059",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "寝そべり",
   "class_cn": "躺姿",
   "class_en": "Lying",
@@ -1286,11 +1688,15 @@
    "above": "std_P057_above.webp",
    "below": "std_P057_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P058",
   "orig_id": "P061",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "しゃがみ",
   "class_cn": "蹲姿",
   "class_en": "Squatting",
@@ -1307,11 +1713,15 @@
    "above": "std_P058_above.webp",
    "below": "std_P058_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P059",
   "orig_id": "P062",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "しゃがみ",
   "class_cn": "蹲姿",
   "class_en": "Squatting",
@@ -1328,11 +1738,15 @@
    "above": "std_P059_above.webp",
    "below": "std_P059_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P060",
   "orig_id": "P063",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "しゃがみ",
   "class_cn": "蹲姿",
   "class_en": "Squatting",
@@ -1344,16 +1758,22 @@
   "desc_en": "squatting low with her elbow resting on her knee and her cheek resting on that hand",
   "views": {
    "front": "std_P060_front.webp",
-   "diag": "std_P060_diag.webp",
+   "diag": null,
    "side": "std_P060_side.webp",
    "above": "std_P060_above.webp",
    "below": "std_P060_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "diag": "line"
+  }
  },
  {
   "id": "P061",
   "orig_id": "P064",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "しゃがみ",
   "class_cn": "蹲姿",
   "class_en": "Squatting",
@@ -1368,13 +1788,19 @@
    "diag": "std_P061_diag.webp",
    "side": "std_P061_side.webp",
    "above": "std_P061_above.webp",
-   "below": "std_P061_below.webp"
+   "below": null
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "below": "structure"
+  }
  },
  {
   "id": "P062",
   "orig_id": "P065",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "しゃがみ",
   "class_cn": "蹲姿",
   "class_en": "Squatting",
@@ -1391,11 +1817,19 @@
    "above": "std_P062_above.webp",
    "below": null
   },
-  "photos": []
+  "photos": {
+   "below": "std_P062_below.webp"
+  },
+  "gaps": {
+   "below": "missing"
+  }
  },
  {
   "id": "P063",
   "orig_id": "P066",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "しゃがみ",
   "class_cn": "蹲姿",
   "class_en": "Squatting",
@@ -1409,14 +1843,20 @@
    "front": "std_P063_front.webp",
    "diag": "std_P063_diag.webp",
    "side": "std_P063_side.webp",
-   "above": "std_P063_above.webp",
+   "above": null,
    "below": "std_P063_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "above": "line"
+  }
  },
  {
   "id": "P064",
   "orig_id": "P067",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "前かがみ",
   "class_cn": "前倾",
   "class_en": "Leaning forward",
@@ -1433,11 +1873,15 @@
    "above": "std_P064_above.webp",
    "below": "std_P064_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P065",
   "orig_id": "P068",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "前かがみ",
   "class_cn": "前倾",
   "class_en": "Leaning forward",
@@ -1448,17 +1892,23 @@
   "name_kr": "상체 숙여 정강이 만지기",
   "desc_en": "standing bent forward deeply at the waist, both hands reaching down touching her shins",
   "views": {
-   "front": "std_P065_front.webp",
+   "front": null,
    "diag": "std_P065_diag.webp",
    "side": "std_P065_side.webp",
    "above": "std_P065_above.webp",
    "below": "std_P065_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "front": "line"
+  }
  },
  {
   "id": "P066",
   "orig_id": "P069",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "前かがみ",
   "class_cn": "前倾",
   "class_en": "Leaning forward",
@@ -1475,11 +1925,15 @@
    "above": "std_P066_above.webp",
    "below": "std_P066_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P067",
   "orig_id": "P070",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "前かがみ",
   "class_cn": "前倾",
   "class_en": "Leaning forward",
@@ -1496,11 +1950,15 @@
    "above": "std_P067_above.webp",
    "below": "std_P067_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P068",
   "orig_id": "P071",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "前かがみ",
   "class_cn": "前倾",
   "class_en": "Leaning forward",
@@ -1514,14 +1972,20 @@
    "front": "std_P068_front.webp",
    "diag": "std_P068_diag.webp",
    "side": "std_P068_side.webp",
-   "above": "std_P068_above.webp",
+   "above": null,
    "below": "std_P068_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "above": "line"
+  }
  },
  {
   "id": "P069",
   "orig_id": "P072",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "前かがみ",
   "class_cn": "前倾",
   "class_en": "Leaning forward",
@@ -1538,11 +2002,15 @@
    "above": "std_P069_above.webp",
    "below": "std_P069_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
  },
  {
   "id": "P070",
   "orig_id": "P073",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "のけぞり・反り",
   "class_cn": "后仰",
   "class_en": "Arching back",
@@ -1553,17 +2021,25 @@
   "name_kr": "서서 뒤로 젖히기",
   "desc_en": "standing with her upper body arched strongly backward, head tilted back",
   "views": {
-   "front": "std_P070_front.webp",
-   "diag": "std_P070_diag.webp",
+   "front": null,
+   "diag": null,
    "side": "std_P070_side.webp",
-   "above": "std_P070_above.webp",
+   "above": null,
    "below": "std_P070_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "above": "line"
+  }
  },
  {
   "id": "P071",
   "orig_id": "P074",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "のけぞり・反り",
   "class_cn": "后仰",
   "class_en": "Arching back",
@@ -1576,15 +2052,21 @@
   "views": {
    "front": "std_P071_front.webp",
    "diag": "std_P071_diag.webp",
-   "side": "std_P071_side.webp",
+   "side": null,
    "above": "std_P071_above.webp",
    "below": "std_P071_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "side": "line"
+  }
  },
  {
   "id": "P072",
   "orig_id": "P075",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "のけぞり・反り",
   "class_cn": "后仰",
   "class_en": "Arching back",
@@ -1595,17 +2077,24 @@
   "name_kr": "양팔 들고 뒤로 젖히기",
   "desc_en": "standing with both arms raised up while arching her whole body backward, head tilted back",
   "views": {
-   "front": "std_P072_front.webp",
+   "front": null,
    "diag": "std_P072_diag.webp",
    "side": "std_P072_side.webp",
-   "above": "std_P072_above.webp",
+   "above": null,
    "below": "std_P072_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "front": "line",
+   "above": "line"
+  }
  },
  {
   "id": "P073",
   "orig_id": "P077",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "ひねり",
   "class_cn": "扭转",
   "class_en": "Twist",
@@ -1616,17 +2105,23 @@
   "name_kr": "서서 비틀어 양팔 벌리기",
   "desc_en": "standing with her upper body twisted to the side, both arms spread wide open",
   "views": {
-   "front": "std_P073_front.webp",
+   "front": null,
    "diag": "std_P073_diag.webp",
    "side": "std_P073_side.webp",
    "above": "std_P073_above.webp",
    "below": "std_P073_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "front": "line"
+  }
  },
  {
   "id": "P074",
   "orig_id": "P078",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "ひねり",
   "class_cn": "扭转",
   "class_en": "Twist",
@@ -1641,13 +2136,19 @@
    "diag": "std_P074_diag.webp",
    "side": "std_P074_side.webp",
    "above": "std_P074_above.webp",
-   "below": "std_P074_below.webp"
+   "below": null
   },
-  "photos": []
+  "photos": {},
+  "gaps": {
+   "below": "line"
+  }
  },
  {
   "id": "P075",
   "orig_id": "P079",
+  "series": "std",
+  "added_in": "0.1.0",
+  "rating": "general",
   "class_jp": "ひねり",
   "class_cn": "扭转",
   "class_en": "Twist",
@@ -1664,6 +2165,4245 @@
    "above": "std_P075_above.webp",
    "below": "std_P075_below.webp"
   },
-  "photos": []
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S001",
+  "orig_id": "P001",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "S字立ち・腰を横に突き出す",
+  "name_cn": "S字站姿・髋部侧推",
+  "name_en": "Standing S-curve, hips out",
+  "name_kr": "S자 서기·골반 옆으로",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S001_front.webp",
+   "diag": "sexy_S001_diag.webp",
+   "side": "sexy_S001_side.webp",
+   "above": "sexy_S001_above.webp",
+   "below": "sexy_S001_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S002",
+  "orig_id": "P002",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "背中を反らし両手で髪をかき上げる",
+  "name_cn": "后仰站姿・双手撩发",
+  "name_en": "Standing back arch, hands in hair",
+  "name_kr": "뒤로 젖혀 서기·양손 머리",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S002_diag.webp",
+   "side": "sexy_S002_side.webp",
+   "above": "sexy_S002_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "below": "line"
+  }
+ },
+ {
+  "id": "S003",
+  "orig_id": "P003",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "腰を突き出して振り返る",
+  "name_cn": "扭身回头・翘臀站姿",
+  "name_en": "Look-back standing, hips out",
+  "name_kr": "돌아보기·골반 내밀기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S003_front.webp",
+   "diag": "sexy_S003_diag.webp",
+   "side": "sexy_S003_side.webp",
+   "above": "sexy_S003_above.webp",
+   "below": "sexy_S003_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S004",
+  "orig_id": "P004",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "前かがみで膝に手を置く",
+  "name_cn": "前倾站姿・双手扶膝",
+  "name_en": "Bent forward, hands on knees",
+  "name_kr": "앞으로 숙여 무릎에 손",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S004_front.webp",
+   "diag": "sexy_S004_diag.webp",
+   "side": "sexy_S004_side.webp",
+   "above": null,
+   "below": "sexy_S004_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "line"
+  }
+ },
+ {
+  "id": "S005",
+  "orig_id": "P005",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立って片膝を胸まで抱え上げ背中を反らす",
+  "name_cn": "单腿站立・抱膝挺腰",
+  "name_en": "Standing knee hug, back arched",
+  "name_kr": "한 다리로 서서 무릎 안기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S005_front.webp",
+   "diag": "sexy_S005_diag.webp",
+   "side": "sexy_S005_side.webp",
+   "above": "sexy_S005_above.webp",
+   "below": "sexy_S005_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S006",
+  "orig_id": "P006",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "壁に手をついて腰を突き出す（立ちバック待ち）",
+  "name_cn": "扶墙站姿・翘臀",
+  "name_en": "Leaning on wall, hips back",
+  "name_kr": "벽에 손·골반 뒤로",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S006_diag.webp",
+   "side": "sexy_S006_side.webp",
+   "above": "sexy_S006_above.webp",
+   "below": "sexy_S006_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing"
+  }
+ },
+ {
+  "id": "S007",
+  "orig_id": "P007",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "後ろ向きで振り返りお尻を強調",
+  "name_cn": "背向回头站姿",
+  "name_en": "Back to viewer look-back",
+  "name_kr": "뒤돌아보기 서기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S007_front.webp",
+   "diag": "sexy_S007_diag.webp",
+   "side": "sexy_S007_side.webp",
+   "above": "sexy_S007_above.webp",
+   "below": "sexy_S007_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S008",
+  "orig_id": "P008",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち・片脚を肩まで上げて足首を持つ（I字）",
+  "name_cn": "站立竖叉・手抓脚踝（I字）",
+  "name_en": "Standing vertical split (I-shape)",
+  "name_kr": "서서 다리 수직 찢기(I자)",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S008_front.webp",
+   "diag": "sexy_S008_diag.webp",
+   "side": "sexy_S008_side.webp",
+   "above": "sexy_S008_above.webp",
+   "below": "sexy_S008_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S009",
+  "orig_id": "P009",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "シャワー中を思わせる髪かき上げ",
+  "name_cn": "站姿双手撩发",
+  "name_en": "Standing hands in hair",
+  "name_kr": "서서 양손 머리",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S009_front.webp",
+   "diag": "sexy_S009_diag.webp",
+   "side": "sexy_S009_side.webp",
+   "above": "sexy_S009_above.webp",
+   "below": "sexy_S009_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S010",
+  "orig_id": "P010",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ってバストを寄せる",
+  "name_cn": "站姿双臂夹胸",
+  "name_en": "Standing forearms pressed together",
+  "name_kr": "서서 팔뚝 모으기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S010_front.webp",
+   "diag": "sexy_S010_diag.webp",
+   "side": "sexy_S010_side.webp",
+   "above": "sexy_S010_above.webp",
+   "below": "sexy_S010_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S011",
+  "orig_id": "P011",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "両腕を上に伸ばして背伸び・腰をひねる",
+  "name_cn": "站姿伸懒腰扭腰",
+  "name_en": "Standing stretch overhead, waist twist",
+  "name_kr": "서서 기지개·허리 비틀기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": "sexy_S011_above.webp",
+   "below": "sexy_S011_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure",
+   "side": "structure"
+  }
+ },
+ {
+  "id": "S012",
+  "orig_id": "P012",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ちV字（片脚を横に高く上げる）",
+  "name_cn": "站立侧抬腿（V字）",
+  "name_en": "Standing side leg raise (V)",
+  "name_kr": "서서 옆으로 다리 들기(V자)",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S012_front.webp",
+   "diag": "sexy_S012_diag.webp",
+   "side": "sexy_S012_side.webp",
+   "above": "sexy_S012_above.webp",
+   "below": "sexy_S012_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S013",
+  "orig_id": "P013",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "後ろ手で胸を張る",
+  "name_cn": "背手挺胸站姿",
+  "name_en": "Hands behind back, chest out",
+  "name_kr": "뒷짐·가슴 펴기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S013_front.webp",
+   "diag": "sexy_S013_diag.webp",
+   "side": "sexy_S013_side.webp",
+   "above": "sexy_S013_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S014",
+  "orig_id": "P014",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "立ち前屈でお尻を突き出し両手を床へ",
+  "name_cn": "站立前屈・手触地",
+  "name_en": "Deep forward fold, hands to floor",
+  "name_kr": "서서 상체 숙이기·손 바닥으로",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S014_front.webp",
+   "diag": "sexy_S014_diag.webp",
+   "side": "sexy_S014_side.webp",
+   "above": "sexy_S014_above.webp",
+   "below": "sexy_S014_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S015",
+  "orig_id": "P015",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "立ち",
+  "class_cn": "站姿",
+  "class_en": "Standing",
+  "class_kr": "서기",
+  "name_jp": "腰に両手・片膝を内に入れて反る",
+  "name_cn": "叉腰站姿・单膝内扣后仰",
+  "name_en": "Hands on hips, knee in, back arched",
+  "name_kr": "양손 허리·한쪽 무릎 안쪽·젖히기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S015_front.webp",
+   "diag": "sexy_S015_diag.webp",
+   "side": "sexy_S015_side.webp",
+   "above": "sexy_S015_above.webp",
+   "below": "sexy_S015_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S016",
+  "orig_id": "P016",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "横座りで片手をつき体をしならせる",
+  "name_cn": "侧坐・单手撑地扭身",
+  "name_en": "Side-saddle sit, torso curved",
+  "name_kr": "옆으로 앉아 한 손 짚고 몸 비틀기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S016_front.webp",
+   "diag": "sexy_S016_diag.webp",
+   "side": "sexy_S016_side.webp",
+   "above": "sexy_S016_above.webp",
+   "below": "sexy_S016_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S017",
+  "orig_id": "P017",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "正座から胸を張って背中を反らす",
+  "name_cn": "正坐挺胸后仰",
+  "name_en": "Seiza, chest out, back arched",
+  "name_kr": "정좌 가슴 펴고 젖히기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S017_diag.webp",
+   "side": null,
+   "above": "sexy_S017_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "side": "structure",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S018",
+  "orig_id": "P018",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "M字開脚（座位・後ろ手）",
+  "name_cn": "M字开腿坐・双手后撑",
+  "name_en": "M-sit, hands behind",
+  "name_kr": "M자 다리 벌려 앉기·손 뒤 짚기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S018_front.webp",
+   "diag": "sexy_S018_diag.webp",
+   "side": "sexy_S018_side.webp",
+   "above": "sexy_S018_above.webp",
+   "below": "sexy_S018_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S019",
+  "orig_id": "P019",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "M字開脚（座位・両手を膝に）",
+  "name_cn": "M字开腿坐・双手扶膝",
+  "name_en": "M-sit, hands on knees",
+  "name_kr": "M자 다리 벌려 앉기·손 무릎",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S019_front.webp",
+   "diag": "sexy_S019_diag.webp",
+   "side": "sexy_S019_side.webp",
+   "above": "sexy_S019_above.webp",
+   "below": "sexy_S019_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S020",
+  "orig_id": "P020",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "大きくV字開脚して後ろに手をつく",
+  "name_cn": "V字开腿坐・双手后撑",
+  "name_en": "V-sit, hands behind",
+  "name_kr": "V자 다리 벌려 앉기·손 뒤 짚기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S020_front.webp",
+   "diag": "sexy_S020_diag.webp",
+   "side": "sexy_S020_side.webp",
+   "above": "sexy_S020_above.webp",
+   "below": "sexy_S020_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S021",
+  "orig_id": "P021",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "座って片脚を高く伸ばし上げ足首を持つ",
+  "name_cn": "坐姿单腿竖起抓脚踝",
+  "name_en": "Seated leg raise holding ankle",
+  "name_kr": "앉아 한 다리 들고 발목 잡기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S021_front.webp",
+   "diag": "sexy_S021_diag.webp",
+   "side": "sexy_S021_side.webp",
+   "above": "sexy_S021_above.webp",
+   "below": "sexy_S021_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S022",
+  "orig_id": "P022",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "M字開脚（両肘をついて後ろに倒れる）",
+  "name_cn": "M字开腿・双肘后撑仰躺",
+  "name_en": "M-sit leaning back on elbows",
+  "name_kr": "M자·양팔꿈치 기대어 눕기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S022_diag.webp",
+   "side": "sexy_S022_side.webp",
+   "above": null,
+   "below": "sexy_S022_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "above": "line"
+  }
+ },
+ {
+  "id": "S023",
+  "orig_id": "P023",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "脚を伸ばして横に肘をつく座り",
+  "name_cn": "伸腿侧坐・单肘撑地",
+  "name_en": "Legs to side, propped on elbow",
+  "name_kr": "다리 뻗어 옆으로 팔꿈치 앉기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S023_front.webp",
+   "diag": "sexy_S023_diag.webp",
+   "side": "sexy_S023_side.webp",
+   "above": "sexy_S023_above.webp",
+   "below": "sexy_S023_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S024",
+  "orig_id": "P024",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "座って脚を抱えて開く",
+  "name_cn": "坐姿抱腿开膝",
+  "name_en": "Seated leg hug, knees apart",
+  "name_kr": "앉아 다리 안고 벌리기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S024_front.webp",
+   "diag": "sexy_S024_diag.webp",
+   "side": "sexy_S024_side.webp",
+   "above": "sexy_S024_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S025",
+  "orig_id": "P025",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "片膝を抱えて背中を反らす座り",
+  "name_cn": "坐姿抱单膝后仰",
+  "name_en": "Seated one-knee hug, back arched",
+  "name_kr": "앉아 한 무릎 안고 젖히기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S025_front.webp",
+   "diag": "sexy_S025_diag.webp",
+   "side": "sexy_S025_side.webp",
+   "above": "sexy_S025_above.webp",
+   "below": "sexy_S025_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S026",
+  "orig_id": "P026",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "横座りで髪をかき上げる",
+  "name_cn": "侧坐撩发",
+  "name_en": "Side-saddle, hands in hair",
+  "name_kr": "옆으로 앉아 머리 손",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S026_front.webp",
+   "diag": "sexy_S026_diag.webp",
+   "side": "sexy_S026_side.webp",
+   "above": "sexy_S026_above.webp",
+   "below": "sexy_S026_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S027",
+  "orig_id": "P027",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "ぺたん座りで両手を前につきバストを寄せる",
+  "name_cn": "W坐前倾・双手撑地",
+  "name_en": "W-sit leaning forward",
+  "name_kr": "W자 앉기 앞으로 숙여 손 짚기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S027_front.webp",
+   "diag": "sexy_S027_diag.webp",
+   "side": "sexy_S027_side.webp",
+   "above": null,
+   "below": "sexy_S027_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "missing"
+  }
+ },
+ {
+  "id": "S028",
+  "orig_id": "P028",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "片膝を立てて後ろに手をつく",
+  "name_cn": "坐姿单膝竖起・双手后撑",
+  "name_en": "Seated one knee up, hands behind",
+  "name_kr": "앉아 한 무릎 세우고 손 뒤 짚기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S028_front.webp",
+   "diag": "sexy_S028_diag.webp",
+   "side": "sexy_S028_side.webp",
+   "above": "sexy_S028_above.webp",
+   "below": "sexy_S028_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S029",
+  "orig_id": "P029",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "片脚だけ大きく開く座り（片M字）",
+  "name_cn": "坐姿单腿大开",
+  "name_en": "Seated one-leg wide",
+  "name_kr": "앉아 한 다리 크게 벌리기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S029_front.webp",
+   "diag": "sexy_S029_diag.webp",
+   "side": "sexy_S029_side.webp",
+   "above": "sexy_S029_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "structure"
+  }
+ },
+ {
+  "id": "S030",
+  "orig_id": "P030",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "座り",
+  "class_cn": "坐姿",
+  "class_en": "Sitting",
+  "class_kr": "앉기",
+  "name_jp": "体育座りから膝を少し開く",
+  "name_cn": "抱膝坐・双膝微开",
+  "name_en": "Knees hugged, slightly apart",
+  "name_kr": "무릎 안고 앉기·살짝 벌리기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S030_front.webp",
+   "diag": "sexy_S030_diag.webp",
+   "side": "sexy_S030_side.webp",
+   "above": "sexy_S030_above.webp",
+   "below": "sexy_S030_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S031",
+  "orig_id": "P031",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "膝立ちで上体を反らし両手を後頭部",
+  "name_cn": "跪立后仰・双手抱头后",
+  "name_en": "Kneeling arch, hands behind head",
+  "name_kr": "무릎 서기 젖히기·손 머리 뒤",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S031_front.webp",
+   "diag": "sexy_S031_diag.webp",
+   "side": null,
+   "above": "sexy_S031_above.webp",
+   "below": "sexy_S031_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "S032",
+  "orig_id": "P032",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "四つん這いで背中を反らし前を見る",
+  "name_cn": "四肢着地塌腰抬头",
+  "name_en": "All fours, back arched, head up",
+  "name_kr": "네발 엎드려 허리 젖히고 고개 들기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S032_front.webp",
+   "diag": "sexy_S032_diag.webp",
+   "side": "sexy_S032_side.webp",
+   "above": "sexy_S032_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S033",
+  "orig_id": "P033",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "膝を大きく開いた膝立ちで腰を落とす",
+  "name_cn": "开膝跪立沉髋",
+  "name_en": "Wide kneel, hips low",
+  "name_kr": "무릎 크게 벌려 서기·골반 내리기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S033_front.webp",
+   "diag": "sexy_S033_diag.webp",
+   "side": "sexy_S033_side.webp",
+   "above": "sexy_S033_above.webp",
+   "below": "sexy_S033_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S034",
+  "orig_id": "P034",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "正座で髪をかき上げる",
+  "name_cn": "正坐撩发",
+  "name_en": "Seiza, hands in hair",
+  "name_kr": "정좌 머리 손",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": "sexy_S034_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "line",
+   "diag": "line",
+   "side": "line",
+   "above": "line"
+  }
+ },
+ {
+  "id": "S035",
+  "orig_id": "P035",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "片膝立ちで太ももに手を置く",
+  "name_cn": "单膝跪・手扶前腿",
+  "name_en": "Half-kneel, hand on thigh",
+  "name_kr": "한쪽 무릎 꿇고 허벅지에 손",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S035_front.webp",
+   "diag": "sexy_S035_diag.webp",
+   "side": "sexy_S035_side.webp",
+   "above": "sexy_S035_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "structure"
+  }
+ },
+ {
+  "id": "S036",
+  "orig_id": "P036",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "騎乗位風・膝を開き前に手をついて腰を落とす",
+  "name_cn": "开膝跪坐沉髋・双手前撑",
+  "name_en": "Wide kneel, hips low, hands front",
+  "name_kr": "무릎 벌려 앉아 손 앞 짚고 골반 내리기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S036_diag.webp",
+   "side": null,
+   "above": "sexy_S036_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "side": "structure",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S037",
+  "orig_id": "P037",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "騎乗位風・膝を開いて腰を落とし髪をかき上げる",
+  "name_cn": "开膝跪坐沉髋・撩发",
+  "name_en": "Wide kneel, hips low, hands in hair",
+  "name_kr": "무릎 벌려 골반 내리고 머리 손",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": "sexy_S037_side.webp",
+   "above": "sexy_S037_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "line",
+   "diag": "line",
+   "below": "line"
+  }
+ },
+ {
+  "id": "S038",
+  "orig_id": "P038",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "膝立ちで大きく反り両手でかかとを持つ",
+  "name_cn": "跪姿深后仰・双手抓脚跟",
+  "name_en": "Kneeling deep arch, holding heels",
+  "name_kr": "무릎 꿇고 크게 젖혀 발뒤꿈치 잡기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S038_front.webp",
+   "diag": "sexy_S038_diag.webp",
+   "side": "sexy_S038_side.webp",
+   "above": "sexy_S038_above.webp",
+   "below": "sexy_S038_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S039",
+  "orig_id": "P039",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "膝立ちで腰をひねり片腕を上げる",
+  "name_cn": "跪姿扭腰单臂上举",
+  "name_en": "Kneeling waist twist, arm up",
+  "name_kr": "무릎 서기 허리 비틀어 한 팔 들기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S039_front.webp",
+   "diag": "sexy_S039_diag.webp",
+   "side": "sexy_S039_side.webp",
+   "above": "sexy_S039_above.webp",
+   "below": "sexy_S039_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S040",
+  "orig_id": "P040",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "猫のポーズ（胸を床に腰を高く・横から）",
+  "name_cn": "跪姿胸贴地・臀高抬（猫式）",
+  "name_en": "Cat pose, chest down hips high",
+  "name_kr": "고양이 포즈(가슴 바닥·골반 높이)",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S040_front.webp",
+   "diag": "sexy_S040_diag.webp",
+   "side": "sexy_S040_side.webp",
+   "above": "sexy_S040_above.webp",
+   "below": "sexy_S040_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S041",
+  "orig_id": "P041",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "四つん這いで片脚を後ろに高く上げる",
+  "name_cn": "四肢着地单腿后高抬",
+  "name_en": "All fours, one leg high behind",
+  "name_kr": "네발 엎드려 한 다리 뒤로 들기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S041_front.webp",
+   "diag": "sexy_S041_diag.webp",
+   "side": "sexy_S041_side.webp",
+   "above": "sexy_S041_above.webp",
+   "below": "sexy_S041_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S042",
+  "orig_id": "P042",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "膝を開いた正座で前に両手をつく（おねだりポーズ）",
+  "name_cn": "开膝正坐前倾・双手撑地",
+  "name_en": "Wide seiza leaning forward",
+  "name_kr": "무릎 벌린 정좌 앞으로 손 짚기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S042_front.webp",
+   "diag": "sexy_S042_diag.webp",
+   "side": "sexy_S042_side.webp",
+   "above": "sexy_S042_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S043",
+  "orig_id": "P043",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "膝立ちで腰を前に突き出す",
+  "name_cn": "跪立挺髋前推",
+  "name_en": "Kneeling, hips pushed forward",
+  "name_kr": "무릎 서기 골반 앞으로",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S043_front.webp",
+   "diag": "sexy_S043_diag.webp",
+   "side": "sexy_S043_side.webp",
+   "above": null,
+   "below": "sexy_S043_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure"
+  }
+ },
+ {
+  "id": "S044",
+  "orig_id": "P044",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "膝立ちから横に手をついて体をしならせる",
+  "name_cn": "跪姿侧倾・单手撑地扭身",
+  "name_en": "Kneeling side lean, torso curved",
+  "name_kr": "무릎 서기 옆으로 손 짚고 몸 굽히기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S044_front.webp",
+   "diag": "sexy_S044_diag.webp",
+   "side": "sexy_S044_side.webp",
+   "above": "sexy_S044_above.webp",
+   "below": "sexy_S044_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S045",
+  "orig_id": "P045",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "膝立ち・四つん這い",
+  "class_cn": "跪姿・爬姿",
+  "class_en": "Kneeling & all fours",
+  "class_kr": "무릎·네발 자세",
+  "name_jp": "膝立ちで片手をかかとへ伸ばして反る",
+  "name_cn": "跪姿后仰・单手摸脚跟",
+  "name_en": "Kneeling arch, hand to heel",
+  "name_kr": "무릎 서기 젖혀 한 손 발뒤꿈치로",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S045_front.webp",
+   "diag": "sexy_S045_diag.webp",
+   "side": "sexy_S045_side.webp",
+   "above": "sexy_S045_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S046",
+  "orig_id": "P046",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "横向きに寝て腰のカーブを強調し片脚を曲げる",
+  "name_cn": "侧躺・扭腰单腿弯曲",
+  "name_en": "Side-lying, waist curved, knee bent",
+  "name_kr": "옆으로 누워 허리 곡선·한 다리 굽히기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S046_front.webp",
+   "diag": null,
+   "side": null,
+   "above": "sexy_S046_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "line",
+   "side": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S047",
+  "orig_id": "P047",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "うつ伏せで頬杖をつき両足を上げる",
+  "name_cn": "俯卧托腮・双腿后翘",
+  "name_en": "Prone chin on hands, legs up",
+  "name_kr": "엎드려 턱 괴고 양다리 들기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S047_front.webp",
+   "diag": "sexy_S047_diag.webp",
+   "side": "sexy_S047_side.webp",
+   "above": "sexy_S047_above.webp",
+   "below": "sexy_S047_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S048",
+  "orig_id": "P048",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "うつ伏せから上体を起こして大きく反る",
+  "name_cn": "俯卧撑起深后仰（眼镜蛇）",
+  "name_en": "Prone push-up deep arch",
+  "name_kr": "엎드려 상체 일으켜 크게 젖히기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S048_front.webp",
+   "diag": "sexy_S048_diag.webp",
+   "side": null,
+   "above": "sexy_S048_above.webp",
+   "below": "sexy_S048_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "S049",
+  "orig_id": "P049",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向けで背中を浮かせ片脚を高く上げる",
+  "name_cn": "仰卧半桥・单腿高抬",
+  "name_en": "Supine half bridge, one leg up",
+  "name_kr": "누워 골반 들고 한 다리 들기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S049_front.webp",
+   "diag": "sexy_S049_diag.webp",
+   "side": "sexy_S049_side.webp",
+   "above": "sexy_S049_above.webp",
+   "below": "sexy_S049_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S050",
+  "orig_id": "P050",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向けで両膝をそろえて横に倒す",
+  "name_cn": "仰卧双膝并拢侧倒",
+  "name_en": "Supine knees dropped to side",
+  "name_kr": "누워 양 무릎 모아 옆으로 넘기기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S050_front.webp",
+   "diag": "sexy_S050_diag.webp",
+   "side": "sexy_S050_side.webp",
+   "above": "sexy_S050_above.webp",
+   "below": "sexy_S050_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S051",
+  "orig_id": "P051",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "うつ伏せで肘をつき脚を伸ばして少し開く",
+  "name_cn": "俯卧双肘撑地・双腿伸直微开",
+  "name_en": "Prone on elbows, legs apart",
+  "name_kr": "엎드려 팔꿈치 짚고 다리 뻗어 벌리기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S051_diag.webp",
+   "side": "sexy_S051_side.webp",
+   "above": "sexy_S051_above.webp",
+   "below": "sexy_S051_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "structure"
+  }
+ },
+ {
+  "id": "S052",
+  "orig_id": "P052",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "横寝で腕を頭上に伸ばしS字を描く",
+  "name_cn": "侧躺手臂过头・S形曲线",
+  "name_en": "Side-lying S-curve, arm overhead",
+  "name_kr": "옆으로 누워 팔 머리 위·S자",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S052_diag.webp",
+   "side": null,
+   "above": "sexy_S052_above.webp",
+   "below": "sexy_S052_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "line",
+   "side": "structure"
+  }
+ },
+ {
+  "id": "S053",
+  "orig_id": "P053",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "ベッドで横寝のお誘いポーズ",
+  "name_cn": "侧卧单肘撑・单膝弯曲",
+  "name_en": "Side recline on elbow",
+  "name_kr": "옆으로 팔꿈치 기대어 눕기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S053_front.webp",
+   "diag": "sexy_S053_diag.webp",
+   "side": "sexy_S053_side.webp",
+   "above": "sexy_S053_above.webp",
+   "below": "sexy_S053_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S054",
+  "orig_id": "P054",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "うつ伏せでお尻を高く上げる",
+  "name_cn": "俯卧屈膝・臀高抬额贴臂",
+  "name_en": "Prone, hips raised high",
+  "name_kr": "엎드려 골반 높이 들기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S054_front.webp",
+   "diag": "sexy_S054_diag.webp",
+   "side": null,
+   "above": "sexy_S054_above.webp",
+   "below": "sexy_S054_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "line"
+  }
+ },
+ {
+  "id": "S055",
+  "orig_id": "P055",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向けV字開脚（脚を上げる）",
+  "name_cn": "仰卧双腿上举V字开腿",
+  "name_en": "Supine legs up in V",
+  "name_kr": "누워 양다리 들어 V자 벌리기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S055_front.webp",
+   "diag": "sexy_S055_diag.webp",
+   "side": null,
+   "above": "sexy_S055_above.webp",
+   "below": "sexy_S055_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "S056",
+  "orig_id": "P056",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向けで背中を反らし両腕を頭上へ",
+  "name_cn": "仰卧后拱・双臂过头",
+  "name_en": "Supine arch, arms overhead",
+  "name_kr": "누워 등 젖히고 양팔 머리 위",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S056_front.webp",
+   "diag": "sexy_S056_diag.webp",
+   "side": null,
+   "above": "sexy_S056_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "side": "line",
+   "below": "structure"
+  }
+ },
+ {
+  "id": "S057",
+  "orig_id": "P057",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "うつ伏せで振り返り片膝を横に曲げる",
+  "name_cn": "俯卧回头・单膝侧弯",
+  "name_en": "Prone look-back, knee out",
+  "name_kr": "엎드려 돌아보고 한 무릎 옆으로 굽히기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": "sexy_S057_side.webp",
+   "above": "sexy_S057_above.webp",
+   "below": "sexy_S057_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "line",
+   "diag": "structure"
+  }
+ },
+ {
+  "id": "S058",
+  "orig_id": "P058",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "横寝で上の脚を高く上げて足首を持つ",
+  "name_cn": "侧躺上腿高抬抓脚踝",
+  "name_en": "Side-lying leg raise holding ankle",
+  "name_kr": "옆으로 누워 윗다리 들고 발목 잡기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S058_diag.webp",
+   "side": "sexy_S058_side.webp",
+   "above": "sexy_S058_above.webp",
+   "below": "sexy_S058_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "structure"
+  }
+ },
+ {
+  "id": "S059",
+  "orig_id": "P059",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向けで両膝を立て片腕を頭上へ",
+  "name_cn": "仰卧双膝竖起・单臂过头",
+  "name_en": "Supine knees up, arm overhead",
+  "name_kr": "누워 양 무릎 세우고 한 팔 머리 위",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": "sexy_S059_side.webp",
+   "above": "sexy_S059_above.webp",
+   "below": "sexy_S059_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "diag": "structure"
+  }
+ },
+ {
+  "id": "S060",
+  "orig_id": "P060",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "うつ伏せでカエル脚（膝を横に開く）",
+  "name_cn": "俯卧蛙腿（双膝侧开）",
+  "name_en": "Prone frog legs",
+  "name_kr": "엎드려 개구리 다리",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S060_diag.webp",
+   "side": null,
+   "above": "sexy_S060_above.webp",
+   "below": "sexy_S060_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "side": "structure"
+  }
+ },
+ {
+  "id": "S061",
+  "orig_id": "P061",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "背中向きの横寝でお尻のライン",
+  "name_cn": "背向侧躺",
+  "name_en": "Side-lying, back to viewer",
+  "name_kr": "등 보이며 옆으로 눕기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S061_front.webp",
+   "diag": "sexy_S061_diag.webp",
+   "side": "sexy_S061_side.webp",
+   "above": "sexy_S061_above.webp",
+   "below": "sexy_S061_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S062",
+  "orig_id": "P062",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向けで両膝を胸に引き寄せる",
+  "name_cn": "仰卧双膝抱胸",
+  "name_en": "Supine knees to chest",
+  "name_kr": "누워 양 무릎 가슴으로 안기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S062_front.webp",
+   "diag": "sexy_S062_diag.webp",
+   "side": "sexy_S062_side.webp",
+   "above": "sexy_S062_above.webp",
+   "below": "sexy_S062_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S063",
+  "orig_id": "P063",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "うつ伏せで頬杖・片脚を上げる",
+  "name_cn": "俯卧托腮・单腿后翘",
+  "name_en": "Prone chin on hands, one leg up",
+  "name_kr": "엎드려 턱 괴고 한 다리 들기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S063_front.webp",
+   "diag": "sexy_S063_diag.webp",
+   "side": "sexy_S063_side.webp",
+   "above": "sexy_S063_above.webp",
+   "below": "sexy_S063_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S064",
+  "orig_id": "P064",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "仰向けで片膝を外に倒して開く",
+  "name_cn": "仰卧单膝外倒打开",
+  "name_en": "Supine one knee dropped open",
+  "name_kr": "누워 한 무릎 바깥으로 열어 눕히기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S064_front.webp",
+   "diag": "sexy_S064_diag.webp",
+   "side": "sexy_S064_side.webp",
+   "above": "sexy_S064_above.webp",
+   "below": "sexy_S064_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S065",
+  "orig_id": "P065",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "寝そべり",
+  "class_cn": "躺姿",
+  "class_en": "Lying",
+  "class_kr": "눕기",
+  "name_jp": "肘をついて上体を起こし片膝を立てる",
+  "name_cn": "侧卧单肘撑起上身・单膝竖起",
+  "name_en": "Side-lying propped, knee raised",
+  "name_kr": "옆으로 팔꿈치 짚고 상체 일으켜 한 무릎 세우기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "sexy_S065_diag.webp",
+   "side": null,
+   "above": null,
+   "below": "sexy_S065_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "side": "structure",
+   "above": "structure"
+  }
+ },
+ {
+  "id": "S066",
+  "orig_id": "P066",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "ブリッジで腰を高く上げ膝を開く",
+  "name_cn": "桥式抬髋・开膝",
+  "name_en": "Bridge, hips high, knees apart",
+  "name_kr": "브릿지 골반 들고 무릎 벌리기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S066_front.webp",
+   "diag": "sexy_S066_diag.webp",
+   "side": "sexy_S066_side.webp",
+   "above": "sexy_S066_above.webp",
+   "below": "sexy_S066_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S067",
+  "orig_id": "P067",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "まんぐり返し（横から・太ももを抱える）",
+  "name_cn": "仰卧双腿翻折过头・抱大腿",
+  "name_en": "Legs folded over head, holding thighs",
+  "name_kr": "누워 양다리 머리 쪽으로 접어 허벅지 안기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S067_front.webp",
+   "diag": "sexy_S067_diag.webp",
+   "side": "sexy_S067_side.webp",
+   "above": "sexy_S067_above.webp",
+   "below": "sexy_S067_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S068",
+  "orig_id": "P068",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "まんぐり返し（横から・脚を頭の先へ伸ばす）",
+  "name_cn": "仰卧双腿翻折过头顶触地",
+  "name_en": "Legs folded past head, toes down",
+  "name_kr": "누워 양다리 접어 머리 너머로 뻗기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S068_front.webp",
+   "diag": "sexy_S068_diag.webp",
+   "side": "sexy_S068_side.webp",
+   "above": "sexy_S068_above.webp",
+   "below": "sexy_S068_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S069",
+  "orig_id": "P069",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "まんぐり返し（横から・膝を頭の横の床へ）",
+  "name_cn": "仰卧双腿翻折・膝落头侧地面",
+  "name_en": "Legs folded, knees by head",
+  "name_kr": "누워 양다리 접어 무릎 머리 옆 바닥에",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S069_front.webp",
+   "diag": "sexy_S069_diag.webp",
+   "side": "sexy_S069_side.webp",
+   "above": "sexy_S069_above.webp",
+   "below": "sexy_S069_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S070",
+  "orig_id": "P070",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "しゃがみ開脚（ヤンキー座り）",
+  "name_cn": "深蹲开腿",
+  "name_en": "Deep squat, knees wide",
+  "name_kr": "쪼그려 다리 벌리기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S070_front.webp",
+   "diag": "sexy_S070_diag.webp",
+   "side": "sexy_S070_side.webp",
+   "above": "sexy_S070_above.webp",
+   "below": "sexy_S070_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S071",
+  "orig_id": "P071",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "つま先立ちでしゃがみ開脚・両手を床へ",
+  "name_cn": "踮脚深蹲开腿・双手撑地",
+  "name_en": "Tiptoe deep squat, hands on floor",
+  "name_kr": "발끝으로 쪼그려 다리 벌리고 손 바닥",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S071_front.webp",
+   "diag": "sexy_S071_diag.webp",
+   "side": "sexy_S071_side.webp",
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "above": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S072",
+  "orig_id": "P072",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "ブリッジ（両手両足）",
+  "name_cn": "桥式（双手双脚支撑）",
+  "name_en": "Full bridge on hands and feet",
+  "name_kr": "브릿지(양손 양발)",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S072_front.webp",
+   "diag": "sexy_S072_diag.webp",
+   "side": "sexy_S072_side.webp",
+   "above": "sexy_S072_above.webp",
+   "below": "sexy_S072_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S073",
+  "orig_id": "P073",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "スタンディングスプリット（前屈で片脚を高く後ろへ）",
+  "name_cn": "站立劈叉前屈・单腿后高抬",
+  "name_en": "Standing split, bent forward",
+  "name_kr": "스탠딩 스플릿",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S073_front.webp",
+   "diag": "sexy_S073_diag.webp",
+   "side": "sexy_S073_side.webp",
+   "above": "sexy_S073_above.webp",
+   "below": "sexy_S073_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S074",
+  "orig_id": "P074",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "前後開脚（スプリット）で上体を反らす",
+  "name_cn": "前后劈叉・上身后仰",
+  "name_en": "Front-back split, arching back",
+  "name_kr": "앞뒤 스플릿 상체 젖히기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S074_front.webp",
+   "diag": "sexy_S074_diag.webp",
+   "side": "sexy_S074_side.webp",
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure",
+   "below": "line"
+  }
+ },
+ {
+  "id": "S075",
+  "orig_id": "P075",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "左右開脚（ベタ開脚）で上体を起こす",
+  "name_cn": "左右横叉・坐直",
+  "name_en": "Side-to-side split, sitting up",
+  "name_kr": "좌우 스플릿 상체 세우기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S075_front.webp",
+   "diag": "sexy_S075_diag.webp",
+   "side": "sexy_S075_side.webp",
+   "above": "sexy_S075_above.webp",
+   "below": "sexy_S075_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S076",
+  "orig_id": "P076",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "肩立ちで脚をV字に開く",
+  "name_cn": "肩倒立V字开腿",
+  "name_en": "Shoulder stand, legs in V",
+  "name_kr": "어깨로 서서 다리 V자",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S076_front.webp",
+   "diag": "sexy_S076_diag.webp",
+   "side": "sexy_S076_side.webp",
+   "above": "sexy_S076_above.webp",
+   "below": "sexy_S076_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S077",
+  "orig_id": "P077",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "膝立ちから後ろに反って両手を床へ",
+  "name_cn": "跪姿后仰双手触地",
+  "name_en": "Kneeling backbend, hands to floor",
+  "name_kr": "무릎 꿇고 뒤로 젖혀 양손 바닥",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S077_front.webp",
+   "diag": "sexy_S077_diag.webp",
+   "side": "sexy_S077_side.webp",
+   "above": "sexy_S077_above.webp",
+   "below": "sexy_S077_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S078",
+  "orig_id": "P078",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "しゃがみ開脚・両手を頭の後ろ",
+  "name_cn": "深蹲开腿・双手抱头后",
+  "name_en": "Deep squat, hands behind head",
+  "name_kr": "쪼그려 다리 벌리고 양손 머리 뒤",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S078_front.webp",
+   "diag": "sexy_S078_diag.webp",
+   "side": "sexy_S078_side.webp",
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "S079",
+  "orig_id": "P079",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "片脚ブリッジ（腰を上げて片脚を天井へ）",
+  "name_cn": "单腿桥式・另一腿指天",
+  "name_en": "One-leg bridge, leg to ceiling",
+  "name_kr": "한 다리 브릿지·다른 다리 천장으로",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S079_front.webp",
+   "diag": "sexy_S079_diag.webp",
+   "side": "sexy_S079_side.webp",
+   "above": "sexy_S079_above.webp",
+   "below": "sexy_S079_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "S080",
+  "orig_id": "P080",
+  "series": "sexy",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "特殊",
+  "class_cn": "特殊",
+  "class_en": "Special",
+  "class_kr": "특수",
+  "name_jp": "逆四つん這い（テーブルポーズ）で腰を突き上げる",
+  "name_cn": "反向桌面式・挺髋",
+  "name_en": "Reverse tabletop, hips up",
+  "name_kr": "역 테이블 포즈 골반 올리기",
+  "desc_en": "",
+  "views": {
+   "front": "sexy_S080_front.webp",
+   "diag": "sexy_S080_diag.webp",
+   "side": "sexy_S080_side.webp",
+   "above": "sexy_S080_above.webp",
+   "below": "sexy_S080_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U001",
+  "orig_id": "P001",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "胸の前で両手ハート",
+  "name_cn": "胸前双手比心",
+  "name_en": "Both hands heart at chest",
+  "name_kr": "가슴 앞 양손 하트",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U001_front.webp",
+   "diag": "upper_U001_diag.webp",
+   "side": "upper_U001_side.webp",
+   "above": "upper_U001_above.webp",
+   "below": "upper_U001_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U002",
+  "orig_id": "P002",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "頭の上で両腕ハート",
+  "name_cn": "头顶双臂大爱心",
+  "name_en": "Overhead arms heart",
+  "name_kr": "머리 위 양팔 하트",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U002_front.webp",
+   "diag": "upper_U002_diag.webp",
+   "side": "upper_U002_side.webp",
+   "above": null,
+   "below": "upper_U002_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U003",
+  "orig_id": "P003",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "頬の横で指ハート",
+  "name_cn": "脸颊旁手指比心",
+  "name_en": "Finger heart by cheek",
+  "name_kr": "볼 옆 손가락 하트",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U003_front.webp",
+   "diag": "upper_U003_diag.webp",
+   "side": "upper_U003_side.webp",
+   "above": "upper_U003_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U004",
+  "orig_id": "P004",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "あごの下でダブルピース",
+  "name_cn": "下巴下双剪刀手",
+  "name_en": "Double peace under chin",
+  "name_kr": "턱 아래 더블 피스",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U004_front.webp",
+   "diag": "upper_U004_diag.webp",
+   "side": "upper_U004_side.webp",
+   "above": null,
+   "below": "upper_U004_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "missing"
+  }
+ },
+ {
+  "id": "U005",
+  "orig_id": "P005",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "ギャルピース（手の甲ピース）",
+  "name_cn": "手背剪刀手",
+  "name_en": "Peace sign, back of hand",
+  "name_kr": "손등 피스",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U005_front.webp",
+   "diag": "upper_U005_diag.webp",
+   "side": "upper_U005_side.webp",
+   "above": "upper_U005_above.webp",
+   "below": "upper_U005_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U006",
+  "orig_id": "P006",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "グー手ほっぺ（ぶりっ子）",
+  "name_cn": "拳头贴脸颊卖萌",
+  "name_en": "Fist against cheek",
+  "name_kr": "주먹 볼에 대고 애교",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U006_front.webp",
+   "diag": "upper_U006_diag.webp",
+   "side": "upper_U006_side.webp",
+   "above": "upper_U006_above.webp",
+   "below": "upper_U006_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U007",
+  "orig_id": "P007",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "うさみみポーズ",
+  "name_cn": "兔耳朵手势",
+  "name_en": "Rabbit ears pose",
+  "name_kr": "토끼 귀 포즈",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "line",
+   "diag": "line",
+   "side": "line",
+   "above": "line",
+   "below": "line"
+  }
+ },
+ {
+  "id": "U008",
+  "orig_id": "P008",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "招き猫の猫の手",
+  "name_cn": "招财猫猫爪",
+  "name_en": "Cat paw hands",
+  "name_kr": "고양이 손 포즈",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U008_front.webp",
+   "diag": "upper_U008_diag.webp",
+   "side": "upper_U008_side.webp",
+   "above": null,
+   "below": "upper_U008_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U009",
+  "orig_id": "P009",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "がおーポーズ",
+  "name_cn": "双手张爪吓人",
+  "name_en": "Claw hands pose",
+  "name_kr": "손가락 벌린 할퀴기 포즈",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U009_front.webp",
+   "diag": "upper_U009_diag.webp",
+   "side": "upper_U009_side.webp",
+   "above": null,
+   "below": "upper_U009_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U010",
+  "orig_id": "P010",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "しーっ（人差し指を唇）",
+  "name_cn": "食指竖在唇前（嘘）",
+  "name_en": "Finger to lips (shh)",
+  "name_kr": "입 앞 검지(쉿)",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U010_front.webp",
+   "diag": "upper_U010_diag.webp",
+   "side": "upper_U010_side.webp",
+   "above": "upper_U010_above.webp",
+   "below": "upper_U010_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U011",
+  "orig_id": "P011",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "首かしげ＋片目に手（ウインク風）",
+  "name_cn": "歪头手扶头侧",
+  "name_en": "Head tilt, hand at head",
+  "name_kr": "고개 기울여 손 머리 옆",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U011_front.webp",
+   "diag": "upper_U011_diag.webp",
+   "side": "upper_U011_side.webp",
+   "above": "upper_U011_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "line"
+  }
+ },
+ {
+  "id": "U012",
+  "orig_id": "P012",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "投げキッス",
+  "name_cn": "伸手飞吻",
+  "name_en": "Blowing a kiss",
+  "name_kr": "손 내밀어 키스",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U012_front.webp",
+   "diag": "upper_U012_diag.webp",
+   "side": "upper_U012_side.webp",
+   "above": "upper_U012_above.webp",
+   "below": "upper_U012_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U013",
+  "orig_id": "P013",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "両手のひらにあご乗せ（花ポーズ）",
+  "name_cn": "双手托下巴花朵手",
+  "name_en": "Chin on palms (flower)",
+  "name_kr": "양손바닥에 턱(꽃받침)",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U013_front.webp",
+   "diag": "upper_U013_diag.webp",
+   "side": "upper_U013_side.webp",
+   "above": "upper_U013_above.webp",
+   "below": "upper_U013_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U014",
+  "orig_id": "P014",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "人差し指でほっぺをツン",
+  "name_cn": "食指戳脸颊",
+  "name_en": "Finger poking cheek",
+  "name_kr": "검지로 볼 찌르기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U014_front.webp",
+   "diag": "upper_U014_diag.webp",
+   "side": "upper_U014_side.webp",
+   "above": "upper_U014_above.webp",
+   "below": "upper_U014_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U015",
+  "orig_id": "P015",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "萌え袖風に両手で口元を隠す",
+  "name_cn": "双手捂嘴",
+  "name_en": "Hands over mouth",
+  "name_kr": "양손으로 입 가리기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U015_front.webp",
+   "diag": "upper_U015_diag.webp",
+   "side": "upper_U015_side.webp",
+   "above": "upper_U015_above.webp",
+   "below": "upper_U015_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U016",
+  "orig_id": "P016",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "お願いポーズ（両手を合わせる）",
+  "name_cn": "双手合十拜托",
+  "name_en": "Palms together pleading",
+  "name_kr": "양손 모아 부탁 포즈",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U016_front.webp",
+   "diag": "upper_U016_diag.webp",
+   "side": "upper_U016_side.webp",
+   "above": "upper_U016_above.webp",
+   "below": "upper_U016_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U017",
+  "orig_id": "P017",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "自分を抱きしめる照れポーズ",
+  "name_cn": "抱自己害羞",
+  "name_en": "Self-hug, shy",
+  "name_kr": "셀프 허그 수줍음",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U017_front.webp",
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": "upper_U017_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "line",
+   "side": "line",
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U018",
+  "orig_id": "P018",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "指フレーム",
+  "name_cn": "手指取景框",
+  "name_en": "Finger frame",
+  "name_kr": "손가락 프레임",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U018_front.webp",
+   "diag": "upper_U018_diag.webp",
+   "side": "upper_U018_side.webp",
+   "above": "upper_U018_above.webp",
+   "below": "upper_U018_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U019",
+  "orig_id": "P019",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "髪を耳にかけるしぐさ",
+  "name_cn": "手撩耳边发",
+  "name_en": "Hand at ear (hair tuck)",
+  "name_kr": "귀 옆 머리 넘기기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U019_front.webp",
+   "diag": "upper_U019_diag.webp",
+   "side": null,
+   "above": "upper_U019_above.webp",
+   "below": "upper_U019_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "U020",
+  "orig_id": "P020",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "両手でほっぺを包む",
+  "name_cn": "双手捧脸颊",
+  "name_en": "Hands cupping cheeks",
+  "name_kr": "양손으로 볼 감싸기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U020_front.webp",
+   "diag": "upper_U020_diag.webp",
+   "side": "upper_U020_side.webp",
+   "above": "upper_U020_above.webp",
+   "below": "upper_U020_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U021",
+  "orig_id": "P021",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "敬礼ポーズ",
+  "name_cn": "敬礼",
+  "name_en": "Salute",
+  "name_kr": "경례 포즈",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U021_front.webp",
+   "diag": "upper_U021_diag.webp",
+   "side": "upper_U021_side.webp",
+   "above": null,
+   "below": "upper_U021_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U022",
+  "orig_id": "P022",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "カメラを指差す",
+  "name_cn": "手指镜头",
+  "name_en": "Pointing at camera",
+  "name_kr": "카메라 가리키기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U022_front.webp",
+   "diag": null,
+   "side": "upper_U022_side.webp",
+   "above": "upper_U022_above.webp",
+   "below": "upper_U022_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "structure"
+  }
+ },
+ {
+  "id": "U023",
+  "orig_id": "P023",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "あくび伸び（片手を口元）",
+  "name_cn": "单手遮脸伸懒腰",
+  "name_en": "Hand at face, arm out",
+  "name_kr": "한 손 얼굴 앞·팔 뻗기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U023_front.webp",
+   "diag": "upper_U023_diag.webp",
+   "side": null,
+   "above": "upper_U023_above.webp",
+   "below": "upper_U023_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "U024",
+  "orig_id": "P024",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "片手ハート＋もう片手を胸",
+  "name_cn": "半心贴脸・单手抚胸",
+  "name_en": "Half-heart + hand on chest",
+  "name_kr": "반쪽 하트+한 손 가슴",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U024_front.webp",
+   "diag": "upper_U024_diag.webp",
+   "side": "upper_U024_side.webp",
+   "above": "upper_U024_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "line"
+  }
+ },
+ {
+  "id": "U025",
+  "orig_id": "P025",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "general",
+  "class_jp": "かわいい系",
+  "class_cn": "可爱系",
+  "class_en": "Cute",
+  "class_kr": "귀여운계",
+  "name_jp": "両手の指の隙間からのぞく",
+  "name_cn": "指缝偷看",
+  "name_en": "Peeking through fingers",
+  "name_kr": "손가락 틈으로 보기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U025_front.webp",
+   "diag": "upper_U025_diag.webp",
+   "side": null,
+   "above": "upper_U025_above.webp",
+   "below": "upper_U025_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "U026",
+  "orig_id": "P026",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "だっちゅーの（前屈みで胸寄せ）",
+  "name_cn": "前倾双前臂聚拢",
+  "name_en": "Leaning forward, forearms together",
+  "name_kr": "숙여 팔뚝 모으기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "upper_U026_diag.webp",
+   "side": null,
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "side": "structure",
+   "above": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U027",
+  "orig_id": "P027",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "雛ポーズ（両手を膝）",
+  "name_cn": "端坐双手扶膝",
+  "name_en": "Sitting, hands on knees",
+  "name_kr": "앉아 양손 무릎",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U027_front.webp",
+   "diag": "upper_U027_diag.webp",
+   "side": "upper_U027_side.webp",
+   "above": "upper_U027_above.webp",
+   "below": "upper_U027_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U028",
+  "orig_id": "P028",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "肘で寄せて腰ひねり",
+  "name_cn": "双肘夹身扭腰",
+  "name_en": "Elbows tucked, waist twist",
+  "name_kr": "팔꿈치 붙이고 허리 비틀기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": "upper_U028_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "diag": "missing",
+   "side": "structure",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U029",
+  "orig_id": "P029",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "肩をすくめて胸寄せ（手は下で重ねる）",
+  "name_cn": "耸肩双手低处交握",
+  "name_en": "Shrug, hands clasped low",
+  "name_kr": "어깨 으쓱·손 아래 모아 잡기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U029_front.webp",
+   "diag": "upper_U029_diag.webp",
+   "side": "upper_U029_side.webp",
+   "above": "upper_U029_above.webp",
+   "below": "upper_U029_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U030",
+  "orig_id": "P030",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "腕を胸の下でクロスして持ち上げ",
+  "name_cn": "双臂胸下交叉抱肘",
+  "name_en": "Arms crossed under chest",
+  "name_kr": "양팔 가슴 아래 교차",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U030_front.webp",
+   "diag": "upper_U030_diag.webp",
+   "side": "upper_U030_side.webp",
+   "above": "upper_U030_above.webp",
+   "below": "upper_U030_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U031",
+  "orig_id": "P031",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "両手で下から持ち上げる",
+  "name_cn": "双手掌心向上托举",
+  "name_en": "Hands under chest, palms up",
+  "name_kr": "양손 아래서 받치기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U031_front.webp",
+   "diag": "upper_U031_diag.webp",
+   "side": "upper_U031_side.webp",
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "above": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U032",
+  "orig_id": "P032",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "テーブルに胸を乗せる",
+  "name_cn": "前倾前臂平放桌面",
+  "name_en": "Leaning on forearms (table)",
+  "name_kr": "상체 숙여 팔뚝 기대기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U032_front.webp",
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": "upper_U032_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "structure",
+   "side": "structure",
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U033",
+  "orig_id": "P033",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "前腕を縦にして左右から挟む",
+  "name_cn": "双前臂竖直内夹",
+  "name_en": "Forearms vertical, pressing in",
+  "name_kr": "팔뚝 세워 안쪽으로",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "upper_U033_diag.webp",
+   "side": "upper_U033_side.webp",
+   "above": "upper_U033_above.webp",
+   "below": "upper_U033_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "structure"
+  }
+ },
+ {
+  "id": "U034",
+  "orig_id": "P034",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "片腕で胸をすくい上げる",
+  "name_cn": "单前臂横托",
+  "name_en": "One forearm under chest",
+  "name_kr": "한쪽 팔뚝 가로로 받치기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U034_front.webp",
+   "diag": "upper_U034_diag.webp",
+   "side": null,
+   "above": "upper_U034_above.webp",
+   "below": "upper_U034_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "U035",
+  "orig_id": "P035",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "見下ろし構図で両手を鎖骨に",
+  "name_cn": "双手平放锁骨",
+  "name_en": "Hands flat on collarbones",
+  "name_kr": "양손 쇄골에 얹기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U035_front.webp",
+   "diag": "upper_U035_diag.webp",
+   "side": null,
+   "above": "upper_U035_above.webp",
+   "below": "upper_U035_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "U036",
+  "orig_id": "P036",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "両手でくびれをつかみ胸を張る",
+  "name_cn": "双手掐腰挺胸",
+  "name_en": "Hands on waist, chest out",
+  "name_kr": "양손 허리·가슴 펴기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U036_front.webp",
+   "diag": "upper_U036_diag.webp",
+   "side": "upper_U036_side.webp",
+   "above": "upper_U036_above.webp",
+   "below": "upper_U036_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U037",
+  "orig_id": "P037",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "両手で横から胸を寄せる",
+  "name_cn": "双手肋侧内推",
+  "name_en": "Hands pressing in at ribs",
+  "name_kr": "양손 옆구리서 안으로",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U037_front.webp",
+   "diag": "upper_U037_diag.webp",
+   "side": "upper_U037_side.webp",
+   "above": "upper_U037_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U038",
+  "orig_id": "P038",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "後ろ手を組んで胸を張る",
+  "name_cn": "双手背后交握挺胸",
+  "name_en": "Hands clasped behind, chest out",
+  "name_kr": "뒷짐 지고 가슴 펴기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": "upper_U038_side.webp",
+   "above": "upper_U038_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "diag": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U039",
+  "orig_id": "P039",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "膝立ちで両手を前につき寄せる",
+  "name_cn": "跪姿前倾双手撑地",
+  "name_en": "Kneeling lean, hands on floor",
+  "name_kr": "무릎 꿇고 숙여 손 짚기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U039_front.webp",
+   "diag": "upper_U039_diag.webp",
+   "side": "upper_U039_side.webp",
+   "above": "upper_U039_above.webp",
+   "below": "upper_U039_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U040",
+  "orig_id": "P040",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "片肘を膝について頬杖",
+  "name_cn": "单肘支膝托腮",
+  "name_en": "Elbow on knee, chin on hand",
+  "name_kr": "팔꿈치 무릎에·턱 괴기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U040_front.webp",
+   "diag": "upper_U040_diag.webp",
+   "side": null,
+   "above": "upper_U040_above.webp",
+   "below": "upper_U040_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "U041",
+  "orig_id": "P041",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "両腕で胸を抱え込む",
+  "name_cn": "双臂环抱自己",
+  "name_en": "Self-embrace",
+  "name_kr": "양팔로 안기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U041_front.webp",
+   "diag": "upper_U041_diag.webp",
+   "side": "upper_U041_side.webp",
+   "above": "upper_U041_above.webp",
+   "below": "upper_U041_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U042",
+  "orig_id": "P042",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "片手で寄せて片手は髪",
+  "name_cn": "单手胸侧・单手扶头",
+  "name_en": "Hand at chest + hand at head",
+  "name_kr": "한 손 가슴·한 손 머리",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U042_front.webp",
+   "diag": "upper_U042_diag.webp",
+   "side": "upper_U042_side.webp",
+   "above": "upper_U042_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "line"
+  }
+ },
+ {
+  "id": "U043",
+  "orig_id": "P043",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "片肩を落として前のめり",
+  "name_cn": "沉单肩前倾",
+  "name_en": "One shoulder dropped, leaning in",
+  "name_kr": "한쪽 어깨 내리고 숙이기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U043_front.webp",
+   "diag": null,
+   "side": "upper_U043_side.webp",
+   "above": "upper_U043_above.webp",
+   "below": "upper_U043_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "structure"
+  }
+ },
+ {
+  "id": "U044",
+  "orig_id": "P044",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "うつ伏せ肘つきで胸を寄せる",
+  "name_cn": "俯卧双肘撑起",
+  "name_en": "Prone on both elbows",
+  "name_kr": "엎드려 양팔꿈치",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U044_front.webp",
+   "diag": "upper_U044_diag.webp",
+   "side": "upper_U044_side.webp",
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "above": "missing",
+   "below": "structure"
+  }
+ },
+ {
+  "id": "U045",
+  "orig_id": "P045",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "反って両腕で挟む",
+  "name_cn": "后仰双上臂内夹",
+  "name_en": "Back arch, upper arms in",
+  "name_kr": "젖혀 양팔 안으로",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U045_front.webp",
+   "diag": null,
+   "side": "upper_U045_side.webp",
+   "above": "upper_U045_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U046",
+  "orig_id": "P046",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "片腕を腰に回し片手は首筋",
+  "name_cn": "单臂绕腰后・单手抚颈",
+  "name_en": "Arm behind waist, hand at neck",
+  "name_kr": "한 팔 허리 뒤·한 손 목",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U046_front.webp",
+   "diag": "upper_U046_diag.webp",
+   "side": "upper_U046_side.webp",
+   "above": "upper_U046_above.webp",
+   "below": "upper_U046_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U047",
+  "orig_id": "P047",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "両手を胸の上部に添えて寄せる",
+  "name_cn": "双手平放胸上部",
+  "name_en": "Hands flat on upper chest",
+  "name_kr": "양손 가슴 윗부분",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U047_front.webp",
+   "diag": "upper_U047_diag.webp",
+   "side": "upper_U047_side.webp",
+   "above": "upper_U047_above.webp",
+   "below": "upper_U047_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U048",
+  "orig_id": "P048",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "手の甲にあごを乗せて前かがみ",
+  "name_cn": "手背托下巴前倾",
+  "name_en": "Chin on back of hand",
+  "name_kr": "손등에 턱·숙이기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U048_front.webp",
+   "diag": "upper_U048_diag.webp",
+   "side": "upper_U048_side.webp",
+   "above": "upper_U048_above.webp",
+   "below": "upper_U048_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U049",
+  "orig_id": "P049",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "四つん這い見下ろし（胸元）",
+  "name_cn": "四肢着地抬头",
+  "name_en": "All fours, head raised",
+  "name_kr": "네발 기어 고개 들기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U049_front.webp",
+   "diag": "upper_U049_diag.webp",
+   "side": "upper_U049_side.webp",
+   "above": null,
+   "below": "upper_U049_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "missing"
+  }
+ },
+ {
+  "id": "U050",
+  "orig_id": "P050",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "胸寄せ・谷間強調系",
+  "class_cn": "聚胸・曲线强调系",
+  "class_en": "Chest emphasis",
+  "class_kr": "가슴 강조계",
+  "name_jp": "腕組みで胸を持ち上げる",
+  "name_cn": "抱臂交叉握上臂",
+  "name_en": "Arms folded across chest",
+  "name_kr": "팔짱 교차",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U050_front.webp",
+   "diag": "upper_U050_diag.webp",
+   "side": "upper_U050_side.webp",
+   "above": "upper_U050_above.webp",
+   "below": "upper_U050_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U051",
+  "orig_id": "P051",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "両手で胸を包む",
+  "name_cn": "双手两侧包覆",
+  "name_en": "Hands cupped from sides",
+  "name_kr": "양손 옆에서 감싸기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "diag": "missing",
+   "side": "missing",
+   "above": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U052",
+  "orig_id": "P052",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "両手で胸を揉む",
+  "name_cn": "双手张指贴胸",
+  "name_en": "Hands on chest, fingers spread",
+  "name_kr": "양손 가슴·손가락 벌리기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U052_front.webp",
+   "diag": null,
+   "side": "upper_U052_side.webp",
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "missing",
+   "above": "missing",
+   "below": "structure"
+  }
+ },
+ {
+  "id": "U053",
+  "orig_id": "P053",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "手ブラ（両手で隠す）",
+  "name_cn": "双手平覆遮胸",
+  "name_en": "Hands flat covering chest",
+  "name_kr": "양손으로 가슴 가리기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "upper_U053_diag.webp",
+   "side": null,
+   "above": "upper_U053_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "side": "structure",
+   "below": "structure"
+  }
+ },
+ {
+  "id": "U054",
+  "orig_id": "P054",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "片手で隠し片手は腰",
+  "name_cn": "单手覆胸・单手叉腰",
+  "name_en": "Hand over chest + hand on hip",
+  "name_kr": "한 손 가슴·한 손 허리",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": "upper_U054_side.webp",
+   "above": "upper_U054_above.webp",
+   "below": "upper_U054_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "diag": "missing"
+  }
+ },
+ {
+  "id": "U055",
+  "orig_id": "P055",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "片手で胸を揉み片手で髪かき上げ",
+  "name_cn": "单手抚胸・单手撩发",
+  "name_en": "Hand on chest + hand in hair",
+  "name_kr": "한 손 가슴·한 손 머리",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U055_front.webp",
+   "diag": "upper_U055_diag.webp",
+   "side": "upper_U055_side.webp",
+   "above": "upper_U055_above.webp",
+   "below": "upper_U055_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U056",
+  "orig_id": "P056",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "肩ひもを外すしぐさ",
+  "name_cn": "手指触肩头",
+  "name_en": "Fingers at shoulder top",
+  "name_kr": "손가락 어깨 위",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U056_front.webp",
+   "diag": "upper_U056_diag.webp",
+   "side": "upper_U056_side.webp",
+   "above": null,
+   "below": "upper_U056_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U057",
+  "orig_id": "P057",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "両手で髪をかき上げて大きく反る",
+  "name_cn": "双手头顶深后仰",
+  "name_en": "Hands overhead, deep arch",
+  "name_kr": "양손 정수리·크게 젖히기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "upper_U057_diag.webp",
+   "side": "upper_U057_side.webp",
+   "above": "upper_U057_above.webp",
+   "below": "upper_U057_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing"
+  }
+ },
+ {
+  "id": "U058",
+  "orig_id": "P058",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "両手を頭の後ろで脇見せ",
+  "name_cn": "双手脑后抱头肘外张",
+  "name_en": "Hands behind head, elbows out",
+  "name_kr": "양손 머리 뒤·팔꿈치 벌리기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U058_front.webp",
+   "diag": null,
+   "side": "upper_U058_side.webp",
+   "above": null,
+   "below": "upper_U058_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "missing",
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U059",
+  "orig_id": "P059",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "胸の下を指でなぞる",
+  "name_cn": "食指沿肋下缘",
+  "name_en": "Index finger along ribs",
+  "name_kr": "검지 갈비뼈 따라",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U059_front.webp",
+   "diag": "upper_U059_diag.webp",
+   "side": "upper_U059_side.webp",
+   "above": "upper_U059_above.webp",
+   "below": "upper_U059_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U060",
+  "orig_id": "P060",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "口元に指＋片手で胸",
+  "name_cn": "食指竖唇前・单手抚胸",
+  "name_en": "Finger at chin + hand on chest",
+  "name_kr": "검지 턱 앞+한 손 가슴",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U060_front.webp",
+   "diag": "upper_U060_diag.webp",
+   "side": "upper_U060_side.webp",
+   "above": "upper_U060_above.webp",
+   "below": "upper_U060_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U061",
+  "orig_id": "P061",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "指先で胸の先を隠す",
+  "name_cn": "指尖点胸口中央",
+  "name_en": "Fingertip at chest center",
+  "name_kr": "손가락 끝 가슴 중앙",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U061_front.webp",
+   "diag": "upper_U061_diag.webp",
+   "side": "upper_U061_side.webp",
+   "above": null,
+   "below": "upper_U061_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U062",
+  "orig_id": "P062",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "片手で胸・片手でお腹をなぞる",
+  "name_cn": "单手抚胸・单手抚腹",
+  "name_en": "Hand on chest + hand on stomach",
+  "name_kr": "한 손 가슴·한 손 배",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U062_front.webp",
+   "diag": "upper_U062_diag.webp",
+   "side": "upper_U062_side.webp",
+   "above": "upper_U062_above.webp",
+   "below": "upper_U062_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U063",
+  "orig_id": "P063",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "後ろ手をついて胸を突き出す",
+  "name_cn": "双臂后伸挺胸",
+  "name_en": "Arms reaching back, chest out",
+  "name_kr": "양팔 뒤로·가슴 내밀기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U063_front.webp",
+   "diag": null,
+   "side": "upper_U063_side.webp",
+   "above": "upper_U063_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U064",
+  "orig_id": "P064",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "うつ伏せで片手で胸を持ち上げる",
+  "name_cn": "俯卧单肘撑・单手胸侧",
+  "name_en": "Prone on one elbow",
+  "name_kr": "엎드려 한쪽 팔꿈치·한 손 가슴 옆",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U064_front.webp",
+   "diag": "upper_U064_diag.webp",
+   "side": "upper_U064_side.webp",
+   "above": "upper_U064_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "below": "structure"
+  }
+ },
+ {
+  "id": "U065",
+  "orig_id": "P065",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "四つん這いで反って見上げる",
+  "name_cn": "四肢着地塌腰抬头",
+  "name_en": "All fours, back dipped, head up",
+  "name_kr": "네발 기어 허리 젖히고 고개 들기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U065_front.webp",
+   "diag": null,
+   "side": "upper_U065_side.webp",
+   "above": "upper_U065_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "diag": "structure",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U066",
+  "orig_id": "P066",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "四つん這いで片手を胸元",
+  "name_cn": "四肢着地单手胸口",
+  "name_en": "All fours, hand at chest",
+  "name_kr": "네발 기어 한 손 가슴",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "upper_U066_diag.webp",
+   "side": "upper_U066_side.webp",
+   "above": "upper_U066_above.webp",
+   "below": "upper_U066_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing"
+  }
+ },
+ {
+  "id": "U067",
+  "orig_id": "P067",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "女豹の伸び（前から）",
+  "name_cn": "四肢着地前伸展",
+  "name_en": "All fours stretch forward",
+  "name_kr": "네발 기어 앞으로 쭉 뻗기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U067_front.webp",
+   "diag": "upper_U067_diag.webp",
+   "side": "upper_U067_side.webp",
+   "above": "upper_U067_above.webp",
+   "below": "upper_U067_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U068",
+  "orig_id": "P068",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "膝立ちで反ってかかとに手",
+  "name_cn": "跪立后仰手够脚跟",
+  "name_en": "Kneeling arch, hand to heel",
+  "name_kr": "무릎 서기 젖혀 손 발뒤꿈치로",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "upper_U068_diag.webp",
+   "side": "upper_U068_side.webp",
+   "above": null,
+   "below": "upper_U068_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "structure",
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U069",
+  "orig_id": "P069",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "膝立ちで両手後頭部",
+  "name_cn": "跪立双手抱头后",
+  "name_en": "Kneeling, hands behind head",
+  "name_kr": "무릎 서기 양손 머리 뒤",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U069_front.webp",
+   "diag": "upper_U069_diag.webp",
+   "side": null,
+   "above": "upper_U069_above.webp",
+   "below": "upper_U069_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "line"
+  }
+ },
+ {
+  "id": "U070",
+  "orig_id": "P070",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "指を口元にくわえる",
+  "name_cn": "食指竖在脸前歪头",
+  "name_en": "Finger vertical at face",
+  "name_kr": "검지 얼굴 앞 세우기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U070_front.webp",
+   "diag": "upper_U070_diag.webp",
+   "side": "upper_U070_side.webp",
+   "above": null,
+   "below": "upper_U070_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U071",
+  "orig_id": "P071",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "首筋をつかんで反る",
+  "name_cn": "单手握颈侧后仰",
+  "name_en": "Hand at neck, arching back",
+  "name_kr": "한 손 목 잡고 젖히기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U071_front.webp",
+   "diag": "upper_U071_diag.webp",
+   "side": "upper_U071_side.webp",
+   "above": "upper_U071_above.webp",
+   "below": "upper_U071_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U072",
+  "orig_id": "P072",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "両手で寄せて突き出す",
+  "name_cn": "双手两侧内推前挺",
+  "name_en": "Hands pressing in, chest forward",
+  "name_kr": "양손 안으로 모아 내밀기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "diag": "missing",
+   "side": "missing",
+   "above": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U073",
+  "orig_id": "P073",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "横寝そべりで胸を抱える",
+  "name_cn": "侧卧环抱自己",
+  "name_en": "Side-lying self-hug",
+  "name_kr": "옆으로 누워 안기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U073_front.webp",
+   "diag": "upper_U073_diag.webp",
+   "side": "upper_U073_side.webp",
+   "above": "upper_U073_above.webp",
+   "below": "upper_U073_below.webp"
+  },
+  "photos": {},
+  "gaps": {}
+ },
+ {
+  "id": "U074",
+  "orig_id": "P074",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "仰向けで両手を胸に",
+  "name_cn": "仰卧双手平放胸前",
+  "name_en": "Supine, hands flat on chest",
+  "name_kr": "누워 양손 가슴",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "upper_U074_diag.webp",
+   "side": "upper_U074_side.webp",
+   "above": "upper_U074_above.webp",
+   "below": "upper_U074_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing"
+  }
+ },
+ {
+  "id": "U075",
+  "orig_id": "P075",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "仰向けで両腕を上に反る",
+  "name_cn": "仰卧双臂过头后仰",
+  "name_en": "Supine, arms overhead arch",
+  "name_kr": "누워 양팔 머리 위 젖히기",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U075_front.webp",
+   "diag": "upper_U075_diag.webp",
+   "side": null,
+   "above": "upper_U075_above.webp",
+   "below": "upper_U075_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "U076",
+  "orig_id": "P076",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "前かがみで手を太ももの内側へ",
+  "name_cn": "弯腰单手下探",
+  "name_en": "Bent forward, hand reaching down",
+  "name_kr": "허리 숙여 한 손 아래로",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U076_front.webp",
+   "diag": "upper_U076_diag.webp",
+   "side": null,
+   "above": "upper_U076_above.webp",
+   "below": "upper_U076_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "side": "structure"
+  }
+ },
+ {
+  "id": "U077",
+  "orig_id": "P077",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "後ろでホックを外すしぐさ",
+  "name_cn": "双手伸到肩胛后方",
+  "name_en": "Hands behind back at shoulder blades",
+  "name_kr": "양손 등 뒤 어깨 높이",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U077_front.webp",
+   "diag": "upper_U077_diag.webp",
+   "side": "upper_U077_side.webp",
+   "above": null,
+   "below": "upper_U077_below.webp"
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure"
+  }
+ },
+ {
+  "id": "U078",
+  "orig_id": "P078",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "片手で隠しもう片手は持ち上げ",
+  "name_cn": "单手覆胸・单手托下",
+  "name_en": "Hand over chest + hand under",
+  "name_kr": "한 손 가슴 위·한 손 아래",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": null,
+   "side": null,
+   "above": "upper_U078_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "diag": "missing",
+   "side": "missing",
+   "below": "missing"
+  }
+ },
+ {
+  "id": "U079",
+  "orig_id": "P079",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "胸の谷間に手を差し入れる",
+  "name_cn": "单手平覆胸口中央指尖向下",
+  "name_en": "Hand flat at chest center, fingers down",
+  "name_kr": "한 손 가슴 중앙·손가락 아래로",
+  "desc_en": "",
+  "views": {
+   "front": "upper_U079_front.webp",
+   "diag": "upper_U079_diag.webp",
+   "side": "upper_U079_side.webp",
+   "above": null,
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "above": "structure",
+   "below": "structure"
+  }
+ },
+ {
+  "id": "U080",
+  "orig_id": "P080",
+  "series": "upper",
+  "added_in": "0.2.0",
+  "rating": "suggestive",
+  "class_jp": "セクシー・露骨寄り系",
+  "class_cn": "性感系",
+  "class_en": "Sexy",
+  "class_kr": "섹시계",
+  "name_jp": "見下ろしで両手を胸に・上目遣い風",
+  "name_cn": "双手平放胸前微抬头",
+  "name_en": "Both hands on chest, head up",
+  "name_kr": "양손 가슴·고개 살짝 들기",
+  "desc_en": "",
+  "views": {
+   "front": null,
+   "diag": "upper_U080_diag.webp",
+   "side": "upper_U080_side.webp",
+   "above": "upper_U080_above.webp",
+   "below": null
+  },
+  "photos": {},
+  "gaps": {
+   "front": "missing",
+   "below": "missing"
+  }
  }
 ]

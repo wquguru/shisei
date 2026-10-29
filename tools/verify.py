@@ -1,42 +1,60 @@
 #!/usr/bin/env python3
-"""Check data/catalog.json against images/: every listed view exists in both tiers, no orphans.
+"""Check data/catalog.json, data/qc.json and images/ against each other.
 
-Known gaps are declared here so a new gap fails loudly instead of slipping in.
+- every non-null catalog view has a `pass` in qc.json and exists in both tiers;
+- every null view has a non-pass qc status and a matching `gaps` entry (missing, line or structure);
+- every photo exists in both tiers; nothing under images/ is unreferenced.
 """
 import json, pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-KNOWN_GAPS = {("P062", "below")}  # 9 attempts, see docs/GENERATION.md
 VIEWS = ("front", "diag", "side", "above", "below")
+TIERS = ("w300", "w900")
+
 
 def main() -> int:
     cat = json.loads((ROOT / "data/catalog.json").read_text())
-    errs, listed = [], set()
+    qc = json.loads((ROOT / "data/qc.json").read_text())["views"]
+    errs, want = [], set()
+    ids = [p["id"] for p in cat]
+    if len(ids) != len(set(ids)):
+        errs.append("duplicate ids in catalog")
     for p in cat:
+        q = qc.get(p["id"])
+        if q is None:
+            errs.append(f"{p['id']}: no qc entry")
+            continue
         for v in VIEWS:
-            f = p["views"].get(v)
-            if f is None:
-                if (p["id"], v) not in KNOWN_GAPS:
-                    errs.append(f"{p['id']} {v}: missing view not in KNOWN_GAPS")
-                continue
-            listed.add(f)
-            for tier in ("w300", "w900"):
-                if not (ROOT / "images/line" / tier / f).exists():
-                    errs.append(f"{p['id']} {v}: images/line/{tier}/{f} missing")
-        for v in p.get("photos", []):
-            for tier in ("w300", "w900"):
-                if not (ROOT / "images/photo" / tier / p["views"][v]).exists():
-                    errs.append(f"{p['id']} photo {v}: images/photo/{tier} missing")
-    for tier in ("w300", "w900"):
-        for f in (ROOT / "images/line" / tier).glob("*.webp"):
-            if f.name not in listed:
-                errs.append(f"orphan images/line/{tier}/{f.name}")
-    n = sum(1 for p in cat for v in VIEWS if p["views"].get(v))
-    print(f"{len(cat)} poses, {n}/{len(cat) * 5} line views, "
-          f"{sum(len(p.get('photos', [])) for p in cat)} photos")
+            f, st = p["views"].get(v), q[v]["status"]
+            if f:
+                if st != "pass":
+                    errs.append(f"{p['id']} {v}: in catalog but qc says {st}")
+                for t in TIERS:
+                    want.add(("line", t, f))
+                    if not (ROOT / "images/line" / t / f).exists():
+                        errs.append(f"{p['id']} {v}: images/line/{t}/{f} missing")
+            else:
+                if st == "pass":
+                    errs.append(f"{p['id']} {v}: qc pass but catalog view is null")
+                if p.get("gaps", {}).get(v) != st:
+                    errs.append(f"{p['id']} {v}: gaps entry should be {st}")
+        for v, f in (p.get("photos") or {}).items():
+            for t in TIERS:
+                want.add(("photo", t, f))
+                if not (ROOT / "images/photo" / t / f).exists():
+                    errs.append(f"{p['id']} photo {v}: images/photo/{t}/{f} missing")
+    for f in (ROOT / "images").glob("*/*/*.webp"):
+        if (f.parent.parent.name, f.parent.name, f.name) not in want:
+            errs.append(f"orphan {f.relative_to(ROOT)}")
+    for s in sorted({p["series"] for p in cat}):
+        ps = [p for p in cat if p["series"] == s]
+        shown = [p for p in ps if any(p["views"].values())]
+        n = sum(1 for p in ps for v in VIEWS if p["views"].get(v))
+        print(f"{s}: {len(shown)}/{len(ps)} poses shown, {n}/{len(ps) * 5} views pass")
     for e in errs:
         print("ERR", e)
     return 1 if errs else 0
+
 
 if __name__ == "__main__":
     sys.exit(main())
