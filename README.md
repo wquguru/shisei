@@ -19,6 +19,9 @@ English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readm
 
 ---
 
+> **Content note:** the sexy and duo series are suggestive adult pose references (faceless mannequins, no
+> nudity detail). They are kept out of previews and search pages, and one switch in the gallery hides them.
+
 ![Shisei gallery: hero with a marquee of mannequin poses on pastel category tiles](docs/screenshot.png)
 
 Shisei is a self-made pose reference library. Every pose is a faceless mannequin drawn from five angles — front,
