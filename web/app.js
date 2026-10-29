@@ -36,14 +36,12 @@
   const DL_ICON = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>';
 
   // A view is in the catalog only if it passed QC; a pose with no passing view is not shown at all.
-  const LATEST = CATALOG.map((p) => p.added_in || '').sort().pop();
   const poses = CATALOG.filter((p) => VIEWS.some((v) => p.views[v])).map((p) => {
     const ci = Math.max(0, (CATS[p.series] || CATS.std).findIndex((c) => c[0] === p.class_en));
     const line = VIEWS.map((v) => p.views[v] || null);
     return {
       ...p, ci, line,
       tint: (CATS[p.series] || CATS.std)[ci][1],
-      isNew: p.added_in === LATEST,
       suggestive: p.rating === 'suggestive',
       photo: VIEWS.map((v) => (p.photos && p.photos[v]) || null)
     };
@@ -260,7 +258,6 @@
     return '<article class="card' + (veil ? ' veiled' : '') + '" data-id="' + p.id + '" style="--tint:' + p.tint + '">' +
       '<div class="tile-box"><a class="tile" href="#' + p.id + '-' + VIEWS[cur] + '" data-tile aria-label="' + esc(T.open(p.id) + ' ' + nameOf(p)) + '">' +
         '<img' + (f ? ' src="' + src(kind, 'w300', f) + '" srcset="' + srcset(kind, f) + '"' : '') + ' sizes="(max-width: 720px) 50vw, 320px" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[cur]) + '" loading="lazy" decoding="async"' + (f ? '' : ' hidden') + '>' +
-        (p.isNew ? '<span class="badge new">' + T.newBadge + '</span>' : '') +
         (!photo && p.photo.some(Boolean) ? '<span class="badge ph">' + esc(T.hasPhoto) + '</span>' : '') +
         '<span class="vlabel">' + esc(T.views[cur]) + ' ' + (cur + 1) + '/5</span>' +
       '</a><div class="missing"' + (f ? ' hidden>' : '>' + cardGapHtml(arr, cur, photo)) + '</div>' + (veil ? veilBtn(p) : '') + '</div>' +

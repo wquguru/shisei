@@ -157,7 +157,6 @@ img { display: block; }
 .card:focus-within .tile, .stile:focus-visible .tile { background: var(--tint); box-shadow: 0 18px 32px -18px rgba(24,24,27,0.4); }
 .photo-mode .card:focus-within .tile { background: var(--tile-photo-on); }
 .badge { position: absolute; height: 28px; padding: 0 11px; display: inline-flex; align-items: center; border-radius: 999px; font-size: 12px; }
-.badge.new { top: 14px; left: 14px; background: var(--new); color: var(--new-ink); font-family: var(--mono); letter-spacing: 0.06em; }
 .badge.ph { top: 14px; right: 14px; background: rgba(255,255,255,0.85); color: #18181B; }
 .vlabel { position: absolute; right: 14px; bottom: 12px; font-family: var(--mono); font-size: 12px; color: #18181B; }
 /* Gap box: an icon, one short line and a way out instead of a dashed frame. It overlays the tile link from beside it
@@ -321,7 +320,6 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .c3 .card { gap: 6px; }
   .c3 .tile { border-radius: 16px; }
   .c3 .badge.ph, .c3 .dots { display: none; }
-  .c3 .badge.new { top: 6px; left: 6px; height: 20px; padding: 0 6px; font-size: 10px; }
   .c3 .card-foot { align-items: stretch; }
   .c3 .card-t h3 { font-size: 12px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .c3 .card-t span { font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -333,7 +331,7 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .grid.single { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tile { border-radius: 22px; }
   .badge { height: 24px; padding: 0 8px; font-size: 11px; }
-  .badge.new { top: 10px; left: 10px; } .badge.ph { top: 10px; right: 10px; }
+  .badge.ph { top: 10px; right: 10px; }
   .vlabel { display: none; }
   .missing { padding: 12px; gap: 6px; }
   .missing b { font-size: 14px; }

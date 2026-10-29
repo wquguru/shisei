@@ -7,17 +7,17 @@ entries:
   - date: 2026-10-29
     tag: removed
     title: Simpler filters
-    desc: The NEW and all-five-angles chips are gone; pick a series to filter by category, or pick an angle above the grid.
+    desc: The NEW badges and the NEW and all-five-angles chips are gone; pick a series to filter by category, or pick an angle above the grid.
     link: /
     cta: Open the gallery
     title_zh: 筛选更简洁
-    desc_zh: 去掉了 NEW 和「五机位齐全」两个筛选。选一个系列就能按分类筛，机位可以在网格上方切换。
+    desc_zh: 去掉了卡片上的 NEW 角标，以及 NEW 和「五机位齐全」两个筛选。选一个系列就能按分类筛，机位可以在网格上方切换。
     cta_zh: 打开图库
     title_ja: 絞り込みをシンプルに
-    desc_ja: NEW と「5 アングル揃い」の絞り込みをなくしました。シリーズを選ぶと分類で絞り込め、アングルはグリッドの上で切り替えられます。
+    desc_ja: カードの NEW バッジと、NEW・「5 アングル揃い」の絞り込みをなくしました。シリーズを選ぶと分類で絞り込め、アングルはグリッドの上で切り替えられます。
     cta_ja: ギャラリーを開く
     title_ko: 더 간단한 필터
-    desc_ko: NEW와 「5앵글 모두」 필터를 없앴습니다. 시리즈를 고르면 분류로 좁힐 수 있고, 앵글은 그리드 위에서 바꿀 수 있습니다.
+    desc_ko: 카드의 NEW 배지와 NEW・「5앵글 모두」 필터를 없앴습니다. 시리즈를 고르면 분류로 좁힐 수 있고, 앵글은 그리드 위에서 바꿀 수 있습니다.
     cta_ko: 갤러리 열기
 
   - date: 2026-10-29
