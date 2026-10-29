@@ -74,7 +74,10 @@ def main() -> None:
             panels = [(v, src / "photo" / files[v]) for v in VIEWS if v in files]
             title = f"{pid} | {p['name_en']} | {p['class_en']} | expected: 1 adult woman, photo render, full body"
         else:
-            files = {v: (p["views"].get(v) or (None if a.passed else qc.get("views", {}).get(pid, {}).get(v, {}).get("file")))
+            # qc.json file names of a set redrawn since the last merge belong to the old drawing.
+            same = qc.get("sources", {}).get(pid) == p.get("source")
+            files = {v: (p["views"].get(v) or (None if a.passed or not same else
+                                               qc.get("views", {}).get(pid, {}).get(v, {}).get("file")))
                      for v in VIEWS}
             panels = [(v, src / "img" / files[v]) for v in VIEWS if files[v]]
             title = {"panels": f"{pid} | {p['name_en']} | expected: {expect}",
