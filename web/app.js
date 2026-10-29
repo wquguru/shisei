@@ -158,7 +158,7 @@
         const p = safe[(k * 7 + offset * 11) % safe.length];
         const vi = (k * 2 + offset) % 5;
         const f = p.line[vi] || p.line[firstView(p.line)];
-        tiles.push('<span class="mq-tile" style="background:' + p.tint + '"><img src="' + src('line', 'w300', f) + '" alt="" width="146" height="146" decoding="async"></span>');
+        tiles.push('<span class="mq-tile" style="background:' + p.tint + '"><img src="' + src('line', 'w300', f) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"></span>');
       }
       return tiles.join('') + tiles.join('');
     };
