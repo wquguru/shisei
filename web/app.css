@@ -149,6 +149,7 @@ img { display: block; }
 .single .tile { border-radius: 22px; }
 .photo-mode .tile { background: var(--tile-photo); }
 @media (hover: hover) {
+  .card:hover .missing { transform: translateY(-3px); }
   .card:hover .tile, .stile:hover .tile { background: var(--tint); box-shadow: 0 18px 32px -18px rgba(24,24,27,0.4); transform: translateY(-3px); }
   .photo-mode .card:hover .tile, .photo-mode .stile:hover .tile { background: var(--tile-photo-on); }
 }
@@ -158,9 +159,18 @@ img { display: block; }
 .badge.new { top: 14px; left: 14px; background: var(--new); color: var(--new-ink); font-family: var(--mono); letter-spacing: 0.06em; }
 .badge.ph { top: 14px; right: 14px; background: rgba(255,255,255,0.85); color: #18181B; }
 .vlabel { position: absolute; right: 14px; bottom: 12px; font-family: var(--mono); font-size: 12px; color: #18181B; }
-.missing { position: absolute; inset: 22px; border: 2px dashed rgba(24,24,27,0.28); border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; padding: 18px; color: #3F3D39; }
-.missing b { font-size: 16px; }
-.missing span { font-size: 13px; line-height: 1.6; }
+/* Gap box: an icon, one short line and a way out instead of a dashed frame. It overlays the tile link from beside it
+   (a button cannot sit inside an <a>), lets clicks through to the link and moves with the tile on hover.
+   Tiles stay light in dark mode, so its colours are fixed like .vlabel's. */
+.tile-box { position: relative; }
+.missing { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; padding: 20px; color: #3F3D39; pointer-events: none; transition: transform .25s ease; }
+.missing b { font-size: 16px; font-weight: 600; color: #18181B; }
+.gap-ic { width: 56px; height: 56px; flex: 0 0 auto; border-radius: 50%; background: rgba(255,255,255,0.72); display: inline-flex; align-items: center; justify-content: center; color: #55534E; margin-bottom: 2px; }
+.gap-sub { font-size: 13px; line-height: 1.6; color: #55534E; text-wrap: balance; }
+.gap-short { display: none; }
+.gap-go { pointer-events: auto; margin-top: 4px; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid #DCD6CC; background: #FFFFFF; color: #18181B; display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; cursor: pointer; }
+.gap-go.dark { background: #18181B; border-color: #18181B; color: #FFFFFF; }
+.gap-go:hover { filter: brightness(0.96); }
 .card-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .card-t { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .card-t h3 { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.4; }
@@ -170,7 +180,9 @@ img { display: block; }
 .dots button:disabled { cursor: default; }
 .dots i { display: block; width: 8px; height: 8px; border-radius: 4px; background: var(--line); transition: width .15s ease; }
 .dots button[aria-pressed="true"] i { width: 16px; background: var(--ink); }
-.dots button:disabled i { background: transparent; border: 1.5px dashed var(--ink4); }
+/* Hollow = no image for that angle yet, readable before anyone hovers it. */
+.dots button:disabled i { background: transparent; border: 1.5px solid var(--ink4); opacity: 0.55; }
+.dots button[aria-pressed="true"]:disabled i { border-color: var(--ink); opacity: 1; }
 .stile { display: flex; flex-direction: column; gap: 8px; text-decoration: none; }
 .stile-t { display: flex; justify-content: space-between; font-size: 13px; }
 .stile-t span:last-child { color: var(--ink4); }
@@ -191,7 +203,11 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 .lb-box { position: relative; margin: auto; width: min(1200px, calc(100vw - 48px)); height: min(820px, calc(100vh - 48px)); margin-top: max(24px, calc((100vh - 820px) / 2)); display: flex; border-radius: 34px; overflow: hidden; background: var(--bg); box-shadow: 0 30px 80px -30px rgba(0,0,0,0.5); }
 .lb-stage { flex: 1 1 auto; position: relative; margin: 18px; border-radius: 26px; background: var(--tint, var(--tile)); display: flex; align-items: center; justify-content: center; overflow: hidden; touch-action: pan-y; }
 .lb-stage img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
-.lb-missing { position: absolute; inset: 40px; border: 2px dashed rgba(24,24,27,0.28); border-radius: 22px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; color: #3F3D39; font-size: 15px; padding: 20px; }
+.lb-missing { position: absolute; inset: 40px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; color: #3F3D39; padding: 20px; }
+.lb-missing b { font-size: 20px; font-weight: 600; color: #18181B; }
+.lb-missing .gap-ic { width: 64px; height: 64px; }
+.lb-missing .gap-sub { font-size: 15px; }
+.gap-acts { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 6px; }
 .lb-nav { position: absolute; top: 50%; margin-top: -28px; width: 56px; height: 56px; border-radius: 50%; border: 0; background: #F5F2ED; color: #18181B; display: flex; align-items: center; justify-content: center; cursor: pointer; }
 .lb-nav.l { left: 20px; } .lb-nav.r { right: 20px; }
 .lb-nav:disabled { cursor: default; opacity: 0.35; }
@@ -209,6 +225,7 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 .lb-chips button[aria-pressed="true"] { color: var(--ink); font-weight: 600; }
 .lb-chips button[aria-pressed="true"] span { box-shadow: 0 0 0 2.5px var(--ink); }
 .lb-chips button:disabled { cursor: default; opacity: 0.45; }
+.lb-chips button:disabled span { display: flex; align-items: center; justify-content: center; color: #55534E; }
 .lb-side .seg { align-self: flex-start; }
 .lb-desc { display: flex; flex-direction: column; gap: 8px; padding: 16px; border-radius: 20px; background: var(--card); border: 1px solid var(--line2); }
 .lb-desc-h { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--ink4); }
@@ -307,15 +324,23 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .c3 .card-foot { align-items: stretch; }
   .c3 .card-t h3 { font-size: 12px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .c3 .card-t span { font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .c3 .missing { inset: 6px; padding: 4px; border-radius: 12px; }
-  .c3 .missing b { font-size: 11px; } .c3 .missing span { display: none; }
+  .c3 .missing { padding: 4px; gap: 4px; }
+  .c3 .missing b, .c3 .gap-sub, .c3 .gap-go { display: none; }
+  .c3 .gap-ic { width: auto; height: auto; background: none; margin: 0; }
+  .c3 .gap-ic svg { width: 20px; height: 20px; }
+  .c3 .gap-short { display: block; font-size: 11px; font-weight: 600; line-height: 1.3; }
   .grid.single { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tile { border-radius: 22px; }
   .badge { height: 24px; padding: 0 8px; font-size: 11px; }
   .badge.new { top: 10px; left: 10px; } .badge.ph { top: 10px; right: 10px; }
   .vlabel { display: none; }
-  .missing { inset: 12px; padding: 10px; }
+  .missing { padding: 12px; gap: 6px; }
   .missing b { font-size: 14px; }
+  .gap-ic { width: 44px; height: 44px; }
+  .gap-ic svg { width: 20px; height: 20px; }
+  .gap-sub { font-size: 12px; line-height: 1.5; }
+  .gap-go { padding: 0 14px; font-size: 13px; }
+  .lb-missing { inset: 16px; }
   .card-foot { flex-direction: column; align-items: flex-start; gap: 0; }
   .card-t h3 { font-size: 15px; }
   .dots { margin-left: -6px; }
@@ -340,8 +365,8 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 .lb-cell.line img { object-fit: contain; mix-blend-mode: multiply; }
 .lb-cell.photo img { object-fit: cover; mix-blend-mode: normal; }
 .lb-cell figcaption { position: absolute; left: 10px; bottom: 10px; height: 26px; padding: 0 10px; display: inline-flex; align-items: center; border-radius: 999px; background: rgba(245,242,237,0.92); color: #3F3D39; font-family: var(--mono); font-size: 12px; }
-.lb-cell.gap { border: 2px dashed rgba(24,24,27,0.28); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 12px; text-align: center; color: #3F3D39; font-size: 13px; }
-.lb-cell.gap span { font-size: 12px; line-height: 1.5; }
+.lb-cell.gap { background: rgba(255,255,255,0.4); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 12px; text-align: center; color: #18181B; font-size: 14px; }
+.lb-cell.gap .gap-ic { width: 48px; height: 48px; }
 .lb-chips span.photo { display: flex; justify-content: center; }
 .lb-chips span.photo img { width: auto; height: 100%; mix-blend-mode: normal; }
 .lb-chips span.both { position: relative; }
@@ -368,7 +393,7 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 .pp-view { margin: 0; display: flex; flex-direction: column; gap: 8px; }
 .pp-tile { display: block; aspect-ratio: 3 / 4; border-radius: 24px; overflow: hidden; background: var(--tint); position: relative; }
 .pp-tile img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
-.pp-tile.missing { display: flex; align-items: center; justify-content: center; text-align: center; padding: 16px; border: 2px dashed rgba(24,24,27,0.28); background: var(--tile); color: var(--ink3); font-size: 14px; }
+.pp-tile.missing { display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center; text-align: center; padding: 16px; background: var(--tile); color: #18181B; font-size: 14px; }
 .pp-view figcaption { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 10px; font-size: 14px; color: var(--ink3); }
 .pp-view figcaption a { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink2); font-size: 13px; }
 .pp-lead { margin: -8px 0 18px; max-width: 720px; font-size: 15px; line-height: 1.6; color: var(--ink3); }

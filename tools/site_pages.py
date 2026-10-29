@@ -30,6 +30,12 @@ FEED_ICON = ('<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke
              'aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>')
 
 
+# Same pencil as the gallery's gap box (web/app.js ICON.line): a gap reads as "being drawn", not as an error.
+GAP_ICON = ('<span class="gap-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+            'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+            '<path d="M4 20h4L19 9a2.1 2.1 0 0 0-3-3L5 17v3z"/><path d="M14 8l3 3"/></svg></span>')
+
+
 def fmt_day(loc, iso):
     y, m, d = iso[:4], int(iso[5:7]), int(iso[8:10])
     if loc == "en":
@@ -214,7 +220,7 @@ class Site:
                     f'<figcaption><span>{esc(v)}</span><a href="{img("w900", f)}" download="shisei_{p["id"]}_{VIEWS[k]}.webp">'
                     f'{esc(T["downloadView"])}</a></figcaption></figure>')
             else:
-                figs.append(f'<figure class="pp-view"><div class="pp-tile missing"><b>{esc(v)} · {esc(T["notYet"])}</b></div>'
+                figs.append(f'<figure class="pp-view"><div class="pp-tile missing">{GAP_ICON}<b>{esc(v)} · {esc(T["notYet"])}</b></div>'
                             f'<figcaption><span>{esc(v)}</span></figcaption></figure>')
         # Line art next to the photo for every angle that has both; the gallery lightbox has the same pairing.
         pimg = lambda tier, f: f"{rel}images/photo/{tier}/{f}"

@@ -17,6 +17,9 @@ the catalog schema.
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- Missing views read as friendly, not as errors: the dashed box and the「暂未收录」/「质检未通过」 copy give way to an
+  icon, 「正在补画」 (or 「暂无实拍」 for photos) and a button to the nearest angle that has one; hollow dots mark the
+  missing angles, the phone's three columns keep only the icon and a word, pose pages match. All four languages.
 - The redrawn sets use a slightly different mannequin (construction lines, milder high and low angles), and their
   full-size originals are 900 × 1200.
 - `qc_merge.py` scopes result files by `source`; `import_redraws.py` stages whole-set redraws; build, sheet, dup and

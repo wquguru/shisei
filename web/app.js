@@ -87,13 +87,29 @@
   // A series with nothing allowed (?series=duo while suggestive poses are hidden) has no tab; fall back to all.
   const fixSeries = () => { if (S.series !== 'all' && !allowed().some((p) => p.series === S.series)) S.series = 'all'; };
   fixSeries();
-  const missingText = (p, v, photo) => {
-    const T = t();
-    if (photo) return [T.missingPhoto(T.views[v]), T.missingPhotoSub];
-    const g = (p.gaps || {})[VIEWS[v]];
-    return g === 'line' || g === 'structure' ? [T.qcFail(T.views[v]), T.qcFailSub] : [T.missingLine(T.views[v]), T.missingLineSub];
-  };
   const firstView = (arr) => Math.max(0, arr.findIndex(Boolean));
+  // The closest angle that has an image, the next one first; -1 when the set has none.
+  const nearView = (arr, v) => {
+    for (let d = 1; d < VIEWS.length; d++) for (const i of [v + d, v - d]) if (arr[i]) return i;
+    return -1;
+  };
+  // A gap is shown the same way whatever its cause (never generated or failed QC): readers only need to know
+  // it is on the way and where to look meanwhile, so every gap box offers one way out.
+  const ICON = {
+    line: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L19 9a2.1 2.1 0 0 0-3-3L5 17v3z"/><path d="M14 8l3 3"/></svg>',
+    photo: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-2.5h6L17 8h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>',
+  };
+  const ARROW = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+  const gapIcon = (photo) => '<span class="gap-ic">' + ICON[photo ? 'photo' : 'line'] + '</span>';
+  // Grid card: the way out is the nearest angle in the same medium (the medium switch is page-wide).
+  function cardGapHtml(arr, v, photo) {
+    const T = t();
+    const n = nearView(arr, v);
+    return gapIcon(photo) + '<b>' + esc(photo ? T.gapPhoto : T.gapLine) + '</b>' +
+      '<span class="gap-sub">' + esc(photo ? T.gapOther : T.gapLineSub) + '</span>' +
+      '<span class="gap-short">' + esc(photo ? T.gapPhotoShort : T.gapLineShort) + '</span>' +
+      (n >= 0 ? '<button type="button" class="gap-go" data-go="' + n + '">' + esc(T.goView(T.views[n])) + ARROW + '</button>' : '');
+  }
 
   function toast(msg) {
     const el = $('toast');
@@ -242,15 +258,14 @@
     const f = arr[cur];
     const kind = photo ? 'photo' : 'line';
     const dots = VIEWS.map((_, i) => '<button type="button" data-dot="' + i + '" aria-label="' + esc(T.views[i]) + '" aria-pressed="' + (i === cur) + '"' + (arr[i] ? '' : ' disabled') + '><i></i></button>').join('');
-    const [missB, missS] = missingText(p, cur, photo);
+    // The gap box sits beside the tile link, not in it: its button cannot nest inside an <a>.
     return '<article class="card" data-id="' + p.id + '" style="--tint:' + p.tint + '">' +
-      '<a class="tile" href="#' + p.id + '-' + VIEWS[cur] + '" data-tile aria-label="' + esc(T.open(p.id) + ' ' + nameOf(p)) + '">' +
+      '<div class="tile-box"><a class="tile" href="#' + p.id + '-' + VIEWS[cur] + '" data-tile aria-label="' + esc(T.open(p.id) + ' ' + nameOf(p)) + '">' +
         '<img' + (f ? ' src="' + src(kind, 'w300', f) + '" srcset="' + srcset(kind, f) + '"' : '') + ' sizes="(max-width: 720px) 50vw, 320px" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[cur]) + '" loading="lazy" decoding="async"' + (f ? '' : ' hidden') + '>' +
-        '<span class="missing"' + (f ? ' hidden' : '') + '><b>' + esc(missB) + '</b><span>' + esc(missS) + '</span></span>' +
         (p.isNew ? '<span class="badge new">' + T.newBadge + '</span>' : '') +
         (!photo && p.photo.some(Boolean) ? '<span class="badge ph">' + esc(T.hasPhoto) + '</span>' : '') +
         '<span class="vlabel">' + esc(T.views[cur]) + ' ' + (cur + 1) + '/5</span>' +
-      '</a>' +
+      '</a><div class="missing"' + (f ? ' hidden>' : '>' + cardGapHtml(arr, cur, photo)) + '</div></div>' +
       '<div class="card-foot"><div class="card-t"><h3>' + esc(nameOf(p)) + '</h3><span>' + p.id + ' · ' + esc(catLabel(p)) + '</span></div>' +
       '<div class="dots" role="group" aria-label="' + esc(T.angle) + '">' + dots + '</div></div></article>';
   }
@@ -272,7 +287,7 @@
     }
     img.hidden = !f;
     miss.hidden = !!f;
-    if (!f) { const [b, s] = missingText(p, cur, photo); miss.innerHTML = '<b>' + esc(b) + '</b><span>' + esc(s) + '</span>'; }
+    miss.innerHTML = f ? '' : cardGapHtml(arr, cur, photo);
     card.querySelector('.vlabel').textContent = T.views[cur] + ' ' + (cur + 1) + '/5';
     card.querySelector('[data-tile]').setAttribute('href', '#' + p.id + '-' + VIEWS[cur]);
     card.querySelectorAll('[data-dot]').forEach((b) => b.setAttribute('aria-pressed', String(+b.dataset.dot === cur)));
@@ -360,6 +375,15 @@
   grid.addEventListener('click', (e) => {
     if (e.target.closest('[data-dot]')) { pickDot(e); return; }
     const tile = e.target.closest('[data-tile]');
+    const go = e.target.closest('[data-go]');
+    if (go) {
+      const card = go.closest('.card');
+      S.angle = -1;
+      S.per[card.dataset.id] = +go.dataset.go;
+      updateCard(card, byId.get(card.dataset.id));
+      card.querySelector('[data-tile]').focus();
+      return;
+    }
     if (tile) {
       e.preventDefault();
       const p = byId.get(tile.closest('.card').dataset.id);
@@ -464,14 +488,26 @@
   }
   function pairCell(p, kind, f, T) {
     const label = kind === 'photo' ? T.photo : T.line;
-    if (!f) {
-      const [b, s] = missingText(p, LB.v, kind === 'photo');
-      return '<div class="lb-cell ' + kind + ' gap"><b>' + esc(b) + '</b><span>' + esc(s) + '</span></div>';
-    }
+    // The other half of the pair is right beside it, so this gap needs no way out.
+    if (!f) return '<div class="lb-cell ' + kind + ' gap">' + gapIcon(kind === 'photo') + '<b>' + esc(kind === 'photo' ? T.gapPhoto : T.gapLine) + '</b></div>';
     return '<figure class="lb-cell ' + kind + '"><img src="' + src(kind, 'w900', f) + '" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[LB.v] + ' · ' + label) + '">' +
       '<figcaption>' + esc(label) + '</figcaption></figure>';
   }
   function renderLb() {
+  // Lightbox gap: the same angle in the other medium is the best way out when it exists, else the nearest angle.
+  function lbGapHtml(p, arr, photo, T) {
+    const v = LB.v;
+    const other = photo ? p.line[v] : p.photo[v];
+    const n = nearView(arr, v);
+    const btn = (attr, label, dark) => '<button type="button" class="gap-go' + (dark ? ' dark' : '') + '" ' + attr + '>' + esc(label) + (dark ? ARROW : '') + '</button>';
+    const acts = [];
+    if (photo && other) acts.push(btn('data-lbgm="line"', T.goLine, true));
+    if (n >= 0) acts.push(btn('data-lbgo="' + n + '"', T.goView(T.views[n]), !acts.length));
+    if (!photo && other) acts.push(btn('data-lbgm="photo"', T.goPhoto, false));
+    return gapIcon(photo) + '<b>' + esc(T.views[v] + ' · ' + (photo ? T.gapPhoto : T.gapLine)) + '</b>' +
+      '<span class="gap-sub">' + esc(photo ? (other ? T.gapPhotoSub : T.gapOther) : T.gapLineSub) + '</span>' +
+      (acts.length ? '<span class="gap-acts">' + acts.join('') + '</span>' : '');
+  }
     const T = t();
     const p = byId.get(LB.id);
     const m = LB.medium;
@@ -489,9 +525,8 @@
     pair.hidden = !compare;
     pair.innerHTML = compare ? pairCell(p, 'line', p.line[LB.v], T) + pairCell(p, 'photo', p.photo[LB.v], T) : '';
     const miss = $('lbMissing');
-    miss.hidden = !!f;
-    const [mb, ms] = missingText(p, LB.v, photo);
-    miss.innerHTML = f ? '' : '<b>' + esc(mb) + '</b><span>' + esc(ms) + '</span>';
+    miss.hidden = !!f || compare;
+    miss.innerHTML = f || compare ? '' : lbGapHtml(p, arr, photo, T);
     $('lbCounter').textContent = T.views[LB.v] + ' ' + (LB.v + 1) + '/5';
     // With one view or none there is nowhere to step; a live-looking arrow that does nothing reads as broken.
     $('lbPrev').disabled = $('lbNext').disabled = arr.filter(Boolean).length < 2;
@@ -508,7 +543,7 @@
       const tk = compare ? (p.line[i] ? 'line' : 'photo') : kind;
       const both = compare && p.line[i] && p.photo[i];
       return '<button type="button" data-lbv="' + i + '" aria-pressed="' + (i === LB.v) + '"' + (arr[i] ? '' : ' disabled') + '>' +
-        '<span class="' + tk + (both ? ' both' : '') + '">' + (arr[i] ? '<img src="' + src(tk, 'w300', arr[i]) + '" alt="">' : '') + '</span>' + esc(T.views[i]) + '</button>';
+        '<span class="' + tk + (both ? ' both' : '') + '">' + (arr[i] ? '<img src="' + src(tk, 'w300', arr[i]) + '" alt="">' : ICON[kind]) + '</span>' + esc(T.views[i]) + '</button>';
     }).join('');
     const hasPhoto = p.photo.some(Boolean);
     $('lb').classList.toggle('no-photo', !hasPhoto);
@@ -557,6 +592,12 @@
     if (b && !b.disabled) { LB.v = +b.dataset.lbv; renderLb(); }
   });
   $('lbMedium').addEventListener('click', (e) => {
+  $('lbMissing').addEventListener('click', (e) => {
+    const go = e.target.closest('[data-lbgo]');
+    const gm = e.target.closest('[data-lbgm]');
+    if (go) { LB.v = +go.dataset.lbgo; renderLb(); }
+    else if (gm) openLb(LB.id, LB.v, gm.dataset.lbgm);
+  });
     const b = e.target.closest('[data-lbm]');
     if (b && !b.disabled) openLb(LB.id, LB.v, b.dataset.lbm);
   });

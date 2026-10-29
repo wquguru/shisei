@@ -5,6 +5,22 @@
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
   - date: 2026-10-29
+    tag: improve
+    title: Missing angles point you somewhere
+    desc: An angle that is not drawn yet now says so in a word and offers a button to the closest angle that is. Hollow dots under each card show the missing ones at a glance.
+    link: /
+    cta: Open the gallery
+    title_zh: 缺机位时直接带你去别的机位
+    desc_zh: 还没画好的机位现在只写一句「正在补画」，旁边一个按钮直接跳到最近有图的机位。卡片下的空心圆点一眼就能看出缺哪几个。
+    cta_zh: 打开画廊
+    title_ja: 足りないアングルから別のアングルへ
+    desc_ja: まだ描けていないアングルは「ただいま描き足し中」とひと言だけ表示し、いちばん近いアングルへ移るボタンを出します。カード下の白抜きの点で、足りないアングルがひと目で分かります。
+    cta_ja: ギャラリーを開く
+    title_ko: 없는 앵글에서 바로 다른 앵글로
+    desc_ko: 아직 그리지 않은 앵글은 「지금 그리는 중이에요」라고만 쓰고, 가장 가까운 앵글로 가는 버튼을 보여 줍니다. 카드 아래 속이 빈 점으로 없는 앵글을 한눈에 알 수 있습니다.
+    cta_ko: 갤러리 열기
+
+  - date: 2026-10-29
     tag: new
     title: 43 pose sets redrawn, 25 back on show
     desc: Sets with at most two usable angles or the wrong pose were redrawn whole and checked again. Standard now shows 71 of 73 sets, upper body all 80. The new mannequin looks a little different.
