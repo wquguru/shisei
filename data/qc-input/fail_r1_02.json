@@ -1,0 +1,226 @@
+{
+ "reviewed": [
+  "P067__above-below.jpg",
+  "P067__front-diag-side.jpg",
+  "P068__above-below.jpg",
+  "P068__front-diag-side.jpg",
+  "P069__above-below.jpg",
+  "P069__front-diag-side.jpg",
+  "P070__above-below.jpg",
+  "P070__front-diag-side.jpg",
+  "P071__above-below.jpg",
+  "P071__front-diag-side.jpg",
+  "P072__above-below.jpg",
+  "P072__front-diag-side.jpg",
+  "P073__above-below.jpg",
+  "P073__front-diag-side.jpg",
+  "P074__above-below.jpg",
+  "P074__front-diag-side.jpg",
+  "P075__above-below.jpg",
+  "P075__front-diag-side.jpg",
+  "S001__above-below.jpg",
+  "S001__front-diag-side.jpg",
+  "S002__above-below.jpg",
+  "S002__front-diag-side.jpg",
+  "S003__above-below.jpg",
+  "S003__front-diag-side.jpg",
+  "S004__above-below.jpg",
+  "S004__front-diag-side.jpg",
+  "S005__above-below.jpg",
+  "S005__front-diag-side.jpg",
+  "S006__below.jpg",
+  "S006__diag-side-above.jpg",
+  "S007__above-below.jpg",
+  "S007__front-diag-side.jpg",
+  "S008__above-below.jpg",
+  "S008__front-diag-side.jpg",
+  "S009__above-below.jpg",
+  "S009__front-diag-side.jpg",
+  "S010__above-below.jpg",
+  "S010__front-diag-side.jpg",
+  "S011__above-below.jpg",
+  "S011__front-diag-side.jpg",
+  "S012__above-below.jpg",
+  "S012__front-diag-side.jpg",
+  "S013__above.jpg",
+  "S013__front-diag-side.jpg",
+  "S014__above-below.jpg",
+  "S014__front-diag-side.jpg",
+  "S015__above-below.jpg",
+  "S015__front-diag-side.jpg",
+  "S016__above-below.jpg",
+  "S016__front-diag-side.jpg",
+  "S017__diag-side-above.jpg",
+  "S018__above-below.jpg",
+  "S018__front-diag-side.jpg",
+  "S019__above-below.jpg",
+  "S019__front-diag-side.jpg",
+  "S020__above-below.jpg",
+  "S020__front-diag-side.jpg",
+  "S021__above-below.jpg",
+  "S021__front-diag-side.jpg",
+  "S022__below.jpg",
+  "S022__diag-side-above.jpg",
+  "S023__above-below.jpg",
+  "S023__front-diag-side.jpg",
+  "S024__above.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P068",
+   "angle": "above",
+   "kind": "line",
+   "reason": "small nipple dot on breast"
+  },
+  {
+   "set": "P070",
+   "angle": "above",
+   "kind": "line",
+   "reason": "faint sketchy background texture/noise; arms end without hands"
+  },
+  {
+   "set": "P070",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "arms end in stubs, hands missing; sketchy style"
+  },
+  {
+   "set": "P070",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "arm ends without hand"
+  },
+  {
+   "set": "P071",
+   "angle": "side",
+   "kind": "line",
+   "reason": "sketchy background texture noise"
+  },
+  {
+   "set": "P072",
+   "angle": "above",
+   "kind": "line",
+   "reason": "row of button-like circles down torso; eye mark on head"
+  },
+  {
+   "set": "P072",
+   "angle": "front",
+   "kind": "line",
+   "reason": "facial feature/mouth mark inside head"
+  },
+  {
+   "set": "P073",
+   "angle": "front",
+   "kind": "line",
+   "reason": "circle on breast reads as nipple"
+  },
+  {
+   "set": "P073",
+   "angle": "side",
+   "kind": "line",
+   "reason": "floor line drawn under feet"
+  },
+  {
+   "set": "P074",
+   "angle": "below",
+   "kind": "line",
+   "reason": "nipple bump on breast outline; stray circle on foot"
+  },
+  {
+   "set": "S002",
+   "angle": "below",
+   "kind": "line",
+   "reason": "button-like dots down torso"
+  },
+  {
+   "set": "S002",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "head doubled/malformed, mask-like face region"
+  },
+  {
+   "set": "S004",
+   "angle": "above",
+   "kind": "line",
+   "reason": "nipple circle on breast; dot on head top"
+  },
+  {
+   "set": "S006",
+   "angle": "below",
+   "kind": "line",
+   "reason": "wall hatching background and floor"
+  },
+  {
+   "set": "S006",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "wall hatching background"
+  },
+  {
+   "set": "S006",
+   "angle": "side",
+   "kind": "line",
+   "reason": "wall and floor lines; nipple bump"
+  },
+  {
+   "set": "S010",
+   "angle": "side",
+   "kind": "line",
+   "reason": "floor line under feet"
+  },
+  {
+   "set": "S011",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "hands and feet missing"
+  },
+  {
+   "set": "S011",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "hands missing, grey fill on arm, odd leg"
+  },
+  {
+   "set": "S011",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "hands missing"
+  },
+  {
+   "set": "S017",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically identical to diag panel"
+  },
+  {
+   "set": "S018",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "arms raised, not hands behind; pose mismatch"
+  },
+  {
+   "set": "S018",
+   "angle": "side",
+   "kind": "line",
+   "reason": "floor line"
+  },
+  {
+   "set": "S019",
+   "angle": "side",
+   "kind": "line",
+   "reason": "floor line"
+  },
+  {
+   "set": "S020",
+   "angle": "side",
+   "kind": "line",
+   "reason": "floor line"
+  },
+  {
+   "set": "S022",
+   "angle": "above",
+   "kind": "line",
+   "reason": "small circle nipple dot on breast"
+  }
+ ]
+}

@@ -15,6 +15,26 @@
 
 露点、生殖器细节、像未成年的人物属于生成错误，一律不通过（DECISIONS D-06）；其余通过的内容全部公开。
 
+## 检查项和提示词
+每项检查都是「`tools/review_sheets.py` 拼审图 → `qc-reviewer` 子代理按提示词审 → 结果 JSON 放进 `data/qc-input/`」。
+提示词 `---` 以上是给维护者的说明，以下原样给审图代理。
+
+| 检查 | 提示词 | 审图 `--mode` | 输出 | 怎么用 |
+|---|---|---|---|---|
+| 逐格质检（线条 / 结构 / 露点 / 未成年 / 露骨） | [review_prompt.md](review_prompt.md) | `panels` | `fail_*.json` | `qc_merge.py` 直接生效 |
+| 姿势名对不对 | [name_prompt.md](name_prompt.md) | `name` | `name_*.json` | `no` 整套不通过；以它为准处理「pose mismatch」 |
+| 同一套里重复的机位 | 本地脚本 `tools/line_dups.py` | — | `dups.json` | `qc_merge.py` 直接生效 |
+| 儿童比例专项（只看比例） | [proportion_prompt.md](proportion_prompt.md) | `proportion --passed` | `flags`（建议） | 人工逐张确认后写进 `fail_proportion.json` |
+| 实拍 | [photo_prompt.md](photo_prompt.md) | `photo` | `photo_*.json` | `qc_merge.py` 直接生效（qc.json `photos`） |
+| 内容分级 | [rating_prompt.md](rating_prompt.md) | `rating --passed` | `rating_*.json`（建议） | `tools/rating_check.py` 列出分歧，人定，不自动改 |
+
+规则：
+- 审图代理统一用 [`.claude/agents/qc-reviewer.md`](../../.claude/agents/qc-reviewer.md)（Sonnet，只写自己的输出文件）。每批 30–65 张审图，
+  输出必须带 `reviewed` 清单；合并前核对它和批次文件一一对应，缺了就重派，不要补猜。
+- 会删内容的结论（不通过）由 `fail_*.json` / `name_*.json` / `photo_*.json` 产生；只给建议的检查（比例、分级）先人工看，再落到文件。
+- `data/qc-input/` 是当前 `qc.json` 的全部输入，`qc_merge.py data/qc-input` 能原样重算出 `qc.json`。新一轮的结果用新前缀加进去
+  （`fail_r3_*.json`），不要覆盖旧文件；要推翻旧结论就删掉对应文件里的那条并在提交说明里写原因。
+
 ## 流程（2026-10-28 第一轮）
 1. `tools/review_sheets.py` 用全尺寸源图拼审图：每张最多 3 个机位、每格 600×800，标题写编号、姿势名和应有内容（上半身系列允许出框）。
 2. 7 个 Sonnet 子代理并行审 448 张审图，按 [review_prompt.md](review_prompt.md) 判 `line` / `structure`，输出里带 `reviewed` 清单，逐张核对没有漏看。
@@ -50,14 +70,19 @@ std 的 130 个 structure 里有 115 个来自 23 套姿势名不符（P019–P0
   理由写在 `qc.json`，审图结果放在合并目录的 `fail_child.json`。
 - 合并时把第一轮的 fail / name / dups 和第二轮的放在同一个目录跑 `qc_merge.py`，第一轮三个系列的结果逐行比对没有变化。
 
-## 复审
+## 复审 / 新系列
 ```bash
-python3 tools/review_sheets.py <sheets_dir> std=<src>/img sexy=<src>/img upper=<src>/img duo=<src>/img   # 只给哪个系列就只拼哪个
-# 按 review_prompt.md 派审图子代理，输出 fail_*.json；姿势名检查输出 name_*.json
-python3 tools/line_dups.py <qc_dir>/dups.json std=<src>/img sexy=<src>/img upper=<src>/img
-python3 tools/qc_merge.py <qc_dir> --date YYYY-MM-DD
-python3 tools/build_images.py std=<std_src> sexy=<sexy_src> upper=<upper_src>
-python3 tools/verify.py
+SRC="std=$HOME/Downloads/pose-gallery-std73 sexy=$HOME/Downloads/pose-gallery-sexy80 upper=$HOME/Downloads/pose-gallery-upper80 duo=$HOME/Downloads/pose-gallery-duo55"
+python3 tools/review_sheets.py /tmp/qc/panels --mode panels ${=SRC}          # zsh: ${=SRC} 才会按空格拆开；只给要审的系列
+ls /tmp/qc/panels/*.jpg | split -l 35 - /tmp/qc/panels/batch_
+# 每个批次派一个 qc-reviewer：提示词 docs/qc/review_prompt.md，输出 data/qc-input/fail_r3_<批次>.json
+python3 tools/review_sheets.py /tmp/qc/name --mode name ${=SRC}              # → name_prompt.md → name_r3_*.json
+python3 tools/line_dups.py data/qc-input/dups.json std=<src>/img …           # 一次覆盖全部系列
+python3 tools/qc_merge.py data/qc-input --date YYYY-MM-DD
+python3 tools/review_sheets.py /tmp/qc/prop --mode proportion --passed ${=SRC}   # → proportion_prompt.md，人工确认
+python3 tools/review_sheets.py /tmp/qc/rating --mode rating --passed ${=SRC}     # → rating_prompt.md → rating_*.json
+python3 tools/rating_check.py /tmp/qc/rating
+python3 tools/build_images.py ${=SRC} && python3 tools/verify.py && python3 tools/export_csv.py
 ```
-复审时 `qc_merge.py` 会从 `qc.json` 取回被拿掉机位的文件名，所以可以对全部机位重审。注意 `qc_merge.py` 每次按目录里的结果重算全部
-系列：只审一个系列时，要把上一轮其他系列的 fail / name / dups 文件一起放进目录。没有 `photo_*.json` 时实拍结果沿用上一轮。
+`qc_merge.py` 会从 `qc.json` 取回被拿掉机位的文件名，所以可以对全部机位重审；它每次按目录里的全部结果重算，所以一定对
+`data/qc-input/` 整个目录跑。没有 `photo_*.json` 时实拍结果沿用上一轮。

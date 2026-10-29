@@ -1,0 +1,41 @@
+{
+ "reviewed": [
+  "P001__above-below.jpg",
+  "P001__front-diag-side.jpg",
+  "P002__above-below.jpg",
+  "P002__front-diag-side.jpg",
+  "P003__above-below.jpg",
+  "P003__front-diag-side.jpg",
+  "P004__above-below.jpg",
+  "P004__front-diag-side.jpg",
+  "P005__above-below.jpg",
+  "P005__front-diag-side.jpg",
+  "P006__above-below.jpg",
+  "P006__front-diag-side.jpg",
+  "P007__above-below.jpg",
+  "P007__front-diag-side.jpg",
+  "P008__above-below.jpg",
+  "P008__front-diag-side.jpg",
+  "P009__above-below.jpg",
+  "P009__front-diag-side.jpg",
+  "P010__above-below.jpg",
+  "P010__front-diag-side.jpg",
+  "P011__above-below.jpg",
+  "P011__front-diag-side.jpg",
+  "P012__above-below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P002",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "knees drawn up with feet cropped at frame edge; not the 'legs swept forward' pose seen in side/diag"
+  },
+  {
+   "set": "P007",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "three feet visible (two soles raised over head plus a third foot at left); legs raised, inconsistent with prone elbows pose"
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "reviewed": [
+  "D001.jpg",
+  "D002.jpg",
+  "D003.jpg",
+  "D004.jpg",
+  "D005.jpg",
+  "D006.jpg",
+  "D007.jpg",
+  "D008.jpg",
+  "D009.jpg",
+  "D010.jpg",
+  "D011.jpg",
+  "D012.jpg",
+  "D013.jpg",
+  "D014.jpg",
+  "D015.jpg",
+  "D016.jpg",
+  "D017.jpg",
+  "D018.jpg",
+  "D019.jpg",
+  "D020.jpg",
+  "D021.jpg",
+  "D023.jpg",
+  "D024.jpg",
+  "D025.jpg",
+  "D026.jpg",
+  "D027.jpg",
+  "D028.jpg"
+ ],
+ "sets": [
+  {
+   "set": "D001",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Two women standing facing, embracing around waists, one knee lifted and crossed over the other's leg"
+  },
+  {
+   "set": "D002",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man stands with legs wide apart over a woman lying prone between his feet, arms stretched forward"
+  },
+  {
+   "set": "D003",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Woman lies on back with both legs raised straight up, nearly parallel (not clearly V); standing man holds one ankle"
+  },
+  {
+   "set": "D004",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man kneeling upright; woman lies back in the air with her legs over his shoulders and arms spread"
+  },
+  {
+   "set": "D005",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man kneels holding woman's hips; she is in a forearm-supported pose with hips and legs raised high in V, faces close"
+  },
+  {
+   "set": "D006",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man stands holding woman upside down by the hips; her legs in a V, hands on the floor"
+  },
+  {
+   "set": "D007",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man standing behind woman who bends forward with hands on her knees; his hands on her hips"
+  },
+  {
+   "set": "D008",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man and woman seated facing each other with legs crossed and tangled, holding hands/pulling arms"
+  },
+  {
+   "set": "D009",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman seated on his lap with her back to him, he sits legs apart and wraps arms around her from behind"
+  },
+  {
+   "set": "D010",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman seated sideways on his lap, back toward him, legs bent to the side; he holds her"
+  },
+  {
+   "set": "D011",
+   "match": "partial",
+   "category_ok": false,
+   "actual": "Two figures lie prone side by side/overlapping in the same direction with legs extended; not face-to-face"
+  },
+  {
+   "set": "D012",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman on all fours, man kneeling upright behind her"
+  },
+  {
+   "set": "D013",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman on hands and one knee, other leg raised and held by the standing man behind her"
+  },
+  {
+   "set": "D014",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man sits with knees up; the small curled woman sits between his legs and he holds her"
+  },
+  {
+   "set": "D015",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman sits sideways on his lap, back leaning against his chest, legs draped over his thigh"
+  },
+  {
+   "set": "D016",
+   "match": "no",
+   "category_ok": false,
+   "actual": "Man sits on the floor cradling the woman across his lap (bridal-carry style), legs draped to one side; not lying, legs not around waist"
+  },
+  {
+   "set": "D017",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man lies on his back; woman squats on his hips facing away/sideways with hands on knees"
+  },
+  {
+   "set": "D018",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man sits on a box; woman squats on his lap with her back to him"
+  },
+  {
+   "set": "D019",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Man kneels on one knee; woman reclines on his thigh on her side with one leg raised high beside his head, not clearly resting on shoulder"
+  },
+  {
+   "set": "D020",
+   "match": "partial",
+   "category_ok": false,
+   "actual": "Two figures lie supine/prone stacked or side by side with legs extended; not clearly straddling"
+  },
+  {
+   "set": "D021",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman lies on her back with wrists crossed above her head; man kneels over her, leaning down, holding her legs/knees"
+  },
+  {
+   "set": "D023",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman lies on her back with arms spread; man kneels over her holding her hips lifted up between his knees"
+  },
+  {
+   "set": "D024",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman sits on his lap with her back to him, leaning forward with hands on her shins"
+  },
+  {
+   "set": "D025",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman lies on her back with hips and legs lifted high, supported by the kneeling man's hands"
+  },
+  {
+   "set": "D026",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man stands behind woman, one arm around her waist; she stretches one arm forward"
+  },
+  {
+   "set": "D027",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man sits on the floor with one knee raised; woman sits on his raised knee, legs dangling"
+  },
+  {
+   "set": "D028",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Two women lie overlapping head-to-toe, legs crossing"
+  }
+ ]
+}

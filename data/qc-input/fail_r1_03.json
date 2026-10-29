@@ -1,0 +1,196 @@
+{
+ "reviewed": [
+  "S024__front-diag-side.jpg",
+  "S025__above-below.jpg",
+  "S025__front-diag-side.jpg",
+  "S026__above-below.jpg",
+  "S026__front-diag-side.jpg",
+  "S027__below.jpg",
+  "S027__front-diag-side.jpg",
+  "S028__above-below.jpg",
+  "S028__front-diag-side.jpg",
+  "S029__above-below.jpg",
+  "S029__front-diag-side.jpg",
+  "S030__above-below.jpg",
+  "S030__front-diag-side.jpg",
+  "S031__above-below.jpg",
+  "S031__front-diag-side.jpg",
+  "S032__above.jpg",
+  "S032__front-diag-side.jpg",
+  "S033__above-below.jpg",
+  "S033__front-diag-side.jpg",
+  "S034__above-below.jpg",
+  "S034__front-diag-side.jpg",
+  "S035__above-below.jpg",
+  "S035__front-diag-side.jpg",
+  "S036__diag-side-above.jpg",
+  "S037__above-below.jpg",
+  "S037__front-diag-side.jpg",
+  "S038__above-below.jpg",
+  "S038__front-diag-side.jpg",
+  "S039__above-below.jpg",
+  "S039__front-diag-side.jpg",
+  "S040__above-below.jpg",
+  "S040__front-diag-side.jpg",
+  "S041__above-below.jpg",
+  "S041__front-diag-side.jpg",
+  "S042__above.jpg",
+  "S042__front-diag-side.jpg",
+  "S043__above-below.jpg",
+  "S043__front-diag-side.jpg",
+  "S044__above-below.jpg",
+  "S044__front-diag-side.jpg",
+  "S045__above.jpg",
+  "S045__front-diag-side.jpg",
+  "S046__front-diag-above.jpg",
+  "S047__above-below.jpg",
+  "S047__front-diag-side.jpg",
+  "S048__above-below.jpg",
+  "S048__front-diag-side.jpg",
+  "S049__above-below.jpg",
+  "S049__front-diag-side.jpg",
+  "S050__above-below.jpg",
+  "S050__front-diag-side.jpg",
+  "S051__above-below.jpg",
+  "S051__front-diag-side.jpg",
+  "S052__above-below.jpg",
+  "S052__front-diag-side.jpg",
+  "S053__above-below.jpg",
+  "S053__front-diag-side.jpg",
+  "S054__above-below.jpg",
+  "S054__front-diag-side.jpg",
+  "S055__above-below.jpg",
+  "S055__front-diag-side.jpg",
+  "S056__above-below.jpg",
+  "S056__front-diag-side.jpg",
+  "S057__above-below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S029",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "limbs tangled, foot a flared blob, raised arm/leg overlap unreadable"
+  },
+  {
+   "set": "S031",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "head distorted into a flattened cap shape, merged with raised hands"
+  },
+  {
+   "set": "S034",
+   "angle": "above",
+   "kind": "line",
+   "reason": "hair strand strokes at top of head by the hands"
+  },
+  {
+   "set": "S034",
+   "angle": "front",
+   "kind": "line",
+   "reason": "hair strand strokes at top of head by the hands"
+  },
+  {
+   "set": "S034",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "hair strand strokes at top of head by the hands"
+  },
+  {
+   "set": "S034",
+   "angle": "side",
+   "kind": "line",
+   "reason": "hair strand strokes at top of head by the hands"
+  },
+  {
+   "set": "S035",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "huge distorted foot and odd tail-like contour at right of hip; limbs unclear"
+  },
+  {
+   "set": "S036",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically identical to the diag panel"
+  },
+  {
+   "set": "S037",
+   "angle": "below",
+   "kind": "line",
+   "reason": "hair strands drawn at top of head by hands"
+  },
+  {
+   "set": "S037",
+   "angle": "front",
+   "kind": "line",
+   "reason": "hair strands drawn at top of head by hands"
+  },
+  {
+   "set": "S037",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "hair strands drawn at top of head by hands"
+  },
+  {
+   "set": "S043",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "not an above view (looks like front); extra hand-like shapes behind thighs"
+  },
+  {
+   "set": "S046",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "diagonal guide/floor line crossing the figure and frame"
+  },
+  {
+   "set": "S048",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically identical to the diag panel"
+  },
+  {
+   "set": "S051",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "seated robotic mannequin with shoe-like feet and boxy torso, not prone on elbows; style differs"
+  },
+  {
+   "set": "S052",
+   "angle": "front",
+   "kind": "line",
+   "reason": "several small dots/circles on torso and beside breast"
+  },
+  {
+   "set": "S052",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "feet fused into scissor-like shape, hand malformed"
+  },
+  {
+   "set": "S054",
+   "angle": "side",
+   "kind": "line",
+   "reason": "dot on side-view breast (nipple)"
+  },
+  {
+   "set": "S055",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "torso tiny/legs attach at wrong place, anatomy unreadable"
+  },
+  {
+   "set": "S056",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "feet melted into huge blobs, anatomy/proportions broken"
+  },
+  {
+   "set": "S056",
+   "angle": "side",
+   "kind": "line",
+   "reason": "circle dot on side-view breast (nipple)"
+  }
+ ]
+}

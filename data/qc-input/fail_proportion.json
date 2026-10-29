@@ -1,0 +1,53 @@
+{
+ "reviewed": [],
+ "fails": [
+  {
+   "set": "D010",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+  },
+  {
+   "set": "D024",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+  },
+  {
+   "set": "D024",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+  },
+  {
+   "set": "D024",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+  },
+  {
+   "set": "D034",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+  },
+  {
+   "set": "D045",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+  },
+  {
+   "set": "D052",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "lying woman drawn much smaller than the kneeling man, reads as child proportions (peer visual pass, confirmed by hand)"
+  },
+  {
+   "set": "D052",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "lying woman drawn much smaller than the kneeling man, reads as child proportions (peer visual pass, confirmed by hand)"
+  }
+ ]
+}

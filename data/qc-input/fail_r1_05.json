@@ -1,0 +1,202 @@
+{
+ "reviewed": [
+  "U010__above-below.jpg",
+  "U010__front-diag-side.jpg",
+  "U011__above-below.jpg",
+  "U011__front-diag-side.jpg",
+  "U012__above-below.jpg",
+  "U012__front-diag-side.jpg",
+  "U013__above-below.jpg",
+  "U013__front-diag-side.jpg",
+  "U014__above-below.jpg",
+  "U014__front-diag-side.jpg",
+  "U015__above-below.jpg",
+  "U015__front-diag-side.jpg",
+  "U016__above-below.jpg",
+  "U016__front-diag-side.jpg",
+  "U017__above-below.jpg",
+  "U017__front-diag-side.jpg",
+  "U018__above-below.jpg",
+  "U018__front-diag-side.jpg",
+  "U019__above-below.jpg",
+  "U019__front-diag-side.jpg",
+  "U020__above-below.jpg",
+  "U020__front-diag-side.jpg",
+  "U021__above-below.jpg",
+  "U021__front-diag-side.jpg",
+  "U022__above-below.jpg",
+  "U022__front-diag-side.jpg",
+  "U023__above-below.jpg",
+  "U023__front-diag-side.jpg",
+  "U024__above-below.jpg",
+  "U024__front-diag-side.jpg",
+  "U025__above-below.jpg",
+  "U025__front-diag-side.jpg",
+  "U026__diag-side.jpg",
+  "U027__above-below.jpg",
+  "U027__front-diag-side.jpg",
+  "U028__side-above.jpg",
+  "U029__above-below.jpg",
+  "U029__front-diag-side.jpg",
+  "U030__above-below.jpg",
+  "U030__front-diag-side.jpg",
+  "U031__front-diag-side.jpg",
+  "U032__above-below.jpg",
+  "U032__front-diag-side.jpg",
+  "U033__above-below.jpg",
+  "U033__front-diag-side.jpg",
+  "U034__above-below.jpg",
+  "U034__front-diag-side.jpg",
+  "U035__above-below.jpg",
+  "U035__front-diag-side.jpg",
+  "U036__above-below.jpg",
+  "U036__front-diag-side.jpg",
+  "U037__above.jpg",
+  "U037__front-diag-side.jpg",
+  "U038__side-above.jpg",
+  "U039__above-below.jpg",
+  "U039__front-diag-side.jpg",
+  "U040__above-below.jpg",
+  "U040__front-diag-side.jpg",
+  "U041__above-below.jpg",
+  "U041__front-diag-side.jpg",
+  "U042__above-below.jpg",
+  "U042__front-diag-side.jpg",
+  "U043__above-below.jpg",
+  "U043__front-diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U011",
+   "angle": "below",
+   "kind": "line",
+   "reason": "skirt-like hem/flare at bottom of torso reads as clothing"
+  },
+  {
+   "set": "U017",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "eye-level frontal view, not an above camera angle"
+  },
+  {
+   "set": "U017",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small circle on breast reads as nipple"
+  },
+  {
+   "set": "U017",
+   "angle": "side",
+   "kind": "line",
+   "reason": "nipple bump on side-view breast outline"
+  },
+  {
+   "set": "U019",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically same torso/pose as diag, not a true side view"
+  },
+  {
+   "set": "U021",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "stray arcs beside torso/hip, malformed hip/torso outline"
+  },
+  {
+   "set": "U022",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "practically identical to front, not a diagonal view"
+  },
+  {
+   "set": "U023",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically same image as diag, not a side view"
+  },
+  {
+   "set": "U024",
+   "angle": "below",
+   "kind": "line",
+   "reason": "small circle nipple mark on right breast"
+  },
+  {
+   "set": "U025",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically same image as diag, not a side view"
+  },
+  {
+   "set": "U026",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically same image as diag"
+  },
+  {
+   "set": "U028",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "hand is a flat wedge blob"
+  },
+  {
+   "set": "U032",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "hands are mitten blobs without fingers"
+  },
+  {
+   "set": "U032",
+   "angle": "below",
+   "kind": "line",
+   "reason": "table/floor line drawn at bottom (background object)"
+  },
+  {
+   "set": "U032",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "hands are flat blobs without fingers"
+  },
+  {
+   "set": "U032",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "mirror duplicate of diag with blob hands"
+  },
+  {
+   "set": "U033",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "forearms have no hands (missing hands), torso malformed"
+  },
+  {
+   "set": "U034",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically mirror duplicate of diag"
+  },
+  {
+   "set": "U035",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically same image as diag, not a side view"
+  },
+  {
+   "set": "U040",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically same image as diag"
+  },
+  {
+   "set": "U042",
+   "angle": "below",
+   "kind": "line",
+   "reason": "waistband/crop-top hem reads as clothing"
+  },
+  {
+   "set": "U043",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "practically mirrored duplicate of front"
+  }
+ ]
+}

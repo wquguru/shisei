@@ -1,0 +1,195 @@
+{
+ "reviewed": [
+  "D029.jpg",
+  "D030.jpg",
+  "D031.jpg",
+  "D032.jpg",
+  "D033.jpg",
+  "D034.jpg",
+  "D035.jpg",
+  "D036.jpg",
+  "D037.jpg",
+  "D038.jpg",
+  "D039.jpg",
+  "D040.jpg",
+  "D041.jpg",
+  "D042.jpg",
+  "D043.jpg",
+  "D044.jpg",
+  "D045.jpg",
+  "D046.jpg",
+  "D047.jpg",
+  "D048.jpg",
+  "D049.jpg",
+  "D050.jpg",
+  "D051.jpg",
+  "D052.jpg",
+  "D053.jpg",
+  "D054.jpg",
+  "D055.jpg"
+ ],
+ "sets": [
+  {
+   "set": "D029",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man lying on back; woman kneeling over his head/upper chest leaning forward"
+  },
+  {
+   "set": "D030",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man and woman seated side by side, hands braced behind, legs crossed and tangled"
+  },
+  {
+   "set": "D031",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Standing woman beside a lying woman holding one raised leg; stands at side, not clearly straddling"
+  },
+  {
+   "set": "D032",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man on all fours leaning over supine woman, face near her chest"
+  },
+  {
+   "set": "D033",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Woman on hands and knees with head down, hips up, chest not fully on floor; man kneeling behind"
+  },
+  {
+   "set": "D034",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Cross-legged man with woman on his lap facing him, embracing"
+  },
+  {
+   "set": "D035",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman lying on back, knees up to his shoulders, man kneeling holds her ankles"
+  },
+  {
+   "set": "D036",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man seated, woman seated on his lap facing away, his hands at her chest"
+  },
+  {
+   "set": "D037",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man standing behind woman bent deeply with hands on floor, his hands on her hips"
+  },
+  {
+   "set": "D038",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man reclined on elbows, woman seated astride his lap, legs stretched forward"
+  },
+  {
+   "set": "D039",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Man kneeling holding woman's raised leg against his shoulder; woman prone/curled on side, legs not clearly crossed"
+  },
+  {
+   "set": "D040",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman lying face down arms forward, man kneeling behind lifting one of her legs"
+  },
+  {
+   "set": "D041",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Two women standing in tight embrace with legs crossed"
+  },
+  {
+   "set": "D042",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing embrace, woman on tiptoe with one leg kicked back"
+  },
+  {
+   "set": "D043",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing close, her hand on his cheek, his hand at her waist"
+  },
+  {
+   "set": "D044",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, man behind woman holding both her wrists overhead"
+  },
+  {
+   "set": "D045",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man standing behind woman, arms wrapped around her chest/abdomen"
+  },
+  {
+   "set": "D046",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man standing carrying woman sideways in arms, her back arched, limp"
+  },
+  {
+   "set": "D047",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man seated cross-legged embracing woman from behind, her leg raised high"
+  },
+  {
+   "set": "D048",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Woman reclining on elbow; man kneeling/leaning over her on his arm looking down, not clearly side-lying"
+  },
+  {
+   "set": "D049",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both lying on sides, woman cuddled against man with leg draped over him"
+  },
+  {
+   "set": "D050",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man seated leaning back on hands, legs open; woman lying across his thighs with chin on hands near his crotch"
+  },
+  {
+   "set": "D051",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman lying on back with knees up and apart held by her hands; man kneeling in front"
+  },
+  {
+   "set": "D052",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Man kneeling beside lying woman; her legs bent but not clearly both drawn to chest"
+  },
+  {
+   "set": "D053",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Woman bent forward hands on knees, man standing behind holding her waist"
+  },
+  {
+   "set": "D054",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Man cross-legged with woman seated on his lap facing him, legs around waist"
+  },
+  {
+   "set": "D055",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Man seated with woman seated in front facing away between his knees; she sits upright, not leaning back"
+  }
+ ]
+}

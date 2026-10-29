@@ -1,0 +1,178 @@
+{
+ "reviewed": [
+  "U044__below.jpg",
+  "U044__front-diag-side.jpg",
+  "U045__front-side-above.jpg",
+  "U046__above-below.jpg",
+  "U046__front-diag-side.jpg",
+  "U047__above-below.jpg",
+  "U047__front-diag-side.jpg",
+  "U048__above-below.jpg",
+  "U048__front-diag-side.jpg",
+  "U049__below.jpg",
+  "U049__front-diag-side.jpg",
+  "U050__above-below.jpg",
+  "U050__front-diag-side.jpg",
+  "U052__front-side-below.jpg",
+  "U053__below.jpg",
+  "U053__diag-side-above.jpg",
+  "U054__side-above-below.jpg",
+  "U055__above-below.jpg",
+  "U055__front-diag-side.jpg",
+  "U056__above-below.jpg",
+  "U056__front-diag-side.jpg",
+  "U057__below.jpg",
+  "U057__diag-side-above.jpg",
+  "U058__below.jpg",
+  "U058__front-side-above.jpg",
+  "U059__above-below.jpg",
+  "U059__front-diag-side.jpg",
+  "U060__above-below.jpg",
+  "U060__front-diag-side.jpg",
+  "U061__above-below.jpg",
+  "U061__front-diag-side.jpg",
+  "U062__above-below.jpg",
+  "U062__front-diag-side.jpg",
+  "U063__front-side-above.jpg",
+  "U064__above-below.jpg",
+  "U064__front-diag-side.jpg",
+  "U065__above.jpg",
+  "U065__front-diag-side.jpg",
+  "U066__below.jpg",
+  "U066__diag-side-above.jpg",
+  "U067__above-below.jpg",
+  "U067__front-diag-side.jpg",
+  "U068__above-below.jpg",
+  "U068__front-diag-side.jpg",
+  "U069__above-below.jpg",
+  "U069__front-diag-side.jpg",
+  "U070__above-below.jpg",
+  "U070__front-diag-side.jpg",
+  "U071__above-below.jpg",
+  "U071__front-diag-side.jpg",
+  "U073__above-below.jpg",
+  "U073__front-diag-side.jpg",
+  "U074__below.jpg",
+  "U074__diag-side-above.jpg",
+  "U075__above-below.jpg",
+  "U075__front-diag-side.jpg",
+  "U076__above-below.jpg",
+  "U076__front-diag-side.jpg",
+  "U077__above-below.jpg",
+  "U077__front-diag-side.jpg",
+  "U078__above.jpg",
+  "U079__above-below.jpg",
+  "U079__front-diag-side.jpg",
+  "U080__diag-side-above.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U044",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "head/neck/hips malformed, forearms melted into blobs, not a readable prone-on-elbows view"
+  },
+  {
+   "set": "U052",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "practically identical to the front panel"
+  },
+  {
+   "set": "U053",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "head/neck detached, one arm ends without a hand, pose unreadable"
+  },
+  {
+   "set": "U053",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically the same image as diag"
+  },
+  {
+   "set": "U056",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "one arm missing at the left shoulder, which ends in a point"
+  },
+  {
+   "set": "U058",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "practically identical to the front panel, not an above view"
+  },
+  {
+   "set": "U061",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "practically identical to the front panel"
+  },
+  {
+   "set": "U064",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "tangled overlapping limbs and extra stray contours, anatomy unreadable"
+  },
+  {
+   "set": "U065",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pelvis a jagged malformed blob, no clear hips or legs"
+  },
+  {
+   "set": "U068",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "head detached and twisted behind the chest, doubled arms, anatomy unreadable"
+  },
+  {
+   "set": "U068",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "viewer-left arm reduced to a stub, head and neck malformed"
+  },
+  {
+   "set": "U069",
+   "angle": "side",
+   "kind": "line",
+   "reason": "hatching/shading strokes along the back contour"
+  },
+  {
+   "set": "U070",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "viewer-left arm missing, only a shoulder circle"
+  },
+  {
+   "set": "U075",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "hands drawn as head-like blobs at the arm ends, anatomy malformed"
+  },
+  {
+   "set": "U076",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "mirror copy of the diag panel"
+  },
+  {
+   "set": "U077",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "arms are raised behind the head, not hands behind the back at the shoulder blades"
+  },
+  {
+   "set": "U079",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "viewer-right forearm cut off abruptly with no hand"
+  },
+  {
+   "set": "U079",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "arm ends in a circle with no hand, hand attached oddly at the neck, pose unreadable"
+  }
+ ]
+}

@@ -1,0 +1,545 @@
+{
+ "reviewed": [
+  "S005.jpg",
+  "S006.jpg",
+  "S007.jpg",
+  "S008.jpg",
+  "S009.jpg",
+  "S010.jpg",
+  "S011.jpg",
+  "S012.jpg",
+  "S013.jpg",
+  "S014.jpg",
+  "S015.jpg",
+  "S016.jpg",
+  "S017.jpg",
+  "S018.jpg",
+  "S019.jpg",
+  "S020.jpg",
+  "S021.jpg",
+  "S022.jpg",
+  "S023.jpg",
+  "S024.jpg",
+  "S025.jpg",
+  "S026.jpg",
+  "S027.jpg",
+  "S028.jpg",
+  "S029.jpg",
+  "S030.jpg",
+  "S031.jpg",
+  "S032.jpg",
+  "S033.jpg",
+  "S034.jpg",
+  "S035.jpg",
+  "S036.jpg",
+  "S037.jpg",
+  "S038.jpg",
+  "S039.jpg",
+  "S040.jpg",
+  "S041.jpg",
+  "S042.jpg",
+  "S043.jpg",
+  "S044.jpg",
+  "S045.jpg",
+  "S046.jpg",
+  "S047.jpg",
+  "S048.jpg",
+  "S049.jpg",
+  "S050.jpg",
+  "S051.jpg",
+  "S052.jpg",
+  "S053.jpg",
+  "S054.jpg",
+  "S055.jpg",
+  "S056.jpg",
+  "S057.jpg",
+  "S058.jpg",
+  "S059.jpg",
+  "S060.jpg",
+  "S061.jpg",
+  "S062.jpg",
+  "S063.jpg",
+  "S064.jpg",
+  "S065.jpg",
+  "S066.jpg",
+  "S067.jpg",
+  "S068.jpg",
+  "S069.jpg",
+  "S070.jpg",
+  "S071.jpg",
+  "S072.jpg",
+  "S073.jpg",
+  "S074.jpg",
+  "S075.jpg",
+  "S076.jpg",
+  "S077.jpg",
+  "S078.jpg",
+  "S079.jpg",
+  "S080.jpg",
+  "U001.jpg"
+ ],
+ "sets": [
+  {
+   "set": "S005",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "standing on one leg, other knee raised and hugged to chest with both arms"
+  },
+  {
+   "set": "S006",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "leaning forward with both palms on a wall, hips pushed back, feet staggered"
+  },
+  {
+   "set": "S007",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "standing with back to viewer, head turned to look back over shoulder, arms at sides"
+  },
+  {
+   "set": "S008",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "standing on one leg, other leg raised vertically beside head, held by hand (vertical split)"
+  },
+  {
+   "set": "S009",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "standing, both hands on head/hair with elbows out"
+  },
+  {
+   "set": "S010",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "standing, palms and forearms pressed together at chest (prayer)"
+  },
+  {
+   "set": "S011",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "standing with both arms stretched overhead; waist twist barely visible, one leg bent back in diag"
+  },
+  {
+   "set": "S012",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "standing on one leg, arms out, other leg raised high out to the side in front view but forward in side view"
+  },
+  {
+   "set": "S013",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "standing, hands clasped behind back, chest forward"
+  },
+  {
+   "set": "S014",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "standing deep forward fold, hands hanging down toward floor"
+  },
+  {
+   "set": "S015",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "standing, hands on hips, one knee crossed inward"
+  },
+  {
+   "set": "S016",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "sitting on floor with legs folded to one side, one hand propped on floor, torso leaning/curved"
+  },
+  {
+   "set": "S017",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "kneeling seiza, hands on thighs, chest out, head tilted back"
+  },
+  {
+   "set": "S018",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "sitting with knees up and apart, feet in, hands on floor behind"
+  },
+  {
+   "set": "S019",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "front: kneeling wide (W-sit) with hands on knees; side view is a squat-like crouch, inconsistent with M-sit"
+  },
+  {
+   "set": "S020",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "sitting with legs spread in V, hands on floor behind; side view has one leg bent"
+  },
+  {
+   "set": "S021",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "seated, one leg raised vertically held by hand at ankle, other leg extended"
+  },
+  {
+   "set": "S022",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "sitting leaning back on hands behind, knees bent and apart"
+  },
+  {
+   "set": "S023",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "sitting with legs extended to one side, propped on one arm"
+  },
+  {
+   "set": "S024",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "seated hugging bent legs with arms, knees apart"
+  },
+  {
+   "set": "S025",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "seated hugging one raised knee, other leg extended, torso rounded"
+  },
+  {
+   "set": "S026",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "kneeling side-saddle, both hands on head"
+  },
+  {
+   "set": "S027",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "W-sit kneeling, torso leaning forward, hands on floor"
+  },
+  {
+   "set": "S028",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "seated with one knee up, other leg folded, hands on floor behind"
+  },
+  {
+   "set": "S029",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "seated, one leg extended, other knee up with arm resting on it, other hand on floor"
+  },
+  {
+   "set": "S030",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "seated hugging knees together-ish with arms clasped, feet on floor"
+  },
+  {
+   "set": "S031",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "kneeling upright with both hands behind head, back arched"
+  },
+  {
+   "set": "S032",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "all fours, back arched (cow), head up"
+  },
+  {
+   "set": "S033",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "wide kneeling (knees apart, hips low between heels), hands on thighs"
+  },
+  {
+   "set": "S034",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "seiza kneeling, both hands in hair above head"
+  },
+  {
+   "set": "S035",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "half-kneeling on one knee, hand resting on raised thigh"
+  },
+  {
+   "set": "S036",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "wide kneel with hips low, hands on floor in front, leaning forward"
+  },
+  {
+   "set": "S037",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "wide kneel with hips low, both hands in hair"
+  },
+  {
+   "set": "S038",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "kneeling deep backbend, both hands holding heels"
+  },
+  {
+   "set": "S039",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "kneeling, torso twisted, one arm raised up"
+  },
+  {
+   "set": "S040",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "all fours cat/child-like, chest low to floor, hips high, arms stretched forward"
+  },
+  {
+   "set": "S041",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "all fours with one leg raised high behind"
+  },
+  {
+   "set": "S042",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "wide kneel leaning forward, hands on floor"
+  },
+  {
+   "set": "S043",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "kneeling upright, hips pushed forward, arms at sides"
+  },
+  {
+   "set": "S044",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "kneeling, torso side-leaning curved, hands on floor"
+  },
+  {
+   "set": "S045",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "kneeling backbend, one hand reaching to heel"
+  },
+  {
+   "set": "S046",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "lying on back with one knee bent, arms along body; side-lying and waist curve not clear"
+  },
+  {
+   "set": "S047",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "prone, chin on clasped hands, lower legs raised and crossed"
+  },
+  {
+   "set": "S048",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "prone cobra push-up, deep back arch, hands on floor"
+  },
+  {
+   "set": "S049",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "reverse tabletop/half bridge, hips raised, one leg extended straight up"
+  },
+  {
+   "set": "S050",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "lying on back, knees bent and dropped to one side, arms out"
+  },
+  {
+   "set": "S051",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "prone on elbows in diag/side with legs together; front view is an upright seated mannequin"
+  },
+  {
+   "set": "S052",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "side-lying, one arm stretched overhead, S-curve"
+  },
+  {
+   "set": "S053",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "reclining on one elbow, one knee raised"
+  },
+  {
+   "set": "S054",
+   "match": "partial",
+   "category_ok": false,
+   "actual": "kneeling child-pose style, head down on forearms, hips raised; not lying prone"
+  },
+  {
+   "set": "S055",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "lying on back, legs raised in V, arms out"
+  },
+  {
+   "set": "S056",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "lying on back with arms overhead, body fairly straight; arch not evident"
+  },
+  {
+   "set": "S057",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "prone, head turned back, one knee bent up"
+  },
+  {
+   "set": "S058",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "side-lying, top leg raised and held at ankle"
+  },
+  {
+   "set": "S059",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "lying on back, knees up, one arm overhead"
+  },
+  {
+   "set": "S060",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "prone on forearms, knees bent with feet raised up and together"
+  },
+  {
+   "set": "S061",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "side-lying with back toward viewer, legs together"
+  },
+  {
+   "set": "S062",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "lying/reclining hugging knees to chest"
+  },
+  {
+   "set": "S063",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "prone, chin on hands, one leg raised"
+  },
+  {
+   "set": "S064",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "side view lying with one knee raised; front and diag read as seated/leaning with knee lifted, not clearly dropped open"
+  },
+  {
+   "set": "S065",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "side-lying propped on elbow, one knee raised"
+  },
+  {
+   "set": "S066",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "crab-like bridge/arch with hips high, hands and feet on floor, knees apart"
+  },
+  {
+   "set": "S067",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "on back with legs folded over head, hands holding thighs"
+  },
+  {
+   "set": "S068",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "on back with legs raised past head, toes toward floor above head"
+  },
+  {
+   "set": "S069",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "on back with legs folded, knees near head, feet splayed"
+  },
+  {
+   "set": "S070",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "deep squat with knees wide, hands between knees"
+  },
+  {
+   "set": "S071",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "tiptoe deep squat, hands on floor"
+  },
+  {
+   "set": "S072",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "bridge/crab arch supported on hands and feet"
+  },
+  {
+   "set": "S073",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "standing split bent forward, one leg raised high behind, hands toward floor"
+  },
+  {
+   "set": "S074",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "front-back split with back arched and head tilted back"
+  },
+  {
+   "set": "S075",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "seated side split with hands on floor"
+  },
+  {
+   "set": "S076",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "shoulder stand with legs in V, hands supporting back"
+  },
+  {
+   "set": "S077",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "kneeling backbend with hands on floor behind"
+  },
+  {
+   "set": "S078",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "deep squat, hands behind head"
+  },
+  {
+   "set": "S079",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "one-leg bridge, one leg raised straight up"
+  },
+  {
+   "set": "S080",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "reverse tabletop with hips lifted, hands and feet on floor"
+  },
+  {
+   "set": "U001",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "both hands forming heart at chest"
+  }
+ ]
+}

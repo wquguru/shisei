@@ -1,0 +1,71 @@
+{
+ "reviewed": [
+  "P012__front-diag-side.jpg",
+  "P013__above-below.jpg",
+  "P013__front-diag-side.jpg",
+  "P014__above-below.jpg",
+  "P014__front-diag-side.jpg",
+  "P015__above-below.jpg",
+  "P015__front-diag-side.jpg",
+  "P016__above-below.jpg",
+  "P016__front-diag-side.jpg",
+  "P017__above-below.jpg",
+  "P017__front-diag-side.jpg",
+  "P018__above-below.jpg",
+  "P018__front-diag-side.jpg",
+  "P019__above-below.jpg",
+  "P019__front-diag-side.jpg",
+  "P020__above-below.jpg",
+  "P020__front-diag-side.jpg",
+  "P021__above-below.jpg",
+  "P021__front-diag-side.jpg",
+  "P022__above-below.jpg",
+  "P022__front-diag-side.jpg",
+  "P050__front.jpg",
+  "P062__below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P012",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "right leg/foot cropped at the frame edge"
+  },
+  {
+   "set": "P013",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "toes cropped at the frame edge"
+  },
+  {
+   "set": "P013",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "toes cropped at the frame edge"
+  },
+  {
+   "set": "P014",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "right foot cropped at the frame edge"
+  },
+  {
+   "set": "P014",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "right foot cropped at the frame edge"
+  },
+  {
+   "set": "P020",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "toes cropped at the frame edge at bottom"
+  },
+  {
+   "set": "P050",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "far leg/foot cropped at the frame edge at left"
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "reviewed": [
+  "D001__above-below.jpg",
+  "D001__front-diag-side.jpg",
+  "D002__above.jpg",
+  "D002__front-diag-side.jpg",
+  "D003__above-below.jpg",
+  "D003__front-diag-side.jpg",
+  "D004__above.jpg",
+  "D004__front-diag-side.jpg",
+  "D005__above-below.jpg",
+  "D005__front-diag-side.jpg",
+  "D006__above-below.jpg",
+  "D006__front-diag-side.jpg",
+  "D007__below.jpg",
+  "D007__front-side-above.jpg",
+  "D008__above-below.jpg",
+  "D008__front-diag-side.jpg",
+  "D009__above-below.jpg",
+  "D009__front-diag-side.jpg",
+  "D010__above-below.jpg",
+  "D010__front-diag-side.jpg",
+  "D011__below.jpg",
+  "D011__diag-side-above.jpg",
+  "D012__above-below.jpg",
+  "D012__front-diag-side.jpg",
+  "D013__above-below.jpg",
+  "D013__front-diag-side.jpg",
+  "D014__above-below.jpg",
+  "D014__front-diag-side.jpg",
+  "D015__above-below.jpg",
+  "D015__front-diag-side.jpg",
+  "D016__above-below.jpg",
+  "D016__front-diag-side.jpg",
+  "D017__above-below.jpg",
+  "D017__front-diag-side.jpg",
+  "D018__side-above-below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "D003",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "practically identical to the front panel"
+  },
+  {
+   "set": "D006",
+   "angle": "above",
+   "kind": "line",
+   "reason": "small circles on the male chest and lower torso read as nipple/areola marks"
+  },
+  {
+   "set": "D007",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "feet drawn as boxy blocks, malformed feet on both figures"
+  },
+  {
+   "set": "D009",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "eye-level view, not an above camera; duplicates the front/below drawing"
+  },
+  {
+   "set": "D009",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "eye-level view, not a below camera; practically same as the above panel"
+  },
+  {
+   "set": "D010",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "practically the same image as the diag panel"
+  },
+  {
+   "set": "D014",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "woman has child-like proportions and size next to the man"
+  },
+  {
+   "set": "D016",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose does not match 'legs around waist' (cradled across lap, legs dangling); woman torso malformed"
+  },
+  {
+   "set": "D014",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "woman has child-like proportions and size next to the man"
+  },
+  {
+   "set": "D016",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose does not match 'legs around waist' (cradled across lap, legs dangling); woman torso malformed"
+  },
+  {
+   "set": "D014",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "woman has child-like proportions and size next to the man"
+  },
+  {
+   "set": "D016",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose does not match 'legs around waist' (cradled across lap, legs dangling); woman torso malformed"
+  },
+  {
+   "set": "D014",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "woman has child-like proportions and size next to the man"
+  },
+  {
+   "set": "D016",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose does not match 'legs around waist' (woman cradled across lap, legs dangling)"
+  },
+  {
+   "set": "D014",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "woman has child-like proportions and size next to the man"
+  },
+  {
+   "set": "D016",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose does not match 'legs around waist' (woman cradled across lap, legs dangling)"
+  },
+  {
+   "set": "D018",
+   "angle": "side",
+   "kind": "line",
+   "reason": "box/stool drawn under the figures (background object)"
+  },
+  {
+   "set": "D018",
+   "angle": "above",
+   "kind": "line",
+   "reason": "box/stool drawn under the figures (background object)"
+  },
+  {
+   "set": "D018",
+   "angle": "below",
+   "kind": "line",
+   "reason": "box/stool drawn under the figures (background object)"
+  }
+ ]
+}

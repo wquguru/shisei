@@ -1,0 +1,136 @@
+{
+ "reviewed": [
+  "D038__above-below.jpg",
+  "D038__front-diag-side.jpg",
+  "D039__above-below.jpg",
+  "D039__front-diag-side.jpg",
+  "D040__above-below.jpg",
+  "D040__front-diag-side.jpg",
+  "D041__above-below.jpg",
+  "D041__front-diag-side.jpg",
+  "D042__above-below.jpg",
+  "D042__front-diag-side.jpg",
+  "D043__above-below.jpg",
+  "D043__front-diag-side.jpg",
+  "D044__above.jpg",
+  "D044__front-diag-side.jpg",
+  "D045__above-below.jpg",
+  "D045__front-diag-side.jpg",
+  "D046__above-below.jpg",
+  "D046__front-diag-side.jpg",
+  "D047__above-below.jpg",
+  "D047__front-diag-side.jpg",
+  "D048__above-below.jpg",
+  "D048__front-diag-side.jpg",
+  "D049__diag-above-below.jpg",
+  "D050__below.jpg",
+  "D050__diag-side-above.jpg",
+  "D051__above-below.jpg",
+  "D051__front-diag-side.jpg",
+  "D052__above-below.jpg",
+  "D052__front-diag-side.jpg",
+  "D053__above-below.jpg",
+  "D053__front-diag-side.jpg",
+  "D054__side-above.jpg",
+  "D055__below.jpg",
+  "D055__diag-side-above.jpg"
+ ],
+ "fails": [
+  {
+   "set": "D039",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "practically the same image as the front panel (same pose and camera)"
+  },
+  {
+   "set": "D039",
+   "angle": "side",
+   "kind": "line",
+   "reason": "same image as front/diag, plus grey floor-line scribbles at the bottom"
+  },
+  {
+   "set": "D041",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "practically the same image as the front panel"
+  },
+  {
+   "set": "D042",
+   "angle": "below",
+   "kind": "line",
+   "reason": "floor/ground lines drawn under the figures"
+  },
+  {
+   "set": "D047",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "practically the same image as the front panel"
+  },
+  {
+   "set": "D048",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "man's leg and foot cut off by the left frame edge"
+  },
+  {
+   "set": "D048",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "man's legs and feet cut off by the right frame edge"
+  },
+  {
+   "set": "D048",
+   "angle": "side",
+   "kind": "line",
+   "reason": "grey floor lines drawn at the bottom left, man's leg cropped at frame edge"
+  },
+  {
+   "set": "D049",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "practically the same image as the diag panel"
+  },
+  {
+   "set": "D050",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "woman drawn at a much smaller scale than the man (head about half his head size), reads as child proportions"
+  },
+  {
+   "set": "D050",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "woman drawn at a much smaller scale than the man (head about half his head size), reads as child proportions"
+  },
+  {
+   "set": "D050",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "woman drawn at a much smaller scale than the man (head about half his head size), reads as child proportions"
+  },
+  {
+   "set": "D050",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "woman drawn at a much smaller scale than the man (head about half his head size), reads as child proportions"
+  },
+  {
+   "set": "D051",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "man's legs unreadable: a knee and foot emerge at his crotch, limb cannot be traced to a body"
+  },
+  {
+   "set": "D053",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "both heads are plain circles instead of the egg-shaped mannequin head, off style"
+  },
+  {
+   "set": "D054",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "woman drawn tiny relative to the man, reads as child proportions and her pose on his lap cannot be read"
+  }
+ ]
+}

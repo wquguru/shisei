@@ -1,0 +1,149 @@
+{
+ "reviewed": [
+  "D019__above-below.jpg",
+  "D019__front-diag-side.jpg",
+  "D020__above-below.jpg",
+  "D020__front-diag-side.jpg",
+  "D021__above-below.jpg",
+  "D021__front-diag-side.jpg",
+  "D023__above-below.jpg",
+  "D023__front-diag-side.jpg",
+  "D024__above-below.jpg",
+  "D024__front-diag-side.jpg",
+  "D025__above-below.jpg",
+  "D025__front-diag-side.jpg",
+  "D026__below.jpg",
+  "D026__diag-side-above.jpg",
+  "D027__above-below.jpg",
+  "D027__front-diag-side.jpg",
+  "D028__above-below.jpg",
+  "D028__front-diag-side.jpg",
+  "D029__diag-above-below.jpg",
+  "D030__above-below.jpg",
+  "D030__front-diag-side.jpg",
+  "D031__above-below.jpg",
+  "D031__front-diag-side.jpg",
+  "D032__above-below.jpg",
+  "D032__front-diag-side.jpg",
+  "D033__above-below.jpg",
+  "D033__front-diag-side.jpg",
+  "D034__above-below.jpg",
+  "D034__front-diag-side.jpg",
+  "D035__above-below.jpg",
+  "D035__front-diag-side.jpg",
+  "D036__below.jpg",
+  "D036__diag-side-above.jpg",
+  "D037__above-below.jpg",
+  "D037__front-diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "D019",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Camera reads as eye level, same as front, not a view from above"
+  },
+  {
+   "set": "D019",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Man is still frontal, identical to the front panel; not a side view"
+  },
+  {
+   "set": "D020",
+   "angle": "above",
+   "kind": "line",
+   "reason": "Small dots on the torso of the upper figure that read as nipple marks"
+  },
+  {
+   "set": "D020",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "Feet drawn as blocky shoe-like boxes"
+  },
+  {
+   "set": "D021",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Man's forearm ends in a stump with no hand"
+  },
+  {
+   "set": "D028",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Both women show only one arm; the other arm is missing"
+  },
+  {
+   "set": "D028",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "Practically the same image as the front panel"
+  },
+  {
+   "set": "D029",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "Forearms of both figures end in handless stumps"
+  },
+  {
+   "set": "D029",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Woman's body is a confusing blob with a second head-like shape; man's forearms are handless stumps"
+  },
+  {
+   "set": "D029",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Practically the same as the diag panel; handless forearm stumps"
+  },
+  {
+   "set": "D031",
+   "angle": "below",
+   "kind": "line",
+   "reason": "Small circle inside the lying woman's breast reads as a nipple mark"
+  },
+  {
+   "set": "D032",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Woman's forearms end in flat handless stumps"
+  },
+  {
+   "set": "D032",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "Woman's forearm ends in a flat handless stump"
+  },
+  {
+   "set": "D032",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "Woman's right forearm ends in a flat handless stump"
+  },
+  {
+   "set": "D032",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Woman's forearm ends in a flat handless stump"
+  },
+  {
+   "set": "D034",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Practically the same image as the diag panel"
+  },
+  {
+   "set": "D036",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Reads as another diag-like eye-level view, not from below; near duplicate of diag"
+  },
+  {
+   "set": "D037",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Man's head not identifiable and limbs cannot be traced; pose unreadable"
+  }
+ ]
+}

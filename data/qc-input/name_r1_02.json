@@ -1,0 +1,545 @@
+{
+ "reviewed": [
+  "U002.jpg",
+  "U003.jpg",
+  "U004.jpg",
+  "U005.jpg",
+  "U006.jpg",
+  "U007.jpg",
+  "U008.jpg",
+  "U009.jpg",
+  "U010.jpg",
+  "U011.jpg",
+  "U012.jpg",
+  "U013.jpg",
+  "U014.jpg",
+  "U015.jpg",
+  "U016.jpg",
+  "U017.jpg",
+  "U018.jpg",
+  "U019.jpg",
+  "U020.jpg",
+  "U021.jpg",
+  "U022.jpg",
+  "U023.jpg",
+  "U024.jpg",
+  "U025.jpg",
+  "U026.jpg",
+  "U027.jpg",
+  "U028.jpg",
+  "U029.jpg",
+  "U030.jpg",
+  "U031.jpg",
+  "U032.jpg",
+  "U033.jpg",
+  "U034.jpg",
+  "U035.jpg",
+  "U036.jpg",
+  "U037.jpg",
+  "U038.jpg",
+  "U039.jpg",
+  "U040.jpg",
+  "U041.jpg",
+  "U042.jpg",
+  "U043.jpg",
+  "U044.jpg",
+  "U045.jpg",
+  "U046.jpg",
+  "U047.jpg",
+  "U048.jpg",
+  "U049.jpg",
+  "U050.jpg",
+  "U052.jpg",
+  "U053.jpg",
+  "U054.jpg",
+  "U055.jpg",
+  "U056.jpg",
+  "U057.jpg",
+  "U058.jpg",
+  "U059.jpg",
+  "U060.jpg",
+  "U061.jpg",
+  "U062.jpg",
+  "U063.jpg",
+  "U064.jpg",
+  "U065.jpg",
+  "U066.jpg",
+  "U067.jpg",
+  "U068.jpg",
+  "U069.jpg",
+  "U070.jpg",
+  "U071.jpg",
+  "U073.jpg",
+  "U074.jpg",
+  "U075.jpg",
+  "U076.jpg",
+  "U077.jpg",
+  "U078.jpg",
+  "U079.jpg",
+  "U080.jpg"
+ ],
+ "sets": [
+  {
+   "set": "U002",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both arms overhead forming a heart shape with hands above head"
+  },
+  {
+   "set": "U003",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand with finger heart raised beside the cheek, other arm lowered across waist"
+  },
+  {
+   "set": "U004",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Both hands making peace signs beside the head/cheeks, not under the chin"
+  },
+  {
+   "set": "U005",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One arm raised with peace sign beside head, other arm down"
+  },
+  {
+   "set": "U006",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Head tilted, one fist against cheek/jaw, other arm down"
+  },
+  {
+   "set": "U007",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both arms raised with V signs above head like rabbit ears"
+  },
+  {
+   "set": "U008",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both arms raised, curled paws at shoulder/head level"
+  },
+  {
+   "set": "U009",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands raised beside head with fingers curled like claws"
+  },
+  {
+   "set": "U010",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "One index finger raised vertically beside the head, not touching lips"
+  },
+  {
+   "set": "U011",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Head tilted, one hand on side of head, other arm down"
+  },
+  {
+   "set": "U012",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "One arm extended forward with open palm; no hand at mouth for blowing kiss"
+  },
+  {
+   "set": "U013",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Forearms crossed, both hands cupped under chin/cheeks"
+  },
+  {
+   "set": "U014",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Head tilted, index finger poking cheek"
+  },
+  {
+   "set": "U015",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Palms pressed together in front of mouth"
+  },
+  {
+   "set": "U016",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Palms together at chest, head bowed and tilted"
+  },
+  {
+   "set": "U017",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Arms crossed with hands on opposite shoulders, head down"
+  },
+  {
+   "set": "U018",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands forming finger frame in front of face"
+  },
+  {
+   "set": "U019",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand at ear/behind ear tucking hair, other arm down"
+  },
+  {
+   "set": "U020",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands cupping cheeks"
+  },
+  {
+   "set": "U021",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand saluting at forehead, other arm down"
+  },
+  {
+   "set": "U022",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One arm extended toward viewer, index finger pointing"
+  },
+  {
+   "set": "U023",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand at face, other arm extended out to side"
+  },
+  {
+   "set": "U024",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand forming half-heart near face, other hand flat on chest"
+  },
+  {
+   "set": "U025",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands spread over face, peeking between fingers"
+  },
+  {
+   "set": "U026",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Leaning forward with forearms/hands together in front of chest"
+  },
+  {
+   "set": "U027",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Seated/kneeling with both hands resting on knees"
+  },
+  {
+   "set": "U028",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Elbows tucked in behind with twisted waist, hands at lower back"
+  },
+  {
+   "set": "U029",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing, hands clasped low in front, arms pressed in"
+  },
+  {
+   "set": "U030",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Arms crossed beneath the chest"
+  },
+  {
+   "set": "U031",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands cupped palms up under the chest"
+  },
+  {
+   "set": "U032",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Leaning forward, forearms resting on a surface"
+  },
+  {
+   "set": "U033",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Forearms vertical in front of chest, pressed together"
+  },
+  {
+   "set": "U034",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One forearm across under the chest, other arm down"
+  },
+  {
+   "set": "U035",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands flat on collarbones"
+  },
+  {
+   "set": "U036",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands on waist, elbows out, chest forward"
+  },
+  {
+   "set": "U037",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Both open palms held up at chest height, not pressing in at the ribs"
+  },
+  {
+   "set": "U038",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Hands clasped behind back, chest out"
+  },
+  {
+   "set": "U039",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Kneeling and leaning forward with both hands on floor"
+  },
+  {
+   "set": "U040",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Seated/kneeling with elbow on knee and chin resting on hand"
+  },
+  {
+   "set": "U041",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Arms crossed hugging self, hands on opposite shoulders"
+  },
+  {
+   "set": "U042",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand on chest, other hand at head"
+  },
+  {
+   "set": "U043",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Standing leaning forward, one shoulder dropped, arms hanging"
+  },
+  {
+   "set": "U044",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Prone propped on both forearms with head raised"
+  },
+  {
+   "set": "U045",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Back arched with head back, upper arms pulled in, hands at waist"
+  },
+  {
+   "set": "U046",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand at neck, other arm behind at waist"
+  },
+  {
+   "set": "U047",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands flat on upper chest"
+  },
+  {
+   "set": "U048",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Head tilted, chin resting on back of hand"
+  },
+  {
+   "set": "U049",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "On all fours with head raised, arms straight"
+  },
+  {
+   "set": "U050",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Arms folded across chest"
+  },
+  {
+   "set": "U052",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands on chest with fingers spread"
+  },
+  {
+   "set": "U053",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands flat crossed over chest"
+  },
+  {
+   "set": "U054",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand over chest, other hand on hip"
+  },
+  {
+   "set": "U055",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand flat on chest, other hand on top of head/hair"
+  },
+  {
+   "set": "U056",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Fingers resting at top of shoulder, other arm down"
+  },
+  {
+   "set": "U057",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands overhead with arched back"
+  },
+  {
+   "set": "U058",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands behind head, elbows out"
+  },
+  {
+   "set": "U059",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand with index finger pointing down along the ribs"
+  },
+  {
+   "set": "U060",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One finger raised at chin, other hand flat on chest"
+  },
+  {
+   "set": "U061",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One fingertip touching center of chest"
+  },
+  {
+   "set": "U062",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand on chest, other hand on stomach"
+  },
+  {
+   "set": "U063",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both arms reaching behind back, chest out"
+  },
+  {
+   "set": "U064",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Propped on one elbow, other hand on chest"
+  },
+  {
+   "set": "U065",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "On all fours, back dipped, head up"
+  },
+  {
+   "set": "U066",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "On all fours with one hand on chest"
+  },
+  {
+   "set": "U067",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "On all fours stretched forward with arms extended"
+  },
+  {
+   "set": "U068",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Kneeling with back arched and head thrown back; arm hangs down, no hand reaching to heel"
+  },
+  {
+   "set": "U069",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Hands behind head with elbows out, kneeling"
+  },
+  {
+   "set": "U070",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Index finger raised vertically at face"
+  },
+  {
+   "set": "U071",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Hand at neck, back arched with head tilted back"
+  },
+  {
+   "set": "U073",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying on side hugging self with arms crossed"
+  },
+  {
+   "set": "U074",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Lying supine with both hands flat on chest"
+  },
+  {
+   "set": "U075",
+   "match": "partial",
+   "category_ok": true,
+   "actual": "Arms raised overhead with arched torso; front view looks upright rather than supine"
+  },
+  {
+   "set": "U076",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Bent forward with one hand reaching down"
+  },
+  {
+   "set": "U077",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Hands behind back at shoulder blades"
+  },
+  {
+   "set": "U078",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand over chest, other hand on lower abdomen"
+  },
+  {
+   "set": "U079",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "One hand flat on center of chest, fingers pointing down/sideways"
+  },
+  {
+   "set": "U080",
+   "match": "yes",
+   "category_ok": true,
+   "actual": "Both hands on chest with head tilted up"
+  }
+ ]
+}

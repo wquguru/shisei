@@ -1,7 +1,7 @@
 # Photo-render QC review prompt (for Sonnet sub-agents)
 
 The photo renders (`images/photo/`) are AI-generated photos of one adult woman in a tank top and leggings, used as a
-realistic pose reference next to the line art. Sheets come from the photo branch of the QC run: up to 3 panels
+realistic pose reference next to the line art. Sheets: `tools/review_sheets.py --mode photo`: up to 3 panels
 (400x800) of one pose, title `set id | pose name | category | expected: …`, each panel labelled with its view in red.
 
 ---

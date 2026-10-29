@@ -1,0 +1,550 @@
+{
+ "reviewed": [
+  "P001__above-below.jpg",
+  "P001__front-diag-side.jpg",
+  "P002__above-below.jpg",
+  "P002__front-diag-side.jpg",
+  "P003__above-below.jpg",
+  "P003__front-diag-side.jpg",
+  "P004__above-below.jpg",
+  "P004__front-diag-side.jpg",
+  "P005__above-below.jpg",
+  "P005__front-diag-side.jpg",
+  "P006__above-below.jpg",
+  "P006__front-diag-side.jpg",
+  "P007__above-below.jpg",
+  "P007__front-diag-side.jpg",
+  "P008__above-below.jpg",
+  "P008__front-diag-side.jpg",
+  "P009__above-below.jpg",
+  "P009__front-diag-side.jpg",
+  "P010__above-below.jpg",
+  "P010__front-diag-side.jpg",
+  "P011__above-below.jpg",
+  "P011__front-diag-side.jpg",
+  "P012__above-below.jpg",
+  "P012__front-diag-side.jpg",
+  "P013__above-below.jpg",
+  "P013__front-diag-side.jpg",
+  "P014__above-below.jpg",
+  "P014__front-diag-side.jpg",
+  "P015__above-below.jpg",
+  "P015__front-diag-side.jpg",
+  "P016__above-below.jpg",
+  "P016__front-diag-side.jpg",
+  "P017__above-below.jpg",
+  "P017__front-diag-side.jpg",
+  "P018__above-below.jpg",
+  "P018__front-diag-side.jpg",
+  "P019__above-below.jpg",
+  "P019__front-diag-side.jpg",
+  "P020__above-below.jpg",
+  "P020__front-diag-side.jpg",
+  "P021__above-below.jpg",
+  "P021__front-diag-side.jpg",
+  "P022__above-below.jpg",
+  "P022__front-diag-side.jpg",
+  "P024__above-below.jpg",
+  "P024__front-diag-side.jpg",
+  "P025__above-below.jpg",
+  "P025__front-diag-side.jpg",
+  "P026__above-below.jpg",
+  "P026__front-diag-side.jpg",
+  "P027__above-below.jpg",
+  "P027__front-diag-side.jpg",
+  "P029__above-below.jpg",
+  "P029__front-diag-side.jpg",
+  "P030__above-below.jpg",
+  "P030__front-diag-side.jpg",
+  "P031__above-below.jpg",
+  "P031__front-diag-side.jpg",
+  "P032__above-below.jpg",
+  "P032__front-diag-side.jpg",
+  "P033__above-below.jpg",
+  "P033__front-diag-side.jpg",
+  "P034__above-below.jpg",
+  "P034__front-diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P004",
+   "angle": "below",
+   "kind": "line",
+   "reason": "scribbly background texture at top-left and floor scribbles"
+  },
+  {
+   "set": "P006",
+   "angle": "below",
+   "kind": "line",
+   "reason": "grey floor shadow/ground lines drawn around hand and legs"
+  },
+  {
+   "set": "P008",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "feet are melted blobs; wide squat, not sitting knees up"
+  },
+  {
+   "set": "P008",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "huge teardrop outlines around legs, malformed thighs/pelvis"
+  },
+  {
+   "set": "P009",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small dots on chest/torso at breast edge that could read as nipple marks"
+  },
+  {
+   "set": "P012",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "left foot is a melted mitten blob"
+  },
+  {
+   "set": "P014",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "raised foot detached from leg, held ankle/leg connection unreadable"
+  },
+  {
+   "set": "P014",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "floor line drawn at right of figure"
+  },
+  {
+   "set": "P014",
+   "angle": "side",
+   "kind": "line",
+   "reason": "grey triangle/box guide lines and floor line behind figure"
+  },
+  {
+   "set": "P015",
+   "angle": "above",
+   "kind": "line",
+   "reason": "circle drawn inside the face"
+  },
+  {
+   "set": "P015",
+   "angle": "below",
+   "kind": "line",
+   "reason": "shoe-like feet with sole lines"
+  },
+  {
+   "set": "P016",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "spiky hair strokes above head"
+  },
+  {
+   "set": "P016",
+   "angle": "side",
+   "kind": "line",
+   "reason": "hair strokes above head"
+  },
+  {
+   "set": "P017",
+   "angle": "below",
+   "kind": "line",
+   "reason": "stray curl mark on thigh/groin area"
+  },
+  {
+   "set": "P018",
+   "angle": "front",
+   "kind": "line",
+   "reason": "hairline cap arc and ears on head reads as hair"
+  },
+  {
+   "set": "P029",
+   "angle": "below",
+   "kind": "line",
+   "reason": "boot-like shoes with sole lines"
+  },
+  {
+   "set": "P019",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: arms are not stretched overhead (out to sides/forward/down)"
+  },
+  {
+   "set": "P019",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: arms are not stretched overhead (out to sides/forward/down)"
+  },
+  {
+   "set": "P019",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: arms are not stretched overhead (out to sides/forward/down)"
+  },
+  {
+   "set": "P019",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: arms are not stretched overhead (out to sides/forward/down)"
+  },
+  {
+   "set": "P019",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: arms are not stretched overhead (out to sides/forward/down)"
+  },
+  {
+   "set": "P020",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: no hand behind head; hands raised palms out / on chest"
+  },
+  {
+   "set": "P020",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: no hand behind head; hands raised palms out / on chest"
+  },
+  {
+   "set": "P020",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: no hand behind head; hands raised palms out / on chest"
+  },
+  {
+   "set": "P020",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: no hand behind head; hands raised palms out / on chest"
+  },
+  {
+   "set": "P020",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: no hand behind head; hands raised palms out / on chest"
+  },
+  {
+   "set": "P021",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: one arm waving up, other down; not hands at neck and thigh"
+  },
+  {
+   "set": "P021",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: one arm waving up, other down; not hands at neck and thigh"
+  },
+  {
+   "set": "P021",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: one arm waving up, other down; not hands at neck and thigh"
+  },
+  {
+   "set": "P021",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: one arm waving up, other down; not hands at neck and thigh"
+  },
+  {
+   "set": "P021",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: one arm waving up, other down; not hands at neck and thigh"
+  },
+  {
+   "set": "P022",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: hands clasped at chin, arms not behind, chest not out"
+  },
+  {
+   "set": "P022",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: hands clasped at chin, arms not behind, chest not out"
+  },
+  {
+   "set": "P022",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: hands clasped at chin, arms not behind, chest not out"
+  },
+  {
+   "set": "P022",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: hands clasped at chin, arms not behind, chest not out"
+  },
+  {
+   "set": "P022",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: hands clasped at chin, arms not behind, chest not out"
+  },
+  {
+   "set": "P025",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: back view with arms down/one fist up; not wide stance hands on hips"
+  },
+  {
+   "set": "P025",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: back view with arms down/one fist up; not wide stance hands on hips"
+  },
+  {
+   "set": "P025",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: back view with arms down/one fist up; not wide stance hands on hips"
+  },
+  {
+   "set": "P025",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: back view with arms down/one fist up; not wide stance hands on hips"
+  },
+  {
+   "set": "P025",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: back view with arms down/one fist up; not wide stance hands on hips"
+  },
+  {
+   "set": "P026",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: arms crossed on chest; not one arm up with hip pushed out"
+  },
+  {
+   "set": "P026",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: arms crossed on chest; not one arm up with hip pushed out"
+  },
+  {
+   "set": "P026",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: arms crossed on chest; not one arm up with hip pushed out"
+  },
+  {
+   "set": "P026",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: arms crossed on chest; not one arm up with hip pushed out"
+  },
+  {
+   "set": "P026",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: arms crossed on chest; not one arm up with hip pushed out"
+  },
+  {
+   "set": "P027",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: arms straight overhead, not hands at nape"
+  },
+  {
+   "set": "P027",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: arms straight overhead, not hands at nape"
+  },
+  {
+   "set": "P027",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: arms straight overhead, not hands at nape"
+  },
+  {
+   "set": "P027",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: arms straight overhead, not hands at nape"
+  },
+  {
+   "set": "P027",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: arms straight overhead, not hands at nape"
+  },
+  {
+   "set": "P030",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: arms at sides/legs crossed walking; not tiptoe with arms in V"
+  },
+  {
+   "set": "P030",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: arms at sides/legs crossed walking; not tiptoe with arms in V"
+  },
+  {
+   "set": "P030",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: arms at sides/legs crossed walking; not tiptoe with arms in V"
+  },
+  {
+   "set": "P030",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: arms at sides/legs crossed walking; not tiptoe with arms in V"
+  },
+  {
+   "set": "P030",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: arms at sides/legs crossed walking; not tiptoe with arms in V"
+  },
+  {
+   "set": "P031",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling upright with hands on thighs"
+  },
+  {
+   "set": "P031",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling upright with hands on thighs"
+  },
+  {
+   "set": "P031",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling upright with hands on thighs"
+  },
+  {
+   "set": "P031",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling upright with hands on thighs"
+  },
+  {
+   "set": "P031",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling upright with hands on thighs"
+  },
+  {
+   "set": "P032",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling with hands behind head"
+  },
+  {
+   "set": "P032",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling with hands behind head"
+  },
+  {
+   "set": "P032",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling with hands behind head"
+  },
+  {
+   "set": "P032",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling with hands behind head"
+  },
+  {
+   "set": "P032",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: walking pose, not kneeling with hands behind head"
+  },
+  {
+   "set": "P033",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: running/jumping pose, not half-kneeling with hand on knee"
+  },
+  {
+   "set": "P033",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: running/jumping pose, not half-kneeling with hand on knee"
+  },
+  {
+   "set": "P033",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: running/jumping pose, not half-kneeling with hand on knee"
+  },
+  {
+   "set": "P033",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: running/jumping pose, not half-kneeling with hand on knee"
+  },
+  {
+   "set": "P033",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: running/jumping pose, not half-kneeling with hand on knee"
+  },
+  {
+   "set": "P034",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "pose mismatch: standing on one raised leg, not kneeling with arched back"
+  },
+  {
+   "set": "P034",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "pose mismatch: standing on one raised leg, not kneeling with arched back"
+  },
+  {
+   "set": "P034",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "pose mismatch: standing on one raised leg, not kneeling with arched back"
+  },
+  {
+   "set": "P034",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "pose mismatch: standing on one raised leg, not kneeling with arched back"
+  },
+  {
+   "set": "P034",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "pose mismatch: standing on one raised leg, not kneeling with arched back"
+  },
+  {
+   "set": "P024",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "no leg lifted behind; both legs on ground"
+  },
+  {
+   "set": "P024",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "no leg lifted behind; both legs on ground"
+  },
+  {
+   "set": "P024",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "no leg lifted behind; both legs on ground"
+  },
+  {
+   "set": "P024",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "no leg lifted behind; both legs on ground"
+  }
+ ]
+}

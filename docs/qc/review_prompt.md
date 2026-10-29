@@ -1,7 +1,7 @@
 # Line-art QC review prompt (for Sonnet sub-agents)
 
 Adapted from the v3 poselib review prompt: single-figure series only, upper-body framing allowed, coverage reported
-back so the caller can verify every sheet was opened. Sheets come from `tools/review_sheets.py`.
+back so the caller can verify every sheet was opened. Sheets: `tools/review_sheets.py --mode panels`.
 
 ---
 

@@ -1,7 +1,9 @@
 .DS_Store
 /dist/
 /Reviews/
-/.claude/worktrees/
+# local Claude state; only the shared agent definitions are tracked
+/.claude/*
+!/.claude/agents/
 # full-size originals live in Release assets, never in git (docs/DECISIONS.md D-02)
 /images/*/full/
 /site/

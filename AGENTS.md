@@ -44,6 +44,7 @@ data/catalog.json    288 poses: id, orig_id, series, rating, added_in, class_*, 
                      views{front..below} (file or null), gaps{view: missing|line|structure}, photos{view: file},
                      bodies (duo only: MF / FF)
 data/qc.json         per-view and per-photo QC status, reason and file name; per-set pose-name notes (docs/qc/README.md)
+data/qc-input/       every reviewer result behind qc.json; `qc_merge.py data/qc-input` rebuilds it exactly
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
 images/line/w300/    grid tier, 300 px wide WebP q70
 images/line/w900/    lightbox/download tier, 900×1200 WebP q75
@@ -54,8 +55,9 @@ site/                build output of tools/build_site.py (git-ignored; deploy th
                      per language (zh at the root, ja/ en/ ko/), og/ share cards, sitemap, robots, 404, manifest
 build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.sh,
-                     import_series.py, review_sheets.py, line_dups.py, qc_merge.py, export_csv.py
-docs/qc/             QC method, results and the reviewer prompts (line art, photos)
+                     import_series.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py, export_csv.py
+docs/qc/             QC method, results and the reviewer prompts (panels, name, proportion, photo, rating)
+.claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
 docs/DECISIONS.md    open questions and decisions awaiting a human
 docs/GENERATION.md   how the sets were made, gap log
@@ -77,7 +79,7 @@ python3 tools/build_images.py std=~/Downloads/pose-gallery-std73 sexy=~/Download
   upper=~/Downloads/pose-gallery-upper80 duo=~/Downloads/pose-gallery-duo55   # passing views only; prunes the rest
 python3 tools/verify.py                                # catalog ↔ qc.json ↔ images, gaps, orphans
 python3 tools/import_series.py SRC --series X --added 0.2.0 [--general Cute]   # merge a new series
-python3 tools/qc_merge.py <qc_dir>                     # apply review results (docs/qc/README.md)
+python3 tools/qc_merge.py data/qc-input               # apply review results (docs/qc/README.md)
 python3 tools/build_site.py --link-images && python3 -m http.server 8000 -d site   # preview the gallery
 python3 -I tools/build_site.py --public --site https://shisei.indaloop.app   # deploy build (D-05); share cards need Chrome, --no-og skips
 tools/pack_release.sh ~/Downloads/pose-gallery-std73 0.1.0   # dist/shisei-std73-full-v0.1.0.zip + sha256
@@ -85,7 +87,8 @@ tools/pack_release.sh ~/Downloads/pose-gallery-std73 0.1.0   # dist/shisei-std73
 
 ## 6. Way of working
 - **Adding poses or views**: drop sources into the source set → `import_series.py` (or edit the catalog: all four
-  languages, `desc_en` where possible) → QC per docs/qc/README.md → `qc_merge.py` → `build_images.py` → `verify.py`
+  languages, `desc_en` where possible) → QC per docs/qc/README.md (panels + name; proportion and rating on what passed)
+  → `qc_merge.py data/qc-input` → `build_images.py` → `verify.py`
   → `export_csv.py` → CHANGELOG line and a GENERATION.md note.
 - **Translations**: ja is the original naming; zh / en / ko are translations. Keep names short (`動作・手の位置`
   shape); change all four together.

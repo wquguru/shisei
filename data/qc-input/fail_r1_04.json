@@ -1,0 +1,226 @@
+{
+ "reviewed": [
+  "S057__front-diag-side.jpg",
+  "S058__above-below.jpg",
+  "S058__front-diag-side.jpg",
+  "S059__above-below.jpg",
+  "S059__front-diag-side.jpg",
+  "S060__below.jpg",
+  "S060__diag-side-above.jpg",
+  "S061__above-below.jpg",
+  "S061__front-diag-side.jpg",
+  "S062__above-below.jpg",
+  "S062__front-diag-side.jpg",
+  "S063__above-below.jpg",
+  "S063__front-diag-side.jpg",
+  "S064__above-below.jpg",
+  "S064__front-diag-side.jpg",
+  "S065__above-below.jpg",
+  "S065__front-diag-side.jpg",
+  "S066__above-below.jpg",
+  "S066__front-diag-side.jpg",
+  "S067__above-below.jpg",
+  "S067__front-diag-side.jpg",
+  "S068__above-below.jpg",
+  "S068__front-diag-side.jpg",
+  "S069__above-below.jpg",
+  "S069__front-diag-side.jpg",
+  "S070__above-below.jpg",
+  "S070__front-diag-side.jpg",
+  "S071__front-diag-side.jpg",
+  "S072__above-below.jpg",
+  "S072__front-diag-side.jpg",
+  "S073__above-below.jpg",
+  "S073__front-diag-side.jpg",
+  "S074__above-below.jpg",
+  "S074__front-diag-side.jpg",
+  "S075__above-below.jpg",
+  "S075__front-diag-side.jpg",
+  "S076__above-below.jpg",
+  "S076__front-diag-side.jpg",
+  "S077__above-below.jpg",
+  "S077__front-diag-side.jpg",
+  "S078__above.jpg",
+  "S078__front-diag-side.jpg",
+  "S079__above-below.jpg",
+  "S079__front-diag-side.jpg",
+  "S080__above-below.jpg",
+  "S080__front-diag-side.jpg",
+  "U001__above-below.jpg",
+  "U001__front-diag-side.jpg",
+  "U002__above-below.jpg",
+  "U002__front-diag-side.jpg",
+  "U003__above.jpg",
+  "U003__front-diag-side.jpg",
+  "U004__below.jpg",
+  "U004__front-diag-side.jpg",
+  "U005__above-below.jpg",
+  "U005__front-diag-side.jpg",
+  "U006__above-below.jpg",
+  "U006__front-diag-side.jpg",
+  "U007__above-below.jpg",
+  "U007__front-diag-side.jpg",
+  "U008__above-below.jpg",
+  "U008__front-diag-side.jpg",
+  "U009__above-below.jpg",
+  "U009__front-diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S057",
+   "angle": "front",
+   "kind": "line",
+   "reason": "faint grey scribble/texture background across panel"
+  },
+  {
+   "set": "S057",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "figure reads as upright mid-air kicking, not prone"
+  },
+  {
+   "set": "S058",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "extended leg cut off by right frame edge"
+  },
+  {
+   "set": "S059",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "upright seated figure, legs straight down; not supine knees up"
+  },
+  {
+   "set": "S059",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "legs hang down, knees not raised; pose not supine knees up"
+  },
+  {
+   "set": "S060",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "near-duplicate (mirror) of diag panel"
+  },
+  {
+   "set": "S065",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "other leg/foot cut by right frame edge, extra blob"
+  },
+  {
+   "set": "S065",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "foot cut by right frame edge"
+  },
+  {
+   "set": "S065",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "foot cut by right frame edge"
+  },
+  {
+   "set": "S068",
+   "angle": "below",
+   "kind": "line",
+   "reason": "horizontal ruled line (background object) at top of panel"
+  },
+  {
+   "set": "S068",
+   "angle": "front",
+   "kind": "line",
+   "reason": "horizontal ruled line (background object) at top of panel"
+  },
+  {
+   "set": "S068",
+   "angle": "side",
+   "kind": "line",
+   "reason": "horizontal ruled line (background object) at top of panel"
+  },
+  {
+   "set": "S071",
+   "angle": "side",
+   "kind": "line",
+   "reason": "floor ground lines drawn under hands/feet"
+  },
+  {
+   "set": "S074",
+   "angle": "below",
+   "kind": "line",
+   "reason": "dot on breast/chest looks like nipple dot"
+  },
+  {
+   "set": "S074",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "head/torso unreadable, hair-like scribble beside torso; cross-shaped figure"
+  },
+  {
+   "set": "S077",
+   "angle": "side",
+   "kind": "line",
+   "reason": "ground line drawn across bottom"
+  },
+  {
+   "set": "S078",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "eye-level front view, practically same as front; not from above"
+  },
+  {
+   "set": "S079",
+   "angle": "front",
+   "kind": "line",
+   "reason": "ground line drawn across bottom"
+  },
+  {
+   "set": "U002",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "practically same image as front panel"
+  },
+  {
+   "set": "U007",
+   "angle": "above",
+   "kind": "line",
+   "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+  },
+  {
+   "set": "U007",
+   "angle": "below",
+   "kind": "line",
+   "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+  },
+  {
+   "set": "U007",
+   "angle": "front",
+   "kind": "line",
+   "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+  },
+  {
+   "set": "U007",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+  },
+  {
+   "set": "U007",
+   "angle": "side",
+   "kind": "line",
+   "reason": "spiral scribble marks at chest/shoulder, not mannequin style"
+  },
+  {
+   "set": "U008",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "practically same image as front panel"
+  },
+  {
+   "set": "U009",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "practically same image as front panel"
+  }
+ ]
+}
