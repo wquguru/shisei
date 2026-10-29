@@ -466,6 +466,8 @@
     const [mb, ms] = missingText(p, LB.v, LB.photo);
     miss.innerHTML = f ? '' : '<b>' + esc(mb) + '</b><span>' + esc(ms) + '</span>';
     $('lbCounter').textContent = T.views[LB.v] + ' ' + (LB.v + 1) + '/5';
+    // With one view or none there is nowhere to step; a live-looking arrow that does nothing reads as broken.
+    $('lbPrev').disabled = $('lbNext').disabled = arr.filter(Boolean).length < 2;
     $('lbMeta').textContent = p.id + ' · ' + T.series[p.series] + ' · ' + catLabel(p);
     $('lbTitle').textContent = nameOf(p);
     $('lbNames').innerHTML = ['cn', 'jp', 'en', 'kr'].filter((s) => s !== T.suffix)
@@ -532,8 +534,11 @@
     });
   });
   $('lb').addEventListener('close', () => history.replaceState(null, '', location.pathname + location.search));
-  $('lb').addEventListener('keydown', (e) => {
-    if (e.target.closest('input, textarea')) return;
+  // On document, not the dialog: re-rendering the chips or clicking the image drops focus to <body>,
+  // and a dialog-scoped listener would then miss every key until the reader tabbed back in.
+  document.addEventListener('keydown', (e) => {
+    // The share sheet opens on top of the lightbox; its keys are its own.
+    if (!$('lb').open || document.querySelector('dialog[open]:not(#lb)') || e.target.closest('input, textarea')) return;
     if (e.key === 'ArrowLeft') { e.preventDefault(); stepAngle(-1); }
     else if (e.key === 'ArrowRight') { e.preventDefault(); stepAngle(1); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); stepPose(-1); }

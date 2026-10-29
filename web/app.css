@@ -194,6 +194,7 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 .lb-missing { position: absolute; inset: 40px; border: 2px dashed rgba(24,24,27,0.28); border-radius: 22px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; color: #3F3D39; font-size: 15px; padding: 20px; }
 .lb-nav { position: absolute; top: 50%; margin-top: -28px; width: 56px; height: 56px; border-radius: 50%; border: 0; background: #F5F2ED; color: #18181B; display: flex; align-items: center; justify-content: center; cursor: pointer; }
 .lb-nav.l { left: 20px; } .lb-nav.r { right: 20px; }
+.lb-nav:disabled { cursor: default; opacity: 0.35; }
 .lb-counter { position: absolute; left: 20px; top: 18px; height: 32px; padding: 0 14px; display: inline-flex; align-items: center; border-radius: 999px; background: var(--new); color: var(--new-ink); font-family: var(--mono); font-size: 13px; }
 .lb-side { flex: 0 0 380px; padding: 36px 30px 28px 12px; display: flex; flex-direction: column; gap: 20px; overflow-y: auto; }
 .lb-head { display: flex; flex-direction: column; gap: 8px; }

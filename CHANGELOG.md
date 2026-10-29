@@ -16,6 +16,11 @@ the catalog schema.
   ComfyUI, Midjourney).
 - README screenshot retaken from the live gallery; README pose and view counts brought up to date.
 
+### Fixed
+- Lightbox angle arrows: ← → keys kept working only while focus stayed inside the lightbox, so they stopped after a
+  click on a view chip, the line/photo switch or the image; the arrow buttons now grey out on poses with one view or
+  none instead of looking live and doing nothing.
+
 ### Removed
 - P006 front view: the drawing has three arms, which the QC review missed. Manual QC results now go in
   `data/qc-input/fail_manual.json`.
