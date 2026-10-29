@@ -10,8 +10,8 @@ Usage: python3 tools/build_site.py [--site URL] [--repo URL] [--link-images] [--
                 the GitHub Pages address, see docs/DECISIONS.md D-05
 --link-images   symlink images/ instead of copying (fast local preview)
 --no-og         skip rendering share cards (no Chrome needed); og:image falls back to the pose's front line art
---public        the public deploy: line art of the series in PUBLIC_SERIES that passed QC; photo renders stay out of the catalog and
-                their files are not copied until they have their own QC pass (DECISIONS D-03, D-06)
+--public        the public deploy: the series in PUBLIC_SERIES, line art and photo renders that passed QC; only the files
+                the catalog lists are copied (DECISIONS D-03, D-06)
 """
 import argparse, datetime, json, os, pathlib, re, shutil, subprocess, sys
 from html.parser import HTMLParser
@@ -22,7 +22,7 @@ from site_pages import CAT_KEYS, HTML_LANG, LOCS, NAME_KEY, PREFIX, TINT, VIEWS,
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DEFAULT_SITE = "https://wquguru.github.io/shisei"
-PUBLIC_SERIES = ("std", "upper", "sexy")
+PUBLIC_SERIES = ("std", "upper", "sexy", "duo")
 TODAY = datetime.date.today().isoformat()
 
 
@@ -198,7 +198,7 @@ def main() -> None:
         if args.link_images:
             sys.exit("--public copies only the public images; drop --link-images")
         # A new series goes public only once a human has OK'd it (AGENTS.md §8): add it here then.
-        catalog = [dict(p, photos={}) for p in catalog if p.get("series", "std") in PUBLIC_SERIES]
+        catalog = [p for p in catalog if p.get("series", "std") in PUBLIC_SERIES]
     # Pose pages, share cards and the sitemap cover the published std series only: other series are still being
     # imported and reviewed, and a new series needs a human OK (AGENTS.md §8) before it gets indexable pages.
     # Suggestive poses never get indexable pages or share cards; a pose with no usable view is hidden.
@@ -279,11 +279,12 @@ def main() -> None:
     if args.link_images:
         (out / "images").symlink_to(ROOT / "images", target_is_directory=True)
     elif args.public:
-        files = {f for p in catalog for f in p["views"].values() if f}
-        for tier in ("w300", "w900"):
-            (out / "images/line" / tier).mkdir(parents=True)
-            for f in sorted(files):
-                shutil.copy2(ROOT / "images/line" / tier / f, out / "images/line" / tier / f)
+        for kind, key in (("line", "views"), ("photo", "photos")):
+            files = {f for p in catalog for f in (p.get(key) or {}).values() if f}
+            for tier in ("w300", "w900"):
+                (out / "images" / kind / tier).mkdir(parents=True)
+                for f in sorted(files):
+                    shutil.copy2(ROOT / "images" / kind / tier / f, out / "images" / kind / tier / f)
     else:
         shutil.copytree(ROOT / "images", out / "images", ignore=shutil.ignore_patterns("full"))
     icons = [{"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml"}]
