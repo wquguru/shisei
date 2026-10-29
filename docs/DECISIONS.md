@@ -21,23 +21,16 @@ P019–P052 一段里有 23 套（P019、P020、P022、P025–P027、P029–P038
 - 改默认值：`web/app.js` 顶部 `SHOW_SUGGESTIVE_DEFAULT`。
 - 另一个要人定的问题：sexy 系列要不要进公开仓库（源包 README 写的是「仅供自用」，AGENTS §2 内容安全）。质检已经去掉乳头、五官、衣物这类问题，剩下的是姿势本身偏性感。
 
-### D-05 站点域名（canonical / og:image / sitemap 用的绝对地址）
-分享卡、canonical、hreflang、sitemap 都要绝对 URL。`tools/build_site.py --site URL`（或环境变量 `SHISEI_SITE_URL`）指定，
-默认先用 GitHub Pages 地址 `https://wquguru.github.io/shisei`。可选：
-1. GitHub Pages 子路径（默认）：零成本；但 `robots.txt` 只在域名根目录生效，子路径下的那份会被忽略，sitemap 要去
-   Search Console 手动提交；
-2. 自定义域名（如 `shisei.xxx`）：robots.txt 生效、链接更短、以后换托管不改 URL；要买域名、配 DNS。
-部署前定下来；换域名后重新 build，旧地址的分享卡会失效（各平台缓存的是旧 og:image）。
-
-### D-03 实拍图是否进公开仓库
-111 张实拍是 AI 生成的成年人物（背心、紧身裤，含躺、后仰类姿势），暴露面和素体线稿不一样。可选：
-1. 和线稿一起进仓库，注意事项写明「AI 生成、成年、不对应真人、元数据已清除」；
-2. 只放 Release 包，不进 git，也不在画廊默认展示；
-3. 暂不公开。
-
-在定下来之前，`images/photo/` 已生成但发布前要确认。
-
 ## 已决定
+
+### D-05 站点域名：https://shisei.indaloop.app（2026-10-29，人定）
+Cloudflare Pages，项目名 `shisei`。部署构建：`python3 -I tools/build_site.py --public --site https://shisei.indaloop.app`
+（`--public` 不接受 `--link-images`）。canonical、og:image、hreflang、sitemap 都用这个域名；robots.txt 在域名根目录生效。
+换域名要重新 build，旧地址的分享卡会失效。
+
+### D-03 实拍图不上公开站（2026-10-29，人定）
+人定：公开站 `--public` 只放线稿，实拍不展示，也不上传。`images/photo/` 仍在仓库里；开源仓库里留不留、要不要只放 Release 包，
+仍待定。原候选：1. 和线稿一起进仓库，写明「AI 生成、成年、不对应真人、元数据已清除」；2. 只放 Release 包；3. 暂不公开。
 
 ### D-01 授权：Apache-2.0，代码和图片同一许可证（2026-10-28，人定）
 人定：和作者的另一个开源项目（TryBoard）用同一套许可证与开源文件规范。整个仓库——代码、catalog、文档、图片——都是 **Apache-2.0**（`LICENSE` 全文 + `NOTICE`），外部贡献按 §5 入站即出站，不另签 CLA。细则见 [LICENSING.md](LICENSING.md)。
