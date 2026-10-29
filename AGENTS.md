@@ -24,6 +24,8 @@ two are rated suggestive. Plus photo renders for 23 std sets, a four-language ca
 - **Ratings.** Every pose has `rating` (`general` / `suggestive`). Everything that passed QC is public; suggestive poses
   are hidden by default behind one show switch and stay out of the marquee, pose pages, share cards and sitemap (D-06).
   Nipple marks, exposure, genital detail and a figure that reads as a minor are generation errors: they fail QC.
+  A per-pose rating change is a human decision recorded in `data/rating_overrides.json`, not a catalog edit:
+  `import_series.py` applies it on re-import and `verify.py` checks it.
 - **IDs are stable.** `P001`… never get renumbered or reused (P023 and P028 are retired). New poses take the next
   free number; the source-list number goes in `orig_id`.
 - **Full-size originals stay out of git.** Commit only the `w300` and `w900` tiers; downloads ship as Release
@@ -97,7 +99,7 @@ python3 -I tools/pack_release.py 0.2.0 std=… upper=… sexy=… duo=…   # di
 - **Web**: follow docs/DESIGN.md. Every UI string lives in `web/i18n.js` in all four languages; `index.html` placeholders
   (`__CATALOG__`, `__REPO__`, `__VERSION__`) are filled by `build_site.py`. Zero runtime dependencies, works at 390×844 without horizontal scroll, every
   string in all four languages, images lazy-loaded with `alt` = ID + name + view, keyboard: ← → angle, ↑ ↓ pose,
-  Esc closes, `/` focuses search.
+  Esc closes.
 - **Pages and SEO**: strings the build needs (page titles, share sheet, changelog) live in the strict-JSON
   `I18N_PAGES` block at the end of `web/i18n.js`. Reader-facing updates go in `web/changelog.yaml` (all four
   languages; the build audits them) as well as CHANGELOG.md. Share what has a page: pose pages, not `#P001` hashes.
@@ -127,7 +129,7 @@ adding a new image series.
 | Licence (D-01): Apache-2.0 | ✅ 2026-10-28 |
 | Photo policy (D-03): public after photo QC | ✅ 2026-10-29 |
 | Fill P062 below | ☐ open |
-| upper + sexy series, line-art QC, series / rating filters | ✅ v0.2.0 (unreleased) |
-| duo series (55 sets) and photo QC | ✅ v0.2.0 (unreleased) |
+| upper + sexy series, line-art QC, series / rating filters | ✅ v0.2.0 (2026-10-29) |
+| duo series (55 sets) and photo QC | ✅ v0.2.0 (2026-10-29) |
 | Relabel the 23 std sets whose drawing is another pose (D-07) | ☐ waiting on a human |
 | Rewrite failed views out of git history before going public (D-08) | ✅ 2026-10-29 |
