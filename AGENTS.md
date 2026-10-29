@@ -125,4 +125,4 @@ adding a new image series.
 | upper + sexy series, line-art QC, series / rating filters | ✅ v0.2.0 (unreleased) |
 | duo series (55 sets) and photo QC | ✅ v0.2.0 (unreleased) |
 | Relabel the 23 std sets whose drawing is another pose (D-07) | ☐ waiting on a human |
-| Rewrite failed views out of git history before going public (D-08) | ☐ waiting on a human |
+| Rewrite failed views out of git history before going public (D-08) | ✅ 2026-10-29 |
