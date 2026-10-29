@@ -10,6 +10,8 @@ Usage: python3 tools/build_site.py [--site URL] [--repo URL] [--link-images] [--
                 the GitHub Pages address, see docs/DECISIONS.md D-05
 --link-images   symlink images/ instead of copying (fast local preview)
 --no-og         skip rendering share cards (no Chrome needed); og:image falls back to the pose's front line art
+--public        the public deploy: general-rated line art of std and upper only; the sexy series, suggestive poses
+                and photo renders stay out of the catalog and their files are not copied (DECISIONS D-03, D-06)
 """
 import argparse, datetime, json, os, pathlib, re, shutil, subprocess, sys
 from html.parser import HTMLParser
@@ -177,6 +179,7 @@ def main() -> None:
     ap.add_argument("--out", default="site")
     ap.add_argument("--link-images", action="store_true")
     ap.add_argument("--no-og", action="store_true")
+    ap.add_argument("--public", action="store_true")
     args = ap.parse_args()
     site_url = args.site.rstrip("/")
 
@@ -187,8 +190,14 @@ def main() -> None:
         shutil.rmtree(out)
     out.mkdir()
 
-    catalog_text = (ROOT / "data/catalog.json").read_text()
-    catalog = json.loads(catalog_text)
+    catalog = json.loads((ROOT / "data/catalog.json").read_text())
+    if args.public:
+        # Filtering the catalog is not enough on its own: every file under site/ is downloadable, so the images are
+        # copied from this list too.
+        if args.link_images:
+            sys.exit("--public copies only the public images; drop --link-images")
+        catalog = [dict(p, photos={}) for p in catalog
+                   if p.get("series", "std") != "sexy" and p.get("rating", "general") == "general"]
     # Pose pages, share cards and the sitemap cover the published std series only: other series are still being
     # imported and reviewed, and a new series needs a human OK (AGENTS.md §8) before it gets indexable pages.
     # Suggestive poses never get indexable pages or share cards; a pose with no usable view is hidden.
@@ -265,9 +274,15 @@ def main() -> None:
     for f in (ROOT / "web").iterdir():
         if f.is_file() and f.name not in ("index.html", "changelog.yaml"):
             shutil.copy2(f, out / f.name)
-    shutil.copy2(ROOT / "data/catalog.json", out / "catalog.json")
+    (out / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=1) + "\n")
     if args.link_images:
         (out / "images").symlink_to(ROOT / "images", target_is_directory=True)
+    elif args.public:
+        files = {f for p in catalog for f in p["views"].values() if f}
+        for tier in ("w300", "w900"):
+            (out / "images/line" / tier).mkdir(parents=True)
+            for f in sorted(files):
+                shutil.copy2(ROOT / "images/line" / tier / f, out / "images/line" / tier / f)
     else:
         shutil.copytree(ROOT / "images", out / "images", ignore=shutil.ignore_patterns("full"))
     icons = [{"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml"}]
@@ -297,7 +312,8 @@ def main() -> None:
     bad = check_site(out, site_url)
     if bad:
         sys.exit("site check failed:\n  " + "\n  ".join(bad[:40]) + (f"\n  … {len(bad) - 40} more" if len(bad) > 40 else ""))
-    print(f"built {out.relative_to(ROOT)}/ v{ver} for {site_url}: {len(poses)} poses × {len(LOCS)} languages, "
+    print(f"built {out.relative_to(ROOT)}/ v{ver} for {site_url}{' (public)' if args.public else ''}: "
+          f"{len(catalog)} gallery poses, {len(poses)} pose pages × {len(LOCS)} languages, "
           f"{len(entries)} changelog entries, {len(rows)} sitemap URLs")
 
 

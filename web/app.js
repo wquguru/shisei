@@ -58,7 +58,7 @@
     adult: (store.get('adult') ?? (SHOW_SUGGESTIVE_DEFAULT ? '1' : '0')) === '1',
     newOnly: params.get('new') === '1',
     angle: intParam('angle', 0, 4, -1),
-    medium: params.get('src') === 'photo' ? 'photo' : 'line',
+    medium: params.get('src') === 'photo' && poses.some((p) => p.photo.some(Boolean)) ? 'photo' : 'line',
     view: params.get('view') === 'single' ? 'single' : 'pose',
     q: params.get('q') || '',
     per: {}
@@ -172,6 +172,8 @@
     $('series').setAttribute('aria-label', T.seriesLabel);
     $('series').innerHTML = tabs.map(([k, n]) => '<button type="button" data-act="series:' + k + '" aria-pressed="' + (S.series === k) + '">' + esc(T.series[k]) + ' <span class="n">' + n + '</span></button>').join('');
     const adult = $('adult');
+    // The public build ships no suggestive poses, so the toggle would switch nothing.
+    adult.hidden = !poses.some((p) => p.suggestive);
     adult.setAttribute('aria-pressed', String(S.adult));
     adult.title = T.adultHint;
     adult.innerHTML = '<span class="dot" style="background:' + (S.adult ? 'var(--accent)' : 'var(--line)') + '"></span>' + esc(S.adult ? T.adultOn : T.adultOff);
@@ -193,11 +195,13 @@
   }
   function filterGroups() {
     const T = t();
+    // The public build ships no photos; a switch to an empty mode is noise.
+    const anyPhoto = poses.some((p) => p.photo.some(Boolean));
     return [
       [T.angle, segHtml('angle', T.angle, [[T.angleAll, 'angle:-1', S.angle < 0]].concat(T.views.map((v, i) => [v, 'angle:' + i, S.angle === i])))],
-      [T.medium, segHtml('medium', T.medium, [[T.line, 'medium:line', S.medium === 'line'], [T.photo + ' · ' + inSeries().filter((p) => p.photo.some(Boolean)).length, 'medium:photo', S.medium === 'photo']])],
+      anyPhoto && [T.medium, segHtml('medium', T.medium, [[T.line, 'medium:line', S.medium === 'line'], [T.photo + ' · ' + inSeries().filter((p) => p.photo.some(Boolean)).length, 'medium:photo', S.medium === 'photo']])],
       [T.view, segHtml('view', T.view, [[T.byPose, 'view:pose', S.view === 'pose'], [T.single, 'view:single', S.view === 'single']])]
-    ];
+    ].filter(Boolean);
   }
   function renderFilters() {
     const groups = filterGroups();
