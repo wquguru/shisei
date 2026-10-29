@@ -7,7 +7,12 @@ the catalog schema.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-10-29
+
 ### Added
+- Release zips for v0.3.0 (w900 per series and all, plus originals): 280 sets, 1,222 images (1,133 line-art views and
+  89 photos), CC0. The READMEs link each zip directly under the badges and in a Downloads table; `pack_release.py`
+  rewrites those links, counts and sizes, and `verify.py` checks the links match `data/packs.json`.
 - 43 sets redrawn from a second generator (`source: digi`, D-09) where the original had at most two usable views or
   showed another pose: 21 of the 23 hidden std sets (D-07), U051 and U072 (never generated before) and 20 sparse
   sets. Whole sets only, after the full QC round 3. std now shows 71 of 73 sets, upper 80 of 80; 1,133 views pass.
@@ -17,6 +22,8 @@ the catalog schema.
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- README content note and tagline brought up to date (suggestive poses are blurred, not hidden; 280 poses, not 255);
+  status, roadmap, gallery features, layout and deploy command refreshed in all four languages.
 - Phone nav (≤720 px) keeps GitHub as a 44 px icon button with the GitHub mark (it was hidden); the language pill
   shows a short code (中 / 日 / EN / 한) and the brand shrinks so it all fits 360 px. Pose and changelog pages too.
 - The hero title is two phrases that never break inside (description + highlighted angle count), with Shisei moved
@@ -141,5 +148,7 @@ First version, prepared for open-sourcing.
   Release asset.
 - `tools/verify.py` (catalog ↔ files, known gaps), `tools/build_images.sh`, `tools/pack_release.sh`, CI.
 
-[Unreleased]: ../../compare/v0.1.0...HEAD
+[Unreleased]: ../../compare/v0.3.0...HEAD
+[0.3.0]: ../../compare/v0.2.0...v0.3.0
+[0.2.0]: ../../compare/v0.1.0...v0.2.0
 [0.1.0]: ../../releases/tag/v0.1.0

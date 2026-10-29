@@ -5,6 +5,22 @@
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
   - date: 2026-10-29
+    tag: announce
+    title: New downloads with every pose
+    desc: The download zips now hold all 280 poses, the 43 redrawn ones included, about 1,200 images. Grab one series or everything from the download button.
+    link: /
+    cta: Open the gallery
+    title_zh: 下载包更新，收齐全部姿势
+    desc_zh: 下载包现在收齐了全部 280 套姿势，包括重画的 43 套，约 1,200 张图。点下载按钮，可以只下一个系列，也可以全部下载。
+    cta_zh: 打开图库
+    title_ja: ダウンロードを全ポーズに更新
+    desc_ja: ダウンロード用の zip に、描き直した 43 セットを含む全 280 ポーズ、約 1,200 枚が入りました。ダウンロードボタンからシリーズごとでもまとめてでも取得できます。
+    cta_ja: ギャラリーを開く
+    title_ko: 모든 포즈를 담은 새 다운로드
+    desc_ko: 다운로드 zip에 다시 그린 43세트를 포함해 280가지 포즈 전부, 약 1,200장을 담았습니다. 다운로드 버튼에서 시리즈별로 또는 한꺼번에 받을 수 있습니다.
+    cta_ko: 갤러리 열기
+
+  - date: 2026-10-29
     tag: improve
     title: GitHub on phones
     desc: The top bar on phones now keeps the GitHub button as an icon next to language and dark mode.
