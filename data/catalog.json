@@ -7845,15 +7845,18 @@
   "name_kr": "양 무릎 가슴으로 당기기",
   "desc_en": "",
   "views": {
-   "front": "duo_D052_front.webp",
+   "front": null,
    "diag": "duo_D052_diag.webp",
-   "side": "duo_D052_side.webp",
+   "side": null,
    "above": "duo_D052_above.webp",
    "below": "duo_D052_below.webp"
   },
   "photos": [],
   "bodies": "MF",
-  "gaps": {}
+  "gaps": {
+   "front": "structure",
+   "side": "structure"
+  }
  },
  {
   "id": "D053",

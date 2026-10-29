@@ -10,9 +10,9 @@ the catalog schema.
 ### Added
 - Two new series: upper body (80 poses, U001–U080) and full-body sexy (80 poses, S001–S080). The catalog gains
   `series`, `rating`, `added_in` and `gaps`; `photos` becomes a `{view: file}` map.
-- Duo series: 55 two-figure poses (D001–D055, `bodies` MF / FF), rated suggestive; 49 sets and 195 / 275 views pass QC.
+- Duo series: 55 two-figure poses (D001–D055, `bodies` MF / FF), rated suggestive; 49 sets and 193 / 275 views pass QC.
 - Line-art QC for all 1,375 views ([docs/qc/](docs/qc/README.md)): Sonnet panel review plus a pose-name check,
-  merged by `tools/qc_merge.py` into `data/qc.json`. 1,051 views pass; failed views leave `images/` and the catalog.
+  merged by `tools/qc_merge.py` into `data/qc.json`. 1,049 views pass; failed views leave `images/` and the catalog.
 - Photo-render QC ([docs/qc/photo_prompt.md](docs/qc/photo_prompt.md)): 103 / 112 pass, results in `qc.json` `photos`.
 - Gallery: series tabs, a "sexy content" switch (shown by default, D-06), an "all 5 angles" filter, "failed QC" vs
   "not generated" placeholders, and counts computed from the data.

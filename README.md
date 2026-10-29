@@ -9,7 +9,7 @@
 English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md)
 
 [![Poses](https://img.shields.io/badge/poses-256-15171A?style=flat-square)](data/catalog.json)
-[![Line art](https://img.shields.io/badge/line%20art-1051%20QC%20passed-1A5CC8?style=flat-square)](docs/GENERATION.md)
+[![Line art](https://img.shields.io/badge/line%20art-1049%20QC%20passed-1A5CC8?style=flat-square)](docs/GENERATION.md)
 [![Photos](https://img.shields.io/badge/photos-103-5B616A?style=flat-square)](docs/GENERATION.md)
 [![Languages](https://img.shields.io/badge/names-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/runtime%20deps-0-E07A52?style=flat-square)](web)
@@ -34,7 +34,7 @@ All images are original to this project.
 | Full body · standard (`std`, P###) | 50 of 73 | 208 / 365 | shown |
 | Upper body (`upper`, U###) | 77 of 80 | 307 / 400 | shown |
 | Full body · sexy (`sexy`, S###) | 80 of 80 | 341 / 400 | shown; a toggle hides it |
-| Duo (`duo`, D###) | 49 of 55 | 195 / 275 | shown; a toggle hides it |
+| Duo (`duo`, D###) | 49 of 55 | 193 / 275 | shown; a toggle hides it |
 
 Poses rated `suggestive` (the sexy and duo series, upper's Sexy and Chest emphasis) are shown by default and kept off
 the marquee, pose pages, share cards and sitemap; one switch hides them.

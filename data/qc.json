@@ -6771,7 +6771,8 @@
   "D052": {
    "front": {
     "file": "duo_D052_front.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "lying woman drawn much smaller than the kneeling man, reads as child proportions (peer visual pass, confirmed by hand)"
    },
    "diag": {
     "file": "duo_D052_diag.webp",
@@ -6779,7 +6780,8 @@
    },
    "side": {
     "file": "duo_D052_side.webp",
-    "status": "pass"
+    "status": "structure",
+    "reason": "lying woman drawn much smaller than the kneeling man, reads as child proportions (peer visual pass, confirmed by hand)"
    },
    "above": {
     "file": "duo_D052_above.webp",
