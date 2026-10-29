@@ -11,9 +11,10 @@ two are rated suggestive. Plus photo renders for 23 std sets, a four-language ca
 
 ## 2. Hard rules
 - **No outside images.** Never download, cache, mirror, re-encode or trace images from ai-pose-gallery
-  (ギア @giaaibusi), its Chinese mirror anhao/ai-pose-gallery-zh, or any other pose site. Their terms forbid
-  redistributing the image data, processed copies included; the mirror's MIT licence covers its front-end code only.
-  UI patterns may be referenced; code and copy may not be copied.
+  (ギア @giaaibusi), its mirrors or any other pose site. Its terms forbid redistributing the image data, processed
+  copies included; a mirror's open-source licence covers its code at most. Do not name or link the mirrors in the repo
+  or on the site. UI patterns may be referenced; code and copy may not be copied. The pose list follows its catalog
+  and is credited in README and NOTICE, not licensed (D-01).
 - **Catalog is the source of truth.** Every image is listed in `data/catalog.json`; `tools/verify.py` must pass.
   A view that could not be generated is `null` with `gaps: missing` — never fill a gap with a mirrored, flipped or
   low-quality drawing.
@@ -39,7 +40,7 @@ two are rated suggestive. Plus photo renders for 23 std sets, a four-language ca
 ```
 AGENTS.md            this file; CLAUDE.md only includes it
 README.md            overview (English); docs/readme/README.{zh-CN,ja,ko}.md — keep all four in step
-LICENSE, NOTICE      Apache-2.0 for code, catalog, docs and images (D-01); NOTICE ships in every zip
+LICENSE, NOTICE      Apache-2.0 for code and docs; LICENSE-images: CC0 for images and data (D-01); all three in every zip
 CONTRIBUTING.md      contributor guide; SECURITY.md, CODE_OF_CONDUCT.md; .github/ issue + PR templates
 CHANGELOG.md         Keep a Changelog; every user-visible change adds a line under [Unreleased]
 data/catalog.json    288 poses: id, orig_id, series, rating, added_in, class_*, name_* (jp/cn/en/kr), desc_en,
@@ -126,7 +127,7 @@ adding a new image series.
 | `web/` static gallery generated from the catalog | ✅ |
 | Pages deploy of `site/` to shisei.indaloop.app (D-05) | ✅ OK'd 2026-10-29 |
 | ja / ko README copies, screenshot, community files | ✅ |
-| Licence (D-01): Apache-2.0 | ✅ 2026-10-28 |
+| Licence (D-01): code Apache-2.0, images and data CC0 | ✅ 2026-10-29 |
 | Photo policy (D-03): public after photo QC | ✅ 2026-10-29 |
 | Fill P062 below | ☐ open |
 | upper + sexy series, line-art QC, series / rating filters | ✅ v0.2.0 (2026-10-29) |

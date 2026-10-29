@@ -24,13 +24,13 @@ window.I18N = {
     download: '下载这张', copyId: '复制 ID', fullZip: '下载图包',
     dlNote: (k) => '已为下载优化，做姿势参考画质几乎没有差别，体积约为原图的 1/' + k + '。',
     dlRec: '推荐', dlAll: '全部系列', dlSetsAll: (n) => n + ' 套 · 五个机位', dlBySeries: '只要一个系列', dlSets: (n) => n + ' 套',
-    dlOriginal: '原图包', dlOriginalAll: '全部系列 · 原图', dlLicense: 'Apache-2.0 · 含 LICENSE 与 NOTICE',
+    dlOriginal: '原图包', dlOriginalAll: '全部系列 · 原图', dlLicense: '图片 CC0 · 含 LICENSE 与 NOTICE',
     keys: '← → 换机位　↑ ↓ 换姿势　L 线稿/实拍　Esc 关闭',
     terms: '注意事项',
     howTitle: '使用方法',
     how: ['把图片上传到 AI 绘图工具的姿势参考或构图参考里。', '同一个姿势换机位连续使用，生成出来的姿态更一致。', '线稿是无脸素体，脸、服装和背景靠提示词或别的参考图补上。', '点卡片看大图，← → 换机位，↑ ↓ 换姿势，Esc 关闭。'],
     termsTitle: '注意事项',
-    termsItems: ['全部素材由 Shisei 自制，采用 Apache-2.0 许可证，可商用、可再分发，再分发时附上 LICENSE 和 NOTICE。', '线稿画的是素体；实拍图是 AI 生成的成年人物，不对应任何真人。图片元数据已清除。', '请勿用于表现真实人物或未成年人，也不要用于违反公序良俗的用途。']
+    termsItems: ['全部图片由 Shisei 自制，以 CC0 放弃权利，可商用、可再分发，不需要署名。姿势目录沿用ギア（@giaaibusi）的 ai-pose-gallery，在此致谢。', '线稿画的是素体；实拍图是 AI 生成的成年人物，不对应任何真人。图片元数据已清除。', '请勿用于表现真实人物或未成年人，也不要用于违反公序良俗的用途。']
   },
   ja: {
     htmlLang: 'ja', suffix: 'jp',
@@ -55,13 +55,13 @@ window.I18N = {
     download: 'この画像をダウンロード', copyId: 'ID をコピー', fullZip: 'まとめてダウンロード',
     dlNote: (k) => 'ダウンロード向けに最適化済み。ポーズ参照なら画質はほぼ変わらず、サイズは原寸の約 1/' + k + ' です。',
     dlRec: 'おすすめ', dlAll: 'すべてのシリーズ', dlSetsAll: (n) => n + ' ポーズ · 5 アングル', dlBySeries: 'シリーズごと', dlSets: (n) => n + ' ポーズ',
-    dlOriginal: '原寸パック', dlOriginalAll: 'すべてのシリーズ · 原寸', dlLicense: 'Apache-2.0 · LICENSE と NOTICE 同梱',
+    dlOriginal: '原寸パック', dlOriginalAll: 'すべてのシリーズ · 原寸', dlLicense: '画像 CC0 · LICENSE と NOTICE 同梱',
     keys: '← → アングル　↑ ↓ ポーズ　L 線画/実写　Esc 閉じる',
     terms: '注意点',
     howTitle: '使い方',
     how: ['AI ツールのポーズ参照・構図参照に画像を読み込みます。', '同じポーズのアングル違いを続けて使うと、姿勢が揃いやすくなります。', '顔なし素体の線画です。顔・服装・背景はプロンプトや別の参照画像で足してください。', 'カードで拡大表示。← → でアングル、↑ ↓ でポーズ、Esc で閉じます。'],
     termsTitle: '注意点',
-    termsItems: ['すべての素材は Shisei のオリジナルで、Apache-2.0 ライセンスです。商用・再配布可、再配布時は LICENSE と NOTICE を添えてください。', '線画は素体です。実写は AI 生成の成人で、実在の人物ではありません。メタデータは削除済みです。', '実在の人物や未成年を表す用途、公序良俗に反する用途には使わないでください。']
+    termsItems: ['画像はすべて Shisei のオリジナルで、CC0 で権利を放棄しています。商用・再配布可、クレジット不要です。ポーズの一覧はギアさん（@giaaibusi）の ai-pose-gallery に沿っています。ありがとうございます。', '線画は素体です。実写は AI 生成の成人で、実在の人物ではありません。メタデータは削除済みです。', '実在の人物や未成年を表す用途、公序良俗に反する用途には使わないでください。']
   },
   en: {
     htmlLang: 'en', suffix: 'en',
@@ -86,13 +86,13 @@ window.I18N = {
     download: 'Download', copyId: 'Copy ID', fullZip: 'Download pack',
     dlNote: (k) => 'Optimised for download: for pose reference the quality is practically the same, at about 1/' + k + ' of the original size.',
     dlRec: 'Recommended', dlAll: 'All series', dlSetsAll: (n) => n + ' poses · 5 angles', dlBySeries: 'Just one series', dlSets: (n) => n + ' poses',
-    dlOriginal: 'Originals', dlOriginalAll: 'All series · originals', dlLicense: 'Apache-2.0 · includes LICENSE and NOTICE',
+    dlOriginal: 'Originals', dlOriginalAll: 'All series · originals', dlLicense: 'Images CC0 · includes LICENSE and NOTICE',
     keys: '← → angle   ↑ ↓ pose   L line/photo   Esc close',
     terms: 'Terms',
     howTitle: 'How to use',
     how: ['Upload an image as the pose or composition reference in your AI image tool.', 'Use several angles of the same pose in a row to keep the figure consistent.', 'The figures are faceless mannequins; add face, clothing and background with your prompt or other references.', 'Click a card to open it. ← → change angle, ↑ ↓ change pose, Esc closes.'],
     termsTitle: 'Terms',
-    termsItems: ['Every image is made by Shisei and licensed under Apache-2.0: commercial use and redistribution are fine; keep LICENSE and NOTICE with redistributed files.', 'Line art shows mannequins; photos are AI-generated adults and do not depict real people. Metadata is stripped.', 'Do not use them to depict real people or minors, or for indecent purposes.']
+    termsItems: ['Every image is made by Shisei and released under CC0: commercial use and redistribution are fine, no credit needed. The pose list follows ai-pose-gallery by ギア (@giaaibusi), with thanks.', 'Line art shows mannequins; photos are AI-generated adults and do not depict real people. Metadata is stripped.', 'Do not use them to depict real people or minors, or for indecent purposes.']
   },
   ko: {
     htmlLang: 'ko', suffix: 'kr',
@@ -117,13 +117,13 @@ window.I18N = {
     download: '이 이미지 다운로드', copyId: 'ID 복사', fullZip: '묶음 다운로드',
     dlNote: (k) => '다운로드용으로 최적화했습니다. 포즈 참조라면 화질 차이는 거의 없고, 용량은 원본의 약 1/' + k + '입니다.',
     dlRec: '추천', dlAll: '전체 시리즈', dlSetsAll: (n) => n + '가지 포즈 · 5개 앵글', dlBySeries: '시리즈별', dlSets: (n) => n + '가지 포즈',
-    dlOriginal: '원본 묶음', dlOriginalAll: '전체 시리즈 · 원본', dlLicense: 'Apache-2.0 · LICENSE와 NOTICE 포함',
+    dlOriginal: '원본 묶음', dlOriginalAll: '전체 시리즈 · 원본', dlLicense: '이미지 CC0 · LICENSE와 NOTICE 포함',
     keys: '← → 앵글　↑ ↓ 포즈　L 선화/실사　Esc 닫기',
     terms: '주의사항',
     howTitle: '사용법',
     how: ['AI 이미지 도구의 포즈 참조나 구도 참조에 이미지를 올립니다.', '같은 포즈의 여러 앵글을 이어서 쓰면 자세가 더 일정해집니다.', '얼굴 없는 마네킹 선화입니다. 얼굴·의상·배경은 프롬프트나 다른 참조 이미지로 채우세요.', '카드를 누르면 크게 봅니다. ← → 앵글, ↑ ↓ 포즈, Esc 닫기.'],
     termsTitle: '주의사항',
-    termsItems: ['모든 소재는 Shisei가 직접 만들었으며 Apache-2.0 라이선스입니다. 상업적 이용과 재배포가 가능하며, 재배포할 때는 LICENSE와 NOTICE를 함께 포함하세요.', '선화는 마네킹이며, 실사는 AI로 생성한 성인으로 실존 인물이 아닙니다. 메타데이터는 삭제했습니다.', '실존 인물이나 미성년자를 표현하거나 공서양속에 어긋나는 용도로 쓰지 마세요.']
+    termsItems: ['모든 이미지는 Shisei가 직접 만들었으며 CC0으로 권리를 포기합니다. 상업적 이용과 재배포가 가능하고 출처 표시는 필요 없습니다. 포즈 목록은 ギア(@giaaibusi)의 ai-pose-gallery를 따랐습니다. 감사합니다.', '선화는 마네킹이며, 실사는 AI로 생성한 성인으로 실존 인물이 아닙니다. 메타데이터는 삭제했습니다.', '실존 인물이나 미성년자를 표현하거나 공서양속에 어긋나는 용도로 쓰지 마세요.']
   }
 };
 

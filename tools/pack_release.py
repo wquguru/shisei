@@ -7,8 +7,8 @@ Writes to dist/:
   shisei-all-v<ver>.zip        every series, w900
   shisei-original-v<ver>.zip   every series at the source resolution, from <src>/img and <src>/photo
 Only files the catalog lists go in, so a view that failed QC never ships, even though the source sets still hold it.
-Every zip carries LICENSE and NOTICE (Apache-2.0 §4). The images are already lossy WebP, so deflate barely shrinks
-them; it is used anyway because it costs nothing for the LICENSE / NOTICE text.
+Every zip carries LICENSE-images (CC0, the images), LICENSE (Apache-2.0) and NOTICE, which credits the pose list. The
+images are already lossy WebP, so deflate barely shrinks them; it is used anyway because it costs nothing for the text.
 """
 import hashlib, json, pathlib, sys, zipfile
 
@@ -32,7 +32,7 @@ def pack(path, files):
     with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for disk, arc in files:
             z.write(disk, arc)
-        for f in ("LICENSE", "NOTICE"):
+        for f in ("LICENSE", "LICENSE-images", "NOTICE"):
             z.write(ROOT / f, f)
     digest = hashlib.sha256(path.read_bytes()).hexdigest()
     (path.parent / (path.name + ".sha256")).write_text(f"{digest}  {path.name}\n")

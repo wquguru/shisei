@@ -13,7 +13,8 @@
 [![Photos](https://img.shields.io/badge/实拍-103-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/运行时依赖-0-E07A52?style=flat-square)](../../web)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](../../LICENSE)
+[![Images](https://img.shields.io/badge/images-CC0--1.0-blue?style=flat-square)](../../LICENSE-images)
+[![Code](https://img.shields.io/badge/code-Apache--2.0-blue?style=flat-square)](../../LICENSE)
 
 </div>
 
@@ -53,7 +54,7 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 | `w900` | `images/*/w900/` | 900×1200 | 26 KB |
 | 原图 | [Releases](../../../../releases) 压缩包 | 1344×1792（实拍 1120×2240） | 100 KB |
 
-仓库里只放网页用的两档，约 17 MB，克隆会快很多。每个 Release 附带画廊里的下载：w900 档按系列各一个压缩包、再加一个全系列包（推荐，体积约为原图的四分之一），以及原图包。只打包质检通过的机位，每个压缩包都带 LICENSE 和 NOTICE。
+仓库里只放网页用的两档，约 17 MB，克隆会快很多。每个 Release 附带画廊里的下载：w900 档按系列各一个压缩包、再加一个全系列包（推荐，体积约为原图的四分之一），以及原图包。只打包质检通过的机位，每个压缩包都带 LICENSE、LICENSE-images 和 NOTICE。
 
 ## 画廊
 
@@ -101,10 +102,16 @@ python3 tools/verify.py
 
 画廊使用 [Inter Tight](https://fonts.google.com/specimen/Inter+Tight)、[Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC) 和 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)（SIL OFL 1.1，由 Google Fonts 提供），README 徽章来自 [shields.io](https://shields.io)。授权规则见 [LICENSING.md](../LICENSING.md)。
 
+姿势目录（收录哪些姿势、编号 `orig_id`、名称和分类）沿用 [ギア (@giaaibusi)](https://x.com/giaaibusi) 的 [ai-pose-gallery](https://ai-pose-gallery.pages.dev/) 公开目录，中文、英文、韩文名是它的译名，在此致谢。沿用的只有目录，这里的图片全部是本项目自己制作的。本项目与原作者没有关联，也未获其背书。
+
 ## 说明
 
 所有图片都是为本项目制作的，没有从其他姿势图库复制、描摹或派生。人物是素体或 AI 生成的成年人，不对应任何真人。请勿用这些图表现真实人物或未成年人，也不要用于露骨内容。图片元数据已清除。
 
 ## 许可证
 
-Shisei 的代码、catalog、文档和图片均采用 [Apache License 2.0](../../LICENSE)，另见 [NOTICE](../../NOTICE)。可以使用、修改和再分发这些图片（包括商用），再分发文件时附上许可证和 NOTICE 即可。拿它们当姿势参考生成的图片不受任何附加条件约束。
+- **图片**（`images/` 和 Release 里的压缩包）以及 `data/` 里本项目自己的数据，以 [CC0 1.0](../../LICENSE-images) 放弃权利：可以随意使用、修改和再分发，包括商用，不需要署名。
+- **代码和文档**采用 [Apache License 2.0](../../LICENSE)。
+- **姿势目录**（选题、编号、名称和分类）来自 ai-pose-gallery 的目录，这里只注明出处，不在上面两个许可证的范围内，见 [NOTICE](../../NOTICE)。
+
+拿这些图当姿势参考生成的图片不受任何附加条件约束。

@@ -68,9 +68,11 @@ Credit the tool with a `Co-Authored-By:` trailer if you like.
 
 ## Licence
 
-Shisei — code, catalog, documentation and images — is licensed under the [Apache License 2.0](LICENSE). By submitting a
-contribution you agree that it is licensed under the same terms (Apache-2.0 §5); there is no separate CLA. Make sure
-you have the right to submit it.
+Code and documentation are licensed under the [Apache License 2.0](LICENSE); images and the project's own data are
+dedicated to the public domain under [CC0 1.0](LICENSE-images). By submitting a contribution you agree that code and
+docs are licensed under Apache-2.0 (§5) and that images and data are released under CC0; there is no separate CLA. Make
+sure you have the right to submit it. The pose list follows ai-pose-gallery's catalog and is credited, not licensed
+(see [NOTICE](NOTICE)).
 
 ## Code of conduct
 

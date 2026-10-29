@@ -36,7 +36,10 @@ Cloudflare Pages，项目名 `shisei`。部署构建：`python3 -I tools/build_s
 （`--public` 不接受 `--link-images`）。canonical、og:image、hreflang、sitemap 都用这个域名；robots.txt 在域名根目录生效。
 换域名要重新 build，旧地址的分享卡会失效。
 
-### D-01 授权：Apache-2.0，代码和图片同一许可证（2026-10-28，人定）
+### D-01 授权：代码 Apache-2.0，图片和数据 CC0（2026-10-28 定，2026-10-29 改，人定）
+2026-10-29 人改：图片要尽量宽松。图片（`images/`、Release zip）和 `data/` 里我们自己的数据改为 **CC0 1.0**（`LICENSE-images`），代码和文档仍是 Apache-2.0（`LICENSE`）。姿势目录（选题、编号、四语名称、分类）沿用 ギア（@giaaibusi）的 ai-pose-gallery 公开目录，不在任何一个许可证内，只注明出处；人定不征求原作者同意。细则见 [LICENSING.md](LICENSING.md)。v0.2.0 及以前的 zip 按 Apache-2.0 发布，照旧有效。
+
+以下是 2026-10-28 的原决定，作为记录：
 人定：和作者的另一个开源项目（TryBoard）用同一套许可证与开源文件规范。整个仓库——代码、catalog、文档、图片——都是 **Apache-2.0**（`LICENSE` 全文 + `NOTICE`），外部贡献按 §5 入站即出站，不另签 CLA。细则见 [LICENSING.md](LICENSING.md)。
 - 效果：图片可商用、可改作、可再分发，条件是再分发时带上 LICENSE 与 NOTICE；Release zip 里一并打包（`tools/pack_release.py`）。
 - 和原先的推荐（图片用 CC BY 4.0）相比：Apache-2.0 用在图片上不常见但有效，实际要求同样是署名 + 附声明；好处是全仓一个许可证，贡献规则简单。

@@ -7,6 +7,10 @@ the catalog schema.
 
 ## [Unreleased]
 
+### Changed
+- Images and the project's own data are now CC0 1.0 (`LICENSE-images`); code and docs stay Apache-2.0. Every zip ships
+  LICENSE, LICENSE-images and NOTICE. README and NOTICE credit the pose list to ai-pose-gallery by ギア (@giaaibusi).
+
 ## [0.2.0] - 2026-10-29
 
 ### Added

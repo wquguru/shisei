@@ -13,7 +13,8 @@
 [![Photos](https://img.shields.io/badge/실사-103-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/이름-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/런타임%20의존성-0-E07A52?style=flat-square)](../../web)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](../../LICENSE)
+[![Images](https://img.shields.io/badge/images-CC0--1.0-blue?style=flat-square)](../../LICENSE-images)
+[![Code](https://img.shields.io/badge/code-Apache--2.0-blue?style=flat-square)](../../LICENSE)
 
 </div>
 
@@ -53,7 +54,7 @@ Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는
 | `w900` | `images/*/w900/` | 900 × 1200 | 약 26 KB |
 | 원본 | [Releases](../../../../releases) zip | 1344 × 1792 (실사 1120 × 2240) | 약 100 KB |
 
-저장소에는 웹용 두 가지 크기(약 17 MB)만 두므로 클론이 가볍습니다. 각 Release에는 갤러리의 다운로드가 첨부됩니다. w900을 시리즈별 zip과 전체 시리즈 zip(추천, 원본의 약 4분의 1 용량)으로 묶은 것과 원본 zip입니다. 품질 검사를 통과한 앵글만 담고, 모든 zip에 LICENSE와 NOTICE가 들어 있습니다.
+저장소에는 웹용 두 가지 크기(약 17 MB)만 두므로 클론이 가볍습니다. 각 Release에는 갤러리의 다운로드가 첨부됩니다. w900을 시리즈별 zip과 전체 시리즈 zip(추천, 원본의 약 4분의 1 용량)으로 묶은 것과 원본 zip입니다. 품질 검사를 통과한 앵글만 담고, 모든 zip에 LICENSE, LICENSE-images, NOTICE가 들어 있습니다.
 
 ## 갤러리
 
@@ -101,10 +102,16 @@ python3 tools/verify.py
 
 갤러리는 [Inter Tight](https://fonts.google.com/specimen/Inter+Tight), [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC), [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (SIL OFL 1.1, Google Fonts 제공)를 사용하며, README 배지는 [shields.io](https://shields.io)입니다. 라이선스 원칙은 [LICENSING.md](../LICENSING.md)에 있습니다.
 
+포즈 목록(어떤 포즈를 넣을지, 번호 `orig_id`, 이름, 분류)은 [ギア (@giaaibusi)](https://x.com/giaaibusi)의 [ai-pose-gallery](https://ai-pose-gallery.pages.dev/) 공개 카탈로그를 따랐으며, 중국어·영어·한국어 이름은 그 번역입니다. 감사드립니다. 가져온 것은 목록뿐이고, 이미지는 모두 이 프로젝트에서 직접 만들었습니다. Shisei는 원작자와 관계가 없으며 원작자의 승인을 받지 않았습니다.
+
 ## 참고 사항
 
 모든 이미지는 이 프로젝트를 위해 만들었으며, 다른 포즈 모음에서 복사·트레이스·파생한 것이 아닙니다. 인물은 마네킹 또는 AI로 생성한 성인이며 실존 인물이 아닙니다. 실존 인물이나 미성년자를 표현하거나 노골적인 콘텐츠에 쓰지 마세요. 이미지 메타데이터는 삭제했습니다.
 
 ## 라이선스
 
-Shisei의 코드, 카탈로그, 문서, 이미지는 모두 [Apache License 2.0](../../LICENSE)을 따릅니다 ([NOTICE](../../NOTICE) 참고). 상업적 이용을 포함해 이미지를 사용·수정·재배포할 수 있으며, 파일을 재배포할 때는 라이선스와 NOTICE를 함께 포함하세요. 포즈 참고로 사용해 생성한 이미지에는 추가 조건이 없습니다.
+- **이미지**(`images/`와 Release의 zip)와 `data/`의 이 프로젝트 자체 데이터는 [CC0 1.0](../../LICENSE-images)으로 권리를 포기합니다. 상업적 이용을 포함해 자유롭게 사용·수정·재배포할 수 있으며 출처 표시도 필요 없습니다.
+- **코드와 문서**는 [Apache License 2.0](../../LICENSE)을 따릅니다.
+- **포즈 목록**(선정, 번호, 이름, 분류)은 ai-pose-gallery의 카탈로그에서 왔으며, 출처만 밝힐 뿐 위의 두 라이선스 대상이 아닙니다. [NOTICE](../../NOTICE)를 참고하세요.
+
+포즈 참고로 사용해 생성한 이미지에는 추가 조건이 없습니다.
