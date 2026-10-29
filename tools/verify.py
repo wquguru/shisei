@@ -5,13 +5,15 @@
 - every null view has a non-pass qc status and a matching `gaps` entry (missing, line or structure);
 - every rating override in data/rating_overrides.json is applied;
 - every redrawn pose (catalog `source`) was merged as such: qc.json `sources` names the same source;
-- every photo has a `pass` in qc.json photos and exists in both tiers; nothing under images/ is unreferenced.
+- every photo has a `pass` in qc.json photos and exists in both tiers; nothing under images/ is unreferenced;
+- every README download link names a zip of the data/packs.json version.
 """
-import json, pathlib, sys
+import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 VIEWS = ("front", "diag", "side", "above", "below")
 TIERS = ("w300", "w600", "w900")
+README_FILES = ("README.md", "docs/readme/README.zh-CN.md", "docs/readme/README.ja.md", "docs/readme/README.ko.md")
 
 
 def main() -> int:
@@ -58,6 +60,15 @@ def main() -> int:
     for f in (ROOT / "images").glob("*/*/*.webp"):
         if (f.parent.parent.name, f.parent.name, f.name) not in want:
             errs.append(f"orphan {f.relative_to(ROOT)}")
+    # README download links are versioned file names; pack_release.py rewrites them, this catches a hand edit.
+    packs_path = ROOT / "data/packs.json"
+    if packs_path.exists():
+        packs = json.loads(packs_path.read_text())
+        files = {k["file"] for k in packs["packs"].values()}
+        for md in README_FILES:
+            for m in re.finditer(r"releases/download/v([\d.]+)/(shisei-[\w]+-v[\d.]+\.zip)", (ROOT / md).read_text()):
+                if m.group(1) != packs["version"] or m.group(2) not in files:
+                    errs.append(f"{md}: download link {m.group(2)} is not in data/packs.json v{packs['version']}")
     for s in sorted({p["series"] for p in cat}):
         ps = [p for p in cat if p["series"] == s]
         shown = [p for p in ps if any(p["views"].values())]

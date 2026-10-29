@@ -10,11 +10,14 @@ Writes to dist/:
 Only files the catalog lists go in, so a view that failed QC never ships, even though the source sets still hold it.
 Every zip carries LICENSE-images (CC0, the images), LICENSE (Apache-2.0) and NOTICE, which credits the pose list. The
 images are already lossy WebP, so deflate barely shrinks them; it is used anyway because it costs nothing for the text.
+The four READMEs' download links, counts and sizes are rewritten to match (verify.py checks the links).
 """
-import hashlib, json, pathlib, sys, zipfile
+import hashlib, json, pathlib, re, sys, zipfile
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SERIES = ("std", "upper", "sexy", "duo")
+READMES = ("README.md", "docs/readme/README.zh-CN.md", "docs/readme/README.ja.md", "docs/readme/README.ko.md")
+LINK = re.compile(r"releases/download/v[\d.]+/shisei-(\w+)-v[\d.]+\.zip")
 
 
 def entries(poses, original, srcs):
@@ -41,6 +44,31 @@ def pack(path, files):
     return path.stat().st_size
 
 
+def update_readmes(ver, packs):
+    """Point the README download links at the new zips and refresh their counts and sizes.
+
+    A table row ends `| sets | images | size |`; any other line with a link (the one under the badges) carries just
+    the size. The Downloads section opens with the version, so a line starting `v<x.y.z>` is bumped too."""
+    for md in READMES:
+        path = ROOT / md
+        out = []
+        for line in path.read_text().split("\n"):
+            m = LINK.search(line)
+            if m and m.group(1) in packs:
+                p = packs[m.group(1)]
+                line = LINK.sub(lambda m: f"releases/download/v{ver}/{packs[m.group(1)]['file']}", line)
+                size = f"{p['bytes'] / 1e6:.1f} MB"
+                if line.startswith("|"):
+                    cells = line.split("|")
+                    cells[-4:-1] = [f" {p['sets']} ", f" {p['images']} ", f" {size} "]
+                    line = "|".join(cells)
+                else:
+                    line = re.sub(r"\d+(\.\d+)? MB", size, line, count=1)
+            line = re.sub(r"^v\d+\.\d+\.\d+(?=\W)", f"v{ver}", line)
+            out.append(line)
+        path.write_text("\n".join(out))
+
+
 def main() -> None:
     if len(sys.argv) < 2 or sys.argv[1].count(".") != 2:
         sys.exit(__doc__)
@@ -65,6 +93,7 @@ def main() -> None:
         packs[key] = {"file": name, "bytes": size, "sets": len(poses), "images": len(files)}
         print(f"{name}: {len(poses)} sets, {len(files)} images, {size / 1e6:.1f} MB")
     (ROOT / "data/packs.json").write_text(json.dumps({"version": ver, "packs": packs}, indent=1) + "\n")
+    update_readmes(ver, packs)
 
 
 if __name__ == "__main__":
