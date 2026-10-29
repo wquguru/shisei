@@ -17,14 +17,18 @@
       ['Seated on top', '#DDB9C8'], ['Standing', '#AFC3E0'], ['Standing close', '#C7DCD6'], ['Side-lying', '#CBD0AC'], ['Seated', '#D3D1E6'],
       ['Face-to-face seated', '#BCD3C6'], ['Seated close', '#D3D1E6'], ['Lying', '#E3CBB0'], ['Close contact', '#EBC0BC']]
   };
-  // Suggestive poses (the sexy and duo series, upper's Sexy / Chest emphasis) show by default; the reader can hide them (DECISIONS D-06).
-  const SHOW_SUGGESTIVE_DEFAULT = true;
+  // Suggestive poses (the sexy and duo series, upper's Sexy / Chest emphasis) are hidden until the reader turns them on
+  // (DECISIONS D-06), so a first visit from the README or a shared link opens on general poses only.
+  const SHOW_SUGGESTIVE_DEFAULT = false;
   const TOOLS = ['ComfyUI', 'Stable Diffusion', 'Flux', 'Midjourney', 'Nano Banana', 'Qwen-Image', '即梦'];
   const NAME_LABEL = { cn: 'ZH', jp: 'JA', en: 'EN', kr: 'KO' };
   // Each language has its own copy of this page (zh at the root, the others under ja/ en/ ko/) so search engines and
   // link previews see it in that language; BASE leads back to the site root from here.
   const BASE = window.SHISEI.base || '';
   const PREFIX = { zh: '', ja: 'ja/', en: 'en/', ko: 'ko/' };
+  const PACKS = window.SHISEI.packs;  // null when the build found no data/packs.json
+  const mb = (b) => { const m = b / 1e6; return (m < 10 ? m.toFixed(1) : Math.round(m)) + ' MB'; };
+  const DL_ICON = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>';
 
   // A view is in the catalog only if it passed QC; a pose with no passing view is not shown at all.
   const LATEST = CATALOG.map((p) => p.added_in || '').sort().pop();
@@ -63,7 +67,6 @@
     angle: intParam('angle', 0, 4, -1),
     medium: params.get('src') === 'photo' && poses.some((p) => p.photo.some(Boolean)) ? 'photo' : 'line',
     view: params.get('view') === 'single' ? 'single' : 'pose',
-    q: params.get('q') || '',
     per: {}
   };
 
@@ -78,6 +81,9 @@
   // What the reader may see at all: rating first, then the series tab.
   const allowed = () => poses.filter((p) => S.adult || !p.suggestive);
   const inSeries = () => allowed().filter((p) => S.series === 'all' || p.series === S.series);
+  // A series with nothing allowed (?series=duo while suggestive poses are hidden) has no tab; fall back to all.
+  const fixSeries = () => { if (S.series !== 'all' && !allowed().some((p) => p.series === S.series)) S.series = 'all'; };
+  fixSeries();
   const missingText = (p, v, photo) => {
     const T = t();
     if (photo) return [T.missingPhoto(T.views[v]), T.missingPhotoSub];
@@ -112,7 +118,6 @@
     if (S.angle >= 0) p.set('angle', S.angle);
     if (S.medium === 'photo') p.set('src', 'photo');
     if (S.view === 'single') p.set('view', 'single');
-    if (S.q) p.set('q', S.q);
     const qs = p.toString();
     history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
   }
@@ -127,11 +132,18 @@
     });
     document.querySelectorAll('[data-i18n-ph]').forEach((el) => { el.placeholder = T[el.dataset.i18nPh]; });
     document.querySelectorAll('[data-i18n-aria]').forEach((el) => { el.setAttribute('aria-label', T[el.dataset.i18nAria]); });
-    $('lang').textContent = T.short;
-    const n = allowed().length;
+    $('langName').textContent = I18N[S.lang].langName;
+    // The hero counts the whole published library, so the number does not move when suggestive poses are hidden.
+    const n = poses.length;
     document.querySelector('.hero-sub').textContent = T.heroSub(n);
     document.querySelector('[data-i18n="browse"]').textContent = T.browse(n);
-    $('new-title').textContent = T.newTitle(allowed().filter((p) => p.isNew).length);
+    $('heroSeries').innerHTML = SERIES.map((k) => [k, poses.filter((p) => p.series === k).length]).filter((x) => x[1])
+      .map(([k, c]) => '<span><i style="background:' + CATS[k][0][1] + '"></i>' + esc(T.series[k]) + '<b>' + c + '</b></span>').join('');
+    document.querySelectorAll('[data-pack-size]').forEach((el) => {
+      const k = PACKS && PACKS.packs[el.dataset.packSize];
+      el.textContent = k ? mb(k.bytes) : '';
+      el.hidden = !k;
+    });
     $('howList').innerHTML = T.how.map((s) => '<li>' + esc(s) + '</li>').join('');
     $('termsList').innerHTML = T.termsItems.map((s) => '<li>' + esc(s) + '</li>').join('');
   }
@@ -152,18 +164,6 @@
     $('mq1').innerHTML = row(0);
     $('mq2').innerHTML = row(3);
     $('tools').innerHTML = TOOLS.map((x) => '<span>' + esc(x) + '</span>').join('');
-  }
-
-  function renderFeatured() {
-    const T = t();
-    $('featured').innerHTML = allowed().filter((p) => p.isNew).slice(0, 24).map((p) => {
-      const vi = p.line[1] ? 1 : firstView(p.line);
-      const n = p.line.filter(Boolean).length;
-      return '<button type="button" class="fcard" data-open="' + p.id + '" data-v="' + vi + '" aria-label="' + esc(T.open(p.id) + ' ' + nameOf(p)) + '">' +
-        '<span class="ftile" style="background:' + p.tint + '"><img src="' + src('line', 'w300', p.line[vi]) + '" srcset="' + srcset('line', p.line[vi]) + '" sizes="300px" alt="" loading="lazy" decoding="async">' +
-        '<span class="badge new">' + T.newBadge + '</span><span class="vlabel">' + n + '/5</span></span>' +
-        '<span class="fcard-t"><span>' + esc(nameOf(p)) + '</span><span class="mono muted" style="font-size:13px">' + p.id + '</span></span></button>';
-    }).join('');
   }
 
   /* filters */
@@ -216,15 +216,11 @@
 
   /* grid */
   function pool() {
-    const q = S.q.trim().toLowerCase();
     return inSeries().filter((p) => {
       if (S.series !== 'all' && S.cat >= 0 && p.ci !== S.cat) return false;
       if (S.newOnly && !p.isNew) return false;
       if (S.full && !p.full) return false;
-      if (S.medium === 'photo' && !p.photo.some(Boolean)) return false;
-      if (!q) return true;
-      const hay = [p.id, p.orig_id || '', p.name_cn, p.name_jp, p.name_en, p.name_kr, p.class_cn, p.class_jp, p.class_en, p.class_kr].join(' ').toLowerCase();
-      return hay.includes(q);
+      return !(S.medium === 'photo' && !p.photo.some(Boolean));
     });
   }
   function curView(p) {
@@ -307,7 +303,8 @@
 
   function renderAll() {
     applyText();
-    renderFeatured();
+    renderLangs();
+    renderDl();
     renderCats();
     renderFilters();
     renderGrid();
@@ -332,7 +329,7 @@
   $('adult').addEventListener('click', () => {
     S.adult = !S.adult;
     store.set('adult', S.adult ? '1' : '0');
-    if (!S.adult && S.series === 'sexy') S.series = 'all';
+    fixSeries();
     renderAll();
     renderMarquee();
     syncUrl();
@@ -368,26 +365,50 @@
     const s = e.target.closest('.stile');
     if (s) { e.preventDefault(); openLb(s.dataset.open, +s.dataset.v, S.medium === 'photo'); }
   });
-  $('featured').addEventListener('click', (e) => {
-    const b = e.target.closest('[data-open]');
-    if (b) openLb(b.dataset.open, +b.dataset.v, false);
-  });
-  $('viewNew').addEventListener('click', () => {
-    S.newOnly = true; S.cat = -1;
-    renderCats(); renderGrid(); syncUrl();
-    $('all').scrollIntoView();
+  // An explicit list of the four languages: a single button that cycles them hid where the next click would land.
+  // ?lang is dropped from the targets, because on arrival it outranks the reader's pick (tools/site_pages.py).
+  function renderLangs() {
+    const qs = new URLSearchParams(location.search);
+    qs.delete('lang');
+    const tail = (qs.toString() ? '?' + qs : '') + location.hash;
+    $('langList').innerHTML = LANGS.map((l) => '<a href="' + esc(BASE + PREFIX[l] + tail) + '" lang="' + I18N[l].htmlLang + '" hreflang="' + I18N[l].htmlLang +
+      '" data-lang-link="' + l + '"' + (l === S.lang ? ' aria-current="true"' : '') + '>' + esc(I18N[l].langName) + '</a>').join('');
+  }
+  const langBtn = $('lang');
+  const setLangOpen = (open) => {
+    if (open) renderLangs();  // pick up the filters and hash the reader has set since
+    langBtn.setAttribute('aria-expanded', String(open));
+    $('langList').hidden = !open;
+  };
+  langBtn.addEventListener('click', () => setLangOpen(langBtn.getAttribute('aria-expanded') !== 'true'));
+  document.addEventListener('click', (e) => { if (!e.target.closest('.lang-menu')) setLangOpen(false); });
+  document.querySelector('.lang-menu').addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !$('langList').hidden) { setLangOpen(false); langBtn.focus(); }
   });
 
-  const q = $('q');
-  q.value = S.q;
-  q.addEventListener('input', () => { S.q = q.value; renderGrid(); syncUrl(); });
-  q.addEventListener('keydown', (e) => { if (e.key === 'Enter') $('all').scrollIntoView(); });
+  /* downloads: sizes come from data/packs.json, written by tools/pack_release.py with the Release assets */
+  function renderDl() {
+    const T = t();
+    $('dlLic').textContent = 'v' + (PACKS ? PACKS.version : window.SHISEI.version) + ' · ' + T.dlLicense;
+    if (!PACKS) {
+      $('dlBody').innerHTML = '<a class="dl-row main" href="' + esc(window.SHISEI.repo + '/releases/latest') + '"><span><b>' + esc(T.dlAll) + '</b></span>' + DL_ICON + '</a>';
+      return;
+    }
+    const P = PACKS.packs;
+    const url = (k) => esc(window.SHISEI.repo + '/releases/download/v' + PACKS.version + '/' + P[k].file);
+    const row = (k, cls, title, sub, dot) => '<a class="dl-row ' + cls + '" href="' + url(k) + '" download>' +
+      '<span class="dl-t">' + (dot ? '<i style="background:' + dot + '"></i>' : '') + '<span><b>' + title + '</b>' + (sub ? '<small>' + esc(sub) + '</small>' : '') + '</span></span>' +
+      '<span class="dl-s"><span class="' + (cls === 'main' ? 'size-tag' : 'mono') + '">' + mb(P[k].bytes) + '</span>' + DL_ICON + '</span></a>';
+    const series = SERIES.filter((k) => P[k]);
+    $('dlBody').innerHTML =
+      '<p class="dl-note">' + esc(T.dlNote(Math.round(P.original.bytes / P.all.bytes))) + '</p>' +
+      row('all', 'main', esc(T.dlAll) + ' <em>' + esc(T.dlRec) + '</em>', T.dlSetsAll(P.all.sets)) +
+      '<h3>' + esc(T.dlBySeries) + '</h3>' +
+      series.map((k) => row(k, '', esc(T.series[k]), T.dlSets(P[k].sets), CATS[k][0][1])).join('') +
+      '<h3 class="dl-sep">' + esc(T.dlOriginal) + '</h3>' +
+      row('original', 'orig', esc(T.dlOriginalAll), '');
+  }
 
-  $('lang').addEventListener('click', () => {
-    const next = LANGS[(LANGS.indexOf(S.lang) + 1) % LANGS.length];
-    store.set('lang', next);
-    location.assign(BASE + PREFIX[next] + location.search + location.hash);
-  });
   $('theme').addEventListener('click', () => {
     const root = document.documentElement;
     const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
@@ -396,9 +417,9 @@
   });
 
   /* dialogs */
-  const dialogs = { how: $('dlgHow'), terms: $('dlgTerms') };
+  const dialogs = { how: $('dlgHow'), terms: $('dlgTerms'), dl: $('dlgDl') };
   document.addEventListener('click', (e) => {
-    const o = e.target.closest('[data-open="how"], [data-open="terms"]');
+    const o = e.target.closest('[data-open="how"], [data-open="terms"], [data-open="dl"]');
     if (o) dialogs[o.dataset.open].showModal();
     const c = e.target.closest('[data-close]');
     if (c) c.closest('dialog').close();
@@ -527,13 +548,6 @@
     const dx = e.clientX - swipeX;
     swipeX = null;
     if (Math.abs(dx) > 50) stepAngle(dx < 0 ? 1 : -1);
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key !== '/' || document.querySelector('dialog[open]')) return;
-    if (e.target.closest('input, textarea, [contenteditable]')) return;
-    e.preventDefault();
-    q.focus();
   });
 
   // Deep links: #P001, #P001-diag, #P001-diag-photo

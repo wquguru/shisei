@@ -20,7 +20,7 @@ English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readm
 ---
 
 > **Content note:** the sexy and duo series are suggestive adult pose references (faceless mannequins, no
-> nudity detail). They are kept out of previews and search pages, and one switch in the gallery hides them.
+> nudity detail). They are kept out of previews and search pages, and the gallery hides them until you turn them on.
 
 ![Shisei gallery: hero with a marquee of mannequin poses on pastel category tiles](docs/screenshot.png)
 
@@ -36,11 +36,11 @@ All images are original to this project.
 |---|---:|---:|---|
 | Full body · standard (`std`, P###) | 50 of 73 | 208 / 365 | shown |
 | Upper body (`upper`, U###) | 77 of 80 | 307 / 400 | shown |
-| Full body · sexy (`sexy`, S###) | 80 of 80 | 341 / 400 | shown; a toggle hides it |
-| Duo (`duo`, D###) | 49 of 55 | 193 / 275 | shown; a toggle hides it |
+| Full body · sexy (`sexy`, S###) | 80 of 80 | 341 / 400 | hidden; a switch shows it |
+| Duo (`duo`, D###) | 49 of 55 | 193 / 275 | hidden; a switch shows it |
 
-Poses rated `suggestive` (the sexy and duo series, upper's Sexy and Chest emphasis) are shown by default and kept off
-the marquee, pose pages, share cards and sitemap; one switch hides them.
+Poses rated `suggestive` (the sexy and duo series, upper's Sexy and Chest emphasis) are hidden by default and kept off
+the marquee, pose pages, share cards and sitemap; one switch shows them.
 
 - **Every view is reviewed** ([docs/qc/](docs/qc/README.md)). A view that fails (nipple marks, a face or hair,
   clothing, background, broken anatomy, the wrong camera angle, a figure that reads as a minor, or a drawing that is not

@@ -22,7 +22,7 @@ two are rated suggestive. Plus photo renders for 23 std sets, a four-language ca
   enters `images/`; photo renders likewise need a `pass` in qc.json `photos` (docs/qc/photo_prompt.md). Never mark a
   view `pass` by hand to get it in.
 - **Ratings.** Every pose has `rating` (`general` / `suggestive`). Everything that passed QC is public; suggestive poses
-  are shown by default behind one hide switch and stay out of the marquee, pose pages, share cards and sitemap (D-06).
+  are hidden by default behind one show switch and stay out of the marquee, pose pages, share cards and sitemap (D-06).
   Nipple marks, exposure, genital detail and a figure that reads as a minor are generation errors: they fail QC.
 - **IDs are stable.** `P001`… never get renumbered or reused (P023 and P028 are retired). New poses take the next
   free number; the source-list number goes in `orig_id`.

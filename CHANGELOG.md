@@ -14,12 +14,13 @@ the catalog schema.
 - Line-art QC for all 1,375 views ([docs/qc/](docs/qc/README.md)): Sonnet panel review plus a pose-name check,
   merged by `tools/qc_merge.py` into `data/qc.json`. 1,049 views pass; failed views leave `images/` and the catalog.
 - Photo-render QC ([docs/qc/photo_prompt.md](docs/qc/photo_prompt.md)): 103 / 112 pass, results in `qc.json` `photos`.
-- Gallery: series tabs, a "sexy content" switch (shown by default, D-06), an "all 5 angles" filter, "failed QC" vs
+- Gallery: series tabs, a "sexy content" switch (hidden by default, D-06), an "all 5 angles" filter, "failed QC" vs
   "not generated" placeholders, and counts computed from the data.
 - Tools: `import_series.py`, `review_sheets.py`, `line_dups.py`, `qc_merge.py`, `export_csv.py`; `build_images.py`
   replaces `build_images.sh` and prunes files that are no longer in the catalog.
 
 ### Changed
+- Suggestive poses (sexy, duo, upper's Sexy and Chest emphasis) are now hidden by default; the switch shows them (D-06).
 - Neutral names for suggestive poses: duo categories no longer use sex-position terms (e.g. 後背位 → 前後に並ぶ,
   From-behind → One behind the other), and ja names in the sexy and upper series match the plainer zh / en / ko wording.
 
