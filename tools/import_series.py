@@ -12,6 +12,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 VIEWS = ("front", "diag", "side", "above", "below")
 FIELDS = ("id", "orig_id", "series", "added_in", "rating", "class_jp", "class_cn", "class_en", "class_kr",
           "name_jp", "name_cn", "name_en", "name_kr", "desc_en", "views", "photos")
+OPTIONAL = ("bodies",)  # duo: MF / FF figure pairing; kept only when the source has it
 
 
 def main() -> None:
@@ -34,7 +35,7 @@ def main() -> None:
         q.setdefault("desc_en", "")
         q["views"] = {v: (pathlib.Path(p["views"][v]).name if p["views"].get(v) else None) for v in VIEWS}
         q.setdefault("photos", [])
-        cat.append({k: q.get(k) for k in FIELDS})
+        cat.append({k: q.get(k) for k in FIELDS} | {k: q[k] for k in OPTIONAL if q.get(k)})
     path.write_text(json.dumps(cat, ensure_ascii=False, indent=1) + "\n")
     print(f"{a.series}: {len(src)} poses; catalog now {len(cat)}")
 

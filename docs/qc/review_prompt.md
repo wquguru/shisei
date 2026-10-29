@@ -19,6 +19,9 @@ one, and look at each panel carefully.
 - The pelvis band and V-shaped hip lines are construction lines, NOT underwear.
 - A simple ear outline, and a plain nose/lips bump in the head outline of a side view, are OK (no eyes or inner detail).
 - `upper` sets: head-to-hips framing; legs cut by the frame edge are expected; a full body is also acceptable.
+- `duo` sets: exactly two mannequins in close contact (overlapping, embracing, lying together, one behind the other) —
+  intimacy and touching are the point of the series. The man is a broader, more muscular mannequin; `FF` sets have
+  two women. Overlapping contours where bodies touch are fine.
 
 ## Fail a panel for ANY of these (when in doubt, FAIL)
 Line-level (`"kind": "line"`):
@@ -26,14 +29,17 @@ Line-level (`"kind": "line"`):
   breast outline. A navel dot alone is OK.
 - Facial features drawn inside the face (eyes, eyebrows, nostrils, mouth, lips) or any hair.
 - Clothing, underwear, shoes, accessories; genital detail.
+- `duo`: anything explicit — a genital shape on either figure, depicted penetration or a hand placed on genitals.
 - Grey/black fill or shading areas, photo-like rendering, color, background objects (furniture, floor texture, frames,
   guide boxes), text inside the drawing.
 - Style clearly different from the mannequin construction style above.
 
 Structure-level (`"kind": "structure"`):
-- Not exactly one figure.
+- Not exactly one figure (`duo`: not exactly two; `MF` sets without one clearly broader male figure).
+- A figure that reads as a child or teenager (small body, child proportions next to the other figure).
 - Malformed anatomy: extra or missing arms/legs/hands/feet; a limb that connects to nothing or to the wrong place;
-  limbs merging into each other or into the floor; twisted/backwards joints (knee or elbow bending the wrong way); a
+  limbs merging into each other or into the floor (`duo`: a limb that cannot be traced to one of the two bodies, or
+  the two bodies fused into one shape); twisted/backwards joints (knee or elbow bending the wrong way); a
   head detached, doubled or on the wrong axis; hands or feet melted into blobs; clearly extra or missing fingers; a
   body part abruptly cut off inside the frame (frame-edge crops on `upper` sets are fine); torso impossibly long/short.
 - Pose clearly not matching the pose name (wrong arm/leg placement, wrong support, wrong posture), or the figure is

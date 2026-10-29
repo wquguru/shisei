@@ -3,7 +3,7 @@
 
 - every non-null catalog view has a `pass` in qc.json and exists in both tiers;
 - every null view has a non-pass qc status and a matching `gaps` entry (missing, line or structure);
-- every photo exists in both tiers; nothing under images/ is unreferenced.
+- every photo has a `pass` in qc.json photos and exists in both tiers; nothing under images/ is unreferenced.
 """
 import json, pathlib, sys
 
@@ -14,7 +14,8 @@ TIERS = ("w300", "w900")
 
 def main() -> int:
     cat = json.loads((ROOT / "data/catalog.json").read_text())
-    qc = json.loads((ROOT / "data/qc.json").read_text())["views"]
+    qcd = json.loads((ROOT / "data/qc.json").read_text())
+    qc, qc_photos = qcd["views"], qcd.get("photos", {})
     errs, want = [], set()
     ids = [p["id"] for p in cat]
     if len(ids) != len(set(ids)):
@@ -39,6 +40,8 @@ def main() -> int:
                 if p.get("gaps", {}).get(v) != st:
                     errs.append(f"{p['id']} {v}: gaps entry should be {st}")
         for v, f in (p.get("photos") or {}).items():
+            if qc_photos.get(p["id"], {}).get(v, {}).get("status") != "pass":
+                errs.append(f"{p['id']} photo {v}: in catalog without a qc pass")
             for t in TIERS:
                 want.add(("photo", t, f))
                 if not (ROOT / "images/photo" / t / f).exists():

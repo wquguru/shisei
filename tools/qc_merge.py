@@ -2,7 +2,8 @@
 """Merge QC results into data/qc.json and apply them to data/catalog.json.
 
 Usage: python3 tools/qc_merge.py QC_DIR [--date YYYY-MM-DD]
-QC_DIR holds fail_*.json (panel review), name_*.json (pose-name check) and optionally dups.json (tools/line_dups.py).
+QC_DIR holds fail_*.json (panel review), name_*.json (pose-name check), optionally dups.json (tools/line_dups.py)
+and photo_*.json (photo-render review, docs/qc/photo_prompt.md). Without photo_*.json the previous photo results stay.
 Rules (docs/qc/README.md):
 - a set whose drawing does not show the named pose (match "no") fails every view as `structure`;
 - per-panel "pose mismatch" fails are dropped when the set-level check says yes/partial (the set check decides names);
@@ -72,7 +73,22 @@ def main() -> None:
         p["views"] = {v: (row[v]["file"] if row[v]["status"] == "pass" else None) for v in VIEWS}
         p["gaps"] = {v: row[v]["status"] for v in VIEWS if row[v]["status"] != "pass"}
 
-    qc = {"schema": 1, "reviewed": a.date, "method": "docs/qc/README.md", "sets": set_notes, "views": views}
+    photo_files = sorted(d.glob("photo_*.json"))
+    photos = old.get("photos", {})
+    if photo_files:
+        pfail = {(x["set"], x["angle"]): x for f in photo_files for x in json.loads(f.read_text())["fails"]}
+        photos = {}
+        for p in cat:
+            files = {v: r["file"] for v, r in old.get("photos", {}).get(p["id"], {}).items()} | (p.get("photos") or {})
+            if not files:
+                continue
+            row = {v: ({"file": f, "status": pfail[(p["id"], v)]["kind"], "reason": pfail[(p["id"], v)]["reason"]}
+                       if (p["id"], v) in pfail else {"file": f, "status": "pass"}) for v, f in files.items()}
+            photos[p["id"]] = row
+            p["photos"] = {v: r["file"] for v, r in row.items() if r["status"] == "pass"}
+
+    qc = {"schema": 1, "reviewed": a.date, "method": "docs/qc/README.md", "sets": set_notes, "views": views,
+          "photos": photos}
     qc_path.write_text(json.dumps(qc, ensure_ascii=False, indent=1) + "\n")
     cat_path.write_text(json.dumps(cat, ensure_ascii=False, indent=1) + "\n")
 
@@ -85,6 +101,8 @@ def main() -> None:
         t["hidden_sets"] += all(r["status"] != "pass" for r in row.values())
     for s, t in tally.items():
         print(s, t)
+    print("photos", sum(r["status"] == "pass" for row in photos.values() for r in row.values()), "/",
+          sum(len(row) for row in photos.values()), "pass")
 
 
 if __name__ == "__main__":

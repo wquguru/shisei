@@ -17,6 +17,8 @@ VIEWS = ("front", "diag", "side", "above", "below")
 def main() -> None:
     out, srcs, flags = pathlib.Path(sys.argv[1]), dict(a.split("=", 1) for a in sys.argv[2:]), []
     for p in json.loads((ROOT / "data/catalog.json").read_text()):
+        if p["series"] not in srcs:
+            continue
         d = pathlib.Path(srcs[p["series"]]).expanduser()
         im = {v: np.asarray(Image.open(d / p["views"][v]).convert("L").filter(ImageFilter.MinFilter(5)).resize((96, 128)), dtype=float)
               for v in VIEWS if p["views"].get(v)}
