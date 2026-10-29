@@ -5,9 +5,9 @@ includes this file.
 
 ## 1. What this is
 A self-made pose reference library: faceless mannequin line art, each pose drawn from five angles (front, diag,
-side, above, below), for people who drive AI image tools with pose references. Three series: `std` full body
-(P###, 73 sets), `upper` upper body (U###, 80) and `sexy` full body (S###, 80, rated suggestive), plus photo renders
-for 23 std sets, a four-language catalog (ja / zh / en / ko) and a static gallery in `web/`.
+side, above, below), for people who drive AI image tools with pose references. Four series: `std` full body
+(P###, 73 sets), `upper` upper body (U###, 80), `sexy` full body (S###, 80) and `duo` two figures (D###, 55); the last
+two are rated suggestive. Plus photo renders for 23 std sets, a four-language catalog (ja / zh / en / ko) and a static gallery in `web/`.
 
 ## 2. Hard rules
 - **No outside images.** Never download, cache, mirror, re-encode or trace images from ai-pose-gallery
@@ -19,9 +19,11 @@ for 23 std sets, a four-language catalog (ja / zh / en / ko) and a static galler
   low-quality drawing.
 - **No view ships without a QC pass.** Every catalog view has `status: pass` in `data/qc.json`; a new or redrawn
   view goes through docs/qc/README.md (review sheets → Sonnet review + pose-name check → `qc_merge.py`) before it
-  enters `images/`. Never mark a view `pass` by hand to get it in.
-- **Ratings.** Every pose has `rating` (`general` / `suggestive`); suggestive poses stay out of the marquee, pose pages,
-  share cards and sitemap, and are hidden in the gallery until the reader opts in (D-06).
+  enters `images/`; photo renders likewise need a `pass` in qc.json `photos` (docs/qc/photo_prompt.md). Never mark a
+  view `pass` by hand to get it in.
+- **Ratings.** Every pose has `rating` (`general` / `suggestive`). Everything that passed QC is public; suggestive poses
+  are shown by default behind one hide switch and stay out of the marquee, pose pages, share cards and sitemap (D-06).
+  Nipple marks, exposure, genital detail and a figure that reads as a minor are generation errors: they fail QC.
 - **IDs are stable.** `P001`… never get renumbered or reused (P023 and P028 are retired). New poses take the next
   free number; the source-list number goes in `orig_id`.
 - **Full-size originals stay out of git.** Commit only the `w300` and `w900` tiers; full size ships as a Release
@@ -38,9 +40,10 @@ README.md            overview (English); docs/readme/README.{zh-CN,ja,ko}.md —
 LICENSE, NOTICE      Apache-2.0 for code, catalog, docs and images (D-01); NOTICE ships in every zip
 CONTRIBUTING.md      contributor guide; SECURITY.md, CODE_OF_CONDUCT.md; .github/ issue + PR templates
 CHANGELOG.md         Keep a Changelog; every user-visible change adds a line under [Unreleased]
-data/catalog.json    233 poses: id, orig_id, series, rating, added_in, class_*, name_* (jp/cn/en/kr), desc_en,
-                     views{front..below} (file or null), gaps{view: missing|line|structure}, photos{view: file}
-data/qc.json         per-view QC status, reason and file name; per-set pose-name notes (docs/qc/README.md)
+data/catalog.json    288 poses: id, orig_id, series, rating, added_in, class_*, name_* (jp/cn/en/kr), desc_en,
+                     views{front..below} (file or null), gaps{view: missing|line|structure}, photos{view: file},
+                     bodies (duo only: MF / FF)
+data/qc.json         per-view and per-photo QC status, reason and file name; per-set pose-name notes (docs/qc/README.md)
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
 images/line/w300/    grid tier, 300 px wide WebP q70
 images/line/w900/    lightbox/download tier, 900×1200 WebP q75
@@ -52,7 +55,7 @@ site/                build output of tools/build_site.py (git-ignored; deploy th
 build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.sh,
                      import_series.py, review_sheets.py, line_dups.py, qc_merge.py, export_csv.py
-docs/qc/             QC method, results and the reviewer prompt
+docs/qc/             QC method, results and the reviewer prompts (line art, photos)
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
 docs/DECISIONS.md    open questions and decisions awaiting a human
 docs/GENERATION.md   how the sets were made, gap log
@@ -71,12 +74,12 @@ All series share `data/catalog.json`; a new series gets its own prefix and ID le
 ## 5. Common commands
 ```bash
 python3 tools/build_images.py std=~/Downloads/pose-gallery-std73 sexy=~/Downloads/pose-gallery-sexy80 \
-  upper=~/Downloads/pose-gallery-upper80            # w300 + w900 for passing views; prunes everything else
+  upper=~/Downloads/pose-gallery-upper80 duo=~/Downloads/pose-gallery-duo55   # passing views only; prunes the rest
 python3 tools/verify.py                                # catalog ↔ qc.json ↔ images, gaps, orphans
 python3 tools/import_series.py SRC --series X --added 0.2.0 [--general Cute]   # merge a new series
 python3 tools/qc_merge.py <qc_dir>                     # apply review results (docs/qc/README.md)
 python3 tools/build_site.py --link-images && python3 -m http.server 8000 -d site   # preview the gallery
-python3 tools/build_site.py --site https://… # deploy build: absolute URLs (D-05); share cards need Chrome, --no-og skips
+python3 -I tools/build_site.py --public --site https://shisei.indaloop.app   # deploy build (D-05); share cards need Chrome, --no-og skips
 tools/pack_release.sh ~/Downloads/pose-gallery-std73 0.1.0   # dist/shisei-std73-full-v0.1.0.zip + sha256
 ```
 
@@ -114,11 +117,12 @@ adding a new image series.
 | 73 standard poses, catalog, two web tiers, verify | ✅ v0.1.0 |
 | Gallery design (desktop, lightbox, mobile, card states, logo directions) | ✅ design canvas |
 | `web/` static gallery generated from the catalog | ✅ |
-| Pages deploy of `site/` | ☐ needs a human OK (§8) |
+| Pages deploy of `site/` to shisei.indaloop.app (D-05) | ✅ OK'd 2026-10-29 |
 | ja / ko README copies, screenshot, community files | ✅ |
 | Licence (D-01): Apache-2.0 | ✅ 2026-10-28 |
-| Photo policy (D-03) | ☐ waiting on a human |
+| Photo policy (D-03): public after photo QC | ✅ 2026-10-29 |
 | Fill P062 below | ☐ open |
 | upper + sexy series, line-art QC, series / rating filters | ✅ v0.2.0 (unreleased) |
+| duo series (55 sets) and photo QC | ✅ v0.2.0 (unreleased) |
 | Relabel the 23 std sets whose drawing is another pose (D-07) | ☐ waiting on a human |
 | Rewrite failed views out of git history before going public (D-08) | ☐ waiting on a human |

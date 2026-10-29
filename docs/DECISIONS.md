@@ -16,21 +16,24 @@ P019–P052 一段里有 23 套（P019、P020、P022、P025–P027、P029–P038
 2. 保持隐藏，以后重新生成。
 推荐 1：画是好的，只是标签错了。需要人确认后再改名，因为会改 std 的分类数量。
 
-### D-06 性感内容默认隐藏（2026-10-28，agent 暂定，待人确认）
-全身・性感系列（80 套）和上半身的性感系、聚胸系（55 套）在 catalog 里 `rating: "suggestive"`，页面默认不显示，读者点「性感内容：隐藏」开关后才出现，选择记在本机 localStorage；首屏滚动方块永远只用 `general`。静态姿势页、分享卡、sitemap 只收 std 的 `general`。
-- 改默认值：`web/app.js` 顶部 `SHOW_SUGGESTIVE_DEFAULT`。
-- 另一个要人定的问题：sexy 系列要不要进公开仓库（源包 README 写的是「仅供自用」，AGENTS §2 内容安全）。质检已经去掉乳头、五官、衣物这类问题，剩下的是姿势本身偏性感。
-
 ## 已决定
+
+### D-06 质检通过的内容全部公开，只有露点算生成错误（2026-10-29，人定）
+人定：「应该隐藏的只是露点的，其他都应该展示」。乳头标记、外露、生殖器细节、像未成年的人物都算生成错误，质检直接不通过、
+不进仓库也不上站；其余通过质检的全部公开，含全身・性感和双人系列。
+- `rating: "suggestive"`（全身・性感、双人，上半身的性感系、聚胸系）默认显示，读者可用「性感内容」开关隐藏，选择记在 localStorage。
+  默认值在 `web/app.js` 顶部 `SHOW_SUGGESTIVE_DEFAULT`。
+- suggestive 姿势不进首屏滚动方块、静态姿势页、分享卡和 sitemap。
+- 公开站 `--public` 只发 `tools/build_site.py` 里 `PUBLIC_SERIES` 列出的系列；新系列要人点头后再加进去（AGENTS §8）。
+
+### D-03 实拍图过质检后公开（2026-10-29，人定）
+同 D-06：实拍过一轮专用质检（[qc/photo_prompt.md](qc/photo_prompt.md)），103/112 通过，没过的 9 张从 catalog 和 `images/photo/`
+拿掉，结果在 `data/qc.json` 的 `photos`。通过的和线稿一起进仓库和公开站。注意事项：AI 生成、成年、不对应真人、元数据已清除。
 
 ### D-05 站点域名：https://shisei.indaloop.app（2026-10-29，人定）
 Cloudflare Pages，项目名 `shisei`。部署构建：`python3 -I tools/build_site.py --public --site https://shisei.indaloop.app`
 （`--public` 不接受 `--link-images`）。canonical、og:image、hreflang、sitemap 都用这个域名；robots.txt 在域名根目录生效。
 换域名要重新 build，旧地址的分享卡会失效。
-
-### D-03 实拍图不上公开站（2026-10-29，人定）
-人定：公开站 `--public` 只放线稿，实拍不展示，也不上传。`images/photo/` 仍在仓库里；开源仓库里留不留、要不要只放 Release 包，
-仍待定。原候选：1. 和线稿一起进仓库，写明「AI 生成、成年、不对应真人、元数据已清除」；2. 只放 Release 包；3. 暂不公开。
 
 ### D-01 授权：Apache-2.0，代码和图片同一许可证（2026-10-28，人定）
 人定：和作者的另一个开源项目（TryBoard）用同一套许可证与开源文件规范。整个仓库——代码、catalog、文档、图片——都是 **Apache-2.0**（`LICENSE` 全文 + `NOTICE`），外部贡献按 §5 入站即出站，不另签 CLA。细则见 [LICENSING.md](LICENSING.md)。

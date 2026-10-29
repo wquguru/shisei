@@ -4,13 +4,13 @@
 
 # Shisei 姿勢
 
-**3 シリーズ 207 ポーズ × 5 アングル。AI 画像生成のポーズ参照に使える素体の線画ライブラリ。**
+**4 シリーズ 256 ポーズ × 5 アングル。AI 画像生成のポーズ参照に使える素体の線画ライブラリ。**
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
-[![Poses](https://img.shields.io/badge/ポーズ-207-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/線画-856%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
-[![Photos](https://img.shields.io/badge/実写-111-5B616A?style=flat-square)](../GENERATION.md)
+[![Poses](https://img.shields.io/badge/ポーズ-256-15171A?style=flat-square)](../../data/catalog.json)
+[![Line art](https://img.shields.io/badge/線画-1057%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Photos](https://img.shields.io/badge/実写-103-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/ランタイム依存-0-E07A52?style=flat-square)](../../web)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](../../LICENSE)
@@ -30,12 +30,15 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 | シリーズ | 表示ポーズ | 品質チェック合格 | サイトでの扱い |
 |---|---:|---:|---|
 | 全身・標準（`std`、P###） | 50 / 73 | 208 / 365 | 表示 |
-| 上半身（`upper`、U###） | 77 / 80 | 307 / 400 | かわいい系は表示、セクシー系・胸寄せ系はスイッチで表示 |
-| 全身・セクシー（`sexy`、S###） | 80 / 80 | 341 / 400 | スイッチで表示 |
+| 上半身（`upper`、U###） | 77 / 80 | 307 / 400 | 表示 |
+| 全身・セクシー（`sexy`、S###） | 80 / 80 | 341 / 400 | 表示（スイッチで非表示にできます） |
+| ふたり（`duo`、D###） | 49 / 55 | 201 / 275 | 表示（スイッチで非表示にできます） |
 
-- **すべてのアングルを品質チェック**しています（[docs/qc/](../qc/README.md)）。乳首の印、顔や髪、衣服、背景、崩れた構造、違うアングル、名前と違うポーズのものは `images/` と catalog から外し、理由を `data/qc.json` に残しています。std の 23 ポーズは名前と絵が合わないため、名前を直すまで非表示です。
+`suggestive` のポーズ（全身・セクシー、ふたり、上半身のセクシー系・胸寄せ系）は初期状態で表示され、トップのスクロール、ポーズページ、シェアカード、sitemap には入りません。スイッチひとつでまとめて非表示にできます。
+
+- **すべてのアングルを品質チェック**しています（[docs/qc/](../qc/README.md)）。乳首の印、顔や髪、衣服、背景、崩れた構造、違うアングル、未成年に見える人物、名前と違うポーズのものは `images/` と catalog から外し、理由を `data/qc.json` に残しています。std の 23 ポーズは名前と絵が合わないため、名前を直すまで非表示です。
 - 生成できなかったアングルは、崩れた絵で埋めずに空けています。
-- **実写 112 枚**（std の P001–P022 と P050）。AI 生成の成人で、実在の人物ではありません。
+- **実写 103 枚**（std の P001–P022 と P050）。線画と同じく品質チェック済みです。AI 生成の成人で、実在の人物ではありません。
 - `data/catalog.json` / `catalog.csv`：シリーズ、レーティング、4 言語の分類と名前、std の英語ポーズ説明、アングルごとのファイル、空欄の理由。
 
 ## 使い方
@@ -88,9 +91,9 @@ python3 tools/verify.py
 |---|---|
 | 標準 73 ポーズ × 5 アングル、カタログ、Web 用 2 サイズ、検証 | ✅ 完了 |
 | カタログから生成する静的ギャラリー | ✅ 完了 |
-| GitHub Pages での公開ギャラリー | ☐ 次 |
+| 公開ギャラリー shisei.indaloop.app（Cloudflare Pages） | ☐ 次 |
 | P062 の下からのアングル | ☐ 未解決 |
-| 実写を公開リポジトリに含めるか（D-03） | ☐ 未決定 |
+| 実写を品質チェック後に公開（D-03） | ✅ 公開 |
 
 ## 謝辞
 

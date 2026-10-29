@@ -4,13 +4,13 @@
 
 # Shisei 姿勢
 
-**三个系列 207 套素体姿势，每套 5 个机位，给 AI 绘图当姿势参考的线稿库。**
+**四个系列 256 套素体姿势，每套 5 个机位，给 AI 绘图当姿势参考的线稿库。**
 
 [English](../../README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-[![Poses](https://img.shields.io/badge/姿势-207-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/线稿-856%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
-[![Photos](https://img.shields.io/badge/实拍-111-5B616A?style=flat-square)](../GENERATION.md)
+[![Poses](https://img.shields.io/badge/姿势-256-15171A?style=flat-square)](../../data/catalog.json)
+[![Line art](https://img.shields.io/badge/线稿-1057%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Photos](https://img.shields.io/badge/实拍-103-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/运行时依赖-0-E07A52?style=flat-square)](../../web)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](../../LICENSE)
@@ -30,12 +30,15 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 | 系列 | 显示的套数 | 质检通过的机位 | 页面上 |
 |---|---:|---:|---|
 | 全身・标准（`std`，P###） | 50 / 73 | 208 / 365 | 默认显示 |
-| 上半身（`upper`，U###） | 77 / 80 | 307 / 400 | 可爱系默认显示，性感系、聚胸系要打开开关 |
-| 全身・性感（`sexy`，S###） | 80 / 80 | 341 / 400 | 要打开开关 |
+| 上半身（`upper`，U###） | 77 / 80 | 307 / 400 | 默认显示 |
+| 全身・性感（`sexy`，S###） | 80 / 80 | 341 / 400 | 默认显示，开关可隐藏 |
+| 双人（`duo`，D###） | 49 / 55 | 201 / 275 | 默认显示，开关可隐藏 |
 
-- **每个机位都过了质检**（[docs/qc/](../qc/README.md)）。有乳头标记、五官或头发、衣物、背景、结构畸形、机位不对，或者画的不是这个姿势的，都从 `images/` 和 catalog 里拿掉了，原因记在 `data/qc.json`。std 有 23 套画的姿势和名字对不上，重新命名之前先不显示。
+标为 `suggestive` 的姿势（全身・性感、双人，上半身的性感系、聚胸系）默认显示，不进首屏滚动方块、姿势页、分享卡和 sitemap，一个开关就能全部隐藏。
+
+- **每个机位都过了质检**（[docs/qc/](../qc/README.md)）。有乳头标记、五官或头发、衣物、背景、结构畸形、机位不对、人物看起来像未成年，或者画的不是这个姿势的，都从 `images/` 和 catalog 里拿掉了，原因记在 `data/qc.json`。std 有 23 套画的姿势和名字对不上，重新命名之前先不显示。
 - 没生成出来的机位宁可留空，也不放一张画错的。
-- **112 张实拍**，覆盖 std 的 P001–P022 和 P050，都是 AI 生成的成年人物，不对应任何真人。
+- **103 张实拍**，覆盖 std 的 P001–P022 和 P050，和线稿一样过了质检，都是 AI 生成的成年人物，不对应任何真人。
 - `data/catalog.json` 和 `catalog.csv` 里有系列、分级、四语分类和名称、std 的英文姿势描述、每个机位的文件，以及机位为空的原因。
 
 ## 怎么用
@@ -88,9 +91,9 @@ python3 tools/verify.py
 |---|---|
 | 73 套标准姿势 × 5 机位、catalog、两档网页图、校验 | ✅ 完成 |
 | 从 catalog 生成的静态画廊 | ✅ 完成 |
-| GitHub Pages 公开画廊 | ☐ 下一步 |
+| 公开画廊 shisei.indaloop.app（Cloudflare Pages） | ☐ 下一步 |
 | 补上 P062 仰视 | ☐ 未解决 |
-| 实拍图是否进公开仓库（D-03） | ☐ 待定 |
+| 实拍图过质检后公开（D-03） | ✅ 公开 |
 
 ## 致谢
 
