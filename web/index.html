@@ -69,7 +69,7 @@ __HEAD__
   <div class="filters">
     <div class="series-row">
       <div class="seg series" role="group" id="series"></div>
-      <button type="button" class="chip adult" id="adult" aria-pressed="false"></button>
+      <button type="button" class="chip adult" id="adult" role="switch" aria-checked="false"></button>
     </div>
     <div class="cats" role="tablist" id="cats"></div>
     <div class="filter-row">
@@ -106,6 +106,12 @@ __NOSCRIPT__
       <img id="lbImg" alt="">
       <div class="lb-missing" id="lbMissing" hidden></div>
       <div class="lb-pair" id="lbPair" hidden></div>
+      <div class="lb-veil" id="lbVeil" hidden>
+        <span class="veil-ic"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M3 3l18 18"/><path d="M10.6 5.1A10 10 0 0 1 12 5c6 0 10 7 10 7a17 17 0 0 1-3.2 3.9"/><path d="M6.6 6.6C3.9 8.4 2 12 2 12s4 7 10 7c1.8 0 3.4-.6 4.8-1.4"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg></span>
+        <b id="lbVeilTitle"></b>
+        <button type="button" class="pill dark" id="lbVeilOne"></button>
+        <button type="button" class="pill light" id="lbVeilAll"></button>
+      </div>
       <button type="button" class="lb-nav l" id="lbPrev" data-i18n-aria="prevAngle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
       <button type="button" class="lb-nav r" id="lbNext" data-i18n-aria="nextAngle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
       <span class="lb-counter" id="lbCounter"></span>
@@ -163,6 +169,7 @@ __NOSCRIPT__
   <div id="dlBody"></div>
 </dialog>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="nudge" id="nudge" role="status" hidden><span id="nudgeText"></span><button type="button" id="nudgeAll" data-i18n="veilAll"></button><button type="button" class="nudge-x" id="nudgeClose" data-i18n-aria="close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
 
 <script id="catalog" type="application/json">__CATALOG__</script>
 <script>window.SHISEI = { repo: '__REPO__', version: '__VERSION__', base: '__BASE__', lang: '__LOC__', packs: __PACKS__ };</script>

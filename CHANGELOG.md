@@ -17,6 +17,9 @@ the catalog schema.
   「线稿与实拍对照」 section. The grid keeps two modes.
 
 ### Changed
+- Suggestive poses are blurred in place instead of hidden (D-06): every series and count is visible, one tap reveals
+  a set for this visit, the switch (now `role="switch"`, first in the phone row) shows all; after two single reveals a
+  bar offers to show all. The lightbox opens veiled sets blurred with downloads held back.
 - Every count on the site comes from one computation in `build_site.py`, also published as `/stats.json`. Page
   titles and the home share card say 1,100+ line-art views instead of "69 poses × 5 angles" (which counted only std
   general sets); descriptions give 280 sets and 1,133 views; no copy says every pose has five angles.

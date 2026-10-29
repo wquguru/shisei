@@ -6,6 +6,22 @@
 entries:
   - date: 2026-10-29
     tag: improve
+    title: Sexy poses are blurred, not hidden
+    desc: The sexy and duo series now sit in the gallery blurred instead of hidden. Tap one to see it, or flip the switch above the grid to show them all.
+    link: /?series=sexy
+    cta: See the series
+    title_zh: 性感姿势改为模糊，不再隐藏
+    desc_zh: 全身・性感和双人系列现在直接出现在图库里，只是先模糊。点一张就能单独看，或者拨一下网格上方的开关全部显示。
+    cta_zh: 看看这个系列
+    title_ja: セクシー系は非表示からぼかしに
+    desc_ja: 全身・セクシーとふたりのシリーズは、隠さずにぼかしてギャラリーに並べました。1 枚タップでそのポーズだけ、グリッド上のスイッチでまとめて表示できます。
+    cta_ja: シリーズを見る
+    title_ko: 섹시 포즈는 숨기지 않고 흐리게
+    desc_ko: 전신・섹시와 2인 시리즈를 숨기지 않고 흐리게 갤러리에 보여 줍니다. 하나를 탭하면 그 포즈만, 그리드 위 스위치로 모두 볼 수 있습니다.
+    cta_ko: 시리즈 보기
+
+  - date: 2026-10-29
+    tag: improve
     title: Missing angles point you somewhere
     desc: An angle that is not drawn yet now says so in a word and offers a button to the closest angle that is. Hollow dots under each card show the missing ones at a glance.
     link: /

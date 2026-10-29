@@ -150,6 +150,7 @@ img { display: block; }
 .photo-mode .tile { background: var(--tile-photo); }
 @media (hover: hover) {
   .card:hover .missing { transform: translateY(-3px); }
+  .card:hover .veil { transform: translateY(-3px); transition: transform .25s ease; }
   .card:hover .tile, .stile:hover .tile { background: var(--tint); box-shadow: 0 18px 32px -18px rgba(24,24,27,0.4); transform: translateY(-3px); }
   .photo-mode .card:hover .tile, .photo-mode .stile:hover .tile { background: var(--tile-photo-on); }
 }
@@ -470,11 +471,43 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 /* series tabs + rating toggle (above the category chips) */
 .series-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
 .seg.series .n { font-family: var(--mono); font-size: 12px; opacity: 0.7; }
-.chip.adult { margin-left: auto; }
-.chip.adult[aria-pressed="true"] { background: var(--field); color: var(--ink); border-color: var(--accent); }
+.chip.adult { margin-left: auto; gap: 12px; padding-right: 8px; border-color: var(--accent); background: var(--glow); color: var(--ink); }
+.chip.adult .track { width: 44px; height: 26px; border-radius: 999px; background: var(--line); display: flex; align-items: center; padding: 3px; box-sizing: border-box; transition: background-color .2s; }
+.chip.adult .track i { width: 20px; height: 20px; border-radius: 999px; background: #FFFFFF; box-shadow: 0 1px 3px rgba(0,0,0,0.2); transition: transform .2s; }
+.chip.adult[aria-checked="true"] { background: var(--field); border-color: var(--line); }
+.chip.adult[aria-checked="true"] .track { background: var(--btn); }
+.chip.adult[aria-checked="true"] .track i { transform: translateX(18px); }
 @media (max-width: 720px) {
   .series-row { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
   .seg.series { flex-wrap: nowrap; flex: 0 0 auto; }
   .seg.series button { white-space: nowrap; }
-  .chip.adult { margin-left: 0; }
+  /* First in the row so it is on screen without scrolling the tabs sideways. */
+  .chip.adult { margin-left: 0; order: -1; white-space: nowrap; }
+}
+
+/* suggestive poses: blurred in place until revealed (D-06) */
+.veiled .tile img { filter: blur(14px); transform: scale(1.12); }
+.veil { position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; border: 0; border-radius: 28px; background: rgba(236,231,223,0.35); color: #18181B; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+.stile .veil { border-radius: inherit; pointer-events: none; }
+.veil-ic { width: 48px; height: 48px; border-radius: 999px; background: rgba(255,255,255,0.88); display: flex; align-items: center; justify-content: center; color: #18181B; }
+.veil:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.lb.veiled .lb-stage img, .lb.veiled .lb-pair img { filter: blur(28px); transform: scale(1.1); }
+.lb.veiled .lb-chips img { filter: blur(8px); }
+.lb.veiled .lb-nav, .lb.veiled .lb-counter { z-index: 3; }
+.lb-veil { position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; background: rgba(236,231,223,0.3); color: #18181B; font-size: 18px; text-align: center; padding: 20px; }
+.lb-veil .veil-ic { width: 68px; height: 68px; }
+.lb-veil .pill { height: 48px; padding: 0 24px; font-size: 16px; }
+.lb-veil[hidden] { display: none; }
+.nudge { position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%); z-index: 100; display: flex; align-items: center; gap: 10px; max-width: calc(100vw - 32px); box-sizing: border-box; padding: 6px 6px 6px 20px; border-radius: 999px; background: var(--btn); color: var(--btn-ink); font-size: 15px; box-shadow: 0 10px 30px -10px rgba(24,24,27,0.4); }
+.nudge[hidden] { display: none; }
+.nudge #nudgeAll { min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px; background: var(--new); color: var(--new-ink); font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap; }
+.nudge-x { width: 44px; height: 44px; border: 0; border-radius: 999px; background: transparent; color: inherit; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+@media (max-width: 720px) {
+  .veiled .tile img { filter: blur(10px); }
+  .veil { border-radius: 22px; gap: 6px; font-size: 11px; }
+  .c3 .veil { border-radius: 16px; }
+  .veil-ic { width: 36px; height: 36px; }
+  .c3 .veil-t { display: none; }
+  .nudge { left: 16px; right: 16px; transform: none; font-size: 14px; border-radius: 18px; }
+  .nudge span { flex: 1; }
 }

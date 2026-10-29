@@ -17,9 +17,13 @@
       ['Seated on top', '#DDB9C8'], ['Standing', '#AFC3E0'], ['Standing close', '#C7DCD6'], ['Side-lying', '#CBD0AC'], ['Seated', '#D3D1E6'],
       ['Face-to-face seated', '#BCD3C6'], ['Seated close', '#D3D1E6'], ['Lying', '#E3CBB0'], ['Close contact', '#EBC0BC']]
   };
-  // Suggestive poses (the sexy and duo series, upper's Sexy / Chest emphasis) are hidden until the reader turns them on
-  // (DECISIONS D-06), so a first visit from the README or a shared link opens on general poses only.
+  // Suggestive poses (the sexy and duo series, upper's Sexy / Chest emphasis) stay in the grid but blurred until the
+  // reader taps one or turns them all on (DECISIONS D-06): a first visit from the README or a shared link shows nothing
+  // suggestive, yet the series are in plain sight instead of hidden behind a switch nobody found.
   const SHOW_SUGGESTIVE_DEFAULT = false;
+  // After this many one-by-one reveals, offer to show them all.
+  const NUDGE_AT = 2;
+  const EYE_OFF = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M3 3l18 18"/><path d="M10.6 5.1A10 10 0 0 1 12 5c6 0 10 7 10 7a17 17 0 0 1-3.2 3.9"/><path d="M6.6 6.6C3.9 8.4 2 12 2 12s4 7 10 7c1.8 0 3.4-.6 4.8-1.4"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>';
   const TOOLS = ['ComfyUI', 'Stable Diffusion', 'Flux', 'Midjourney', 'Nano Banana', 'Qwen-Image', '即梦'];
   const NAME_LABEL = { cn: 'ZH', jp: 'JA', en: 'EN', kr: 'KO' };
   // Each language has its own copy of this page (zh at the root, the others under ja/ en/ ko/) so search engines and
@@ -70,7 +74,10 @@
     view: params.get('view') === 'single' ? 'single' : 'pose',
     // Phone column count (CSS ignores it above 720px): a per-reader preference, so storage, not the URL.
     cols: store.get('cols') === '2' ? 2 : 3,
-    per: {}
+    per: {},
+    // Poses revealed one by one: this visit only, the switch is the lasting choice.
+    revealed: new Set(),
+    nudged: false
   };
 
   const $ = (id) => document.getElementById(id);
@@ -81,12 +88,10 @@
   const srcset = (kind, file) => src(kind, 'w300', file) + ' 300w, ' + src(kind, 'w600', file) + ' 600w, ' + src(kind, 'w900', file) + ' 900w';
   const files = (p, photo) => (photo ? p.photo : p.line);
   const catLabel = (p) => (p.series === 'std' ? t().cats[p.ci] : p['class_' + t().suffix]);
-  // What the reader may see at all: rating first, then the series tab.
-  const allowed = () => poses.filter((p) => S.adult || !p.suggestive);
-  const inSeries = () => allowed().filter((p) => S.series === 'all' || p.series === S.series);
-  // A series with nothing allowed (?series=duo while suggestive poses are hidden) has no tab; fall back to all.
-  const fixSeries = () => { if (S.series !== 'all' && !allowed().some((p) => p.series === S.series)) S.series = 'all'; };
-  fixSeries();
+  const veiled = (p) => p.suggestive && !S.adult && !S.revealed.has(p.id);
+  const inSeries = () => poses.filter((p) => S.series === 'all' || p.series === S.series);
+  // A series this build does not ship (?series=duo on a std-only build) has no tab; fall back to all.
+  if (S.series !== 'all' && !poses.some((p) => p.series === S.series)) S.series = 'all';
   const firstView = (arr) => Math.max(0, arr.findIndex(Boolean));
   // The closest angle that has an image, the next one first; -1 when the set has none.
   const nearView = (arr, v) => {
@@ -190,16 +195,16 @@
   function renderCats() {
     const T = t();
     const chip = (label, n, sel, dot, act) => '<button type="button" class="chip" role="tab" aria-selected="' + sel + '" data-act="' + act + '"><span class="dot" style="background:' + dot + '"></span>' + esc(label) + '<span class="n">' + n + '</span></button>';
-    const ok = allowed();
+    const ok = poses;
     const tabs = [['all', ok.length]].concat(SERIES.map((k) => [k, ok.filter((p) => p.series === k).length])).filter((x) => x[1] > 0);
     $('series').setAttribute('aria-label', T.seriesLabel);
     $('series').innerHTML = tabs.map(([k, n]) => '<button type="button" data-act="series:' + k + '" aria-pressed="' + (S.series === k) + '">' + esc(T.series[k]) + ' <span class="n">' + n + '</span></button>').join('');
     const adult = $('adult');
     // The public build ships no suggestive poses, so the toggle would switch nothing.
     adult.hidden = !poses.some((p) => p.suggestive);
-    adult.setAttribute('aria-pressed', String(S.adult));
+    adult.setAttribute('aria-checked', String(S.adult));
     adult.title = T.adultHint;
-    adult.innerHTML = '<span class="dot" style="background:' + (S.adult ? 'var(--accent)' : 'var(--line)') + '"></span>' + esc(S.adult ? T.adultOn : T.adultOff);
+    adult.innerHTML = esc(S.adult ? T.adultOn : T.adultOff) + '<span class="track" aria-hidden="true"><i></i></span>';
     const base = inSeries();
     const cats = S.series === 'all' ? [] : CATS[S.series].map((c, i) => {
       const sample = base.find((p) => p.ci === i);
@@ -260,16 +265,21 @@
     const kind = photo ? 'photo' : 'line';
     const dots = VIEWS.map((_, i) => '<button type="button" data-dot="' + i + '" aria-label="' + esc(T.views[i]) + '" aria-pressed="' + (i === cur) + '"' + (arr[i] ? '' : ' disabled') + '><i></i></button>').join('');
     // The gap box sits beside the tile link, not in it: its button cannot nest inside an <a>.
-    return '<article class="card" data-id="' + p.id + '" style="--tint:' + p.tint + '">' +
+    const veil = veiled(p);
+    return '<article class="card' + (veil ? ' veiled' : '') + '" data-id="' + p.id + '" style="--tint:' + p.tint + '">' +
       '<div class="tile-box"><a class="tile" href="#' + p.id + '-' + VIEWS[cur] + '" data-tile aria-label="' + esc(T.open(p.id) + ' ' + nameOf(p)) + '">' +
         '<img' + (f ? ' src="' + src(kind, 'w300', f) + '" srcset="' + srcset(kind, f) + '"' : '') + ' sizes="(max-width: 720px) 50vw, 320px" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[cur]) + '" loading="lazy" decoding="async"' + (f ? '' : ' hidden') + '>' +
         (p.isNew ? '<span class="badge new">' + T.newBadge + '</span>' : '') +
         (!photo && p.photo.some(Boolean) ? '<span class="badge ph">' + esc(T.hasPhoto) + '</span>' : '') +
         '<span class="vlabel">' + esc(T.views[cur]) + ' ' + (cur + 1) + '/5</span>' +
-      '</a><div class="missing"' + (f ? ' hidden>' : '>' + cardGapHtml(arr, cur, photo)) + '</div></div>' +
+      '</a><div class="missing"' + (f ? ' hidden>' : '>' + cardGapHtml(arr, cur, photo)) + '</div>' + (veil ? veilBtn(p) : '') + '</div>' +
       '<div class="card-foot"><div class="card-t"><h3>' + esc(nameOf(p)) + '</h3><span>' + p.id + ' · ' + esc(catLabel(p)) + '</span></div>' +
       '<div class="dots" role="group" aria-label="' + esc(T.angle) + '">' + dots + '</div></div></article>';
   }
+
+  // The veil is a button over the tile, not part of the link: the first tap reveals, the next one opens.
+  const veilBtn = (p) => '<button type="button" class="veil" data-reveal="' + p.id + '" aria-label="' + esc(t().veilShow(p.id) + ' ' + nameOf(p)) + '">' +
+    '<span class="veil-ic">' + EYE_OFF + '</span><span class="veil-t">' + esc(t().veilTap) + '</span></button>';
 
   // Swap one card's angle in place so hover state and transitions are not interrupted.
   function updateCard(card, p) {
@@ -311,8 +321,9 @@
       const tiles = [];
       list.forEach((p) => files(p, photo).forEach((f, i) => {
         if (!f || (S.angle >= 0 && S.angle !== i)) return;
-        tiles.push('<a class="stile" href="#' + p.id + '-' + VIEWS[i] + '" data-open="' + p.id + '" data-v="' + i + '" style="--tint:' + p.tint + '" aria-label="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[i]) + '">' +
-          '<span class="tile">' + '<img src="' + src(kind, 'w300', f) + '" srcset="' + srcset(kind, f) + '" sizes="(max-width: 720px) 50vw, 200px" alt="" loading="lazy" decoding="async"></span>' +
+        tiles.push('<a class="stile' + (veiled(p) ? ' veiled' : '') + '" href="#' + p.id + '-' + VIEWS[i] + '" data-open="' + p.id + '" data-v="' + i + '" style="--tint:' + p.tint + '" aria-label="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[i]) + '">' +
+          '<span class="tile">' + '<img src="' + src(kind, 'w300', f) + '" srcset="' + srcset(kind, f) + '" sizes="(max-width: 720px) 50vw, 200px" alt="" loading="lazy" decoding="async">' +
+          (veiled(p) ? '<span class="veil"><span class="veil-ic">' + EYE_OFF + '</span></span>' : '') + '</span>' +
           '<span class="stile-t"><span class="mono">' + p.id + '</span><span>' + esc(T.views[i]) + '</span></span></a>');
       }));
       count = tiles.length;
@@ -346,14 +357,32 @@
     renderGrid();
     syncUrl();
   }
-  $('adult').addEventListener('click', () => {
-    S.adult = !S.adult;
-    store.set('adult', S.adult ? '1' : '0');
-    fixSeries();
+  function setAdult(on) {
+    S.adult = on;
+    store.set('adult', on ? '1' : '0');
+    S.revealed.clear();
+    S.nudged = false;
+    $('nudge').hidden = true;
     renderAll();
-    renderMarquee();
-    syncUrl();
-  });
+  }
+  $('adult').addEventListener('click', () => setAdult(!S.adult));
+  // Unveil one pose in place (every card and tile of it) so the grid does not re-render under the reader's finger.
+  function reveal(id) {
+    S.revealed.add(id);
+    document.querySelectorAll('#grid [data-id="' + id + '"], #grid [data-open="' + id + '"]').forEach((el) => {
+      el.classList.remove('veiled');
+      const v = el.querySelector('.veil');
+      if (v) v.remove();
+    });
+    if ($('lb').open) renderLb();
+    if (!S.nudged && S.revealed.size >= NUDGE_AT) {
+      S.nudged = true;
+      $('nudgeText').textContent = t().nudge(S.revealed.size);
+      $('nudge').hidden = false;
+    }
+  }
+  $('nudgeAll').addEventListener('click', () => setAdult(true));
+  $('nudgeClose').addEventListener('click', () => { $('nudge').hidden = true; });
   document.addEventListener('click', (e) => {
     const b = e.target.closest('[data-act]');
     if (b) act(b.dataset.act);
@@ -374,8 +403,9 @@
   grid.addEventListener('mouseover', pickDot);
   grid.addEventListener('focusin', pickDot);
   grid.addEventListener('click', (e) => {
+    const rv = e.target.closest('[data-reveal]');
+    if (rv) { const card = rv.closest('.card'); reveal(rv.dataset.reveal); card.querySelector('[data-tile]').focus(); return; }
     if (e.target.closest('[data-dot]')) { pickDot(e); return; }
-    const tile = e.target.closest('[data-tile]');
     const go = e.target.closest('[data-go]');
     if (go) {
       const card = go.closest('.card');
@@ -385,6 +415,7 @@
       card.querySelector('[data-tile]').focus();
       return;
     }
+    const tile = e.target.closest('[data-tile]');
     if (tile) {
       e.preventDefault();
       const p = byId.get(tile.closest('.card').dataset.id);
@@ -392,7 +423,11 @@
       return;
     }
     const s = e.target.closest('.stile');
-    if (s) { e.preventDefault(); openLb(s.dataset.open, +s.dataset.v, S.medium); }
+    if (s) {
+      e.preventDefault();
+      if (s.classList.contains('veiled')) reveal(s.dataset.open);
+      else openLb(s.dataset.open, +s.dataset.v, S.medium);
+    }
   });
   // An explicit list of the four languages: a single button that cycles them hid where the next click would land.
   // ?lang is dropped from the targets, because on arrival it outranks the reader's pick (tools/site_pages.py).
@@ -470,11 +505,11 @@
   const lbFiles = (p, m) => (m === 'compare' ? p.line.map((f, i) => f || p.photo[i]) : files(p, m === 'photo'));
   function lbList() {
     const list = pool();
-    return list.some((p) => p.id === LB.id) ? list : allowed();
+    return list.some((p) => p.id === LB.id) ? list : poses;
   }
   function openLb(id, v, medium) {
     const p = byId.get(id);
-    if (!p || (p.suggestive && !S.adult)) return;
+    if (!p) return;
     LB.id = id;
     LB.medium = MEDIA.includes(medium) && p.photo.some(Boolean) ? medium : 'line';
     const arr = lbFiles(p, LB.medium);
@@ -519,6 +554,13 @@
     $('lb').style.setProperty('--tint', m === 'line' ? p.tint : 'var(--tile)');
     $('lb').classList.toggle('photo', photo);
     $('lb').classList.toggle('compare', compare);
+    // A veiled pose opens blurred, all five angles with it; downloads wait until it is shown.
+    const veil = veiled(p);
+    $('lb').classList.toggle('veiled', veil);
+    $('lbVeil').hidden = !veil;
+    $('lbVeilTitle').textContent = T.veilTitle;
+    $('lbVeilOne').textContent = T.veilOne;
+    $('lbVeilAll').textContent = T.veilAll;
     const img = $('lbImg');
     if (f && !compare) { img.src = src(kind, 'w900', f); img.alt = p.id + ' ' + nameOf(p) + ' · ' + T.views[LB.v]; }
     img.hidden = !f || compare;
@@ -559,6 +601,7 @@
       setDl($('lbDl'), T.line + ' 900', p.line[LB.v], 'line', p);
       setDl(dl2, T.photo + ' 900', p.photo[LB.v], 'photo', p);
     } else setDl($('lbDl'), T.download + ' · ' + (photo ? '900×1800' : '900×1200'), f, kind, p);
+    if (veil) [$('lbDl'), dl2].forEach((a) => { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); });
     // Static pose pages exist only for general std poses (tools/site_pages.py).
     const hasPage = hasPosePage(p);
     $('lbPage').hidden = !hasPage;
@@ -602,6 +645,8 @@
     const b = e.target.closest('[data-lbm]');
     if (b && !b.disabled) openLb(LB.id, LB.v, b.dataset.lbm);
   });
+  $('lbVeilOne').addEventListener('click', () => reveal(LB.id));
+  $('lbVeilAll').addEventListener('click', () => setAdult(true));
   $('lbCopyDesc').addEventListener('click', () => copy(byId.get(LB.id).desc_en));
   $('lbCopyId').addEventListener('click', () => copy(LB.id));
   // Share the pose page, not this #hash: link previews never see a fragment, the pose page has its own card.
