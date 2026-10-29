@@ -1,0 +1,518 @@
+{
+ "reviewed": [
+  "P016.jpg",
+  "P017.jpg",
+  "P018.jpg",
+  "P021.jpg",
+  "P024.jpg",
+  "P039.jpg",
+  "P040.jpg",
+  "P041.jpg",
+  "P042.jpg",
+  "P049.jpg",
+  "P050.jpg",
+  "P051.jpg",
+  "P053.jpg",
+  "P054.jpg",
+  "P055.jpg",
+  "P056.jpg",
+  "P057.jpg",
+  "P058.jpg",
+  "P059.jpg",
+  "P060.jpg",
+  "P061.jpg",
+  "P062.jpg",
+  "P063.jpg",
+  "P064.jpg",
+  "P065.jpg",
+  "P066.jpg",
+  "P067.jpg",
+  "P068.jpg",
+  "P069.jpg",
+  "P070.jpg",
+  "P071.jpg",
+  "P072.jpg",
+  "P073.jpg",
+  "P074.jpg",
+  "P075.jpg",
+  "S001.jpg",
+  "S002.jpg",
+  "S003.jpg",
+  "S004.jpg",
+  "S005.jpg",
+  "S006.jpg",
+  "S007.jpg",
+  "S008.jpg",
+  "S009.jpg",
+  "S010.jpg",
+  "S011.jpg",
+  "S012.jpg",
+  "S013.jpg",
+  "S014.jpg",
+  "S015.jpg",
+  "S016.jpg",
+  "S017.jpg",
+  "S018.jpg",
+  "S019.jpg",
+  "S020.jpg",
+  "S021.jpg",
+  "S022.jpg",
+  "S023.jpg",
+  "S024.jpg",
+  "S025.jpg",
+  "S026.jpg",
+  "S027.jpg",
+  "S028.jpg",
+  "S029.jpg"
+ ],
+ "sets": [
+  {
+   "set": "P016",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "standing hands lifting hair",
+   "problem": false
+  },
+  {
+   "set": "P017",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "neutral standing",
+   "problem": false
+  },
+  {
+   "set": "P018",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "hands on hips",
+   "problem": false
+  },
+  {
+   "set": "P021",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "waving",
+   "problem": false
+  },
+  {
+   "set": "P024",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "hand on head, hand on hip",
+   "problem": false
+  },
+  {
+   "set": "P039",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "kneeling hands on knees; slight arch",
+   "problem": false
+  },
+  {
+   "set": "P040",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "kneeling, one arm raised",
+   "problem": false
+  },
+  {
+   "set": "P041",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "neutral W-sit",
+   "problem": false
+  },
+  {
+   "set": "P042",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "hands on floor crawl pose from front/diag; not seen from behind",
+   "problem": false
+  },
+  {
+   "set": "P049",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "lying on back legs up",
+   "problem": false
+  },
+  {
+   "set": "P050",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "reclined pin-up lean, legs apart toward camera in diag",
+   "problem": false
+  },
+  {
+   "set": "P051",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "lying with limbs sprawled",
+   "problem": false
+  },
+  {
+   "set": "P053",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "lying on side neutral",
+   "problem": false
+  },
+  {
+   "set": "P054",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "legs straight up",
+   "problem": false
+  },
+  {
+   "set": "P055",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "side-lying stretch",
+   "problem": false
+  },
+  {
+   "set": "P056",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "prone with legs raised",
+   "problem": false
+  },
+  {
+   "set": "P057",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "lying on back arched chest up, knees apart",
+   "problem": false
+  },
+  {
+   "set": "P058",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "squat hands on knees",
+   "problem": false
+  },
+  {
+   "set": "P059",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "squat one hand on floor",
+   "problem": false
+  },
+  {
+   "set": "P060",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "thinking squat",
+   "problem": false
+  },
+  {
+   "set": "P061",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "squat with knees apart toward camera, hand in hair",
+   "problem": false
+  },
+  {
+   "set": "P062",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "deep squat hands on floor",
+   "problem": false
+  },
+  {
+   "set": "P063",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "squat looking back, hips prominent in side view",
+   "problem": false
+  },
+  {
+   "set": "P064",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "bent forward hands on knees",
+   "problem": false
+  },
+  {
+   "set": "P065",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "deep forward bend",
+   "problem": false
+  },
+  {
+   "set": "P066",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "bent forward hand on hip, looking up",
+   "problem": false
+  },
+  {
+   "set": "P067",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "hips-back bend, hips emphasised in side view",
+   "problem": false
+  },
+  {
+   "set": "P068",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "limp forward bend",
+   "problem": false
+  },
+  {
+   "set": "P069",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "leg-lift balance",
+   "problem": false
+  },
+  {
+   "set": "P070",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "standing backbend",
+   "problem": false
+  },
+  {
+   "set": "P071",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "kneeling arched back, chest pushed forward",
+   "problem": false
+  },
+  {
+   "set": "P072",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "arched stretch both arms raised",
+   "problem": false
+  },
+  {
+   "set": "P073",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "arms spread",
+   "problem": false
+  },
+  {
+   "set": "P074",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "kneeling twist looking back, hips emphasised",
+   "problem": false
+  },
+  {
+   "set": "P075",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "sitting twist",
+   "problem": false
+  },
+  {
+   "set": "S001",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "S-curve hip-out pin-up stance",
+   "problem": false
+  },
+  {
+   "set": "S002",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "arched back hands in hair, chest out",
+   "problem": false
+  },
+  {
+   "set": "S003",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "look-back stance built around hips/back view",
+   "problem": false
+  },
+  {
+   "set": "S004",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "bent forward hands on knees",
+   "problem": false
+  },
+  {
+   "set": "S005",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "knee hug standing",
+   "problem": false
+  },
+  {
+   "set": "S006",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "leaning on wall, hips pushed back",
+   "problem": false
+  },
+  {
+   "set": "S007",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "back to viewer, hips-focused",
+   "problem": false
+  },
+  {
+   "set": "S008",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "standing split, flexibility",
+   "problem": false
+  },
+  {
+   "set": "S009",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "hands in hair, S-curve pin-up",
+   "problem": false
+  },
+  {
+   "set": "S010",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "hands pressed together at chest",
+   "problem": false
+  },
+  {
+   "set": "S011",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "overhead stretch",
+   "problem": false
+  },
+  {
+   "set": "S012",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "side leg raise",
+   "problem": false
+  },
+  {
+   "set": "S013",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "hands behind back, chest out",
+   "problem": false
+  },
+  {
+   "set": "S014",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "forward fold",
+   "problem": false
+  },
+  {
+   "set": "S015",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "hands on hips, knee in, pin-up stance",
+   "problem": false
+  },
+  {
+   "set": "S016",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "side-saddle sit",
+   "problem": false
+  },
+  {
+   "set": "S017",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "kneeling arched back, chest out",
+   "problem": false
+  },
+  {
+   "set": "S018",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "M-sit legs spread toward camera",
+   "problem": false
+  },
+  {
+   "set": "S019",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "kneeling legs apart hands on knees",
+   "problem": false
+  },
+  {
+   "set": "S020",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "V-sit legs spread toward camera",
+   "problem": false
+  },
+  {
+   "set": "S021",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "seated leg raise stretch",
+   "problem": false
+  },
+  {
+   "set": "S022",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "reclined legs spread toward camera, below view",
+   "problem": false
+  },
+  {
+   "set": "S023",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "reclined pin-up leaning on elbow",
+   "problem": false
+  },
+  {
+   "set": "S024",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "leg hug knees apart",
+   "problem": false
+  },
+  {
+   "set": "S025",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "one-knee hug",
+   "problem": false
+  },
+  {
+   "set": "S026",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "seiza-like hands in hair",
+   "problem": false
+  },
+  {
+   "set": "S027",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "W-sit leaning forward on hands",
+   "problem": false
+  },
+  {
+   "set": "S028",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "seated one knee up hands behind",
+   "problem": false
+  },
+  {
+   "set": "S029",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "seated one leg wide",
+   "problem": false
+  }
+ ]
+}

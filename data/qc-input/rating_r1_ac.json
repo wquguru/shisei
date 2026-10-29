@@ -1,0 +1,518 @@
+{
+ "reviewed": [
+  "S030.jpg",
+  "S031.jpg",
+  "S032.jpg",
+  "S033.jpg",
+  "S034.jpg",
+  "S035.jpg",
+  "S036.jpg",
+  "S037.jpg",
+  "S038.jpg",
+  "S039.jpg",
+  "S040.jpg",
+  "S041.jpg",
+  "S042.jpg",
+  "S043.jpg",
+  "S044.jpg",
+  "S045.jpg",
+  "S046.jpg",
+  "S047.jpg",
+  "S048.jpg",
+  "S049.jpg",
+  "S050.jpg",
+  "S051.jpg",
+  "S052.jpg",
+  "S053.jpg",
+  "S054.jpg",
+  "S055.jpg",
+  "S056.jpg",
+  "S057.jpg",
+  "S058.jpg",
+  "S059.jpg",
+  "S060.jpg",
+  "S061.jpg",
+  "S062.jpg",
+  "S063.jpg",
+  "S064.jpg",
+  "S065.jpg",
+  "S066.jpg",
+  "S067.jpg",
+  "S068.jpg",
+  "S069.jpg",
+  "S070.jpg",
+  "S071.jpg",
+  "S072.jpg",
+  "S073.jpg",
+  "S074.jpg",
+  "S075.jpg",
+  "S076.jpg",
+  "S077.jpg",
+  "S078.jpg",
+  "S079.jpg",
+  "S080.jpg",
+  "U001.jpg",
+  "U002.jpg",
+  "U003.jpg",
+  "U004.jpg",
+  "U005.jpg",
+  "U006.jpg",
+  "U008.jpg",
+  "U009.jpg",
+  "U010.jpg",
+  "U011.jpg",
+  "U012.jpg",
+  "U013.jpg",
+  "U014.jpg"
+ ],
+ "sets": [
+  {
+   "set": "S030",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Knees hugged sitting, neutral",
+   "problem": false
+  },
+  {
+   "set": "S031",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Kneeling arch, chest pushed out, hands behind head",
+   "problem": false
+  },
+  {
+   "set": "S032",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "All fours with arched back, hips pushed out",
+   "problem": false
+  },
+  {
+   "set": "S033",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Wide kneel facing camera, hips low",
+   "problem": false
+  },
+  {
+   "set": "S034",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Seiza with hands behind head, chest forward",
+   "problem": false
+  },
+  {
+   "set": "S035",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Half-kneel, hand on thigh, neutral",
+   "problem": false
+  },
+  {
+   "set": "S036",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Wide kneel leaning on hands, not built around chest or hips",
+   "problem": false
+  },
+  {
+   "set": "S037",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Wide kneel, hands in hair, chest presented",
+   "problem": false
+  },
+  {
+   "set": "S038",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Deep kneeling back arch pushing chest out",
+   "problem": false
+  },
+  {
+   "set": "S039",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Kneeling twist with arm raised, dance-like",
+   "problem": false
+  },
+  {
+   "set": "S040",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Cat pose with hips high toward camera",
+   "problem": false
+  },
+  {
+   "set": "S041",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "All fours with one leg raised behind, hips emphasised",
+   "problem": false
+  },
+  {
+   "set": "S042",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Wide seiza leaning forward on hands",
+   "problem": false
+  },
+  {
+   "set": "S043",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Kneeling with hips pushed forward, chest out",
+   "problem": false
+  },
+  {
+   "set": "S044",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Kneeling side lean, relaxed",
+   "problem": false
+  },
+  {
+   "set": "S045",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Kneeling arch with chest thrust up",
+   "problem": false
+  },
+  {
+   "set": "S046",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Side-lying with bent knee, above view with legs apart",
+   "problem": false
+  },
+  {
+   "set": "S047",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Prone pin-up, legs crossed in the air",
+   "problem": false
+  },
+  {
+   "set": "S048",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Deep cobra-style arch, chest forward",
+   "problem": false
+  },
+  {
+   "set": "S049",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Fitness half bridge with leg raised",
+   "problem": false
+  },
+  {
+   "set": "S050",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Supine, knees dropped to side, loose reclining",
+   "problem": false
+  },
+  {
+   "set": "S051",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Prone legs apart, above view toward hips",
+   "problem": false
+  },
+  {
+   "set": "S052",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Side-lying stretch with arm overhead",
+   "problem": false
+  },
+  {
+   "set": "S053",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Side recline, pin-up style, knee raised",
+   "problem": false
+  },
+  {
+   "set": "S054",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "Prone with hips raised high, buttocks prominent",
+   "problem": false
+  },
+  {
+   "set": "S055",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Supine legs in V toward camera",
+   "problem": false
+  },
+  {
+   "set": "S056",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Supine arch, arms overhead",
+   "problem": false
+  },
+  {
+   "set": "S057",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Prone look-back with raised leg, rear view emphasises hips",
+   "problem": false
+  },
+  {
+   "set": "S058",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Side-lying leg raise, hips and legs spread toward camera",
+   "problem": false
+  },
+  {
+   "set": "S059",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Supine knees up, below view spreads legs",
+   "problem": false
+  },
+  {
+   "set": "S060",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Prone frog legs, below view",
+   "problem": false
+  },
+  {
+   "set": "S061",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Side-lying back to viewer, hips focus",
+   "problem": false
+  },
+  {
+   "set": "S062",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Knees hugged to chest, neutral",
+   "problem": false
+  },
+  {
+   "set": "S063",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Prone chin on hands, playful, borderline pin-up",
+   "problem": false
+  },
+  {
+   "set": "S064",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Supine one knee up, neutral",
+   "problem": false
+  },
+  {
+   "set": "S065",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Side-lying propped, raised knee, below view",
+   "problem": false
+  },
+  {
+   "set": "S066",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Bridge, hips high, knees apart",
+   "problem": false
+  },
+  {
+   "set": "S067",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Contortion-like stretch, legs over head",
+   "problem": false
+  },
+  {
+   "set": "S068",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Shoulder-stand-style legs folded past head",
+   "problem": false
+  },
+  {
+   "set": "S069",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Legs folded with knees by head, front view exposed",
+   "problem": false
+  },
+  {
+   "set": "S070",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Deep squat, knees wide to camera",
+   "problem": false
+  },
+  {
+   "set": "S071",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Tiptoe frog squat, knees wide",
+   "problem": false
+  },
+  {
+   "set": "S072",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "Full acrobatic bridge",
+   "problem": false
+  },
+  {
+   "set": "S073",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Standing split, athletic",
+   "problem": false
+  },
+  {
+   "set": "S074",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Dance split with back arch",
+   "problem": false
+  },
+  {
+   "set": "S075",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Side split sitting up, athletic stretch",
+   "problem": false
+  },
+  {
+   "set": "S076",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Shoulder stand, legs in V, yoga",
+   "problem": false
+  },
+  {
+   "set": "S077",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "Kneeling backbend, yoga camel",
+   "problem": false
+  },
+  {
+   "set": "S078",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "Deep squat knees wide, hands behind head, chest forward",
+   "problem": false
+  },
+  {
+   "set": "S079",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "One-leg bridge, yoga/acrobatic",
+   "problem": false
+  },
+  {
+   "set": "S080",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "Reverse tabletop, hips up, chest and hips toward camera",
+   "problem": false
+  },
+  {
+   "set": "U001",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U002",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U003",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U004",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U005",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U006",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U008",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U009",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U010",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U011",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U012",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U013",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  },
+  {
+   "set": "U014",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "Cute upper-body gesture, neutral",
+   "problem": false
+  }
+ ]
+}

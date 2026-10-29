@@ -1,0 +1,518 @@
+{
+ "reviewed": [
+  "D001.jpg",
+  "D002.jpg",
+  "D003.jpg",
+  "D004.jpg",
+  "D005.jpg",
+  "D006.jpg",
+  "D007.jpg",
+  "D008.jpg",
+  "D009.jpg",
+  "D010.jpg",
+  "D011.jpg",
+  "D012.jpg",
+  "D013.jpg",
+  "D015.jpg",
+  "D017.jpg",
+  "D019.jpg",
+  "D020.jpg",
+  "D021.jpg",
+  "D023.jpg",
+  "D024.jpg",
+  "D025.jpg",
+  "D026.jpg",
+  "D027.jpg",
+  "D028.jpg",
+  "D030.jpg",
+  "D031.jpg",
+  "D032.jpg",
+  "D033.jpg",
+  "D034.jpg",
+  "D035.jpg",
+  "D036.jpg",
+  "D037.jpg",
+  "D038.jpg",
+  "D039.jpg",
+  "D040.jpg",
+  "D041.jpg",
+  "D042.jpg",
+  "D043.jpg",
+  "D044.jpg",
+  "D045.jpg",
+  "D046.jpg",
+  "D047.jpg",
+  "D048.jpg",
+  "D049.jpg",
+  "D051.jpg",
+  "D052.jpg",
+  "D053.jpg",
+  "D054.jpg",
+  "D055.jpg",
+  "P001.jpg",
+  "P002.jpg",
+  "P003.jpg",
+  "P004.jpg",
+  "P005.jpg",
+  "P006.jpg",
+  "P007.jpg",
+  "P008.jpg",
+  "P009.jpg",
+  "P010.jpg",
+  "P011.jpg",
+  "P012.jpg",
+  "P013.jpg",
+  "P014.jpg",
+  "P015.jpg"
+ ],
+ "sets": [
+  {
+   "set": "D001",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "standing embrace, one knee lifted",
+   "problem": false
+  },
+  {
+   "set": "D002",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "man standing over woman prone between his legs",
+   "problem": false
+  },
+  {
+   "set": "D003",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "lying with legs raised in V, ankles held",
+   "problem": false
+  },
+  {
+   "set": "D004",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "legs over shoulders, intimate position",
+   "problem": false
+  },
+  {
+   "set": "D005",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "hips lifted high, kneeling partner holds hips",
+   "problem": false
+  },
+  {
+   "set": "D006",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "inverted lift with legs split near partner's face",
+   "problem": false
+  },
+  {
+   "set": "D007",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "from behind, bent forward, hands on hips",
+   "problem": false
+  },
+  {
+   "set": "D008",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "seated facing, holding hands, legs tangled",
+   "problem": false
+  },
+  {
+   "set": "D009",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "seated on his lap held from behind",
+   "problem": false
+  },
+  {
+   "set": "D010",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "seated sideways on lap, tender hold; lap rule applied",
+   "problem": false
+  },
+  {
+   "set": "D011",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "lying overlapped on top of partner",
+   "problem": false
+  },
+  {
+   "set": "D012",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "all fours with partner kneeling behind",
+   "problem": false
+  },
+  {
+   "set": "D013",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "all fours, leg lifted by standing partner behind",
+   "problem": false
+  },
+  {
+   "set": "D015",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "legs draped across his lap; lap rule applied, mild",
+   "problem": false
+  },
+  {
+   "set": "D017",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "straddling seated on partner's hips",
+   "problem": false
+  },
+  {
+   "set": "D019",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "side-lying with leg on partner's shoulder",
+   "problem": false
+  },
+  {
+   "set": "D020",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "lying on top of partner",
+   "problem": false
+  },
+  {
+   "set": "D021",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "wrists pinned overhead, knees held, partner over",
+   "problem": false
+  },
+  {
+   "set": "D023",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "on back, hips lifted by partner's knees",
+   "problem": false
+  },
+  {
+   "set": "D024",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "seated on lap leaning forward, partner behind",
+   "problem": false
+  },
+  {
+   "set": "D025",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "on back, hips lifted high held by partner",
+   "problem": false
+  },
+  {
+   "set": "D026",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "standing, arm outstretched, waist supported",
+   "problem": false
+  },
+  {
+   "set": "D027",
+   "rating": "general",
+   "confidence": "low",
+   "reason": "she sits on his raised knee, neutral; category says straddling",
+   "problem": false
+  },
+  {
+   "set": "D028",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "head-to-toe overlapping lying, 69-like",
+   "problem": false
+  },
+  {
+   "set": "D030",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "seated side by side, legs crossed",
+   "problem": false
+  },
+  {
+   "set": "D031",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "standing figure holding raised leg of lying figure; stretch-like",
+   "problem": false
+  },
+  {
+   "set": "D032",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "kneeling over lying figure, close to chest",
+   "problem": false
+  },
+  {
+   "set": "D033",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "from behind, chest to floor, hips raised",
+   "problem": false
+  },
+  {
+   "set": "D034",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "face-to-face embrace on cross-legged lap",
+   "problem": false
+  },
+  {
+   "set": "D035",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "knees to shoulders, ankles held, partner kneeling over",
+   "problem": false
+  },
+  {
+   "set": "D036",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "on lap, hands at her chest from behind",
+   "problem": false
+  },
+  {
+   "set": "D037",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "from behind, deep bend, hands on hips",
+   "problem": false
+  },
+  {
+   "set": "D038",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "seated astride partner's hips",
+   "problem": false
+  },
+  {
+   "set": "D039",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "side-lying leg on shoulder, partner over",
+   "problem": false
+  },
+  {
+   "set": "D040",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "face down, one leg lifted, partner kneeling behind",
+   "problem": false
+  },
+  {
+   "set": "D041",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "standing embrace with legs tangled",
+   "problem": false
+  },
+  {
+   "set": "D042",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "standing embrace on tiptoe",
+   "problem": false
+  },
+  {
+   "set": "D043",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "standing close, hand on cheek and waist",
+   "problem": false
+  },
+  {
+   "set": "D044",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "standing, both wrists held overhead, close behind",
+   "problem": false
+  },
+  {
+   "set": "D045",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "standing embrace from behind, arms at waist/chest",
+   "problem": false
+  },
+  {
+   "set": "D046",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "carried sideways in arms",
+   "problem": false
+  },
+  {
+   "set": "D047",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "seated embrace from behind, one leg raised high",
+   "problem": false
+  },
+  {
+   "set": "D048",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "side-lying, partner leaning over from above",
+   "problem": false
+  },
+  {
+   "set": "D049",
+   "rating": "suggestive",
+   "confidence": "low",
+   "reason": "lying cuddle with leg draped over partner",
+   "problem": false
+  },
+  {
+   "set": "D051",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "knees held open wide, partner kneeling between",
+   "problem": false
+  },
+  {
+   "set": "D052",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "knees drawn to chest, partner kneeling close",
+   "problem": false
+  },
+  {
+   "set": "D053",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "bent forward supported at waist from behind",
+   "problem": false
+  },
+  {
+   "set": "D054",
+   "rating": "suggestive",
+   "confidence": "high",
+   "reason": "on lap face to face, legs around waist",
+   "problem": false
+  },
+  {
+   "set": "D055",
+   "rating": "suggestive",
+   "confidence": "medium",
+   "reason": "seated back to partner leaning back, knees spread wide",
+   "problem": false
+  },
+  {
+   "set": "P001",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P002",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P003",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P004",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P005",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P006",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P007",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P008",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P009",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P010",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P011",
+   "rating": "general",
+   "confidence": "medium",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P012",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P013",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P014",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  },
+  {
+   "set": "P015",
+   "rating": "general",
+   "confidence": "high",
+   "reason": "everyday seated/standing pose, solo",
+   "problem": false
+  }
+ ]
+}
