@@ -9,7 +9,7 @@
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
 [![Poses](https://img.shields.io/badge/포즈-256-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/선화-1057%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Line art](https://img.shields.io/badge/선화-1051%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/실사-103-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/이름-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/런타임%20의존성-0-E07A52?style=flat-square)](../../web)
@@ -32,7 +32,7 @@ Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는
 | 전신・표준 (`std`, P###) | 50 / 73 | 208 / 365 | 표시 |
 | 상반신 (`upper`, U###) | 77 / 80 | 307 / 400 | 표시 |
 | 전신・섹시 (`sexy`, S###) | 80 / 80 | 341 / 400 | 표시 (스위치로 숨길 수 있음) |
-| 2인 (`duo`, D###) | 49 / 55 | 201 / 275 | 표시 (스위치로 숨길 수 있음) |
+| 2인 (`duo`, D###) | 49 / 55 | 195 / 275 | 표시 (스위치로 숨길 수 있음) |
 
 `suggestive` 등급 포즈(전신・섹시, 2인, 상반신의 섹시계·가슴 강조계)는 기본으로 표시되며, 첫 화면 스크롤, 포즈 페이지, 공유 카드, sitemap에는 들어가지 않습니다. 스위치 하나로 모두 숨길 수 있습니다.
 

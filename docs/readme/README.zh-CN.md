@@ -9,7 +9,7 @@
 [English](../../README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 [![Poses](https://img.shields.io/badge/姿势-256-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/线稿-1057%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Line art](https://img.shields.io/badge/线稿-1051%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/实拍-103-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/运行时依赖-0-E07A52?style=flat-square)](../../web)
@@ -32,7 +32,7 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 | 全身・标准（`std`，P###） | 50 / 73 | 208 / 365 | 默认显示 |
 | 上半身（`upper`，U###） | 77 / 80 | 307 / 400 | 默认显示 |
 | 全身・性感（`sexy`，S###） | 80 / 80 | 341 / 400 | 默认显示，开关可隐藏 |
-| 双人（`duo`，D###） | 49 / 55 | 201 / 275 | 默认显示，开关可隐藏 |
+| 双人（`duo`，D###） | 49 / 55 | 195 / 275 | 默认显示，开关可隐藏 |
 
 标为 `suggestive` 的姿势（全身・性感、双人，上半身的性感系、聚胸系）默认显示，不进首屏滚动方块、姿势页、分享卡和 sitemap，一个开关就能全部隐藏。
 

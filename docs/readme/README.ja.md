@@ -9,7 +9,7 @@
 [English](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
 [![Poses](https://img.shields.io/badge/ポーズ-256-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/線画-1057%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Line art](https://img.shields.io/badge/線画-1051%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/実写-103-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/ランタイム依存-0-E07A52?style=flat-square)](../../web)
@@ -32,7 +32,7 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 | 全身・標準（`std`、P###） | 50 / 73 | 208 / 365 | 表示 |
 | 上半身（`upper`、U###） | 77 / 80 | 307 / 400 | 表示 |
 | 全身・セクシー（`sexy`、S###） | 80 / 80 | 341 / 400 | 表示（スイッチで非表示にできます） |
-| ふたり（`duo`、D###） | 49 / 55 | 201 / 275 | 表示（スイッチで非表示にできます） |
+| ふたり（`duo`、D###） | 49 / 55 | 195 / 275 | 表示（スイッチで非表示にできます） |
 
 `suggestive` のポーズ（全身・セクシー、ふたり、上半身のセクシー系・胸寄せ系）は初期状態で表示され、トップのスクロール、ポーズページ、シェアカード、sitemap には入りません。スイッチひとつでまとめて非表示にできます。
 
