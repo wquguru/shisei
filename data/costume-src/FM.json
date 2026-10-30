@@ -1,0 +1,238 @@
+{
+  "cat": "FM",
+  "note": "Formal wear set: suits, men's formal dress codes, evening and cocktail gowns, bridal (no veil), Chinese formal and an academic gown without cap (PLAN §4.4). Side-front Chinese closures are written in image coordinates. No real institution colours or insignia.",
+  "forms": [
+    {
+      "key": "suit-m-three-piece", "era": "suits", "gender": "M", "lower": "shoes",
+      "name": {"zh": "男士三件套西装", "ja": "メンズスリーピーススーツ", "en": "Men's Three-Piece Suit", "ko": "남성 쓰리피스 수트"},
+      "desc": "a men's three-piece business suit in {main} worsted wool: a single-breasted two-button jacket with notched lapels, structured shoulders, flap hip pockets and a hem covering the seat, the top button fastened; a matching five-button V-neck waistcoat visible in the jacket opening; a {shirt} dress shirt with a point collar and a {tie} silk tie; matching flat-front trousers with a pressed crease and a slight break over the shoes; black leather cap-toe oxford shoes",
+      "keep": "{main} two-button notched-lapel jacket, matching waistcoat, {shirt} shirt and {tie} tie, matching creased trousers, black oxfords",
+      "checks": ["单排两粒扣平驳领西装", "领口里露出同色马甲", "衬衫和领带", "同色西裤有裤线、黑色牛津鞋"],
+      "colorways": [
+        {"key": "charcoal", "name": {"zh": "炭灰", "ja": "チャコール", "en": "Charcoal", "ko": "차콜"}, "bg": "light", "vars": {"main": "charcoal grey", "shirt": "white", "tie": "burgundy"}},
+        {"key": "navy", "name": {"zh": "藏青", "ja": "ネイビー", "en": "Navy", "ko": "네이비"}, "bg": "light", "vars": {"main": "navy", "shirt": "pale blue", "tie": "silver-grey"}}
+      ]
+    },
+    {
+      "key": "suit-m-double-breasted", "era": "suits", "gender": "M", "lower": "shoes",
+      "name": {"zh": "男士双排扣西装", "ja": "メンズダブルスーツ", "en": "Men's Double-Breasted Suit", "ko": "남성 더블브레스티드 수트"},
+      "desc": "a men's double-breasted suit in {main} wool with a fine {stripe} chalk stripe: a six-button jacket with two buttons fastened, wide peak lapels, structured shoulders, jetted hip pockets and a hem covering the seat; a {shirt} dress shirt with a spread collar and a {tie} silk tie; matching trousers with a single forward pleat, a pressed crease and turn-ups at the hem; dark brown leather oxford shoes",
+      "keep": "{main} {stripe} chalk-stripe six-button double-breasted jacket with peak lapels, {shirt} shirt, {tie} tie, matching pleated trousers with turn-ups, brown oxfords",
+      "checks": ["双排六粒扣、扣两粒", "宽戗驳领", "细粉笔条纹", "裤脚翻边、棕色牛津鞋"],
+      "colorways": [
+        {"key": "navy-chalk", "name": {"zh": "藏青白条", "ja": "紺チョークストライプ", "en": "Navy Chalk Stripe", "ko": "네이비 초크 스트라이프"}, "bg": "light", "vars": {"main": "deep navy", "stripe": "white", "shirt": "white", "tie": "dark green"}},
+        {"key": "grey-chalk", "name": {"zh": "中灰白条", "ja": "グレーチョークストライプ", "en": "Grey Chalk Stripe", "ko": "그레이 초크 스트라이프"}, "bg": "light", "vars": {"main": "mid grey", "stripe": "pale grey", "shirt": "pale blue", "tie": "navy"}}
+      ]
+    },
+    {
+      "key": "suit-f-three-piece", "era": "suits", "gender": "F", "lower": "shoes",
+      "name": {"zh": "女士三件套西装", "ja": "レディーススリーピーススーツ", "en": "Women's Three-Piece Suit", "ko": "여성 쓰리피스 수트"},
+      "desc": "a women's tailored three-piece trouser suit in {main} wool crepe: a single-breasted one-button jacket with notched lapels, softly structured shoulders and a nipped waist, the hem at the hip, buttoned; a matching V-neck waistcoat worn with no shirt beneath it and its neckline showing in the jacket opening; matching high-waisted straight trousers with a pressed crease reaching the floor; {shoe} pointed leather pumps",
+      "keep": "{main} one-button jacket with nipped waist buttoned, matching V-neck waistcoat, matching high-waisted creased trousers to the floor, {shoe} pointed pumps",
+      "checks": ["一粒扣收腰西装扣上", "里面同色V领马甲", "高腰直筒长裤有裤线", "尖头高跟鞋"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black", "shoe": "black"}},
+        {"key": "ivory", "name": {"zh": "象牙白", "ja": "アイボリー", "en": "Ivory", "ko": "아이보리"}, "bg": "dark", "vars": {"main": "ivory", "shoe": "nude-beige"}}
+      ]
+    },
+    {
+      "key": "suit-f-skirt", "era": "suits", "gender": "F", "lower": "shoes",
+      "name": {"zh": "正装套裙", "ja": "スカートスーツ", "en": "Skirt Suit", "ko": "스커트 수트"},
+      "desc": "a women's formal skirt suit in {main} wool: a fitted single-breasted two-button jacket with notched lapels, princess seams and flap pockets, the hem at the hip, buttoned; a {blouse} silk shell blouse with a plain round neckline showing at the opening; a matching straight pencil skirt whose waistband sits at the natural waist and whose hem ends just below the knee with a short back vent; {shoe} leather court shoes with a mid heel",
+      "keep": "fitted {main} two-button jacket buttoned, {blouse} round-neck blouse, matching pencil skirt just below the knee with back vent, {shoe} mid-heel court shoes",
+      "checks": ["收身两粒扣西装扣上", "里面圆领真丝上衣", "铅笔裙到膝下、后开衩", "中跟皮鞋"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青", "ja": "ネイビー", "en": "Navy", "ko": "네이비"}, "bg": "light", "vars": {"main": "navy", "blouse": "ivory", "shoe": "navy"}}
+      ]
+    },
+
+    {
+      "key": "tailcoat", "era": "menformal", "gender": "M", "lower": "shoes",
+      "name": {"zh": "燕尾服", "ja": "燕尾服", "en": "White-Tie Tailcoat", "ko": "연미복"},
+      "desc": "a men's white-tie evening ensemble: a black wool barathea tailcoat with silk-faced peak lapels, worn open, its front cut away horizontally at the waist so it never closes, and two long tails at the back hanging to the back of the knee; a white cotton piqué low-cut waistcoat whose pointed hem shows just below the coat front; a white wing-collar dress shirt with a stiff bib front and a white piqué bow tie; black trousers with two narrow satin braids down each outer seam; black patent leather shoes",
+      "keep": "black tailcoat cut away at the waist with tails to the back of the knee, silk peak lapels, white piqué waistcoat, wing collar with white bow tie, black trousers with double braid, patent shoes",
+      "checks": ["前片在腰线水平截断、敞开", "背后两条燕尾垂到膝后", "白色马甲和白领结、翼领", "裤侧两条缎带、漆皮鞋"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑·白", "ja": "黒・白", "en": "Black & White", "ko": "검정·흰색"}, "bg": "light", "vars": {}}
+      ]
+    },
+    {
+      "key": "tuxedo", "era": "menformal", "gender": "M", "lower": "shoes",
+      "name": {"zh": "无尾礼服", "ja": "タキシード", "en": "Tuxedo", "ko": "턱시도"},
+      "desc": "a men's black-tie tuxedo: a single-breasted one-button {jacket} dinner jacket with a {lapel} satin shawl collar, jetted pockets with no flaps and a hem covering the seat, buttoned; a white pleated-front dress shirt with a turn-down collar and a black silk bow tie; a black satin cummerbund at the waist; {trousers} trousers with a single satin stripe down each outer seam; black patent leather oxford shoes",
+      "keep": "one-button {jacket} dinner jacket with {lapel} satin shawl collar buttoned, white pleated shirt, black bow tie, black cummerbund, {trousers} trousers with satin side stripe, patent oxfords",
+      "checks": ["一粒扣、缎面青果领", "白色褶胸衬衫和黑领结", "黑色腰封", "裤侧一条缎带、漆皮鞋"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"jacket": "black wool", "lapel": "black", "trousers": "black"}},
+        {"key": "midnight", "name": {"zh": "午夜蓝", "ja": "ミッドナイトブルー", "en": "Midnight Blue", "ko": "미드나잇 블루"}, "bg": "light", "vars": {"jacket": "midnight-blue wool", "lapel": "midnight-blue", "trousers": "midnight-blue"}},
+        {"key": "ivory-jacket", "name": {"zh": "象牙白上衣", "ja": "アイボリージャケット", "en": "Ivory Jacket", "ko": "아이보리 재킷"}, "bg": "dark", "vars": {"jacket": "ivory wool", "lapel": "ivory", "trousers": "black"}}
+      ]
+    },
+    {
+      "key": "morning-coat", "era": "menformal", "gender": "M", "lower": "shoes",
+      "name": {"zh": "晨礼服", "ja": "モーニングコート", "en": "Morning Coat", "ko": "모닝코트"},
+      "desc": "a men's formal daytime morning dress: a black wool morning coat with peak lapels and a single button at the waist, fastened, its front edges curving smoothly away from that button down to a pair of tails at the back reaching the back of the knee; a {waistcoat} single-breasted waistcoat; a white dress shirt with a turn-down collar and a {tie} silk tie; grey-and-black striped trousers with a pressed crease; black leather oxford shoes",
+      "keep": "black one-button morning coat with front edges curving back to knee-length tails, {waistcoat} waistcoat, white shirt with {tie} tie, grey-and-black striped trousers, black oxfords",
+      "checks": ["一粒扣、前襟从扣子处弧形向后", "后摆燕尾到膝后", "马甲和领带", "灰黑竖条纹西裤"],
+      "colorways": [
+        {"key": "dove", "name": {"zh": "黑·鸽灰", "ja": "黒・ダヴグレー", "en": "Black & Dove Grey", "ko": "검정·비둘기색"}, "bg": "light", "vars": {"waistcoat": "dove-grey", "tie": "silver-grey"}}
+      ]
+    },
+
+    {
+      "key": "gown-mermaid", "era": "evening", "gender": "F", "lower": "hem",
+      "name": {"zh": "鱼尾晚礼服", "ja": "マーメイドイブニングドレス", "en": "Mermaid Evening Gown", "ko": "머메이드 이브닝 드레스"},
+      "desc": "a women's mermaid evening gown in {main} heavy satin: a V-neckline of modest depth with wide shoulder straps, a fitted bodice and skirt that stay close to the body through the hips and thighs down to just below the knee, flaring out only from there (not from the hip) into a full trumpet hem that pools on the floor with a short train at the back; a concealed back zip",
+      "keep": "{main} satin mermaid gown, modest V-neck with wide straps, fitted to below the knee, flare only from below the knee, floor-pooling hem with short train",
+      "checks": ["V领宽肩带、领口不深", "贴身到膝下", "膝下才开始外扩成鱼尾", "拖地、背后短拖尾"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}},
+        {"key": "emerald", "name": {"zh": "祖母绿", "ja": "エメラルド", "en": "Emerald", "ko": "에메랄드"}, "bg": "light", "vars": {"main": "emerald green"}}
+      ]
+    },
+    {
+      "key": "gown-aline", "era": "evening", "gender": "F", "lower": "hem",
+      "name": {"zh": "A字晚礼服", "ja": "Aラインイブニングドレス", "en": "A-Line Evening Gown", "ko": "A라인 이브닝 드레스"},
+      "desc": "a women's A-line evening gown in {main} silk chiffon over a matching opaque lining: a fitted pleated bodice with a sweetheart-curved neckline and wide straps that sit on the shoulders, the waist seam at the natural waist (not under the bust), and a long skirt flaring gradually from the waist into a soft A-line that falls straight to the floor without spreading wide",
+      "keep": "{main} chiffon A-line gown, pleated bodice with wide shoulder straps, waist seam at the natural waist, gradual A-line skirt falling straight to the floor",
+      "checks": ["胸前褶皱、宽肩带", "腰线在自然腰（不在胸下）", "从腰起渐宽的A字裙", "有里衬不透、长到地"],
+      "colorways": [
+        {"key": "dusty-blue", "name": {"zh": "雾霾蓝", "ja": "ダスティブルー", "en": "Dusty Blue", "ko": "더스티 블루"}, "bg": "light", "vars": {"main": "dusty blue"}}
+      ]
+    },
+    {
+      "key": "gown-strapless", "era": "evening", "gender": "F", "lower": "hem",
+      "name": {"zh": "抹胸晚礼服", "ja": "ストラップレスイブニングドレス", "en": "Strapless Evening Gown", "ko": "스트랩리스 이브닝 드레스"},
+      "desc": "a women's strapless evening gown in {main} duchess satin: a rigid boned bodice that stands as one firm structured shell with no wrinkles, its top edge running straight across the chest at bust height with no straps and no sleeves, the waist seam at the natural waist, and a full floor-length skirt with deep inverted box pleats at the front and sides",
+      "keep": "{main} duchess satin strapless gown, rigid boned bodice with straight top edge at bust height, no straps, natural waist, full box-pleated floor-length skirt",
+      "checks": ["无肩带抹胸、上缘平直横在胸部", "胸衣硬挺无褶", "腰线在自然腰", "大箱褶长裙到地"],
+      "colorways": [
+        {"key": "burgundy", "name": {"zh": "酒红", "ja": "バーガンディ", "en": "Burgundy", "ko": "버건디"}, "bg": "light", "vars": {"main": "burgundy"}}
+      ]
+    },
+    {
+      "key": "gown-off-shoulder", "era": "evening", "gender": "F", "lower": "hem",
+      "name": {"zh": "一字肩晚礼服", "ja": "オフショルダーイブニングドレス", "en": "Off-Shoulder Evening Gown", "ko": "오프숄더 이브닝 드레스"},
+      "desc": "a women's off-shoulder evening gown in {main} matte crepe: a wide folded band neckline running straight across below the shoulder points from upper arm to upper arm, with short cuffed sleeves attached to that band on the upper arms; a fitted bodice, the waist seam at the natural waist, and a column skirt falling straight to the floor with a single front slit on the image-right side up to the knee",
+      "keep": "{main} crepe off-shoulder gown, folded band neckline below the shoulder points with short sleeves on the upper arms, natural waist, straight column skirt with front slit to the knee",
+      "checks": ["一字领翻折带、在肩点以下横过", "短袖挂在上臂", "直筒长裙到地", "前片画面右侧开衩到膝"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "正红", "ja": "レッド", "en": "Red", "ko": "레드"}, "bg": "light", "vars": {"main": "true red"}}
+      ]
+    },
+    {
+      "key": "cocktail-dress", "era": "evening", "gender": "F", "lower": "shoes",
+      "name": {"zh": "鸡尾酒裙", "ja": "カクテルドレス", "en": "Cocktail Dress", "ko": "칵테일 드레스"},
+      "desc": "a women's cocktail dress in {main} silk faille: a modest bateau neckline, sleeveless with wide shoulders, a fitted bodice, the waist seam at the natural waist marked by a narrow self-fabric band, and a full flared skirt held out by a lining, its hem ending just below the knee; {shoe} pointed pumps",
+      "keep": "{main} faille cocktail dress, bateau neck, sleeveless, narrow self band at the natural waist, full skirt just below the knee, {shoe} pumps",
+      "checks": ["一字船领无袖", "自然腰线细腰带", "蓬起的裙子到膝下", "尖头高跟鞋"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black", "shoe": "black"}},
+        {"key": "sapphire", "name": {"zh": "宝石蓝", "ja": "サファイア", "en": "Sapphire", "ko": "사파이어"}, "bg": "light", "vars": {"main": "sapphire blue", "shoe": "silver"}}
+      ]
+    },
+
+    {
+      "key": "bridal-aline-lace", "era": "bridal", "gender": "F", "lower": "hem",
+      "name": {"zh": "A字蕾丝婚纱", "ja": "Aラインレースウェディングドレス", "en": "A-Line Lace Wedding Gown", "ko": "A라인 레이스 웨딩드레스"},
+      "desc": "a women's A-line wedding gown in {main}: a bodice of floral lace over an opaque satin lining, a high bateau neckline with long fitted lace sleeves to the wrist, a row of small covered buttons down the centre back, the waist seam at the natural waist, and a tulle-over-satin A-line skirt flaring gradually to the floor with a chapel train",
+      "keep": "{main} A-line gown, lined lace bodice, bateau neck, long lace sleeves, covered buttons down the back, natural waist, A-line skirt with chapel train",
+      "checks": ["船领、蕾丝长袖到手腕", "蕾丝下有不透的衬", "背后一排包扣", "A字裙拖尾、没有头纱"],
+      "colorways": [
+        {"key": "ivory", "name": {"zh": "象牙白", "ja": "アイボリー", "en": "Ivory", "ko": "아이보리"}, "bg": "dark", "vars": {"main": "ivory"}}
+      ]
+    },
+    {
+      "key": "bridal-mermaid", "era": "bridal", "gender": "F", "lower": "hem",
+      "name": {"zh": "鱼尾婚纱", "ja": "マーメイドウェディングドレス", "en": "Mermaid Wedding Gown", "ko": "머메이드 웨딩드레스"},
+      "desc": "a women's mermaid wedding gown in {main} crepe: a modest off-shoulder neckline whose folded band runs straight across below the shoulder points, with no sleeves beyond the band; a fitted bodice and skirt close to the body through the hips down to just below the knee, flaring only from there (not from the hip) into a layered tulle trumpet that spreads onto the floor with a long train",
+      "keep": "{main} crepe mermaid wedding gown, off-shoulder folded band below the shoulder points, fitted to below the knee, tulle flare from below the knee, long train",
+      "checks": ["一字肩翻折带", "贴身到膝下", "膝下才开始外扩成多层纱", "长拖尾、没有头纱"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "纯白", "ja": "ピュアホワイト", "en": "Pure White", "ko": "퓨어 화이트"}, "bg": "dark", "vars": {"main": "pure white"}}
+      ]
+    },
+    {
+      "key": "bridal-satin-column", "era": "bridal", "gender": "F", "lower": "hem",
+      "name": {"zh": "简约缎面婚纱", "ja": "シンプルサテンウェディングドレス", "en": "Minimal Satin Wedding Gown", "ko": "미니멀 새틴 웨딩드레스"},
+      "desc": "a women's minimalist wedding gown in {main} heavy silk satin with no lace, no beading and no embellishment: a cowl neckline draping softly across the chest, wide shoulder straps, a bias-cut body skimming the waist and hips with no waist seam, and a smooth column skirt falling to the floor into a short round train",
+      "keep": "{main} plain heavy silk satin, soft cowl neckline with wide straps, bias-cut column with no waist seam, short round train, no embellishment",
+      "checks": ["垂坠荡领、宽肩带", "斜裁、无腰线接缝", "没有蕾丝和珠片", "短圆拖尾、没有头纱"],
+      "colorways": [
+        {"key": "ivory", "name": {"zh": "象牙白", "ja": "アイボリー", "en": "Ivory", "ko": "아이보리"}, "bg": "dark", "vars": {"main": "warm ivory"}}
+      ]
+    },
+    {
+      "key": "bridal-ballgown", "era": "bridal", "gender": "F", "lower": "hem",
+      "name": {"zh": "蓬裙婚纱", "ja": "プリンセスラインウェディングドレス", "en": "Ball Gown Wedding Dress", "ko": "볼가운 웨딩드레스"},
+      "desc": "a women's ball gown wedding dress in {main}: a rigid boned satin bodice that stands as one firm smooth shell, a sweetheart neckline with wide self-fabric satin straps on the shoulders, the bodice ending in a shallow point at the natural waist (not under the bust), and a very full gathered skirt of many tulle layers over a hoop, spreading wide into a round dome down to the floor with a cathedral-length train",
+      "keep": "{main} rigid boned satin bodice with sweetheart neck and wide straps, pointed natural waist, very full domed tulle skirt to the floor, cathedral train",
+      "checks": ["硬挺胸衣、心形领宽肩带", "胸衣下缘在自然腰收尖", "极蓬的多层纱圆裙", "超长拖尾、没有头纱"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白", "ja": "白", "en": "White", "ko": "흰색"}, "bg": "dark", "vars": {"main": "white"}}
+      ]
+    },
+
+    {
+      "key": "cn-qipao-gown", "era": "chinese", "gender": "F", "lower": "hem",
+      "name": {"zh": "新中式旗袍礼服", "ja": "新中華風チャイナドレス礼服", "en": "New-Chinese Qipao Gown", "ko": "신중국풍 치파오 예복"},
+      "desc": "a women's new-Chinese formal gown: a floor-length qipao in {main} silk jacquard with a subtle tone-on-tone {motif} woven pattern, a high mandarin collar, a curved side-front closure where the wearer's left panel lies on top and its edge runs from the collar curving toward image-left to fasten under the image-left arm with {knot} knot buttons, three-quarter sleeves, a softly fitted body, side slits up to the knee and a hem touching the floor",
+      "keep": "floor-length {main} jacquard qipao with tonal {motif} pattern, high mandarin collar, curved closure toward image-left with {knot} knot buttons, three-quarter sleeves, knee-high side slits",
+      "checks": ["高立领", "大襟从领口弧向画面左侧腋下、盘扣", "七分袖", "两侧开衩到膝、长到地"],
+      "colorways": [
+        {"key": "ink-blue", "name": {"zh": "黛蓝·云纹", "ja": "藍墨・雲文", "en": "Ink Blue Cloud", "ko": "먹청색·구름무늬"}, "bg": "light", "vars": {"main": "deep ink-blue", "motif": "cloud", "knot": "silver-grey"}}
+      ]
+    },
+    {
+      "key": "cn-formal-m", "era": "chinese", "gender": "M", "lower": "shoes",
+      "name": {"zh": "新中式立领礼服", "ja": "新中華風立襟礼服", "en": "New-Chinese Mandarin-Collar Formal Suit", "ko": "신중국풍 차이나칼라 예복"},
+      "desc": "a men's new-Chinese formal suit: a tailored {main} wool jacket with a mandarin stand collar, a straight centre-front opening (edges meeting, not overlapping) closed by five {knot} fabric knot buttons, structured shoulders, two jetted hip pockets and a hem covering the seat; matching straight trousers with a pressed crease; black leather oxford shoes",
+      "keep": "{main} mandarin-collar tailored jacket with five centre-front {knot} knot buttons, matching creased trousers, black oxfords",
+      "checks": ["立领合体西式剪裁上衣", "对襟五粒一字盘扣", "挖袋、衣长盖住臀部", "同色西裤、黑皮鞋"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "玄黑", "ja": "玄", "en": "Black", "ko": "흑색"}, "bg": "light", "vars": {"main": "black", "knot": "black"}},
+        {"key": "indigo", "name": {"zh": "藏蓝·暗纹", "ja": "藍・地紋", "en": "Indigo Jacquard", "ko": "남색·지문"}, "bg": "light", "vars": {"main": "indigo tone-on-tone jacquard", "knot": "indigo"}}
+      ]
+    },
+    {
+      "key": "cn-xiuhe", "era": "chinese", "gender": "F", "lower": "hem",
+      "name": {"zh": "秀禾服", "ja": "秀禾服", "en": "Xiuhe Bridal Dress", "ko": "수화복"},
+      "desc": "a Chinese women's xiuhe wedding dress in {main} silk: a hip-length jacket with a low stand collar and a curved side-front closure where the wearer's left panel lies on top and its edge runs from the collar curving toward image-left to fasten under the image-left arm with knot buttons, wide straight sleeves to the wrist, wide {trim} embroidered borders along the collar, closure edge, cuffs and hem; over a matching {main} floor-length skirt with a flat embroidered front panel and pressed pleats on the sides; dense {trim} embroidery of flowers and birds on the jacket front",
+      "keep": "{main} hip-length jacket with curved closure toward image-left, wide sleeves, {trim} embroidered borders and flower-and-bird embroidery, matching skirt with flat embroidered front panel and side pleats",
+      "checks": ["上衣到胯、大襟从领口弧向画面左侧", "宽直袖、宽绣边", "裙前片平幅绣花、两侧打褶", "没有头饰和盖头"],
+      "colorways": [
+        {"key": "red-gold", "name": {"zh": "正红·金绣", "ja": "紅・金刺繍", "en": "Red & Gold", "ko": "다홍·금수"}, "bg": "light", "vars": {"main": "Chinese red", "trim": "gold"}}
+      ]
+    },
+    {
+      "key": "cn-longfeng-gua", "era": "chinese", "gender": "F", "lower": "hem",
+      "name": {"zh": "龙凤褂", "ja": "龍鳳褂", "en": "Longfeng Gua (Qun Kwa)", "ko": "용봉괘"},
+      "desc": "a Chinese women's longfeng gua (qun kwa) wedding ensemble in {main} silk: a hip-length jacket with a mandarin stand collar, a straight centre-front opening closed by a row of knot buttons, wide straight three-quarter sleeves, almost entirely covered with dense raised {emb} metallic-thread embroidery of a dragon and a phoenix facing each other; over a matching {main} floor-length straight skirt whose flat front panel is embroidered in the same {emb} thread",
+      "keep": "{main} hip-length mandarin-collar jacket with centre-front knot buttons, dense {emb} dragon-and-phoenix embroidery, wide three-quarter sleeves, matching straight skirt with embroidered front panel",
+      "checks": ["立领对襟盘扣褂", "满身金银线龙凤刺绣", "宽七分袖", "直身长裙前片同样刺绣"],
+      "colorways": [
+        {"key": "red-gold", "name": {"zh": "大红·金银线", "ja": "紅・金銀糸", "en": "Red, Gold & Silver", "ko": "다홍·금은사"}, "bg": "light", "vars": {"main": "deep red", "emb": "gold and silver"}}
+      ]
+    },
+
+    {
+      "key": "academic-gown", "era": "academic", "gender": "U", "lower": "hem",
+      "name": {"zh": "学位袍", "ja": "アカデミックガウン", "en": "Academic Gown", "ko": "학위 가운"},
+      "desc": "an adult graduate's academic gown in {main} matte fabric, worn closed: a full ankle-length robe with a fitted pleated yoke across the shoulders, a front closed by a concealed zip, {sleeve}; {facing}; no hood, no sash, no crest, no emblem and no insignia of any institution",
+      "keep": "ankle-length {main} academic gown, pleated shoulder yoke, closed front, {sleeve}, {facing}, no hood and no emblem",
+      "checks": ["及踝学位袍、肩部打褶育克", "前襟闭合、长袖完整", "没有学位垂布和披带", "没有任何校徽或标识"],
+      "colorways": [
+        {"key": "bachelor", "name": {"zh": "学士·黑", "ja": "学士・黒", "en": "Bachelor, Black", "ko": "학사·검정"}, "bg": "light", "vars": {"main": "black", "sleeve": "long open pointed sleeves hanging to the knee at the back", "facing": "plain front edges with no facing"}},
+        {"key": "doctoral", "name": {"zh": "博士·黑丝绒", "ja": "博士・黒ビロード", "en": "Doctoral, Black Velvet", "ko": "박사·검정 벨벳"}, "bg": "light", "vars": {"main": "black", "sleeve": "full bell sleeves each with three horizontal black velvet bars on the upper arm", "facing": "wide black velvet facings down both front edges"}}
+      ]
+    }
+  ],
+  "eras": {
+    "suits": {"zh": "西装套装", "ja": "スーツ", "en": "Suits", "ko": "수트"},
+    "menformal": {"zh": "男士礼服", "ja": "メンズ礼服", "en": "Men's Formal Dress", "ko": "남성 예복"},
+    "evening": {"zh": "晚礼服与鸡尾酒裙", "ja": "イブニング・カクテル", "en": "Evening & Cocktail", "ko": "이브닝·칵테일"},
+    "bridal": {"zh": "婚纱", "ja": "ウェディングドレス", "en": "Bridal", "ko": "웨딩드레스"},
+    "chinese": {"zh": "中式礼服", "ja": "中華礼服", "en": "Chinese Formal", "ko": "중국식 예복"},
+    "academic": {"zh": "学位服", "ja": "アカデミックドレス", "en": "Academic Dress", "ko": "학위복"}
+  }
+}

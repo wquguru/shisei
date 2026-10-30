@@ -1,0 +1,324 @@
+{
+  "cat": "WH",
+  "note": "Western historical set. One form per period and sex with a single colorway each (30 items); silhouettes follow the stated decade, waistlines written structurally (PLAN §4.7, §9). No wigs, hats, crowns or weapons.",
+  "forms": [
+    {
+      "key": "greek-chiton", "era": "ancient", "gender": "F", "lower": "hem",
+      "name": {"zh": "爱奥尼亚式希顿", "ja": "イオニア式キトン", "en": "Ionic Chiton", "ko": "이오니아식 키톤"},
+      "desc": "an ancient Greek women's Ionic chiton of the Classical period: one wide rectangle of fine crinkled {main} linen falling to the floor in many narrow vertical folds, fastened along the top of each upper arm by a row of small buttons so it forms loose elbow-length sleeves with small gaps between the fastenings, no shoulder seams, girded at the natural waist with a thin {belt} cord and the fabric pulled up to blouse softly over the cord, and a narrow {border} meander border along the hem",
+      "keep": "{main} floor-length linen chiton, row of buttons along each upper arm forming the sleeves, thin {belt} cord at the natural waist with bloused fabric over it, {border} meander hem border",
+      "checks": ["上臂一排小扣连成宽袖", "腰间细绳、布料在绳上方垂鼓", "及地长衣、细密竖褶", "下摆一圈回纹边"],
+      "colorways": [
+        {"key": "saffron", "name": {"zh": "藏红", "ja": "サフラン", "en": "Saffron", "ko": "사프란"}, "bg": "light", "vars": {"main": "saffron-yellow", "belt": "madder-red", "border": "madder-red"}}
+      ]
+    },
+    {
+      "key": "roman-toga", "era": "ancient", "gender": "M", "lower": "shoes",
+      "name": {"zh": "托加袍", "ja": "トガ", "en": "Roman Toga", "ko": "토가"},
+      "desc": "an ancient Roman men's toga of the early Imperial period: a knee-length short-sleeved {tunic} wool tunica worn underneath, and over it a very large curved toga of {toga} wool draped over the left shoulder only (image-right): one end hangs straight down the front to the ankle on that side, the long remainder passes across the back, under the right arm and back up over the left shoulder, leaving the right shoulder and the right side of the tunica uncovered, a deep loose fold (sinus) curving across the front at hip level, and a small pouch of fabric (umbo) pulled out over the diagonal band at the chest; ankle-high brown leather calcei shoes",
+      "keep": "{toga} toga over the left shoulder only, right shoulder and {tunic} tunica uncovered, curved sinus fold at the hip, umbo pouch at the chest, ankle length, brown calcei",
+      "checks": ["托加只搭在左肩（画面右侧），右肩露出内衣", "胯部一道弧形大垂褶", "胸前斜带上拉出的布兜", "内穿及膝短袖丘尼卡"],
+      "colorways": [
+        {"key": "natural", "name": {"zh": "本白", "ja": "生成り", "en": "Natural White", "ko": "내추럴 화이트"}, "bg": "dark", "vars": {"toga": "natural off-white", "tunic": "off-white"}}
+      ]
+    },
+    {
+      "key": "cotehardie", "era": "medieval", "gender": "F", "lower": "hem",
+      "name": {"zh": "科特哈迪", "ja": "コタルディ", "en": "Cotehardie", "ko": "코트아르디"},
+      "desc": "a 14th-century European women's cotehardie: a closely fitted {main} wool gown that is tight through the bust, waist and hips and only flares into a full floor-length skirt below the hips, a wide shallow scoop neckline, a long row of small {button} buttons closing the centre front from the neckline down to below the hips, long tight sleeves closed from the elbow to the wrist by a row of small {button} buttons, and a narrow belt of {belt} metal plaques sitting low on the hips, well below the natural waist, not at the waist",
+      "keep": "{main} gown fitted to the hips then flaring to the floor, long centre-front row of {button} buttons, tight sleeves buttoned elbow to wrist, {belt} plaque belt low on the hips",
+      "checks": ["上身到胯紧身，胯部以下才放开", "前中一长排小扣到胯下", "小臂一排扣的窄长袖", "细腰带低挂在胯上，不在腰"],
+      "colorways": [
+        {"key": "green", "name": {"zh": "墨绿", "ja": "深緑", "en": "Forest Green", "ko": "짙은 녹색"}, "bg": "light", "vars": {"main": "deep forest green", "button": "pewter", "belt": "silver"}}
+      ]
+    },
+    {
+      "key": "houppelande", "era": "medieval", "gender": "M", "lower": "shoes",
+      "name": {"zh": "胡普兰长袍", "ja": "ウップランド", "en": "Houppelande", "ko": "우플랑드"},
+      "desc": "a c.1400 European men's houppelande: a voluminous ankle-length {main} wool gown lined with {lining}, a tall standing collar rising up the neck, very wide funnel-shaped sleeves that hang open almost to the knee and show the {lining} lining, the fullness arranged in deep regular tubular pleats front and back that are held in by a narrow {belt} leather belt placed exactly at the natural waist, not under the chest and not at the hips, the pleats flaring out below the belt to the hem; pointed black leather shoes",
+      "keep": "{main} ankle-length gown, tall standing collar, wide funnel sleeves showing {lining} lining, tubular pleats held by a narrow {belt} belt at the natural waist, pointed shoes",
+      "checks": ["高立领贴颈", "极宽漏斗袖垂近膝、露出毛皮里", "细腰带正好在自然腰线（不高不低）", "前后规则的管状深褶"],
+      "colorways": [
+        {"key": "burgundy", "name": {"zh": "酒红", "ja": "ワインレッド", "en": "Burgundy", "ko": "버건디"}, "bg": "light", "vars": {"main": "burgundy", "lining": "grey squirrel fur", "belt": "black"}}
+      ]
+    },
+    {
+      "key": "tudor-gown", "era": "tudor", "gender": "F", "lower": "hem",
+      "name": {"zh": "都铎礼服", "ja": "テューダー朝のドレス", "en": "Tudor Gown", "ko": "튜더 드레스"},
+      "desc": "a 1530s English Tudor women's gown: a stiff flat-fronted {gown} velvet bodice with a wide square neckline edged in narrow gold braid, the bodice ending in a shallow point at the natural waist; a cone-shaped floor-length {gown} skirt that opens at the front in an inverted V over a {forepart} brocade forepart panel; wide trumpet-shaped oversleeves turned back above the elbow with {cuff} fur facing, over undersleeves of the same {forepart} brocade with small puffs of white linen pulled through slits at the wrist",
+      "keep": "{gown} velvet gown with square neckline and flat stiff bodice, inverted-V front opening over {forepart} forepart, trumpet oversleeves with {cuff} fur turn-backs, matching brocade undersleeves, cone skirt",
+      "checks": ["方领、平直硬挺的胸衣", "裙前倒V开口露出锦缎前片", "宽喇叭外袖翻折出毛皮，内有锦缎内袖", "圆锥形长裙及地"],
+      "colorways": [
+        {"key": "crimson-gold", "name": {"zh": "深红·金", "ja": "深紅・金", "en": "Crimson & Gold", "ko": "진홍·금"}, "bg": "light", "vars": {"gown": "crimson", "forepart": "gold-and-cream pomegranate-pattern", "cuff": "brown sable"}}
+      ]
+    },
+    {
+      "key": "tudor-doublet", "era": "tudor", "gender": "M", "lower": "shoes",
+      "name": {"zh": "都铎男装", "ja": "テューダー朝の男性服", "en": "Tudor Doublet & Gown", "ko": "튜더 남성복"},
+      "desc": "a 1540s English Tudor men's ensemble: a {doublet} satin doublet with a low square front and slashed sleeves showing puffs of {puff} silk, under a sleeveless {jerkin} velvet jerkin whose pleated skirts flare to mid-thigh and close at the front, all under an open knee-length {jerkin} wool over-gown with very broad shoulders built up by puffed short over-sleeves and a wide {fur} fur collar falling over the shoulders and down the fronts; fitted {hose} hose on the legs and broad square-toed flat black leather shoes",
+      "keep": "{doublet} doublet with slashed sleeves and {puff} puffs, sleeveless {jerkin} jerkin skirted to mid-thigh, open knee-length over-gown with broad puffed shoulders and wide {fur} collar, {hose} hose, square-toed shoes",
+      "checks": ["宽肩及膝外袍、大毛皮翻领", "坎肩下摆打褶展开到大腿中部", "开衩袖露出内衬鼓包", "宽方头平底鞋"],
+      "colorways": [
+        {"key": "black-red", "name": {"zh": "黑·红", "ja": "黒・赤", "en": "Black & Red", "ko": "검정·빨강"}, "bg": "light", "vars": {"doublet": "cream", "puff": "red", "jerkin": "black", "fur": "brown sable", "hose": "black"}}
+      ]
+    },
+    {
+      "key": "baroque-gown", "era": "baroque", "gender": "F", "lower": "hem",
+      "name": {"zh": "巴洛克礼服", "ja": "バロックドレス", "en": "Baroque Gown", "ko": "바로크 드레스"},
+      "desc": "a 1630s European women's gown: a {main} silk satin bodice with a short high waist finished in small tabs just above the natural waist, a very wide flat white linen falling collar edged with lace lying over the shoulders, full balloon-shaped sleeves made of vertical strips (panes) that open to show {lining} silk beneath, the sleeves ending below the elbow in deep white lace cuffs, and a full floor-length {main} skirt set into the bodice with dense cartridge pleats",
+      "keep": "{main} satin gown, wide flat white lace-edged falling collar over the shoulders, paned balloon sleeves showing {lining} lining, deep lace cuffs below the elbow, cartridge-pleated floor-length skirt",
+      "checks": ["宽大平铺的白色蕾丝披领盖住肩", "鼓起的分条袖露出里衬", "袖到肘下、深蕾丝袖口", "腰部密集管褶的及地长裙"],
+      "colorways": [
+        {"key": "amber", "name": {"zh": "琥珀", "ja": "琥珀", "en": "Amber", "ko": "호박색"}, "bg": "light", "vars": {"main": "golden amber", "lining": "pale gold"}}
+      ]
+    },
+    {
+      "key": "cavalier", "era": "baroque", "gender": "M", "lower": "shoes",
+      "name": {"zh": "骑士党装", "ja": "キャヴァリアの装い", "en": "Cavalier Doublet", "ko": "캐벌리어 복장"},
+      "desc": "a 1630s European cavalier's ensemble: a {main} silk doublet with a short high waist and tabbed skirts, the body and sleeves cut with long vertical slashes showing {lining} lining, a wide white linen falling band collar edged with lace lying flat over the shoulders, white lace cuffs, loose knee-length {main} breeches finished with ribbon ties at the knee, and tall soft {boot} leather bucket-top boots with wide tops folded down below the knee",
+      "keep": "{main} slashed doublet with {lining} lining, wide white lace falling collar, lace cuffs, loose knee-length breeches, {boot} bucket-top boots folded below the knee",
+      "checks": ["白色蕾丝大翻领平铺肩上", "衣身和袖上竖向开衩露里衬", "宽松及膝马裤、膝下系带", "翻口宽筒软长靴"],
+      "colorways": [
+        {"key": "blue", "name": {"zh": "灰蓝", "ja": "灰青", "en": "Dusky Blue", "ko": "회청색"}, "bg": "light", "vars": {"main": "dusky blue", "lining": "pale yellow", "boot": "tan"}}
+      ]
+    },
+    {
+      "key": "robe-francaise", "era": "rococo", "gender": "F", "lower": "hem",
+      "name": {"zh": "法式罗布", "ja": "ローブ・ア・ラ・フランセーズ", "en": "Robe à la Française", "ko": "로브 아 라 프랑세즈"},
+      "desc": "a 1760s French women's robe à la française: an open {main} silk gown with a {pattern} pattern, worn over side hoops (panniers) that make the skirt very wide at the hips and flat at the front and back, two broad box pleats (Watteau pleats) falling loose from the back neckline all the way to the floor-length hem, a stiff triangular stomacher at the centre front decorated with a ladder of {trim} ribbon bows, the gown open at the front over a matching petticoat, fitted elbow-length sleeves ending in tiered white lace ruffles (engageantes), and ruched self-fabric trim edging the front opening",
+      "keep": "{main} gown with {pattern} pattern, very wide panniered hips, two Watteau box pleats from the back neckline to the floor, stomacher with {trim} bows, elbow sleeves with white lace ruffles",
+      "checks": ["背后从领口直落到裙摆的两道宽箱褶", "裙撑使两侧极宽、前后扁平", "前胸三角胸衣饰一排缎带结", "肘部多层白色蕾丝袖褶"],
+      "colorways": [
+        {"key": "sky-floral", "name": {"zh": "天蓝·碎花", "ja": "空色・小花", "en": "Sky Blue Floral", "ko": "하늘색·잔꽃"}, "bg": "light", "vars": {"main": "sky blue", "pattern": "small woven floral", "trim": "pink"}}
+      ]
+    },
+    {
+      "key": "habit-francaise", "era": "rococo", "gender": "M", "lower": "shoes",
+      "name": {"zh": "法式男礼服", "ja": "アビ・ア・ラ・フランセーズ", "en": "Habit à la Française", "ko": "아비 아 라 프랑세즈"},
+      "desc": "a 1770s French men's habit à la française: a {coat} silk coat with a narrow standing collar and no lapels, the fronts curving away toward the back below the chest, close-fitting sleeves with deep cuffs, the coat fronts, cuffs and pocket flaps edged with {emb} floral embroidery; a single-breasted {waist} silk waistcoat ending at the upper hip with matching embroidery; fitted {coat} knee breeches buckled just below the knee; a white lace jabot at the throat; white silk stockings and black leather shoes with square silver buckles",
+      "keep": "{coat} coat with curved cut-away fronts and no lapels, {emb} embroidery on fronts, cuffs and pocket flaps, {waist} waistcoat to the upper hip, knee breeches, white stockings, buckled shoes",
+      "checks": ["前襟向后弧形斜裁、无翻领", "前襟、袖口和袋盖刺绣边", "马甲到胯上", "及膝马裤＋白长袜＋方扣鞋"],
+      "colorways": [
+        {"key": "plum-silver", "name": {"zh": "紫红·银", "ja": "プラム・銀", "en": "Plum & Silver", "ko": "자두색·은"}, "bg": "light", "vars": {"coat": "plum", "waist": "ivory", "emb": "silver-thread"}}
+      ]
+    },
+    {
+      "key": "regency-gown", "era": "regency", "gender": "F", "lower": "hem",
+      "name": {"zh": "摄政高腰裙", "ja": "リージェンシードレス", "en": "Regency Gown & Spencer", "ko": "리젠시 드레스"},
+      "desc": "an 1810s English Regency women's ensemble: a {gown} cotton muslin round gown with its waistline seam placed directly under the bust, high above the natural waist, not at the natural waist, a narrow column skirt falling straight from under the bust to the ankle with soft gathers only at the back, a modest rounded neckline; worn under a short {spencer} wool spencer jacket with a small standing collar, a row of small covered buttons and long fitted sleeves, the spencer's hem ending exactly at that same high under-bust waistline",
+      "keep": "{gown} muslin column gown with the waistline directly under the bust, ankle length, short {spencer} spencer ending at the under-bust line with long fitted sleeves",
+      "checks": ["腰线就在胸下，不在自然腰", "细长直筒裙到脚踝", "短外套只到胸下腰线", "外套长窄袖、小立领"],
+      "colorways": [
+        {"key": "white-green", "name": {"zh": "白·墨绿", "ja": "白・深緑", "en": "White & Bottle Green", "ko": "흰색·병녹색"}, "bg": "dark", "vars": {"gown": "white", "spencer": "bottle green"}}
+      ]
+    },
+    {
+      "key": "regency-tailcoat", "era": "regency", "gender": "M", "lower": "shoes",
+      "name": {"zh": "摄政燕尾服", "ja": "リージェンシーの燕尾服", "en": "Regency Tailcoat", "ko": "리젠시 연미복"},
+      "desc": "an 1810s English Regency gentleman's ensemble: a double-breasted {coat} wool tailcoat cut straight across at the waist in front, with two tails at the back falling to the back of the knee, a high turned-over collar with M-notched lapels and long fitted sleeves; a short {waist} waistcoat showing below the coat front; a white linen shirt with tall collar points and a white cravat tied at the throat; close-fitting {legs} pantaloons tucked into black leather Hessian boots with a V-notch and a small tassel at the front top",
+      "keep": "{coat} double-breasted tailcoat cut straight at the front waist with knee-length back tails, high collar, white cravat, short {waist} waistcoat, {legs} pantaloons, black Hessian boots",
+      "checks": ["前片在腰部平切、后面燕尾到膝后", "高领＋白领巾", "短马甲露在外套下", "贴身长裤塞进V口黑色长靴"],
+      "colorways": [
+        {"key": "navy-buff", "name": {"zh": "深蓝·浅黄", "ja": "紺・バフ", "en": "Navy & Buff", "ko": "남색·담황"}, "bg": "light", "vars": {"coat": "dark navy", "waist": "buff", "legs": "buff"}}
+      ]
+    },
+    {
+      "key": "bustle-dress", "era": "victorian", "gender": "F", "lower": "hem",
+      "name": {"zh": "巴斯尔裙", "ja": "バッスルドレス", "en": "Bustle Dress", "ko": "버슬 드레스"},
+      "desc": "an 1880s Victorian women's bustle day dress: a tightly fitted {main} wool bodice with a high standing collar, a vertical row of small buttons down the centre front and long fitted sleeves, the bodice ending in a point just below the natural waist; the skirt flat at the front, with a draped {main} overskirt swept back to the rear, where a bustle makes the back of the skirt project almost horizontally starting just below the waist, then falls in puffs and swags to a floor-length back; a knife-pleated {under} underskirt showing at the front hem",
+      "keep": "{main} fitted bodice with high collar and centre-front buttons, flat skirt front, horizontal bustle projection at the back just below the waist, swagged overskirt, {under} pleated underskirt at the hem",
+      "checks": ["后腰下方明显水平凸出（裙撑），侧面最清楚", "裙前平、后面堆叠垂褶", "高立领、前中一排扣", "下摆露出褶裥衬裙"],
+      "colorways": [
+        {"key": "teal-gold", "name": {"zh": "孔雀蓝·金", "ja": "ピーコックブルー・金", "en": "Teal & Gold", "ko": "청록·금"}, "bg": "light", "vars": {"main": "deep teal", "under": "old gold"}}
+      ]
+    },
+    {
+      "key": "frock-coat", "era": "victorian", "gender": "M", "lower": "shoes",
+      "name": {"zh": "维多利亚长礼服", "ja": "フロックコート", "en": "Frock Coat", "ko": "프록코트"},
+      "desc": "an 1860s Victorian gentleman's ensemble: a double-breasted {coat} wool frock coat with a waist seam and narrow lapels, its skirts falling evenly all round to the knee, not cut away into tails; a {waist} waistcoat; a white shirt with a standing collar and a narrow black silk bow tie; straight {legs} trousers; black leather ankle boots",
+      "keep": "{coat} double-breasted frock coat with waist seam and knee-length skirts level all round, {waist} waistcoat, white shirt with black bow tie, {legs} trousers, ankle boots",
+      "checks": ["双排扣、有腰缝", "下摆一圈平齐垂到膝（不是燕尾）", "马甲＋白衬衫＋黑领结", "直筒长裤配短靴"],
+      "colorways": [
+        {"key": "black-grey", "name": {"zh": "黑·灰", "ja": "黒・灰", "en": "Black & Grey", "ko": "검정·회색"}, "bg": "light", "vars": {"coat": "black", "waist": "dove grey", "legs": "grey-and-black striped"}}
+      ]
+    },
+    {
+      "key": "edwardian-suit", "era": "edwardian", "gender": "F", "lower": "hem",
+      "name": {"zh": "爱德华步行套装", "ja": "エドワーディアンのウォーキングスーツ", "en": "Edwardian Walking Suit", "ko": "에드워디안 워킹 수트"},
+      "desc": "a 1905 Edwardian women's walking suit: a white cotton lingerie blouse with a tall close standing collar and a full front that pouches forward over the waist, under a fitted {suit} wool jacket worn open, ending at the hip, with leg-of-mutton sleeves full at the shoulder and tight on the forearm; a gored {suit} wool skirt smooth over the hips and flaring in a trumpet shape to the floor, slightly longer at the back; an S-curve side silhouette",
+      "keep": "white high-collared blouse pouched over the waist, open hip-length {suit} jacket with leg-of-mutton sleeves, {suit} trumpet skirt to the floor",
+      "checks": ["高立领白衬衫胸前前垂", "敞开的短外套、羊腿袖", "裙在臀部贴合、下摆喇叭状及地", "S形侧影"],
+      "colorways": [
+        {"key": "mauve", "name": {"zh": "淡紫", "ja": "モーヴ", "en": "Mauve", "ko": "모브"}, "bg": "light", "vars": {"suit": "mauve"}}
+      ]
+    },
+    {
+      "key": "norfolk-suit", "era": "edwardian", "gender": "M", "lower": "shoes",
+      "name": {"zh": "诺福克套装", "ja": "ノーフォークスーツ", "en": "Norfolk Suit", "ko": "노퍽 수트"},
+      "desc": "a 1900s Edwardian men's country Norfolk suit: a single-breasted four-button {tweed} tweed Norfolk jacket with two vertical box pleats running from shoulder to hem on the front and two on the back, and a self-fabric belt at the natural waist; matching knickerbockers gathered into a band just below the knee; a white shirt with a turned-down collar and a {tie} knitted tie; {sock} wool knee socks and brown leather lace-up ankle boots",
+      "keep": "{tweed} tweed jacket with two box pleats front and back and a self belt at the waist, matching knickerbockers banded below the knee, {tie} tie, {sock} knee socks, brown boots",
+      "checks": ["前后各两道竖向箱褶", "同料腰带系在腰间", "膝下收口的灯笼短裤", "长毛袜＋系带短靴"],
+      "colorways": [
+        {"key": "brown-herringbone", "name": {"zh": "棕人字呢", "ja": "茶ヘリンボーン", "en": "Brown Herringbone", "ko": "갈색 헤링본"}, "bg": "light", "vars": {"tweed": "brown herringbone", "tie": "dark green", "sock": "moss green"}}
+      ]
+    },
+    {
+      "key": "flapper-dress", "era": "1920s", "gender": "F", "lower": "shoes",
+      "name": {"zh": "二十年代流苏裙", "ja": "フラッパードレス", "en": "Flapper Dress", "ko": "플래퍼 드레스"},
+      "desc": "a 1920s women's flapper evening dress: a straight loose sleeveless {main} silk chiffon shift with a round neckline and a flat straight bodice with no defined waist, a dropped waistline sitting low on the hips, well below the natural waist, marked by a {bead} beaded band, the whole dress covered in {bead} glass-bead embroidery in a geometric Art Deco pattern, a knee-length hem finished with a fringe of {bead} beaded strands; {main} T-bar heeled shoes",
+      "keep": "{main} straight sleeveless shift with no waist shaping, dropped waistline on the hips, {bead} geometric beading all over, knee-length beaded fringe hem, T-bar shoes",
+      "checks": ["直筒无腰身", "低腰线落在胯部，不在腰", "满身几何珠绣", "及膝珠串流苏下摆＋T字带鞋"],
+      "colorways": [
+        {"key": "black-silver", "name": {"zh": "黑·银", "ja": "黒・銀", "en": "Black & Silver", "ko": "검정·은"}, "bg": "light", "vars": {"main": "black", "bead": "silver"}}
+      ]
+    },
+    {
+      "key": "twenties-suit", "era": "1920s", "gender": "M", "lower": "shoes",
+      "name": {"zh": "二十年代三件套", "ja": "1920年代のスリーピース", "en": "1920s Three-Piece", "ko": "1920년대 스리피스"},
+      "desc": "a 1920s men's three-piece lounge suit in plain {suit} wool: a single-breasted jacket with a high three-button front and narrow notched lapels, a matching waistcoat, very wide straight high-rise trousers (Oxford bags) with turn-ups; a white shirt with a rounded club collar and a {tie} striped tie; two-tone {shoe} leather brogues",
+      "keep": "plain {suit} three-piece suit, high three-button jacket with narrow lapels, very wide Oxford bag trousers with turn-ups, club-collar shirt, {tie} striped tie, {shoe} two-tone brogues",
+      "checks": ["三件套含马甲", "极宽直筒牛津裤、裤脚翻边", "圆角领白衬衫＋条纹领带", "双色拼接布洛克鞋"],
+      "colorways": [
+        {"key": "oatmeal", "name": {"zh": "燕麦", "ja": "オートミール", "en": "Oatmeal", "ko": "오트밀"}, "bg": "light", "vars": {"suit": "oatmeal-beige", "tie": "navy-and-red", "shoe": "brown-and-white"}}
+      ]
+    },
+    {
+      "key": "bias-gown", "era": "1930s", "gender": "F", "lower": "hem",
+      "name": {"zh": "斜裁晚礼服", "ja": "バイアスカットのイブニングドレス", "en": "Bias-Cut Gown", "ko": "바이어스 컷 드레스"},
+      "desc": "a 1930s women's bias-cut evening gown: a {main} silk satin gown cut on the bias so it skims smoothly over the bust and hips with no waist seam, a soft draped cowl neckline at the front, a higher cowl drape at the back, short fluttering cap sleeves, the skirt flowing into a floor-length hem with a slight fishtail flare, no visible closures on the front",
+      "keep": "{main} bias-cut satin gown, front cowl neckline, back cowl, cap sleeves, no waist seam, floor length with slight fishtail flare",
+      "checks": ["斜裁缎面顺身垂坠", "前胸软垂荡领", "无腰缝", "及地微鱼尾摆"],
+      "colorways": [
+        {"key": "dusty-rose", "name": {"zh": "灰玫瑰", "ja": "ダスティローズ", "en": "Dusty Rose", "ko": "더스티 로즈"}, "bg": "light", "vars": {"main": "dusty rose"}}
+      ]
+    },
+    {
+      "key": "plus-fours", "era": "1930s", "gender": "M", "lower": "shoes",
+      "name": {"zh": "高尔夫灯笼裤装", "ja": "プラスフォアーズ", "en": "Plus Fours Outfit", "ko": "플러스 포스 차림"},
+      "desc": "a 1930s men's country sports outfit: a sleeveless V-neck {knit} Fair Isle knitted pullover over a white shirt with a {tie} wool tie; plain {tweed} wool plus-four trousers that blouse over and hang about ten centimetres below the knee, buckled at the calf; plain {sock} wool socks and brown leather brogues",
+      "keep": "{knit} Fair Isle sleeveless V-neck pullover, white shirt with {tie} tie, {tweed} plus fours bloused below the knee, {sock} socks, brown brogues",
+      "checks": ["费尔岛提花无袖V领毛衣", "白衬衫＋领带", "膝下垂鼓的灯笼裤、小腿扣带", "长袜＋布洛克鞋"],
+      "colorways": [
+        {"key": "oatmeal-rust", "name": {"zh": "燕麦·铁锈", "ja": "オートミール・ラスト", "en": "Oatmeal & Rust", "ko": "오트밀·러스트"}, "bg": "light", "vars": {"knit": "oatmeal, rust and bottle green", "tie": "dark brown", "tweed": "grey-brown", "sock": "rust"}}
+      ]
+    },
+    {
+      "key": "tea-dress", "era": "1940s", "gender": "F", "lower": "shoes",
+      "name": {"zh": "四十年代茶歇裙", "ja": "1940年代のティードレス", "en": "1940s Tea Dress", "ko": "1940년대 티 드레스"},
+      "desc": "a 1940s women's day dress: a {main} rayon crepe dress with a small {print} print, square padded shoulders, short sleeves, a shirred sweetheart neckline, a fitted waist exactly at the natural waist with a narrow self-fabric belt, an A-line skirt with a few front pleats ending just below the knee; {shoe} leather pumps with chunky mid heels",
+      "keep": "{main} crepe dress with {print} print, square padded shoulders, sweetheart neckline, self belt at the natural waist, A-line skirt just below the knee, {shoe} pumps",
+      "checks": ["方垫肩短袖", "腰线在自然腰＋同料细腰带", "A字裙到膝下", "满身小圆点印花"],
+      "colorways": [
+        {"key": "navy-dot", "name": {"zh": "藏青·白点", "ja": "紺・白ドット", "en": "Navy Polka Dot", "ko": "남색·흰 물방울"}, "bg": "light", "vars": {"main": "navy", "print": "white polka-dot", "shoe": "navy"}}
+      ]
+    },
+    {
+      "key": "forties-suit", "era": "1940s", "gender": "M", "lower": "shoes",
+      "name": {"zh": "四十年代双排扣西装", "ja": "1940年代のダブルスーツ", "en": "1940s Double-Breasted Suit", "ko": "1940년대 더블 수트"},
+      "desc": "a 1940s men's double-breasted suit in {suit} wool: a jacket with broad padded shoulders, wide peaked lapels, a six-button front with two buttons fastened, a shaped waist and a length covering the seat; high-waisted wide-leg pleated trousers with turn-ups; a white shirt with a spread collar and a wide plain {tie} tie; brown cap-toe Oxford shoes",
+      "keep": "{suit} double-breasted suit, broad padded shoulders, wide peaked lapels, six buttons, high-waisted wide pleated trousers with turn-ups, wide {tie} tie, brown Oxfords",
+      "checks": ["宽垫肩、宽戗驳领", "六粒双排扣", "高腰宽腿打褶裤带翻边", "宽领带"],
+      "colorways": [
+        {"key": "charcoal-chalk", "name": {"zh": "炭灰粉笔条", "ja": "チャコールのチョークストライプ", "en": "Charcoal Chalk Stripe", "ko": "차콜 초크 스트라이프"}, "bg": "light", "vars": {"suit": "charcoal chalk-stripe", "tie": "burgundy"}}
+      ]
+    },
+    {
+      "key": "swing-dress", "era": "1950s", "gender": "F", "lower": "shoes",
+      "name": {"zh": "五十年代大摆裙", "ja": "1950年代のスイングドレス", "en": "1950s Swing Dress", "ko": "1950년대 스윙 드레스"},
+      "desc": "a 1950s women's swing dress: a {main} cotton dress with a tiny {print} print, a fitted bodice with a modest V-neck and short cap sleeves, the waist seam exactly at the natural waist marked by a narrow {belt} belt, a very full circle skirt held out by a stiff tulle petticoat and ending at mid-calf; {belt} low-heeled pumps",
+      "keep": "{main} dress with tiny {print} print, fitted bodice with V-neck and cap sleeves, {belt} belt at the natural waist, full circle skirt over a petticoat to mid-calf, {belt} pumps",
+      "checks": ["上身合体、腰线在自然腰", "全圆大摆裙由衬裙撑起", "裙长到小腿中", "细腰带＋低跟鞋"],
+      "colorways": [
+        {"key": "cherry", "name": {"zh": "樱桃红", "ja": "チェリーレッド", "en": "Cherry Red", "ko": "체리 레드"}, "bg": "light", "vars": {"main": "cherry red", "print": "white daisy", "belt": "white"}}
+      ]
+    },
+    {
+      "key": "camp-shirt", "era": "1950s", "gender": "M", "lower": "shoes",
+      "name": {"zh": "五十年代休闲装", "ja": "1950年代のカジュアル", "en": "1950s Camp-Collar Look", "ko": "1950년대 캐주얼"},
+      "desc": "a 1950s men's casual outfit: a short-sleeved {shirt} rayon shirt with a flat open camp collar and two contrasting vertical {panel} panels down the front, worn untucked with a straight hem; high-waisted {legs} gabardine slacks with front pleats and turn-ups; brown leather penny loafers",
+      "keep": "{shirt} camp-collar short-sleeved shirt with two {panel} front panels, untucked straight hem, high-waisted pleated {legs} slacks with turn-ups, brown loafers",
+      "checks": ["平翻开领短袖衬衫、直下摆不塞", "前身两条竖向拼色", "高腰打褶西裤带翻边", "便士乐福鞋"],
+      "colorways": [
+        {"key": "cream-maroon", "name": {"zh": "奶白·栗红", "ja": "クリーム・マルーン", "en": "Cream & Maroon", "ko": "크림·마룬"}, "bg": "light", "vars": {"shirt": "cream", "panel": "maroon", "legs": "charcoal"}}
+      ]
+    },
+    {
+      "key": "mod-shift", "era": "1960s", "gender": "F", "lower": "shoes",
+      "name": {"zh": "六十年代摩登直身裙", "ja": "60年代モッズのシフトドレス", "en": "1960s Mod Shift", "ko": "1960년대 모드 시프트 드레스"},
+      "desc": "a mid-1960s women's mod shift dress: a sleeveless A-line wool double-knit shift with a high round neckline and no waist seam, falling straight from the shoulders to a hem a hand's width above the knee, colour-blocked in three broad horizontal bands, {main} at the top and bottom and {block} in the middle; white low-heeled mid-calf boots",
+      "keep": "sleeveless A-line shift with no waist seam, three horizontal bands {main}-{block}-{main}, hem a hand's width above the knee, white mid-calf boots",
+      "checks": ["无腰缝的A字直身", "三段横向撞色", "裙长在膝上一掌", "白色平跟中筒靴"],
+      "colorways": [
+        {"key": "tangerine-cream", "name": {"zh": "橙·奶白", "ja": "オレンジ・クリーム", "en": "Tangerine & Cream", "ko": "탠저린·크림"}, "bg": "light", "vars": {"main": "tangerine", "block": "cream"}}
+      ]
+    },
+    {
+      "key": "mod-suit", "era": "1960s", "gender": "M", "lower": "shoes",
+      "name": {"zh": "六十年代摩登西装", "ja": "60年代モッズスーツ", "en": "1960s Mod Suit", "ko": "1960년대 모드 수트"},
+      "desc": "a mid-1960s men's mod suit in {suit} mohair-wool: a short single-breasted jacket with three buttons set high, very narrow notched lapels, slim sleeves and deep side vents; slim flat-front tapered trousers ending at the ankle bone with no break; a white shirt with a narrow button-down collar and a skinny {tie} knitted tie; black leather Chelsea boots with elastic side panels",
+      "keep": "{suit} slim suit, short jacket with three high buttons and very narrow lapels, tapered ankle-length trousers, white button-down shirt, skinny {tie} knit tie, black Chelsea boots",
+      "checks": ["窄驳领、高位三粒扣", "短上衣、修身袖", "窄腿裤到脚踝无堆积", "细针织领带＋切尔西靴"],
+      "colorways": [
+        {"key": "sharkskin", "name": {"zh": "鲨鱼皮灰", "ja": "シャークスキングレー", "en": "Sharkskin Grey", "ko": "샤크스킨 그레이"}, "bg": "light", "vars": {"suit": "grey sharkskin", "tie": "black"}}
+      ]
+    },
+    {
+      "key": "disco-jumpsuit", "era": "1970s", "gender": "F", "lower": "shoes",
+      "name": {"zh": "七十年代迪斯科连身裤", "ja": "70年代ディスコのジャンプスーツ", "en": "1970s Disco Jumpsuit", "ko": "1970년대 디스코 점프수트"},
+      "desc": "a 1970s women's disco jumpsuit in {main} satin: long sleeves flaring wide at the wrist, a wide pointed collar, a V-neck front zip ending at the collarbone, a self-fabric sash tied at the natural waist, high-waisted legs fitted over the hips and flaring widely from the knee to the floor, covering {main} platform shoes so only their toes show",
+      "keep": "{main} satin jumpsuit, wide pointed collar, flared long sleeves, self sash at the natural waist, wide flares from the knee to the floor, platform toes showing",
+      "checks": ["长袖喇叭袖口＋大尖领", "腰间同料系带", "膝下大喇叭裤腿到地", "露出厚底鞋鞋头"],
+      "colorways": [
+        {"key": "gold", "name": {"zh": "金", "ja": "ゴールド", "en": "Gold", "ko": "골드"}, "bg": "light", "vars": {"main": "metallic gold"}}
+      ]
+    },
+    {
+      "key": "flared-suit", "era": "1970s", "gender": "M", "lower": "shoes",
+      "name": {"zh": "七十年代喇叭裤三件套", "ja": "70年代のフレアスーツ", "en": "1970s Flared Suit", "ko": "1970년대 플레어 수트"},
+      "desc": "a 1970s men's three-piece suit in {suit} polyester: a fitted jacket with very wide peaked lapels and a single button at the waist, a matching waistcoat, high-waisted trousers fitted over the hips and flaring widely from the knee; a {shirt} shirt with a very long pointed collar spread out over the jacket lapels and no tie; {shoe} platform-heeled shoes",
+      "keep": "{suit} three-piece suit, very wide peaked lapels, one-button jacket, waistcoat, wide flares from the knee, {shirt} shirt with long collar points over the lapels, {shoe} platform shoes",
+      "checks": ["超宽戗驳领、单粒扣", "大尖领衬衫翻压在驳领上、无领带", "三件套含马甲", "膝下大喇叭裤＋厚跟鞋"],
+      "colorways": [
+        {"key": "chocolate", "name": {"zh": "巧克力棕", "ja": "チョコレートブラウン", "en": "Chocolate Brown", "ko": "초콜릿 브라운"}, "bg": "light", "vars": {"suit": "chocolate-brown", "shirt": "cream", "shoe": "brown"}}
+      ]
+    },
+    {
+      "key": "power-suit", "era": "1980s", "gender": "F", "lower": "shoes",
+      "name": {"zh": "八十年代权力套装", "ja": "80年代のパワースーツ", "en": "1980s Power Suit", "ko": "1980년대 파워 수트"},
+      "desc": "a 1980s women's power suit in {suit} wool: a long single-breasted two-button blazer ending at the upper thigh with very broad, strongly padded square shoulders that extend past the natural shoulder line and wide notched lapels; a straight knee-length pencil skirt; a {blouse} silk blouse with a soft bow tied at the neck; {shoe} leather pumps",
+      "keep": "{suit} suit, long blazer with very broad square padded shoulders, knee-length pencil skirt, {blouse} bow-neck blouse, {shoe} pumps",
+      "checks": ["超宽方垫肩超出肩线", "西装长到大腿上部", "及膝铅笔裙", "领口系蝴蝶结的衬衫"],
+      "colorways": [
+        {"key": "royal-blue", "name": {"zh": "宝蓝", "ja": "ロイヤルブルー", "en": "Royal Blue", "ko": "로열 블루"}, "bg": "light", "vars": {"suit": "royal blue", "blouse": "white", "shoe": "navy"}}
+      ]
+    },
+    {
+      "key": "grunge", "era": "1990s", "gender": "U", "lower": "shoes",
+      "name": {"zh": "九十年代垃圾摇滚", "ja": "90年代グランジ", "en": "1990s Grunge", "ko": "1990년대 그런지"},
+      "desc": "a 1990s grunge outfit: an oversized {flannel} brushed-cotton flannel shirt worn unbuttoned and loose, its long sleeves slightly too long, over a faded plain {tee} cotton T-shirt with no print; loose straight-leg light-wash denim jeans with frayed worn-through holes at both knees; black leather eight-eye lace-up combat boots with black stitching",
+      "keep": "open oversized {flannel} flannel shirt, plain faded {tee} T-shirt, loose light-wash jeans with knee holes, black lace-up boots",
+      "checks": ["敞开的超大格子法兰绒衬衫", "内搭无图案旧T恤", "宽松直筒浅色牛仔裤、膝盖磨破", "黑色系带短靴"],
+      "colorways": [
+        {"key": "red-check", "name": {"zh": "红黑格", "ja": "赤黒チェック", "en": "Red & Black Check", "ko": "빨강·검정 체크"}, "bg": "light", "vars": {"flannel": "red-and-black check", "tee": "charcoal grey"}}
+      ]
+    }
+  ],
+  "eras": {
+    "ancient": {"zh": "古希腊罗马", "ja": "古代ギリシア・ローマ", "en": "Antiquity", "ko": "고대 그리스·로마"},
+    "medieval": {"zh": "中世纪", "ja": "中世", "en": "Medieval", "ko": "중세"},
+    "tudor": {"zh": "都铎", "ja": "テューダー朝", "en": "Tudor", "ko": "튜더"},
+    "baroque": {"zh": "巴洛克", "ja": "バロック", "en": "Baroque", "ko": "바로크"},
+    "rococo": {"zh": "洛可可", "ja": "ロココ", "en": "Rococo", "ko": "로코코"},
+    "regency": {"zh": "摄政时期", "ja": "リージェンシー", "en": "Regency", "ko": "리젠시"},
+    "victorian": {"zh": "维多利亚", "ja": "ヴィクトリア朝", "en": "Victorian", "ko": "빅토리아"},
+    "edwardian": {"zh": "爱德华", "ja": "エドワード朝", "en": "Edwardian", "ko": "에드워드"},
+    "1920s": {"zh": "1920年代", "ja": "1920年代", "en": "1920s", "ko": "1920년대"},
+    "1930s": {"zh": "1930年代", "ja": "1930年代", "en": "1930s", "ko": "1930년대"},
+    "1940s": {"zh": "1940年代", "ja": "1940年代", "en": "1940s", "ko": "1940년대"},
+    "1950s": {"zh": "1950年代", "ja": "1950年代", "en": "1950s", "ko": "1950년대"},
+    "1960s": {"zh": "1960年代", "ja": "1960年代", "en": "1960s", "ko": "1960년대"},
+    "1970s": {"zh": "1970年代", "ja": "1970年代", "en": "1970s", "ko": "1970년대"},
+    "1980s": {"zh": "1980年代", "ja": "1980年代", "en": "1980s", "ko": "1980년대"},
+    "1990s": {"zh": "1990年代", "ja": "1990年代", "en": "1990s", "ko": "1990년대"}
+  }
+}

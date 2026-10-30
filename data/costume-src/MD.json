@@ -1,0 +1,839 @@
+{
+  "cat": "MD",
+  "note": "Modern everyday set: 16 styles x 5 items (2 F, 2 M, 1 U), every style covers spring, summer, autumn and winter via the colorway `season` tag (PLAN §4.3). Adult ready-to-wear only: no school uniforms, no brand lookalikes, no logos, monograms, slogans or signature patterns; generic shoes only where they define the look.",
+  "forms": [
+    {
+      "key": "cas-denim-jacket", "era": "casual", "gender": "F", "lower": "hem",
+      "name": {"zh": "牛仔夹克·T恤·直筒裤", "ja": "デニムジャケット・Tシャツ・ストレート", "en": "Denim Jacket, Tee & Straight Jeans", "ko": "데님 재킷·티셔츠·스트레이트 진"},
+      "desc": "a women's casual outfit: a boxy {jacket} denim trucker jacket worn open, its hem ending exactly at the jeans waistband, not lower, with a pointed collar, two flap chest pockets and metal shank buttons; a plain {tee} cotton crew-neck tee tucked in; high-rise straight-leg {jeans} jeans with the waistband at the natural waist and the hems ending at the ankle bone",
+      "keep": "open {jacket} denim jacket ending at the waistband, {tee} crew-neck tee tucked in, high-rise straight {jeans} jeans to the ankle",
+      "checks": ["牛仔夹克敞开、下摆到裤腰", "胸前两个翻盖口袋", "圆领T恤塞进裤腰", "高腰直筒牛仔裤到脚踝"],
+      "colorways": [
+        {"key": "classic", "season": "spring", "name": {"zh": "中蓝·白", "ja": "ミッドブルー・白", "en": "Mid Blue & White", "ko": "미드블루·흰색"}, "bg": "light", "vars": {"jacket": "mid-blue washed", "tee": "white", "jeans": "light-blue washed"}}
+      ]
+    },
+    {
+      "key": "cas-shirt-dress", "era": "casual", "gender": "F", "lower": "hem",
+      "name": {"zh": "亚麻衬衫裙", "ja": "リネンシャツワンピース", "en": "Linen Shirt Dress", "ko": "린넨 셔츠 원피스"},
+      "desc": "a women's relaxed shirt dress in {main} washed linen, a shirt collar and a full-length button placket with tonal buttons, short sleeves rolled once at the upper arm, a self-fabric tie belt knotted at the natural waist with both ends hanging straight down, a softly gathered skirt reaching mid-calf",
+      "keep": "{main} linen shirt dress, full button placket, rolled short sleeves, self tie belt at the natural waist, mid-calf length",
+      "checks": ["衬衫领、门襟扣到底", "短袖卷边一次", "同料腰带系在自然腰线", "裙长到小腿中部"],
+      "colorways": [
+        {"key": "sage", "season": "summer", "name": {"zh": "鼠尾草绿", "ja": "セージグリーン", "en": "Sage Green", "ko": "세이지 그린"}, "bg": "light", "vars": {"main": "sage green"}}
+      ]
+    },
+    {
+      "key": "cas-sweatshirt-chino", "era": "casual", "gender": "M", "lower": "hem",
+      "name": {"zh": "卫衣叠穿·卡其裤", "ja": "スウェット重ね着・チノ", "en": "Layered Sweatshirt & Chinos", "ko": "맨투맨 레이어드·치노"},
+      "desc": "a men's casual outfit: a plain {sweat} cotton fleece crewneck sweatshirt with ribbed cuffs and hem, the pointed collar of a {shirt} oxford shirt showing at the neckline and its shirttail showing a little below the sweatshirt hem; straight-leg {chino} cotton chinos with a single cuff turned up at the ankle",
+      "keep": "plain {sweat} crewneck sweatshirt, {shirt} shirt collar and shirttail showing, {chino} straight chinos with turned-up cuffs",
+      "checks": ["圆领卫衣、罗纹袖口和下摆", "领口露出衬衫尖领", "下摆露出一点衬衫", "直筒卡其裤裤脚翻边"],
+      "colorways": [
+        {"key": "heather", "season": "autumn", "name": {"zh": "麻灰·卡其", "ja": "杢グレー・カーキ", "en": "Heather Grey & Khaki", "ko": "멜란지 그레이·카키"}, "bg": "light", "vars": {"sweat": "heather grey", "shirt": "light blue", "chino": "khaki"}}
+      ]
+    },
+    {
+      "key": "cas-shawl-cardigan", "era": "casual", "gender": "M", "lower": "hem",
+      "name": {"zh": "青果领粗针开衫·牛仔裤", "ja": "ショールカラーカーディガン・デニム", "en": "Shawl-Collar Cardigan & Jeans", "ko": "숄칼라 카디건·청바지"},
+      "desc": "a men's casual winter outfit: a chunky {knit} wool cardigan with a thick shawl collar, a cable-knit pattern on the body, five large leather-look buttons and two patch pockets, worn buttoned; a {henley} waffle-knit henley underneath showing at the neck; dark {jeans} straight-leg jeans to the ankle",
+      "keep": "chunky {knit} cable shawl-collar cardigan buttoned with large buttons, {henley} henley at the neck, dark {jeans} straight jeans",
+      "checks": ["粗针开衫、厚青果领", "身上麻花纹", "大扣子扣着、两个贴袋", "深色直筒牛仔裤"],
+      "colorways": [
+        {"key": "oat", "season": "winter", "name": {"zh": "燕麦·靛蓝", "ja": "オートミール・インディゴ", "en": "Oatmeal & Indigo", "ko": "오트밀·인디고"}, "bg": "light", "vars": {"knit": "oatmeal", "henley": "charcoal", "jeans": "indigo"}}
+      ]
+    },
+    {
+      "key": "cas-tee-shorts", "era": "casual", "gender": "U", "lower": "hem",
+      "name": {"zh": "宽松T恤·抽绳短裤", "ja": "ビッグTシャツ・イージーショーツ", "en": "Oversized Tee & Drawstring Shorts", "ko": "오버핏 티셔츠·밴딩 반바지"},
+      "desc": "a unisex casual summer outfit: an oversized plain {tee} heavyweight cotton crew-neck tee with dropped shoulders and sleeves to the elbow, worn untucked over knee-length {shorts} cotton twill drawstring shorts with an elastic waistband, the white drawcords hanging straight down, side pockets and a straight hem at the knee",
+      "keep": "oversized plain {tee} tee with dropped shoulders, untucked, knee-length {shorts} drawstring shorts",
+      "checks": ["落肩宽松T恤、袖到手肘", "T恤不塞进去", "松紧腰抽绳短裤", "短裤到膝盖"],
+      "colorways": [
+        {"key": "ecru-olive", "season": "summer", "name": {"zh": "本白·橄榄绿", "ja": "生成り・オリーブ", "en": "Ecru & Olive", "ko": "에크루·올리브"}, "bg": "light", "vars": {"tee": "ecru", "shorts": "olive"}}
+      ]
+    },
+
+    {
+      "key": "st-bomber-cargo", "era": "street", "gender": "F", "lower": "hem",
+      "name": {"zh": "短款飞行员夹克·工装裤", "ja": "ショートボンバー・カーゴパンツ", "en": "Cropped Bomber & Cargo Pants", "ko": "크롭 봄버·카고 팬츠"},
+      "desc": "a women's streetwear outfit: a cropped boxy {jacket} nylon bomber jacket with ribbed collar, cuffs and hem, a centre-front zip closed halfway, its ribbed hem ending at the trouser waistband; a fitted {top} ribbed tank underneath; loose wide-leg {cargo} cotton cargo trousers with large flap pockets on the outer thighs, the waistband at the hips and the hems pooling over the ankle",
+      "keep": "cropped boxy {jacket} bomber with ribbed trims ending at the waistband, {top} tank, loose wide {cargo} cargo trousers with thigh flap pockets",
+      "checks": ["短款飞行员夹克、罗纹领口袖口下摆", "夹克下摆到裤腰", "宽松工装裤、大腿外侧翻盖袋", "裤脚堆在脚踝"],
+      "colorways": [
+        {"key": "black-sand", "season": "spring", "name": {"zh": "黑·沙色", "ja": "黒・サンド", "en": "Black & Sand", "ko": "검정·샌드"}, "bg": "light", "vars": {"jacket": "black", "top": "white", "cargo": "sand-beige"}}
+      ]
+    },
+    {
+      "key": "st-tee-cargo-skirt", "era": "street", "gender": "F", "lower": "shoes",
+      "name": {"zh": "宽T·工装长裙", "ja": "ビッグT・カーゴスカート", "en": "Boxy Tee & Cargo Maxi Skirt", "ko": "박스티·카고 롱스커트"},
+      "desc": "a women's streetwear summer outfit: a boxy plain {tee} cotton tee with short wide sleeves, tucked in at the front only; a {skirt} nylon cargo maxi skirt with a drawcord waist, two large flap pockets on the sides at thigh height and an ankle-length straight hem with a toggle drawcord; plain chunky {shoe} lace-up sneakers with thick soles and no logos or stripes",
+      "keep": "boxy {tee} tee front-tucked, {skirt} nylon cargo maxi skirt with side flap pockets, chunky {shoe} plain sneakers",
+      "checks": ["宽T只塞前面", "尼龙工装长裙到脚踝", "两侧大腿高度翻盖袋", "厚底素色运动鞋、无标识"],
+      "colorways": [
+        {"key": "white-khaki", "season": "summer", "name": {"zh": "白·卡其", "ja": "白・カーキ", "en": "White & Khaki", "ko": "흰색·카키"}, "bg": "light", "vars": {"tee": "white", "skirt": "khaki green", "shoe": "grey"}}
+      ]
+    },
+    {
+      "key": "st-hoodie-cargo", "era": "street", "gender": "M", "lower": "hem",
+      "name": {"zh": "宽松连帽卫衣·工装裤", "ja": "ビッグパーカー・カーゴパンツ", "en": "Oversized Hoodie & Cargo Pants", "ko": "오버핏 후디·카고 팬츠"},
+      "desc": "a men's streetwear outfit: an oversized plain {hoodie} heavyweight cotton pullover hoodie with dropped shoulders, a front kangaroo pocket and ribbed cuffs and hem, the hood lying flat down the back, not raised; baggy {cargo} cotton ripstop cargo trousers with bellows pockets on the outer thighs, the hems gathered by elastic cuffs just above the ankle",
+      "keep": "oversized plain {hoodie} hoodie with hood lying flat at the back and kangaroo pocket, baggy {cargo} ripstop cargo trousers with elastic ankle cuffs",
+      "checks": ["宽松连帽卫衣、帽子平放背后", "前面袋鼠兜", "宽工装裤大腿风琴袋", "裤脚松紧收口"],
+      "colorways": [
+        {"key": "charcoal-olive", "season": "autumn", "name": {"zh": "炭灰·橄榄绿", "ja": "チャコール・オリーブ", "en": "Charcoal & Olive", "ko": "차콜·올리브"}, "bg": "light", "vars": {"hoodie": "charcoal", "cargo": "olive"}}
+      ]
+    },
+    {
+      "key": "st-puffer-baggy", "era": "street", "gender": "M", "lower": "hem",
+      "name": {"zh": "短款面包服·阔腿牛仔裤", "ja": "ショートダウン・バギーデニム", "en": "Cropped Puffer & Baggy Jeans", "ko": "숏패딩·배기 진"},
+      "desc": "a men's streetwear winter outfit: a boxy cropped {puffer} matte nylon puffer jacket with wide horizontal baffles, a tall stand collar zipped to the chin and a hem ending at the hip, not longer; a {hoodie} plain sweatshirt underneath; baggy wide-leg {jeans} jeans sitting low on the hips with the hems stacking over the ankle",
+      "keep": "boxy cropped {puffer} matte puffer with wide horizontal baffles and zipped stand collar, hip length, baggy {jeans} jeans stacked at the ankle",
+      "checks": ["宽横格短款羽绒服", "立领拉到下巴", "下摆只到胯", "宽松阔腿牛仔裤裤脚堆叠"],
+      "colorways": [
+        {"key": "black-washed", "season": "winter", "name": {"zh": "黑·浅蓝", "ja": "黒・ライトブルー", "en": "Black & Light Wash", "ko": "검정·연청"}, "bg": "light", "vars": {"puffer": "black", "hoodie": "grey", "jeans": "light-wash blue"}}
+      ]
+    },
+    {
+      "key": "st-coach-track", "era": "street", "gender": "U", "lower": "hem",
+      "name": {"zh": "教练夹克·运动长裤", "ja": "コーチジャケット・トラックパンツ", "en": "Coach Jacket & Track Pants", "ko": "코치 재킷·트랙 팬츠"},
+      "desc": "a unisex streetwear outfit: a plain {jacket} nylon coach jacket with a pointed collar, a snap-button front and a drawcord hem, worn open over a plain {tee} tee; loose {pants} nylon track pants with an elastic waist, a single contrast {piping} piping line down the outer seam (one line, not stripes) and snap buttons at the ankle",
+      "keep": "plain {jacket} coach jacket with snap front worn open, {tee} tee, loose {pants} track pants with a single {piping} piping line",
+      "checks": ["尖领按扣教练夹克敞开", "下摆抽绳", "运动长裤侧缝一条细滚边（不是三条纹）", "无任何标识"],
+      "colorways": [
+        {"key": "navy-cream", "season": "spring", "name": {"zh": "藏青·米白", "ja": "ネイビー・クリーム", "en": "Navy & Cream", "ko": "네이비·크림"}, "bg": "light", "vars": {"jacket": "navy", "tee": "cream", "pants": "black", "piping": "cream"}}
+      ]
+    },
+
+    {
+      "key": "com-trench", "era": "commute", "gender": "F", "lower": "hem",
+      "name": {"zh": "风衣·衬衫·九分裤", "ja": "トレンチコート・ブラウス・テーパード", "en": "Trench Coat, Blouse & Cropped Trousers", "ko": "트렌치코트·블라우스·크롭 슬랙스"},
+      "desc": "a women's office outfit: a double-breasted {coat} cotton gabardine trench coat to the knee with notched lapels, epaulettes, a back yoke and a self belt tied at the natural waist, a solid plain lining with no check, worn open at the collar; a {blouse} silk blouse; slim {trousers} wool tailored ankle trousers with a pressed crease",
+      "keep": "knee-length double-breasted {coat} trench with self belt at the waist and plain lining, {blouse} blouse, {trousers} slim ankle trousers with crease",
+      "checks": ["双排扣风衣到膝", "肩襻、腰带系在腰线", "里衬素色、无格纹", "九分修身西裤有裤线"],
+      "colorways": [
+        {"key": "stone", "season": "spring", "name": {"zh": "石色·象牙白", "ja": "ストーン・アイボリー", "en": "Stone & Ivory", "ko": "스톤·아이보리"}, "bg": "light", "vars": {"coat": "stone-beige", "blouse": "ivory", "trousers": "black"}}
+      ]
+    },
+    {
+      "key": "com-blouse-midi", "era": "commute", "gender": "F", "lower": "shoes",
+      "name": {"zh": "短袖真丝衬衫·A字中裙", "ja": "半袖ブラウス・Aラインスカート", "en": "Short-Sleeve Blouse & A-Line Midi", "ko": "반팔 블라우스·A라인 미디스커트"},
+      "desc": "a women's summer office outfit: a {blouse} short-sleeve silk blouse with a soft V-neck and a concealed placket, tucked into a {skirt} crepe A-line midi skirt whose waistband sits at the natural waist and whose hem ends at mid-calf; plain {shoe} leather slingback low block heels",
+      "keep": "{blouse} short-sleeve V-neck silk blouse tucked in, {skirt} A-line midi skirt at the natural waist to mid-calf, {shoe} slingback low heels",
+      "checks": ["V领短袖真丝衬衫", "衬衫塞进裙腰", "A字中裙到小腿中部", "露跟低粗跟鞋"],
+      "colorways": [
+        {"key": "powder-navy", "season": "summer", "name": {"zh": "雾蓝·藏青", "ja": "パウダーブルー・ネイビー", "en": "Powder Blue & Navy", "ko": "파우더블루·네이비"}, "bg": "light", "vars": {"blouse": "powder blue", "skirt": "navy", "shoe": "nude-beige"}}
+      ]
+    },
+    {
+      "key": "com-blazer-polo", "era": "commute", "gender": "M", "lower": "shoes",
+      "name": {"zh": "无衬西装·针织Polo·西裤", "ja": "アンコンジャケット・ニットポロ・スラックス", "en": "Soft Blazer, Knit Polo & Trousers", "ko": "언컨 재킷·니트 폴로·슬랙스"},
+      "desc": "a men's smart-casual office outfit: an unstructured single-breasted {blazer} wool-flannel blazer with soft unpadded shoulders, notched lapels and two buttons, worn open; a {polo} fine-knit long-sleeve polo with a three-button placket underneath; tapered {trousers} wool trousers with a pressed crease ending at the ankle; plain {shoe} leather penny loafers",
+      "keep": "open unstructured {blazer} two-button blazer, {polo} knit polo, {trousers} tapered trousers with crease, {shoe} loafers",
+      "checks": ["软肩无衬两粒扣西装敞开", "里面针织长袖Polo", "锥形西裤有裤线", "便士乐福鞋"],
+      "colorways": [
+        {"key": "brown-cream", "season": "autumn", "name": {"zh": "棕·奶油", "ja": "ブラウン・クリーム", "en": "Brown & Cream", "ko": "브라운·크림"}, "bg": "light", "vars": {"blazer": "chocolate brown", "polo": "cream", "trousers": "taupe", "shoe": "dark brown"}}
+      ]
+    },
+    {
+      "key": "com-overcoat", "era": "commute", "gender": "M", "lower": "hem",
+      "name": {"zh": "单排扣大衣·高领毛衣·西裤", "ja": "チェスターコート・タートル・スラックス", "en": "Overcoat, Turtleneck & Trousers", "ko": "체스터 코트·터틀넥·슬랙스"},
+      "desc": "a men's winter office outfit: a single-breasted {coat} wool overcoat ending just above the knee with notched lapels, a three-button front with only the middle button fastened and flap hip pockets; a {knit} merino turtleneck sweater; {trousers} wool trousers with a pressed crease and a full-length hem",
+      "keep": "knee-length single-breasted {coat} overcoat, {knit} turtleneck, {trousers} creased trousers",
+      "checks": ["单排扣大衣到膝上", "平驳领、翻盖口袋", "里面高领毛衣", "西裤有裤线"],
+      "colorways": [
+        {"key": "camel-black", "season": "winter", "name": {"zh": "驼色·黑", "ja": "キャメル・黒", "en": "Camel & Black", "ko": "카멜·검정"}, "bg": "light", "vars": {"coat": "camel", "knit": "black", "trousers": "charcoal"}}
+      ]
+    },
+    {
+      "key": "com-relaxed-blazer", "era": "commute", "gender": "U", "lower": "hem",
+      "name": {"zh": "宽松西装·T恤·阔腿裤", "ja": "オーバーサイズジャケット・T・ワイドパンツ", "en": "Relaxed Blazer, Tee & Wide Trousers", "ko": "오버핏 블레이저·티·와이드 팬츠"},
+      "desc": "a unisex relaxed office outfit: an oversized single-breasted {blazer} wool blazer with dropped shoulders, notched lapels and one button, ending at the upper thigh, worn open over a plain {tee} crew-neck tee; matching {blazer} wide-leg pleated trousers with a high waistband and a long straight leg reaching the floor",
+      "keep": "oversized one-button {blazer} blazer to the upper thigh, plain {tee} tee, matching {blazer} wide pleated trousers to the floor",
+      "checks": ["落肩宽松一粒扣西装", "西装长到大腿上部", "里面圆领T恤", "同色打褶阔腿裤长到地"],
+      "colorways": [
+        {"key": "grey-white", "season": "autumn", "name": {"zh": "中灰·白", "ja": "グレー・白", "en": "Grey & White", "ko": "회색·흰색"}, "bg": "light", "vars": {"blazer": "mid grey", "tee": "white"}}
+      ]
+    },
+
+    {
+      "key": "min-knit-set", "era": "minimal", "gender": "F", "lower": "hem",
+      "name": {"zh": "针织上衣·阔腿裤套装", "ja": "ニットトップ・ワイドパンツ", "en": "Knit Top & Wide Trousers Set", "ko": "니트 탑·와이드 팬츠 세트"},
+      "desc": "a women's minimalist tonal set: a boxy fine-gauge {main} cotton-cashmere knit top with a wide bateau neckline, three-quarter sleeves and a straight hem resting at the hip; matching {main} wide-leg trousers in fluid crepe with a flat front, a concealed side zip and hems grazing the floor; no trims, no visible buttons",
+      "keep": "boxy {main} bateau-neck knit top to the hip, matching {main} flat-front wide crepe trousers to the floor, no trims",
+      "checks": ["一字领宽松针织上衣", "七分袖、下摆到胯", "同色平前阔腿裤到地", "没有任何装饰和外露扣子"],
+      "colorways": [
+        {"key": "stone", "season": "spring", "name": {"zh": "灰褐", "ja": "グレージュ", "en": "Greige", "ko": "그레이지"}, "bg": "light", "vars": {"main": "greige"}}
+      ]
+    },
+    {
+      "key": "min-column-dress", "era": "minimal", "gender": "F", "lower": "hem",
+      "name": {"zh": "无袖直筒长裙", "ja": "ノースリーブコラムワンピース", "en": "Sleeveless Column Dress", "ko": "민소매 칼럼 원피스"},
+      "desc": "a women's minimalist summer dress: a sleeveless {main} heavy matte jersey column dress with a high crew neckline, wide shoulder straps cut in one with the bodice, no waist seam, a straight body skimming the hips and an ankle-length hem with a short back slit",
+      "keep": "sleeveless {main} matte jersey column dress, high crew neck, no waist seam, ankle length with back slit",
+      "checks": ["无袖高圆领", "没有腰线接缝", "直筒到脚踝", "背面下摆短开衩"],
+      "colorways": [
+        {"key": "black", "season": "summer", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}}
+      ]
+    },
+    {
+      "key": "min-merino-pleat", "era": "minimal", "gender": "M", "lower": "hem",
+      "name": {"zh": "美利奴圆领毛衣·褶裥西裤", "ja": "メリノクルーネック・タックパンツ", "en": "Merino Crewneck & Pleated Trousers", "ko": "메리노 크루넥·턱 팬츠"},
+      "desc": "a men's minimalist outfit: a fine-gauge {knit} merino crewneck sweater with a slightly boxy body, worn untucked with its ribbed hem at the hip; relaxed {trousers} wool trousers with a single front pleat on each side, a wide straight leg and an unbroken full-length hem with no stacking",
+      "keep": "{knit} fine merino crewneck untucked, {trousers} relaxed single-pleat wide trousers",
+      "checks": ["细针圆领毛衣不塞", "罗纹下摆到胯", "前片单褶阔直腿西裤", "裤脚平直无堆褶"],
+      "colorways": [
+        {"key": "navy-taupe", "season": "autumn", "name": {"zh": "藏青·灰褐", "ja": "ネイビー・トープ", "en": "Navy & Taupe", "ko": "네이비·토프"}, "bg": "light", "vars": {"knit": "navy", "trousers": "taupe"}}
+      ]
+    },
+    {
+      "key": "min-car-coat", "era": "minimal", "gender": "M", "lower": "hem",
+      "name": {"zh": "暗门襟短大衣·高领", "ja": "比翼コート・タートルネック", "en": "Concealed-Placket Coat & Turtleneck", "ko": "히든 플래킷 코트·터틀넥"},
+      "desc": "a men's minimalist winter outfit: a {coat} double-faced wool car coat ending at mid-thigh, with a small stand collar, a concealed fly-front placket so no buttons are visible, raglan sleeves and seam pockets with no flaps; a {knit} ribbed turtleneck; slim straight {trousers} wool trousers",
+      "keep": "{coat} mid-thigh car coat with stand collar and concealed placket (no visible buttons), {knit} turtleneck, {trousers} slim trousers",
+      "checks": ["大衣长到大腿中部", "小立领", "暗门襟看不到扣子", "插肩袖、无袋盖"],
+      "colorways": [
+        {"key": "charcoal", "season": "winter", "name": {"zh": "炭灰·灰白", "ja": "チャコール・オフ白", "en": "Charcoal & Off-White", "ko": "차콜·오프화이트"}, "bg": "light", "vars": {"coat": "charcoal", "knit": "off-white", "trousers": "charcoal"}}
+      ]
+    },
+    {
+      "key": "min-boxy-shirt", "era": "minimal", "gender": "U", "lower": "hem",
+      "name": {"zh": "方廓衬衫·阔腿裤", "ja": "ボックスシャツ・ワイドパンツ", "en": "Boxy Shirt & Wide Trousers", "ko": "박스 셔츠·와이드 팬츠"},
+      "desc": "a unisex minimalist outfit: a boxy {shirt} cotton poplin shirt with a band collar, a concealed button placket, dropped shoulders and long sleeves with single-button cuffs, worn untucked with a straight hem at the hip; {trousers} wide straight trousers in cotton twill with an elastic-back waist and an ankle-length hem",
+      "keep": "boxy {shirt} band-collar shirt with concealed placket, untucked, {trousers} wide straight ankle trousers",
+      "checks": ["立领方廓衬衫", "暗门襟", "落肩长袖、不塞", "阔腿直筒裤到脚踝"],
+      "colorways": [
+        {"key": "white-black", "season": "spring", "name": {"zh": "白·黑", "ja": "白・黒", "en": "White & Black", "ko": "흰색·검정"}, "bg": "light", "vars": {"shirt": "white", "trousers": "black"}}
+      ]
+    },
+
+    {
+      "key": "nc-jacket-mamian", "era": "newchinese", "gender": "F", "lower": "hem",
+      "name": {"zh": "盘扣短外套·马面半裙", "ja": "チャイナボタンジャケット・馬面スカート", "en": "Knot-Button Jacket & Mamian Skirt", "ko": "매듭단추 재킷·마면 스커트"},
+      "desc": "a women's modern new-Chinese outfit: a short {jacket} linen jacket with a low mandarin stand collar and a centre-front opening (edges meeting edge to edge, not overlapping) closed by five {knot} fabric knot buttons, long straight sleeves, the hem ending at the waist; a {skirt} midi mamian skirt whose waistband sits at the natural waist, with a flat smooth front panel and fine pressed pleats only on the sides, reaching mid-calf",
+      "keep": "short {jacket} mandarin-collar jacket with centre-front {knot} knot buttons ending at the waist, {skirt} midi mamian skirt with flat front panel and side pleats",
+      "checks": ["小立领、对襟一字盘扣", "外套下摆到腰", "马面裙前片平整、两侧打褶", "裙长到小腿中部"],
+      "colorways": [
+        {"key": "celadon", "season": "spring", "name": {"zh": "青瓷·墨", "ja": "青磁・墨", "en": "Celadon & Ink", "ko": "청자색·먹색"}, "bg": "light", "vars": {"jacket": "pale celadon", "knot": "celadon", "skirt": "ink-black"}}
+      ]
+    },
+    {
+      "key": "nc-qipao-midi", "era": "newchinese", "gender": "F", "lower": "hem",
+      "name": {"zh": "改良短袖旗袍裙", "ja": "モダン半袖チャイナドレス", "en": "Modern Short-Sleeve Qipao Dress", "ko": "모던 반팔 치파오 원피스"},
+      "desc": "a women's modern new-Chinese summer dress: a relaxed qipao-style midi dress in {main} washed silk-cotton, a low mandarin collar, a curved side-front closure where the wearer's left panel lies on top and its edge runs from the collar curving toward image-left to fasten under the image-left arm with three {knot} knot buttons, short cap sleeves, an easy straight body (not body-tight), short side slits and a mid-calf hem",
+      "keep": "{main} relaxed qipao midi, mandarin collar, curved closure toward image-left with {knot} knot buttons, cap sleeves, mid-calf",
+      "checks": ["小立领", "大襟从领口弧向画面左侧腋下", "盘扣三粒", "直身不紧身、小腿中部长"],
+      "colorways": [
+        {"key": "indigo", "season": "summer", "name": {"zh": "靛蓝", "ja": "藍", "en": "Indigo", "ko": "쪽빛"}, "bg": "light", "vars": {"main": "indigo", "knot": "white"}}
+      ]
+    },
+    {
+      "key": "nc-padded-jacket", "era": "newchinese", "gender": "M", "lower": "hem",
+      "name": {"zh": "中式棉服·直筒裤", "ja": "中華風中綿ジャケット・ストレート", "en": "Padded Mandarin Jacket & Trousers", "ko": "중국풍 솜 재킷·일자 바지"},
+      "desc": "a men's modern new-Chinese winter outfit: a lightly padded {jacket} cotton jacket with a mandarin stand collar, a centre-front opening (edges meeting, not overlapping) closed by seven {knot} fabric knot buttons, horizontal quilting lines, long sleeves and a hem at the hip; straight {trousers} wool trousers",
+      "keep": "padded {jacket} quilted mandarin-collar jacket with seven {knot} centre-front knot buttons, hip length, {trousers} straight trousers",
+      "checks": ["立领对襟棉服", "七粒一字盘扣", "横向绗缝线", "外套到胯"],
+      "colorways": [
+        {"key": "ink-grey", "season": "winter", "name": {"zh": "墨黑·灰", "ja": "墨・グレー", "en": "Ink & Grey", "ko": "먹색·회색"}, "bg": "light", "vars": {"jacket": "ink-black", "knot": "black", "trousers": "dark grey"}}
+      ]
+    },
+    {
+      "key": "nc-side-close-shirt", "era": "newchinese", "gender": "M", "lower": "shoes",
+      "name": {"zh": "大襟立领衬衫·阔腿裤", "ja": "斜め合わせ立襟シャツ・ワイドパンツ", "en": "Side-Closure Mandarin Shirt & Trousers", "ko": "대금 차이나 셔츠·와이드 팬츠"},
+      "desc": "a men's modern new-Chinese outfit: a long {shirt} linen-cotton shirt to mid-thigh with a mandarin stand collar and a side-front closure where the wearer's left panel lies on top, its edge running from the collar diagonally toward image-left and fastening under the image-left arm with {knot} knot buttons, long sleeves and short side slits; loose {trousers} wide straight trousers; plain black cloth slip-on shoes",
+      "keep": "{shirt} mid-thigh mandarin-collar shirt with side closure toward image-left and {knot} knot buttons, {trousers} wide trousers, black cloth shoes",
+      "checks": ["立领长衬衫到大腿中部", "大襟斜向画面左侧腋下系扣", "两侧短开衩", "黑色布鞋"],
+      "colorways": [
+        {"key": "sand-brown", "season": "autumn", "name": {"zh": "沙色·褐", "ja": "砂色・茶", "en": "Sand & Brown", "ko": "모래색·갈색"}, "bg": "light", "vars": {"shirt": "sand", "knot": "brown", "trousers": "dark brown"}}
+      ]
+    },
+    {
+      "key": "nc-loose-jacket", "era": "newchinese", "gender": "U", "lower": "hem",
+      "name": {"zh": "对襟罩衫·宽裤", "ja": "前合わせ羽織シャツ・ワイドパンツ", "en": "Open-Front Overshirt & Wide Trousers", "ko": "대금 오버셔츠·와이드 팬츠"},
+      "desc": "a unisex modern new-Chinese outfit: a loose {outer} ramie overshirt to mid-thigh with a straight collar band running down both front edges, edges meeting at the centre with two pairs of {outer} fabric ties, wide three-quarter sleeves and side slits; a plain {inner} round-neck top under it; wide straight {trousers} trousers to the ankle",
+      "keep": "loose {outer} ramie open-front overshirt with straight collar band and ties, wide sleeves, {inner} round-neck top, {trousers} wide trousers",
+      "checks": ["对襟直领罩衫到大腿中部", "前襟两组系带", "宽七分袖、两侧开衩", "里面圆领上衣、阔腿裤"],
+      "colorways": [
+        {"key": "oat-black", "season": "spring", "name": {"zh": "米麻·黑", "ja": "生成り麻・黒", "en": "Natural Ramie & Black", "ko": "생모시색·검정"}, "bg": "light", "vars": {"outer": "natural oatmeal", "inner": "black", "trousers": "black"}}
+      ]
+    },
+
+    {
+      "key": "jp-cardigan-flare", "era": "japanese", "gender": "F", "lower": "hem",
+      "name": {"zh": "开衫·衬衫·喇叭长裙", "ja": "カーディガン・ブラウス・フレアロング", "en": "Cardigan, Blouse & Flared Long Skirt", "ko": "카디건·블라우스·플레어 롱스커트"},
+      "desc": "a women's Japanese-style outfit: a loose fine-knit {knit} cotton cardigan with a V-neck and small buttons, worn open over a {blouse} cotton blouse with a small round collar; a {skirt} cotton flared long skirt with an elastic waist at the natural waistline and an ankle-length hem, gently flared, not pleated",
+      "keep": "open {knit} V-neck cardigan, {blouse} round-collar blouse, {skirt} flared ankle-length skirt",
+      "checks": ["V领细针开衫敞开", "里面小圆领衬衫", "喇叭长裙到脚踝", "裙子是自然喇叭、不是百褶"],
+      "colorways": [
+        {"key": "mustard", "season": "spring", "name": {"zh": "芥末黄·白·藏青", "ja": "マスタード・白・紺", "en": "Mustard, White & Navy", "ko": "머스터드·흰색·네이비"}, "bg": "light", "vars": {"knit": "mustard", "blouse": "white", "skirt": "navy"}}
+      ]
+    },
+    {
+      "key": "jp-linen-dress", "era": "japanese", "gender": "F", "lower": "hem",
+      "name": {"zh": "宽松亚麻连衣裙", "ja": "リネンゆったりワンピース", "en": "Loose Linen Dress", "ko": "루즈 린넨 원피스"},
+      "desc": "a women's Japanese natural-style summer dress: a loose {main} washed linen dress with a small band collar, a short front button placket to the chest, dropped shoulders, elbow-length sleeves, a relaxed A-line body with no waist seam and side seam pockets, and a hem reaching mid-calf",
+      "keep": "loose {main} linen A-line dress, band collar, short placket, elbow sleeves, no waist seam, mid-calf",
+      "checks": ["小立领、短门襟到胸", "落肩五分袖", "无腰线宽松A字", "到小腿中部"],
+      "colorways": [
+        {"key": "natural", "season": "summer", "name": {"zh": "原麻色", "ja": "生成り", "en": "Natural Flax", "ko": "내추럴 린넨"}, "bg": "dark", "vars": {"main": "natural flax-beige"}}
+      ]
+    },
+    {
+      "key": "jp-coverall-jacket", "era": "japanese", "gender": "M", "lower": "hem",
+      "name": {"zh": "工装夹克·宽锥形裤", "ja": "カバーオール・ワイドテーパード", "en": "Coverall Jacket & Wide Tapered Trousers", "ko": "커버올 재킷·와이드 테이퍼드"},
+      "desc": "a men's Japanese casual outfit: a boxy {jacket} cotton duck coverall jacket with a pointed collar, five metal buttons, three patch pockets (one on the chest, two at the hips) and a hem at the hip, worn open over a {shirt} band-collar shirt; {trousers} wide tapered trousers with a single front pleat, cropped just above the ankle",
+      "keep": "boxy {jacket} coverall jacket with three patch pockets worn open, {shirt} band-collar shirt, {trousers} wide tapered pleated cropped trousers",
+      "checks": ["尖领工装夹克三个贴袋", "敞开、到胯", "里面立领衬衫", "宽锥形单褶裤到脚踝上"],
+      "colorways": [
+        {"key": "brown-indigo", "season": "autumn", "name": {"zh": "焦茶·靛蓝", "ja": "焦茶・藍", "en": "Brown & Indigo", "ko": "고동색·인디고"}, "bg": "light", "vars": {"jacket": "dark brown", "shirt": "white", "trousers": "indigo"}}
+      ]
+    },
+    {
+      "key": "jp-duffle", "era": "japanese", "gender": "M", "lower": "hem",
+      "name": {"zh": "牛角扣大衣·渔夫毛衣", "ja": "ダッフルコート・フィッシャーマンニット", "en": "Duffle Coat & Fisherman Sweater", "ko": "더플코트·피셔맨 니트"},
+      "desc": "a men's Japanese casual winter outfit: a {coat} wool melton duffle coat to the mid-thigh with four wooden toggle fastenings on {cord} rope loops down the front, a hood lying flat down the back (not raised), two patch pockets; a {knit} cable-knit fisherman crewneck sweater visible at the neck; wide {trousers} corduroy trousers",
+      "keep": "{coat} duffle coat with four wooden toggles on {cord} rope loops, hood lying flat at the back, {knit} fisherman knit at the neck, {trousers} wide corduroy trousers",
+      "checks": ["牛角扣大衣四个木扣绳襻", "帽子平放背后", "领口露出麻花渔夫毛衣", "灯芯绒阔腿裤"],
+      "colorways": [
+        {"key": "navy", "season": "winter", "name": {"zh": "藏青·米白", "ja": "紺・生成り", "en": "Navy & Ecru", "ko": "네이비·에크루"}, "bg": "light", "vars": {"coat": "navy", "cord": "tan", "knit": "ecru", "trousers": "olive brown"}}
+      ]
+    },
+    {
+      "key": "jp-open-collar", "era": "japanese", "gender": "U", "lower": "hem",
+      "name": {"zh": "开领衬衫·宽松九分裤", "ja": "オープンカラーシャツ・ワイドクロップド", "en": "Open-Collar Shirt & Wide Cropped Trousers", "ko": "오픈칼라 셔츠·와이드 크롭 팬츠"},
+      "desc": "a unisex Japanese casual outfit: an oversized {shirt} cotton shirt with an open camp collar, a fine pinstripe, long sleeves and a straight hem, worn untucked; {trousers} wide trousers in cotton twill with a drawstring waist, cut to end above the ankle",
+      "keep": "oversized {shirt} pinstripe camp-collar shirt untucked, {trousers} wide drawstring trousers above the ankle",
+      "checks": ["开领宽松衬衫", "细竖条纹", "衬衫不塞", "抽绳阔腿九分裤"],
+      "colorways": [
+        {"key": "blue-stripe", "season": "spring", "name": {"zh": "蓝白细条·米", "ja": "青白ストライプ・ベージュ", "en": "Blue Stripe & Beige", "ko": "블루 스트라이프·베이지"}, "bg": "light", "vars": {"shirt": "white-and-blue", "trousers": "beige"}}
+      ]
+    },
+
+    {
+      "key": "kr-cardigan-satin", "era": "korean", "gender": "F", "lower": "hem",
+      "name": {"zh": "针织开衫·缎面半裙", "ja": "ニットカーディガン・サテンスカート", "en": "Knit Cardigan & Satin Skirt", "ko": "니트 카디건·새틴 스커트"},
+      "desc": "a women's Korean-style outfit: a soft {knit} wool-blend cardigan buttoned all the way and worn as a top, with a round neck, small pearly buttons and a hem resting at the waist; a {skirt} satin bias-cut slip skirt whose waistband sits at the natural waist, falling smoothly to mid-calf",
+      "keep": "{knit} buttoned round-neck cardigan to the waist, {skirt} bias satin slip skirt to mid-calf",
+      "checks": ["圆领开衫全部扣上当上衣穿", "开衫下摆到腰", "缎面斜裁半裙", "裙长到小腿中部"],
+      "colorways": [
+        {"key": "butter", "season": "spring", "name": {"zh": "奶黄·米", "ja": "バター・ベージュ", "en": "Butter & Beige", "ko": "버터·베이지"}, "bg": "light", "vars": {"knit": "butter yellow", "skirt": "champagne beige"}}
+      ]
+    },
+    {
+      "key": "kr-wrap-coat", "era": "korean", "gender": "F", "lower": "hem",
+      "name": {"zh": "系带长大衣·高领·阔腿裤", "ja": "ガウンコート・タートル・ワイドスラックス", "en": "Wrap Coat, Turtleneck & Wide Slacks", "ko": "로브 코트·터틀넥·와이드 슬랙스"},
+      "desc": "a women's Korean-style winter outfit: a long {coat} wool-cashmere wrap coat with no buttons, a wide shawl-like notched collar, dropped shoulders and a self belt tied at the natural waist with both ends hanging straight down, the hem reaching mid-calf; a {knit} ribbed turtleneck; {trousers} wide slacks",
+      "keep": "{coat} buttonless wrap coat belted at the waist to mid-calf, {knit} turtleneck, {trousers} wide slacks",
+      "checks": ["无扣系带长大衣到小腿中部", "腰带系在腰线、两端垂直", "落肩宽领", "里面高领、阔腿裤"],
+      "colorways": [
+        {"key": "oatmeal", "season": "winter", "name": {"zh": "燕麦·白·灰", "ja": "オートミール・白・グレー", "en": "Oatmeal, White & Grey", "ko": "오트밀·흰색·회색"}, "bg": "dark", "vars": {"coat": "oatmeal", "knit": "white", "trousers": "light grey"}}
+      ]
+    },
+    {
+      "key": "kr-knit-polo", "era": "korean", "gender": "M", "lower": "hem",
+      "name": {"zh": "短袖针织Polo·褶裥阔腿裤", "ja": "半袖ニットポロ・タックワイド", "en": "Knit Polo & Pleated Wide Trousers", "ko": "반팔 니트 폴로·턱 와이드"},
+      "desc": "a men's Korean-style summer outfit: a short-sleeve {polo} open-weave knit polo with an open johnny collar (no buttons), a relaxed fit, tucked loosely into {trousers} wide-leg trousers with two front pleats, a high waistband at the navel, not at the hips, and a long straight full-length leg",
+      "keep": "{polo} open-weave knit polo with buttonless johnny collar, tucked into {trousers} high-waisted double-pleat wide trousers",
+      "checks": ["镂空针织短袖Polo", "无扣开领", "塞进高腰裤（腰头到肚脐）", "双褶阔腿裤"],
+      "colorways": [
+        {"key": "mint-grey", "season": "summer", "name": {"zh": "薄荷·浅灰", "ja": "ミント・ライトグレー", "en": "Mint & Light Grey", "ko": "민트·연회색"}, "bg": "light", "vars": {"polo": "pale mint", "trousers": "light grey"}}
+      ]
+    },
+    {
+      "key": "kr-oversize-blazer", "era": "korean", "gender": "M", "lower": "hem",
+      "name": {"zh": "落肩西装·针织背心·西裤", "ja": "ビッグジャケット・ニットベスト・スラックス", "en": "Oversized Blazer, Knit Vest & Slacks", "ko": "오버핏 블레이저·니트 베스트·슬랙스"},
+      "desc": "a men's Korean-style outfit: an oversized double-breasted {blazer} wool blazer with dropped shoulders and peak lapels, worn open; a {vest} V-neck knit vest over a {shirt} shirt with a pointed collar; {trousers} straight slacks with a pressed crease",
+      "keep": "open oversized double-breasted {blazer} blazer with peak lapels, {vest} V-neck knit vest, {shirt} shirt, {trousers} creased slacks",
+      "checks": ["落肩双排扣西装敞开", "戗驳领", "V领针织背心叠衬衫", "西裤有裤线"],
+      "colorways": [
+        {"key": "taupe-brown", "season": "autumn", "name": {"zh": "灰褐·咖啡", "ja": "トープ・ブラウン", "en": "Taupe & Brown", "ko": "토프·브라운"}, "bg": "light", "vars": {"blazer": "taupe", "vest": "brown", "shirt": "white", "trousers": "taupe"}}
+      ]
+    },
+    {
+      "key": "kr-shacket", "era": "korean", "gender": "U", "lower": "hem",
+      "name": {"zh": "格纹衬衫外套·直筒牛仔裤", "ja": "チェックシャツジャケット・ストレートデニム", "en": "Check Shirt Jacket & Straight Jeans", "ko": "체크 셔츠 재킷·스트레이트 진"},
+      "desc": "a unisex Korean-style outfit: a boxy oversized shirt jacket in {check} brushed wool with a simple even windowpane check, a pointed collar, a snap front worn open and two flap chest pockets, ending at the upper thigh; a plain {tee} tee; straight {jeans} jeans",
+      "keep": "oversized {check} windowpane-check shirt jacket worn open, two flap chest pockets, {tee} tee, {jeans} straight jeans",
+      "checks": ["宽松衬衫式外套到大腿上部", "简单窗格纹（不是品牌格纹）", "胸前两个翻盖袋", "直筒牛仔裤"],
+      "colorways": [
+        {"key": "brown-check", "season": "autumn", "name": {"zh": "棕米格·白", "ja": "茶ベージュチェック・白", "en": "Brown Check & White", "ko": "브라운 체크·흰색"}, "bg": "light", "vars": {"check": "brown-and-beige", "tee": "white", "jeans": "mid-blue"}}
+      ]
+    },
+
+    {
+      "key": "fr-tea-dress", "era": "french", "gender": "F", "lower": "hem",
+      "name": {"zh": "方领碎花中长裙", "ja": "スクエアネック小花柄ワンピース", "en": "Square-Neck Floral Midi Dress", "ko": "스퀘어넥 플로럴 미디 원피스"},
+      "desc": "a women's French-style summer dress: a {main} viscose midi dress with a small ditsy floral print in {flower}, a modest square neckline, short gently puffed sleeves, a fitted bodice with a front button placket, the waist seam at the natural waist, and a softly flared skirt to mid-calf",
+      "keep": "{main} midi dress with small {flower} ditsy floral, square neck, short puff sleeves, button bodice, natural waist, mid-calf",
+      "checks": ["方领、短泡泡袖", "小碎花", "前片一排扣子、腰线在自然腰", "裙长到小腿中部"],
+      "colorways": [
+        {"key": "navy-floral", "season": "summer", "name": {"zh": "藏青小碎花", "ja": "紺地小花", "en": "Navy Ditsy", "ko": "네이비 잔꽃"}, "bg": "light", "vars": {"main": "navy", "flower": "white and yellow"}}
+      ]
+    },
+    {
+      "key": "fr-stripe-tee", "era": "french", "gender": "F", "lower": "hem",
+      "name": {"zh": "海魂衫·直筒牛仔裤", "ja": "ボーダーカットソー・ストレートデニム", "en": "Breton Top & Straight Jeans", "ko": "스트라이프 티·스트레이트 진"},
+      "desc": "a women's French-style outfit: a {stripe} cotton jersey boat-neck top with even horizontal stripes and long sleeves ending at the wrist, half-tucked at the front; high-rise straight {jeans} jeans with the waistband at the natural waist and raw-cut hems ending above the ankle",
+      "keep": "{stripe} horizontal-stripe boat-neck long-sleeve top half-tucked, high-rise straight {jeans} jeans with raw hems above the ankle",
+      "checks": ["一字领横条纹长袖", "前面半塞", "高腰直筒牛仔裤", "毛边裤脚在脚踝上"],
+      "colorways": [
+        {"key": "navy-white", "season": "spring", "name": {"zh": "白底藏青条·浅蓝", "ja": "白紺ボーダー・ライトブルー", "en": "Navy Stripe & Light Wash", "ko": "네이비 줄무늬·연청"}, "bg": "light", "vars": {"stripe": "white with navy", "jeans": "light-wash blue"}}
+      ]
+    },
+    {
+      "key": "fr-work-jacket", "era": "french", "gender": "M", "lower": "hem",
+      "name": {"zh": "法式工作夹克·T恤·九分裤", "ja": "フレンチワークジャケット・Tシャツ・クロップド", "en": "French Work Jacket, Tee & Cropped Trousers", "ko": "프렌치 워크 재킷·티셔츠·크롭 팬츠"},
+      "desc": "a men's French-style outfit: a {jacket} cotton moleskin work jacket with a small pointed collar, five horn buttons, three patch pockets (one on the chest, two at the hips) and a straight hem at the hip, worn open over a plain {tee} tee; slim {trousers} cotton trousers cropped just above the ankle",
+      "keep": "{jacket} moleskin work jacket with five buttons and three patch pockets worn open, {tee} tee, {trousers} slim cropped trousers",
+      "checks": ["小尖领工作夹克", "五粒扣、三个贴袋", "敞开、到胯", "修身九分裤"],
+      "colorways": [
+        {"key": "workblue", "season": "autumn", "name": {"zh": "工装蓝·白·米", "ja": "ワークブルー・白・ベージュ", "en": "Work Blue, White & Beige", "ko": "워크블루·흰색·베이지"}, "bg": "light", "vars": {"jacket": "cobalt work-blue", "tee": "white", "trousers": "beige"}}
+      ]
+    },
+    {
+      "key": "fr-peacoat", "era": "french", "gender": "M", "lower": "hem",
+      "name": {"zh": "双排扣海军短大衣·高领", "ja": "ピーコート・タートルネック", "en": "Peacoat & Turtleneck", "ko": "피코트·터틀넥"},
+      "desc": "a men's French-style winter outfit: a {coat} heavy wool melton double-breasted peacoat ending at the upper thigh, with wide notched lapels, two columns of three large plain buttons with no anchor motif, vertical slash hand pockets; a {knit} ribbed turtleneck; slim {trousers} wool trousers",
+      "keep": "{coat} double-breasted peacoat to the upper thigh with six plain buttons and wide lapels, {knit} turtleneck, {trousers} slim trousers",
+      "checks": ["双排六粒扣短大衣", "宽驳领", "竖向斜插袋", "里面高领毛衣"],
+      "colorways": [
+        {"key": "navy-cream", "season": "winter", "name": {"zh": "藏青·奶白", "ja": "紺・クリーム", "en": "Navy & Cream", "ko": "네이비·크림"}, "bg": "light", "vars": {"coat": "navy", "knit": "cream", "trousers": "grey"}}
+      ]
+    },
+    {
+      "key": "fr-linen-set", "era": "french", "gender": "U", "lower": "hem",
+      "name": {"zh": "亚麻衬衫·亚麻长裤", "ja": "リネンシャツ・リネンパンツ", "en": "Linen Shirt & Linen Trousers", "ko": "린넨 셔츠·린넨 바지"},
+      "desc": "a unisex French-style summer outfit: a relaxed {shirt} washed linen shirt with a soft point collar, a full button placket left open at the top two buttons, long sleeves rolled to the forearm, worn untucked; {trousers} washed linen straight trousers with a drawstring waist and a full-length hem",
+      "keep": "relaxed {shirt} linen shirt open at the collar, sleeves rolled to the forearm, untucked, {trousers} linen drawstring trousers",
+      "checks": ["亚麻衬衫领口开两粒", "袖子卷到小臂", "不塞", "抽绳亚麻长裤"],
+      "colorways": [
+        {"key": "white-sand", "season": "summer", "name": {"zh": "白·沙色", "ja": "白・サンド", "en": "White & Sand", "ko": "흰색·샌드"}, "bg": "dark", "vars": {"shirt": "white", "trousers": "sand"}}
+      ]
+    },
+
+    {
+      "key": "am-western-flare", "era": "americana", "gender": "F", "lower": "shoes",
+      "name": {"zh": "西部衬衫·喇叭牛仔裤", "ja": "ウエスタンシャツ・フレアデニム", "en": "Western Shirt & Flared Jeans", "ko": "웨스턴 셔츠·부츠컷 진"},
+      "desc": "a women's Americana outfit: a fitted {shirt} chambray western shirt with pointed front and back yokes, pearl snap buttons and snap cuffs, tucked into high-rise {jeans} flared jeans whose waistband sits at the natural waist and whose legs flare from the knee; a plain {belt} leather belt with a simple buckle; {boots} leather western boots under the hems",
+      "keep": "{shirt} western shirt with pointed yokes and pearl snaps tucked in, {belt} plain belt, high-rise {jeans} flared jeans, {boots} western boots",
+      "checks": ["前后尖角育克", "珍珠按扣", "高腰从膝盖开喇叭的牛仔裤", "西部靴"],
+      "colorways": [
+        {"key": "chambray", "season": "spring", "name": {"zh": "青年布·深蓝", "ja": "シャンブレー・インディゴ", "en": "Chambray & Indigo", "ko": "샴브레이·인디고"}, "bg": "light", "vars": {"shirt": "light blue", "jeans": "dark indigo", "belt": "tan", "boots": "tan"}}
+      ]
+    },
+    {
+      "key": "am-gingham-dress", "era": "americana", "gender": "F", "lower": "hem",
+      "name": {"zh": "格纹衬衫式连衣裙", "ja": "ギンガムシャツワンピース", "en": "Gingham Shirtwaist Dress", "ko": "깅엄 셔츠 원피스"},
+      "desc": "a women's Americana summer dress: a 1950s-inspired shirtwaist dress in {check} cotton gingham with a small pointed collar, a button placket from the collar to the waist, short sleeves with a turned cuff, a narrow self belt at the natural waist and a full gathered skirt to below the knee",
+      "keep": "{check} gingham shirtwaist dress, pointed collar, placket to the waist, short cuffed sleeves, self belt at the natural waist, full skirt below the knee",
+      "checks": ["小尖领、门襟到腰", "短袖翻边", "自然腰线细腰带", "蓬起的裙子到膝下"],
+      "colorways": [
+        {"key": "red-gingham", "season": "summer", "name": {"zh": "红白格", "ja": "赤白ギンガム", "en": "Red Gingham", "ko": "빨강 깅엄"}, "bg": "light", "vars": {"check": "red-and-white"}}
+      ]
+    },
+    {
+      "key": "am-trucker-flannel", "era": "americana", "gender": "M", "lower": "shoes",
+      "name": {"zh": "牛仔夹克·法兰绒衬衫·工装靴", "ja": "デニムジャケット・ネルシャツ・ワークブーツ", "en": "Trucker Jacket, Flannel & Work Boots", "ko": "트러커 재킷·플란넬·워크 부츠"},
+      "desc": "a men's Americana outfit: a {jacket} rigid denim trucker jacket with pointed collar, two flap chest pockets and pleated front panels, worn open over a {flannel} brushed-cotton flannel shirt with a plaid pattern; straight {jeans} raw denim jeans with a single turned-up cuff; {boots} leather lace-up moc-toe work boots",
+      "keep": "open {jacket} denim trucker jacket, {flannel} plaid flannel shirt, {jeans} raw straight jeans with cuffs, {boots} moc-toe work boots",
+      "checks": ["牛仔夹克敞开、胸前翻盖袋", "里面法兰绒格子衬衫", "原色直筒牛仔裤翻边", "系带工装靴"],
+      "colorways": [
+        {"key": "red-plaid", "season": "autumn", "name": {"zh": "红黑格·原色", "ja": "赤黒チェック・リジッド", "en": "Red Plaid & Raw Denim", "ko": "레드 체크·생지"}, "bg": "light", "vars": {"jacket": "mid-blue", "flannel": "red-and-black", "jeans": "dark indigo", "boots": "brown"}}
+      ]
+    },
+    {
+      "key": "am-rancher", "era": "americana", "gender": "M", "lower": "hem",
+      "name": {"zh": "翻毛领麂皮夹克·牛仔裤", "ja": "ボアカラースエードジャケット・デニム", "en": "Shearling-Collar Suede Jacket & Jeans", "ko": "시어링 칼라 스웨이드 재킷·청바지"},
+      "desc": "a men's Americana winter outfit: a {jacket} suede rancher jacket ending at the hip with a wide {collar} shearling collar and shearling lining visible at the front edges, a button front, two hand-warmer pockets; a {knit} thermal waffle henley; straight {jeans} jeans",
+      "keep": "{jacket} suede rancher jacket with {collar} shearling collar and lining, hip length, {knit} waffle henley, {jeans} straight jeans",
+      "checks": ["麂皮夹克到胯", "宽羊羔毛翻领", "门襟边露出羊羔毛里", "华夫格亨利衫、直筒牛仔裤"],
+      "colorways": [
+        {"key": "tobacco", "season": "winter", "name": {"zh": "烟草棕·奶白", "ja": "タバコブラウン・クリーム", "en": "Tobacco & Cream", "ko": "타바코 브라운·크림"}, "bg": "light", "vars": {"jacket": "tobacco brown", "collar": "cream", "knit": "oatmeal", "jeans": "mid-blue"}}
+      ]
+    },
+    {
+      "key": "am-bowling-shirt", "era": "americana", "gender": "U", "lower": "hem",
+      "name": {"zh": "复古保龄球衫·卡其裤", "ja": "ボウリングシャツ・チノ", "en": "Bowling Shirt & Chinos", "ko": "볼링 셔츠·치노"},
+      "desc": "a unisex Americana summer outfit: a boxy short-sleeve {shirt} rayon bowling shirt with an open camp collar, two wide vertical contrast {panel} panels running down the front from shoulder to hem, a straight untucked hem, and no embroidery or lettering; straight {chino} cotton chinos",
+      "keep": "boxy {shirt} camp-collar bowling shirt with two vertical {panel} front panels, untucked, no lettering, {chino} straight chinos",
+      "checks": ["开领短袖保龄球衫", "前片两条竖向撞色拼块", "没有刺绣和文字", "直筒卡其裤"],
+      "colorways": [
+        {"key": "cream-teal", "season": "summer", "name": {"zh": "奶白·孔雀绿", "ja": "クリーム・ティール", "en": "Cream & Teal", "ko": "크림·틸"}, "bg": "dark", "vars": {"shirt": "cream", "panel": "teal", "chino": "khaki"}}
+      ]
+    },
+
+    {
+      "key": "y2k-double-denim", "era": "y2k", "gender": "F", "lower": "hem",
+      "name": {"zh": "短牛仔外套·牛仔半裙", "ja": "ショートGジャン・デニムスカート", "en": "Cropped Denim Jacket & Denim Midi Skirt", "ko": "크롭 데님 재킷·데님 미디스커트"},
+      "desc": "a women's Y2K double-denim outfit: a cropped fitted {jacket} denim jacket with contrast {stitch} stitching, a pointed collar and a hem ending at the waist, buttoned closed; a matching {jacket} denim midi skirt sitting low on the hips with a front button fly, a front slit to the knee and an ankle-grazing hem",
+      "keep": "cropped fitted {jacket} denim jacket with {stitch} contrast stitching, buttoned, matching low-rise {jacket} denim midi skirt with front slit",
+      "checks": ["短款修身牛仔外套扣上", "撞色明线", "低腰牛仔长半裙、前开衩到膝", "上下同色牛仔"],
+      "colorways": [
+        {"key": "light-wash", "season": "spring", "name": {"zh": "浅水洗蓝", "ja": "ライトウォッシュ", "en": "Light Wash", "ko": "라이트 워시"}, "bg": "light", "vars": {"jacket": "light-wash blue", "stitch": "orange"}}
+      ]
+    },
+    {
+      "key": "y2k-glossy-puffer", "era": "y2k", "gender": "F", "lower": "hem",
+      "name": {"zh": "亮面短羽绒服·工装阔腿裤", "ja": "光沢ショートダウン・カーゴワイド", "en": "Glossy Cropped Puffer & Wide Cargos", "ko": "유광 숏패딩·와이드 카고"},
+      "desc": "a women's Y2K winter outfit: a cropped high-shine {puffer} metallic puffer jacket with a stand collar, ending at the waist, zipped closed; a {knit} fitted ribbed turtleneck; low-rise wide-leg {cargo} nylon parachute cargo trousers with the waistband on the hips, drawcord toggles at the ankles and large side pockets",
+      "keep": "cropped high-shine {puffer} puffer ending at the waist, {knit} turtleneck, low-rise wide {cargo} parachute cargos with ankle toggles",
+      "checks": ["亮面金属感短羽绒服", "下摆到腰、拉链拉上", "低腰降落伞工装裤", "裤脚抽绳"],
+      "colorways": [
+        {"key": "silver-black", "season": "winter", "name": {"zh": "银·黑", "ja": "シルバー・黒", "en": "Silver & Black", "ko": "실버·검정"}, "bg": "light", "vars": {"puffer": "silver", "knit": "black", "cargo": "black"}}
+      ]
+    },
+    {
+      "key": "y2k-flame-shirt", "era": "y2k", "gender": "M", "lower": "hem",
+      "name": {"zh": "火焰印花衬衫·宽松牛仔裤", "ja": "フレイム柄シャツ・バギーデニム", "en": "Flame-Print Shirt & Baggy Jeans", "ko": "불꽃 프린트 셔츠·배기 진"},
+      "desc": "a men's Y2K summer outfit: a boxy short-sleeve {shirt} shirt with a camp collar and an abstract flame print rising from the hem in {flame}, worn open over a plain {tee} tee; baggy {jeans} jeans with a wide leg and a low-slung waist",
+      "keep": "boxy {shirt} camp-collar shirt with {flame} flame print rising from the hem worn open, {tee} tee, baggy {jeans} jeans",
+      "checks": ["开领短袖衬衫敞开", "火焰纹从下摆往上", "里面白T", "宽松低腰牛仔裤"],
+      "colorways": [
+        {"key": "black-flame", "season": "summer", "name": {"zh": "黑底火焰·中蓝", "ja": "黒地フレイム・ミッドブルー", "en": "Black Flame & Mid Blue", "ko": "블랙 불꽃·미드블루"}, "bg": "light", "vars": {"shirt": "black", "flame": "red, orange and yellow", "tee": "white", "jeans": "mid-blue"}}
+      ]
+    },
+    {
+      "key": "y2k-track-jacket", "era": "y2k", "gender": "M", "lower": "hem",
+      "name": {"zh": "拼色运动夹克·宽松牛仔裤", "ja": "切替トラックジャケット・バギーデニム", "en": "Colour-Block Track Jacket & Baggy Jeans", "ko": "컬러블록 트랙 재킷·배기 진"},
+      "desc": "a men's Y2K outfit: a {main} nylon track jacket with a stand collar, a full zip, and contrasting {block} colour-block panels across the shoulders and upper sleeves (block panels, not stripes, no logo), elastic cuffs and hem; baggy {jeans} light-wash jeans",
+      "keep": "{main} nylon track jacket with {block} colour-block shoulder panels (no stripes), stand collar, full zip, baggy {jeans} jeans",
+      "checks": ["立领全拉链运动夹克", "肩和上臂拼色块（不是条纹）", "无任何标识", "宽松浅色牛仔裤"],
+      "colorways": [
+        {"key": "royal-white", "season": "autumn", "name": {"zh": "宝蓝·白", "ja": "ロイヤルブルー・白", "en": "Royal Blue & White", "ko": "로열블루·흰색"}, "bg": "light", "vars": {"main": "royal blue", "block": "white", "jeans": "pale blue"}}
+      ]
+    },
+    {
+      "key": "y2k-ringer-carpenter", "era": "y2k", "gender": "U", "lower": "hem",
+      "name": {"zh": "撞色滚边T恤·木工牛仔裤", "ja": "リンガーT・ペインターデニム", "en": "Ringer Tee & Carpenter Jeans", "ko": "링거 티·카펜터 진"},
+      "desc": "a unisex Y2K outfit: a fitted {tee} ringer tee with contrast {trim} ribbed bands on the neckline and sleeve ends, blank with no print; loose {jeans} carpenter jeans with a hammer loop on the left thigh, a utility pocket on the right thigh and a wide straight leg pooling over the ankle",
+      "keep": "fitted {tee} ringer tee with {trim} contrast neck and sleeve bands, no print, loose {jeans} carpenter jeans with hammer loop",
+      "checks": ["合身T恤领口袖口撞色罗纹", "T恤无印花", "木工裤锤子环和工具袋", "宽直筒裤脚堆叠"],
+      "colorways": [
+        {"key": "white-navy", "season": "summer", "name": {"zh": "白·藏青·中蓝", "ja": "白・紺・ミッドブルー", "en": "White, Navy & Mid Blue", "ko": "흰색·네이비·미드블루"}, "bg": "light", "vars": {"tee": "white", "trim": "navy", "jeans": "mid-blue"}}
+      ]
+    },
+
+    {
+      "key": "sw-puff-dress", "era": "sweet", "gender": "F", "lower": "hem",
+      "name": {"zh": "方领泡袖碎花中长裙", "ja": "スクエアネックパフスリーブ花柄ワンピース", "en": "Puff-Sleeve Floral Midi Dress", "ko": "퍼프소매 플로럴 미디 원피스"},
+      "desc": "a women's sweet-style dress: a {main} cotton midi dress with a small rosebud print in {flower}, a modest square neckline, elbow-length puff sleeves with elastic cuffs, a shirred elastic back bodice, the waist seam at the natural waist (not under the bust), and a tiered flared skirt reaching mid-calf",
+      "keep": "{main} rosebud-print midi dress, square neck, elbow puff sleeves, waist at the natural waist, tiered skirt to mid-calf",
+      "checks": ["方领、五分泡泡袖", "小玫瑰花纹", "腰线在自然腰（不在胸下）", "分层裙到小腿中部"],
+      "colorways": [
+        {"key": "pink-rose", "season": "spring", "name": {"zh": "淡粉小玫瑰", "ja": "淡ピンク小薔薇", "en": "Pale Pink Rosebud", "ko": "연분홍 잔장미"}, "bg": "light", "vars": {"main": "pale pink", "flower": "rose and green"}}
+      ]
+    },
+    {
+      "key": "sw-mohair-satin", "era": "sweet", "gender": "F", "lower": "shoes",
+      "name": {"zh": "马海毛开衫·缎面长裙", "ja": "モヘアカーディガン・サテンスカート", "en": "Mohair Cardigan & Satin Midi Skirt", "ko": "모헤어 카디건·새틴 스커트"},
+      "desc": "a women's sweet-style outfit: a fluffy {knit} mohair-blend cardigan with a round neck, buttoned with small {button} pearly buttons, its hem at the waist; a {skirt} satin midi skirt with a gently gathered waist at the natural waist and a hem at mid-calf; {shoe} leather Mary Jane flats with a single strap",
+      "keep": "fluffy {knit} round-neck mohair cardigan with {button} pearly buttons ending at the waist, {skirt} gathered satin midi skirt, {shoe} Mary Jane flats",
+      "checks": ["蓬松马海毛圆领开衫", "小珍珠扣", "缎面中长裙到小腿中部", "单带玛丽珍平底鞋"],
+      "colorways": [
+        {"key": "lilac-cream", "season": "autumn", "name": {"zh": "淡紫·奶白", "ja": "ライラック・クリーム", "en": "Lilac & Cream", "ko": "라일락·크림"}, "bg": "light", "vars": {"knit": "lilac", "button": "white", "skirt": "cream", "shoe": "burgundy"}}
+      ]
+    },
+    {
+      "key": "sw-pastel-cardigan", "era": "sweet", "gender": "M", "lower": "hem",
+      "name": {"zh": "V领开衫·T恤·平前长裤", "ja": "Vネックカーディガン・Tシャツ・ストレートパンツ", "en": "V-Neck Cardigan, Tee & Trousers", "ko": "V넥 카디건·티셔츠·스트레이트 팬츠"},
+      "desc": "a men's soft-style outfit: a relaxed {knit} cotton cardigan with a V-neck and five buttons, worn open over a plain {tee} crew-neck tee; straight {trousers} cotton twill trousers with a clean flat front",
+      "keep": "open {knit} V-neck cardigan, {tee} crew-neck tee, {trousers} straight flat-front trousers",
+      "checks": ["V领五粒扣开衫敞开", "里面圆领T恤", "平前直筒长裤", "整体浅淡粉彩"],
+      "colorways": [
+        {"key": "baby-blue", "season": "spring", "name": {"zh": "淡蓝·白·奶白", "ja": "ベビーブルー・白・クリーム", "en": "Pale Blue, White & Cream", "ko": "연하늘·흰색·크림"}, "bg": "dark", "vars": {"knit": "pale sky blue", "tee": "white", "trousers": "cream"}}
+      ]
+    },
+    {
+      "key": "sw-knit-polo-shorts", "era": "sweet", "gender": "M", "lower": "hem",
+      "name": {"zh": "针织短袖衬衫·褶裥短裤", "ja": "ニット半袖シャツ・タックショーツ", "en": "Knit Camp Shirt & Pleated Shorts", "ko": "니트 반팔 셔츠·턱 반바지"},
+      "desc": "a men's soft-style summer outfit: a short-sleeve {shirt} knitted camp-collar shirt with a fine horizontal rib texture and a button front, worn untucked; {shorts} cotton pleated shorts with one front pleat each side, ending just above the knee",
+      "keep": "{shirt} short-sleeve knitted camp-collar shirt untucked, {shorts} single-pleat shorts above the knee",
+      "checks": ["针织开领短袖衬衫", "细横罗纹", "不塞", "单褶短裤到膝上"],
+      "colorways": [
+        {"key": "peach-white", "season": "summer", "name": {"zh": "蜜桃·白", "ja": "ピーチ・白", "en": "Peach & White", "ko": "피치·흰색"}, "bg": "dark", "vars": {"shirt": "soft peach", "shorts": "white"}}
+      ]
+    },
+    {
+      "key": "sw-teddy-fleece", "era": "sweet", "gender": "U", "lower": "hem",
+      "name": {"zh": "泰迪绒外套·针织·阔腿裤", "ja": "ボアジャケット・ニット・ワイドパンツ", "en": "Teddy Fleece Jacket, Knit & Wide Trousers", "ko": "테디 플리스 재킷·니트·와이드 팬츠"},
+      "desc": "a unisex soft-style winter outfit: a boxy {jacket} curly teddy-fleece jacket with a round shirt collar, large {button} buttons and two patch pockets, ending at the hip, buttoned; a {knit} knit visible at the neck; wide {trousers} corduroy trousers",
+      "keep": "boxy {jacket} curly teddy-fleece jacket with round collar and {button} buttons, hip length, {knit} knit at the neck, wide {trousers} corduroy trousers",
+      "checks": ["卷毛泰迪绒外套到胯", "圆角翻领、大扣子", "两个贴袋", "灯芯绒阔腿裤"],
+      "colorways": [
+        {"key": "cream-brown", "season": "winter", "name": {"zh": "奶白·焦糖", "ja": "クリーム・キャラメル", "en": "Cream & Caramel", "ko": "크림·캐러멜"}, "bg": "dark", "vars": {"jacket": "cream-white", "button": "brown", "knit": "caramel", "trousers": "caramel"}}
+      ]
+    },
+
+    {
+      "key": "mo-smock-dress", "era": "mori", "gender": "F", "lower": "hem",
+      "name": {"zh": "刺绣亚麻罩衫裙", "ja": "刺繍リネンスモックワンピース", "en": "Embroidered Linen Smock Dress", "ko": "자수 린넨 스목 원피스"},
+      "desc": "a women's forest-style summer dress: a loose {main} linen smock dress with a round neck, a band of small {emb} hand-style floral embroidery around the neckline only, three-quarter raglan sleeves, a smocked yoke across the chest that releases into a full skirt, and an ankle-length hem",
+      "keep": "loose {main} linen smock dress, {emb} small floral embroidery round the neckline only, raglan sleeves, smocked yoke, ankle length",
+      "checks": ["宽松亚麻罩衫长裙", "只有领口一圈小花刺绣", "胸前缩褶育克", "到脚踝"],
+      "colorways": [
+        {"key": "moss", "season": "summer", "name": {"zh": "苔绿", "ja": "モスグリーン", "en": "Moss", "ko": "모스 그린"}, "bg": "light", "vars": {"main": "soft moss green", "emb": "white and rust"}}
+      ]
+    },
+    {
+      "key": "mo-chunky-tiered", "era": "mori", "gender": "F", "lower": "shoes",
+      "name": {"zh": "粗针开衫·层叠长裙", "ja": "ざっくりカーディガン・ティアードスカート", "en": "Chunky Cardigan & Tiered Maxi Skirt", "ko": "청키 카디건·티어드 롱스커트"},
+      "desc": "a women's forest-style outfit: a long oversized {knit} chunky wool cardigan to the hip with a shawl collar and wooden buttons, worn open over a {blouse} cotton blouse; a {skirt} cotton three-tier maxi skirt with an elastic waist and an ankle-length hem; {boots} leather lace-up ankle boots",
+      "keep": "oversized {knit} chunky shawl-collar cardigan with wooden buttons worn open, {blouse} blouse, {skirt} three-tier maxi skirt, {boots} lace-up ankle boots",
+      "checks": ["粗针青果领开衫到胯", "木扣、敞开", "三层层叠长裙到脚踝", "系带短靴"],
+      "colorways": [
+        {"key": "rust-earth", "season": "autumn", "name": {"zh": "铁锈红·大地色", "ja": "ラスト・アース", "en": "Rust & Earth", "ko": "러스트·어스"}, "bg": "light", "vars": {"knit": "rust", "blouse": "ecru", "skirt": "olive-brown", "boots": "dark brown"}}
+      ]
+    },
+    {
+      "key": "mo-linen-band", "era": "mori", "gender": "M", "lower": "hem",
+      "name": {"zh": "立领亚麻衬衫·抽绳长裤", "ja": "バンドカラーリネンシャツ・イージーパンツ", "en": "Band-Collar Linen Shirt & Drawstring Trousers", "ko": "밴드칼라 린넨 셔츠·밴딩 팬츠"},
+      "desc": "a men's forest-style outfit: a loose {shirt} washed linen shirt with a band collar, a half placket with four buttons pulled on over the head, long sleeves and a curved hem worn untucked; {trousers} linen drawstring trousers with a relaxed straight leg",
+      "keep": "loose {shirt} band-collar pullover linen shirt with half placket, untucked, {trousers} linen drawstring trousers",
+      "checks": ["立领套头亚麻衬衫", "半开襟四粒扣", "弧形下摆不塞", "抽绳亚麻长裤"],
+      "colorways": [
+        {"key": "clay-olive", "season": "spring", "name": {"zh": "陶土·橄榄", "ja": "クレイ・オリーブ", "en": "Clay & Olive", "ko": "클레이·올리브"}, "bg": "light", "vars": {"shirt": "clay", "trousers": "olive"}}
+      ]
+    },
+    {
+      "key": "mo-overshirt-fisherman", "era": "mori", "gender": "M", "lower": "hem",
+      "name": {"zh": "羊毛衬衫外套·渔夫毛衣·灯芯绒裤", "ja": "ウールシャツジャケット・フィッシャーマン・コーデュロイ", "en": "Wool Overshirt, Fisherman Knit & Cords", "ko": "울 셔츠 재킷·피셔맨 니트·코듀로이"},
+      "desc": "a men's forest-style winter outfit: a heavy {jacket} boiled-wool overshirt jacket with a pointed collar, horn buttons and two patch chest pockets, worn open; a {knit} cable-knit fisherman crewneck; wide {trousers} wide-wale corduroy trousers",
+      "keep": "open {jacket} boiled-wool overshirt with horn buttons and patch pockets, {knit} cable fisherman crewneck, {trousers} wide-wale corduroy trousers",
+      "checks": ["煮毛呢衬衫式外套敞开", "胸前两个贴袋", "麻花渔夫圆领毛衣", "粗条灯芯绒阔腿裤"],
+      "colorways": [
+        {"key": "forest-ecru", "season": "winter", "name": {"zh": "森绿·米白·棕", "ja": "フォレスト・生成り・茶", "en": "Forest, Ecru & Brown", "ko": "포레스트·에크루·브라운"}, "bg": "light", "vars": {"jacket": "forest green", "knit": "ecru", "trousers": "brown"}}
+      ]
+    },
+    {
+      "key": "mo-overalls", "era": "mori", "gender": "U", "lower": "hem",
+      "name": {"zh": "帆布背带裤·条纹长袖", "ja": "キャンバスオーバーオール・ボーダー", "en": "Canvas Overalls & Striped Tee", "ko": "캔버스 오버롤·스트라이프 티"},
+      "desc": "a unisex forest-style outfit: loose {overall} cotton canvas bib overalls with wide shoulder straps fastened by metal buckles to the bib at the chest, a bib patch pocket, side buttons at the hips and a wide straight leg cropped above the ankle; a {tee} long-sleeve tee with thin horizontal stripes underneath",
+      "keep": "loose {overall} canvas bib overalls with buckled shoulder straps and bib pocket, cropped wide leg, {tee} thin-striped long-sleeve tee",
+      "checks": ["宽松帆布背带裤", "肩带金属扣扣在胸前", "胸前贴袋", "里面细条纹长袖T"],
+      "colorways": [
+        {"key": "ecru-stripe", "season": "spring", "name": {"zh": "本白·藏青细条", "ja": "生成り・紺細ボーダー", "en": "Ecru & Navy Stripe", "ko": "에크루·네이비 줄무늬"}, "bg": "dark", "vars": {"overall": "ecru", "tee": "white and navy"}}
+      ]
+    },
+
+    {
+      "key": "tw-shell-jogger", "era": "techwear", "gender": "F", "lower": "hem",
+      "name": {"zh": "防水硬壳夹克·机能束脚裤", "ja": "防水シェルジャケット・テックジョガー", "en": "Waterproof Shell & Tech Joggers", "ko": "방수 셸 재킷·테크 조거"},
+      "desc": "a women's techwear outfit: a {shell} three-layer waterproof shell jacket ending at the hip with taped seams, a high stand collar zipped to the chin, an asymmetric diagonal water-resistant zip, laser-cut chest pocket and adjustable cuffs, the hood rolled and stowed into the collar; {pants} tapered nylon joggers with articulated knees, zipped thigh pockets and elastic ankle cuffs; no straps hanging",
+      "keep": "{shell} hip-length shell with taped seams, high zipped stand collar, asymmetric diagonal zip, {pants} articulated tapered joggers with thigh zip pockets",
+      "checks": ["高立领拉到下巴", "斜向不对称拉链", "压胶接缝", "立体膝盖束脚裤"],
+      "colorways": [
+        {"key": "black-grey", "season": "spring", "name": {"zh": "黑·深灰", "ja": "黒・ダークグレー", "en": "Black & Dark Grey", "ko": "검정·다크그레이"}, "bg": "light", "vars": {"shell": "black", "pants": "dark grey"}}
+      ]
+    },
+    {
+      "key": "tw-utility-vest", "era": "techwear", "gender": "F", "lower": "hem",
+      "name": {"zh": "多口袋机能马甲·工装长裙", "ja": "ユーティリティベスト・カーゴスカート", "en": "Utility Vest & Cargo Midi Skirt", "ko": "유틸리티 베스트·카고 스커트"},
+      "desc": "a women's techwear summer outfit: a cropped {vest} lightweight nylon utility vest ending at the waist with a zip front and four bellows pockets across the chest, worn over a fitted {tee} short-sleeve tee; a {skirt} ripstop A-line cargo midi skirt with two side flap pockets, a webbing belt with a plain side-release buckle at the waist, the belt end tucked in, and a hem at mid-calf",
+      "keep": "cropped {vest} utility vest with four chest bellows pockets, {tee} fitted tee, {skirt} ripstop cargo midi skirt with webbing belt",
+      "checks": ["短款马甲到腰、胸前四个风琴袋", "里面合身短袖T", "织带腰带插扣", "工装中长裙到小腿中部"],
+      "colorways": [
+        {"key": "olive-black", "season": "summer", "name": {"zh": "橄榄·黑", "ja": "オリーブ・黒", "en": "Olive & Black", "ko": "올리브·검정"}, "bg": "light", "vars": {"vest": "olive", "tee": "black", "skirt": "black"}}
+      ]
+    },
+    {
+      "key": "tw-softshell", "era": "techwear", "gender": "M", "lower": "hem",
+      "name": {"zh": "软壳夹克·机能裤", "ja": "ソフトシェル・テックパンツ", "en": "Softshell Jacket & Tech Trousers", "ko": "소프트셸·테크 팬츠"},
+      "desc": "a men's techwear outfit: a fitted {jacket} matte softshell jacket with a funnel neck, a centre zip, two vertical zip chest pockets, a magnetic-flap sleeve pocket on the left upper arm and thumb-loop cuffs; {pants} tapered stretch-nylon trousers with a built-in belt, articulated knees and zipped cargo pockets on the outer thighs",
+      "keep": "fitted {jacket} softshell with funnel neck and two vertical zip chest pockets, sleeve pocket, {pants} tapered articulated trousers with zipped thigh pockets",
+      "checks": ["漏斗领软壳夹克", "胸前两条竖拉链口袋", "左上臂袖袋", "立体膝盖收脚裤"],
+      "colorways": [
+        {"key": "graphite", "season": "autumn", "name": {"zh": "石墨灰·黑", "ja": "グラファイト・黒", "en": "Graphite & Black", "ko": "그래파이트·검정"}, "bg": "light", "vars": {"jacket": "graphite grey", "pants": "black"}}
+      ]
+    },
+    {
+      "key": "tw-parka", "era": "techwear", "gender": "M", "lower": "shoes",
+      "name": {"zh": "机能长款派克·束脚裤·短靴", "ja": "テックパーカー・ジョガー・ブーツ", "en": "Tech Parka, Joggers & Boots", "ko": "테크 파카·조거·부츠"},
+      "desc": "a men's techwear winter outfit: a long {parka} insulated waterproof parka to the mid-thigh with a high storm collar zipped to the chin, a two-way front zip under a snap storm flap, large bellows pockets at the hips and the hood lying flat down the back (not raised); {pants} tapered joggers with elastic ankle cuffs; {boots} lace-up waterproof ankle boots with lugged soles",
+      "keep": "long {parka} insulated parka with high storm collar and storm flap, hood flat at the back, {pants} tapered joggers, {boots} lug-sole ankle boots",
+      "checks": ["派克长到大腿中部", "高防风领拉到下巴、门襟防风片", "帽子平放背后", "束脚裤和防水短靴"],
+      "colorways": [
+        {"key": "black", "season": "winter", "name": {"zh": "全黑", "ja": "オールブラック", "en": "All Black", "ko": "올블랙"}, "bg": "light", "vars": {"parka": "matte black", "pants": "black", "boots": "black"}}
+      ]
+    },
+    {
+      "key": "tw-anorak-shorts", "era": "techwear", "gender": "U", "lower": "hem",
+      "name": {"zh": "半拉链冲锋套头衫·机能短裤", "ja": "ハーフジップアノラック・テックショーツ", "en": "Half-Zip Anorak & Tech Shorts", "ko": "하프집 아노락·테크 반바지"},
+      "desc": "a unisex techwear summer outfit: a lightweight {anorak} ripstop pullover anorak with a stand collar, a half-length front zip to mid-chest, a large horizontal kangaroo pocket with a zip across the chest, elastic cuffs and a drawcord hem at the hip; {shorts} nylon cargo shorts to just above the knee with zipped side pockets",
+      "keep": "{anorak} ripstop half-zip pullover anorak with horizontal zipped chest pocket and drawcord hem, {shorts} nylon cargo shorts above the knee",
+      "checks": ["立领套头冲锋衣、拉链到胸口", "胸前横向拉链大口袋", "下摆抽绳到胯", "尼龙工装短裤到膝上"],
+      "colorways": [
+        {"key": "slate-black", "season": "summer", "name": {"zh": "石板蓝·黑", "ja": "スレート・黒", "en": "Slate & Black", "ko": "슬레이트·검정"}, "bg": "light", "vars": {"anorak": "slate blue-grey", "shorts": "black"}}
+      ]
+    },
+
+    {
+      "key": "go-fleece-hiking", "era": "gorpcore", "gender": "F", "lower": "shoes",
+      "name": {"zh": "抓绒半拉链·徒步裤·登山鞋", "ja": "フリースハーフジップ・トレッキングパンツ・ハイキングシューズ", "en": "Fleece Half-Zip, Hiking Pants & Shoes", "ko": "플리스 하프집·등산 바지·등산화"},
+      "desc": "a women's outdoor outfit: a {fleece} high-pile fleece pullover with a stand collar, a short front zip, a {trim} nylon chest pocket panel and nylon-bound cuffs and hem, with no chest emblem; {pants} slim nylon hiking trousers with a stretch waist and zipped hip pockets; {shoe} suede-and-mesh low hiking shoes with lugged soles",
+      "keep": "{fleece} high-pile half-zip fleece with {trim} nylon chest pocket and binding, no emblem, {pants} slim hiking trousers, {shoe} hiking shoes",
+      "checks": ["高绒抓绒套头、短拉链", "胸前撞色尼龙口袋", "没有胸标", "徒步裤和低帮登山鞋"],
+      "colorways": [
+        {"key": "cream-forest", "season": "autumn", "name": {"zh": "奶白·森绿", "ja": "クリーム・フォレスト", "en": "Cream & Forest", "ko": "크림·포레스트"}, "bg": "dark", "vars": {"fleece": "cream", "trim": "forest green", "pants": "dark grey", "shoe": "brown"}}
+      ]
+    },
+    {
+      "key": "go-down-parka", "era": "gorpcore", "gender": "F", "lower": "hem",
+      "name": {"zh": "长款羽绒服·抓绒·户外裤", "ja": "ロングダウン・フリース・アウトドアパンツ", "en": "Long Down Coat, Fleece & Outdoor Pants", "ko": "롱패딩·플리스·아웃도어 팬츠"},
+      "desc": "a women's outdoor winter outfit: a long {down} matte nylon down coat reaching just below the knee with narrow horizontal baffles, a high collar zipped to the chin, a two-way front zip and snap side vents at the hem, the hood lying flat down the back (not raised); {pants} straight softshell outdoor trousers below",
+      "keep": "long {down} down coat below the knee with narrow baffles, high collar zipped up, hood flat at the back, {pants} softshell trousers",
+      "checks": ["长款羽绒服到膝下", "窄横格绗缝", "高领拉到下巴", "帽子平放背后"],
+      "colorways": [
+        {"key": "rust", "season": "winter", "name": {"zh": "锈橙·炭灰", "ja": "ラストオレンジ・チャコール", "en": "Rust & Charcoal", "ko": "러스트 오렌지·차콜"}, "bg": "light", "vars": {"down": "rust orange", "pants": "charcoal"}}
+      ]
+    },
+    {
+      "key": "go-rain-shell", "era": "gorpcore", "gender": "M", "lower": "shoes",
+      "name": {"zh": "轻薄冲锋衣·速干裤·徒步鞋", "ja": "レインシェル・トレッキングパンツ・ハイキングシューズ", "en": "Rain Shell, Trek Pants & Hiking Shoes", "ko": "레인 셸·트레킹 팬츠·등산화"},
+      "desc": "a men's outdoor outfit: a lightweight {shell} packable waterproof rain jacket ending at the hip with a stand collar, a full zip under a storm flap, pit-zip vents and two zipped hand pockets, worn zipped, the hood rolled into the collar; {pants} quick-dry nylon trek trousers with zip-off legs (a zip seam ringing each leg above the knee); {shoe} low hiking shoes with lugged soles",
+      "keep": "{shell} hip-length rain shell zipped with storm flap, {pants} zip-off trek trousers with a zip ring above each knee, {shoe} hiking shoes",
+      "checks": ["轻薄冲锋衣拉上、防风门襟", "腋下透气拉链", "裤腿膝上一圈可拆拉链", "低帮登山鞋"],
+      "colorways": [
+        {"key": "yellow-stone", "season": "spring", "name": {"zh": "芥黄·石灰", "ja": "イエロー・ストーン", "en": "Yellow & Stone", "ko": "옐로·스톤"}, "bg": "light", "vars": {"shell": "mustard yellow", "pants": "stone grey", "shoe": "grey"}}
+      ]
+    },
+    {
+      "key": "go-camp-shirt-shorts", "era": "gorpcore", "gender": "M", "lower": "shoes",
+      "name": {"zh": "速干短袖衬衫·徒步短裤·凉鞋", "ja": "速乾半袖シャツ・トレッキングショーツ・サンダル", "en": "Quick-Dry Shirt, Hiking Shorts & Sandals", "ko": "속건 반팔 셔츠·등산 반바지·샌들"},
+      "desc": "a men's outdoor summer outfit: a {shirt} quick-dry nylon short-sleeve shirt with a point collar, two flap chest pockets and a vented back yoke, worn untucked; {shorts} stretch-nylon hiking shorts ending above the knee with a webbing belt and a plain buckle; {shoe} sport sandals with adjustable webbing straps and thick soles",
+      "keep": "{shirt} quick-dry short-sleeve shirt with two flap chest pockets and back vent, {shorts} hiking shorts with webbing belt, {shoe} strap sport sandals",
+      "checks": ["速干短袖衬衫胸前两翻盖袋", "背部透气育克", "徒步短裤织带腰带", "织带运动凉鞋"],
+      "colorways": [
+        {"key": "sage-khaki", "season": "summer", "name": {"zh": "灰绿·卡其", "ja": "セージ・カーキ", "en": "Sage & Khaki", "ko": "세이지·카키"}, "bg": "light", "vars": {"shirt": "sage", "shorts": "khaki", "shoe": "black"}}
+      ]
+    },
+    {
+      "key": "go-puffer-vest", "era": "gorpcore", "gender": "U", "lower": "hem",
+      "name": {"zh": "保暖马甲·长袖打底·户外裤", "ja": "中綿ベスト・ロンT・アウトドアパンツ", "en": "Insulated Vest, Base Layer & Trousers", "ko": "패딩 베스트·긴팔 이너·아웃도어 팬츠"},
+      "desc": "a unisex outdoor outfit: a {vest} synthetic-insulated puffer vest with a stand collar, a full zip, diamond quilting and two zipped hand pockets, no chest emblem; a {base} long-sleeve merino base layer with a crew neck; {pants} relaxed nylon outdoor trousers with a gusseted crotch and adjustable drawcord hems",
+      "keep": "{vest} diamond-quilted puffer vest with stand collar, no emblem, {base} long-sleeve base layer, {pants} relaxed outdoor trousers with drawcord hems",
+      "checks": ["立领菱格保暖马甲", "没有胸标", "里面长袖打底", "户外裤脚口抽绳"],
+      "colorways": [
+        {"key": "teal-grey", "season": "autumn", "name": {"zh": "孔雀绿·灰·黑", "ja": "ティール・グレー・黒", "en": "Teal, Grey & Black", "ko": "틸·회색·검정"}, "bg": "light", "vars": {"vest": "deep teal", "base": "heather grey", "pants": "black"}}
+      ]
+    },
+
+    {
+      "key": "pr-vest-oxford", "era": "preppy", "gender": "F", "lower": "shoes",
+      "name": {"zh": "针织背心·牛津衬衫·阔腿西裤", "ja": "ニットベスト・オックスフォードシャツ・ワイドスラックス", "en": "Knit Vest, Oxford Shirt & Wide Trousers", "ko": "니트 베스트·옥스퍼드 셔츠·와이드 슬랙스"},
+      "desc": "a women's adult preppy outfit: a {vest} V-neck cable-knit sweater vest over a {shirt} button-down oxford-cloth shirt with long sleeves, the collar points buttoned down and no tie or bow; {trousers} high-waisted wide-leg wool trousers with front pleats reaching the floor (trousers, not a skirt); {shoe} leather penny loafers",
+      "keep": "{vest} V-neck cable sweater vest, {shirt} button-down oxford shirt with no tie or bow, {trousers} high-waisted wide pleated trousers, {shoe} loafers",
+      "checks": ["V领麻花针织背心", "牛津纺扣领衬衫、无领结领带", "高腰阔腿西裤（不是短裙）", "乐福鞋"],
+      "colorways": [
+        {"key": "green-blue", "season": "spring", "name": {"zh": "墨绿·浅蓝·灰", "ja": "深緑・サックス・グレー", "en": "Bottle Green, Blue & Grey", "ko": "보틀그린·하늘색·회색"}, "bg": "light", "vars": {"vest": "bottle green", "shirt": "light blue", "trousers": "mid grey", "shoe": "burgundy"}}
+      ]
+    },
+    {
+      "key": "pr-blazer-cord-skirt", "era": "preppy", "gender": "F", "lower": "hem",
+      "name": {"zh": "粗花呢西装·高领·灯芯绒中裙", "ja": "ツイードジャケット・タートル・コーデュロイスカート", "en": "Tweed Blazer, Turtleneck & Corduroy Midi", "ko": "트위드 블레이저·터틀넥·코듀로이 미디스커트"},
+      "desc": "a women's adult preppy outfit: a single-breasted {blazer} herringbone wool tweed blazer with notched lapels, two buttons, flap pockets and no braid trim, worn open; a {knit} fine turtleneck; a {skirt} corduroy A-line skirt whose waistband sits at the natural waist and whose hem reaches mid-calf (a long skirt, not a short one)",
+      "keep": "open {blazer} herringbone tweed two-button blazer without braid trim, {knit} turtleneck, {skirt} corduroy A-line skirt to mid-calf",
+      "checks": ["人字纹粗花呢西装、无编织滚边", "里面高领", "灯芯绒A字裙", "裙长到小腿中部"],
+      "colorways": [
+        {"key": "brown-cream", "season": "autumn", "name": {"zh": "棕人字纹·奶白·焦糖", "ja": "茶ヘリンボーン・クリーム・キャラメル", "en": "Brown Herringbone & Caramel", "ko": "브라운 헤링본·카라멜"}, "bg": "light", "vars": {"blazer": "brown", "knit": "cream", "skirt": "caramel"}}
+      ]
+    },
+    {
+      "key": "pr-polo-chino-shorts", "era": "preppy", "gender": "M", "lower": "shoes",
+      "name": {"zh": "珠地Polo·卡其短裤·船鞋", "ja": "鹿の子ポロ・チノショーツ・デッキシューズ", "en": "Piqué Polo, Chino Shorts & Boat Shoes", "ko": "피케 폴로·치노 반바지·보트슈즈"},
+      "desc": "a men's preppy summer outfit: a {polo} cotton piqué polo shirt with a ribbed collar, a two-button placket and ribbed sleeve bands, completely plain with no chest emblem, tucked in; {shorts} flat-front chino shorts ending above the knee with a {belt} woven webbing belt; {shoe} leather boat shoes with white soles",
+      "keep": "plain {polo} piqué polo with no emblem tucked in, {shorts} chino shorts above the knee, {belt} webbing belt, {shoe} boat shoes",
+      "checks": ["珠地Polo两粒扣", "胸前没有任何标志", "卡其短裤到膝上、织带腰带", "船鞋白底"],
+      "colorways": [
+        {"key": "navy-stone", "season": "summer", "name": {"zh": "藏青·石色", "ja": "紺・ストーン", "en": "Navy & Stone", "ko": "네이비·스톤"}, "bg": "light", "vars": {"polo": "navy", "shorts": "stone", "belt": "red-and-navy", "shoe": "brown"}}
+      ]
+    },
+    {
+      "key": "pr-fairisle-flannel", "era": "preppy", "gender": "M", "lower": "shoes",
+      "name": {"zh": "费尔岛毛衣·牛津衬衫·法兰绒裤", "ja": "フェアアイルニット・OXシャツ・フランネルパンツ", "en": "Fair Isle Sweater, Oxford & Flannels", "ko": "페어아일 니트·옥스퍼드·플란넬 팬츠"},
+      "desc": "a men's preppy winter outfit: a {knit} wool crewneck sweater plain on the body with a Fair Isle patterned yoke around the neck and shoulders in {yoke}, the collar of a {shirt} button-down oxford shirt showing at the neck; {trousers} wool flannel trousers with a pressed crease; {shoe} leather loafers",
+      "keep": "{knit} crewneck with {yoke} Fair Isle yoke only, {shirt} oxford collar at the neck, {trousers} flannel trousers with crease, {shoe} loafers",
+      "checks": ["圆领毛衣只有肩部费尔岛花纹", "身上是素色", "领口露出牛津衬衫扣领", "法兰绒西裤和乐福鞋"],
+      "colorways": [
+        {"key": "oat-grey", "season": "winter", "name": {"zh": "燕麦·灰", "ja": "オートミール・グレー", "en": "Oatmeal & Grey", "ko": "오트밀·회색"}, "bg": "light", "vars": {"knit": "oatmeal", "yoke": "navy, rust and green", "shirt": "white", "trousers": "mid grey", "shoe": "dark brown"}}
+      ]
+    },
+    {
+      "key": "pr-cricket-sweater", "era": "preppy", "gender": "U", "lower": "hem",
+      "name": {"zh": "板球毛衣·牛津衬衫·卡其裤", "ja": "クリケットセーター・OXシャツ・チノ", "en": "Cricket Sweater, Oxford Shirt & Chinos", "ko": "크리켓 스웨터·옥스퍼드 셔츠·치노"},
+      "desc": "a unisex preppy outfit: a {knit} cable-knit V-neck cricket sweater with contrast {stripe} stripes along the V-neck and the cuffs and hem bands only, over a {shirt} oxford shirt with the collar out; straight {chino} cotton chinos",
+      "keep": "{knit} V-neck cable cricket sweater with {stripe} stripes only at the V-neck, cuffs and hem, {shirt} oxford shirt collar out, {chino} straight chinos",
+      "checks": ["V领麻花板球毛衣", "领口、袖口、下摆有撞色条", "衬衫领翻在外面", "直筒卡其裤"],
+      "colorways": [
+        {"key": "cream-navy", "season": "autumn", "name": {"zh": "奶白·藏青酒红", "ja": "クリーム・紺臙脂", "en": "Cream, Navy & Burgundy", "ko": "크림·네이비 버건디"}, "bg": "dark", "vars": {"knit": "cream-white", "stripe": "navy and burgundy", "shirt": "light blue", "chino": "khaki"}}
+      ]
+    },
+
+    {
+      "key": "re-tiered-maxi", "era": "resort", "gender": "F", "lower": "shoes",
+      "name": {"zh": "细吊带层叠长裙", "ja": "キャミティアードマキシ", "en": "Tiered Strappy Maxi Dress", "ko": "끈 티어드 맥시 원피스"},
+      "desc": "a women's resort summer dress: a {main} cotton voile maxi dress with a fully lined (not sheer) body, thin adjustable shoulder straps, a straight neckline across the chest with a smocked back, a bodice down to the natural waist, then three gathered tiers flowing to the ankle; {shoe} flat leather slide sandals",
+      "keep": "{main} lined cotton voile maxi dress, thin straps, smocked back, three tiers to the ankle, {shoe} flat slide sandals",
+      "checks": ["细吊带、背后缩褶", "有里衬不透", "三层层叠到脚踝", "平底拖鞋凉鞋"],
+      "colorways": [
+        {"key": "terracotta", "season": "summer", "name": {"zh": "赤陶", "ja": "テラコッタ", "en": "Terracotta", "ko": "테라코타"}, "bg": "light", "vars": {"main": "terracotta", "shoe": "tan"}}
+      ]
+    },
+    {
+      "key": "re-linen-coord", "era": "resort", "gender": "F", "lower": "hem",
+      "name": {"zh": "亚麻衬衫·亚麻阔腿裤套装", "ja": "リネンシャツ・リネンワイドパンツセット", "en": "Linen Shirt & Wide Trousers Set", "ko": "린넨 셔츠·와이드 팬츠 세트"},
+      "desc": "a women's resort co-ord: a relaxed {main} linen shirt with a notched revere collar, coconut-shell buttons and long sleeves rolled to the elbow, its front hem knotted once at the waist; matching {main} linen wide-leg trousers with an elastic waist at the natural waistline and a floor-grazing hem",
+      "keep": "relaxed {main} revere-collar linen shirt knotted at the waist, rolled sleeves, matching {main} wide linen trousers to the floor",
+      "checks": ["翻领亚麻衬衫、椰壳扣", "前下摆在腰间打一个结", "袖子卷到手肘", "同色阔腿裤到地"],
+      "colorways": [
+        {"key": "sky", "season": "spring", "name": {"zh": "天蓝", "ja": "スカイブルー", "en": "Sky Blue", "ko": "하늘색"}, "bg": "light", "vars": {"main": "sky blue"}}
+      ]
+    },
+    {
+      "key": "re-camp-shirt", "era": "resort", "gender": "M", "lower": "shoes",
+      "name": {"zh": "热带印花开领衬衫·亚麻短裤", "ja": "トロピカル柄開襟シャツ・リネンショーツ", "en": "Tropical Camp Shirt & Linen Shorts", "ko": "트로피컬 오픈칼라 셔츠·린넨 반바지"},
+      "desc": "a men's resort summer outfit: a boxy short-sleeve {shirt} rayon camp-collar shirt with a large tropical leaf print in {leaf}, a straight untucked hem; {shorts} linen drawstring shorts ending above the knee; {shoe} suede espadrilles with jute soles",
+      "keep": "boxy {shirt} camp-collar shirt with large {leaf} tropical leaf print, untucked, {shorts} linen shorts above the knee, {shoe} espadrilles",
+      "checks": ["开领短袖衬衫", "大片热带叶子印花", "亚麻抽绳短裤到膝上", "麻底帆布鞋"],
+      "colorways": [
+        {"key": "cream-palm", "season": "summer", "name": {"zh": "奶白底绿叶·沙色", "ja": "クリーム地リーフ・サンド", "en": "Cream Palm & Sand", "ko": "크림 야자잎·샌드"}, "bg": "dark", "vars": {"shirt": "cream", "leaf": "deep green", "shorts": "sand", "shoe": "navy"}}
+      ]
+    },
+    {
+      "key": "re-overshirt-linen", "era": "resort", "gender": "M", "lower": "shoes",
+      "name": {"zh": "长袖亚麻衬衫外套·休闲长裤", "ja": "リネンシャツジャケット・イージースラックス", "en": "Linen Overshirt & Relaxed Trousers", "ko": "린넨 셔츠 재킷·릴랙스 팬츠"},
+      "desc": "a men's resort outfit for cooler evenings: a {jacket} heavy linen-cotton overshirt with a camp collar, two patch chest pockets and a straight hem, worn open over a {tee} crew-neck tee; {trousers} relaxed linen-blend drawstring trousers with a tapered leg; {shoe} suede loafers without socks",
+      "keep": "open {jacket} camp-collar linen overshirt with two patch pockets, {tee} tee, {trousers} relaxed drawstring trousers, {shoe} suede loafers",
+      "checks": ["开领亚麻衬衫外套敞开", "胸前两个贴袋", "抽绳收脚长裤", "麂皮乐福鞋"],
+      "colorways": [
+        {"key": "olive-white", "season": "autumn", "name": {"zh": "橄榄·白·米", "ja": "オリーブ・白・ベージュ", "en": "Olive, White & Beige", "ko": "올리브·흰색·베이지"}, "bg": "light", "vars": {"jacket": "olive", "tee": "white", "trousers": "beige", "shoe": "tan"}}
+      ]
+    },
+    {
+      "key": "re-chalet-knit", "era": "resort", "gender": "U", "lower": "hem",
+      "name": {"zh": "雪山度假北欧花纹毛衣·羊毛长裤", "ja": "山荘ノルディックセーター・ウールパンツ", "en": "Chalet Nordic Sweater & Wool Trousers", "ko": "샬레 노르딕 스웨터·울 팬츠"},
+      "desc": "a unisex winter-resort chalet outfit: a heavy {knit} wool roll-neck sweater with a traditional Nordic snowflake-and-star pattern band across the chest and upper sleeves in {pattern}, the rest of the body plain; relaxed {trousers} wool flannel trousers with a straight leg",
+      "keep": "heavy {knit} roll-neck sweater with a {pattern} Nordic pattern band across the chest and upper sleeves, plain elsewhere, {trousers} straight wool trousers",
+      "checks": ["翻卷高领厚毛衣", "胸前和上臂一圈北欧雪花纹", "其他部位素色", "直筒羊毛长裤"],
+      "colorways": [
+        {"key": "red-white", "season": "winter", "name": {"zh": "红底白纹·炭灰", "ja": "赤地白柄・チャコール", "en": "Red & White, Charcoal", "ko": "빨강 흰무늬·차콜"}, "bg": "light", "vars": {"knit": "deep red", "pattern": "white", "trousers": "charcoal"}}
+      ]
+    }
+  ],
+  "eras": {
+    "casual": {"zh": "休闲", "ja": "カジュアル", "en": "Casual", "ko": "캐주얼"},
+    "street": {"zh": "街头", "ja": "ストリート", "en": "Streetwear", "ko": "스트리트"},
+    "commute": {"zh": "通勤", "ja": "オフィスカジュアル", "en": "Office", "ko": "출근룩"},
+    "minimal": {"zh": "极简", "ja": "ミニマル", "en": "Minimalist", "ko": "미니멀"},
+    "newchinese": {"zh": "新中式", "ja": "新中華スタイル", "en": "New Chinese", "ko": "신중국풍"},
+    "japanese": {"zh": "日系", "ja": "ジャパニーズカジュアル", "en": "Japanese Casual", "ko": "일본풍"},
+    "korean": {"zh": "韩系", "ja": "韓国スタイル", "en": "Korean Style", "ko": "한국풍"},
+    "french": {"zh": "法式", "ja": "フレンチ", "en": "French Style", "ko": "프렌치"},
+    "americana": {"zh": "美式复古", "ja": "アメカジ", "en": "Americana", "ko": "아메카지"},
+    "y2k": {"zh": "Y2K", "ja": "Y2K", "en": "Y2K", "ko": "Y2K"},
+    "sweet": {"zh": "甜美", "ja": "スイート", "en": "Soft & Sweet", "ko": "러블리"},
+    "mori": {"zh": "森系", "ja": "森系ナチュラル", "en": "Forest Natural", "ko": "숲속 내추럴"},
+    "techwear": {"zh": "机能", "ja": "テックウェア", "en": "Techwear", "ko": "테크웨어"},
+    "gorpcore": {"zh": "户外 Gorpcore", "ja": "ゴープコア", "en": "Gorpcore", "ko": "고프코어"},
+    "preppy": {"zh": "学院风", "ja": "プレッピー", "en": "Preppy", "ko": "프레피"},
+    "resort": {"zh": "度假", "ja": "リゾート", "en": "Resort", "ko": "리조트"}
+  }
+}

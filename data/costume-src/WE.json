@@ -1,0 +1,348 @@
+{
+  "cat": "WE",
+  "note": "World traditional set. Everyday or festive dress only, no religious or ceremonial regalia, no headwear (PLAN §4.2).",
+  "forms": [
+    {
+      "key": "jp-furisode", "era": "eastasia", "gender": "F", "lower": "hem",
+      "name": {"zh": "振袖", "ja": "振袖", "en": "Furisode Kimono", "ko": "후리소데"},
+      "desc": "a Japanese women's furisode kimono in {main} silk with a large {motif} pattern flowing across the hem and the very long hanging sleeves that reach below the knee, the collar closing left-over-right (the wearer's left panel on top, its edge running toward image-left), a wide {obi} obi sash tied at the back, and a decorative obijime cord at the front",
+      "keep": "{main} kimono with {motif} pattern, very long hanging sleeves, wide {obi} obi with back bow, floor length",
+      "checks": ["袖子极长（垂到膝下）", "宽腰带 obi 背后系结", "下摆和袖上大花纹", "左襟压右襟"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "朱红·菊", "ja": "朱・菊", "en": "Vermilion Chrysanthemum", "ko": "주홍·국화"}, "bg": "light", "vars": {"main": "vermilion", "motif": "white and gold chrysanthemum", "obi": "gold"}},
+        {"key": "teal", "name": {"zh": "青碧·鹤", "ja": "青碧・鶴", "en": "Teal Crane", "ko": "청벽·학"}, "bg": "light", "vars": {"main": "deep teal", "motif": "white crane and cloud", "obi": "silver and pink"}}
+      ]
+    },
+    {
+      "key": "jp-yukata-f", "era": "eastasia", "gender": "F", "lower": "hem",
+      "name": {"zh": "浴衣（女）", "ja": "浴衣（女性）", "en": "Women's Yukata", "ko": "유카타 (여)"},
+      "desc": "a Japanese women's summer yukata in light cotton, {main} with a {motif} print, short-length sleeves of normal kimono shape, collar closing left-over-right (the wearer's left panel on top, its edge running toward image-left), ankle length, and a {obi} hanhaba obi tied in a bow at the back",
+      "keep": "{main} cotton yukata with {motif} print, left-over-right collar, {obi} obi bow at the back, ankle length",
+      "checks": ["棉质浴衣、单层", "左襟压右襟", "半幅带背后蝴蝶结", "及踝"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青·朝颜", "ja": "紺・朝顔", "en": "Navy Morning Glory", "ko": "감색·나팔꽃"}, "bg": "light", "vars": {"main": "navy", "motif": "white and pink morning-glory", "obi": "yellow"}},
+        {"key": "white", "name": {"zh": "白·金鱼", "ja": "白・金魚", "en": "White Goldfish", "ko": "흰색·금붕어"}, "bg": "dark", "vars": {"main": "white", "motif": "red goldfish and blue ripple", "obi": "red"}}
+      ]
+    },
+    {
+      "key": "jp-yukata-m", "era": "eastasia", "gender": "M", "lower": "hem",
+      "name": {"zh": "浴衣（男）", "ja": "浴衣（男性）", "en": "Men's Yukata", "ko": "유카타 (남)"},
+      "desc": "a Japanese men's summer yukata in {main} cotton with a fine {motif} pattern, collar closing left-over-right (the wearer's left panel on top), ankle length, and a narrow {obi} kaku obi tied low at the hips",
+      "keep": "{main} men's yukata with fine {motif}, left-over-right collar, narrow {obi} obi low on the hips, ankle length",
+      "checks": ["男式浴衣", "左襟压右襟", "窄角带低系在胯上", "及踝"],
+      "colorways": [
+        {"key": "grey", "name": {"zh": "灰·细格", "ja": "鼠・格子", "en": "Grey Check", "ko": "회색·잔체크"}, "bg": "light", "vars": {"main": "charcoal grey", "motif": "check", "obi": "black"}},
+        {"key": "indigo", "name": {"zh": "蓝染·竖纹", "ja": "藍・縞", "en": "Indigo Stripe", "ko": "남염·세로줄"}, "bg": "light", "vars": {"main": "indigo", "motif": "thin white stripe", "obi": "grey"}}
+      ]
+    },
+    {
+      "key": "jp-haori-hakama", "era": "eastasia", "gender": "M", "lower": "hem",
+      "name": {"zh": "羽织袴", "ja": "羽織袴", "en": "Haori and Hakama", "ko": "하오리 하카마"},
+      "desc": "a Japanese men's formal haori and hakama: a {kimono} kimono, a hip-length {haori} haori jacket worn open with a white braided himo cord tied at the chest, and wide pleated {hakama} hakama trousers reaching the ankle with stiff front pleats",
+      "keep": "{kimono} kimono, {haori} hip-length haori with white chest cord, wide pleated {hakama} hakama",
+      "checks": ["短外套羽织", "胸前白色编绳", "宽褶裙裤袴", "里面是和服"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑·仙台平", "ja": "黒・仙台平", "en": "Black & Stripe", "ko": "검정·줄무늬"}, "bg": "light", "vars": {"kimono": "black", "haori": "black", "hakama": "grey-and-black striped"}},
+        {"key": "navy", "name": {"zh": "藏青", "ja": "紺", "en": "Navy", "ko": "감색"}, "bg": "light", "vars": {"kimono": "slate grey", "haori": "navy", "hakama": "dark grey"}}
+      ]
+    },
+    {
+      "key": "kr-hanbok-f", "era": "eastasia", "gender": "F", "lower": "hem",
+      "name": {"zh": "韩服（女）", "ja": "韓服（女性）", "en": "Women's Hanbok", "ko": "여자 한복"},
+      "desc": "a Korean women's hanbok: a very short {jeogori} jeogori jacket ending above the bust with curved sleeves, a white dongjeong collar strip and a long {ribbon} goreum ribbon tied at the chest, over a full high-waisted {chima} chima skirt flaring out from the chest to the floor",
+      "keep": "very short {jeogori} jeogori with white collar strip and long {ribbon} ribbon, full {chima} chima from the chest to the floor",
+      "checks": ["极短上衣赤古里", "胸前长飘带", "白色护领", "胸部起的大蓬裙"],
+      "colorways": [
+        {"key": "yellow-red", "name": {"zh": "黄·红", "ja": "黄・紅", "en": "Yellow & Red", "ko": "노랑·다홍"}, "bg": "light", "vars": {"jeogori": "yellow", "ribbon": "red", "chima": "red"}},
+        {"key": "pink-blue", "name": {"zh": "粉·青", "ja": "桃・青", "en": "Pink & Blue", "ko": "분홍·남색"}, "bg": "light", "vars": {"jeogori": "pale pink", "ribbon": "deep blue", "chima": "deep blue"}}
+      ]
+    },
+    {
+      "key": "kr-hanbok-m", "era": "eastasia", "gender": "M", "lower": "shoes",
+      "name": {"zh": "韩服（男）", "ja": "韓服（男性）", "en": "Men's Hanbok", "ko": "남자 한복"},
+      "desc": "a Korean men's hanbok: a hip-length {jeogori} jeogori jacket with a white collar strip and a ribbon tie, a sleeveless {vest} jokki vest over it, and roomy {baji} baji trousers tied at the ankles, with traditional white shoes",
+      "keep": "{jeogori} hip-length jeogori with white collar strip, {vest} vest, roomy {baji} baji tied at the ankles",
+      "checks": ["及胯上衣", "无袖背心", "宽裤脚踝系住", "白色护领"],
+      "colorways": [
+        {"key": "blue", "name": {"zh": "玉色·藏青", "ja": "玉色・紺", "en": "Jade & Navy", "ko": "옥색·감색"}, "bg": "light", "vars": {"jeogori": "pale jade", "vest": "navy", "baji": "pale jade"}},
+        {"key": "grey", "name": {"zh": "灰·墨", "ja": "灰・墨", "en": "Grey & Ink", "ko": "회색·먹색"}, "bg": "light", "vars": {"jeogori": "light grey", "vest": "ink-black", "baji": "light grey"}}
+      ]
+    },
+    {
+      "key": "vn-aodai", "era": "seasia", "gender": "F", "lower": "hem",
+      "name": {"zh": "奥黛", "ja": "アオザイ", "en": "Ao Dai", "ko": "아오자이"},
+      "desc": "a Vietnamese women's ao dai: a fitted long {main} silk tunic with a mandarin collar and a diagonal closure to the right underarm, long sleeves, split on both sides from the waist into a long front and back panel reaching the ankle, worn over loose wide {pants} trousers",
+      "keep": "fitted {main} long tunic, mandarin collar, side splits from the waist into long front and back panels, wide {pants} trousers",
+      "checks": ["立领修身长衫", "腰以下两侧开衩成前后两片", "长袖", "里面宽长裤"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "纯白", "ja": "白", "en": "White", "ko": "흰색"}, "bg": "dark", "vars": {"main": "pure white", "pants": "white"}},
+        {"key": "red", "name": {"zh": "红·金纹", "ja": "紅・金", "en": "Red & Gold", "ko": "빨강·금색"}, "bg": "light", "vars": {"main": "red with small gold motifs", "pants": "white"}}
+      ]
+    },
+    {
+      "key": "th-chutthai", "era": "seasia", "gender": "F", "lower": "hem",
+      "name": {"zh": "泰装", "ja": "タイ伝統衣装", "en": "Chut Thai", "ko": "춧타이"},
+      "desc": "a Thai women's chut thai in the Ruean Ton style: a long-sleeved {top} silk blouse with a round neck and a row of small buttons, and an ankle-length wrapped {skirt} pha sin tube skirt with a wide woven hem border, a slim gold belt at the waist",
+      "keep": "{top} long-sleeved buttoned blouse, ankle-length {skirt} wrapped tube skirt with woven hem border, slim gold belt",
+      "checks": ["长袖圆领上衣", "及踝筒裙", "裙摆织锦边", "细金腰带"],
+      "colorways": [
+        {"key": "green", "name": {"zh": "绿·紫", "ja": "緑・紫", "en": "Green & Purple", "ko": "초록·보라"}, "bg": "light", "vars": {"top": "jade green", "skirt": "purple"}}
+      ]
+    },
+    {
+      "key": "id-kebaya", "era": "seasia", "gender": "F", "lower": "shoes",
+      "name": {"zh": "可芭雅", "ja": "クバヤ", "en": "Kebaya", "ko": "케바야"},
+      "desc": "an Indonesian women's kebaya: a fitted hip-length sheer {top} blouse with fine floral embroidery along the front edges and long fitted sleeves, fastened with small brooches, worn over a {inner} camisole, and an ankle-length {batik} batik sarong skirt, with flat sandals",
+      "keep": "fitted sheer {top} embroidered kebaya with brooches, {inner} camisole, ankle-length {batik} batik sarong",
+      "checks": ["半透明修身刺绣上衣", "前襟别针", "蜡染纱笼裙", "长袖"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白·蜡染褐", "ja": "白・バティック", "en": "White & Batik", "ko": "흰색·바틱"}, "bg": "dark", "vars": {"top": "white", "inner": "white", "batik": "brown and cream"}}
+      ]
+    },
+    {
+      "key": "my-bajumelayu", "era": "seasia", "gender": "M", "lower": "shoes",
+      "name": {"zh": "马来装", "ja": "バジュ・ムラユ", "en": "Baju Melayu", "ko": "바주 멜라유"},
+      "desc": "a Malay men's baju melayu: a loose {main} silk shirt with a standing collar and a short button placket, matching straight trousers, and a {sampin} songket sampin cloth wrapped around the hips to above the knee, with leather sandals",
+      "keep": "loose {main} shirt and trousers, standing collar, {sampin} songket hip cloth to above the knee",
+      "checks": ["立领宽松长衫", "同色长裤", "胯部围织锦短裙", "短门襟"],
+      "colorways": [
+        {"key": "emerald", "name": {"zh": "翠绿·金", "ja": "翠緑・金", "en": "Emerald & Gold", "ko": "에메랄드·금색"}, "bg": "light", "vars": {"main": "emerald green", "sampin": "gold-and-black"}},
+        {"key": "cream", "name": {"zh": "米白·红", "ja": "生成り・赤", "en": "Cream & Red", "ko": "크림·빨강"}, "bg": "dark", "vars": {"main": "cream", "sampin": "red-and-gold"}}
+      ]
+    },
+    {
+      "key": "in-sari", "era": "sasia", "gender": "F", "lower": "hem",
+      "name": {"zh": "纱丽", "ja": "サリー", "en": "Sari", "ko": "사리"},
+      "desc": "an Indian women's sari: a long {main} silk sari with a wide {border} woven border, wrapped around the waist into neat front pleats falling to the floor and draped across the chest with the pallu hanging down the back over the left shoulder, worn with a short-sleeved {blouse} choli blouse",
+      "keep": "{main} sari with wide {border} border, front pleats at the waist, pallu over the left shoulder, {blouse} short-sleeved choli",
+      "checks": ["腰前一排整齐的褶", "披肩一端搭过左肩", "宽织边", "短袖紧身上衣"],
+      "colorways": [
+        {"key": "magenta", "name": {"zh": "玫红·金边", "ja": "マゼンタ・金", "en": "Magenta & Gold", "ko": "자홍·금색"}, "bg": "light", "vars": {"main": "magenta", "border": "gold zari", "blouse": "gold"}},
+        {"key": "green", "name": {"zh": "孔雀绿·橙边", "ja": "孔雀緑・橙", "en": "Peacock & Orange", "ko": "공작녹·주황"}, "bg": "light", "vars": {"main": "peacock green", "border": "orange and gold", "blouse": "orange"}}
+      ]
+    },
+    {
+      "key": "in-salwar", "era": "sasia", "gender": "F", "lower": "shoes",
+      "name": {"zh": "旁遮普套装", "ja": "サルワール・カミーズ", "en": "Salwar Kameez", "ko": "살와르 카미즈"},
+      "desc": "a South Asian women's salwar kameez: a knee-length {kameez} kameez tunic with side slits and embroidered neckline, loose {salwar} salwar trousers gathered at the ankle, and a long {dupatta} dupatta scarf draped over both shoulders, with flat sandals",
+      "keep": "knee-length {kameez} tunic with side slits and embroidered neck, {salwar} trousers gathered at the ankle, {dupatta} dupatta over both shoulders",
+      "checks": ["及膝长衫侧开衩", "裤脚收口的宽裤", "双肩披长围巾", "领口刺绣"],
+      "colorways": [
+        {"key": "yellow", "name": {"zh": "姜黄", "ja": "ターメリック", "en": "Turmeric", "ko": "강황색"}, "bg": "light", "vars": {"kameez": "turmeric yellow", "salwar": "white", "dupatta": "pink"}},
+        {"key": "blue", "name": {"zh": "靛蓝", "ja": "藍", "en": "Indigo", "ko": "남색"}, "bg": "light", "vars": {"kameez": "indigo with white block print", "salwar": "indigo", "dupatta": "white"}}
+      ]
+    },
+    {
+      "key": "in-sherwani", "era": "sasia", "gender": "M", "lower": "shoes",
+      "name": {"zh": "舍尔瓦尼", "ja": "シェルワニ", "en": "Sherwani", "ko": "셰르와니"},
+      "desc": "a South Asian men's sherwani: a knee-length fitted {main} coat with a standing collar, a long row of covered buttons down the front, {trim} embroidery on the collar, placket and cuffs, worn over slim {pants} churidar trousers bunched at the ankle, with embroidered mojari shoes",
+      "keep": "knee-length fitted {main} coat, standing collar, long button row, {trim} embroidery, slim {pants} churidar",
+      "checks": ["及膝修身长外套", "立领", "前襟一长排扣", "紧腿裤脚踝堆褶"],
+      "colorways": [
+        {"key": "ivory", "name": {"zh": "象牙·金", "ja": "アイボリー・金", "en": "Ivory & Gold", "ko": "아이보리·금색"}, "bg": "dark", "vars": {"main": "ivory", "trim": "gold", "pants": "ivory"}},
+        {"key": "maroon", "name": {"zh": "酒红·金", "ja": "えんじ・金", "en": "Maroon & Gold", "ko": "적갈·금색"}, "bg": "light", "vars": {"main": "maroon", "trim": "gold", "pants": "cream"}}
+      ]
+    },
+    {
+      "key": "cn-miao", "era": "cnminority", "gender": "F", "lower": "hem",
+      "name": {"zh": "苗族盛装", "ja": "ミャオ族の晴れ着", "en": "Miao Festive Dress", "ko": "묘족 성장"},
+      "desc": "a Miao festive women's costume from Guizhou, China: a dark indigo jacket with densely embroidered {emb} sleeves and shoulders, a knee-length finely pleated {skirt} batik skirt, an embroidered front apron panel, and a large silver neck ring collar; no headdress",
+      "keep": "indigo jacket with dense {emb} embroidery on sleeves and shoulders, knee-length pleated {skirt} batik skirt, embroidered apron, silver neck ring",
+      "checks": ["袖和肩大面积刺绣", "及膝细百褶蜡染裙", "前围腰", "银项圈（无银冠）"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "红绣", "ja": "赤刺繍", "en": "Red Embroidery", "ko": "붉은 자수"}, "bg": "light", "vars": {"emb": "red and multicolour", "skirt": "indigo-and-white"}},
+        {"key": "green", "name": {"zh": "绿绣", "ja": "緑刺繍", "en": "Green Embroidery", "ko": "녹색 자수"}, "bg": "light", "vars": {"emb": "green, orange and pink", "skirt": "dark blue-and-white"}}
+      ]
+    },
+    {
+      "key": "cn-tibetan", "era": "cnminority", "gender": "M", "lower": "shoes",
+      "name": {"zh": "藏袍", "ja": "チベットの民族衣装", "en": "Tibetan Chuba", "ko": "티베트 추바"},
+      "desc": "a Tibetan men's chuba: a long, very wide {main} wool robe with a wide {trim} trim, bloused up over a broad {sash} sash at the waist so it falls to the knee, the right sleeve worn off the shoulder and hanging at the back, over a white shirt with a high collar, with knee-high felt boots",
+      "keep": "wide {main} chuba with {trim} trim bloused over a {sash} sash to the knee, right sleeve off the shoulder hanging behind, white shirt, felt boots",
+      "checks": ["宽大长袍在腰带上折起成及膝", "右袖褪下垂在身后", "毛皮或织锦宽边", "高筒靴"],
+      "colorways": [
+        {"key": "maroon", "name": {"zh": "绛红·豹纹边", "ja": "えんじ・毛皮縁", "en": "Maroon & Fur", "ko": "적갈·모피"}, "bg": "light", "vars": {"main": "maroon", "trim": "otter-brown fur-look", "sash": "red"}},
+        {"key": "black", "name": {"zh": "黑·织锦边", "ja": "黒・錦縁", "en": "Black & Brocade", "ko": "검정·비단"}, "bg": "light", "vars": {"main": "black", "trim": "multicolour brocade", "sash": "orange"}}
+      ]
+    },
+    {
+      "key": "cn-mongol", "era": "cnminority", "gender": "U", "lower": "shoes",
+      "name": {"zh": "蒙古袍", "ja": "デール", "en": "Mongolian Deel", "ko": "몽골 델"},
+      "desc": "a Mongolian deel: an ankle-length {main} silk robe with a standing collar and a curved front overlap closing at the wearer's right side with knotted buttons, long sleeves with horseshoe-shaped cuffs, contrasting {trim} piping, and a wide {sash} silk sash wound around the waist, with leather boots",
+      "keep": "ankle-length {main} deel, standing collar, curved right overlap with knot buttons, horseshoe cuffs, {trim} piping, wide {sash} sash, boots",
+      "checks": ["立领", "大襟向右弧形", "马蹄袖口", "宽腰带缠绕"],
+      "colorways": [
+        {"key": "blue", "name": {"zh": "天蓝·金", "ja": "空色・金", "en": "Sky Blue & Gold", "ko": "하늘색·금색"}, "bg": "light", "vars": {"main": "sky blue brocade", "trim": "gold", "sash": "orange"}},
+        {"key": "red", "name": {"zh": "绛红·黑", "ja": "臙脂・黒", "en": "Crimson & Black", "ko": "진홍·검정"}, "bg": "light", "vars": {"main": "crimson", "trim": "black", "sash": "yellow"}}
+      ]
+    },
+    {
+      "key": "cn-uyghur", "era": "cnminority", "gender": "F", "lower": "shoes",
+      "name": {"zh": "艾德莱斯裙", "ja": "アトラス・ドレス", "en": "Atlas Silk Dress", "ko": "아틀라스 원피스"},
+      "desc": "a Uyghur women's dress of atlas ikat silk: a long-sleeved, ankle-length dress with a fitted bodice and a full skirt, in vivid {colors} flame-like ikat stripes running vertically, a {vest} velvet waistcoat worn over it, with flat shoes",
+      "keep": "ankle-length dress in vertical {colors} ikat stripes, fitted bodice, full skirt, {vest} velvet waistcoat",
+      "checks": ["竖向火焰状扎染条纹", "长袖连衣长裙", "外罩丝绒坎肩", "及踝"],
+      "colorways": [
+        {"key": "multi", "name": {"zh": "红黄绿", "ja": "赤黄緑", "en": "Red-Yellow-Green", "ko": "빨강·노랑·초록"}, "bg": "light", "vars": {"colors": "red, yellow, green and white", "vest": "black"}},
+        {"key": "blue", "name": {"zh": "蓝紫", "ja": "青紫", "en": "Blue-Violet", "ko": "청보라"}, "bg": "light", "vars": {"colors": "blue, violet, pink and white", "vest": "deep red"}}
+      ]
+    },
+    {
+      "key": "cn-dai", "era": "cnminority", "gender": "F", "lower": "hem",
+      "name": {"zh": "傣族筒裙", "ja": "タイ族の筒スカート", "en": "Dai Sarong Dress", "ko": "다이족 통치마"},
+      "desc": "a Dai women's outfit from Yunnan: a short, fitted long-sleeved {top} blouse ending at the waist, and an ankle-length slim {skirt} tube skirt with a silver belt at the waist",
+      "keep": "short fitted {top} blouse ending at the waist, slim ankle-length {skirt} tube skirt, silver belt",
+      "checks": ["短款紧身上衣到腰", "及踝修身筒裙", "银腰带", "长袖"],
+      "colorways": [
+        {"key": "pink", "name": {"zh": "粉·紫", "ja": "桃・紫", "en": "Pink & Purple", "ko": "분홍·보라"}, "bg": "light", "vars": {"top": "pale pink", "skirt": "purple with woven peacock border"}}
+      ]
+    },
+    {
+      "key": "sc-kilt", "era": "europe", "gender": "M", "lower": "shoes",
+      "name": {"zh": "苏格兰裙", "ja": "キルト", "en": "Highland Kilt Outfit", "ko": "킬트"},
+      "desc": "a Scottish men's Highland dress: a knee-length {tartan} tartan kilt with deep box pleats at the back and a flat apron front, a leather sporran pouch hanging at the front, a {jacket} Argyll jacket with silver buttons over a white shirt, knee-high {hose} kilt hose with flashes, and black ghillie brogues; no knife",
+      "keep": "knee-length {tartan} tartan kilt with back pleats and flat front, sporran, {jacket} Argyll jacket, white shirt, {hose} kilt hose",
+      "checks": ["及膝格子褶裙", "前挂毛皮/皮革腰包", "短外套", "长筒袜"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "红格", "ja": "赤タータン", "en": "Red Tartan", "ko": "빨강 타탄"}, "bg": "light", "vars": {"tartan": "red-and-green", "jacket": "black", "hose": "cream"}},
+        {"key": "blue", "name": {"zh": "蓝格", "ja": "青タータン", "en": "Blue Tartan", "ko": "파랑 타탄"}, "bg": "light", "vars": {"tartan": "navy-and-green", "jacket": "charcoal", "hose": "green"}}
+      ]
+    },
+    {
+      "key": "de-dirndl", "era": "europe", "gender": "F", "lower": "shoes",
+      "name": {"zh": "德式女装", "ja": "ディアンドル", "en": "Dirndl", "ko": "디른들"},
+      "desc": "a Bavarian women's dirndl: a fitted {bodice} bodice laced at the front, a white short puff-sleeved blouse underneath, a full mid-calf {skirt} skirt gathered at the waist and a {apron} apron tied with a bow at the front, with low shoes",
+      "keep": "fitted {bodice} bodice laced at the front, white puff-sleeved blouse, full mid-calf {skirt} skirt, {apron} apron with front bow",
+      "checks": ["前系带紧身胸衣", "白色泡袖短衬衫", "中长蓬裙", "围裙系在前面"],
+      "colorways": [
+        {"key": "green", "name": {"zh": "绿·粉", "ja": "緑・桃", "en": "Green & Pink", "ko": "초록·분홍"}, "bg": "light", "vars": {"bodice": "forest green", "skirt": "forest green", "apron": "pink"}},
+        {"key": "blue", "name": {"zh": "蓝格·白", "ja": "青チェック・白", "en": "Blue Check & White", "ko": "파랑 체크·흰색"}, "bg": "light", "vars": {"bodice": "navy", "skirt": "blue gingham", "apron": "white"}}
+      ]
+    },
+    {
+      "key": "de-lederhosen", "era": "europe", "gender": "M", "lower": "shoes",
+      "name": {"zh": "皮短裤套装", "ja": "レーダーホーゼン", "en": "Lederhosen", "ko": "레더호젠"},
+      "desc": "a Bavarian men's outfit: knee-length {leather} suede lederhosen with embroidered front flap and H-shaped suspenders with a decorated chest bar, a {shirt} checked shirt with rolled sleeves, grey wool knee socks and brown haferl shoes",
+      "keep": "knee-length {leather} lederhosen with embroidered front flap and H suspenders, {shirt} checked shirt, grey knee socks, brown shoes",
+      "checks": ["及膝皮短裤", "H 形背带", "格子衬衫", "长筒毛袜"],
+      "colorways": [
+        {"key": "brown", "name": {"zh": "深棕·红格", "ja": "焦茶・赤格子", "en": "Brown & Red Check", "ko": "갈색·빨강 체크"}, "bg": "light", "vars": {"leather": "dark brown", "shirt": "red-and-white"}},
+        {"key": "tan", "name": {"zh": "浅棕·蓝格", "ja": "薄茶・青格子", "en": "Tan & Blue Check", "ko": "황갈·파랑 체크"}, "bg": "light", "vars": {"leather": "tan", "shirt": "blue-and-white"}}
+      ]
+    },
+    {
+      "key": "es-flamenco", "era": "europe", "gender": "F", "lower": "hem",
+      "name": {"zh": "弗拉门戈裙", "ja": "フラメンコドレス", "en": "Flamenco Dress", "ko": "플라멩코 드레스"},
+      "desc": "a Spanish traje de flamenca: a {main} dress fitted tightly from the bust to below the hips, then flaring into many tiers of large ruffles to the floor, ruffled elbow sleeves, and a fringed {shawl} manton shawl tied over the shoulders",
+      "keep": "{main} dress fitted to below the hips, many tiers of ruffles to the floor, ruffled sleeves, fringed {shawl} shawl",
+      "checks": ["上身到臀下紧身", "下摆多层大荷叶边", "荷叶袖", "流苏披肩"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "红·白点", "ja": "赤・白水玉", "en": "Red Polka Dot", "ko": "빨강 물방울"}, "bg": "light", "vars": {"main": "red with white polka dots", "shawl": "black"}},
+        {"key": "black", "name": {"zh": "黑·红边", "ja": "黒・赤", "en": "Black & Red", "ko": "검정·빨강"}, "bg": "light", "vars": {"main": "black with red ruffle edges", "shawl": "red"}}
+      ]
+    },
+    {
+      "key": "ge-chokha", "era": "europe", "gender": "M", "lower": "shoes",
+      "name": {"zh": "格鲁吉亚长外套", "ja": "チョハ", "en": "Chokha", "ko": "초하"},
+      "desc": "a Georgian men's chokha: a long fitted {main} wool coat reaching below the knee with a deep V-neck showing a black high-collared undershirt, rows of narrow cartridge-holder pockets (gazyri) sewn across both sides of the chest, a flared skirt, a narrow black belt with a silver buckle, and black leather boots; no dagger",
+      "keep": "below-knee {main} chokha, deep V-neck with black undershirt, gazyri on both sides of the chest, flared skirt, narrow belt, black boots",
+      "checks": ["深 V 领露黑内衬", "两侧胸前竖条子弹袋", "收腰下摆外张", "没有匕首"],
+      "colorways": [
+        {"key": "burgundy", "name": {"zh": "酒红", "ja": "ワインレッド", "en": "Burgundy", "ko": "버건디"}, "bg": "light", "vars": {"main": "dark burgundy"}},
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}}
+      ]
+    },
+    {
+      "key": "sami-gakti", "era": "europe", "gender": "F", "lower": "hem",
+      "name": {"zh": "萨米长衫", "ja": "ガクティ", "en": "Sámi Gákti", "ko": "가크티"},
+      "desc": "a Sámi women's gákti from northern Scandinavia: a {main} wool tunic dress to the calf with bands of red, yellow and green woven trim at the collar, shoulders, cuffs and hem, a wide woven belt, and a silk shawl with long fringe draped over the shoulders",
+      "keep": "{main} calf-length tunic dress, red-yellow-green trim bands, wide woven belt, long-fringed shawl",
+      "checks": ["长衫裙", "红黄绿彩色织带饰边", "宽织带腰带", "长流苏披肩"],
+      "colorways": [
+        {"key": "blue", "name": {"zh": "宝蓝", "ja": "ロイヤルブルー", "en": "Royal Blue", "ko": "로열블루"}, "bg": "light", "vars": {"main": "royal-blue"}}
+      ]
+    },
+    {
+      "key": "ua-vyshyvanka", "era": "europe", "gender": "M", "lower": "shoes",
+      "name": {"zh": "乌克兰刺绣衬衫", "ja": "ヴィシヴァンカ", "en": "Vyshyvanka", "ko": "비시반카"},
+      "desc": "a Ukrainian men's festive outfit: a white linen vyshyvanka shirt with a short standing collar and {emb} cross-stitch embroidery down the front placket and on the sleeves, worn untucked with a {sash} woven sash at the waist, wide {pants} trousers and leather boots",
+      "keep": "white linen shirt with {emb} cross-stitch on placket and sleeves, {sash} woven sash, wide {pants} trousers, boots",
+      "checks": ["白麻衬衫", "前襟和袖上十字绣", "织带腰带", "宽裤和靴子"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "红黑绣", "ja": "赤黒刺繍", "en": "Red & Black", "ko": "빨강·검정 자수"}, "bg": "dark", "vars": {"emb": "red-and-black", "sash": "red", "pants": "dark blue"}}
+      ]
+    },
+    {
+      "key": "mx-chinapoblana", "era": "americas", "gender": "F", "lower": "shoes",
+      "name": {"zh": "墨西哥普埃布拉裙", "ja": "チナ・ポブラナ", "en": "China Poblana", "ko": "치나 포블라나"},
+      "desc": "a Mexican women's china poblana: a white short-sleeved blouse with bright floral embroidery around the wide neckline, and a full ankle-length {skirt} skirt covered with sequinned and beaded {motif} patterns, with flat shoes",
+      "keep": "white blouse with floral-embroidered neckline, full ankle-length {skirt} skirt with sequinned {motif} patterns",
+      "checks": ["白色短袖上衣领口绣花", "及踝大蓬裙", "裙上亮片珠绣图案", "鲜艳配色"],
+      "colorways": [
+        {"key": "red-green", "name": {"zh": "红·绿", "ja": "赤・緑", "en": "Red & Green", "ko": "빨강·초록"}, "bg": "light", "vars": {"skirt": "red-and-green", "motif": "gold and green eagle and floral"}}
+      ]
+    },
+    {
+      "key": "pe-pollera", "era": "americas", "gender": "F", "lower": "hem",
+      "name": {"zh": "秘鲁多层裙", "ja": "ポジェラ", "en": "Andean Pollera", "ko": "폴레라"},
+      "desc": "an Andean women's festive outfit from Peru: a short fitted {jacket} jacket with embroidered trim, a full knee-length layered {skirt} pollera skirt with bands of bright embroidery near the hem, and a woven {shawl} lliclla shawl pinned at the chest",
+      "keep": "short {jacket} jacket with embroidered trim, full knee-length layered {skirt} pollera with embroidered bands, {shawl} lliclla pinned at the chest",
+      "checks": ["短外套", "及膝多层蓬裙", "裙摆彩色刺绣带", "胸前别针织披肩"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "红·彩织", "ja": "赤・多色", "en": "Red Multicolour", "ko": "빨강·다색"}, "bg": "light", "vars": {"jacket": "black", "skirt": "red", "shawl": "multicolour striped"}}
+      ]
+    },
+    {
+      "key": "ng-agbada", "era": "africa", "gender": "M", "lower": "shoes",
+      "name": {"zh": "阿格巴达袍", "ja": "アグバダ", "en": "Agbada", "ko": "아그바다"},
+      "desc": "a Yoruba men's agbada from Nigeria: a very wide flowing ankle-length {main} outer robe with enormous open sleeves folded up over the shoulders, worn over a matching long tunic and trousers, with heavy {emb} embroidery around the neckline and down the chest, and leather slippers",
+      "keep": "very wide ankle-length {main} robe, enormous sleeves folded over the shoulders, {emb} neckline embroidery, inner tunic and trousers",
+      "checks": ["极宽大外袍", "宽袖翻搭肩上", "领口胸前刺绣", "内长衫和裤子"],
+      "colorways": [
+        {"key": "cream", "name": {"zh": "米白·金", "ja": "生成り・金", "en": "Cream & Gold", "ko": "크림·금색"}, "bg": "dark", "vars": {"main": "cream-white", "emb": "gold"}},
+        {"key": "blue", "name": {"zh": "宝蓝·银", "ja": "ロイヤルブルー・銀", "en": "Royal Blue & Silver", "ko": "로열블루·은색"}, "bg": "light", "vars": {"main": "royal blue", "emb": "silver"}}
+      ]
+    },
+    {
+      "key": "gh-kente", "era": "africa", "gender": "M", "lower": "shoes",
+      "name": {"zh": "肯特布", "ja": "ケンテ", "en": "Kente Cloth", "ko": "켄테"},
+      "desc": "a Ghanaian men's kente outfit: a large handwoven kente cloth with bold {colors} geometric strip-woven blocks, wrapped around the body like a toga to the ankle with the left shoulder covered and the right shoulder bare of cloth over a simple {shirt} shirt, with leather sandals",
+      "keep": "large kente cloth in {colors} geometric strip blocks wrapped like a toga to the ankle over the left shoulder, {shirt} shirt",
+      "checks": ["手织几何条块布", "像罗马长袍一样裹身", "搭在左肩", "及踝"],
+      "colorways": [
+        {"key": "gold", "name": {"zh": "金绿红", "ja": "金緑赤", "en": "Gold-Green-Red", "ko": "금·초록·빨강"}, "bg": "light", "vars": {"colors": "gold, green, red and black", "shirt": "white"}}
+      ]
+    },
+    {
+      "key": "ma-kaftan", "era": "africa", "gender": "F", "lower": "hem",
+      "name": {"zh": "摩洛哥卡夫坦", "ja": "カフタン", "en": "Moroccan Kaftan", "ko": "카프탄"},
+      "desc": "a Moroccan women's festive kaftan: a floor-length {main} velvet kaftan with wide sleeves, a front opening closed by a long row of small {trim} knotted buttons from the neck to the hem, {trim} embroidered trim (sfifa) along the neckline and front, and a wide embroidered {belt} mdamma belt at the waist",
+      "keep": "floor-length {main} kaftan, wide sleeves, long row of small {trim} buttons, {trim} embroidered trim, wide {belt} belt",
+      "checks": ["及地长袍", "前襟一长排小扣到底", "宽袖", "宽刺绣腰带"],
+      "colorways": [
+        {"key": "emerald", "name": {"zh": "祖母绿·金", "ja": "エメラルド・金", "en": "Emerald & Gold", "ko": "에메랄드·금색"}, "bg": "light", "vars": {"main": "emerald", "trim": "gold", "belt": "gold"}},
+        {"key": "plum", "name": {"zh": "梅紫·银", "ja": "プラム・銀", "en": "Plum & Silver", "ko": "자두색·은색"}, "bg": "light", "vars": {"main": "plum", "trim": "silver", "belt": "silver"}}
+      ]
+    },
+    {
+      "key": "ma-djellaba", "era": "africa", "gender": "M", "lower": "shoes",
+      "name": {"zh": "吉拉巴长袍", "ja": "ジュラバ", "en": "Djellaba", "ko": "젤라바"},
+      "desc": "a Moroccan men's djellaba: a loose ankle-length {main} wool robe with long wide sleeves, a pointed hood lying flat down the back (not raised), {trim} braided trim down the front opening, and yellow leather babouche slippers",
+      "keep": "loose ankle-length {main} djellaba, long wide sleeves, pointed hood lying flat at the back, {trim} braid down the front, yellow slippers",
+      "checks": ["及踝宽松长袍", "尖兜帽平放在背后", "前襟编织饰边", "宽长袖"],
+      "colorways": [
+        {"key": "brown", "name": {"zh": "驼褐", "ja": "キャメル", "en": "Camel", "ko": "낙타색"}, "bg": "light", "vars": {"main": "camel-brown striped", "trim": "dark brown"}},
+        {"key": "white", "name": {"zh": "白", "ja": "白", "en": "White", "ko": "흰색"}, "bg": "dark", "vars": {"main": "white", "trim": "white"}}
+      ]
+    }
+  ],
+  "eras": {
+    "eastasia": {"zh": "东亚", "ja": "東アジア", "en": "East Asia", "ko": "동아시아"},
+    "seasia": {"zh": "东南亚", "ja": "東南アジア", "en": "Southeast Asia", "ko": "동남아시아"},
+    "sasia": {"zh": "南亚", "ja": "南アジア", "en": "South Asia", "ko": "남아시아"},
+    "cnminority": {"zh": "中国少数民族", "ja": "中国の少数民族", "en": "Chinese Ethnic Minorities", "ko": "중국 소수민족"},
+    "europe": {"zh": "欧洲", "ja": "ヨーロッパ", "en": "Europe", "ko": "유럽"},
+    "americas": {"zh": "美洲", "ja": "アメリカ大陸", "en": "Americas", "ko": "아메리카"},
+    "africa": {"zh": "非洲与中东", "ja": "アフリカ・中東", "en": "Africa & Middle East", "ko": "아프리카·중동"}
+  }
+}

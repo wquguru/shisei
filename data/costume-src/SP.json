@@ -1,0 +1,219 @@
+{
+  "cat": "SP",
+  "note": "Sports & outdoor set. Garments only: no helmets, masks, balls, rackets, boards or other equipment; no crests, sponsor logos, names or numbers, no real team kit colours (PLAN §4.5).",
+  "forms": [
+    {
+      "key": "yoga-f", "era": "studio", "gender": "F", "lower": "hem",
+      "name": {"zh": "瑜伽服", "ja": "ヨガウェア", "en": "Yoga Set", "ko": "요가복"},
+      "desc": "a women's yoga set: a fitted {top} long-line sports top with a high scoop neck, wide shoulder straps and a racer back, covering to the waist, and high-waisted full-length {bottom} leggings with a wide flat waistband and ankle-length hems, in matte brushed stretch jersey, smooth with no pattern, flatlock seams, no shoes",
+      "keep": "{top} waist-length scoop-neck top with racer back, high-waisted {bottom} full-length leggings with wide waistband, matte stretch jersey, no shoes",
+      "checks": ["高圆领、工字背上衣盖到腰", "高腰全长紧身裤、宽腰头", "哑光弹力面料、无图案", "无鞋"],
+      "colorways": [
+        {"key": "sage", "name": {"zh": "鼠尾草绿", "ja": "セージ", "en": "Sage", "ko": "세이지"}, "bg": "light", "vars": {"top": "sage green", "bottom": "sage green"}},
+        {"key": "plum", "name": {"zh": "梅紫·炭灰", "ja": "プラム・チャコール", "en": "Plum & Charcoal", "ko": "자두색·차콜"}, "bg": "light", "vars": {"top": "plum", "bottom": "charcoal grey"}}
+      ]
+    },
+    {
+      "key": "gym-m", "era": "studio", "gender": "M", "lower": "shoes",
+      "name": {"zh": "健身训练服", "ja": "ジムウェア", "en": "Gym Training Kit", "ko": "헬스 트레이닝복"},
+      "desc": "a men's gym training outfit: a loose {top} sleeveless training tank with wide armholes and a crew neck, over {shorts} knee-length training shorts with an elastic drawcord waist and side pockets, in quick-dry matte polyester with no pattern, with {shoes} low-top cross-training shoes and short white socks",
+      "keep": "{top} sleeveless crew-neck tank, {shorts} knee-length drawcord shorts, {shoes} low-top trainers, short white socks",
+      "checks": ["无袖圆领背心", "及膝运动短裤、松紧抽绳腰", "低帮训练鞋", "无字无标"],
+      "colorways": [
+        {"key": "charcoal-lime", "name": {"zh": "炭灰·青柠", "ja": "チャコール・ライム", "en": "Charcoal & Lime", "ko": "차콜·라임"}, "bg": "light", "vars": {"top": "charcoal grey", "shorts": "black", "shoes": "black and lime green"}}
+      ]
+    },
+    {
+      "key": "ballet-f", "era": "studio", "gender": "F", "lower": "shoes",
+      "name": {"zh": "芭蕾练功服", "ja": "バレエレッスン着", "en": "Ballet Practice Wear", "ko": "발레 연습복"},
+      "desc": "an adult women's ballet practice outfit: a {leotard} long-sleeved leotard with a modest round neck, worn with a knee-length chiffon wrap skirt in {skirt} tied at the left hip and opaque {tights} footed tights, all matte and plain, with {tights} soft leather ballet slippers with a thin elastic strap across the instep",
+      "keep": "{leotard} long-sleeved round-neck leotard, knee-length {skirt} wrap skirt tied at the left hip, opaque {tights} tights and soft ballet slippers",
+      "checks": ["长袖圆领连体练功服", "及膝雪纺裹裙、左胯系结", "不透明连脚裤袜", "软底芭蕾鞋带松紧带"],
+      "colorways": [
+        {"key": "black-pink", "name": {"zh": "黑·浅粉", "ja": "黒・ペールピンク", "en": "Black & Pale Pink", "ko": "검정·연분홍"}, "bg": "light", "vars": {"leotard": "black", "skirt": "black", "tights": "pale pink"}},
+        {"key": "navy", "name": {"zh": "藏青", "ja": "紺", "en": "Navy", "ko": "감색"}, "bg": "light", "vars": {"leotard": "navy blue", "skirt": "navy blue", "tights": "light tan"}}
+      ]
+    },
+    {
+      "key": "basketball-m", "era": "ball-sports", "gender": "M", "lower": "shoes",
+      "name": {"zh": "篮球服", "ja": "バスケットボールウェア", "en": "Basketball Kit", "ko": "농구복"},
+      "desc": "a men's basketball kit: a loose sleeveless {main} mesh jersey with a deep V-neck and wide armholes trimmed in {trim}, completely plain with no number, name or crest, over long loose {main} shorts reaching below the knee with a {trim} side stripe and a wide elastic waistband, with {shoes} high-top basketball shoes and white crew socks",
+      "keep": "plain sleeveless {main} mesh jersey with {trim} trims and no number, long {main} shorts below the knee with {trim} side stripe, {shoes} high-top shoes",
+      "checks": ["无袖 V 领网眼球衣", "球衣无号码无字", "过膝宽松短裤带侧边条", "高帮篮球鞋"],
+      "colorways": [
+        {"key": "red-white", "name": {"zh": "绯红·白", "ja": "緋・白", "en": "Scarlet & White", "ko": "주홍·흰색"}, "bg": "light", "vars": {"main": "scarlet red", "trim": "white", "shoes": "white and red"}},
+        {"key": "teal-black", "name": {"zh": "青绿·黑", "ja": "ティール・黒", "en": "Teal & Black", "ko": "청록·검정"}, "bg": "light", "vars": {"main": "teal", "trim": "black", "shoes": "black"}}
+      ]
+    },
+    {
+      "key": "football-m", "era": "ball-sports", "gender": "M", "lower": "shoes",
+      "name": {"zh": "足球服", "ja": "サッカーユニフォーム", "en": "Football Kit", "ko": "축구복"},
+      "desc": "a men's association football kit: a short-sleeved {shirt} polyester jersey with a {trim} crew-neck collar and {trim} cuffs, completely plain with no number, name, crest or badge, {shorts} mid-thigh shorts with an elastic waist, and {socks} knee-high football socks pulled over shin guards, with black moulded-stud football boots",
+      "keep": "plain short-sleeved {shirt} jersey with {trim} collar and cuffs and no crest, {shorts} shorts, {socks} knee-high socks, black studded boots",
+      "checks": ["短袖圆领球衣无号码无队徽", "短裤", "及膝长球袜", "带鞋钉的足球鞋"],
+      "colorways": [
+        {"key": "green-white", "name": {"zh": "草绿·白", "ja": "グリーン・白", "en": "Green & White", "ko": "초록·흰색"}, "bg": "light", "vars": {"shirt": "grass green", "trim": "white", "shorts": "white", "socks": "grass green"}},
+        {"key": "orange-navy", "name": {"zh": "橙·藏青", "ja": "オレンジ・紺", "en": "Orange & Navy", "ko": "주황·감색"}, "bg": "light", "vars": {"shirt": "bright orange", "trim": "navy", "shorts": "navy blue", "socks": "bright orange"}}
+      ]
+    },
+    {
+      "key": "golf-m", "era": "ball-sports", "gender": "M", "lower": "shoes",
+      "name": {"zh": "高尔夫球装", "ja": "ゴルフウェア", "en": "Golf Outfit", "ko": "골프웨어"},
+      "desc": "a men's golf outfit: a short-sleeved {polo} pique polo shirt with a three-button placket and a flat knit collar, tucked into slim {pants} chino trousers with a {belt} leather belt, with {shoes} spikeless leather golf shoes",
+      "keep": "{polo} short-sleeved pique polo with three-button placket tucked in, slim {pants} trousers, {belt} belt, {shoes} golf shoes",
+      "checks": ["短袖 polo 衫三粒扣门襟", "下摆塞进裤腰", "修身长裤配皮带", "高尔夫球鞋"],
+      "colorways": [
+        {"key": "sky-stone", "name": {"zh": "天蓝·石色", "ja": "スカイ・ストーン", "en": "Sky & Stone", "ko": "하늘색·스톤"}, "bg": "light", "vars": {"polo": "sky blue", "pants": "stone beige", "belt": "brown", "shoes": "white and brown"}}
+      ]
+    },
+    {
+      "key": "tennis-f", "era": "racket", "gender": "F", "lower": "shoes",
+      "name": {"zh": "网球裙装", "ja": "テニスウェア", "en": "Tennis Dress", "ko": "테니스 원피스"},
+      "desc": "a women's tennis dress: a sleeveless {main} dress with a polo collar and a short button placket, fitted through the bodice with a {trim} piped seam, and a pleated A-line skirt to mid-thigh over matching built-in shorts, in smooth technical knit, with {shoes} low-top tennis shoes and white ankle socks",
+      "keep": "sleeveless {main} polo-collar tennis dress with {trim} piping, pleated mid-thigh skirt, {shoes} tennis shoes, ankle socks",
+      "checks": ["无袖 polo 领连衣裙", "百褶 A 字短裙及大腿中部", "滚边线条", "网球鞋配短袜"],
+      "colorways": [
+        {"key": "white-green", "name": {"zh": "白·墨绿", "ja": "白・深緑", "en": "White & Forest", "ko": "흰색·짙은 녹색"}, "bg": "dark", "vars": {"main": "white", "trim": "forest green", "shoes": "white"}},
+        {"key": "lavender", "name": {"zh": "薰衣草紫", "ja": "ラベンダー", "en": "Lavender", "ko": "라벤더"}, "bg": "light", "vars": {"main": "lavender", "trim": "white", "shoes": "white and lavender"}}
+      ]
+    },
+    {
+      "key": "running-f", "era": "endurance", "gender": "F", "lower": "shoes",
+      "name": {"zh": "跑步服（女）", "ja": "ランニングウェア（女性）", "en": "Women's Running Kit", "ko": "러닝복 (여)"},
+      "desc": "a women's running outfit: a lightweight {top} racer-back running singlet with fine perforated side panels and a crew neck, {shorts} running shorts with a split hem over a built-in liner, and a narrow {trim} reflective strip on the back of each, with {shoes} cushioned running shoes and low socks",
+      "keep": "{top} racer-back crew-neck singlet, {shorts} split-hem running shorts, {trim} reflective strips, {shoes} running shoes",
+      "checks": ["工字背跑步背心", "侧开衩跑步短裤", "背面反光条", "缓震跑鞋"],
+      "colorways": [
+        {"key": "coral", "name": {"zh": "珊瑚·藏青", "ja": "コーラル・紺", "en": "Coral & Navy", "ko": "코랄·감색"}, "bg": "light", "vars": {"top": "coral", "shorts": "navy blue", "trim": "silver", "shoes": "coral and white"}}
+      ]
+    },
+    {
+      "key": "running-m", "era": "endurance", "gender": "M", "lower": "shoes",
+      "name": {"zh": "跑步服（男）", "ja": "ランニングウェア（男性）", "en": "Men's Running Kit", "ko": "러닝복 (남)"},
+      "desc": "a men's cold-weather running outfit: a fitted {top} long-sleeved half-zip running top with a short stand collar and thumb-hole cuffs, full-length {tights} running tights tapering to the ankle with a zipped back pocket at the waist, and {trim} reflective piping down the sides, with {shoes} cushioned running shoes",
+      "keep": "{top} long-sleeved half-zip stand-collar top, {tights} full-length running tights, {trim} reflective side piping, {shoes} running shoes",
+      "checks": ["长袖半拉链立领上衣", "全长跑步紧身裤", "侧面反光滚条", "跑鞋"],
+      "colorways": [
+        {"key": "black-yellow", "name": {"zh": "黑·荧光黄", "ja": "黒・ネオンイエロー", "en": "Black & Neon Yellow", "ko": "검정·형광 노랑"}, "bg": "light", "vars": {"top": "neon yellow", "tights": "black", "trim": "silver", "shoes": "black and neon yellow"}}
+      ]
+    },
+    {
+      "key": "cycling-u", "era": "endurance", "gender": "U", "lower": "shoes",
+      "name": {"zh": "公路骑行服", "ja": "サイクルジャージ", "en": "Road Cycling Kit", "ko": "로드 사이클복"},
+      "desc": "a road cycling kit: a close-fitting short-sleeved {jersey} cycling jersey with a full-length front zip, a low stand collar, a {band} horizontal chest band and three open cargo pockets across the lower back, over {bibs} bib shorts with mesh shoulder straps and leg grippers ending above the knee, in smooth compression lycra with no text, with {shoes} stiff low-cut cycling shoes with a dial closure",
+      "keep": "short-sleeved {jersey} full-zip jersey with {band} chest band and three rear pockets, {bibs} bib shorts above the knee, {shoes} cycling shoes",
+      "checks": ["短袖全拉链修身骑行衫", "背后下方三个口袋", "背带骑行短裤到膝上", "骑行锁鞋"],
+      "colorways": [
+        {"key": "cobalt", "name": {"zh": "钴蓝·白", "ja": "コバルト・白", "en": "Cobalt & White", "ko": "코발트·흰색"}, "bg": "light", "vars": {"jersey": "cobalt blue", "band": "white", "bibs": "black", "shoes": "white"}},
+        {"key": "mustard", "name": {"zh": "芥黄·炭灰", "ja": "マスタード・チャコール", "en": "Mustard & Charcoal", "ko": "머스터드·차콜"}, "bg": "light", "vars": {"jersey": "mustard yellow", "band": "charcoal grey", "bibs": "charcoal grey", "shoes": "black"}}
+      ]
+    },
+    {
+      "key": "ski-f", "era": "snow", "gender": "F", "lower": "hem",
+      "name": {"zh": "双板滑雪服", "ja": "スキーウェア", "en": "Ski Suit", "ko": "스키복"},
+      "desc": "a women's two-piece ski outfit: a fitted hip-length insulated {jacket} ski jacket with a high stand collar and no hood, a full front zip under a storm flap, quilted horizontal baffles across the body and {trim} contrast zips on the chest pockets, over slim {pants} insulated ski trousers with flared boot-cut hems and inner snow gaiters at the ankle, in water-repellent matte nylon",
+      "keep": "{jacket} hip-length quilted ski jacket with high stand collar and no hood, {trim} pocket zips, slim {pants} ski trousers with boot-cut hems",
+      "checks": ["及胯修身绗缝滑雪夹克", "高立领、无帽", "前门襟拉链加挡风片", "裤脚喇叭口带内防雪套"],
+      "colorways": [
+        {"key": "red-black", "name": {"zh": "正红·黑", "ja": "赤・黒", "en": "Red & Black", "ko": "빨강·검정"}, "bg": "light", "vars": {"jacket": "bright red", "trim": "black", "pants": "black"}},
+        {"key": "ice-navy", "name": {"zh": "冰蓝·藏青", "ja": "アイスブルー・紺", "en": "Ice Blue & Navy", "ko": "아이스블루·감색"}, "bg": "light", "vars": {"jacket": "ice blue", "trim": "navy", "pants": "navy blue"}}
+      ]
+    },
+    {
+      "key": "snowboard-u", "era": "snow", "gender": "U", "lower": "hem",
+      "name": {"zh": "单板滑雪服", "ja": "スノーボードウェア", "en": "Snowboard Outfit", "ko": "스노보드복"},
+      "desc": "a relaxed snowboard outfit: a loose long {anorak} pullover anorak reaching mid-thigh with a half-length front zip, a large kangaroo chest pocket and a hood lying flat down the back (not raised), over baggy {bib} bib trousers with wide straight legs, reinforced cuffs and knee patches, in matte waterproof twill with no print",
+      "keep": "loose mid-thigh {anorak} pullover anorak with kangaroo pocket and hood flat at the back, baggy {bib} bib trousers with wide legs",
+      "checks": ["宽松套头冲锋衣到大腿中部", "胸前大袋鼠兜", "兜帽平放背后", "宽松直筒背带裤"],
+      "colorways": [
+        {"key": "olive-sand", "name": {"zh": "橄榄·沙色", "ja": "オリーブ・サンド", "en": "Olive & Sand", "ko": "올리브·샌드"}, "bg": "light", "vars": {"anorak": "olive green", "bib": "sand beige"}},
+        {"key": "lilac-black", "name": {"zh": "丁香紫·黑", "ja": "ライラック・黒", "en": "Lilac & Black", "ko": "라일락·검정"}, "bg": "light", "vars": {"anorak": "lilac", "bib": "black"}}
+      ]
+    },
+    {
+      "key": "hardshell-m", "era": "outdoor", "gender": "M", "lower": "shoes",
+      "name": {"zh": "登山冲锋衣", "ja": "登山用ハードシェル", "en": "Hardshell Hiking Kit", "ko": "등산 하드쉘"},
+      "desc": "a men's hiking outfit: a hip-length {shell} waterproof hardshell jacket with a full front zip under a storm flap, two high chest pockets with water-resistant zips, underarm vent zips and a hood lying flat down the back (not raised), in crisp three-layer nylon with taped seams, over {pants} slim softshell trekking trousers with articulated knees and zipped thigh pockets, with {boots} mid-height leather hiking boots with lugged soles",
+      "keep": "hip-length {shell} hardshell with storm flap, two chest pocket zips, hood flat at the back, {pants} trekking trousers with thigh pockets, {boots} hiking boots",
+      "checks": ["及胯硬壳冲锋衣、前门襟挡风片", "两个高位胸袋拉链", "兜帽平放背后", "中帮登山靴"],
+      "colorways": [
+        {"key": "orange-grey", "name": {"zh": "橙·石墨灰", "ja": "オレンジ・グラファイト", "en": "Orange & Graphite", "ko": "주황·그래파이트"}, "bg": "light", "vars": {"shell": "burnt orange", "pants": "graphite grey", "boots": "brown"}},
+        {"key": "forest-khaki", "name": {"zh": "森林绿·卡其", "ja": "フォレスト・カーキ", "en": "Forest & Khaki", "ko": "숲녹색·카키"}, "bg": "light", "vars": {"shell": "forest green", "pants": "khaki", "boots": "dark brown"}}
+      ]
+    },
+    {
+      "key": "wetsuit-u", "era": "water", "gender": "U", "lower": "hem",
+      "name": {"zh": "冲浪防寒服", "ja": "サーフィン用ウェットスーツ", "en": "Surf Wetsuit", "ko": "서핑 웻슈트"},
+      "desc": "a full-length surf wetsuit: a one-piece suit with long sleeves and full legs ending at the wrists and ankles, a low round neck with a velcro neck tab and no hood, a back zip with a long pull cord hanging down the spine, in thick smooth matte neoprene that holds its own rounded shape, with {panel} contrast panels on the chest and shoulders, the rest {main}, and glued blind-stitched panel seams",
+      "keep": "one-piece full-length {main} neoprene wetsuit, {panel} chest and shoulder panels, low round neck with no hood, back zip with long pull cord",
+      "checks": ["连体长袖长腿", "背后拉链带长拉绳", "厚氯丁橡胶质感、无帽", "胸肩拼色片"],
+      "colorways": [
+        {"key": "black-teal", "name": {"zh": "黑·湖蓝", "ja": "黒・ティール", "en": "Black & Teal", "ko": "검정·청록"}, "bg": "light", "vars": {"main": "black", "panel": "teal"}},
+        {"key": "black-grey", "name": {"zh": "黑·灰", "ja": "黒・グレー", "en": "Black & Grey", "ko": "검정·회색"}, "bg": "light", "vars": {"main": "black", "panel": "light grey"}}
+      ]
+    },
+    {
+      "key": "boxing-m", "era": "combat", "gender": "M", "lower": "shoes",
+      "name": {"zh": "拳击服", "ja": "ボクシングウェア", "en": "Boxing Kit", "ko": "복싱복"},
+      "desc": "a men's amateur boxing kit: a sleeveless {vest} vest with a scoop neck and wide armholes, over loose satin {trunks} boxing trunks reaching mid-thigh with a very wide elastic waistband in {band} and a {band} side stripe, with {boots} high-top lace-up boxing boots reaching the mid-calf, no gloves",
+      "keep": "sleeveless {vest} vest, loose satin {trunks} trunks with wide {band} waistband and side stripe, {boots} mid-calf boxing boots",
+      "checks": ["无袖背心", "缎面宽松拳击短裤、超宽腰头", "侧边条", "高帮系带拳击鞋到小腿中部"],
+      "colorways": [
+        {"key": "royal-gold", "name": {"zh": "宝蓝·金", "ja": "ロイヤルブルー・金", "en": "Royal Blue & Gold", "ko": "로열블루·금색"}, "bg": "light", "vars": {"vest": "royal blue", "trunks": "royal blue", "band": "gold", "boots": "royal blue and white"}}
+      ]
+    },
+    {
+      "key": "fencing-u", "era": "combat", "gender": "U", "lower": "shoes",
+      "name": {"zh": "击剑服", "ja": "フェンシングウェア", "en": "Fencing Whites", "ko": "펜싱복"},
+      "desc": "a fencing uniform: a close-fitting white fencing jacket with a short stand collar, a diagonal closure that fastens along the side of the torso away from the centre, over white knee-length fencing breeches with buttoned knee cuffs and suspenders, white knee-high socks, and flat white fencing shoes, in heavy smooth white cotton drill and padded panels, no mask, no glove, no weapon",
+      "keep": "white close-fitting fencing jacket with stand collar and side closure, white knee breeches, white knee socks, flat white fencing shoes",
+      "checks": ["白色修身击剑上衣、立领", "侧开襟（非正中）", "及膝马裤", "白色长筒袜与平底击剑鞋"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白", "ja": "白", "en": "White", "ko": "흰색"}, "bg": "dark", "vars": {}}
+      ]
+    },
+    {
+      "key": "wushu-u", "era": "combat", "gender": "U", "lower": "shoes",
+      "name": {"zh": "武术练功服", "ja": "武術練習着", "en": "Wushu Practice Suit", "ko": "우슈 연습복"},
+      "desc": "a Chinese wushu practice suit: a loose hip-length {top} jacket with a low mandarin collar, a centre front opening closed by seven pairs of {frog} cloth frog buttons, and long sleeves with turned-back {cuff} cuffs, over loose {pants} trousers gathered into elastic cuffs at the ankle, a {sash} cloth sash tied at the left hip, in soft matte cotton-silk, with {shoes} flat cloth kung-fu shoes",
+      "keep": "loose hip-length {top} jacket, mandarin collar, centre opening with seven {frog} frog buttons, {cuff} turned-back cuffs, {pants} trousers gathered at the ankle, {sash} sash, {shoes} cloth shoes",
+      "checks": ["及胯宽松上衣、立领", "正中对襟一排盘扣", "裤脚收口", "腰系布带、平底布鞋"],
+      "colorways": [
+        {"key": "white-black", "name": {"zh": "白·黑", "ja": "白・黒", "en": "White & Black", "ko": "흰색·검정"}, "bg": "dark", "vars": {"top": "white", "frog": "white", "cuff": "white", "pants": "white", "sash": "black", "shoes": "black"}},
+        {"key": "black-red", "name": {"zh": "黑·红", "ja": "黒・赤", "en": "Black & Red", "ko": "검정·빨강"}, "bg": "light", "vars": {"top": "black", "frog": "black", "cuff": "red", "pants": "black", "sash": "red", "shoes": "black"}}
+      ]
+    },
+    {
+      "key": "equestrian-f", "era": "equestrian", "gender": "F", "lower": "shoes",
+      "name": {"zh": "马术比赛服", "ja": "乗馬競技服", "en": "Show Jumping Attire", "ko": "승마 경기복"},
+      "desc": "a women's show-jumping outfit: a fitted hip-length {coat} riding jacket in stretch wool with a notched collar, three front buttons, a nipped waist and two long back vents, over a white stock shirt with a high white collar, and white full-seat riding breeches tucked into tall black leather riding boots reaching just below the knee",
+      "keep": "fitted hip-length {coat} riding jacket with three buttons and two back vents, high white shirt collar, white breeches, tall black riding boots",
+      "checks": ["收腰及胯骑手外套三粒扣", "背后两道开衩", "白色马裤", "黑色及膝高筒马靴"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青", "ja": "紺", "en": "Navy", "ko": "감색"}, "bg": "light", "vars": {"coat": "navy blue"}}
+      ]
+    },
+    {
+      "key": "racing-m", "era": "motorsport", "gender": "M", "lower": "shoes",
+      "name": {"zh": "赛车服", "ja": "レーシングスーツ", "en": "Racing Suit", "ko": "레이싱 슈트"},
+      "desc": "a men's motor-racing suit: a one-piece fire-resistant {main} race suit with a short padded stand collar, a concealed full front zip, shoulder epaulettes, a belted waist and ribbed stretch panels at the lower back and behind the elbows and knees, with {stripe} panels sweeping down the sides of the torso and legs, completely clear of patches, logos, text and numbers, in matte quilted aramid fabric, with {shoes} slim thin-soled racing boots",
+      "keep": "one-piece {main} race suit, padded stand collar, epaulettes, belted waist, {stripe} side panels, no patches or text, {shoes} slim racing boots",
+      "checks": ["连体赛车服、立领、肩章", "腰带", "背部和关节处弹力罗纹片", "全身无任何赞助标、字和号码"],
+      "colorways": [
+        {"key": "teal-white", "name": {"zh": "孔雀蓝·白", "ja": "ティール・白", "en": "Teal & White", "ko": "청록·흰색"}, "bg": "light", "vars": {"main": "deep teal", "stripe": "white", "shoes": "black"}}
+      ]
+    }
+  ],
+  "eras": {
+    "studio": {"zh": "室内训练", "ja": "スタジオ", "en": "Studio & Gym", "ko": "실내 트레이닝"},
+    "ball-sports": {"zh": "球类", "ja": "球技", "en": "Ball Sports", "ko": "구기"},
+    "racket": {"zh": "网拍类", "ja": "ラケット競技", "en": "Racket Sports", "ko": "라켓 스포츠"},
+    "endurance": {"zh": "跑步与骑行", "ja": "ランニング・サイクリング", "en": "Running & Cycling", "ko": "러닝·사이클"},
+    "snow": {"zh": "冰雪", "ja": "スノースポーツ", "en": "Snow Sports", "ko": "설상 스포츠"},
+    "outdoor": {"zh": "户外徒步", "ja": "アウトドア", "en": "Outdoor", "ko": "아웃도어"},
+    "water": {"zh": "水上", "ja": "ウォータースポーツ", "en": "Water Sports", "ko": "수상 스포츠"},
+    "combat": {"zh": "格斗与武术", "ja": "格闘技・武術", "en": "Combat & Martial Arts", "ko": "격투·무술"},
+    "equestrian": {"zh": "马术", "ja": "馬術", "en": "Equestrian", "ko": "승마"},
+    "motorsport": {"zh": "赛车", "ja": "モータースポーツ", "en": "Motorsport", "ko": "모터스포츠"}
+  }
+}

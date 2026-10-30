@@ -1,0 +1,273 @@
+{
+  "cat": "FN",
+  "note": "Original fantasy set. Own designs only: no game, anime, film or franchise outfit, no wings, halos, glowing effects, helmets, weapons or heraldry; armour written as separate rigid constructed pieces, hoods lie flat on the back, arm pieces end at the wrist (no gauntlets or gloves). Cross collars use the image-coordinate right-over-left sentence (PLAN §4.8, §9).",
+  "forms": [
+    {
+      "key": "plate-knight", "era": "knight", "gender": "M", "lower": "shoes",
+      "name": {"zh": "骑士板甲", "ja": "騎士のプレートアーマー", "en": "Knight's Plate Armour", "ko": "기사 판금 갑옷"},
+      "desc": "an original fantasy knight's full harness of articulated plate armour in {metal} with {trim} edging, worn over a quilted {cloth} arming doublet whose collar and sleeve edges show at the neck and joints: a steel gorget around the neck, a rounded breastplate with a central ridge, layered pauldrons over the shoulders, couters with fan-shaped side wings at the elbows, vambraces ending at the wrist with no gauntlets, a skirt of overlapping horizontal lames below the waist with two tassets over the upper thighs, cuisses, knee poleyns, greaves and pointed sabatons; every plate a separate rigid piece, joined by visible rivets and leather straps, no fabric folds in the metal; plain surfaces with no crest or emblem",
+      "keep": "{metal} plate harness with {trim} edging, {cloth} arming doublet edges at the joints, gorget, ridged breastplate, winged couters, vambraces ending at the wrist, lame skirt with two tassets, greaves and sabatons",
+      "checks": ["每块甲片独立刚性、铆钉和皮带连接", "肘部扇形护翼", "腰下层叠甲裙＋两片腿甲", "无护手、无头盔、无纹章"],
+      "colorways": [
+        {"key": "steel-brass", "name": {"zh": "亮钢·黄铜", "ja": "鋼・真鍮", "en": "Steel & Brass", "ko": "강철·황동"}, "bg": "light", "vars": {"metal": "bright polished steel", "trim": "brass", "cloth": "dark red"}},
+        {"key": "black-gold", "name": {"zh": "黑钢·金", "ja": "黒鋼・金", "en": "Black Steel & Gold", "ko": "흑강·금"}, "bg": "light", "vars": {"metal": "blackened steel", "trim": "gold", "cloth": "deep blue"}}
+      ]
+    },
+    {
+      "key": "brigandine-knight", "era": "knight", "gender": "F", "lower": "shoes",
+      "name": {"zh": "布面甲骑士", "ja": "ブリガンダインの騎士", "en": "Brigandine Knight", "ko": "브리간딘 기사"},
+      "desc": "an original fantasy women's knight-errant outfit: a long-sleeved {gambeson} linen gambeson with vertical quilting reaching mid-thigh; over it a fitted brigandine vest of {cover} cloth-covered small steel plates, rows of brass rivet heads visible on the outside, buckled at both sides; the riveted mail hem of a short shirt showing below the brigandine; rigid steel spaulders on the shoulders and steel vambraces ending at the wrist; a wide plain leather belt at the natural waist; fitted {legs} leather trousers and tall leather riding boots with steel knee cops",
+      "keep": "{gambeson} quilted gambeson to mid-thigh, {cover} brigandine vest with visible brass rivets, mail hem below, steel spaulders and vambraces, leather belt, {legs} trousers, tall boots with knee cops",
+      "checks": ["绗缝内甲长到大腿中", "布面铆钉甲背心、可见铜铆钉头", "钢肩甲＋臂甲止于手腕", "长靴带钢护膝"],
+      "colorways": [
+        {"key": "crimson", "name": {"zh": "深红", "ja": "深紅", "en": "Crimson", "ko": "진홍"}, "bg": "light", "vars": {"cover": "deep crimson", "gambeson": "undyed natural", "legs": "dark brown"}},
+        {"key": "forest", "name": {"zh": "森绿", "ja": "森緑", "en": "Forest Green", "ko": "숲 녹색"}, "bg": "light", "vars": {"cover": "forest green", "gambeson": "grey", "legs": "black"}}
+      ]
+    },
+    {
+      "key": "ranger", "era": "ranger", "gender": "F", "lower": "shoes",
+      "name": {"zh": "游侠", "ja": "レンジャー", "en": "Ranger", "ko": "레인저"},
+      "desc": "an original fantasy women's ranger outfit: a long-sleeved {shirt} linen shirt under a fitted {jerkin} leather jerkin laced up the centre front and ending at the hip; a waist-length {cape} wool shoulder capelet with a deep hood lying flat down the back, the hood empty and never raised; a wide belt at the natural waist carrying several small leather pouches; leather bracers laced on the forearms, ending at the wrist; slim {legs} trousers and knee-high soft leather boots with turned-down cuffs",
+      "keep": "{shirt} shirt, {jerkin} laced jerkin to the hip, {cape} capelet with hood flat on the back, pouch belt, laced forearm bracers, {legs} trousers, cuffed knee boots",
+      "checks": ["兜帽平放在背后", "前中系带皮马甲", "腰带上挂多个小包", "前臂系带护腕＋翻口软长靴"],
+      "colorways": [
+        {"key": "moss", "name": {"zh": "苔绿", "ja": "苔色", "en": "Moss", "ko": "이끼색"}, "bg": "light", "vars": {"shirt": "cream", "jerkin": "tan", "cape": "moss green", "legs": "brown"}},
+        {"key": "slate", "name": {"zh": "石板灰", "ja": "スレートグレー", "en": "Slate", "ko": "슬레이트 그레이"}, "bg": "light", "vars": {"shirt": "pale grey", "jerkin": "dark brown", "cape": "slate grey", "legs": "charcoal"}}
+      ]
+    },
+    {
+      "key": "mage-robe", "era": "mage", "gender": "M", "lower": "hem",
+      "name": {"zh": "法师长袍", "ja": "魔導士のローブ", "en": "Mage Robe", "ko": "마법사 로브"},
+      "desc": "an original fantasy mage's robe: a floor-length {robe} wool robe with a tall stiff standing collar that opens into a V at the front, very wide bell sleeves lined in {lining} silk and turned back at the cuff; over it a sleeveless open-front {over} over-robe of the same length, its front edges and hem bordered with a band of {emb} geometric embroidery; a wide {sash} cloth sash wrapped twice at the natural waist with two ends hanging straight down to the knee; the hem just touching the floor",
+      "keep": "{robe} floor-length robe, tall standing collar in a V, wide bell sleeves with {lining} turn-backs, sleeveless {over} over-robe with {emb} geometric border, {sash} sash with ends to the knee",
+      "checks": ["高硬立领、前开V口", "大喇叭袖翻出里衬", "无袖开襟外罩、边缘几何刺绣", "腰间宽布带两端垂到膝"],
+      "colorways": [
+        {"key": "midnight", "name": {"zh": "午夜蓝·金", "ja": "ミッドナイトブルー・金", "en": "Midnight & Gold", "ko": "미드나이트 블루·금"}, "bg": "light", "vars": {"robe": "midnight blue", "lining": "gold", "over": "deep purple", "emb": "gold-thread", "sash": "gold"}},
+        {"key": "charcoal", "name": {"zh": "炭灰·牛血红", "ja": "チャコール・オックスブラッド", "en": "Charcoal & Oxblood", "ko": "차콜·옥스블러드"}, "bg": "light", "vars": {"robe": "charcoal grey", "lining": "silver-grey", "over": "oxblood", "emb": "silver-thread", "sash": "black"}}
+      ]
+    },
+    {
+      "key": "elven-gown", "era": "elf", "gender": "F", "lower": "hem",
+      "name": {"zh": "精灵长裙", "ja": "エルフのドレス", "en": "Elven Gown", "ko": "엘프 드레스"},
+      "desc": "an original fantasy elven gown: a floor-length {main} silk gown with a fitted bodice and a high round neckline, long sleeves close-fitting to the elbow that then open into long pointed hanging cuffs reaching the knee; an overskirt of layered {over} silk panels cut into long leaf-shaped points that overlap like falling leaves and end at different lengths from mid-thigh to the ankle; fine {emb} vine embroidery climbing the bodice; a slim {emb} braided cord tied at the natural waist with its two ends falling straight down",
+      "keep": "{main} gown with high round neck, sleeves opening into pointed hanging cuffs from the elbow, {over} leaf-point overskirt panels, {emb} vine embroidery on the bodice, {emb} cord at the natural waist",
+      "checks": ["叶片形尖角层叠外裙", "肘下展开的尖长垂袖", "胸衣藤蔓刺绣", "腰间细编绳两端垂直下垂"],
+      "colorways": [
+        {"key": "sage", "name": {"zh": "鼠尾草绿·银", "ja": "セージ・銀", "en": "Sage & Silver", "ko": "세이지·은"}, "bg": "light", "vars": {"main": "sage green", "over": "moss green", "emb": "silver"}},
+        {"key": "violet", "name": {"zh": "暮紫·金", "ja": "宵紫・金", "en": "Dusk Violet & Gold", "ko": "저녁 보라·금"}, "bg": "light", "vars": {"main": "dusky violet", "over": "lavender grey", "emb": "gold"}}
+      ]
+    },
+    {
+      "key": "assassin", "era": "assassin", "gender": "M", "lower": "shoes",
+      "name": {"zh": "刺客", "ja": "アサシン", "en": "Assassin", "ko": "어쌔신"},
+      "desc": "an original fantasy assassin's outfit with no hood: a close-fitting long-sleeved {main} tunic reaching mid-thigh with an asymmetric wrapped front that closes with a diagonal row of small buckled leather straps running from the wearer's right shoulder (image-left) down to the left hip (image-right); a soft cowl collar gathered loosely around the neck; a short {sash} sash wrapped at the natural waist with one end hanging at the hip; cloth wraps binding the forearms and ending at the wrist; fitted {main} trousers tucked into soft wrap-bound ankle boots",
+      "keep": "{main} close-fitting tunic with diagonal row of buckled straps from right shoulder to left hip, soft cowl collar, {sash} waist sash with one hanging end, forearm wraps, {main} trousers, wrapped ankle boots",
+      "checks": ["斜向一排皮扣的不对称衣襟", "颈部松垂的软领（无兜帽）", "前臂缠布止于手腕", "腰间短腰带一端垂在胯侧"],
+      "colorways": [
+        {"key": "black-red", "name": {"zh": "黑·暗红", "ja": "黒・暗赤", "en": "Black & Dark Red", "ko": "검정·암적색"}, "bg": "light", "vars": {"main": "charcoal black", "sash": "dark red"}},
+        {"key": "slate-grey", "name": {"zh": "青灰·灰", "ja": "藍鼠・灰", "en": "Slate Blue & Grey", "ko": "청회색·회색"}, "bg": "light", "vars": {"main": "dark slate blue", "sash": "ash grey"}}
+      ]
+    },
+    {
+      "key": "bard", "era": "bard", "gender": "M", "lower": "shoes",
+      "name": {"zh": "吟游诗人", "ja": "吟遊詩人", "en": "Bard", "ko": "음유시인"},
+      "desc": "an original fantasy bard's outfit: a fitted {doublet} velvet doublet ending at the hip with a high standing collar and a row of small brass buttons, full puffed upper sleeves slashed to show {lining} silk beneath and tapering to tight forearms, white linen shirt collar and cuffs showing at the neck and wrist; a short {cape} wool half-cape hanging from the left shoulder only (image-right) down to the waist, held by a cord across the chest; slim {legs} trousers and soft ankle boots with folded cuffs",
+      "keep": "{doublet} hip-length doublet with standing collar and brass buttons, puffed slashed upper sleeves showing {lining}, white shirt collar and cuffs, {cape} half-cape on the left shoulder only, {legs} trousers, folded ankle boots",
+      "checks": ["鼓起的开衩上袖露出里衬", "单肩短披风（只在左肩）", "立领短上衣一排铜扣", "露出白衬衫领和袖口"],
+      "colorways": [
+        {"key": "teal-mustard", "name": {"zh": "青绿·芥黄", "ja": "ティール・マスタード", "en": "Teal & Mustard", "ko": "청록·머스터드"}, "bg": "light", "vars": {"doublet": "teal", "lining": "mustard", "cape": "mustard", "legs": "dark brown"}},
+        {"key": "wine-green", "name": {"zh": "酒红·森绿", "ja": "ワイン・森緑", "en": "Wine & Forest", "ko": "와인·숲 녹색"}, "bg": "light", "vars": {"doublet": "wine red", "lining": "cream", "cape": "forest green", "legs": "black"}}
+      ]
+    },
+    {
+      "key": "pirate-captain", "era": "pirate", "gender": "F", "lower": "shoes",
+      "name": {"zh": "海盗船长", "ja": "海賊船長", "en": "Pirate Captain", "ko": "해적 선장"},
+      "desc": "an original fantasy women's pirate captain outfit: a long {coat} wool coat reaching the calf, worn open, with wide turned-back cuffs, large flapped pockets and brass buttons; under it a {vest} waistcoat buttoned to the natural waist over a loose white linen shirt with a soft ruffle at the neck; a wide {sash} silk sash knotted at the left hip (image-right) with long fringed ends; full {legs} trousers tucked into tall boots with folded-down cuffs",
+      "keep": "open {coat} calf-length coat with wide cuffs and brass buttons, {vest} waistcoat, white ruffle-neck shirt, {sash} sash knotted at the left hip, {legs} trousers in cuffed tall boots",
+      "checks": ["及小腿的敞开长外套、宽翻袖口", "马甲＋白色荷叶领衬衫", "胯侧打结的流苏宽腰巾", "翻口长靴"],
+      "colorways": [
+        {"key": "oxblood", "name": {"zh": "牛血红·金", "ja": "オックスブラッド・金", "en": "Oxblood & Gold", "ko": "옥스블러드·금"}, "bg": "light", "vars": {"coat": "oxblood", "vest": "black", "sash": "gold", "legs": "brown"}},
+        {"key": "navy", "name": {"zh": "藏青·赤红", "ja": "紺・赤", "en": "Navy & Crimson", "ko": "남색·진홍"}, "bg": "light", "vars": {"coat": "dark navy", "vest": "rust", "sash": "crimson", "legs": "black"}}
+      ]
+    },
+    {
+      "key": "cyberpunk-street", "era": "cyberpunk", "gender": "U", "lower": "shoes",
+      "name": {"zh": "赛博朋克街头装", "ja": "サイバーパンクのストリート服", "en": "Cyberpunk Streetwear", "ko": "사이버펑크 스트리트웨어"},
+      "desc": "an original near-future cyberpunk street outfit in matte technical fabrics: a boxy hip-length {jacket} nylon jacket with a tall funnel collar, an asymmetric zip running diagonally from the wearer's left collar (image-right) to the right hem (image-left), taped seams outlined with thin {accent} piping and strap-and-buckle tabs on the sleeves; a fitted {base} high-neck base layer; a two-strap black webbing chest harness; loose tapered {legs} cargo trousers with knee panels and several strapped pockets; chunky black high-top boots with thick soles; no lights, no glowing parts",
+      "keep": "{jacket} boxy jacket with funnel collar, diagonal asymmetric zip and {accent} piping, {base} high-neck base layer, black chest harness, {legs} tapered cargo trousers, thick-soled black high-tops",
+      "checks": ["斜向不对称拉链外套＋高漏斗领", "胸前两带式背带", "多口袋收脚工装裤", "厚底高帮靴、无发光部件"],
+      "colorways": [
+        {"key": "black-acid", "name": {"zh": "黑·荧黄", "ja": "黒・アシッドイエロー", "en": "Black & Acid Yellow", "ko": "검정·애시드 옐로"}, "bg": "light", "vars": {"jacket": "matte black", "accent": "acid yellow", "base": "dark grey", "legs": "black"}},
+        {"key": "gunmetal-cyan", "name": {"zh": "枪灰·青", "ja": "ガンメタル・シアン", "en": "Gunmetal & Cyan", "ko": "건메탈·시안"}, "bg": "light", "vars": {"jacket": "gunmetal grey", "accent": "cyan", "base": "black", "legs": "charcoal"}}
+      ]
+    },
+    {
+      "key": "steampunk-explorer", "era": "steampunk", "gender": "F", "lower": "shoes",
+      "name": {"zh": "蒸汽朋克探险家", "ja": "スチームパンクの探検家", "en": "Steampunk Explorer", "ko": "스팀펑크 탐험가"},
+      "desc": "an original steampunk women's explorer outfit: a long-sleeved {blouse} cotton blouse with a high standing collar and a ruffled front; over it a {cincher} leather waist-cincher worn outside the blouse, sitting from the under-bust line to the hip and laced at the front through brass eyelets; a cropped {jacket} wool jacket ending at the waist with brass buttons and short tails at the back; a {skirt} wool skirt hitched up at the front to knee height and falling to the ankle at the back; a narrow leather belt with small brass-buckled pouches; brown leather lace-up knee boots",
+      "keep": "{blouse} high-collared ruffled blouse, {cincher} front-laced waist-cincher with brass eyelets, cropped {jacket} jacket with back tails, {skirt} skirt short at the front and ankle-length at the back, pouch belt, laced knee boots",
+      "checks": ["高领荷叶边衬衫", "外穿前系带皮腰封、铜扣眼", "前短后长的提起裙", "系带长靴"],
+      "colorways": [
+        {"key": "burgundy-brown", "name": {"zh": "酒红·棕", "ja": "ワイン・茶", "en": "Burgundy & Brown", "ko": "버건디·갈색"}, "bg": "light", "vars": {"blouse": "ivory", "cincher": "dark brown", "jacket": "burgundy", "skirt": "burgundy"}}
+      ]
+    },
+    {
+      "key": "steampunk-engineer", "era": "steampunk", "gender": "M", "lower": "shoes",
+      "name": {"zh": "蒸汽朋克工程师", "ja": "スチームパンクの技師", "en": "Steampunk Engineer", "ko": "스팀펑크 엔지니어"},
+      "desc": "an original steampunk men's engineer outfit: a knee-length double-breasted {coat} wool frock coat with a high stand collar and two rows of brass buttons; a {vest} pinstripe waistcoat over a white shirt with a band collar; a chest harness of narrow brown leather straps with small brass buckles worn over the waistcoat; {legs} trousers tucked into tall brown leather lace-up boots",
+      "keep": "{coat} knee-length double-breasted coat with stand collar and brass buttons, {vest} pinstripe waistcoat, white band-collar shirt, brown strap harness with brass buckles, {legs} trousers in laced tall boots",
+      "checks": ["双排铜扣及膝外套、立领", "细条纹马甲", "胸前细皮带背带、铜扣", "裤管塞进系带长靴"],
+      "colorways": [
+        {"key": "green-copper", "name": {"zh": "瓶绿·铜棕", "ja": "ボトルグリーン・銅", "en": "Bottle Green & Copper", "ko": "병녹색·구리"}, "bg": "light", "vars": {"coat": "bottle green", "vest": "copper-brown", "legs": "charcoal"}}
+      ]
+    },
+    {
+      "key": "wasteland-scavenger", "era": "wasteland", "gender": "U", "lower": "shoes",
+      "name": {"zh": "废土拾荒者", "ja": "荒野のスカベンジャー", "en": "Wasteland Scavenger", "ko": "황무지 스캐빈저"},
+      "desc": "an original post-apocalyptic wasteland scavenger outfit with a dusty, sun-bleached, worn look: an ankle-length {coat} canvas duster coat worn open, patched with mismatched squares of fabric and leather, with a frayed hem; a {scarf} cotton scarf wrapped loosely around the neck; a single left shoulder guard (image-right) improvised from layered leather and a riveted metal sheet, strapped across the chest; a faded {shirt} shirt; {legs} cargo trousers with patched knees, bound at the shin with cloth wraps; scuffed lace-up work boots",
+      "keep": "open {coat} patched duster to the ankle, {scarf} neck scarf, single left shoulder guard of leather and riveted metal, {shirt} shirt, {legs} patched cargo trousers with shin wraps, scuffed work boots",
+      "checks": ["补丁拼缀的及踝风衣", "颈部缠绕的围巾", "单侧（左肩）皮＋铁皮护肩", "小腿缠布＋旧工装靴"],
+      "colorways": [
+        {"key": "sand-rust", "name": {"zh": "沙土·铁锈", "ja": "サンド・ラスト", "en": "Sand & Rust", "ko": "모래색·녹슨 빨강"}, "bg": "light", "vars": {"coat": "sand-khaki", "scarf": "rust-red", "shirt": "olive", "legs": "dusty brown"}},
+        {"key": "olive-ochre", "name": {"zh": "橄榄·赭黄", "ja": "オリーブ・オーカー", "en": "Olive & Ochre", "ko": "올리브·황토"}, "bg": "light", "vars": {"coat": "faded olive", "scarf": "grey", "shirt": "ochre", "legs": "grey-black"}}
+      ]
+    },
+    {
+      "key": "starship-crew", "era": "space", "gender": "F", "lower": "shoes",
+      "name": {"zh": "星舰乘员制服", "ja": "宇宙船クルーの制服", "en": "Starship Crew Uniform", "ko": "우주선 승무원 제복"},
+      "desc": "an original science-fiction starship crew uniform: a fitted one-piece {main} jumpsuit with a high mandarin collar, an off-centre vertical zip running from the collar to the waist on the wearer's left side (image-right), smooth moulded shoulder panels in {panel}, a seamed {panel} contrast stripe down the outside of each sleeve and each leg, a slim utility belt with flat pouches at the natural waist, and close-fitting {panel} flight boots to mid-calf; no insignia, no badges, no rank marks",
+      "keep": "{main} one-piece jumpsuit, mandarin collar, off-centre zip on the wearer's left, {panel} shoulder panels and side stripes, slim pouch belt, {panel} mid-calf boots, no insignia",
+      "checks": ["高立领连体服", "偏中线竖拉链在穿者左侧", "肩部和袖腿外侧拼色", "无任何徽章"],
+      "colorways": [
+        {"key": "graphite", "name": {"zh": "石墨·白", "ja": "グラファイト・白", "en": "Graphite & White", "ko": "그래파이트·흰색"}, "bg": "light", "vars": {"main": "graphite grey", "panel": "white"}},
+        {"key": "teal", "name": {"zh": "深青·浅灰", "ja": "深青・薄灰", "en": "Teal & Pale Grey", "ko": "짙은 청록·연회색"}, "bg": "light", "vars": {"main": "deep teal", "panel": "pale grey"}}
+      ]
+    },
+    {
+      "key": "mecha-pilot", "era": "mecha-pilot", "gender": "U", "lower": "shoes",
+      "name": {"zh": "机甲驾驶服", "ja": "メカパイロットスーツ", "en": "Mecha Pilot Suit", "ko": "메카 파일럿 슈트"},
+      "desc": "an original mecha pilot's suit: a padded one-piece {main} flight suit, close-fitting but not skintight, with quilted ribbed panels at the elbows, knees and waist; a rigid {shell} chest unit moulded as one hard shell with no folds, covering the chest and upper back like a short vest, with two small round connector sockets on its front; a five-point {strap} webbing harness crossing the chest and hips; reinforced {shell} shin guards and thick-soled boots built into the legs; no helmet",
+      "keep": "padded {main} one-piece suit, ribbed quilting at elbows, knees and waist, rigid {shell} chest shell with two sockets, {strap} five-point harness, {shell} shin guards, integrated boots",
+      "checks": ["胸部一体硬壳无褶", "肘、膝、腰部罗纹绗缝", "五点式安全带交叉胸胯", "护胫＋一体靴"],
+      "colorways": [
+        {"key": "navy-orange", "name": {"zh": "藏青·橙", "ja": "紺・オレンジ", "en": "Navy & Orange", "ko": "남색·주황"}, "bg": "light", "vars": {"main": "navy", "shell": "white", "strap": "orange"}},
+        {"key": "charcoal-olive", "name": {"zh": "炭灰·橄榄", "ja": "チャコール・オリーブ", "en": "Charcoal & Olive", "ko": "차콜·올리브"}, "bg": "light", "vars": {"main": "charcoal", "shell": "olive drab", "strap": "yellow"}}
+      ]
+    },
+    {
+      "key": "xianxia-gauze", "era": "xianxia", "gender": "F", "lower": "hem",
+      "name": {"zh": "仙侠纱衣", "ja": "仙侠の紗衣", "en": "Xianxia Gauze Robe", "ko": "선협 사의"},
+      "desc": "an original xianxia fantasy women's ensemble: a {inner} silk inner robe with a cross collar closing right-over-left (the wearer's left panel lies on top and its edge runs from the neck diagonally down toward image-left, fastening under the arm on image-left); a long pleated {skirt} skirt reaching the floor; a wide {belt} brocade sash at the natural waist with two long ribbons hanging straight down; and an outermost open-front sheer {outer} organza robe with very wide sleeves falling below the knee and a short trailing hem, its edges bordered with {belt} cloud embroidery, the sheer layer showing the colours beneath",
+      "keep": "{inner} inner robe with right-over-left cross collar, {skirt} floor-length pleated skirt, {belt} sash at the natural waist with two straight ribbons, open sheer {outer} outer robe with very wide sleeves and {belt} cloud-embroidered edges",
+      "checks": ["最外层薄纱大袖开襟袍", "交领右衽（交叠边斜向画面左侧）", "宽腰封＋两条垂直飘带", "长裙曳地"],
+      "colorways": [
+        {"key": "ice-blue", "name": {"zh": "冰蓝", "ja": "氷青", "en": "Ice Blue", "ko": "아이스 블루"}, "bg": "dark", "vars": {"inner": "white", "skirt": "ice blue", "belt": "silver", "outer": "pale blue"}},
+        {"key": "rose", "name": {"zh": "海棠", "ja": "海棠", "en": "Begonia Rose", "ko": "해당화"}, "bg": "light", "vars": {"inner": "light pink", "skirt": "rose", "belt": "gold", "outer": "rose-pink"}}
+      ]
+    },
+    {
+      "key": "xianxia-daoist", "era": "xianxia", "gender": "M", "lower": "hem",
+      "name": {"zh": "仙侠道袍", "ja": "仙侠の道袍", "en": "Xianxia Daoist Robe", "ko": "선협 도포"},
+      "desc": "an original xianxia fantasy men's Daoist-style robe: a floor-length {main} robe with a cross collar closing right-over-left (the wearer's left panel lies on top and its edge runs from the neck diagonally down toward image-left, fastening under the arm on image-left), a broad {collar} collar band, very wide square-cut sleeves hanging to the hip; over it a sleeveless open-front {over} over-robe of the same length; a wide {collar} fabric belt at the natural waist with a jade disc pendant hanging on a tasselled cord; a band of {emb} mountain-and-cloud embroidery along the hem of the robe",
+      "keep": "{main} floor-length robe with right-over-left cross collar and broad {collar} collar band, very wide square sleeves, sleeveless open {over} over-robe, {collar} belt with jade pendant, {emb} mountain-and-cloud hem band",
+      "checks": ["交领右衽、宽领缘", "方形大袖垂到胯", "无袖开襟长外罩", "腰带挂玉佩流苏"],
+      "colorways": [
+        {"key": "white-ink", "name": {"zh": "月白·墨", "ja": "月白・墨", "en": "Moon White & Ink", "ko": "월백·먹"}, "bg": "dark", "vars": {"main": "white", "collar": "black", "over": "pale grey", "emb": "ink-grey"}},
+        {"key": "indigo", "name": {"zh": "靛青·银", "ja": "藍・銀", "en": "Indigo & Silver", "ko": "남빛·은"}, "bg": "light", "vars": {"main": "indigo", "collar": "black", "over": "slate blue", "emb": "silver"}}
+      ]
+    },
+    {
+      "key": "wuxia-fitted", "era": "wuxia", "gender": "M", "lower": "shoes",
+      "name": {"zh": "武侠劲装", "ja": "武侠の勁装", "en": "Wuxia Fitted Outfit", "ko": "무협 경장"},
+      "desc": "an original wuxia martial artist's fitted outfit: a thigh-length {main} cotton tunic with a cross collar closing right-over-left (the wearer's left panel lies on top and its edge runs from the neck diagonally down toward image-left, fastening under the arm on image-left), narrow sleeves held in {bracer} leather bracers laced from the wrist to the elbow, side slits from the hip to the hem; a wide {belt} cloth belt wrapped tightly at the natural waist with a narrow leather strap over it; loose {main} trousers tucked into tall soft black cloth boots bound at the calf",
+      "keep": "{main} thigh-length tunic with right-over-left cross collar and side slits, {bracer} laced bracers wrist to elbow, tight {belt} waist belt with leather strap, {main} trousers in black cloth boots",
+      "checks": ["交领右衽窄袖短袍、两侧开衩", "皮护腕从腕绑到肘", "宽腰带紧束在腰", "裤腿收进软长靴"],
+      "colorways": [
+        {"key": "black-red", "name": {"zh": "玄黑·朱", "ja": "黒・朱", "en": "Black & Vermilion", "ko": "검정·주홍"}, "bg": "light", "vars": {"main": "black", "belt": "vermilion", "bracer": "dark brown"}},
+        {"key": "blue-white", "name": {"zh": "青蓝·白", "ja": "青・白", "en": "Slate Blue & White", "ko": "청색·흰색"}, "bg": "light", "vars": {"main": "slate blue", "belt": "white", "bracer": "black"}}
+      ]
+    },
+    {
+      "key": "witch-dress", "era": "witch", "gender": "F", "lower": "shoes",
+      "name": {"zh": "魔女", "ja": "魔女", "en": "Witch", "ko": "마녀"},
+      "desc": "an original fantasy witch's dress with no hat: an ankle-length long-sleeved {dress} wool dress with a fitted bodice laced up the centre front and a high round neckline, sleeves widening into bell cuffs at the wrist; a short {cape} shoulder capelet with a scalloped edge; a {apron} linen apron tied at the natural waist with two deep front pockets; a narrow belt with small cloth pouches; pointed-toe lace-up ankle boots",
+      "keep": "{dress} ankle-length dress with front-laced bodice and bell cuffs, {cape} scalloped capelet, {apron} apron with two pockets at the natural waist, pouch belt, pointed lace-up ankle boots",
+      "checks": ["前中系带合身连衣裙", "喇叭袖口", "扇贝边短披肩", "腰系带两口袋围裙"],
+      "colorways": [
+        {"key": "black-purple", "name": {"zh": "黑·深紫", "ja": "黒・深紫", "en": "Black & Purple", "ko": "검정·진보라"}, "bg": "light", "vars": {"dress": "black", "cape": "deep purple", "apron": "oatmeal"}},
+        {"key": "green-rose", "name": {"zh": "森绿·旧玫瑰", "ja": "森緑・オールドローズ", "en": "Forest & Old Rose", "ko": "숲 녹색·올드 로즈"}, "bg": "light", "vars": {"dress": "forest green", "cape": "dark brown", "apron": "faded rose"}}
+      ]
+    },
+    {
+      "key": "gothic-noblewoman", "era": "gothic", "gender": "F", "lower": "hem",
+      "name": {"zh": "哥特贵妇", "ja": "ゴシックの貴婦人", "en": "Gothic Noblewoman", "ko": "고딕 귀부인"},
+      "desc": "an original gothic-fantasy noblewoman's gown: a floor-length {main} velvet gown with a high neckline and a tall stiff black lace collar that fans up behind the neck; long fitted sleeves ending in pointed cuffs at the wrist; a {over} damask overbodice worn on top from the bust to the hip, laced at the centre front; the skirt split at the front from the waist to show an {under} underskirt; a short train",
+      "keep": "{main} velvet gown, tall fan-shaped lace collar behind the neck, long sleeves with pointed wrist cuffs, front-laced {over} damask overbodice, front split showing {under} underskirt, short train",
+      "checks": ["颈后扇形高立领", "外穿前系带锦缎胸衣", "裙前开衩露出衬裙", "尖袖口长袖"],
+      "colorways": [
+        {"key": "black-oxblood", "name": {"zh": "黑·牛血红", "ja": "黒・オックスブラッド", "en": "Black & Oxblood", "ko": "검정·옥스블러드"}, "bg": "light", "vars": {"main": "black", "over": "black-and-oxblood", "under": "oxblood"}}
+      ]
+    },
+    {
+      "key": "gothic-nobleman", "era": "gothic", "gender": "M", "lower": "shoes",
+      "name": {"zh": "哥特贵族", "ja": "ゴシックの貴公子", "en": "Gothic Nobleman", "ko": "고딕 귀족"},
+      "desc": "an original gothic-fantasy nobleman's outfit with no cape: a mid-calf {coat} wool frock coat fitted to the waist and flaring open below it, a tall stand collar, deep turned-back cuffs and silver clasps instead of buttons; a {vest} damask waistcoat; a white shirt with a cascading white jabot at the throat; slim black trousers and knee-high black riding boots",
+      "keep": "{coat} mid-calf frock coat with stand collar, turned-back cuffs and silver clasps, {vest} damask waistcoat, white jabot, black trousers, knee-high black boots",
+      "checks": ["及小腿收腰长外套、高立领", "银色搭扣代替纽扣", "白色层叠领巾", "及膝黑长靴、无披风"],
+      "colorways": [
+        {"key": "black-crimson", "name": {"zh": "黑·深红", "ja": "黒・深紅", "en": "Black & Crimson", "ko": "검정·진홍"}, "bg": "light", "vars": {"coat": "black", "vest": "deep crimson"}}
+      ]
+    },
+    {
+      "key": "northern-warrior", "era": "northern", "gender": "M", "lower": "shoes",
+      "name": {"zh": "北地战士", "ja": "北方の戦士", "en": "Northern Warrior", "ko": "북방 전사"},
+      "desc": "an original fantasy northern warrior's outfit: a thigh-length long-sleeved {tunic} wool tunic with a {border} woven geometric border at the collar, cuffs and hem; a thick {fur} fur mantle lying across both shoulders, fastened at the centre of the chest by a round bronze brooch; a wide leather belt at the natural waist; leather vambraces ending at the wrist; loose {legs} trousers cross-gartered with leather strips from the ankle to the knee; fur-trimmed leather boots",
+      "keep": "{tunic} thigh-length tunic with {border} woven border, {fur} fur mantle on both shoulders with round bronze brooch, wide belt, leather vambraces, {legs} cross-gartered trousers, fur-trimmed boots",
+      "checks": ["双肩厚毛皮披肩、胸前圆扣", "长衫领口袖口下摆织带饰边", "宽皮腰带＋护臂", "小腿交叉绑带＋毛边靴"],
+      "colorways": [
+        {"key": "rust-wolf", "name": {"zh": "铁锈红·灰毛", "ja": "ラスト・灰毛皮", "en": "Rust & Grey Fur", "ko": "녹슨 빨강·회색 모피"}, "bg": "light", "vars": {"tunic": "rust red", "border": "ochre-and-black", "fur": "grey", "legs": "brown"}},
+        {"key": "slate-bear", "name": {"zh": "石板蓝·棕毛", "ja": "スレートブルー・茶毛皮", "en": "Slate & Brown Fur", "ko": "슬레이트 블루·갈색 모피"}, "bg": "light", "vars": {"tunic": "slate blue", "border": "white-and-red", "fur": "dark brown", "legs": "grey"}}
+      ]
+    },
+    {
+      "key": "celestial-gown", "era": "angel-demon", "gender": "F", "lower": "hem",
+      "name": {"zh": "天使风长裙", "ja": "天使風ドレス", "en": "Celestial Gown", "ko": "천사풍 드레스"},
+      "desc": "an original celestial-themed gown with no wings and no halo: a floor-length {main} silk gown with soft vertical pleats falling from a high round neckline to a short train; a structured {metal} metal collar piece of overlapping feather-shaped plates resting on the shoulders and upper chest; long sleeves split open from the shoulder to the wrist and held together at intervals by small {metal} clasps; a narrow belt of linked {metal} plates at the natural waist",
+      "keep": "{main} pleated floor-length gown with short train, {metal} feather-plate collar piece on the shoulders, split sleeves joined by {metal} clasps, {metal} linked-plate belt at the natural waist, no wings, no halo",
+      "checks": ["无翅膀、无光环", "肩胸羽片形金属披领", "开缝长袖以小扣相连", "腰间链片细腰带"],
+      "colorways": [
+        {"key": "white-gold", "name": {"zh": "白·金", "ja": "白・金", "en": "White & Gold", "ko": "흰색·금"}, "bg": "dark", "vars": {"main": "white", "metal": "gold"}}
+      ]
+    },
+    {
+      "key": "infernal-noble", "era": "angel-demon", "gender": "M", "lower": "shoes",
+      "name": {"zh": "恶魔风贵族装", "ja": "悪魔風の貴族服", "en": "Infernal Noble", "ko": "악마풍 귀족 의상"},
+      "desc": "an original infernal-themed noble outfit with no wings and no horns on any head: an ankle-length {coat} leather coat with a tall stiff standing collar; sculpted {metal} metal shoulder plates whose outer edges sweep back into curved horn-like ridges, each a rigid riveted piece strapped over the coat; a fitted {vest} waistcoat; a wide belt with a heavy {metal} buckle at the natural waist; slim black trousers and black knee boots with {metal} toe caps",
+      "keep": "{coat} ankle-length leather coat with tall stiff collar, {metal} horn-ridged shoulder plates, {vest} waistcoat, wide belt with heavy {metal} buckle, black trousers, knee boots with {metal} toe caps",
+      "checks": ["无翅膀", "高硬立领及踝长皮衣", "肩部向后弯的角状金属护肩", "厚金属扣宽腰带"],
+      "colorways": [
+        {"key": "black-bronze", "name": {"zh": "黑·暗铜", "ja": "黒・暗銅", "en": "Black & Dark Bronze", "ko": "검정·암동색"}, "bg": "light", "vars": {"coat": "black", "metal": "dark bronze", "vest": "deep red"}}
+      ]
+    }
+  ],
+  "eras": {
+    "knight": {"zh": "骑士", "ja": "騎士", "en": "Knight", "ko": "기사"},
+    "ranger": {"zh": "游侠", "ja": "レンジャー", "en": "Ranger", "ko": "레인저"},
+    "mage": {"zh": "法师", "ja": "魔導士", "en": "Mage", "ko": "마법사"},
+    "elf": {"zh": "精灵", "ja": "エルフ", "en": "Elf", "ko": "엘프"},
+    "assassin": {"zh": "刺客", "ja": "アサシン", "en": "Assassin", "ko": "어쌔신"},
+    "bard": {"zh": "吟游诗人", "ja": "吟遊詩人", "en": "Bard", "ko": "음유시인"},
+    "pirate": {"zh": "海盗", "ja": "海賊", "en": "Pirate", "ko": "해적"},
+    "cyberpunk": {"zh": "赛博朋克", "ja": "サイバーパンク", "en": "Cyberpunk", "ko": "사이버펑크"},
+    "steampunk": {"zh": "蒸汽朋克", "ja": "スチームパンク", "en": "Steampunk", "ko": "스팀펑크"},
+    "wasteland": {"zh": "废土", "ja": "荒野", "en": "Wasteland", "ko": "황무지"},
+    "space": {"zh": "太空", "ja": "宇宙", "en": "Space", "ko": "우주"},
+    "mecha-pilot": {"zh": "机甲驾驶员", "ja": "メカパイロット", "en": "Mecha Pilot", "ko": "메카 파일럿"},
+    "xianxia": {"zh": "仙侠", "ja": "仙侠", "en": "Xianxia", "ko": "선협"},
+    "wuxia": {"zh": "武侠", "ja": "武侠", "en": "Wuxia", "ko": "무협"},
+    "witch": {"zh": "魔女", "ja": "魔女", "en": "Witch", "ko": "마녀"},
+    "gothic": {"zh": "哥特", "ja": "ゴシック", "en": "Gothic", "ko": "고딕"},
+    "northern": {"zh": "北地", "ja": "北方", "en": "Northern", "ko": "북방"},
+    "angel-demon": {"zh": "天使与恶魔", "ja": "天使と悪魔", "en": "Angel & Demon", "ko": "천사와 악마"}
+  }
+}

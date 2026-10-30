@@ -3,9 +3,11 @@
 
 Usage: python3 -I tools/costume_brief.py HC ~/Downloads/costume-HC-run01 [--only C001,C002] [--gate 10]
 Writes OUT/brief.md and OUT/manifest.json. Items that already have all four views are skipped, so a re-run
-after intake produces the brief for what is still missing.
+after intake produces the brief for what is still missing. With --src (the costume source set), an item whose front
+passed only gets its missing views, with its passing views copied to OUT/refs/ as references; an item that needs a
+new front and has a `struct_ref` gets that item's passed front copied as a structure reference.
 """
-import argparse, json, pathlib
+import argparse, json, pathlib, shutil
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 VIEWS = ("front", "back", "side", "diag")  # generation order: each later view uses the earlier ones as references
@@ -47,6 +49,7 @@ def main() -> None:
     ap.add_argument("out")
     ap.add_argument("--only", default="")
     ap.add_argument("--gate", type=int, default=10)
+    ap.add_argument("--src", default="")
     a = ap.parse_args()
     cats = json.loads((ROOT / "data/costume-src/_categories.json").read_text())
     c = cats[a.cat]
@@ -57,11 +60,19 @@ def main() -> None:
     out = pathlib.Path(a.out).expanduser()
     out.mkdir(parents=True, exist_ok=True)
     run = out.name
+    src = pathlib.Path(a.src).expanduser() if a.src else None
+    by_key = {i["key"]: i for i in json.loads((ROOT / "data/costumes.json").read_text())["items"]}
+    need = {i["id"]: [v for v in VIEWS if not i["views"].get(v)] for i in items}
+    if not src:  # without the source set there are no reference images, so every item is redone whole
+        need = {k: list(VIEWS) for k in need}
+    n_img = sum(len(v) for v in need.values())
 
     L = [f"# shisei 服装库 · {c['name']['zh']}（{a.cat}）· {run}",
          "",
-         f"这是 shisei 服装库的正式生产，共 {len(items)} 件，每件 4 个视角（正面、背面、侧面、斜侧），"
-         f"共 {len(items) * 4} 张。规格和上两轮试验（costume-pilot01、costume-probe01）一样，下面每件的提示词已经拼好，照抄即可。",
+         f"这是 shisei 服装库的正式生产，共 {len(items)} 件、{n_img} 张（视角：正面、背面、侧面、斜侧）。"
+         "规格和上两轮试验（costume-pilot01、costume-probe01）一样，下面每件的字段已经给好，照模板拼即可。"
+         "标了“只补”的件正面已经入库，只做列出的视角，参考图在附件 refs/ 里（文件名 <ID>_<view>.png），"
+         "转视角模板里的 image 1 / image 2 换成这些附件。",
          "",
          "## 规则",
          "1. 一次一张图。每件的顺序固定：正面 → 背面（参考正面）→ 侧面（参考正面 + 背面）→ 斜侧（参考正面 + 侧面）。",
@@ -101,9 +112,25 @@ def main() -> None:
          "",
          f"## {len(items)} 件"]
     zh = {"F": "女", "M": "男", "U": "中性"}
+    if src:
+        (out / "refs").mkdir(exist_ok=True)
     for i in items:
         era = f"{i['era_zh']} · " if i.get("era_zh") else ""
-        L += ["", f"### {i['id']} {era}{i['name_zh']}",
+        todo, extra = need[i["id"]], []
+        if src and "front" not in todo:
+            refs = [v for v in VIEWS if v not in todo]
+            for v in refs:
+                shutil.copy(src / "raw" / f"{i['id']}_{v}.png", out / "refs" / f"{i['id']}_{v}.png")
+            names = ", ".join(i["id"] + "_" + v + ".png" for v in refs)
+            extra.append(f"只补：{' / '.join(todo)}；参考附件：{names}")
+        elif src and i.get("struct_ref") and by_key.get(i["struct_ref"], {}).get("views", {}).get("front"):
+            ref = by_key[i["struct_ref"]]["id"]
+            shutil.copy(src / "raw" / f"{ref}_front.png", out / "refs" / f"{i['id']}_struct.png")
+            extra.append(f"上一轮正面 3 次都没画对位置。正面改用附件 {i['id']}_struct.png 作 image 2，在正面提示词后加："
+                         "\"Image 2 is a different garment that shows the correct construction: put the skirt top / waistline at "
+                         "exactly the same height on the body as in image 2. Copy only that height, not its colours, pattern "
+                         "or garments.\"")
+        L += ["", f"### {i['id']} {era}{i['name_zh']}", *extra,
               f"form = {zh[i['gender']]}；lower = {'到鞋' if i['lower'] == 'shoes' else '到下摆'}；"
               f"bg = {'中灰' if i['bg'] == 'dark' else '浅灰'}",
               f"desc：{i['desc_en']}",
@@ -111,8 +138,8 @@ def main() -> None:
               "要点：" + " ".join(f"{'①②③④⑤⑥'[k]} {t}" for k, t in enumerate(i["checks"]))]
     (out / "brief.md").write_text("\n".join(L) + "\n")
     (out / "manifest.json").write_text(json.dumps(
-        {"run": run, "cat": a.cat, "ids": [i["id"] for i in items], "views": list(VIEWS)}, indent=1) + "\n")
-    print(f"{out / 'brief.md'}: {len(items)} items, {len(chr(10).join(L))} chars")
+        {"run": run, "cat": a.cat, "need": need}, indent=1) + "\n")
+    print(f"{out / 'brief.md'}: {len(items)} items, {n_img} images, {len(chr(10).join(L))} chars")
 
 
 if __name__ == "__main__":

@@ -58,6 +58,10 @@ def main() -> None:
                     "id": cid, "key": key, "cat": cat, "form": form["key"], "era": form.get("era"),
                     "gender": form["gender"], "rating": form.get("rating", "general"),
                     "bg": cw.get("bg", "light"), "lower": form.get("lower", "hem"),
+                    **({"season": cw["season"]} if cw.get("season") else {}),
+                    # another item whose passed front shows this form's structure (skirt height etc.), used as a
+                    # reference image when the text alone keeps drifting (PLAN §11)
+                    **({"struct_ref": form["struct_ref"]} if form.get("struct_ref") else {}),
                     **{f"name_{l}": f"{form['name'][l]}（{cw['name'][l]}）" if l in ("zh", "ja")
                        else f"{form['name'][l]} ({cw['name'][l]})" for l in LANGS},
                     **{f"era_{l}": era.get(l) for l in LANGS if era},

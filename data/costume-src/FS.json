@@ -1,0 +1,163 @@
+{
+  "cat": "FS",
+  "note": "Festive and party set. Garments only: no masks, no hats, no wands, whips or other props, no religious symbols; Halloween items are party clothes, distinct from the FN fantasy costumes (PLAN §4.9).",
+  "forms": [
+    {
+      "key": "cny-jacket-f", "era": "spring-festival", "gender": "F", "lower": "hem",
+      "name": {"zh": "春节新装（女）", "ja": "春節の晴れ着（女性）", "en": "Women's Spring Festival Outfit", "ko": "춘절 설빔 (여)"},
+      "desc": "a modern women's Spring Festival outfit: a hip-length {jacket} quilted satin jacket with a mandarin standing collar, a straight centre-front opening fastened by five {knot} pankou frog buttons, long sleeves and a subtle tone-on-tone {motif} jacquard pattern, over a straight {skirt} wool midi skirt reaching mid-calf",
+      "keep": "hip-length {jacket} quilted satin jacket, mandarin collar, five {knot} frog buttons down the centre front, tone-on-tone {motif} jacquard, {skirt} straight midi skirt",
+      "checks": ["立领及胯短袄", "正中一排五对盘扣", "绗缝缎面带暗纹", "直筒中长裙到小腿"],
+      "colorways": [
+        {"key": "red-gold", "name": {"zh": "中国红·金扣", "ja": "紅・金ボタン", "en": "Red & Gold", "ko": "홍색·금단추"}, "bg": "light", "vars": {"jacket": "Chinese red", "knot": "gold", "motif": "plum blossom", "skirt": "black"}},
+        {"key": "crimson-black", "name": {"zh": "绛红·黑", "ja": "深紅・黒", "en": "Crimson & Black", "ko": "진홍·검정"}, "bg": "light", "vars": {"jacket": "deep crimson", "knot": "black", "motif": "cloud scroll", "skirt": "charcoal grey"}}
+      ]
+    },
+    {
+      "key": "cny-jacket-m", "era": "spring-festival", "gender": "M", "lower": "shoes",
+      "name": {"zh": "春节新装（男）", "ja": "春節の晴れ着（男性）", "en": "Men's Spring Festival Outfit", "ko": "춘절 설빔 (남)"},
+      "desc": "a modern men's Spring Festival outfit: a hip-length {jacket} silk tang jacket with a mandarin standing collar, a straight centre-front opening with seven {knot} pankou frog buttons, long cuffed sleeves and a tone-on-tone {motif} jacquard pattern, over straight {trousers} trousers, with black cloth shoes",
+      "keep": "hip-length {jacket} tang jacket, mandarin collar, seven {knot} frog buttons down the centre front, tone-on-tone {motif} jacquard, straight {trousers} trousers, black cloth shoes",
+      "checks": ["立领对襟唐装", "正中一排七对盘扣", "暗纹提花面料", "直筒长裤、黑布鞋"],
+      "colorways": [
+        {"key": "red-black", "name": {"zh": "中国红·黑裤", "ja": "紅・黒", "en": "Red & Black", "ko": "홍색·검정"}, "bg": "light", "vars": {"jacket": "Chinese red", "knot": "red", "motif": "round longevity medallion", "trousers": "black"}},
+        {"key": "burgundy-navy", "name": {"zh": "酒红·藏青", "ja": "ワインレッド・紺", "en": "Burgundy & Navy", "ko": "와인색·감색"}, "bg": "light", "vars": {"jacket": "burgundy", "knot": "gold", "motif": "cloud scroll", "trousers": "navy"}}
+      ]
+    },
+    {
+      "key": "xmas-velvet-dress", "era": "christmas", "gender": "F", "lower": "hem",
+      "name": {"zh": "圣诞丝绒裙", "ja": "クリスマスのベルベットドレス", "en": "Christmas Velvet Dress", "ko": "크리스마스 벨벳 드레스"},
+      "desc": "a women's Christmas party dress: a knee-length fit-and-flare {main} velvet dress with long fitted sleeves, a round neckline, a {belt} satin sash tied in a bow at the natural waist, and white faux-fur trim along the neckline and the cuffs",
+      "keep": "knee-length fit-and-flare {main} velvet dress, long sleeves, {belt} satin sash bow at the waist, white faux-fur trim at the neckline and cuffs",
+      "checks": ["丝绒收腰伞裙及膝", "长袖圆领", "腰间缎带蝴蝶结", "领口和袖口白色毛边"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "红·绿腰带", "ja": "赤・緑のサッシュ", "en": "Red & Green", "ko": "빨강·초록"}, "bg": "light", "vars": {"main": "cherry red", "belt": "dark green"}},
+        {"key": "green", "name": {"zh": "墨绿·金腰带", "ja": "深緑・金のサッシュ", "en": "Green & Gold", "ko": "짙은 초록·금색"}, "bg": "light", "vars": {"main": "deep pine green", "belt": "gold"}}
+      ]
+    },
+    {
+      "key": "xmas-sweater", "era": "christmas", "gender": "U", "lower": "shoes",
+      "name": {"zh": "圣诞毛衣", "ja": "クリスマスセーター", "en": "Christmas Jumper", "ko": "크리스마스 스웨터"},
+      "desc": "a unisex Christmas party outfit: a loose crew-neck {main} wool jumper with a knitted fair-isle band of white snowflakes and reindeer across the chest and the sleeves, ribbed cuffs and hem, over straight {trousers} corduroy trousers, with brown leather ankle boots",
+      "keep": "loose {main} crew-neck jumper with a white snowflake-and-reindeer knit band across the chest and sleeves, ribbed cuffs and hem, {trousers} corduroy trousers, brown ankle boots",
+      "checks": ["圆领宽松毛衣", "胸前和袖上雪花驯鹿针织图案带", "罗纹袖口和下摆", "灯芯绒长裤、短靴"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "红·雪花", "ja": "赤・雪の結晶", "en": "Red Snowflake", "ko": "빨강·눈꽃"}, "bg": "light", "vars": {"main": "red", "trousers": "dark brown"}}
+      ]
+    },
+    {
+      "key": "halloween-dress", "era": "halloween", "gender": "F", "lower": "hem",
+      "name": {"zh": "万圣节派对裙", "ja": "ハロウィンのパーティードレス", "en": "Halloween Party Dress", "ko": "핼러윈 파티 드레스"},
+      "desc": "a women's Halloween party dress: a knee-length {main} cotton dress with short puff sleeves, a round collar in {trim}, a fitted bodice and a full gathered skirt, printed all over with small {trim} pumpkins and bats, and a band of {trim} ric-rac braid above the hem",
+      "keep": "knee-length {main} dress with small {trim} pumpkin-and-bat print, short puff sleeves, {trim} round collar, full gathered skirt, {trim} ric-rac band above the hem",
+      "checks": ["及膝收腰大摆裙", "全身南瓜蝙蝠小印花", "短泡泡袖、圆翻领", "下摆上方一圈波浪花边"],
+      "colorways": [
+        {"key": "black-orange", "name": {"zh": "黑·南瓜橙", "ja": "黒・パンプキン", "en": "Black & Pumpkin", "ko": "검정·호박색"}, "bg": "light", "vars": {"main": "black", "trim": "pumpkin orange"}}
+      ]
+    },
+    {
+      "key": "halloween-skeleton", "era": "halloween", "gender": "U", "lower": "shoes",
+      "name": {"zh": "骷髅印花连体服", "ja": "スケルトン柄つなぎ", "en": "Skeleton Print Jumpsuit", "ko": "해골 프린트 점프슈트"},
+      "desc": "a unisex Halloween party jumpsuit: a long-sleeved {main} stretch-cotton jumpsuit with a round neck and a centre-back zip, screen-printed on the front with a stylised {bone} skeleton (ribcage, spine, pelvis, arm and leg bones following the limbs), the back plain {main}, with {main} canvas trainers",
+      "keep": "long-sleeved {main} jumpsuit, {bone} skeleton print on the front only following the limbs, plain back with centre zip, {main} trainers",
+      "checks": ["长袖连体服、无帽", "正面骷髅骨架印花顺着四肢", "背面素色带拉链", "无面具、无头饰"],
+      "colorways": [
+        {"key": "black-white", "name": {"zh": "黑·白骨", "ja": "黒・白骨", "en": "Black & Bone White", "ko": "검정·흰 뼈"}, "bg": "light", "vars": {"main": "black", "bone": "white"}}
+      ]
+    },
+    {
+      "key": "masquerade-gown", "era": "masquerade", "gender": "F", "lower": "hem",
+      "name": {"zh": "假面舞会礼服", "ja": "仮面舞踏会のドレス", "en": "Masquerade Ball Gown", "ko": "가면무도회 드레스"},
+      "desc": "a women's masquerade ball gown: a floor-length {main} silk taffeta gown with an off-the-shoulder neckline and short draped sleeves, a fitted boned bodice with a pointed waist, a very full skirt over petticoats, and {lace} metallic baroque scroll embroidery on the bodice and spreading down the front of the skirt",
+      "keep": "floor-length {main} taffeta ball gown, off-the-shoulder neckline, boned bodice with pointed waist, very full skirt, {lace} baroque scroll embroidery on the bodice and skirt front",
+      "checks": ["一字肩落地大蓬裙", "尖腰硬挺胸衣", "胸衣和裙前片金属线巴洛克卷草刺绣", "无面具"],
+      "colorways": [
+        {"key": "midnight-silver", "name": {"zh": "午夜蓝·银", "ja": "ミッドナイトブルー・銀", "en": "Midnight & Silver", "ko": "미드나잇 블루·은색"}, "bg": "light", "vars": {"main": "midnight blue", "lace": "silver"}},
+        {"key": "burgundy-gold", "name": {"zh": "酒红·金", "ja": "ワインレッド・金", "en": "Burgundy & Gold", "ko": "버건디·금색"}, "bg": "light", "vars": {"main": "burgundy", "lace": "gold"}}
+      ]
+    },
+    {
+      "key": "masquerade-tailcoat", "era": "masquerade", "gender": "M", "lower": "shoes",
+      "name": {"zh": "假面舞会燕尾服", "ja": "仮面舞踏会の燕尾服", "en": "Masquerade Tailcoat", "ko": "가면무도회 연미복"},
+      "desc": "a men's masquerade ball outfit: a {coat} velvet tailcoat cut away at the waist with long tails at the back and peaked satin lapels, over a {vest} brocade waistcoat with a baroque scroll pattern, a white wing-collar shirt with a {vest} cravat, and slim {coat} trousers, with black patent oxford shoes",
+      "keep": "{coat} velvet tailcoat with tails and peaked lapels, {vest} baroque brocade waistcoat and cravat, white wing-collar shirt, slim {coat} trousers, black patent shoes",
+      "checks": ["前短后长燕尾", "巴洛克织锦马甲", "白翼领衬衫配领巾", "无面具、无帽"],
+      "colorways": [
+        {"key": "black-gold", "name": {"zh": "黑·金织锦", "ja": "黒・金ブロケード", "en": "Black & Gold Brocade", "ko": "검정·금색 브로케이드"}, "bg": "light", "vars": {"coat": "black", "vest": "gold"}}
+      ]
+    },
+    {
+      "key": "carnival-harlequin", "era": "carnival", "gender": "U", "lower": "shoes",
+      "name": {"zh": "狂欢节菱格装", "ja": "カーニバルの菱形衣装", "en": "Carnival Harlequin Suit", "ko": "카니발 할리퀸 의상"},
+      "desc": "a unisex carnival harlequin suit: a fitted long-sleeved tunic and matching slim trousers in satin patchwork of {colors} diamonds edged with thin gold braid, a stiff white pleated ruff collar, a black sash at the waist, and black flat slippers",
+      "keep": "fitted tunic and trousers in {colors} diamond patchwork with gold braid edging, white pleated ruff collar, black waist sash, black slippers",
+      "checks": ["全身菱形拼色", "白色褶皱圆领", "腰间黑色腰带", "无面具、无帽、无道具"],
+      "colorways": [
+        {"key": "classic", "name": {"zh": "红绿黄菱格", "ja": "赤緑黄の菱形", "en": "Red, Green & Yellow", "ko": "빨강·초록·노랑"}, "bg": "light", "vars": {"colors": "red, green and yellow"}}
+      ]
+    },
+    {
+      "key": "bridesmaid-dress", "era": "wedding-guest", "gender": "F", "lower": "hem",
+      "name": {"zh": "伴娘裙", "ja": "ブライズメイドドレス", "en": "Bridesmaid Dress", "ko": "브라이즈메이드 드레스"},
+      "desc": "a women's bridesmaid dress: a floor-length A-line {main} matte crepe dress, fully lined and opaque, with a V-neckline and wide shoulder straps, a ruched bodice, a slim self-fabric belt at the natural waist and a softly flowing skirt",
+      "keep": "floor-length A-line {main} dress, V-neck with wide straps, ruched bodice, slim self belt at the waist, flowing skirt",
+      "checks": ["落地 A 字裙", "V 领宽肩带", "抽褶胸衣", "同色细腰带在自然腰线"],
+      "colorways": [
+        {"key": "dusty-rose", "name": {"zh": "灰粉", "ja": "ダスティローズ", "en": "Dusty Rose", "ko": "더스티 로즈"}, "bg": "light", "vars": {"main": "dusty rose"}},
+        {"key": "sage", "name": {"zh": "鼠尾草绿", "ja": "セージグリーン", "en": "Sage Green", "ko": "세이지 그린"}, "bg": "light", "vars": {"main": "sage green"}}
+      ]
+    },
+    {
+      "key": "stage-sequin-suit", "era": "stage", "gender": "M", "lower": "shoes",
+      "name": {"zh": "演唱会舞台装", "ja": "コンサートのステージ衣装", "en": "Concert Stage Suit", "ko": "콘서트 무대 의상"},
+      "desc": "a men's concert stage outfit: a fitted single-breasted {main} sequin jacket with sharp padded shoulders, black satin peaked lapels and one button, over a black silk shirt open at the collar, and black satin-striped straight trousers, with black leather Chelsea boots",
+      "keep": "fitted {main} all-over sequin jacket with padded shoulders and black satin lapels, black open-collar shirt, black trousers with satin side stripe, black Chelsea boots",
+      "checks": ["全亮片修身西装外套", "垫肩、黑缎面戗驳领", "黑衬衫敞领", "侧缝缎条长裤、切尔西靴"],
+      "colorways": [
+        {"key": "silver", "name": {"zh": "银亮片", "ja": "シルバースパンコール", "en": "Silver Sequin", "ko": "은색 스팽글"}, "bg": "light", "vars": {"main": "silver"}}
+      ]
+    },
+    {
+      "key": "magician-tailcoat", "era": "performer", "gender": "M", "lower": "shoes",
+      "name": {"zh": "魔术师燕尾服", "ja": "マジシャンの燕尾服", "en": "Magician's Tailcoat", "ko": "마술사 연미복"},
+      "desc": "a men's stage magician's outfit: a black wool tailcoat with satin peaked lapels and long tails, a {lining} satin lining visible at the tails, a {vest} waistcoat, a white wing-collar shirt with a black bow tie, black trousers, and a short black cape fastened at the neck with a gold chain clasp falling to the waist, with black patent shoes",
+      "keep": "black tailcoat with satin lapels and {lining} lining, {vest} waistcoat, white wing-collar shirt, black bow tie, waist-length black cape with gold neck clasp, black patent shoes",
+      "checks": ["黑色燕尾服", "燕尾内衬有色缎面", "白翼领衬衫黑领结", "及腰短斗篷；无帽、无魔杖"],
+      "colorways": [
+        {"key": "black-red", "name": {"zh": "黑·红衬", "ja": "黒・赤裏地", "en": "Black & Red Lining", "ko": "검정·빨간 안감"}, "bg": "light", "vars": {"lining": "scarlet", "vest": "scarlet"}}
+      ]
+    },
+    {
+      "key": "ringmaster-jacket", "era": "performer", "gender": "M", "lower": "shoes",
+      "name": {"zh": "马戏团领班", "ja": "サーカスの団長", "en": "Ringmaster", "ko": "서커스 단장"},
+      "desc": "a men's circus ringmaster outfit: a {coat} wool tailcoat with gold frogging across the chest, gold buttons, gold-fringed epaulettes and gold braid on the cuffs, a {vest} waistcoat, a white ruffled jabot shirt, white riding breeches tucked into tall black riding boots",
+      "keep": "{coat} tailcoat with gold chest frogging, fringed epaulettes and braided cuffs, {vest} waistcoat, white jabot, white breeches, tall black boots",
+      "checks": ["燕尾外套胸前金色横向盘花扣", "流苏肩章", "白色褶饰领和马裤", "黑色高筒马靴；无帽、无鞭"],
+      "colorways": [
+        {"key": "red-gold", "name": {"zh": "大红·金", "ja": "赤・金", "en": "Red & Gold", "ko": "빨강·금색"}, "bg": "light", "vars": {"coat": "scarlet", "vest": "black"}}
+      ]
+    },
+    {
+      "key": "sequin-party-dress", "era": "party", "gender": "F", "lower": "shoes",
+      "name": {"zh": "亮片派对裙", "ja": "スパンコールのパーティードレス", "en": "Sequin Party Dress", "ko": "스팽글 파티 드레스"},
+      "desc": "a women's sequin party dress: an above-the-knee straight {main} dress covered all over in small flat sequins, with long sleeves, a high round neckline and a fully lined opaque body, with {shoes} pointed-toe pumps",
+      "keep": "above-the-knee straight {main} all-over sequin dress, long sleeves, high round neck, {shoes} pointed pumps",
+      "checks": ["全身小亮片", "直筒裙到膝上", "长袖高圆领", "尖头高跟鞋"],
+      "colorways": [
+        {"key": "gold", "name": {"zh": "香槟金", "ja": "シャンパンゴールド", "en": "Champagne Gold", "ko": "샴페인 골드"}, "bg": "light", "vars": {"main": "champagne gold", "shoes": "gold"}},
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black", "shoes": "black"}}
+      ]
+    }
+  ],
+  "eras": {
+    "spring-festival": {"zh": "春节", "ja": "春節", "en": "Spring Festival", "ko": "춘절"},
+    "christmas": {"zh": "圣诞", "ja": "クリスマス", "en": "Christmas", "ko": "크리스마스"},
+    "halloween": {"zh": "万圣节", "ja": "ハロウィン", "en": "Halloween", "ko": "핼러윈"},
+    "masquerade": {"zh": "假面舞会", "ja": "仮面舞踏会", "en": "Masquerade", "ko": "가면무도회"},
+    "carnival": {"zh": "狂欢节", "ja": "カーニバル", "en": "Carnival", "ko": "카니발"},
+    "wedding-guest": {"zh": "婚礼宾客", "ja": "結婚式ゲスト", "en": "Wedding Guest", "ko": "결혼식 하객"},
+    "stage": {"zh": "舞台", "ja": "ステージ", "en": "Stage", "ko": "무대"},
+    "performer": {"zh": "表演者", "ja": "パフォーマー", "en": "Performer", "ko": "공연자"},
+    "party": {"zh": "派对", "ja": "パーティー", "en": "Party", "ko": "파티"}
+  }
+}

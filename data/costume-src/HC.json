@@ -37,6 +37,7 @@
     },
     {
       "key": "weijin-daxiu", "era": "weijin", "gender": "F", "lower": "hem",
+      "struct_ref": "HC:weijin-daxiu:sky-ink",
       "name": {"zh": "大袖衫·间色裙", "ja": "大袖衫・間色裙", "en": "Daxiu Shan with Striped Skirt", "ko": "대수삼·간색군"},
       "desc": "a Wei-Jin Chinese women's ensemble: a {top} open-front daxiu shan coat with very wide sleeves and parallel collar bands, worn over a short cross-collar jacket, and a high-waisted floor-length jianse skirt made of alternating vertical stripes of {s1} and {s2} panels, tied with a narrow sash at the high waist",
       "keep": "{top} wide-sleeved open coat, short cross-collar inner jacket, high-waisted skirt of alternating {s1} and {s2} vertical stripes",
@@ -69,6 +70,7 @@
     },
     {
       "key": "tang-qixiong", "era": "tang", "gender": "F", "lower": "hem",
+      "struct_ref": "HC:tang-qixiong:lotus",
       "name": {"zh": "齐胸襦裙", "ja": "斉胸襦裙", "en": "Qixiong Ruqun", "ko": "제흉유군"},
       "desc": "a Tang-dynasty Chinese women's qixiong ruqun: a {skirt} silk skirt whose top band sits HIGH ON THE CHEST, above the bust, just below the collarbones, tied with a matching sash knotted at the centre front of the chest; the skirt falls straight to the floor and covers the body of a short {top} jacket, so of the jacket mainly the cross collar above the skirt band and the two narrow sleeves remain visible; a long {shawl} sheer silk pibo shawl draped across the back and hanging over both sleeves. No sash or skirt band at the waist, no frog buttons",
       "keep": "{skirt} skirt tied high on the chest with a front chest knot, short {top} jacket mostly covered, {shawl} pibo over both sleeves, floor length, no waist band",
@@ -80,6 +82,7 @@
     },
     {
       "key": "tang-gaoyao", "era": "tang", "gender": "F", "lower": "hem",
+      "struct_ref": "HC:weijin-daxiu:sky-ink",
       "name": {"zh": "交领高腰襦裙", "ja": "交領高腰襦裙", "en": "High-waist Ruqun", "ko": "교령고요유군"},
       "desc": "an early-Tang Chinese women's ensemble: a short {top} cross-collar ru jacket with narrow tight sleeves, a short-sleeved {vest} banbi half-jacket worn over it, and a floor-length high-waisted skirt with narrow vertical stripes of {s1} and {s2}, tied just below the bust",
       "keep": "{top} narrow-sleeved jacket, {vest} short-sleeved banbi on top, high-waisted {s1} and {s2} striped skirt tied below the bust",
@@ -130,7 +133,7 @@
       "checks": ["及胯短衫", "裙子满是细密褶", "系在自然腰", "交领右衽"],
       "colorways": [
         {"key": "rose", "name": {"zh": "檀色", "ja": "檀色", "en": "Rosewood", "ko": "단색"}, "bg": "light", "vars": {"top": "dusty rosewood-pink", "skirt": "pale beige"}},
-        {"key": "indigo", "name": {"zh": "缥青", "ja": "縹", "en": "Light Indigo", "ko": "표청"}, "bg": "light", "vars": {"top": "light indigo-blue", "skirt": "ivory"}}
+        {"key": "indigo", "name": {"zh": "缥青", "ja": "縹", "en": "Light Indigo", "ko": "표청"}, "bg": "dark", "vars": {"top": "light indigo-blue", "skirt": "ivory"}}
       ]
     },
     {
