@@ -6,6 +6,22 @@
 entries:
   - date: 2026-10-30
     tag: improve
+    title: Save straight to your photos
+    desc: On a phone, the button under a pose now saves the image to your photo album through the system share sheet. Where a browser can't do that, it shows how to save by pressing and holding the image.
+    link: /
+    cta: Open the gallery
+    title_zh: 手机上直接存到相册
+    desc_zh: 在手机上打开大图，底部按钮改成「保存到相册」，通过系统分享面板一步存进相册；浏览器不支持时会提示长按图片保存。
+    cta_zh: 打开图库
+    title_ja: 写真アプリに直接保存
+    desc_ja: スマートフォンでは拡大表示の下のボタンから、共有シートを通して画像を写真に保存できるようになりました。対応していないブラウザでは長押しで保存する方法を表示します。
+    cta_ja: ギャラリーを開く
+    title_ko: 사진 앱에 바로 저장
+    desc_ko: 휴대폰에서는 크게 보기 아래 버튼으로 공유 시트를 통해 이미지를 사진 앱에 바로 저장할 수 있습니다. 지원하지 않는 브라우저에서는 길게 눌러 저장하는 방법을 알려 줍니다.
+    cta_ko: 갤러리 열기
+
+  - date: 2026-10-30
+    tag: improve
     title: A prompt for every pose
     desc: Upper-body, suggestive and two-figure poses now show a copyable English pose description in the viewer, the same one their drawings were generated from.
     link: /

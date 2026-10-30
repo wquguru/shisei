@@ -506,6 +506,43 @@
     renderLb();
     if (!$('lb').open) $('lb').showModal();
   }
+  /* Phones save to the photo album: <a download> lands in Files on iOS and in Downloads on Android, while the
+     system share sheet with the file attached offers "Save Image", which goes to Photos. share() has to run inside
+     the tap and an awaited fetch first loses the gesture on iOS, so the view on screen is fetched ahead of the tap.
+     Browsers without file sharing (WeChat, older ones) get a long-press hint instead of a dead download. */
+  const ALBUM = matchMedia('(pointer: coarse)').matches;
+  const SHARE_FILES = ALBUM && !!navigator.canShare && (() => {
+    try { return navigator.canShare({ files: [new File([''], 'a.webp', { type: 'image/webp' })] }); } catch (e) { return false; }
+  })();
+  const FILES = new Map();
+  function prefetch(a) {
+    if (!SHARE_FILES || !a.href || FILES.has(a.href)) return;
+    const url = a.href, entry = { file: null };
+    FILES.set(url, entry);
+    // About 60 KB each; keep the recent ones so stepping back and forth needs no refetch.
+    if (FILES.size > 24) FILES.delete(FILES.keys().next().value);
+    fetch(url).then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
+      .then((b) => { entry.file = new File([b], a.getAttribute('download'), { type: 'image/webp' }); })
+      .catch(() => FILES.delete(url));
+  }
+  function lbTip(msg) {
+    const el = $('lbTip');
+    el.textContent = msg;
+    el.hidden = false;
+    clearTimeout(lbTip.timer);
+    lbTip.timer = setTimeout(() => { el.hidden = true; }, 4000);
+  }
+  function saveToAlbum(e) {
+    const a = e.currentTarget;
+    if (!ALBUM || !a.href) return;
+    e.preventDefault();
+    const entry = SHARE_FILES && FILES.get(a.href);
+    if (entry && entry.file) {
+      // Resolving only means the sheet closed, not that the image was saved, so success says nothing.
+      navigator.share({ files: [entry.file] }).catch((err) => { if (err.name !== 'AbortError') lbTip(t().holdToSave); });
+    } else if (SHARE_FILES) { prefetch(a); lbTip(t().preparing); }
+    else lbTip(t().holdToSave);
+  }
   function setDl(a, label, f, kind, p) {
     a.querySelector('span').textContent = label;
     if (f) { a.href = src(kind, 'w900', f); a.setAttribute('download', 'shisei_' + p.id + '_' + VIEWS[LB.v] + (kind === 'photo' ? '_photo' : '') + '.webp'); a.removeAttribute('aria-disabled'); }
@@ -589,8 +626,11 @@
     if (compare) {
       setDl($('lbDl'), T.line + ' 900', p.line[LB.v], 'line', p);
       setDl(dl2, T.photo + ' 900', p.photo[LB.v], 'photo', p);
-    } else setDl($('lbDl'), T.download + ' · ' + (photo ? '900×1800' : '900×1200'), f, kind, p);
+    } else setDl($('lbDl'), ALBUM ? T.saveAlbum : T.download + ' · ' + (photo ? '900×1800' : '900×1200'), f, kind, p);
     if (veil) [$('lbDl'), dl2].forEach((a) => { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); });
+    else [$('lbDl'), dl2].forEach((a) => { if (!a.hidden) prefetch(a); });
+    clearTimeout(lbTip.timer);
+    $('lbTip').hidden = true;
     // Static pose pages exist only for general std poses (tools/site_pages.py).
     const hasPage = hasPosePage(p);
     $('lbPage').hidden = !hasPage;
@@ -638,6 +678,8 @@
   $('lbVeilAll').addEventListener('click', () => setAdult(true));
   $('lbCopyDesc').addEventListener('click', () => copy(byId.get(LB.id).desc_en));
   $('lbCopyId').addEventListener('click', () => copy(LB.id));
+  $('lbDl').addEventListener('click', saveToAlbum);
+  $('lbDl2').addEventListener('click', saveToAlbum);
   // Share the pose page, not this #hash: link previews never see a fragment, the pose page has its own card.
   // Poses without a page fall back to the gallery deep link (generic card, but it opens the pose).
   $('lbShare').addEventListener('click', () => {

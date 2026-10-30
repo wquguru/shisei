@@ -8,6 +8,9 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- Phones: the lightbox download button reads "Save to Photos" and hands the w900 image to the system share sheet
+  (its "Save Image" goes to the photo album; `<a download>` only reached Files / Downloads). Browsers without file
+  sharing, such as WeChat, get a long-press hint over the image instead. Strings in all four languages.
 - Single-view fills from the original generator (Muse, round fill-r1): `import_fills.py` stages them, catalog
   `fills: {view: source}` points each view at its fill source, and build, review, dups, merge, pack and verify resolve
   the source per view. Batch 01 (std): 7 of 10 delivered views passed QC; std now has 294 of 365 views.
