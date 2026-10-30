@@ -171,7 +171,7 @@
   "name_kr": "다리 대각선으로 뻗고 허리에 손",
   "desc_en": "sitting on the floor, both legs extended straight out diagonally to her left side together, one hand resting on her hip, her other arm extended behind her with the hand on the floor supporting her upright torso",
   "views": {
-   "front": null,
+   "front": "std_P006_front.webp",
    "diag": "std_P006_diag.webp",
    "side": "std_P006_side.webp",
    "above": "std_P006_above.webp",
@@ -185,8 +185,11 @@
    "below": "std_P006_below.webp"
   },
   "gaps": {
-   "front": "structure",
-   "below": "line"
+   "below": "structure"
+  },
+  "fills": {
+   "below": "fill-r1",
+   "front": "fill-r1"
   }
  },
  {
@@ -235,11 +238,11 @@
   "name_kr": "무릎 세우고 양손 머리 뒤로",
   "desc_en": "sitting on the floor with both knees raised and bent, feet flat on the floor, both hands clasped behind her head",
   "views": {
-   "front": null,
+   "front": "std_P008_front.webp",
    "diag": "std_P008_diag.webp",
    "side": "std_P008_side.webp",
    "above": "std_P008_above.webp",
-   "below": null
+   "below": "std_P008_below.webp"
   },
   "photos": {
    "front": "std_P008_front.webp",
@@ -248,9 +251,10 @@
    "above": "std_P008_above.webp",
    "below": "std_P008_below.webp"
   },
-  "gaps": {
-   "front": "structure",
-   "below": "structure"
+  "gaps": {},
+  "fills": {
+   "below": "fill-r1",
+   "front": "fill-r1"
   }
  },
  {
@@ -283,7 +287,10 @@
    "below": "std_P009_below.webp"
   },
   "gaps": {
-   "diag": "line"
+   "diag": "structure"
+  },
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -378,6 +385,9 @@
   },
   "gaps": {
    "below": "structure"
+  },
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {
@@ -427,7 +437,7 @@
   "views": {
    "front": null,
    "diag": "std_P014_diag.webp",
-   "side": null,
+   "side": "std_P014_side.webp",
    "above": "std_P014_above.webp",
    "below": "std_P014_below.webp"
   },
@@ -437,8 +447,10 @@
    "below": "std_P014_below.webp"
   },
   "gaps": {
-   "front": "structure",
-   "side": "line"
+   "front": "structure"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -461,7 +473,7 @@
    "diag": "std_P015_diag.webp",
    "side": "std_P015_side.webp",
    "above": null,
-   "below": null
+   "below": "std_P015_below.webp"
   },
   "photos": {
    "front": "std_P015_front.webp",
@@ -471,8 +483,10 @@
    "below": "std_P015_below.webp"
   },
   "gaps": {
-   "above": "line",
-   "below": "line"
+   "above": "line"
+  },
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {
@@ -492,8 +506,8 @@
   "desc_en": "standing with both hands raised to her head, fingers running through her hair and lifting it up",
   "views": {
    "front": "std_P016_front.webp",
-   "diag": null,
-   "side": null,
+   "diag": "std_P016_diag.webp",
+   "side": "std_P016_side.webp",
    "above": "std_P016_above.webp",
    "below": "std_P016_below.webp"
   },
@@ -504,9 +518,10 @@
    "above": "std_P016_above.webp",
    "below": "std_P016_below.webp"
   },
-  "gaps": {
-   "diag": "line",
-   "side": "line"
+  "gaps": {},
+  "fills": {
+   "diag": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {

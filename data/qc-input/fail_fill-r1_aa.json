@@ -1,0 +1,32 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "P006__front-below.jpg",
+  "P008__front-below.jpg",
+  "P009__diag.jpg",
+  "P012__below.jpg",
+  "P014__side.jpg",
+  "P015__below.jpg",
+  "P016__diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P006",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "camera is at eye level/slightly above, not a view from below; head shows a cap/hair-like shell"
+  },
+  {
+   "set": "P009",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "rough sketch style, legs merge into each other, feet are pointed blobs, arms/torso tangled"
+  },
+  {
+   "set": "P012",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "not a view from below (eye-level/high angle); also loose sketch style"
+  }
+ ]
+}

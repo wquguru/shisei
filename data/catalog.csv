@@ -4,17 +4,17 @@ P002,,std,general,座り,坐姿,Sitting,앉기,片手支え・脚前方流し,�
 P003,,std,general,座り,坐姿,Sitting,앉기,両手後ろ支え・胸を張る,双手后撑・挺胸坐,"Sitting, hands behind, chest out",양손 뒤로 짚고 가슴 펴기,,o,o,o,o,o
 P004,,std,general,座り,坐姿,Sitting,앉기,三角座り・膝を左へ傾ける,三角坐・双膝左倾,"Triangle sit, knees tilted left",삼각 앉기·무릎 왼쪽으로 기울이기,,o,o,o,o,x
 P005,,std,general,座り,坐姿,Sitting,앉기,片膝立て・髪に手,单膝竖起・手触发,"Sitting, one knee raised, hand in hair",한쪽 무릎 세우고 머리에 손,,o,o,o,o,o
-P006,,std,general,座り,坐姿,Sitting,앉기,脚を斜めに伸ばして腰に手,双腿斜伸・手扶腰,"Sitting, legs extended diagonally, hand on hip",다리 대각선으로 뻗고 허리에 손,,x,o,o,o,x
+P006,,std,general,座り,坐姿,Sitting,앉기,脚を斜めに伸ばして腰に手,双腿斜伸・手扶腰,"Sitting, legs extended diagonally, hand on hip",다리 대각선으로 뻗고 허리에 손,,o,o,o,o,x
 P007,,std,general,座り,坐姿,Sitting,앉기,両肘ついて寝そべり座り,双肘撑地俯卧,Lying prone propped on both elbows,양 팔꿈치 짚고 엎드리기,,o,o,o,o,o
-P008,,std,general,座り,坐姿,Sitting,앉기,膝を立てて両手を頭の後ろ,双膝竖起・双手抱头,"Sitting, knees up, hands behind head",무릎 세우고 양손 머리 뒤로,,x,o,o,o,x
+P008,,std,general,座り,坐姿,Sitting,앉기,膝を立てて両手を頭の後ろ,双膝竖起・双手抱头,"Sitting, knees up, hands behind head",무릎 세우고 양손 머리 뒤로,,o,o,o,o,o
 P009,,std,general,座り,坐姿,Sitting,앉기,右へ傾く・肘支え,右倾・肘撑坐,Sitting leaning right on elbow,오른쪽으로 기울어 팔꿈치 지지,,o,x,o,o,o
 P010,,std,general,座り,坐姿,Sitting,앉기,足首に手を添える,手扶脚踝坐,"Sitting, hand resting on ankle",발목에 손 얹기,,o,o,o,o,o
 P011,,std,general,座り,坐姿,Sitting,앉기,両手頭の後ろ・胸反り,双手抱头・挺胸,"Sitting, hands behind head, chest arched",양손 머리 뒤로·가슴 젖히기,,o,o,o,o,o
 P012,,std,general,座り,坐姿,Sitting,앉기,片膝立て・頬杖,单膝竖起・托腮,"Sitting, one knee up, cheek on hand",한쪽 무릎 세우고 턱 괴기,,o,o,o,o,x
 P013,,std,general,座り,坐姿,Sitting,앉기,両脚を浮かせた後ろ寄りかかり,后撑・双腿离地,"Leaning back on hands, both legs lifted",뒤로 기대어 양다리 들기,,o,o,o,o,o
-P014,,std,general,座り,坐姿,Sitting,앉기,足首を持つ片膝立て,单膝竖起・握脚踝,"Sitting, one knee up, holding ankle",한쪽 무릎 세우고 발목 잡기,,x,o,x,o,o
-P015,,std,general,立ち,站立,Standing,서기,立ち・コントラポスト腰に手,站立・单手叉腰,"Standing contrapposto, hand on hip",서서 한손 허리에,,o,o,o,x,x
-P016,,std,general,立ち,站立,Standing,서기,立ち・両手で髪をかき上げ,站立・双手撩发,"Standing, both hands lifting hair",서서 양손으로 머리카락 쓸어올리기,,o,x,x,o,o
+P014,,std,general,座り,坐姿,Sitting,앉기,足首を持つ片膝立て,单膝竖起・握脚踝,"Sitting, one knee up, holding ankle",한쪽 무릎 세우고 발목 잡기,,x,o,o,o,o
+P015,,std,general,立ち,站立,Standing,서기,立ち・コントラポスト腰に手,站立・单手叉腰,"Standing contrapposto, hand on hip",서서 한손 허리에,,o,o,o,x,o
+P016,,std,general,立ち,站立,Standing,서기,立ち・両手で髪をかき上げ,站立・双手撩发,"Standing, both hands lifting hair",서서 양손으로 머리카락 쓸어올리기,,o,o,o,o,o
 P017,,std,general,立ち,站立,Standing,서기,立ち・肩越しに振り向く,站立・回眸,"Standing, looking back over shoulder",서서 어깨 너머로 돌아보기,,o,o,o,o,x
 P018,,std,general,立ち,站立,Standing,서기,立ち・両手を腰に,站立・双手叉腰,"Standing, both hands on hips",서서 양손 허리에,,x,o,o,o,o
 P019,,std,general,立ち,站立,Standing,서기,立ち・両腕を頭上に伸ばす,站立・双臂上伸,"Standing, arms stretched overhead",서서 양팔 위로 뻗기,digi,o,o,o,x,x

@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "reviewed": "2026-10-29",
+ "reviewed": "2026-10-30",
  "method": "docs/qc/README.md",
  "sets": {
   "P017": {
@@ -259,6 +259,32 @@
   "U072": "digi",
   "U078": "digi"
  },
+ "fills": {
+  "P006": {
+   "below": "fill-r1",
+   "front": "fill-r1"
+  },
+  "P008": {
+   "below": "fill-r1",
+   "front": "fill-r1"
+  },
+  "P009": {
+   "diag": "fill-r1"
+  },
+  "P012": {
+   "below": "fill-r1"
+  },
+  "P014": {
+   "side": "fill-r1"
+  },
+  "P015": {
+   "below": "fill-r1"
+  },
+  "P016": {
+   "diag": "fill-r1",
+   "side": "fill-r1"
+  }
+ },
  "views": {
   "P001": {
    "front": {
@@ -374,8 +400,7 @@
   "P006": {
    "front": {
     "file": "std_P006_front.webp",
-    "status": "structure",
-    "reason": "three arms: right shoulder has one arm on hip and a second arm propped down beside the hip (found by a person, missed by panel and name review)"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P006_diag.webp",
@@ -391,8 +416,8 @@
    },
    "below": {
     "file": "std_P006_below.webp",
-    "status": "line",
-    "reason": "grey floor shadow/ground lines drawn around hand and legs"
+    "status": "structure",
+    "reason": "camera is at eye level/slightly above, not a view from below; head shows a cap/hair-like shell"
    }
   },
   "P007": {
@@ -420,8 +445,7 @@
   "P008": {
    "front": {
     "file": "std_P008_front.webp",
-    "status": "structure",
-    "reason": "feet are melted blobs; wide squat, not sitting knees up"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P008_diag.webp",
@@ -437,8 +461,7 @@
    },
    "below": {
     "file": "std_P008_below.webp",
-    "status": "structure",
-    "reason": "huge teardrop outlines around legs, malformed thighs/pelvis"
+    "status": "pass"
    }
   },
   "P009": {
@@ -448,8 +471,8 @@
    },
    "diag": {
     "file": "std_P009_diag.webp",
-    "status": "line",
-    "reason": "small dots on chest/torso at breast edge that could read as nipple marks"
+    "status": "structure",
+    "reason": "rough sketch style, legs merge into each other, feet are pointed blobs, arms/torso tangled"
    },
    "side": {
     "file": "std_P009_side.webp",
@@ -528,7 +551,7 @@
    "below": {
     "file": "std_P012_below.webp",
     "status": "structure",
-    "reason": "left foot is a melted mitten blob"
+    "reason": "not a view from below (eye-level/high angle); also loose sketch style"
    }
   },
   "P013": {
@@ -565,8 +588,7 @@
    },
    "side": {
     "file": "std_P014_side.webp",
-    "status": "line",
-    "reason": "grey triangle/box guide lines and floor line behind figure"
+    "status": "pass"
    },
    "above": {
     "file": "std_P014_above.webp",
@@ -597,8 +619,7 @@
    },
    "below": {
     "file": "std_P015_below.webp",
-    "status": "line",
-    "reason": "shoe-like feet with sole lines"
+    "status": "pass"
    }
   },
   "P016": {
@@ -608,13 +629,11 @@
    },
    "diag": {
     "file": "std_P016_diag.webp",
-    "status": "line",
-    "reason": "spiky hair strokes above head"
+    "status": "pass"
    },
    "side": {
     "file": "std_P016_side.webp",
-    "status": "line",
-    "reason": "hair strokes above head"
+    "status": "pass"
    },
    "above": {
     "file": "std_P016_above.webp",

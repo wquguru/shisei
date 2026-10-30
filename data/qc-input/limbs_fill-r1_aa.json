@@ -1,0 +1,125 @@
+{
+ "reviewed": [
+  "P006__front-below.jpg",
+  "P008__front-below.jpg",
+  "P009__diag.jpg",
+  "P012__below.jpg",
+  "P014__side.jpg",
+  "P015__below.jpg",
+  "P016__diag-side.jpg"
+ ],
+ "panels": [
+  {
+   "set": "P006",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Viewer-left arm: shoulder, elbow out, hand on hip. Viewer-right arm: straight down, hand flat on floor. Both legs extend diagonally from hips to two feet at lower left.",
+   "note": ""
+  },
+  {
+   "set": "P006",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Viewer-right arm: elbow out, hand on hip. Viewer-left arm: down from shoulder, hand flat on floor beside thigh. Two legs from hips through knees, two feet at bottom.",
+   "note": ""
+  },
+  {
+   "set": "P008",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms: shoulder, elbows out, hands behind head. Two legs knees up, two feet together at bottom.",
+   "note": ""
+  },
+  {
+   "set": "P008",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Viewer-left arm: elbow out, hand behind head. Viewer-right arm: elbow out, hand behind head. Two knees-up legs, two feet at bottom front.",
+   "note": ""
+  },
+  {
+   "set": "P009",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Upper-left arm: shoulder to elbow then forearm runs behind torso (not traced to a hand). Right arm: shoulder, elbow at waist, forearm to wrist, hand resting on thigh at centre. A second hand with fingers lies on floor right of the hip circle. Two legs to two feet at far left.",
+   "note": "Hand on floor at right (near hip circle) cannot be traced to a forearm; may be the left arm's hand with forearm hidden behind the torso."
+  },
+  {
+   "set": "P012",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Viewer-left arm: shoulder, down to hand on floor beside hip. Viewer-right arm: elbow raised, forearm up, hand at cheek/head. Leg 1 extended left with foot at far left; leg 2 knee up, foot at bottom right.",
+   "note": ""
+  },
+  {
+   "set": "P014",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm: shoulder, elbow, forearm to hand clasping ankle (front). A second hand wraps the back of the ankle; its arm is hidden behind torso/thigh. Bent leg: knee up, foot on floor at bottom centre. Extended leg: knee, foot at right.",
+   "note": "Far arm hidden behind body; second hand at ankle not traced to a visible forearm."
+  },
+  {
+   "set": "P015",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Viewer-left arm: shoulder, elbow out, hand on hip. Viewer-right arm: hangs down, hand open at lower right of torso. Two legs from hips to two feet at bottom.",
+   "note": ""
+  },
+  {
+   "set": "P016",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms: shoulders, elbows out, hands raised above the head with fingers spread. Two legs, two feet together at bottom.",
+   "note": ""
+  },
+  {
+   "set": "P016",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms raised overlapping beside head, hands together above head. Two legs overlapping, two feet at bottom with toes pointing right.",
+   "note": "Arms and legs overlap in profile; far limbs mostly hidden but each counted once."
+  }
+ ],
+ "flags": [
+  {
+   "set": "P009",
+   "angle": "diag",
+   "reason": "Extra-looking hand on the floor at right of the hip circle: not traceable to a forearm; the left arm's forearm vanishes behind the torso. A person should check for a third hand/arm."
+  },
+  {
+   "set": "P014",
+   "angle": "side",
+   "reason": "Two hands clasp the ankle but only one arm is visible; the far arm is not traced (probably hidden behind torso). Low confidence."
+  }
+ ]
+}
