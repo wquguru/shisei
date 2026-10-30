@@ -1689,14 +1689,15 @@
   "desc_en": "squatting low with her elbow resting on her knee and her cheek resting on that hand",
   "views": {
    "front": "std_P060_front.webp",
-   "diag": null,
+   "diag": "std_P060_diag.webp",
    "side": "std_P060_side.webp",
    "above": "std_P060_above.webp",
    "below": "std_P060_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "diag": "line"
+  "gaps": {},
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -1823,15 +1824,16 @@
   "name_kr": "상체 숙여 정강이 만지기",
   "desc_en": "standing bent forward deeply at the waist, both hands reaching down touching her shins",
   "views": {
-   "front": null,
+   "front": "std_P065_front.webp",
    "diag": "std_P065_diag.webp",
    "side": "std_P065_side.webp",
    "above": "std_P065_above.webp",
    "below": "std_P065_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "line"
+  "gaps": {},
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -1908,7 +1910,10 @@
   },
   "photos": {},
   "gaps": {
-   "above": "line"
+   "above": "structure"
+  },
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -1983,13 +1988,14 @@
   "views": {
    "front": "std_P071_front.webp",
    "diag": "std_P071_diag.webp",
-   "side": null,
+   "side": "std_P071_side.webp",
    "above": "std_P071_above.webp",
    "below": "std_P071_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "line"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {

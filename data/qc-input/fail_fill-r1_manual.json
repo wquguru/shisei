@@ -1,0 +1,6 @@
+{
+ "source": "fill-r1",
+ "fails": [
+  {"set": "P068", "angle": "above", "kind": "structure", "reason": "wrong pose, judged by eye: from above it shows the chest and buttocks of an upright figure, not a body bent forward at the hips (fill-r1 batch 03)"}
+ ]
+}

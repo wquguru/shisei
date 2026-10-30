@@ -295,6 +295,18 @@
   },
   "P051": {
    "diag": "fill-r1"
+  },
+  "P060": {
+   "diag": "fill-r1"
+  },
+  "P065": {
+   "front": "fill-r1"
+  },
+  "P068": {
+   "above": "fill-r1"
+  },
+  "P071": {
+   "side": "fill-r1"
   }
  },
  "views": {
@@ -1597,8 +1609,7 @@
    },
    "diag": {
     "file": "std_P060_diag.webp",
-    "status": "line",
-    "reason": "top and shorts hem lines suggest clothing"
+    "status": "pass"
    },
    "side": {
     "file": "std_P060_side.webp",
@@ -1705,8 +1716,7 @@
   "P065": {
    "front": {
     "file": "std_P065_front.webp",
-    "status": "line",
-    "reason": "speckled background texture"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P065_diag.webp",
@@ -1784,8 +1794,8 @@
    },
    "above": {
     "file": "std_P068_above.webp",
-    "status": "line",
-    "reason": "small nipple dot on breast"
+    "status": "structure",
+    "reason": "wrong pose, judged by eye: from above it shows the chest and buttocks of an upright figure, not a body bent forward at the hips (fill-r1 batch 03)"
    },
    "below": {
     "file": "std_P068_below.webp",
@@ -1850,8 +1860,7 @@
    },
    "side": {
     "file": "std_P071_side.webp",
-    "status": "line",
-    "reason": "sketchy background texture noise"
+    "status": "pass"
    },
    "above": {
     "file": "std_P071_above.webp",

@@ -56,18 +56,18 @@ P056,P058,std,general,寝そべり,躺姿,Lying,눕기,うつ伏せ・腕枕,俯
 P057,P059,std,suggestive,寝そべり,躺姿,Lying,눕기,仰向け・胸を反らす,仰卧・挺胸,"Lying on back, chest arched",누워서 가슴 젖히기,,o,o,o,o,o
 P058,P061,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・膝に手,深蹲・手放膝上,"Squatting, hands on knees",쪼그려 앉아 무릎에 손,,o,o,o,o,o
 P059,P062,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・片手を床に,深蹲・单手撑地,"Squatting, one hand on floor",쪼그려 앉아 한손 바닥에,,o,o,o,o,o
-P060,P063,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・頬杖,深蹲・托腮,"Squatting, cheek on hand",쪼그려 앉아 턱 괴기,,o,x,o,o,o
+P060,P063,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・頬杖,深蹲・托腮,"Squatting, cheek on hand",쪼그려 앉아 턱 괴기,,o,o,o,o,o
 P061,P064,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・髪に手,深蹲・手触发,"Squatting, hand in hair",쪼그려 앉아 머리에 손,,o,o,o,o,x
 P062,P065,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・つま先立ちで両手を床に,深蹲踮脚・双手撑地,"Deep squat on tiptoe, both hands on floor",까치발 쪼그려 앉아 양손 바닥에,,o,o,o,o,-
 P063,P066,std,general,しゃがみ,蹲姿,Squatting,쪼그려 앉기,しゃがみ・振り向く,深蹲・回头,"Squatting, looking back",쪼그려 앉아 돌아보기,,o,o,o,x,o
 P064,P067,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前かがみ・膝に手,前倾・手放膝上,"Bent forward, hands on knees",상체 숙여 무릎에 손,,o,o,o,o,o
-P065,P068,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前かがみ・すねに触れる,前倾・手摸小腿,"Bent forward deeply, hands touching shins",상체 숙여 정강이 만지기,,x,o,o,o,o
+P065,P068,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前かがみ・すねに触れる,前倾・手摸小腿,"Bent forward deeply, hands touching shins",상체 숙여 정강이 만지기,,o,o,o,o,o
 P066,P069,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前かがみ・片手を腰・見上げる,前倾・单手叉腰仰望,"Bent forward, one hand on hip, looking up",상체 숙여 한손 허리에·올려다보기,,o,o,o,o,o
 P067,P070,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前かがみ・腿に手・腰を引く,前倾・手放大腿挺臀,"Bent forward, hands on thighs, hips back",상체 숙여 허벅지에 손·골반 뒤로,,o,o,o,o,o
 P068,P071,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前かがみ・腕をだらりと下げる,前倾・双臂垂落,"Bent forward, arms hanging limp",상체 숙여 팔 늘어뜨리기,,o,o,o,x,o
 P069,P072,std,general,前かがみ,前倾,Leaning forward,상체 숙이기,前かがみ・片脚を後ろに上げる,前倾・单腿后抬,"Bent forward, one leg lifted behind",상체 숙여 한쪽 다리 뒤로 들기,,o,o,o,o,o
 P070,P073,std,general,のけぞり・反り,后仰,Arching back,뒤로 젖히기,のけぞり・立ち姿勢で反る,站立后仰反弓,"Standing, arched backward",서서 뒤로 젖히기,,x,x,o,x,o
-P071,P074,std,suggestive,のけぞり・反り,后仰,Arching back,뒤로 젖히기,膝立ち・後ろに手をついて反る,跪立・后撑反弓,"Kneeling, hands behind on floor, arched back",무릎 꿇고 뒤에 손 짚어 젖히기,,o,o,x,o,o
+P071,P074,std,suggestive,のけぞり・反り,后仰,Arching back,뒤로 젖히기,膝立ち・後ろに手をついて反る,跪立・后撑反弓,"Kneeling, hands behind on floor, arched back",무릎 꿇고 뒤에 손 짚어 젖히기,,o,o,o,o,o
 P072,P075,std,general,のけぞり・反り,后仰,Arching back,뒤로 젖히기,のけぞり・両腕を上げて反る,后仰・双臂上举反弓,"Arched back, both arms raised",양팔 들고 뒤로 젖히기,,x,x,o,x,o
 P073,P077,std,general,ひねり,扭转,Twist,비틀기,ひねり・立ち姿勢で腕を広げる,站立扭转・双臂展开,"Standing twist, arms spread wide",서서 비틀어 양팔 벌리기,digi,o,o,x,x,o
 P074,P078,std,general,ひねり,扭转,Twist,비틀기,ひねり・膝立ちで振り向く,跪立扭转・回头,"Kneeling twist, looking back",무릎 꿇고 비틀어 돌아보기,,o,o,o,o,x

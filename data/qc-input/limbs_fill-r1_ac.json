@@ -1,0 +1,52 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "P060__diag.jpg",
+  "P065__front.jpg",
+  "P068__above.jpg",
+  "P071__side.jpg"
+ ],
+ "panels": [
+  {
+   "set": "P060",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R arm: shoulder at upper left, elbow low left, forearm crosses to the right, hand rests on the near knee. L arm: shoulder upper right, elbow in front of the belly, forearm rises to the cheek, hand on the cheek. Near leg: hip, knee at left, shin down to the left foot on the floor. Far leg: knee at centre, shin down to the right foot, toes on the floor.",
+   "note": "none"
+  },
+  {
+   "set": "P065",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms hang from the shoulders, elbows mid-length, hands rest on the front of the shins, one per shin. Both legs straight from the hips, knees visible, two feet side by side at the bottom.",
+   "note": "none"
+  },
+  {
+   "set": "P068",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms hang from the shoulders, elbows at the sides, hands open and splayed at the lower left and lower right. Two legs from the hips, knees visible, two feet at the bottom edge, foreshortened.",
+   "note": "none"
+  },
+  {
+   "set": "P071",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm: shoulder ball, straight arm back and down, elbow, forearm to the hand flat on the floor on the right. Legs: thigh vertical from the hip to the knee on the floor at the left, near shin horizontal to the near foot at the far right, far shin and its foot drawn above the near ankle.",
+   "note": "Far arm hidden behind the torso and near arm in side view; no stray arm line seen. Hand count rests on this: one hand at the end of the visible forearm, fingers to the right. Worth a quick human glance but not flagged."
+  }
+ ],
+ "flags": []
+}
