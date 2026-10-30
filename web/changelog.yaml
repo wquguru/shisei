@@ -6,6 +6,22 @@
 entries:
   - date: 2026-10-29
     tag: announce
+    title: How Shisei was made
+    desc: A link above the title on the home page opens the making-of article on X (in Chinese) on how the whole library was built in 21 hours.
+    link: /
+    cta: Open the gallery
+    title_zh: 这套图库是怎么做出来的
+    desc_zh: 首页标题上方新增入口，点开就是 X 上的制作长文：21 小时从零做出整套图库的完整方法。
+    cta_zh: 打开图库
+    title_ja: Shisei のメイキング
+    desc_ja: トップページのタイトル上に、ポーズ集全体を 21 時間で作った方法をまとめた X の記事（中国語）へのリンクを追加しました。
+    cta_ja: ギャラリーを開く
+    title_ko: Shisei 제작기
+    desc_ko: 홈 제목 위에 21시간 만에 자료 전체를 만든 과정을 정리한 X 글(중국어)로 가는 링크를 추가했습니다.
+    cta_ko: 갤러리 열기
+
+  - date: 2026-10-29
+    tag: announce
     title: New downloads with every pose
     desc: The download zips now hold all 280 poses, the 43 redrawn ones included, about 1,200 images. Grab one series or everything from the download button.
     link: /

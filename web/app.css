@@ -72,7 +72,11 @@ img { display: block; }
 .hero h1 .tp { white-space: nowrap; }
 .hero h1:lang(en) .tp { white-space: normal; }
 .hero h1 .mark { padding: 0 0.06em; background: linear-gradient(transparent 58%, var(--mark) 58%, var(--mark) 92%, transparent 92%); }
-.hero-eye { margin: 0 0 -6px; }
+/* Link to the making-of article: sits where the eyebrow was so the hero layout does not move. */
+.hero-badge { display: inline-flex; align-items: center; gap: 10px; min-height: 40px; margin: 0 16px -6px; padding: 5px 14px 5px 5px; box-sizing: border-box; border-radius: 999px; background: var(--card); border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 15px; line-height: 1.35; }
+.hero-badge:hover { border-color: var(--ink4); }
+.hb-tag { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 10px; border-radius: 999px; background: var(--btn); color: var(--btn-ink); font-size: 13px; font-weight: 600; white-space: nowrap; flex: none; }
+.hb-go { color: var(--accent); font-weight: 700; flex: none; }
 .hero-sub:lang(ko) { word-break: keep-all; }
 .hero-sub { margin: 0; padding: 0 16px; max-width: 660px; text-align: center; font-size: 19px; line-height: 1.6; color: var(--ink3); }
 .marquee { width: 100%; display: flex; flex-direction: column; gap: 22px; padding: 26px 0 10px; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%); mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%); }
@@ -306,7 +310,8 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   /* The hero fits one phone screen with the nav: one marquee row, smaller type and chips. */
   .hero { padding: 16px 0 20px; gap: 12px; }
   .hero h1 { font-size: 38px; line-height: 1.12; text-shadow: 2px 3px 0 var(--shadow); }
-  .hero-eye { font-size: 12px; letter-spacing: 0.22em; margin: 0; }
+  .hero-badge { min-height: 44px; max-width: calc(100% - 32px); gap: 8px; margin: 0 16px; padding: 4px 12px 4px 4px; font-size: 13px; }
+  .hb-tag { font-size: 12px; padding: 0 9px; }
   .hero-sub { font-size: 15px; line-height: 1.55; }
   .mq-tile { width: 96px; height: 96px; border-radius: 20px; }
   .marquee { padding: 8px 0 4px; }

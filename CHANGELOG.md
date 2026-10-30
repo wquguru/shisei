@@ -7,6 +7,10 @@ the catalog schema.
 
 ## [Unreleased]
 
+### Added
+- Home hero: a "making of" badge above the title links the X article on how the library was built; it replaces the
+  `SHISEI · 姿勢` eyebrow, strings in all four languages.
+
 ## [0.3.0] - 2026-10-29
 
 ### Added
