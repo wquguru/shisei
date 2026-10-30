@@ -283,6 +283,18 @@
   "P016": {
    "diag": "fill-r1",
    "side": "fill-r1"
+  },
+  "P018": {
+   "front": "fill-r1"
+  },
+  "P041": {
+   "below": "fill-r1"
+  },
+  "P049": {
+   "below": "fill-r1"
+  },
+  "P051": {
+   "diag": "fill-r1"
   }
  },
  "views": {
@@ -670,8 +682,7 @@
   "P018": {
    "front": {
     "file": "std_P018_front.webp",
-    "status": "line",
-    "reason": "hairline cap arc and ears on head reads as hair"
+    "status": "pass"
    },
    "diag": {
     "file": "std_P018_diag.webp",
@@ -1173,8 +1184,8 @@
    },
    "below": {
     "file": "std_P041_below.webp",
-    "status": "line",
-    "reason": "speckled background texture and distorted blob thighs"
+    "status": "structure",
+    "reason": "camera not low: neck joint and full neck shown under the head, torso and knees read as a frontal/slightly high view, no chin underside"
    }
   },
   "P042": {
@@ -1348,8 +1359,7 @@
    },
    "below": {
     "file": "std_P049_below.webp",
-    "status": "structure",
-    "reason": "practically identical to front (and each other): same top-down view"
+    "status": "pass"
    }
   },
   "P050": {
@@ -1383,8 +1393,7 @@
    },
    "diag": {
     "file": "std_P051_diag.webp",
-    "status": "structure",
-    "reason": "arms end in stubs/ovals with no hands"
+    "status": "pass"
    },
    "side": {
     "file": "std_P051_side.webp",

@@ -573,7 +573,7 @@
   "name_kr": "서서 양손 허리에",
   "desc_en": "standing straight facing forward with both hands placed firmly on her hips, elbows out, legs straight and slightly apart",
   "views": {
-   "front": null,
+   "front": "std_P018_front.webp",
    "diag": "std_P018_diag.webp",
    "side": "std_P018_side.webp",
    "above": "std_P018_above.webp",
@@ -586,8 +586,9 @@
    "above": "std_P018_above.webp",
    "below": "std_P018_below.webp"
   },
-  "gaps": {
-   "front": "line"
+  "gaps": {},
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -1181,7 +1182,10 @@
   },
   "photos": {},
   "gaps": {
-   "below": "line"
+   "below": "structure"
+  },
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {
@@ -1393,12 +1397,14 @@
    "diag": "std_P049_diag.webp",
    "side": "std_P049_side.webp",
    "above": null,
-   "below": null
+   "below": "std_P049_below.webp"
   },
   "photos": {},
   "gaps": {
-   "above": "structure",
-   "below": "structure"
+   "above": "structure"
+  },
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {
@@ -1445,7 +1451,7 @@
   "desc_en": "lying face down on her stomach on the floor, both legs bent upward behind her with feet kicked up in the air, chin resting on her hands",
   "views": {
    "front": null,
-   "diag": null,
+   "diag": "std_P051_diag.webp",
    "side": null,
    "above": "std_P051_above.webp",
    "below": "std_P051_below.webp"
@@ -1453,8 +1459,10 @@
   "photos": {},
   "gaps": {
    "front": "structure",
-   "diag": "structure",
    "side": "structure"
+  },
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {

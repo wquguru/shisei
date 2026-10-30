@@ -1,0 +1,52 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "P018__front.jpg",
+  "P041__below.jpg",
+  "P049__below.jpg",
+  "P051__diag.jpg"
+ ],
+ "panels": [
+  {
+   "set": "P018",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R and L arms from shoulders bend at elbows; both hands rest on respective hips. Both legs from hips straight down; two feet on floor, toes forward.",
+   "note": ""
+  },
+  {
+   "set": "P041",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms from shoulders to elbows to wrists; each hand rests on the thigh on its own side. Both legs from hips splay out in W-sit, knees bent; two feet at lower left and right, soles toward viewer.",
+   "note": "foreshortened view from below"
+  },
+  {
+   "set": "P049",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms from shoulders raised overhead, one hand open at upper left and one at upper right. Both legs from hips run toward viewer; two feet at bottom with toes visible.",
+   "note": "lying on back, viewed from feet"
+  },
+  {
+   "set": "P051",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Two arms from shoulders bent forward with elbows on floor (one at lower left, one near lower centre); both hands clasped together under the chin, counted as two hands. Both legs from hips bent up at knees; two feet at top left, soles up.",
+   "note": "hands interlaced, no extra fingers/hands seen"
+  }
+ ],
+ "flags": []
+}

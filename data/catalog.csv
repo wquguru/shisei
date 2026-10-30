@@ -16,7 +16,7 @@ P014,,std,general,座り,坐姿,Sitting,앉기,足首を持つ片膝立て,单�
 P015,,std,general,立ち,站立,Standing,서기,立ち・コントラポスト腰に手,站立・单手叉腰,"Standing contrapposto, hand on hip",서서 한손 허리에,,o,o,o,x,o
 P016,,std,general,立ち,站立,Standing,서기,立ち・両手で髪をかき上げ,站立・双手撩发,"Standing, both hands lifting hair",서서 양손으로 머리카락 쓸어올리기,,o,o,o,o,o
 P017,,std,general,立ち,站立,Standing,서기,立ち・肩越しに振り向く,站立・回眸,"Standing, looking back over shoulder",서서 어깨 너머로 돌아보기,,o,o,o,o,x
-P018,,std,general,立ち,站立,Standing,서기,立ち・両手を腰に,站立・双手叉腰,"Standing, both hands on hips",서서 양손 허리에,,x,o,o,o,o
+P018,,std,general,立ち,站立,Standing,서기,立ち・両手を腰に,站立・双手叉腰,"Standing, both hands on hips",서서 양손 허리에,,o,o,o,o,o
 P019,,std,general,立ち,站立,Standing,서기,立ち・両腕を頭上に伸ばす,站立・双臂上伸,"Standing, arms stretched overhead",서서 양팔 위로 뻗기,digi,o,o,o,x,x
 P020,,std,general,立ち,站立,Standing,서기,立ち・片手を後頭部に,站立・单手扶后脑,"Standing, one hand behind head",서서 한손 뒤통수에,digi,o,o,o,o,o
 P021,,std,general,立ち,站立,Standing,서기,立ち・首元と腿に手,站立・手扶颈侧与大腿,"Standing, hands at neck and thigh",서서 목덜미와 허벅지에 손,,o,o,o,o,o
@@ -45,9 +45,9 @@ P045,,std,general,横座り・女の子座り,侧坐・少女坐,Side sit / W-si
 P046,,std,general,横座り・女の子座り,侧坐・少女坐,Side sit / W-sit,옆 앉기·여자아이 앉기,横座り・頬に手,侧坐・手贴脸颊,"Side sit, hand on cheek",옆으로 앉아 뺨에 손,digi,o,o,o,o,o
 P047,,std,general,横座り・女の子座り,侧坐・少女坐,Side sit / W-sit,옆 앉기·여자아이 앉기,横座り・片腕を上に伸ばす,侧坐・单臂上伸,"Side sit, one arm stretched up",옆으로 앉아 한팔 위로 뻗기,digi,o,o,o,o,o
 P048,,std,general,横座り・女の子座り,侧坐・少女坐,Side sit / W-sit,옆 앉기·여자아이 앉기,女の子座り・首元に手,少女坐・手扶颈侧,"W-sit, hand at neck",여자아이 앉기·목덜미에 손,digi,o,o,o,o,o
-P049,,std,general,寝そべり,躺姿,Lying,눕기,仰向け・両腕を頭上へ,仰卧・双臂过头,"Lying on back, arms overhead",누워서 양팔 머리 위로,,o,o,o,x,x
+P049,,std,general,寝そべり,躺姿,Lying,눕기,仰向け・両腕を頭上へ,仰卧・双臂过头,"Lying on back, arms overhead",누워서 양팔 머리 위로,,o,o,o,x,o
 P050,,std,general,寝そべり,躺姿,Lying,눕기,横向き寝・頬杖,侧卧・托腮,"Lying on side, cheek on hand",옆으로 누워 턱 괴기,,o,o,o,o,x
-P051,,std,general,寝そべり,躺姿,Lying,눕기,うつ伏せ・足を上げる,俯卧・双腿上踢,"Lying face down, legs kicked up",엎드려 다리 들기,,x,x,x,o,o
+P051,,std,general,寝そべり,躺姿,Lying,눕기,うつ伏せ・足を上げる,俯卧・双腿上踢,"Lying face down, legs kicked up",엎드려 다리 들기,,x,o,x,o,o
 P052,,std,general,寝そべり,躺姿,Lying,눕기,仰向け・片膝を立てる,仰卧・单膝竖起,"Lying on back, one knee raised",누워서 한쪽 무릎 세우기,,x,x,x,x,x
 P053,P054,std,general,寝そべり,躺姿,Lying,눕기,横向き寝・腰のカーブ,侧卧・腰部曲线,"Lying on side, waist curved",옆으로 누워 허리 곡선,,o,o,o,o,o
 P054,P056,std,general,寝そべり,躺姿,Lying,눕기,仰向け・両脚を真上に,仰卧・双腿竖直上举,"Lying on back, both legs straight up",누워서 양다리 위로,digi,o,o,o,o,o

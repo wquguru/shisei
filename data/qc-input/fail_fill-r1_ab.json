@@ -1,0 +1,23 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "P018__front.jpg",
+  "P041__below.jpg",
+  "P049__below.jpg",
+  "P051__diag.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P041",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "camera not low: neck joint and full neck shown under the head, torso and knees read as a frontal/slightly high view, no chin underside"
+  },
+  {
+   "set": "P041",
+   "angle": "below",
+   "kind": "line",
+   "reason": "small ovals at both sides of the breasts could read as nipple/areola marks"
+  }
+ ]
+}
