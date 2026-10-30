@@ -11,6 +11,9 @@ the catalog schema.
 - Single-view fills from the original generator (Muse, round fill-r1): `import_fills.py` stages them, catalog
   `fills: {view: source}` points each view at its fill source, and build, review, dups, merge, pack and verify resolve
   the source per view. Batch 01 (std): 7 of 10 delivered views passed QC; std now has 294 of 365 views.
+- Pose descriptions (`desc_en`, the copyable prompt in the lightbox) for all 215 sexy, upper and duo poses, taken
+  verbatim from the descriptions the views were generated from (Muse prompt export); every pose now has one.
+  `import_descs.py` fills them, `import_series.py` keeps them on re-import and `verify.py` requires one per pose.
 - Home hero: a "making of" badge above the title links the X article on how the library was built; it replaces the
   `SHISEI · 姿勢` eyebrow, strings in all four languages.
 

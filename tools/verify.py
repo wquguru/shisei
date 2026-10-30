@@ -3,6 +3,7 @@
 
 - every non-null catalog view has a `pass` in qc.json and exists in both tiers;
 - every null view has a non-pass qc status and a matching `gaps` entry (missing, line or structure);
+- every pose has a desc_en (the prompt-ready description the gallery shows);
 - every rating override in data/rating_overrides.json is applied;
 - every redrawn pose (catalog `source`) was merged as such: qc.json `sources` names the same source;
 - every single-view fill (catalog `fills`) was merged as such (qc.json `fills`) and sits in an original set (D-09);
@@ -36,6 +37,7 @@ def main() -> int:
     ids = [p["id"] for p in cat]
     if len(ids) != len(set(ids)):
         errs.append("duplicate ids in catalog")
+    errs += [f"{p['id']}: empty desc_en (tools/import_descs.py)" for p in cat if not p.get("desc_en")]
     for p in cat:
         q = qc.get(p["id"])
         if q is None:

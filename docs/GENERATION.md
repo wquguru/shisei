@@ -53,3 +53,11 @@ P001–P022 每套 5 机位（拍摄批），另有 P050 正面，共 112 张；
   结果文件顶层 `"source": "fill-r1"`，只作用于这些格。
 - 第 1 批（std 8 套 13 格）：Muse 交 10 格、3 格四次都画错（P004 仰视、P014 正面、P015 俯视）；质检过 7 格，
   P006 仰视（不是仰视、头上像帽子）、P009 斜侧（脚成尖团、腿粘连）、P012 仰视（不是仰视）不过。
+
+## 姿势描述 desc_en（2026-10-30）
+四个系列都是「几何化英文姿势描述 + 定稿模板」文字直生，但只有 std 源包的 catalog 带了这段描述；sexy、upper、duo 三个包没导出，画廊里这三系就没有可复制的提示词。
+- 来源：让 Muse 从它的 workspace 导出 `pose-prompts-export`（`~/Downloads/pose-prompts-export/`）：模板逐字原文 `templates.md`、
+  skill 原文、每系列 `prompts_<series>.json`（`desc_final` 取自当时的 jobs 文件），以及清单、脚本、日志 `raw/`。
+  288 条全部找到，std 73 条与原 catalog 逐字一致。
+- 入库：`import_descs.py` 只填空的 `desc_en`（215 条），已有的不覆盖；`verify.py` 要求每套都有。
+- 缺口：被拒后改写重生的格（std 3、sexy 75、upper 14、duo 15）当时用的改写版文字没存档，`desc_en` 一律是定稿描述，见导出包 README。

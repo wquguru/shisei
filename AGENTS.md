@@ -64,7 +64,7 @@ site/                build output of tools/build_site.py (git-ignored; deploy th
                      _headers (Cloudflare cache rules)
 build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.py,
-                     import_series.py, import_redraws.py, import_fills.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py,
+                     import_series.py, import_redraws.py, import_fills.py, import_descs.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py,
                      export_csv.py
 docs/qc/             QC method, results and the reviewer prompts (panels, name, limbs, proportion, photo, rating)
 .claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
@@ -94,6 +94,7 @@ python3 tools/import_series.py SRC --series X --added 0.2.0 [--general Cute]   #
 python3 -I tools/import_redraws.py SRC OUT --source digi --only P019,…   # whole-set redraws, then QC (D-09)
 python3 -I tools/import_fills.py ~/Downloads/muse-fill-r1-batchNN ~/Downloads/pose-gallery-fill-r1 --source fill-r1
                                                       # single-view fills from Muse, then QC (docs/GENERATION.md)
+python3 -I tools/import_descs.py ~/Downloads/pose-prompts-export   # desc_en from the generator's own prompts
 python3 tools/qc_merge.py data/qc-input               # apply review results (docs/qc/README.md)
 python3 tools/build_site.py --link-images && python3 -m http.server 8000 -d site   # preview the gallery
 python3 -I tools/build_site.py --public --site https://shisei.indaloop.app   # deploy build (D-05); share cards need Chrome, --no-og skips
@@ -102,7 +103,7 @@ python3 -I tools/pack_release.py 0.2.0 std=… upper=… sexy=… duo=… digi=�
 
 ## 6. Way of working
 - **Adding poses or views**: drop sources into the source set → `import_series.py` (or edit the catalog: all four
-  languages, `desc_en` where possible) → QC per docs/qc/README.md (panels + name; limbs, proportion and rating on what passed)
+  languages) → `import_descs.py` for `desc_en`, the generation prompt (verify requires one) → QC per docs/qc/README.md (panels + name; limbs, proportion and rating on what passed)
   → `qc_merge.py data/qc-input` → `build_images.py` → `verify.py`
   → `export_csv.py` → CHANGELOG line and a GENERATION.md note.
 - **Translations**: ja is the original naming; zh / en / ko are translations. Keep names short (`動作・手の位置`

@@ -33,6 +33,8 @@ def main() -> None:
     path = ROOT / "data/catalog.json"
     old = json.loads(path.read_text())
     redrawn = {p["id"]: {k: p[k] for k in REDRAWN} for p in old if p.get("series") == a.series and p.get("source")}
+    # Source sets after std carry no desc_en; keep the one tools/import_descs.py filled in.
+    descs = {p["id"]: p.get("desc_en", "") for p in old if p.get("series") == a.series}
     cat = [p for p in old if p.get("series") != a.series]
     for p in src:
         q = dict(p)
@@ -40,7 +42,7 @@ def main() -> None:
         q["added_in"] = a.added
         q["rating"] = ("general" if p["class_en"] in general else "suggestive") if general else a.rating
         q["rating"] = overrides.get(p["id"], {}).get("rating", q["rating"])
-        q.setdefault("desc_en", "")
+        q["desc_en"] = p.get("desc_en") or descs.get(p["id"], "")
         q["views"] = {v: (pathlib.Path(p["views"][v]).name if p["views"].get(v) else None) for v in VIEWS}
         q.setdefault("photos", [])
         cat.append({k: q.get(k) for k in FIELDS} | {k: q[k] for k in OPTIONAL if q.get(k)} | redrawn.get(p["id"], {}))

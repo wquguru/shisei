@@ -4,6 +4,22 @@
 # tag: new | improve | announce | removed. link: an in-site path without language prefix (/, /changelog/, /pose/P001/),
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
+  - date: 2026-10-30
+    tag: improve
+    title: A prompt for every pose
+    desc: Upper-body, suggestive and two-figure poses now show a copyable English pose description in the viewer, the same one their drawings were generated from.
+    link: /
+    cta: Open the gallery
+    title_zh: 每个姿势都有提示词了
+    desc_zh: 上半身、性感和双人系列的姿势，打开大图后也能复制英文姿势描述了，就是当初生成这些线稿时用的那一段。
+    cta_zh: 打开图库
+    title_ja: すべてのポーズにプロンプト
+    desc_ja: 上半身・セクシー・2人のポーズでも、拡大表示から英語のポーズ説明をコピーできるようになりました。線画の生成に使った文そのものです。
+    cta_ja: ギャラリーを開く
+    title_ko: 모든 포즈에 프롬프트
+    desc_ko: 상반신·섹시·2인 포즈도 크게 보기에서 영어 포즈 설명을 복사할 수 있습니다. 선화를 생성할 때 쓴 바로 그 문장입니다.
+    cta_ko: 갤러리 열기
+
   - date: 2026-10-29
     tag: announce
     title: How Shisei was made
