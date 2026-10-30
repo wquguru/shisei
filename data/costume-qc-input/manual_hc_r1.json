@@ -1,0 +1,8 @@
+{
+ "note": "Human review of the r1 reviewer output (2026-10-30): C025 front belt tail darker than the other views is shading, not a different garment; C018 diag lost most of the sheer right sleeve to the matte.",
+ "reviewed": [],
+ "fails": [
+  {"id": "C025", "view": "front", "status": "pass", "reason": "belt tail shade only"},
+  {"id": "C018", "view": "diag", "status": "matte", "reason": "sheer right sleeve cut away to background"}
+ ]
+}

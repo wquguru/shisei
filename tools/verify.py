@@ -76,6 +76,7 @@ def main() -> int:
             for m in re.finditer(r"releases/download/v([\d.]+)/(shisei-[\w]+-v[\d.]+\.zip)", (ROOT / md).read_text()):
                 if m.group(1) != packs["version"] or m.group(2) not in files:
                     errs.append(f"{md}: download link {m.group(2)} is not in data/packs.json v{packs['version']}")
+    errs += check_costumes()
     for s in sorted({p["series"] for p in cat}):
         ps = [p for p in cat if p["series"] == s]
         shown = [p for p in ps if any(p["views"].values())]
@@ -84,6 +85,43 @@ def main() -> int:
     for e in errs:
         print("ERR", e)
     return 1 if errs else 0
+
+
+def check_costumes() -> list:
+    """Costume library (D-10): data/costumes.json ↔ data/costume-qc.json ↔ images/costume/{grey,alpha}/<tier>/."""
+    path = ROOT / "data/costumes.json"
+    if not path.exists():
+        return []
+    data, errs, want = json.loads(path.read_text()), [], set()
+    qc_path = ROOT / "data/costume-qc.json"
+    qc = json.loads(qc_path.read_text())["items"] if qc_path.exists() else {}
+    ids = [i["id"] for i in data["items"]]
+    if len(ids) != len(set(ids)) or set(ids) & set(data.get("retired", {}).values()):
+        errs.append("costumes.json: duplicate or reused ids")
+    for it in data["items"]:
+        for k in ("form", "desc_en", "name_zh", "name_ja", "name_en", "name_ko"):
+            if not it.get(k):
+                errs.append(f"{it['id']}: empty {k}")
+        for v in data["views"]:
+            f, st = it["views"].get(v), qc.get(it["id"], {}).get(v, {}).get("status")
+            if f:
+                if st != "pass":
+                    errs.append(f"{it['id']} {v}: in costumes.json but costume-qc says {st}")
+                for look in ("grey", "alpha"):
+                    for t in TIERS:
+                        want.add(ROOT / "images/costume" / look / t / f)
+                        if not (ROOT / "images/costume" / look / t / f).exists():
+                            errs.append(f"{it['id']} {v}: images/costume/{look}/{t}/{f} missing")
+            else:
+                if st == "pass":
+                    errs.append(f"{it['id']} {v}: costume-qc pass but view is null (run costume_build.py)")
+                if st and it.get("gaps", {}).get(v) != st:
+                    errs.append(f"{it['id']} {v}: gaps entry should be {st}")
+    errs += [f"orphan {f.relative_to(ROOT)}" for f in (ROOT / "images/costume").glob("*/*/*.webp") if f not in want]
+    shown = [i for i in data["items"] if any(i["views"].values())]
+    n = sum(1 for i in data["items"] for v in data["views"] if i["views"].get(v))
+    print(f"costume: {len(shown)}/{len(data['items'])} items shown, {n}/{len(data['items']) * len(data['views'])} views pass")
+    return errs
 
 
 if __name__ == "__main__":

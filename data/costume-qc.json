@@ -1,0 +1,1115 @@
+{
+ "views": [
+  "front",
+  "diag",
+  "side",
+  "back"
+ ],
+ "items": {
+  "C001": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C002": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C003": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C004": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C005": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C006": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C007": {
+   "front": {
+    "status": "missing",
+    "reason": "Best attempt a1 kept in work/gateD (media-generation-costume-hc-c007-front-a1...png) 3/4: open white sheer daxiu + red/dark-green vertical jianse stripes + inner cross-collar to image-left OK, but ski",
+    "by": "gen_hc_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   }
+  },
+  "C008": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C009": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C010": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C011": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C012": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 2/4: skirt band at underbust not high on chest below collarbones (point1 miss) and large ivory jacket chest panel visible above skirt (point2 miss); points3-4 ok (no waist sash, celadon pibo over b",
+    "by": "gen_hc_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   }
+  },
+  "C013": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C014": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 3/4: narrow long ivory sleeves + deep green short-sleeved banbi over + red/ivory vertical striped skirt + cross collar slanting to image-left all ok, but skirt band at natural waist not just below ",
+    "by": "gen_hc_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   }
+  },
+  "C015": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 3/4 at best on garment points 1-2 + stripes: long narrow pale yellow sleeves + red short-sleeved banbi over + mustard/dark-green vertical striped skirt present, but skirt tied at natural waist with",
+    "by": "gen_hc_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   }
+  },
+  "C016": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C017": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C018": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "sheer right sleeve cut away to background",
+    "by": "manual_hc_r1.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C019": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C020": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C021": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C022": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C023": {
+   "front": {
+    "status": "matte",
+    "reason": "pleated skirt is smeared with grey/dark blurry patches, background left in the cut-out",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "pleated skirt is smeared with grey/dark blurry patches, background left in the cut-out",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "pleated skirt is smeared with grey/dark blurry patches, background left in the cut-out",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "matte",
+    "reason": "pleated skirt is smeared with grey/dark blurry patches, background left in the cut-out",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C024": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C025": {
+   "front": {
+    "status": "pass",
+    "reason": "belt tail shade only",
+    "by": "manual_hc_r1.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C026": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C027": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C028": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C029": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C030": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C031": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C032": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C033": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C034": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "consistency",
+    "reason": "inner garment and skirt read dark/black with a dark rounded blob at the collar (looks like a mannequin neck), while front/back/diag show a white inner jacket and grey skirt",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C035": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C036": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C037": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C038": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C039": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C040": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C041": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C042": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C043": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "skirt hem fades out into a blurry, feathered edge instead of a clean cut-out",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C044": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C045": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C046": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C047": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C048": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C049": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C050": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C051": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C052": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C053": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C054": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C055": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C056": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C057": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C058": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C059": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "jacket shows a stand collar with a centre row of frog buttons, unlike the cross collar on the front panel; sheer sleeve streamers also look different. Unsure, please check",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C060": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  }
+ }
+}
