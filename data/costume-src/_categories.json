@@ -1,0 +1,62 @@
+{
+  "HC": {
+    "order": 1, "target": 60,
+    "name": {"zh": "中国历代", "ja": "中国歴代", "en": "Chinese Historical", "ko": "중국 역대"},
+    "rules": "Historically accurate Chinese clothing of the stated period. Every cross collar closes right-over-left: the wearer's left front panel lies on top and crosses to the wearer's right, so its edge runs from the neck diagonally down toward image-left and fastens under the arm on image-left; the collar forms a y whose stem slants to the lower left; never mirrored. Waistbands, skirt tops and belts sit exactly where stated, not moved to the natural waist unless stated. Natural silk, ramie or brocade textures.",
+    "negatives": "No Japanese kimono features (no wide obi belt, no obi bow), no Korean hanbok features (no very short jeogori with long ribbon), no left-over-right closing, no zippers, no lace, no glitter, no fantasy armour, no headwear."
+  },
+  "WE": {
+    "order": 2, "target": 50,
+    "name": {"zh": "世界民族", "ja": "世界の民族衣装", "en": "World Traditional", "ko": "세계 민속 의상"},
+    "rules": "Authentic everyday or festive traditional attire of the stated culture, respectful and accurate, with the correct regional silhouette, fabric and pattern.",
+    "negatives": "No mixing elements from other cultures, no costume-party exaggeration, no religious or ceremonial regalia, no headwear, no weapons."
+  },
+  "MD": {
+    "order": 3, "target": 80,
+    "name": {"zh": "现代日常", "ja": "現代デイリー", "en": "Modern Everyday", "ko": "현대 데일리"},
+    "rules": "Contemporary ready-to-wear outfit, realistic current fashion, plausible fabrics and fit.",
+    "negatives": "No recognisable brand designs, monograms or signature patterns, no school uniform, no headwear."
+  },
+  "FM": {
+    "order": 4, "target": 30,
+    "name": {"zh": "正式与礼服", "ja": "フォーマル・礼服", "en": "Formal Wear", "ko": "정장·예복"},
+    "rules": "Formal or ceremonial attire tailored to a high standard, accurate to the stated dress code.",
+    "negatives": "No recognisable designer signatures, no headwear, no veil, no bouquet."
+  },
+  "SP": {
+    "order": 5, "target": 30,
+    "name": {"zh": "运动与户外", "ja": "スポーツ・アウトドア", "en": "Sports & Outdoor", "ko": "스포츠·아웃도어"},
+    "rules": "Functional sportswear accurate to the stated sport, real technical details.",
+    "negatives": "No team crests, no sponsor logos, no national team colours copied from a real kit, no helmets, no masks, no equipment or weapons."
+  },
+  "WK": {
+    "order": 6, "target": 30,
+    "name": {"zh": "职业与制服", "ja": "職業・ユニフォーム", "en": "Workwear & Uniforms", "ko": "직업·유니폼"},
+    "rules": "Realistic generic workwear of the stated profession, practical and modest.",
+    "negatives": "No real institution, country, airline or company insignia, badges, flags or name tags, no police or military uniforms, no sexualised variants, no hats, no helmets, no tools."
+  },
+  "WH": {
+    "order": 7, "target": 30,
+    "name": {"zh": "西方历史年代", "ja": "西洋の歴史衣装", "en": "Western Historical", "ko": "서양 역사 의상"},
+    "rules": "Historically accurate clothing of the stated period and region, correct silhouette, layers and fastenings.",
+    "negatives": "No costume-party exaggeration, no mixing of periods, no headwear, no wigs."
+  },
+  "FN": {
+    "order": 8, "target": 40,
+    "name": {"zh": "原创幻想", "ja": "オリジナルファンタジー", "en": "Original Fantasy", "ko": "오리지널 판타지"},
+    "rules": "Original fantasy outfit design that is plausible as real constructed clothing or armour.",
+    "negatives": "Original design, not any existing game, anime, film or franchise character; no glowing magic effects, no wings, no helmets, no weapons, no heraldry."
+  },
+  "FS": {
+    "order": 9, "target": 20,
+    "name": {"zh": "节日与派对", "ja": "祭り・パーティー", "en": "Festive & Party", "ko": "축제·파티"},
+    "rules": "Festive or party outfit of the stated occasion, celebratory but wearable.",
+    "negatives": "No masks, no props, no headwear, no religious symbols."
+  },
+  "IN": {
+    "order": 10, "target": 30,
+    "name": {"zh": "家居、泳装、内衣", "ja": "ルームウェア・水着・下着", "en": "Lounge, Swim & Intimates", "ko": "홈웨어·수영복·속옷"},
+    "rules": "Clean catalogue presentation of the stated garment on an adult ghost mannequin.",
+    "negatives": "No body, no skin, no sheer see-through areas, no fetish styling, no props."
+  }
+}

@@ -52,6 +52,8 @@ data/qc.json         per-view and per-photo QC status, reason and file name; per
                      redrawn sets (docs/qc/README.md)
 data/qc-input/       every reviewer result behind qc.json; `qc_merge.py data/qc-input` rebuilds it exactly
 data/rating_overrides.json   per-pose rating decisions that win over the category rule (human-decided)
+data/costume-src/    costume library source (D-10): _categories.json + one <CAT>.json of forms × colorways
+data/costumes.json   costume items C###, expanded by tools/costume_cards.py; views front/back/side/diag
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
 images/line/w300/    grid tier for 1x screens and thumbnails, 300 px wide WebP q70
 images/line/w600/    grid tier for 2x / 3x screens, 600×800 WebP q72
@@ -65,7 +67,7 @@ site/                build output of tools/build_site.py (git-ignored; deploy th
 build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.py,
                      import_series.py, import_redraws.py, import_fills.py, import_descs.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py,
-                     export_csv.py
+                     export_csv.py, costume_cards.py, costume_brief.py (docs/costume/PLAN.md)
 docs/qc/             QC method, results and the reviewer prompts (panels, name, limbs, proportion, photo, rating)
 .claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
