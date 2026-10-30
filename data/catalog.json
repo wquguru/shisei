@@ -4813,14 +4813,15 @@
   "desc_en": "one arm extended forward pointing straight at the viewer with her index finger",
   "views": {
    "front": "upper_U022_front.webp",
-   "diag": null,
+   "diag": "upper_U022_diag.webp",
    "side": "upper_U022_side.webp",
    "above": "upper_U022_above.webp",
    "below": "upper_U022_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "diag": "structure"
+  "gaps": {},
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -4841,13 +4842,14 @@
   "views": {
    "front": "upper_U023_front.webp",
    "diag": "upper_U023_diag.webp",
-   "side": null,
+   "side": "upper_U023_side.webp",
    "above": "upper_U023_above.webp",
    "below": "upper_U023_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -4902,6 +4904,9 @@
   "photos": {},
   "gaps": {
    "side": "structure"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -5076,17 +5081,20 @@
   "desc_en": "leaning forward resting her forearms flat on an invisible table in front of her",
   "views": {
    "front": "upper_U032_front.webp",
-   "diag": null,
-   "side": null,
-   "above": null,
+   "diag": "upper_U032_diag.webp",
+   "side": "upper_U032_side.webp",
+   "above": "upper_U032_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "diag": "structure",
-   "side": "structure",
-   "above": "structure",
-   "below": "line"
+   "below": "structure"
+  },
+  "fills": {
+   "above": "fill-r1",
+   "below": "fill-r1",
+   "diag": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {
@@ -5105,7 +5113,7 @@
   "name_kr": "팔뚝 세워 안쪽으로",
   "desc_en": "both forearms held vertically in front of her chest, pressing inward from both sides",
   "views": {
-   "front": null,
+   "front": "upper_U033_front.webp",
    "diag": "upper_U033_diag.webp",
    "side": "upper_U033_side.webp",
    "above": "upper_U033_above.webp",
@@ -5113,8 +5121,10 @@
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
    "below": "structure"
+  },
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -5135,13 +5145,14 @@
   "views": {
    "front": "upper_U034_front.webp",
    "diag": "upper_U034_diag.webp",
-   "side": null,
+   "side": "upper_U034_side.webp",
    "above": "upper_U034_above.webp",
    "below": "upper_U034_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {

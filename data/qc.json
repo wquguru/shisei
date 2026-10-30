@@ -324,6 +324,27 @@
   },
   "U021": {
    "above": "fill-r1"
+  },
+  "U022": {
+   "diag": "fill-r1"
+  },
+  "U023": {
+   "side": "fill-r1"
+  },
+  "U025": {
+   "side": "fill-r1"
+  },
+  "U032": {
+   "above": "fill-r1",
+   "below": "fill-r1",
+   "diag": "fill-r1",
+   "side": "fill-r1"
+  },
+  "U033": {
+   "front": "fill-r1"
+  },
+  "U034": {
+   "side": "fill-r1"
   }
  },
  "views": {
@@ -4253,8 +4274,7 @@
    },
    "diag": {
     "file": "upper_U022_diag.webp",
-    "status": "structure",
-    "reason": "practically identical to front, not a diagonal view"
+    "status": "pass"
    },
    "side": {
     "file": "upper_U022_side.webp",
@@ -4280,8 +4300,7 @@
    },
    "side": {
     "file": "upper_U023_side.webp",
-    "status": "structure",
-    "reason": "practically same image as diag, not a side view"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U023_above.webp",
@@ -4327,7 +4346,7 @@
    "side": {
     "file": "upper_U025_side.webp",
     "status": "structure",
-    "reason": "practically same image as diag, not a side view"
+    "reason": "Hands are raised above the head, not covering the eyes, so 'peeking through fingers' does not read; the two hands overlap into a cluster that looks like extra/doubled fingers and thumbs."
    },
    "above": {
     "file": "upper_U025_above.webp",
@@ -4475,30 +4494,26 @@
    },
    "diag": {
     "file": "upper_U032_diag.webp",
-    "status": "structure",
-    "reason": "hands are flat blobs without fingers"
+    "status": "pass"
    },
    "side": {
     "file": "upper_U032_side.webp",
-    "status": "structure",
-    "reason": "mirror duplicate of diag with blob hands"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U032_above.webp",
-    "status": "structure",
-    "reason": "hands are mitten blobs without fingers"
+    "status": "pass"
    },
    "below": {
     "file": "upper_U032_below.webp",
-    "status": "line",
-    "reason": "table/floor line drawn at bottom (background object)"
+    "status": "structure",
+    "reason": "Not a low camera: no chin underside visible, head is seen from the top/front with bowed head like a high-angle view, nearly the same as the above panel; hands foreshortened toward the viewer."
    }
   },
   "U033": {
    "front": {
     "file": "upper_U033_front.webp",
-    "status": "structure",
-    "reason": "forearms have no hands (missing hands), torso malformed"
+    "status": "pass"
    },
    "diag": {
     "file": "upper_U033_diag.webp",
@@ -4529,8 +4544,7 @@
    },
    "side": {
     "file": "upper_U034_side.webp",
-    "status": "structure",
-    "reason": "practically mirror duplicate of diag"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U034_above.webp",

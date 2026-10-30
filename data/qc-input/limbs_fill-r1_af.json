@@ -1,0 +1,111 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "U022__diag.jpg",
+  "U023__side.jpg",
+  "U025__side.jpg",
+  "U032__above-below.jpg",
+  "U032__diag-side.jpg",
+  "U033__front.jpg",
+  "U034__side.jpg"
+ ],
+ "panels": [
+  {
+   "set": "U022",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "R arm foreshortened toward camera, hand pointing at viewer; L arm hangs down at the side, open hand at lower right",
+   "note": "Legs: two thigh stubs at the bottom edge, cut by frame; feet out of frame"
+  },
+  {
+   "set": "U023",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Near arm extends forward-left, open hand at far left; far arm bent, elbow behind chest, hand raised to the chin",
+   "note": "Torso ends at the hips, legs cropped by frame"
+  },
+  {
+   "set": "U025",
+   "angle": "side",
+   "arms": 2,
+   "hands": 3,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Near arm: shoulder ball, upper arm horizontal to elbow, forearm up to hand near the face; far arm: elbow beside it, forearm up to second hand at right; a third hand with raised fingers sits at upper left overlapping the near hand",
+   "note": "Legs cropped by frame"
+  },
+  {
+   "set": "U032",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Both shoulders to elbows to forearms; L and R hands end low, pointing down at the bottom",
+   "note": "Legs cropped by frame"
+  },
+  {
+   "set": "U032",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Both arms go from shoulders to elbows to forearms; hands spread at the bottom with fingers down",
+   "note": "Legs cropped by frame"
+  },
+  {
+   "set": "U032",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L arm shoulder ball to elbow at lower left, forearm to hand on the table at bottom; R arm elbow at centre, forearm to hand on the table at lower right",
+   "note": "Legs cropped by frame"
+  },
+  {
+   "set": "U032",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Near arm: shoulder ball, upper arm down to elbow, forearm to flat hand at lower right",
+   "note": "Far arm hidden behind the torso in side view; legs cropped by frame"
+  },
+  {
+   "set": "U033",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "R and L arms: shoulder ball, upper arm down to elbow at lower side, forearm up to a fist at each shoulder",
+   "note": "Two leg tops at the bottom edge with hip balls, cut by frame; feet out of frame"
+  },
+  {
+   "set": "U034",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Near arm hangs down from the shoulder ball to elbow to wrist, hand open at the bottom; far arm forward from under the chest, hand at far left",
+   "note": "Legs cropped by frame"
+  }
+ ],
+ "flags": [
+  {
+   "set": "U025",
+   "angle": "side",
+   "reason": "Three hands at the top for two arms: a second hand overlaps the near hand at upper left (fingers drawn twice, or an extra hand); a person should check"
+  }
+ ]
+}

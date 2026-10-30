@@ -1,0 +1,26 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "U022__diag.jpg",
+  "U023__side.jpg",
+  "U025__side.jpg",
+  "U032__below.jpg",
+  "U032__diag-side-above.jpg",
+  "U033__front.jpg",
+  "U034__side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U025",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Hands are raised above the head, not covering the eyes, so 'peeking through fingers' does not read; the two hands overlap into a cluster that looks like extra/doubled fingers and thumbs."
+  },
+  {
+   "set": "U032",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Not a low camera: no chin underside visible, head is seen from the top/front with bowed head like a high-angle view, nearly the same as the above panel; hands foreshortened toward the viewer."
+  }
+ ]
+}

@@ -173,8 +173,8 @@ U018,P018,upper,general,かわいい系,可爱系,Cute,귀여운계,指フレー
 U019,P019,upper,general,かわいい系,可爱系,Cute,귀여운계,髪を耳にかけるしぐさ,手撩耳边发,Hand at ear (hair tuck),귀 옆 머리 넘기기,,o,o,o,o,o
 U020,P020,upper,general,かわいい系,可爱系,Cute,귀여운계,両手でほっぺを包む,双手捧脸颊,Hands cupping cheeks,양손으로 볼 감싸기,,o,o,o,o,o
 U021,P021,upper,general,かわいい系,可爱系,Cute,귀여운계,敬礼ポーズ,敬礼,Salute,경례 포즈,,o,o,o,x,o
-U022,P022,upper,general,かわいい系,可爱系,Cute,귀여운계,カメラを指差す,手指镜头,Pointing at camera,카메라 가리키기,,o,x,o,o,o
-U023,P023,upper,general,かわいい系,可爱系,Cute,귀여운계,あくび伸び（片手を口元）,单手遮脸伸懒腰,"Hand at face, arm out",한 손 얼굴 앞·팔 뻗기,,o,o,x,o,o
+U022,P022,upper,general,かわいい系,可爱系,Cute,귀여운계,カメラを指差す,手指镜头,Pointing at camera,카메라 가리키기,,o,o,o,o,o
+U023,P023,upper,general,かわいい系,可爱系,Cute,귀여운계,あくび伸び（片手を口元）,单手遮脸伸懒腰,"Hand at face, arm out",한 손 얼굴 앞·팔 뻗기,,o,o,o,o,o
 U024,P024,upper,general,かわいい系,可爱系,Cute,귀여운계,片手ハート＋もう片手を胸,半心贴脸・单手抚胸,Half-heart + hand on chest,반쪽 하트+한 손 가슴,,o,o,o,o,x
 U025,P025,upper,general,かわいい系,可爱系,Cute,귀여운계,両手の指の隙間からのぞく,指缝偷看,Peeking through fingers,손가락 틈으로 보기,,o,o,x,o,o
 U026,P026,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,前屈みで前腕を寄せる,前倾双前臂聚拢,"Leaning forward, forearms together",숙여 팔뚝 모으기,digi,o,o,o,o,o
@@ -183,9 +183,9 @@ U028,P028,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴
 U029,P029,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,肩をすくめて手を下で重ねる,耸肩双手低处交握,"Shrug, hands clasped low",어깨 으쓱·손 아래 모아 잡기,,o,o,o,o,o
 U030,P030,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,腕を胸の下でクロス,双臂胸下交叉抱肘,Arms crossed under chest,양팔 가슴 아래 교차,,o,o,o,o,o
 U031,P031,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,両手を胸の下に添える,双手掌心向上托举,"Hands under chest, palms up",양손 아래서 받치기,,o,o,o,-,-
-U032,P032,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,テーブルに前腕をついて前かがみ,前倾前臂平放桌面,Leaning on forearms (table),상체 숙여 팔뚝 기대기,,o,x,x,x,x
-U033,P033,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,前腕を縦にして内へ寄せる,双前臂竖直内夹,"Forearms vertical, pressing in",팔뚝 세워 안쪽으로,,x,o,o,o,x
-U034,P034,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,片方の前腕を胸の下に,单前臂横托,One forearm under chest,한쪽 팔뚝 가로로 받치기,,o,o,x,o,o
+U032,P032,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,テーブルに前腕をついて前かがみ,前倾前臂平放桌面,Leaning on forearms (table),상체 숙여 팔뚝 기대기,,o,o,o,o,x
+U033,P033,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,前腕を縦にして内へ寄せる,双前臂竖直内夹,"Forearms vertical, pressing in",팔뚝 세워 안쪽으로,,o,o,o,o,x
+U034,P034,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,片方の前腕を胸の下に,单前臂横托,One forearm under chest,한쪽 팔뚝 가로로 받치기,,o,o,o,o,o
 U035,P035,upper,general,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,見下ろし構図で両手を鎖骨に,双手平放锁骨,Hands flat on collarbones,양손 쇄골에 얹기,,o,o,x,o,o
 U036,P036,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,両手でくびれをつかみ胸を張る,双手掐腰挺胸,"Hands on waist, chest out",양손 허리·가슴 펴기,,o,o,o,o,o
 U037,P037,upper,suggestive,胸元強調系,胸线强调系,Chest emphasis,가슴 강조계,両手で脇腹を内へ押す,双手肋侧内推,Hands pressing in at ribs,양손 옆구리서 안으로,digi,o,o,o,o,o
