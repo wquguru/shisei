@@ -1,0 +1,52 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "U035__side.jpg",
+  "U040__side.jpg",
+  "U043__diag.jpg",
+  "U044__below.jpg"
+ ],
+ "panels": [
+  {
+   "set": "U035",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 1,
+   "feet": 0,
+   "trace": "Near arm: shoulder ball -> elbow at waist -> forearm rises to wrist ball at collarbone, hand flat on collarbone. Far arm: elbow low at left with forearm rising to a second hand on the collarbone. Legs: one hip ball at bottom edge, thigh cut by frame; feet not visible.",
+   "note": "Far upper arm is hidden behind the torso; legs/feet cropped by frame (upper series, expected); far leg hidden in side view."
+  },
+  {
+   "set": "U040",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "Arm A: shoulder (upper left) -> elbow at waist -> wrist -> hand hanging beside the shin near bottom. Arm B: elbow resting on raised knee, forearm up to hand under the chin. Legs: raised thigh from the hip ball to the knee, shin dropping below; second leg runs down from the lower left. Feet cut by frame.",
+   "note": "Feet cropped by frame (expected for upper series)."
+  },
+  {
+   "set": "U043",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 0,
+   "trace": "Left arm: shoulder ball -> elbow -> forearm -> hand hanging down with fingers pointing down near the thigh. Right arm: from the neck-side shoulder -> elbow -> forearm -> hand hanging at lower right. Legs: large thigh at left from the hip, and a second leg from the centre hip running down to the right; both cut by frame.",
+   "note": "Feet cropped by frame (expected)."
+  },
+  {
+   "set": "U044",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Left arm: shoulder ball -> elbow ball -> forearm -> large open hand at bottom left. Right arm mirrors it: shoulder -> elbow -> hand at bottom right. No legs in view.",
+   "note": "Legs and feet are not visible (cropped or hidden by the torso in the below view); upper series, expected."
+  }
+ ],
+ "flags": []
+}

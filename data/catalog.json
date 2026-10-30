@@ -5180,6 +5180,9 @@
   "photos": {},
   "gaps": {
    "side": "structure"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -5310,7 +5313,10 @@
   },
   "photos": {},
   "gaps": {
-   "side": "structure"
+   "side": "line"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -5389,7 +5395,10 @@
   },
   "photos": {},
   "gaps": {
-   "diag": "structure"
+   "diag": "line"
+  },
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -5418,6 +5427,9 @@
   "gaps": {
    "above": "missing",
    "below": "structure"
+  },
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {

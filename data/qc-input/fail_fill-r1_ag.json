@@ -1,0 +1,35 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "U035__side.jpg",
+  "U040__side.jpg",
+  "U043__diag.jpg",
+  "U044__below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U035",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "arms do not connect cleanly: second arm has no upper arm/shoulder, forearms cross confusingly at the collarbone"
+  },
+  {
+   "set": "U040",
+   "angle": "side",
+   "kind": "line",
+   "reason": "small ring/bump on the chest outline reads as a nipple mark; view is also closer to a three-quarter than a true side"
+  },
+  {
+   "set": "U043",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small circle on the breast edge near the neck reads as a nipple/areola mark"
+  },
+  {
+   "set": "U044",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "torso is a malformed blob with a round belly shape, no clear prone-on-elbows posture, camera does not read as a low view"
+  }
+ ]
+}

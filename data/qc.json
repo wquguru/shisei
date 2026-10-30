@@ -345,6 +345,18 @@
   },
   "U034": {
    "side": "fill-r1"
+  },
+  "U035": {
+   "side": "fill-r1"
+  },
+  "U040": {
+   "side": "fill-r1"
+  },
+  "U043": {
+   "diag": "fill-r1"
+  },
+  "U044": {
+   "below": "fill-r1"
   }
  },
  "views": {
@@ -4567,7 +4579,7 @@
    "side": {
     "file": "upper_U035_side.webp",
     "status": "structure",
-    "reason": "practically same image as diag, not a side view"
+    "reason": "arms do not connect cleanly: second arm has no upper arm/shoulder, forearms cross confusingly at the collarbone"
    },
    "above": {
     "file": "upper_U035_above.webp",
@@ -4676,8 +4688,8 @@
    },
    "side": {
     "file": "upper_U040_side.webp",
-    "status": "structure",
-    "reason": "practically same image as diag"
+    "status": "line",
+    "reason": "small ring/bump on the chest outline reads as a nipple mark; view is also closer to a three-quarter than a true side"
    },
    "above": {
     "file": "upper_U040_above.webp",
@@ -4740,8 +4752,8 @@
    },
    "diag": {
     "file": "upper_U043_diag.webp",
-    "status": "structure",
-    "reason": "practically mirrored duplicate of front"
+    "status": "line",
+    "reason": "small circle on the breast edge near the neck reads as a nipple/areola mark"
    },
    "side": {
     "file": "upper_U043_side.webp",
@@ -4775,7 +4787,7 @@
    "below": {
     "file": "upper_U044_below.webp",
     "status": "structure",
-    "reason": "head/neck/hips malformed, forearms melted into blobs, not a readable prone-on-elbows view"
+    "reason": "torso is a malformed blob with a round belly shape, no clear prone-on-elbows posture, camera does not read as a low view"
    }
   },
   "U045": {
