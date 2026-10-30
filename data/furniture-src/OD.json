@@ -1,0 +1,412 @@
+{
+ "cat": "OD",
+ "note": "Furniture library (docs/furniture/PLAN.md). dims are real centimetres: the front prompt quotes w/d/h and intake scales every piece to one px/cm; seat is the sitting height a composited figure uses.",
+ "groups": {
+  "seat": {
+   "zh": "户外座椅",
+   "ja": "屋外の椅子",
+   "en": "Outdoor Seating",
+   "ko": "야외 좌석"
+  },
+  "lounge": {
+   "zh": "躺椅",
+   "ja": "ラウンジャー",
+   "en": "Loungers",
+   "ko": "라운저"
+  },
+  "table": {
+   "zh": "户外桌",
+   "ja": "屋外テーブル",
+   "en": "Outdoor Tables",
+   "ko": "야외 테이블"
+  }
+ },
+ "forms": [
+  {
+   "key": "park-bench",
+   "group": "seat",
+   "name": {
+    "zh": "公园长椅",
+    "ja": "公園のベンチ",
+    "en": "Park Bench",
+    "ko": "공원 벤치"
+   },
+   "desc": "a classic three-seat park bench 180 cm long with {slat} wooden slats forming the seat and backrest and two {frame} cast-iron end frames with scrolled armrests, seat 45 cm high, no plaque",
+   "keep": "180 cm bench, {slat} slat seat and back, two {frame} cast-iron end frames with scrolled arms, no plaque",
+   "checks": [
+    "木条座面和靠背",
+    "两端铸铁框架带扶手",
+    "约三人长度",
+    "没有铭牌文字"
+   ],
+   "variants": [
+    {
+     "key": "green",
+     "name": {
+      "zh": "墨绿铁架",
+      "ja": "深緑の鉄脚",
+      "en": "Green Iron",
+      "ko": "녹색 철제"
+     },
+     "vars": {
+      "slat": "weathered teak",
+      "frame": "dark green"
+     }
+    },
+    {
+     "key": "black",
+     "name": {
+      "zh": "黑铁架",
+      "ja": "黒の鉄脚",
+      "en": "Black Iron",
+      "ko": "검은 철제"
+     },
+     "vars": {
+      "slat": "honey-coloured oak",
+      "frame": "black"
+     }
+    }
+   ],
+   "dims": {
+    "w": 180,
+    "d": 60,
+    "h": 80,
+    "seat": 45
+   }
+  },
+  {
+   "key": "adirondack-chair",
+   "group": "seat",
+   "name": {
+    "zh": "阿迪朗达克椅",
+    "ja": "アディロンダックチェア",
+    "en": "Adirondack-Style Chair",
+    "ko": "애디론댁 체어"
+   },
+   "desc": "a wooden Adirondack-style garden chair painted {paint}, with a tall fan-shaped backrest of seven vertical slats with a rounded top edge, a low slatted seat sloping backward that is 35 cm high at the front edge, wide flat armrests on front posts, and two straight back legs, no cushion",
+   "keep": "{paint} painted wood, tall fan-shaped back of seven slats with a rounded top, low sloping slatted seat, wide flat armrests, no cushion",
+   "checks": [
+    "扇形高靠背、七根竖条",
+    "座面低且后倾",
+    "宽平扶手",
+    "没有坐垫"
+   ],
+   "variants": [
+    {
+     "key": "white",
+     "name": {
+      "zh": "白色",
+      "ja": "白",
+      "en": "White",
+      "ko": "화이트"
+     },
+     "bg": "dark",
+     "vars": {
+      "paint": "white"
+     }
+    },
+    {
+     "key": "sage",
+     "name": {
+      "zh": "鼠尾草绿",
+      "ja": "セージグリーン",
+      "en": "Sage Green",
+      "ko": "세이지 그린"
+     },
+     "vars": {
+      "paint": "sage green"
+     }
+    }
+   ],
+   "dims": {
+    "w": 75,
+    "d": 90,
+    "h": 95,
+    "seat": 35
+   }
+  },
+  {
+   "key": "sun-lounger",
+   "group": "lounge",
+   "name": {
+    "zh": "柚木躺椅",
+    "ja": "チーク製サンラウンジャー",
+    "en": "Teak Sun Lounger",
+    "ko": "티크 선베드"
+   },
+   "desc": "a teak sun lounger 200 cm long with a flat slatted bed of crosswise slats 35 cm high, the backrest section at the head end raised to about 45 degrees on a hidden ratchet, four short square legs with two small wheels on the head-end legs, oiled {wood}, no cushion, no towel",
+   "keep": "oiled {wood} lounger 200 cm long, crosswise slats, backrest raised about 45 degrees, four square legs, two small wheels at the head end, no cushion",
+   "checks": [
+    "横向木条床面",
+    "头部靠背约 45 度抬起",
+    "头端两个小轮",
+    "没有垫子和毛巾"
+   ],
+   "variants": [
+    {
+     "key": "teak",
+     "name": {
+      "zh": "柚木",
+      "ja": "チーク",
+      "en": "Teak",
+      "ko": "티크"
+     },
+     "vars": {
+      "wood": "honey teak"
+     }
+    }
+   ],
+   "dims": {
+    "w": 65,
+    "d": 200,
+    "h": 85,
+    "seat": 35
+   }
+  },
+  {
+   "key": "deck-chair",
+   "group": "lounge",
+   "name": {
+    "zh": "帆布折叠躺椅",
+    "ja": "キャンバスデッキチェア",
+    "en": "Folding Deck Chair",
+    "ko": "캔버스 접이식 의자"
+   },
+   "desc": "a wooden folding deck chair with a beech frame of two long side rails, a front leg frame and a rear notched rest bar, and a single sling of {canvas} canvas hung loosely between the top and front rails, set up reclined at about 45 degrees with the lowest point of the sling 35 cm high, no arms, no cushion",
+   "keep": "beech frame of two side rails, front leg frame and notched rest bar, one loose {canvas} canvas sling, reclined about 45 degrees, no arms",
+   "checks": [
+    "一块帆布兜在两根边框之间",
+    "后仰约 45 度",
+    "没有扶手",
+    "侧面看框架呈交叉"
+   ],
+   "variants": [
+    {
+     "key": "stripe",
+     "name": {
+      "zh": "蓝白条纹",
+      "ja": "紺白ストライプ",
+      "en": "Navy Stripe",
+      "ko": "네이비 스트라이프"
+     },
+     "vars": {
+      "canvas": "navy and white vertical striped"
+     }
+    },
+    {
+     "key": "mustard",
+     "name": {
+      "zh": "芥末黄",
+      "ja": "マスタード",
+      "en": "Mustard",
+      "ko": "머스터드"
+     },
+     "vars": {
+      "canvas": "plain mustard yellow"
+     }
+    }
+   ],
+   "dims": {
+    "w": 60,
+    "d": 110,
+    "h": 90,
+    "seat": 35
+   }
+  },
+  {
+   "key": "picnic-table",
+   "group": "table",
+   "probe": true,
+   "name": {
+    "zh": "连椅野餐桌",
+    "ja": "ベンチ一体型ピクニックテーブル",
+    "en": "Picnic Table with Benches",
+    "ko": "벤치 일체형 피크닉 테이블"
+   },
+   "desc": "a wooden picnic table with attached benches in {wood}, a rectangular top 180 cm long and 75 cm high made of five lengthwise planks, two long bench seats 45 cm high one on each long side, each made of two lengthwise planks, all carried by two end frames, each end frame made of two straight legs crossing in an X under the top seen from the end and a horizontal crossbar 45 cm high that runs out under both benches, empty top",
+   "keep": "{wood} picnic table, five-plank top 180 cm long, two attached two-plank benches on the long sides, two X-crossed end frames with crossbars under both benches, empty top",
+   "checks": [
+    "桌面五块长木板、约 75 厘米高",
+    "两侧各一条连体长凳、各两块板",
+    "两端各一组 X 形交叉腿",
+    "横撑同时托住两条凳"
+   ],
+   "variants": [
+    {
+     "key": "pine",
+     "name": {
+      "zh": "风化松木",
+      "ja": "風化パイン",
+      "en": "Weathered Pine",
+      "ko": "풍화 소나무"
+     },
+     "vars": {
+      "wood": "weathered grey-brown pine"
+     }
+    }
+   ],
+   "dims": {
+    "w": 180,
+    "d": 150,
+    "h": 75,
+    "seat": 45
+   }
+  },
+  {
+   "key": "porch-swing",
+   "group": "seat",
+   "probe": true,
+   "name": {
+    "zh": "带架秋千椅",
+    "ja": "スタンド付きブランコベンチ",
+    "en": "Porch Swing on Frame",
+    "ko": "프레임 그네 벤치"
+   },
+   "desc": "a two-seat wooden porch swing bench with a slatted seat 45 cm high and a slatted back, flat armrests at both ends, hung still and level by two straight {chain} chains at each end from the top beam of a free-standing A-frame stand in the same {wood}, the stand made of two A-shaped end frames joined by the top beam, no cushion",
+   "keep": "{wood} two-seat slatted swing bench with arms, two {chain} chains at each end, free-standing A-frame stand of two A-shaped end frames and a top beam, hanging still and level",
+   "checks": [
+    "秋千两端各两根链条",
+    "两端 A 字形架加顶梁",
+    "秋千静止、水平",
+    "木条座面和靠背、没有垫子"
+   ],
+   "variants": [
+    {
+     "key": "cedar",
+     "name": {
+      "zh": "雪松木",
+      "ja": "シダー",
+      "en": "Cedar",
+      "ko": "삼나무"
+     },
+     "vars": {
+      "wood": "reddish cedar",
+      "chain": "galvanised steel"
+     }
+    }
+   ],
+   "dims": {
+    "w": 220,
+    "d": 140,
+    "h": 200,
+    "seat": 45
+   }
+  },
+  {
+   "key": "rattan-sofa",
+   "group": "seat",
+   "name": {
+    "zh": "户外藤编沙发",
+    "ja": "屋外ラタンソファ",
+    "en": "Outdoor Rattan Sofa",
+    "ko": "야외 라탄 소파"
+   },
+   "desc": "a three-seat outdoor sofa of {weave} flat synthetic rattan weave over a squared frame with straight box arms and a straight back, seat 42 cm high, three plain {cushion} seat cushions and three matching back cushions, no throw pillows",
+   "keep": "{weave} synthetic rattan weave, squared frame, straight box arms, three {cushion} seat cushions and three back cushions, no throw pillows",
+   "checks": [
+    "方正藤编框、直扶手",
+    "三个座垫三个靠垫",
+    "垫子素色",
+    "没有抱枕"
+   ],
+   "variants": [
+    {
+     "key": "grey",
+     "name": {
+      "zh": "灰藤白垫",
+      "ja": "グレー・白クッション",
+      "en": "Grey & White",
+      "ko": "그레이·화이트"
+     },
+     "vars": {
+      "weave": "warm grey",
+      "cushion": "off-white"
+     }
+    }
+   ],
+   "dims": {
+    "w": 200,
+    "d": 85,
+    "h": 75,
+    "seat": 42
+   }
+  },
+  {
+   "key": "cafe-chair",
+   "group": "seat",
+   "name": {
+    "zh": "金属咖啡椅",
+    "ja": "メタルカフェチェア",
+    "en": "Metal Café Chair",
+    "ko": "메탈 카페 체어"
+   },
+   "desc": "an armless outdoor café chair of {paint} powder-coated steel with a curved backrest of five vertical flat straps under a curved top band, a flat seat of seven front-to-back flat slats 45 cm high, and four slim round legs, no cushion",
+   "keep": "{paint} powder-coated steel, armless, curved back of five vertical straps under a curved top band, seat of seven flat slats, four slim round legs",
+   "checks": [
+    "无扶手",
+    "弧形靠背五根竖条",
+    "座面七根平条",
+    "四条细圆腿"
+   ],
+   "variants": [
+    {
+     "key": "green",
+     "name": {
+      "zh": "墨绿",
+      "ja": "深緑",
+      "en": "Dark Green",
+      "ko": "다크 그린"
+     },
+     "vars": {
+      "paint": "dark green"
+     }
+    }
+   ],
+   "dims": {
+    "w": 45,
+    "d": 50,
+    "h": 82,
+    "seat": 45
+   }
+  },
+  {
+   "key": "beach-lounger",
+   "group": "lounge",
+   "name": {
+    "zh": "沙滩躺椅",
+    "ja": "ビーチラウンジャー",
+    "en": "Beach Lounger",
+    "ko": "비치 라운저"
+   },
+   "desc": "a lightweight beach lounger 190 cm long with a {frame} aluminium tube frame and a tight {fabric} mesh fabric bed 30 cm high, the backrest section raised to about 50 degrees, four short tube legs, no cushion, no towel, no parasol",
+   "keep": "{frame} aluminium tube frame, tight {fabric} mesh bed, backrest raised about 50 degrees, four short tube legs, no cushion",
+   "checks": [
+    "铝管框架、网布床面",
+    "靠背约 50 度抬起",
+    "床面低、约 30 厘米",
+    "没有毛巾和遮阳伞"
+   ],
+   "variants": [
+    {
+     "key": "navy",
+     "name": {
+      "zh": "银框藏青网布",
+      "ja": "シルバー枠・紺メッシュ",
+      "en": "Silver & Navy",
+      "ko": "실버·네이비"
+     },
+     "vars": {
+      "frame": "silver",
+      "fabric": "navy blue"
+     }
+    }
+   ],
+   "dims": {
+    "w": 65,
+    "d": 190,
+    "h": 80,
+    "seat": 30
+   }
+  }
+ ]
+}

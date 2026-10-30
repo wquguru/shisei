@@ -85,6 +85,38 @@ def prop_parts(cats: dict, cat_list: list) -> list:
     ]
 
 
+def furniture_parts(cats: dict, cat_list: list) -> list:
+    return [
+        "## 规则",
+        "1. 一次一张图。每件的顺序固定：正面 → 背面（参考正面）→ 侧面（参考正面 + 背面）→ 斜侧（参考正面 + 侧面）"
+        "→ 俯视（参考正面 + 斜侧）。",
+        "2. 正面最多 3 次，其余视角各最多 2 次。每张按该件的“要点”逐条自查；正面不过，这件后面的视角不做。",
+        "3. 画面里只有这一件家具：没有人、地板、地毯、墙、别的家具；卡片没写的靠垫、毯子、摆件都不加。",
+        "4. 腿、横枨、靠背条、坐垫的数量和卡片一致，五张图之间也一致；比例按卡片写的尺寸（座高、桌高）。",
+        "5. 背面不能是正面的镜像；侧面、斜侧如果画成了另一侧，图可以留，但在 note 里写 flipped。",
+        "6. 俯视要看清座面 / 桌面 / 床面，像从站着的人眼高度往下看，不是正顶视。",
+        "7. 第 1 次没画对，把漏掉的那条要点改写成更具体的结构句再试，改写过的提示词记进 attempts.csv。",
+        "",
+        "## 正面模板（每件把 {desc} {w} {d} {h} {bg} 换成该件的字段，{rules} {negatives} 换成所属大类的两行）",
+        "```",
+        K.FURN_FRONT,
+        "```",
+        f"- {{bg}}：浅灰 = “{K.BG['light']}”，中灰（白色、浅色家具用）= “{K.BG['dark']}”",
+        "大类规则：",
+        cat_rules(cats, cat_list),
+        "",
+        "## 视角说明（转视角模板里的 {view}）",
+        *[f"- {v}：{K.FURN_VIEW_TEXT[v]}" for v in ("back", "side", "diag", "above")],
+        "",
+        "## 转视角模板（背面 / 侧面 / 斜侧 / 俯视通用，{keep} 用每件的“保持不变”）",
+        "```",
+        K.FURN_TURN,
+        "```",
+        "- {refs}：" + "；".join(f"{VIEW_ZH[v]}用“{K.FURN_REFS[v]}”" for v in ("back", "side", "diag", "above")),
+        f"- {{back_rule}}：只有背面加这句：{K.FURN_BACK_RULE.strip()}",
+    ]
+
+
 def light_parts(cats: dict, cat_list: list) -> list:
     return [
         "## 规则",
@@ -149,6 +181,10 @@ def item_lines(lib: str, i: dict) -> list:
     head = f"### {i['id']} {i['cat']} · {i['group_zh']} · {i['name_zh']}"
     if lib == "scene":
         meta = [f"light：{i['light']}"]
+    elif lib == "furniture":
+        dm = i["dims"]
+        meta = [f"尺寸：w = {dm['w']}，d = {dm['d']}，h = {dm['h']}" + (f"（座高 {dm['seat']}）" if dm.get("seat") else "")
+                + f"；bg = {'中灰' if i.get('bg') == 'dark' else '浅灰'}"]
     elif lib == "light":
         meta = [f"setting：{i['setting']}"]
     elif lib == "animal":
@@ -163,7 +199,7 @@ def item_lines(lib: str, i: dict) -> list:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("lib", choices=("scene", "prop", "light", "animal"))
+    ap.add_argument("lib", choices=("scene", "prop", "furniture", "light", "animal"))
     ap.add_argument("cat", nargs="?", default="")
     ap.add_argument("out")
     ap.add_argument("--only", default="")
@@ -201,7 +237,7 @@ def main() -> None:
          + ("这是试验轮：每张都要认真自查，notes.md 写清楚哪类稳、哪类不稳、改写后怎样，这份记录决定正式生产的模板。"
             if a.probe else ""),
          "", *gate,
-         *{"scene": scene_parts, "prop": prop_parts, "light": light_parts, "animal": animal_parts}[a.lib](cats, cat_list),
+         *{"scene": scene_parts, "prop": prop_parts, "furniture": furniture_parts, "light": light_parts, "animal": animal_parts}[a.lib](cats, cat_list),
          "", "## 交付",
          f"打包成 {run}.zip（太大可以分成 {run}-part1.zip、part2…）：",
          f"- img/<ID>_<view>.png，view = {' / '.join(views)}，例如 img/{items[0]['id']}_{views[0]}.png；1344×1792 PNG"

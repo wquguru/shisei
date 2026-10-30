@@ -74,6 +74,40 @@ PROP_TURN = (
 PROP_BACK_RULE = ("The back is the object's real back, not a mirror of the front: front-only details such as "
                   "screens, dials or decorations do not continue onto the back. ")
 
+# ---- furniture (F###): what a posed figure sits, leans or lies on --------------------------------------------
+# Split out of the prop library because furniture is composited *under* a figure: it needs the pose library's
+# high-angle view (seat and table tops) and real dimensions, so intake can scale every piece to one px/cm and a
+# figure sits at the right height. Below is skipped: furniture seen from the floor is rarely useful.
+FURN_VIEWS = ("front", "back", "side", "diag", "above")
+FURN_VIEW_TEXT = {
+    "back": "a straight back view showing the full back of the piece",
+    "side": "a true 90-degree side profile showing the piece's left side, with its front pointing toward "
+            "image-left, showing seat depth, height and the profile of the back and legs",
+    "diag": "a three-quarter view with the camera moved 45 degrees around toward the piece's left side, so the "
+            "front and the left side are both visible and the front turns slightly toward image-left",
+    "above": "a high-angle view from about 30 degrees above, in front and slightly to the left (the pose library's "
+             "above view), so the seat, top surface or mattress is clearly visible",
+}
+FURN_REFS = {"back": "Image 1 is the front view.",
+             "side": "Image 1 is the front view and image 2 is the back view.",
+             "diag": "Image 1 is the front view and image 2 is the side view.",
+             "above": "Image 1 is the front view and image 2 is the three-quarter view."}
+FURN_FRONT = (
+    "Product photograph of {desc}, real size about {w} cm wide, {d} cm deep and {h} cm high, a single piece of "
+    "furniture standing on an invisible level floor with its feet or base on a flat line and no visible floor, "
+    "straight front view, camera level with the middle of the piece, centered, the piece filling about 75% of the "
+    "frame width or height, whichever is reached first, soft even studio lighting, {bg}, accurate material colour "
+    "and texture, visible joinery, upholstery seams and hardware, 3:4 vertical, catalogue style.\n{rules}\n"
+    "No person, no mannequin, no hands, no floor, no rug, no wall, no shadow on a floor, no other furniture, no "
+    "objects on or around it unless stated, no text, no logo, no brand mark, no watermark. {negatives}")
+FURN_TURN = (
+    "{refs} They are product photographs of one piece of furniture. Show exactly the same piece from {view}. Keep "
+    "these identical: {keep}; same proportions, real size, colours, materials, number of legs, slats and "
+    "cushions. Add nothing the reference images do not support. {back_rule}Same background, lighting and scale, "
+    "3:4 vertical. No person, no floor, no text, no logo.")
+FURN_BACK_RULE = ("The back is the piece's real back, not a mirror of the front: upholstered backs show their "
+                  "back panel, open frames show the back of the joinery. ")
+
 # ---- animals (A###): probe only until the style is decided (docs/animal/PLAN.md, D-14) -----------------------
 # Same five camera positions as the pose library, so an animal reference can sit beside a pose reference.
 ANIMAL_VIEWS = ("front", "diag", "side", "above", "below")
@@ -142,6 +176,8 @@ LIBS = {
               "label": "场景库", "plan": "docs/scene/PLAN.md"},
     "prop": {"letter": "T", "src": "data/prop-src", "out": "data/props.json", "views": PROP_VIEWS,
              "label": "道具库", "plan": "docs/prop/PLAN.md"},
+    "furniture": {"letter": "F", "src": "data/furniture-src", "out": "data/furniture.json", "views": FURN_VIEWS,
+                  "label": "家具库", "plan": "docs/furniture/PLAN.md"},
     "light": {"letter": "L", "src": "data/light-src", "out": "data/lights.json", "views": LIGHT_VIEWS,
               "label": "光线库", "plan": "docs/light/PLAN.md"},
     "animal": {"letter": "A", "src": "data/animal-src", "out": "data/animals.json", "views": ANIMAL_VIEWS,

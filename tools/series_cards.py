@@ -5,7 +5,7 @@ The scene, prop and animal counterpart of costume_cards.py, with the same ID rul
 recorded for its `cat:form:variant` key, new keys take the next free number, a dropped key keeps its ID retired, and
 generated fields (views, gaps) carry over. Per-library differences come from series_kit.LIBS.
 
-Usage: python3 -I tools/series_cards.py scene|prop|light|animal [--check]   (--check validates without writing)
+Usage: python3 -I tools/series_cards.py scene|prop|furniture|light|animal [--check]   (--check validates without writing)
 """
 import json, pathlib, re, sys
 
@@ -46,6 +46,8 @@ def main() -> None:
         groups = src.get("groups", {})
         for form in src["forms"]:
             assert len(form["checks"]) >= 3, form["key"]
+            if lib == "furniture":  # intake scales by these, and the front prompt quotes them
+                assert all(isinstance(form.get("dims", {}).get(k), int) for k in "wdh"), f"{form['key']}: dims w/d/h"
             assert form.get("group") in groups, f"{cat}:{form['key']}: group {form.get('group')!r} not in groups"
             for v in form["variants"]:
                 key = f"{cat}:{form['key']}:{v['key']}"
@@ -61,7 +63,7 @@ def main() -> None:
                 vars_ = v.get("vars", {})
                 # library-specific fields: scenes carry the variant's light, props their placement and size,
                 # animals their species; anything not set falls back to the form, then to a default
-                extra = {k: v.get(k, form.get(k)) for k in ("light", "season", "place", "size", "species", "tail", "coat", "setting", "bg")
+                extra = {k: v.get(k, form.get(k)) for k in ("light", "season", "place", "size", "species", "tail", "coat", "setting", "dims", "bg")
                          if v.get(k, form.get(k)) is not None}
                 for k in ("light", "setting"):
                     if k in extra:

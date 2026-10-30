@@ -2669,906 +2669,6 @@
   },
   {
    "id": "T081",
-   "key": "FN:dining-chair:oak",
-   "cat": "FN",
-   "form": "dining-chair",
-   "group": "chair",
-   "rating": "general",
-   "probe": true,
-   "place": "stand",
-   "size": "L",
-   "name_zh": "实木餐椅（橡木）",
-   "name_ja": "木製ダイニングチェア（オーク）",
-   "name_en": "Wooden Dining Chair (Oak)",
-   "name_ko": "원목 식탁 의자 (오크)",
-   "group_zh": "椅子",
-   "group_ja": "椅子",
-   "group_en": "Chairs",
-   "group_ko": "의자",
-   "desc_en": "a simple solid light oak dining chair with four straight square legs, a flat seat 45 cm high, a backrest of five vertical spindles under a curved top rail, and low stretchers joining the legs, smooth oiled finish",
-   "keep_en": "light oak chair, four square legs, flat seat, five vertical spindles under a curved top rail, low stretchers",
-   "checks": [
-    "四条直腿加横撑",
-    "靠背五根竖条",
-    "座面平、约 45 厘米高",
-    "没有坐垫"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T082",
-   "key": "FN:dining-chair:walnut",
-   "cat": "FN",
-   "form": "dining-chair",
-   "group": "chair",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "实木餐椅（胡桃木）",
-   "name_ja": "木製ダイニングチェア（ウォルナット）",
-   "name_en": "Wooden Dining Chair (Walnut)",
-   "name_ko": "원목 식탁 의자 (월넛)",
-   "group_zh": "椅子",
-   "group_ja": "椅子",
-   "group_en": "Chairs",
-   "group_ko": "의자",
-   "desc_en": "a simple solid dark walnut dining chair with four straight square legs, a flat seat 45 cm high, a backrest of five vertical spindles under a curved top rail, and low stretchers joining the legs, smooth oiled finish",
-   "keep_en": "dark walnut chair, four square legs, flat seat, five vertical spindles under a curved top rail, low stretchers",
-   "checks": [
-    "四条直腿加横撑",
-    "靠背五根竖条",
-    "座面平、约 45 厘米高",
-    "没有坐垫"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T083",
-   "key": "FN:armchair:mustard",
-   "cat": "FN",
-   "form": "armchair",
-   "group": "chair",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "单人扶手沙发椅（芥末黄）",
-   "name_ja": "一人掛けアームチェア（マスタード）",
-   "name_en": "Upholstered Armchair (Mustard)",
-   "name_ko": "1인용 암체어 (머스터드)",
-   "group_zh": "椅子",
-   "group_ja": "椅子",
-   "group_en": "Chairs",
-   "group_ko": "의자",
-   "desc_en": "a mid-century upholstered armchair in mustard yellow wool with a tight seat cushion 42 cm high, a gently reclined padded back, wide padded arms, and four tapered splayed wooden legs in walnut",
-   "keep_en": "mustard yellow wool armchair, tight seat cushion, reclined padded back, wide padded arms, four tapered splayed walnut legs",
-   "checks": [
-    "宽扶手、软包",
-    "靠背略后仰",
-    "四条外撇锥形木腿",
-    "单人"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T084",
-   "key": "FN:armchair:green",
-   "cat": "FN",
-   "form": "armchair",
-   "group": "chair",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "单人扶手沙发椅（墨绿丝绒）",
-   "name_ja": "一人掛けアームチェア（深緑ベルベット）",
-   "name_en": "Upholstered Armchair (Green Velvet)",
-   "name_ko": "1인용 암체어 (딥그린 벨벳)",
-   "group_zh": "椅子",
-   "group_ja": "椅子",
-   "group_en": "Chairs",
-   "group_ko": "의자",
-   "desc_en": "a mid-century upholstered armchair in deep green velvet with a tight seat cushion 42 cm high, a gently reclined padded back, wide padded arms, and four tapered splayed wooden legs in dark walnut",
-   "keep_en": "deep green velvet armchair, tight seat cushion, reclined padded back, wide padded arms, four tapered splayed dark walnut legs",
-   "checks": [
-    "宽扶手、软包",
-    "靠背略后仰",
-    "四条外撇锥形木腿",
-    "单人"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T085",
-   "key": "FN:office-chair:black",
-   "cat": "FN",
-   "form": "office-chair",
-   "group": "chair",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "办公转椅（黑色）",
-   "name_ja": "オフィスチェア（黒）",
-   "name_en": "Office Swivel Chair (Black)",
-   "name_ko": "사무용 회전의자 (블랙)",
-   "group_zh": "椅子",
-   "group_ja": "椅子",
-   "group_en": "Chairs",
-   "group_ko": "의자",
-   "desc_en": "a generic office swivel chair with a black mesh backrest, a padded black seat 48 cm high, fixed black armrests, a single central gas-lift column and a five-star base with five black castors",
-   "keep_en": "black mesh back, padded black seat, fixed armrests, central gas-lift column, five-star base with five castors",
-   "checks": [
-    "五星脚、五个轮子",
-    "网布靠背",
-    "中间一根升降杆",
-    "没有品牌标识"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T086",
-   "key": "FN:rattan-chair:natural",
-   "cat": "FN",
-   "form": "rattan-chair",
-   "group": "chair",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "藤编椅（原色）",
-   "name_ja": "ラタンチェア（ナチュラル）",
-   "name_en": "Rattan Lounge Chair (Natural)",
-   "name_ko": "라탄 체어 (내추럴)",
-   "group_zh": "椅子",
-   "group_ja": "椅子",
-   "group_en": "Chairs",
-   "group_ko": "의자",
-   "desc_en": "a natural rattan lounge chair with a rounded woven backrest that curves into the arms, an open-weave seat 40 cm high with a plain off-white linen seat cushion, and four bent-rattan legs",
-   "keep_en": "natural rattan, rounded woven back curving into the arms, off-white linen seat cushion, four bent-rattan legs",
-   "checks": [
-    "藤编、可见编织纹理",
-    "靠背弧形连到扶手",
-    "一个素色坐垫",
-    "四条弯藤腿"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T087",
-   "key": "FN:folding-chair:black",
-   "cat": "FN",
-   "form": "folding-chair",
-   "group": "chair",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "折叠椅（黑框木座）",
-   "name_ja": "折りたたみ椅子（黒フレーム・木座）",
-   "name_en": "Folding Chair (Black & Wood)",
-   "name_ko": "접이식 의자 (블랙·우드)",
-   "group_zh": "椅子",
-   "group_ja": "椅子",
-   "group_en": "Chairs",
-   "group_ko": "의자",
-   "desc_en": "an unfolded folding chair with a matte black steel tube frame crossed in an X at each side, a flat beech plywood seat 45 cm high and a flat matching backrest panel",
-   "keep_en": "matte black steel tube frame with X-crossed sides, flat beech plywood seat and backrest panel, unfolded",
-   "checks": [
-    "两侧 X 形交叉钢管",
-    "展开状态",
-    "平座面、平靠背",
-    "没有坐垫"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T088",
-   "key": "FN:bar-stool:black-oak",
-   "cat": "FN",
-   "form": "bar-stool",
-   "group": "stool",
-   "rating": "general",
-   "probe": true,
-   "place": "stand",
-   "size": "L",
-   "name_zh": "吧台高脚凳（黑腿橡木面）",
-   "name_ja": "バースツール（黒脚・オーク座）",
-   "name_en": "Bar Stool (Black & Oak)",
-   "name_ko": "바 스툴 (블랙·오크)",
-   "group_zh": "凳子与长凳",
-   "group_ja": "スツール・ベンチ",
-   "group_en": "Stools & Benches",
-   "group_ko": "스툴·벤치",
-   "desc_en": "a backless bar stool with a round oak seat 75 cm high, four slim matte black metal legs splaying slightly outward, and a ring footrest about 25 cm below the seat joining all four legs",
-   "keep_en": "round oak seat, four slim matte black legs splayed slightly, ring footrest below the seat, backless",
-   "checks": [
-    "无靠背",
-    "圆座面约 75 厘米高",
-    "四条细腿",
-    "一圈脚踏环"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T089",
-   "key": "FN:bar-stool:brass-leather",
-   "cat": "FN",
-   "form": "bar-stool",
-   "group": "stool",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "吧台高脚凳（黄铜腿皮面）",
-   "name_ja": "バースツール（真鍮脚・革座）",
-   "name_en": "Bar Stool (Brass & Leather)",
-   "name_ko": "바 스툴 (황동·가죽)",
-   "group_zh": "凳子与长凳",
-   "group_ja": "スツール・ベンチ",
-   "group_en": "Stools & Benches",
-   "group_ko": "스툴·벤치",
-   "desc_en": "a backless bar stool with a round cognac leather padded seat 75 cm high, four slim brushed brass metal legs splaying slightly outward, and a ring footrest about 25 cm below the seat joining all four legs",
-   "keep_en": "round cognac leather padded seat, four slim brushed brass legs splayed slightly, ring footrest below the seat, backless",
-   "checks": [
-    "无靠背",
-    "圆座面约 75 厘米高",
-    "四条细腿",
-    "一圈脚踏环"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T090",
-   "key": "FN:wooden-stool:pine",
-   "cat": "FN",
-   "form": "wooden-stool",
-   "group": "stool",
-   "rating": "general",
-   "place": "stand",
-   "size": "M",
-   "name_zh": "木方凳（松木）",
-   "name_ja": "木の角スツール（パイン）",
-   "name_en": "Square Wooden Stool (Pine)",
-   "name_ko": "원목 스툴 (소나무)",
-   "group_zh": "凳子与长凳",
-   "group_ja": "スツール・ベンチ",
-   "group_en": "Stools & Benches",
-   "group_ko": "스툴·벤치",
-   "desc_en": "a low square wooden stool in pale pine with a thick flat square seat 45 cm high and four straight square legs joined by stretchers on all four sides",
-   "keep_en": "pale pine stool, thick flat square seat, four straight legs, stretchers on all sides",
-   "checks": [
-    "方形厚座面",
-    "四条直腿",
-    "四面都有横撑",
-    "约 45 厘米高"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T091",
-   "key": "FN:park-bench:green",
-   "cat": "FN",
-   "form": "park-bench",
-   "group": "stool",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "公园长椅（墨绿铁架）",
-   "name_ja": "公園のベンチ（深緑の鉄脚）",
-   "name_en": "Park Bench (Green Iron)",
-   "name_ko": "공원 벤치 (녹색 철제)",
-   "group_zh": "凳子与长凳",
-   "group_ja": "スツール・ベンチ",
-   "group_en": "Stools & Benches",
-   "group_ko": "스툴·벤치",
-   "desc_en": "a classic three-seat park bench 180 cm long with weathered teak wooden slats forming the seat and backrest and two dark green cast-iron end frames with scrolled armrests, seat 45 cm high, no plaque",
-   "keep_en": "180 cm bench, weathered teak slat seat and back, two dark green cast-iron end frames with scrolled arms, no plaque",
-   "checks": [
-    "木条座面和靠背",
-    "两端铸铁框架带扶手",
-    "约三人长度",
-    "没有铭牌文字"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T092",
-   "key": "FN:park-bench:black",
-   "cat": "FN",
-   "form": "park-bench",
-   "group": "stool",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "公园长椅（黑铁架）",
-   "name_ja": "公園のベンチ（黒の鉄脚）",
-   "name_en": "Park Bench (Black Iron)",
-   "name_ko": "공원 벤치 (검은 철제)",
-   "group_zh": "凳子与长凳",
-   "group_ja": "スツール・ベンチ",
-   "group_en": "Stools & Benches",
-   "group_ko": "스툴·벤치",
-   "desc_en": "a classic three-seat park bench 180 cm long with honey-coloured oak wooden slats forming the seat and backrest and two black cast-iron end frames with scrolled armrests, seat 45 cm high, no plaque",
-   "keep_en": "180 cm bench, honey-coloured oak slat seat and back, two black cast-iron end frames with scrolled arms, no plaque",
-   "checks": [
-    "木条座面和靠背",
-    "两端铸铁框架带扶手",
-    "约三人长度",
-    "没有铭牌文字"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T093",
-   "key": "FN:piano-bench:black",
-   "cat": "FN",
-   "form": "piano-bench",
-   "group": "stool",
-   "rating": "general",
-   "place": "stand",
-   "size": "M",
-   "bg": "light",
-   "name_zh": "琴凳（黑色）",
-   "name_ja": "ピアノベンチ（黒）",
-   "name_en": "Piano Bench (Black)",
-   "name_ko": "피아노 벤치 (블랙)",
-   "group_zh": "凳子与长凳",
-   "group_ja": "スツール・ベンチ",
-   "group_en": "Stools & Benches",
-   "group_ko": "스툴·벤치",
-   "desc_en": "a rectangular two-person piano bench in glossy black lacquer with a padded black leather top 50 cm high and four turned legs",
-   "keep_en": "glossy black lacquer bench, padded black leather top, four turned legs, rectangular",
-   "checks": [
-    "长方形、可坐两人",
-    "黑色亮漆",
-    "皮面软垫",
-    "四条车旋腿"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T094",
-   "key": "FN:sofa-3:grey",
-   "cat": "FN",
-   "form": "sofa-3",
-   "group": "sofa",
-   "rating": "general",
-   "probe": true,
-   "place": "stand",
-   "size": "L",
-   "name_zh": "三人沙发（浅灰）",
-   "name_ja": "三人掛けソファ（ライトグレー）",
-   "name_en": "Three-seat Sofa (Light Grey)",
-   "name_ko": "3인 소파 (라이트 그레이)",
-   "group_zh": "沙发与躺椅",
-   "group_ja": "ソファ・寝椅子",
-   "group_en": "Sofas & Loungers",
-   "group_ko": "소파·라운지",
-   "desc_en": "a modern three-seat sofa in light grey woven fabric with three loose seat cushions 44 cm high, three back cushions, low square arms, and short black block legs, about 210 cm wide",
-   "keep_en": "light grey woven fabric three-seat sofa, three seat and three back cushions, low square arms, short black block legs",
-   "checks": [
-    "三个座垫、三个靠垫",
-    "方形低扶手",
-    "短方腿",
-    "没有抱枕和毯子"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T095",
-   "key": "FN:sofa-3:cognac",
-   "cat": "FN",
-   "form": "sofa-3",
-   "group": "sofa",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "三人沙发（焦糖皮）",
-   "name_ja": "三人掛けソファ（キャメルレザー）",
-   "name_en": "Three-seat Sofa (Cognac Leather)",
-   "name_ko": "3인 소파 (코냑 가죽)",
-   "group_zh": "沙发与躺椅",
-   "group_ja": "ソファ・寝椅子",
-   "group_en": "Sofas & Loungers",
-   "group_ko": "소파·라운지",
-   "desc_en": "a modern three-seat sofa in cognac brown leather with three loose seat cushions 44 cm high, three back cushions, low square arms, and short black block legs, about 210 cm wide",
-   "keep_en": "cognac brown leather three-seat sofa, three seat and three back cushions, low square arms, short black block legs",
-   "checks": [
-    "三个座垫、三个靠垫",
-    "方形低扶手",
-    "短方腿",
-    "没有抱枕和毯子"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T096",
-   "key": "FN:chaise:blush",
-   "cat": "FN",
-   "form": "chaise",
-   "group": "sofa",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "贵妃榻（藕粉丝绒）",
-   "name_ja": "シェーズロング（ピンクベルベット）",
-   "name_en": "Chaise Longue (Blush Velvet)",
-   "name_ko": "셰이즈 롱 (블러시 벨벳)",
-   "group_zh": "沙发与躺椅",
-   "group_ja": "ソファ・寝椅子",
-   "group_en": "Sofas & Loungers",
-   "group_ko": "소파·라운지",
-   "desc_en": "a classic chaise longue in dusty pink velvet with a long padded seat 40 cm high, a raised scrolled headrest at the left end, a low partial backrest along the back, and four short turned gilded legs, about 180 cm long",
-   "keep_en": "dusty pink velvet chaise, long padded seat, scrolled headrest at the left end, low partial back, four turned gilded legs",
-   "checks": [
-    "长座面可躺",
-    "一端高起卷头",
-    "半截靠背",
-    "四条短车旋腿"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T097",
-   "key": "FN:chaise:ivory",
-   "cat": "FN",
-   "form": "chaise",
-   "group": "sofa",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "bg": "dark",
-   "name_zh": "贵妃榻（象牙白）",
-   "name_ja": "シェーズロング（アイボリー）",
-   "name_en": "Chaise Longue (Ivory)",
-   "name_ko": "셰이즈 롱 (아이보리)",
-   "group_zh": "沙发与躺椅",
-   "group_ja": "ソファ・寝椅子",
-   "group_en": "Sofas & Loungers",
-   "group_ko": "소파·라운지",
-   "desc_en": "a classic chaise longue in ivory linen with a long padded seat 40 cm high, a raised scrolled headrest at the left end, a low partial backrest along the back, and four short turned dark walnut legs, about 180 cm long",
-   "keep_en": "ivory linen chaise, long padded seat, scrolled headrest at the left end, low partial back, four turned dark walnut legs",
-   "checks": [
-    "长座面可躺",
-    "一端高起卷头",
-    "半截靠背",
-    "四条短车旋腿"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T098",
-   "key": "FN:bean-bag:teddy",
-   "cat": "FN",
-   "form": "bean-bag",
-   "group": "sofa",
-   "rating": "general",
-   "place": "stand",
-   "size": "M",
-   "bg": "dark",
-   "name_zh": "懒人豆袋（奶白羊羔绒）",
-   "name_ja": "ビーズクッション（ボア・オフホワイト）",
-   "name_en": "Bean Bag (Cream Teddy)",
-   "name_ko": "빈백 (크림 테디)",
-   "group_zh": "沙发与躺椅",
-   "group_ja": "ソファ・寝椅子",
-   "group_en": "Sofas & Loungers",
-   "group_ko": "소파·라운지",
-   "desc_en": "a large pear-shaped bean bag in cream teddy fleece, slumped naturally with a soft dent in the seat, visible seams running from top to base",
-   "keep_en": "cream teddy fleece pear-shaped bean bag, soft seat dent, vertical seams",
-   "checks": [
-    "梨形",
-    "座位处自然凹陷",
-    "竖向缝线",
-    "没有标签"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T099",
-   "key": "FN:quanyi:huanghuali",
-   "cat": "FN",
-   "form": "quanyi",
-   "group": "classic",
-   "rating": "general",
-   "probe": true,
-   "place": "stand",
-   "size": "L",
-   "name_zh": "明式圈椅（黄花梨色）",
-   "name_ja": "明式圏椅（黄花梨）",
-   "name_en": "Ming Horseshoe Armchair (Huanghuali)",
-   "name_ko": "명식 권의 (황화리)",
-   "group_zh": "中式古典家具",
-   "group_ja": "中国古典家具",
-   "group_en": "Chinese Classical Furniture",
-   "group_ko": "중국 고전 가구",
-   "desc_en": "a Ming-style Chinese horseshoe armchair (quanyi) in golden-brown huanghuali rosewood: one continuous curved top rail that sweeps from the back down and forward to form both armrests ending in outward-turned hand grips, an S-curved solid back splat with a small plain carved panel, a woven soft-mat seat 48 cm high framed in wood, four round legs with a footrest stretcher at the front, clean lines with no inlay",
-   "keep_en": "golden-brown huanghuali rosewood quanyi, one continuous horseshoe rail forming back and arms with outward hand grips, S-curved back splat, framed seat, four round legs, front footrest stretcher",
-   "checks": [
-    "一条连续的马蹄形扶手（靠背到扶手不断开）",
-    "S 形单板靠背",
-    "前脚踏横枨",
-    "圆腿、无镶嵌"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T100",
-   "key": "FN:quanyi:zitan",
-   "cat": "FN",
-   "form": "quanyi",
-   "group": "classic",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "明式圈椅（紫檀色）",
-   "name_ja": "明式圏椅（紫檀）",
-   "name_en": "Ming Horseshoe Armchair (Zitan)",
-   "name_ko": "명식 권의 (자단)",
-   "group_zh": "中式古典家具",
-   "group_ja": "中国古典家具",
-   "group_en": "Chinese Classical Furniture",
-   "group_ko": "중국 고전 가구",
-   "desc_en": "a Ming-style Chinese horseshoe armchair (quanyi) in deep purple-black zitan: one continuous curved top rail that sweeps from the back down and forward to form both armrests ending in outward-turned hand grips, an S-curved solid back splat with a small plain carved panel, a woven soft-mat seat 48 cm high framed in wood, four round legs with a footrest stretcher at the front, clean lines with no inlay",
-   "keep_en": "deep purple-black zitan quanyi, one continuous horseshoe rail forming back and arms with outward hand grips, S-curved back splat, framed seat, four round legs, front footrest stretcher",
-   "checks": [
-    "一条连续的马蹄形扶手（靠背到扶手不断开）",
-    "S 形单板靠背",
-    "前脚踏横枨",
-    "圆腿、无镶嵌"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T101",
-   "key": "FN:guanmaoyi:jichi",
-   "cat": "FN",
-   "form": "guanmaoyi",
-   "group": "classic",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "南官帽椅（鸡翅木色）",
-   "name_ja": "南官帽椅（鶏翅木）",
-   "name_en": "Southern Official's Hat Chair (Jichimu)",
-   "name_ko": "남관모의 (계시목)",
-   "group_zh": "中式古典家具",
-   "group_ja": "中国古典家具",
-   "group_en": "Chinese Classical Furniture",
-   "group_ko": "중국 고전 가구",
-   "desc_en": "a Ming-style southern official's hat chair (nanguanmaoyi) in dark brown jichimu wood with feather-like grain: a straight top rail whose ends curve down and join the back posts without projecting, straight armrests whose front ends also turn down into the front posts, a curved plain back splat, a framed seat 48 cm high, four round legs with stepped stretchers",
-   "keep_en": "dark brown jichimu wood with feather-like grain chair, top rail ends turning down into the posts without projecting, straight arms joining the front posts, plain curved splat, framed seat, stepped stretchers",
-   "checks": [
-    "搭脑两端不出头、向下接后腿",
-    "扶手不出头",
-    "单板弯靠背",
-    "步步高横枨"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T102",
-   "key": "FN:luohanchuang:hongmu",
-   "cat": "FN",
-   "form": "luohanchuang",
-   "group": "classic",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "罗汉床（红木色）",
-   "name_ja": "羅漢床（紅木）",
-   "name_en": "Luohan Daybed (Rosewood)",
-   "name_ko": "나한상 (홍목)",
-   "group_zh": "中式古典家具",
-   "group_ja": "中国古典家具",
-   "group_en": "Chinese Classical Furniture",
-   "group_ko": "중국 고전 가구",
-   "desc_en": "a Chinese luohan daybed in reddish-brown rosewood, about 200 cm long: a wide flat platform seat 45 cm high with a woven mat, low solid railings on three sides (back and both ends) with plain panels, short cabriole legs ending in hoof feet, and a small low kang table in the same wood placed at the centre of the seat",
-   "keep_en": "reddish-brown rosewood luohan daybed, wide flat mat seat, low solid railings on back and both ends, short cabriole legs with hoof feet, small kang table at the centre",
-   "checks": [
-    "三面矮围子",
-    "宽平床面",
-    "马蹄足",
-    "中间一张小炕桌"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T103",
-   "key": "FN:drum-stool:celadon",
-   "cat": "FN",
-   "form": "drum-stool",
-   "group": "classic",
-   "rating": "general",
-   "place": "stand",
-   "size": "M",
-   "name_zh": "鼓墩（青瓷）",
-   "name_ja": "鼓墩（陶の腰掛）（青磁）",
-   "name_en": "Porcelain Drum Stool (Celadon)",
-   "name_ko": "도자 고돈 (청자)",
-   "group_zh": "中式古典家具",
-   "group_ja": "中国古典家具",
-   "group_en": "Chinese Classical Furniture",
-   "group_ko": "중국 고전 가구",
-   "desc_en": "a Chinese porcelain garden drum stool 45 cm high, barrel-shaped with a flat round top, two rows of raised studs around the top and bottom rims, two small pierced openings on the sides, glazed in plain pale celadon green",
-   "keep_en": "barrel-shaped porcelain stool, flat top, two rows of raised studs at the rims, two pierced side openings, in plain pale celadon green glaze",
-   "checks": [
-    "鼓形",
-    "上下两圈乳钉",
-    "侧面镂空开光",
-    "瓷质釉面"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T104",
-   "key": "FN:drum-stool:blue-white",
-   "cat": "FN",
-   "form": "drum-stool",
-   "group": "classic",
-   "rating": "general",
-   "place": "stand",
-   "size": "M",
-   "bg": "dark",
-   "name_zh": "鼓墩（青花）",
-   "name_ja": "鼓墩（陶の腰掛）（染付）",
-   "name_en": "Porcelain Drum Stool (Blue and White)",
-   "name_ko": "도자 고돈 (청화)",
-   "group_zh": "中式古典家具",
-   "group_ja": "中国古典家具",
-   "group_en": "Chinese Classical Furniture",
-   "group_ko": "중국 고전 가구",
-   "desc_en": "a Chinese porcelain garden drum stool 45 cm high, barrel-shaped with a flat round top, two rows of raised studs around the top and bottom rims, two small pierced openings on the sides, glazed white with cobalt-blue lotus scroll painting",
-   "keep_en": "barrel-shaped porcelain stool, flat top, two rows of raised studs at the rims, two pierced side openings, white with cobalt-blue lotus scroll painting glaze",
-   "checks": [
-    "鼓形",
-    "上下两圈乳钉",
-    "侧面镂空开光",
-    "瓷质釉面"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T105",
-   "key": "FN:cafe-table:marble",
-   "cat": "FN",
-   "form": "cafe-table",
-   "group": "other",
-   "rating": "general",
-   "place": "stand",
-   "size": "M",
-   "bg": "dark",
-   "name_zh": "小圆桌（白大理石）",
-   "name_ja": "カフェテーブル（白大理石）",
-   "name_en": "Bistro Table (White Marble)",
-   "name_ko": "비스트로 테이블 (화이트 마블)",
-   "group_zh": "桌子与其他",
-   "group_ja": "机・その他",
-   "group_en": "Tables & Other",
-   "group_ko": "테이블·기타",
-   "desc_en": "a small round bistro table 72 cm high with a white marble top 60 cm across on a single central pedestal and a round cast-iron base in black",
-   "keep_en": "round white marble top, single central pedestal, round black cast-iron base",
-   "checks": [
-    "圆桌面",
-    "中间单柱",
-    "圆形铸铁底座",
-    "桌上没有东西"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T106",
-   "key": "FN:step-ladder:natural",
-   "cat": "FN",
-   "form": "step-ladder",
-   "group": "other",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "木梯凳（原木）",
-   "name_ja": "木の脚立（白木）",
-   "name_en": "Wooden Step Ladder (Natural Wood)",
-   "name_ko": "나무 사다리 (원목)",
-   "group_zh": "桌子与其他",
-   "group_ja": "机・その他",
-   "group_en": "Tables & Other",
-   "group_ko": "테이블·기타",
-   "desc_en": "an opened A-frame wooden step ladder about 150 cm high in pale natural wood with paint splashes worn off, with four flat steps on the front, plain back legs joined by cross braces, and a small flat top platform",
-   "keep_en": "pale natural wood with paint splashes worn off A-frame ladder, opened, four flat front steps, braced back legs, flat top platform",
-   "checks": [
-    "A 字展开",
-    "前面四级踏板",
-    "后腿有横撑",
-    "顶部小平台"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T107",
-   "key": "FN:swing-chair:natural",
-   "cat": "FN",
-   "form": "swing-chair",
-   "group": "other",
-   "rating": "general",
-   "place": "stand",
-   "size": "L",
-   "name_zh": "吊篮椅（原色藤）",
-   "name_ja": "ハンギングチェア（ナチュラル）",
-   "name_en": "Hanging Egg Chair (Natural Rattan)",
-   "name_ko": "행잉 체어 (내추럴 라탄)",
-   "group_zh": "桌子与其他",
-   "group_ja": "机・その他",
-   "group_en": "Tables & Other",
-   "group_ko": "테이블·기타",
-   "desc_en": "a hanging egg chair: a teardrop-shaped open-front basket woven in natural rattan, with a round white cushion inside, hanging from a short chain on a curved black steel stand with a round base",
-   "keep_en": "teardrop natural rattan basket open at the front, round white cushion, short chain, curved black steel stand with round base",
-   "checks": [
-    "水滴形吊篮、正面开口",
-    "弧形黑钢支架",
-    "圆形底座",
-    "内有圆坐垫"
-   ],
-   "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
-   },
-   "gaps": {}
-  },
-  {
-   "id": "T108",
    "key": "CN:umbrella-open:red-plum",
    "cat": "CN",
    "form": "umbrella-open",
@@ -3601,7 +2701,7 @@
    "gaps": {}
   },
   {
-   "id": "T109",
+   "id": "T082",
    "key": "CN:umbrella-closed:indigo",
    "cat": "CN",
    "form": "umbrella-closed",
@@ -3634,7 +2734,7 @@
    "gaps": {}
   },
   {
-   "id": "T110",
+   "id": "T083",
    "key": "CN:tuanshan:peony",
    "cat": "CN",
    "form": "tuanshan",
@@ -3668,7 +2768,7 @@
    "gaps": {}
   },
   {
-   "id": "T111",
+   "id": "T084",
    "key": "CN:folding-fan:blank",
    "cat": "CN",
    "form": "folding-fan",
@@ -3703,7 +2803,7 @@
    "gaps": {}
   },
   {
-   "id": "T112",
+   "id": "T085",
    "key": "CN:folding-fan:landscape",
    "cat": "CN",
    "form": "folding-fan",
@@ -3737,7 +2837,7 @@
    "gaps": {}
   },
   {
-   "id": "T113",
+   "id": "T086",
    "key": "CN:palace-lantern:rosewood",
    "cat": "CN",
    "form": "palace-lantern",
@@ -3771,7 +2871,7 @@
    "gaps": {}
   },
   {
-   "id": "T114",
+   "id": "T087",
    "key": "CN:red-lantern:gold-cap",
    "cat": "CN",
    "form": "red-lantern",
@@ -3804,7 +2904,7 @@
    "gaps": {}
   },
   {
-   "id": "T115",
+   "id": "T088",
    "key": "CN:wine-ewer:qingbai",
    "cat": "CN",
    "form": "wine-ewer",
@@ -3838,7 +2938,7 @@
    "gaps": {}
   },
   {
-   "id": "T116",
+   "id": "T089",
    "key": "CN:gaiwan:blue-white",
    "cat": "CN",
    "form": "gaiwan",
@@ -3872,7 +2972,7 @@
    "gaps": {}
   },
   {
-   "id": "T117",
+   "id": "T090",
    "key": "CN:food-box:red",
    "cat": "CN",
    "form": "food-box",
@@ -3905,7 +3005,7 @@
    "gaps": {}
   },
   {
-   "id": "T118",
+   "id": "T091",
    "key": "CN:brush-set:rosewood",
    "cat": "CN",
    "form": "brush-set",
@@ -3938,7 +3038,7 @@
    "gaps": {}
   },
   {
-   "id": "T119",
+   "id": "T092",
    "key": "CN:scroll:blue",
    "cat": "CN",
    "form": "scroll",
@@ -3971,7 +3071,7 @@
    "gaps": {}
   },
   {
-   "id": "T120",
+   "id": "T093",
    "key": "CN:jade-pei:green",
    "cat": "CN",
    "form": "jade-pei",
@@ -4004,7 +3104,7 @@
    "gaps": {}
   },
   {
-   "id": "T121",
+   "id": "T094",
    "key": "CN:bronze-mirror:aged",
    "cat": "CN",
    "form": "bronze-mirror",
@@ -4037,7 +3137,7 @@
    "gaps": {}
   },
   {
-   "id": "T122",
+   "id": "T095",
    "key": "FT:crystal-ball:brass",
    "cat": "FT",
    "form": "crystal-ball",
@@ -4070,7 +3170,7 @@
    "gaps": {}
   },
   {
-   "id": "T123",
+   "id": "T096",
    "key": "FT:tome:oxblood",
    "cat": "FT",
    "form": "tome",
@@ -4103,7 +3203,7 @@
    "gaps": {}
   },
   {
-   "id": "T124",
+   "id": "T097",
    "key": "FT:potion-bottle:emerald",
    "cat": "FT",
    "form": "potion-bottle",
@@ -4136,7 +3236,7 @@
    "gaps": {}
   },
   {
-   "id": "T125",
+   "id": "T098",
    "key": "FT:hourglass:walnut",
    "cat": "FT",
    "form": "hourglass",
@@ -4170,7 +3270,7 @@
    "gaps": {}
   },
   {
-   "id": "T126",
+   "id": "T099",
    "key": "FT:pocket-watch:gold",
    "cat": "FT",
    "form": "pocket-watch",
@@ -4203,7 +3303,7 @@
    "gaps": {}
   },
   {
-   "id": "T127",
+   "id": "T100",
    "key": "FT:telescope:mahogany",
    "cat": "FT",
    "form": "telescope",
@@ -4236,7 +3336,7 @@
    "gaps": {}
   },
   {
-   "id": "T128",
+   "id": "T101",
    "key": "FT:desk-globe:sepia",
    "cat": "FT",
    "form": "desk-globe",
@@ -4270,7 +3370,7 @@
    "gaps": {}
   },
   {
-   "id": "T129",
+   "id": "T102",
    "key": "FT:compass:brass",
    "cat": "FT",
    "form": "compass",
@@ -4303,7 +3403,7 @@
    "gaps": {}
   },
   {
-   "id": "T130",
+   "id": "T103",
    "key": "FT:music-box:rosewood",
    "cat": "FT",
    "form": "music-box",
@@ -4336,7 +3436,7 @@
    "gaps": {}
   },
   {
-   "id": "T131",
+   "id": "T104",
    "key": "FT:oil-lantern:brass",
    "cat": "FT",
    "form": "oil-lantern",
@@ -4369,7 +3469,7 @@
    "gaps": {}
   },
   {
-   "id": "T132",
+   "id": "T105",
    "key": "FT:candelabra:brass-ivory",
    "cat": "FT",
    "form": "candelabra",
@@ -4402,7 +3502,7 @@
    "gaps": {}
   },
   {
-   "id": "T133",
+   "id": "T106",
    "key": "FT:treasure-chest:oak-iron",
    "cat": "FT",
    "form": "treasure-chest",
@@ -4435,7 +3535,7 @@
    "gaps": {}
   },
   {
-   "id": "T134",
+   "id": "T107",
    "key": "FT:birdcage:white",
    "cat": "FT",
    "form": "birdcage",
@@ -4469,7 +3569,7 @@
    "gaps": {}
   },
   {
-   "id": "T135",
+   "id": "T108",
    "key": "FT:quill-inkwell:white-brass",
    "cat": "FT",
    "form": "quill-inkwell",

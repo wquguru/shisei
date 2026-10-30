@@ -1,0 +1,484 @@
+{
+ "cat": "TB",
+ "note": "Furniture library (docs/furniture/PLAN.md). dims are real centimetres: the front prompt quotes w/d/h and intake scales every piece to one px/cm; seat is the sitting height a composited figure uses.",
+ "groups": {
+  "dining": {
+   "zh": "餐桌",
+   "ja": "ダイニングテーブル",
+   "en": "Dining Tables",
+   "ko": "식탁"
+  },
+  "low": {
+   "zh": "茶几边几",
+   "ja": "ローテーブル",
+   "en": "Low & Side Tables",
+   "ko": "낮은 테이블"
+  },
+  "desk": {
+   "zh": "书桌",
+   "ja": "デスク",
+   "en": "Desks",
+   "ko": "책상"
+  },
+  "counter": {
+   "zh": "吧台与梳妆台",
+   "ja": "カウンター・ドレッサー",
+   "en": "Counters & Vanities",
+   "ko": "카운터·화장대"
+  }
+ },
+ "forms": [
+  {
+   "key": "cafe-table",
+   "group": "dining",
+   "name": {
+    "zh": "小圆桌",
+    "ja": "カフェテーブル",
+    "en": "Bistro Table",
+    "ko": "비스트로 테이블"
+   },
+   "desc": "a small round bistro table 72 cm high with a {top} top 60 cm across on a single central pedestal and a round cast-iron base in black",
+   "keep": "round {top} top, single central pedestal, round black cast-iron base",
+   "checks": [
+    "圆桌面",
+    "中间单柱",
+    "圆形铸铁底座",
+    "桌上没有东西"
+   ],
+   "variants": [
+    {
+     "key": "marble",
+     "name": {
+      "zh": "白大理石",
+      "ja": "白大理石",
+      "en": "White Marble",
+      "ko": "화이트 마블"
+     },
+     "bg": "dark",
+     "vars": {
+      "top": "white marble"
+     }
+    }
+   ],
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 72
+   }
+  },
+  {
+   "key": "dining-table",
+   "group": "dining",
+   "probe": true,
+   "name": {
+    "zh": "长方餐桌",
+    "ja": "長方形ダイニングテーブル",
+    "en": "Rectangular Dining Table",
+    "ko": "직사각 식탁"
+   },
+   "desc": "a rectangular six-seat dining table 75 cm high with a solid {wood} top 180 by 90 cm and 4 cm thick, four straight square legs set at the corners and a plain apron 8 cm deep under the top on all four sides, smooth oiled finish, empty top",
+   "keep": "{wood} table, rectangular 180 by 90 cm top, four straight square corner legs, plain apron on all four sides, empty top",
+   "checks": [
+    "长方形桌面、约 75 厘米高",
+    "四条方直腿在四角",
+    "桌面下一圈素裙板",
+    "桌上没有东西"
+   ],
+   "variants": [
+    {
+     "key": "oak",
+     "name": {
+      "zh": "橡木",
+      "ja": "オーク",
+      "en": "Oak",
+      "ko": "오크"
+     },
+     "vars": {
+      "wood": "light oak"
+     }
+    },
+    {
+     "key": "walnut",
+     "name": {
+      "zh": "胡桃木",
+      "ja": "ウォルナット",
+      "en": "Walnut",
+      "ko": "월넛"
+     },
+     "vars": {
+      "wood": "dark walnut"
+     }
+    }
+   ],
+   "dims": {
+    "w": 180,
+    "d": 90,
+    "h": 75
+   }
+  },
+  {
+   "key": "round-dining-table",
+   "group": "dining",
+   "name": {
+    "zh": "圆形独脚餐桌",
+    "ja": "丸型一本脚ダイニングテーブル",
+    "en": "Round Pedestal Dining Table",
+    "ko": "원형 단주 식탁"
+   },
+   "desc": "a round four-seat dining table 75 cm high with a solid {wood} top 120 cm across, carried on a single thick round central column that ends in four curved feet spreading out in a cross near the floor, no apron, empty top",
+   "keep": "{wood} round top 120 cm across, single thick central column, four curved feet in a cross, no apron, empty top",
+   "checks": [
+    "圆桌面、约 75 厘米高",
+    "中间一根粗柱",
+    "底部四只弯脚呈十字",
+    "桌上没有东西"
+   ],
+   "variants": [
+    {
+     "key": "walnut",
+     "name": {
+      "zh": "胡桃木",
+      "ja": "ウォルナット",
+      "en": "Walnut",
+      "ko": "월넛"
+     },
+     "vars": {
+      "wood": "dark walnut"
+     }
+    }
+   ],
+   "dims": {
+    "w": 120,
+    "d": 120,
+    "h": 75
+   }
+  },
+  {
+   "key": "coffee-table",
+   "group": "low",
+   "name": {
+    "zh": "长方茶几",
+    "ja": "長方形ローテーブル",
+    "en": "Coffee Table",
+    "ko": "직사각 커피 테이블"
+   },
+   "desc": "a rectangular coffee table 40 cm high with a {top} top 120 by 60 cm, four straight square {frame} legs and one open lower shelf of the same material 12 cm above the floor joining the legs, both the top and the shelf empty",
+   "keep": "{top} top 120 by 60 cm, four straight square {frame} legs, one open lower shelf, both empty",
+   "checks": [
+    "约 40 厘米高",
+    "四条方直腿",
+    "下方一层空搁板",
+    "桌面和搁板都没有东西"
+   ],
+   "variants": [
+    {
+     "key": "oak",
+     "name": {
+      "zh": "橡木",
+      "ja": "オーク",
+      "en": "Oak",
+      "ko": "오크"
+     },
+     "vars": {
+      "top": "light oak",
+      "frame": "light oak"
+     }
+    },
+    {
+     "key": "black",
+     "name": {
+      "zh": "黑色",
+      "ja": "黒",
+      "en": "Black",
+      "ko": "블랙"
+     },
+     "bg": "light",
+     "vars": {
+      "top": "matte black painted wood",
+      "frame": "matte black painted wood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 120,
+    "d": 60,
+    "h": 40
+   }
+  },
+  {
+   "key": "side-table",
+   "group": "low",
+   "name": {
+    "zh": "圆边几",
+    "ja": "丸型サイドテーブル",
+    "en": "Round Side Table",
+    "ko": "원형 사이드 테이블"
+   },
+   "desc": "a small round side table 55 cm high with a solid {wood} top 45 cm across with a slightly raised lip, three slender tapered legs splaying gently outward, and no shelf, empty top",
+   "keep": "{wood} round top 45 cm across with a raised lip, three slender tapered splayed legs, no shelf, empty top",
+   "checks": [
+    "圆面、约 55 厘米高",
+    "正好三条腿",
+    "腿细且略外撇",
+    "桌上没有东西"
+   ],
+   "variants": [
+    {
+     "key": "walnut",
+     "name": {
+      "zh": "胡桃木",
+      "ja": "ウォルナット",
+      "en": "Walnut",
+      "ko": "월넛"
+     },
+     "vars": {
+      "wood": "dark walnut"
+     }
+    }
+   ],
+   "dims": {
+    "w": 45,
+    "d": 45,
+    "h": 55
+   }
+  },
+  {
+   "key": "writing-desk",
+   "group": "desk",
+   "name": {
+    "zh": "抽屉书桌",
+    "ja": "引き出し付きデスク",
+    "en": "Writing Desk with Drawers",
+    "ko": "서랍 책상"
+   },
+   "desc": "a writing desk 75 cm high in solid {wood} with a rectangular top 120 by 60 cm, a pedestal of three stacked drawers under the right side of the top, each drawer with one small round wooden knob, two straight square legs at the left end, and an open knee space with a plain modesty panel at the back, all drawers closed, empty top",
+   "keep": "{wood} desk, 120 by 60 cm top, right pedestal of three drawers with one round knob each, two square legs at the left, open knee space, back modesty panel, drawers closed, empty top",
+   "checks": [
+    "右侧三个抽屉、各一个圆钮",
+    "左侧两条方腿",
+    "中间留出放腿空间",
+    "桌上没有东西"
+   ],
+   "variants": [
+    {
+     "key": "oak",
+     "name": {
+      "zh": "橡木",
+      "ja": "オーク",
+      "en": "Oak",
+      "ko": "오크"
+     },
+     "vars": {
+      "wood": "light oak"
+     }
+    },
+    {
+     "key": "walnut",
+     "name": {
+      "zh": "胡桃木",
+      "ja": "ウォルナット",
+      "en": "Walnut",
+      "ko": "월넛"
+     },
+     "vars": {
+      "wood": "dark walnut"
+     }
+    }
+   ],
+   "dims": {
+    "w": 120,
+    "d": 60,
+    "h": 75
+   }
+  },
+  {
+   "key": "standing-desk",
+   "group": "desk",
+   "name": {
+    "zh": "站立式办公桌",
+    "ja": "スタンディングデスク",
+    "en": "Standing Desk",
+    "ko": "스탠딩 데스크"
+   },
+   "desc": "a fixed-height standing desk 105 cm high with a plain rectangular {top} top 140 by 70 cm on a {frame} steel frame of two flat rectangular-section legs, each ending in a flat foot bar running front to back, joined under the top by one straight crossbar, no motors, no control panel, no drawers, no cables, no screen, empty top",
+   "keep": "{top} top 140 by 70 cm, {frame} steel frame of two flat legs with front-to-back foot bars, one crossbar under the top, no motors, no control panel, empty top",
+   "checks": [
+    "桌面约 105 厘米高",
+    "两条钢腿、底部前后向脚",
+    "没有电机和控制面板",
+    "桌上没有东西、没有线"
+   ],
+   "variants": [
+    {
+     "key": "oak-black",
+     "name": {
+      "zh": "橡木面黑架",
+      "ja": "オーク天板・黒脚",
+      "en": "Oak & Black",
+      "ko": "오크·블랙"
+     },
+     "vars": {
+      "top": "light oak",
+      "frame": "matte black"
+     }
+    }
+   ],
+   "dims": {
+    "w": 140,
+    "d": 70,
+    "h": 105
+   }
+  },
+  {
+   "key": "console-table",
+   "group": "low",
+   "name": {
+    "zh": "玄关桌",
+    "ja": "コンソールテーブル",
+    "en": "Console Table",
+    "ko": "콘솔 테이블"
+   },
+   "desc": "a narrow console table 80 cm high in {wood} with a rectangular top 120 by 35 cm, one long shallow drawer across the front with two small round wooden knobs, four slender square tapered legs and a slatted lower shelf of five lengthwise slats 15 cm above the floor, drawer closed, empty top and shelf",
+   "keep": "{wood} console, narrow 120 by 35 cm top, one shallow front drawer with two round knobs, four slender tapered legs, lower shelf of five slats, drawer closed, empty",
+   "checks": [
+    "窄长桌面、约 80 厘米高",
+    "前面一个浅抽屉两个圆钮",
+    "下层五根木条搁板",
+    "桌上和搁板上都没有东西"
+   ],
+   "variants": [
+    {
+     "key": "walnut",
+     "name": {
+      "zh": "胡桃木",
+      "ja": "ウォルナット",
+      "en": "Walnut",
+      "ko": "월넛"
+     },
+     "vars": {
+      "wood": "dark walnut"
+     }
+    }
+   ],
+   "dims": {
+    "w": 120,
+    "d": 35,
+    "h": 80
+   }
+  },
+  {
+   "key": "dressing-table",
+   "group": "counter",
+   "probe": true,
+   "name": {
+    "zh": "带镜梳妆台",
+    "ja": "鏡付きドレッサー",
+    "en": "Dressing Table with Mirror",
+    "ko": "거울 화장대"
+   },
+   "desc": "a dressing table in {finish} with a rectangular top 100 by 45 cm at 75 cm high, two stacked drawers under the top on each side of a central open knee space, each drawer with one small round knob, four straight square legs, and a plain rectangular mirror 70 cm wide and 60 cm high in a thin matching frame fixed upright on two short posts at the back edge of the top, the mirror glass showing only a flat even mid-grey and reflecting nothing, no room, no person, no camera, no light, all drawers closed, empty top",
+   "keep": "{finish} dressing table, top 75 cm high, two drawers on each side of a central knee space with one round knob each, four square legs, plain rectangular mirror on two posts at the back edge showing only flat grey, drawers closed, empty top",
+   "checks": [
+    "镜面只显示均匀灰色、不反射任何东西",
+    "左右各两个抽屉、中间放腿空间",
+    "镜子立在桌面后沿两根短柱上",
+    "台面上没有化妆品"
+   ],
+   "variants": [
+    {
+     "key": "white",
+     "name": {
+      "zh": "白色",
+      "ja": "白",
+      "en": "White",
+      "ko": "화이트"
+     },
+     "bg": "dark",
+     "vars": {
+      "finish": "white painted wood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 100,
+    "d": 45,
+    "h": 150
+   }
+  },
+  {
+   "key": "bar-counter",
+   "group": "counter",
+   "name": {
+    "zh": "吧台段",
+    "ja": "バーカウンター",
+    "en": "Bar Counter Segment",
+    "ko": "바 카운터"
+   },
+   "desc": "a straight free-standing bar counter segment 105 cm high and 150 cm long with a thick {top} top 60 cm deep overhanging the front by 20 cm, a closed front panel of vertical {panel} tongue-and-groove boards, a brushed steel foot rail running along the front 20 cm above the base on three short brackets, and an open back with one fixed full-length shelf halfway down, empty top and shelf",
+   "keep": "{top} top 105 cm high and 150 cm long overhanging the front, closed front of vertical {panel} boards, brushed steel foot rail on three brackets, open back with one empty shelf, empty top",
+   "checks": [
+    "台面约 105 厘米高",
+    "正面竖板封闭、底部一根钢脚踏杆",
+    "背面开放、一层空搁板",
+    "台面上没有杯瓶"
+   ],
+   "variants": [
+    {
+     "key": "oak-dark",
+     "name": {
+      "zh": "橡木面深色板",
+      "ja": "オーク天板・濃色板",
+      "en": "Oak & Dark Wood",
+      "ko": "오크·다크 우드"
+     },
+     "vars": {
+      "top": "light oak",
+      "panel": "dark stained wood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 150,
+    "d": 60,
+    "h": 105
+   }
+  },
+  {
+   "key": "workbench",
+   "group": "desk",
+   "name": {
+    "zh": "木工台",
+    "ja": "作業台",
+    "en": "Workbench",
+    "ko": "작업대"
+   },
+   "desc": "a heavy wooden workbench 90 cm high with a thick laminated {wood} top 150 by 70 cm made of glued strips, four thick square legs joined by low stretchers on all sides that carry a lower shelf of flat boards, and a wooden front vise with one round steel screw and a single wooden tommy bar at the left front corner, no tools, empty top and shelf",
+   "keep": "{wood} laminated strip top 150 by 70 cm, four thick square legs, low stretchers with a lower board shelf, wooden front vise at the left front corner, no tools, empty",
+   "checks": [
+    "厚台面拼条纹理、约 90 厘米高",
+    "左前角一个木台钳",
+    "四条粗腿加下层搁板",
+    "没有工具"
+   ],
+   "variants": [
+    {
+     "key": "beech",
+     "name": {
+      "zh": "榉木",
+      "ja": "ブナ",
+      "en": "Beech",
+      "ko": "너도밤나무"
+     },
+     "vars": {
+      "wood": "pale beech"
+     }
+    }
+   ],
+   "dims": {
+    "w": 150,
+    "d": 70,
+    "h": 90
+   }
+  }
+ ]
+}

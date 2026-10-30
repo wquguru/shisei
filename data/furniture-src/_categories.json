@@ -1,0 +1,98 @@
+{
+ "SE": {
+  "order": 1,
+  "target": 20,
+  "name": {
+   "zh": "椅凳",
+   "ja": "椅子・スツール",
+   "en": "Chairs & Stools",
+   "ko": "의자·스툴"
+  },
+  "rules": "A single seat at real size; seat height, depth and back angle realistic for an adult, so a posed figure can sit on it.",
+  "negatives": "No cushions or throws unless stated, no recognisable designer chair, no gaming-chair branding, no children's chairs."
+ },
+ "SO": {
+  "order": 2,
+  "target": 18,
+  "name": {
+   "zh": "沙发与卧具",
+   "ja": "ソファ・ベッド",
+   "en": "Sofas, Daybeds & Beds",
+   "ko": "소파·침대"
+  },
+  "rules": "A sofa, daybed, bed or hanging seat at real size for adults to sit or lie on; beds neatly made with plain bedding as stated.",
+  "negatives": "No bunk beds, cribs or children's beds, no pillows or throws beyond those stated, no people-shaped dents, no bedding prints with text."
+ },
+ "TB": {
+  "order": 3,
+  "target": 14,
+  "name": {
+   "zh": "桌台",
+   "ja": "テーブル・机",
+   "en": "Tables & Desks",
+   "ko": "테이블·책상"
+  },
+  "rules": "A table, desk or counter at real height (dining 75 cm, coffee 40 cm, counter 105 cm) with an empty top unless stated.",
+  "negatives": "No objects on the top unless stated, no chairs, no cables, no screens."
+ },
+ "ST": {
+  "order": 4,
+  "target": 12,
+  "name": {
+   "zh": "收纳与陈设",
+   "ja": "収納・ディスプレイ",
+   "en": "Storage & Display",
+   "ko": "수납·진열"
+  },
+  "rules": "A storage or display piece at real size, doors and drawers closed unless stated, shelves holding only the plain items stated.",
+  "negatives": "No books with readable spines, no branded goods, no mirror reflecting anything but plain grey, no clutter."
+ },
+ "CN": {
+  "order": 5,
+  "target": 16,
+  "name": {
+   "zh": "中式古典家具",
+   "ja": "中国古典家具",
+   "en": "Chinese Classical Furniture",
+   "ko": "중국 고전 가구"
+  },
+  "rules": "Ming or Qing Chinese hardwood furniture with correct mortise-and-tenon construction and the stated period features, natural oiled or lacquered finish.",
+  "negatives": "No Japanese or Korean features, no carved characters or seals, no religious images, no metal screws or modern hardware, no gilded excess unless stated."
+ },
+ "WD": {
+  "order": 6,
+  "target": 14,
+  "name": {
+   "zh": "世界与年代风格",
+   "ja": "世界・時代のスタイル",
+   "en": "World & Period Styles",
+   "ko": "세계·시대 스타일"
+  },
+  "rules": "A piece accurate to the stated culture or period style, built as a generic example rather than a copy of a named designer piece.",
+  "negatives": "No named designer reproductions, no royal or national insignia, no religious objects, no mixing of styles."
+ },
+ "OD": {
+  "order": 7,
+  "target": 12,
+  "name": {
+   "zh": "户外家具",
+   "ja": "屋外家具",
+   "en": "Outdoor Furniture",
+   "ko": "야외 가구"
+  },
+  "rules": "Outdoor furniture in weather-proof materials at real size, as used in gardens, terraces, parks and beaches.",
+  "negatives": "No parasols or umbrellas unless stated, no plants, no ground, no plaques with text."
+ },
+ "PL": {
+  "order": 8,
+  "target": 12,
+  "name": {
+   "zh": "造型台与结构件",
+   "ja": "撮影用の台・構造物",
+   "en": "Posing Blocks & Set Pieces",
+   "ko": "포즈 블록·세트"
+  },
+  "rules": "A photographic posing aid or set piece at real size, plain and neutral, made for a model to sit, stand, step, lean or rest an arm on.",
+  "negatives": "No studio lights or stands, no backdrop, no text or brand marks stencilled on boxes, no props on it."
+ }
+}
