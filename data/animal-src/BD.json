@@ -1,0 +1,47 @@
+{
+ "cat": "BD",
+ "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "groups": {
+  "corvid": {
+   "zh": "鸦",
+   "ja": "カラス",
+   "en": "Crow",
+   "ko": "까마귀"
+  }
+ },
+ "forms": [
+  {
+   "key": "crow-fly",
+   "group": "corvid",
+   "probe": true,
+   "species": "crow",
+   "tail": "a fan-shaped tail of feathers",
+   "coat": "glossy black plumage",
+   "name": {
+    "zh": "乌鸦·展翅飞行",
+    "ja": "カラス・羽ばたき",
+    "en": "Crow in Flight",
+    "ko": "까마귀 비행"
+   },
+   "desc": "flying with both wings fully spread at the top of the wingbeat, primary feathers splayed like fingers, legs tucked under the body, tail fanned, head forward",
+   "keep": "flight, both wings fully spread at the top of the stroke, splayed primaries, legs tucked, fanned tail",
+   "checks": [
+    "正好两只翅膀、完全展开",
+    "飞羽末端像手指一样分开",
+    "脚收在身下",
+    "扇形尾羽"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

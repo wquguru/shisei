@@ -1,0 +1,154 @@
+{
+  "cat": "HS",
+  "note": "Historical settings, paired with the HC costume cards. Each place is an original generic site of one period and region, never a copy of a real one; no places of worship, altars or religious images; pre-modern scenes are lit only by daylight, candles, oil lamps or lanterns (gas lamps from the Victorian parlour on). Every desc names the far wall, both sides and an empty centre about four metres from the camera, and checks carry the structural period markers QC judges against.",
+  "groups": {
+    "east-out": {"zh": "东方街巷与庭院", "ja": "東洋の街並み・庭", "en": "East Asian Streets & Courtyards", "ko": "동양 거리·정원"},
+    "east-in": {"zh": "中式古典室内", "ja": "中国古典の室内", "en": "Classical Chinese Interiors", "ko": "중국 고전 실내"},
+    "europe": {"zh": "欧洲古典", "ja": "ヨーロッパの古典", "en": "Old Europe", "ko": "유럽 고전"},
+    "modern-era": {"zh": "近代风貌", "ja": "近代の室内", "en": "Early Modern Era", "ko": "근대 풍경"}
+  },
+  "forms": [
+    {
+      "key": "siheyuan", "group": "east-out", "probe": true,
+      "name": {"zh": "四合院", "ja": "四合院", "en": "Siheyuan Courtyard", "ko": "사합원"},
+      "desc": "the inner courtyard of an original Qing-dynasty Beijing-style siheyuan, seen from just inside the chuihua gate: grey brick paving laid in a square pattern, the single-storey main hall across the far side raised on a low stone plinth with three red-lacquered timber bays, carved wooden lattice doors and windows backed with white paper, grey tile gable roof with curved ridge ends and a covered veranda with red columns, matching side wing halls on the left and right with their own lattice doors and verandas, a covered corridor joining the corners, a crabapple tree in a square bed at the left edge and a large glazed water vat at the right edge, and an empty patch of brick paving in the centre about four metres from the camera",
+      "keep": "grey square brick paving, main hall with three red bays and paper-backed lattice doors across the far side, grey tile roofs with red-columned verandas, side wing halls left and right, corner corridors, crabapple tree at the left edge, water vat at the right edge, empty centre paving",
+      "checks": ["正房三开间、红柱前廊、坐在石台基上", "东西厢房对称、门窗是糊纸木棂格", "灰瓦硬山屋顶、没有电线和电灯", "中央砖地空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Clear autumn afternoon, low sun from the left casting the eave shadows across the right wing, pale blue sky above the roofs"}
+      ]
+    },
+    {
+      "key": "water-town", "group": "east-out",
+      "name": {"zh": "江南水乡", "ja": "江南の水郷", "en": "Jiangnan Water Town", "ko": "강남 수향"},
+      "desc": "a lane in an original Ming–Qing Jiangnan water town: a narrow canal of still green water running along the left edge with a stone embankment and granite mooring posts, two-storey whitewashed houses with black timber window frames and dark grey tile roofs lining the far side of the canal, stepped horse-head gable walls rising between them, a humpbacked single-arch stone bridge crossing the canal in the far distance, a wooden-shuttered shopfront with a blank wooden signboard and two unlit red paper lanterns on the right, granite flagstone paving along the lane, a small wooden boat moored empty against the left bank, and an empty stretch of flagstones in the centre about four metres from the camera",
+      "keep": "canal along the left edge with stone embankment, whitewashed two-storey houses with black frames and grey tile roofs across the canal, horse-head gables, humpbacked stone bridge in the distance, shuttered shopfront with blank signboard and red lanterns on the right, granite flagstones, empty moored boat, empty centre flagstones",
+      "checks": ["白墙黛瓦、阶梯状马头墙", "左侧河道与石驳岸、远处单孔石拱桥", "招牌空白、没有现代物件", "中央石板路空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft hazy spring daylight, the white walls reflected in the still canal"},
+        {"key": "rain", "name": {"zh": "细雨", "ja": "小雨", "en": "Drizzle", "ko": "가랑비"}, "light": "Grey overcast with fine drizzle, the flagstones wet and glossy, light mist over the canal, the red lanterns lit by candle inside"}
+      ]
+    },
+    {
+      "key": "garden-corridor", "group": "east-out",
+      "name": {"zh": "园林回廊", "ja": "庭園の回廊", "en": "Garden Corridor", "ko": "정원 회랑"},
+      "desc": "an original classical Suzhou-style private garden seen from a covered walkway: a covered corridor with dark red timber columns, a grey tile roof and low built-in wooden bench railings running along the right edge, a whitewashed garden wall on the right pierced by ornamental leak windows with grey tile lattice, a pond with taihu rocks and lotus leaves along the left edge, a small hexagonal pavilion with upturned eaves standing on rocks across the pond at the far side, bamboo and a pine behind it, a grey brick-paved terrace where the corridor opens out, and an empty patch of paving in the centre about four metres from the camera",
+      "keep": "red-columned covered corridor with bench railings along the right, whitewashed wall with tile-lattice leak windows, pond with taihu rocks and lotus on the left, hexagonal pavilion with upturned eaves at the far side, bamboo and pine, grey brick terrace, empty centre paving",
+      "checks": ["回廊带美人靠、白墙上有漏窗", "六角亭翼角起翘", "太湖石和荷叶", "中央铺地空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright early-summer morning, dappled sunlight through the corridor columns, calm reflections in the pond"}
+      ]
+    },
+    {
+      "key": "gate-street", "group": "east-out",
+      "name": {"zh": "古城门大街", "ja": "城門の大通り", "en": "City Gate Street", "ko": "성문 대로"},
+      "desc": "the main street inside an original Ming-style walled city: a broad street paved with worn grey stone slabs leading to a massive grey brick city wall across the far end, an arched gate passage through it and a two-storey timber gate tower with a hipped grey tile roof on top, rows of two-storey timber shophouses with removable plank shutters, overhanging tile eaves and blank wooden signboards along the left and right, a few wooden handcarts and stacked wooden barrels against the shopfronts at the edges, and an empty patch of stone paving in the centre about four metres from the camera",
+      "keep": "grey stone slab street, grey brick city wall with arched gate passage and two-storey timber gate tower across the far end, timber shophouses with plank shutters and blank signboards on both sides, handcarts and barrels at the edges, empty centre paving",
+      "checks": ["城墙券门、上面是木结构城楼", "两侧木排门店铺、招牌空白", "没有电线电灯和现代物件", "中央石板路空着"],
+      "variants": [
+        {"key": "dusk", "name": {"zh": "黄昏", "ja": "夕暮れ", "en": "Dusk", "ko": "황혼"}, "light": "Dusk, warm orange sky behind the gate tower, red paper lanterns lit by candle under the shop eaves"}
+      ]
+    },
+    {
+      "key": "edo-street", "group": "east-out", "probe": true,
+      "name": {"zh": "江户街道", "ja": "江戸の町並み", "en": "Edo Street", "ko": "에도 거리"},
+      "desc": "a street in an original Edo-period Japanese town: packed earth road with a shallow stone gutter on each side, two-storey wooden machiya townhouses with dark lattice fronts, low second floors with mushiko plastered windows, black-tiled roofs and deep eaves lining the left and right, plain indigo noren curtains with no crest and no lettering hanging over the shop entrances, a wooden fire-water barrel stack at the right edge, a wooden kido gate frame closing the far end of the street with tiled roofs beyond, and an empty patch of earth road in the centre about four metres from the camera",
+      "keep": "packed earth road with stone gutters, two-storey machiya with dark lattice fronts and mushiko windows on both sides, black tiled roofs and deep eaves, plain indigo noren with no crest or lettering, fire-water barrels at the right edge, wooden kido gate at the far end, empty centre road",
+      "checks": ["两层町家、格子门面、二层虫笼窗", "暖帘素色无纹无字", "土路两侧石砌排水沟、没有电线杆", "中央路面空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "清晨", "ja": "朝", "en": "Morning", "ko": "아침"}, "light": "Early morning, low sun from the left lighting the right-hand facades, long shadows across the road, a light haze"}
+      ]
+    },
+    {
+      "key": "tang-hall", "group": "east-in", "probe": true,
+      "name": {"zh": "唐风殿堂", "ja": "唐風の殿堂", "en": "Tang-Style Hall", "ko": "당풍 전당"},
+      "desc": "the interior of an original Tang-style timber palace hall, not modelled on any real palace: massive round red-lacquered columns in two rows forming a central nave, large bracket sets of interlocking dougong on top of each column carrying deep red and ochre beams, a coffered wooden ceiling with simple painted geometric panels, a low wide dais with a plain lacquered low table and a folding screen of plain silk across the far end, tall paper-backed lattice doors along the left and right walls, bronze standing oil lamps beside the columns, smooth grey square floor tiles, and an empty stretch of floor in the centre of the nave about four metres from the camera",
+      "keep": "two rows of round red columns, dougong bracket sets on every column, red and ochre beams, coffered geometric ceiling, low dais with lacquered table and plain silk screen at the far end, lattice doors along both walls, bronze oil lamps, grey square tiles, empty centre nave",
+      "checks": ["柱头上是硕大的斗拱、唐代雄浑风格", "红柱两排、平棊天花", "远端只有屏风和矮案、没有佛像或神龛", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Daylight filtering through the paper lattice doors on both sides, a soft warm glow from the bronze oil lamps, the ceiling in gentle shadow"}
+      ]
+    },
+    {
+      "key": "song-teahouse", "group": "east-in",
+      "name": {"zh": "宋代茶肆", "ja": "宋代の茶館", "en": "Song Teahouse", "ko": "송대 찻집"},
+      "desc": "the interior of an original Song-dynasty teahouse: plain unpainted timber posts and beams, whitewashed walls, a wide window opening on the left wall with rolled-up bamboo blinds looking onto a green willow outside, a long wooden serving counter across the far wall with a charcoal brazier, black-glazed tea bowls and a stack of lacquered trays, square wooden tables with long benches placed along the left and right walls, a plain undecorated paper folding screen in the far right corner, stone-paved floor, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "unpainted timber posts and beams, whitewashed walls, left window with rolled bamboo blinds and willow outside, wooden counter with brazier and black tea bowls across the far wall, square tables and benches along both side walls, plain screen far right, stone floor, empty centre floor",
+      "checks": ["素木梁柱、白墙、风格简素", "黑釉茶盏和炭炉", "桌凳靠两侧墙", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright soft daylight from the left window, faint steam rising from a kettle on the brazier"}
+      ]
+    },
+    {
+      "key": "ming-study", "group": "east-in",
+      "name": {"zh": "明式书斋", "ja": "明代の書斎", "en": "Ming Scholar's Study", "ko": "명대 서재"},
+      "desc": "an original Ming-dynasty scholar's study: a large plain huanghuali painting table with a brush pot, an inkstone and a few rolled scrolls standing against the far wall, a low-backed official's armchair behind it, an open bookcase of plain huali wood on the right wall stacked with thread-bound books in blue cloth cases with no visible titles, a round moon window with wooden lattice on the left wall looking onto bamboo, a blank plain silk scroll hanging on the far wall, a pair of tall wooden candle stands in the far corners, polished grey square floor tiles, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "huanghuali painting table with brush pot and inkstone against the far wall, official's armchair, huali bookcase with blue-cased thread-bound books on the right, round lattice moon window with bamboo on the left, blank silk scroll on the far wall, candle stands in the far corners, grey square tiles, empty centre floor",
+      "checks": ["明式家具线条简练（画案、官帽椅）", "线装书函套、无字", "左墙圆形月洞窗外竹子", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft green-tinted daylight through the moon window, gentle shadows of the lattice on the floor"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the moon window dark blue, the room lit only by the candles on the two candle stands, warm and dim"}
+      ]
+    },
+    {
+      "key": "medieval-street", "group": "europe",
+      "name": {"zh": "中世纪村街", "ja": "中世の村の通り", "en": "Medieval Village Street", "ko": "중세 마을 거리"},
+      "desc": "a street in an original 14th-century Northern European village: an uneven cobbled street curving gently away, two-storey half-timbered houses with dark oak framing, cream wattle-and-daub infill, jettied upper floors and steep thatched or clay-tile roofs lining the left and right, small leaded windows with diamond panes, a timber well with a wooden roof at the left edge, stacked firewood and a wooden cart at the right edge, wooded hills beyond the far end of the street with no church spire or tower, and an empty patch of cobbles in the centre about four metres from the camera",
+      "keep": "uneven cobbled street, half-timbered houses with dark oak frames and cream infill on both sides, jettied upper floors, thatched and clay-tile roofs, diamond-pane leaded windows, timber well at the left edge, firewood and cart at the right edge, wooded hills at the far end, empty centre cobbles",
+      "checks": ["木构架外露、上层出挑", "菱形铅条小窗", "远处没有教堂尖塔", "中央石子路空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Overcast late-morning daylight, soft even light, damp cobbles"}
+      ]
+    },
+    {
+      "key": "castle-hall", "group": "europe",
+      "name": {"zh": "城堡大厅", "ja": "城の大広間", "en": "Castle Great Hall", "ko": "성 대강당"},
+      "desc": "the great hall of an original 13th-century stone castle: rough-cut grey ashlar walls, a high open timber roof with dark oak arched-brace trusses, a large stone hearth with a hooded chimney breast in the centre of the far wall with a log fire, a raised wooden dais with a long plain oak table in front of it, tall narrow lancet windows on the left wall, plain unpatterned woven wool hangings in deep red on the right wall with no heraldry, iron candle chandeliers hanging from the roof, rush-strewn flagstone floor, and an empty stretch of flagstones in the centre about four metres from the camera",
+      "keep": "grey ashlar walls, open timber roof with arched oak trusses, hooded stone hearth with fire in the far wall, dais with long oak table, lancet windows on the left, plain red wool hangings on the right, iron candle chandeliers, flagstone floor, empty centre flagstones",
+      "checks": ["粗石墙、露明木屋架", "远墙大壁炉、左墙尖顶窄窗", "挂毯素色、没有纹章和宗教图案", "中央石板地空着"],
+      "variants": [
+        {"key": "evening", "name": {"zh": "傍晚", "ja": "夕方", "en": "Evening", "ko": "저녁"}, "light": "Evening, the last cool daylight in the lancet windows, warm firelight from the hearth and candlelight from the iron chandeliers"}
+      ]
+    },
+    {
+      "key": "baroque-ballroom", "group": "europe",
+      "name": {"zh": "巴洛克舞厅", "ja": "バロックの舞踏室", "en": "Baroque Ballroom", "ko": "바로크 무도회장"},
+      "desc": "an original late-17th-century Baroque ballroom in a private palace: white and gold carved wall panelling with gilded scrolls, tall arched windows down the left wall with heavy crimson silk drapes, a row of tall mirrors in gilded frames between gilded pilasters on the right wall reflecting only the windows opposite, a painted ceiling of sky and clouds with no figures, three crystal chandeliers holding wax candles, a musicians' balcony with a gilded balustrade across the far wall, inlaid parquet floor in a geometric star pattern, and an empty expanse of parquet in the centre about four metres from the camera",
+      "keep": "white and gold panelling with gilded scrolls, arched windows with crimson drapes on the left, gilded mirrors between pilasters on the right, sky-and-cloud ceiling with no figures, three candle crystal chandeliers, musicians' balcony across the far wall, star-pattern parquet, empty centre floor",
+      "checks": ["白金雕饰墙板、镀金壁柱", "水晶吊灯点的是蜡烛", "天顶画只有天空、镜子里没有人", "中央拼花地板空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the windows deep blue, the room glowing gold from hundreds of candles in the chandeliers and wall sconces"}
+      ]
+    },
+    {
+      "key": "victorian-parlour", "group": "modern-era",
+      "name": {"zh": "维多利亚客厅", "ja": "ヴィクトリア朝の客間", "en": "Victorian Parlour", "ko": "빅토리아 응접실"},
+      "desc": "an original 1880s English Victorian parlour: dark green patterned wallpaper above a mahogany dado rail, a black marble fireplace with a gilt-framed mirror reflecting only the room in the centre of the far wall, a carved mahogany sofa with deep red velvet upholstery and a small tea table with a lace cloth to its right, a tall bay window with heavy velvet curtains and lace panels on the left wall, a glass-fronted mahogany cabinet of plain china on the right wall, brass gas lamps on wall brackets, a patterned wool carpet over dark floorboards, and an empty patch of carpet in the centre about four metres from the camera",
+      "keep": "dark green patterned wallpaper with mahogany dado, black marble fireplace and gilt mirror in the far wall, red velvet sofa and lace-covered tea table, bay window with velvet curtains and lace on the left, glass-fronted china cabinet on the right, brass gas lamps, patterned carpet, empty centre carpet",
+      "checks": ["深色花纹壁纸、护墙板腰线", "远墙大理石壁炉", "照明是煤气灯、不是电灯，没有人物肖像", "中央地毯空着"],
+      "variants": [
+        {"key": "afternoon", "name": {"zh": "午后", "ja": "午後", "en": "Afternoon", "ko": "오후"}, "light": "Grey overcast afternoon light through the lace in the bay window, a low coal fire glowing in the grate, the gas lamps turned low"}
+      ]
+    },
+    {
+      "key": "deco-lobby", "group": "modern-era",
+      "name": {"zh": "装饰艺术酒店大堂", "ja": "アールデコのホテルロビー", "en": "Art Deco Hotel Lobby", "ko": "아르데코 호텔 로비"},
+      "desc": "an original 1920s Art Deco grand hotel lobby: cream and black marble walls with stepped geometric bronze inlays, a curved reception desk of black lacquer and brass with no lettering against the far wall, a pair of bronze-framed lift doors with sunburst patterns behind it, fluted marble columns on the left and right, low curved velvet armchairs in emerald green at the left and right edges, fan-shaped frosted-glass wall sconces, a stepped coffered ceiling, a polished black and white marble floor in a geometric chevron pattern, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "cream and black marble walls with geometric bronze inlays, curved black lacquer and brass desk without lettering against the far wall, sunburst bronze lift doors, fluted columns on both sides, emerald velvet armchairs at the edges, fan-shaped frosted sconces, stepped ceiling, chevron marble floor, empty centre floor",
+      "checks": ["阶梯形几何纹、放射形太阳纹", "前台和电梯门没有文字", "1920 年代灯具，没有现代设备", "中央地面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Evening, warm golden light from the frosted sconces and a stepped glass ceiling fixture, polished reflections on the marble floor"}
+      ]
+    },
+    {
+      "key": "fifties-diner", "group": "modern-era",
+      "name": {"zh": "五十年代餐馆", "ja": "50年代のダイナー", "en": "1950s Diner", "ko": "50년대 다이너"},
+      "desc": "an original 1950s American roadside diner: a long counter with a chrome edge and red vinyl swivel stools running along the right side, a stainless-steel back wall behind it with a plain chrome coffee urn and a pie case of plain cakes, red and white vinyl booths with chrome-trimmed tables under a row of windows along the left wall, a rounded jukebox with blank coloured panels in the far left corner, pastel turquoise walls with chrome trim, a curved white ceiling with round frosted lamps, black and white checkerboard tile floor, no signs, menus or lettering anywhere, and an empty stretch of checkerboard floor in the centre aisle about four metres from the camera",
+      "keep": "chrome-edged counter with red vinyl stools on the right, stainless-steel back wall with coffee urn and pie case, red and white booths under windows on the left, jukebox with blank panels far left, turquoise walls with chrome trim, round frosted ceiling lamps, checkerboard floor, no lettering, empty centre aisle",
+      "checks": ["镀铬吧台和红色皮凳", "黑白棋盘格地砖", "没有招牌、菜单和任何文字", "中央过道空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright midday sun through the left windows, gleaming chrome highlights, the frosted lamps on"}
+      ]
+    }
+  ]
+}

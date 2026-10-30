@@ -1,0 +1,185 @@
+{
+  "cat": "DL",
+  "note": "Everyday things a posed figure holds, carries or looks at. Handheld objects use place=float in their natural upright orientation; sizes are frame fill, not real size. Phones, bags and cups are the classic places where a model adds a brand shape or printing, so every one of those carries an explicit negative. Hats and bags worn on the body are in the costume library (AC); the kraft shopping bag here is a disposable paper bag, not a fashion bag.",
+  "groups": {
+    "carry": {"zh": "随身小物", "ja": "身の回りの小物", "en": "Pocket & Carry", "ko": "소지품"},
+    "drink": {"zh": "杯与瓶", "ja": "カップ・ボトル", "en": "Cups & Bottles", "ko": "컵·병"},
+    "read": {"zh": "书与信", "ja": "本・手紙", "en": "Books & Letters", "ko": "책·편지"},
+    "gift": {"zh": "伞、花与礼物", "ja": "傘・花・贈り物", "en": "Umbrellas, Flowers & Gifts", "ko": "우산·꽃·선물"}
+  },
+  "forms": [
+    {
+      "key": "smartphone", "group": "carry", "place": "float", "size": "S", "probe": true,
+      "name": {"zh": "智能手机", "ja": "スマートフォン", "en": "Smartphone", "ko": "스마트폰"},
+      "desc": "a generic modern smartphone held upright in portrait orientation, a thin flat slab with evenly rounded corners and a thin {frame} metal edge, the front entirely a flat black glass screen that is switched off and shows nothing, with no notch, no visible buttons on the face and no home button; the matte {back} glass back is completely plain except for one single small round camera lens with one tiny flash dot beside it set flush in the upper-left corner, with no raised camera island, no second or third lens and no logo",
+      "keep": "thin portrait slab with rounded corners, {frame} metal edge, black screen switched off, plain matte {back} back with one single small flush round lens and one flash dot in the upper-left corner, no camera island, no logo",
+      "checks": ["屏幕黑、无内容、无刘海", "背面只有一个小圆镜头加一个闪光点，没有凸起镜头模组", "不像任何品牌机型", "没有 logo 或文字"],
+      "variants": [
+        {"key": "graphite", "name": {"zh": "石墨黑", "ja": "グラファイト", "en": "Graphite", "ko": "그라파이트"}, "vars": {"frame": "dark graphite", "back": "charcoal grey"}},
+        {"key": "sage", "name": {"zh": "鼠尾草绿", "ja": "セージグリーン", "en": "Sage", "ko": "세이지"}, "vars": {"frame": "silver", "back": "pale sage green"}}
+      ]
+    },
+    {
+      "key": "sunglasses", "group": "carry", "place": "float", "size": "S",
+      "name": {"zh": "墨镜", "ja": "サングラス", "en": "Sunglasses", "ko": "선글라스"},
+      "desc": "a pair of classic rounded-square sunglasses in glossy {frame} acetate with two dark {lens} lenses, a keyhole bridge, two visible pin hinges and both temples unfolded straight back, no metal ornaments on the hinges and no printing on the temples",
+      "keep": "rounded-square glossy {frame} acetate frame, two dark {lens} lenses, keyhole bridge, two pin hinges, both temples unfolded, no ornaments, no printing",
+      "checks": ["两片镜片、镜腿展开", "钥匙孔形鼻梁", "镜腿上没有字或金属标", "不是某品牌的标志性造型"],
+      "variants": [
+        {"key": "black", "name": {"zh": "黑框", "ja": "黒フレーム", "en": "Black", "ko": "블랙"}, "vars": {"frame": "black", "lens": "grey-green"}}
+      ]
+    },
+    {
+      "key": "keys", "group": "carry", "place": "float", "size": "S",
+      "name": {"zh": "钥匙串", "ja": "鍵束", "en": "House Keys", "ko": "열쇠 꾸러미"},
+      "desc": "a bunch of house keys hanging from a single round split-ring key ring: exactly three plain metal keys (two brass and one nickel-silver) with cut teeth and round heads, and one small plain {fob} leather tab, no car key, no remote, no tags with writing",
+      "keep": "one round split ring, exactly three plain keys (two brass, one nickel-silver), one small plain {fob} leather tab, no car key, no writing",
+      "checks": ["一个钥匙圈", "正好三把钥匙", "一个素皮小挂片", "没有车钥匙、没有字"],
+      "variants": [
+        {"key": "tan", "name": {"zh": "棕皮挂片", "ja": "茶革タブ", "en": "Tan Tab", "ko": "탄 가죽 태그"}, "vars": {"fob": "tan"}}
+      ]
+    },
+    {
+      "key": "compact-mirror", "group": "carry", "place": "float", "size": "S",
+      "name": {"zh": "折叠化妆镜", "ja": "コンパクトミラー", "en": "Compact Mirror", "ko": "콤팩트 거울"},
+      "desc": "a round folding compact mirror 8 cm across in {metal}, opened to about 100 degrees on one rear hinge so both halves face the camera, each half holding a round mirror that reflects only a soft blank grey, the outer lid plain and smooth with no engraving or emblem",
+      "keep": "round {metal} compact, opened about 100 degrees on one hinge, two round mirrors reflecting only blank grey, plain outer lid with no engraving",
+      "checks": ["打开状态、两面圆镜", "镜面只映出灰色，没有人和物", "外盖素面无雕刻", "一个铰链"],
+      "variants": [
+        {"key": "rose-gold", "name": {"zh": "玫瑰金", "ja": "ローズゴールド", "en": "Rose Gold", "ko": "로즈골드"}, "vars": {"metal": "polished rose-gold metal"}}
+      ]
+    },
+    {
+      "key": "takeaway-cup", "group": "drink", "place": "float", "size": "S",
+      "name": {"zh": "外带咖啡杯", "ja": "テイクアウトカップ", "en": "Takeaway Coffee Cup", "ko": "테이크아웃 컵"},
+      "desc": "a plain {cup} paper takeaway coffee cup 12 cm tall with a {lid} plastic snap-on sip lid and a plain corrugated brown kraft cardboard sleeve around the middle, completely unprinted, no logo, no stamp, no writing on the cup, sleeve or lid",
+      "keep": "plain {cup} paper cup, {lid} sip lid, plain corrugated kraft sleeve around the middle, no printing anywhere",
+      "checks": ["一个杯套在中段", "杯身、杯套、杯盖都没有印刷", "不像任何咖啡连锁的杯子", "杯盖有饮用口"],
+      "variants": [
+        {"key": "white", "name": {"zh": "白杯", "ja": "白", "en": "White", "ko": "화이트"}, "bg": "dark", "vars": {"cup": "white", "lid": "white"}}
+      ]
+    },
+    {
+      "key": "mug", "group": "drink", "place": "float", "size": "S",
+      "name": {"zh": "陶瓷马克杯", "ja": "陶器のマグ", "en": "Ceramic Mug", "ko": "세라믹 머그"},
+      "desc": "a straight-sided stoneware mug 10 cm tall with one round C-shaped handle on the right, glazed in {glaze} with a raw unglazed foot ring, empty, no print, no pattern",
+      "keep": "straight-sided stoneware mug, one C-shaped handle on the right, {glaze} glaze, unglazed foot ring, empty, no print",
+      "checks": ["一个把手", "直筒杯身", "杯底一圈素坯", "没有印花和文字"],
+      "variants": [
+        {"key": "terracotta", "name": {"zh": "陶土红", "ja": "テラコッタ", "en": "Terracotta", "ko": "테라코타"}, "vars": {"glaze": "a speckled terracotta-red satin glaze"}}
+      ]
+    },
+    {
+      "key": "wine-glass", "group": "drink", "place": "float", "size": "M",
+      "name": {"zh": "高脚红酒杯", "ja": "ワイングラス", "en": "Wine Glass", "ko": "와인잔"},
+      "desc": "an empty stemmed wine glass in thin clear glass: a tulip-shaped bowl narrowing slightly at the rim, a long slender straight stem and a flat round foot, completely empty and dry, no liquid, no etching, no decoration",
+      "keep": "clear tulip-shaped bowl, long slender stem, flat round foot, completely empty, no etching",
+      "checks": ["空杯、没有酒", "郁金香形杯身", "细长杯脚、圆底座", "透明无花纹"],
+      "variants": [
+        {"key": "clear", "name": {"zh": "透明", "ja": "クリア", "en": "Clear", "ko": "투명"}}
+      ]
+    },
+    {
+      "key": "water-bottle", "group": "drink", "place": "float", "size": "M",
+      "name": {"zh": "保温水杯", "ja": "ステンレスボトル", "en": "Reusable Water Bottle", "ko": "텀블러 물병"},
+      "desc": "a reusable stainless steel water bottle 26 cm tall with a straight cylindrical body powder-coated in matte {colour}, a narrow shoulder and a {cap} screw cap with one fixed carry loop on top, no logo, no printing, no measurement marks",
+      "keep": "straight cylindrical body in matte {colour} powder coat, narrow shoulder, {cap} screw cap with one carry loop, no logo, no printing",
+      "checks": ["直筒瓶身、哑光", "瓶盖上一个提环", "没有 logo 或刻度", "不像某品牌水壶"],
+      "variants": [
+        {"key": "sage", "name": {"zh": "灰绿", "ja": "セージ", "en": "Sage", "ko": "세이지"}, "vars": {"colour": "sage green", "cap": "brushed steel"}}
+      ]
+    },
+    {
+      "key": "hardcover", "group": "read", "place": "float", "size": "M",
+      "name": {"zh": "精装书", "ja": "ハードカバー本", "en": "Hardcover Book", "ko": "양장본"},
+      "desc": "a closed hardcover book standing upright, about 24 cm tall and 3 cm thick, bound in plain {cloth} book cloth with slightly squared boards overhanging the cream page block, a rounded spine with two raised bands, no title, no lettering, no dust jacket",
+      "keep": "closed upright hardcover, plain {cloth} cloth binding, boards overhanging the cream page block, rounded spine with two raised bands, no lettering",
+      "checks": ["合上的书、竖放", "封面和书脊没有字", "书脊两道凸棱", "无书衣"],
+      "variants": [
+        {"key": "green", "name": {"zh": "墨绿布面", "ja": "深緑クロス", "en": "Green Cloth", "ko": "딥그린 클로스"}, "vars": {"cloth": "deep green"}}
+      ]
+    },
+    {
+      "key": "paperback-open", "group": "read", "place": "float", "size": "M", "probe": true,
+      "name": {"zh": "摊开的平装书", "ja": "開いた文庫本", "en": "Open Paperback", "ko": "펼친 문고본"},
+      "desc": "a paperback book opened flat near its middle and seen from the front with both pages facing the camera, a soft {cover} card cover curving behind, the two cream pages completely blank with no printed text, no illustrations and no page numbers, a slight natural curve of the pages toward the spine",
+      "keep": "paperback opened near the middle, two completely blank cream pages facing front, soft {cover} cover behind, natural page curve toward the spine, no text",
+      "checks": ["两页完全空白，没有文字", "打开状态、页面自然弯向书脊", "封面素色无字", "只有一本书"],
+      "variants": [
+        {"key": "cream", "name": {"zh": "米白书页", "ja": "クリーム", "en": "Cream", "ko": "크림"}, "bg": "dark", "vars": {"cover": "dusty blue"}}
+      ]
+    },
+    {
+      "key": "envelope", "group": "read", "place": "float", "size": "S",
+      "name": {"zh": "信封", "ja": "封筒", "en": "Envelope", "ko": "편지 봉투"},
+      "desc": "a sealed rectangular {paper} envelope 11 by 22 cm floating upright with its flap side facing the camera, a pointed flap closed with one round {wax} wax seal pressed with a simple five-petal flower, no address, no stamp, no writing",
+      "keep": "rectangular {paper} envelope, pointed flap closed, one round {wax} wax seal with a five-petal flower, no address, no stamp, no writing",
+      "checks": ["尖角封口在正面", "一枚火漆印、五瓣花", "没有地址、邮票和文字", "封口闭合"],
+      "variants": [
+        {"key": "cream", "name": {"zh": "米色纸", "ja": "クリーム紙", "en": "Cream", "ko": "크림"}, "bg": "dark", "vars": {"paper": "cream laid-paper", "wax": "deep red"}}
+      ]
+    },
+    {
+      "key": "umbrella-closed", "group": "gift", "place": "float", "size": "L",
+      "name": {"zh": "长柄伞（收起）", "ja": "長傘（閉じ）", "en": "Long Umbrella, Closed", "ko": "장우산（접힘）"},
+      "desc": "a closed long stick umbrella hanging vertically with the tip pointing down, {canopy} fabric canopy folded neatly around the shaft and fastened with one strap and snap, a short metal ferrule at the tip, and a J-shaped crook handle in {handle} at the top, no logo",
+      "keep": "closed long umbrella, tip down, {canopy} canopy folded and fastened with one strap, metal ferrule, J-shaped {handle} crook handle at the top, no logo",
+      "checks": ["收起状态、尖头朝下", "一条束带扣住伞面", "J 形弯柄在上", "没有 logo"],
+      "variants": [
+        {"key": "black", "name": {"zh": "黑伞", "ja": "黒", "en": "Black", "ko": "블랙"}, "vars": {"canopy": "black", "handle": "dark brown wood"}}
+      ]
+    },
+    {
+      "key": "umbrella-open", "group": "gift", "place": "float", "size": "L",
+      "name": {"zh": "长柄伞（撑开）", "ja": "長傘（開き）", "en": "Long Umbrella, Open", "ko": "장우산（펼침）"},
+      "desc": "an opened long stick umbrella held upright, a domed {canopy} canopy of exactly eight panels stretched over eight ribs with a small metal tip at the end of each rib and a short finial on top, a straight shaft down the centre to a J-shaped crook handle in {handle}, no pattern, no logo",
+      "keep": "open umbrella, domed {canopy} canopy of eight panels on eight ribs, rib tips, top finial, straight central shaft, J-shaped {handle} crook handle, no logo",
+      "checks": ["撑开状态、八片伞面八根伞骨", "中间直杆、J 形弯柄", "伞面素色", "没有 logo"],
+      "variants": [
+        {"key": "red", "name": {"zh": "红色", "ja": "赤", "en": "Red", "ko": "레드"}, "vars": {"canopy": "solid scarlet red", "handle": "natural wood"}},
+        {"key": "navy", "name": {"zh": "藏青", "ja": "ネイビー", "en": "Navy", "ko": "네이비"}, "vars": {"canopy": "solid navy blue", "handle": "black"}}
+      ]
+    },
+    {
+      "key": "bouquet", "group": "gift", "place": "float", "size": "M",
+      "name": {"zh": "纸包花束", "ja": "紙包みの花束", "en": "Wrapped Bouquet", "ko": "꽃다발"},
+      "desc": "a hand-tied bouquet held upright with the flowers at the top: {flowers} with a few green leaves, wrapped in a cone of {paper} paper folded in overlapping layers and tied at the narrow base with a {ribbon} ribbon bow, the stems' cut ends just showing below the wrap, no card, no tag, no printing",
+      "keep": "upright bouquet, {flowers}, cone of {paper} paper in overlapping layers, {ribbon} ribbon bow at the base, cut stem ends below, no card, no printing",
+      "checks": ["花朝上、纸包成锥形", "底部一个丝带结", "没有卡片和印字包装纸", "花材与配色一致"],
+      "variants": [
+        {"key": "roses", "name": {"zh": "红玫瑰", "ja": "赤いバラ", "en": "Red Roses", "ko": "빨간 장미"}, "vars": {"flowers": "about a dozen deep red roses", "paper": "plain brown kraft", "ribbon": "cream satin"}},
+        {"key": "peonies", "name": {"zh": "粉芍药", "ja": "ピンクの芍薬", "en": "Pink Peonies", "ko": "핑크 작약"}, "vars": {"flowers": "five full pale pink peonies and a few sprigs of white baby's breath", "paper": "matte dusty-grey", "ribbon": "pale pink silk"}}
+      ]
+    },
+    {
+      "key": "gift-box", "group": "gift", "place": "float", "size": "S",
+      "name": {"zh": "礼物盒", "ja": "ギフトボックス", "en": "Gift Box", "ko": "선물 상자"},
+      "desc": "a square gift box 15 cm on each side with a fitted lid, covered in plain matte {paper} paper, tied with one {ribbon} satin ribbon crossing once over each face and finished with a full looped bow on top, no tag, no card, no pattern",
+      "keep": "square box with fitted lid, plain matte {paper} paper, one {ribbon} ribbon crossing each face once, looped bow on top, no tag",
+      "checks": ["方盒带盖", "丝带十字交叉、顶上一个蝴蝶结", "包装纸素色无图案", "没有卡片或吊牌"],
+      "variants": [
+        {"key": "red-gold", "name": {"zh": "红盒金带", "ja": "赤箱・金リボン", "en": "Red & Gold", "ko": "레드·골드"}, "vars": {"paper": "deep red", "ribbon": "gold"}}
+      ]
+    },
+    {
+      "key": "balloon", "group": "gift", "place": "float", "size": "L",
+      "name": {"zh": "氢气球", "ja": "風船", "en": "Helium Balloon", "ko": "헬륨 풍선"},
+      "desc": "a single round glossy latex balloon in {colour}, inflated and floating upright with its small knotted neck at the bottom and one thin white curled ribbon string hanging straight down from the knot to the bottom of the frame, no print, no foil, no other balloons",
+      "keep": "one round glossy {colour} latex balloon, knotted neck at the bottom, one thin white ribbon string hanging straight down, no print",
+      "checks": ["只有一个气球", "底部打结、一根细绳垂下", "气球上没有图案或字", "绳子没有被手拿着"],
+      "variants": [
+        {"key": "red", "name": {"zh": "红色", "ja": "赤", "en": "Red", "ko": "레드"}, "vars": {"colour": "bright red"}}
+      ]
+    },
+    {
+      "key": "kraft-bag", "group": "gift", "place": "float", "size": "M",
+      "name": {"zh": "牛皮纸购物袋", "ja": "紙のショッパー", "en": "Kraft Shopping Bag", "ko": "크라프트 쇼핑백"},
+      "desc": "a plain brown kraft paper shopping bag 32 cm tall with a flat rectangular body, a folded gusset on each side, a turned-down top cuff, two twisted paper rope handles standing up, and a few soft creases, empty, completely unprinted with no logo, no label and no writing",
+      "keep": "plain brown kraft paper bag, side gussets, turned-down top cuff, two twisted paper rope handles standing up, empty, no printing",
+      "checks": ["两根扭绳纸提手", "两侧折边", "完全没有印刷和 logo", "空袋"],
+      "variants": [
+        {"key": "brown", "name": {"zh": "牛皮色", "ja": "クラフト", "en": "Kraft Brown", "ko": "크라프트 브라운"}}
+      ]
+    }
+  ]
+}

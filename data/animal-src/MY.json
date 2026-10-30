@@ -1,0 +1,47 @@
+{
+ "cat": "MY",
+ "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "groups": {
+  "eastern": {
+   "zh": "东方龙",
+   "ja": "東洋の竜",
+   "en": "Eastern Dragon",
+   "ko": "동양 용"
+  }
+ },
+ "forms": [
+  {
+   "key": "long-coil",
+   "group": "eastern",
+   "probe": true,
+   "species": "Chinese long dragon: a long serpentine body with four short legs each ending in four claws, two antler-like horns and a flowing whisker on each side of the snout",
+   "tail": "a long tapering serpentine tail",
+   "coat": "iridescent blue-green scales",
+   "name": {
+    "zh": "中国龙·盘曲",
+    "ja": "中国の竜・とぐろ",
+    "en": "Chinese Dragon Coiling",
+    "ko": "중국 용 휘감기"
+   },
+   "desc": "the serpentine body forming one large S-curve in mid-air, head raised at the top facing forward, four legs evenly spaced along the body with claws open, tail trailing at the bottom",
+   "keep": "S-curved serpentine body, raised head, four legs evenly spaced with open claws, two antler horns, whiskers, tapering tail",
+   "checks": [
+    "蛇形长身体、S 形",
+    "正好四条短腿、每只四爪",
+    "两只鹿角形角",
+    "不是任何作品里的龙"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

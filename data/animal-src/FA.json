@@ -1,0 +1,47 @@
+{
+ "cat": "FA",
+ "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "groups": {
+  "horse": {
+   "zh": "马",
+   "ja": "馬",
+   "en": "Horse",
+   "ko": "말"
+  }
+ },
+ "forms": [
+  {
+   "key": "horse-rear",
+   "group": "horse",
+   "probe": true,
+   "species": "horse",
+   "tail": "a long flowing tail",
+   "coat": "dark bay coat with black mane and tail",
+   "name": {
+    "zh": "马·扬蹄直立",
+    "ja": "馬・棒立ち",
+    "en": "Horse Rearing",
+    "ko": "말 앞발 들기"
+   },
+   "desc": "rearing up on its hind legs: body raised at about 45 degrees, both hind hooves on the ground under the body, both front legs lifted with the knees bent forward and the hooves tucked, neck arched, head up, tail hanging down",
+   "keep": "rearing at 45 degrees, both hind hooves on the ground, both front legs lifted with knees bent and hooves tucked, arched neck, tail down",
+   "checks": [
+    "后腿着地、身体约 45 度立起",
+    "前腿抬起、膝盖向前弯",
+    "四条腿、蹄子正确",
+    "没有马鞍缰绳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

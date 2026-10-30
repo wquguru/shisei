@@ -1,0 +1,143 @@
+{
+  "cat": "SP",
+  "note": "Sports and leisure equipment a posed figure can hold, carry, ride or stand beside. Every item is one object (a single dumbbell, a single skate) because the front template asks for a single object; balls and rackets float, board-like and wheeled things stand. All surfaces are plain: no crests, sponsor marks, size stencils or printed graphics.",
+  "groups": {
+    "ball": {"zh": "球与球拍", "ja": "ボール・ラケット", "en": "Balls & Rackets", "ko": "공·라켓"},
+    "board": {"zh": "滑板冲浪与轮滑", "ja": "ボード・ローラー", "en": "Boards & Skates", "ko": "보드·롤러"},
+    "fitness": {"zh": "健身", "ja": "フィットネス", "en": "Fitness", "ko": "피트니스"},
+    "outdoor": {"zh": "户外休闲", "ja": "アウトドア", "en": "Outdoor Leisure", "ko": "아웃도어"}
+  },
+  "forms": [
+    {
+      "key": "basketball", "group": "ball", "place": "float", "size": "S",
+      "name": {"zh": "篮球", "ja": "バスケットボール", "en": "Basketball", "ko": "농구공"},
+      "desc": "a full-size basketball, a perfect sphere in pebbled orange-brown rubber, divided into eight panels by black recessed channel lines (one line around the equator and three curved lines crossing it), a small round inflation valve on one panel, no printing, no logo, no lettering, no numbers",
+      "keep": "pebbled orange-brown rubber sphere, eight panels divided by black channel lines, small inflation valve, no printing",
+      "checks": ["黑色凹槽线把球分成八片", "颗粒感橡胶表面", "一个小气门", "没有字、没有标志"],
+      "variants": [
+        {"key": "orange", "name": {"zh": "橙色", "ja": "オレンジ", "en": "Orange", "ko": "오렌지"}}
+      ]
+    },
+    {
+      "key": "football", "group": "ball", "place": "float", "size": "S", "probe": true,
+      "name": {"zh": "足球", "ja": "サッカーボール", "en": "Football", "ko": "축구공"},
+      "desc": "a classic size-5 football stitched from twelve black pentagon panels and twenty white hexagon panels, every black pentagon surrounded by five white hexagons and no two pentagons touching, matte leather with visible stitched seams along every panel edge, no printing, no logo, no lettering, no stars",
+      "keep": "classic ball of twelve black pentagons and twenty white hexagons, each pentagon ringed by five hexagons, stitched seams, no printing",
+      "checks": ["黑五边形、白六边形的经典拼片", "每个黑五边形周围五个白六边形、黑块互不相接", "缝线清楚", "没有字、没有标志"],
+      "variants": [
+        {"key": "classic", "name": {"zh": "黑白", "ja": "白黒", "en": "Black & White", "ko": "흑백"}, "bg": "dark"}
+      ]
+    },
+    {
+      "key": "tennis-racket", "group": "ball", "place": "float", "size": "M",
+      "name": {"zh": "网球拍", "ja": "テニスラケット", "en": "Tennis Racket", "ko": "테니스 라켓"},
+      "desc": "a modern tennis racket held vertically with the head at the top, the string face toward the camera: an oval head in {frame} graphite, an open triangular throat, a tight grid of {string} strings (sixteen vertical, nineteen horizontal), a straight shaft ending in a black wrapped grip with a flat butt cap, no lettering or stencil on the frame or strings",
+      "keep": "{frame} graphite oval head, open triangular throat, {string} string grid, black wrapped grip, no lettering",
+      "checks": ["椭圆拍框、拍喉三角镂空", "拍线纵横网格", "黑色缠绕握把", "拍框和拍线上没有字或标志"],
+      "variants": [
+        {"key": "black-yellow", "name": {"zh": "黑框黄线", "ja": "黒フレーム・黄ガット", "en": "Black & Yellow", "ko": "블랙·옐로"}, "vars": {"frame": "matte black", "string": "pale yellow"}}
+      ]
+    },
+    {
+      "key": "badminton-racket", "group": "ball", "place": "float", "size": "M",
+      "name": {"zh": "羽毛球拍", "ja": "バドミントンラケット", "en": "Badminton Racket", "ko": "배드민턴 라켓"},
+      "desc": "a lightweight badminton racket held vertically with the head at the top, the string face toward the camera: a small slightly squared oval head in thin {frame} frame, a fine grid of white strings, a short T-joint, a long slim steel-grey shaft and a white towelling grip, no shuttlecock, no lettering or stencil anywhere",
+      "keep": "small oval head in thin {frame} frame, fine white string grid, T-joint, long slim shaft, white towelling grip, no lettering",
+      "checks": ["小椭圆拍头、细框", "细长杆、T 形接头", "白色毛巾握把", "没有羽毛球、没有字"],
+      "variants": [
+        {"key": "red", "name": {"zh": "红色", "ja": "赤", "en": "Red", "ko": "레드"}, "vars": {"frame": "glossy red"}}
+      ]
+    },
+    {
+      "key": "skateboard", "group": "board", "place": "float", "size": "M",
+      "name": {"zh": "滑板", "ja": "スケートボード", "en": "Skateboard", "ko": "스케이트보드"},
+      "desc": "a standard street skateboard, wheels down: a seven-ply maple deck with an upturned kicktail at each end, plain black grip tape on top, two silver metal trucks each with two {wheel} urethane wheels (four wheels total), and a plain natural-maple underside with no graphic, no logo, no lettering",
+      "keep": "seven-ply maple deck with two kicktails, plain black grip tape, two silver trucks, four {wheel} wheels, plain maple underside",
+      "checks": ["两端翘起的板头板尾", "顶面纯黑砂纸", "两个支架四个轮子", "板底素面、没有图案"],
+      "variants": [
+        {"key": "maple", "name": {"zh": "原木白轮", "ja": "メープル・白ウィール", "en": "Maple & White", "ko": "메이플·화이트"}, "vars": {"wheel": "off-white"}}
+      ]
+    },
+    {
+      "key": "surfboard", "group": "board", "place": "stand", "size": "L",
+      "name": {"zh": "长板冲浪板", "ja": "ロングボード", "en": "Longboard Surfboard", "ko": "롱보드 서프보드"},
+      "desc": "a 9-foot longboard surfboard standing upright on its tail, deck facing the camera, rounded nose at the top: a glossy {colour} resin finish, a thin dark wooden stringer running from nose to tail down the centre, soft rounded rails, and a single centre fin on the underside near the tail, no leash, no wax pattern, no logo, no lettering",
+      "keep": "9-foot longboard upright on its tail, rounded nose, glossy {colour} finish, thin dark wooden centre stringer, single centre fin underneath, no leash",
+      "checks": ["长板、圆头", "中间一条深色木龙骨线", "底部一个尾鳍", "没有脚绳、没有字和标志"],
+      "variants": [
+        {"key": "seafoam", "name": {"zh": "薄荷绿", "ja": "シーフォーム", "en": "Seafoam", "ko": "씨폼"}, "vars": {"colour": "seafoam green"}}
+      ]
+    },
+    {
+      "key": "roller-skate", "group": "board", "place": "float", "size": "M", "probe": true,
+      "name": {"zh": "复古四轮旱冰鞋", "ja": "クアッドローラースケート", "en": "Quad Roller Skate", "ko": "쿼드 롤러스케이트"},
+      "desc": "a single right-foot retro quad roller skate: a high-top {boot} leather boot laced with white laces through eight pairs of eyelets, a silver metal plate under the sole, two axles carrying four {wheel} wheels in two pairs (two at the front, two at the back), and one round rubber toe stop under the toe, no logo, no lettering",
+      "keep": "single high-top {boot} leather boot, white laces, silver plate, four {wheel} wheels in two pairs, one round toe stop",
+      "checks": ["只有一只鞋", "四个轮子、前后各两个", "鞋头下方一个圆刹车块", "没有标志"],
+      "variants": [
+        {"key": "white-pink", "name": {"zh": "白鞋粉轮", "ja": "白ブーツ・ピンク", "en": "White & Pink", "ko": "화이트·핑크"}, "bg": "dark", "vars": {"boot": "white", "wheel": "pastel pink"}}
+      ]
+    },
+    {
+      "key": "yoga-mat", "group": "fitness", "place": "float", "size": "S",
+      "name": {"zh": "卷起的瑜伽垫", "ja": "丸めたヨガマット", "en": "Rolled Yoga Mat", "ko": "말린 요가 매트"},
+      "desc": "a rolled-up yoga mat lying horizontally, a firm cylinder about 60 cm long in {colour} foam with a fine textured surface, the spiral of the roll visible at each end, held by a single plain black strap around the middle, no print, no logo",
+      "keep": "horizontal {colour} foam roll about 60 cm long, spiral visible at the ends, single black strap around the middle, no print",
+      "checks": ["横放的圆柱卷", "两端能看见螺旋卷层", "中间一条黑绑带", "没有印花和标志"],
+      "variants": [
+        {"key": "lavender", "name": {"zh": "薰衣草紫", "ja": "ラベンダー", "en": "Lavender", "ko": "라벤더"}, "vars": {"colour": "soft lavender"}}
+      ]
+    },
+    {
+      "key": "dumbbell", "group": "fitness", "place": "float", "size": "S",
+      "name": {"zh": "六角哑铃", "ja": "ヘックスダンベル", "en": "Hex Dumbbell", "ko": "육각 덤벨"},
+      "desc": "a single hex dumbbell lying horizontally: two identical black rubber-coated hexagonal heads joined by a short chrome handle with a knurled grip, the flat hexagon faces at both ends, no numbers, no weight markings, no logo",
+      "keep": "one dumbbell, two black hexagonal rubber heads, short chrome knurled handle, no numbers or markings",
+      "checks": ["只有一个哑铃", "两端黑色六角头", "镀铬滚花握把", "没有数字和重量标记"],
+      "variants": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "블랙"}}
+      ]
+    },
+    {
+      "key": "skipping-rope", "group": "fitness", "place": "float", "size": "S",
+      "name": {"zh": "跳绳", "ja": "なわとび", "en": "Skipping Rope", "ko": "줄넘기"},
+      "desc": "a skipping rope gathered in a loose round coil, a thin {rope} rope ending in two identical straight cylindrical {handle} wooden handles that hang side by side below the coil, no logo",
+      "keep": "loose round coil of thin {rope} rope, two straight cylindrical {handle} wooden handles hanging side by side",
+      "checks": ["一圈松散盘绕的绳", "两个相同的直柄", "木质握柄", "没有标志"],
+      "variants": [
+        {"key": "red-beech", "name": {"zh": "红绳木柄", "ja": "赤ロープ・木柄", "en": "Red & Beech", "ko": "레드·비치"}, "vars": {"rope": "red braided cotton", "handle": "pale beech"}}
+      ]
+    },
+    {
+      "key": "city-bike", "group": "outdoor", "place": "stand", "size": "L", "probe": true,
+      "name": {"zh": "城市自行车", "ja": "シティサイクル", "en": "City Bicycle", "ko": "시티 자전거"},
+      "desc": "a classic city bicycle standing upright on its kickstand: a step-through {frame} steel frame, two equal 28-inch wheels each with thirty-two thin silver spokes and black tyres, upswept handlebars with brown grips, a brown sprung leather saddle, full chrome mudguards over both wheels, a single front chainring and rear sprocket joined by a chain under a chain guard, two pedals, a small flat rear rack, no basket, no lights, no lettering or decals on the frame",
+      "keep": "step-through {frame} steel frame, two equal spoked wheels, upswept bars with brown grips, brown sprung saddle, chrome mudguards, chain guard, flat rear rack, kickstand down, no decals",
+      "checks": ["车架结构合理（两轮一样大、链条接到后轮）", "低跨式车架、弯把", "前后挡泥板、链罩", "车架上没有字和贴标"],
+      "variants": [
+        {"key": "mint", "name": {"zh": "薄荷绿", "ja": "ミントグリーン", "en": "Mint Green", "ko": "민트 그린"}, "vars": {"frame": "mint green"}},
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "블랙"}, "vars": {"frame": "gloss black"}}
+      ]
+    },
+    {
+      "key": "kite", "group": "outdoor", "place": "float", "size": "M",
+      "name": {"zh": "菱形风筝", "ja": "ひし形の凧", "en": "Diamond Kite", "ko": "마름모 연"},
+      "desc": "a classic diamond kite facing the camera, nose at the top: a {sail} ripstop nylon sail stretched taut over a cross of two thin wooden spars (a long vertical spine and a shorter horizontal spar), a short bridle line on the front, and a tail of six small {bow} cloth bows trailing straight down from the bottom point, no flying line, no spool, no printing",
+      "keep": "diamond {sail} nylon sail, cross of two thin wooden spars, short bridle, tail of six {bow} cloth bows hanging from the bottom point",
+      "checks": ["菱形、十字木骨架", "尾巴上六个小布结", "没有风筝线和线轴", "帆面没有图案文字"],
+      "variants": [
+        {"key": "red", "name": {"zh": "红色", "ja": "赤", "en": "Red", "ko": "레드"}, "vars": {"sail": "bright red", "bow": "yellow"}}
+      ]
+    },
+    {
+      "key": "picnic-basket", "group": "outdoor", "place": "stand", "size": "M",
+      "name": {"zh": "野餐篮", "ja": "ピクニックバスケット", "en": "Picnic Basket", "ko": "피크닉 바구니"},
+      "desc": "a rectangular woven {wicker} wicker picnic basket about 45 cm long with two hinged flat lids that meet at a fixed bentwood centre handle arching over the top, both lids closed, each fastened at the front by a brown leather strap and small brass buckle, no cloth showing, no tags",
+      "keep": "rectangular {wicker} wicker basket, two closed hinged lids, fixed bentwood centre handle, two front leather straps with brass buckles",
+      "checks": ["长方形藤编", "中间固定的弯木提手", "两片盖子、都合上", "前面两条皮扣带"],
+      "variants": [
+        {"key": "honey", "name": {"zh": "蜂蜜色", "ja": "ハニー", "en": "Honey", "ko": "허니"}, "vars": {"wicker": "honey-coloured"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "cat": "ST",
+  "note": "Studio sets. The backdrop fills the whole background and sweeps seamlessly into the floor, so the below view (35 degrees up) must still show only backdrop: no top edge, ceiling, lights, stands or cables. Variants change colour or light, never add equipment (docs/scene/PLAN.md §3).",
+  "groups": {
+    "seamless": {"zh": "无缝背景纸", "ja": "シームレス背景", "en": "Seamless Backdrops", "ko": "무배경 페이퍼"},
+    "textured": {"zh": "纹理背景", "ja": "質感のある背景", "en": "Textured Backdrops", "ko": "질감 배경"},
+    "light": {"zh": "光线布景", "ja": "光で作るセット", "en": "Light Sets", "ko": "조명 세트"}
+  },
+  "forms": [
+    {
+      "key": "white-cyc", "group": "seamless",
+      "name": {"zh": "白色无影墙", "ja": "白ホリゾント", "en": "White Cyclorama", "ko": "화이트 호리존"},
+      "desc": "a large photographic studio white cyclorama, a smooth matte white curved wall that sweeps seamlessly into a matte white floor with no visible corner or seam, the white surface filling the whole background and both edges of the frame, the floor-to-wall curve forming a soft gradient band far behind the standing spot, nothing else in frame, and a clear patch of plain white floor in the centre about 4 metres from the camera",
+      "keep": "matte white curved cyclorama filling the whole background and both edges, seamless sweep from wall into floor, no seams, no top edge, no lights or equipment, empty white floor in the centre",
+      "checks": ["白色背景占满整个画面、看不到边缘", "墙地无缝弧形过渡", "没有灯架、线缆等器材", "中央地面空着"],
+      "variants": [
+        {"key": "high-key", "name": {"zh": "高调", "ja": "ハイキー", "en": "High Key", "ko": "하이키"}, "light": "Bright even high-key studio light, the white backdrop clean and nearly shadowless, a very faint soft shadow area on the floor at the centre, not blown out"}
+      ]
+    },
+    {
+      "key": "seamless-paper", "group": "seamless",
+      "name": {"zh": "无缝纸背景", "ja": "背景紙", "en": "Seamless Paper", "ko": "배경지"},
+      "desc": "a photographic studio set of a wide roll of {colour} seamless backdrop paper hanging from far above the frame and sweeping in a smooth curve onto the floor toward the camera, the {colour} paper filling the whole background and both edges of the frame with a uniform matte surface, no creases or tears, the same paper continuing under the standing spot, nothing else in frame, and a clear patch of plain {colour} paper floor in the centre about 4 metres from the camera",
+      "keep": "{colour} seamless matte paper filling the whole background and both edges, smooth curve from backdrop into floor, no creases, no top edge or roll visible, no lights or equipment, empty paper floor in the centre",
+      "checks": ["背景纸颜色统一、无褶皱", "看不到纸卷顶边和两侧边缘", "没有灯架、线缆等器材", "中央地面空着"],
+      "variants": [
+        {"key": "grey", "name": {"zh": "中灰", "ja": "ミディアムグレー", "en": "Mid Grey", "ko": "미디엄 그레이"}, "vars": {"colour": "neutral mid-grey"}, "light": "Soft even studio light from the front, a gentle darker falloff toward the top of the backdrop"},
+        {"key": "beige", "name": {"zh": "暖米色", "ja": "ウォームベージュ", "en": "Warm Beige", "ko": "웜 베이지"}, "vars": {"colour": "warm sand beige"}, "light": "Warm soft studio light from the front left, a subtle warm glow on the backdrop behind the standing spot"}
+      ]
+    },
+    {
+      "key": "black-seamless", "group": "seamless",
+      "name": {"zh": "黑色背景", "ja": "黒背景", "en": "Black Seamless", "ko": "블랙 배경"},
+      "desc": "a photographic studio set of matte black seamless backdrop paper sweeping in a smooth curve from the background onto the floor, the black filling the whole background and both edges of the frame and fading to pure black toward the top and sides, the matte black floor faintly visible in front, nothing else in frame, and a clear patch of matte black floor in the centre about 4 metres from the camera",
+      "keep": "matte black seamless backdrop filling the whole background and both edges, smooth curve into a matte black floor, falloff to pure black at the top and sides, no lights or equipment, empty black floor in the centre",
+      "checks": ["黑色背景占满画面", "地面能看出是地面、没完全死黑", "没有灯架、线缆等器材", "中央地面空着"],
+      "variants": [
+        {"key": "low-key", "name": {"zh": "低调", "ja": "ローキー", "en": "Low Key", "ko": "로우키"}, "light": "Low-key studio light, a soft pool of light on the black floor at the centre, everything else falling off into deep black, no light source in frame"}
+      ]
+    },
+    {
+      "key": "painted-canvas", "group": "textured",
+      "name": {"zh": "手绘肌理布", "ja": "手描き背景布", "en": "Painted Canvas Backdrop", "ko": "핸드페인팅 배경천"},
+      "desc": "a photographic studio set of a large hand-painted canvas backdrop with a soft mottled cloudy pattern in muted olive grey and brown tones, darker at the edges and lighter behind the centre, the canvas filling the whole background and both edges of the frame and draping in a smooth sweep onto the floor toward the camera, no visible hem, frame or pattern of recognisable shapes, nothing else in frame, and a clear patch of plain canvas floor in the centre about 4 metres from the camera",
+      "keep": "hand-painted mottled canvas in muted olive grey and brown, darker edges and lighter centre, canvas filling the whole background and both edges, smooth sweep onto the floor, no hem, frame or equipment, empty canvas floor in the centre",
+      "checks": ["斑驳云纹、橄榄灰棕色", "中间亮、四周暗", "布面里没有可辨认的图形或文字", "中央地面空着"],
+      "variants": [
+        {"key": "classic", "name": {"zh": "古典肖像光", "ja": "クラシック", "en": "Classic Portrait", "ko": "클래식 인물광"}, "light": "Soft directional light from the upper left like a classic portrait studio, gentle shadows in the canvas folds"}
+      ]
+    },
+    {
+      "key": "brick-wall", "group": "textured",
+      "name": {"zh": "白砖墙", "ja": "白いレンガ壁", "en": "White Brick Wall", "ko": "화이트 벽돌벽"},
+      "desc": "a photographic studio set of a white-painted brick wall filling the whole background and both edges of the frame, the bricks laid in a regular running bond with slightly uneven paint and visible mortar lines, meeting a plain pale grey polished concrete floor at a straight base line behind the standing spot, no windows, no sockets, no shelves, nothing else in frame, and a clear patch of plain concrete floor in the centre about 4 metres from the camera",
+      "keep": "white-painted brick wall in running bond filling the whole background and both edges, pale grey polished concrete floor, straight base line, no windows, sockets or shelves, no equipment, empty floor in the centre",
+      "checks": ["白漆砖墙铺满背景", "砖缝横平竖直", "没有窗、插座、架子", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "柔光", "ja": "やわらかい光", "en": "Soft Light", "ko": "부드러운 빛"}, "light": "Soft even daylight-balanced studio light from the front right, faint shadows in the mortar lines"}
+      ]
+    },
+    {
+      "key": "window-studio", "group": "light", "probe": true,
+      "name": {"zh": "窗光影棚", "ja": "窓明かりのスタジオ", "en": "Window-Light Studio", "ko": "창가 스튜디오"},
+      "desc": "a daylight photo studio with a plain warm white plaster far wall filling the background, a tall floor-to-ceiling window along the left wall covered by sheer white curtains that hang straight and let light through but show no view outside, a pale bleached wood floor running from the window to the right edge, the right side plain white wall, no furniture, no plants, no equipment, and a clear patch of plain wood floor in the centre about 4 metres from the camera",
+      "keep": "warm white plaster far wall filling the background, tall window on the left wall behind sheer white curtains hanging straight with no view outside, pale bleached wood floor, plain white right wall, no furniture or equipment, empty floor in the centre",
+      "checks": ["左墙落地窗、白纱帘垂直", "纱帘透光但看不到窗外", "没有家具、植物、器材", "中央地面空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "晨光", "ja": "朝の光", "en": "Morning Light", "ko": "아침 햇살"}, "light": "Soft morning daylight diffused through the sheer curtains from the left, a gentle light-to-shadow gradient across the room from left to right"}
+      ]
+    },
+    {
+      "key": "gel-studio", "group": "light", "probe": true,
+      "name": {"zh": "彩色滤光影棚", "ja": "カラーゲルのスタジオ", "en": "Coloured Gel Studio", "ko": "컬러 젤 스튜디오"},
+      "desc": "a photographic studio set of light grey seamless backdrop paper sweeping in a smooth curve onto the floor, the backdrop filling the whole background and both edges of the frame, washed with coloured light so the left half of the backdrop glows magenta and the right half glows teal, the two colours blending softly in a vertical band behind the standing spot, the floor picking up both colours, no lamps or stands visible, nothing else in frame, and a clear patch of grey seamless floor in the centre about 4 metres from the camera",
+      "keep": "grey seamless backdrop filling the whole background and both edges, smooth curve into the floor, magenta wash on the left half and teal on the right half blending behind the centre, floor tinted by both colours, no lamps or equipment, empty floor in the centre",
+      "checks": ["左品红、右青色，中间柔和过渡", "看不到灯具和光源", "背景纸无边缘", "中央地面空着"],
+      "variants": [
+        {"key": "magenta-teal", "name": {"zh": "品红与青", "ja": "マゼンタ×ティール", "en": "Magenta & Teal", "ko": "마젠타·틸"}, "light": "Saturated coloured gel light from out of frame, magenta from the left and teal from the right, a moody contrasty look with the backdrop clearly showing both hues"}
+      ]
+    }
+  ]
+}

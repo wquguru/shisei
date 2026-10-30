@@ -1,0 +1,377 @@
+{
+ "cat": "TD",
+ "note": "Light presets (docs/light/PLAN.md). Directions are given in image terms for the front camera; the subject never changes, so the light is the only variable.",
+ "groups": {
+  "day": {
+   "zh": "白天",
+   "ja": "日中",
+   "en": "Daytime",
+   "ko": "낮"
+  },
+  "edge": {
+   "zh": "日出日落",
+   "ja": "朝夕",
+   "en": "Sunrise & Sunset",
+   "ko": "일출·일몰"
+  },
+  "night": {
+   "zh": "夜间",
+   "ja": "夜",
+   "en": "Night",
+   "ko": "밤"
+  }
+ },
+ "forms": [
+  {
+   "key": "predawn",
+   "group": "edge",
+   "name": {
+    "zh": "黎明前蓝调",
+    "ja": "夜明け前",
+    "en": "Pre-dawn Blue",
+    "ko": "새벽 블루"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "before sunrise, no direct sun; soft shadowless cool blue light from the whole sky, slightly brighter toward the horizon behind image-right, very low contrast, about 9000 K",
+   "keep": "cool blue shadowless light, brighter horizon behind image-right, low contrast",
+   "checks": [
+    "没有直射光和清晰影子",
+    "整体冷蓝",
+    "明暗反差很小"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sunrise",
+   "group": "edge",
+   "name": {
+    "zh": "日出侧光",
+    "ja": "日の出",
+    "en": "Sunrise",
+    "ko": "일출"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "the sun just above the horizon at image-left, 5 degrees high, warm orange direct light raking across the mannequin from its right side, very long cast shadow stretching to image-right across the ground, cool blue sky fill on the shadow side",
+   "keep": "low warm sun from image-left, long shadow to image-right, cool blue fill on the shadow side",
+   "checks": [
+    "太阳很低、从画面左侧照来",
+    "影子很长、伸向画面右侧",
+    "受光面暖橙、阴影面偏冷蓝"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "morning",
+   "group": "day",
+   "name": {
+    "zh": "上午斜光",
+    "ja": "午前の斜光",
+    "en": "Morning Sun",
+    "ko": "오전 햇빛"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "mid-morning sun 35 degrees high from image-left and slightly in front, clear neutral-warm daylight about 5000 K, crisp shadows, cast shadow falling back and to image-right at medium length, clear blue sky",
+   "keep": "sun 35 degrees high from front image-left, crisp medium shadow back to image-right, clear blue sky",
+   "checks": [
+    "太阳中等高度、左前方",
+    "影子清晰、中等长度",
+    "中性偏暖白光"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "noon",
+   "group": "day",
+   "name": {
+    "zh": "正午顶光",
+    "ja": "正午のトップライト",
+    "en": "Midday Overhead Sun",
+    "ko": "정오 햇빛"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "midday sun almost straight overhead, hard white light, short dark shadow pooled directly under the mannequin's feet, deep shadows under the head's brow line, chin and arms, bright top of the head and shoulders, about 5500 K",
+   "keep": "sun straight overhead, short shadow pooled under the feet, bright tops, dark undersides",
+   "checks": [
+    "影子很短、聚在脚下",
+    "头顶和肩部最亮",
+    "下颌、腋下处黑影重"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "afternoon",
+   "group": "day",
+   "name": {
+    "zh": "午后侧光",
+    "ja": "午後の光",
+    "en": "Afternoon Sun",
+    "ko": "오후 햇빛"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "mid-afternoon sun 30 degrees high from image-right and slightly behind the mannequin, warm-neutral light about 4800 K, the mannequin's left edge lit and most of the front in soft shadow, shadow falling forward toward the camera and to image-left",
+   "keep": "sun 30 degrees high from behind image-right, front mostly in shadow, shadow falling toward the camera",
+   "checks": [
+    "光从右后方来",
+    "正面大部分在阴影里",
+    "影子朝镜头方向"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "golden-front",
+   "group": "edge",
+   "name": {
+    "zh": "黄金时刻顺光",
+    "ja": "ゴールデンアワー順光",
+    "en": "Golden Hour Front",
+    "ko": "골든아워 순광"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "golden hour, the sun 8 degrees high behind the camera and slightly to image-left, warm golden light about 3200 K washing the whole front of the mannequin, soft-edged long shadow falling straight back behind it, warm golden sky",
+   "keep": "low golden sun behind the camera, warm front wash, long shadow straight back",
+   "checks": [
+    "正面整体暖金色",
+    "影子向正后方拉长",
+    "天空暖色"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "golden-back",
+   "group": "edge",
+   "name": {
+    "zh": "黄金时刻逆光",
+    "ja": "ゴールデンアワー逆光",
+    "en": "Golden Hour Backlight",
+    "ko": "골든아워 역광"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "golden hour, the sun 8 degrees high directly behind the mannequin just outside the frame, a bright golden rim of light along the head, shoulders and arm edges, the front in soft warm shade lifted by sky light, long shadow running toward the camera, gentle haze",
+   "keep": "low sun directly behind, golden rim on the outline, soft front shade, shadow toward the camera",
+   "checks": [
+    "轮廓有一圈金色边光",
+    "正面柔和的阴影",
+    "影子朝向镜头"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "sunset",
+   "group": "edge",
+   "name": {
+    "zh": "日落余晖",
+    "ja": "夕焼け",
+    "en": "Sunset Afterglow",
+    "ko": "노을"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "just after sunset, no direct sun, the sky behind image-right glowing orange and pink fading to violet above, soft directional warm-pink light from image-right with a cool violet fill from above, very soft shadows",
+   "keep": "no direct sun, orange-pink sky glow from image-right, violet fill, very soft shadows",
+   "checks": [
+    "没有直射光",
+    "右侧粉橙色天光",
+    "阴影很柔"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "blue-hour",
+   "group": "night",
+   "name": {
+    "zh": "蓝调时刻",
+    "ja": "ブルーアワー",
+    "en": "Blue Hour",
+    "ko": "블루아워"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "blue hour twenty minutes after sunset, deep blue sky with a faint warm band at the horizon, even soft cool light about 10000 K from the sky, the mannequin in low-contrast blue tones",
+   "keep": "deep blue sky with faint warm horizon band, even cool soft light, low contrast",
+   "checks": [
+    "深蓝天空",
+    "地平线一线暖色",
+    "整体冷蓝、反差低"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "moonlight",
+   "group": "night",
+   "name": {
+    "zh": "月光",
+    "ja": "月明かり",
+    "en": "Moonlight",
+    "ko": "달빛"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "night under a full moon 40 degrees high from image-left, dim cool silver-blue directional light with soft-edged shadows to image-right, dark navy sky with a few stars, the shadow side almost black",
+   "keep": "dim cool moonlight from image-left, soft shadow to image-right, dark navy sky",
+   "checks": [
+    "光线暗、偏银蓝",
+    "从左上方来",
+    "阴影面几乎全黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "overcast",
+   "group": "day",
+   "name": {
+    "zh": "阴天漫射",
+    "ja": "曇天の拡散光",
+    "en": "Overcast",
+    "ko": "흐린 날"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "a fully overcast white-grey sky, soft even light from above with no direct sun and no distinct shadows, only a faint soft contact shadow under the feet, neutral 6500 K",
+   "keep": "overcast sky, soft even top light, no distinct shadows, faint contact shadow",
+   "checks": [
+    "天空全白灰",
+    "没有清晰影子",
+    "只有脚下淡淡的接触阴影"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "storm",
+   "group": "day",
+   "name": {
+    "zh": "暴雨前",
+    "ja": "嵐の前",
+    "en": "Before the Storm",
+    "ko": "폭풍 전"
+   },
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "desc": "dark slate-grey storm clouds filling the sky, a single break in the clouds at image-left letting a shaft of pale sunlight fall on the mannequin, bright figure against a dark sky, dry ground",
+   "keep": "dark storm sky, one break at image-left lighting the figure, bright figure against dark sky",
+   "checks": [
+    "天空乌云压低",
+    "一束光从左侧云缝打在人台上",
+    "人亮、背景暗"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

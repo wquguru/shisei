@@ -1,0 +1,145 @@
+{
+  "cat": "FT",
+  "note": "Fantasy and science fiction. Every place is an original design, not from any game, anime, film or franchise, and built to be physically plausible: real materials, real scale, a floor that bears weight. Screens, holograms and signs stay blank colour fields; any glow (neon, crystals, lamps) sits at the edges, never in the empty centre about four metres from the camera. No creatures, robots, craft insignia or figures.",
+  "groups": {
+    "future": {"zh": "未来都市与废土", "ja": "未来都市・荒廃世界", "en": "Future City & Wasteland", "ko": "미래 도시·황무지"},
+    "space": {"zh": "太空", "ja": "宇宙", "en": "Space", "ko": "우주"},
+    "fantasy": {"zh": "西式奇幻", "ja": "西洋ファンタジー", "en": "Western Fantasy", "ko": "서양 판타지"},
+    "eastern": {"zh": "仙侠与武侠", "ja": "仙侠・武侠", "en": "Xianxia & Wuxia", "ko": "선협·무협"}
+  },
+  "forms": [
+    {
+      "key": "cyber-alley", "group": "future", "probe": true,
+      "name": {"zh": "赛博朋克小巷", "ja": "サイバーパンクの路地", "en": "Cyberpunk Alley", "ko": "사이버펑크 골목"},
+      "desc": "a narrow back alley in an original near-future megacity: tall grimy concrete walls on the left and right crowded with air-conditioner units, tangled cables, metal fire escapes and pipes, several rectangular holographic panels projecting from the walls that show only blank flat fields of magenta and cyan colour with no text, symbols or faces, a row of tightly packed towers with lit windows closing the far end, steam venting from a grate at the right edge, stacked plastic crates at the left edge, wet asphalt reflecting the coloured light, and an empty patch of wet asphalt in the centre about four metres from the camera",
+      "keep": "grimy concrete walls with AC units, cables, fire escapes and pipes on both sides, holographic panels showing only blank magenta and cyan fields, packed towers at the far end, steam grate at the right edge, crates at the left edge, wet reflective asphalt, empty centre asphalt",
+      "checks": ["两侧墙面挤满空调外机、管线、消防梯", "全息屏只有纯色、没有文字符号或人脸", "地面湿反光、远处高楼密集", "中央地面空着、没有光效"],
+      "variants": [
+        {"key": "night-rain", "name": {"zh": "雨夜", "ja": "雨の夜", "en": "Rainy Night", "ko": "비 오는 밤"}, "light": "Night in light rain, magenta and cyan light from the blank holographic panels, cold white light from a few bare tube lamps, puddles reflecting the colours"}
+      ]
+    },
+    {
+      "key": "ruined-street", "group": "future",
+      "name": {"zh": "废土城市街道", "ja": "廃墟の街路", "en": "Overgrown Ruined Street", "ko": "폐허 도시 거리"},
+      "desc": "a city street decades after abandonment in an original post-apocalyptic world: cracked asphalt lifted by grass and young trees, rusted car shells with no plates pushed against the kerbs at the left and right edges, five-storey concrete buildings with broken windows and ivy covering their facades on both sides, a collapsed overpass of broken concrete and rebar blocking the far end with vines hanging from it, sign frames with their panels gone, a fallen streetlight along the left kerb, and an empty patch of cracked asphalt in the centre about four metres from the camera",
+      "keep": "cracked asphalt with grass and young trees, rusted car shells without plates at both kerbs, ivy-covered concrete buildings with broken windows on both sides, collapsed overpass with hanging vines at the far end, empty sign frames, fallen streetlight on the left, empty centre asphalt",
+      "checks": ["裂开的沥青长出草和小树", "两侧锈车无车牌、楼面爬满藤蔓", "招牌只剩空框、没有文字", "中央路面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft overcast daylight, a slight green tint from the vegetation, light mist in the far distance"}
+      ]
+    },
+    {
+      "key": "desert-outpost", "group": "future",
+      "name": {"zh": "荒漠前哨站", "ja": "砂漠の前哨基地", "en": "Desert Outpost", "ko": "사막 전초기지"},
+      "desc": "an original wasteland outpost in a desert: a hard-packed sand yard surrounded by a makeshift wall of corrugated metal sheets and welded scrap, a squat shelter of rusted shipping containers and patched canvas awnings across the far side, a tall wooden water tower at the left edge, stacked fuel drums and tyres at the right edge, a wind turbine made from salvaged blades turning on a pole behind the wall, red rock mesas on the horizon beyond, no lettering or markings on any surface, and an empty patch of sand in the centre about four metres from the camera",
+      "keep": "hard-packed sand yard, corrugated scrap wall, rusted container shelter with patched canvas awnings across the far side, wooden water tower at the left edge, fuel drums and tyres at the right edge, salvaged wind turbine, red mesas on the horizon, no markings, empty centre sand",
+      "checks": ["波纹铁皮和废料拼的围墙", "集装箱和帆布搭的掩体", "表面没有文字和标记", "中央沙地空着"],
+      "variants": [
+        {"key": "noon", "name": {"zh": "正午", "ja": "真昼", "en": "Noon", "ko": "한낮"}, "light": "Harsh noon sun almost overhead, short hard shadows, bleached pale sky, heat haze above the far mesas"}
+      ]
+    },
+    {
+      "key": "ship-corridor", "group": "space",
+      "name": {"zh": "飞船走廊", "ja": "宇宙船の通路", "en": "Starship Corridor", "ko": "우주선 복도"},
+      "desc": "a corridor inside an original large starship: a hexagonal cross-section with matte white composite wall panels and dark grey structural ribs at regular intervals, recessed white strip lights along the upper edges, conduit bundles and handrails along the left and right walls, a closed sliding pressure door with a plain grey surface and no markings at the far end, a few small blank wall screens showing only soft blue, a grated metal deck floor over a solid sub-floor, and an empty stretch of deck in the centre about four metres from the camera",
+      "keep": "hexagonal corridor with matte white panels and grey ribs, recessed white strip lights, conduits and handrails on both walls, plain grey sliding pressure door at the far end, small blank blue wall screens, grated metal deck, empty centre deck",
+      "checks": ["六边形断面、规则的结构肋", "远端压力门没有标志和编号", "墙上屏幕只有纯色", "中央甲板空着"],
+      "variants": [
+        {"key": "standard", "name": {"zh": "常规照明", "ja": "通常照明", "en": "Standard Lighting", "ko": "일반 조명"}, "light": "Even cool white light from the recessed strips, soft reflections on the panels"}
+      ]
+    },
+    {
+      "key": "observation-deck", "group": "space",
+      "name": {"zh": "空间站观景台", "ja": "宇宙ステーションの展望デッキ", "en": "Observation Deck", "ko": "우주정거장 전망대"},
+      "desc": "the observation deck of an original orbital space station: a wide curved floor-to-ceiling window of thick glass held by slim dark metal mullions filling the far wall, an original Earth-like blue and white planet with no recognisable continents filling the lower part of the window with black starfield above, low curved white bench seating along the left and right walls, a slightly raised step running across in front of the window, white composite ceiling with soft recessed lights, light grey resin floor, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "curved floor-to-ceiling window with dark mullions across the far wall, original blue and white planet in the lower window with no recognisable continents, black starfield, white curved benches on both sides, raised step before the window, white ceiling with recessed lights, light grey floor, empty centre floor",
+      "checks": ["远墙整面弧形大窗", "窗外行星是原创、没有可辨认的大陆", "两侧弧形白色长椅", "中央地面空着"],
+      "variants": [
+        {"key": "planet-light", "name": {"zh": "行星光", "ja": "惑星の光", "en": "Planetshine", "ko": "행성광"}, "light": "Cool blue planetshine through the window as the main light, the room's own lights dimmed low, sharp sunlight catching the planet's limb"}
+      ]
+    },
+    {
+      "key": "fantasy-tavern", "group": "fantasy",
+      "name": {"zh": "奇幻酒馆", "ja": "ファンタジーの酒場", "en": "Fantasy Tavern", "ko": "판타지 선술집"},
+      "desc": "the common room of an original fantasy tavern: rough plastered walls between dark oak timber posts, a heavy beamed ceiling with dried herbs and iron lanterns hanging from it, a long wooden bar counter with wooden casks stacked behind it across the far wall, a large stone fireplace on the left wall, sturdy wooden tables and benches along the right wall, a wooden staircase rising at the far right, a blank wooden board with no writing on a post, worn wide plank floor, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "plaster walls between dark oak posts, beamed ceiling with dried herbs and iron lanterns, wooden bar with casks across the far wall, stone fireplace on the left, tables and benches on the right, staircase at the far right, blank wooden board, plank floor, empty centre floor",
+      "checks": ["木梁顶挂草药和铁灯笼", "远墙吧台和酒桶、左墙石壁炉", "木板上没有文字", "中央地面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, warm firelight from the fireplace and candles inside the iron lanterns, deep amber shadows in the corners"}
+      ]
+    },
+    {
+      "key": "forest-platform", "group": "fantasy",
+      "name": {"zh": "巨树林间平台", "ja": "巨木の森の足場", "en": "Giant Tree Platform", "ko": "거목 숲 플랫폼"},
+      "desc": "an original wooden platform built high among colossal ancient trees: a round deck of pale weathered planks wrapped around a giant mossy trunk that rises at the far side, a graceful curved wooden railing with carved leaf-shaped balusters along the left and right edges, a rope-and-plank bridge leading off from the right edge to another platform on a distant trunk, more enormous trunks fading into green haze beyond, hanging moss and ferns on the branches, and an empty patch of deck in the centre about four metres from the camera",
+      "keep": "round pale plank deck around a giant mossy trunk at the far side, curved wooden railing with leaf balusters on both sides, rope-and-plank bridge from the right edge to a distant platform, colossal trunks in green haze beyond, hanging moss and ferns, empty centre deck",
+      "checks": ["平台围着巨树主干搭建", "木栏杆叶形栏杆柱", "右侧吊桥通向远处树干", "中央木甲板空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft green daylight filtering down through the high canopy, a few slanting sunbeams in the haze, none falling on the centre"}
+      ]
+    },
+    {
+      "key": "crystal-cave", "group": "fantasy",
+      "name": {"zh": "水晶洞窟", "ja": "水晶の洞窟", "en": "Crystal Cave", "ko": "수정 동굴"},
+      "desc": "an original vast natural cavern: dark rough rock walls and ceiling, clusters of huge pale blue and violet quartz-like crystal columns growing from the left and right walls and the far end, a shallow still underground pool at the far left edge, a few smaller crystal points rising from the floor along the edges, a smooth level floor of dark stone with fine sand, and an empty patch of stone floor in the centre about four metres from the camera, clear of crystals",
+      "keep": "dark rock walls and ceiling, huge pale blue and violet crystal clusters on the left, right and far end, still pool at the far left, small crystal points along the edges, smooth dark stone floor with sand, empty centre floor clear of crystals",
+      "checks": ["巨大淡蓝和淡紫晶簇在两侧和远端", "晶体只在边缘微微发光", "左后方地下水潭", "中央石地空着、没有晶体和光效"],
+      "variants": [
+        {"key": "glow", "name": {"zh": "晶光", "ja": "結晶の光", "en": "Crystal Glow", "ko": "수정 빛"}, "light": "The crystal clusters at the edges glowing softly from within in cool blue and violet, reflected in the still pool, the centre lit only by their spill"}
+      ]
+    },
+    {
+      "key": "steampunk-workshop", "group": "fantasy",
+      "name": {"zh": "蒸汽朋克工坊", "ja": "スチームパンクの工房", "en": "Steampunk Workshop", "ko": "스팀펑크 공방"},
+      "desc": "an original steampunk inventor's workshop: soot-darkened red brick walls, a tall arched iron-framed window with many small panes across the far wall, a large brass boiler with copper pipes, pressure gauges with blank dials and valves at the right edge, a long oak workbench along the left wall covered in brass gears, tools and rolled blank blueprints, a belt-driven overhead line shaft with leather belts under the ceiling, cast-iron columns, oil lamps on brackets, a worn plank floor, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "soot-darkened brick walls, arched iron-framed window across the far wall, brass boiler with copper pipes and blank gauges at the right edge, oak workbench with gears and tools along the left wall, overhead line shaft and leather belts, cast-iron columns, oil lamps, plank floor, empty centre floor",
+      "checks": ["黄铜锅炉和铜管、仪表盘无刻字", "顶上皮带传动轴", "左墙工作台堆满齿轮工具", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Hazy daylight through the arched far window, dust and a little steam in the air, warm glints off the brass"}
+      ]
+    },
+    {
+      "key": "floating-island", "group": "fantasy", "probe": true,
+      "name": {"zh": "浮空岛悬崖", "ja": "浮遊島の崖", "en": "Floating Island Edge", "ko": "부유섬 절벽"},
+      "desc": "the grassy edge of an original floating island high above the clouds: a level meadow of short grass and wildflowers with a worn earth path, the ground ending in a rocky cliff edge across the far side beyond which a sea of white clouds stretches to the horizon, two other smaller floating islands with trees and hanging roots drifting in the far distance on the left and right, a weathered stone arch ruin at the left edge, a gnarled windswept tree at the right edge, and an empty patch of grass in the centre about four metres from the camera, well back from the cliff",
+      "keep": "short grass meadow with wildflowers and earth path, rocky cliff edge across the far side, sea of white clouds to the horizon, two small floating islands with hanging roots in the distance left and right, stone arch ruin at the left edge, windswept tree at the right edge, empty centre grass back from the edge",
+      "checks": ["远处是悬崖边、下面云海", "远处左右两座小浮岛、垂着树根", "左侧石拱遗迹、右侧风吹歪的树", "中央草地空着、离崖边有距离"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright clear day, high sun, deep blue sky, crisp shadows on the grass, the cloud sea brilliant white"},
+        {"key": "sunset", "name": {"zh": "日落", "ja": "夕日", "en": "Sunset", "ko": "일몰"}, "light": "Sunset, the sun low on the horizon beyond the cliff, the cloud sea glowing orange and pink, long shadows reaching toward the camera"}
+      ]
+    },
+    {
+      "key": "gothic-corridor", "group": "fantasy",
+      "name": {"zh": "哥特城堡长廊", "ja": "ゴシック城の回廊", "en": "Gothic Castle Corridor", "ko": "고딕 성 회랑"},
+      "desc": "a long corridor in an original dark gothic castle: grey stone walls rising to a ribbed vaulted ceiling with pointed arches, tall pointed-arch windows with plain clear leaded glass down the left wall, a row of empty stone niches and wrought-iron candle sconces on the right wall, a long dark red runner carpet on the flagstone floor, the corridor receding to a heavy closed oak door with iron straps at the far end, plain stone with no religious images or crests, and an empty stretch of runner in the centre about four metres from the camera",
+      "keep": "grey stone walls, ribbed vault with pointed arches, tall pointed windows with clear leaded glass on the left, empty niches and iron candle sconces on the right, dark red runner on flagstones, iron-strapped oak door at the far end, no religious images or crests, empty centre runner",
+      "checks": ["肋拱穹顶、尖拱窗", "壁龛空着、没有雕像和宗教图案", "远端铁箍橡木门", "中央地毯空着"],
+      "variants": [
+        {"key": "moonlight", "name": {"zh": "月夜", "ja": "月夜", "en": "Moonlit", "ko": "달밤"}, "light": "Night, cold blue moonlight falling through the left windows in long bars across the floor, warm flickering candlelight from the right-hand sconces"}
+      ]
+    },
+    {
+      "key": "xianxia-terrace", "group": "eastern", "probe": true,
+      "name": {"zh": "仙山云台", "ja": "仙山の雲台", "en": "Immortal Cloud Terrace", "ko": "선산 운대"},
+      "desc": "an original xianxia mountain terrace high above a sea of clouds: a wide flat platform of pale white jade-like stone slabs with a carved white stone balustrade along the far edge, beyond it a vast sea of rolling clouds with sharp green-cloaked karst peaks rising out of it into the distance, a pavilion of red timber with sweeping upturned eaves and grey glazed tiles standing on a rock outcrop at the left edge, a twisted old pine growing from the cliff at the right edge, a long waterfall falling from a distant peak into the clouds, and an empty stretch of stone terrace in the centre about four metres from the camera",
+      "keep": "pale white stone slab terrace, carved white balustrade along the far edge, sea of clouds with sharp green karst peaks beyond, red timber pavilion with upturned eaves on an outcrop at the left edge, twisted pine at the right edge, distant waterfall, empty centre terrace",
+      "checks": ["白石平台与石栏杆", "栏外云海、尖峰从云中冒出", "左侧飞檐红亭、右侧古松，没有神像和香炉", "中央石台空着、没有光效"],
+      "variants": [
+        {"key": "dawn", "name": {"zh": "日出", "ja": "日の出", "en": "Sunrise", "ko": "일출"}, "light": "Sunrise, the sun just above the cloud sea on the right, the clouds lit gold and rose, cool blue shadows on the terrace"},
+        {"key": "moon", "name": {"zh": "月夜", "ja": "月夜", "en": "Moonlit", "ko": "달밤"}, "light": "Clear night, a full moon high over the cloud sea, silver-blue moonlight on the white stone, the peaks in dark silhouette"}
+      ]
+    },
+    {
+      "key": "wuxia-inn", "group": "eastern",
+      "name": {"zh": "竹林客栈", "ja": "竹林の宿", "en": "Bamboo Forest Inn", "ko": "죽림 객잔"},
+      "desc": "the courtyard of an original wuxia-style country inn in a bamboo forest: a two-storey timber inn building with a covered upper gallery, wooden lattice doors and a grey tile roof across the far side, a blank wooden signboard over the door and a blank cloth banner on a tall bamboo pole at the left edge, a low wooden fence and dense tall green bamboo grove closing the left and right, a stone well and stacked wine jars with plain red paper seals at the right edge, a packed earth yard, and an empty patch of earth in the centre about four metres from the camera",
+      "keep": "two-storey timber inn with upper gallery, lattice doors and grey tile roof across the far side, blank signboard over the door, blank cloth banner on a bamboo pole at the left edge, low wooden fence and dense bamboo grove left and right, stone well and wine jars with plain red seals at the right edge, packed earth yard, empty centre earth",
+      "checks": ["两层木构客栈、二层回廊", "招牌和酒旗空白无字", "四周密竹林、右侧水井酒坛", "中央土地空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft green-filtered daylight through the bamboo, light mist among the stalks"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, red paper lanterns lit by candle along the gallery eaves, warm light spilling from the lattice doors, the bamboo dark beyond"}
+      ]
+    }
+  ]
+}

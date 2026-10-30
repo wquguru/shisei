@@ -1,0 +1,405 @@
+{
+ "cat": "PO",
+ "note": "Light presets (docs/light/PLAN.md). Directions are given in image terms for the front camera; the subject never changes, so the light is the only variable.",
+ "groups": {
+  "key": {
+   "zh": "主光位",
+   "ja": "キーライト位置",
+   "en": "Key Positions",
+   "ko": "키라이트 위치"
+  },
+  "pattern": {
+   "zh": "组合布光",
+   "ja": "組み合わせライティング",
+   "en": "Combined Setups",
+   "ko": "조합 조명"
+  },
+  "tone": {
+   "zh": "影调",
+   "ja": "トーン",
+   "en": "Tonal Keys",
+   "ko": "톤"
+  }
+ },
+ "forms": [
+  {
+   "key": "flat-front",
+   "group": "key",
+   "name": {
+    "zh": "正面平光",
+    "ja": "正面フラットライト",
+    "en": "Flat Front",
+    "ko": "정면 플랫"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "one large soft light directly behind the camera at lens height, even shadowless light on the whole front, the sphere lit almost evenly with the highlight at its centre, minimal shadow",
+   "keep": "large soft light at the camera axis, shadowless front, centred sphere highlight",
+   "checks": [
+    "正面均匀、几乎没有阴影",
+    "球的高光在正中",
+    "没有可见灯具"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "butterfly",
+   "group": "key",
+   "name": {
+    "zh": "蝴蝶光（派拉蒙光）",
+    "ja": "バタフライライト",
+    "en": "Butterfly (Paramount)",
+    "ko": "버터플라이"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "one hard light directly in front of the mannequin and 45 degrees above it, a small symmetrical shadow under the nose ridge and chin, cheekbone planes lit evenly on both sides, sphere highlight top-centre, short shadow straight down behind",
+   "keep": "hard light front and 45 degrees above, symmetrical shadow under the head, sphere highlight top-centre",
+   "checks": [
+    "光在正前上方",
+    "阴影左右对称、在下颌下",
+    "球高光在顶部正中"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "loop",
+   "group": "key",
+   "name": {
+    "zh": "环形光",
+    "ja": "ループライト",
+    "en": "Loop Light",
+    "ko": "루프"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "one soft key light 30 degrees to image-left and 30 degrees above, the shadow of the head's nose ridge forming a small loop down toward image-right, the right side of the figure in gentle shadow, sphere highlight upper-left",
+   "keep": "soft key 30 degrees image-left and 30 degrees up, small loop shadow to image-right, sphere highlight upper-left",
+   "checks": [
+    "主光左前 30 度",
+    "阴影偏向右下",
+    "球高光在左上"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rembrandt",
+   "group": "key",
+   "name": {
+    "zh": "伦勃朗光",
+    "ja": "レンブラントライト",
+    "en": "Rembrandt Light",
+    "ko": "렘브란트"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "one key light 45 degrees to image-left and 45 degrees above, no fill, the image-right side of the head in shadow except a small lit triangle on the cheek plane under the eye socket, deep shadows on the right half of the torso, sphere half-lit with the terminator crossing diagonally",
+   "keep": "key 45 degrees image-left and 45 up, no fill, lit triangle on the shadow-side cheek, diagonal terminator on the sphere",
+   "checks": [
+    "主光左前上 45 度",
+    "暗侧脸颊上一个小三角亮区",
+    "没有补光、阴影深"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "split",
+   "group": "key",
+   "name": {
+    "zh": "侧光（分割光）",
+    "ja": "スプリットライト",
+    "en": "Split Light",
+    "ko": "스플릿"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "one hard light exactly 90 degrees to image-left at head height, the figure split vertically down its centre line: image-left half lit, image-right half in deep shadow, the sphere exactly half lit",
+   "keep": "hard light 90 degrees image-left, figure split down the centre, sphere exactly half lit",
+   "checks": [
+    "光从正左侧 90 度",
+    "身体正好一半亮一半暗",
+    "球正好一半亮"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "rim",
+   "group": "pattern",
+   "name": {
+    "zh": "轮廓光",
+    "ja": "リムライト",
+    "en": "Rim Light",
+    "ko": "림 라이트"
+   },
+   "setting": "standing on a seamless black studio backdrop and floor",
+   "desc": "two hard lights behind the mannequin, one at image-left rear and one at image-right rear, both 30 degrees above, drawing thin bright edges along both sides of the head, shoulders, arms and legs, the front almost black, the sphere showing two thin crescent edges",
+   "keep": "two rear lights tracing thin bright edges on both sides, near-black front, black backdrop",
+   "checks": [
+    "两侧细亮轮廓",
+    "正面几乎全黑",
+    "背景黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "top",
+   "group": "key",
+   "name": {
+    "zh": "顶光",
+    "ja": "トップライト",
+    "en": "Top Light",
+    "ko": "탑 라이트"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "one hard light directly overhead, bright top of the head and shoulders, the face-front and torso falling into shadow below the brow line, short round shadow pooled under the feet, sphere lit only on top",
+   "keep": "hard light straight overhead, bright tops, dark front below the brow, short pooled shadow",
+   "checks": [
+    "光从正上方",
+    "正面大部分在阴影",
+    "脚下短圆影"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "under",
+   "group": "key",
+   "name": {
+    "zh": "底光",
+    "ja": "アンダーライト",
+    "en": "Under Light",
+    "ko": "언더 라이트"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "one light low on the floor in front of the mannequin pointing up, the undersides of the chin, chest and arms lit, upward-cast shadows on the head and the backdrop behind, an unnatural eerie mood, sphere lit from below",
+   "keep": "floor light in front pointing up, lit undersides, upward shadows on the backdrop",
+   "checks": [
+    "光从前下方往上",
+    "下巴、胸下被照亮",
+    "影子投在背景上方"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "clamshell",
+   "group": "pattern",
+   "name": {
+    "zh": "蚌壳光",
+    "ja": "クラムシェル",
+    "en": "Clamshell",
+    "ko": "클램셸"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "a large soft light in front and 40 degrees above plus a soft fill below in front at chest height, very even flattering light on the front, faint shadow under the chin, two highlights on the sphere (one top, one bottom)",
+   "keep": "soft key above front plus soft fill below front, even front, two sphere highlights",
+   "checks": [
+    "上下两盏柔光",
+    "正面均匀",
+    "球上下两个高光"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "three-point",
+   "group": "pattern",
+   "name": {
+    "zh": "三点布光",
+    "ja": "三点照明",
+    "en": "Three-point Lighting",
+    "ko": "3점 조명"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "a soft key 45 degrees to image-left and 30 degrees above, a weaker fill from image-right at camera height, and a hair light from behind above lighting the top edge of the head and shoulders, moderate contrast, sphere showing key highlight upper-left and a faint rim on top",
+   "keep": "soft key 45 degrees image-left, weaker fill image-right, rear hair light on the top edge",
+   "checks": [
+    "左前主光",
+    "右侧较弱补光",
+    "头肩顶部有背光"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "high-key",
+   "group": "tone",
+   "name": {
+    "zh": "高调",
+    "ja": "ハイキー",
+    "en": "High-key",
+    "ko": "하이키"
+   },
+   "setting": "standing on a seamless pure white studio backdrop and floor",
+   "desc": "bright soft light flooding the whole set from the front and both sides, the backdrop pure white, the mannequin light and airy with very faint soft shadows, almost no dark tones",
+   "keep": "bright soft even light everywhere, pure white backdrop, very faint shadows",
+   "checks": [
+    "背景纯白",
+    "几乎没有暗部",
+    "阴影极淡"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "low-key",
+   "group": "tone",
+   "name": {
+    "zh": "低调",
+    "ja": "ローキー",
+    "en": "Low-key",
+    "ko": "로우키"
+   },
+   "setting": "standing on a seamless black studio backdrop and floor",
+   "desc": "one narrow soft light 60 degrees to image-left and above, lighting only the image-left edge planes of the head, shoulder, arm and the sphere, everything else falling into black, the backdrop black",
+   "keep": "one narrow light from image-left at 60 degrees, only the left planes lit, black everywhere else",
+   "checks": [
+    "大部分画面是黑色",
+    "只有左侧几个面被照亮",
+    "背景全黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "silhouette",
+   "group": "tone",
+   "name": {
+    "zh": "剪影",
+    "ja": "シルエット",
+    "en": "Silhouette",
+    "ko": "실루엣"
+   },
+   "setting": "standing in front of a seamless white backdrop that is lit brightly from behind",
+   "desc": "the backdrop evenly bright white, no light on the front of the mannequin or the sphere, both reading as clean solid dark silhouettes with crisp outlines",
+   "keep": "bright white backdrop, no front light, clean dark silhouettes",
+   "checks": [
+    "背景亮白",
+    "人台和球是纯黑剪影",
+    "轮廓清晰"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

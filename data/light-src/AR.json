@@ -1,0 +1,347 @@
+{
+ "cat": "AR",
+ "note": "Light presets (docs/light/PLAN.md). Directions are given in image terms for the front camera; the subject never changes, so the light is the only variable.",
+ "groups": {
+  "home": {
+   "zh": "室内灯",
+   "ja": "室内照明",
+   "en": "Indoor Lamps",
+   "ko": "실내 조명"
+  },
+  "flame": {
+   "zh": "火光",
+   "ja": "炎の光",
+   "en": "Flame",
+   "ko": "불빛"
+  },
+  "city": {
+   "zh": "城市夜光",
+   "ja": "街の夜の光",
+   "en": "City Night",
+   "ko": "도시 야경 빛"
+  }
+ },
+ "forms": [
+  {
+   "key": "table-lamp",
+   "group": "home",
+   "name": {
+    "zh": "台灯暖光",
+    "ja": "スタンドの暖色光",
+    "en": "Warm Table Lamp",
+    "ko": "따뜻한 스탠드"
+   },
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor at night, a fabric-shaded table lamp on a low side table at image-left, visible in frame",
+   "desc": "the only light is the warm 2700 K table lamp at image-left at waist height, strong warm fall-off across the mannequin from image-left to near darkness at image-right, cozy dim room, soft-edged shadow on the wall to image-right",
+   "keep": "single warm table lamp at image-left visible, steep fall-off to the right, dim room",
+   "checks": [
+    "唯一光源是左侧台灯（入画）",
+    "光从左到右迅速衰减",
+    "暖黄色"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "fluorescent",
+   "group": "home",
+   "name": {
+    "zh": "办公室荧光灯",
+    "ja": "オフィスの蛍光灯",
+    "en": "Office Fluorescent",
+    "ko": "사무실 형광등"
+   },
+   "setting": "standing in an empty office with grey carpet and white walls, a grid of rectangular ceiling light panels visible above",
+   "desc": "flat even greenish-white 4000 K light from overhead panel lights, low contrast, soft shadows under the chin and arms, slightly clinical mood",
+   "keep": "even greenish-white overhead panel light, low contrast, clinical",
+   "checks": [
+    "顶上一排方形灯板",
+    "光线平、略带青绿",
+    "阴影弱"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "candle",
+   "group": "flame",
+   "name": {
+    "zh": "烛光",
+    "ja": "ろうそくの光",
+    "en": "Candlelight",
+    "ko": "촛불"
+   },
+   "setting": "standing in a dark room, three lit candles on a low stand at image-left at hip height, visible in frame",
+   "desc": "the only light is three candle flames at image-left, very warm 1800 K flickering light, steep fall-off, the mannequin's right side glowing orange and the rest sinking into darkness, black background",
+   "keep": "three candles at image-left visible, very warm, steep fall-off, black background",
+   "checks": [
+    "只有左侧烛光",
+    "橙色、极暖",
+    "背景全黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "campfire",
+   "group": "flame",
+   "name": {
+    "zh": "篝火",
+    "ja": "焚き火",
+    "en": "Campfire",
+    "ko": "모닥불"
+   },
+   "setting": "standing outdoors at night on bare ground, a small campfire on the ground in front of it at image-left",
+   "desc": "warm orange firelight from a campfire low in front at image-left, lighting the mannequin from below and the front, upward shadows, sparks rising, dark night forest behind",
+   "keep": "low campfire in front image-left, warm uplight from below, dark forest behind",
+   "checks": [
+    "光从前下方来",
+    "暖橙色",
+    "背景是夜色"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "neon",
+   "group": "city",
+   "name": {
+    "zh": "霓虹灯",
+    "ja": "ネオン",
+    "en": "Neon Glow",
+    "ko": "네온"
+   },
+   "setting": "standing on a wet city pavement at night beside a dark wall with two blank neon tubes, a magenta one at image-left and a cyan one at image-right, no letters",
+   "desc": "magenta neon light on the mannequin's right side from image-left and cyan neon light on its left side from image-right, the two colours meeting at the centre line of the figure, colourful reflections on the wet pavement",
+   "keep": "magenta from image-left, cyan from image-right, colours meeting at the centre, wet reflections",
+   "checks": [
+    "左品红、右青色",
+    "两色在身体中线交汇",
+    "霓虹管上没有字"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "streetlamp",
+   "group": "city",
+   "name": {
+    "zh": "路灯",
+    "ja": "街灯",
+    "en": "Street Lamp",
+    "ko": "가로등"
+   },
+   "setting": "standing on an empty pavement at night under a single old sodium street lamp above and slightly behind it, visible at the top of the frame",
+   "desc": "a single sodium street lamp above and slightly behind, orange-yellow 2000 K top light, a cone of light on the pavement around the feet, the face and front in shadow, dark blue night around",
+   "keep": "single sodium lamp above-behind visible, orange cone of light, dark blue night",
+   "checks": [
+    "头顶一盏路灯（入画）",
+    "橙黄色光锥",
+    "四周夜色"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "screen",
+   "group": "home",
+   "name": {
+    "zh": "屏幕光",
+    "ja": "画面の光",
+    "en": "Screen Glow",
+    "ko": "화면 빛"
+   },
+   "setting": "standing in a dark room facing a large blank glowing monitor just out of frame in front of it at chest height",
+   "desc": "cool blue-white light from a screen directly in front at chest height, flat cold light on the front of the mannequin and the sphere, everything behind falling into darkness",
+   "keep": "cool screen light from the front at chest height, flat cold front light, dark behind",
+   "checks": [
+    "冷蓝白光从正前方",
+    "正面平光",
+    "身后漆黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fairy",
+   "group": "home",
+   "name": {
+    "zh": "串灯",
+    "ja": "ストリングライト",
+    "en": "String Lights",
+    "ko": "줄조명"
+   },
+   "setting": "standing in front of a dark wall hung with strings of small warm bulbs, the bulbs visible behind it as soft round bokeh",
+   "desc": "soft warm low light mainly from the many small bulbs behind and around, gentle rim on the outline, front softly lit by a faint warm fill, round bokeh dots in the background",
+   "keep": "many small warm bulbs behind as bokeh, gentle rim, faint warm front fill",
+   "checks": [
+    "背景有圆形虚化光点",
+    "人台轮廓有柔边光",
+    "整体暖、暗"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "headlights",
+   "group": "city",
+   "name": {
+    "zh": "车灯",
+    "ja": "車のヘッドライト",
+    "en": "Car Headlights",
+    "ko": "자동차 헤드라이트"
+   },
+   "setting": "standing on an empty road at night, two car headlights glowing just out of frame low behind the camera",
+   "desc": "two hard white headlight beams from low in front, bright flat front light on the mannequin, long double shadows cast straight back on the road, dark night beyond",
+   "keep": "two low headlight beams from the front, flat bright front, long double shadows straight back",
+   "checks": [
+    "光从前下方两盏",
+    "身后两道长影子",
+    "四周夜黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "stage-spot",
+   "group": "city",
+   "name": {
+    "zh": "舞台追光",
+    "ja": "舞台のスポットライト",
+    "en": "Stage Spotlight",
+    "ko": "무대 스포트라이트"
+   },
+   "setting": "standing on a dark wooden stage, black curtains behind",
+   "desc": "a single hard white spotlight from high in front, a sharp-edged round pool of light on the stage around the mannequin, everything outside the pool black, faint haze in the beam",
+   "keep": "single hard spotlight from high front, sharp round pool, black outside",
+   "checks": [
+    "地上一个边缘清晰的圆形光池",
+    "光池外全黑",
+    "光从前上方"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mixed",
+   "group": "home",
+   "name": {
+    "zh": "室内外混合光",
+    "ja": "屋内外のミックス光",
+    "en": "Mixed Warm & Cool",
+    "ko": "혼합광"
+   },
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor at dusk, a window at image-right showing blue dusk sky, a warm floor lamp at image-left visible",
+   "desc": "warm 2700 K lamp light on the mannequin's right side from image-left and cool blue dusk light from the window on its left side from image-right, warm and cool meeting across the figure",
+   "keep": "warm lamp from image-left, cool dusk window from image-right, warm-cool split",
+   "checks": [
+    "左暖右冷",
+    "落地灯入画",
+    "窗外是蓝色黄昏"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+  "cat": "HM",
+  "note": "Home interiors. Furniture stands along the walls so the centre floor stays empty for a composited figure; every desc names where the window is, because the three camera heights must agree on it (docs/scene/PLAN.md §3).",
+  "groups": {
+    "living": {"zh": "客厅与餐厅", "ja": "リビング・ダイニング", "en": "Living & Dining", "ko": "거실·다이닝"},
+    "private": {"zh": "卧室与书房", "ja": "寝室・書斎", "en": "Bedroom & Study", "ko": "침실·서재"},
+    "service": {"zh": "厨房、浴室与玄关", "ja": "キッチン・浴室・玄関", "en": "Kitchen, Bath & Entry", "ko": "주방·욕실·현관"},
+    "outdoor": {"zh": "阳台与阳光房", "ja": "バルコニー・サンルーム", "en": "Balcony & Sunroom", "ko": "발코니·선룸"}
+  },
+  "forms": [
+    {
+      "key": "living-modern", "group": "living", "probe": true,
+      "name": {"zh": "现代客厅", "ja": "モダンなリビング", "en": "Modern Living Room", "ko": "모던 거실"},
+      "desc": "a modern apartment living room with white walls and light oak floorboards, a low grey three-seat fabric sofa against the far wall under a large plain blank canvas, a round oak coffee table pushed close to the sofa, a tall floor lamp in the far right corner, a large floor-to-ceiling window on the left wall with sheer white curtains, and an empty stretch of bare floor in the middle of the room",
+      "keep": "white walls, light oak floor, grey sofa against the far wall, round oak coffee table by the sofa, floor lamp far right, tall window on the left wall with sheer curtains, empty centre floor",
+      "checks": ["沙发靠远墙、灰色布艺", "左墙落地窗、白纱帘", "中央地面空着", "墙上没有带人像或文字的画"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Late-morning daylight coming through the left window, soft shadows falling to the right"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the window dark blue, the room lit warmly by the floor lamp and a hidden ceiling cove light"}
+      ]
+    },
+    {
+      "key": "living-xinzhongshi", "group": "living", "probe": true,
+      "name": {"zh": "新中式客厅", "ja": "新中華風リビング", "en": "Neo-Chinese Living Room", "ko": "신중식 거실"},
+      "desc": "a neo-Chinese living room with warm off-white plaster walls and dark walnut floorboards, a long low walnut sofa with straight lines and ivory cushions against the far wall, a wooden lattice screen with a geometric fretwork pattern standing behind the sofa, a round moon-gate-shaped wooden frame on the right wall, a low square walnut tea table by the sofa, paper floor lanterns in both far corners, a tall window with wooden lattice on the left wall, and an empty stretch of bare floor in the middle",
+      "keep": "off-white plaster walls, dark walnut floor, low walnut sofa against the far wall, geometric lattice screen behind it, round moon-gate frame on the right wall, paper lanterns in the corners, lattice window on the left wall, empty centre floor",
+      "checks": ["木格栅屏风（几何回纹）", "右墙圆形月洞框", "纸灯笼", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft daylight through the left lattice window casting a faint lattice pattern on the floor"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the window dark, warm amber light from the two paper lanterns and a low hidden light behind the screen"}
+      ]
+    },
+    {
+      "key": "dining", "group": "living",
+      "name": {"zh": "餐厅", "ja": "ダイニング", "en": "Dining Room", "ko": "다이닝룸"},
+      "desc": "a home dining room with sage green walls and herringbone oak floor, a long rectangular oak dining table with six simple wooden chairs placed against the far wall, three brass pendant lamps hanging low over the table, a sideboard on the right wall with a plain ceramic vase, a window on the left wall, and open floor in the front half of the room",
+      "keep": "sage green walls, herringbone oak floor, oak table with six chairs against the far wall, three brass pendants over the table, sideboard on the right, window on the left, open front floor",
+      "checks": ["六把椅子的长餐桌靠远墙", "三盏黄铜吊灯", "人字拼地板", "前半部分地面空着"],
+      "variants": [
+        {"key": "evening", "name": {"zh": "傍晚", "ja": "夕方", "en": "Evening", "ko": "저녁"}, "light": "Evening, the left window deep blue, the three pendants glowing warm over the table"}
+      ]
+    },
+    {
+      "key": "bedroom", "group": "private",
+      "name": {"zh": "卧室", "ja": "寝室", "en": "Bedroom", "ko": "침실"},
+      "desc": "an adult's bedroom with pale greige walls and light wood floor, a double bed with a low upholstered headboard and neatly made white and oat linen against the far wall, a bedside table and small lamp on each side, a wide window with linen curtains on the left wall, a wooden wardrobe on the right wall, and a large empty area of floor at the foot of the bed",
+      "keep": "greige walls, light wood floor, double bed with white and oat linen against the far wall, two bedside tables with lamps, window with linen curtains on the left, wardrobe on the right, empty floor at the foot of the bed",
+      "checks": ["双人床靠远墙", "两侧床头柜和台灯", "左墙窗、右墙衣柜", "床尾地面空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "清晨", "ja": "朝", "en": "Morning", "ko": "아침"}, "light": "Early morning sun through the left window, the curtains half open, long soft beams across the floor"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the curtains drawn, only the two bedside lamps on, warm and dim"}
+      ]
+    },
+    {
+      "key": "attic-bedroom", "group": "private",
+      "name": {"zh": "阁楼卧室", "ja": "屋根裏の寝室", "en": "Attic Bedroom", "ko": "다락 침실"},
+      "desc": "an attic bedroom under a pitched roof with white-painted sloping ceiling and exposed wooden beams, wide pine floorboards, a low bed under the slope on the right, a skylight window set in the left slope, a small wooden chest at the far wall, and empty floor in the centre where the ceiling is highest",
+      "keep": "white sloping ceiling with exposed beams, pine floorboards, low bed under the right slope, skylight in the left slope, chest at the far wall, empty centre floor",
+      "checks": ["斜屋顶、露明木梁", "左侧斜面天窗", "床在右侧斜面下", "中央最高处地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright daylight falling through the skylight as a soft rectangle on the floor"}
+      ]
+    },
+    {
+      "key": "study", "group": "private",
+      "name": {"zh": "书房", "ja": "書斎", "en": "Home Study", "ko": "서재"},
+      "desc": "a home study with floor-to-ceiling dark green built-in bookshelves filling the far wall, the book spines plain with no lettering, a walnut writing desk and leather chair against the right wall, a green-shaded brass desk lamp, a window on the left wall, dark wood floor with a plain wool rug at the edge, and open floor in the centre",
+      "keep": "dark green bookshelves across the far wall with plain spines, walnut desk and leather chair on the right, brass desk lamp, window on the left, dark wood floor, open centre floor",
+      "checks": ["整面墙绿色书架", "书脊没有字", "书桌靠右墙", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft overcast daylight from the left window"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the room lit by the green desk lamp and a warm ceiling light, the window black"}
+      ]
+    },
+    {
+      "key": "studio-apartment", "group": "private",
+      "name": {"zh": "单身公寓", "ja": "ワンルーム", "en": "Studio Apartment", "ko": "원룸"},
+      "desc": "a small city studio apartment with white walls and pale grey vinyl floor, a single bed with a grey duvet along the right wall, a compact desk and chair under a window on the far wall, a narrow open clothes rail with plain shirts on the left wall, a small kitchenette counter in the far left corner, and a clear strip of floor down the middle",
+      "keep": "white walls, pale grey floor, single bed on the right, desk under the far window, clothes rail on the left, kitchenette far left, clear middle strip",
+      "checks": ["单人床靠右墙", "远墙窗下书桌", "左侧挂衣杆", "中间留一条空地"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, city lights blurred in the far window, the room lit by a warm desk lamp and a string of small warm bulbs along the wall"}
+      ]
+    },
+    {
+      "key": "washitsu", "group": "private",
+      "name": {"zh": "和室", "ja": "和室", "en": "Tatami Room", "ko": "다다미방"},
+      "desc": "a Japanese tatami room with eight tatami mats in the standard layout, white paper shoji sliding screens along the left wall, plain fusuma sliding doors on the right, a tokonoma alcove in the far wall containing only a ceramic vase with one branch and no hanging scroll, natural wood posts and a low wooden ceiling, and the tatami in the centre empty",
+      "keep": "eight tatami mats, shoji screens on the left, fusuma on the right, tokonoma alcove with a single vase and no scroll, wood posts, empty centre tatami",
+      "checks": ["榻榻米按标准铺法", "左侧障子纸窗", "床之间只有花瓶、没有挂轴", "中央榻榻米空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Diffuse daylight glowing through the shoji screens"}
+      ]
+    },
+    {
+      "key": "kitchen", "group": "service",
+      "name": {"zh": "开放式厨房", "ja": "オープンキッチン", "en": "Open Kitchen", "ko": "오픈 키친"},
+      "desc": "an open home kitchen with matte white flat-front cabinets and a pale stone worktop running along the far wall, an island with a matching stone top on the right side, plain white tiles behind the hob, open shelves with plain white crockery, a window above the sink on the far wall, light oak floor, and open floor between the island and the left edge",
+      "keep": "white flat cabinets and pale stone worktop along the far wall, island on the right, white tiles, open shelves with white crockery, window over the sink, light oak floor, open floor on the left",
+      "checks": ["远墙一排白色橱柜", "右侧中岛", "水槽上方有窗", "左侧地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright midday daylight from the window above the sink"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the window black, warm under-cabinet strip lights and two pendant lamps over the island"}
+      ]
+    },
+    {
+      "key": "bathroom", "group": "service",
+      "name": {"zh": "浴室", "ja": "浴室", "en": "Bathroom", "ko": "욕실"},
+      "desc": "a spacious bathroom with large-format warm grey stone tiles on floor and walls, a freestanding white oval bathtub against the far wall under a frosted window, a floating wooden vanity with a round mirror on the right wall that reflects only the opposite tiled wall, a glass shower enclosure in the far left corner, and open tiled floor in the centre",
+      "keep": "warm grey stone tiles, white oval tub under a frosted window on the far wall, wooden vanity and round mirror on the right, glass shower far left, open centre floor",
+      "checks": ["独立浴缸靠远墙", "磨砂窗", "镜子里没有人", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft diffuse daylight through the frosted window"}
+      ]
+    },
+    {
+      "key": "entry-stairs", "group": "service",
+      "name": {"zh": "玄关与楼梯", "ja": "玄関と階段", "en": "Entry Hall & Stairs", "ko": "현관·계단"},
+      "desc": "a house entry hall with white walls and a polished concrete floor, a straight open-riser oak staircase rising along the right wall with a thin black metal railing, a plain wooden front door in the far wall with a narrow glass side panel, a low bench and coat hooks with nothing on them on the left wall, and open floor in the centre of the hall",
+      "keep": "white walls, polished concrete floor, open-riser oak staircase along the right wall with black railing, wooden front door in the far wall, bench and empty hooks on the left, open centre floor",
+      "checks": ["右侧镂空踏步木楼梯", "黑色细栏杆", "远墙木门", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Daylight through the glass side panel and from a window high on the stair wall"}
+      ]
+    },
+    {
+      "key": "walk-in-closet", "group": "service",
+      "name": {"zh": "衣帽间", "ja": "ウォークインクローゼット", "en": "Walk-in Closet", "ko": "드레스룸"},
+      "desc": "a walk-in closet with built-in pale wood wardrobes on the left and right walls holding neatly hung plain clothes in neutral colours and folded knitwear, a full-length mirror on the far wall that reflects only the empty room, a small upholstered ottoman pushed against the far wall, warm strip lighting inside the shelves, light carpet, and open floor down the centre",
+      "keep": "pale wood wardrobes on both side walls with plain neutral clothes, full-length mirror on the far wall, ottoman against the far wall, warm shelf lighting, light carpet, open centre",
+      "checks": ["两侧木衣柜挂素色衣服", "远墙全身镜", "镜子里没有人", "中间通道空着"],
+      "variants": [
+        {"key": "warm", "name": {"zh": "暖光", "ja": "暖色照明", "en": "Warm Light", "ko": "웜 조명"}, "light": "Warm indoor light from the shelf strips and a soft ceiling light, no windows"}
+      ]
+    },
+    {
+      "key": "balcony", "group": "outdoor",
+      "name": {"zh": "城市阳台", "ja": "都会のバルコニー", "en": "City Balcony", "ko": "도시 발코니"},
+      "desc": "a city apartment balcony with grey stone tile floor and a glass balustrade with a slim metal top rail across the far side, potted green plants in plain terracotta pots along the left and right edges, a small round metal bistro table and two chairs at the right edge, and a soft-focus city of generic mid-rise buildings beyond the glass with no recognisable skyline",
+      "keep": "grey tile floor, glass balustrade with metal rail across the far side, terracotta pots at the edges, bistro table and chairs at the right, generic mid-rise city beyond",
+      "checks": ["玻璃栏板横在远处", "两侧盆栽", "远处城市不是真实天际线", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Clear afternoon sun from the left, blue sky with a few clouds"},
+        {"key": "dusk", "name": {"zh": "黄昏", "ja": "夕暮れ", "en": "Dusk", "ko": "황혼"}, "light": "Dusk, orange and violet sky, the city windows starting to light up, a warm wall lamp on the balcony"}
+      ]
+    },
+    {
+      "key": "sunroom", "group": "outdoor",
+      "name": {"zh": "阳光房", "ja": "サンルーム", "en": "Sunroom", "ko": "선룸"},
+      "desc": "a glass-walled sunroom with a white-painted steel frame and glass roof, terracotta tile floor, large leafy potted plants and a fiddle-leaf fig along the left and far walls, a white rattan armchair at the right edge, a green garden visible through the glass, and open floor in the centre",
+      "keep": "white steel frame glass walls and roof, terracotta tile floor, large potted plants along the left and far walls, white rattan armchair at the right, garden beyond, open centre floor",
+      "checks": ["白钢框玻璃墙和玻璃顶", "陶土色地砖", "大型盆栽", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright soft daylight from all sides, gentle leaf shadows on the floor"}
+      ]
+    }
+  ]
+}

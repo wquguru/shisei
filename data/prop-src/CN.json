@@ -1,0 +1,143 @@
+{
+  "cat": "CN",
+  "note": "Chinese classical objects for hanfu poses: things a figure holds, carries or sets beside them. Every painted surface carries flowers, landscape or plain colour only: no characters, calligraphy, seals or inscription bands (Chinese objects attract them, so each desc says so). No incense, no religious objects, nothing Japanese (no wagasa or uchiwa outline) or Korean. Furniture lives in FN; hairpins, crowns and pouches in the costume library (AC).",
+  "groups": {
+    "shade": {"zh": "伞与扇", "ja": "傘・扇", "en": "Umbrellas & Fans", "ko": "우산·부채"},
+    "lantern": {"zh": "灯笼", "ja": "灯籠・提灯", "en": "Lanterns", "ko": "등롱"},
+    "vessel": {"zh": "茶酒与食盒", "ja": "茶器・酒器・食籠", "en": "Tea, Wine & Food Boxes", "ko": "다기·주기·찬합"},
+    "study": {"zh": "文房与佩饰", "ja": "文房具・佩玉", "en": "Scholar's Objects & Ornaments", "ko": "문방구·패옥"}
+  },
+  "forms": [
+    {
+      "key": "umbrella-open", "group": "shade", "place": "float", "size": "L",
+      "name": {"zh": "油纸伞（撑开）", "ja": "油紙傘（開き）", "en": "Oil-paper Umbrella, Open", "ko": "유지산(펼침)"},
+      "desc": "an open Chinese oil-paper umbrella floating upright with the shaft vertical: a shallow dome canopy of {paper} oiled paper about 90 cm across, {paint}, stretched over many thin bamboo ribs radiating evenly from a small wrapped top cap to the rim, the inner frame under the canopy showing a ring of short bamboo stretchers and a band of coloured thread woven around the runner, a straight round bamboo shaft and a plain bamboo handle; no characters, no seals, no metal parts",
+      "keep": "open oil-paper umbrella, shallow dome {paper} canopy, {paint}, thin bamboo ribs radiating from a wrapped top cap, woven thread band inside, straight bamboo shaft and handle",
+      "checks": ["伞面浅弧、竹骨均匀放射", "伞内撑骨和彩线编织", "竹柄笔直", "伞面无字无印"],
+      "variants": [
+        {"key": "red-plum", "name": {"zh": "红底梅花", "ja": "赤地に梅", "en": "Red with Plum", "ko": "홍색 매화"}, "vars": {"paper": "deep red", "paint": "painted with one branch of white plum blossom near the rim"}}
+      ]
+    },
+    {
+      "key": "umbrella-closed", "group": "shade", "place": "float", "size": "L",
+      "name": {"zh": "油纸伞（收拢）", "ja": "油紙傘（閉じ）", "en": "Oil-paper Umbrella, Closed", "ko": "유지산(접음)"},
+      "desc": "a closed Chinese oil-paper umbrella floating upright with the top cap at the top: the {paper} oiled paper canopy folded into neat long pleats between thin bamboo ribs, gathered and tied near the top with a narrow cord, the folded canopy about 85 cm long and widest at its lower end, the bamboo rib ends visible at the lower edge, a straight round bamboo handle below; no characters, no seals, no metal parts",
+      "keep": "closed oil-paper umbrella, {paper} canopy in long neat pleats between bamboo ribs, cord tie near the top, bamboo handle below",
+      "checks": ["收拢状态", "伞面成规整长褶", "上部一道系绳", "竹柄"],
+      "variants": [
+        {"key": "indigo", "name": {"zh": "靛蓝", "ja": "藍", "en": "Indigo", "ko": "남색"}, "vars": {"paper": "plain indigo blue"}}
+      ]
+    },
+    {
+      "key": "tuanshan", "group": "shade", "place": "float", "size": "M",
+      "name": {"zh": "团扇", "ja": "団扇（中国の絹団扇）", "en": "Round Silk Fan", "ko": "단선"},
+      "desc": "a Chinese round silk fan (tuanshan) floating upright: a flat perfectly circular leaf of {silk} silk about 25 cm across stretched taut over a thin round {frame} rim, painted with {flower} in soft gongbi colours off-centre, a straight round {frame} handle running from the bottom of the rim downward, ending in a small knotted cord and a short silk tassel; no characters, no seals, no ribs showing through the silk",
+      "keep": "circular {silk} silk leaf on a thin {frame} rim, painted {flower} (the painting shows faintly through the silk from behind), straight {frame} handle below, small tassel at the handle end",
+      "checks": ["正圆扇面", "工笔花卉一枝", "直柄加小流苏", "无字无印"],
+      "variants": [
+        {"key": "peony", "name": {"zh": "米白牡丹", "ja": "生成りに牡丹", "en": "Cream with Peony", "ko": "크림 모란"}, "bg": "dark", "vars": {"silk": "translucent cream", "frame": "dark brown bamboo", "flower": "one pink peony with two leaves"}}
+      ]
+    },
+    {
+      "key": "folding-fan", "group": "shade", "place": "float", "size": "M", "probe": true,
+      "name": {"zh": "折扇（展开）", "ja": "扇子（中国の折扇・開き）", "en": "Folding Fan, Open", "ko": "접부채(펼침)"},
+      "desc": "an open Chinese folding fan floating upright with the pivot at the bottom: opened to a 150-degree arc, a pleated {leaf} paper leaf on the upper half, {paint}, and below it the bare bamboo sticks; exactly sixteen sticks in total, fourteen thin inner sticks plus two wider outer guard sticks at the left and right edges, all fanning out evenly from one small round pivot rivet, the leaf folded into evenly spaced pleats one per stick; no characters, no calligraphy, no seals, no tassel",
+      "keep": "open folding fan, 150-degree arc, pleated {leaf} paper leaf with {paint}, sixteen bamboo sticks (fourteen inner, two outer guards) from one pivot at the bottom",
+      "checks": ["展开约 150 度", "共十六根扇骨（内十四、两侧大骨各一）", "扇面折痕均匀", "扇面无字无印"],
+      "variants": [
+        {"key": "blank", "name": {"zh": "素面", "ja": "無地", "en": "Blank", "ko": "무지"}, "bg": "dark", "vars": {"leaf": "plain ivory", "paint": "left blank"}},
+        {"key": "landscape", "name": {"zh": "山水", "ja": "山水画", "en": "Landscape", "ko": "산수화"}, "bg": "dark", "vars": {"leaf": "pale ivory", "paint": "painted with a soft ink landscape of misty mountains and a lake"}}
+      ]
+    },
+    {
+      "key": "palace-lantern", "group": "lantern", "place": "float", "size": "M", "probe": true,
+      "name": {"zh": "宫灯", "ja": "宮灯", "en": "Palace Lantern", "ko": "궁등"},
+      "desc": "a Chinese hexagonal palace lantern hanging from a short {cord} silk cord: a six-sided frame of carved {wood} wood, exactly six tall rectangular panels of {silk} silk each painted with a small flower spray, a carved hexagonal top crown with six upturned corners, a short red silk tassel hanging from each of the six corners, a narrower carved hexagonal base with a small turned finial at the bottom; unlit; no characters, no seals",
+      "keep": "hexagonal palace lantern, carved {wood} frame, six {silk} silk panels with small flower sprays, top crown with six upturned corners and six red tassels, carved base with finial",
+      "checks": ["六角形、六面绢片", "顶部六个上翘角、各挂一穗", "底部小葫芦顶", "绢面只画花、无字"],
+      "variants": [
+        {"key": "rosewood", "name": {"zh": "红木", "ja": "紅木", "en": "Rosewood", "ko": "홍목"}, "vars": {"cord": "red", "wood": "dark reddish-brown rosewood", "silk": "cream"}}
+      ]
+    },
+    {
+      "key": "red-lantern", "group": "lantern", "place": "float", "size": "M",
+      "name": {"zh": "红灯笼", "ja": "赤い提灯（中国式）", "en": "Red Silk Lantern", "ko": "홍등롱"},
+      "desc": "a round Chinese red silk lantern hanging from a short red cord: a squat globe of plain glossy red silk stretched over vertical bamboo ribs that show as evenly spaced faint vertical lines, a short {cap} cylindrical cap at the top and at the bottom, a long red silk tassel hanging from the bottom cap; unlit; completely plain red silk with no characters, no symbols and no gold lettering",
+      "keep": "round red silk lantern, faint vertical rib lines, short {cap} top and bottom caps, long red tassel, plain silk with no characters",
+      "checks": ["扁圆球形", "竖向骨线", "上下各一个圆筒帽", "灯面全素、没有福字"],
+      "variants": [
+        {"key": "gold-cap", "name": {"zh": "金边", "ja": "金縁", "en": "Gold Caps", "ko": "금장"}, "vars": {"cap": "gilded"}}
+      ]
+    },
+    {
+      "key": "wine-ewer", "group": "vessel", "place": "stand", "size": "M",
+      "name": {"zh": "执壶", "ja": "執壺（水注）", "en": "Porcelain Wine Ewer", "ko": "집호"},
+      "desc": "a Song-dynasty style porcelain wine ewer about 22 cm high in {glaze}: a pear-shaped body with six soft vertical melon-lobe ribs, a tall slender neck, a long gently curved spout rising from the shoulder on the left, a tall loop handle on the right joining neck and shoulder, a small domed lid with a round knob, a short foot ring; no decoration other than the glaze, no characters",
+      "keep": "{glaze} porcelain ewer, pear-shaped melon-lobed body, slender neck, long curved spout on the left, tall loop handle on the right, small domed lid with knob",
+      "checks": ["瓜棱梨形壶身", "左侧长弯流、右侧高把", "小盖有钮", "素釉无字"],
+      "variants": [
+        {"key": "qingbai", "name": {"zh": "青白釉", "ja": "青白磁", "en": "Qingbai", "ko": "청백자"}, "bg": "dark", "vars": {"glaze": "translucent pale bluish-white qingbai glaze"}}
+      ]
+    },
+    {
+      "key": "gaiwan", "group": "vessel", "place": "stand", "size": "S",
+      "name": {"zh": "盖碗", "ja": "蓋碗", "en": "Lidded Tea Bowl", "ko": "개완"},
+      "desc": "a Chinese porcelain gaiwan in three separate pieces stacked as one: a shallow round saucer at the bottom, a flared tea bowl about 9 cm high sitting in it, and a domed lid with a small round knob resting inside the bowl rim, {glaze}; lid on; no tea visible, no spoon, no characters or marks",
+      "keep": "three-piece gaiwan: saucer, flared bowl, domed lid with knob, {glaze}",
+      "checks": ["三件：托、碗、盖", "盖子扣在碗里", "盖上小圆钮", "无字、无款"],
+      "variants": [
+        {"key": "blue-white", "name": {"zh": "青花", "ja": "染付", "en": "Blue and White", "ko": "청화"}, "bg": "dark", "vars": {"glaze": "white porcelain painted with a cobalt-blue lotus scroll"}}
+      ]
+    },
+    {
+      "key": "food-box", "group": "vessel", "place": "stand", "size": "M",
+      "name": {"zh": "提盒（食盒）", "ja": "提盒（食籠）", "en": "Tiered Food Box", "ko": "찬합"},
+      "desc": "a Chinese lacquered carrying food box (tihe) about 40 cm high: exactly three stacked rectangular tiers with rounded corners and a flat lid, finished in {lacquer} with a thin gold line border on each tier, held by a tall wooden carrying frame with two upright side posts rising from a flat base and a straight crossbar handle above the lid, small brass corner fittings; closed; no characters, no painted figures",
+      "keep": "three-tier {lacquer} food box with flat lid, thin gold line borders, tall carrying frame with two side posts and crossbar handle, closed",
+      "checks": ["三层加一盖", "两侧立柱、顶上横梁提手", "合盖状态", "无字"],
+      "variants": [
+        {"key": "red", "name": {"zh": "朱漆", "ja": "朱漆", "en": "Red Lacquer", "ko": "주칠"}, "vars": {"lacquer": "deep cinnabar red lacquer"}}
+      ]
+    },
+    {
+      "key": "brush-set", "group": "study", "place": "stand", "size": "S",
+      "name": {"zh": "笔墨砚台", "ja": "筆・墨・硯", "en": "Brush, Ink and Inkstone", "ko": "붓·먹·벼루"},
+      "desc": "a Chinese scholar's writing set arranged together on a small flat rectangular {tray} wooden tray: a dark grey rectangular inkstone with a smooth grinding surface and a shallow well holding a little black ink, a plain black ink stick lying beside it, and a brush rest shaped as three small mountain peaks with one bamboo-handled writing brush lying across it, its white hair tip pointing left; no paper, no writing, no characters or seals on any piece",
+      "keep": "{tray} tray holding a dark grey rectangular inkstone with shallow ink well, a plain black ink stick, a three-peak brush rest with one bamboo brush lying across it",
+      "checks": ["一方砚、一块墨、一支笔", "三峰笔架", "砚池有少量墨", "无纸、无字、无印"],
+      "variants": [
+        {"key": "rosewood", "name": {"zh": "红木托盘", "ja": "紅木の盆", "en": "Rosewood Tray", "ko": "홍목 쟁반"}, "vars": {"tray": "dark reddish-brown rosewood"}}
+      ]
+    },
+    {
+      "key": "scroll", "group": "study", "place": "stand", "size": "S",
+      "name": {"zh": "卷轴（收卷）", "ja": "掛軸（巻いた状態）", "en": "Rolled Hanging Scroll", "ko": "족자(말림)"},
+      "desc": "a rolled Chinese hanging scroll lying horizontally on an invisible floor: a cylinder about 60 cm long covered in {silk} silk brocade mounting with a small woven cloud pattern, tied around the middle with a thin flat cord that wraps twice and ends in a small {pin} toggle, and a round {knob} roller knob protruding from each end; rolled shut, no painting visible, no label, no characters",
+      "keep": "rolled scroll lying horizontally, {silk} brocade mounting, thin cord wrapped twice with a {pin} toggle, {knob} roller knob at each end, rolled shut",
+      "checks": ["横放、收卷状态", "中间系带一道", "两端各一个轴头", "无签条、无字"],
+      "variants": [
+        {"key": "blue", "name": {"zh": "蓝锦", "ja": "藍の錦", "en": "Blue Brocade", "ko": "남색 비단"}, "vars": {"silk": "muted blue", "pin": "pale jade", "knob": "dark rosewood"}}
+      ]
+    },
+    {
+      "key": "jade-pei", "group": "study", "place": "float", "size": "S",
+      "name": {"zh": "玉佩", "ja": "玉佩", "en": "Jade Pendant", "ko": "옥패"},
+      "desc": "a Chinese jade waist pendant hanging straight down from a short {cord} silk cord: at the top a decorative knot, below it one round {jade} jade bead, then a flat oval {jade} jade plaque about 6 cm tall carved in low relief with a simple curling cloud scroll and pierced with one small hole, and below the plaque a long {cord} silk tassel; no characters, no animals, no metal",
+      "keep": "{cord} cord with a decorative knot, one {jade} jade bead, flat oval {jade} jade plaque with low-relief cloud scroll, long {cord} tassel below",
+      "checks": ["上结、一颗玉珠", "椭圆玉牌、云纹浅浮雕", "下垂长流苏", "无字"],
+      "variants": [
+        {"key": "green", "name": {"zh": "青玉", "ja": "青玉", "en": "Green Jade", "ko": "청옥"}, "vars": {"cord": "deep red", "jade": "translucent pale green"}}
+      ]
+    },
+    {
+      "key": "bronze-mirror", "group": "study", "place": "float", "size": "S",
+      "name": {"zh": "铜镜（镜背）", "ja": "銅鏡（鏡背）", "en": "Bronze Mirror, Back", "ko": "동경(배면)"},
+      "desc": "the decorated back of a round Tang-style Chinese bronze mirror about 18 cm across, floating upright facing the camera: {patina} bronze, a domed central knob with a {cord} silk cord threaded through it and hanging down, an inner ring of four plain lotus petals around the knob, a wide band of raised flowering vines and two small flying birds, and a plain raised outer rim; cast relief only, no inscription band, no characters, no zodiac animals, no reflective face visible",
+      "keep": "round {patina} bronze disc about 18 cm across, plain raised rim, {cord} cord through a central knob on the decorated face; the other face is a plain smooth polished bronze surface with no decoration",
+      "checks": ["圆形、中央镜钮穿绳", "钮外四瓣莲", "花枝纹带加两只鸟", "无铭文带、无字"],
+      "variants": [
+        {"key": "aged", "name": {"zh": "古铜", "ja": "古銅", "en": "Aged Bronze", "ko": "고동"}, "vars": {"patina": "warm golden-brown with light green patina in the recesses", "cord": "red"}}
+      ]
+    }
+  ]
+}

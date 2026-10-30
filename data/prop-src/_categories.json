@@ -1,0 +1,50 @@
+{
+  "DL": {
+    "order": 1, "target": 20,
+    "name": {"zh": "日常手持", "ja": "日用品・手に持つもの", "en": "Everyday Handheld", "ko": "일상 소품"},
+    "rules": "An everyday object at real size, generic contemporary design, plausible materials and wear.",
+    "negatives": "No recognisable product design, no brand shapes or logos, no readable printing, no cigarettes, vapes, alcohol labels or medicine, no money."
+  },
+  "TC": {
+    "order": 2, "target": 14,
+    "name": {"zh": "数码与摄影", "ja": "デジタル・カメラ", "en": "Tech & Cameras", "ko": "디지털·카메라"},
+    "rules": "A generic electronic device of the stated type and era, realistic proportions, screens shown dark or showing a plain colour.",
+    "negatives": "No brand logos, no recognisable signature design (no specific phone camera layout, no specific controller shape), no readable screen content, no app icons."
+  },
+  "MU": {
+    "order": 3, "target": 18,
+    "name": {"zh": "乐器", "ja": "楽器", "en": "Musical Instruments", "ko": "악기"},
+    "rules": "An accurately constructed musical instrument of the stated type with the correct number of strings, keys, holes or frets, real materials.",
+    "negatives": "No brand headstock shapes or logos, no case, no stand, no sheet music, no extra strings or keys, no plectrum or bow unless stated."
+  },
+  "FD": {
+    "order": 4, "target": 14,
+    "name": {"zh": "餐饮", "ja": "飲食", "en": "Food & Drink", "ko": "음식·음료"},
+    "rules": "Food or drink served as stated, appetising and realistic, on its own plate, cup or tray, resting on an invisible level surface.",
+    "negatives": "No table, no cutlery unless stated, no hands, no logos or printed cups, no alcohol bottle labels, no meat on the bone shown raw."
+  },
+  "SP": {
+    "order": 5, "target": 14,
+    "name": {"zh": "运动休闲", "ja": "スポーツ・レジャー", "en": "Sports & Leisure", "ko": "스포츠·레저"},
+    "rules": "Generic sports or leisure equipment of the stated type at real size, correct technical details.",
+    "negatives": "No team crests, sponsor logos or brand marks, no weapons or martial-arts weapons, no archery, no firearms of any kind."
+  },
+  "FN": {
+    "order": 6, "target": 24,
+    "name": {"zh": "家具与坐具", "ja": "家具・椅子", "en": "Furniture & Seating", "ko": "가구·의자"},
+    "rules": "A single piece of furniture at real size standing on an invisible level floor, so a posed figure can sit, lean or lie on it; seat height and depth realistic.",
+    "negatives": "No floor, no rug, no cushions or throws unless stated, no other furniture, no recognisable designer piece."
+  },
+  "CN": {
+    "order": 7, "target": 14,
+    "name": {"zh": "古风器物", "ja": "中国の古典小物", "en": "Chinese Classical Objects", "ko": "중국 고전 소품"},
+    "rules": "A historically plausible Chinese object of the stated period, natural materials (bamboo, silk, paper, lacquer, porcelain, bronze), traditional motifs only.",
+    "negatives": "No readable characters or calligraphy, no seals, no religious objects or incense, no Japanese or Korean features, no plastic, no modern hardware."
+  },
+  "FT": {
+    "order": 8, "target": 14,
+    "name": {"zh": "幻想与复古", "ja": "ファンタジー・アンティーク", "en": "Fantasy & Antique", "ko": "판타지·앤티크"},
+    "rules": "An antique or fantasy object that is physically plausible as a crafted thing: brass, glass, leather, wood, parchment.",
+    "negatives": "Original design, not any franchise item; no weapons, no wands or staffs, no glowing magic effects, no skulls or bones, no occult or religious symbols, no readable writing."
+  }
+}

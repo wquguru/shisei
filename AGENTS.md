@@ -57,6 +57,8 @@ data/qc-input/       every reviewer result behind qc.json; `qc_merge.py data/qc-
 data/rating_overrides.json   per-pose rating decisions that win over the category rule (human-decided)
 data/costume-src/    costume library source (D-10): _categories.json + one <CAT>.json of forms × colorways
 data/costumes.json   costume items C###, expanded by tools/costume_cards.py; views front/back/side/diag
+data/{scene,prop,light,animal}-src/  planned libraries (D-12–D-15, not approved): category rules + cards, expanded by
+                     tools/series_cards.py into data/{scenes,props,lights,animals}.json (E### / T### / L### / A###)
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
 images/line/w300/    grid tier for 1x screens and thumbnails, 300 px wide WebP q70
 images/line/w600/    grid tier for 2x / 3x screens, 600×800 WebP q72
@@ -70,9 +72,11 @@ site/                build output of tools/build_site.py (git-ignored; deploy th
 build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.py,
                      import_series.py, import_redraws.py, import_fills.py, import_descs.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py,
-                     export_csv.py, costume_cards.py, costume_brief.py (docs/costume/PLAN.md)
+                     export_csv.py, costume_cards.py, costume_brief.py (docs/costume/PLAN.md),
+                     series_kit.py + series_cards.py + series_brief.py (scene / prop / light / animal plans)
 docs/qc/             QC method, results and the reviewer prompts (panels, name, limbs, proportion, photo, rating)
 .claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
+docs/{scene,prop,light,animal}/PLAN.md   plans for the next libraries, awaiting D-12–D-15
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
 docs/DECISIONS.md    open questions and decisions awaiting a human
 docs/GENERATION.md   how the sets were made, gap log

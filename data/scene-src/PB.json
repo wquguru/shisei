@@ -1,0 +1,186 @@
+{
+  "cat": "PB",
+  "note": "Public interiors, open but empty. Counters, seating and fittings stand along the walls so a walkway stays clear in the centre; every sign, menu, screen and book spine is blank, and no layout copies a chain or operator (docs/scene/PLAN.md §3).",
+  "groups": {
+    "food": {"zh": "餐饮", "ja": "飲食店", "en": "Food & Drink", "ko": "음식점"},
+    "work": {"zh": "办公与生活服务", "ja": "オフィス・生活サービス", "en": "Work & Services", "ko": "오피스·생활 시설"},
+    "culture": {"zh": "文化空间", "ja": "文化施設", "en": "Culture", "ko": "문화 공간"},
+    "sport": {"zh": "运动", "ja": "スポーツ", "en": "Sport", "ko": "운동 시설"},
+    "travel": {"zh": "交通与酒店", "ja": "交通・ホテル", "en": "Travel & Hotels", "ko": "교통·호텔"}
+  },
+  "forms": [
+    {
+      "key": "cafe", "group": "food",
+      "name": {"zh": "咖啡馆", "ja": "カフェ", "en": "Café", "ko": "카페"},
+      "desc": "a small independent café with white-painted brick walls and a pale terrazzo floor, a light oak service counter with a plain steel espresso machine running along the right wall, open shelves behind it holding plain white cups and unlabelled glass jars, three small round marble tables with bentwood chairs along the left wall under a wide street window, a blank black menu board with nothing written on it on the far wall, hanging plants in the far corners, and an empty patch of terrazzo floor in the centre about 4 metres from the camera",
+      "keep": "white brick walls, pale terrazzo floor, oak counter with steel espresso machine on the right, shelves of white cups and unlabelled jars, three marble tables with bentwood chairs along the left wall, street window on the left, blank black board on the far wall, hanging plants in the far corners, empty centre floor",
+      "checks": ["右侧木吧台和咖啡机", "左侧窗下三张圆大理石桌", "黑板和罐子上没有字", "中央地面空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "清晨", "ja": "朝", "en": "Morning", "ko": "아침"}, "light": "Morning sun through the left street window laying bright slanted patches across the tables and floor"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the street window dark blue, warm light from brass pendant lamps over the counter and small lamps on the tables"}
+      ]
+    },
+    {
+      "key": "restaurant", "group": "food",
+      "name": {"zh": "西餐厅", "ja": "レストラン", "en": "Restaurant", "ko": "레스토랑"},
+      "desc": "a mid-sized restaurant dining room with dark green painted walls, dark oak floorboards and a coffered ceiling, a long tan leather banquette with four square tables laid with white tablecloths and empty wine glasses along the far wall, two more set tables against the left wall, a dark wood bar with brass rail along the right wall, large plain round mirrors on the far wall that reflect only the empty room, and an empty aisle of floor in the centre about 4 metres from the camera",
+      "keep": "dark green walls, dark oak floor, coffered ceiling, tan leather banquette with white-clothed tables along the far wall, set tables on the left, wood bar with brass rail on the right, round mirrors on the far wall, empty centre aisle",
+      "checks": ["远墙皮卡座和白桌布餐桌", "右侧木吧台", "镜子里没有人", "中央通道空着"],
+      "variants": [
+        {"key": "evening", "name": {"zh": "傍晚", "ja": "夕方", "en": "Evening", "ko": "저녁"}, "light": "Evening, warm low light from brass wall sconces and a small candle on each table, the room glowing amber"}
+      ]
+    },
+    {
+      "key": "cocktail-bar", "group": "food", "probe": true,
+      "name": {"zh": "鸡尾酒吧", "ja": "カクテルバー", "en": "Cocktail Bar", "ko": "칵테일 바"},
+      "desc": "an intimate cocktail bar with dark walnut panelled walls and a black-and-white hexagon tile floor, a long walnut bar counter with a polished brass footrail and six empty leather bar stools running along the right wall, a back bar of lit glass shelves holding plain unlabelled glass bottles and decanters, two deep velvet armchairs with a low table against the left wall, a single blank smoked-glass panel on the far wall, and an empty patch of tiled floor in the centre about 4 metres from the camera",
+      "keep": "walnut panelled walls, black-and-white hexagon floor, walnut bar with brass footrail and six empty stools on the right, lit back bar of unlabelled bottles, velvet armchairs on the left, smoked-glass panel on the far wall, empty centre floor",
+      "checks": ["右侧长吧台和六张空高脚凳", "酒瓶没有标签和文字", "没有霓虹字或招牌", "中央地面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, dim moody light, warm glow from the back bar shelves and small brass table lamps, deep shadows in the corners"}
+      ]
+    },
+    {
+      "key": "open-office", "group": "work",
+      "name": {"zh": "开放式办公室", "ja": "オープンオフィス", "en": "Open-plan Office", "ko": "오픈 오피스"},
+      "desc": "an open-plan office floor with a polished concrete floor, white walls and exposed ceiling ducts painted white, rows of light oak desks with plain black monitors switched off and black task chairs along the left and right sides, a full-height window wall on the far side looking onto generic mid-rise buildings with no recognisable skyline, tall potted plants at the ends of the desk rows, and an empty strip of concrete walkway down the centre about 4 metres from the camera",
+      "keep": "polished concrete floor, white walls, exposed white ducts, oak desk rows with dark switched-off monitors and black chairs on both sides, window wall on the far side with generic buildings, potted plants at the row ends, empty centre walkway",
+      "checks": ["两侧办公桌排、显示器黑屏", "远处整面玻璃窗", "墙上和屏幕上没有字或标志", "中央通道空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright overcast daylight from the far window wall, even and soft across the floor"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Late night, the window wall dark with scattered lit windows in the distant buildings, only a few linear ceiling lights left on"}
+      ]
+    },
+    {
+      "key": "meeting-room", "group": "work",
+      "name": {"zh": "会议室", "ja": "会議室", "en": "Meeting Room", "ko": "회의실"},
+      "desc": "a glass-walled meeting room with light grey carpet and white walls, a long pale oak meeting table with eight grey mesh chairs pushed in placed along the right wall, a blank white whiteboard with nothing on it on the far wall, a large dark switched-off screen on the left wall, glass partitions behind the table showing an empty corridor, and an empty area of carpet in the centre about 4 metres from the camera",
+      "keep": "light grey carpet, white walls, oak table with eight grey mesh chairs along the right wall, blank whiteboard on the far wall, dark screen on the left wall, glass partitions to an empty corridor, empty centre carpet",
+      "checks": ["长会议桌靠右墙、八把椅子", "白板空白、屏幕黑屏", "玻璃外走廊没有人", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Cool even daylight from a window out of frame on the left mixed with soft white ceiling panel light"}
+      ]
+    },
+    {
+      "key": "laundromat", "group": "work",
+      "name": {"zh": "自助洗衣店", "ja": "コインランドリー", "en": "Laundromat", "ko": "빨래방"},
+      "desc": "a self-service laundromat with white tiled walls and a pale blue linoleum floor, a row of stacked white front-loading washers and dryers with round glass doors running along the right wall, their dials and buttons unlabelled, a long white folding counter with a plain wooden bench below it along the left wall, a glass shop front on the far wall looking onto a dark street, and an empty strip of floor in the centre about 4 metres from the camera",
+      "keep": "white tiled walls, pale blue floor, stacked white washers and dryers with round doors along the right wall, folding counter and bench on the left, glass shop front on the far wall, empty centre floor",
+      "checks": ["右侧一排滚筒洗衣机", "机器面板上没有字", "左侧折叠台和长凳", "中央地面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Late night, cool bright fluorescent ceiling light, the shop front black outside with a faint street lamp glow"}
+      ]
+    },
+    {
+      "key": "library", "group": "culture",
+      "name": {"zh": "图书馆阅览室", "ja": "図書館の閲覧室", "en": "Library Reading Room", "ko": "도서관 열람실"},
+      "desc": "a public library reading room with a high white ceiling and tall arched windows on the left wall, dark wooden floor-to-ceiling bookshelves with plain unlettered book spines lining the far and right walls, two long wooden reading tables with green-shaded brass lamps and empty chairs placed along the left wall under the windows, and an empty stretch of wooden floor in the centre about 4 metres from the camera",
+      "keep": "high white ceiling, tall arched windows on the left wall, dark wood bookshelves on the far and right walls with plain spines, two long reading tables with green lamps under the windows, wooden floor, empty centre floor",
+      "checks": ["远墙和右墙高书架", "书脊没有字", "左侧拱窗下长阅读桌", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft afternoon daylight from the tall left windows, the green lamps switched on and glowing faintly"}
+      ]
+    },
+    {
+      "key": "gallery", "group": "culture",
+      "name": {"zh": "白盒画廊", "ja": "ホワイトキューブの画廊", "en": "White-cube Gallery", "ko": "화이트큐브 갤러리"},
+      "desc": "a white-cube contemporary art gallery with smooth white walls, a seamless pale grey polished concrete floor and a white ceiling with track spotlights, three large plain colour-field canvases in muted blue, ochre and grey hung far apart on the far wall, one tall plain canvas on the right wall, a low white bench against the left wall, and an empty expanse of concrete floor in the centre about 4 metres from the camera",
+      "keep": "white walls, pale grey polished concrete floor, track spotlights, three plain colour-field canvases on the far wall, one tall canvas on the right wall, white bench on the left, empty centre floor",
+      "checks": ["远墙三幅纯色块画", "画上没有人物和文字", "左侧白长凳", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Clean even gallery light from the ceiling track spots, soft pools of light on each canvas"}
+      ]
+    },
+    {
+      "key": "museum-hall", "group": "culture",
+      "name": {"zh": "博物馆展厅", "ja": "博物館の展示室", "en": "Museum Hall", "ko": "박물관 전시실"},
+      "desc": "a grand museum hall with pale limestone walls, a polished grey stone floor and a coffered ceiling with a long skylight, rows of empty white plinths with plain glass vitrines standing along the left and right walls with nothing inside them, a tall empty doorway in the far wall leading to the next hall, plain blank wall labels with no text, and an empty stretch of stone floor in the centre about 4 metres from the camera",
+      "keep": "pale limestone walls, polished grey stone floor, coffered ceiling with skylight, empty white plinths and glass vitrines along both walls, tall doorway in the far wall, empty centre floor",
+      "checks": ["两侧空展台和空玻璃柜", "没有雕像或展品", "标牌没有字", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft diffuse daylight falling from the long skylight onto the floor"}
+      ]
+    },
+    {
+      "key": "bookshop", "group": "culture",
+      "name": {"zh": "书店", "ja": "書店", "en": "Bookshop", "ko": "서점"},
+      "desc": "a quiet independent bookshop with warm wooden floorboards and cream walls, tall wooden bookcases filled with books whose spines and covers are plain with no lettering lining the left and right walls, a low wooden display table pushed against the right bookcase with plain-covered books laid flat, a rolling library ladder on the left bookcase, a reading armchair and a floor lamp against the far wall, and an empty stretch of wooden floor in the centre about 4 metres from the camera",
+      "keep": "warm wooden floor, cream walls, tall bookcases on the left and right walls with plain spines, display table against the right bookcase, rolling ladder on the left, armchair and floor lamp at the far wall, empty centre floor",
+      "checks": ["两侧高书柜", "书脊和封面都没有字", "远墙阅读椅和落地灯", "中央地面空着"],
+      "variants": [
+        {"key": "afternoon", "name": {"zh": "午后", "ja": "午後", "en": "Afternoon", "ko": "오후"}, "light": "Warm late-afternoon light from a window out of frame on the right, the floor lamp switched on"}
+      ]
+    },
+    {
+      "key": "gym", "group": "sport",
+      "name": {"zh": "健身房", "ja": "ジム", "en": "Gym Floor", "ko": "헬스장"},
+      "desc": "a modern gym floor with black rubber flooring and dark grey walls, a row of treadmills with dark switched-off screens facing a window wall on the left, a long rack of black dumbbells and a weight bench along the right wall, a squat rack in the far right corner, plain black plates with no numbers, an exposed black ceiling with linear lights, and an empty patch of rubber floor in the centre about 4 metres from the camera",
+      "keep": "black rubber floor, dark grey walls, treadmills along the left window wall, dumbbell rack and bench on the right wall, squat rack far right, exposed black ceiling with linear lights, empty centre floor",
+      "checks": ["左侧跑步机、右侧哑铃架", "器材上没有字或标志", "墙上没有人像海报", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Daylight from the left window wall mixed with cool white linear ceiling lights"}
+      ]
+    },
+    {
+      "key": "dance-studio", "group": "sport", "probe": true,
+      "name": {"zh": "舞蹈室", "ja": "ダンススタジオ", "en": "Dance Studio", "ko": "댄스 연습실"},
+      "desc": "a dance studio with a pale maple sprung wooden floor and white walls, a floor-to-ceiling mirror wall covering the far wall that reflects only the empty studio and the opposite white wall, a wooden ballet barre fixed along the left wall, a row of tall windows on the right wall, a small black speaker on a shelf in the far right corner, and an empty expanse of wooden floor in the centre about 4 metres from the camera",
+      "keep": "pale maple floor, white walls, mirror wall across the far wall, ballet barre along the left wall, tall windows on the right wall, small speaker far right, empty centre floor",
+      "checks": ["远墙整面镜子", "镜子里没有人也没有相机", "左墙把杆、右墙窗", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright daylight through the right-hand windows, long window shapes laid across the wooden floor"}
+      ]
+    },
+    {
+      "key": "hotel-lobby", "group": "travel",
+      "name": {"zh": "酒店大堂", "ja": "ホテルのロビー", "en": "Hotel Lobby", "ko": "호텔 로비"},
+      "desc": "a hotel lobby with a double-height ceiling, cream marble floor and walnut-panelled walls, a long reception desk of walnut and brass along the right wall with a blank panel behind it, a low lounge area of two sofas and armchairs around a coffee table against the left wall, a large plain brass ring chandelier overhead, tall potted palms in the far corners, a pair of glass entrance doors in the far wall, and an empty expanse of marble floor in the centre about 4 metres from the camera",
+      "keep": "double-height ceiling, cream marble floor, walnut panelling, walnut and brass reception desk on the right with blank panel, lounge sofas on the left, brass ring chandelier, potted palms in the far corners, glass doors in the far wall, empty centre floor",
+      "checks": ["右侧接待台、背板空白", "左侧沙发休息区", "没有酒店名或标志", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Daylight from the far glass doors and high windows, warm accent light on the walnut walls"},
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the glass doors dark, the chandelier and wall sconces giving warm golden light"}
+      ]
+    },
+    {
+      "key": "hotel-room", "group": "travel",
+      "name": {"zh": "酒店客房", "ja": "ホテルの客室", "en": "Hotel Room", "ko": "호텔 객실"},
+      "desc": "a business hotel room with warm grey walls and a low-pile charcoal carpet, a king-size bed with crisp white linen and an upholstered headboard against the right wall, a slim desk with a chair and a plain mirror on the left wall, a floor-to-ceiling window with sheer curtains across the far wall showing generic city buildings with no recognisable skyline, a lounge chair by the window, and an empty area of carpet in the centre about 4 metres from the camera",
+      "keep": "warm grey walls, charcoal carpet, king bed with white linen against the right wall, desk with chair and mirror on the left wall, full-width window with sheer curtains on the far wall, lounge chair by the window, empty centre carpet",
+      "checks": ["床靠右墙、白色床品", "远墙整面窗、城市不是真实天际线", "镜子里没有人", "中央地面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, soft city lights beyond the window, the room lit by warm bedside lamps and a desk lamp"}
+      ]
+    },
+    {
+      "key": "subway-car", "group": "travel", "probe": true,
+      "name": {"zh": "地铁车厢", "ja": "地下鉄の車内", "en": "Subway Car", "ko": "지하철 객차"},
+      "desc": "the interior of an empty subway car seen lengthwise down the aisle, long stainless-steel bench seats along the left and right sides, vertical yellow grab poles and overhead grab rails, blank grey panels above the windows with no maps, adverts or signs, dark windows on both sides, a closed connecting door with a small window at the far end, a grey speckled rubber floor, and an empty stretch of aisle floor in the centre about 4 metres from the camera",
+      "keep": "stainless-steel bench seats on both sides, yellow grab poles and overhead rails, blank panels above the windows, dark side windows, connecting door at the far end, grey speckled floor, empty centre aisle",
+      "checks": ["两侧长条座椅", "车厢里没有线路图、广告和文字", "没有运营商标志", "中间过道空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Cool white fluorescent ceiling light running the length of the car, the windows black with the tunnel outside"}
+      ]
+    },
+    {
+      "key": "station-concourse", "group": "travel",
+      "name": {"zh": "火车站大厅", "ja": "駅のコンコース", "en": "Station Concourse", "ko": "기차역 대합실"},
+      "desc": "a large railway station concourse with a high arched steel-and-glass roof, a polished pale stone floor, a row of plain wooden benches along the left side, a closed row of ticket windows with frosted glass and no signs along the right side, a tall glass end wall on the far side, a large plain round station clock with no numerals hanging high in the middle distance, and an empty expanse of stone floor in the centre about 4 metres from the camera",
+      "keep": "high arched steel and glass roof, pale stone floor, wooden benches on the left, frosted ticket windows with no signs on the right, glass end wall far, plain round clock without numerals, empty centre floor",
+      "checks": ["钢与玻璃拱顶", "没有站名、指示牌和时刻表文字", "钟面没有数字", "中央地面空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "清晨", "ja": "朝", "en": "Morning", "ko": "아침"}, "light": "Early morning sun streaming through the glass roof in long slanted beams, light haze in the air"}
+      ]
+    },
+    {
+      "key": "airport-gate", "group": "travel",
+      "name": {"zh": "机场候机区", "ja": "空港の搭乗ゲート", "en": "Airport Gate", "ko": "공항 탑승구"},
+      "desc": "an airport departure gate lounge with grey carpet and a white ceiling, rows of linked grey seats along the left and right sides, a gate desk with a dark blank screen and no lettering in the far right corner, a floor-to-ceiling window wall across the far side looking onto an empty apron and a flat runway with no aircraft and no airline marks, and an empty stretch of carpet in the centre about 4 metres from the camera",
+      "keep": "grey carpet, white ceiling, rows of linked grey seats on both sides, gate desk with a dark blank screen far right, window wall across the far side, empty apron and runway outside, empty centre carpet",
+      "checks": ["两侧连排座椅", "窗外停机坪没有飞机和航司标志", "登机口屏幕和墙上没有字", "中央地面空着"],
+      "variants": [
+        {"key": "dusk", "name": {"zh": "黄昏", "ja": "夕暮れ", "en": "Dusk", "ko": "황혼"}, "light": "Dusk, orange and violet sky over the runway through the window wall, the lounge lit by soft white ceiling light"}
+      ]
+    }
+  ]
+}

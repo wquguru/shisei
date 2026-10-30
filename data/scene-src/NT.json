@@ -1,0 +1,208 @@
+{
+  "cat": "NT",
+  "note": "Nature. Every desc places the main elements left, right and far and ends on a walkable patch of path, sand, grass, rock or snow in the centre about 4 m from the camera; the below view shows mostly canopy or sky, so every keep names the sky and weather (docs/scene/PLAN.md §3). Season lives in the variant's light, or in vars where it changes the colour of the land.",
+  "groups": {
+    "forest": {"zh": "森林与花木", "ja": "森・花木", "en": "Forests & Groves", "ko": "숲·꽃나무"},
+    "water": {"zh": "海岸与水边", "ja": "海辺・水辺", "en": "Coast & Water", "ko": "해안·물가"},
+    "mountain": {"zh": "山地与雪原", "ja": "山・雪原", "en": "Mountains & Snow", "ko": "산·설원"},
+    "field": {"zh": "田野与花海", "ja": "田畑・花畑", "en": "Fields & Flowers", "ko": "들판·꽃밭"},
+    "arid": {"zh": "沙漠与岩地", "ja": "砂漠・岩場", "en": "Desert & Rock", "ko": "사막·바위"}
+  },
+  "forms": [
+    {
+      "key": "forest-path", "group": "forest",
+      "name": {"zh": "林间小路", "ja": "森の小道", "en": "Forest Path", "ko": "숲길"},
+      "desc": "a temperate mixed forest of tall beech and oak trees, a packed-earth footpath about two metres wide running straight from the camera into the far distance, thick trunks and green undergrowth of ferns along the left and right edges, the canopy closing overhead with gaps of sky, the path fading into green depth far ahead, and a clear walkable stretch of bare earth path in the centre about 4 metres from the camera",
+      "keep": "tall beech and oak trunks on both sides, ferns along the edges, packed-earth path running straight ahead, canopy overhead with small gaps of sky, same sky and weather, empty path in the centre",
+      "checks": ["小路笔直伸向远处", "两侧树干和蕨类", "树冠在头顶合拢、露出少量天空", "中央路面空着"],
+      "variants": [
+        {"key": "summer", "name": {"zh": "夏日", "ja": "夏の昼", "en": "Summer Day", "ko": "여름 낮"}, "light": "Summer midday, bright sun filtering through the canopy in dappled patches on the path, deep green leaves"},
+        {"key": "mist", "name": {"zh": "晨雾", "ja": "朝霧", "en": "Morning Mist", "ko": "아침 안개"}, "light": "Early morning with soft mist hanging between the trunks, low sun behind the trees making faint light shafts, the far path fading into white haze"}
+      ]
+    },
+    {
+      "key": "bamboo-grove", "group": "forest",
+      "name": {"zh": "竹林", "ja": "竹林", "en": "Bamboo Grove", "ko": "대나무 숲"},
+      "desc": "a dense grove of tall green moso bamboo, straight culms rising close together along the left and right sides of a narrow earth path covered with dry bamboo leaves, the path leading straight ahead and curving slightly right in the far distance, the bamboo tops meeting high overhead with slivers of sky, no lanterns or fences, and a clear walkable patch of leaf-covered path in the centre about 4 metres from the camera",
+      "keep": "tall green bamboo culms close on both sides, leaf-covered earth path leading ahead and curving right far away, bamboo tops meeting overhead with slivers of sky, same sky and weather, no fences or lanterns, empty path in the centre",
+      "checks": ["竹竿笔直密集", "路面铺着干竹叶", "没有栅栏或灯笼", "中央路面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft daylight filtered green through the bamboo leaves, thin bright streaks of sun on the path"}
+      ]
+    },
+    {
+      "key": "cherry-grove", "group": "forest",
+      "name": {"zh": "樱花林", "ja": "桜並木", "en": "Cherry Blossom Grove", "ko": "벚꽃 숲"},
+      "desc": "a grove of old cherry trees in full pale pink bloom on a gentle grassy slope, the trees standing in loose rows on the left and right with their branches arching over a wide gravel path, fallen petals scattered on the path and the grass, more blossoming trees fading into the far distance, no lanterns, no tents, no buildings, and a clear walkable patch of petal-strewn gravel path in the centre about 4 metres from the camera",
+      "keep": "old cherry trees in full pale pink bloom on both sides, branches arching over the path, wide gravel path with fallen petals, grass under the trees, same sky and weather, no lanterns or buildings, empty path in the centre",
+      "checks": ["樱花满开、淡粉色", "砾石路上有落花", "没有灯笼、帐篷、建筑", "中央路面空着"],
+      "variants": [
+        {"key": "spring", "name": {"zh": "春日", "ja": "春の昼", "en": "Spring Day", "ko": "봄 낮"}, "light": "Bright spring afternoon, pale blue sky with thin high clouds showing through the blossoms, soft sun from the left"}
+      ]
+    },
+    {
+      "key": "maple-path", "group": "forest",
+      "name": {"zh": "红叶小径", "ja": "紅葉の小道", "en": "Autumn Maple Path", "ko": "단풍길"},
+      "desc": "a hillside woodland of Japanese maples in full autumn colour, red, orange and yellow leaves on the trees along the left and right edges, a narrow path of flat stepping stones and packed earth covered with fallen red leaves leading straight ahead, a mossy bank on the left, the coloured canopy arching overhead with patches of sky, and a clear walkable patch of leaf-covered path in the centre about 4 metres from the camera",
+      "keep": "maples in red, orange and yellow on both sides, mossy bank on the left, path of stepping stones and earth with fallen red leaves, coloured canopy overhead with patches of sky, same sky and weather, empty path in the centre",
+      "checks": ["红橙黄三色枫叶", "路面落满红叶", "左侧青苔坡", "中央路面空着"],
+      "variants": [
+        {"key": "autumn", "name": {"zh": "深秋", "ja": "晩秋", "en": "Late Autumn", "ko": "늦가을"}, "light": "Late autumn afternoon, low warm sun from the right lighting the leaves from behind so they glow, clear sky"}
+      ]
+    },
+    {
+      "key": "jungle-clearing", "group": "forest",
+      "name": {"zh": "热带雨林空地", "ja": "熱帯雨林の空き地", "en": "Jungle Clearing", "ko": "열대우림 공터"},
+      "desc": "a small clearing in a tropical rainforest, huge buttressed tree trunks with hanging lianas on the left and right, large-leaved banana plants, palms and dense ferns forming green walls around the edges, a tangle of vines and foliage across the far side, the high canopy overhead with an opening of sky, damp dark soil with a few roots, and a clear walkable patch of flat bare soil in the centre about 4 metres from the camera",
+      "keep": "buttressed trunks with hanging lianas left and right, banana plants, palms and ferns around the edges, dense foliage across the far side, high canopy with an opening of sky, damp dark soil, same sky and weather, empty centre ground",
+      "checks": ["板根大树和垂藤", "四周浓密阔叶植物", "头顶树冠留出一块天空", "中央泥地空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Humid midday, a shaft of sunlight falling through the canopy opening onto the clearing, the edges in green shade, faint haze in the air"}
+      ]
+    },
+    {
+      "key": "sandy-beach", "group": "water",
+      "name": {"zh": "沙滩", "ja": "砂浜", "en": "Sandy Beach", "ko": "모래사장"},
+      "desc": "a wide empty sandy beach with fine pale sand, the sea filling the far half of the view with small waves breaking on the shore about 15 metres away, the straight horizon line far ahead, a low grassy dune with beach grass at the left edge, a few smooth pieces of driftwood on the sand at the right edge, no umbrellas, no boats, no piers, and a clear walkable patch of smooth dry sand in the centre about 4 metres from the camera",
+      "keep": "fine pale sand, sea and straight horizon far ahead, small waves on the shore, grassy dune at the left edge, driftwood at the right edge, same sky, clouds and weather, no boats or umbrellas, empty sand in the centre",
+      "checks": ["海平线水平", "左侧沙丘草、右侧漂流木", "没有船、遮阳伞、栈桥", "中央沙地空着"],
+      "variants": [
+        {"key": "noon", "name": {"zh": "正午", "ja": "真昼", "en": "Noon", "ko": "정오"}, "light": "Bright noon sun high overhead, deep blue sky with a few white cumulus clouds, turquoise water, short shadows"},
+        {"key": "sunset", "name": {"zh": "日落", "ja": "夕日", "en": "Sunset", "ko": "일몰"}, "light": "Sunset, the sun low just above the horizon slightly right of centre, orange and pink sky, a golden path of light on the water, long soft shadows"}
+      ]
+    },
+    {
+      "key": "rocky-coast", "group": "water",
+      "name": {"zh": "礁石海岸", "ja": "岩の海岸", "en": "Rocky Coast", "ko": "바위 해안"},
+      "desc": "a rugged rocky coastline of dark grey granite, large weathered boulders piled along the left side, a lower rock shelf sloping to the sea on the right with white surf breaking against it, the open sea and horizon across the far side, a few tide pools in the rock, no lighthouse, no buildings, and a clear walkable patch of flat dry rock shelf in the centre about 4 metres from the camera",
+      "keep": "dark grey granite, boulders piled on the left, rock shelf sloping to the sea on the right with white surf, open sea and horizon far ahead, tide pools, same sky and weather, no lighthouse or buildings, empty flat rock in the centre",
+      "checks": ["深灰花岗岩", "右侧浪花拍岩", "没有灯塔、建筑", "中央平坦岩面空着"],
+      "variants": [
+        {"key": "overcast", "name": {"zh": "阴天", "ja": "曇り", "en": "Overcast", "ko": "흐림"}, "light": "Overcast day with a heavy grey sky, soft shadowless light, the sea dark slate blue, a cool windy mood"}
+      ]
+    },
+    {
+      "key": "lake-shore", "group": "water",
+      "name": {"zh": "湖畔", "ja": "湖畔", "en": "Lake Shore", "ko": "호숫가"},
+      "desc": "a quiet lake shore, a flat pebble and grass bank in the foreground, a calm lake filling the middle distance with a wooded far shore and low rounded forested hills beyond, tall reeds at the left edge of the water, a single leaning birch tree at the right edge, no jetty, no boats, no buildings on the far shore, and a clear walkable patch of short grass and pebbles in the centre about 4 metres from the camera",
+      "keep": "pebble and grass bank, calm lake in the middle distance, wooded far shore and low forested hills, reeds at the left, leaning birch at the right, same sky and weather, no jetty, boats or buildings, empty bank in the centre",
+      "checks": ["湖面平静", "左侧芦苇、右侧白桦", "对岸没有建筑和船", "中央岸边空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "清晨", "ja": "早朝", "en": "Early Morning", "ko": "이른 아침"}, "light": "Early morning, still air, thin mist lying on the water, pale gold sunrise light from the left, the hills reflected in the lake"}
+      ]
+    },
+    {
+      "key": "waterfall-pool", "group": "water", "probe": true,
+      "name": {"zh": "瀑布潭边", "ja": "滝つぼのほとり", "en": "Waterfall Pool", "ko": "폭포 소"},
+      "desc": "a waterfall about 12 metres high pouring down a mossy dark rock cliff in the far centre into a clear green pool, the pool filling the middle distance, wet ferns and moss on rock walls along the left and right, a broad flat bank of dry grey slate in the foreground at the near edge of the pool, nothing built and no railings, and a clear walkable patch of flat dry slate in the centre about 4 metres from the camera, well back from the water",
+      "keep": "waterfall pouring down a mossy rock cliff in the far centre, clear green pool in the middle distance, ferns and moss on rock walls left and right, flat dry slate bank in the foreground, same sky and weather, no railings, empty slate in the centre",
+      "checks": ["瀑布在远处正中", "前景是干燥平整的石板岸", "站位在水外、不是水里", "中央石面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft overcast daylight in the gorge, fine spray mist around the base of the falls, no harsh shadows"}
+      ]
+    },
+    {
+      "key": "mountain-ridge", "group": "mountain", "probe": true,
+      "name": {"zh": "山脊", "ja": "山の尾根", "en": "Mountain Ridge", "ko": "산 능선"},
+      "desc": "a broad grassy and rocky mountain summit ridge above the tree line, the ridge running straight away from the camera and dropping steeply on the left and right, a range of rugged unnamed peaks stretching across the far distance below the horizon, scattered grey rocks and low alpine grass on the ridge, no cairns, no signposts, no huts, and a clear walkable patch of flat ground on the ridge crest in the centre about 4 metres from the camera",
+      "keep": "broad ridge running straight ahead and dropping away left and right, low alpine grass and grey rocks, range of unnamed peaks in the far distance, same sky, clouds and weather, no cairns, signposts or huts, empty ridge crest in the centre",
+      "checks": ["山脊笔直伸向远处、两侧陡降", "远山不是可辨认的名山", "没有路牌、石堆、小屋", "中央脊顶平地空着"],
+      "variants": [
+        {"key": "clear", "name": {"zh": "晴天", "ja": "快晴", "en": "Clear Day", "ko": "맑은 날"}, "light": "Clear high-altitude afternoon, deep blue sky with a few small clouds, crisp sunlight from the left, sharp far detail"},
+        {"key": "sea-of-clouds", "name": {"zh": "云海日出", "ja": "雲海の朝日", "en": "Sunrise over Clouds", "ko": "운해 일출"}, "light": "Sunrise, a sea of white clouds filling the valleys below the ridge with only the far peaks rising out of it, warm orange light from the low sun on the right, pale gold sky"}
+      ]
+    },
+    {
+      "key": "alpine-meadow", "group": "mountain",
+      "name": {"zh": "高山草甸", "ja": "高山の草原", "en": "Alpine Meadow", "ko": "고산 초원"},
+      "desc": "a high alpine meadow of short green grass dotted with small yellow, white and purple wildflowers, a few large lichen-covered boulders at the left edge, a clump of dark conifers at the right edge, gently rolling meadow leading to rocky grey mountains with snow patches in the far distance, no huts, no fences, no grazing animals, and a clear walkable patch of short grass in the centre about 4 metres from the camera",
+      "keep": "short green grass with small yellow, white and purple wildflowers, boulders at the left, dark conifers at the right, rocky mountains with snow patches far away, same sky and weather, no huts, fences or animals, empty grass in the centre",
+      "checks": ["矮草和小野花", "左侧巨石、右侧针叶树", "没有牛羊、小屋、围栏", "中央草地空着"],
+      "variants": [
+        {"key": "summer", "name": {"zh": "夏日", "ja": "夏の昼", "en": "Summer Day", "ko": "여름 낮"}, "light": "Summer late morning, bright sun, blue sky with fluffy white clouds casting soft shadows on the far slopes"}
+      ]
+    },
+    {
+      "key": "snowfield", "group": "mountain", "probe": true,
+      "name": {"zh": "雪原", "ja": "雪原", "en": "Snowfield", "ko": "설원"},
+      "desc": "a wide open snowfield of smooth untouched snow, a few snow-laden spruce trees at the left edge, a low snow-covered rocky rise at the right edge, the snow plain stretching to a line of snowy mountains in the far distance, the snow surface showing gentle wind ripples but no footprints, no ski tracks, no poles, and a clear walkable patch of smooth firm snow in the centre about 4 metres from the camera",
+      "keep": "smooth untouched snow with wind ripples, snow-laden spruces at the left, snowy rocky rise at the right, snowy mountains in the far distance, no footprints or tracks, same sky and weather, empty snow in the centre",
+      "checks": ["雪面平整、没有脚印和雪道", "雪面有层次不过曝", "左侧雪松、右侧雪坡", "中央雪地空着"],
+      "variants": [
+        {"key": "sunny", "name": {"zh": "晴天", "ja": "晴れ", "en": "Sunny", "ko": "맑음"}, "light": "Clear winter day, low sun from the left, deep blue sky, crisp blue shadows on the snow with visible surface texture, exposure set so the snow is bright but not blown out"}
+      ]
+    },
+    {
+      "key": "rice-terraces", "group": "field",
+      "name": {"zh": "梯田", "ja": "棚田", "en": "Rice Terraces", "ko": "계단식 논"},
+      "desc": "hillside rice terraces with curving stepped paddies of {crop} descending away from the camera and wrapping around the slope, a grassy earth bund about a metre wide running straight ahead along the top terrace, steeper terraced slopes rising on the left, the terraces falling away into a valley on the right, forested hills in the far distance, no huts, no farmers, no power lines, and a clear walkable patch of the grassy bund in the centre about 4 metres from the camera",
+      "keep": "curving stepped terraces of {crop}, grassy bund running straight ahead, terraces rising on the left and falling into a valley on the right, forested hills far away, same sky and weather, no huts or power lines, empty bund in the centre",
+      "checks": ["弧形层层梯田", "站位在田埂上不在水田里", "没有房屋、电线", "中央田埂空着"],
+      "variants": [
+        {"key": "summer", "name": {"zh": "夏季青苗", "ja": "夏の青田", "en": "Summer Green", "ko": "여름 초록"}, "vars": {"crop": "young bright green rice"}, "light": "Summer afternoon, bright sun, blue sky with white clouds, the green rice vivid"},
+        {"key": "autumn", "name": {"zh": "秋季金黄", "ja": "秋の実り", "en": "Autumn Gold", "ko": "가을 황금"}, "vars": {"crop": "ripe golden rice"}, "light": "Early autumn late afternoon, warm low sun from the left, light haze in the valley, the ripe rice glowing gold"}
+      ]
+    },
+    {
+      "key": "wheat-field", "group": "field",
+      "name": {"zh": "麦田", "ja": "麦畑", "en": "Wheat Field", "ko": "밀밭"},
+      "desc": "a vast field of ripe golden wheat about waist high on gently rolling land, a narrow dirt tractor track running straight through the wheat away from the camera, the wheat filling the left and right sides, a single broad oak tree on the horizon slightly right of centre, no farm buildings, no machinery, no fences, and a clear walkable patch of dirt track in the centre about 4 metres from the camera",
+      "keep": "waist-high golden wheat on both sides, dirt track running straight ahead, single oak on the horizon right of centre, same sky and weather, no buildings, machinery or fences, empty track in the centre",
+      "checks": ["金黄小麦齐腰高", "土路笔直穿过麦田", "地平线上一棵橡树", "中央土路空着"],
+      "variants": [
+        {"key": "golden-hour", "name": {"zh": "黄金时刻", "ja": "夕方の光", "en": "Golden Hour", "ko": "골든아워"}, "light": "Golden hour, warm low sun from the right backlighting the wheat ears, soft amber sky with light cloud"}
+      ]
+    },
+    {
+      "key": "sunflower-field", "group": "field", "probe": true,
+      "name": {"zh": "向日葵花田", "ja": "ひまわり畑", "en": "Sunflower Field", "ko": "해바라기 밭"},
+      "desc": "a large field of tall sunflowers in full bloom, the flower heads all facing the camera, dense rows of sunflowers about 1.5 metres tall filling the left and right sides and stretching to the horizon, a mown grass path about three metres wide cut straight through the field away from the camera, a line of trees on the far horizon, no buildings, no signs, and a clear walkable patch of mown grass path in the centre about 4 metres from the camera with no sunflowers standing in it",
+      "keep": "tall sunflowers in full bloom on both sides facing the camera, mown grass path running straight ahead, sunflowers stretching to a tree line on the horizon, same sky and weather, no buildings, empty path in the centre",
+      "checks": ["花盘朝向镜头", "割草小路笔直、路上没有向日葵", "地平线有树线", "中央草路空着"],
+      "variants": [
+        {"key": "summer", "name": {"zh": "盛夏", "ja": "真夏", "en": "Midsummer", "ko": "한여름"}, "light": "Midsummer late morning, strong sun from behind the camera, saturated blue sky with a few white clouds"}
+      ]
+    },
+    {
+      "key": "lavender-field", "group": "field",
+      "name": {"zh": "薰衣草花田", "ja": "ラベンダー畑", "en": "Lavender Field", "ko": "라벤더 밭"},
+      "desc": "a lavender field of long straight rows of rounded purple lavender bushes converging toward the horizon, the rows filling the left and right sides, a bare pale earth gap between two rows running straight away from the camera and widened at the front, a lone small tree on a low rise at the far left, no farmhouse, no buildings, and a clear walkable patch of pale earth between the rows in the centre about 4 metres from the camera",
+      "keep": "straight rows of purple lavender converging to the horizon, pale earth gap running straight ahead, lone small tree on a rise far left, same sky and weather, no buildings, empty earth in the centre",
+      "checks": ["紫色花垄向远处汇聚", "左远处一棵小树", "没有农舍", "中央垄间空地空着"],
+      "variants": [
+        {"key": "sunset", "name": {"zh": "日落", "ja": "夕暮れ", "en": "Sunset", "ko": "일몰"}, "light": "Sunset, the sun low on the horizon at the right, warm pink and orange sky, the lavender rows lit in purple and gold with long shadows"}
+      ]
+    },
+    {
+      "key": "desert-dunes", "group": "arid",
+      "name": {"zh": "沙丘", "ja": "砂丘", "en": "Desert Dunes", "ko": "사막 사구"},
+      "desc": "a sea of smooth orange sand dunes, a tall dune with a sharp curving crest rising on the left, lower rolling dunes on the right, rows of dunes receding to the horizon far ahead, fine wind ripples on the sand and no footprints, no vegetation, no camels, no vehicles, and a clear walkable patch of flat rippled sand in a shallow hollow in the centre about 4 metres from the camera",
+      "keep": "smooth orange dunes, tall sharp-crested dune on the left, lower dunes on the right, dunes receding to the horizon, wind ripples and no footprints, same sky and weather, no camels or vehicles, empty sand in the centre",
+      "checks": ["左侧高沙丘、锋利沙脊", "沙面风纹、没有脚印", "没有骆驼和车辆", "中央沙地空着"],
+      "variants": [
+        {"key": "midday", "name": {"zh": "正午", "ja": "真昼", "en": "Midday", "ko": "한낮"}, "light": "Hot midday, harsh sun high overhead, pale cloudless blue sky, faint heat haze on the far dunes"},
+        {"key": "sunset", "name": {"zh": "日落", "ja": "夕日", "en": "Sunset", "ko": "일몰"}, "light": "Sunset, low sun from the right, the dune crests glowing deep orange with strong blue-violet shadows on their far sides, warm gradient sky"}
+      ]
+    },
+    {
+      "key": "canyon-floor", "group": "arid",
+      "name": {"zh": "峡谷谷底", "ja": "峡谷の谷底", "en": "Canyon Floor", "ko": "협곡 바닥"},
+      "desc": "the dry floor of a narrow sandstone canyon, smooth wind-carved walls of layered red and orange rock rising steeply on the left and right, the canyon bending slightly left in the far distance, a strip of sky visible high above between the rims, a flat sandy wash floor with a few scattered rocks at the edges, no carvings, no rock art, no ladders, and a clear walkable patch of flat sand in the centre about 4 metres from the camera",
+      "keep": "layered red and orange sandstone walls rising steeply left and right, canyon bending left far ahead, strip of sky between the rims, flat sandy floor with rocks at the edges, same sky and weather, no carvings or ladders, empty sand in the centre",
+      "checks": ["两侧层理红砂岩壁", "上方一条天空", "岩壁上没有刻字、岩画", "中央沙地空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Midday, sunlight striking the upper walls and bouncing warm orange light down into the canyon, the floor in soft reflected glow"}
+      ]
+    },
+    {
+      "key": "cave-mouth", "group": "arid",
+      "name": {"zh": "洞口", "ja": "洞窟の入口", "en": "Cave Mouth", "ko": "동굴 입구"},
+      "desc": "the inside of a large limestone cave mouth looking outward, rough grey rock walls on the left and right and a low arched rock ceiling framing a wide opening in the far wall, through the opening a sunlit green valley with distant hills, a flat dry floor of packed earth and small stones inside the cave, no torches, no carvings, no man-made objects, and a clear walkable patch of flat cave floor in the centre about 4 metres from the camera, lit by the light from the opening",
+      "keep": "rough grey limestone walls left and right, arched rock ceiling framing the wide opening, sunlit green valley and hills through the opening, flat packed-earth floor, same sky and weather outside, no man-made objects, empty floor in the centre",
+      "checks": ["从洞内向外看", "洞口外是阳光山谷", "没有火把、刻字、人造物", "中央洞底地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright daylight outside, the cave interior in cool shadow lit softly by light spilling in from the opening, balanced exposure so both the rock and the valley show detail"}
+      ]
+    }
+  ]
+}

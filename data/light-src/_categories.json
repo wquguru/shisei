@@ -1,0 +1,62 @@
+{
+ "TD": {
+  "order": 1,
+  "target": 12,
+  "name": {
+   "zh": "时段自然光",
+   "ja": "時間帯の自然光",
+   "en": "Natural Light by Time",
+   "ko": "시간대별 자연광"
+  },
+  "rules": "Outdoors in open daylight conditions: the sun, sky and clouds are the only light sources, the sun's height and colour exactly as stated for the time of day.",
+  "negatives": "No lamps, no flash, no reflectors, no lens flare unless stated, no sun disc in frame unless stated."
+ },
+ "SN": {
+  "order": 2,
+  "target": 11,
+  "name": {
+   "zh": "空间自然光",
+   "ja": "空間の自然光",
+   "en": "Natural Light by Space",
+   "ko": "공간별 자연광"
+  },
+  "rules": "Daylight shaped by the stated space (window, canopy, shade, opening); the space is shown only as much as needed to explain the light, and the light shape (patch, stripes, dapples) falls on the mannequin and the floor.",
+  "negatives": "No lamps or artificial light, no people, no furniture in front of the mannequin, no view through windows that shows recognisable places."
+ },
+ "AR": {
+  "order": 3,
+  "target": 11,
+  "name": {
+   "zh": "人工光源",
+   "ja": "人工光源",
+   "en": "Artificial & Practical Light",
+   "ko": "인공 광원"
+  },
+  "rules": "The light comes from the stated practical source, which is visible in frame when stated; its colour temperature and fall-off are physically correct.",
+  "negatives": "No readable signs or screens, no brand marks on lamps, no people, no extra light sources beyond those stated."
+ },
+ "PO": {
+  "order": 4,
+  "target": 12,
+  "name": {
+   "zh": "光位（影棚）",
+   "ja": "ライティング位置（スタジオ）",
+   "en": "Studio Light Positions",
+   "ko": "조명 위치(스튜디오)"
+  },
+  "rules": "A studio with a seamless mid-grey backdrop and floor; the only light is the stated rig, all lights, stands and modifiers out of frame; the position is stated relative to the front camera and must read on the mannequin's head, torso and the sphere.",
+  "negatives": "No visible lights, stands, cables or modifiers, no coloured light unless stated, no props."
+ },
+ "FX": {
+  "order": 5,
+  "target": 8,
+  "name": {
+   "zh": "氛围与色彩光",
+   "ja": "雰囲気・カラー光",
+   "en": "Mood & Colour Light",
+   "ko": "무드·컬러 조명"
+  },
+  "rules": "A stylised but physically plausible lighting effect as stated (coloured gels, haze, projected patterns), on a seamless dark grey studio set unless stated.",
+  "negatives": "No visible lamps unless stated, no strobing multiple exposures, no text projected, no glowing magic effects, no people."
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "cat": "CT",
+ "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "groups": {
+  "cat": {
+   "zh": "猫",
+   "ja": "猫",
+   "en": "Cat",
+   "ko": "고양이"
+  }
+ },
+ "forms": [
+  {
+   "key": "cat-sit",
+   "group": "cat",
+   "probe": true,
+   "species": "domestic cat",
+   "tail": "a segmented tail",
+   "coat": "short grey tabby fur",
+   "name": {
+    "zh": "端坐",
+    "ja": "お座り",
+    "en": "Sitting Upright",
+    "ko": "앉기"
+   },
+   "desc": "sitting upright on its haunches, front legs straight and close together under the chest, hind legs folded flat at the sides with the hind paws forward, tail curled around the front paws, head level and facing forward, ears up",
+   "keep": "upright sit, straight front legs together, hind legs folded at the sides, tail wrapped around the front paws, head level",
+   "checks": [
+    "前腿并拢伸直",
+    "后腿折在身体两侧",
+    "尾巴绕到前爪",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-playbow",
+   "group": "cat",
+   "probe": true,
+   "species": "domestic cat",
+   "tail": "a segmented tail",
+   "coat": "short ginger fur",
+   "name": {
+    "zh": "伸懒腰",
+    "ja": "伸び",
+    "en": "Stretch",
+    "ko": "기지개"
+   },
+   "desc": "a full forward stretch: front legs reaching far forward flat on the ground with the chest lowered close to the ground, hind legs straight and the hips raised high, back sloping down from the hips to the shoulders, tail raised straight up, head level between the front legs",
+   "keep": "forward stretch, front legs flat forward, chest low, hips high on straight hind legs, tail straight up",
+   "checks": [
+    "前腿前伸贴地、胸口压低",
+    "后腿伸直、臀部翘高",
+    "尾巴竖起",
+    "后腿踝关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-curl",
+   "group": "cat",
+   "probe": true,
+   "species": "domestic cat",
+   "tail": "a segmented tail",
+   "coat": "black and white bicolour fur",
+   "name": {
+    "zh": "团成一团睡",
+    "ja": "丸まって寝る",
+    "en": "Curled Asleep",
+    "ko": "동그랗게 자기"
+   },
+   "desc": "lying curled into a round ball on its side, back rounded, head tucked against the hind legs, front paws folded under the chin, tail wrapped around the outside of the body covering the nose",
+   "keep": "curled ball, rounded back, head tucked to the hind legs, front paws under the chin, tail wrapped around covering the nose",
+   "checks": [
+    "身体蜷成圆形",
+    "头埋向后腿",
+    "尾巴绕一圈盖住鼻子",
+    "没有多出来的腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

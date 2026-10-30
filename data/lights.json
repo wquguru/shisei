@@ -1,0 +1,1672 @@
+{
+ "views": [
+  "front",
+  "diag",
+  "side"
+ ],
+ "retired": {},
+ "items": [
+  {
+   "id": "L001",
+   "key": "TD:predawn:base",
+   "cat": "TD",
+   "form": "predawn",
+   "group": "edge",
+   "rating": "general",
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "黎明前蓝调（标准）",
+   "name_ja": "夜明け前（標準）",
+   "name_en": "Pre-dawn Blue (Standard)",
+   "name_ko": "새벽 블루 (기본)",
+   "group_zh": "日出日落",
+   "group_ja": "朝夕",
+   "group_en": "Sunrise & Sunset",
+   "group_ko": "일출·일몰",
+   "desc_en": "before sunrise, no direct sun; soft shadowless cool blue light from the whole sky, slightly brighter toward the horizon behind image-right, very low contrast, about 9000 K",
+   "keep_en": "cool blue shadowless light, brighter horizon behind image-right, low contrast",
+   "checks": [
+    "没有直射光和清晰影子",
+    "整体冷蓝",
+    "明暗反差很小"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L002",
+   "key": "TD:sunrise:base",
+   "cat": "TD",
+   "form": "sunrise",
+   "group": "edge",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "日出侧光（标准）",
+   "name_ja": "日の出（標準）",
+   "name_en": "Sunrise (Standard)",
+   "name_ko": "일출 (기본)",
+   "group_zh": "日出日落",
+   "group_ja": "朝夕",
+   "group_en": "Sunrise & Sunset",
+   "group_ko": "일출·일몰",
+   "desc_en": "the sun just above the horizon at image-left, 5 degrees high, warm orange direct light raking across the mannequin from its right side, very long cast shadow stretching to image-right across the ground, cool blue sky fill on the shadow side",
+   "keep_en": "low warm sun from image-left, long shadow to image-right, cool blue fill on the shadow side",
+   "checks": [
+    "太阳很低、从画面左侧照来",
+    "影子很长、伸向画面右侧",
+    "受光面暖橙、阴影面偏冷蓝"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L003",
+   "key": "TD:morning:base",
+   "cat": "TD",
+   "form": "morning",
+   "group": "day",
+   "rating": "general",
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "上午斜光（标准）",
+   "name_ja": "午前の斜光（標準）",
+   "name_en": "Morning Sun (Standard)",
+   "name_ko": "오전 햇빛 (기본)",
+   "group_zh": "白天",
+   "group_ja": "日中",
+   "group_en": "Daytime",
+   "group_ko": "낮",
+   "desc_en": "mid-morning sun 35 degrees high from image-left and slightly in front, clear neutral-warm daylight about 5000 K, crisp shadows, cast shadow falling back and to image-right at medium length, clear blue sky",
+   "keep_en": "sun 35 degrees high from front image-left, crisp medium shadow back to image-right, clear blue sky",
+   "checks": [
+    "太阳中等高度、左前方",
+    "影子清晰、中等长度",
+    "中性偏暖白光"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L004",
+   "key": "TD:noon:base",
+   "cat": "TD",
+   "form": "noon",
+   "group": "day",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "正午顶光（标准）",
+   "name_ja": "正午のトップライト（標準）",
+   "name_en": "Midday Overhead Sun (Standard)",
+   "name_ko": "정오 햇빛 (기본)",
+   "group_zh": "白天",
+   "group_ja": "日中",
+   "group_en": "Daytime",
+   "group_ko": "낮",
+   "desc_en": "midday sun almost straight overhead, hard white light, short dark shadow pooled directly under the mannequin's feet, deep shadows under the head's brow line, chin and arms, bright top of the head and shoulders, about 5500 K",
+   "keep_en": "sun straight overhead, short shadow pooled under the feet, bright tops, dark undersides",
+   "checks": [
+    "影子很短、聚在脚下",
+    "头顶和肩部最亮",
+    "下颌、腋下处黑影重"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L005",
+   "key": "TD:afternoon:base",
+   "cat": "TD",
+   "form": "afternoon",
+   "group": "day",
+   "rating": "general",
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "午后侧光（标准）",
+   "name_ja": "午後の光（標準）",
+   "name_en": "Afternoon Sun (Standard)",
+   "name_ko": "오후 햇빛 (기본)",
+   "group_zh": "白天",
+   "group_ja": "日中",
+   "group_en": "Daytime",
+   "group_ko": "낮",
+   "desc_en": "mid-afternoon sun 30 degrees high from image-right and slightly behind the mannequin, warm-neutral light about 4800 K, the mannequin's left edge lit and most of the front in soft shadow, shadow falling forward toward the camera and to image-left",
+   "keep_en": "sun 30 degrees high from behind image-right, front mostly in shadow, shadow falling toward the camera",
+   "checks": [
+    "光从右后方来",
+    "正面大部分在阴影里",
+    "影子朝镜头方向"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L006",
+   "key": "TD:golden-front:base",
+   "cat": "TD",
+   "form": "golden-front",
+   "group": "edge",
+   "rating": "general",
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "黄金时刻顺光（标准）",
+   "name_ja": "ゴールデンアワー順光（標準）",
+   "name_en": "Golden Hour Front (Standard)",
+   "name_ko": "골든아워 순광 (기본)",
+   "group_zh": "日出日落",
+   "group_ja": "朝夕",
+   "group_en": "Sunrise & Sunset",
+   "group_ko": "일출·일몰",
+   "desc_en": "golden hour, the sun 8 degrees high behind the camera and slightly to image-left, warm golden light about 3200 K washing the whole front of the mannequin, soft-edged long shadow falling straight back behind it, warm golden sky",
+   "keep_en": "low golden sun behind the camera, warm front wash, long shadow straight back",
+   "checks": [
+    "正面整体暖金色",
+    "影子向正后方拉长",
+    "天空暖色"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L007",
+   "key": "TD:golden-back:base",
+   "cat": "TD",
+   "form": "golden-back",
+   "group": "edge",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "黄金时刻逆光（标准）",
+   "name_ja": "ゴールデンアワー逆光（標準）",
+   "name_en": "Golden Hour Backlight (Standard)",
+   "name_ko": "골든아워 역광 (기본)",
+   "group_zh": "日出日落",
+   "group_ja": "朝夕",
+   "group_en": "Sunrise & Sunset",
+   "group_ko": "일출·일몰",
+   "desc_en": "golden hour, the sun 8 degrees high directly behind the mannequin just outside the frame, a bright golden rim of light along the head, shoulders and arm edges, the front in soft warm shade lifted by sky light, long shadow running toward the camera, gentle haze",
+   "keep_en": "low sun directly behind, golden rim on the outline, soft front shade, shadow toward the camera",
+   "checks": [
+    "轮廓有一圈金色边光",
+    "正面柔和的阴影",
+    "影子朝向镜头"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L008",
+   "key": "TD:sunset:base",
+   "cat": "TD",
+   "form": "sunset",
+   "group": "edge",
+   "rating": "general",
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "日落余晖（标准）",
+   "name_ja": "夕焼け（標準）",
+   "name_en": "Sunset Afterglow (Standard)",
+   "name_ko": "노을 (기본)",
+   "group_zh": "日出日落",
+   "group_ja": "朝夕",
+   "group_en": "Sunrise & Sunset",
+   "group_ko": "일출·일몰",
+   "desc_en": "just after sunset, no direct sun, the sky behind image-right glowing orange and pink fading to violet above, soft directional warm-pink light from image-right with a cool violet fill from above, very soft shadows",
+   "keep_en": "no direct sun, orange-pink sky glow from image-right, violet fill, very soft shadows",
+   "checks": [
+    "没有直射光",
+    "右侧粉橙色天光",
+    "阴影很柔"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L009",
+   "key": "TD:blue-hour:base",
+   "cat": "TD",
+   "form": "blue-hour",
+   "group": "night",
+   "rating": "general",
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "蓝调时刻（标准）",
+   "name_ja": "ブルーアワー（標準）",
+   "name_en": "Blue Hour (Standard)",
+   "name_ko": "블루아워 (기본)",
+   "group_zh": "夜间",
+   "group_ja": "夜",
+   "group_en": "Night",
+   "group_ko": "밤",
+   "desc_en": "blue hour twenty minutes after sunset, deep blue sky with a faint warm band at the horizon, even soft cool light about 10000 K from the sky, the mannequin in low-contrast blue tones",
+   "keep_en": "deep blue sky with faint warm horizon band, even cool soft light, low contrast",
+   "checks": [
+    "深蓝天空",
+    "地平线一线暖色",
+    "整体冷蓝、反差低"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L010",
+   "key": "TD:moonlight:base",
+   "cat": "TD",
+   "form": "moonlight",
+   "group": "night",
+   "rating": "general",
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "月光（标准）",
+   "name_ja": "月明かり（標準）",
+   "name_en": "Moonlight (Standard)",
+   "name_ko": "달빛 (기본)",
+   "group_zh": "夜间",
+   "group_ja": "夜",
+   "group_en": "Night",
+   "group_ko": "밤",
+   "desc_en": "night under a full moon 40 degrees high from image-left, dim cool silver-blue directional light with soft-edged shadows to image-right, dark navy sky with a few stars, the shadow side almost black",
+   "keep_en": "dim cool moonlight from image-left, soft shadow to image-right, dark navy sky",
+   "checks": [
+    "光线暗、偏银蓝",
+    "从左上方来",
+    "阴影面几乎全黑"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L011",
+   "key": "TD:overcast:base",
+   "cat": "TD",
+   "form": "overcast",
+   "group": "day",
+   "rating": "general",
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "阴天漫射（标准）",
+   "name_ja": "曇天の拡散光（標準）",
+   "name_en": "Overcast (Standard)",
+   "name_ko": "흐린 날 (기본)",
+   "group_zh": "白天",
+   "group_ja": "日中",
+   "group_en": "Daytime",
+   "group_ko": "낮",
+   "desc_en": "a fully overcast white-grey sky, soft even light from above with no direct sun and no distinct shadows, only a faint soft contact shadow under the feet, neutral 6500 K",
+   "keep_en": "overcast sky, soft even top light, no distinct shadows, faint contact shadow",
+   "checks": [
+    "天空全白灰",
+    "没有清晰影子",
+    "只有脚下淡淡的接触阴影"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L012",
+   "key": "TD:storm:base",
+   "cat": "TD",
+   "form": "storm",
+   "group": "day",
+   "rating": "general",
+   "setting": "standing on a large open pale concrete plaza with nothing around it for 30 metres, flat horizon and open sky behind",
+   "name_zh": "暴雨前（标准）",
+   "name_ja": "嵐の前（標準）",
+   "name_en": "Before the Storm (Standard)",
+   "name_ko": "폭풍 전 (기본)",
+   "group_zh": "白天",
+   "group_ja": "日中",
+   "group_en": "Daytime",
+   "group_ko": "낮",
+   "desc_en": "dark slate-grey storm clouds filling the sky, a single break in the clouds at image-left letting a shaft of pale sunlight fall on the mannequin, bright figure against a dark sky, dry ground",
+   "keep_en": "dark storm sky, one break at image-left lighting the figure, bright figure against dark sky",
+   "checks": [
+    "天空乌云压低",
+    "一束光从左侧云缝打在人台上",
+    "人亮、背景暗"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L013",
+   "key": "SN:north-window:base",
+   "cat": "SN",
+   "form": "north-window",
+   "group": "window",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, a tall window in the wall at image-left just out of frame",
+   "name_zh": "北窗柔光（标准）",
+   "name_ja": "北窓の柔らかい光（標準）",
+   "name_en": "Soft Window Light (Standard)",
+   "name_ko": "북창 부드러운 빛 (기본)",
+   "group_zh": "窗光",
+   "group_ja": "窓の光",
+   "group_en": "Window Light",
+   "group_ko": "창문 빛",
+   "desc_en": "soft indirect daylight from a large window at image-left, no direct sun, the mannequin's right side brightly lit falling off gradually to shadow on its left side, the far wall darker, soft shadow edge",
+   "keep_en": "large soft window light from image-left, gradual fall-off to the right, no direct sun",
+   "checks": [
+    "光从左侧窗户来",
+    "明暗过渡很缓",
+    "没有直射光斑"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L014",
+   "key": "SN:sun-patch:base",
+   "cat": "SN",
+   "form": "sun-patch",
+   "group": "window",
+   "rating": "general",
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, a window high in the wall at image-left",
+   "name_zh": "窗口直射光斑（标准）",
+   "name_ja": "窓からの直射光（標準）",
+   "name_en": "Sunbeam Through a Window (Standard)",
+   "name_ko": "창으로 드는 햇살 (기본)",
+   "group_zh": "窗光",
+   "group_ja": "窓の光",
+   "group_en": "Window Light",
+   "group_ko": "창문 빛",
+   "desc_en": "direct afternoon sun through the window at image-left falling as a sharp-edged bright rectangle across the mannequin's torso and onto the floor, the rest of the room in dim warm bounce light, hard contrast",
+   "keep_en": "sharp-edged sun rectangle across the torso and floor from image-left, dim room around",
+   "checks": [
+    "一块边缘清晰的方形光斑",
+    "光斑落在躯干和地面",
+    "其余部分暗"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L015",
+   "key": "SN:blinds:base",
+   "cat": "SN",
+   "form": "blinds",
+   "group": "window",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, venetian blinds on a window at image-left",
+   "name_zh": "百叶窗条纹光（标准）",
+   "name_ja": "ブラインドの縞模様（標準）",
+   "name_en": "Venetian Blind Stripes (Standard)",
+   "name_ko": "블라인드 줄무늬 (기본)",
+   "group_zh": "窗光",
+   "group_ja": "窓の光",
+   "group_en": "Window Light",
+   "group_ko": "창문 빛",
+   "desc_en": "hard sunlight through half-open venetian blinds at image-left, parallel slanted stripes of light and shadow across the mannequin, the sphere and the back wall, warm 4500 K",
+   "keep_en": "parallel slanted light stripes from blinds at image-left across figure, sphere and wall",
+   "checks": [
+    "平行斜条纹光",
+    "条纹落在人台、球和墙上",
+    "光源方向一致"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L016",
+   "key": "SN:sheer:base",
+   "cat": "SN",
+   "form": "sheer",
+   "group": "window",
+   "rating": "general",
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, a wide window with white sheer curtains filling the wall behind the mannequin",
+   "name_zh": "纱帘柔光（标准）",
+   "name_ja": "レースカーテン越し（標準）",
+   "name_en": "Through Sheer Curtains (Standard)",
+   "name_ko": "시어 커튼 빛 (기본)",
+   "group_zh": "窗光",
+   "group_ja": "窓の光",
+   "group_en": "Window Light",
+   "group_ko": "창문 빛",
+   "desc_en": "bright daylight glowing through white sheer curtains directly behind the mannequin, the mannequin softly backlit with a light halo on its outline, its front in gentle low-contrast shade, airy high-key mood",
+   "keep_en": "bright sheer-curtain backlight, soft outline halo, gentle front shade, high-key",
+   "checks": [
+    "背后纱帘发亮",
+    "轮廓柔和的亮边",
+    "整体明亮通透"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L017",
+   "key": "SN:skylight:base",
+   "cat": "SN",
+   "form": "skylight",
+   "group": "window",
+   "rating": "general",
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, a square skylight in the ceiling directly above",
+   "name_zh": "天窗顶光（标准）",
+   "name_ja": "天窓のトップライト（標準）",
+   "name_en": "Skylight (Standard)",
+   "name_ko": "천창 빛 (기본)",
+   "group_zh": "窗光",
+   "group_ja": "窓の光",
+   "group_en": "Window Light",
+   "group_ko": "창문 빛",
+   "desc_en": "soft daylight falling straight down from a skylight above, bright tops of the head and shoulders, the sphere lit on top, a soft round pool of light on the floor around the feet, the room edges dark",
+   "keep_en": "soft top light from a skylight, bright tops, pool of light on the floor, dark edges",
+   "checks": [
+    "光从正上方来",
+    "地面一圈光池",
+    "四周偏暗"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L018",
+   "key": "SN:doorway:base",
+   "cat": "SN",
+   "form": "doorway",
+   "group": "window",
+   "rating": "general",
+   "setting": "standing just inside a dark room with dark walls, an open doorway at image-right",
+   "name_zh": "暗室门口光（标准）",
+   "name_ja": "暗い部屋の戸口の光（標準）",
+   "name_en": "Doorway Chiaroscuro (Standard)",
+   "name_ko": "문간 명암 (기본)",
+   "group_zh": "窗光",
+   "group_ja": "窓の光",
+   "group_en": "Window Light",
+   "group_ko": "창문 빛",
+   "desc_en": "daylight entering only through an open doorway at image-right, strong side light on the mannequin's left side, the rest of the figure falling into deep shadow, the room around almost black, painterly chiaroscuro",
+   "keep_en": "single doorway light from image-right, strong side light, deep shadow, near-black room",
+   "checks": [
+    "光只从右侧门口进来",
+    "半边亮半边暗",
+    "房间几乎全黑"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L019",
+   "key": "SN:open-shade:base",
+   "cat": "SN",
+   "form": "open-shade",
+   "group": "outdoor",
+   "rating": "general",
+   "setting": "standing in the open shade of a tall plain building wall behind the camera, a sunny street in the distance behind",
+   "name_zh": "建筑阴影下（标准）",
+   "name_ja": "日陰（標準）",
+   "name_en": "Open Shade (Standard)",
+   "name_ko": "그늘 (기본)",
+   "group_zh": "户外空间",
+   "group_ja": "屋外の空間",
+   "group_en": "Outdoor Spaces",
+   "group_ko": "야외 공간",
+   "desc_en": "soft cool light from the open sky above and in front, no direct sun on the mannequin, very soft shadows, the sunlit background behind brighter and warmer than the figure",
+   "keep_en": "open shade, soft cool sky light, no sun on the figure, brighter warm background",
+   "checks": [
+    "人台不受直射光",
+    "阴影非常柔",
+    "背景比人亮"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L020",
+   "key": "SN:dappled:base",
+   "cat": "SN",
+   "form": "dappled",
+   "group": "outdoor",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing on a forest path under a leafy tree canopy",
+   "name_zh": "树荫斑驳光（标准）",
+   "name_ja": "木漏れ日（標準）",
+   "name_en": "Dappled Canopy Light (Standard)",
+   "name_ko": "나뭇잎 그늘 빛 (기본)",
+   "group_zh": "户外空间",
+   "group_ja": "屋外の空間",
+   "group_en": "Outdoor Spaces",
+   "group_ko": "야외 공간",
+   "desc_en": "midday sun filtering through the leaves above, scattered round bright dapples of sunlight on the mannequin, the sphere and the ground, the rest in soft green-tinted shade",
+   "keep_en": "scattered sun dapples through leaves on figure, sphere and ground, green-tinted shade",
+   "checks": [
+    "身上和地上有斑驳光点",
+    "阴影略带绿色",
+    "光点形状圆、大小不一"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L021",
+   "key": "SN:snow-bounce:base",
+   "cat": "SN",
+   "form": "snow-bounce",
+   "group": "outdoor",
+   "rating": "general",
+   "setting": "standing on a flat snowfield under a clear sky",
+   "name_zh": "雪地反光（标准）",
+   "name_ja": "雪の照り返し（標準）",
+   "name_en": "Snow Bounce (Standard)",
+   "name_ko": "눈 반사광 (기본)",
+   "group_zh": "户外空间",
+   "group_ja": "屋外の空間",
+   "group_en": "Outdoor Spaces",
+   "group_ko": "야외 공간",
+   "desc_en": "bright winter sun from image-left at 25 degrees with strong light bouncing up from the white snow, the shadow side and the undersides of the arms and chin filled brightly, very bright overall, cool blue shadows on the snow",
+   "keep_en": "winter sun from image-left, strong upward snow bounce filling undersides, bright overall, blue snow shadows",
+   "checks": [
+    "雪地向上反光",
+    "下巴、腋下也被照亮",
+    "雪上影子偏蓝"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L022",
+   "key": "SN:water-caustic:base",
+   "cat": "SN",
+   "form": "water-caustic",
+   "group": "outdoor",
+   "rating": "general",
+   "setting": "standing on a stone poolside edge, a sunlit pool of water just in front of the feet",
+   "name_zh": "水面反光（标准）",
+   "name_ja": "水面の反射光（標準）",
+   "name_en": "Water Reflections (Standard)",
+   "name_ko": "수면 반사광 (기본)",
+   "group_zh": "户外空间",
+   "group_ja": "屋外の空間",
+   "group_en": "Outdoor Spaces",
+   "group_ko": "야외 공간",
+   "desc_en": "sun from behind the mannequin reflecting off rippling water in front, moving bright caustic ripple patterns projected onto the mannequin's front and the sphere, soft overall light",
+   "keep_en": "rippling caustic light patterns from the water on the front of the figure and the sphere",
+   "checks": [
+    "人台正面有水波纹光",
+    "光纹来自前方水面",
+    "太阳在身后"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L023",
+   "key": "SN:tunnel:base",
+   "cat": "SN",
+   "form": "tunnel",
+   "group": "outdoor",
+   "rating": "general",
+   "setting": "standing inside a plain concrete tunnel near its mouth, the bright opening behind",
+   "name_zh": "隧道口逆光（标准）",
+   "name_ja": "トンネル出口の逆光（標準）",
+   "name_en": "Tunnel Mouth Backlight (Standard)",
+   "name_ko": "터널 입구 역광 (기본)",
+   "group_zh": "户外空间",
+   "group_ja": "屋外の空間",
+   "group_en": "Outdoor Spaces",
+   "group_ko": "야외 공간",
+   "desc_en": "the bright daylit tunnel opening behind the mannequin, the figure nearly silhouetted with a thin bright outline, light reflecting along the tunnel floor toward the camera, front very dark",
+   "keep_en": "bright tunnel mouth behind, near-silhouette with thin outline, floor reflection",
+   "checks": [
+    "身后是明亮的隧道口",
+    "人台接近剪影",
+    "细亮轮廓"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L024",
+   "key": "AR:table-lamp:base",
+   "cat": "AR",
+   "form": "table-lamp",
+   "group": "home",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor at night, a fabric-shaded table lamp on a low side table at image-left, visible in frame",
+   "name_zh": "台灯暖光（标准）",
+   "name_ja": "スタンドの暖色光（標準）",
+   "name_en": "Warm Table Lamp (Standard)",
+   "name_ko": "따뜻한 스탠드 (기본)",
+   "group_zh": "室内灯",
+   "group_ja": "室内照明",
+   "group_en": "Indoor Lamps",
+   "group_ko": "실내 조명",
+   "desc_en": "the only light is the warm 2700 K table lamp at image-left at waist height, strong warm fall-off across the mannequin from image-left to near darkness at image-right, cozy dim room, soft-edged shadow on the wall to image-right",
+   "keep_en": "single warm table lamp at image-left visible, steep fall-off to the right, dim room",
+   "checks": [
+    "唯一光源是左侧台灯（入画）",
+    "光从左到右迅速衰减",
+    "暖黄色"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L025",
+   "key": "AR:fluorescent:base",
+   "cat": "AR",
+   "form": "fluorescent",
+   "group": "home",
+   "rating": "general",
+   "setting": "standing in an empty office with grey carpet and white walls, a grid of rectangular ceiling light panels visible above",
+   "name_zh": "办公室荧光灯（标准）",
+   "name_ja": "オフィスの蛍光灯（標準）",
+   "name_en": "Office Fluorescent (Standard)",
+   "name_ko": "사무실 형광등 (기본)",
+   "group_zh": "室内灯",
+   "group_ja": "室内照明",
+   "group_en": "Indoor Lamps",
+   "group_ko": "실내 조명",
+   "desc_en": "flat even greenish-white 4000 K light from overhead panel lights, low contrast, soft shadows under the chin and arms, slightly clinical mood",
+   "keep_en": "even greenish-white overhead panel light, low contrast, clinical",
+   "checks": [
+    "顶上一排方形灯板",
+    "光线平、略带青绿",
+    "阴影弱"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L026",
+   "key": "AR:candle:base",
+   "cat": "AR",
+   "form": "candle",
+   "group": "flame",
+   "rating": "general",
+   "setting": "standing in a dark room, three lit candles on a low stand at image-left at hip height, visible in frame",
+   "name_zh": "烛光（标准）",
+   "name_ja": "ろうそくの光（標準）",
+   "name_en": "Candlelight (Standard)",
+   "name_ko": "촛불 (기본)",
+   "group_zh": "火光",
+   "group_ja": "炎の光",
+   "group_en": "Flame",
+   "group_ko": "불빛",
+   "desc_en": "the only light is three candle flames at image-left, very warm 1800 K flickering light, steep fall-off, the mannequin's right side glowing orange and the rest sinking into darkness, black background",
+   "keep_en": "three candles at image-left visible, very warm, steep fall-off, black background",
+   "checks": [
+    "只有左侧烛光",
+    "橙色、极暖",
+    "背景全黑"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L027",
+   "key": "AR:campfire:base",
+   "cat": "AR",
+   "form": "campfire",
+   "group": "flame",
+   "rating": "general",
+   "setting": "standing outdoors at night on bare ground, a small campfire on the ground in front of it at image-left",
+   "name_zh": "篝火（标准）",
+   "name_ja": "焚き火（標準）",
+   "name_en": "Campfire (Standard)",
+   "name_ko": "모닥불 (기본)",
+   "group_zh": "火光",
+   "group_ja": "炎の光",
+   "group_en": "Flame",
+   "group_ko": "불빛",
+   "desc_en": "warm orange firelight from a campfire low in front at image-left, lighting the mannequin from below and the front, upward shadows, sparks rising, dark night forest behind",
+   "keep_en": "low campfire in front image-left, warm uplight from below, dark forest behind",
+   "checks": [
+    "光从前下方来",
+    "暖橙色",
+    "背景是夜色"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L028",
+   "key": "AR:neon:base",
+   "cat": "AR",
+   "form": "neon",
+   "group": "city",
+   "rating": "general",
+   "setting": "standing on a wet city pavement at night beside a dark wall with two blank neon tubes, a magenta one at image-left and a cyan one at image-right, no letters",
+   "name_zh": "霓虹灯（标准）",
+   "name_ja": "ネオン（標準）",
+   "name_en": "Neon Glow (Standard)",
+   "name_ko": "네온 (기본)",
+   "group_zh": "城市夜光",
+   "group_ja": "街の夜の光",
+   "group_en": "City Night",
+   "group_ko": "도시 야경 빛",
+   "desc_en": "magenta neon light on the mannequin's right side from image-left and cyan neon light on its left side from image-right, the two colours meeting at the centre line of the figure, colourful reflections on the wet pavement",
+   "keep_en": "magenta from image-left, cyan from image-right, colours meeting at the centre, wet reflections",
+   "checks": [
+    "左品红、右青色",
+    "两色在身体中线交汇",
+    "霓虹管上没有字"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L029",
+   "key": "AR:streetlamp:base",
+   "cat": "AR",
+   "form": "streetlamp",
+   "group": "city",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing on an empty pavement at night under a single old sodium street lamp above and slightly behind it, visible at the top of the frame",
+   "name_zh": "路灯（标准）",
+   "name_ja": "街灯（標準）",
+   "name_en": "Street Lamp (Standard)",
+   "name_ko": "가로등 (기본)",
+   "group_zh": "城市夜光",
+   "group_ja": "街の夜の光",
+   "group_en": "City Night",
+   "group_ko": "도시 야경 빛",
+   "desc_en": "a single sodium street lamp above and slightly behind, orange-yellow 2000 K top light, a cone of light on the pavement around the feet, the face and front in shadow, dark blue night around",
+   "keep_en": "single sodium lamp above-behind visible, orange cone of light, dark blue night",
+   "checks": [
+    "头顶一盏路灯（入画）",
+    "橙黄色光锥",
+    "四周夜色"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L030",
+   "key": "AR:screen:base",
+   "cat": "AR",
+   "form": "screen",
+   "group": "home",
+   "rating": "general",
+   "setting": "standing in a dark room facing a large blank glowing monitor just out of frame in front of it at chest height",
+   "name_zh": "屏幕光（标准）",
+   "name_ja": "画面の光（標準）",
+   "name_en": "Screen Glow (Standard)",
+   "name_ko": "화면 빛 (기본)",
+   "group_zh": "室内灯",
+   "group_ja": "室内照明",
+   "group_en": "Indoor Lamps",
+   "group_ko": "실내 조명",
+   "desc_en": "cool blue-white light from a screen directly in front at chest height, flat cold light on the front of the mannequin and the sphere, everything behind falling into darkness",
+   "keep_en": "cool screen light from the front at chest height, flat cold front light, dark behind",
+   "checks": [
+    "冷蓝白光从正前方",
+    "正面平光",
+    "身后漆黑"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L031",
+   "key": "AR:fairy:base",
+   "cat": "AR",
+   "form": "fairy",
+   "group": "home",
+   "rating": "general",
+   "setting": "standing in front of a dark wall hung with strings of small warm bulbs, the bulbs visible behind it as soft round bokeh",
+   "name_zh": "串灯（标准）",
+   "name_ja": "ストリングライト（標準）",
+   "name_en": "String Lights (Standard)",
+   "name_ko": "줄조명 (기본)",
+   "group_zh": "室内灯",
+   "group_ja": "室内照明",
+   "group_en": "Indoor Lamps",
+   "group_ko": "실내 조명",
+   "desc_en": "soft warm low light mainly from the many small bulbs behind and around, gentle rim on the outline, front softly lit by a faint warm fill, round bokeh dots in the background",
+   "keep_en": "many small warm bulbs behind as bokeh, gentle rim, faint warm front fill",
+   "checks": [
+    "背景有圆形虚化光点",
+    "人台轮廓有柔边光",
+    "整体暖、暗"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L032",
+   "key": "AR:headlights:base",
+   "cat": "AR",
+   "form": "headlights",
+   "group": "city",
+   "rating": "general",
+   "setting": "standing on an empty road at night, two car headlights glowing just out of frame low behind the camera",
+   "name_zh": "车灯（标准）",
+   "name_ja": "車のヘッドライト（標準）",
+   "name_en": "Car Headlights (Standard)",
+   "name_ko": "자동차 헤드라이트 (기본)",
+   "group_zh": "城市夜光",
+   "group_ja": "街の夜の光",
+   "group_en": "City Night",
+   "group_ko": "도시 야경 빛",
+   "desc_en": "two hard white headlight beams from low in front, bright flat front light on the mannequin, long double shadows cast straight back on the road, dark night beyond",
+   "keep_en": "two low headlight beams from the front, flat bright front, long double shadows straight back",
+   "checks": [
+    "光从前下方两盏",
+    "身后两道长影子",
+    "四周夜黑"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L033",
+   "key": "AR:stage-spot:base",
+   "cat": "AR",
+   "form": "stage-spot",
+   "group": "city",
+   "rating": "general",
+   "setting": "standing on a dark wooden stage, black curtains behind",
+   "name_zh": "舞台追光（标准）",
+   "name_ja": "舞台のスポットライト（標準）",
+   "name_en": "Stage Spotlight (Standard)",
+   "name_ko": "무대 스포트라이트 (기본)",
+   "group_zh": "城市夜光",
+   "group_ja": "街の夜の光",
+   "group_en": "City Night",
+   "group_ko": "도시 야경 빛",
+   "desc_en": "a single hard white spotlight from high in front, a sharp-edged round pool of light on the stage around the mannequin, everything outside the pool black, faint haze in the beam",
+   "keep_en": "single hard spotlight from high front, sharp round pool, black outside",
+   "checks": [
+    "地上一个边缘清晰的圆形光池",
+    "光池外全黑",
+    "光从前上方"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L034",
+   "key": "AR:mixed:base",
+   "cat": "AR",
+   "form": "mixed",
+   "group": "home",
+   "rating": "general",
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor at dusk, a window at image-right showing blue dusk sky, a warm floor lamp at image-left visible",
+   "name_zh": "室内外混合光（标准）",
+   "name_ja": "屋内外のミックス光（標準）",
+   "name_en": "Mixed Warm & Cool (Standard)",
+   "name_ko": "혼합광 (기본)",
+   "group_zh": "室内灯",
+   "group_ja": "室内照明",
+   "group_en": "Indoor Lamps",
+   "group_ko": "실내 조명",
+   "desc_en": "warm 2700 K lamp light on the mannequin's right side from image-left and cool blue dusk light from the window on its left side from image-right, warm and cool meeting across the figure",
+   "keep_en": "warm lamp from image-left, cool dusk window from image-right, warm-cool split",
+   "checks": [
+    "左暖右冷",
+    "落地灯入画",
+    "窗外是蓝色黄昏"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L035",
+   "key": "PO:flat-front:base",
+   "cat": "PO",
+   "form": "flat-front",
+   "group": "key",
+   "rating": "general",
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "正面平光（标准）",
+   "name_ja": "正面フラットライト（標準）",
+   "name_en": "Flat Front (Standard)",
+   "name_ko": "정면 플랫 (기본)",
+   "group_zh": "主光位",
+   "group_ja": "キーライト位置",
+   "group_en": "Key Positions",
+   "group_ko": "키라이트 위치",
+   "desc_en": "one large soft light directly behind the camera at lens height, even shadowless light on the whole front, the sphere lit almost evenly with the highlight at its centre, minimal shadow",
+   "keep_en": "large soft light at the camera axis, shadowless front, centred sphere highlight",
+   "checks": [
+    "正面均匀、几乎没有阴影",
+    "球的高光在正中",
+    "没有可见灯具"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L036",
+   "key": "PO:butterfly:base",
+   "cat": "PO",
+   "form": "butterfly",
+   "group": "key",
+   "rating": "general",
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "蝴蝶光（派拉蒙光）（标准）",
+   "name_ja": "バタフライライト（標準）",
+   "name_en": "Butterfly (Paramount) (Standard)",
+   "name_ko": "버터플라이 (기본)",
+   "group_zh": "主光位",
+   "group_ja": "キーライト位置",
+   "group_en": "Key Positions",
+   "group_ko": "키라이트 위치",
+   "desc_en": "one hard light directly in front of the mannequin and 45 degrees above it, a small symmetrical shadow under the nose ridge and chin, cheekbone planes lit evenly on both sides, sphere highlight top-centre, short shadow straight down behind",
+   "keep_en": "hard light front and 45 degrees above, symmetrical shadow under the head, sphere highlight top-centre",
+   "checks": [
+    "光在正前上方",
+    "阴影左右对称、在下颌下",
+    "球高光在顶部正中"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L037",
+   "key": "PO:loop:base",
+   "cat": "PO",
+   "form": "loop",
+   "group": "key",
+   "rating": "general",
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "环形光（标准）",
+   "name_ja": "ループライト（標準）",
+   "name_en": "Loop Light (Standard)",
+   "name_ko": "루프 (기본)",
+   "group_zh": "主光位",
+   "group_ja": "キーライト位置",
+   "group_en": "Key Positions",
+   "group_ko": "키라이트 위치",
+   "desc_en": "one soft key light 30 degrees to image-left and 30 degrees above, the shadow of the head's nose ridge forming a small loop down toward image-right, the right side of the figure in gentle shadow, sphere highlight upper-left",
+   "keep_en": "soft key 30 degrees image-left and 30 degrees up, small loop shadow to image-right, sphere highlight upper-left",
+   "checks": [
+    "主光左前 30 度",
+    "阴影偏向右下",
+    "球高光在左上"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L038",
+   "key": "PO:rembrandt:base",
+   "cat": "PO",
+   "form": "rembrandt",
+   "group": "key",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "伦勃朗光（标准）",
+   "name_ja": "レンブラントライト（標準）",
+   "name_en": "Rembrandt Light (Standard)",
+   "name_ko": "렘브란트 (기본)",
+   "group_zh": "主光位",
+   "group_ja": "キーライト位置",
+   "group_en": "Key Positions",
+   "group_ko": "키라이트 위치",
+   "desc_en": "one key light 45 degrees to image-left and 45 degrees above, no fill, the image-right side of the head in shadow except a small lit triangle on the cheek plane under the eye socket, deep shadows on the right half of the torso, sphere half-lit with the terminator crossing diagonally",
+   "keep_en": "key 45 degrees image-left and 45 up, no fill, lit triangle on the shadow-side cheek, diagonal terminator on the sphere",
+   "checks": [
+    "主光左前上 45 度",
+    "暗侧脸颊上一个小三角亮区",
+    "没有补光、阴影深"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L039",
+   "key": "PO:split:base",
+   "cat": "PO",
+   "form": "split",
+   "group": "key",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "侧光（分割光）（标准）",
+   "name_ja": "スプリットライト（標準）",
+   "name_en": "Split Light (Standard)",
+   "name_ko": "스플릿 (기본)",
+   "group_zh": "主光位",
+   "group_ja": "キーライト位置",
+   "group_en": "Key Positions",
+   "group_ko": "키라이트 위치",
+   "desc_en": "one hard light exactly 90 degrees to image-left at head height, the figure split vertically down its centre line: image-left half lit, image-right half in deep shadow, the sphere exactly half lit",
+   "keep_en": "hard light 90 degrees image-left, figure split down the centre, sphere exactly half lit",
+   "checks": [
+    "光从正左侧 90 度",
+    "身体正好一半亮一半暗",
+    "球正好一半亮"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L040",
+   "key": "PO:rim:base",
+   "cat": "PO",
+   "form": "rim",
+   "group": "pattern",
+   "rating": "general",
+   "setting": "standing on a seamless black studio backdrop and floor",
+   "name_zh": "轮廓光（标准）",
+   "name_ja": "リムライト（標準）",
+   "name_en": "Rim Light (Standard)",
+   "name_ko": "림 라이트 (기본)",
+   "group_zh": "组合布光",
+   "group_ja": "組み合わせライティング",
+   "group_en": "Combined Setups",
+   "group_ko": "조합 조명",
+   "desc_en": "two hard lights behind the mannequin, one at image-left rear and one at image-right rear, both 30 degrees above, drawing thin bright edges along both sides of the head, shoulders, arms and legs, the front almost black, the sphere showing two thin crescent edges",
+   "keep_en": "two rear lights tracing thin bright edges on both sides, near-black front, black backdrop",
+   "checks": [
+    "两侧细亮轮廓",
+    "正面几乎全黑",
+    "背景黑"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L041",
+   "key": "PO:top:base",
+   "cat": "PO",
+   "form": "top",
+   "group": "key",
+   "rating": "general",
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "顶光（标准）",
+   "name_ja": "トップライト（標準）",
+   "name_en": "Top Light (Standard)",
+   "name_ko": "탑 라이트 (기본)",
+   "group_zh": "主光位",
+   "group_ja": "キーライト位置",
+   "group_en": "Key Positions",
+   "group_ko": "키라이트 위치",
+   "desc_en": "one hard light directly overhead, bright top of the head and shoulders, the face-front and torso falling into shadow below the brow line, short round shadow pooled under the feet, sphere lit only on top",
+   "keep_en": "hard light straight overhead, bright tops, dark front below the brow, short pooled shadow",
+   "checks": [
+    "光从正上方",
+    "正面大部分在阴影",
+    "脚下短圆影"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L042",
+   "key": "PO:under:base",
+   "cat": "PO",
+   "form": "under",
+   "group": "key",
+   "rating": "general",
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "底光（标准）",
+   "name_ja": "アンダーライト（標準）",
+   "name_en": "Under Light (Standard)",
+   "name_ko": "언더 라이트 (기본)",
+   "group_zh": "主光位",
+   "group_ja": "キーライト位置",
+   "group_en": "Key Positions",
+   "group_ko": "키라이트 위치",
+   "desc_en": "one light low on the floor in front of the mannequin pointing up, the undersides of the chin, chest and arms lit, upward-cast shadows on the head and the backdrop behind, an unnatural eerie mood, sphere lit from below",
+   "keep_en": "floor light in front pointing up, lit undersides, upward shadows on the backdrop",
+   "checks": [
+    "光从前下方往上",
+    "下巴、胸下被照亮",
+    "影子投在背景上方"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L043",
+   "key": "PO:clamshell:base",
+   "cat": "PO",
+   "form": "clamshell",
+   "group": "pattern",
+   "rating": "general",
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "蚌壳光（标准）",
+   "name_ja": "クラムシェル（標準）",
+   "name_en": "Clamshell (Standard)",
+   "name_ko": "클램셸 (기본)",
+   "group_zh": "组合布光",
+   "group_ja": "組み合わせライティング",
+   "group_en": "Combined Setups",
+   "group_ko": "조합 조명",
+   "desc_en": "a large soft light in front and 40 degrees above plus a soft fill below in front at chest height, very even flattering light on the front, faint shadow under the chin, two highlights on the sphere (one top, one bottom)",
+   "keep_en": "soft key above front plus soft fill below front, even front, two sphere highlights",
+   "checks": [
+    "上下两盏柔光",
+    "正面均匀",
+    "球上下两个高光"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L044",
+   "key": "PO:three-point:base",
+   "cat": "PO",
+   "form": "three-point",
+   "group": "pattern",
+   "rating": "general",
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "三点布光（标准）",
+   "name_ja": "三点照明（標準）",
+   "name_en": "Three-point Lighting (Standard)",
+   "name_ko": "3점 조명 (기본)",
+   "group_zh": "组合布光",
+   "group_ja": "組み合わせライティング",
+   "group_en": "Combined Setups",
+   "group_ko": "조합 조명",
+   "desc_en": "a soft key 45 degrees to image-left and 30 degrees above, a weaker fill from image-right at camera height, and a hair light from behind above lighting the top edge of the head and shoulders, moderate contrast, sphere showing key highlight upper-left and a faint rim on top",
+   "keep_en": "soft key 45 degrees image-left, weaker fill image-right, rear hair light on the top edge",
+   "checks": [
+    "左前主光",
+    "右侧较弱补光",
+    "头肩顶部有背光"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L045",
+   "key": "PO:high-key:base",
+   "cat": "PO",
+   "form": "high-key",
+   "group": "tone",
+   "rating": "general",
+   "setting": "standing on a seamless pure white studio backdrop and floor",
+   "name_zh": "高调（标准）",
+   "name_ja": "ハイキー（標準）",
+   "name_en": "High-key (Standard)",
+   "name_ko": "하이키 (기본)",
+   "group_zh": "影调",
+   "group_ja": "トーン",
+   "group_en": "Tonal Keys",
+   "group_ko": "톤",
+   "desc_en": "bright soft light flooding the whole set from the front and both sides, the backdrop pure white, the mannequin light and airy with very faint soft shadows, almost no dark tones",
+   "keep_en": "bright soft even light everywhere, pure white backdrop, very faint shadows",
+   "checks": [
+    "背景纯白",
+    "几乎没有暗部",
+    "阴影极淡"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L046",
+   "key": "PO:low-key:base",
+   "cat": "PO",
+   "form": "low-key",
+   "group": "tone",
+   "rating": "general",
+   "setting": "standing on a seamless black studio backdrop and floor",
+   "name_zh": "低调（标准）",
+   "name_ja": "ローキー（標準）",
+   "name_en": "Low-key (Standard)",
+   "name_ko": "로우키 (기본)",
+   "group_zh": "影调",
+   "group_ja": "トーン",
+   "group_en": "Tonal Keys",
+   "group_ko": "톤",
+   "desc_en": "one narrow soft light 60 degrees to image-left and above, lighting only the image-left edge planes of the head, shoulder, arm and the sphere, everything else falling into black, the backdrop black",
+   "keep_en": "one narrow light from image-left at 60 degrees, only the left planes lit, black everywhere else",
+   "checks": [
+    "大部分画面是黑色",
+    "只有左侧几个面被照亮",
+    "背景全黑"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L047",
+   "key": "PO:silhouette:base",
+   "cat": "PO",
+   "form": "silhouette",
+   "group": "tone",
+   "rating": "general",
+   "setting": "standing in front of a seamless white backdrop that is lit brightly from behind",
+   "name_zh": "剪影（标准）",
+   "name_ja": "シルエット（標準）",
+   "name_en": "Silhouette (Standard)",
+   "name_ko": "실루엣 (기본)",
+   "group_zh": "影调",
+   "group_ja": "トーン",
+   "group_en": "Tonal Keys",
+   "group_ko": "톤",
+   "desc_en": "the backdrop evenly bright white, no light on the front of the mannequin or the sphere, both reading as clean solid dark silhouettes with crisp outlines",
+   "keep_en": "bright white backdrop, no front light, clean dark silhouettes",
+   "checks": [
+    "背景亮白",
+    "人台和球是纯黑剪影",
+    "轮廓清晰"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L048",
+   "key": "FX:teal-orange:base",
+   "cat": "FX",
+   "form": "teal-orange",
+   "group": "colour",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing on a seamless dark charcoal studio backdrop and floor",
+   "name_zh": "青橙双色（标准）",
+   "name_ja": "ティール&オレンジ（標準）",
+   "name_en": "Teal & Orange (Standard)",
+   "name_ko": "틸 & 오렌지 (기본)",
+   "group_zh": "色彩",
+   "group_ja": "カラー",
+   "group_en": "Colour",
+   "group_ko": "컬러",
+   "desc_en": "an orange-gelled light at 60 degrees to image-left and a teal-gelled light at 60 degrees to image-right, the two colours wrapping the two sides of the mannequin and the sphere and blending to a muted tone at the centre",
+   "keep_en": "orange gel from image-left, teal gel from image-right, blending at the centre",
+   "checks": [
+    "左橙右青",
+    "两色在中间过渡",
+    "背景深灰"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L049",
+   "key": "FX:red-gel:base",
+   "cat": "FX",
+   "form": "red-gel",
+   "group": "colour",
+   "rating": "general",
+   "setting": "standing on a seamless dark charcoal studio backdrop and floor",
+   "name_zh": "单色红光（标准）",
+   "name_ja": "赤一色（標準）",
+   "name_en": "Single Red Gel (Standard)",
+   "name_ko": "레드 젤 (기본)",
+   "group_zh": "色彩",
+   "group_ja": "カラー",
+   "group_en": "Colour",
+   "group_ko": "컬러",
+   "desc_en": "one deep red-gelled hard light from 45 degrees image-left, the whole lit side saturated red, the shadow side black, intense moody look",
+   "keep_en": "single deep red hard light from 45 degrees image-left, shadow side black",
+   "checks": [
+    "只有红色光",
+    "来自左前方",
+    "暗部全黑"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L050",
+   "key": "FX:purple-blue:base",
+   "cat": "FX",
+   "form": "purple-blue",
+   "group": "colour",
+   "rating": "general",
+   "setting": "standing on a seamless dark charcoal studio backdrop and floor",
+   "name_zh": "紫蓝渐变（标准）",
+   "name_ja": "パープル&ブルー（標準）",
+   "name_en": "Purple & Blue (Standard)",
+   "name_ko": "퍼플 & 블루 (기본)",
+   "group_zh": "色彩",
+   "group_ja": "カラー",
+   "group_en": "Colour",
+   "group_ko": "컬러",
+   "desc_en": "a soft violet light from above-left and a soft blue light from low image-right, the backdrop washed with a violet-to-blue gradient",
+   "keep_en": "soft violet from above-left, soft blue from low right, violet-to-blue backdrop gradient",
+   "checks": [
+    "紫光从左上",
+    "蓝光从右下",
+    "背景紫蓝渐变"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L051",
+   "key": "FX:god-rays:base",
+   "cat": "FX",
+   "form": "god-rays",
+   "group": "pattern",
+   "rating": "general",
+   "probe": true,
+   "setting": "standing in an empty dark warehouse with light haze in the air, a high window at image-left",
+   "name_zh": "丁达尔光束（标准）",
+   "name_ja": "光芒（ヤコブの梯子）（標準）",
+   "name_en": "God Rays in Haze (Standard)",
+   "name_ko": "빛내림 (기본)",
+   "group_zh": "投影与体积光",
+   "group_ja": "投影・ボリュームライト",
+   "group_en": "Patterns & Volume",
+   "group_ko": "패턴·볼륨",
+   "desc_en": "visible parallel beams of sunlight slanting down through the haze from a high window at image-left, one beam falling across the mannequin, dust in the beams, the rest dim",
+   "keep_en": "visible slanting light beams through haze from a high window image-left, one beam on the figure",
+   "checks": [
+    "空气中可见光束",
+    "光束斜向从左上来",
+    "一道光落在人台上"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L052",
+   "key": "FX:fog-back:base",
+   "cat": "FX",
+   "form": "fog-back",
+   "group": "pattern",
+   "rating": "general",
+   "setting": "standing in thick fog on open ground",
+   "name_zh": "雾中逆光（标准）",
+   "name_ja": "霧の逆光（標準）",
+   "name_en": "Backlit Fog (Standard)",
+   "name_ko": "안개 역광 (기본)",
+   "group_zh": "投影与体积光",
+   "group_ja": "投影・ボリュームライト",
+   "group_en": "Patterns & Volume",
+   "group_ko": "패턴·볼륨",
+   "desc_en": "a single strong light far behind the mannequin glowing through thick fog, the mannequin a soft grey silhouette against a bright glowing haze, light scattering around the outline",
+   "keep_en": "strong light behind glowing through thick fog, soft silhouette, scattered outline glow",
+   "checks": [
+    "浓雾",
+    "背后强光透雾",
+    "人台是柔和剪影"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L053",
+   "key": "FX:gobo-window:base",
+   "cat": "FX",
+   "form": "gobo-window",
+   "group": "pattern",
+   "rating": "general",
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "窗格投影（标准）",
+   "name_ja": "窓枠の投影（標準）",
+   "name_en": "Window Gobo (Standard)",
+   "name_ko": "창틀 그림자 (기본)",
+   "group_zh": "投影与体积光",
+   "group_ja": "投影・ボリュームライト",
+   "group_en": "Patterns & Volume",
+   "group_ko": "패턴·볼륨",
+   "desc_en": "a hard warm light from 45 degrees image-left projecting a sharp shadow of a four-pane window frame across the mannequin, the sphere and the backdrop",
+   "keep_en": "hard warm light from image-left projecting a four-pane window shadow across figure and backdrop",
+   "checks": [
+    "四格窗框的投影",
+    "投影落在人台和背景",
+    "光从左前方"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L054",
+   "key": "FX:gobo-leaves:base",
+   "cat": "FX",
+   "form": "gobo-leaves",
+   "group": "pattern",
+   "rating": "general",
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "name_zh": "树叶投影（标准）",
+   "name_ja": "木の葉の投影（標準）",
+   "name_en": "Leaf Gobo (Standard)",
+   "name_ko": "나뭇잎 그림자 (기본)",
+   "group_zh": "投影与体积光",
+   "group_ja": "投影・ボリュームライト",
+   "group_en": "Patterns & Volume",
+   "group_ko": "패턴·볼륨",
+   "desc_en": "a hard warm light from 45 degrees image-left through a branch of leaves out of frame, projecting sharp leaf shadows across the mannequin, the sphere and the backdrop",
+   "keep_en": "hard warm light from image-left projecting leaf shadows across figure and backdrop",
+   "checks": [
+    "叶影投在人台和背景",
+    "光从左前方",
+    "没有可见树枝"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "L055",
+   "key": "FX:disco:base",
+   "cat": "FX",
+   "form": "disco",
+   "group": "colour",
+   "rating": "general",
+   "setting": "standing on a seamless dark charcoal studio backdrop and floor, light haze in the air",
+   "name_zh": "彩色舞厅点光（标准）",
+   "name_ja": "ディスコの光の粒（標準）",
+   "name_en": "Disco Light Spots (Standard)",
+   "name_ko": "디스코 조명 (기본)",
+   "group_zh": "色彩",
+   "group_ja": "カラー",
+   "group_en": "Colour",
+   "group_ko": "컬러",
+   "desc_en": "many small round spots of coloured light (pink, blue, yellow, green) scattered across the mannequin, the sphere, the floor and the backdrop as if from a mirror ball out of frame, dim ambient light",
+   "keep_en": "many small coloured light spots scattered across figure, sphere, floor and backdrop, dim ambient",
+   "checks": [
+    "许多彩色小光点",
+    "光点散落在人台、地面、背景",
+    "镜球不入画"
+   ],
+   "views": {
+    "front": null,
+    "diag": null,
+    "side": null
+   },
+   "gaps": {}
+  }
+ ]
+}
