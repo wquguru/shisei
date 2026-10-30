@@ -1,0 +1,83 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "U003__below.jpg",
+  "U011__side-below.jpg",
+  "U014__side-below.jpg",
+  "U019__side.jpg",
+  "U021__above.jpg"
+ ],
+ "panels": [
+  {
+   "set": "U003",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L arm from L shoulder bent up, hand at cheek by head; R arm from R shoulder hangs down, hand at lower right near hip. No legs in frame.",
+   "note": "Legs/feet cut by the frame (upper series), fine."
+  },
+  {
+   "set": "U011",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Near arm hangs straight down, hand open at bottom; far arm from shoulder bends up, hand on top of head. No legs in frame.",
+   "note": "Legs/feet cut by the frame (upper series), fine."
+  },
+  {
+   "set": "U011",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Viewer-left arm hangs down, hand open at bottom left; viewer-right arm bent up, hand on head. No legs in frame.",
+   "note": "Legs/feet cut by the frame (upper series), fine."
+  },
+  {
+   "set": "U014",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Near arm from shoulder bends down, forearm and hand hang at lower right; far arm's hand at cheek with finger raised, forearm ends at elbow near lower left, upper arm hidden behind torso. No legs in frame.",
+   "note": "Legs/feet cut by the frame (upper series), fine. Far upper arm hidden by torso."
+  },
+  {
+   "set": "U014",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Viewer-left arm hangs down, open hand at bottom left; viewer-right arm bent up, finger pointing at temple (hand with small clustered knuckles). No legs in frame.",
+   "note": "Legs/feet cut by the frame (upper series), fine. Pointing hand is cluttered but reads as one hand."
+  },
+  {
+   "set": "U019",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Near arm hangs down from shoulder ball, hand at bottom; far arm raised, hand at ear, elbow at upper right, upper arm partly hidden behind torso. No legs in frame.",
+   "note": "Legs/feet cut by the frame (upper series), fine."
+  },
+  {
+   "set": "U021",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Viewer-left arm raised in salute, hand at brow; viewer-right arm hangs down, hand at lower right. Two legs ending in two feet at bottom.",
+   "note": "Both legs and feet visible foreshortened from above; none extra."
+  }
+ ],
+ "flags": []
+}

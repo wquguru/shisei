@@ -1,0 +1,24 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "U003__below.jpg",
+  "U011__side-below.jpg",
+  "U014__side-below.jpg",
+  "U019__side.jpg",
+  "U021__above.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U014",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "raised hand at the temple is a clumped blob of curled fingers, finger is at the temple rather than the cheek, and the flat straight hem and unforeshortened torso read as eye level, not a low camera"
+  },
+  {
+   "set": "U021",
+   "angle": "above",
+   "kind": "line",
+   "reason": "small knob/bump on top of the head reads as a hair bun or topknot (hair); camera elevation also ambiguous"
+  }
+ ]
+}

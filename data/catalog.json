@@ -4310,11 +4310,12 @@
    "diag": "upper_U003_diag.webp",
    "side": "upper_U003_side.webp",
    "above": "upper_U003_above.webp",
-   "below": null
+   "below": "upper_U003_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "below": "missing"
+  "gaps": {},
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {
@@ -4519,14 +4520,15 @@
   "views": {
    "front": "upper_U011_front.webp",
    "diag": "upper_U011_diag.webp",
-   "side": null,
+   "side": "upper_U011_side.webp",
    "above": "upper_U011_above.webp",
-   "below": null
+   "below": "upper_U011_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "structure",
-   "below": "line"
+  "gaps": {},
+  "fills": {
+   "below": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {
@@ -4597,14 +4599,17 @@
   "views": {
    "front": "upper_U014_front.webp",
    "diag": "upper_U014_diag.webp",
-   "side": null,
+   "side": "upper_U014_side.webp",
    "above": "upper_U014_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "side": "structure",
    "below": "structure"
+  },
+  "fills": {
+   "below": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {
@@ -4726,13 +4731,14 @@
   "views": {
    "front": "upper_U019_front.webp",
    "diag": "upper_U019_diag.webp",
-   "side": null,
+   "side": "upper_U019_side.webp",
    "above": "upper_U019_above.webp",
    "below": "upper_U019_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -4784,7 +4790,10 @@
   },
   "photos": {},
   "gaps": {
-   "above": "structure"
+   "above": "line"
+  },
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {

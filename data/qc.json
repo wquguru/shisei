@@ -307,6 +307,23 @@
   },
   "P071": {
    "side": "fill-r1"
+  },
+  "U003": {
+   "below": "fill-r1"
+  },
+  "U011": {
+   "below": "fill-r1",
+   "side": "fill-r1"
+  },
+  "U014": {
+   "below": "fill-r1",
+   "side": "fill-r1"
+  },
+  "U019": {
+   "side": "fill-r1"
+  },
+  "U021": {
+   "above": "fill-r1"
   }
  },
  "views": {
@@ -3825,7 +3842,8 @@
     "status": "pass"
    },
    "below": {
-    "status": "missing"
+    "file": "upper_U003_below.webp",
+    "status": "pass"
    }
   },
   "U004": {
@@ -3995,8 +4013,7 @@
    },
    "side": {
     "file": "upper_U011_side.webp",
-    "status": "structure",
-    "reason": "near shoulder has no arm (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U011_above.webp",
@@ -4004,8 +4021,7 @@
    },
    "below": {
     "file": "upper_U011_below.webp",
-    "status": "line",
-    "reason": "skirt-like hem/flare at bottom of torso reads as clothing"
+    "status": "pass"
    }
   },
   "U012": {
@@ -4063,8 +4079,7 @@
    },
    "side": {
     "file": "upper_U014_side.webp",
-    "status": "structure",
-    "reason": "near shoulder has no arm (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U014_above.webp",
@@ -4073,7 +4088,7 @@
    "below": {
     "file": "upper_U014_below.webp",
     "status": "structure",
-    "reason": "one shoulder has no arm (limb-count check, confirmed by a person)"
+    "reason": "raised hand at the temple is a clumped blob of curled fingers, finger is at the temple rather than the cheek, and the flat straight hem and unforeshortened torso read as eye level, not a low camera"
    }
   },
   "U015": {
@@ -4175,8 +4190,7 @@
    },
    "side": {
     "file": "upper_U019_side.webp",
-    "status": "structure",
-    "reason": "practically same torso/pose as diag, not a true side view"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U019_above.webp",
@@ -4224,8 +4238,8 @@
    },
    "above": {
     "file": "upper_U021_above.webp",
-    "status": "structure",
-    "reason": "stray arcs beside torso/hip, malformed hip/torso outline"
+    "status": "line",
+    "reason": "small knob/bump on top of the head reads as a hair bun or topknot (hair); camera elevation also ambiguous"
    },
    "below": {
     "file": "upper_U021_below.webp",
