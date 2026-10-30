@@ -42,3 +42,14 @@
 
 ## 实拍
 P001–P022 每套 5 机位（拍摄批），另有 P050 正面，共 112 张；质检通过 103 张列入 catalog。
+
+## 单格补图 fill-r1（2026-10-30 起，Muse）
+原 Muse 套里没过质检或没生成的格，由 Muse 按格重画（同一生成器、同一素体，和同套其他机位放在一起不算混画；digi 套不补，D-09）。
+- 范围：至少还有一个通过机位的原 Muse 套，共 223 格（138 套），分 19 批（`~/Downloads/muse-fill-r1/`：每批简报、参考机位、manifest）；
+  一个机位都没过的 8 套（P038、P052、D014、D016、D018、D022、D029、D050）要整套重画，人定。
+- 调用：Claude Code 从窗口外驱动 Muse（CGEvent 点击 + 剪贴板粘贴 + 只截 Muse 窗口），每批开一个侧边对话；Muse 读它自己的
+  `pose_lineart_gallery` skill 和 EverOS 里的定稿模板、拒绝阶梯，以原包同套已通过机位做线稿转机位输入，每格最多 4 次，交付 zip + attempts.csv。
+- 入库：`import_fills.py` 拷到 `~/Downloads/pose-gallery-fill-r1/img/`，catalog 写 `fills: {view: "fill-r1"}`；质检按 qc/README.md，
+  结果文件顶层 `"source": "fill-r1"`，只作用于这些格。
+- 第 1 批（std 8 套 13 格）：Muse 交 10 格、3 格四次都画错（P004 仰视、P014 正面、P015 俯视）；质检过 7 格，
+  P006 仰视（不是仰视、头上像帽子）、P009 斜侧（脚成尖团、腿粘连）、P012 仰视（不是仰视）不过。

@@ -4,6 +4,7 @@
 Usage: python3 tools/build_images.py std=~/Downloads/pose-gallery-std73 sexy=... upper=...
 Line art comes from <src>/img/<file>, photos from <src>/photo/<file>. A pose with a catalog `source` (a redrawn set,
 tools/import_redraws.py) is read from the source set given under that name instead, e.g. digi=~/Downloads/....
+A single view filled later (catalog `fills`, tools/import_fills.py) is read from its fill source, e.g. fill-r1=....
 Only catalog views (non-null) and catalog
 photos are built; any other file under images/ is deleted, so a view that fails QC leaves the repo.
 Re-encoding is downscale-only from already-lossy sources: w900 q75 (lightbox/download),
@@ -19,7 +20,8 @@ def main() -> None:
     srcs = {k: pathlib.Path(v).expanduser() for k, v in (a.split("=", 1) for a in sys.argv[1:])}
     want = set()
     for p in json.loads((ROOT / "data/catalog.json").read_text()):
-        jobs = [("line", srcs[p.get("source") or p["series"]] / "img" / f) for f in p["views"].values() if f]
+        jobs = [("line", srcs[p.get("fills", {}).get(v) or p.get("source") or p["series"]] / "img" / f)
+                for v, f in p["views"].items() if f]
         # Photo renders were made from the original drawings, so they always come from the series source.
         jobs += [("photo", srcs[p["series"]] / "photo" / f) for f in (p.get("photos") or {}).values()]
         for kind, src in jobs:

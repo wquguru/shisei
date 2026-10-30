@@ -7,6 +7,8 @@ and photo_*.json (photo-render review, docs/qc/photo_prompt.md). Without photo_*
 A result file with a top-level "source" applies only to poses whose catalog `source` matches; files without one apply
 to poses without one. A redrawn set (tools/import_redraws.py) is therefore judged only on reviews of its new drawing,
 while the old files stay so the old results remain reproducible (dups*.json from line_dups.py works the same way).
+A single view filled later (catalog `fills`, tools/import_fills.py) is judged the same way per view: only panel
+results tagged with its fill source apply to it; the set's name check still comes from the original drawing.
 Rules (docs/qc/README.md):
 - a set whose drawing does not show the named pose (match "no") fails every view as `structure`;
 - per-panel "pose mismatch" fails are dropped when the set-level check says yes/partial (the set check decides names);
@@ -46,6 +48,11 @@ def main() -> None:
         return out
 
     src = {p["id"]: p.get("source") for p in cat}
+    fills = {p["id"]: p["fills"] for p in cat if p.get("fills")}
+
+    def vsrc(pid, v):
+        return fills.get(pid, {}).get(v) or src.get(pid)
+
     # A redrawn set has no older results to fall back on, so an unreviewed view would pass silently: every view of
     # it must be on a panel sheet its source's reviewers listed, and the set must have a name check.
     seen = {(source, n.split("__")[0], v) for source, n in load("fail_*.json", "reviewed") if source and "__" in n
@@ -53,11 +60,14 @@ def main() -> None:
     named = {(source, n) for source, n in load("name_*.json", "reviewed") if source}
     todo = [f"{p['id']} {v}" for p in cat if p.get("source") for v in VIEWS
             if p["views"].get(v) and (p["source"], p["id"], v) not in seen] + \
-           [f"{p['id']} name check" for p in cat if p.get("source") and (p["source"], f"{p['id']}.jpg") not in named]
+           [f"{p['id']} name check" for p in cat if p.get("source") and (p["source"], f"{p['id']}.jpg") not in named] + \
+           [f"{pid} {v}" for pid, fv in fills.items() for v, s in fv.items()
+            if next(p for p in cat if p["id"] == pid)["views"].get(v) and (s, pid, v) not in seen]
     if todo:
         sys.exit(f"not reviewed yet ({len(todo)}): {', '.join(todo[:8])} ...")
     sets = {s["set"]: s for source, s in load("name_*.json", "sets") if src.get(s["set"]) == source}
-    fails = [x for source, x in load("fail_*.json", "fails") + load("dups*.json", "fails") if src.get(x["set"]) == source]
+    fails = [x for source, x in load("fail_*.json", "fails") + load("dups*.json", "fails")
+             if vsrc(x["set"], x["angle"]) == source]
 
     panel = {}
     for x in fails:
@@ -108,7 +118,7 @@ def main() -> None:
             p["photos"] = {v: r["file"] for v, r in row.items() if r["status"] == "pass"}
 
     qc = {"schema": 1, "reviewed": a.date, "method": "docs/qc/README.md", "sets": set_notes,
-          "sources": {pid: s for pid, s in src.items() if s}, "views": views, "photos": photos}
+          "sources": {pid: s for pid, s in src.items() if s}, "fills": fills, "views": views, "photos": photos}
     qc_path.write_text(json.dumps(qc, ensure_ascii=False, indent=1) + "\n")
     cat_path.write_text(json.dumps(cat, ensure_ascii=False, indent=1) + "\n")
 

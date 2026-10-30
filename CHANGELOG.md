@@ -8,6 +8,9 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- Single-view fills from the original generator (Muse, round fill-r1): `import_fills.py` stages them, catalog
+  `fills: {view: source}` points each view at its fill source, and build, review, dups, merge, pack and verify resolve
+  the source per view. Batch 01 (std): 7 of 10 delivered views passed QC; std now has 294 of 365 views.
 - Home hero: a "making of" badge above the title links the X article on how the library was built; it replaces the
   `SHISEI · 姿勢` eyebrow, strings in all four languages.
 

@@ -111,6 +111,13 @@ S068 正面 / 侧面 / 仰视（顶部横线），U032 仰视（桌沿线），D
   `qc.json` 新增 `sources`，记每个重画姿势的来源，`verify.py` 核对它和 catalog 一致。
 - 结果：std 71/73 套、287 格；upper 80/80、337 格；sexy 80/80、323 格；duo 不变。实拍 89/112（P019、P020、P022 按旧画拍的 14 张人定下架）。
 
+## 第四轮（2026-10-30 起）：单格补图 fill-r1
+Muse 按格补画的机位（docs/GENERATION.md），只审新格：`review_sheets.py --only-source fill-r1`（逐格 + 肢体计数），
+`line_dups.py --source fill-r1` 拿新格和同套其他机位比重复。姿势名检查沿用原画的整套结论。结果文件顶层写 `"source": "fill-r1"`；
+`qc_merge.py` 按格判断来源（catalog `fills`），所以原画旧的不通过不会压住新格，新格也不吃旧结论。新格没出现在任何一张已审审图上时拒绝合并。
+- 第 1 批：1 个 Sonnet 逐格（`fail_fill-r1_aa.json`，3 格不过），1 个 Sonnet 肢体计数（`limbs_fill-r1_aa.json`，标 2 格：P009 斜侧已不过；
+  P014 侧面远侧手臂被身体挡住，目视判为遮挡，保留，待人复核）。
+
 ## 复审 / 新系列
 ```bash
 SRC="std=$HOME/Downloads/pose-gallery-std73 sexy=$HOME/Downloads/pose-gallery-sexy80 upper=$HOME/Downloads/pose-gallery-upper80 duo=$HOME/Downloads/pose-gallery-duo55 digi=$HOME/Downloads/pose-gallery-digi66"

@@ -5,6 +5,8 @@ Usage: python3 tools/review_sheets.py OUT_DIR [--mode MODE] [--passed] std=SRC s
 SRC is a source set (e.g. ~/Downloads/pose-gallery-std73); line art is read from SRC/img, photos from SRC/photo.
 Only the series given are drawn, so one series can be reviewed on its own. Redrawn sets (catalog `source`) are drawn
 only when their source is given too (digi=SRC), and only then; --only-source digi limits the run to them.
+Single-view fills (catalog `fills`, tools/import_fills.py) work the same way per view: --only-source fill-r1 draws
+just the views filled from that source, read from fill-r1=SRC.
 
 Modes (each pairs with a prompt in docs/qc/):
   panels      up to 3 views per sheet, 600x800 each        review_prompt.md      <id>__<view>-<view>.jpg
@@ -63,9 +65,16 @@ def main() -> None:
     n = 0
     for p in json.loads((ROOT / "data/catalog.json").read_text()):
         line_src = p.get("source") or p["series"]
-        if p["series"] not in srcs or line_src not in srcs or (a.only_source and p.get("source") != a.only_source):
+        if a.mode == "photo":
+            view_src = {v: line_src for v in VIEWS if not a.only_source or p.get("source") == a.only_source}
+        else:
+            view_src = {v: p.get("fills", {}).get(v) or line_src for v in VIEWS}
+        # A view is drawn only when its source was given (and is the one asked for with --only-source).
+        view_src = {v: s for v, s in view_src.items() if s in srcs and (a.mode == "photo" or not a.only_source
+                                                                       or s == a.only_source)}
+        if p["series"] not in srcs or not view_src:
             continue
-        src, pid = srcs[line_src if a.mode != "photo" else p["series"]], p["id"]
+        src, pid = srcs[p["series"]], p["id"]
         expect = EXPECT[p["series"]] + (f" ({BODIES[p['bodies']]})" if p.get("bodies") else "")
         if a.mode == "photo":
             files = {v: r["file"] for v, r in qc.get("photos", {}).get(pid, {}).items()} | (p.get("photos") or {})
@@ -79,7 +88,7 @@ def main() -> None:
             files = {v: (p["views"].get(v) or (None if a.passed or not same else
                                                qc.get("views", {}).get(pid, {}).get(v, {}).get("file")))
                      for v in VIEWS}
-            panels = [(v, src / "img" / files[v]) for v in VIEWS if files[v]]
+            panels = [(v, srcs[view_src[v]] / "img" / files[v]) for v in VIEWS if files[v] and v in view_src]
             title = {"panels": f"{pid} | {p['name_en']} | expected: {expect}",
                      "limbs": f"{pid} | {p['name_en']} | expected: {expect}",
                      "name": f"{pid} | {p['class_en']} | {p['name_en']} | ja: {p['name_jp']}"
