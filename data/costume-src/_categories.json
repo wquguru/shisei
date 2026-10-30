@@ -58,5 +58,17 @@
     "name": {"zh": "家居、泳装、内衣", "ja": "ルームウェア・水着・下着", "en": "Lounge, Swim & Intimates", "ko": "홈웨어·수영복·속옷"},
     "rules": "Clean catalogue presentation of the stated garment on an adult ghost mannequin.",
     "negatives": "No body, no skin, no sheer see-through areas, no fetish styling, no props."
+  },
+  "AC": {
+    "order": 11, "target": 60,
+    "name": {"zh": "配饰", "ja": "小物・アクセサリー", "en": "Accessories", "ko": "액세서리"},
+    "rules": "A single accessory shown as a floating product photograph, holding its natural worn or carried shape, with nothing wearing or holding it; for headwear the shape is held as if on an invisible head.",
+    "negatives": "No head, no face, no hair, no hands, no mannequin, no stand or hook, no other garments, no recognisable brand designs, monograms, signature quilting or logo hardware, no religious headwear."
+  },
+  "LG": {
+    "order": 12, "target": 30,
+    "name": {"zh": "性感内衣", "ja": "ランジェリー", "en": "Lingerie & Party Costume", "ko": "란제리"},
+    "rules": "Adult lingerie or adult party costume on an adult ghost mannequin, catalogue presentation, every fabric fully lined and opaque.",
+    "negatives": "No sheer or see-through fabric, no cut-outs or openings at the nipples or crotch, no restraints, cuffs, chains or leash collars, nothing school-like or childlike, no police or military elements, no real insignia, no body, no skin, no props."
   }
 }

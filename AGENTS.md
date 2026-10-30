@@ -27,6 +27,9 @@ two are rated suggestive. Plus photo renders for 23 std sets, a four-language ca
   Nipple marks, exposure, genital detail and a figure that reads as a minor are generation errors: they fail QC.
   A per-pose rating change is a human decision recorded in `data/rating_overrides.json`, not a catalog edit:
   `import_series.py` applies it on re-import and `verify.py` checks it.
+  Costumes follow the same rules; the LG (性感内衣) category is all `suggestive` and its boundary is D-11: no sheer
+  fabric, no cut-outs or openings at the nipple or crotch, no restraints, nothing school-coded or minor-coded, no
+  police or military, no real insignia.
 - **IDs are stable.** `P001`… never get renumbered or reused (P023 and P028 are retired). New poses take the next
   free number; the source-list number goes in `orig_id`.
 - **Full-size originals stay out of git.** Commit only the `w300`, `w600` and `w900` tiers; downloads ship as Release

@@ -318,7 +318,14 @@ C012 齐胸石榴红、C014 / C015 初唐高腰襦裙），仍是“裙头 / 腰
 下一步：抠图类先换 BiRefNet 重抠再审，不用重画；缺视角的件以已通过的正面为参考只补那一格；
 4 件缺正面的改写结构句后整件重做。
 
-## 12. D-10（已决定，见 DECISIONS）
+## 12. 全库服装卡（2026-10-30）
+
+12 个大类 494 件全部写好服装卡（`data/costume-src/`），HC、WE 我写，其余由子代理按 HC / WE 的格式写、我抽查：
+HC 60 · WE 54 · MD 80 · FM 30 · SP 30 · WK 30 · WH 30 · FN 40 · FS 20 · IN 30 · AC 60 · LG 30。
+D-11 加了配饰 AC（悬浮商品照，`costume_brief.py` 用单独的正面模板）和性感内衣 LG（全部 suggestive，边界见 D-11）。
+每类一份简报 `~/Downloads/costume-<类>-run01/brief.md`；HC 的补图是 `costume-HC-run02`（`--src` 修复模式，附参考图）。
+
+## 13. D-10（已决定，见 DECISIONS）
 
 1. **画面格式**：隐形人台三视图（推荐）还是平铺图。
 2. **数据放哪**：`tools/verify.py`、`build_site.py`、`web/app.js` 都把机位写死成 `front, diag, side, above, below`。推荐服装单独放 `data/costumes.json`，视图是 `front, back, side`，verify 和网站各加一段；不和 `catalog.json` 混用。

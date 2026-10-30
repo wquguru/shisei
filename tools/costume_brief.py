@@ -34,8 +34,16 @@ FRONT_TMPL = (
     "and trims, 3:4 vertical, catalogue style.\n{rules}\n"
     "No person, no face, no head, no hair, no skin, no hands, no visible mannequin body, no hanger, no props, no "
     "text, no logo, no badge, no watermark. {negatives}")
+# Accessories (AC) have no mannequin and no collar-to-hem framing: the object floats, centred, filling less height.
+ACC_TMPL = (
+    "Product photograph of {desc}, a single accessory floating in mid-air with nothing wearing or holding it, "
+    "holding its natural worn or carried shape, straight front view, camera level with the object, centered, the "
+    "object filling about 60% of the frame height, soft even studio lighting, {bg}, accurate material colour and "
+    "texture, visible construction details such as seams, stitching, hardware and trims, 3:4 vertical, catalogue "
+    "style.\n{rules}\nNo person, no head, no face, no hair, no hands, no mannequin, no stand, no hook, no other "
+    "garments, no props, no text, no logo, no watermark. {negatives}")
 TURN_TMPL = (
-    "{refs} They are product photographs of one garment on an invisible ghost mannequin. Show exactly the same "
+    "{refs} They are product photographs of one garment (on an invisible ghost mannequin) or one floating accessory. Show exactly the same "
     "garment from {view}. Keep these identical: {keep}; same sleeve volume, lengths, colours, pattern and trims. "
     "Add nothing the reference images do not support. {back_rule}Same background, lighting, scale and framing, "
     "3:4 vertical. No person, no face, no head, no skin, no hands, no text, no logo.")
@@ -87,7 +95,7 @@ def main() -> None:
          "",
          "## 正面模板（每件把 {desc} {form} {lower} {bg} 换成该件的字段）",
          "```",
-         FRONT_TMPL.replace("{rules}", c["rules"]).replace("{negatives}", c["negatives"]),
+         (ACC_TMPL if a.cat == "AC" else FRONT_TMPL).replace("{rules}", c["rules"]).replace("{negatives}", c["negatives"]),
          "```",
          f"- {{form}}：女 = {GENDER['F']}，男 = {GENDER['M']}，中性 = {GENDER['U']}",
          f"- {{lower}}：到下摆 = “{LOWER['hem']}”，到鞋 = “{LOWER['shoes']}”",
