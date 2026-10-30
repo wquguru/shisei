@@ -3978,12 +3978,13 @@
    "front": "sexy_S069_front.webp",
    "diag": "sexy_S069_diag.webp",
    "side": "sexy_S069_side.webp",
-   "above": null,
+   "above": "sexy_S069_above.webp",
    "below": "sexy_S069_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "above": "structure"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -4064,6 +4065,9 @@
   "photos": {},
   "gaps": {
    "front": "structure"
+  },
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -4161,14 +4165,15 @@
   "desc_en": "in a shoulder stand balanced on her shoulders with both legs spread apart in a V shape, hands supporting her back",
   "views": {
    "front": "sexy_S076_front.webp",
-   "diag": null,
+   "diag": "sexy_S076_diag.webp",
    "side": "sexy_S076_side.webp",
    "above": "sexy_S076_above.webp",
    "below": "sexy_S076_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "diag": "structure"
+  "gaps": {},
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -4216,12 +4221,14 @@
    "diag": "sexy_S078_diag.webp",
    "side": "sexy_S078_side.webp",
    "above": null,
-   "below": null
+   "below": "sexy_S078_below.webp"
   },
   "photos": {},
   "gaps": {
-   "above": "structure",
-   "below": "missing"
+   "above": "structure"
+  },
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {
@@ -4241,15 +4248,16 @@
   "desc_en": "in a bridge pose on her shoulders and one foot with hips raised high, the other leg extended straight up toward the ceiling",
   "views": {
    "front": "sexy_S079_front.webp",
-   "diag": null,
+   "diag": "sexy_S079_diag.webp",
    "side": "sexy_S079_side.webp",
-   "above": null,
+   "above": "sexy_S079_above.webp",
    "below": "sexy_S079_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "diag": "structure",
-   "above": "structure"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1",
+   "diag": "fill-r1"
   }
  },
  {

@@ -1,0 +1,18 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "S069__above.jpg",
+  "S072__front.jpg",
+  "S076__diag.jpg",
+  "S078__below.jpg",
+  "S079__diag-above.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S072",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "arms and legs both attach at the same band under a foreshortened chest, head hangs in front of the pelvis; reads as a standing forward fold, not a bridge with belly up"
+  }
+ ]
+}

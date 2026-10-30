@@ -384,6 +384,22 @@
   "S068": {
    "side": "fill-r1"
   },
+  "S069": {
+   "above": "fill-r1"
+  },
+  "S072": {
+   "front": "fill-r1"
+  },
+  "S076": {
+   "diag": "fill-r1"
+  },
+  "S078": {
+   "below": "fill-r1"
+  },
+  "S079": {
+   "above": "fill-r1",
+   "diag": "fill-r1"
+  },
   "U003": {
    "below": "fill-r1"
   },
@@ -3732,8 +3748,7 @@
    },
    "above": {
     "file": "sexy_S069_above.webp",
-    "status": "structure",
-    "reason": "three feet, two shins from one knee (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "below": {
     "file": "sexy_S069_below.webp",
@@ -3786,7 +3801,7 @@
    "front": {
     "file": "sexy_S072_front.webp",
     "status": "structure",
-    "reason": "two limbs end in one hand (limb-count check, confirmed by a person)"
+    "reason": "arms and legs both attach at the same band under a foreshortened chest, head hangs in front of the pelvis; reads as a standing forward fold, not a bridge with belly up"
    },
    "diag": {
     "file": "sexy_S072_diag.webp",
@@ -3880,8 +3895,7 @@
    },
    "diag": {
     "file": "sexy_S076_diag.webp",
-    "status": "structure",
-    "reason": "legs end in stumps, no feet drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "side": {
     "file": "sexy_S076_side.webp",
@@ -3937,7 +3951,8 @@
     "reason": "eye-level front view, practically same as front; not from above"
    },
    "below": {
-    "status": "missing"
+    "file": "sexy_S078_below.webp",
+    "status": "pass"
    }
   },
   "S079": {
@@ -3947,8 +3962,7 @@
    },
    "diag": {
     "file": "sexy_S079_diag.webp",
-    "status": "structure",
-    "reason": "no arms drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "side": {
     "file": "sexy_S079_side.webp",
@@ -3956,8 +3970,7 @@
    },
    "above": {
     "file": "sexy_S079_above.webp",
-    "status": "structure",
-    "reason": "stray third hand under the chin (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "below": {
     "file": "sexy_S079_below.webp",

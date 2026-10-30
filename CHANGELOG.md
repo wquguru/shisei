@@ -13,8 +13,8 @@ the catalog schema.
   sharing, such as WeChat, get a long-press hint over the image instead. Strings in all four languages.
 - Single-view fills from the original generator (Muse, round fill-r1): `import_fills.py` stages them, catalog
   `fills: {view: source}` points each view at its fill source, and build, review, dups, merge, pack and verify resolve
-  the source per view. Batches 01–19 (batch 15 not delivered): 74 of 120 delivered views passed QC; std now has 300 of
-  365 views, upper 359 of 400, sexy 347 of 400, duo 201 of 275 (docs/GENERATION.md).
+  the source per view. Batches 01–19: 79 of 126 delivered views passed QC; std now has 300 of 365 views, upper 359
+  of 400, sexy 352 of 400, duo 201 of 275 (docs/GENERATION.md).
 - Pose descriptions (`desc_en`, the copyable prompt in the lightbox) for all 215 sexy, upper and duo poses, taken
   verbatim from the descriptions the views were generated from (Muse prompt export); every pose now has one.
   `import_descs.py` fills them, `import_series.py` keeps them on re-import and `verify.py` requires one per pose.
