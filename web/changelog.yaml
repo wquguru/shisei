@@ -6,6 +6,22 @@
 entries:
   - date: 2026-10-30
     tag: improve
+    title: 74 missing angles filled in
+    desc: Blank or rejected angles in all four series were redrawn one by one by the generator that drew the rest of each set. Every new drawing passed the same review.
+    link: /
+    cta: Open the gallery
+    title_zh: 补齐 74 个缺失机位
+    desc_zh: 原本空着或没通过质检的机位，由画出同套其他机位的生成器逐格补画，新图都过了同样的质检，覆盖标准、上半身、性感和双人四个系列。
+    cta_zh: 打开图库
+    title_ja: 欠けていた 74 アングルを追加
+    desc_ja: 空いていたり審査を通らなかったアングルを、同じセットを描いた生成器で 1 枚ずつ描き直しました。新しい線画はすべて同じ審査を通過しています。標準・上半身・セクシー・2人の 4 シリーズが対象です。
+    cta_ja: ギャラリーを開く
+    title_ko: 빠진 74개 앵글 보충
+    desc_ko: 비어 있거나 검수를 통과하지 못한 앵글을 같은 세트를 그린 생성기로 한 장씩 다시 그렸습니다. 새 선화는 모두 같은 검수를 통과했으며 표준·상반신·섹시·2인 네 시리즈에 걸쳐 있습니다.
+    cta_ko: 갤러리 열기
+
+  - date: 2026-10-30
+    tag: improve
     title: Save straight to your photos
     desc: On a phone, the button under a pose now saves the image to your photo album through the system share sheet. Where a browser can't do that, it shows how to save by pressing and holding the image.
     link: /

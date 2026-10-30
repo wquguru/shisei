@@ -308,6 +308,82 @@
   "P071": {
    "side": "fill-r1"
   },
+  "S004": {
+   "above": "fill-r1"
+  },
+  "S006": {
+   "diag": "fill-r1",
+   "side": "fill-r1"
+  },
+  "S016": {
+   "front": "fill-r1"
+  },
+  "S022": {
+   "above": "fill-r1"
+  },
+  "S024": {
+   "diag": "fill-r1"
+  },
+  "S027": {
+   "above": "fill-r1"
+  },
+  "S028": {
+   "side": "fill-r1"
+  },
+  "S031": {
+   "side": "fill-r1"
+  },
+  "S034": {
+   "above": "fill-r1",
+   "diag": "fill-r1",
+   "front": "fill-r1",
+   "side": "fill-r1"
+  },
+  "S040": {
+   "above": "fill-r1"
+  },
+  "S041": {
+   "front": "fill-r1"
+  },
+  "S043": {
+   "front": "fill-r1"
+  },
+  "S046": {
+   "diag": "fill-r1",
+   "side": "fill-r1"
+  },
+  "S048": {
+   "side": "fill-r1"
+  },
+  "S049": {
+   "below": "fill-r1",
+   "front": "fill-r1"
+  },
+  "S054": {
+   "side": "fill-r1"
+  },
+  "S055": {
+   "side": "fill-r1"
+  },
+  "S056": {
+   "side": "fill-r1"
+  },
+  "S057": {
+   "diag": "fill-r1"
+  },
+  "S058": {
+   "front": "fill-r1"
+  },
+  "S059": {
+   "diag": "fill-r1"
+  },
+  "S060": {
+   "front": "fill-r1",
+   "side": "fill-r1"
+  },
+  "S068": {
+   "side": "fill-r1"
+  },
   "U003": {
    "below": "fill-r1"
   },
@@ -357,6 +433,122 @@
   },
   "U044": {
    "below": "fill-r1"
+  },
+  "U054": {
+   "diag": "fill-r1",
+   "front": "fill-r1"
+  },
+  "U056": {
+   "above": "fill-r1"
+  },
+  "U058": {
+   "above": "fill-r1",
+   "diag": "fill-r1"
+  },
+  "U063": {
+   "diag": "fill-r1"
+  },
+  "U064": {
+   "below": "fill-r1"
+  },
+  "U065": {
+   "diag": "fill-r1"
+  },
+  "U066": {
+   "front": "fill-r1"
+  },
+  "U069": {
+   "side": "fill-r1"
+  },
+  "U070": {
+   "above": "fill-r1"
+  },
+  "U075": {
+   "side": "fill-r1"
+  },
+  "U076": {
+   "side": "fill-r1"
+  },
+  "U079": {
+   "above": "fill-r1",
+   "below": "fill-r1"
+  },
+  "D003": {
+   "diag": "fill-r1"
+  },
+  "D004": {
+   "diag": "fill-r1",
+   "front": "fill-r1"
+  },
+  "D006": {
+   "above": "fill-r1"
+  },
+  "D007": {
+   "above": "fill-r1"
+  },
+  "D009": {
+   "above": "fill-r1",
+   "below": "fill-r1"
+  },
+  "D010": {
+   "front": "fill-r1",
+   "side": "fill-r1"
+  },
+  "D019": {
+   "side": "fill-r1"
+  },
+  "D020": {
+   "above": "fill-r1",
+   "diag": "fill-r1"
+  },
+  "D024": {
+   "above": "fill-r1",
+   "below": "fill-r1",
+   "front": "fill-r1"
+  },
+  "D026": {
+   "front": "fill-r1"
+  },
+  "D028": {
+   "above": "fill-r1",
+   "diag": "fill-r1"
+  },
+  "D032": {
+   "above": "fill-r1",
+   "diag": "fill-r1",
+   "front": "fill-r1"
+  },
+  "D034": {
+   "above": "fill-r1",
+   "side": "fill-r1"
+  },
+  "D036": {
+   "front": "fill-r1"
+  },
+  "D037": {
+   "below": "fill-r1"
+  },
+  "D039": {
+   "side": "fill-r1"
+  },
+  "D041": {
+   "diag": "fill-r1"
+  },
+  "D047": {
+   "diag": "fill-r1"
+  },
+  "D049": {
+   "above": "fill-r1",
+   "front": "fill-r1"
+  },
+  "D051": {
+   "front": "fill-r1"
+  },
+  "D053": {
+   "side": "fill-r1"
+  },
+  "D055": {
+   "front": "fill-r1"
   }
  },
  "views": {
@@ -2098,8 +2290,7 @@
    },
    "above": {
     "file": "sexy_S004_above.webp",
-    "status": "line",
-    "reason": "nipple circle on breast; dot on head top"
+    "status": "pass"
    },
    "below": {
     "file": "sexy_S004_below.webp",
@@ -2134,13 +2325,12 @@
    },
    "diag": {
     "file": "sexy_S006_diag.webp",
-    "status": "line",
-    "reason": "wall hatching background"
+    "status": "structure",
+    "reason": "arms hang down at hip height, not leaning on a wall as in the side view"
    },
    "side": {
     "file": "sexy_S006_side.webp",
-    "status": "line",
-    "reason": "wall and floor lines; nipple bump"
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S006_above.webp",
@@ -2353,8 +2543,7 @@
   "S016": {
    "front": {
     "file": "sexy_S016_front.webp",
-    "status": "structure",
-    "reason": "one arm missing in the front view (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S016_diag.webp",
@@ -2498,8 +2687,8 @@
    },
    "above": {
     "file": "sexy_S022_above.webp",
-    "status": "line",
-    "reason": "small circle nipple dot on breast"
+    "status": "structure",
+    "reason": "legs spread straight out, not an M-sit; arms straight back, not leaning on elbows"
    },
    "below": {
     "file": "sexy_S022_below.webp",
@@ -2535,8 +2724,7 @@
    },
    "diag": {
     "file": "sexy_S024_diag.webp",
-    "status": "structure",
-    "reason": "three legs (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "side": {
     "file": "sexy_S024_side.webp",
@@ -2608,7 +2796,8 @@
     "status": "pass"
    },
    "above": {
-    "status": "missing"
+    "file": "sexy_S027_above.webp",
+    "status": "pass"
    },
    "below": {
     "file": "sexy_S027_below.webp",
@@ -2626,8 +2815,7 @@
    },
    "side": {
     "file": "sexy_S028_side.webp",
-    "status": "structure",
-    "reason": "foot cut by the frame edge (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S028_above.webp",
@@ -2694,8 +2882,7 @@
    },
    "side": {
     "file": "sexy_S031_side.webp",
-    "status": "structure",
-    "reason": "head distorted into a flattened cap shape, merged with raised hands"
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S031_above.webp",
@@ -2752,23 +2939,19 @@
   "S034": {
    "front": {
     "file": "sexy_S034_front.webp",
-    "status": "line",
-    "reason": "hair strand strokes at top of head by the hands"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S034_diag.webp",
-    "status": "line",
-    "reason": "hair strand strokes at top of head by the hands"
+    "status": "pass"
    },
    "side": {
     "file": "sexy_S034_side.webp",
-    "status": "line",
-    "reason": "hair strand strokes at top of head by the hands"
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S034_above.webp",
-    "status": "line",
-    "reason": "hair strand strokes at top of head by the hands"
+    "status": "pass"
    },
    "below": {
     "file": "sexy_S034_below.webp",
@@ -2900,8 +3083,7 @@
    },
    "above": {
     "file": "sexy_S040_above.webp",
-    "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "below": {
     "file": "sexy_S040_below.webp",
@@ -2911,8 +3093,7 @@
   "S041": {
    "front": {
     "file": "sexy_S041_front.webp",
-    "status": "structure",
-    "reason": "stray foot-like shape beside the pelvis (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S041_diag.webp",
@@ -2955,8 +3136,7 @@
   "S043": {
    "front": {
     "file": "sexy_S043_front.webp",
-    "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S043_diag.webp",
@@ -3027,11 +3207,11 @@
    },
    "diag": {
     "file": "sexy_S046_diag.webp",
-    "status": "line",
-    "reason": "diagonal guide/floor line crossing the figure and frame"
+    "status": "pass"
    },
    "side": {
-    "status": "missing"
+    "file": "sexy_S046_side.webp",
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S046_above.webp",
@@ -3074,8 +3254,7 @@
    },
    "side": {
     "file": "sexy_S048_side.webp",
-    "status": "structure",
-    "reason": "practically identical to the diag panel"
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S048_above.webp",
@@ -3089,8 +3268,7 @@
   "S049": {
    "front": {
     "file": "sexy_S049_front.webp",
-    "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S049_diag.webp",
@@ -3106,8 +3284,7 @@
    },
    "below": {
     "file": "sexy_S049_below.webp",
-    "status": "structure",
-    "reason": "arms end in stumps, no hands drawn (limb-count check, confirmed by a person)"
+    "status": "pass"
    }
   },
   "S050": {
@@ -3211,8 +3388,8 @@
    },
    "side": {
     "file": "sexy_S054_side.webp",
-    "status": "line",
-    "reason": "dot on side-view breast (nipple)"
+    "status": "structure",
+    "reason": "two shins and a bulge rise from one knee; legs cannot be traced, judged by eye (fill-r1 batches 08-19)"
    },
    "above": {
     "file": "sexy_S054_above.webp",
@@ -3234,8 +3411,7 @@
    },
    "side": {
     "file": "sexy_S055_side.webp",
-    "status": "structure",
-    "reason": "torso tiny/legs attach at wrong place, anatomy unreadable"
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S055_above.webp",
@@ -3257,8 +3433,8 @@
    },
    "side": {
     "file": "sexy_S056_side.webp",
-    "status": "line",
-    "reason": "circle dot on side-view breast (nipple)"
+    "status": "structure",
+    "reason": "figure is an upright diagonal lean with one arm up; not a supine arch, no arch in the torso, second arm missing"
    },
    "above": {
     "file": "sexy_S056_above.webp",
@@ -3278,8 +3454,7 @@
    },
    "diag": {
     "file": "sexy_S057_diag.webp",
-    "status": "structure",
-    "reason": "figure reads as upright mid-air kicking, not prone"
+    "status": "pass"
    },
    "side": {
     "file": "sexy_S057_side.webp",
@@ -3297,8 +3472,7 @@
   "S058": {
    "front": {
     "file": "sexy_S058_front.webp",
-    "status": "structure",
-    "reason": "extended leg cut off by right frame edge"
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S058_diag.webp",
@@ -3326,7 +3500,7 @@
    "diag": {
     "file": "sexy_S059_diag.webp",
     "status": "structure",
-    "reason": "legs hang down, knees not raised; pose not supine knees up"
+    "reason": "one raised leg ends in a knee circle with no shin; thigh/shin chain of the knees-up legs cannot be traced"
    },
    "side": {
     "file": "sexy_S059_side.webp",
@@ -3345,7 +3519,8 @@
   },
   "S060": {
    "front": {
-    "status": "missing"
+    "file": "sexy_S060_front.webp",
+    "status": "pass"
    },
    "diag": {
     "file": "sexy_S060_diag.webp",
@@ -3353,8 +3528,7 @@
    },
    "side": {
     "file": "sexy_S060_side.webp",
-    "status": "structure",
-    "reason": "near-duplicate (mirror) of diag panel"
+    "status": "pass"
    },
    "above": {
     "file": "sexy_S060_above.webp",
@@ -3530,8 +3704,8 @@
    },
    "side": {
     "file": "sexy_S068_side.webp",
-    "status": "line",
-    "reason": "horizontal ruled line (background object) at top of panel"
+    "status": "structure",
+    "reason": "legs bent above the torso, not folded past the head with toes down, judged by eye (fill-r1 batches 08-19)"
    },
    "above": {
     "file": "sexy_S068_above.webp",
@@ -4989,10 +5163,12 @@
   },
   "U054": {
    "front": {
-    "status": "missing"
+    "file": "upper_U054_front.webp",
+    "status": "pass"
    },
    "diag": {
-    "status": "missing"
+    "file": "upper_U054_diag.webp",
+    "status": "pass"
    },
    "side": {
     "file": "upper_U054_side.webp",
@@ -5044,8 +5220,7 @@
    },
    "above": {
     "file": "upper_U056_above.webp",
-    "status": "structure",
-    "reason": "one arm missing at the left shoulder, which ends in a point"
+    "status": "pass"
    },
    "below": {
     "file": "upper_U056_below.webp",
@@ -5079,7 +5254,8 @@
     "status": "pass"
    },
    "diag": {
-    "status": "missing"
+    "file": "upper_U058_diag.webp",
+    "status": "pass"
    },
    "side": {
     "file": "upper_U058_side.webp",
@@ -5087,8 +5263,7 @@
    },
    "above": {
     "file": "upper_U058_above.webp",
-    "status": "structure",
-    "reason": "practically identical to the front panel, not an above view"
+    "status": "pass"
    },
    "below": {
     "file": "upper_U058_below.webp",
@@ -5190,7 +5365,8 @@
     "status": "pass"
    },
    "diag": {
-    "status": "missing"
+    "file": "upper_U063_diag.webp",
+    "status": "pass"
    },
    "side": {
     "file": "upper_U063_side.webp",
@@ -5223,8 +5399,7 @@
    },
    "below": {
     "file": "upper_U064_below.webp",
-    "status": "structure",
-    "reason": "tangled overlapping limbs and extra stray contours, anatomy unreadable"
+    "status": "pass"
    }
   },
   "U065": {
@@ -5234,8 +5409,8 @@
    },
    "diag": {
     "file": "upper_U065_diag.webp",
-    "status": "structure",
-    "reason": "pelvis a jagged malformed blob, no clear hips or legs"
+    "status": "line",
+    "reason": "cluster of small stray circles scattered on the abdomen"
    },
    "side": {
     "file": "upper_U065_side.webp",
@@ -5251,7 +5426,8 @@
   },
   "U066": {
    "front": {
-    "status": "missing"
+    "file": "upper_U066_front.webp",
+    "status": "pass"
    },
    "diag": {
     "file": "upper_U066_diag.webp",
@@ -5327,8 +5503,7 @@
    },
    "side": {
     "file": "upper_U069_side.webp",
-    "status": "line",
-    "reason": "hatching/shading strokes along the back contour"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U069_above.webp",
@@ -5355,7 +5530,7 @@
    "above": {
     "file": "upper_U070_above.webp",
     "status": "structure",
-    "reason": "viewer-left arm missing, only a shoulder circle"
+    "reason": "raised finger is in front of the chest, not vertical at the face, judged by eye (fill-r1 batches 08-19)"
    },
    "below": {
     "file": "upper_U070_below.webp",
@@ -5461,7 +5636,7 @@
    "side": {
     "file": "upper_U075_side.webp",
     "status": "structure",
-    "reason": "hands drawn as head-like blobs at the arm ends, anatomy malformed"
+    "reason": "both arms point straight up from the shoulder, not overhead past the head; no arch"
    },
    "above": {
     "file": "upper_U075_above.webp",
@@ -5483,8 +5658,7 @@
    },
    "side": {
     "file": "upper_U076_side.webp",
-    "status": "structure",
-    "reason": "mirror copy of the diag panel"
+    "status": "pass"
    },
    "above": {
     "file": "upper_U076_above.webp",
@@ -5555,12 +5729,12 @@
    "above": {
     "file": "upper_U079_above.webp",
     "status": "structure",
-    "reason": "viewer-right forearm cut off abruptly with no hand"
+    "reason": "fingers point up-left across the chest, not down"
    },
    "below": {
     "file": "upper_U079_below.webp",
     "status": "structure",
-    "reason": "arm ends in a circle with no hand, hand attached oddly at the neck, pose unreadable"
+    "reason": "fingers point sideways across the chest, not down"
    }
   },
   "U080": {
@@ -5633,8 +5807,7 @@
    },
    "diag": {
     "file": "duo_D003_diag.webp",
-    "status": "structure",
-    "reason": "practically identical to the front panel"
+    "status": "pass"
    },
    "side": {
     "file": "duo_D003_side.webp",
@@ -5653,12 +5826,12 @@
    "front": {
     "file": "duo_D004_front.webp",
     "status": "structure",
-    "reason": "woman drawn with four legs (limb-count check, confirmed by a person)"
+    "reason": "woman floats horizontally above the man's head with legs vertical; not legs over his shoulders, man not leaning over"
    },
    "diag": {
     "file": "duo_D004_diag.webp",
     "status": "structure",
-    "reason": "woman drawn with four legs (limb-count check, confirmed by a person)"
+    "reason": "woman floats horizontally above the man's head with legs vertical; not legs over his shoulders, man not leaning over"
    },
    "side": {
     "file": "duo_D004_side.webp",
@@ -5710,8 +5883,8 @@
    },
    "above": {
     "file": "duo_D006_above.webp",
-    "status": "line",
-    "reason": "small circles on the male chest and lower torso read as nipple/areola marks"
+    "status": "structure",
+    "reason": "woman tiny and hard to read, man's hands clamp her pelvis/crotch area; lift not readable"
    },
    "below": {
     "file": "duo_D006_below.webp",
@@ -5732,8 +5905,7 @@
    },
    "above": {
     "file": "duo_D007_above.webp",
-    "status": "structure",
-    "reason": "feet drawn as boxy blocks, malformed feet on both figures"
+    "status": "pass"
    },
    "below": {
     "file": "duo_D007_below.webp",
@@ -5777,20 +5949,18 @@
    },
    "above": {
     "file": "duo_D009_above.webp",
-    "status": "structure",
-    "reason": "eye-level view, not an above camera; duplicates the front/below drawing"
+    "status": "pass"
    },
    "below": {
     "file": "duo_D009_below.webp",
     "status": "structure",
-    "reason": "eye-level view, not a below camera; practically same as the above panel"
+    "reason": "man's clasped hands sit on woman's lower abdomen/pelvis; woman small next to the man"
    }
   },
   "D010": {
    "front": {
     "file": "duo_D010_front.webp",
-    "status": "structure",
-    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+    "status": "pass"
    },
    "diag": {
     "file": "duo_D010_diag.webp",
@@ -5799,7 +5969,7 @@
    "side": {
     "file": "duo_D010_side.webp",
     "status": "structure",
-    "reason": "practically the same image as the diag panel"
+    "reason": "woman's and man's legs tangled, one foot drawn like a shoe, limbs hard to trace to a body"
    },
    "above": {
     "file": "duo_D010_above.webp",
@@ -6008,7 +6178,7 @@
    "side": {
     "file": "duo_D019_side.webp",
     "status": "structure",
-    "reason": "Man is still frontal, identical to the front panel; not a side view"
+    "reason": "woman is supine with only one leg visible, not side-lying; leg stands beside the head rather than on the shoulder"
    },
    "above": {
     "file": "duo_D019_above.webp",
@@ -6027,8 +6197,8 @@
    },
    "diag": {
     "file": "duo_D020_diag.webp",
-    "status": "line",
-    "reason": "Feet drawn as blocky shoe-like boxes"
+    "status": "structure",
+    "reason": "two bodies fused into overlapping double outlines, limbs cannot be traced to one figure"
    },
    "side": {
     "file": "duo_D020_side.webp",
@@ -6036,8 +6206,8 @@
    },
    "above": {
     "file": "duo_D020_above.webp",
-    "status": "line",
-    "reason": "Small dots on the torso of the upper figure that read as nipple marks"
+    "status": "structure",
+    "reason": "inner figure far smaller than the outer one and heads overlap; cannot tell whose limbs are whose, judged by eye (fill-r1 batches 08-19)"
    },
    "below": {
     "file": "duo_D020_below.webp",
@@ -6110,7 +6280,7 @@
    "front": {
     "file": "duo_D024_front.webp",
     "status": "structure",
-    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+    "reason": "woman much smaller than the man at the same depth (child proportions), judged by eye (fill-r1 batches 08-19)"
    },
    "diag": {
     "file": "duo_D024_diag.webp",
@@ -6123,12 +6293,12 @@
    "above": {
     "file": "duo_D024_above.webp",
     "status": "structure",
-    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+    "reason": "woman much smaller than the man at the same depth (child proportions), judged by eye (fill-r1 batches 08-19)"
    },
    "below": {
     "file": "duo_D024_below.webp",
     "status": "structure",
-    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+    "reason": "woman much smaller than the man at the same depth (child proportions), judged by eye (fill-r1 batches 08-19)"
    }
   },
   "D025": {
@@ -6155,7 +6325,9 @@
   },
   "D026": {
    "front": {
-    "status": "missing"
+    "file": "duo_D026_front.webp",
+    "status": "structure",
+    "reason": "raised palms beside the woman's shoulders cannot be assigned to either figure and are not stretched forward, judged by eye (fill-r1 batches 08-19)"
    },
    "diag": {
     "file": "duo_D026_diag.webp",
@@ -6203,8 +6375,7 @@
    },
    "diag": {
     "file": "duo_D028_diag.webp",
-    "status": "structure",
-    "reason": "Practically the same image as the front panel"
+    "status": "pass"
    },
    "side": {
     "file": "duo_D028_side.webp",
@@ -6214,7 +6385,7 @@
    "above": {
     "file": "duo_D028_above.webp",
     "status": "structure",
-    "reason": "Both women show only one arm; the other arm is missing"
+    "reason": "legs of both women merge into one X shape, four legs not traceable to their bodies"
    },
    "below": {
     "file": "duo_D028_below.webp",
@@ -6293,12 +6464,11 @@
    "front": {
     "file": "duo_D032_front.webp",
     "status": "structure",
-    "reason": "Woman's right forearm ends in a flat handless stump"
+    "reason": "woman lies apart from the man with no contact and is not under him; not on all fours over her"
    },
    "diag": {
     "file": "duo_D032_diag.webp",
-    "status": "structure",
-    "reason": "Woman's forearm ends in a flat handless stump"
+    "status": "pass"
    },
    "side": {
     "file": "duo_D032_side.webp",
@@ -6306,8 +6476,7 @@
    },
    "above": {
     "file": "duo_D032_above.webp",
-    "status": "structure",
-    "reason": "Woman's forearms end in flat handless stumps"
+    "status": "pass"
    },
    "below": {
     "file": "duo_D032_below.webp",
@@ -6349,12 +6518,11 @@
    "side": {
     "file": "duo_D034_side.webp",
     "status": "structure",
-    "reason": "Practically the same image as the diag panel"
+    "reason": "woman's head and body far smaller than the man's at the same depth (child proportions), judged by eye (fill-r1 batches 08-19)"
    },
    "above": {
     "file": "duo_D034_above.webp",
-    "status": "structure",
-    "reason": "woman drawn much smaller than the man, reads as child proportions (proportion check, confirmed by hand)"
+    "status": "pass"
    },
    "below": {
     "file": "duo_D034_below.webp",
@@ -6385,7 +6553,8 @@
   },
   "D036": {
    "front": {
-    "status": "missing"
+    "file": "duo_D036_front.webp",
+    "status": "pass"
    },
    "diag": {
     "file": "duo_D036_diag.webp",
@@ -6425,7 +6594,7 @@
    "below": {
     "file": "duo_D037_below.webp",
     "status": "structure",
-    "reason": "Man's head not identifiable and limbs cannot be traced; pose unreadable"
+    "reason": "not a low angle (eye-level view); man's hand on her buttock near the pelvis; man's toes drawn as round balls"
    }
   },
   "D038": {
@@ -6462,8 +6631,8 @@
    },
    "side": {
     "file": "duo_D039_side.webp",
-    "status": "line",
-    "reason": "same image as front/diag, plus grey floor-line scribbles at the bottom"
+    "status": "structure",
+    "reason": "tangled legs: the foot behind the man's head and the hand on the knee cannot be traced to a hip or shoulder, judged by eye (fill-r1 batches 08-19)"
    },
    "above": {
     "file": "duo_D039_above.webp",
@@ -6503,8 +6672,7 @@
    },
    "diag": {
     "file": "duo_D041_diag.webp",
-    "status": "structure",
-    "reason": "practically the same image as the front panel"
+    "status": "pass"
    },
    "side": {
     "file": "duo_D041_side.webp",
@@ -6636,8 +6804,7 @@
    },
    "diag": {
     "file": "duo_D047_diag.webp",
-    "status": "structure",
-    "reason": "practically the same image as the front panel"
+    "status": "pass"
    },
    "side": {
     "file": "duo_D047_side.webp",
@@ -6680,7 +6847,8 @@
   },
   "D049": {
    "front": {
-    "status": "missing"
+    "file": "duo_D049_front.webp",
+    "status": "pass"
    },
    "diag": {
     "file": "duo_D049_diag.webp",
@@ -6691,8 +6859,7 @@
    },
    "above": {
     "file": "duo_D049_above.webp",
-    "status": "structure",
-    "reason": "practically the same image as the diag panel"
+    "status": "pass"
    },
    "below": {
     "file": "duo_D049_below.webp",
@@ -6728,7 +6895,7 @@
    "front": {
     "file": "duo_D051_front.webp",
     "status": "structure",
-    "reason": "man's legs unreadable: a knee and foot emerge at his crotch, limb cannot be traced to a body"
+    "reason": "man does not hold behind her knees (her hands rest on her own thighs); man not clearly broader"
    },
    "diag": {
     "file": "duo_D051_diag.webp",
@@ -6783,8 +6950,7 @@
    },
    "side": {
     "file": "duo_D053_side.webp",
-    "status": "structure",
-    "reason": "both heads are plain circles instead of the egg-shaped mannequin head, off style"
+    "status": "pass"
    },
    "above": {
     "file": "duo_D053_above.webp",
@@ -6817,7 +6983,8 @@
   },
   "D055": {
    "front": {
-    "status": "missing"
+    "file": "duo_D055_front.webp",
+    "status": "pass"
    },
    "diag": {
     "file": "duo_D055_diag.webp",

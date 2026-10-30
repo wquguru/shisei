@@ -1,0 +1,115 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "D003__diag.jpg",
+  "D004__front-diag.jpg",
+  "D006__above.jpg",
+  "D007__above.jpg",
+  "D009__above-below.jpg",
+  "D010__front-side.jpg",
+  "D019__side.jpg",
+  "D020__diag-above.jpg",
+  "D024__front-above-below.jpg",
+  "D026__front.jpg",
+  "D028__diag-above.jpg",
+  "D032__front-diag-above.jpg",
+  "D034__side-above.jpg",
+  "D036__front.jpg",
+  "D037__below.jpg",
+  "D039__side.jpg",
+  "D041__diag.jpg",
+  "D047__diag.jpg",
+  "D049__front-above.jpg",
+  "D051__front.jpg",
+  "D053__side.jpg",
+  "D055__front.jpg",
+  "S004__above.jpg",
+  "S006__diag-side.jpg",
+  "S016__front.jpg",
+  "S022__above.jpg",
+  "S024__diag.jpg",
+  "S027__above.jpg",
+  "S028__side.jpg",
+  "S031__side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "D004",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "woman floats horizontally above the man's head with legs vertical; not legs over his shoulders, man not leaning over"
+  },
+  {
+   "set": "D004",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "woman floats horizontally above the man's head with legs vertical; not legs over his shoulders, man not leaning over"
+  },
+  {
+   "set": "D006",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "woman tiny and hard to read, man's hands clamp her pelvis/crotch area; lift not readable"
+  },
+  {
+   "set": "D009",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "man's clasped hands sit on woman's lower abdomen/pelvis; woman small next to the man"
+  },
+  {
+   "set": "D010",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "woman's and man's legs tangled, one foot drawn like a shoe, limbs hard to trace to a body"
+  },
+  {
+   "set": "D019",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "woman is supine with only one leg visible, not side-lying; leg stands beside the head rather than on the shoulder"
+  },
+  {
+   "set": "D020",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "two bodies fused into overlapping double outlines, limbs cannot be traced to one figure"
+  },
+  {
+   "set": "D028",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "legs of both women merge into one X shape, four legs not traceable to their bodies"
+  },
+  {
+   "set": "D032",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "woman lies apart from the man with no contact and is not under him; not on all fours over her"
+  },
+  {
+   "set": "D037",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "not a low angle (eye-level view); man's hand on her buttock near the pelvis; man's toes drawn as round balls"
+  },
+  {
+   "set": "D051",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "man does not hold behind her knees (her hands rest on her own thighs); man not clearly broader"
+  },
+  {
+   "set": "S006",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "arms hang down at hip height, not leaning on a wall as in the side view"
+  },
+  {
+   "set": "S022",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "legs spread straight out, not an M-sit; arms straight back, not leaning on elbows"
+  }
+ ]
+}
