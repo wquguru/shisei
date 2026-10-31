@@ -1,0 +1,72 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C225",
+  "C226",
+  "C227",
+  "C228",
+  "C229",
+  "C230",
+  "C231",
+  "C232",
+  "C233",
+  "C234",
+  "C235",
+  "C236",
+  "C237",
+  "C238",
+  "C239",
+  "C240",
+  "C241",
+  "C242",
+  "C243",
+  "C244",
+  "C245",
+  "C246",
+  "C247",
+  "C248",
+  "C249",
+  "C250",
+  "C252",
+  "C253",
+  "C254"
+ ],
+ "fails": [
+  {
+   "id": "C227",
+   "view": "front",
+   "status": "matte",
+   "reason": "Shoes and lower legs fade into the dark background; shoes nearly invisible, ghost leg shapes left"
+  },
+  {
+   "id": "C227",
+   "view": "back",
+   "status": "matte",
+   "reason": "Shoes and lower legs fade into the dark background; shoes nearly invisible, ghost leg shapes left"
+  },
+  {
+   "id": "C231",
+   "view": "back",
+   "status": "matte",
+   "reason": "Socks look semi-transparent grey with background showing through; high-top shoes dark blob (front socks have grey patches too)"
+  },
+  {
+   "id": "C236",
+   "view": "side",
+   "status": "matte",
+   "reason": "Shoe and sock are grey/chrome-looking, background left in the cut-out as grey blocks"
+  },
+  {
+   "id": "C236",
+   "view": "diag",
+   "status": "matte",
+   "reason": "Shoes and socks are grey/chrome-looking, background left in the cut-out as grey blocks"
+  },
+  {
+   "id": "C253",
+   "view": "side",
+   "status": "matte",
+   "reason": "Grey halo/shading along the back edge of the white breeches thigh"
+  }
+ ]
+}

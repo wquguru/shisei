@@ -1,0 +1,89 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C315",
+  "C316",
+  "C317",
+  "C318",
+  "C319",
+  "C320",
+  "C321",
+  "C322",
+  "C323",
+  "C324",
+  "C325",
+  "C326",
+  "C327",
+  "C328",
+  "C329",
+  "C330",
+  "C331",
+  "C332",
+  "C333",
+  "C334",
+  "C335",
+  "C336",
+  "C337",
+  "C338",
+  "C339",
+  "C340",
+  "C341",
+  "C342"
+ ],
+ "fails": [
+  {
+   "id": "C325",
+   "view": "back",
+   "status": "form",
+   "reason": "Back view shows a hood-like shape rising behind the neck; 要点② says loose soft collar, no hood"
+  },
+  {
+   "id": "C326",
+   "view": "back",
+   "status": "form",
+   "reason": "Back view shows a hood-like shape rising behind the neck; 要点② says loose soft collar, no hood"
+  },
+  {
+   "id": "C329",
+   "view": "back",
+   "status": "content",
+   "reason": "Grey fuzzy tuft at back of collar reads as hair or fur; check it is not hair"
+  },
+  {
+   "id": "C329",
+   "view": "side",
+   "status": "content",
+   "reason": "Grey fuzzy tuft at nape of collar reads as hair or fur; check it is not hair"
+  },
+  {
+   "id": "C330",
+   "view": "back",
+   "status": "content",
+   "reason": "Brown-grey fuzzy tuft at back of collar reads as hair or fur; check it is not hair"
+  },
+  {
+   "id": "C330",
+   "view": "side",
+   "status": "content",
+   "reason": "Pale grey fur-like tuft at nape of collar reads as hair; check it is not hair"
+  },
+  {
+   "id": "C336",
+   "view": "front",
+   "status": "form",
+   "reason": "要点③ left-shoulder pauldron: front shows it on image-left (wearer's right), back and diag show wearer's left"
+  },
+  {
+   "id": "C341",
+   "view": "front",
+   "status": "form",
+   "reason": "要点③ asks for two vertical streamers; only one silver streamer visible in front"
+  },
+  {
+   "id": "C342",
+   "view": "front",
+   "status": "form",
+   "reason": "要点③ asks for two vertical streamers; only one gold streamer visible in front"
+  }
+ ]
+}

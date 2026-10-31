@@ -1,0 +1,42 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C436",
+  "C437",
+  "C438",
+  "C439",
+  "C440",
+  "C441",
+  "C442",
+  "C443",
+  "C444",
+  "C445",
+  "C446",
+  "C447",
+  "C448",
+  "C449",
+  "C450",
+  "C451",
+  "C452",
+  "C453",
+  "C454",
+  "C455",
+  "C456",
+  "C457",
+  "C458",
+  "C459",
+  "C460",
+  "C461",
+  "C462",
+  "C463",
+  "C464"
+ ],
+ "fails": [
+  {
+   "id": "C462",
+   "view": "side",
+   "status": "consistency",
+   "reason": "bottom tassel renders dark/near-black and faded, while the tassel is bright red with gold thread in front, back and diag"
+  }
+ ]
+}

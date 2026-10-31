@@ -1,0 +1,6 @@
+{
+ "run": "in_run01",
+ "missing": {
+  "C399_side": "refused on both attempts (attempt 1 earlier in run01 main pass; attempt 2 this retry also refused by generation tool); no side image produced"
+ }
+}

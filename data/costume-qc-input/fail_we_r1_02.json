@@ -1,0 +1,17 @@
+{
+  "prompt": "costume_prompt.md",
+  "reviewed": ["C089","C090","C091","C092","C093","C094","C095","C096","C097","C098","C099","C100","C101","C102","C103","C104","C105","C106","C107","C108","C109","C110","C111","C112","C113","C114"],
+  "fails": [
+    {"id": "C094", "view": "front", "status": "content", "reason": "dark mannequin neck/stand visible above the shirt collar"},
+    {"id": "C096", "view": "front", "status": "content", "reason": "grey mannequin neck/bust visible inside the square neckline"},
+    {"id": "C097", "view": "front", "status": "content", "reason": "grey mannequin neck stub visible above the collar"},
+    {"id": "C097", "view": "diag", "status": "content", "reason": "dark mannequin neck/stand visible inside the neckline"},
+    {"id": "C098", "view": "back", "status": "form", "reason": "point 2 H-shaped back strap: back shows straps crossing in an X"},
+    {"id": "C099", "view": "back", "status": "form", "reason": "point 2 H-shaped back strap: back shows straps crossing in an X"},
+    {"id": "C105", "view": "front", "status": "matte", "reason": "grey semi-transparent block left between shirt hem and trousers under the sash"},
+    {"id": "C105", "view": "back", "status": "matte", "reason": "grey semi-transparent block left between shirt hem and trousers under the sash"},
+    {"id": "C109", "view": "front", "status": "matte", "reason": "light grey halo/outline along the edges of the robe and cape sleeves"},
+    {"id": "C110", "view": "front", "status": "matte", "reason": "dark smudge/leftover at the neck top (possible hair or head remnant); also no white inner shirt visible unlike side/diag"},
+    {"id": "C111", "view": "diag", "status": "matte", "reason": "panel is zoomed and chopped off at the top: collar, head end and hem missing; scale differs from other panels"}
+  ]
+}

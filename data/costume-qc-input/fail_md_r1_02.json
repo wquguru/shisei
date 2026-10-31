@@ -1,0 +1,119 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C143",
+  "C144",
+  "C145",
+  "C146",
+  "C147",
+  "C148",
+  "C149",
+  "C150",
+  "C151",
+  "C152",
+  "C153",
+  "C154",
+  "C155",
+  "C156",
+  "C157",
+  "C158",
+  "C159",
+  "C160",
+  "C161",
+  "C162",
+  "C163",
+  "C164",
+  "C165",
+  "C166",
+  "C167",
+  "C168",
+  "C169",
+  "C170"
+ ],
+ "fails": [
+  {
+   "id": "C149",
+   "view": "front",
+   "status": "matte",
+   "reason": "jeans legs run off the bottom of the panel, hems and ankles cut off"
+  },
+  {
+   "id": "C158",
+   "view": "front",
+   "status": "matte",
+   "reason": "jeans legs run off the bottom of the panel, hems cut off"
+  },
+  {
+   "id": "C151",
+   "view": "front",
+   "status": "matte",
+   "reason": "striped top has grey blurry smears/halo over the stripes, looks like leftover background"
+  },
+  {
+   "id": "C149",
+   "view": "back",
+   "status": "matte",
+   "reason": "jeans legs run off the bottom of the panel, hems and ankles cut off"
+  },
+  {
+   "id": "C158",
+   "view": "back",
+   "status": "matte",
+   "reason": "jeans legs run off the bottom of the panel, hems cut off"
+  },
+  {
+   "id": "C151",
+   "view": "back",
+   "status": "matte",
+   "reason": "striped top has grey blurry smears/halo over the stripes, looks like leftover background"
+  },
+  {
+   "id": "C149",
+   "view": "side",
+   "status": "matte",
+   "reason": "jeans legs run off the bottom of the panel, hems and ankles cut off"
+  },
+  {
+   "id": "C158",
+   "view": "side",
+   "status": "matte",
+   "reason": "jeans legs run off the bottom of the panel, hems cut off; in this view the jeans fade into a dark block"
+  },
+  {
+   "id": "C151",
+   "view": "side",
+   "status": "matte",
+   "reason": "striped top has grey blurry smears/halo over the stripes, looks like leftover background"
+  },
+  {
+   "id": "C149",
+   "view": "diag",
+   "status": "matte",
+   "reason": "jeans legs run off the bottom of the panel, hems and ankles cut off"
+  },
+  {
+   "id": "C158",
+   "view": "diag",
+   "status": "matte",
+   "reason": "jeans legs run off the bottom of the panel, hems cut off"
+  },
+  {
+   "id": "C151",
+   "view": "diag",
+   "status": "matte",
+   "reason": "striped top has grey blurry smears/halo over the stripes, looks like leftover background"
+  },
+  {
+   "id": "C160",
+   "view": "front",
+   "status": "matte",
+   "reason": "white/grey block left in the gap between jacket hem and skirt waist"
+  },
+  {
+   "id": "C153",
+   "view": "side",
+   "status": "consistency",
+   "reason": "trousers are black here but mid-grey in the other three panels"
+  }
+ ]
+}

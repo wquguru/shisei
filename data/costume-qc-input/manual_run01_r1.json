@@ -1,0 +1,12 @@
+{
+ "note": "Human spot check of the run01 reviewer output for WE–LG (2026-10-31): C403 bust points confirmed at full size, reviewer fails stand; C133 trousers run off the frame bottom in every view like C149/C158/C189, so it fails too; C392/C393 shorty length vs knee is a proportion difference, not a different garment; C494 chevrons are the cheer convention, not insignia.",
+ "reviewed": [],
+ "fails": [
+  {"id": "C133", "view": "front", "status": "form", "reason": "trousers cropped by the frame bottom, no hem or shoes"},
+  {"id": "C133", "view": "back", "status": "form", "reason": "trousers cropped by the frame bottom, no hem or shoes"},
+  {"id": "C133", "view": "side", "status": "form", "reason": "trousers cropped by the frame bottom, no hem or shoes"},
+  {"id": "C133", "view": "diag", "status": "form", "reason": "trousers cropped by the frame bottom, no hem or shoes"},
+  {"id": "C392", "view": "front", "status": "pass", "reason": "shorty length is a proportion difference"},
+  {"id": "C393", "view": "front", "status": "pass", "reason": "shorty length is a proportion difference"}
+ ]
+}

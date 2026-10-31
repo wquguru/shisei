@@ -1,0 +1,69 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C355",
+  "C356",
+  "C357",
+  "C358",
+  "C359",
+  "C360",
+  "C361",
+  "C362",
+  "C363",
+  "C364",
+  "C365",
+  "C366",
+  "C367",
+  "C368",
+  "C369",
+  "C370",
+  "C371",
+  "C372",
+  "C373",
+  "C374"
+ ],
+ "fails": [
+  {
+   "id": "C359",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey fuzzy halo above the white fur collar"
+  },
+  {
+   "id": "C359",
+   "view": "back",
+   "status": "consistency",
+   "reason": "white fur collar trim (要点4) missing at the neckline; back shows plain edge with beaded trim"
+  },
+  {
+   "id": "C359",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey wisps/halo above the fur collar"
+  },
+  {
+   "id": "C360",
+   "view": "back",
+   "status": "consistency",
+   "reason": "sleeve cuffs are dark grey fur, not the white fur of the other panels (要点4)"
+  },
+  {
+   "id": "C360",
+   "view": "side",
+   "status": "matte",
+   "reason": "fur collar is grey/dark instead of white, matte residue at the neck"
+  },
+  {
+   "id": "C366",
+   "view": "front",
+   "status": "form",
+   "reason": "white wing-collar shirt (要点3) not clearly visible under the gold cravat"
+  },
+  {
+   "id": "C367",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey patch left between/beside the trouser legs"
+  }
+ ]
+}

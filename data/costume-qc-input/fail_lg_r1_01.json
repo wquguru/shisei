@@ -1,0 +1,127 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C465",
+  "C466",
+  "C469",
+  "C471",
+  "C472",
+  "C473",
+  "C474",
+  "C475",
+  "C476",
+  "C477",
+  "C478",
+  "C479",
+  "C480",
+  "C481",
+  "C482",
+  "C483",
+  "C484",
+  "C487",
+  "C488",
+  "C489",
+  "C491",
+  "C492",
+  "C493",
+  "C494"
+ ],
+ "fails": [
+  {
+   "id": "C469",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey smudge halo above the briefs"
+  },
+  {
+   "id": "C469",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey smudge halo above the briefs"
+  },
+  {
+   "id": "C473",
+   "view": "back",
+   "status": "matte",
+   "reason": "white background block left in the back cut-out"
+  },
+  {
+   "id": "C473",
+   "view": "side",
+   "status": "matte",
+   "reason": "white background blob left in the waist cut-out"
+  },
+  {
+   "id": "C474",
+   "view": "side",
+   "status": "matte",
+   "reason": "dark grey fill left in the waist cut-out"
+  },
+  {
+   "id": "C476",
+   "view": "back",
+   "status": "matte",
+   "reason": "detached strap fragment floating below the bralette; unsure if cut off"
+  },
+  {
+   "id": "C479",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey block filling the leg opening"
+  },
+  {
+   "id": "C479",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey/lilac block filling the leg opening"
+  },
+  {
+   "id": "C481",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey disc left in the round under-bust cut-out"
+  },
+  {
+   "id": "C481",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey fill left in the waist cut-out"
+  },
+  {
+   "id": "C481",
+   "view": "diag",
+   "status": "matte",
+   "reason": "white/grey disc left in the under-bust cut-out"
+  },
+  {
+   "id": "C482",
+   "view": "front",
+   "status": "matte",
+   "reason": "white disc left in the round under-bust cut-out"
+  },
+  {
+   "id": "C484",
+   "view": "diag",
+   "status": "matte",
+   "reason": "white background block visible inside the armhole/neck"
+  },
+  {
+   "id": "C488",
+   "view": "front",
+   "status": "matte",
+   "reason": "white/grey patch under the hem at left thigh plus grey haze at the hem; unsure"
+  },
+  {
+   "id": "C488",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey haze below the skirt hem; unsure"
+  },
+  {
+   "id": "C493",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey disc left in the sleeve armhole"
+  }
+ ]
+}

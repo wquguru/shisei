@@ -1,0 +1,109 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C405",
+  "C407",
+  "C408",
+  "C409",
+  "C410",
+  "C411",
+  "C412",
+  "C413",
+  "C414",
+  "C415",
+  "C416",
+  "C417",
+  "C418",
+  "C419",
+  "C420",
+  "C421",
+  "C422",
+  "C423",
+  "C424",
+  "C425",
+  "C426",
+  "C427",
+  "C428",
+  "C429",
+  "C430",
+  "C431",
+  "C432",
+  "C433",
+  "C434",
+  "C435"
+ ],
+ "fails": [
+  {
+   "id": "C410",
+   "view": "side",
+   "status": "matte",
+   "reason": "ribbon tail at the right edge looks chopped off, with grey/white fragments left at its end"
+  },
+  {
+   "id": "C416",
+   "view": "back",
+   "status": "form",
+   "reason": "brim looks flared outward with an upturned rolled lip, not a very narrow brim turned down all round (point 2)"
+  },
+  {
+   "id": "C416",
+   "view": "side",
+   "status": "form",
+   "reason": "brim flares out and curls up at the edge instead of turning down (point 2)"
+  },
+  {
+   "id": "C419",
+   "view": "side",
+   "status": "matte",
+   "reason": "brim is dark grey/black instead of ivory straw, with a smeared grey halo below; looks like cut-out failure"
+  },
+  {
+   "id": "C420",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey hazy block visible inside the open top where the old background was left"
+  },
+  {
+   "id": "C420",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey hazy block visible inside the open top where the old background was left"
+  },
+  {
+   "id": "C421",
+   "view": "back",
+   "status": "matte",
+   "reason": "right pearl wing is mostly faded to a ghostly translucent smear, not matching the solid left wing"
+  },
+  {
+   "id": "C427",
+   "view": "back",
+   "status": "consistency",
+   "reason": "inner tall wall shows a vertical corner edge at centre, while in front it reads as a flat face; orientation of inner wall differs between views"
+  },
+  {
+   "id": "C429",
+   "view": "back",
+   "status": "consistency",
+   "reason": "tassel hangs at image right in both front and back; from behind it should be on the opposite side"
+  },
+  {
+   "id": "C429",
+   "view": "side",
+   "status": "view",
+   "reason": "wing seen as a long thin bar the same length as in front view, so not a 90 degree profile (looks like front view edge-on)"
+  },
+  {
+   "id": "C435",
+   "view": "side",
+   "status": "consistency",
+   "reason": "hairpin runs lengthwise along the crown here but crosses left-right in the front view, so it should be end-on in side view"
+  },
+  {
+   "id": "C435",
+   "view": "diag",
+   "status": "consistency",
+   "reason": "hairpin runs along the crown's long axis, inconsistent with the cross-wise pin in front/back"
+  }
+ ]
+}

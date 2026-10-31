@@ -35,6 +35,15 @@ Judge every panel. A panel passes only if ALL of these hold; otherwise give the 
    Look for features of the wrong culture too: a wide obi belt or obi bow (Japanese), a very short jacket with a
    long ribbon tie (Korean), zippers or lace on Chinese historical garments.
 
+Two categories differ (tell them by ID):
+- Accessories C405–C464 are a single hat, headpiece or bag floating on its own, holding its worn or carried shape,
+  with no mannequin at all. A visible head, hair, hand, stand, hook or a second item is `content`; a hanging strap or
+  tassel that the matte cut off is `matte`. For a bag, "side" is its narrow end and "back" its back face.
+- Lingerie and party costume C465–C494 (and the suggestive intimates C399–C404) are adult catalogue lingerie:
+  low necklines, high-cut legs and lace are expected and are not `content`. They fail `content` only for sheer or
+  see-through fabric, a cut-out or opening at the nipple or crotch, restraints (cuffs, chains, leash collars),
+  anything school-like or childlike, police or military elements, or any body or skin.
+
 Be strict on 1–3 and on any 要点 that is clearly wrong; do not fail a panel for taste, minor added piping or
 embroidery, or slightly different proportions. When unsure whether a 要点 is met, fail it with a reason that says
 what you see — a person will look at it.

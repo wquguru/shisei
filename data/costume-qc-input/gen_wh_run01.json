@@ -1,0 +1,13 @@
+{
+ "run": "wh_run01",
+ "missing": {
+  "C290_back": "front failed - not attempted",
+  "C290_diag": "front failed - not attempted",
+  "C290_front": "Best attempt a2 retained in work/gateC only, NOT delivered (point 4 still failing): points 1-3 pass (broad shoulders/knee over-gown/wide fur collar; jerkin pleated skirt at mid-thigh after rewrite; slashed sleeves with red puffs) but point 4 fails - shoes pointed/almond toe not broad square-toed. a1",
+  "C290_side": "front failed - not attempted",
+  "C305_back": "front failed - not attempted",
+  "C305_diag": "front failed - not attempted",
+  "C305_front": "All 3 attempts failed point 3: A-line skirt came out mid-calf/midi length instead of just below the knee, and the navy pumps floated detached far below the hem instead of worn. a2 added skirt-ratio + worn-shoes sentences, a3 added frame-percentage composition (belt ~35%, hem ~68%, shoes 78-88%); ski",
+  "C305_side": "front failed - not attempted"
+ }
+}

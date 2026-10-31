@@ -1,0 +1,91 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C375",
+  "C376",
+  "C377",
+  "C378",
+  "C379",
+  "C380",
+  "C381",
+  "C382",
+  "C383",
+  "C384",
+  "C385",
+  "C386",
+  "C387",
+  "C388",
+  "C389",
+  "C390",
+  "C391",
+  "C392",
+  "C393",
+  "C394",
+  "C395",
+  "C396",
+  "C397",
+  "C398",
+  "C399",
+  "C400",
+  "C401",
+  "C402",
+  "C403",
+  "C404"
+ ],
+ "fails": [
+  {
+   "id": "C384",
+   "view": "front",
+   "status": "content",
+   "reason": "dark rounded neck/stand shape visible above the collar behind the cardigan"
+  },
+  {
+   "id": "C389",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey translucent block left in the armhole (background not removed)"
+  },
+  {
+   "id": "C391",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey blocks left in the armhole and leg opening; white trim looks greyish"
+  },
+  {
+   "id": "C392",
+   "view": "front",
+   "status": "form",
+   "reason": "point 1 says knee-length long-sleeve suit but legs end mid-thigh (all views)"
+  },
+  {
+   "id": "C393",
+   "view": "front",
+   "status": "form",
+   "reason": "point 1 says knee-length long-sleeve suit but legs end mid-thigh (all views)"
+  },
+  {
+   "id": "C397",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey smoky haze left beside the torso/sleeve edge"
+  },
+  {
+   "id": "C397",
+   "view": "back",
+   "status": "matte",
+   "reason": "grey cloud/patch across the white back panel, background not cleanly removed"
+  },
+  {
+   "id": "C403",
+   "view": "front",
+   "status": "content",
+   "reason": "small nipple-like bumps visible under the satin bodice"
+  },
+  {
+   "id": "C403",
+   "view": "diag",
+   "status": "content",
+   "reason": "small nipple-like bump visible under the satin bodice"
+  }
+ ]
+}

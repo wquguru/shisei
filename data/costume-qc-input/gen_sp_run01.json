@@ -1,0 +1,13 @@
+{
+ "run": "sp_run01",
+ "missing": {
+  "C231_diag": "QC redo attempt 2 FAILED logo check: zoom of bottom third shows clear Nike-style swoosh on BOTH shoes plus wing emblem on left shoe ankle; jersey/shorts/socks correct; note diag used front + newly generated side as image 2 (that side itself failed shoe QC so no accepted new side existed); new image ",
+  "C231_side": "QC redo attempt 2 FAILED logo check: zoom of bottom third shows clear Nike-style swoosh on shoe side panel plus wing emblem on ankle collar and AIR text on sole despite verbatim unbranded-shoe sentence; jersey/shorts/socks correct; new image NOT installed - old file left in place; redo kept at work/",
+  "C235_diag": "a1 correct 45deg left turn but swoosh outline on both shoes; a2 rewrite 'smooth blank side panel no tick-shaped mark' still swoosh and view flipped to right side - not filed to img",
+  "C235_side": "true left side front to image-left and points 1-3 ok, but both attempts drew a Nike-style swoosh and AIR lettering on the shoe side despite rewrite 'completely plain unbranded, no swoosh no text on upper or sole' - logo persists, not filed to img",
+  "C251_back": "skipped - front failed all 3 attempts",
+  "C251_diag": "skipped - front failed all 3 attempts",
+  "C251_front": "frog count wrong all 3 tries: a1 9 pairs + sash knot hidden under hem on image-left (wrong side) + jacket to mid-thigh; a2 rewrite (per-pair positions collar-to-hem + sash band over jacket knot image-right) gave 8 pairs; a3 rewrite (exactly seven widely spaced + plain below 7th) gave 8 pairs visible",
+  "C251_side": "skipped - front failed all 3 attempts"
+ }
+}

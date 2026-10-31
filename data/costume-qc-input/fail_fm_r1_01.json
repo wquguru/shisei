@@ -1,0 +1,96 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C195",
+  "C196",
+  "C197",
+  "C198",
+  "C199",
+  "C200",
+  "C201",
+  "C202",
+  "C203",
+  "C204",
+  "C205",
+  "C206",
+  "C207",
+  "C208",
+  "C209",
+  "C210",
+  "C211",
+  "C213",
+  "C214",
+  "C215",
+  "C216",
+  "C217",
+  "C218",
+  "C219",
+  "C220",
+  "C221",
+  "C222",
+  "C223",
+  "C224"
+ ],
+ "fails": [
+  {
+   "id": "C213",
+   "view": "front",
+   "status": "matte",
+   "reason": "Shoes render as faint translucent grey outlines, cut-out of the shoes is broken"
+  },
+  {
+   "id": "C213",
+   "view": "back",
+   "status": "matte",
+   "reason": "Shoes almost invisible against the dark background, matte lost the shoes"
+  },
+  {
+   "id": "C213",
+   "view": "side",
+   "status": "consistency",
+   "reason": "Shoes are silver here but black patent in the diag panel and not matching the other panels"
+  },
+  {
+   "id": "C215",
+   "view": "side",
+   "status": "matte",
+   "reason": "Dark grey block/hole at the shoulder fold where the off-shoulder band meets the sleeve area; looks like a bad cut-out (please check)"
+  },
+  {
+   "id": "C215",
+   "view": "diag",
+   "status": "matte",
+   "reason": "Dark grey block/hole at the shoulder fold; looks like a bad cut-out (please check)"
+  },
+  {
+   "id": "C217",
+   "view": "front",
+   "status": "matte",
+   "reason": "Grey smudge/halo at bottom-left of the skirt hem and skirt runs to the panel edges (hem likely chopped)"
+  },
+  {
+   "id": "C217",
+   "view": "diag",
+   "status": "matte",
+   "reason": "Tulle skirt and train run off the right panel edge, hem/train chopped"
+  },
+  {
+   "id": "C220",
+   "view": "front",
+   "status": "form",
+   "reason": "要点2: buttons look like plain round buttons, not 一字盘扣 frog knots"
+  },
+  {
+   "id": "C220",
+   "view": "side",
+   "status": "form",
+   "reason": "要点2: placket buttons are plain round buttons, not 一字盘扣 frog knots"
+  },
+  {
+   "id": "C220",
+   "view": "diag",
+   "status": "form",
+   "reason": "要点2: placket buttons are plain round buttons, not 一字盘扣 frog knots"
+  }
+ ]
+}

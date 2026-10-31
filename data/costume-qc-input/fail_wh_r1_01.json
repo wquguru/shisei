@@ -1,0 +1,107 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C285",
+  "C286",
+  "C287",
+  "C288",
+  "C289",
+  "C291",
+  "C292",
+  "C293",
+  "C294",
+  "C295",
+  "C296",
+  "C297",
+  "C298",
+  "C299",
+  "C300",
+  "C301",
+  "C302",
+  "C303",
+  "C304",
+  "C306",
+  "C307",
+  "C308",
+  "C309",
+  "C310",
+  "C311",
+  "C312",
+  "C313",
+  "C314"
+ ],
+ "fails": [
+  {
+   "id": "C291",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey smoky halo/wisp trailing off the right side of the lace collar"
+  },
+  {
+   "id": "C299",
+   "view": "front",
+   "status": "content",
+   "reason": "white/grey mannequin neck stand visible above the high collar"
+  },
+  {
+   "id": "C299",
+   "view": "back",
+   "status": "content",
+   "reason": "white/grey mannequin neck stand visible above the high collar"
+  },
+  {
+   "id": "C299",
+   "view": "side",
+   "status": "content",
+   "reason": "white/grey mannequin neck stand visible above the high collar"
+  },
+  {
+   "id": "C299",
+   "view": "diag",
+   "status": "content",
+   "reason": "white/grey mannequin neck stand visible above the high collar"
+  },
+  {
+   "id": "C304",
+   "view": "back",
+   "status": "content",
+   "reason": "grey mannequin neck stand visible above the collar"
+  },
+  {
+   "id": "C304",
+   "view": "diag",
+   "status": "content",
+   "reason": "grey stub above the collar looks like a mannequin neck (unsure)"
+  },
+  {
+   "id": "C304",
+   "view": "side",
+   "status": "consistency",
+   "reason": "shirt sleeve is black with grey cuff, white shirt in other panels"
+  },
+  {
+   "id": "C307",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey ghost smear/legs left under the petticoat hem"
+  },
+  {
+   "id": "C307",
+   "view": "back",
+   "status": "matte",
+   "reason": "grey ghost smear/legs left under the petticoat hem"
+  },
+  {
+   "id": "C307",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey smear below hem on the left, leftover background"
+  },
+  {
+   "id": "C308",
+   "view": "front",
+   "status": "content",
+   "reason": "dark mannequin neck visible inside the open collar"
+  }
+ ]
+}

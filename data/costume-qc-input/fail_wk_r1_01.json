@@ -1,0 +1,109 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C255",
+  "C256",
+  "C257",
+  "C258",
+  "C259",
+  "C260",
+  "C261",
+  "C262",
+  "C263",
+  "C264",
+  "C265",
+  "C266",
+  "C267",
+  "C268",
+  "C269",
+  "C270",
+  "C271",
+  "C272",
+  "C273",
+  "C274",
+  "C275",
+  "C276",
+  "C277",
+  "C278",
+  "C279",
+  "C280",
+  "C281",
+  "C282",
+  "C283",
+  "C284"
+ ],
+ "fails": [
+  {
+   "id": "C266",
+   "view": "front",
+   "status": "content",
+   "reason": "dark mannequin neck stub visible above the shirt collar"
+  },
+  {
+   "id": "C266",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey smear/halo along the right edge of the vest and sleeve"
+  },
+  {
+   "id": "C266",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey smear behind the apron hem"
+  },
+  {
+   "id": "C277",
+   "view": "side",
+   "status": "content",
+   "reason": "black mannequin torso visible through the armhole"
+  },
+  {
+   "id": "C278",
+   "view": "front",
+   "status": "content",
+   "reason": "dark mannequin neck/head stub above the t-shirt neckline"
+  },
+  {
+   "id": "C278",
+   "view": "side",
+   "status": "content",
+   "reason": "grey/dark mannequin neck stub above the collar"
+  },
+  {
+   "id": "C278",
+   "view": "diag",
+   "status": "content",
+   "reason": "grey mannequin neck and shoulder visible at the neckline"
+  },
+  {
+   "id": "C281",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey smear halo at the collar and left apron strap; collar reads dark instead of white (要点 2) - check"
+  },
+  {
+   "id": "C281",
+   "view": "back",
+   "status": "matte",
+   "reason": "grey smear along the left apron strap and shoulder"
+  },
+  {
+   "id": "C281",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey smudge at the neck top; white collar not visible"
+  },
+  {
+   "id": "C284",
+   "view": "front",
+   "status": "content",
+   "reason": "black band/blob at the collar looks like a mannequin neck stub - check"
+  },
+  {
+   "id": "C284",
+   "view": "side",
+   "status": "content",
+   "reason": "dark blob above the collar looks like a mannequin neck stub - check"
+  }
+ ]
+}

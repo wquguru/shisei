@@ -1,0 +1,18 @@
+{
+ "run": "fm_run01",
+ "missing": {
+  "C196_back": "a1 failed: pale-blue mannequin neck stub above collar and trouser turn-ups added (front has plain hems); a2 rewrite: 'Nothing rises above the jacket collar at the top: the jacket collar is the highest point of the garment, with no shirt collar, no neck and no mannequin form visible above or behind i",
+  "C196_diag": "generated from front reference only because side view failed; a1 correct three-quarter angle but both trouser legs had turn-up cuffs contradicting point 4; a2 rewrite: 'Both trouser legs end in plain straight hems resting on the shoes, with no folded turn-up band and no cuff at either ankle, exactly",
+  "C196_side": "generated from front reference only because back view failed; a1 true 90-degree profile pointing image-left but trouser hem had a turn-up band contradicting point 4; a2 rewrite: 'The trouser leg ends in a plain straight hem resting on the shoe, with no folded turn-up band and no cuff at the ankle, e",
+  "C197_back": "a1 failed ghost spec: white mannequin neck stub visible above the jacket collar (garment itself correct: true back, chalk stripe continuous, turn-ups, brown oxfords). Rewrite sentence added for a2: 'The jacket collar ends at the top of the image with nothing above it: no neck, no neck stub, no manne",
+  "C197_side": "Generated with front reference only (back view failed, no accepted back to reference). a1: correct true 90-degree left profile pointing image-left, stripe/turn-ups/oxfords correct, but a white neck stub rose above the collar. Rewrite sentence added for a2: 'The shirt collar and jacket collar are the",
+  "C198_back": "a1: true back with continuous pale chalk stripe, turn-ups and brown oxfords, collar clean, but trousers ended above the shoes leaving a gap with white sock flashes. Rewrite sentence added for a2: 'The trousers are full length: each turn-up hem rests directly on top of its shoe with no gap in between",
+  "C198_diag": "Generated with front reference only (side view failed, no accepted side to reference). a1: correct three-quarter direction and all details, but white socks were clearly visible in the gap between the turn-up hems and the shoes. Rewrite sentence added for a2: 'The trousers are full length: each turn-",
+  "C198_side": "Generated with front reference only (back view failed, no accepted back to reference). a1: correct true 90-degree left profile pointing image-left, stripe/turn-ups/oxfords and full trouser length all correct, but a pale neck form rose above the collar. Rewrite sentence added for a2: 'The shirt colla",
+  "C206_back": "a1 failed ghost spec: a white rounded neck stub rose above the coat collar (tails to the back of the knee and striped trousers were correct). Rewrite sentence for a2: 'The black coat collar is the very top edge of the garment and above it there is only the plain light grey background: the neck openi",
+  "C212_back": "skipped: no accepted front (front failed 3 attempts, skirt stayed mid-calf)",
+  "C212_diag": "skipped: no accepted front (front failed 3 attempts, skirt stayed mid-calf)",
+  "C212_front": "a1 FAIL 3/4: bateau neck sleeveless, narrow self-fabric band at natural waist and black pointed pumps all correct, but the full flared skirt was too long - hem at low calf near the ankle, not just below the knee. a2 rewrite sentence appended: \"The skirt hem ends just below the knee, at a point about",
+  "C212_side": "skipped: no accepted front (front failed 3 attempts, skirt stayed mid-calf)"
+ }
+}
