@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write the paste-ready Muse brief for the scene, prop, light or animal library (docs/<lib>/PLAN.md).
+"""Write the paste-ready Muse brief for the scene, prop, furniture, light or animal library (docs/<lib>/PLAN.md).
 
 The counterpart of costume_brief.py. Either one category, or --probe: the first variant of every form marked
 `probe`, across all categories, to test each category before the full run (the costume-probe01 step).
@@ -118,31 +118,43 @@ def furniture_parts(cats: dict, cat_list: list) -> list:
 
 
 def light_parts(cats: dict, cat_list: list) -> list:
-    return [
+    subj_zh = {"figure": "全身人台（浅灰无脸人台 + 25 cm 灰球）", "bust": "石膏胸像（无眼无嘴的头肩石膏像 + 15 cm 灰球）"}
+    by_subj = {}
+    for c in cat_list:
+        by_subj.setdefault(cats[c].get("subject", "figure"), []).append(c)
+    L = [
         "## 规则",
         "1. 一次一张图。每个光线预设的顺序固定：正面（文生图）→ 斜侧（参考正面）→ 侧面（参考正面）。",
         "2. 正面最多 3 次，斜侧、侧面各最多 2 次。每张按该预设的“要点”逐条自查；正面不过，后面两张不做。",
-        "3. 主体永远不变：同一个浅灰无脸人台、同一个站姿、旁边同一个灰球。唯一的变量是光。人台有脸、有头发、"
-        "穿了衣服、换了姿势都重画。",
-        "4. 光的方向按正面机位的画面左右写；转视角时灯不动、只有相机绕人台转，所以亮面和影子在画面里的位置会跟着变，"
+        "3. 主体在同一大类里永远不变，唯一的变量是光。每个预设标了用哪种主体："
+        + "；".join(f"{subj_zh[k]} 用于 {'、'.join(v)}" for k, v in by_subj.items()) + "。"
+        "人台有脸、有头发、穿衣服、换姿势，胸像长出眼睛、眉毛、嘴唇、头发或像某个真人，都重画。",
+        "4. 光的方向按正面机位的画面左右写；转视角时灯不动、只有相机绕主体转，所以亮面和影子在画面里的位置会跟着变，"
         "这是对的，不要把光“摆回”原来的画面方向。",
-        "5. 自查重点看灰球：高光在哪、明暗交界线是硬是软、投影朝哪，这三项和描述对上才算过。",
+        "5. 自查重点看灰球：高光在哪、明暗交界线是硬是软、投影朝哪，这三项和描述对上才算过；胸像还要看鼻影的形状和方向、"
+        "暗侧脸颊有没有亮区。",
         "6. 第 1 次没画对，把漏掉的那条要点改写成更具体的句子再试，改写过的提示词记进 attempts.csv。",
-        "",
-        "## 正面模板（{setting} {desc} 换成该预设的字段，{rules} {negatives} 换成所属大类的两行）",
-        "```",
-        K.LIGHT_FRONT.replace("{subject}", K.LIGHT_SUBJECT).replace("{view}", K.LIGHT_VIEW_TEXT["front"]),
-        "```",
-        "大类规则：",
-        cat_rules(cats, cat_list),
-        "",
-        "## 斜侧 / 侧面模板（参考正面；{keep} 用该预设的“保持不变”）",
-        "```",
-        K.LIGHT_TURN,
-        "```",
-        f"- 斜侧的 {{view}}：{K.LIGHT_VIEW_TEXT['diag']}",
-        f"- 侧面的 {{view}}：{K.LIGHT_VIEW_TEXT['side']}",
     ]
+    for subj, cs in by_subj.items():
+        S = K.LIGHT_SUBJECTS[subj]
+        L += [
+            "",
+            f"## 主体：{subj_zh[subj]}（{'、'.join(cs)}）",
+            "### 正面模板（{setting} {desc} 换成该预设的字段，{rules} {negatives} 换成所属大类的两行）",
+            "```",
+            K.light_front(subj),
+            "```",
+            "大类规则：",
+            cat_rules(cats, cs),
+            "",
+            "### 斜侧 / 侧面模板（参考正面；{keep} 用该预设的“保持不变”）",
+            "```",
+            K.light_turn(subj),
+            "```",
+            f"- 斜侧的 {{view}}：{S['views']['diag']}",
+            f"- 侧面的 {{view}}：{S['views']['side']}",
+        ]
+    return L
 
 
 def animal_parts(cats: dict, cat_list: list) -> list:
@@ -186,7 +198,7 @@ def item_lines(lib: str, i: dict) -> list:
         meta = [f"尺寸：w = {dm['w']}，d = {dm['d']}，h = {dm['h']}" + (f"（座高 {dm['seat']}）" if dm.get("seat") else "")
                 + f"；bg = {'中灰' if i.get('bg') == 'dark' else '浅灰'}"]
     elif lib == "light":
-        meta = [f"setting：{i['setting']}"]
+        meta = [f"主体：{'石膏胸像' if i.get('subject') == 'bust' else '全身人台'}", f"setting：{i['setting']}"]
     elif lib == "animal":
         meta = [f"species：{i['species']}", f"tail：{i['tail']}", f"coat（仅 B）：{i['coat']}"]
     else:

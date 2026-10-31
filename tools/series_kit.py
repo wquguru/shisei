@@ -1,4 +1,4 @@
-"""Shared definitions for the planned scene, prop and animal libraries (docs/scene, docs/prop, docs/animal).
+"""Shared definitions for the planned scene, prop, furniture, light and animal libraries (docs/<lib>/PLAN.md).
 
 Each library follows the costume method (docs/costume/PLAN.md): category rules in data/<lib>-src/_categories.json,
 one <CAT>.json of forms × variants, expanded by series_cards.py into data/<lib>s.json and turned into paste-ready
@@ -142,34 +142,82 @@ ANIMAL_TURN = (
     "only the camera moves; do not mirror image 1. No people, no text.")
 
 # ---- light presets (L###): one light setup on a fixed neutral subject, three eye-level camera positions ---------
-# Light is an attribute, not an object: the subject never changes (the pose library's faceless mannequin and a grey
-# sphere), so the only variable is the light. The light stays fixed in the world while the camera moves, which
-# shows how it wraps the figure; each preset's `desc` is also the sentence scenes and the combinator reuse.
+# Light is an attribute, not an object: the subject never changes within a category, so the only variable is the
+# light. The light stays fixed in the world while the camera moves, which shows how it wraps the subject; each
+# preset's `desc` is also the sentence scenes and the combinator reuse.
+# Two subjects. `figure` (the pose library's faceless mannequin, full length) reads light on a body in a space. It
+# cannot read portrait patterns: at full length the head is tiny and an egg-shaped head has no nose to cast the
+# loop or Rembrandt shadow, so the studio positions (PO) use `bust`, a plaster cast with facial planes but no eyes,
+# mouth or hair, framed head and shoulders. Both carry a grey sphere, the photographer's standard light reader.
 LIGHT_VIEWS = ("front", "diag", "side")
-LIGHT_SUBJECT = ("a life-size matte light-grey faceless artist's mannequin with a smooth egg-shaped head, ball "
-                 "joints and neutral adult proportions, standing upright facing the camera with arms relaxed at its "
-                 "sides, and a matte mid-grey sphere 25 cm across on a slim grey pedestal at hip height, placed one "
-                 "metre in front of it and one metre to its right (image-left), so the sphere stays visible from the "
-                 "front, three-quarter and side views")
-LIGHT_VIEW_TEXT = {
-    "front": "straight front view, camera at chest height 4 metres away, 50 mm lens",
-    "diag": "the camera moved 45 degrees around toward the mannequin's left side (it now stands three-quarter to "
-            "the camera), same height and distance",
-    "side": "the camera moved 90 degrees around to the mannequin's left side, showing it in profile facing "
-            "image-left, same height and distance",
+LIGHT_SUBJECTS = {
+    "figure": {
+        "long": "a life-size matte light-grey faceless artist's mannequin with a smooth egg-shaped head, ball joints "
+                "and neutral adult proportions, standing upright facing the camera with arms relaxed at its sides, "
+                "and a matte mid-grey sphere 25 cm across on a slim grey pedestal at hip height, placed one metre in "
+                "front of it and one metre to its right (image-left), so the sphere stays visible from the front, "
+                "three-quarter and side views",
+        "short": "a grey mannequin and a grey sphere",
+        "frame": "Whole figure and sphere in frame",
+        "read": "on the mannequin and the sphere: which side is lit, where the highlight sits on the sphere, how "
+                "soft the shadow edge is and which way the cast shadow falls",
+        "views": {
+            "front": "straight front view, camera at chest height 4 metres away, 50 mm lens",
+            "diag": "the camera moved 45 degrees around toward the mannequin's left side (it now stands "
+                    "three-quarter to the camera), same height and distance",
+            "side": "the camera moved 90 degrees around to the mannequin's left side, showing it in profile facing "
+                    "image-left, same height and distance",
+        },
+        "negatives": "No people, no real face, no hair, no clothing, no text, no logo, no watermark.",
+    },
+    "bust": {
+        "long": "a life-size matte light-grey plaster head-and-shoulders drawing cast of a generic adult on a grey "
+                "plinth, facing the camera, with simplified sculpted planes only: forehead, brow ridge, smooth "
+                "shallow eye sockets, a straight nose bridge and tip, cheekbone planes, a smooth closed area where "
+                "the mouth would be, jaw, chin, neck and shoulders, a smooth bald skull, uniform matte plaster, and "
+                "a matte mid-grey sphere 15 cm across on a slim grey stand at shoulder height, 40 cm in front of "
+                "the cast and 40 cm to its right (image-left), so the sphere stays visible from the front, "
+                "three-quarter and side views",
+        "short": "a grey plaster head-and-shoulders cast and a grey sphere",
+        "frame": "Head, shoulders and the sphere in frame, the head filling the upper half",
+        "read": "on the face planes and the sphere: which side of the face is lit, the shape and direction of the "
+                "nose shadow, any lit patch on the shadow-side cheek, how soft the shadow edge is and where the "
+                "highlight sits on the sphere",
+        "views": {
+            "front": "straight front view, camera at the height of the cast's eye sockets 1.8 metres away, 85 mm "
+                     "lens",
+            "diag": "the camera moved 45 degrees around toward the cast's left side (it now faces three-quarter "
+                    "to the camera), same height and distance",
+            "side": "the camera moved 90 degrees around to the cast's left side, showing the head in profile "
+                    "facing image-left, same height and distance",
+        },
+        "negatives": "No people, no real or recognisable face, no eyes, no eyebrows, no lips or mouth opening, no "
+                     "hair, no skin texture or make-up, no expression, no clothing, no text, no logo, no "
+                     "watermark.",
+    },
 }
 LIGHT_FRONT = (
-    "Lighting reference photograph: {subject}, {setting}. Lighting: {desc}. {view}. Whole figure and sphere in "
-    "frame, deep focus, true-to-life exposure with no added grading, 3:4 vertical. The light must read clearly on "
-    "the mannequin and the sphere: which side is lit, where the highlight sits on the sphere, how soft the shadow "
-    "edge is and which way the cast shadow falls.\n{rules}\n"
-    "No people, no real face, no hair, no clothing, no text, no logo, no watermark. {negatives}")
+    "Lighting reference photograph: {subject}, {setting}. Lighting: {desc}. {view}. {frame}, deep focus, "
+    "true-to-life exposure with no added grading, 3:4 vertical. The light must read clearly {read}.\n{rules}\n"
+    "{subject_negatives} {negatives}")
 LIGHT_TURN = (
-    "Image 1 is a lighting reference photograph of a grey mannequin and a grey sphere. Show exactly the same moment "
-    "from a new camera position: {view}. The lights, the mannequin, the sphere and the surroundings do not move; "
-    "only the camera moves, so the lit side, highlight and cast shadow now appear where that light would fall from "
-    "the new angle. Keep these identical: {keep}. Same exposure and colour, 3:4 vertical. No people, no text. "
-    "Do not mirror image 1.")
+    "Image 1 is a lighting reference photograph of {short}. Show exactly the same moment from a new camera "
+    "position: {view}. The lights, the subject, the sphere and the surroundings do not move; only the camera moves, "
+    "so the lit side, highlight and cast shadow now appear where that light would fall from the new angle. Keep "
+    "these identical: {keep}. Same exposure and colour, 3:4 vertical. No people, no text. Do not mirror image 1.")
+
+
+def light_front(subject: str) -> str:
+    """The front template with one subject filled in; {setting} {desc} {rules} {negatives} stay per item."""
+    s = LIGHT_SUBJECTS[subject]
+    return (LIGHT_FRONT.replace("{subject}", s["long"]).replace("{view}", s["views"]["front"])
+            .replace("{frame}", s["frame"]).replace("{read}", s["read"])
+            .replace("{subject_negatives}", s["negatives"]))
+
+
+def light_turn(subject: str) -> str:
+    return LIGHT_TURN.replace("{short}", LIGHT_SUBJECTS[subject]["short"])
+
 
 LIBS = {
     "scene": {"letter": "E", "src": "data/scene-src", "out": "data/scenes.json", "views": SCENE_VIEWS,

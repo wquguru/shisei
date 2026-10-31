@@ -37,15 +37,16 @@
  },
  "PO": {
   "order": 4,
-  "target": 12,
+  "target": 13,
   "name": {
    "zh": "光位（影棚）",
    "ja": "ライティング位置（スタジオ）",
    "en": "Studio Light Positions",
    "ko": "조명 위치(스튜디오)"
   },
-  "rules": "A studio with a seamless mid-grey backdrop and floor; the only light is the stated rig, all lights, stands and modifiers out of frame; the position is stated relative to the front camera and must read on the mannequin's head, torso and the sphere.",
-  "negatives": "No visible lights, stands, cables or modifiers, no coloured light unless stated, no props."
+  "rules": "A studio portrait lighting position on a plaster head-and-shoulders cast on a plinth, in front of the stated seamless backdrop; the only light is the stated rig, all lights, stands and modifiers out of frame; the position is stated relative to the front camera and must read on the face planes and the sphere.",
+  "negatives": "No visible lights, stands, cables or modifiers, no coloured light unless stated, no props.",
+  "subject": "bust"
  },
  "FX": {
   "order": 5,
