@@ -210,24 +210,20 @@
   },
   "C012": {
    "front": {
-    "status": "missing",
-    "reason": "a1 2/4: skirt band at underbust not high on chest below collarbones (point1 miss) and large ivory jacket chest panel visible above skirt (point2 miss); points3-4 ok (no waist sash, celadon pibo over b",
-    "by": "gen_hc_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "skipped: no accepted front",
-    "by": "gen_hc_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "skipped: no accepted front",
-    "by": "gen_hc_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "skipped: no accepted front",
-    "by": "gen_hc_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C013": {
@@ -331,20 +327,19 @@
   "C018": {
    "front": {
     "status": "pass",
-    "by": "fail_hc_r1_aa.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "sheer right sleeve cut away to background",
-    "by": "manual_hc_r1.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_hc_r1_aa.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_hc_r1_aa.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C019": {
@@ -421,24 +416,20 @@
   },
   "C023": {
    "front": {
-    "status": "matte",
-    "reason": "pleated skirt is smeared with grey/dark blurry patches, background left in the cut-out",
-    "by": "fail_hc_r1_aa.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "pleated skirt is smeared with grey/dark blurry patches, background left in the cut-out",
-    "by": "fail_hc_r1_aa.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "pleated skirt is smeared with grey/dark blurry patches, background left in the cut-out",
-    "by": "fail_hc_r1_aa.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "pleated skirt is smeared with grey/dark blurry patches, background left in the cut-out",
-    "by": "fail_hc_r1_aa.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C024": {
@@ -625,20 +616,20 @@
   "C034": {
    "front": {
     "status": "pass",
-    "by": "fail_hc_r1_ab.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_hc_r1_ab.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "consistency",
-    "reason": "inner garment and skirt read dark/black with a dark rounded blob at the collar (looks like a mannequin neck), while front/back/diag show a white inner jacket and grey skirt",
-    "by": "fail_hc_r1_ab.json"
+    "reason": "inner sleeve and skirt read black/dark grey, but they are white/moon-white in front, back and diag",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_hc_r1_ab.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C035": {
@@ -788,20 +779,19 @@
   "C043": {
    "front": {
     "status": "pass",
-    "by": "fail_hc_r1_ab.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_hc_r1_ab.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "skirt hem fades out into a blurry, feathered edge instead of a clean cut-out",
-    "by": "fail_hc_r1_ab.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_hc_r1_ab.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C044": {
@@ -1077,20 +1067,19 @@
   "C059": {
    "front": {
     "status": "pass",
-    "by": "fail_hc_r1_ab.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
-    "status": "consistency",
-    "reason": "jacket shows a stand collar with a centre row of frog buttons, unlike the cross collar on the front panel; sheer sleeve streamers also look different. Unsure, please check",
-    "by": "fail_hc_r1_ab.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_hc_r1_ab.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_hc_r1_ab.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C060": {
@@ -1167,22 +1156,20 @@
   },
   "C064": {
    "front": {
-    "status": "content",
-    "reason": "Grey mannequin neck/shoulder form visible inside the collar opening",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "content",
-    "reason": "Grey mannequin neck/shoulder form visible inside the collar opening",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C065": {
@@ -1224,20 +1211,20 @@
   "C067": {
    "front": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "matte",
-    "reason": "Dark smeared streak on the hakama side, looks like leftover background or matte artefact",
-    "by": "fail_we_r1_01.json"
+    "reason": "Dark smeared halo at chest cord and black smudge streaks over the hakama",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C068": {
@@ -1296,22 +1283,20 @@
   },
   "C071": {
    "front": {
-    "status": "content",
-    "reason": "Grey mannequin neck/head form visible at the collar",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "content",
-    "reason": "Grey mannequin neck form visible at the collar",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C072": {
@@ -1352,22 +1337,20 @@
   },
   "C074": {
    "front": {
-    "status": "matte",
-    "reason": "Soft grey haze/ghosting around the trouser hems",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "Trouser legs look ghosted with soft grey edges",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C075": {
@@ -1390,22 +1373,20 @@
   },
   "C076": {
    "front": {
-    "status": "form",
-    "reason": "Front fastened with gold buttons, no brooch pins (要点 2 kerongsang); unsure",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "form",
-    "reason": "Front fastened with gold buttons, no brooch pins (要点 2 kerongsang); unsure",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C077": {
@@ -1483,39 +1464,39 @@
   "C081": {
    "front": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "consistency",
-    "reason": "Trousers are dark/black on the back, white on the other three panels",
-    "by": "fail_we_r1_01.json"
+    "reason": "Trousers are grey and blurry here but white in the other panels",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C082": {
    "front": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "content",
-    "reason": "White rounded form above the collar looks like a mannequin neck/stand, not part of the garment",
-    "by": "fail_we_r1_01.json"
+    "status": "consistency",
+    "reason": "dupatta shawl not visible across the back shoulders, only dark tips at hem; front and side show it",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C083": {
@@ -1592,42 +1573,40 @@
   },
   "C087": {
    "front": {
-    "status": "form",
-    "reason": "Dropped sleeve (要点 2) appears on the wearer's left (image-right), 要点 says right sleeve; check",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "Flat solid black block inside the draped sleeve, looks like a cut-out hole",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "status": "form",
+    "reason": "long right sleeve hanging behind the body (point 2) not visible in back view; low confidence",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C088": {
    "front": {
-    "status": "form",
-    "reason": "Dropped/bundled sleeve appears on the wearer's left (image-right), 要点 says right sleeve; check",
-    "by": "fail_we_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "Grey ghost smudge left around the upper-left shoulder/neck",
-    "by": "fail_we_r1_01.json"
+    "status": "content",
+    "reason": "dark mannequin neck/stand visible above the collar",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C089": {
@@ -1722,21 +1701,20 @@
   },
   "C094": {
    "front": {
-    "status": "content",
-    "reason": "dark mannequin neck/stand visible above the shirt collar",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C095": {
@@ -1759,79 +1737,75 @@
   },
   "C096": {
    "front": {
-    "status": "content",
-    "reason": "grey mannequin neck/bust visible inside the square neckline",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C097": {
    "front": {
-    "status": "content",
-    "reason": "grey mannequin neck stub visible above the collar",
-    "by": "fail_we_r1_02.json"
+    "status": "consistency",
+    "reason": "no tights/white socks between skirt and shoes, back/side/diag show dark legwear and white socks",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
-    "status": "content",
-    "reason": "dark mannequin neck/stand visible inside the neckline",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C098": {
    "front": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "form",
-    "reason": "point 2 H-shaped back strap: back shows straps crossing in an X",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C099": {
    "front": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "form",
-    "reason": "point 2 H-shaped back strap: back shows straps crossing in an X",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C100": {
@@ -1926,22 +1900,20 @@
   },
   "C105": {
    "front": {
-    "status": "matte",
-    "reason": "grey semi-transparent block left between shirt hem and trousers under the sash",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "grey semi-transparent block left between shirt hem and trousers under the sash",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C106": {
@@ -2000,59 +1972,56 @@
   },
   "C109": {
    "front": {
-    "status": "matte",
-    "reason": "light grey halo/outline along the edges of the robe and cape sleeves",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C110": {
    "front": {
-    "status": "matte",
-    "reason": "dark smudge/leftover at the neck top (possible hair or head remnant); also no white inner shirt visible unlike side/diag",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C111": {
    "front": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "panel is zoomed and chopped off at the top: collar, head end and hem missing; scale differs from other panels",
-    "by": "fail_we_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_we_r1_02.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C112": {
@@ -2112,20 +2081,20 @@
   "C115": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "consistency",
-    "reason": "T-shirt under the jacket looks dark grey here, white in front view",
-    "by": "fail_md_r1_01.json"
+    "reason": "T-shirt is dark grey/black, but white in the front panel",
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C116": {
@@ -2166,21 +2135,20 @@
   },
   "C118": {
    "front": {
-    "status": "form",
-    "reason": "only one chest-level patch pocket clearly visible (image-left); second pocket on the other side not seen, 要点 3 wants two",
-    "by": "fail_md_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C119": {
@@ -2276,20 +2244,19 @@
   "C124": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "a1 and a2 both drew TWO parallel cream lines on the visible leg instead of one single piping line; rewrite used: The trousers show exactly ONE single thin cream piping line in total in this side view,",
-    "by": "gen_md_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C125": {
@@ -2313,20 +2280,20 @@
   "C126": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "shoes almost completely lost: only a faint dark smudge below the skirt, other views show beige slingback heels",
-    "by": "fail_md_r1_01.json"
+    "status": "consistency",
+    "reason": "shoes are dark brown suede, but nude/beige in front and diag",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C127": {
@@ -2439,24 +2406,20 @@
   },
   "C133": {
    "front": {
-    "status": "form",
-    "reason": "trousers cropped by the frame bottom, no hem or shoes",
-    "by": "manual_run01_r1.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "form",
-    "reason": "trousers cropped by the frame bottom, no hem or shoes",
-    "by": "manual_run01_r1.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "form",
-    "reason": "trousers cropped by the frame bottom, no hem or shoes",
-    "by": "manual_run01_r1.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "form",
-    "reason": "trousers cropped by the frame bottom, no hem or shoes",
-    "by": "manual_run01_r1.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C134": {
@@ -2570,20 +2533,20 @@
   "C140": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "consistency",
-    "reason": "inner blouse reads dark/black instead of white round-collar shirt, and left part of skirt has a black patch",
-    "by": "fail_md_r1_01.json"
+    "reason": "Diag shows dark/black shirt and black skirt instead of white blouse and navy skirt seen in other panels",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_md_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C141": {
@@ -2732,24 +2695,20 @@
   },
   "C149": {
    "front": {
-    "status": "matte",
-    "reason": "jeans legs run off the bottom of the panel, hems and ankles cut off",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "jeans legs run off the bottom of the panel, hems and ankles cut off",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "jeans legs run off the bottom of the panel, hems and ankles cut off",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "jeans legs run off the bottom of the panel, hems and ankles cut off",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C150": {
@@ -2773,23 +2732,23 @@
   "C151": {
    "front": {
     "status": "matte",
-    "reason": "striped top has grey blurry smears/halo over the stripes, looks like leftover background",
-    "by": "fail_md_r1_02.json"
+    "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "matte",
-    "reason": "striped top has grey blurry smears/halo over the stripes, looks like leftover background",
-    "by": "fail_md_r1_02.json"
+    "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "matte",
-    "reason": "striped top has grey blurry smears/halo over the stripes, looks like leftover background",
-    "by": "fail_md_r1_02.json"
+    "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "matte",
-    "reason": "striped top has grey blurry smears/halo over the stripes, looks like leftover background",
-    "by": "fail_md_r1_02.json"
+    "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C152": {
@@ -2813,20 +2772,19 @@
   "C153": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_02.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_md_r1_02.json"
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "consistency",
-    "reason": "trousers are black here but mid-grey in the other three panels",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_md_r1_02.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C154": {
@@ -2903,24 +2861,20 @@
   },
   "C158": {
    "front": {
-    "status": "matte",
-    "reason": "jeans legs run off the bottom of the panel, hems cut off",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "jeans legs run off the bottom of the panel, hems cut off",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "jeans legs run off the bottom of the panel, hems cut off; in this view the jeans fade into a dark block",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "jeans legs run off the bottom of the panel, hems cut off",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C159": {
@@ -2943,21 +2897,20 @@
   },
   "C160": {
    "front": {
-    "status": "matte",
-    "reason": "white/grey block left in the gap between jacket hem and skirt waist",
-    "by": "fail_md_r1_02.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_md_r1_02.json"
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_md_r1_02.json"
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_md_r1_02.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C161": {
@@ -3143,22 +3096,19 @@
   "C171": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "Three-quarter front+left side, all 4 points hit, but ghost fail: a1 (with sentence 'The bottom edge of the skirt hangs down and touches the boot leather directly; there is no skin-coloured band betwee",
-    "by": "gen_md_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "True 90-degree left profile, front pointing image-left, all 4 points hit, but ghost fail: a1 had a skin strip above the boot. Rewrite a2: 'The bottom edge of the skirt hangs down in front of and behin",
-    "by": "gen_md_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "Garment points all hit and back is a true closed back (no buttons/blouse copied), but ghost fail: a1 showed clear skin at both ankles above the boots. Rewrite a2: 'The skirt hem overlaps the top of th",
-    "by": "gen_md_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C172": {
@@ -3254,40 +3204,37 @@
   "C177": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "consistency",
-    "reason": "sleeve pocket sits on the image-left sleeve (wearer's right) while front and side show it on the wearer's left upper arm; please check",
-    "by": "fail_md_r1_03.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C178": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "form",
-    "reason": "要点③ hood rises high around the neck as if worn up instead of lying flat at the back; please check",
-    "by": "fail_md_r1_03.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "form",
-    "reason": "要点③ hood should lie flat behind; here it stands up above the collar with an open face like a worn hood; please check",
-    "by": "fail_md_r1_03.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C179": {
@@ -3328,41 +3275,42 @@
   },
   "C181": {
    "front": {
-    "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "status": "form",
+    "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "status": "form",
+    "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "form",
-    "reason": "要点④ hood looks raised/held open above the collar rather than lying flat at the back; please check",
-    "by": "fail_md_r1_03.json"
+    "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "status": "form",
+    "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C182": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "Ref substitution: side was wrong, so diag was generated from the accepted front + back references (not front + side), noted here. Both attempts structurally correct (three-quarter front + left side, s",
-    "by": "gen_md_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "Both attempts structurally correct (true 90-degree left profile, zip ring visible, stand collar, no hood) but white pseudo-lettering appeared on the side of the hiking shoe heel in both attempts and c",
-    "by": "gen_md_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C183": {
@@ -3422,21 +3370,21 @@
   "C186": {
    "front": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_md_r1_03.json"
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "content",
-    "reason": "grey mannequin neck/head stub visible above the turtleneck",
-    "by": "fail_md_r1_03.json"
+    "status": "consistency",
+    "reason": "caramel corduroy skirt renders near-black with red sheen",
+    "by": "manual_mix_r2.json"
    },
    "back": {
-    "status": "content",
-    "reason": "grey mannequin neck/stub visible above the collar",
-    "by": "fail_md_r1_03.json"
+    "status": "pass",
+    "reason": "turtleneck, not a mannequin neck",
+    "by": "manual_mix_r2.json"
    }
   },
   "C187": {
@@ -3477,24 +3425,20 @@
   },
   "C189": {
    "front": {
-    "status": "matte",
-    "reason": "trousers cut off at the bottom edge of the panel, no hem or shoes visible",
-    "by": "fail_md_r1_03.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "trousers cut off at the bottom edge of the panel, no hem or shoes visible",
-    "by": "fail_md_r1_03.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "trousers cut off at the bottom edge of the panel, no hem or shoes visible",
-    "by": "fail_md_r1_03.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "trousers cut off at the bottom edge of the panel, no hem or shoes visible",
-    "by": "fail_md_r1_03.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C190": {
@@ -3608,63 +3552,55 @@
   "C196": {
    "front": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "generated from front reference only because side view failed; a1 correct three-quarter angle but both trouser legs had turn-up cuffs contradicting point 4; a2 rewrite: 'Both trouser legs end in plain ",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "generated from front reference only because back view failed; a1 true 90-degree profile pointing image-left but trouser hem had a turn-up band contradicting point 4; a2 rewrite: 'The trouser leg ends ",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "a1 failed: pale-blue mannequin neck stub above collar and trouser turn-ups added (front has plain hems); a2 rewrite: 'Nothing rises above the jacket collar at the top: the jacket collar is the highest",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C197": {
    "front": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "Generated with front reference only (back view failed, no accepted back to reference). a1: correct true 90-degree left profile pointing image-left, stripe/turn-ups/oxfords correct, but a white neck st",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "a1 failed ghost spec: white mannequin neck stub visible above the jacket collar (garment itself correct: true back, chalk stripe continuous, turn-ups, brown oxfords). Rewrite sentence added for a2: 'T",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C198": {
    "front": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "Generated with front reference only (side view failed, no accepted side to reference). a1: correct three-quarter direction and all details, but white socks were clearly visible in the gap between the ",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "Generated with front reference only (back view failed, no accepted back to reference). a1: correct true 90-degree left profile pointing image-left, stripe/turn-ups/oxfords and full trouser length all ",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "a1: true back with continuous pale chalk stripe, turn-ups and brown oxfords, collar clean, but trousers ended above the shoes leaving a gap with white sock flashes. Rewrite sentence added for a2: 'The",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C199": {
@@ -3796,20 +3732,19 @@
   "C206": {
    "front": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "a1 failed ghost spec: a white rounded neck stub rose above the coat collar (tails to the back of the knee and striped trousers were correct). Rewrite sentence for a2: 'The black coat collar is the ver",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C207": {
@@ -3904,45 +3839,39 @@
   },
   "C212": {
    "front": {
-    "status": "missing",
-    "reason": "a1 FAIL 3/4: bateau neck sleeveless, narrow self-fabric band at natural waist and black pointed pumps all correct, but the full flared skirt was too long - hem at low calf near the ankle, not just bel",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "skipped: no accepted front (front failed 3 attempts, skirt stayed mid-calf)",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "skipped: no accepted front (front failed 3 attempts, skirt stayed mid-calf)",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "skipped: no accepted front (front failed 3 attempts, skirt stayed mid-calf)",
-    "by": "gen_fm_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C213": {
    "front": {
-    "status": "matte",
-    "reason": "Shoes render as faint translucent grey outlines, cut-out of the shoes is broken",
-    "by": "fail_fm_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "consistency",
-    "reason": "Shoes are silver here but black patent in the diag panel and not matching the other panels",
-    "by": "fail_fm_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "Shoes almost invisible against the dark background, matte lost the shoes",
-    "by": "fail_fm_r1_01.json"
+    "status": "consistency",
+    "reason": "shoes in back panel are black and almost invisible on the dark background; other panels show silver pumps",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C214": {
@@ -3966,21 +3895,19 @@
   "C215": {
    "front": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "Dark grey block/hole at the shoulder fold; looks like a bad cut-out (please check)",
-    "by": "fail_fm_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "Dark grey block/hole at the shoulder fold where the off-shoulder band meets the sleeve area; looks like a bad cut-out (please check)",
-    "by": "fail_fm_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C216": {
@@ -4003,22 +3930,20 @@
   },
   "C217": {
    "front": {
-    "status": "matte",
-    "reason": "Grey smudge/halo at bottom-left of the skirt hem and skirt runs to the panel edges (hem likely chopped)",
-    "by": "fail_fm_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "Tulle skirt and train run off the right panel edge, hem/train chopped",
-    "by": "fail_fm_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C218": {
@@ -4059,23 +3984,20 @@
   },
   "C220": {
    "front": {
-    "status": "form",
-    "reason": "要点2: buttons look like plain round buttons, not 一字盘扣 frog knots",
-    "by": "fail_fm_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "form",
-    "reason": "要点2: placket buttons are plain round buttons, not 一字盘扣 frog knots",
-    "by": "fail_fm_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "form",
-    "reason": "要点2: placket buttons are plain round buttons, not 一字盘扣 frog knots",
-    "by": "fail_fm_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_fm_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C221": {
@@ -4188,22 +4110,20 @@
   },
   "C227": {
    "front": {
-    "status": "matte",
-    "reason": "Shoes and lower legs fade into the dark background; shoes nearly invisible, ghost leg shapes left",
-    "by": "fail_sp_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "Shoes and lower legs fade into the dark background; shoes nearly invisible, ghost leg shapes left",
-    "by": "fail_sp_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C228": {
@@ -4263,22 +4183,19 @@
   "C231": {
    "front": {
     "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "QC redo attempt 2 FAILED logo check: zoom of bottom third shows clear Nike-style swoosh on BOTH shoes plus wing emblem on left shoe ankle; jersey/shorts/socks correct; note diag used front + newly gen",
-    "by": "gen_sp_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "QC redo attempt 2 FAILED logo check: zoom of bottom third shows clear Nike-style swoosh on shoe side panel plus wing emblem on ankle collar and AIR text on sole despite verbatim unbranded-shoe sentenc",
-    "by": "gen_sp_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "Socks look semi-transparent grey with background showing through; high-top shoes dark blob (front socks have grey patches too)",
-    "by": "fail_sp_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C232": {
@@ -4338,41 +4255,39 @@
   "C235": {
    "front": {
     "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "a1 correct 45deg left turn but swoosh outline on both shoes; a2 rewrite 'smooth blank side panel no tick-shaped mark' still swoosh and view flipped to right side - not filed to img",
-    "by": "gen_sp_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "true left side front to image-left and points 1-3 ok, but both attempts drew a Nike-style swoosh and AIR lettering on the shoe side despite rewrite 'completely plain unbranded, no swoosh no text on up",
-    "by": "gen_sp_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C236": {
    "front": {
     "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "matte",
-    "reason": "Shoes and socks are grey/chrome-looking, background left in the cut-out as grey blocks",
-    "by": "fail_sp_r1_01.json"
+    "reason": "Sneaker has grey translucent/glassy block patches left from background",
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
     "status": "matte",
-    "reason": "Shoe and sock are grey/chrome-looking, background left in the cut-out as grey blocks",
-    "by": "fail_sp_r1_01.json"
+    "reason": "Sneaker has grey translucent/glassy block patches left from background",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C237": {
@@ -4630,22 +4545,22 @@
   "C251": {
    "front": {
     "status": "missing",
-    "reason": "frog count wrong all 3 tries: a1 9 pairs + sash knot hidden under hem on image-left (wrong side) + jacket to mid-thigh; a2 rewrite (per-pair positions collar-to-hem + sash band over jacket knot image-",
+    "reason": "parent fix wave: edit-deletion route on the cleaner main-wave a2 candidate (8 frog pairs; main wave used 3 attempts: 8, 8, 9 pairs); edit 1 used the prescribed text (remove the pair at the lower waist",
     "by": "gen_sp_run01.json"
    },
    "diag": {
     "status": "missing",
-    "reason": "skipped - front failed all 3 attempts",
+    "reason": "skipped: no accepted front",
     "by": "gen_sp_run01.json"
    },
    "side": {
     "status": "missing",
-    "reason": "skipped - front failed all 3 attempts",
+    "reason": "skipped: no accepted front",
     "by": "gen_sp_run01.json"
    },
    "back": {
     "status": "missing",
-    "reason": "skipped - front failed all 3 attempts",
+    "reason": "skipped: no accepted front",
     "by": "gen_sp_run01.json"
    }
   },
@@ -4670,20 +4585,20 @@
   "C253": {
    "front": {
     "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "by": "fail_mix_r2_02.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "Grey halo/shading along the back edge of the white breeches thigh",
-    "by": "fail_sp_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
    },
    "back": {
-    "status": "pass",
-    "by": "fail_sp_r1_01.json"
+    "status": "content",
+    "reason": "Grey/silver neck-like cap visible inside the back collar, may be mannequin neck (unsure; please check)",
+    "by": "fail_mix_r2_02.json"
    }
   },
   "C254": {
@@ -4904,23 +4819,20 @@
   },
   "C266": {
    "front": {
-    "status": "content",
-    "reason": "dark mannequin neck stub visible above the shirt collar",
-    "by": "fail_wk_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "grey smear/halo along the right edge of the vest and sleeve",
-    "by": "fail_wk_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "grey smear behind the apron hem",
-    "by": "fail_wk_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_wk_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C267": {
@@ -5106,41 +5018,40 @@
   "C277": {
    "front": {
     "status": "pass",
-    "by": "fail_wk_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_wk_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "content",
-    "reason": "black mannequin torso visible through the armhole",
-    "by": "fail_wk_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_wk_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C278": {
    "front": {
     "status": "content",
-    "reason": "dark mannequin neck/head stub above the t-shirt neckline",
-    "by": "fail_wk_r1_01.json"
+    "reason": "dark mannequin neck stub visible above the T-shirt collar; low confidence",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "content",
-    "reason": "grey mannequin neck and shoulder visible at the neckline",
-    "by": "fail_wk_r1_01.json"
+    "reason": "dark mannequin neck stub visible above the T-shirt collar; low confidence",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "content",
-    "reason": "grey/dark mannequin neck stub above the collar",
-    "by": "fail_wk_r1_01.json"
+    "reason": "dark mannequin neck stub visible above the T-shirt collar; low confidence",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_wk_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C279": {
@@ -5182,22 +5093,21 @@
   "C281": {
    "front": {
     "status": "matte",
-    "reason": "grey smear halo at the collar and left apron strap; collar reads dark instead of white (要点 2) - check",
-    "by": "fail_wk_r1_01.json"
+    "reason": "apron bib is grey, translucent and smeared instead of white; grey halo at left edge",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_wk_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "grey smudge at the neck top; white collar not visible",
-    "by": "fail_wk_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "matte",
-    "reason": "grey smear along the left apron strap and shoulder",
-    "by": "fail_wk_r1_01.json"
+    "reason": "apron and cross straps are grey, translucent and smeared, not solid white",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C282": {
@@ -5238,22 +5148,22 @@
   },
   "C284": {
    "front": {
-    "status": "content",
-    "reason": "black band/blob at the collar looks like a mannequin neck stub - check",
-    "by": "fail_wk_r1_01.json"
+    "status": "form",
+    "reason": "collar looks like a plain turn-down collar, not a wing collar (point 3); unsure at this size",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
-    "status": "pass",
-    "by": "fail_wk_r1_01.json"
+    "status": "form",
+    "reason": "collar looks like a plain turn-down collar, not a wing collar (point 3); unsure at this size",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "content",
-    "reason": "dark blob above the collar looks like a mannequin neck stub - check",
-    "by": "fail_wk_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_wk_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C285": {
@@ -5348,43 +5258,41 @@
   },
   "C290": {
    "front": {
-    "status": "missing",
-    "reason": "Best attempt a2 retained in work/gateC only, NOT delivered (point 4 still failing): points 1-3 pass (broad shoulders/knee over-gown/wide fur collar; jerkin pleated skirt at mid-thigh after rewrite; sl",
-    "by": "gen_wh_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "front failed - not attempted",
-    "by": "gen_wh_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "front failed - not attempted",
-    "by": "gen_wh_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "front failed - not attempted",
-    "by": "gen_wh_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C291": {
    "front": {
-    "status": "pass",
-    "by": "fail_wh_r1_01.json"
+    "status": "matte",
+    "reason": "grey smoky halo around lace cuffs",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "matte",
-    "reason": "grey smoky halo/wisp trailing off the right side of the lace collar",
-    "by": "fail_wh_r1_01.json"
+    "reason": "grey smoky smudges at collar and lace cuff",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_wh_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "pass",
-    "by": "fail_wh_r1_01.json"
+    "status": "matte",
+    "reason": "grey smoky halo around lace cuff on right sleeve",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C292": {
@@ -5515,24 +5423,21 @@
   },
   "C299": {
    "front": {
-    "status": "content",
-    "reason": "white/grey mannequin neck stand visible above the high collar",
-    "by": "fail_wh_r1_01.json"
+    "status": "matte",
+    "reason": "grey block filling the V of the blouse collar, looks like leftover background or neck form",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
-    "status": "content",
-    "reason": "white/grey mannequin neck stand visible above the high collar",
-    "by": "fail_wh_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "content",
-    "reason": "white/grey mannequin neck stand visible above the high collar",
-    "by": "fail_wh_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "content",
-    "reason": "white/grey mannequin neck stand visible above the high collar",
-    "by": "fail_wh_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C300": {
@@ -5610,44 +5515,39 @@
   "C304": {
    "front": {
     "status": "pass",
-    "by": "fail_wh_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
-    "status": "content",
-    "reason": "grey stub above the collar looks like a mannequin neck (unsure)",
-    "by": "fail_wh_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "consistency",
-    "reason": "shirt sleeve is black with grey cuff, white shirt in other panels",
-    "by": "fail_wh_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "content",
-    "reason": "grey mannequin neck stand visible above the collar",
-    "by": "fail_wh_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C305": {
    "front": {
-    "status": "missing",
-    "reason": "All 3 attempts failed point 3: A-line skirt came out mid-calf/midi length instead of just below the knee, and the navy pumps floated detached far below the hem instead of worn. a2 added skirt-ratio + ",
-    "by": "gen_wh_run01.json"
+    "status": "form",
+    "reason": "dress is burgundy red, header says navy (藏青) with white dots; shoes are navy",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "front failed - not attempted",
-    "by": "gen_wh_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "front failed - not attempted",
-    "by": "gen_wh_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "front failed - not attempted",
-    "by": "gen_wh_run01.json"
+    "status": "content",
+    "reason": "dark mannequin neck visible at the neckline",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C306": {
@@ -5670,42 +5570,41 @@
   },
   "C307": {
    "front": {
-    "status": "matte",
-    "reason": "grey ghost smear/legs left under the petticoat hem",
-    "by": "fail_wh_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_wh_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "grey smear below hem on the left, leftover background",
-    "by": "fail_wh_r1_01.json"
+    "status": "consistency",
+    "reason": "shoe is dark navy/black, other panels show white pumps",
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "grey ghost smear/legs left under the petticoat hem",
-    "by": "fail_wh_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C308": {
    "front": {
-    "status": "content",
-    "reason": "dark mannequin neck visible inside the open collar",
-    "by": "fail_wh_r1_01.json"
+    "status": "matte",
+    "reason": "grey block visible inside the open collar (neck form or leftover background)",
+    "by": "fail_mix_r2_03.json"
    },
    "diag": {
-    "status": "pass",
-    "by": "fail_wh_r1_01.json"
+    "status": "matte",
+    "reason": "grey block visible inside the open collar (neck form or leftover background)",
+    "by": "fail_mix_r2_03.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_wh_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_wh_r1_01.json"
+    "by": "fail_mix_r2_03.json"
    }
   },
   "C309": {
@@ -5999,39 +5898,37 @@
   "C325": {
    "front": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "form",
-    "reason": "Back view shows a hood-like shape rising behind the neck; 要点② says loose soft collar, no hood",
-    "by": "fail_fn_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C326": {
    "front": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "form",
-    "reason": "Back view shows a hood-like shape rising behind the neck; 要点② says loose soft collar, no hood",
-    "by": "fail_fn_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C327": {
@@ -6073,41 +5970,37 @@
   "C329": {
    "front": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "content",
-    "reason": "Grey fuzzy tuft at nape of collar reads as hair or fur; check it is not hair",
-    "by": "fail_fn_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
-    "status": "content",
-    "reason": "Grey fuzzy tuft at back of collar reads as hair or fur; check it is not hair",
-    "by": "fail_fn_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C330": {
    "front": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "content",
-    "reason": "Pale grey fur-like tuft at nape of collar reads as hair; check it is not hair",
-    "by": "fail_fn_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
-    "status": "content",
-    "reason": "Brown-grey fuzzy tuft at back of collar reads as hair or fur; check it is not hair",
-    "by": "fail_fn_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C331": {
@@ -6202,21 +6095,20 @@
   },
   "C336": {
    "front": {
-    "status": "form",
-    "reason": "要点③ left-shoulder pauldron: front shows it on image-left (wearer's right), back and diag show wearer's left",
-    "by": "fail_fn_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C337": {
@@ -6293,40 +6185,39 @@
   },
   "C341": {
    "front": {
-    "status": "form",
-    "reason": "要点③ asks for two vertical streamers; only one silver streamer visible in front",
-    "by": "fail_fn_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
-    "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "status": "matte",
+    "reason": "dark grey smudge/blotch on the inner garment and skirt, leftover background",
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C342": {
    "front": {
-    "status": "form",
-    "reason": "要点③ asks for two vertical streamers; only one gold streamer visible in front",
-    "by": "fail_fn_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_fn_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C343": {
@@ -6619,43 +6510,39 @@
   },
   "C359": {
    "front": {
-    "status": "matte",
-    "reason": "grey fuzzy halo above the white fur collar",
-    "by": "fail_fs_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "grey wisps/halo above the fur collar",
-    "by": "fail_fs_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fs_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
-    "status": "consistency",
-    "reason": "white fur collar trim (要点4) missing at the neckline; back shows plain edge with beaded trim",
-    "by": "fail_fs_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C360": {
    "front": {
     "status": "pass",
-    "by": "fail_fs_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fs_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "fur collar is grey/dark instead of white, matte residue at the neck",
-    "by": "fail_fs_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "consistency",
-    "reason": "sleeve cuffs are dark grey fur, not the white fur of the other panels (要点4)",
-    "by": "fail_fs_r1_01.json"
+    "reason": "fur trim at back neckline looks dark/black while the collar and cuffs are white fur on the other panels",
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C361": {
@@ -6750,40 +6637,38 @@
   },
   "C366": {
    "front": {
-    "status": "form",
-    "reason": "white wing-collar shirt (要点3) not clearly visible under the gold cravat",
-    "by": "fail_fs_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_fs_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fs_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_fs_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C367": {
    "front": {
     "status": "pass",
-    "by": "fail_fs_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "grey patch left between/beside the trouser legs",
-    "by": "fail_fs_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_fs_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_fs_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C368": {
@@ -7076,21 +6961,20 @@
   },
   "C384": {
    "front": {
-    "status": "content",
-    "reason": "dark rounded neck/stand shape visible above the collar behind the cardigan",
-    "by": "fail_in_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C385": {
@@ -7168,20 +7052,19 @@
   "C389": {
    "front": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "grey translucent block left in the armhole (background not removed)",
-    "by": "fail_in_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C390": {
@@ -7205,20 +7088,20 @@
   "C391": {
    "front": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "grey blocks left in the armhole and leg opening; white trim looks greyish",
-    "by": "fail_in_r1_01.json"
+    "status": "content",
+    "reason": "white mannequin shoulder visible in the armhole",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C392": {
@@ -7315,22 +7198,21 @@
   },
   "C397": {
    "front": {
-    "status": "matte",
-    "reason": "grey smoky haze left beside the torso/sleeve edge",
-    "by": "fail_in_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "matte",
-    "reason": "grey cloud/patch across the white back panel, background not cleanly removed",
-    "by": "fail_in_r1_01.json"
+    "reason": "grey cloudy gradient block over the white back panel; background left in the cut-out",
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C398": {
@@ -7354,20 +7236,19 @@
   "C399": {
    "front": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "refused on both attempts (attempt 1 earlier in run01 main pass; attempt 2 this retry also refused by generation tool); no side image produced",
-    "by": "gen_in_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C400": {
@@ -7426,22 +7307,20 @@
   },
   "C403": {
    "front": {
-    "status": "content",
-    "reason": "small nipple-like bumps visible under the satin bodice",
-    "by": "fail_in_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "diag": {
-    "status": "content",
-    "reason": "small nipple-like bump visible under the satin bodice",
-    "by": "fail_in_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_in_r1_01.json"
+    "by": "fail_mix_r2_01.json"
    }
   },
   "C404": {
@@ -7465,42 +7344,37 @@
   "C405": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "Both attempts show correct left profile with front pinch, centre crease and front-down/back-up brim, but the left-side bow is missing and the band is plain. a2 rewrite: On this left side the small fla",
-    "by": "gen_ac_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C406": {
    "front": {
-    "status": "missing",
-    "reason": "No attempt achieved point 2 (front snap-down). a1: crease + two front pinch dents clear, dark brown band with bow at image-left, camel felt plain (3/4) but brim curled strongly up at both sides like a",
-    "by": "gen_ac_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "skipped: no accepted front",
-    "by": "gen_ac_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "skipped: no accepted front",
-    "by": "gen_ac_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "skipped: no accepted front",
-    "by": "gen_ac_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C407": {
@@ -7560,40 +7434,38 @@
   "C410": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "ribbon tail at the right edge looks chopped off, with grey/white fragments left at its end",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C411": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "missing",
-    "reason": "Both attempts show FOUR eyelets (left-side pair plus a second pair copied onto the visible front panels) instead of two; brim slope, topstitching and no-pattern points hit, three-quarter angle itself ",
+    "reason": "parent fix top-up, fresh view-transfer route: refs = refs/C411_front.png (image 1) + the fix-accepted img/C411_side.png (image 2, exactly two eyelets), AC three-quarter template plus the mandated sent",
     "by": "gen_ac_run01.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "Both attempts show FOUR eyelets (two vertical pairs straddling the centre seam) instead of the left side's two only; brim slope, topstitching and no-pattern points hit. a2 rewrite: 'This side profile ",
-    "by": "gen_ac_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C412": {
@@ -7671,21 +7543,19 @@
   "C416": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "form",
-    "reason": "brim flares out and curls up at the edge instead of turning down (point 2)",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "form",
-    "reason": "brim looks flared outward with an upturned rolled lip, not a very narrow brim turned down all round (point 2)",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C417": {
@@ -7727,59 +7597,56 @@
   "C419": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "brim is dark grey/black instead of ivory straw, with a smeared grey halo below; looks like cut-out failure",
-    "by": "fail_ac_r1_01.json"
+    "status": "missing",
+    "reason": "Parent FIX wave (FIXAC2), 2 further attempts after main-wave 2, both failed the viewpoint point. Fix a1 used the mandated geometry lock (centre crease as ONE ridge line image-left front to image-right",
+    "by": "gen_ac_run01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C420": {
    "front": {
-    "status": "matte",
-    "reason": "grey hazy block visible inside the open top where the old background was left",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "grey hazy block visible inside the open top where the old background was left",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C421": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "right pearl wing is mostly faded to a ghostly translucent smear, not matching the solid left wing",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C422": {
@@ -7839,20 +7706,20 @@
   "C425": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "status": "consistency",
+    "reason": "top shows two tall upright plates and a taller box body, unlike the stepped low block in front/back/side; wings attach at a different height",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "a1 refused in w2D; this was the fresh-route second attempt using diag view as image 1 and front as image 2 with catalogue wording; true profile, square top with rear step at image-right, wings overlap",
-    "by": "gen_ac_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C426": {
@@ -7876,20 +7743,19 @@
   "C427": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "consistency",
-    "reason": "inner tall wall shows a vertical corner edge at centre, while in front it reads as a flat face; orientation of inner wall differs between views",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C428": {
@@ -7913,21 +7779,19 @@
   "C429": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "view",
-    "reason": "wing seen as a long thin bar the same length as in front view, so not a 90 degree profile (looks like front view edge-on)",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "consistency",
-    "reason": "tassel hangs at image right in both front and back; from behind it should be on the opposite side",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C430": {
@@ -8022,22 +7886,22 @@
   },
   "C435": {
    "front": {
-    "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "status": "form",
+    "reason": "point 2 (arched bridge bar running front to back) not visible from the front; only petals and the cross pin are seen",
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "consistency",
-    "reason": "hairpin runs along the crown's long axis, inconsistent with the cross-wise pin in front/back",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "consistency",
-    "reason": "hairpin runs lengthwise along the crown here but crosses left-right in the front view, so it should be end-on in side view",
-    "by": "fail_ac_r1_01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
-    "status": "pass",
-    "by": "fail_ac_r1_01.json"
+    "status": "consistency",
+    "reason": "back panel shows a large open slot exposing the hollow interior; front, side and diag are closed petals",
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C436": {
@@ -8295,20 +8159,19 @@
   "C450": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_02.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "both attempts double handle: two parallel arches with four legs/loops despite a2 rewrite EXACTLY ONE rolled handle single arch exactly two legs exactly two loops no second handle no duplicate arch beh",
-    "by": "gen_ac_run01.json"
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_ac_r1_02.json"
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_ac_r1_02.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C451": {
@@ -8512,20 +8375,20 @@
   "C462": {
    "front": {
     "status": "pass",
-    "by": "fail_ac_r1_02.json"
+    "by": "fail_mix_r2_00.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_ac_r1_02.json"
+    "by": "fail_mix_r2_00.json"
    },
    "side": {
-    "status": "consistency",
-    "reason": "bottom tassel renders dark/near-black and faded, while the tassel is bright red with gold thread in front, back and diag",
-    "by": "fail_ac_r1_02.json"
+    "status": "matte",
+    "reason": "bottom tassel is nearly black and ghost-like against the background, partly lost in the cut-out",
+    "by": "fail_mix_r2_00.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_ac_r1_02.json"
+    "by": "fail_mix_r2_00.json"
    }
   },
   "C463": {

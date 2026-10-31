@@ -1,14 +1,7 @@
 {
  "run": "ac_run01",
  "missing": {
-  "C405_side": "Both attempts show correct left profile with front pinch, centre crease and front-down/back-up brim, but the left-side bow is missing and the band is plain. a2 rewrite: On this left side the small flat black grosgrain bow sits on the band just behind the front pinch, toward the image-left end of the",
-  "C406_back": "skipped: no accepted front",
-  "C406_diag": "skipped: no accepted front",
-  "C406_front": "No attempt achieved point 2 (front snap-down). a1: crease + two front pinch dents clear, dark brown band with bow at image-left, camel felt plain (3/4) but brim curled strongly up at both sides like a cowboy hat, front brim rolled up with hat interior/lining visible and a floor shadow. a2 (rewrite: ",
-  "C406_side": "skipped: no accepted front",
-  "C411_diag": "Both attempts show FOUR eyelets (left-side pair plus a second pair copied onto the visible front panels) instead of two; brim slope, topstitching and no-pattern points hit, three-quarter angle itself correct. a2 rewrite: 'There are exactly TWO small metal eyelets in total in the whole image: one ver",
-  "C411_side": "Both attempts show FOUR eyelets (two vertical pairs straddling the centre seam) instead of the left side's two only; brim slope, topstitching and no-pattern points hit. a2 rewrite: 'This side profile shows ONLY the left side of the crown, so there are exactly TWO small metal eyelets in total in the ",
-  "C425_side": "a1 refused in w2D; this was the fresh-route second attempt using diag view as image 1 and front as image 2 with catalogue wording; true profile, square top with rear step at image-right, wings overlap edge-on as one long level blade toward image-right, no wing at front [Parent QC OVERTURN: file remo",
-  "C450_diag": "both attempts double handle: two parallel arches with four legs/loops despite a2 rewrite EXACTLY ONE rolled handle single arch exactly two legs exactly two loops no second handle no duplicate arch behind it no four legs; other points hit: trapezoid zip top feet"
+  "C411_diag": "parent fix top-up, fresh view-transfer route: refs = refs/C411_front.png (image 1) + the fix-accepted img/C411_side.png (image 2, exactly two eyelets), AC three-quarter template plus the mandated sentence 'Copy the eyelets from image 2 exactly: in this three-quarter view only TWO small metal eyelets",
+  "C419_side": "Parent FIX wave (FIXAC2), 2 further attempts after main-wave 2, both failed the viewpoint point. Fix a1 used the mandated geometry lock (centre crease as ONE ridge line image-left front to image-right back, asymmetric crown, brim as shallow narrow ellipse, NOT symmetric); fix a2 rewrote the camera g"
  }
 }

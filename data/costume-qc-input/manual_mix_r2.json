@@ -1,0 +1,8 @@
+{
+ "note": "Human spot check of the repair round (2026-10-31): C186 back shows the cream turtleneck, not a mannequin neck; its side panel turns the caramel skirt near-black, which the reviewer missed. C151 stripes and C305 colour (burgundy for navy) fails confirmed.",
+ "reviewed": [],
+ "fails": [
+  {"id": "C186", "view": "back", "status": "pass", "reason": "turtleneck, not a mannequin neck"},
+  {"id": "C186", "view": "side", "status": "consistency", "reason": "caramel corduroy skirt renders near-black with red sheen"}
+ ]
+}

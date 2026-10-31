@@ -1,11 +1,4 @@
 {
  "run": "md_run01",
- "missing": {
-  "C124_side": "a1 and a2 both drew TWO parallel cream lines on the visible leg instead of one single piping line; rewrite used: The trousers show exactly ONE single thin cream piping line in total in this side view, running alone down the outer seam of the visible leg from the hip to the ankle snap cuff; there is ",
-  "C171_back": "Garment points all hit and back is a true closed back (no buttons/blouse copied), but ghost fail: a1 showed clear skin at both ankles above the boots. Rewrite a2: 'The skirt hem overlaps the top of the boots so no ankle is visible; there is no skin-coloured gap between the skirt hem and the boots, t",
-  "C171_diag": "Three-quarter front+left side, all 4 points hit, but ghost fail: a1 (with sentence 'The bottom edge of the skirt hangs down and touches the boot leather directly; there is no skin-coloured band between the skirt hem and the boots, no ankle and no leg is drawn, the boots stand empty with nobody insid",
-  "C171_side": "True 90-degree left profile, front pointing image-left, all 4 points hit, but ghost fail: a1 had a skin strip above the boot. Rewrite a2: 'The bottom edge of the skirt hangs down in front of and behind the boot shaft and touches the boot leather directly at ankle height, below the knee and above the",
-  "C182_diag": "Ref substitution: side was wrong, so diag was generated from the accepted front + back references (not front + side), noted here. Both attempts structurally correct (three-quarter front + left side, storm flap, zip rings on both legs) but small white pseudo-lettering persisted on the near shoe's hee",
-  "C182_side": "Both attempts structurally correct (true 90-degree left profile, zip ring visible, stand collar, no hood) but white pseudo-lettering appeared on the side of the hiking shoe heel in both attempts and could not be removed. a2 rewrite added verbatim: 'The grey low hiking shoes are completely plain and "
- }
+ "missing": {}
 }

@@ -416,17 +416,12 @@
     "披帛"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C012_front.webp",
+    "diag": "costume_C012_diag.webp",
+    "side": "costume_C012_side.webp",
+    "back": "costume_C012_back.webp"
    },
-   "gaps": {
-    "front": "missing",
-    "diag": "missing",
-    "side": "missing",
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C013",
@@ -639,13 +634,11 @@
    ],
    "views": {
     "front": "costume_C018_front.webp",
-    "diag": null,
+    "diag": "costume_C018_diag.webp",
     "side": "costume_C018_side.webp",
     "back": "costume_C018_back.webp"
    },
-   "gaps": {
-    "diag": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C019",
@@ -810,17 +803,12 @@
     "交领右衽"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C023_front.webp",
+    "diag": "costume_C023_diag.webp",
+    "side": "costume_C023_side.webp",
+    "back": "costume_C023_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "diag": "matte",
-    "side": "matte",
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C024",
@@ -1499,12 +1487,10 @@
    "views": {
     "front": "costume_C043_front.webp",
     "diag": "costume_C043_diag.webp",
-    "side": null,
+    "side": "costume_C043_side.webp",
     "back": "costume_C043_back.webp"
    },
-   "gaps": {
-    "side": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C044",
@@ -2044,13 +2030,11 @@
    ],
    "views": {
     "front": "costume_C059_front.webp",
-    "diag": null,
+    "diag": "costume_C059_diag.webp",
     "side": "costume_C059_side.webp",
     "back": "costume_C059_back.webp"
    },
-   "gaps": {
-    "diag": "consistency"
-   }
+   "gaps": {}
   },
   {
    "id": "C060",
@@ -2215,15 +2199,12 @@
     "及踝"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "costume_C064_front.webp",
+    "diag": "costume_C064_diag.webp",
     "side": "costume_C064_side.webp",
     "back": "costume_C064_back.webp"
    },
-   "gaps": {
-    "front": "content",
-    "diag": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C065",
@@ -2458,15 +2439,12 @@
     "白色护领"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "costume_C071_front.webp",
+    "diag": "costume_C071_diag.webp",
     "side": "costume_C071_side.webp",
     "back": "costume_C071_back.webp"
    },
-   "gaps": {
-    "front": "content",
-    "diag": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C072",
@@ -2563,15 +2541,12 @@
     "里面宽长裤"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C074_front.webp",
     "diag": "costume_C074_diag.webp",
-    "side": null,
+    "side": "costume_C074_side.webp",
     "back": "costume_C074_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "side": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C075",
@@ -2634,15 +2609,12 @@
     "长袖"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "costume_C076_front.webp",
+    "diag": "costume_C076_diag.webp",
     "side": "costume_C076_side.webp",
     "back": "costume_C076_back.webp"
    },
-   "gaps": {
-    "front": "form",
-    "diag": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C077",
@@ -2849,7 +2821,7 @@
     "back": null
    },
    "gaps": {
-    "back": "content"
+    "back": "consistency"
    }
   },
   {
@@ -3015,14 +2987,13 @@
     "高筒靴"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C087_front.webp",
     "diag": "costume_C087_diag.webp",
-    "side": null,
-    "back": "costume_C087_back.webp"
+    "side": "costume_C087_side.webp",
+    "back": null
    },
    "gaps": {
-    "front": "form",
-    "side": "matte"
+    "back": "form"
    }
   },
   {
@@ -3052,14 +3023,13 @@
     "高筒靴"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C088_front.webp",
     "diag": "costume_C088_diag.webp",
     "side": "costume_C088_side.webp",
     "back": null
    },
    "gaps": {
-    "front": "form",
-    "back": "matte"
+    "back": "content"
    }
   },
   {
@@ -3259,14 +3229,12 @@
     "长筒袜"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C094_front.webp",
     "diag": "costume_C094_diag.webp",
     "side": "costume_C094_side.webp",
     "back": "costume_C094_back.webp"
    },
-   "gaps": {
-    "front": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C095",
@@ -3329,14 +3297,12 @@
     "围裙系在前面"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C096_front.webp",
     "diag": "costume_C096_diag.webp",
     "side": "costume_C096_side.webp",
     "back": "costume_C096_back.webp"
    },
-   "gaps": {
-    "front": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C097",
@@ -3366,13 +3332,12 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
+    "diag": "costume_C097_diag.webp",
     "side": "costume_C097_side.webp",
     "back": "costume_C097_back.webp"
    },
    "gaps": {
-    "front": "content",
-    "diag": "content"
+    "front": "consistency"
    }
   },
   {
@@ -3405,11 +3370,9 @@
     "front": "costume_C098_front.webp",
     "diag": "costume_C098_diag.webp",
     "side": "costume_C098_side.webp",
-    "back": null
+    "back": "costume_C098_back.webp"
    },
-   "gaps": {
-    "back": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C099",
@@ -3441,11 +3404,9 @@
     "front": "costume_C099_front.webp",
     "diag": "costume_C099_diag.webp",
     "side": "costume_C099_side.webp",
-    "back": null
+    "back": "costume_C099_back.webp"
    },
-   "gaps": {
-    "back": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C100",
@@ -3644,15 +3605,12 @@
     "宽裤和靴子"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C105_front.webp",
     "diag": "costume_C105_diag.webp",
     "side": "costume_C105_side.webp",
-    "back": null
+    "back": "costume_C105_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C106",
@@ -3783,14 +3741,12 @@
     "内长衫和裤子"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C109_front.webp",
     "diag": "costume_C109_diag.webp",
     "side": "costume_C109_side.webp",
     "back": "costume_C109_back.webp"
    },
-   "gaps": {
-    "front": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C110",
@@ -3819,14 +3775,12 @@
     "及踝"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C110_front.webp",
     "diag": "costume_C110_diag.webp",
     "side": "costume_C110_side.webp",
     "back": "costume_C110_back.webp"
    },
-   "gaps": {
-    "front": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C111",
@@ -3856,13 +3810,11 @@
    ],
    "views": {
     "front": "costume_C111_front.webp",
-    "diag": null,
+    "diag": "costume_C111_diag.webp",
     "side": "costume_C111_side.webp",
     "back": "costume_C111_back.webp"
    },
-   "gaps": {
-    "diag": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C112",
@@ -4101,14 +4053,12 @@
     "深色直筒牛仔裤"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C118_front.webp",
     "diag": "costume_C118_diag.webp",
     "side": "costume_C118_side.webp",
     "back": "costume_C118_back.webp"
    },
-   "gaps": {
-    "front": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C119",
@@ -4315,12 +4265,10 @@
    "views": {
     "front": "costume_C124_front.webp",
     "diag": "costume_C124_diag.webp",
-    "side": null,
+    "side": "costume_C124_side.webp",
     "back": "costume_C124_back.webp"
    },
-   "gaps": {
-    "side": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C125",
@@ -4391,7 +4339,7 @@
     "back": "costume_C126_back.webp"
    },
    "gaps": {
-    "side": "matte"
+    "side": "consistency"
    }
   },
   {
@@ -4632,17 +4580,12 @@
     "插肩袖、无袋盖"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C133_front.webp",
+    "diag": "costume_C133_diag.webp",
+    "side": "costume_C133_side.webp",
+    "back": "costume_C133_back.webp"
    },
-   "gaps": {
-    "front": "form",
-    "diag": "form",
-    "side": "form",
-    "back": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C134",
@@ -5199,17 +5142,12 @@
     "直筒牛仔裤"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C149_front.webp",
+    "diag": "costume_C149_diag.webp",
+    "side": "costume_C149_side.webp",
+    "back": "costume_C149_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "diag": "matte",
-    "side": "matte",
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C150",
@@ -5351,12 +5289,10 @@
    "views": {
     "front": "costume_C153_front.webp",
     "diag": "costume_C153_diag.webp",
-    "side": null,
+    "side": "costume_C153_side.webp",
     "back": "costume_C153_back.webp"
    },
-   "gaps": {
-    "side": "consistency"
-   }
+   "gaps": {}
   },
   {
    "id": "C154",
@@ -5526,17 +5462,12 @@
     "华夫格亨利衫、直筒牛仔裤"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C158_front.webp",
+    "diag": "costume_C158_diag.webp",
+    "side": "costume_C158_side.webp",
+    "back": "costume_C158_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "diag": "matte",
-    "side": "matte",
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C159",
@@ -5601,14 +5532,12 @@
     "上下同色牛仔"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C160_front.webp",
     "diag": "costume_C160_diag.webp",
     "side": "costume_C160_side.webp",
     "back": "costume_C160_back.webp"
    },
-   "gaps": {
-    "front": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C161",
@@ -5989,15 +5918,11 @@
    ],
    "views": {
     "front": "costume_C171_front.webp",
-    "diag": null,
-    "side": null,
-    "back": null
+    "diag": "costume_C171_diag.webp",
+    "side": "costume_C171_side.webp",
+    "back": "costume_C171_back.webp"
    },
-   "gaps": {
-    "diag": "missing",
-    "side": "missing",
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C172",
@@ -6205,11 +6130,9 @@
     "front": "costume_C177_front.webp",
     "diag": "costume_C177_diag.webp",
     "side": "costume_C177_side.webp",
-    "back": null
+    "back": "costume_C177_back.webp"
    },
-   "gaps": {
-    "back": "consistency"
-   }
+   "gaps": {}
   },
   {
    "id": "C178",
@@ -6240,14 +6163,11 @@
    ],
    "views": {
     "front": "costume_C178_front.webp",
-    "diag": null,
-    "side": null,
+    "diag": "costume_C178_diag.webp",
+    "side": "costume_C178_side.webp",
     "back": "costume_C178_back.webp"
    },
-   "gaps": {
-    "diag": "form",
-    "side": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C179",
@@ -6347,13 +6267,16 @@
     "帽子平放背后"
    ],
    "views": {
-    "front": "costume_C181_front.webp",
-    "diag": "costume_C181_diag.webp",
+    "front": null,
+    "diag": null,
     "side": null,
-    "back": "costume_C181_back.webp"
+    "back": null
    },
    "gaps": {
-    "side": "form"
+    "side": "form",
+    "front": "form",
+    "diag": "form",
+    "back": "form"
    }
   },
   {
@@ -6385,14 +6308,11 @@
    ],
    "views": {
     "front": "costume_C182_front.webp",
-    "diag": null,
-    "side": null,
+    "diag": "costume_C182_diag.webp",
+    "side": "costume_C182_side.webp",
     "back": "costume_C182_back.webp"
    },
-   "gaps": {
-    "diag": "missing",
-    "side": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C183",
@@ -6530,11 +6450,10 @@
     "front": "costume_C186_front.webp",
     "diag": "costume_C186_diag.webp",
     "side": null,
-    "back": null
+    "back": "costume_C186_back.webp"
    },
    "gaps": {
-    "side": "content",
-    "back": "content"
+    "side": "consistency"
    }
   },
   {
@@ -6635,17 +6554,12 @@
     "直筒卡其裤"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C189_front.webp",
+    "diag": "costume_C189_diag.webp",
+    "side": "costume_C189_side.webp",
+    "back": "costume_C189_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "diag": "matte",
-    "side": "matte",
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C190",
@@ -6884,15 +6798,11 @@
    ],
    "views": {
     "front": "costume_C196_front.webp",
-    "diag": null,
-    "side": null,
-    "back": null
+    "diag": "costume_C196_diag.webp",
+    "side": "costume_C196_side.webp",
+    "back": "costume_C196_back.webp"
    },
-   "gaps": {
-    "diag": "missing",
-    "side": "missing",
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C197",
@@ -6923,13 +6833,10 @@
    "views": {
     "front": "costume_C197_front.webp",
     "diag": "costume_C197_diag.webp",
-    "side": null,
-    "back": null
+    "side": "costume_C197_side.webp",
+    "back": "costume_C197_back.webp"
    },
-   "gaps": {
-    "side": "missing",
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C198",
@@ -6959,15 +6866,11 @@
    ],
    "views": {
     "front": "costume_C198_front.webp",
-    "diag": null,
-    "side": null,
-    "back": null
+    "diag": "costume_C198_diag.webp",
+    "side": "costume_C198_side.webp",
+    "back": "costume_C198_back.webp"
    },
-   "gaps": {
-    "diag": "missing",
-    "side": "missing",
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C199",
@@ -7237,11 +7140,9 @@
     "front": "costume_C206_front.webp",
     "diag": "costume_C206_diag.webp",
     "side": "costume_C206_side.webp",
-    "back": null
+    "back": "costume_C206_back.webp"
    },
-   "gaps": {
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C207",
@@ -7440,17 +7341,12 @@
     "尖头高跟鞋"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C212_front.webp",
+    "diag": "costume_C212_diag.webp",
+    "side": "costume_C212_side.webp",
+    "back": "costume_C212_back.webp"
    },
-   "gaps": {
-    "front": "missing",
-    "diag": "missing",
-    "side": "missing",
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C213",
@@ -7479,15 +7375,13 @@
     "尖头高跟鞋"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C213_front.webp",
     "diag": "costume_C213_diag.webp",
-    "side": null,
+    "side": "costume_C213_side.webp",
     "back": null
    },
    "gaps": {
-    "front": "matte",
-    "side": "consistency",
-    "back": "matte"
+    "back": "consistency"
    }
   },
   {
@@ -7552,14 +7446,11 @@
    ],
    "views": {
     "front": "costume_C215_front.webp",
-    "diag": null,
-    "side": null,
+    "diag": "costume_C215_diag.webp",
+    "side": "costume_C215_side.webp",
     "back": "costume_C215_back.webp"
    },
-   "gaps": {
-    "diag": "matte",
-    "side": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C216",
@@ -7622,15 +7513,12 @@
     "超长拖尾、没有头纱"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "costume_C217_front.webp",
+    "diag": "costume_C217_diag.webp",
     "side": "costume_C217_side.webp",
     "back": "costume_C217_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "diag": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C218",
@@ -7727,16 +7615,12 @@
     "同色西裤、黑皮鞋"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "costume_C220_front.webp",
+    "diag": "costume_C220_diag.webp",
+    "side": "costume_C220_side.webp",
     "back": "costume_C220_back.webp"
    },
-   "gaps": {
-    "front": "form",
-    "diag": "form",
-    "side": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C221",
@@ -7969,15 +7853,12 @@
     "无字无标"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C227_front.webp",
     "diag": "costume_C227_diag.webp",
     "side": "costume_C227_side.webp",
-    "back": null
+    "back": "costume_C227_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C228",
@@ -8109,15 +7990,11 @@
    ],
    "views": {
     "front": "costume_C231_front.webp",
-    "diag": null,
-    "side": null,
-    "back": null
+    "diag": "costume_C231_diag.webp",
+    "side": "costume_C231_side.webp",
+    "back": "costume_C231_back.webp"
    },
-   "gaps": {
-    "diag": "missing",
-    "side": "missing",
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C232",
@@ -8249,14 +8126,11 @@
    ],
    "views": {
     "front": "costume_C235_front.webp",
-    "diag": null,
-    "side": null,
+    "diag": "costume_C235_diag.webp",
+    "side": "costume_C235_side.webp",
     "back": "costume_C235_back.webp"
    },
-   "gaps": {
-    "diag": "missing",
-    "side": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C236",
@@ -8873,11 +8747,11 @@
    "views": {
     "front": "costume_C253_front.webp",
     "diag": "costume_C253_diag.webp",
-    "side": null,
-    "back": "costume_C253_back.webp"
+    "side": "costume_C253_side.webp",
+    "back": null
    },
    "gaps": {
-    "side": "matte"
+    "back": "content"
    }
   },
   {
@@ -9315,16 +9189,12 @@
     "黑皮鞋"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "costume_C266_front.webp",
+    "diag": "costume_C266_diag.webp",
+    "side": "costume_C266_side.webp",
     "back": "costume_C266_back.webp"
    },
-   "gaps": {
-    "front": "content",
-    "diag": "matte",
-    "side": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C267",
@@ -9695,12 +9565,10 @@
    "views": {
     "front": "costume_C277_front.webp",
     "diag": "costume_C277_diag.webp",
-    "side": null,
+    "side": "costume_C277_side.webp",
     "back": "costume_C277_back.webp"
    },
-   "gaps": {
-    "side": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C278",
@@ -9837,12 +9705,11 @@
    "views": {
     "front": null,
     "diag": "costume_C281_diag.webp",
-    "side": null,
+    "side": "costume_C281_side.webp",
     "back": null
    },
    "gaps": {
     "front": "matte",
-    "side": "matte",
     "back": "matte"
    }
   },
@@ -9942,13 +9809,13 @@
    ],
    "views": {
     "front": null,
-    "diag": "costume_C284_diag.webp",
-    "side": null,
+    "diag": null,
+    "side": "costume_C284_side.webp",
     "back": "costume_C284_back.webp"
    },
    "gaps": {
-    "front": "content",
-    "side": "content"
+    "front": "form",
+    "diag": "form"
    }
   },
   {
@@ -10148,17 +10015,12 @@
     "宽方头平底鞋"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C290_front.webp",
+    "diag": "costume_C290_diag.webp",
+    "side": "costume_C290_side.webp",
+    "back": "costume_C290_back.webp"
    },
-   "gaps": {
-    "front": "missing",
-    "diag": "missing",
-    "side": "missing",
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C291",
@@ -10187,13 +10049,15 @@
     "腰部密集管褶的及地长裙"
    ],
    "views": {
-    "front": "costume_C291_front.webp",
+    "front": null,
     "diag": null,
     "side": "costume_C291_side.webp",
-    "back": "costume_C291_back.webp"
+    "back": null
    },
    "gaps": {
-    "diag": "matte"
+    "diag": "matte",
+    "front": "matte",
+    "back": "matte"
    }
   },
   {
@@ -10462,15 +10326,12 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "diag": "costume_C299_diag.webp",
+    "side": "costume_C299_side.webp",
+    "back": "costume_C299_back.webp"
    },
    "gaps": {
-    "front": "content",
-    "diag": "content",
-    "side": "content",
-    "back": "content"
+    "front": "matte"
    }
   },
   {
@@ -10637,15 +10498,11 @@
    ],
    "views": {
     "front": "costume_C304_front.webp",
-    "diag": null,
-    "side": null,
-    "back": null
+    "diag": "costume_C304_diag.webp",
+    "side": "costume_C304_side.webp",
+    "back": "costume_C304_back.webp"
    },
-   "gaps": {
-    "diag": "content",
-    "side": "consistency",
-    "back": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C305",
@@ -10675,15 +10532,13 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
+    "diag": "costume_C305_diag.webp",
+    "side": "costume_C305_side.webp",
     "back": null
    },
    "gaps": {
-    "front": "missing",
-    "diag": "missing",
-    "side": "missing",
-    "back": "missing"
+    "front": "form",
+    "back": "content"
    }
   },
   {
@@ -10747,15 +10602,13 @@
     "细腰带＋低跟鞋"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C307_front.webp",
     "diag": "costume_C307_diag.webp",
     "side": null,
-    "back": null
+    "back": "costume_C307_back.webp"
    },
    "gaps": {
-    "front": "matte",
-    "side": "matte",
-    "back": "matte"
+    "side": "consistency"
    }
   },
   {
@@ -10786,12 +10639,13 @@
    ],
    "views": {
     "front": null,
-    "diag": "costume_C308_diag.webp",
+    "diag": null,
     "side": "costume_C308_side.webp",
     "back": "costume_C308_back.webp"
    },
    "gaps": {
-    "front": "content"
+    "front": "matte",
+    "diag": "matte"
    }
   },
   {
@@ -11368,11 +11222,9 @@
     "front": "costume_C325_front.webp",
     "diag": "costume_C325_diag.webp",
     "side": "costume_C325_side.webp",
-    "back": null
+    "back": "costume_C325_back.webp"
    },
-   "gaps": {
-    "back": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C326",
@@ -11404,11 +11256,9 @@
     "front": "costume_C326_front.webp",
     "diag": "costume_C326_diag.webp",
     "side": "costume_C326_side.webp",
-    "back": null
+    "back": "costume_C326_back.webp"
    },
-   "gaps": {
-    "back": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C327",
@@ -11507,13 +11357,10 @@
    "views": {
     "front": "costume_C329_front.webp",
     "diag": "costume_C329_diag.webp",
-    "side": null,
-    "back": null
+    "side": "costume_C329_side.webp",
+    "back": "costume_C329_back.webp"
    },
-   "gaps": {
-    "side": "content",
-    "back": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C330",
@@ -11544,13 +11391,10 @@
    "views": {
     "front": "costume_C330_front.webp",
     "diag": "costume_C330_diag.webp",
-    "side": null,
-    "back": null
+    "side": "costume_C330_side.webp",
+    "back": "costume_C330_back.webp"
    },
-   "gaps": {
-    "side": "content",
-    "back": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C331",
@@ -11749,14 +11593,12 @@
     "小腿缠布＋旧工装靴"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C336_front.webp",
     "diag": "costume_C336_diag.webp",
     "side": "costume_C336_side.webp",
     "back": "costume_C336_back.webp"
    },
-   "gaps": {
-    "front": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C337",
@@ -11921,13 +11763,13 @@
     "长裙曳地"
    ],
    "views": {
-    "front": null,
-    "diag": "costume_C341_diag.webp",
+    "front": "costume_C341_front.webp",
+    "diag": null,
     "side": "costume_C341_side.webp",
     "back": "costume_C341_back.webp"
    },
    "gaps": {
-    "front": "form"
+    "diag": "matte"
    }
   },
   {
@@ -11957,14 +11799,12 @@
     "长裙曳地"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C342_front.webp",
     "diag": "costume_C342_diag.webp",
     "side": "costume_C342_side.webp",
     "back": "costume_C342_back.webp"
    },
-   "gaps": {
-    "front": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C343",
@@ -12537,16 +12377,12 @@
     "领口和袖口白色毛边"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "costume_C359_front.webp",
+    "diag": "costume_C359_diag.webp",
     "side": "costume_C359_side.webp",
-    "back": null
+    "back": "costume_C359_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "diag": "matte",
-    "back": "consistency"
-   }
+   "gaps": {}
   },
   {
    "id": "C360",
@@ -12577,11 +12413,10 @@
    "views": {
     "front": "costume_C360_front.webp",
     "diag": "costume_C360_diag.webp",
-    "side": null,
+    "side": "costume_C360_side.webp",
     "back": null
    },
    "gaps": {
-    "side": "matte",
     "back": "consistency"
    }
   },
@@ -12782,14 +12617,12 @@
     "无面具、无帽"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C366_front.webp",
     "diag": "costume_C366_diag.webp",
     "side": "costume_C366_side.webp",
     "back": "costume_C366_back.webp"
    },
-   "gaps": {
-    "front": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C367",
@@ -12819,13 +12652,11 @@
    ],
    "views": {
     "front": "costume_C367_front.webp",
-    "diag": null,
+    "diag": "costume_C367_diag.webp",
     "side": "costume_C367_side.webp",
     "back": "costume_C367_back.webp"
    },
-   "gaps": {
-    "diag": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C368",
@@ -13398,14 +13229,12 @@
     "阔腿针织长裤"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C384_front.webp",
     "diag": "costume_C384_diag.webp",
     "side": "costume_C384_side.webp",
     "back": "costume_C384_back.webp"
    },
-   "gaps": {
-    "front": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C385",
@@ -13572,12 +13401,10 @@
    "views": {
     "front": "costume_C389_front.webp",
     "diag": "costume_C389_diag.webp",
-    "side": null,
+    "side": "costume_C389_side.webp",
     "back": "costume_C389_back.webp"
    },
-   "gaps": {
-    "side": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C390",
@@ -13646,7 +13473,7 @@
     "back": "costume_C391_back.webp"
    },
    "gaps": {
-    "side": "matte"
+    "side": "content"
    }
   },
   {
@@ -13846,13 +13673,12 @@
     "短裤前门系带"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C397_front.webp",
     "diag": "costume_C397_diag.webp",
     "side": "costume_C397_side.webp",
     "back": null
    },
    "gaps": {
-    "front": "matte",
     "back": "matte"
    }
   },
@@ -13919,12 +13745,10 @@
    "views": {
     "front": "costume_C399_front.webp",
     "diag": "costume_C399_diag.webp",
-    "side": null,
+    "side": "costume_C399_side.webp",
     "back": "costume_C399_back.webp"
    },
-   "gaps": {
-    "side": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C400",
@@ -14055,15 +13879,12 @@
     "不透明、无透视"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "costume_C403_front.webp",
+    "diag": "costume_C403_diag.webp",
     "side": "costume_C403_side.webp",
     "back": "costume_C403_back.webp"
    },
-   "gaps": {
-    "front": "content",
-    "diag": "content"
-   }
+   "gaps": {}
   },
   {
    "id": "C404",
@@ -14128,12 +13949,10 @@
    "views": {
     "front": "costume_C405_front.webp",
     "diag": "costume_C405_diag.webp",
-    "side": null,
+    "side": "costume_C405_side.webp",
     "back": "costume_C405_back.webp"
    },
-   "gaps": {
-    "side": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C406",
@@ -14162,17 +13981,12 @@
     "毛毡无图案"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C406_front.webp",
+    "diag": "costume_C406_diag.webp",
+    "side": "costume_C406_side.webp",
+    "back": "costume_C406_back.webp"
    },
-   "gaps": {
-    "front": "missing",
-    "diag": "missing",
-    "side": "missing",
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C407",
@@ -14305,12 +14119,10 @@
    "views": {
     "front": "costume_C410_front.webp",
     "diag": "costume_C410_diag.webp",
-    "side": null,
+    "side": "costume_C410_side.webp",
     "back": "costume_C410_back.webp"
    },
-   "gaps": {
-    "side": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C411",
@@ -14341,12 +14153,11 @@
    "views": {
     "front": "costume_C411_front.webp",
     "diag": null,
-    "side": null,
+    "side": "costume_C411_side.webp",
     "back": "costume_C411_back.webp"
    },
    "gaps": {
-    "diag": "missing",
-    "side": "missing"
+    "diag": "missing"
    }
   },
   {
@@ -14514,13 +14325,10 @@
    "views": {
     "front": "costume_C416_front.webp",
     "diag": "costume_C416_diag.webp",
-    "side": null,
-    "back": null
+    "side": "costume_C416_side.webp",
+    "back": "costume_C416_back.webp"
    },
-   "gaps": {
-    "side": "form",
-    "back": "form"
-   }
+   "gaps": {}
   },
   {
    "id": "C417",
@@ -14623,7 +14431,7 @@
     "back": "costume_C419_back.webp"
    },
    "gaps": {
-    "side": "matte"
+    "side": "missing"
    }
   },
   {
@@ -14653,15 +14461,12 @@
     "无字无标"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "costume_C420_front.webp",
+    "diag": "costume_C420_diag.webp",
     "side": "costume_C420_side.webp",
     "back": "costume_C420_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "diag": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C421",
@@ -14693,11 +14498,9 @@
     "front": "costume_C421_front.webp",
     "diag": "costume_C421_diag.webp",
     "side": "costume_C421_side.webp",
-    "back": null
+    "back": "costume_C421_back.webp"
    },
-   "gaps": {
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C422",
@@ -14829,12 +14632,12 @@
    ],
    "views": {
     "front": "costume_C425_front.webp",
-    "diag": "costume_C425_diag.webp",
-    "side": null,
+    "diag": null,
+    "side": "costume_C425_side.webp",
     "back": "costume_C425_back.webp"
    },
    "gaps": {
-    "side": "missing"
+    "diag": "consistency"
    }
   },
   {
@@ -14901,11 +14704,9 @@
     "front": "costume_C427_front.webp",
     "diag": "costume_C427_diag.webp",
     "side": "costume_C427_side.webp",
-    "back": null
+    "back": "costume_C427_back.webp"
    },
-   "gaps": {
-    "back": "consistency"
-   }
+   "gaps": {}
   },
   {
    "id": "C428",
@@ -14970,13 +14771,10 @@
    "views": {
     "front": "costume_C429_front.webp",
     "diag": "costume_C429_diag.webp",
-    "side": null,
-    "back": null
+    "side": "costume_C429_side.webp",
+    "back": "costume_C429_back.webp"
    },
-   "gaps": {
-    "side": "view",
-    "back": "consistency"
-   }
+   "gaps": {}
   },
   {
    "id": "C430",
@@ -15175,14 +14973,14 @@
     "没有头发"
    ],
    "views": {
-    "front": "costume_C435_front.webp",
-    "diag": null,
-    "side": null,
-    "back": "costume_C435_back.webp"
+    "front": null,
+    "diag": "costume_C435_diag.webp",
+    "side": "costume_C435_side.webp",
+    "back": null
    },
    "gaps": {
-    "diag": "consistency",
-    "side": "consistency"
+    "front": "form",
+    "back": "consistency"
    }
   },
   {
@@ -15689,13 +15487,11 @@
    ],
    "views": {
     "front": "costume_C450_front.webp",
-    "diag": null,
+    "diag": "costume_C450_diag.webp",
     "side": "costume_C450_side.webp",
     "back": "costume_C450_back.webp"
    },
-   "gaps": {
-    "diag": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C451",
@@ -16104,7 +15900,7 @@
     "back": "costume_C462_back.webp"
    },
    "gaps": {
-    "side": "consistency"
+    "side": "matte"
    }
   },
   {

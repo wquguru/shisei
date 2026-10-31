@@ -1,0 +1,151 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C082",
+  "C087",
+  "C088",
+  "C094",
+  "C096",
+  "C097",
+  "C098",
+  "C099",
+  "C105",
+  "C109",
+  "C110",
+  "C111",
+  "C290",
+  "C291",
+  "C299",
+  "C304",
+  "C305",
+  "C307",
+  "C308",
+  "C266",
+  "C277",
+  "C278",
+  "C281",
+  "C284"
+ ],
+ "fails": [
+  {
+   "id": "C082",
+   "view": "back",
+   "status": "consistency",
+   "reason": "dupatta shawl not visible across the back shoulders, only dark tips at hem; front and side show it"
+  },
+  {
+   "id": "C087",
+   "view": "back",
+   "status": "form",
+   "reason": "long right sleeve hanging behind the body (point 2) not visible in back view; low confidence"
+  },
+  {
+   "id": "C088",
+   "view": "back",
+   "status": "content",
+   "reason": "dark mannequin neck/stand visible above the collar"
+  },
+  {
+   "id": "C097",
+   "view": "front",
+   "status": "consistency",
+   "reason": "no tights/white socks between skirt and shoes, back/side/diag show dark legwear and white socks"
+  },
+  {
+   "id": "C278",
+   "view": "front",
+   "status": "content",
+   "reason": "dark mannequin neck stub visible above the T-shirt collar; low confidence"
+  },
+  {
+   "id": "C278",
+   "view": "side",
+   "status": "content",
+   "reason": "dark mannequin neck stub visible above the T-shirt collar; low confidence"
+  },
+  {
+   "id": "C278",
+   "view": "diag",
+   "status": "content",
+   "reason": "dark mannequin neck stub visible above the T-shirt collar; low confidence"
+  },
+  {
+   "id": "C281",
+   "view": "front",
+   "status": "matte",
+   "reason": "apron bib is grey, translucent and smeared instead of white; grey halo at left edge"
+  },
+  {
+   "id": "C281",
+   "view": "back",
+   "status": "matte",
+   "reason": "apron and cross straps are grey, translucent and smeared, not solid white"
+  },
+  {
+   "id": "C284",
+   "view": "front",
+   "status": "form",
+   "reason": "collar looks like a plain turn-down collar, not a wing collar (point 3); unsure at this size"
+  },
+  {
+   "id": "C284",
+   "view": "diag",
+   "status": "form",
+   "reason": "collar looks like a plain turn-down collar, not a wing collar (point 3); unsure at this size"
+  },
+  {
+   "id": "C291",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey smoky halo around lace cuffs"
+  },
+  {
+   "id": "C291",
+   "view": "back",
+   "status": "matte",
+   "reason": "grey smoky halo around lace cuff on right sleeve"
+  },
+  {
+   "id": "C291",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey smoky smudges at collar and lace cuff"
+  },
+  {
+   "id": "C299",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey block filling the V of the blouse collar, looks like leftover background or neck form"
+  },
+  {
+   "id": "C305",
+   "view": "front",
+   "status": "form",
+   "reason": "dress is burgundy red, header says navy (藏青) with white dots; shoes are navy"
+  },
+  {
+   "id": "C305",
+   "view": "back",
+   "status": "content",
+   "reason": "dark mannequin neck visible at the neckline"
+  },
+  {
+   "id": "C307",
+   "view": "side",
+   "status": "consistency",
+   "reason": "shoe is dark navy/black, other panels show white pumps"
+  },
+  {
+   "id": "C308",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey block visible inside the open collar (neck form or leftover background)"
+  },
+  {
+   "id": "C308",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey block visible inside the open collar (neck form or leftover background)"
+  }
+ ]
+}
