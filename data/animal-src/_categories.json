@@ -1,14 +1,14 @@
 {
   "CT": {
-    "order": 1, "target": 14,
+    "order": 1, "target": 27,
     "name": {"zh": "猫", "ja": "猫", "en": "Cats", "ko": "고양이"},
-    "rules": "An adult domestic cat: four legs, five toes on each front paw and four on each hind paw where visible, one tail, two upright ears; hind legs bend backward at the hock.",
+    "rules": "An adult domestic cat of the stated build (standard, cobby, large longhair or slender), shown through body proportion, head shape, ears and tail rather than coat; four legs, five toes on each front paw and four on each hind paw where visible, one tail, two ears; hind legs bend backward at the hock.",
     "negatives": "No kittens, no extra or missing legs or tails, no human-like posture, no clothing."
   },
   "DG": {
-    "order": 2, "target": 18,
+    "order": 2, "target": 40,
     "name": {"zh": "狗", "ja": "犬", "en": "Dogs", "ko": "개"},
-    "rules": "An adult dog of the stated build (small, medium or large), generic and not a specific breed's signature look; four legs, one tail; hind legs bend backward at the hock.",
+    "rules": "An adult dog of the stated build (small, short-legged, medium, large, sighthound or brachycephalic), with the proportions, ear set, muzzle length and tail type stated; the named breed is only a build reference, not a portrait of a show standard; four legs, one tail; hind legs bend backward at the hock.",
     "negatives": "No puppies, no extra or missing legs or tails, no human-like posture, no clothing, no leash, no collar."
   },
   "SM": {

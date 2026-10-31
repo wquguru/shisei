@@ -13,6 +13,18 @@
    "ja": "大型犬",
    "en": "Large Dog",
    "ko": "대형견"
+  },
+  "shortleg": {
+   "zh": "短腿长身犬",
+   "ja": "短足胴長犬",
+   "en": "Short-Legged Dog",
+   "ko": "단족 장신견"
+  },
+  "sighthound": {
+   "zh": "细长视觉猎犬",
+   "ja": "サイトハウンド",
+   "en": "Sighthound",
+   "ko": "시각 하운드"
   }
  },
  "forms": [
@@ -102,6 +114,72 @@
     "前腿平行前伸",
     "后腿收在臀下",
     "垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-s-down",
+   "group": "shortleg",
+   "probe": true,
+   "species": "long-bodied short-legged dog of dachshund build: a long low back, very short legs, a deep chest close to the ground, long drop ears and a long muzzle",
+   "tail": "a long segmented tail",
+   "coat": "short smooth red fur",
+   "name": {
+    "zh": "短腿犬·趴下",
+    "ja": "短足犬・伏せ",
+    "en": "Short-Legged Dog Lying Down",
+    "ko": "단족견 엎드리기"
+   },
+   "desc": "lying down in a sphinx position: belly on the ground along the whole long body, short front legs stretched forward parallel, short hind legs folded under the hips, head raised and facing forward, long drop ears hanging, tail lying straight behind",
+   "keep": "sphinx down, long low body flat on the ground, short front legs forward and parallel, hind legs folded under the hips, head up, long drop ears, tail straight behind",
+   "checks": [
+    "身长明显大于身高的两倍",
+    "腿很短、胸口几乎贴地",
+    "前腿平行前伸",
+    "长垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-h-gallop",
+   "group": "sighthound",
+   "probe": true,
+   "species": "lean sighthound of greyhound build: a long narrow head, a deep chest, a very tucked-up waist, long thin legs, small folded rose ears and a long thin tail",
+   "tail": "a long thin segmented tail",
+   "coat": "short smooth grey fur",
+   "name": {
+    "zh": "视觉猎犬·奔跑",
+    "ja": "サイトハウンド・疾走",
+    "en": "Sighthound Running",
+    "ko": "시각 하운드 달리기"
+   },
+   "desc": "running at full gallop in the gathered phase: back strongly arched, hind legs swung forward past the front legs, front legs reaching back underneath the body, all four paws off the ground, head low and forward, ears folded back, tail low behind",
+   "keep": "full gallop gathered phase, back arched, hind legs forward ahead of the front legs, all paws off the ground, head low",
+   "checks": [
+    "四只脚都离地",
+    "后腿越过前腿",
+    "背部拱起、腰细收",
+    "正好四条腿"
    ],
    "variants": [
     {
