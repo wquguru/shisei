@@ -2,17 +2,17 @@
  "cat": "PL",
  "note": "Furniture library (docs/furniture/PLAN.md). dims are real centimetres: the front prompt quotes w/d/h and intake scales every piece to one px/cm; seat is the sitting height a composited figure uses.",
  "groups": {
-  "block": {
-   "zh": "造型台",
-   "ja": "撮影台",
-   "en": "Posing Blocks",
-   "ko": "포즈 블록"
-  },
   "step": {
    "zh": "台阶与梯",
    "ja": "階段・脚立",
    "en": "Steps & Ladders",
    "ko": "계단·사다리"
+  },
+  "block": {
+   "zh": "造型台",
+   "ja": "撮影台",
+   "en": "Posing Blocks",
+   "ko": "포즈 블록"
   },
   "set": {
    "zh": "布景结构",

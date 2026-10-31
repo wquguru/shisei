@@ -96,60 +96,11 @@
      "vars": {
       "wood": "light oak"
      }
-    },
-    {
-     "key": "walnut",
-     "name": {
-      "zh": "胡桃木",
-      "ja": "ウォルナット",
-      "en": "Walnut",
-      "ko": "월넛"
-     },
-     "vars": {
-      "wood": "dark walnut"
-     }
     }
    ],
    "dims": {
     "w": 180,
     "d": 90,
-    "h": 75
-   }
-  },
-  {
-   "key": "round-dining-table",
-   "group": "dining",
-   "name": {
-    "zh": "圆形独脚餐桌",
-    "ja": "丸型一本脚ダイニングテーブル",
-    "en": "Round Pedestal Dining Table",
-    "ko": "원형 단주 식탁"
-   },
-   "desc": "a round four-seat dining table 75 cm high with a solid {wood} top 120 cm across, carried on a single thick round central column that ends in four curved feet spreading out in a cross near the floor, no apron, empty top",
-   "keep": "{wood} round top 120 cm across, single thick central column, four curved feet in a cross, no apron, empty top",
-   "checks": [
-    "圆桌面、约 75 厘米高",
-    "中间一根粗柱",
-    "底部四只弯脚呈十字",
-    "桌上没有东西"
-   ],
-   "variants": [
-    {
-     "key": "walnut",
-     "name": {
-      "zh": "胡桃木",
-      "ja": "ウォルナット",
-      "en": "Walnut",
-      "ko": "월넛"
-     },
-     "vars": {
-      "wood": "dark walnut"
-     }
-    }
-   ],
-   "dims": {
-    "w": 120,
-    "d": 120,
     "h": 75
    }
   },
@@ -183,63 +134,12 @@
       "top": "light oak",
       "frame": "light oak"
      }
-    },
-    {
-     "key": "black",
-     "name": {
-      "zh": "黑色",
-      "ja": "黒",
-      "en": "Black",
-      "ko": "블랙"
-     },
-     "bg": "light",
-     "vars": {
-      "top": "matte black painted wood",
-      "frame": "matte black painted wood"
-     }
     }
    ],
    "dims": {
     "w": 120,
     "d": 60,
     "h": 40
-   }
-  },
-  {
-   "key": "side-table",
-   "group": "low",
-   "name": {
-    "zh": "圆边几",
-    "ja": "丸型サイドテーブル",
-    "en": "Round Side Table",
-    "ko": "원형 사이드 테이블"
-   },
-   "desc": "a small round side table 55 cm high with a solid {wood} top 45 cm across with a slightly raised lip, three slender tapered legs splaying gently outward, and no shelf, empty top",
-   "keep": "{wood} round top 45 cm across with a raised lip, three slender tapered splayed legs, no shelf, empty top",
-   "checks": [
-    "圆面、约 55 厘米高",
-    "正好三条腿",
-    "腿细且略外撇",
-    "桌上没有东西"
-   ],
-   "variants": [
-    {
-     "key": "walnut",
-     "name": {
-      "zh": "胡桃木",
-      "ja": "ウォルナット",
-      "en": "Walnut",
-      "ko": "월넛"
-     },
-     "vars": {
-      "wood": "dark walnut"
-     }
-    }
-   ],
-   "dims": {
-    "w": 45,
-    "d": 45,
-    "h": 55
    }
   },
   {
@@ -271,18 +171,6 @@
      "vars": {
       "wood": "light oak"
      }
-    },
-    {
-     "key": "walnut",
-     "name": {
-      "zh": "胡桃木",
-      "ja": "ウォルナット",
-      "en": "Walnut",
-      "ko": "월넛"
-     },
-     "vars": {
-      "wood": "dark walnut"
-     }
     }
    ],
    "dims": {
@@ -292,84 +180,8 @@
    }
   },
   {
-   "key": "standing-desk",
-   "group": "desk",
-   "name": {
-    "zh": "站立式办公桌",
-    "ja": "スタンディングデスク",
-    "en": "Standing Desk",
-    "ko": "스탠딩 데스크"
-   },
-   "desc": "a fixed-height standing desk 105 cm high with a plain rectangular {top} top 140 by 70 cm on a {frame} steel frame of two flat rectangular-section legs, each ending in a flat foot bar running front to back, joined under the top by one straight crossbar, no motors, no control panel, no drawers, no cables, no screen, empty top",
-   "keep": "{top} top 140 by 70 cm, {frame} steel frame of two flat legs with front-to-back foot bars, one crossbar under the top, no motors, no control panel, empty top",
-   "checks": [
-    "桌面约 105 厘米高",
-    "两条钢腿、底部前后向脚",
-    "没有电机和控制面板",
-    "桌上没有东西、没有线"
-   ],
-   "variants": [
-    {
-     "key": "oak-black",
-     "name": {
-      "zh": "橡木面黑架",
-      "ja": "オーク天板・黒脚",
-      "en": "Oak & Black",
-      "ko": "오크·블랙"
-     },
-     "vars": {
-      "top": "light oak",
-      "frame": "matte black"
-     }
-    }
-   ],
-   "dims": {
-    "w": 140,
-    "d": 70,
-    "h": 105
-   }
-  },
-  {
-   "key": "console-table",
-   "group": "low",
-   "name": {
-    "zh": "玄关桌",
-    "ja": "コンソールテーブル",
-    "en": "Console Table",
-    "ko": "콘솔 테이블"
-   },
-   "desc": "a narrow console table 80 cm high in {wood} with a rectangular top 120 by 35 cm, one long shallow drawer across the front with two small round wooden knobs, four slender square tapered legs and a slatted lower shelf of five lengthwise slats 15 cm above the floor, drawer closed, empty top and shelf",
-   "keep": "{wood} console, narrow 120 by 35 cm top, one shallow front drawer with two round knobs, four slender tapered legs, lower shelf of five slats, drawer closed, empty",
-   "checks": [
-    "窄长桌面、约 80 厘米高",
-    "前面一个浅抽屉两个圆钮",
-    "下层五根木条搁板",
-    "桌上和搁板上都没有东西"
-   ],
-   "variants": [
-    {
-     "key": "walnut",
-     "name": {
-      "zh": "胡桃木",
-      "ja": "ウォルナット",
-      "en": "Walnut",
-      "ko": "월넛"
-     },
-     "vars": {
-      "wood": "dark walnut"
-     }
-    }
-   ],
-   "dims": {
-    "w": 120,
-    "d": 35,
-    "h": 80
-   }
-  },
-  {
    "key": "dressing-table",
    "group": "counter",
-   "probe": true,
    "name": {
     "zh": "带镜梳妆台",
     "ja": "鏡付きドレッサー",
@@ -444,40 +256,42 @@
    }
   },
   {
-   "key": "workbench",
-   "group": "desk",
+   "key": "picnic-table",
+   "group": "dining",
+   "probe": true,
    "name": {
-    "zh": "木工台",
-    "ja": "作業台",
-    "en": "Workbench",
-    "ko": "작업대"
+    "zh": "连椅野餐桌",
+    "ja": "ベンチ一体型ピクニックテーブル",
+    "en": "Picnic Table with Benches",
+    "ko": "벤치 일체형 피크닉 테이블"
    },
-   "desc": "a heavy wooden workbench 90 cm high with a thick laminated {wood} top 150 by 70 cm made of glued strips, four thick square legs joined by low stretchers on all sides that carry a lower shelf of flat boards, and a wooden front vise with one round steel screw and a single wooden tommy bar at the left front corner, no tools, empty top and shelf",
-   "keep": "{wood} laminated strip top 150 by 70 cm, four thick square legs, low stretchers with a lower board shelf, wooden front vise at the left front corner, no tools, empty",
+   "desc": "a wooden picnic table with attached benches in {wood}, a rectangular top 180 cm long and 75 cm high made of five lengthwise planks, two long bench seats 45 cm high one on each long side, each made of two lengthwise planks, all carried by two end frames, each end frame made of two straight legs crossing in an X under the top seen from the end and a horizontal crossbar 45 cm high that runs out under both benches, empty top",
+   "keep": "{wood} picnic table, five-plank top 180 cm long, two attached two-plank benches on the long sides, two X-crossed end frames with crossbars under both benches, empty top",
    "checks": [
-    "厚台面拼条纹理、约 90 厘米高",
-    "左前角一个木台钳",
-    "四条粗腿加下层搁板",
-    "没有工具"
+    "桌面五块长木板、约 75 厘米高",
+    "两侧各一条连体长凳、各两块板",
+    "两端各一组 X 形交叉腿",
+    "横撑同时托住两条凳"
    ],
    "variants": [
     {
-     "key": "beech",
+     "key": "pine",
      "name": {
-      "zh": "榉木",
-      "ja": "ブナ",
-      "en": "Beech",
-      "ko": "너도밤나무"
+      "zh": "风化松木",
+      "ja": "風化パイン",
+      "en": "Weathered Pine",
+      "ko": "풍화 소나무"
      },
      "vars": {
-      "wood": "pale beech"
+      "wood": "weathered grey-brown pine"
      }
     }
    ],
    "dims": {
-    "w": 150,
-    "d": 70,
-    "h": 90
+    "w": 180,
+    "d": 150,
+    "h": 75,
+    "seat": 45
    }
   }
  ]

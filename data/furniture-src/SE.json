@@ -2,11 +2,11 @@
  "cat": "SE",
  "note": "Furniture library (docs/furniture/PLAN.md). dims are real centimetres: the front prompt quotes w/d/h and intake scales every piece to one px/cm; seat is the sitting height a composited figure uses.",
  "groups": {
-  "dining": {
-   "zh": "餐椅与单椅",
-   "ja": "ダイニング・単椅子",
-   "en": "Dining & Side Chairs",
-   "ko": "식탁·단독 의자"
+  "chair": {
+   "zh": "单椅",
+   "ja": "椅子",
+   "en": "Chairs",
+   "ko": "의자"
   },
   "lounge": {
    "zh": "休闲椅",
@@ -20,18 +20,29 @@
    "en": "Stools",
    "ko": "스툴"
   },
-  "work": {
-   "zh": "办公与折叠",
-   "ja": "オフィス・折りたたみ",
-   "en": "Office & Folding",
-   "ko": "사무·접이식"
+  "sofa": {
+   "zh": "沙发与躺具",
+   "ja": "ソファ・寝椅子",
+   "en": "Sofas & Loungers",
+   "ko": "소파·라운저"
+  },
+  "bed": {
+   "zh": "床",
+   "ja": "ベッド",
+   "en": "Beds",
+   "ko": "침대"
+  },
+  "outdoor": {
+   "zh": "户外座具",
+   "ja": "屋外の椅子",
+   "en": "Outdoor Seating",
+   "ko": "야외 좌석"
   }
  },
  "forms": [
   {
    "key": "dining-chair",
-   "group": "dining",
-   "probe": true,
+   "group": "chair",
    "name": {
     "zh": "实木餐椅",
     "ja": "木製ダイニングチェア",
@@ -58,18 +69,6 @@
      "vars": {
       "wood": "light oak"
      }
-    },
-    {
-     "key": "walnut",
-     "name": {
-      "zh": "胡桃木",
-      "ja": "ウォルナット",
-      "en": "Walnut",
-      "ko": "월넛"
-     },
-     "vars": {
-      "wood": "dark walnut"
-     }
     }
    ],
    "dims": {
@@ -77,6 +76,41 @@
     "d": 50,
     "h": 85,
     "seat": 45
+   }
+  },
+  {
+   "key": "office-chair",
+   "group": "chair",
+   "name": {
+    "zh": "办公转椅",
+    "ja": "オフィスチェア",
+    "en": "Office Swivel Chair",
+    "ko": "사무용 회전의자"
+   },
+   "desc": "a generic office swivel chair with a black mesh backrest, a padded black seat 48 cm high, fixed black armrests, a single central gas-lift column and a five-star base with five black castors",
+   "keep": "black mesh back, padded black seat, fixed armrests, central gas-lift column, five-star base with five castors",
+   "checks": [
+    "五星脚、五个轮子",
+    "网布靠背",
+    "中间一根升降杆",
+    "没有品牌标识"
+   ],
+   "variants": [
+    {
+     "key": "black",
+     "name": {
+      "zh": "黑色",
+      "ja": "黒",
+      "en": "Black",
+      "ko": "블랙"
+     }
+    }
+   ],
+   "dims": {
+    "w": 65,
+    "d": 65,
+    "h": 105,
+    "seat": 48
    }
   },
   {
@@ -108,19 +142,6 @@
      "vars": {
       "fabric": "mustard yellow wool",
       "wood": "walnut"
-     }
-    },
-    {
-     "key": "green",
-     "name": {
-      "zh": "墨绿丝绒",
-      "ja": "深緑ベルベット",
-      "en": "Green Velvet",
-      "ko": "딥그린 벨벳"
-     },
-     "vars": {
-      "fabric": "deep green velvet",
-      "wood": "dark walnut"
      }
     }
    ],
@@ -170,83 +191,47 @@
    }
   },
   {
-   "key": "office-chair",
-   "group": "work",
+   "key": "rocking-chair",
+   "group": "lounge",
+   "probe": true,
    "name": {
-    "zh": "办公转椅",
-    "ja": "オフィスチェア",
-    "en": "Office Swivel Chair",
-    "ko": "사무용 회전의자"
+    "zh": "摇椅",
+    "ja": "ロッキングチェア",
+    "en": "Rocking Chair",
+    "ko": "흔들의자"
    },
-   "desc": "a generic office swivel chair with a black mesh backrest, a padded black seat 48 cm high, fixed black armrests, a single central gas-lift column and a five-star base with five black castors",
-   "keep": "black mesh back, padded black seat, fixed armrests, central gas-lift column, five-star base with five castors",
+   "desc": "a plain {wood} rocking chair with a flat wooden seat 42 cm high at the front edge, a backrest of seven vertical slats under a curved top rail, two flat armrests, four turned legs, and two long curved runners, one under each side, each runner joining the front and back leg of its side and extending past both, standing at rest with both runners touching the floor line at their middle",
+   "keep": "{wood} rocker, flat seat, seven vertical back slats under a curved top rail, two flat armrests, four turned legs, two curved runners one per side joining front and back legs",
    "checks": [
-    "五星脚、五个轮子",
-    "网布靠背",
-    "中间一根升降杆",
-    "没有品牌标识"
+    "两条弧形摇脚、每侧一条",
+    "摇脚连接同侧前后腿",
+    "靠背七根竖条",
+    "两个平扶手、没有坐垫"
    ],
    "variants": [
     {
-     "key": "black",
+     "key": "maple",
      "name": {
-      "zh": "黑色",
-      "ja": "黒",
-      "en": "Black",
-      "ko": "블랙"
-     }
-    }
-   ],
-   "dims": {
-    "w": 65,
-    "d": 65,
-    "h": 105,
-    "seat": 48
-   }
-  },
-  {
-   "key": "folding-chair",
-   "group": "work",
-   "name": {
-    "zh": "折叠椅",
-    "ja": "折りたたみ椅子",
-    "en": "Folding Chair",
-    "ko": "접이식 의자"
-   },
-   "desc": "an unfolded folding chair with a {frame} steel tube frame crossed in an X at each side, a flat {seat} seat 45 cm high and a flat matching backrest panel",
-   "keep": "{frame} steel tube frame with X-crossed sides, flat {seat} seat and backrest panel, unfolded",
-   "checks": [
-    "两侧 X 形交叉钢管",
-    "展开状态",
-    "平座面、平靠背",
-    "没有坐垫"
-   ],
-   "variants": [
-    {
-     "key": "black",
-     "name": {
-      "zh": "黑框木座",
-      "ja": "黒フレーム・木座",
-      "en": "Black & Wood",
-      "ko": "블랙·우드"
+      "zh": "枫木",
+      "ja": "メープル",
+      "en": "Maple",
+      "ko": "메이플"
      },
      "vars": {
-      "frame": "matte black",
-      "seat": "beech plywood"
+      "wood": "honey maple"
      }
     }
    ],
    "dims": {
-    "w": 45,
-    "d": 50,
-    "h": 80,
-    "seat": 45
+    "w": 60,
+    "d": 90,
+    "h": 100,
+    "seat": 42
    }
   },
   {
    "key": "bar-stool",
    "group": "stool",
-   "probe": true,
    "name": {
     "zh": "吧台高脚凳",
     "ja": "バースツール",
@@ -273,19 +258,6 @@
      "vars": {
       "seat": "oak",
       "frame": "matte black"
-     }
-    },
-    {
-     "key": "brass-leather",
-     "name": {
-      "zh": "黄铜腿皮面",
-      "ja": "真鍮脚・革座",
-      "en": "Brass & Leather",
-      "ko": "황동·가죽"
-     },
-     "vars": {
-      "seat": "cognac leather padded",
-      "frame": "brushed brass"
      }
     }
    ],
@@ -335,364 +307,355 @@
    }
   },
   {
-   "key": "piano-bench",
-   "group": "stool",
-   "name": {
-    "zh": "琴凳",
-    "ja": "ピアノベンチ",
-    "en": "Piano Bench",
-    "ko": "피아노 벤치"
-   },
-   "desc": "a rectangular two-person piano bench in glossy black lacquer with a padded black leather top 50 cm high and four turned legs",
-   "keep": "glossy black lacquer bench, padded black leather top, four turned legs, rectangular",
-   "checks": [
-    "长方形、可坐两人",
-    "黑色亮漆",
-    "皮面软垫",
-    "四条车旋腿"
-   ],
-   "variants": [
-    {
-     "key": "black",
-     "name": {
-      "zh": "黑色",
-      "ja": "黒",
-      "en": "Black",
-      "ko": "블랙"
-     },
-     "bg": "light"
-    }
-   ],
-   "dims": {
-    "w": 80,
-    "d": 35,
-    "h": 50,
-    "seat": 50
-   }
-  },
-  {
-   "key": "wingback",
-   "group": "lounge",
-   "name": {
-    "zh": "高背翼椅",
-    "ja": "ウィングバックチェア",
-    "en": "Wingback Armchair",
-    "ko": "윙백 체어"
-   },
-   "desc": "a traditional wingback armchair upholstered in {fabric} with a tall straight padded back, two shaped wings projecting forward from the upper back on both sides, rolled padded arms, one loose seat cushion 44 cm high, and four short tapered {wood} legs, the front two slightly turned, no buttons and no skirt",
-   "keep": "{fabric} wingback, tall padded back, two forward wings at head height, rolled arms, one loose seat cushion, four short tapered {wood} legs",
-   "checks": [
-    "高靠背、两侧翼片向前伸",
-    "卷扶手",
-    "一个座垫、约 44 厘米高",
-    "四条短木腿、无裙边"
-   ],
-   "variants": [
-    {
-     "key": "rust",
-     "name": {
-      "zh": "铁锈红丝绒",
-      "ja": "テラコッタベルベット",
-      "en": "Rust Velvet",
-      "ko": "러스트 벨벳"
-     },
-     "vars": {
-      "fabric": "rust red velvet",
-      "wood": "dark walnut"
-     }
-    },
-    {
-     "key": "ivory",
-     "name": {
-      "zh": "象牙白圈绒",
-      "ja": "アイボリーブークレ",
-      "en": "Ivory Bouclé",
-      "ko": "아이보리 부클레"
-     },
-     "bg": "dark",
-     "vars": {
-      "fabric": "ivory boucle",
-      "wood": "light oak"
-     }
-    }
-   ],
-   "dims": {
-    "w": 80,
-    "d": 85,
-    "h": 110,
-    "seat": 44
-   }
-  },
-  {
-   "key": "rocking-chair",
-   "group": "lounge",
+   "key": "sofa-3",
+   "group": "sofa",
    "probe": true,
    "name": {
-    "zh": "摇椅",
-    "ja": "ロッキングチェア",
-    "en": "Rocking Chair",
-    "ko": "흔들의자"
+    "zh": "三人沙发",
+    "ja": "三人掛けソファ",
+    "en": "Three-seat Sofa",
+    "ko": "3인 소파"
    },
-   "desc": "a plain {wood} rocking chair with a flat wooden seat 42 cm high at the front edge, a backrest of seven vertical slats under a curved top rail, two flat armrests, four turned legs, and two long curved runners, one under each side, each runner joining the front and back leg of its side and extending past both, standing at rest with both runners touching the floor line at their middle",
-   "keep": "{wood} rocker, flat seat, seven vertical back slats under a curved top rail, two flat armrests, four turned legs, two curved runners one per side joining front and back legs",
+   "desc": "a modern three-seat sofa in {fabric} with three loose seat cushions 44 cm high, three back cushions, low square arms, and short black block legs, about 210 cm wide",
+   "keep": "{fabric} three-seat sofa, three seat and three back cushions, low square arms, short black block legs",
    "checks": [
-    "两条弧形摇脚、每侧一条",
-    "摇脚连接同侧前后腿",
-    "靠背七根竖条",
-    "两个平扶手、没有坐垫"
-   ],
-   "variants": [
-    {
-     "key": "maple",
-     "name": {
-      "zh": "枫木",
-      "ja": "メープル",
-      "en": "Maple",
-      "ko": "메이플"
-     },
-     "vars": {
-      "wood": "honey maple"
-     }
-    }
-   ],
-   "dims": {
-    "w": 60,
-    "d": 90,
-    "h": 100,
-    "seat": 42
-   }
-  },
-  {
-   "key": "windsor-chair",
-   "group": "dining",
-   "probe": true,
-   "name": {
-    "zh": "温莎椅",
-    "ja": "ウィンザーチェア",
-    "en": "Windsor Chair",
-    "ko": "윈저 체어"
-   },
-   "desc": "a generic Windsor side chair in {wood} with a thick carved saddle seat 45 cm high, a steam-bent bow back holding seven slim round spindles socketed into the seat, four turned legs splayed outward, and an H-shaped stretcher joining the legs, no arms",
-   "keep": "{wood} Windsor chair, saddle seat, bow back, seven round spindles into the seat, four splayed turned legs, H-stretcher, no arms",
-   "checks": [
-    "弓形靠背、七根细圆棍",
-    "马鞍形座面",
-    "四条外撇车旋腿",
-    "H 形横撑、无扶手"
-   ],
-   "variants": [
-    {
-     "key": "ash",
-     "name": {
-      "zh": "白蜡木",
-      "ja": "アッシュ",
-      "en": "Ash",
-      "ko": "애쉬"
-     },
-     "vars": {
-      "wood": "natural ash"
-     }
-    }
-   ],
-   "dims": {
-    "w": 52,
-    "d": 50,
-    "h": 95,
-    "seat": 45
-   }
-  },
-  {
-   "key": "directors-chair",
-   "group": "work",
-   "name": {
-    "zh": "导演椅",
-    "ja": "ディレクターズチェア",
-    "en": "Director's Chair",
-    "ko": "감독 의자"
-   },
-   "desc": "a folding director's chair with a {wood} frame, the legs crossed in an X under the seat on each side, a {canvas} canvas seat sling 45 cm high, a {canvas} canvas back band stretched between two upright posts, and two flat wooden armrests, unfolded, no printing on the canvas",
-   "keep": "{wood} frame with X-crossed legs on each side, {canvas} canvas seat and back band, two upright posts, two flat armrests, unfolded",
-   "checks": [
-    "两侧腿在座下 X 交叉",
-    "帆布座面和一条帆布靠背",
-    "两个平木扶手",
-    "帆布上没有字"
-   ],
-   "variants": [
-    {
-     "key": "natural",
-     "name": {
-      "zh": "原木黑布",
-      "ja": "ナチュラル・黒",
-      "en": "Natural & Black",
-      "ko": "내추럴·블랙"
-     },
-     "vars": {
-      "wood": "natural beech",
-      "canvas": "black"
-     }
-    }
-   ],
-   "dims": {
-    "w": 55,
-    "d": 50,
-    "h": 85,
-    "seat": 45
-   }
-  },
-  {
-   "key": "slipper-chair",
-   "group": "lounge",
-   "name": {
-    "zh": "无扶手软椅",
-    "ja": "スリッパチェア",
-    "en": "Slipper Chair",
-    "ko": "슬리퍼 체어"
-   },
-   "desc": "an armless slipper chair fully upholstered in {fabric} with a low tight seat 40 cm high, a tall gently curved tight back, no arms, and four short tapered {wood} legs, no cushions and no buttons",
-   "keep": "{fabric} armless chair, low tight seat, tall curved tight back, four short tapered {wood} legs",
-   "checks": [
-    "没有扶手",
-    "座面低、约 40 厘米",
-    "靠背高且略弧",
-    "四条短锥腿、无扣"
-   ],
-   "variants": [
-    {
-     "key": "terracotta",
-     "name": {
-      "zh": "陶土圈绒",
-      "ja": "テラコッタブークレ",
-      "en": "Terracotta Bouclé",
-      "ko": "테라코타 부클레"
-     },
-     "vars": {
-      "fabric": "terracotta boucle",
-      "wood": "walnut"
-     }
-    }
-   ],
-   "dims": {
-    "w": 60,
-    "d": 70,
-    "h": 80,
-    "seat": 40
-   }
-  },
-  {
-   "key": "bistro-chair",
-   "group": "dining",
-   "name": {
-    "zh": "曲木咖啡椅",
-    "ja": "曲木カフェチェア",
-    "en": "Bentwood Bistro Chair",
-    "ko": "벤트우드 카페 의자"
-   },
-   "desc": "a generic bentwood café chair in {wood} with a round {seat} seat 46 cm high, a back made of one steam-bent hoop with a smaller oval loop inside it, four slender round legs, and a bent-wood ring joining the legs below the seat, no arms",
-   "keep": "{wood} bentwood chair, round {seat} seat, bent hoop back with inner oval loop, four slender legs, ring below the seat",
-   "checks": [
-    "圆座面",
-    "靠背外圈加内椭圆圈",
-    "四条细圆腿",
-    "座下一圈连接环"
-   ],
-   "variants": [
-    {
-     "key": "black",
-     "name": {
-      "zh": "黑色藤面",
-      "ja": "黒・籐座",
-      "en": "Black & Cane",
-      "ko": "블랙·라탄"
-     },
-     "vars": {
-      "wood": "black-stained beech",
-      "seat": "woven cane"
-     }
-    }
-   ],
-   "dims": {
-    "w": 42,
-    "d": 50,
-    "h": 85,
-    "seat": 46
-   }
-  },
-  {
-   "key": "upholstered-dining",
-   "group": "dining",
-   "name": {
-    "zh": "软包餐椅",
-    "ja": "布張りダイニングチェア",
-    "en": "Upholstered Dining Chair",
-    "ko": "패브릭 식탁 의자"
-   },
-   "desc": "an upholstered dining chair with the seat and straight back fully covered in {fabric}, a padded seat 47 cm high, a slightly reclined rectangular back with rounded top corners, and four slim tapered {wood} legs, no arms, no buttons, no stretchers",
-   "keep": "{fabric} seat and straight back, rounded top corners, four slim tapered {wood} legs, no arms",
-   "checks": [
-    "座面和靠背全软包",
-    "靠背长方、上角圆",
-    "四条细锥腿、无横撑",
-    "无扶手"
+    "三个座垫、三个靠垫",
+    "方形低扶手",
+    "短方腿",
+    "没有抱枕和毯子"
    ],
    "variants": [
     {
      "key": "grey",
      "name": {
-      "zh": "鸽灰亚麻",
-      "ja": "グレーリネン",
-      "en": "Dove Grey Linen",
-      "ko": "그레이 린넨"
+      "zh": "浅灰",
+      "ja": "ライトグレー",
+      "en": "Light Grey",
+      "ko": "라이트 그레이"
      },
      "vars": {
-      "fabric": "dove grey linen",
-      "wood": "oak"
+      "fabric": "light grey woven fabric"
      }
     }
    ],
    "dims": {
-    "w": 48,
-    "d": 56,
-    "h": 95,
-    "seat": 47
+    "w": 210,
+    "d": 90,
+    "h": 80,
+    "seat": 44
    }
   },
   {
-   "key": "step-stool",
-   "group": "stool",
+   "key": "chaise",
+   "group": "sofa",
    "name": {
-    "zh": "两步踏凳",
-    "ja": "ステップスツール",
-    "en": "Step Stool",
-    "ko": "스텝 스툴"
+    "zh": "贵妃榻",
+    "ja": "シェーズロング",
+    "en": "Chaise Longue",
+    "ko": "셰이즈 롱"
    },
-   "desc": "a sturdy two-step wooden step stool in {wood} with two flat treads, the lower step 25 cm high and the top step 50 cm high, solid side panels shaped like a stair profile, and a round hand hole cut in each side panel",
-   "keep": "{wood} step stool, two flat treads at 25 and 50 cm, stair-profile solid side panels, round hand hole in each side",
+   "desc": "a classic chaise longue in {fabric} with a long padded seat 40 cm high, a raised scrolled headrest at the left end, a low partial backrest along the back, and four short turned {wood} legs, about 180 cm long",
+   "keep": "{fabric} chaise, long padded seat, scrolled headrest at the left end, low partial back, four turned {wood} legs",
    "checks": [
-    "两级踏板",
-    "顶层约 50 厘米高",
-    "两侧实木阶梯形侧板",
-    "每侧一个圆形提手孔"
+    "长座面可躺",
+    "一端高起卷头",
+    "半截靠背",
+    "四条短车旋腿"
    ],
    "variants": [
     {
-     "key": "beech",
+     "key": "blush",
      "name": {
-      "zh": "榉木",
-      "ja": "ブナ",
-      "en": "Beech",
-      "ko": "너도밤나무"
+      "zh": "藕粉丝绒",
+      "ja": "ピンクベルベット",
+      "en": "Blush Velvet",
+      "ko": "블러시 벨벳"
      },
      "vars": {
-      "wood": "pale beech"
+      "fabric": "dusty pink velvet",
+      "wood": "gilded"
      }
     }
    ],
    "dims": {
-    "w": 42,
-    "d": 45,
-    "h": 50,
+    "w": 180,
+    "d": 70,
+    "h": 75,
+    "seat": 40
+   }
+  },
+  {
+   "key": "bean-bag",
+   "group": "sofa",
+   "name": {
+    "zh": "懒人豆袋",
+    "ja": "ビーズクッション",
+    "en": "Bean Bag",
+    "ko": "빈백"
+   },
+   "desc": "a large pear-shaped bean bag in {fabric}, slumped naturally with a soft dent in the seat, visible seams running from top to base",
+   "keep": "{fabric} pear-shaped bean bag, soft seat dent, vertical seams",
+   "checks": [
+    "梨形",
+    "座位处自然凹陷",
+    "竖向缝线",
+    "没有标签"
+   ],
+   "variants": [
+    {
+     "key": "teddy",
+     "name": {
+      "zh": "奶白羊羔绒",
+      "ja": "ボア・オフホワイト",
+      "en": "Cream Teddy",
+      "ko": "크림 테디"
+     },
+     "bg": "dark",
+     "vars": {
+      "fabric": "cream teddy fleece"
+     }
+    }
+   ],
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 100,
+    "seat": 40
+   }
+  },
+  {
+   "key": "swing-chair",
+   "group": "sofa",
+   "name": {
+    "zh": "吊篮椅",
+    "ja": "ハンギングチェア",
+    "en": "Hanging Egg Chair",
+    "ko": "행잉 체어"
+   },
+   "desc": "a hanging egg chair: a teardrop-shaped open-front basket woven in {weave}, with a round {cushion} cushion inside, hanging from a short chain on a curved black steel stand with a round base",
+   "keep": "teardrop {weave} basket open at the front, round {cushion} cushion, short chain, curved black steel stand with round base",
+   "checks": [
+    "水滴形吊篮、正面开口",
+    "弧形黑钢支架",
+    "圆形底座",
+    "内有圆坐垫"
+   ],
+   "variants": [
+    {
+     "key": "natural",
+     "name": {
+      "zh": "原色藤",
+      "ja": "ナチュラル",
+      "en": "Natural Rattan",
+      "ko": "내추럴 라탄"
+     },
+     "vars": {
+      "weave": "natural rattan",
+      "cushion": "white"
+     }
+    }
+   ],
+   "dims": {
+    "w": 100,
+    "d": 100,
+    "h": 195,
     "seat": 50
+   }
+  },
+  {
+   "key": "double-bed",
+   "group": "bed",
+   "name": {
+    "zh": "软包床头双人床",
+    "ja": "布張りヘッドボードのダブルベッド",
+    "en": "Upholstered Double Bed",
+    "ko": "패브릭 헤드보드 더블 침대"
+   },
+   "desc": "a double bed with a tall upholstered headboard in {fabric} divided into six vertical padded channels, upholstered side rails and footboard rail in the same fabric, short hidden legs, and one mattress whose top is 55 cm high, neatly made with a white fitted sheet, one {duvet} duvet laid flat, and exactly two white pillows side by side, no throw and no extra pillows",
+   "keep": "{fabric} headboard with six vertical channels, upholstered rails, hidden legs, white sheet, flat {duvet} duvet, two white pillows",
+   "checks": [
+    "床头六条竖向软包",
+    "床框同色软包",
+    "两个枕头并排",
+    "没有抱枕和搭毯"
+   ],
+   "variants": [
+    {
+     "key": "grey",
+     "name": {
+      "zh": "浅灰",
+      "ja": "ライトグレー",
+      "en": "Light Grey",
+      "ko": "라이트 그레이"
+     },
+     "bg": "dark",
+     "vars": {
+      "fabric": "light grey linen",
+      "duvet": "white"
+     }
+    }
+   ],
+   "dims": {
+    "w": 165,
+    "d": 215,
+    "h": 120,
+    "seat": 55
+   }
+  },
+  {
+   "key": "park-bench",
+   "group": "outdoor",
+   "name": {
+    "zh": "公园长椅",
+    "ja": "公園のベンチ",
+    "en": "Park Bench",
+    "ko": "공원 벤치"
+   },
+   "desc": "a classic three-seat park bench 180 cm long with {slat} wooden slats forming the seat and backrest and two {frame} cast-iron end frames with scrolled armrests, seat 45 cm high, no plaque",
+   "keep": "180 cm bench, {slat} slat seat and back, two {frame} cast-iron end frames with scrolled arms, no plaque",
+   "checks": [
+    "木条座面和靠背",
+    "两端铸铁框架带扶手",
+    "约三人长度",
+    "没有铭牌文字"
+   ],
+   "variants": [
+    {
+     "key": "green",
+     "name": {
+      "zh": "墨绿铁架",
+      "ja": "深緑の鉄脚",
+      "en": "Green Iron",
+      "ko": "녹색 철제"
+     },
+     "vars": {
+      "slat": "weathered teak",
+      "frame": "dark green"
+     }
+    }
+   ],
+   "dims": {
+    "w": 180,
+    "d": 60,
+    "h": 80,
+    "seat": 45
+   }
+  },
+  {
+   "key": "adirondack-chair",
+   "group": "outdoor",
+   "name": {
+    "zh": "阿迪朗达克椅",
+    "ja": "アディロンダックチェア",
+    "en": "Adirondack-Style Chair",
+    "ko": "애디론댁 체어"
+   },
+   "desc": "a wooden Adirondack-style garden chair painted {paint}, with a tall fan-shaped backrest of seven vertical slats with a rounded top edge, a low slatted seat sloping backward that is 35 cm high at the front edge, wide flat armrests on front posts, and two straight back legs, no cushion",
+   "keep": "{paint} painted wood, tall fan-shaped back of seven slats with a rounded top, low sloping slatted seat, wide flat armrests, no cushion",
+   "checks": [
+    "扇形高靠背、七根竖条",
+    "座面低且后倾",
+    "宽平扶手",
+    "没有坐垫"
+   ],
+   "variants": [
+    {
+     "key": "white",
+     "name": {
+      "zh": "白色",
+      "ja": "白",
+      "en": "White",
+      "ko": "화이트"
+     },
+     "bg": "dark",
+     "vars": {
+      "paint": "white"
+     }
+    }
+   ],
+   "dims": {
+    "w": 75,
+    "d": 90,
+    "h": 95,
+    "seat": 35
+   }
+  },
+  {
+   "key": "sun-lounger",
+   "group": "outdoor",
+   "name": {
+    "zh": "柚木躺椅",
+    "ja": "チーク製サンラウンジャー",
+    "en": "Teak Sun Lounger",
+    "ko": "티크 선베드"
+   },
+   "desc": "a teak sun lounger 200 cm long with a flat slatted bed of crosswise slats 35 cm high, the backrest section at the head end raised to about 45 degrees on a hidden ratchet, four short square legs with two small wheels on the head-end legs, oiled {wood}, no cushion, no towel",
+   "keep": "oiled {wood} lounger 200 cm long, crosswise slats, backrest raised about 45 degrees, four square legs, two small wheels at the head end, no cushion",
+   "checks": [
+    "横向木条床面",
+    "头部靠背约 45 度抬起",
+    "头端两个小轮",
+    "没有垫子和毛巾"
+   ],
+   "variants": [
+    {
+     "key": "teak",
+     "name": {
+      "zh": "柚木",
+      "ja": "チーク",
+      "en": "Teak",
+      "ko": "티크"
+     },
+     "vars": {
+      "wood": "honey teak"
+     }
+    }
+   ],
+   "dims": {
+    "w": 65,
+    "d": 200,
+    "h": 85,
+    "seat": 35
+   }
+  },
+  {
+   "key": "porch-swing",
+   "group": "outdoor",
+   "probe": true,
+   "name": {
+    "zh": "带架秋千椅",
+    "ja": "スタンド付きブランコベンチ",
+    "en": "Porch Swing on Frame",
+    "ko": "프레임 그네 벤치"
+   },
+   "desc": "a two-seat wooden porch swing bench with a slatted seat 45 cm high and a slatted back, flat armrests at both ends, hung still and level by two straight {chain} chains at each end from the top beam of a free-standing A-frame stand in the same {wood}, the stand made of two A-shaped end frames joined by the top beam, no cushion",
+   "keep": "{wood} two-seat slatted swing bench with arms, two {chain} chains at each end, free-standing A-frame stand of two A-shaped end frames and a top beam, hanging still and level",
+   "checks": [
+    "秋千两端各两根链条",
+    "两端 A 字形架加顶梁",
+    "秋千静止、水平",
+    "木条座面和靠背、没有垫子"
+   ],
+   "variants": [
+    {
+     "key": "cedar",
+     "name": {
+      "zh": "雪松木",
+      "ja": "シダー",
+      "en": "Cedar",
+      "ko": "삼나무"
+     },
+     "vars": {
+      "wood": "reddish cedar",
+      "chain": "galvanised steel"
+     }
+    }
+   ],
+   "dims": {
+    "w": 220,
+    "d": 140,
+    "h": 200,
+    "seat": 45
    }
   }
  ]
