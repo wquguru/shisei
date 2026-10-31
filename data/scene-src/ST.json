@@ -24,8 +24,7 @@
       "keep": "{colour} seamless matte paper filling the whole background and both edges, smooth curve from backdrop into floor, no creases, no top edge or roll visible, no lights or equipment, empty paper floor in the centre",
       "checks": ["背景纸颜色统一、无褶皱", "看不到纸卷顶边和两侧边缘", "没有灯架、线缆等器材", "中央地面空着"],
       "variants": [
-        {"key": "grey", "name": {"zh": "中灰", "ja": "ミディアムグレー", "en": "Mid Grey", "ko": "미디엄 그레이"}, "vars": {"colour": "neutral mid-grey"}, "light": "Soft even studio light from the front, a gentle darker falloff toward the top of the backdrop"},
-        {"key": "beige", "name": {"zh": "暖米色", "ja": "ウォームベージュ", "en": "Warm Beige", "ko": "웜 베이지"}, "vars": {"colour": "warm sand beige"}, "light": "Warm soft studio light from the front left, a subtle warm glow on the backdrop behind the standing spot"}
+        {"key": "grey", "name": {"zh": "中灰", "ja": "ミディアムグレー", "en": "Mid Grey", "ko": "미디엄 그레이"}, "vars": {"colour": "neutral mid-grey"}, "light": "Soft even studio light from the front, a gentle darker falloff toward the top of the backdrop"}
       ]
     },
     {
@@ -46,16 +45,6 @@
       "checks": ["斑驳云纹、橄榄灰棕色", "中间亮、四周暗", "布面里没有可辨认的图形或文字", "中央地面空着"],
       "variants": [
         {"key": "classic", "name": {"zh": "古典肖像光", "ja": "クラシック", "en": "Classic Portrait", "ko": "클래식 인물광"}, "light": "Soft directional light from the upper left like a classic portrait studio, gentle shadows in the canvas folds"}
-      ]
-    },
-    {
-      "key": "brick-wall", "group": "textured",
-      "name": {"zh": "白砖墙", "ja": "白いレンガ壁", "en": "White Brick Wall", "ko": "화이트 벽돌벽"},
-      "desc": "a photographic studio set of a white-painted brick wall filling the whole background and both edges of the frame, the bricks laid in a regular running bond with slightly uneven paint and visible mortar lines, meeting a plain pale grey polished concrete floor at a straight base line behind the standing spot, no windows, no sockets, no shelves, nothing else in frame, and a clear patch of plain concrete floor in the centre about 4 metres from the camera",
-      "keep": "white-painted brick wall in running bond filling the whole background and both edges, pale grey polished concrete floor, straight base line, no windows, sockets or shelves, no equipment, empty floor in the centre",
-      "checks": ["白漆砖墙铺满背景", "砖缝横平竖直", "没有窗、插座、架子", "中央地面空着"],
-      "variants": [
-        {"key": "day", "name": {"zh": "柔光", "ja": "やわらかい光", "en": "Soft Light", "ko": "부드러운 빛"}, "light": "Soft even daylight-balanced studio light from the front right, faint shadows in the mortar lines"}
       ]
     },
     {

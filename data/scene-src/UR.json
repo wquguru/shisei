@@ -37,8 +37,7 @@
       "keep": "small shops on both sides with half-down shutters, blank signboards, plain neon shapes in pink, cyan and amber with no lettering, strings of bulbs overhead, wet stone paving, empty centre paving",
       "checks": ["两侧小店、霓虹只是几何色块", "招牌和霓虹没有任何文字或字符", "街上没有人", "中央路面空着"],
       "variants": [
-        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the paving lit by the coloured neon glow and the warm bulbs, deep blue sky above the roofline"},
-        {"key": "rain", "name": {"zh": "雨夜", "ja": "雨の夜", "en": "Rainy Night", "ko": "비 오는 밤"}, "light": "Rainy night, the wet paving mirroring the pink, cyan and amber neon in long streaks, a light drizzle in the air"}
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the paving lit by the coloured neon glow and the warm bulbs, deep blue sky above the roofline"}
       ]
     },
     {
@@ -48,18 +47,7 @@
       "keep": "narrow tall tenement blocks on both sides with balconies, grilles and AC units, blank coloured signboards jutting over the street, ground-floor shutters, empty road, no vehicles, empty centre road",
       "checks": ["两侧高密度唐楼和外挑招牌", "招牌全是空白、没有字", "街上没有车和人", "中央路面空着"],
       "variants": [
-        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Hazy daylight, a narrow strip of pale sky between the buildings, soft shadows in the street"},
         {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the blank signboards backlit in plain warm white and red, apartment windows lit above, the street glowing"}
-      ]
-    },
-    {
-      "key": "cafe-terrace", "group": "street",
-      "name": {"zh": "街边咖啡座", "ja": "歩道のカフェテラス", "en": "Pavement Café Terrace", "ko": "노천카페"},
-      "desc": "a wide stone pavement in front of a café, a plain dark green awning with no lettering along the left building front, small round metal bistro tables and chairs set in a single row along the left side under the awning, a row of plane trees with iron tree grilles along the kerb on the right, a quiet empty street beyond them, generic five-storey stone apartment buildings in the distance, and an empty patch of pavement in the centre about 4 metres from the camera",
-      "keep": "wide stone pavement, dark green plain awning on the left, one row of bistro tables and chairs along the left, plane trees with iron grilles along the right kerb, empty street, generic stone buildings in the distance, empty centre pavement",
-      "checks": ["左侧遮阳篷和一排小圆桌", "遮阳篷和店面没有字", "右侧梧桐树", "中央人行道空着"],
-      "variants": [
-        {"key": "morning", "name": {"zh": "清晨", "ja": "朝", "en": "Morning", "ko": "아침"}, "light": "Fresh morning sun from the right, dappled shadows of the plane-tree leaves across the pavement"}
       ]
     },
     {
@@ -69,8 +57,7 @@
       "keep": "two-storey grey and red brick terraced houses on both sides, black doors in stone frames without inscriptions, bamboo laundry poles high up, potted plants by the doors, stone-paved lane, arched passage at the far end, empty centre paving",
       "checks": ["两侧石库门联排", "门楣上没有字", "高处竹竿晾衣", "中央石板路空着"],
       "variants": [
-        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft afternoon sun falling on the right-hand houses, the left side in cool shade"},
-        {"key": "evening", "name": {"zh": "傍晚", "ja": "夕方", "en": "Evening", "ko": "저녁"}, "light": "Early evening, a dusky blue sky, warm light from a few windows and a single bare lamp over a doorway"}
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft afternoon sun falling on the right-hand houses, the left side in cool shade"}
       ]
     },
     {
@@ -90,18 +77,7 @@
       "keep": "curving paved path, mature trees and lawns on both sides, wooden benches on the left edge, iron lamp post on the right, low hedge in the middle distance, generic buildings above the trees, empty centre path",
       "checks": ["小径向远处弯曲", "左侧长椅、右侧路灯", "远处没有可认出的天际线", "中央小径空着"],
       "variants": [
-        {"key": "morning", "name": {"zh": "清晨", "ja": "朝", "en": "Morning", "ko": "아침"}, "light": "Early morning, low golden sun through the trees, long soft shadows across the path, light mist"},
-        {"key": "dusk", "name": {"zh": "黄昏", "ja": "夕暮れ", "en": "Dusk", "ko": "황혼"}, "light": "Dusk, pink and violet sky, the iron lamp post just switched on with a warm glow"}
-      ]
-    },
-    {
-      "key": "plaza-fountain", "group": "open",
-      "name": {"zh": "广场喷泉", "ja": "噴水のある広場", "en": "Fountain Plaza", "ko": "분수 광장"},
-      "desc": "a broad paved city plaza of light granite slabs, a round stone fountain basin with a low central jet in the far middle distance, rows of clipped trees in square planters along the left and right sides, low stone benches under the trees, generic modern buildings of glass and pale stone framing the plaza with no recognisable landmark, and an empty expanse of granite paving in the centre about 4 metres from the camera",
-      "keep": "light granite paving, round stone fountain with a low jet in the far middle distance, clipped trees in square planters on both sides, stone benches under the trees, generic glass and stone buildings around, empty centre paving",
-      "checks": ["远处圆形喷泉", "两侧方形树池", "建筑上没有字和标志", "中央地面空着"],
-      "variants": [
-        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright afternoon sun, blue sky with a few clouds, sparkling spray on the fountain"}
+        {"key": "morning", "name": {"zh": "清晨", "ja": "朝", "en": "Morning", "ko": "아침"}, "light": "Early morning, low golden sun through the trees, long soft shadows across the path, light mist"}
       ]
     },
     {
@@ -131,48 +107,7 @@
       "keep": "pale stone paving, black iron railing on the right with the river beyond, street lamps and young trees on the left, stone benches, generic far bank buildings, straight promenade into the distance, empty centre paving",
       "checks": ["右侧铁栏杆和江面", "左侧路灯和树", "对岸不是真实天际线", "中央步道空着"],
       "variants": [
-        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Clear morning light, soft blue sky, bright reflections on the river"},
         {"key": "dusk", "name": {"zh": "黄昏", "ja": "夕暮れ", "en": "Dusk", "ko": "황혼"}, "light": "Golden hour, the sun low over the far bank, the river glowing orange, the street lamps just coming on"}
-      ]
-    },
-    {
-      "key": "footbridge", "group": "water",
-      "name": {"zh": "人行天桥", "ja": "歩道橋", "en": "Pedestrian Bridge", "ko": "보행교"},
-      "desc": "a modern pedestrian bridge over a canal seen lengthwise along its deck, a light timber deck with steel edges, slim white steel arches and cable hangers rising along the left and right sides, glass balustrades on both edges, the canal water and low generic waterside buildings visible through the glass, the deck running to a landing at the far end, and an empty patch of timber deck in the centre about 4 metres from the camera",
-      "keep": "light timber deck with steel edges, white steel arches and hangers on both sides, glass balustrades, canal and low buildings beyond, landing at the far end, empty centre deck",
-      "checks": ["木桥面向远处延伸", "两侧白色钢拱和玻璃栏板", "不是可认出的真实桥", "中央桥面空着"],
-      "variants": [
-        {"key": "overcast", "name": {"zh": "阴天", "ja": "曇り", "en": "Overcast", "ko": "흐림"}, "light": "Soft overcast daylight, pale grey sky, gentle even light and calm grey water"}
-      ]
-    },
-    {
-      "key": "harbour-pier", "group": "water",
-      "name": {"zh": "港口栈桥", "ja": "港の桟橋", "en": "Harbour Pier", "ko": "항구 부두"},
-      "desc": "a weathered wooden harbour pier running straight out over the sea, thick timber planks, heavy wooden posts and iron bollards with coiled ropes along the left and right edges, a few small unmarked white fishing boats with no names or numbers moored on the right, a low breakwater and open sea at the far end, and an empty patch of planking in the centre about 4 metres from the camera",
-      "keep": "weathered timber planks, wooden posts and iron bollards with ropes on both edges, small unmarked white boats moored on the right, breakwater and open sea at the far end, empty centre planking",
-      "checks": ["木栈桥向海面延伸", "右侧小渔船没有船名和编号", "两侧系缆柱和绳索", "中央栈桥空着"],
-      "variants": [
-        {"key": "fog", "name": {"zh": "雾天", "ja": "霧", "en": "Fog", "ko": "안개"}, "light": "Morning sea fog, soft white diffuse light, the far end of the pier and the sea fading into mist"}
-      ]
-    },
-    {
-      "key": "subway-entrance", "group": "transit",
-      "name": {"zh": "地铁站入口", "ja": "地下鉄の入口", "en": "Subway Entrance", "ko": "지하철 입구"},
-      "desc": "the top of a city subway entrance seen from the pavement, a wide flight of grey granite stairs descending away from the camera in the middle distance under a glass and steel canopy, stainless-steel handrails on both sides, a plain blank grey pylon with no symbols or lettering beside the canopy on the left, street trees and generic office buildings on the right, and an empty patch of pavement in the centre about 4 metres from the camera in front of the stairs",
-      "keep": "granite stairs descending under a glass and steel canopy, steel handrails, blank grey pylon on the left, street trees and generic buildings on the right, empty centre pavement in front of the stairs",
-      "checks": ["玻璃雨棚下的下行楼梯", "立柱和雨棚上没有站名、标志和文字", "没有行人", "中央人行道空着"],
-      "variants": [
-        {"key": "rain", "name": {"zh": "雨天", "ja": "雨", "en": "Rain", "ko": "비"}, "light": "Grey rainy day, wet glistening pavement, rain running off the glass canopy, the stairwell lit cool white inside"}
-      ]
-    },
-    {
-      "key": "car-park", "group": "transit",
-      "name": {"zh": "立体停车场", "ja": "立体駐車場", "en": "Multi-storey Car Park", "ko": "주차 빌딩"},
-      "desc": "an empty level of a multi-storey car park with bare concrete columns and a low concrete ceiling, no cars at all, painted white parking bay lines on the grey concrete floor along the left and right sides, plain yellow-and-black striped bands on the column bases, a ramp curving up in the far right corner, open sides on the left showing a night city of generic buildings, and an empty patch of concrete floor in the centre about 4 metres from the camera",
-      "keep": "bare concrete columns, low concrete ceiling, no cars, white bay lines on both sides, striped column bases, ramp in the far right corner, open left side with generic city, empty centre floor",
-      "checks": ["没有任何车辆", "柱子和地面没有字或数字", "右后方坡道", "中央地面空着"],
-      "variants": [
-        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, cold greenish fluorescent tube lights on the ceiling, deep shadows between the columns"}
       ]
     },
     {
@@ -183,16 +118,6 @@
       "checks": ["左侧玻璃候车亭", "灯箱空白、没有广告和站牌字", "路上没有车", "中央人行道空着"],
       "variants": [
         {"key": "rain-night", "name": {"zh": "雨夜", "ja": "雨の夜", "en": "Rainy Night", "ko": "비 오는 밤"}, "light": "Rainy night, the blank panel glowing white, rain falling through the street lamp light, puddles on the pavement"}
-      ]
-    },
-    {
-      "key": "underpass", "group": "transit",
-      "name": {"zh": "高架桥下", "ja": "高架下", "en": "Under the Overpass", "ko": "고가도로 아래"},
-      "desc": "the space beneath a concrete road overpass, massive grey concrete pillars standing in a row along the left and right sides, the underside of the concrete deck overhead, clean plain concrete walls with no graffiti, a smooth paved ground with faint stains, daylight open at the far end showing generic low buildings, and an empty patch of paved ground in the centre about 4 metres from the camera",
-      "keep": "row of massive concrete pillars on both sides, concrete deck overhead, plain concrete walls without graffiti, smooth paved ground, open far end with generic low buildings, empty centre ground",
-      "checks": ["两侧巨大混凝土桥墩", "头顶桥面底部", "墙上没有涂鸦和文字", "中央地面空着"],
-      "variants": [
-        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright day outside, the underpass in cool shade, a strong band of sunlight at the far opening"}
       ]
     }
   ]
