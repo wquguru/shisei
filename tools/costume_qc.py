@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Merge the costume QC inputs into data/costume-qc.json (docs/qc/costume_prompt.md).
 
-Inputs in data/costume-qc-input/, applied in file-name order so a later round overrides an earlier one:
+Inputs in data/costume-qc-input/, applied gen files first, then by review round (`_r<N>` in the name, e.g.
+fail_we_r2_01.json), reviewer before manual within a round, so a later round overrides an earlier one:
   gen_<run>.json    {"run", "missing": {"C007_front": "Muse note", …}}: cells the generator never produced
   fail_<...>.json   reviewer output {"reviewed": [ids], "fails": [{"id", "view", "status", "reason"}]}
   manual_<...>.json same shape, written by a person; a fail entry with status "pass" re-admits a panel
@@ -10,7 +11,7 @@ A view is pass when its item was reviewed and no later file fails it; missing co
 Usage: python3 -I tools/costume_qc.py
        python3 -I tools/costume_qc.py --gen ~/Downloads/costume-hc/intake.json hc_run01   # record missing cells
 """
-import argparse, json, pathlib
+import argparse, json, pathlib, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 INP, OUT = ROOT / "data/costume-qc-input", ROOT / "data/costume-qc.json"
@@ -32,7 +33,11 @@ def main() -> None:
 
     items = {i["id"]: i for i in json.loads((ROOT / "data/costumes.json").read_text())["items"]}
     qc = {}
-    for f in sorted(INP.glob("*.json")):
+    def order(f):
+        m = re.search(r"_r(\d+)[_.]", f.name)
+        return (not f.name.startswith("gen_"), int(m.group(1)) if m else 1, f.name.startswith("manual_"), f.name)
+
+    for f in sorted(INP.glob("*.json"), key=order):
         d = json.loads(f.read_text())
         if f.name.startswith("gen_"):
             for cell, note in d["missing"].items():

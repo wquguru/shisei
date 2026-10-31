@@ -53,12 +53,21 @@ def main() -> None:
     ap.add_argument("src")
     ap.add_argument("deliveries", nargs="+")
     ap.add_argument("--model", default="~/.u2net/isnet-general-use.onnx")
+    ap.add_argument("--reset", help="manifest.json of a repair brief: its cells are cleared first, so a view turned "
+                                    "from an old front never stays next to a new one")
     a = ap.parse_args()
     src = pathlib.Path(a.src).expanduser()
     for d in ("raw", "alpha", "grey", "dark"):
         (src / d).mkdir(parents=True, exist_ok=True)
     log_path = src / "intake.json"
     log = json.loads(log_path.read_text()) if log_path.exists() else {}
+    if a.reset:
+        man = json.loads(pathlib.Path(a.reset).expanduser().read_text())
+        for cid, views in man["need"].items():
+            for v in views:
+                for d in ("raw", "alpha", "grey", "dark"):
+                    (src / d / f"{cid}_{v}.png").unlink(missing_ok=True)
+                log[f"{cid}_{v}"] = {"from": man["run"], "status": "missing", "muse": "", "note": "reset for " + man["run"]}
 
     sess = ort.InferenceSession(str(pathlib.Path(a.model).expanduser()),
                                 providers=["CoreMLExecutionProvider", "CPUExecutionProvider"])

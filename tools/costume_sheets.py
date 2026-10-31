@@ -21,11 +21,13 @@ def main() -> None:
     ap.add_argument("out")
     ap.add_argument("--cat", default="")
     ap.add_argument("--per", type=int, default=28)
+    ap.add_argument("--only", default="", help="comma-separated IDs, e.g. the items of a repair run")
     a = ap.parse_args()
     src, out = pathlib.Path(a.src).expanduser(), pathlib.Path(a.out).expanduser()
     (out / "sheets").mkdir(parents=True, exist_ok=True)
     big, small = ImageFont.truetype(FONT, 30), ImageFont.truetype(FONT, 22)
-    items = [i for i in json.loads((ROOT / "data/costumes.json").read_text())["items"] if not a.cat or i["cat"] == a.cat]
+    items = [i for i in json.loads((ROOT / "data/costumes.json").read_text())["items"] if (not a.cat or i["cat"] == a.cat)
+             and (not a.only or i["id"] in a.only.split(","))]
     made = []
     for i in items:
         files = [src / "dark" / f"{i['id']}_{v}.png" for v, _ in VIEWS]
