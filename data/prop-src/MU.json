@@ -15,8 +15,7 @@
       "keep": "{top} spruce top, {back} back and sides, one round soundhole, teardrop pickguard, rectangular bridge with six pins, six strings, dot-inlay fretboard, plain headstock with three pegs per side",
       "checks": ["六根弦", "琴头左右各三个弦钮，共六个", "一个圆音孔", "琴头无标志"],
       "variants": [
-        {"key": "natural", "name": {"zh": "原木色", "ja": "ナチュラル", "en": "Natural", "ko": "내추럴"}, "vars": {"top": "pale natural", "back": "warm brown mahogany"}},
-        {"key": "sunburst", "name": {"zh": "日落渐变", "ja": "サンバースト", "en": "Sunburst", "ko": "선버스트"}, "vars": {"top": "tobacco sunburst (amber centre fading to dark brown edges)", "back": "dark brown mahogany"}}
+        {"key": "natural", "name": {"zh": "原木色", "ja": "ナチュラル", "en": "Natural", "ko": "내추럴"}, "vars": {"top": "pale natural", "back": "warm brown mahogany"}}
       ]
     },
     {
@@ -50,16 +49,6 @@
       ]
     },
     {
-      "key": "ukulele", "group": "western", "place": "float", "size": "M",
-      "name": {"zh": "尤克里里", "ja": "ウクレレ", "en": "Ukulele", "ko": "우쿨렐레"},
-      "desc": "a soprano ukulele in {wood}: a small figure-eight body about 53 cm long overall, one round soundhole with a thin ring rosette, a simple tie-bar bridge, exactly four nylon strings, a short dark fretboard with twelve frets reaching the body, and a small plain headstock with exactly four tuning pegs, two on each side; no pickguard, no logo, no strap",
-      "keep": "{wood} soprano ukulele, small figure-eight body, one round soundhole, tie-bar bridge, four strings, twelve frets, headstock with two pegs per side",
-      "checks": ["四根弦", "琴头左右各二个弦钮", "小号八字形琴身", "一个圆音孔"],
-      "variants": [
-        {"key": "koa", "name": {"zh": "相思木", "ja": "コア", "en": "Koa", "ko": "코아"}, "vars": {"wood": "golden-brown koa with visible curly grain"}}
-      ]
-    },
-    {
       "key": "alto-sax", "group": "band", "place": "float", "size": "L",
       "name": {"zh": "中音萨克斯", "ja": "アルトサックス", "en": "Alto Saxophone", "ko": "알토 색소폰"},
       "desc": "an alto saxophone in {finish}: a conical body standing upright with a U-shaped bottom bow and an upturned flared bell facing forward, a curved neck at the top with a black mouthpiece and a metal ligature, rows of padded key cups along the body with pearl finger touches, rod linkages and key guards, the bell plain without engraving; no strap, no stand, no case",
@@ -76,8 +65,7 @@
       "keep": "{finish} trumpet, bell to the right, mouthpiece to the left, three piston valves in a row with pearl buttons, main tuning slide, plain bell",
       "checks": ["三个活塞阀、一排", "喇叭口在一端、吹嘴在另一端", "调音管弯回", "无刻字"],
       "variants": [
-        {"key": "brass", "name": {"zh": "金色", "ja": "ゴールド", "en": "Brass", "ko": "골드"}, "vars": {"finish": "clear-lacquered yellow brass"}},
-        {"key": "silver", "name": {"zh": "银色", "ja": "シルバー", "en": "Silver", "ko": "실버"}, "vars": {"finish": "bright silver plate"}}
+        {"key": "brass", "name": {"zh": "金色", "ja": "ゴールド", "en": "Brass", "ko": "골드"}, "vars": {"finish": "clear-lacquered yellow brass"}}
       ]
     },
     {
@@ -91,17 +79,7 @@
       ]
     },
     {
-      "key": "snare", "group": "band", "place": "stand", "size": "M",
-      "name": {"zh": "小军鼓", "ja": "スネアドラム", "en": "Snare Drum", "ko": "스네어 드럼"},
-      "desc": "a 14-inch snare drum resting flat on its bottom hoop, shell 14 cm deep in {shell}, chrome top and bottom hoops, exactly ten evenly spaced chrome tension lugs around the shell, a white coated batter head on top with no print, a small chrome snare strainer lever on one side and a small round air vent; no stand, no sticks",
-      "keep": "{shell} snare shell, chrome hoops, ten chrome lugs evenly spaced, plain white coated top head, snare strainer lever on one side",
-      "checks": ["一圈十个张力螺丝座", "白色鼓皮无图案", "侧面响弦开关", "没有鼓架和鼓棒"],
-      "variants": [
-        {"key": "maple", "name": {"zh": "原木", "ja": "メイプル", "en": "Natural Maple", "ko": "내추럴 메이플"}, "vars": {"shell": "glossy natural maple wood"}}
-      ]
-    },
-    {
-      "key": "guzheng", "group": "cn-string", "place": "stand", "size": "S", "probe": true,
+      "key": "guzheng", "group": "cn-string", "probe": true, "place": "stand", "size": "S",
       "name": {"zh": "古筝", "ja": "古箏", "en": "Guzheng", "ko": "고쟁"},
       "desc": "a Chinese guzheng about 163 cm long lying flat on an invisible floor, its long side facing the camera: a long box body in {wood} with a gently arched paulownia soundboard, exactly twenty-one strings running lengthwise, each string resting on its own small movable bridge, the twenty-one bridges forming one diagonal line across the soundboard, a fixed curved bridge near each end, a row of tuning pins under a carved cover at the right end, a narrow plain decorative band at the left end; no legs, no stand, no picks, no characters or seals on the body",
       "keep": "{wood} guzheng lying flat, arched soundboard, twenty-one strings each on its own movable bridge, bridges in one diagonal line, fixed end bridges, tuning pins at the right end",
@@ -111,7 +89,7 @@
       ]
     },
     {
-      "key": "pipa", "group": "cn-string", "place": "float", "size": "L", "probe": true,
+      "key": "pipa", "group": "cn-string", "probe": true, "place": "float", "size": "L",
       "name": {"zh": "琵琶", "ja": "琵琶", "en": "Pipa", "ko": "비파"},
       "desc": "a Chinese pipa held upright: a pear-shaped body in {wood} with a flat pale paulownia soundboard and no soundhole, a small low string-holder bridge near the bottom, exactly four strings, a short neck carrying exactly four tall wedge-shaped wooden frets (xiang), then ten thin bamboo frets set into the upper soundboard below them, a pegbox bent slightly back with exactly four lateral tuning pegs, two on each side, topped by a small plain curled head; no dragon or bat carving, no plectrum or nail picks",
       "keep": "{wood} pear-shaped pipa, flat soundboard with no soundhole, low bridge, four strings, four wedge frets on the neck, ten bamboo frets on the soundboard, bent-back pegbox with two pegs per side, plain curled head",
@@ -131,7 +109,7 @@
       ]
     },
     {
-      "key": "guqin", "group": "cn-string", "place": "stand", "size": "S", "probe": true,
+      "key": "guqin", "group": "cn-string", "probe": true, "place": "stand", "size": "S",
       "name": {"zh": "古琴", "ja": "古琴", "en": "Guqin", "ko": "고금"},
       "desc": "a Chinese guqin about 120 cm long lying flat on an invisible floor, its long side facing the camera, seen from the player's side: a long narrow slightly arched wooden body in {lacquer} lacquer with fine crackle lines, the head end (right) wider than the tail end (left), a pair of shallow waist notches, exactly seven strings running lengthwise with no bridges and no frets, exactly thirteen small round mother-of-pearl hui dots in one row along the near edge of the top, a low hardwood ridge at the head end where the strings start, seven tuning pegs under the head with short silk tassels hanging down; no legs, no table, no characters or seals",
       "keep": "{lacquer} guqin lying flat, long narrow arched body with crackle lines, wider head at the right, seven strings with no bridges or frets, thirteen mother-of-pearl hui dots along the near edge, short tassels under the head",
@@ -148,26 +126,6 @@
       "checks": ["一个吹孔、一个膜孔贴白膜", "六个按孔一排", "竹质、缠线箍", "无字、无穗"],
       "variants": [
         {"key": "natural", "name": {"zh": "原色竹", "ja": "白竹", "en": "Natural Bamboo", "ko": "자연 대나무"}, "vars": {"bamboo": "pale golden natural", "binding": "black lacquered"}}
-      ]
-    },
-    {
-      "key": "xiao", "group": "cn-wind", "place": "float", "size": "L",
-      "name": {"zh": "洞箫", "ja": "洞簫", "en": "Xiao", "ko": "샤오"},
-      "desc": "a Chinese xiao vertical end-blown flute about 78 cm long in {bamboo} bamboo standing upright: a small U-shaped notch cut into the rim at the top end, a straight tube with visible bamboo nodes, exactly five finger holes in one row on the front and one thumb hole on the back, two small sound holes near the bottom end; no tassel, no characters, no carving",
-      "keep": "{bamboo} bamboo xiao standing upright, U-notch at the top, visible nodes, five front finger holes in a row, one back thumb hole",
-      "checks": ["顶端 U 形吹口", "正面五孔、背面一孔", "竹节可见", "无字、无穗"],
-      "variants": [
-        {"key": "purple", "name": {"zh": "紫竹", "ja": "紫竹", "en": "Purple Bamboo", "ko": "자죽"}, "vars": {"bamboo": "dark purple-brown"}}
-      ]
-    },
-    {
-      "key": "hulusi", "group": "cn-wind", "place": "float", "size": "M",
-      "name": {"zh": "葫芦丝", "ja": "フルス（葫蘆絲）", "en": "Hulusi", "ko": "후루쓰"},
-      "desc": "a Chinese hulusi gourd flute held upright: a {gourd} dried bottle gourd at the top with a short bamboo blowing pipe at its narrow top end, and exactly three bamboo pipes inserted side by side into the bottom of the gourd and hanging straight down, the longer middle pipe with exactly seven finger holes (six in a row on the front, one on the back), and a shorter plain drone pipe on each side; no tassel, no characters, no painting on the gourd",
-      "keep": "{gourd} gourd at the top with blowing pipe, three bamboo pipes hanging from its bottom, longer middle pipe with six front holes, shorter drone pipe on each side",
-      "checks": ["上部一个葫芦", "下插三根竹管、中间最长", "中管正面六孔（背面一孔）", "葫芦无字无画"],
-      "variants": [
-        {"key": "natural", "name": {"zh": "原色", "ja": "ナチュラル", "en": "Natural", "ko": "내추럴"}, "vars": {"gourd": "polished honey-brown"}}
       ]
     }
   ]
