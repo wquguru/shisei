@@ -71,8 +71,11 @@ def main() -> None:
     src = pathlib.Path(a.src).expanduser() if a.src else None
     by_key = {i["key"]: i for i in json.loads((ROOT / "data/costumes.json").read_text())["items"]}
     need = {i["id"]: [v for v in VIEWS if not i["views"].get(v)] for i in items}
-    if not src:  # without the source set there are no reference images, so every item is redone whole
-        need = {k: list(VIEWS) for k in need}
+    # without the source set there are no reference images, so every item is redone whole; a new front likewise
+    # redoes the whole item, because views turned from the old front would no longer match it
+    need = {k: (list(VIEWS) if not src or "front" in v else v) for k, v in need.items()}
+    qc_path = ROOT / "data/costume-qc.json"
+    qc = json.loads(qc_path.read_text())["items"] if qc_path.exists() else {}
     n_img = sum(len(v) for v in need.values())
 
     L = [f"# shisei 服装库 · {c['name']['zh']}（{a.cat}）· {run}",
@@ -89,8 +92,9 @@ def main() -> None:
          "交领方向用画面左右写）。改写过的提示词记进 attempts.csv。",
          "4. 背面不能是正面的镜像；侧面、斜侧如果画成了另一侧，图可以留，但在 note 里写 flipped。",
          "5. 背景只要求均匀纯色，不用追求精确色值（入库时会统一换底）。",
-         f"6. **自检闸**：先做前 {a.gate} 件的正面。正面通过少于 {round(a.gate * 0.7)} 件就停下，把问题写进 notes.md 交付，"
-         "不要继续；达到了再把这些件的其他视角和剩下的件做完。",
+         *([f"6. **自检闸**：先做前 {a.gate} 件的正面。正面通过少于 {round(a.gate * 0.7)} 件就停下，把问题写进 notes.md 交付，"
+            "不要继续；达到了再把这些件的其他视角和剩下的件做完。"] if a.gate else
+           ["6. 这是返工轮，没有自检闸。每件下面的“上次问题”是质检没通过的原因，这次重点避开。"]),
          "7. 可以分波派子代理并行，但每张都要自查。被拒或画错如实记录，不要拿别的形制凑。",
          "",
          "## 正面模板（每件把 {desc} {form} {lower} {bg} 换成该件的字段）",
@@ -125,6 +129,12 @@ def main() -> None:
     for i in items:
         era = f"{i['era_zh']} · " if i.get("era_zh") else ""
         todo, extra = need[i["id"]], []
+        # why the last round failed (QC reason, or Muse's own note for a cell it never produced), so the retry aims at it
+        why = [f"{v} {r['status']}: {r.get('reason', '')[:160]}" for v, r in qc.get(i["id"], {}).items()
+               if v in todo and r.get("status") not in (None, "pass")
+               and not r.get("reason", "").startswith("skipped")]
+        if why:
+            extra.append("上次问题：" + "；".join(why))
         if src and "front" not in todo:
             refs = [v for v in VIEWS if v not in todo]
             for v in refs:
