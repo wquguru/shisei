@@ -4,7 +4,7 @@
 The counterpart of costume_brief.py. Either one category, or --probe: the first variant of every form marked
 `probe`, across all categories, to test each category before the full run (the costume-probe01 step).
 
-Usage: python3 -I tools/series_brief.py scene HM ~/Downloads/scene-HM-run01 [--only E001,E002] [--gate 10]
+Usage: python3 -I tools/series_brief.py scene IN ~/Downloads/scene-IN-run01 [--only E001,E002] [--gate 10]
        python3 -I tools/series_brief.py prop --probe ~/Downloads/prop-probe01
 Writes OUT/brief.md and OUT/manifest.json; items that already have every view are skipped. The animal library only
 has its --probe brief, which draws every probe item in two styles to decide D-14 (docs/animal/PLAN.md).

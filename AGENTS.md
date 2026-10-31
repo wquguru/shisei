@@ -57,7 +57,7 @@ data/qc-input/       every reviewer result behind qc.json; `qc_merge.py data/qc-
 data/rating_overrides.json   per-pose rating decisions that win over the category rule (human-decided)
 data/costume-src/    costume library source (D-10): _categories.json + one <CAT>.json of forms × colorways
 data/costumes.json   costume items C###, expanded by tools/costume_cards.py; views front/back/side/diag
-data/{scene,prop,furniture,light,animal}-src/  planned libraries (D-12–D-16, not approved): category rules + cards,
+data/{scene,prop,furniture,light,animal}-src/  planned libraries (D-12–D-17, not approved): category rules + cards,
                      expanded by tools/series_cards.py into data/{scenes,props,furniture,lights,animals}.json
                      (E### / T### / F### / L### / A###)
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
@@ -77,7 +77,7 @@ tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.p
                      series_kit.py + series_cards.py + series_brief.py (scene / prop / furniture / light / animal plans)
 docs/qc/             QC method, results and the reviewer prompts (panels, name, limbs, proportion, photo, rating)
 .claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
-docs/{scene,prop,furniture,light,animal}/PLAN.md   plans for the next libraries, awaiting D-12–D-16
+docs/{scene,prop,furniture,light,animal}/PLAN.md   plans for the next libraries, awaiting D-12–D-17
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
 docs/DECISIONS.md    open questions and decisions awaiting a human
 docs/GENERATION.md   how the sets were made, gap log
