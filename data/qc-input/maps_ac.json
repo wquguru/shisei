@@ -1,0 +1,124 @@
+{
+ "reviewed": [
+  "P005__below.jpg",
+  "P005__front-diag.jpg",
+  "P005__side-above.jpg",
+  "P006__front-diag.jpg",
+  "P006__side-above.jpg",
+  "P007__below.jpg",
+  "P007__front-diag.jpg",
+  "P007__side-above.jpg",
+  "P008__below.jpg",
+  "P008__front-diag.jpg",
+  "P008__side-above.jpg",
+  "P009__above-below.jpg",
+  "P009__front-side.jpg",
+  "P010__below.jpg",
+  "P010__front-diag.jpg",
+  "P010__side-above.jpg",
+  "P011__below.jpg",
+  "P011__front-diag.jpg",
+  "P011__side-above.jpg",
+  "P012__front-diag.jpg",
+  "P012__side-above.jpg",
+  "P013__below.jpg",
+  "P013__front-diag.jpg",
+  "P013__side-above.jpg",
+  "P014__above-below.jpg",
+  "P014__diag-side.jpg",
+  "P015__front-diag.jpg",
+  "P015__side-below.jpg",
+  "P016__below.jpg",
+  "P016__front-diag.jpg",
+  "P016__side-above.jpg",
+  "P017__front-diag.jpg",
+  "P017__side-above.jpg",
+  "P018__below.jpg",
+  "P018__front-diag.jpg",
+  "P018__side-above.jpg",
+  "P019__front-diag.jpg",
+  "P019__side.jpg",
+  "P020__below.jpg",
+  "P020__front-diag.jpg",
+  "P020__side-above.jpg",
+  "P021__below.jpg",
+  "P021__front-diag.jpg",
+  "P021__side-above.jpg",
+  "P022__front-diag.jpg",
+  "P022__side.jpg",
+  "P024__below.jpg",
+  "P024__front-diag.jpg",
+  "P024__side-above.jpg",
+  "P025__front-diag.jpg",
+  "P025__side-above.jpg",
+  "P026__below.jpg",
+  "P026__front-diag.jpg",
+  "P026__side-above.jpg",
+  "P027__below.jpg",
+  "P027__front-diag.jpg",
+  "P027__side-above.jpg",
+  "P029__above-below.jpg",
+  "P029__front-side.jpg",
+  "P030__front-diag.jpg",
+  "P030__side.jpg",
+  "P031__diag-side.jpg",
+  "P032__front-diag.jpg",
+  "P032__side-above.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P007",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small nipple-like point modelled at the breast tip in the clay"
+  },
+  {
+   "set": "P013",
+   "angle": "front",
+   "kind": "line",
+   "reason": "small nipple-like dots visible on both breasts in the clay"
+  },
+  {
+   "set": "P014",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small nipple-like point modelled at the near breast tip"
+  },
+  {
+   "set": "P005",
+   "angle": "above",
+   "kind": "line",
+   "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+  },
+  {
+   "set": "P007",
+   "angle": "side",
+   "kind": "line",
+   "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+  },
+  {
+   "set": "P008",
+   "angle": "side",
+   "kind": "line",
+   "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+  },
+  {
+   "set": "P009",
+   "angle": "side",
+   "kind": "line",
+   "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+  },
+  {
+   "set": "P013",
+   "angle": "side",
+   "kind": "line",
+   "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+  },
+  {
+   "set": "P014",
+   "angle": "side",
+   "kind": "line",
+   "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+  }
+ ]
+}

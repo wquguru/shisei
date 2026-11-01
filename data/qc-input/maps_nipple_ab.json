@@ -1,0 +1,193 @@
+{
+ "reviewed": [
+  "D036__front-diag-side.jpg",
+  "D037__above.jpg",
+  "D037__front-diag-side.jpg",
+  "D038__above-below.jpg",
+  "D038__front-diag-side.jpg",
+  "D039__front-above-below.jpg",
+  "D040__above-below.jpg",
+  "D040__front-diag-side.jpg",
+  "D041__above-below.jpg",
+  "D041__front-diag-side.jpg",
+  "D042__above-below.jpg",
+  "D042__front-diag-side.jpg",
+  "D043__above-below.jpg",
+  "D043__front-diag-side.jpg",
+  "D044__above.jpg",
+  "D044__front-diag-side.jpg",
+  "D045__below.jpg",
+  "D045__front-diag-side.jpg",
+  "D046__above-below.jpg",
+  "D046__front-diag-side.jpg",
+  "D047__above-below.jpg",
+  "D047__front-diag-side.jpg",
+  "D048__below.jpg",
+  "D049__below.jpg",
+  "D049__front-diag-above.jpg",
+  "D051__diag-side-above.jpg",
+  "D052__diag-above-below.jpg",
+  "D053__above-below.jpg",
+  "D053__front-diag-side.jpg",
+  "D054__side.jpg",
+  "D055__above-below.jpg",
+  "D055__front-diag-side.jpg",
+  "P001__above-below.jpg",
+  "P001__front-diag-side.jpg",
+  "P002__above-below.jpg",
+  "P002__front-diag-side.jpg",
+  "P003__above-below.jpg",
+  "P003__front-diag-side.jpg",
+  "P004__above.jpg",
+  "P004__front-diag-side.jpg",
+  "P005__above-below.jpg",
+  "P005__front-diag-side.jpg",
+  "P006__above.jpg",
+  "P006__front-diag-side.jpg",
+  "P007__above-below.jpg",
+  "P007__front-diag-side.jpg",
+  "P008__above-below.jpg",
+  "P008__front-diag-side.jpg",
+  "P009__below.jpg",
+  "P009__front-side-above.jpg",
+  "P010__above-below.jpg",
+  "P010__front-diag-side.jpg",
+  "P011__above-below.jpg",
+  "P011__front-diag-side.jpg",
+  "P012__above.jpg"
+ ],
+ "fails": [
+  {
+   "set": "D036",
+   "angle": "side",
+   "kind": "line",
+   "reason": "male chest: small dark dot at pec tip"
+  },
+  {
+   "set": "D037",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "male: nipple points on both pecs"
+  },
+  {
+   "set": "D037",
+   "angle": "side",
+   "kind": "line",
+   "reason": "male: raised nipple bump at pec tip"
+  },
+  {
+   "set": "D038",
+   "angle": "above",
+   "kind": "line",
+   "reason": "male: nipple bump on chest"
+  },
+  {
+   "set": "D038",
+   "angle": "side",
+   "kind": "line",
+   "reason": "male: nipple dot on chest"
+  },
+  {
+   "set": "D039",
+   "angle": "below",
+   "kind": "line",
+   "reason": "male: nipple bump on right pec"
+  },
+  {
+   "set": "D042",
+   "angle": "above",
+   "kind": "line",
+   "reason": "male chest: faint nipple dot (doubtful)"
+  },
+  {
+   "set": "D043",
+   "angle": "front",
+   "kind": "line",
+   "reason": "male: nipple bump on pec"
+  },
+  {
+   "set": "D043",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "male: clear nipple on pec"
+  },
+  {
+   "set": "D043",
+   "angle": "below",
+   "kind": "line",
+   "reason": "male: nipple bump on pec"
+  },
+  {
+   "set": "D046",
+   "angle": "above",
+   "kind": "line",
+   "reason": "nipple bumps on both male and female chests"
+  },
+  {
+   "set": "D046",
+   "angle": "below",
+   "kind": "line",
+   "reason": "male crotch modelled with a vertical cleft/slit"
+  },
+  {
+   "set": "D047",
+   "angle": "above",
+   "kind": "line",
+   "reason": "male: nipple bump on chest"
+  },
+  {
+   "set": "D051",
+   "angle": "side",
+   "kind": "line",
+   "reason": "male: small nipple bump at pec tip (doubtful)"
+  },
+  {
+   "set": "D053",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "male: clear nipple dot on pec"
+  },
+  {
+   "set": "D053",
+   "angle": "below",
+   "kind": "line",
+   "reason": "male: nipple dot on pec"
+  },
+  {
+   "set": "D054",
+   "angle": "side",
+   "kind": "line",
+   "reason": "male: nipple bump on pec"
+  },
+  {
+   "set": "D055",
+   "angle": "below",
+   "kind": "line",
+   "reason": "nipples on both male and female chests"
+  },
+  {
+   "set": "D055",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "male: nipple bump on pec"
+  },
+  {
+   "set": "P005",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "faint point at breast tip (doubtful)"
+  },
+  {
+   "set": "P007",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "clear nipple on lower breast"
+  },
+  {
+   "set": "P011",
+   "angle": "above",
+   "kind": "line",
+   "reason": "clear nipple on right breast"
+  }
+ ]
+}

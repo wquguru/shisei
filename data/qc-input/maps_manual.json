@@ -1,0 +1,113 @@
+{
+ "note": "generator's own list of wrong views (pose-gallery-clay README, 'Still wrong'), checked by eye 2026-10-31",
+ "fails": [
+  {
+   "set": "S014",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "wrong pose in all three seeds: stands instead of folding"
+  },
+  {
+   "set": "P057",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "wrong pose in all three seeds: stands instead of sitting"
+  },
+  {
+   "set": "U068",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "wrong pose in all three seeds: stands instead of arching back"
+  },
+  {
+   "set": "D011",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "two heads merged"
+  },
+  {
+   "set": "D053",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "second figure missing"
+  },
+  {
+   "set": "D030",
+   "angle": "side",
+   "kind": "line",
+   "reason": "realistic male face instead of a blank head"
+  },
+  {
+   "set": "D011",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "D020",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "S046",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "S050",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "S056",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "S056",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "S056",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "S061",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "S061",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "S061",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "S064",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  },
+  {
+   "set": "P056",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "lying figure floats above or tilts off the floor"
+  }
+ ]
+}

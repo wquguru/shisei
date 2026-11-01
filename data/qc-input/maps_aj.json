@@ -1,0 +1,226 @@
+{
+ "reviewed": [
+  "U030__front-diag.jpg",
+  "U030__side-above.jpg",
+  "U031__front-diag.jpg",
+  "U031__side.jpg",
+  "U032__front-diag.jpg",
+  "U032__side-above.jpg",
+  "U033__front-diag.jpg",
+  "U033__side-above.jpg",
+  "U034__below.jpg",
+  "U034__front-diag.jpg",
+  "U034__side-above.jpg",
+  "U035__above-below.jpg",
+  "U035__front-diag.jpg",
+  "U036__below.jpg",
+  "U036__front-diag.jpg",
+  "U036__side-above.jpg",
+  "U037__below.jpg",
+  "U037__front-diag.jpg",
+  "U037__side-above.jpg",
+  "U038__front-diag.jpg",
+  "U038__side-above.jpg",
+  "U039__below.jpg",
+  "U039__front-diag.jpg",
+  "U039__side-above.jpg",
+  "U040__above-below.jpg",
+  "U040__front-diag.jpg",
+  "U041__below.jpg",
+  "U041__front-diag.jpg",
+  "U041__side-above.jpg",
+  "U042__front-diag.jpg",
+  "U042__side-above.jpg",
+  "U043__above-below.jpg",
+  "U043__front-side.jpg",
+  "U044__front-diag.jpg",
+  "U044__side.jpg",
+  "U045__above.jpg",
+  "U045__front-side.jpg",
+  "U046__below.jpg",
+  "U046__front-side.jpg",
+  "U047__below.jpg",
+  "U047__front-diag.jpg",
+  "U047__side-above.jpg",
+  "U048__below.jpg",
+  "U048__front-diag.jpg",
+  "U048__side-above.jpg",
+  "U049__front-diag.jpg",
+  "U049__side-below.jpg",
+  "U050__below.jpg",
+  "U050__front-diag.jpg",
+  "U050__side-above.jpg",
+  "U051__below.jpg",
+  "U051__front-diag.jpg",
+  "U051__side-above.jpg",
+  "U052__below.jpg",
+  "U052__front-diag.jpg",
+  "U052__side-above.jpg",
+  "U053__below.jpg",
+  "U053__front-diag.jpg",
+  "U053__side-above.jpg",
+  "U054__below.jpg",
+  "U054__front-diag.jpg",
+  "U054__side-above.jpg",
+  "U055__below.jpg",
+  "U055__front-diag.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U031",
+   "angle": "front",
+   "kind": "line",
+   "reason": "nipple bump modelled on left breast in clay and normal map"
+  },
+  {
+   "set": "U032",
+   "angle": "side",
+   "kind": "line",
+   "reason": "head has sculpted realistic face (nose, lips, eye shading), not a blank egg"
+  },
+  {
+   "set": "U034",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "drawing and clay show different pose/view: red head, torso and arms off the render; clay arm thin and fading"
+  },
+  {
+   "set": "U035",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red head, shoulders and arms far larger and off the mannequin"
+  },
+  {
+   "set": "U035",
+   "angle": "above",
+   "kind": "line",
+   "reason": "realistic face with brow, nose and lips on the head"
+  },
+  {
+   "set": "U035",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "red arms/hands do not line up with clay hands at collarbones; red head offset; also nipple points on breasts"
+  },
+  {
+   "set": "U036",
+   "angle": "below",
+   "kind": "line",
+   "reason": "nipple points modelled on both breasts"
+  },
+  {
+   "set": "U037",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "red body much wider and larger than clay (head, hips, arms off); different framing"
+  },
+  {
+   "set": "U037",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "red outline wider/offset from clay torso and hips; hands differ"
+  },
+  {
+   "set": "U037",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "red figure larger and shifted from small clay figure; arm and hand placement differ"
+  },
+  {
+   "set": "U038",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "red figure clearly larger and offset from clay (head, bust, hips)"
+  },
+  {
+   "set": "U041",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "clay is a small full-body standing figure; red drawing far larger and off"
+  },
+  {
+   "set": "U043",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "red head clearly shifted and larger than clay head; arms do not match"
+  },
+  {
+   "set": "U043",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red head and torso far larger and off"
+  },
+  {
+   "set": "U045",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "clay shows a different pose (arms down, standing); red torso and arm off the mannequin"
+  },
+  {
+   "set": "U045",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure with arms at sides; red drawing much larger, arms behind back not matched"
+  },
+  {
+   "set": "U045",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "clay is a small standing figure; red head, bust and arms far off"
+  },
+  {
+   "set": "U047",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red head, arms and torso far larger and off"
+  },
+  {
+   "set": "U047",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red head and torso larger and off"
+  },
+  {
+   "set": "U048",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "clay pose differs from drawing (raised arm, seated bulky hips); red torso and legs off"
+  },
+  {
+   "set": "U048",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red head, arms and torso far larger and off"
+  },
+  {
+   "set": "U051",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red outline far larger and shifted"
+  },
+  {
+   "set": "U052",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red outline far larger and off"
+  },
+  {
+   "set": "U052",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red outline far larger and off"
+  },
+  {
+   "set": "U052",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red head and body larger and off"
+  },
+  {
+   "set": "U054",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "red head clearly offset and larger than clay head; arm and torso lines shifted"
+  }
+ ]
+}

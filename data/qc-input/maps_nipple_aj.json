@@ -1,0 +1,42 @@
+{
+ "reviewed": [
+  "U071__above-below.jpg",
+  "U071__front-diag-side.jpg",
+  "U072__above-below.jpg",
+  "U072__front-diag-side.jpg",
+  "U073__above-below.jpg",
+  "U073__front-diag-side.jpg",
+  "U074__below.jpg",
+  "U074__diag-side-above.jpg",
+  "U075__below.jpg",
+  "U075__front-diag-above.jpg",
+  "U076__above-below.jpg",
+  "U076__front-diag-side.jpg",
+  "U077__below.jpg",
+  "U077__front-diag-side.jpg",
+  "U078__above.jpg",
+  "U078__front-diag-side.jpg",
+  "U079__front-diag-side.jpg",
+  "U080__diag-side-above.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U073",
+   "angle": "side",
+   "kind": "line",
+   "reason": "small raised nipple-like bump at tip of the visible breast beside the hand"
+  },
+  {
+   "set": "U076",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small point/dot at the tip of the visible breast"
+  },
+  {
+   "set": "U080",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "faint point at the tip of the small uncovered breast; doubtful at this size, failed per when-in-doubt"
+  }
+ ]
+}

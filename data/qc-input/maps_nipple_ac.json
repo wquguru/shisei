@@ -1,0 +1,103 @@
+{
+ "reviewed": [
+  "P012__front-diag-side.jpg",
+  "P013__above-below.jpg",
+  "P013__front-diag-side.jpg",
+  "P014__below.jpg",
+  "P014__diag-side-above.jpg",
+  "P015__below.jpg",
+  "P015__front-diag-side.jpg",
+  "P016__above-below.jpg",
+  "P016__front-diag-side.jpg",
+  "P017__above.jpg",
+  "P017__front-diag-side.jpg",
+  "P018__above-below.jpg",
+  "P018__front-diag-side.jpg",
+  "P019__front-diag-side.jpg",
+  "P020__above-below.jpg",
+  "P020__front-diag-side.jpg",
+  "P021__above-below.jpg",
+  "P021__front-diag-side.jpg",
+  "P022__front-diag-side.jpg",
+  "P024__above-below.jpg",
+  "P024__front-diag-side.jpg",
+  "P025__above.jpg",
+  "P025__front-diag-side.jpg",
+  "P026__above-below.jpg",
+  "P026__front-diag-side.jpg",
+  "P027__above-below.jpg",
+  "P027__front-diag-side.jpg",
+  "P029__below.jpg",
+  "P029__front-side-above.jpg",
+  "P030__front-diag-side.jpg",
+  "P031__diag-side.jpg",
+  "P032__above.jpg",
+  "P032__front-diag-side.jpg",
+  "P033__front-diag-side.jpg",
+  "P034__diag.jpg",
+  "P035__front-diag-side.jpg",
+  "P036__above.jpg",
+  "P036__front-diag-side.jpg",
+  "P037__above.jpg",
+  "P037__front-diag-side.jpg",
+  "P039__above.jpg",
+  "P039__front-diag-side.jpg",
+  "P040__front-diag-side.jpg",
+  "P041__above.jpg",
+  "P041__front-diag-side.jpg",
+  "P042__above.jpg",
+  "P042__front-diag-side.jpg",
+  "P043__front-below.jpg",
+  "P044__below.jpg",
+  "P044__front-diag-side.jpg",
+  "P045__above-below.jpg",
+  "P045__front-diag-side.jpg",
+  "P046__above-below.jpg",
+  "P046__front-diag-side.jpg",
+  "P047__above-below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P013",
+   "angle": "front",
+   "kind": "line",
+   "reason": "small raised nipple dot at tip of the left breast"
+  },
+  {
+   "set": "P014",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small raised nipple bump at tip of the breast"
+  },
+  {
+   "set": "P013",
+   "angle": "below",
+   "kind": "line",
+   "reason": "faint circular disc/ring mark on the lower body near the hips (areola-like artefact), doubt so fail"
+  },
+  {
+   "set": "P019",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "faint dark spot at the tip of the near breast (doubtful)"
+  },
+  {
+   "set": "P021",
+   "angle": "front",
+   "kind": "line",
+   "reason": "faint highlight dot at the tip of the left breast (doubtful)"
+  },
+  {
+   "set": "P021",
+   "angle": "above",
+   "kind": "line",
+   "reason": "tiny faint spot at the tip of the left breast (doubtful)"
+  },
+  {
+   "set": "P026",
+   "angle": "front",
+   "kind": "line",
+   "reason": "faint small bump at the tip of the left breast (doubtful)"
+  }
+ ]
+}

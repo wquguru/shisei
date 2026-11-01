@@ -1,0 +1,232 @@
+{
+ "reviewed": [
+  "S062__side-above.jpg",
+  "S063__below.jpg",
+  "S063__front-diag.jpg",
+  "S063__side-above.jpg",
+  "S064__below.jpg",
+  "S064__front-diag.jpg",
+  "S064__side-above.jpg",
+  "S065__front-diag.jpg",
+  "S065__side-below.jpg",
+  "S066__below.jpg",
+  "S066__front-diag.jpg",
+  "S066__side-above.jpg",
+  "S067__below.jpg",
+  "S067__front-diag.jpg",
+  "S067__side-above.jpg",
+  "S068__diag-above.jpg",
+  "S069__below.jpg",
+  "S069__front-diag.jpg",
+  "S069__side-above.jpg",
+  "S070__below.jpg",
+  "S070__front-diag.jpg",
+  "S070__side-above.jpg",
+  "S071__front-diag.jpg",
+  "S071__side.jpg",
+  "S072__above-below.jpg",
+  "S072__diag-side.jpg",
+  "S073__below.jpg",
+  "S073__front-diag.jpg",
+  "S073__side-above.jpg",
+  "S074__front-diag.jpg",
+  "S074__side.jpg",
+  "S075__below.jpg",
+  "S075__front-diag.jpg",
+  "S075__side-above.jpg",
+  "S076__below.jpg",
+  "S076__front-diag.jpg",
+  "S076__side-above.jpg",
+  "S077__below.jpg",
+  "S077__front-diag.jpg",
+  "S077__side-above.jpg",
+  "S078__front-diag.jpg",
+  "S078__side-below.jpg",
+  "S079__below.jpg",
+  "S079__front-diag.jpg",
+  "S079__side-above.jpg",
+  "S080__below.jpg",
+  "S080__front-diag.jpg",
+  "S080__side-above.jpg",
+  "U001__below.jpg",
+  "U001__front-diag.jpg",
+  "U001__side-above.jpg",
+  "U002__front-diag.jpg",
+  "U002__side-below.jpg",
+  "U003__below.jpg",
+  "U003__front-diag.jpg",
+  "U003__side-above.jpg",
+  "U004__below.jpg",
+  "U004__front-diag.jpg",
+  "U004__side-above.jpg",
+  "U005__below.jpg",
+  "U005__front-diag.jpg",
+  "U005__side-above.jpg",
+  "U006__below.jpg",
+  "U006__front-diag.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S066",
+   "angle": "below",
+   "kind": "line",
+   "reason": "ear block visible on the clay head"
+  },
+  {
+   "set": "S070",
+   "angle": "below",
+   "kind": "line",
+   "reason": "small ears modelled on both sides of the head"
+  },
+  {
+   "set": "S073",
+   "angle": "below",
+   "kind": "line",
+   "reason": "ear modelled on the head"
+  },
+  {
+   "set": "S073",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "nose and brow relief on the head"
+  },
+  {
+   "set": "S073",
+   "angle": "side",
+   "kind": "line",
+   "reason": "nose, lips and ear modelled on the face"
+  },
+  {
+   "set": "S073",
+   "angle": "above",
+   "kind": "line",
+   "reason": "ear and nose/lip relief on the head"
+  },
+  {
+   "set": "S074",
+   "angle": "side",
+   "kind": "line",
+   "reason": "nose, lips and chin profile modelled on the head"
+  },
+  {
+   "set": "S075",
+   "angle": "below",
+   "kind": "line",
+   "reason": "nipples modelled on the breasts"
+  },
+  {
+   "set": "S075",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "faint nipple bump on the breast"
+  },
+  {
+   "set": "S075",
+   "angle": "side",
+   "kind": "line",
+   "reason": "nose, lips and ear modelled on the head"
+  },
+  {
+   "set": "S076",
+   "angle": "side",
+   "kind": "line",
+   "reason": "nose, lips and ear modelled on the head"
+  },
+  {
+   "set": "S076",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "ear modelled on the head"
+  },
+  {
+   "set": "S077",
+   "angle": "side",
+   "kind": "line",
+   "reason": "mouth and nose lines on the face"
+  },
+  {
+   "set": "S077",
+   "angle": "above",
+   "kind": "line",
+   "reason": "nipple modelled on the breast"
+  },
+  {
+   "set": "S078",
+   "angle": "side",
+   "kind": "line",
+   "reason": "nose, lips and ear modelled on the head"
+  },
+  {
+   "set": "S079",
+   "angle": "side",
+   "kind": "line",
+   "reason": "ear and nose relief on the head"
+  },
+  {
+   "set": "S080",
+   "angle": "below",
+   "kind": "line",
+   "reason": "ear modelled on the head"
+  },
+  {
+   "set": "S080",
+   "angle": "side",
+   "kind": "line",
+   "reason": "nose, lips and ear modelled on the head"
+  },
+  {
+   "set": "U002",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "nose, lips and chin profile modelled on the head"
+  },
+  {
+   "set": "U002",
+   "angle": "side",
+   "kind": "line",
+   "reason": "nose, lips and ear modelled on the head"
+  },
+  {
+   "set": "U003",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "faint nipple bump on the breast"
+  },
+  {
+   "set": "U003",
+   "angle": "side",
+   "kind": "line",
+   "reason": "nose, lips and ear modelled on the head"
+  },
+  {
+   "set": "U003",
+   "angle": "above",
+   "kind": "line",
+   "reason": "ear, nose and lips modelled on the head"
+  },
+  {
+   "set": "U001",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is a small full-length figure; red head and torso drawing is far larger and does not line up"
+  },
+  {
+   "set": "U001",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "clay is a short chibi/child-like figure with big head; pose and hands do not match the drawing"
+  },
+  {
+   "set": "U005",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "red head and torso much larger than and offset from the clay; clay is a small kneeling figure"
+  },
+  {
+   "set": "U006",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "clay is a full standing figure with male-looking chest; red drawing is a larger upper-body pose that does not align"
+  }
+ ]
+}

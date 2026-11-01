@@ -1,0 +1,136 @@
+{
+ "reviewed": [
+  "P033__front-diag.jpg",
+  "P033__side.jpg",
+  "P034__diag.jpg",
+  "P035__front-diag.jpg",
+  "P035__side.jpg",
+  "P036__front-diag.jpg",
+  "P036__side-above.jpg",
+  "P037__front-diag.jpg",
+  "P037__side-above.jpg",
+  "P039__front-diag.jpg",
+  "P039__side-above.jpg",
+  "P040__front-diag.jpg",
+  "P040__side.jpg",
+  "P041__front-diag.jpg",
+  "P041__side-above.jpg",
+  "P042__front-diag.jpg",
+  "P042__side-above.jpg",
+  "P043__front-below.jpg",
+  "P044__front-diag.jpg",
+  "P044__side-below.jpg",
+  "P045__below.jpg",
+  "P045__front-diag.jpg",
+  "P045__side-above.jpg",
+  "P046__below.jpg",
+  "P046__front-diag.jpg",
+  "P046__side-above.jpg",
+  "P047__below.jpg",
+  "P047__front-diag.jpg",
+  "P047__side-above.jpg",
+  "P048__below.jpg",
+  "P048__front-diag.jpg",
+  "P048__side-above.jpg",
+  "P049__front-diag.jpg",
+  "P049__side-below.jpg",
+  "P050__front-diag.jpg",
+  "P050__side-above.jpg",
+  "P051__below.jpg",
+  "P051__diag-above.jpg",
+  "P053__below.jpg",
+  "P053__front-diag.jpg",
+  "P053__side-above.jpg",
+  "P054__below.jpg",
+  "P054__front-diag.jpg",
+  "P054__side-above.jpg",
+  "P055__below.jpg",
+  "P055__front-diag.jpg",
+  "P055__side-above.jpg",
+  "P056__below.jpg",
+  "P056__front-diag.jpg",
+  "P056__side-above.jpg",
+  "P057__below.jpg",
+  "P057__front-diag.jpg",
+  "P057__side-above.jpg",
+  "P058__below.jpg",
+  "P058__front-diag.jpg",
+  "P058__side-above.jpg",
+  "P059__below.jpg",
+  "P059__front-diag.jpg",
+  "P059__side-above.jpg",
+  "P060__below.jpg",
+  "P060__front-diag.jpg",
+  "P060__side-above.jpg",
+  "P061__front-diag.jpg",
+  "P061__side-above.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P041",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "neck renders as a dark thin collar and depth shows a gap between head and torso; head looks detached"
+  },
+  {
+   "set": "P049",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "red feet/toes are much larger than the clay feet and extend past them; legs and foot size do not line up"
+  },
+  {
+   "set": "P051",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "head shows modelled facial features (nose, mouth, eye sockets) in clay and normal"
+  },
+  {
+   "set": "P053",
+   "angle": "below",
+   "kind": "line",
+   "reason": "head has a modelled face: nose, lips and ear"
+  },
+  {
+   "set": "P054",
+   "angle": "side",
+   "kind": "line",
+   "reason": "head shows ear and facial profile detail (eye/nose) on the blank head"
+  },
+  {
+   "set": "P056",
+   "angle": "above",
+   "kind": "line",
+   "reason": "head shows an eye/ear-like marking on the clay head"
+  },
+  {
+   "set": "P057",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "clay legs, torso and head differ from the drawing; red legs and head lie well off the render"
+  },
+  {
+   "set": "P057",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is an upright standing, flat-chested mannequin; drawing is a reclined pose, so pose and framing differ"
+  },
+  {
+   "set": "P058",
+   "angle": "above",
+   "kind": "line",
+   "reason": "head shows ears and a nose/chin face shape (ear visible in normal)"
+  },
+  {
+   "set": "P059",
+   "angle": "below",
+   "kind": "line",
+   "reason": "head shows an ear and facial features (nose, jaw) in the clay"
+  },
+  {
+   "set": "P059",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "head shows an ear and a nose/lips profile in clay and normal"
+  }
+ ]
+}

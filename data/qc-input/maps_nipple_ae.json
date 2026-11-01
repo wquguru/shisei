@@ -1,0 +1,115 @@
+{
+ "reviewed": [
+  "S003__front-diag-side.jpg",
+  "S004__above-below.jpg",
+  "S004__front-diag-side.jpg",
+  "S005__above-below.jpg",
+  "S005__front-diag-side.jpg",
+  "S006__side-above.jpg",
+  "S007__above-below.jpg",
+  "S007__front-diag-side.jpg",
+  "S008__above-below.jpg",
+  "S008__front-diag-side.jpg",
+  "S009__above-below.jpg",
+  "S009__front-diag-side.jpg",
+  "S010__above-below.jpg",
+  "S010__front-diag-side.jpg",
+  "S011__below.jpg",
+  "S011__front-diag-side.jpg",
+  "S012__above-below.jpg",
+  "S012__front-diag-side.jpg",
+  "S013__above.jpg",
+  "S013__front-diag-side.jpg",
+  "S014__above-below.jpg",
+  "S014__front-diag-side.jpg",
+  "S015__above-below.jpg",
+  "S015__front-diag-side.jpg",
+  "S016__above-below.jpg",
+  "S016__front-diag-side.jpg",
+  "S017__below.jpg",
+  "S017__front-diag-side.jpg",
+  "S018__above-below.jpg",
+  "S018__front-diag-side.jpg",
+  "S019__above-below.jpg",
+  "S019__front-diag-side.jpg",
+  "S020__above-below.jpg",
+  "S020__front-diag-side.jpg",
+  "S021__above-below.jpg",
+  "S021__front-diag-side.jpg",
+  "S022__diag-side-below.jpg",
+  "S023__above-below.jpg",
+  "S023__front-diag-side.jpg",
+  "S024__above.jpg",
+  "S024__front-diag-side.jpg",
+  "S025__above-below.jpg",
+  "S025__front-diag-side.jpg",
+  "S026__above-below.jpg",
+  "S026__front-diag-side.jpg",
+  "S027__above-below.jpg",
+  "S027__front-diag-side.jpg",
+  "S028__above-below.jpg",
+  "S028__front-diag-side.jpg",
+  "S029__above.jpg",
+  "S029__front-diag-side.jpg",
+  "S030__above-below.jpg",
+  "S030__front-diag-side.jpg",
+  "S031__above-below.jpg",
+  "S031__front-diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S008",
+   "angle": "side",
+   "kind": "line",
+   "reason": "small dark dot at tip of the visible breast"
+  },
+  {
+   "set": "S013",
+   "angle": "front",
+   "kind": "line",
+   "reason": "dark blob at the crotch between the thighs, reads as modelled detail or artefact"
+  },
+  {
+   "set": "S020",
+   "angle": "side",
+   "kind": "line",
+   "reason": "faint point at tip of the breast in profile (doubt)"
+  },
+  {
+   "set": "S020",
+   "angle": "below",
+   "kind": "line",
+   "reason": "faint rounded bump in the shadowed crotch (doubt)"
+  },
+  {
+   "set": "S021",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small raised nipple bump on the left breast"
+  },
+  {
+   "set": "S024",
+   "angle": "side",
+   "kind": "line",
+   "reason": "small raised bump at the tip of the breast"
+  },
+  {
+   "set": "S031",
+   "angle": "above",
+   "kind": "line",
+   "reason": "clear nipple bump on the visible breast"
+  },
+  {
+   "set": "S031",
+   "angle": "front",
+   "kind": "line",
+   "reason": "faint nipple bump on the left breast"
+  },
+  {
+   "set": "S031",
+   "angle": "side",
+   "kind": "line",
+   "reason": "small dark dot at the breast tip"
+  }
+ ]
+}

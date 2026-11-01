@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "reviewed": "2026-10-30",
+ "reviewed": "2026-10-31",
  "method": "docs/qc/README.md",
  "sets": {
   "P017": {
@@ -7535,6 +7535,5684 @@
    "below": {
     "file": "std_P062_below.webp",
     "status": "pass"
+   }
+  }
+ },
+ "maps": {
+  "P001": {
+   "front": {
+    "file": "std_P001_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P001_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P001_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P001_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P001_below.webp",
+    "status": "pass"
+   }
+  },
+  "P002": {
+   "front": {
+    "file": "std_P002_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P002_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P002_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P002_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P002_below.webp",
+    "status": "pass"
+   }
+  },
+  "P003": {
+   "front": {
+    "file": "std_P003_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P003_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P003_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P003_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P003_below.webp",
+    "status": "pass"
+   }
+  },
+  "P004": {
+   "front": {
+    "file": "std_P004_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P004_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P004_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P004_above.webp",
+    "status": "pass"
+   }
+  },
+  "P005": {
+   "front": {
+    "file": "std_P005_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P005_diag.webp",
+    "status": "line",
+    "reason": "faint point at breast tip (doubtful)"
+   },
+   "side": {
+    "file": "std_P005_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P005_above.webp",
+    "status": "line",
+    "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+   },
+   "below": {
+    "file": "std_P005_below.webp",
+    "status": "pass"
+   }
+  },
+  "P006": {
+   "front": {
+    "file": "std_P006_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P006_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P006_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P006_above.webp",
+    "status": "pass"
+   }
+  },
+  "P007": {
+   "front": {
+    "file": "std_P007_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P007_diag.webp",
+    "status": "line",
+    "reason": "small nipple-like point modelled at the breast tip in the clay"
+   },
+   "side": {
+    "file": "std_P007_side.webp",
+    "status": "line",
+    "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+   },
+   "above": {
+    "file": "std_P007_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P007_below.webp",
+    "status": "pass"
+   }
+  },
+  "P008": {
+   "front": {
+    "file": "std_P008_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P008_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P008_side.webp",
+    "status": "line",
+    "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+   },
+   "above": {
+    "file": "std_P008_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P008_below.webp",
+    "status": "pass"
+   }
+  },
+  "P009": {
+   "front": {
+    "file": "std_P009_front.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P009_side.webp",
+    "status": "line",
+    "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+   },
+   "above": {
+    "file": "std_P009_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P009_below.webp",
+    "status": "pass"
+   }
+  },
+  "P010": {
+   "front": {
+    "file": "std_P010_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P010_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P010_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P010_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P010_below.webp",
+    "status": "pass"
+   }
+  },
+  "P011": {
+   "front": {
+    "file": "std_P011_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P011_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P011_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P011_above.webp",
+    "status": "line",
+    "reason": "clear nipple on right breast"
+   },
+   "below": {
+    "file": "std_P011_below.webp",
+    "status": "pass"
+   }
+  },
+  "P012": {
+   "front": {
+    "file": "std_P012_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P012_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P012_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P012_above.webp",
+    "status": "pass"
+   }
+  },
+  "P013": {
+   "front": {
+    "file": "std_P013_front.webp",
+    "status": "line",
+    "reason": "small nipple-like dots visible on both breasts in the clay"
+   },
+   "diag": {
+    "file": "std_P013_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P013_side.webp",
+    "status": "line",
+    "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+   },
+   "above": {
+    "file": "std_P013_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P013_below.webp",
+    "status": "line",
+    "reason": "faint circular disc/ring mark on the lower body near the hips (areola-like artefact), doubt so fail"
+   }
+  },
+  "P014": {
+   "diag": {
+    "file": "std_P014_diag.webp",
+    "status": "line",
+    "reason": "small nipple-like point modelled at the near breast tip"
+   },
+   "side": {
+    "file": "std_P014_side.webp",
+    "status": "line",
+    "reason": "profile/three-quarter head has sculpted nose, lips and ear relief instead of a blank egg head"
+   },
+   "above": {
+    "file": "std_P014_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P014_below.webp",
+    "status": "pass"
+   }
+  },
+  "P015": {
+   "front": {
+    "file": "std_P015_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P015_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P015_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P015_below.webp",
+    "status": "pass"
+   }
+  },
+  "P016": {
+   "front": {
+    "file": "std_P016_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P016_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P016_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P016_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P016_below.webp",
+    "status": "pass"
+   }
+  },
+  "P017": {
+   "front": {
+    "file": "std_P017_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P017_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P017_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P017_above.webp",
+    "status": "pass"
+   }
+  },
+  "P018": {
+   "front": {
+    "file": "std_P018_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P018_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P018_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P018_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P018_below.webp",
+    "status": "pass"
+   }
+  },
+  "P019": {
+   "front": {
+    "file": "std_P019_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P019_diag.webp",
+    "status": "line",
+    "reason": "faint dark spot at the tip of the near breast (doubtful)"
+   },
+   "side": {
+    "file": "std_P019_side.webp",
+    "status": "pass"
+   }
+  },
+  "P020": {
+   "front": {
+    "file": "std_P020_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P020_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P020_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P020_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P020_below.webp",
+    "status": "pass"
+   }
+  },
+  "P021": {
+   "front": {
+    "file": "std_P021_front.webp",
+    "status": "line",
+    "reason": "faint highlight dot at the tip of the left breast (doubtful)"
+   },
+   "diag": {
+    "file": "std_P021_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P021_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P021_above.webp",
+    "status": "line",
+    "reason": "tiny faint spot at the tip of the left breast (doubtful)"
+   },
+   "below": {
+    "file": "std_P021_below.webp",
+    "status": "pass"
+   }
+  },
+  "P022": {
+   "front": {
+    "file": "std_P022_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P022_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P022_side.webp",
+    "status": "pass"
+   }
+  },
+  "P024": {
+   "front": {
+    "file": "std_P024_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P024_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P024_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P024_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P024_below.webp",
+    "status": "pass"
+   }
+  },
+  "P025": {
+   "front": {
+    "file": "std_P025_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P025_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P025_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P025_above.webp",
+    "status": "pass"
+   }
+  },
+  "P026": {
+   "front": {
+    "file": "std_P026_front.webp",
+    "status": "line",
+    "reason": "faint small bump at the tip of the left breast (doubtful)"
+   },
+   "diag": {
+    "file": "std_P026_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P026_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P026_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P026_below.webp",
+    "status": "pass"
+   }
+  },
+  "P027": {
+   "front": {
+    "file": "std_P027_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P027_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P027_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P027_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P027_below.webp",
+    "status": "pass"
+   }
+  },
+  "P029": {
+   "front": {
+    "file": "std_P029_front.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P029_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P029_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P029_below.webp",
+    "status": "pass"
+   }
+  },
+  "P030": {
+   "front": {
+    "file": "std_P030_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P030_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P030_side.webp",
+    "status": "pass"
+   }
+  },
+  "P031": {
+   "diag": {
+    "file": "std_P031_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P031_side.webp",
+    "status": "pass"
+   }
+  },
+  "P032": {
+   "front": {
+    "file": "std_P032_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P032_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P032_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P032_above.webp",
+    "status": "pass"
+   }
+  },
+  "P033": {
+   "front": {
+    "file": "std_P033_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P033_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P033_side.webp",
+    "status": "pass"
+   }
+  },
+  "P034": {
+   "diag": {
+    "file": "std_P034_diag.webp",
+    "status": "pass"
+   }
+  },
+  "P035": {
+   "front": {
+    "file": "std_P035_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P035_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P035_side.webp",
+    "status": "pass"
+   }
+  },
+  "P036": {
+   "front": {
+    "file": "std_P036_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P036_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P036_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P036_above.webp",
+    "status": "pass"
+   }
+  },
+  "P037": {
+   "front": {
+    "file": "std_P037_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P037_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P037_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P037_above.webp",
+    "status": "pass"
+   }
+  },
+  "P039": {
+   "front": {
+    "file": "std_P039_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P039_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P039_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P039_above.webp",
+    "status": "pass"
+   }
+  },
+  "P040": {
+   "front": {
+    "file": "std_P040_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P040_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P040_side.webp",
+    "status": "pass"
+   }
+  },
+  "P041": {
+   "front": {
+    "file": "std_P041_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P041_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P041_side.webp",
+    "status": "structure",
+    "reason": "neck renders as a dark thin collar and depth shows a gap between head and torso; head looks detached"
+   },
+   "above": {
+    "file": "std_P041_above.webp",
+    "status": "pass"
+   }
+  },
+  "P042": {
+   "front": {
+    "file": "std_P042_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P042_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P042_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P042_above.webp",
+    "status": "pass"
+   }
+  },
+  "P043": {
+   "front": {
+    "file": "std_P043_front.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P043_below.webp",
+    "status": "pass"
+   }
+  },
+  "P044": {
+   "front": {
+    "file": "std_P044_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P044_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P044_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P044_below.webp",
+    "status": "pass"
+   }
+  },
+  "P045": {
+   "front": {
+    "file": "std_P045_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P045_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P045_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P045_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P045_below.webp",
+    "status": "pass"
+   }
+  },
+  "P046": {
+   "front": {
+    "file": "std_P046_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P046_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P046_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P046_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P046_below.webp",
+    "status": "pass"
+   }
+  },
+  "P047": {
+   "front": {
+    "file": "std_P047_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P047_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P047_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P047_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P047_below.webp",
+    "status": "pass"
+   }
+  },
+  "P048": {
+   "front": {
+    "file": "std_P048_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P048_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P048_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P048_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P048_below.webp",
+    "status": "pass"
+   }
+  },
+  "P049": {
+   "front": {
+    "file": "std_P049_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P049_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P049_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P049_below.webp",
+    "status": "structure",
+    "reason": "red feet/toes are much larger than the clay feet and extend past them; legs and foot size do not line up"
+   }
+  },
+  "P050": {
+   "front": {
+    "file": "std_P050_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P050_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P050_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P050_above.webp",
+    "status": "pass"
+   }
+  },
+  "P051": {
+   "diag": {
+    "file": "std_P051_diag.webp",
+    "status": "line",
+    "reason": "head shows modelled facial features (nose, mouth, eye sockets) in clay and normal"
+   },
+   "above": {
+    "file": "std_P051_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P051_below.webp",
+    "status": "pass"
+   }
+  },
+  "P053": {
+   "front": {
+    "file": "std_P053_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P053_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P053_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P053_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P053_below.webp",
+    "status": "line",
+    "reason": "head has a modelled face: nose, lips and ear"
+   }
+  },
+  "P054": {
+   "front": {
+    "file": "std_P054_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P054_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P054_side.webp",
+    "status": "line",
+    "reason": "head shows ear and facial profile detail (eye/nose) on the blank head"
+   },
+   "above": {
+    "file": "std_P054_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P054_below.webp",
+    "status": "line",
+    "reason": "small point at tip of the raised breast, visible in silhouette"
+   }
+  },
+  "P055": {
+   "front": {
+    "file": "std_P055_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P055_diag.webp",
+    "status": "line",
+    "reason": "small nipple bumps on both breast tips"
+   },
+   "side": {
+    "file": "std_P055_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P055_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P055_below.webp",
+    "status": "pass"
+   }
+  },
+  "P056": {
+   "front": {
+    "file": "std_P056_front.webp",
+    "status": "structure",
+    "reason": "lying figure floats above or tilts off the floor"
+   },
+   "diag": {
+    "file": "std_P056_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P056_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P056_above.webp",
+    "status": "line",
+    "reason": "head shows an eye/ear-like marking on the clay head"
+   },
+   "below": {
+    "file": "std_P056_below.webp",
+    "status": "pass"
+   }
+  },
+  "P057": {
+   "front": {
+    "file": "std_P057_front.webp",
+    "status": "structure",
+    "reason": "clay is an upright standing, flat-chested mannequin; drawing is a reclined pose, so pose and framing differ"
+   },
+   "diag": {
+    "file": "std_P057_diag.webp",
+    "status": "line",
+    "reason": "small nipple bump on breast tip"
+   },
+   "side": {
+    "file": "std_P057_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P057_above.webp",
+    "status": "line",
+    "reason": "raised nipple point on the breast tip"
+   },
+   "below": {
+    "file": "std_P057_below.webp",
+    "status": "structure",
+    "reason": "clay legs, torso and head differ from the drawing; red legs and head lie well off the render"
+   }
+  },
+  "P058": {
+   "front": {
+    "file": "std_P058_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P058_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P058_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P058_above.webp",
+    "status": "line",
+    "reason": "head shows ears and a nose/chin face shape (ear visible in normal)"
+   },
+   "below": {
+    "file": "std_P058_below.webp",
+    "status": "pass"
+   }
+  },
+  "P059": {
+   "front": {
+    "file": "std_P059_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P059_diag.webp",
+    "status": "line",
+    "reason": "head shows an ear and a nose/lips profile in clay and normal"
+   },
+   "side": {
+    "file": "std_P059_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P059_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P059_below.webp",
+    "status": "line",
+    "reason": "head shows an ear and facial features (nose, jaw) in the clay"
+   }
+  },
+  "P060": {
+   "front": {
+    "file": "std_P060_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P060_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P060_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P060_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P060_below.webp",
+    "status": "pass"
+   }
+  },
+  "P061": {
+   "front": {
+    "file": "std_P061_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P061_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P061_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P061_above.webp",
+    "status": "pass"
+   }
+  },
+  "P062": {
+   "front": {
+    "file": "std_P062_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P062_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P062_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P062_above.webp",
+    "status": "pass"
+   }
+  },
+  "P063": {
+   "front": {
+    "file": "std_P063_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P063_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P063_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P063_below.webp",
+    "status": "pass"
+   }
+  },
+  "P064": {
+   "front": {
+    "file": "std_P064_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P064_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P064_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P064_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P064_below.webp",
+    "status": "pass"
+   }
+  },
+  "P065": {
+   "front": {
+    "file": "std_P065_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P065_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P065_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P065_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P065_below.webp",
+    "status": "pass"
+   }
+  },
+  "P066": {
+   "front": {
+    "file": "std_P066_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P066_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P066_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P066_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P066_below.webp",
+    "status": "line",
+    "reason": "faint dot at the tip of the breast"
+   }
+  },
+  "P067": {
+   "front": {
+    "file": "std_P067_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P067_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P067_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P067_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P067_below.webp",
+    "status": "pass"
+   }
+  },
+  "P068": {
+   "front": {
+    "file": "std_P068_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P068_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P068_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P068_below.webp",
+    "status": "pass"
+   }
+  },
+  "P069": {
+   "front": {
+    "file": "std_P069_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P069_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P069_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P069_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P069_below.webp",
+    "status": "pass"
+   }
+  },
+  "P070": {
+   "side": {
+    "file": "std_P070_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P070_below.webp",
+    "status": "line",
+    "reason": "small pointed nub at breast tip"
+   }
+  },
+  "P071": {
+   "front": {
+    "file": "std_P071_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P071_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P071_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "std_P071_above.webp",
+    "status": "line",
+    "reason": "possible nipple marks modelled on the breasts in clay and normal (doubtful, failed per when-in-doubt rule)"
+   },
+   "below": {
+    "file": "std_P071_below.webp",
+    "status": "pass"
+   }
+  },
+  "P072": {
+   "side": {
+    "file": "std_P072_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P072_below.webp",
+    "status": "line",
+    "reason": "dot at the breast tip"
+   }
+  },
+  "P073": {
+   "front": {
+    "file": "std_P073_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P073_diag.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "std_P073_below.webp",
+    "status": "pass"
+   }
+  },
+  "P074": {
+   "front": {
+    "file": "std_P074_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P074_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P074_side.webp",
+    "status": "structure",
+    "reason": "line over clay: red arm/torso/head clearly off the mannequin; drawing shows a twisted pose with arm swung out, clay shows arm hanging at side and a different head/torso position"
+   },
+   "above": {
+    "file": "std_P074_above.webp",
+    "status": "pass"
+   }
+  },
+  "P075": {
+   "front": {
+    "file": "std_P075_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "std_P075_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "std_P075_side.webp",
+    "status": "line",
+    "reason": "faint nipple bump at the breast tip"
+   },
+   "above": {
+    "file": "std_P075_above.webp",
+    "status": "line",
+    "reason": "faint nipple mark at the breast tip"
+   },
+   "below": {
+    "file": "std_P075_below.webp",
+    "status": "pass"
+   }
+  },
+  "S001": {
+   "front": {
+    "file": "sexy_S001_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S001_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S001_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S001_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S001_below.webp",
+    "status": "pass"
+   }
+  },
+  "S002": {
+   "diag": {
+    "file": "sexy_S002_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S002_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S002_above.webp",
+    "status": "pass"
+   }
+  },
+  "S003": {
+   "front": {
+    "file": "sexy_S003_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S003_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S003_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S003_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S003_below.webp",
+    "status": "pass"
+   }
+  },
+  "S004": {
+   "front": {
+    "file": "sexy_S004_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S004_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S004_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S004_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S004_below.webp",
+    "status": "pass"
+   }
+  },
+  "S005": {
+   "front": {
+    "file": "sexy_S005_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S005_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S005_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S005_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S005_below.webp",
+    "status": "pass"
+   }
+  },
+  "S006": {
+   "side": {
+    "file": "sexy_S006_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S006_above.webp",
+    "status": "pass"
+   }
+  },
+  "S007": {
+   "front": {
+    "file": "sexy_S007_front.webp",
+    "status": "structure",
+    "reason": "drawing is a back view (buttocks, head turned) but the clay faces the camera (chest and front of hips); different pose/camera angle"
+   },
+   "diag": {
+    "file": "sexy_S007_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S007_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S007_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S007_below.webp",
+    "status": "pass"
+   }
+  },
+  "S008": {
+   "front": {
+    "file": "sexy_S008_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S008_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S008_side.webp",
+    "status": "line",
+    "reason": "small dark dot at tip of the visible breast"
+   },
+   "above": {
+    "file": "sexy_S008_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S008_below.webp",
+    "status": "pass"
+   }
+  },
+  "S009": {
+   "front": {
+    "file": "sexy_S009_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S009_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S009_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S009_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S009_below.webp",
+    "status": "pass"
+   }
+  },
+  "S010": {
+   "front": {
+    "file": "sexy_S010_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S010_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S010_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S010_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S010_below.webp",
+    "status": "pass"
+   }
+  },
+  "S011": {
+   "front": {
+    "file": "sexy_S011_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S011_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S011_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S011_below.webp",
+    "status": "pass"
+   }
+  },
+  "S012": {
+   "front": {
+    "file": "sexy_S012_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S012_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S012_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S012_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S012_below.webp",
+    "status": "pass"
+   }
+  },
+  "S013": {
+   "front": {
+    "file": "sexy_S013_front.webp",
+    "status": "line",
+    "reason": "dark blob modelled at the crotch between the thighs, reads as genital/hair detail or a hole"
+   },
+   "diag": {
+    "file": "sexy_S013_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S013_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S013_above.webp",
+    "status": "pass"
+   }
+  },
+  "S014": {
+   "front": {
+    "file": "sexy_S014_front.webp",
+    "status": "structure",
+    "reason": "drawing is a deep forward fold seen from the front; clay is an upright standing figure, different pose"
+   },
+   "diag": {
+    "file": "sexy_S014_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S014_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S014_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S014_below.webp",
+    "status": "pass"
+   }
+  },
+  "S015": {
+   "front": {
+    "file": "sexy_S015_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S015_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S015_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S015_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S015_below.webp",
+    "status": "pass"
+   }
+  },
+  "S016": {
+   "front": {
+    "file": "sexy_S016_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S016_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S016_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S016_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S016_below.webp",
+    "status": "pass"
+   }
+  },
+  "S017": {
+   "front": {
+    "file": "sexy_S017_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S017_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S017_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S017_below.webp",
+    "status": "pass"
+   }
+  },
+  "S018": {
+   "front": {
+    "file": "sexy_S018_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S018_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S018_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S018_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S018_below.webp",
+    "status": "pass"
+   }
+  },
+  "S019": {
+   "front": {
+    "file": "sexy_S019_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S019_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S019_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S019_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S019_below.webp",
+    "status": "pass"
+   }
+  },
+  "S020": {
+   "front": {
+    "file": "sexy_S020_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S020_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S020_side.webp",
+    "status": "line",
+    "reason": "faint point at tip of the breast in profile (doubt)"
+   },
+   "above": {
+    "file": "sexy_S020_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S020_below.webp",
+    "status": "line",
+    "reason": "faint rounded bump in the shadowed crotch (doubt)"
+   }
+  },
+  "S021": {
+   "front": {
+    "file": "sexy_S021_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S021_diag.webp",
+    "status": "line",
+    "reason": "small raised nipple bump on the left breast"
+   },
+   "side": {
+    "file": "sexy_S021_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S021_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S021_below.webp",
+    "status": "pass"
+   }
+  },
+  "S022": {
+   "diag": {
+    "file": "sexy_S022_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S022_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S022_below.webp",
+    "status": "pass"
+   }
+  },
+  "S023": {
+   "front": {
+    "file": "sexy_S023_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S023_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S023_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S023_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S023_below.webp",
+    "status": "pass"
+   }
+  },
+  "S024": {
+   "front": {
+    "file": "sexy_S024_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S024_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S024_side.webp",
+    "status": "line",
+    "reason": "small raised bump at the tip of the breast"
+   },
+   "above": {
+    "file": "sexy_S024_above.webp",
+    "status": "pass"
+   }
+  },
+  "S025": {
+   "front": {
+    "file": "sexy_S025_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S025_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S025_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S025_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S025_below.webp",
+    "status": "pass"
+   }
+  },
+  "S026": {
+   "front": {
+    "file": "sexy_S026_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S026_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S026_side.webp",
+    "status": "line",
+    "reason": "head has a modelled face: lips, nose and eye hollows, not a blank mannequin head"
+   },
+   "above": {
+    "file": "sexy_S026_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S026_below.webp",
+    "status": "pass"
+   }
+  },
+  "S027": {
+   "front": {
+    "file": "sexy_S027_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S027_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S027_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S027_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S027_below.webp",
+    "status": "pass"
+   }
+  },
+  "S028": {
+   "front": {
+    "file": "sexy_S028_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S028_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S028_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S028_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S028_below.webp",
+    "status": "pass"
+   }
+  },
+  "S029": {
+   "front": {
+    "file": "sexy_S029_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S029_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S029_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S029_above.webp",
+    "status": "pass"
+   }
+  },
+  "S030": {
+   "front": {
+    "file": "sexy_S030_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S030_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S030_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S030_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S030_below.webp",
+    "status": "pass"
+   }
+  },
+  "S031": {
+   "front": {
+    "file": "sexy_S031_front.webp",
+    "status": "line",
+    "reason": "faint nipple bump on breast (doubt, fail)"
+   },
+   "diag": {
+    "file": "sexy_S031_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S031_side.webp",
+    "status": "line",
+    "reason": "small dark dot at the breast tip"
+   },
+   "above": {
+    "file": "sexy_S031_above.webp",
+    "status": "line",
+    "reason": "nipples clearly modelled on both breasts"
+   },
+   "below": {
+    "file": "sexy_S031_below.webp",
+    "status": "pass"
+   }
+  },
+  "S032": {
+   "front": {
+    "file": "sexy_S032_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S032_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S032_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S032_above.webp",
+    "status": "pass"
+   }
+  },
+  "S033": {
+   "front": {
+    "file": "sexy_S033_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S033_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S033_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S033_above.webp",
+    "status": "line",
+    "reason": "faint raised point at breast tip, right breast"
+   },
+   "below": {
+    "file": "sexy_S033_below.webp",
+    "status": "pass"
+   }
+  },
+  "S034": {
+   "front": {
+    "file": "sexy_S034_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S034_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S034_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S034_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S034_below.webp",
+    "status": "pass"
+   }
+  },
+  "S035": {
+   "front": {
+    "file": "sexy_S035_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S035_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S035_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S035_above.webp",
+    "status": "pass"
+   }
+  },
+  "S036": {
+   "front": {
+    "file": "sexy_S036_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S036_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S036_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S036_below.webp",
+    "status": "pass"
+   }
+  },
+  "S037": {
+   "front": {
+    "file": "sexy_S037_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S037_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S037_side.webp",
+    "status": "pass"
+   }
+  },
+  "S038": {
+   "front": {
+    "file": "sexy_S038_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S038_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S038_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S038_above.webp",
+    "status": "line",
+    "reason": "clay head has ears and a nose/chin bump on top"
+   },
+   "below": {
+    "file": "sexy_S038_below.webp",
+    "status": "pass"
+   }
+  },
+  "S039": {
+   "front": {
+    "file": "sexy_S039_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S039_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S039_side.webp",
+    "status": "pass"
+   }
+  },
+  "S040": {
+   "front": {
+    "file": "sexy_S040_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S040_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S040_side.webp",
+    "status": "line",
+    "reason": "clay head has brow, nose and chin detail (face)"
+   },
+   "above": {
+    "file": "sexy_S040_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S040_below.webp",
+    "status": "line",
+    "reason": "ear modelled on the clay head"
+   }
+  },
+  "S041": {
+   "front": {
+    "file": "sexy_S041_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S041_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S041_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S041_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S041_below.webp",
+    "status": "pass"
+   }
+  },
+  "S042": {
+   "front": {
+    "file": "sexy_S042_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S042_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S042_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S042_above.webp",
+    "status": "pass"
+   }
+  },
+  "S043": {
+   "front": {
+    "file": "sexy_S043_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S043_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S043_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S043_below.webp",
+    "status": "pass"
+   }
+  },
+  "S044": {
+   "front": {
+    "file": "sexy_S044_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S044_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S044_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S044_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S044_below.webp",
+    "status": "pass"
+   }
+  },
+  "S045": {
+   "diag": {
+    "file": "sexy_S045_diag.webp",
+    "status": "line",
+    "reason": "pointed tip at breast, nipple-like"
+   },
+   "side": {
+    "file": "sexy_S045_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S045_above.webp",
+    "status": "line",
+    "reason": "clay head has nose, lips and ear (face)"
+   }
+  },
+  "S046": {
+   "front": {
+    "file": "sexy_S046_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S046_diag.webp",
+    "status": "line",
+    "reason": "small bump/dot at breast tip"
+   },
+   "side": {
+    "file": "sexy_S046_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S046_above.webp",
+    "status": "structure",
+    "reason": "lying figure floats above or tilts off the floor"
+   }
+  },
+  "S047": {
+   "front": {
+    "file": "sexy_S047_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S047_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S047_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S047_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S047_below.webp",
+    "status": "pass"
+   }
+  },
+  "S048": {
+   "front": {
+    "file": "sexy_S048_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S048_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S048_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S048_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S048_below.webp",
+    "status": "line",
+    "reason": "clay head has ear and nose/lip profile"
+   }
+  },
+  "S049": {
+   "front": {
+    "file": "sexy_S049_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S049_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S049_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S049_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S049_below.webp",
+    "status": "line",
+    "reason": "small bump at breast tip"
+   }
+  },
+  "S050": {
+   "diag": {
+    "file": "sexy_S050_diag.webp",
+    "status": "structure",
+    "reason": "supine figure floats above the floor / tilted off it, shadow detached"
+   },
+   "above": {
+    "file": "sexy_S050_above.webp",
+    "status": "structure",
+    "reason": "supine figure floats above the floor / tilted off it, shadow detached"
+   },
+   "below": {
+    "file": "sexy_S050_below.webp",
+    "status": "structure",
+    "reason": "supine figure floats above the floor / tilted off it, shadow detached"
+   }
+  },
+  "S051": {
+   "diag": {
+    "file": "sexy_S051_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S051_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S051_above.webp",
+    "status": "pass"
+   }
+  },
+  "S052": {
+   "front": {
+    "file": "sexy_S052_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S052_diag.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S052_below.webp",
+    "status": "pass"
+   }
+  },
+  "S053": {
+   "front": {
+    "file": "sexy_S053_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S053_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S053_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S053_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S053_below.webp",
+    "status": "line",
+    "reason": "tiny point at breast tip"
+   }
+  },
+  "S054": {
+   "front": {
+    "file": "sexy_S054_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S054_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S054_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S054_below.webp",
+    "status": "pass"
+   }
+  },
+  "S055": {
+   "front": {
+    "file": "sexy_S055_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S055_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S055_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S055_above.webp",
+    "status": "line",
+    "reason": "small ears modelled on clay head (borderline)"
+   },
+   "below": {
+    "file": "sexy_S055_below.webp",
+    "status": "pass"
+   }
+  },
+  "S056": {
+   "front": {
+    "file": "sexy_S056_front.webp",
+    "status": "structure",
+    "reason": "supine figure floats / is tilted off the floor, shadow detached"
+   },
+   "diag": {
+    "file": "sexy_S056_diag.webp",
+    "status": "structure",
+    "reason": "supine figure tilted off the floor, reads as floating"
+   },
+   "above": {
+    "file": "sexy_S056_above.webp",
+    "status": "structure",
+    "reason": "supine figure tilted off the floor, reads as floating"
+   }
+  },
+  "S057": {
+   "diag": {
+    "file": "sexy_S057_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S057_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S057_above.webp",
+    "status": "structure",
+    "reason": "prone figure shown in mid-air with detached floor shadow"
+   },
+   "below": {
+    "file": "sexy_S057_below.webp",
+    "status": "structure",
+    "reason": "prone figure shown in mid-air with detached floor shadow"
+   }
+  },
+  "S058": {
+   "front": {
+    "file": "sexy_S058_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S058_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S058_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S058_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S058_below.webp",
+    "status": "pass"
+   }
+  },
+  "S059": {
+   "side": {
+    "file": "sexy_S059_side.webp",
+    "status": "line",
+    "reason": "clay head has brow/nose bump on the face (borderline)"
+   }
+  },
+  "S060": {
+   "front": {
+    "file": "sexy_S060_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S060_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S060_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S060_above.webp",
+    "status": "line",
+    "reason": "small bumps at chest, nipple-like"
+   },
+   "below": {
+    "file": "sexy_S060_below.webp",
+    "status": "pass"
+   }
+  },
+  "S061": {
+   "front": {
+    "file": "sexy_S061_front.webp",
+    "status": "structure",
+    "reason": "side-lying figure floats / tilted off the floor, shadow detached"
+   },
+   "diag": {
+    "file": "sexy_S061_diag.webp",
+    "status": "structure",
+    "reason": "side-lying figure floats / tilted off the floor, shadow detached"
+   },
+   "side": {
+    "file": "sexy_S061_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S061_above.webp",
+    "status": "structure",
+    "reason": "side-lying figure floats / tilted off the floor, shadow detached"
+   },
+   "below": {
+    "file": "sexy_S061_below.webp",
+    "status": "line",
+    "reason": "clay head has eye, nose and mouth profile; figure also floats off floor"
+   }
+  },
+  "S062": {
+   "front": {
+    "file": "sexy_S062_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S062_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S062_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S062_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S062_below.webp",
+    "status": "structure",
+    "reason": "clay is a different camera view (back view, huge hips); red legs do not match the render"
+   }
+  },
+  "S063": {
+   "front": {
+    "file": "sexy_S063_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S063_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S063_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S063_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S063_below.webp",
+    "status": "pass"
+   }
+  },
+  "S064": {
+   "front": {
+    "file": "sexy_S064_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S064_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S064_side.webp",
+    "status": "structure",
+    "reason": "lying figure floats above or tilts off the floor"
+   },
+   "above": {
+    "file": "sexy_S064_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S064_below.webp",
+    "status": "line",
+    "reason": "faint point at left breast tip"
+   }
+  },
+  "S065": {
+   "front": {
+    "file": "sexy_S065_front.webp",
+    "status": "line",
+    "reason": "clear nipple bump on breast"
+   },
+   "diag": {
+    "file": "sexy_S065_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S065_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S065_below.webp",
+    "status": "line",
+    "reason": "clear nipple bump on breast"
+   }
+  },
+  "S066": {
+   "front": {
+    "file": "sexy_S066_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S066_diag.webp",
+    "status": "line",
+    "reason": "compact dark spot at breast tip, possible nipple"
+   },
+   "side": {
+    "file": "sexy_S066_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S066_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S066_below.webp",
+    "status": "line",
+    "reason": "ear block visible on the clay head"
+   }
+  },
+  "S067": {
+   "front": {
+    "file": "sexy_S067_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S067_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S067_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S067_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S067_below.webp",
+    "status": "pass"
+   }
+  },
+  "S068": {
+   "diag": {
+    "file": "sexy_S068_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S068_above.webp",
+    "status": "pass"
+   }
+  },
+  "S069": {
+   "front": {
+    "file": "sexy_S069_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S069_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S069_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S069_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S069_below.webp",
+    "status": "pass"
+   }
+  },
+  "S070": {
+   "front": {
+    "file": "sexy_S070_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S070_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S070_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S070_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S070_below.webp",
+    "status": "line",
+    "reason": "small ears modelled on both sides of the head"
+   }
+  },
+  "S071": {
+   "front": {
+    "file": "sexy_S071_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S071_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S071_side.webp",
+    "status": "pass"
+   }
+  },
+  "S072": {
+   "diag": {
+    "file": "sexy_S072_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S072_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S072_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S072_below.webp",
+    "status": "pass"
+   }
+  },
+  "S073": {
+   "front": {
+    "file": "sexy_S073_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S073_diag.webp",
+    "status": "line",
+    "reason": "nose and brow relief on the head"
+   },
+   "side": {
+    "file": "sexy_S073_side.webp",
+    "status": "line",
+    "reason": "nose, lips and ear modelled on the face"
+   },
+   "above": {
+    "file": "sexy_S073_above.webp",
+    "status": "line",
+    "reason": "ear and nose/lip relief on the head"
+   },
+   "below": {
+    "file": "sexy_S073_below.webp",
+    "status": "line",
+    "reason": "ear modelled on the head"
+   }
+  },
+  "S074": {
+   "front": {
+    "file": "sexy_S074_front.webp",
+    "status": "line",
+    "reason": "nipple bump at breast tip"
+   },
+   "diag": {
+    "file": "sexy_S074_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S074_side.webp",
+    "status": "pass"
+   }
+  },
+  "S075": {
+   "front": {
+    "file": "sexy_S075_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S075_diag.webp",
+    "status": "line",
+    "reason": "faint nipple bump on the breast"
+   },
+   "side": {
+    "file": "sexy_S075_side.webp",
+    "status": "line",
+    "reason": "nose, lips and ear modelled on the head"
+   },
+   "above": {
+    "file": "sexy_S075_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S075_below.webp",
+    "status": "line",
+    "reason": "nipples modelled on the breasts"
+   }
+  },
+  "S076": {
+   "front": {
+    "file": "sexy_S076_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S076_diag.webp",
+    "status": "line",
+    "reason": "ear modelled on the head"
+   },
+   "side": {
+    "file": "sexy_S076_side.webp",
+    "status": "line",
+    "reason": "nose, lips and ear modelled on the head"
+   },
+   "above": {
+    "file": "sexy_S076_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S076_below.webp",
+    "status": "pass"
+   }
+  },
+  "S077": {
+   "front": {
+    "file": "sexy_S077_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S077_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S077_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "sexy_S077_above.webp",
+    "status": "line",
+    "reason": "nipple modelled on the breast"
+   },
+   "below": {
+    "file": "sexy_S077_below.webp",
+    "status": "pass"
+   }
+  },
+  "S078": {
+   "front": {
+    "file": "sexy_S078_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S078_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S078_side.webp",
+    "status": "line",
+    "reason": "nose, lips and ear modelled on the head"
+   },
+   "below": {
+    "file": "sexy_S078_below.webp",
+    "status": "pass"
+   }
+  },
+  "S079": {
+   "front": {
+    "file": "sexy_S079_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S079_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S079_side.webp",
+    "status": "line",
+    "reason": "ear and nose relief on the head"
+   },
+   "above": {
+    "file": "sexy_S079_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S079_below.webp",
+    "status": "pass"
+   }
+  },
+  "S080": {
+   "front": {
+    "file": "sexy_S080_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "sexy_S080_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "sexy_S080_side.webp",
+    "status": "line",
+    "reason": "nose, lips and ear modelled on the head"
+   },
+   "above": {
+    "file": "sexy_S080_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "sexy_S080_below.webp",
+    "status": "line",
+    "reason": "ear modelled on the head"
+   }
+  },
+  "U001": {
+   "front": {
+    "file": "upper_U001_front.webp",
+    "status": "structure",
+    "reason": "clay is a small full-length figure; red head and torso drawing is far larger and does not line up"
+   },
+   "diag": {
+    "file": "upper_U001_diag.webp",
+    "status": "line",
+    "reason": "faint bump at left breast tip"
+   },
+   "side": {
+    "file": "upper_U001_side.webp",
+    "status": "structure",
+    "reason": "clay is a short chibi/child-like figure with big head; pose and hands do not match the drawing"
+   },
+   "above": {
+    "file": "upper_U001_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U001_below.webp",
+    "status": "pass"
+   }
+  },
+  "U002": {
+   "front": {
+    "file": "upper_U002_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U002_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U002_side.webp",
+    "status": "line",
+    "reason": "nose, lips and ear modelled on the head"
+   },
+   "below": {
+    "file": "upper_U002_below.webp",
+    "status": "pass"
+   }
+  },
+  "U003": {
+   "front": {
+    "file": "upper_U003_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U003_diag.webp",
+    "status": "line",
+    "reason": "faint nipple bump on the breast"
+   },
+   "side": {
+    "file": "upper_U003_side.webp",
+    "status": "line",
+    "reason": "nose, lips and ear modelled on the head"
+   },
+   "above": {
+    "file": "upper_U003_above.webp",
+    "status": "line",
+    "reason": "ear, nose and lips modelled on the head"
+   },
+   "below": {
+    "file": "upper_U003_below.webp",
+    "status": "structure",
+    "reason": "map not aligned with the line art (overlap 0.82)"
+   }
+  },
+  "U004": {
+   "front": {
+    "file": "upper_U004_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U004_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U004_side.webp",
+    "status": "structure",
+    "reason": "map not aligned with the line art (overlap 0.87)"
+   },
+   "above": {
+    "file": "upper_U004_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U004_below.webp",
+    "status": "pass"
+   }
+  },
+  "U005": {
+   "front": {
+    "file": "upper_U005_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U005_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U005_side.webp",
+    "status": "structure",
+    "reason": "red head and torso much larger than and offset from the clay; clay is a small kneeling figure"
+   },
+   "above": {
+    "file": "upper_U005_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U005_below.webp",
+    "status": "pass"
+   }
+  },
+  "U006": {
+   "front": {
+    "file": "upper_U006_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U006_diag.webp",
+    "status": "structure",
+    "reason": "clay is a full standing figure with male-looking chest; red drawing is a larger upper-body pose that does not align"
+   },
+   "side": {
+    "file": "upper_U006_side.webp",
+    "status": "structure",
+    "reason": "red torso and head far larger/offset from the slimmer clay figure; different body shape and arm placement"
+   },
+   "above": {
+    "file": "upper_U006_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U006_below.webp",
+    "status": "pass"
+   }
+  },
+  "U007": {
+   "front": {
+    "file": "upper_U007_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U007_diag.webp",
+    "status": "structure",
+    "reason": "drawing has one arm raised with rabbit fingers, clay has both hands behind head; pose differs, red arms off the clay"
+   },
+   "above": {
+    "file": "upper_U007_above.webp",
+    "status": "pass"
+   }
+  },
+  "U008": {
+   "front": {
+    "file": "upper_U008_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U008_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U008_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U008_below.webp",
+    "status": "pass"
+   }
+  },
+  "U009": {
+   "front": {
+    "file": "upper_U009_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U009_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U009_side.webp",
+    "status": "structure",
+    "reason": "map not aligned with the line art (overlap 0.80)"
+   },
+   "below": {
+    "file": "upper_U009_below.webp",
+    "status": "pass"
+   }
+  },
+  "U010": {
+   "front": {
+    "file": "upper_U010_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U010_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U010_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U010_above.webp",
+    "status": "line",
+    "reason": "nipple modelled on the chest in clay (visible nub) and in normal map"
+   },
+   "below": {
+    "file": "upper_U010_below.webp",
+    "status": "pass"
+   }
+  },
+  "U011": {
+   "front": {
+    "file": "upper_U011_front.webp",
+    "status": "line",
+    "reason": "nipples modelled on both breasts in clay and normal map"
+   },
+   "diag": {
+    "file": "upper_U011_diag.webp",
+    "status": "structure",
+    "reason": "drawing is a large upper-body crop, clay is a small full-body figure; red lines nowhere near the mannequin"
+   },
+   "side": {
+    "file": "upper_U011_side.webp",
+    "status": "line",
+    "reason": "face features sculpted on the head in profile: brow/eye, nose and lips"
+   },
+   "above": {
+    "file": "upper_U011_above.webp",
+    "status": "structure",
+    "reason": "clay is a muscular male-looking full body seen from above; drawing is a close female upper body; red lines misaligned"
+   },
+   "below": {
+    "file": "upper_U011_below.webp",
+    "status": "structure",
+    "reason": "red torso, arm and head clearly shifted/larger than the clay; hanging arm and hand do not line up"
+   }
+  },
+  "U012": {
+   "front": {
+    "file": "upper_U012_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U012_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U012_side.webp",
+    "status": "structure",
+    "reason": "map not aligned with the line art (overlap 0.70)"
+   },
+   "above": {
+    "file": "upper_U012_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U012_below.webp",
+    "status": "pass"
+   }
+  },
+  "U013": {
+   "front": {
+    "file": "upper_U013_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U013_diag.webp",
+    "status": "structure",
+    "reason": "red head and arms much larger and offset from the clay; framing and arm positions differ"
+   },
+   "side": {
+    "file": "upper_U013_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U013_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U013_below.webp",
+    "status": "pass"
+   }
+  },
+  "U014": {
+   "front": {
+    "file": "upper_U014_front.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body standing figure; red drawing is a large upper-body with arm out wide, completely misaligned"
+   },
+   "diag": {
+    "file": "upper_U014_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U014_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U014_above.webp",
+    "status": "pass"
+   }
+  },
+  "U015": {
+   "front": {
+    "file": "upper_U015_front.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure, drawing is a large upper-body crop; red outline far off the mannequin"
+   },
+   "diag": {
+    "file": "upper_U015_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U015_side.webp",
+    "status": "line",
+    "reason": "ear and facial profile detail (nose, lips) modelled on the head"
+   },
+   "above": {
+    "file": "upper_U015_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U015_below.webp",
+    "status": "pass"
+   }
+  },
+  "U016": {
+   "front": {
+    "file": "upper_U016_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U016_diag.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure, red drawing is a large bowed upper body; limbs and head do not line up"
+   },
+   "side": {
+    "file": "upper_U016_side.webp",
+    "status": "line",
+    "reason": "ear, closed eye and lips modelled on the head"
+   },
+   "above": {
+    "file": "upper_U016_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U016_below.webp",
+    "status": "line",
+    "reason": "face detail modelled on the head (mouth indent, ear visible in normal) instead of a blank egg head"
+   }
+  },
+  "U017": {
+   "front": {
+    "file": "upper_U017_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U017_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U017_side.webp",
+    "status": "structure",
+    "reason": "clay is a smaller full-body figure with arm crossing differently; red head, torso and arm clearly off the clay"
+   },
+   "above": {
+    "file": "upper_U017_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U017_below.webp",
+    "status": "structure",
+    "reason": "upper body ends in a rounded cut and floats above the floor with a shadow under it; red drawing continues to legs"
+   }
+  },
+  "U018": {
+   "front": {
+    "file": "upper_U018_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U018_diag.webp",
+    "status": "structure",
+    "reason": "drawing shows hands framing the face, clay has hands clasped at the forehead; pose differs, red hands off the clay"
+   },
+   "side": {
+    "file": "upper_U018_side.webp",
+    "status": "line",
+    "reason": "ear and lips/nose face detail modelled on the head"
+   },
+   "above": {
+    "file": "upper_U018_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U018_below.webp",
+    "status": "pass"
+   }
+  },
+  "U019": {
+   "front": {
+    "file": "upper_U019_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U019_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U019_side.webp",
+    "status": "line",
+    "reason": "ear and face profile detail modelled on the head"
+   },
+   "above": {
+    "file": "upper_U019_above.webp",
+    "status": "line",
+    "reason": "ear, nose and lips modelled on the head"
+   },
+   "below": {
+    "file": "upper_U019_below.webp",
+    "status": "structure",
+    "reason": "red arm, head and torso outline lie clearly off the clay; raised arm and head position differ"
+   }
+  },
+  "U020": {
+   "front": {
+    "file": "upper_U020_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U020_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U020_side.webp",
+    "status": "structure",
+    "reason": "red head, arms and torso clearly off the clay figure; arm crossing differs and framing differs"
+   },
+   "above": {
+    "file": "upper_U020_above.webp",
+    "status": "structure",
+    "reason": "clay is a full-body figure with ribbed sleeves, red upper-body drawing and hips far off the clay"
+   },
+   "below": {
+    "file": "upper_U020_below.webp",
+    "status": "pass"
+   }
+  },
+  "U021": {
+   "front": {
+    "file": "upper_U021_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U021_diag.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body walking figure; red drawing is a large upper body with arm raised, no alignment"
+   },
+   "side": {
+    "file": "upper_U021_side.webp",
+    "status": "structure",
+    "reason": "map not aligned with the line art (overlap 0.84)"
+   },
+   "below": {
+    "file": "upper_U021_below.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body standing figure; red drawing is a huge upper-body crop, arm and torso way off"
+   }
+  },
+  "U022": {
+   "front": {
+    "file": "upper_U022_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U022_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U022_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U022_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U022_below.webp",
+    "status": "pass"
+   }
+  },
+  "U023": {
+   "front": {
+    "file": "upper_U023_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U023_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U023_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U023_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U023_below.webp",
+    "status": "pass"
+   }
+  },
+  "U024": {
+   "front": {
+    "file": "upper_U024_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U024_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U024_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U024_above.webp",
+    "status": "pass"
+   }
+  },
+  "U025": {
+   "front": {
+    "file": "upper_U025_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U025_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U025_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U025_below.webp",
+    "status": "pass"
+   }
+  },
+  "U026": {
+   "front": {
+    "file": "upper_U026_front.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red drawing is a large upper-body, outline far off the mannequin"
+   },
+   "diag": {
+    "file": "upper_U026_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U026_side.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red head, arms and torso lie far off the clay"
+   },
+   "above": {
+    "file": "upper_U026_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U026_below.webp",
+    "status": "pass"
+   }
+  },
+  "U027": {
+   "front": {
+    "file": "upper_U027_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U027_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U027_side.webp",
+    "status": "line",
+    "reason": "face detail (eye, nose, lips, ear) modelled on the head"
+   },
+   "above": {
+    "file": "upper_U027_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U027_below.webp",
+    "status": "pass"
+   }
+  },
+  "U028": {
+   "front": {
+    "file": "upper_U028_front.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red drawing is a large upper body with wide hips, no alignment"
+   },
+   "diag": {
+    "file": "upper_U028_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U028_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U028_above.webp",
+    "status": "line",
+    "reason": "small dark dot at breast tip"
+   },
+   "below": {
+    "file": "upper_U028_below.webp",
+    "status": "pass"
+   }
+  },
+  "U029": {
+   "front": {
+    "file": "upper_U029_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U029_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U029_side.webp",
+    "status": "line",
+    "reason": "ear and lips/nose face detail modelled on the head"
+   },
+   "above": {
+    "file": "upper_U029_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U029_below.webp",
+    "status": "pass"
+   }
+  },
+  "U030": {
+   "front": {
+    "file": "upper_U030_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U030_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U030_side.webp",
+    "status": "structure",
+    "reason": "map not aligned with the line art (overlap 0.86)"
+   },
+   "above": {
+    "file": "upper_U030_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U030_below.webp",
+    "status": "pass"
+   }
+  },
+  "U031": {
+   "front": {
+    "file": "upper_U031_front.webp",
+    "status": "structure",
+    "reason": "map not aligned with the line art (overlap 0.84)"
+   },
+   "diag": {
+    "file": "upper_U031_diag.webp",
+    "status": "line",
+    "reason": "nipple point at breast tip"
+   },
+   "side": {
+    "file": "upper_U031_side.webp",
+    "status": "pass"
+   }
+  },
+  "U032": {
+   "front": {
+    "file": "upper_U032_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U032_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U032_side.webp",
+    "status": "line",
+    "reason": "head has sculpted realistic face (nose, lips, eye shading), not a blank egg"
+   },
+   "above": {
+    "file": "upper_U032_above.webp",
+    "status": "pass"
+   }
+  },
+  "U033": {
+   "front": {
+    "file": "upper_U033_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U033_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U033_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U033_above.webp",
+    "status": "pass"
+   }
+  },
+  "U034": {
+   "front": {
+    "file": "upper_U034_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U034_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U034_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U034_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U034_below.webp",
+    "status": "structure",
+    "reason": "drawing and clay show different pose/view: red head, torso and arms off the render; clay arm thin and fading"
+   }
+  },
+  "U035": {
+   "front": {
+    "file": "upper_U035_front.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red head, shoulders and arms far larger and off the mannequin"
+   },
+   "diag": {
+    "file": "upper_U035_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U035_above.webp",
+    "status": "line",
+    "reason": "realistic face with brow, nose and lips on the head"
+   },
+   "below": {
+    "file": "upper_U035_below.webp",
+    "status": "structure",
+    "reason": "red arms/hands do not line up with clay hands at collarbones; red head offset; also nipple points on breasts"
+   }
+  },
+  "U036": {
+   "front": {
+    "file": "upper_U036_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U036_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U036_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U036_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U036_below.webp",
+    "status": "line",
+    "reason": "nipple points modelled on both breasts"
+   }
+  },
+  "U037": {
+   "front": {
+    "file": "upper_U037_front.webp",
+    "status": "structure",
+    "reason": "red body much wider and larger than clay (head, hips, arms off); different framing"
+   },
+   "diag": {
+    "file": "upper_U037_diag.webp",
+    "status": "structure",
+    "reason": "red outline wider/offset from clay torso and hips; hands differ"
+   },
+   "side": {
+    "file": "upper_U037_side.webp",
+    "status": "structure",
+    "reason": "red figure larger and shifted from small clay figure; arm and hand placement differ"
+   },
+   "above": {
+    "file": "upper_U037_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U037_below.webp",
+    "status": "pass"
+   }
+  },
+  "U038": {
+   "front": {
+    "file": "upper_U038_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U038_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U038_side.webp",
+    "status": "structure",
+    "reason": "red figure clearly larger and offset from clay (head, bust, hips)"
+   },
+   "above": {
+    "file": "upper_U038_above.webp",
+    "status": "pass"
+   }
+  },
+  "U039": {
+   "front": {
+    "file": "upper_U039_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U039_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U039_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U039_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U039_below.webp",
+    "status": "pass"
+   }
+  },
+  "U040": {
+   "front": {
+    "file": "upper_U040_front.webp",
+    "status": "line",
+    "reason": "nipple point on visible breast"
+   },
+   "diag": {
+    "file": "upper_U040_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U040_above.webp",
+    "status": "line",
+    "reason": "faint nub at breast tip (doubtful)"
+   },
+   "below": {
+    "file": "upper_U040_below.webp",
+    "status": "pass"
+   }
+  },
+  "U041": {
+   "front": {
+    "file": "upper_U041_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U041_diag.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body standing figure; red drawing far larger and off"
+   },
+   "side": {
+    "file": "upper_U041_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U041_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U041_below.webp",
+    "status": "pass"
+   }
+  },
+  "U042": {
+   "front": {
+    "file": "upper_U042_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U042_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U042_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U042_above.webp",
+    "status": "pass"
+   }
+  },
+  "U043": {
+   "front": {
+    "file": "upper_U043_front.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U043_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U043_above.webp",
+    "status": "structure",
+    "reason": "red head clearly shifted and larger than clay head; arms do not match"
+   },
+   "below": {
+    "file": "upper_U043_below.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red head and torso far larger and off"
+   }
+  },
+  "U044": {
+   "front": {
+    "file": "upper_U044_front.webp",
+    "status": "line",
+    "reason": "small nipple bump on right breast"
+   },
+   "diag": {
+    "file": "upper_U044_diag.webp",
+    "status": "line",
+    "reason": "nipple point at breast tip"
+   },
+   "side": {
+    "file": "upper_U044_side.webp",
+    "status": "pass"
+   }
+  },
+  "U045": {
+   "front": {
+    "file": "upper_U045_front.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure with arms at sides; red drawing much larger, arms behind back not matched"
+   },
+   "side": {
+    "file": "upper_U045_side.webp",
+    "status": "structure",
+    "reason": "clay is a small standing figure; red head, bust and arms far off"
+   },
+   "above": {
+    "file": "upper_U045_above.webp",
+    "status": "structure",
+    "reason": "clay shows a different pose (arms down, standing); red torso and arm off the mannequin"
+   }
+  },
+  "U046": {
+   "front": {
+    "file": "upper_U046_front.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U046_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U046_below.webp",
+    "status": "pass"
+   }
+  },
+  "U047": {
+   "front": {
+    "file": "upper_U047_front.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red head, arms and torso far larger and off"
+   },
+   "diag": {
+    "file": "upper_U047_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U047_side.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red head and torso larger and off"
+   },
+   "above": {
+    "file": "upper_U047_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U047_below.webp",
+    "status": "pass"
+   }
+  },
+  "U048": {
+   "front": {
+    "file": "upper_U048_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U048_diag.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red head, arms and torso far larger and off"
+   },
+   "side": {
+    "file": "upper_U048_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U048_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U048_below.webp",
+    "status": "structure",
+    "reason": "clay pose differs from drawing (raised arm, seated bulky hips); red torso and legs off"
+   }
+  },
+  "U049": {
+   "front": {
+    "file": "upper_U049_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U049_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U049_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U049_below.webp",
+    "status": "pass"
+   }
+  },
+  "U050": {
+   "front": {
+    "file": "upper_U050_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U050_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U050_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U050_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U050_below.webp",
+    "status": "pass"
+   }
+  },
+  "U051": {
+   "front": {
+    "file": "upper_U051_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U051_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U051_side.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red outline far larger and shifted"
+   },
+   "above": {
+    "file": "upper_U051_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U051_below.webp",
+    "status": "pass"
+   }
+  },
+  "U052": {
+   "front": {
+    "file": "upper_U052_front.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red outline far larger and off"
+   },
+   "diag": {
+    "file": "upper_U052_diag.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red outline far larger and off"
+   },
+   "side": {
+    "file": "upper_U052_side.webp",
+    "status": "structure",
+    "reason": "clay is a small full-body figure; red head and body larger and off"
+   },
+   "above": {
+    "file": "upper_U052_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U052_below.webp",
+    "status": "pass"
+   }
+  },
+  "U053": {
+   "front": {
+    "file": "upper_U053_front.webp",
+    "status": "line",
+    "reason": "small nipple bump at breast tip near crossed arm"
+   },
+   "diag": {
+    "file": "upper_U053_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U053_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U053_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U053_below.webp",
+    "status": "pass"
+   }
+  },
+  "U054": {
+   "front": {
+    "file": "upper_U054_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U054_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U054_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U054_above.webp",
+    "status": "structure",
+    "reason": "red head clearly offset and larger than clay head; arm and torso lines shifted"
+   },
+   "below": {
+    "file": "upper_U054_below.webp",
+    "status": "line",
+    "reason": "nipple bump at tip of exposed breast"
+   }
+  },
+  "U055": {
+   "front": {
+    "file": "upper_U055_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U055_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U055_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U055_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U055_below.webp",
+    "status": "line",
+    "reason": "faint point at tip of right breast (doubt)"
+   }
+  },
+  "U056": {
+   "front": {
+    "file": "upper_U056_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U056_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U056_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U056_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U056_below.webp",
+    "status": "structure",
+    "reason": "Framing mismatch: drawing is a close-up, clay is a small full-body figure; red head, arms and torso lie far off the mannequin"
+   }
+  },
+  "U057": {
+   "diag": {
+    "file": "upper_U057_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U057_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U057_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U057_below.webp",
+    "status": "pass"
+   }
+  },
+  "U058": {
+   "front": {
+    "file": "upper_U058_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U058_diag.webp",
+    "status": "structure",
+    "reason": "map not aligned with the line art (overlap 0.81)"
+   },
+   "side": {
+    "file": "upper_U058_side.webp",
+    "status": "structure",
+    "reason": "Framing mismatch: close-up drawing vs small full-body clay; red head, arm and torso outlines do not sit on the mannequin"
+   },
+   "above": {
+    "file": "upper_U058_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U058_below.webp",
+    "status": "pass"
+   }
+  },
+  "U059": {
+   "front": {
+    "file": "upper_U059_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U059_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U059_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U059_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U059_below.webp",
+    "status": "pass"
+   }
+  },
+  "U060": {
+   "front": {
+    "file": "upper_U060_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U060_diag.webp",
+    "status": "line",
+    "reason": "Ear and lips/nose modelled on the clay head"
+   },
+   "side": {
+    "file": "upper_U060_side.webp",
+    "status": "line",
+    "reason": "Ear and lips/nose modelled on the clay head"
+   },
+   "above": {
+    "file": "upper_U060_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U060_below.webp",
+    "status": "pass"
+   }
+  },
+  "U061": {
+   "front": {
+    "file": "upper_U061_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U061_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U061_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U061_below.webp",
+    "status": "structure",
+    "reason": "Clay shows a walking full-body figure with a lifted leg, small in frame; drawing is a close-up torso; red outline far off"
+   }
+  },
+  "U062": {
+   "front": {
+    "file": "upper_U062_front.webp",
+    "status": "structure",
+    "reason": "Clay is a small full-body figure; drawing is a large upper body; red head, arms and torso lie far off the mannequin"
+   },
+   "diag": {
+    "file": "upper_U062_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U062_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U062_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U062_below.webp",
+    "status": "pass"
+   }
+  },
+  "U063": {
+   "front": {
+    "file": "upper_U063_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U063_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U063_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U063_above.webp",
+    "status": "pass"
+   }
+  },
+  "U064": {
+   "front": {
+    "file": "upper_U064_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U064_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U064_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U064_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U064_below.webp",
+    "status": "pass"
+   }
+  },
+  "U065": {
+   "front": {
+    "file": "upper_U065_front.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U065_side.webp",
+    "status": "line",
+    "reason": "Ear and lips/nose modelled on the clay head"
+   },
+   "above": {
+    "file": "upper_U065_above.webp",
+    "status": "pass"
+   }
+  },
+  "U066": {
+   "front": {
+    "file": "upper_U066_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U066_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U066_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U066_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U066_below.webp",
+    "status": "pass"
+   }
+  },
+  "U067": {
+   "front": {
+    "file": "upper_U067_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U067_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U067_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U067_above.webp",
+    "status": "structure",
+    "reason": "Clay is a standing, muscular male-looking figure, not the all-fours pose; red lines do not match"
+   },
+   "below": {
+    "file": "upper_U067_below.webp",
+    "status": "line",
+    "reason": "small nub at breast tip (doubt)"
+   }
+  },
+  "U068": {
+   "diag": {
+    "file": "upper_U068_diag.webp",
+    "status": "structure",
+    "reason": "Clay is a standing male-looking figure in a different pose; drawing is a kneeling arch; red lines far off"
+   },
+   "side": {
+    "file": "upper_U068_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U068_below.webp",
+    "status": "pass"
+   }
+  },
+  "U069": {
+   "front": {
+    "file": "upper_U069_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U069_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U069_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U069_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U069_below.webp",
+    "status": "pass"
+   }
+  },
+  "U070": {
+   "front": {
+    "file": "upper_U070_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U070_diag.webp",
+    "status": "structure",
+    "reason": "Red head and torso clearly shifted from the clay; head tilt differs from the drawing"
+   },
+   "side": {
+    "file": "upper_U070_side.webp",
+    "status": "structure",
+    "reason": "Framing mismatch: small full-body clay vs close-up drawing; red head, arm and torso lie off the mannequin"
+   },
+   "below": {
+    "file": "upper_U070_below.webp",
+    "status": "pass"
+   }
+  },
+  "U071": {
+   "front": {
+    "file": "upper_U071_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U071_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U071_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U071_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U071_below.webp",
+    "status": "structure",
+    "reason": "Different pose and framing: red torso, head and arm lie well off the clay figure"
+   }
+  },
+  "U072": {
+   "front": {
+    "file": "upper_U072_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U072_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U072_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U072_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U072_below.webp",
+    "status": "pass"
+   }
+  },
+  "U073": {
+   "front": {
+    "file": "upper_U073_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U073_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U073_side.webp",
+    "status": "structure",
+    "reason": "Lying figure floats: shadow is detached beneath the body (cropped to confirm); drawing also clipped on the right"
+   },
+   "above": {
+    "file": "upper_U073_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U073_below.webp",
+    "status": "pass"
+   }
+  },
+  "U074": {
+   "diag": {
+    "file": "upper_U074_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U074_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U074_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U074_below.webp",
+    "status": "pass"
+   }
+  },
+  "U075": {
+   "front": {
+    "file": "upper_U075_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U075_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U075_above.webp",
+    "status": "structure",
+    "reason": "Clay is a small standing, muscular male-looking figure; drawing is a close-up torso with arms up; red lines far off"
+   },
+   "below": {
+    "file": "upper_U075_below.webp",
+    "status": "pass"
+   }
+  },
+  "U076": {
+   "front": {
+    "file": "upper_U076_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U076_diag.webp",
+    "status": "line",
+    "reason": "small point/dot at the tip of the visible breast"
+   },
+   "side": {
+    "file": "upper_U076_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "upper_U076_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "upper_U076_below.webp",
+    "status": "pass"
+   }
+  },
+  "U077": {
+   "front": {
+    "file": "upper_U077_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U077_diag.webp",
+    "status": "structure",
+    "reason": "Red head, bust and arms clearly off the clay; torso orientation differs from the drawing"
+   },
+   "side": {
+    "file": "upper_U077_side.webp",
+    "status": "line",
+    "reason": "Clear ear and lips/nose modelled on the clay head"
+   },
+   "below": {
+    "file": "upper_U077_below.webp",
+    "status": "pass"
+   }
+  },
+  "U078": {
+   "front": {
+    "file": "upper_U078_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U078_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U078_side.webp",
+    "status": "structure",
+    "reason": "Red head and torso outline noticeably larger and offset from the clay; pose framing differs"
+   },
+   "above": {
+    "file": "upper_U078_above.webp",
+    "status": "pass"
+   }
+  },
+  "U079": {
+   "front": {
+    "file": "upper_U079_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "upper_U079_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "upper_U079_side.webp",
+    "status": "pass"
+   }
+  },
+  "U080": {
+   "diag": {
+    "file": "upper_U080_diag.webp",
+    "status": "structure",
+    "reason": "Small full-body clay figure; red head, arms and torso lie far off the mannequin"
+   },
+   "side": {
+    "file": "upper_U080_side.webp",
+    "status": "structure",
+    "reason": "map not aligned with the line art (overlap 0.86)"
+   },
+   "above": {
+    "file": "upper_U080_above.webp",
+    "status": "pass"
+   }
+  },
+  "D001": {
+   "front": {
+    "file": "duo_D001_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D001_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D001_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D001_above.webp",
+    "status": "line",
+    "reason": "nipple bump at breast tip on both figures"
+   },
+   "below": {
+    "file": "duo_D001_below.webp",
+    "status": "pass"
+   }
+  },
+  "D002": {
+   "front": {
+    "file": "duo_D002_front.webp",
+    "status": "line",
+    "reason": "faint nipple point on right pec"
+   },
+   "diag": {
+    "file": "duo_D002_diag.webp",
+    "status": "line",
+    "reason": "modelled genital bulge on male figure"
+   },
+   "side": {
+    "file": "duo_D002_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D002_above.webp",
+    "status": "pass"
+   }
+  },
+  "D003": {
+   "front": {
+    "file": "duo_D003_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D003_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D003_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D003_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D003_below.webp",
+    "status": "line",
+    "reason": "faint dot at male pec"
+   }
+  },
+  "D004": {
+   "side": {
+    "file": "duo_D004_side.webp",
+    "status": "line",
+    "reason": "Faces drawn on both heads (nose, lips, ears, hair-like cap on the woman), not blank egg heads"
+   }
+  },
+  "D005": {
+   "front": {
+    "file": "duo_D005_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D005_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D005_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D005_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D005_below.webp",
+    "status": "pass"
+   }
+  },
+  "D006": {
+   "front": {
+    "file": "duo_D006_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D006_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D006_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D006_below.webp",
+    "status": "pass"
+   }
+  },
+  "D007": {
+   "front": {
+    "file": "duo_D007_front.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec (both pecs)"
+   },
+   "side": {
+    "file": "duo_D007_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D007_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D007_below.webp",
+    "status": "pass"
+   }
+  },
+  "D008": {
+   "front": {
+    "file": "duo_D008_front.webp",
+    "status": "line",
+    "reason": "nipple dot on woman's breast"
+   },
+   "diag": {
+    "file": "duo_D008_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D008_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D008_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D008_below.webp",
+    "status": "line",
+    "reason": "Box/stool prop added under the figures (also in normal map); both heads have modelled faces with lips and ears"
+   }
+  },
+  "D009": {
+   "front": {
+    "file": "duo_D009_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D009_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D009_side.webp",
+    "status": "structure",
+    "reason": "Red man legs/foot and woman's legs lie well off the clay; man's legs missing or faded in the render"
+   },
+   "above": {
+    "file": "duo_D009_above.webp",
+    "status": "pass"
+   }
+  },
+  "D010": {
+   "front": {
+    "file": "duo_D010_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D010_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D010_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D010_below.webp",
+    "status": "pass"
+   }
+  },
+  "D011": {
+   "diag": {
+    "file": "duo_D011_diag.webp",
+    "status": "structure",
+    "reason": "two heads merged"
+   },
+   "side": {
+    "file": "duo_D011_side.webp",
+    "status": "structure",
+    "reason": "lying figure floats above or tilts off the floor"
+   },
+   "above": {
+    "file": "duo_D011_above.webp",
+    "status": "structure",
+    "reason": "Woman is a faded ghost under the man, one leg nearly gone in clay/depth; shadow suggests floating"
+   },
+   "below": {
+    "file": "duo_D011_below.webp",
+    "status": "pass"
+   }
+  },
+  "D012": {
+   "front": {
+    "file": "duo_D012_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D012_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D012_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D012_above.webp",
+    "status": "line",
+    "reason": "tiny nipple bump on male right pec"
+   },
+   "below": {
+    "file": "duo_D012_below.webp",
+    "status": "pass"
+   }
+  },
+  "D013": {
+   "front": {
+    "file": "duo_D013_front.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec (both pecs)"
+   },
+   "diag": {
+    "file": "duo_D013_diag.webp",
+    "status": "line",
+    "reason": "small point at male pec edge, doubtful"
+   },
+   "side": {
+    "file": "duo_D013_side.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "above": {
+    "file": "duo_D013_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D013_below.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   }
+  },
+  "D015": {
+   "front": {
+    "file": "duo_D015_front.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "diag": {
+    "file": "duo_D015_diag.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "side": {
+    "file": "duo_D015_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D015_above.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "below": {
+    "file": "duo_D015_below.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   }
+  },
+  "D017": {
+   "front": {
+    "file": "duo_D017_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D017_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D017_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D017_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D017_below.webp",
+    "status": "line",
+    "reason": "dot on male chest"
+   }
+  },
+  "D019": {
+   "front": {
+    "file": "duo_D019_front.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec (both pecs)"
+   },
+   "diag": {
+    "file": "duo_D019_diag.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D019_below.webp",
+    "status": "pass"
+   }
+  },
+  "D020": {
+   "front": {
+    "file": "duo_D020_front.webp",
+    "status": "structure",
+    "reason": "Both figures float well above the floor (shadows far below) although the drawing shows them lying on it"
+   },
+   "side": {
+    "file": "duo_D020_side.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "below": {
+    "file": "duo_D020_below.webp",
+    "status": "pass"
+   }
+  },
+  "D021": {
+   "front": {
+    "file": "duo_D021_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D021_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D021_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D021_below.webp",
+    "status": "pass"
+   }
+  },
+  "D023": {
+   "front": {
+    "file": "duo_D023_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D023_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D023_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D023_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D023_below.webp",
+    "status": "pass"
+   }
+  },
+  "D024": {
+   "diag": {
+    "file": "duo_D024_diag.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "side": {
+    "file": "duo_D024_side.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   }
+  },
+  "D025": {
+   "front": {
+    "file": "duo_D025_front.webp",
+    "status": "line",
+    "reason": "tiny nipple dot on male pec"
+   },
+   "diag": {
+    "file": "duo_D025_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D025_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D025_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D025_below.webp",
+    "status": "pass"
+   }
+  },
+  "D026": {
+   "diag": {
+    "file": "duo_D026_diag.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "side": {
+    "file": "duo_D026_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D026_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D026_below.webp",
+    "status": "pass"
+   }
+  },
+  "D027": {
+   "front": {
+    "file": "duo_D027_front.webp",
+    "status": "line",
+    "reason": "Man's head shows a blurred face with eyes/mouth shading and ears, not a blank head"
+   },
+   "diag": {
+    "file": "duo_D027_diag.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "side": {
+    "file": "duo_D027_side.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "above": {
+    "file": "duo_D027_above.webp",
+    "status": "structure",
+    "reason": "Man's head is malformed: merged with a second lump behind it, reads as an extra head or limb"
+   },
+   "below": {
+    "file": "duo_D027_below.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   }
+  },
+  "D028": {
+   "front": {
+    "file": "duo_D028_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D028_diag.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D028_below.webp",
+    "status": "pass"
+   }
+  },
+  "D030": {
+   "front": {
+    "file": "duo_D030_front.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "diag": {
+    "file": "duo_D030_diag.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "side": {
+    "file": "duo_D030_side.webp",
+    "status": "line",
+    "reason": "realistic male face instead of a blank head"
+   },
+   "above": {
+    "file": "duo_D030_above.webp",
+    "status": "line",
+    "reason": "faint nipple dot on male chest"
+   },
+   "below": {
+    "file": "duo_D030_below.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   }
+  },
+  "D031": {
+   "front": {
+    "file": "duo_D031_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D031_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D031_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D031_above.webp",
+    "status": "pass"
+   }
+  },
+  "D032": {
+   "diag": {
+    "file": "duo_D032_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D032_side.webp",
+    "status": "structure",
+    "reason": "Woman lying on the floor appears to float, with a detached shadow far below her"
+   },
+   "above": {
+    "file": "duo_D032_above.webp",
+    "status": "pass"
+   }
+  },
+  "D033": {
+   "front": {
+    "file": "duo_D033_front.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "diag": {
+    "file": "duo_D033_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D033_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D033_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D033_below.webp",
+    "status": "pass"
+   }
+  },
+  "D034": {
+   "front": {
+    "file": "duo_D034_front.webp",
+    "status": "structure",
+    "reason": "clay shows only the man; the woman's head and torso (in front of him in the drawing) are missing, only her legs show"
+   },
+   "diag": {
+    "file": "duo_D034_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D034_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D034_below.webp",
+    "status": "pass"
+   }
+  },
+  "D035": {
+   "front": {
+    "file": "duo_D035_front.webp",
+    "status": "line",
+    "reason": "small raised nipple on male pec"
+   },
+   "diag": {
+    "file": "duo_D035_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D035_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D035_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D035_below.webp",
+    "status": "pass"
+   }
+  },
+  "D036": {
+   "front": {
+    "file": "duo_D036_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D036_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D036_side.webp",
+    "status": "line",
+    "reason": "male chest: small dark dot at pec tip"
+   },
+   "above": {
+    "file": "duo_D036_above.webp",
+    "status": "pass"
+   }
+  },
+  "D037": {
+   "front": {
+    "file": "duo_D037_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D037_diag.webp",
+    "status": "line",
+    "reason": "male: nipple points on both pecs"
+   },
+   "side": {
+    "file": "duo_D037_side.webp",
+    "status": "line",
+    "reason": "male: raised nipple bump at pec tip"
+   },
+   "above": {
+    "file": "duo_D037_above.webp",
+    "status": "pass"
+   }
+  },
+  "D038": {
+   "front": {
+    "file": "duo_D038_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D038_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D038_side.webp",
+    "status": "line",
+    "reason": "male: nipple dot on chest"
+   },
+   "above": {
+    "file": "duo_D038_above.webp",
+    "status": "line",
+    "reason": "male: nipple bump on chest"
+   },
+   "below": {
+    "file": "duo_D038_below.webp",
+    "status": "pass"
+   }
+  },
+  "D039": {
+   "front": {
+    "file": "duo_D039_front.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D039_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D039_below.webp",
+    "status": "line",
+    "reason": "male: nipple bump on right pec"
+   }
+  },
+  "D040": {
+   "front": {
+    "file": "duo_D040_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D040_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D040_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D040_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D040_below.webp",
+    "status": "pass"
+   }
+  },
+  "D041": {
+   "front": {
+    "file": "duo_D041_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D041_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D041_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D041_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D041_below.webp",
+    "status": "pass"
+   }
+  },
+  "D042": {
+   "front": {
+    "file": "duo_D042_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D042_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D042_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D042_above.webp",
+    "status": "line",
+    "reason": "male chest: faint nipple dot (doubtful)"
+   },
+   "below": {
+    "file": "duo_D042_below.webp",
+    "status": "pass"
+   }
+  },
+  "D043": {
+   "front": {
+    "file": "duo_D043_front.webp",
+    "status": "line",
+    "reason": "male: nipple bump on pec"
+   },
+   "diag": {
+    "file": "duo_D043_diag.webp",
+    "status": "line",
+    "reason": "male: clear nipple on pec"
+   },
+   "side": {
+    "file": "duo_D043_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D043_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D043_below.webp",
+    "status": "line",
+    "reason": "rounded protruding blob at the man's groin/hip in clay and normal reads as modelled genital detail (drawing has only a joint circle); doubtful, failed per when-in-doubt"
+   }
+  },
+  "D044": {
+   "front": {
+    "file": "duo_D044_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D044_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D044_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D044_above.webp",
+    "status": "pass"
+   }
+  },
+  "D045": {
+   "front": {
+    "file": "duo_D045_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D045_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D045_side.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D045_below.webp",
+    "status": "pass"
+   }
+  },
+  "D046": {
+   "front": {
+    "file": "duo_D046_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D046_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D046_side.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D046_above.webp",
+    "status": "line",
+    "reason": "nipple bumps on both male and female chests"
+   },
+   "below": {
+    "file": "duo_D046_below.webp",
+    "status": "line",
+    "reason": "male crotch modelled with a vertical cleft/slit"
+   }
+  },
+  "D047": {
+   "front": {
+    "file": "duo_D047_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D047_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D047_side.webp",
+    "status": "structure",
+    "reason": "woman and her raised leg missing from the clay; only the man is rendered, drawing shows two figures"
+   },
+   "above": {
+    "file": "duo_D047_above.webp",
+    "status": "line",
+    "reason": "male: nipple bump on chest"
+   },
+   "below": {
+    "file": "duo_D047_below.webp",
+    "status": "pass"
+   }
+  },
+  "D048": {
+   "below": {
+    "file": "duo_D048_below.webp",
+    "status": "pass"
+   }
+  },
+  "D049": {
+   "front": {
+    "file": "duo_D049_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D049_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D049_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D049_below.webp",
+    "status": "pass"
+   }
+  },
+  "D051": {
+   "diag": {
+    "file": "duo_D051_diag.webp",
+    "status": "pass"
+   },
+   "side": {
+    "file": "duo_D051_side.webp",
+    "status": "line",
+    "reason": "male: small nipple bump at pec tip (doubtful)"
+   },
+   "above": {
+    "file": "duo_D051_above.webp",
+    "status": "pass"
+   }
+  },
+  "D052": {
+   "diag": {
+    "file": "duo_D052_diag.webp",
+    "status": "pass"
+   },
+   "above": {
+    "file": "duo_D052_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D052_below.webp",
+    "status": "pass"
+   }
+  },
+  "D053": {
+   "front": {
+    "file": "duo_D053_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D053_diag.webp",
+    "status": "line",
+    "reason": "male: clear nipple dot on pec"
+   },
+   "side": {
+    "file": "duo_D053_side.webp",
+    "status": "structure",
+    "reason": "woman missing from the clay; only the man rendered, red woman outline over empty background"
+   },
+   "above": {
+    "file": "duo_D053_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D053_below.webp",
+    "status": "line",
+    "reason": "male: nipple dot on pec"
+   }
+  },
+  "D054": {
+   "side": {
+    "file": "duo_D054_side.webp",
+    "status": "line",
+    "reason": "male: nipple bump on pec"
+   }
+  },
+  "D055": {
+   "front": {
+    "file": "duo_D055_front.webp",
+    "status": "pass"
+   },
+   "diag": {
+    "file": "duo_D055_diag.webp",
+    "status": "line",
+    "reason": "male: nipple bump on pec"
+   },
+   "side": {
+    "file": "duo_D055_side.webp",
+    "status": "structure",
+    "reason": "seated figures float above the floor with a gap and shadow beneath, drawing has them sitting on the floor"
+   },
+   "above": {
+    "file": "duo_D055_above.webp",
+    "status": "pass"
+   },
+   "below": {
+    "file": "duo_D055_below.webp",
+    "status": "line",
+    "reason": "nipples on both male and female chests"
    }
   }
  }

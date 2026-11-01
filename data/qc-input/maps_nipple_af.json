@@ -1,0 +1,121 @@
+{
+ "reviewed": [
+  "S032__above.jpg",
+  "S032__front-diag-side.jpg",
+  "S033__above-below.jpg",
+  "S033__front-diag-side.jpg",
+  "S034__above-below.jpg",
+  "S034__front-diag-side.jpg",
+  "S035__above.jpg",
+  "S035__front-diag-side.jpg",
+  "S036__below.jpg",
+  "S036__front-diag-side.jpg",
+  "S037__front-diag-side.jpg",
+  "S038__above-below.jpg",
+  "S038__front-diag-side.jpg",
+  "S039__front-diag-side.jpg",
+  "S040__above-below.jpg",
+  "S040__front-diag-side.jpg",
+  "S041__above-below.jpg",
+  "S041__front-diag-side.jpg",
+  "S042__above.jpg",
+  "S042__front-diag-side.jpg",
+  "S043__below.jpg",
+  "S043__front-diag-side.jpg",
+  "S044__above-below.jpg",
+  "S044__front-diag-side.jpg",
+  "S045__diag-side-above.jpg",
+  "S046__above.jpg",
+  "S046__front-diag-side.jpg",
+  "S047__above-below.jpg",
+  "S047__front-diag-side.jpg",
+  "S048__above-below.jpg",
+  "S048__front-diag-side.jpg",
+  "S049__above-below.jpg",
+  "S049__front-diag-side.jpg",
+  "S050__diag-above-below.jpg",
+  "S051__diag-side-above.jpg",
+  "S052__front-diag-below.jpg",
+  "S053__above-below.jpg",
+  "S053__front-diag-side.jpg",
+  "S054__below.jpg",
+  "S054__front-diag-above.jpg",
+  "S055__above-below.jpg",
+  "S055__front-diag-side.jpg",
+  "S056__front-diag-above.jpg",
+  "S057__below.jpg",
+  "S057__diag-side-above.jpg",
+  "S058__above-below.jpg",
+  "S058__front-diag-side.jpg",
+  "S059__side.jpg",
+  "S060__above-below.jpg",
+  "S060__front-diag-side.jpg",
+  "S061__above-below.jpg",
+  "S061__front-diag-side.jpg",
+  "S062__above-below.jpg",
+  "S062__front-diag-side.jpg",
+  "S063__above-below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S033",
+   "angle": "above",
+   "kind": "line",
+   "reason": "faint raised point at breast tip, right breast"
+  },
+  {
+   "set": "S045",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "pointed tip at breast, nipple-like"
+  },
+  {
+   "set": "S045",
+   "angle": "above",
+   "kind": "line",
+   "reason": "pointed nipple-like tips on breasts"
+  },
+  {
+   "set": "S046",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small bump/dot at breast tip"
+  },
+  {
+   "set": "S048",
+   "angle": "below",
+   "kind": "line",
+   "reason": "small raised nipple bump at breast tip"
+  },
+  {
+   "set": "S049",
+   "angle": "below",
+   "kind": "line",
+   "reason": "small bump at breast tip"
+  },
+  {
+   "set": "S050",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small dark dot/bump at breast tip"
+  },
+  {
+   "set": "S050",
+   "angle": "above",
+   "kind": "line",
+   "reason": "small raised bump at breast tip"
+  },
+  {
+   "set": "S053",
+   "angle": "below",
+   "kind": "line",
+   "reason": "tiny point at breast tip"
+  },
+  {
+   "set": "S060",
+   "angle": "above",
+   "kind": "line",
+   "reason": "small bumps at chest, nipple-like"
+  }
+ ]
+}

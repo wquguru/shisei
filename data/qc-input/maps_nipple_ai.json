@@ -1,0 +1,121 @@
+{
+ "reviewed": [
+  "U041__above-below.jpg",
+  "U041__front-diag-side.jpg",
+  "U042__above.jpg",
+  "U042__front-diag-side.jpg",
+  "U043__below.jpg",
+  "U043__front-side-above.jpg",
+  "U044__front-diag-side.jpg",
+  "U045__front-side-above.jpg",
+  "U046__front-side-below.jpg",
+  "U047__above-below.jpg",
+  "U047__front-diag-side.jpg",
+  "U048__above-below.jpg",
+  "U048__front-diag-side.jpg",
+  "U049__below.jpg",
+  "U049__front-diag-side.jpg",
+  "U050__above-below.jpg",
+  "U050__front-diag-side.jpg",
+  "U051__above-below.jpg",
+  "U051__front-diag-side.jpg",
+  "U052__above-below.jpg",
+  "U052__front-diag-side.jpg",
+  "U053__above-below.jpg",
+  "U053__front-diag-side.jpg",
+  "U054__above-below.jpg",
+  "U054__front-diag-side.jpg",
+  "U055__above-below.jpg",
+  "U055__front-diag-side.jpg",
+  "U056__above-below.jpg",
+  "U056__front-diag-side.jpg",
+  "U057__below.jpg",
+  "U057__diag-side-above.jpg",
+  "U058__above-below.jpg",
+  "U058__front-diag-side.jpg",
+  "U059__above-below.jpg",
+  "U059__front-diag-side.jpg",
+  "U060__above-below.jpg",
+  "U060__front-diag-side.jpg",
+  "U061__below.jpg",
+  "U061__front-diag-side.jpg",
+  "U062__above-below.jpg",
+  "U062__front-diag-side.jpg",
+  "U063__above.jpg",
+  "U063__front-diag-side.jpg",
+  "U064__above-below.jpg",
+  "U064__front-diag-side.jpg",
+  "U065__front-side-above.jpg",
+  "U066__above-below.jpg",
+  "U066__front-diag-side.jpg",
+  "U067__above-below.jpg",
+  "U067__front-diag-side.jpg",
+  "U068__diag-side-below.jpg",
+  "U069__above-below.jpg",
+  "U069__front-diag-side.jpg",
+  "U070__below.jpg",
+  "U070__front-diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U043",
+   "angle": "above",
+   "kind": "line",
+   "reason": "small raised bump at tip of visible breast"
+  },
+  {
+   "set": "U044",
+   "angle": "front",
+   "kind": "line",
+   "reason": "small nipple bump on right breast"
+  },
+  {
+   "set": "U044",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "nipple point at breast tip"
+  },
+  {
+   "set": "U052",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "clear nipple bump on chest"
+  },
+  {
+   "set": "U053",
+   "angle": "front",
+   "kind": "line",
+   "reason": "small nipple bump at breast tip near crossed arm"
+  },
+  {
+   "set": "U054",
+   "angle": "below",
+   "kind": "line",
+   "reason": "nipple bump at tip of exposed breast"
+  },
+  {
+   "set": "U048",
+   "angle": "below",
+   "kind": "line",
+   "reason": "small dark dot/bump on chest, possible nipple (doubt)"
+  },
+  {
+   "set": "U055",
+   "angle": "below",
+   "kind": "line",
+   "reason": "faint point at tip of right breast (doubt)"
+  },
+  {
+   "set": "U067",
+   "angle": "below",
+   "kind": "line",
+   "reason": "small nub at breast tip (doubt)"
+  },
+  {
+   "set": "U068",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small point on chest, possible nipple (doubt)"
+  }
+ ]
+}

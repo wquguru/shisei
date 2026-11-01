@@ -1,0 +1,232 @@
+{
+ "reviewed": [
+  "S036__side-below.jpg",
+  "S037__front-diag.jpg",
+  "S037__side.jpg",
+  "S038__below.jpg",
+  "S038__front-diag.jpg",
+  "S038__side-above.jpg",
+  "S039__front-diag.jpg",
+  "S039__side.jpg",
+  "S040__below.jpg",
+  "S040__front-diag.jpg",
+  "S040__side-above.jpg",
+  "S041__below.jpg",
+  "S041__front-diag.jpg",
+  "S041__side-above.jpg",
+  "S042__front-diag.jpg",
+  "S042__side-above.jpg",
+  "S043__front-diag.jpg",
+  "S043__side-below.jpg",
+  "S044__below.jpg",
+  "S044__front-diag.jpg",
+  "S044__side-above.jpg",
+  "S045__above.jpg",
+  "S045__diag-side.jpg",
+  "S046__front-diag.jpg",
+  "S046__side-above.jpg",
+  "S047__below.jpg",
+  "S047__front-diag.jpg",
+  "S047__side-above.jpg",
+  "S048__below.jpg",
+  "S048__front-diag.jpg",
+  "S048__side-above.jpg",
+  "S049__below.jpg",
+  "S049__front-diag.jpg",
+  "S049__side-above.jpg",
+  "S050__below.jpg",
+  "S050__diag-above.jpg",
+  "S051__above.jpg",
+  "S051__diag-side.jpg",
+  "S052__below.jpg",
+  "S052__front-diag.jpg",
+  "S053__below.jpg",
+  "S053__front-diag.jpg",
+  "S053__side-above.jpg",
+  "S054__above-below.jpg",
+  "S054__front-diag.jpg",
+  "S055__below.jpg",
+  "S055__front-diag.jpg",
+  "S055__side-above.jpg",
+  "S056__above.jpg",
+  "S056__front-diag.jpg",
+  "S057__above-below.jpg",
+  "S057__diag-side.jpg",
+  "S058__below.jpg",
+  "S058__front-diag.jpg",
+  "S058__side-above.jpg",
+  "S059__side.jpg",
+  "S060__below.jpg",
+  "S060__front-diag.jpg",
+  "S060__side-above.jpg",
+  "S061__below.jpg",
+  "S061__front-diag.jpg",
+  "S061__side-above.jpg",
+  "S062__below.jpg",
+  "S062__front-diag.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S038",
+   "angle": "below",
+   "kind": "line",
+   "reason": "clay head shows nose tip and lips (face modelled)"
+  },
+  {
+   "set": "S038",
+   "angle": "above",
+   "kind": "line",
+   "reason": "clay head has ears and a nose/chin bump on top"
+  },
+  {
+   "set": "S040",
+   "angle": "below",
+   "kind": "line",
+   "reason": "ear modelled on the clay head"
+  },
+  {
+   "set": "S040",
+   "angle": "side",
+   "kind": "line",
+   "reason": "clay head has brow, nose and chin detail (face)"
+  },
+  {
+   "set": "S044",
+   "angle": "side",
+   "kind": "line",
+   "reason": "clay head has nose, lips and chin (face)"
+  },
+  {
+   "set": "S045",
+   "angle": "above",
+   "kind": "line",
+   "reason": "clay head has nose, lips and ear (face)"
+  },
+  {
+   "set": "S045",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "clay head has nose, lips and chin profile (face)"
+  },
+  {
+   "set": "S045",
+   "angle": "side",
+   "kind": "line",
+   "reason": "clay head has nose, lips and chin profile (face)"
+  },
+  {
+   "set": "S048",
+   "angle": "below",
+   "kind": "line",
+   "reason": "clay head has ear and nose/lip profile"
+  },
+  {
+   "set": "S049",
+   "angle": "side",
+   "kind": "line",
+   "reason": "clay head profile has a modelled nose (borderline)"
+  },
+  {
+   "set": "S050",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "supine figure floats above the floor / tilted off it, shadow detached"
+  },
+  {
+   "set": "S050",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "supine figure floats above the floor / tilted off it, shadow detached"
+  },
+  {
+   "set": "S050",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "supine figure floats above the floor / tilted off it, shadow detached"
+  },
+  {
+   "set": "S053",
+   "angle": "below",
+   "kind": "line",
+   "reason": "clay head shows lip/chin face planes (borderline)"
+  },
+  {
+   "set": "S055",
+   "angle": "below",
+   "kind": "line",
+   "reason": "clay head has a modelled nose ridge"
+  },
+  {
+   "set": "S055",
+   "angle": "above",
+   "kind": "line",
+   "reason": "small ears modelled on clay head (borderline)"
+  },
+  {
+   "set": "S056",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "supine figure floats / is tilted off the floor, shadow detached"
+  },
+  {
+   "set": "S056",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "supine figure tilted off the floor, reads as floating"
+  },
+  {
+   "set": "S056",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "supine figure tilted off the floor, reads as floating"
+  },
+  {
+   "set": "S057",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "prone figure shown in mid-air with detached floor shadow"
+  },
+  {
+   "set": "S057",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "prone figure shown in mid-air with detached floor shadow"
+  },
+  {
+   "set": "S059",
+   "angle": "side",
+   "kind": "line",
+   "reason": "clay head has brow/nose bump on the face (borderline)"
+  },
+  {
+   "set": "S061",
+   "angle": "below",
+   "kind": "line",
+   "reason": "clay head has eye, nose and mouth profile; figure also floats off floor"
+  },
+  {
+   "set": "S061",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "side-lying figure floats / tilted off the floor, shadow detached"
+  },
+  {
+   "set": "S061",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "side-lying figure floats / tilted off the floor, shadow detached"
+  },
+  {
+   "set": "S061",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "side-lying figure floats / tilted off the floor, shadow detached"
+  },
+  {
+   "set": "S062",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "clay is a different camera view (back view, huge hips); red legs do not match the render"
+  }
+ ]
+}

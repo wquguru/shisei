@@ -1,0 +1,184 @@
+{
+ "reviewed": [
+  "U055__side-above.jpg",
+  "U056__below.jpg",
+  "U056__front-diag.jpg",
+  "U056__side-above.jpg",
+  "U057__above-below.jpg",
+  "U057__diag-side.jpg",
+  "U058__below.jpg",
+  "U058__front-diag.jpg",
+  "U058__side-above.jpg",
+  "U059__below.jpg",
+  "U059__front-diag.jpg",
+  "U059__side-above.jpg",
+  "U060__below.jpg",
+  "U060__front-diag.jpg",
+  "U060__side-above.jpg",
+  "U061__front-diag.jpg",
+  "U061__side-below.jpg",
+  "U062__below.jpg",
+  "U062__front-diag.jpg",
+  "U062__side-above.jpg",
+  "U063__front-diag.jpg",
+  "U063__side-above.jpg",
+  "U064__below.jpg",
+  "U064__front-diag.jpg",
+  "U064__side-above.jpg",
+  "U065__above.jpg",
+  "U065__front-side.jpg",
+  "U066__below.jpg",
+  "U066__front-diag.jpg",
+  "U066__side-above.jpg",
+  "U067__below.jpg",
+  "U067__front-diag.jpg",
+  "U067__side-above.jpg",
+  "U068__below.jpg",
+  "U068__diag-side.jpg",
+  "U069__below.jpg",
+  "U069__front-diag.jpg",
+  "U069__side-above.jpg",
+  "U070__front-diag.jpg",
+  "U070__side-below.jpg",
+  "U071__below.jpg",
+  "U071__front-diag.jpg",
+  "U071__side-above.jpg",
+  "U072__below.jpg",
+  "U072__front-diag.jpg",
+  "U072__side-above.jpg",
+  "U073__below.jpg",
+  "U073__front-diag.jpg",
+  "U073__side-above.jpg",
+  "U074__above-below.jpg",
+  "U074__diag-side.jpg",
+  "U075__above-below.jpg",
+  "U075__front-diag.jpg",
+  "U076__below.jpg",
+  "U076__front-diag.jpg",
+  "U076__side-above.jpg",
+  "U077__front-diag.jpg",
+  "U077__side-below.jpg",
+  "U078__front-diag.jpg",
+  "U078__side-above.jpg",
+  "U079__front-diag.jpg",
+  "U079__side.jpg",
+  "U080__above.jpg",
+  "U080__diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U056",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Framing mismatch: drawing is a close-up, clay is a small full-body figure; red head, arms and torso lie far off the mannequin"
+  },
+  {
+   "set": "U058",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Framing mismatch: close-up drawing vs small full-body clay; red head, arm and torso outlines do not sit on the mannequin"
+  },
+  {
+   "set": "U061",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Clay shows a walking full-body figure with a lifted leg, small in frame; drawing is a close-up torso; red outline far off"
+  },
+  {
+   "set": "U062",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "Clay is a small full-body figure; drawing is a large upper body; red head, arms and torso lie far off the mannequin"
+  },
+  {
+   "set": "U066",
+   "angle": "below",
+   "kind": "line",
+   "reason": "Face modelled on clay head: nose and lips visible when looking up (cropped to confirm)"
+  },
+  {
+   "set": "U067",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Clay is a standing, muscular male-looking figure, not the all-fours pose; red lines do not match"
+  },
+  {
+   "set": "U068",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "Clay is a standing male-looking figure in a different pose; drawing is a kneeling arch; red lines far off"
+  },
+  {
+   "set": "U070",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "Red head and torso clearly shifted from the clay; head tilt differs from the drawing"
+  },
+  {
+   "set": "U070",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Framing mismatch: small full-body clay vs close-up drawing; red head, arm and torso lie off the mannequin"
+  },
+  {
+   "set": "U071",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "Different pose and framing: red torso, head and arm lie well off the clay figure"
+  },
+  {
+   "set": "U073",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Lying figure floats: shadow is detached beneath the body (cropped to confirm); drawing also clipped on the right"
+  },
+  {
+   "set": "U075",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Clay is a small standing, muscular male-looking figure; drawing is a close-up torso with arms up; red lines far off"
+  },
+  {
+   "set": "U077",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "Red head, bust and arms clearly off the clay; torso orientation differs from the drawing"
+  },
+  {
+   "set": "U078",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Red head and torso outline noticeably larger and offset from the clay; pose framing differs"
+  },
+  {
+   "set": "U080",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "Small full-body clay figure; red head, arms and torso lie far off the mannequin"
+  },
+  {
+   "set": "U060",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "Ear and lips/nose modelled on the clay head"
+  },
+  {
+   "set": "U060",
+   "angle": "side",
+   "kind": "line",
+   "reason": "Ear and lips/nose modelled on the clay head"
+  },
+  {
+   "set": "U065",
+   "angle": "side",
+   "kind": "line",
+   "reason": "Ear and lips/nose modelled on the clay head"
+  },
+  {
+   "set": "U077",
+   "angle": "side",
+   "kind": "line",
+   "reason": "Clear ear and lips/nose modelled on the clay head"
+  }
+ ]
+}

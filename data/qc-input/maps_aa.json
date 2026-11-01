@@ -1,0 +1,118 @@
+{
+ "reviewed": [
+  "D001__below.jpg",
+  "D001__front-diag.jpg",
+  "D001__side-above.jpg",
+  "D002__front-diag.jpg",
+  "D002__side-above.jpg",
+  "D003__below.jpg",
+  "D003__front-diag.jpg",
+  "D003__side-above.jpg",
+  "D004__side.jpg",
+  "D005__below.jpg",
+  "D005__front-diag.jpg",
+  "D005__side-above.jpg",
+  "D006__front-diag.jpg",
+  "D006__side-below.jpg",
+  "D007__above-below.jpg",
+  "D007__front-side.jpg",
+  "D008__below.jpg",
+  "D008__front-diag.jpg",
+  "D008__side-above.jpg",
+  "D009__front-diag.jpg",
+  "D009__side-above.jpg",
+  "D010__above-below.jpg",
+  "D010__front-diag.jpg",
+  "D011__above-below.jpg",
+  "D011__diag-side.jpg",
+  "D012__below.jpg",
+  "D012__front-diag.jpg",
+  "D012__side-above.jpg",
+  "D013__below.jpg",
+  "D013__front-diag.jpg",
+  "D013__side-above.jpg",
+  "D015__below.jpg",
+  "D015__front-diag.jpg",
+  "D015__side-above.jpg",
+  "D017__below.jpg",
+  "D017__front-diag.jpg",
+  "D017__side-above.jpg",
+  "D019__below.jpg",
+  "D019__front-diag.jpg",
+  "D020__below.jpg",
+  "D020__front-side.jpg",
+  "D021__above-below.jpg",
+  "D021__front-diag.jpg",
+  "D023__below.jpg",
+  "D023__front-diag.jpg",
+  "D023__side-above.jpg",
+  "D024__diag-side.jpg",
+  "D025__below.jpg",
+  "D025__front-diag.jpg",
+  "D025__side-above.jpg",
+  "D026__above-below.jpg",
+  "D026__diag-side.jpg",
+  "D027__below.jpg",
+  "D027__front-diag.jpg",
+  "D027__side-above.jpg",
+  "D028__below.jpg",
+  "D028__front-diag.jpg",
+  "D030__below.jpg",
+  "D030__front-diag.jpg",
+  "D030__side-above.jpg",
+  "D031__front-diag.jpg",
+  "D031__side-above.jpg",
+  "D032__above.jpg",
+  "D032__diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "D004",
+   "angle": "side",
+   "kind": "line",
+   "reason": "Faces drawn on both heads (nose, lips, ears, hair-like cap on the woman), not blank egg heads"
+  },
+  {
+   "set": "D008",
+   "angle": "below",
+   "kind": "line",
+   "reason": "Box/stool prop added under the figures (also in normal map); both heads have modelled faces with lips and ears"
+  },
+  {
+   "set": "D009",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Red man legs/foot and woman's legs lie well off the clay; man's legs missing or faded in the render"
+  },
+  {
+   "set": "D011",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Woman is a faded ghost under the man, one leg nearly gone in clay/depth; shadow suggests floating"
+  },
+  {
+   "set": "D020",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "Both figures float well above the floor (shadows far below) although the drawing shows them lying on it"
+  },
+  {
+   "set": "D027",
+   "angle": "front",
+   "kind": "line",
+   "reason": "Man's head shows a blurred face with eyes/mouth shading and ears, not a blank head"
+  },
+  {
+   "set": "D027",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "Man's head is malformed: merged with a second lump behind it, reads as an extra head or limb"
+  },
+  {
+   "set": "D032",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "Woman lying on the floor appears to float, with a detached shadow far below her"
+  }
+ ]
+}

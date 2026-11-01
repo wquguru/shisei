@@ -1,0 +1,127 @@
+{
+ "reviewed": [
+  "P047__front-diag-side.jpg",
+  "P048__above-below.jpg",
+  "P048__front-diag-side.jpg",
+  "P049__below.jpg",
+  "P049__front-diag-side.jpg",
+  "P050__above.jpg",
+  "P050__front-diag-side.jpg",
+  "P051__diag-above-below.jpg",
+  "P053__above-below.jpg",
+  "P053__front-diag-side.jpg",
+  "P054__above-below.jpg",
+  "P054__front-diag-side.jpg",
+  "P055__above-below.jpg",
+  "P055__front-diag-side.jpg",
+  "P056__above-below.jpg",
+  "P056__front-diag-side.jpg",
+  "P057__above-below.jpg",
+  "P057__front-diag-side.jpg",
+  "P058__above-below.jpg",
+  "P058__front-diag-side.jpg",
+  "P059__above-below.jpg",
+  "P059__front-diag-side.jpg",
+  "P060__above-below.jpg",
+  "P060__front-diag-side.jpg",
+  "P061__above.jpg",
+  "P061__front-diag-side.jpg",
+  "P062__above.jpg",
+  "P062__front-diag-side.jpg",
+  "P063__below.jpg",
+  "P063__front-diag-side.jpg",
+  "P064__above-below.jpg",
+  "P064__front-diag-side.jpg",
+  "P065__above-below.jpg",
+  "P065__front-diag-side.jpg",
+  "P066__above-below.jpg",
+  "P066__front-diag-side.jpg",
+  "P067__above-below.jpg",
+  "P067__front-diag-side.jpg",
+  "P068__below.jpg",
+  "P068__front-diag-side.jpg",
+  "P069__above-below.jpg",
+  "P069__front-diag-side.jpg",
+  "P070__side-below.jpg",
+  "P071__above-below.jpg",
+  "P071__front-diag-side.jpg",
+  "P072__side-below.jpg",
+  "P073__front-diag-below.jpg",
+  "P074__above.jpg",
+  "P074__front-diag-side.jpg",
+  "P075__above-below.jpg",
+  "P075__front-diag-side.jpg",
+  "S001__above-below.jpg",
+  "S001__front-diag-side.jpg",
+  "S002__diag-side-above.jpg",
+  "S003__above-below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "P053",
+   "angle": "below",
+   "kind": "line",
+   "reason": "sculpted face: lips, nose and eye-socket bump, plus ear"
+  },
+  {
+   "set": "P054",
+   "angle": "below",
+   "kind": "line",
+   "reason": "small point at tip of the raised breast, visible in silhouette"
+  },
+  {
+   "set": "P055",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small nipple bumps on both breast tips"
+  },
+  {
+   "set": "P057",
+   "angle": "above",
+   "kind": "line",
+   "reason": "raised nipple point on the breast tip"
+  },
+  {
+   "set": "P057",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "small nipple bump on breast tip"
+  },
+  {
+   "set": "P066",
+   "angle": "below",
+   "kind": "line",
+   "reason": "faint dot at the tip of the breast"
+  },
+  {
+   "set": "P070",
+   "angle": "below",
+   "kind": "line",
+   "reason": "small pointed nub at breast tip"
+  },
+  {
+   "set": "P071",
+   "angle": "above",
+   "kind": "line",
+   "reason": "faint nipple bump on the left breast"
+  },
+  {
+   "set": "P072",
+   "angle": "below",
+   "kind": "line",
+   "reason": "dot at the breast tip"
+  },
+  {
+   "set": "P075",
+   "angle": "above",
+   "kind": "line",
+   "reason": "faint nipple mark at the breast tip"
+  },
+  {
+   "set": "P075",
+   "angle": "side",
+   "kind": "line",
+   "reason": "faint nipple bump at the breast tip"
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "reviewed": [
+  "U006__side-above.jpg",
+  "U007__above.jpg",
+  "U007__front-diag.jpg",
+  "U008__front-diag.jpg",
+  "U008__side-below.jpg",
+  "U009__front-diag.jpg",
+  "U009__side-below.jpg",
+  "U010__below.jpg",
+  "U010__front-diag.jpg",
+  "U010__side-above.jpg",
+  "U011__below.jpg",
+  "U011__front-diag.jpg",
+  "U011__side-above.jpg",
+  "U012__below.jpg",
+  "U012__front-diag.jpg",
+  "U012__side-above.jpg",
+  "U013__below.jpg",
+  "U013__front-diag.jpg",
+  "U013__side-above.jpg",
+  "U014__front-diag.jpg",
+  "U014__side-above.jpg",
+  "U015__below.jpg",
+  "U015__front-diag.jpg",
+  "U015__side-above.jpg",
+  "U016__below.jpg",
+  "U016__front-diag.jpg",
+  "U016__side-above.jpg",
+  "U017__below.jpg",
+  "U017__front-diag.jpg",
+  "U017__side-above.jpg",
+  "U018__below.jpg",
+  "U018__front-diag.jpg",
+  "U018__side-above.jpg",
+  "U019__below.jpg",
+  "U019__front-diag.jpg",
+  "U019__side-above.jpg",
+  "U020__below.jpg",
+  "U020__front-diag.jpg",
+  "U020__side-above.jpg",
+  "U021__front-diag.jpg",
+  "U021__side-below.jpg",
+  "U022__below.jpg",
+  "U022__front-diag.jpg",
+  "U022__side-above.jpg",
+  "U023__below.jpg",
+  "U023__front-diag.jpg",
+  "U023__side-above.jpg",
+  "U024__front-diag.jpg",
+  "U024__side-above.jpg",
+  "U025__above-below.jpg",
+  "U025__front-diag.jpg",
+  "U026__below.jpg",
+  "U026__front-diag.jpg",
+  "U026__side-above.jpg",
+  "U027__below.jpg",
+  "U027__front-diag.jpg",
+  "U027__side-above.jpg",
+  "U028__below.jpg",
+  "U028__front-diag.jpg",
+  "U028__side-above.jpg",
+  "U029__below.jpg",
+  "U029__front-diag.jpg",
+  "U029__side-above.jpg",
+  "U030__below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "U006",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "red torso and head far larger/offset from the slimmer clay figure; different body shape and arm placement"
+  },
+  {
+   "set": "U007",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "drawing has one arm raised with rabbit fingers, clay has both hands behind head; pose differs, red arms off the clay"
+  },
+  {
+   "set": "U011",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "red torso, arm and head clearly shifted/larger than the clay; hanging arm and hand do not line up"
+  },
+  {
+   "set": "U011",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "drawing is a large upper-body crop, clay is a small full-body figure; red lines nowhere near the mannequin"
+  },
+  {
+   "set": "U011",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "clay is a muscular male-looking full body seen from above; drawing is a close female upper body; red lines misaligned"
+  },
+  {
+   "set": "U013",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "red head and arms much larger and offset from the clay; framing and arm positions differ"
+  },
+  {
+   "set": "U014",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is a small full-body standing figure; red drawing is a large upper-body with arm out wide, completely misaligned"
+  },
+  {
+   "set": "U015",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure, drawing is a large upper-body crop; red outline far off the mannequin"
+  },
+  {
+   "set": "U016",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure, red drawing is a large bowed upper body; limbs and head do not line up"
+  },
+  {
+   "set": "U017",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "upper body ends in a rounded cut and floats above the floor with a shadow under it; red drawing continues to legs"
+  },
+  {
+   "set": "U017",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "clay is a smaller full-body figure with arm crossing differently; red head, torso and arm clearly off the clay"
+  },
+  {
+   "set": "U018",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "drawing shows hands framing the face, clay has hands clasped at the forehead; pose differs, red hands off the clay"
+  },
+  {
+   "set": "U019",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "red arm, head and torso outline lie clearly off the clay; raised arm and head position differ"
+  },
+  {
+   "set": "U020",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "red head, arms and torso clearly off the clay figure; arm crossing differs and framing differs"
+  },
+  {
+   "set": "U020",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "clay is a full-body figure with ribbed sleeves, red upper-body drawing and hips far off the clay"
+  },
+  {
+   "set": "U021",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "clay is a small full-body walking figure; red drawing is a large upper body with arm raised, no alignment"
+  },
+  {
+   "set": "U021",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "clay is a small full-body standing figure; red drawing is a huge upper-body crop, arm and torso way off"
+  },
+  {
+   "set": "U026",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red drawing is a large upper-body, outline far off the mannequin"
+  },
+  {
+   "set": "U026",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red head, arms and torso lie far off the clay"
+  },
+  {
+   "set": "U028",
+   "angle": "front",
+   "kind": "structure",
+   "reason": "clay is a small full-body figure; red drawing is a large upper body with wide hips, no alignment"
+  },
+  {
+   "set": "U010",
+   "angle": "above",
+   "kind": "line",
+   "reason": "nipple modelled on the chest in clay (visible nub) and in normal map"
+  },
+  {
+   "set": "U011",
+   "angle": "front",
+   "kind": "line",
+   "reason": "nipples modelled on both breasts in clay and normal map"
+  },
+  {
+   "set": "U011",
+   "angle": "side",
+   "kind": "line",
+   "reason": "face features sculpted on the head in profile: brow/eye, nose and lips"
+  },
+  {
+   "set": "U015",
+   "angle": "side",
+   "kind": "line",
+   "reason": "ear and facial profile detail (nose, lips) modelled on the head"
+  },
+  {
+   "set": "U016",
+   "angle": "below",
+   "kind": "line",
+   "reason": "face detail modelled on the head (mouth indent, ear visible in normal) instead of a blank egg head"
+  },
+  {
+   "set": "U016",
+   "angle": "side",
+   "kind": "line",
+   "reason": "ear, closed eye and lips modelled on the head"
+  },
+  {
+   "set": "U018",
+   "angle": "side",
+   "kind": "line",
+   "reason": "ear and lips/nose face detail modelled on the head"
+  },
+  {
+   "set": "U019",
+   "angle": "side",
+   "kind": "line",
+   "reason": "ear and face profile detail modelled on the head"
+  },
+  {
+   "set": "U019",
+   "angle": "above",
+   "kind": "line",
+   "reason": "ear, nose and lips modelled on the head"
+  },
+  {
+   "set": "U021",
+   "angle": "side",
+   "kind": "line",
+   "reason": "eye socket, nose, lips and ear modelled on the head"
+  },
+  {
+   "set": "U027",
+   "angle": "side",
+   "kind": "line",
+   "reason": "face detail (eye, nose, lips, ear) modelled on the head"
+  },
+  {
+   "set": "U029",
+   "angle": "side",
+   "kind": "line",
+   "reason": "ear and lips/nose face detail modelled on the head"
+  }
+ ]
+}

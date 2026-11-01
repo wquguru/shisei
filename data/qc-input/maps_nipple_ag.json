@@ -1,0 +1,139 @@
+{
+ "reviewed": [
+  "S063__front-diag-side.jpg",
+  "S064__above-below.jpg",
+  "S064__front-diag-side.jpg",
+  "S065__below.jpg",
+  "S065__front-diag-side.jpg",
+  "S066__above-below.jpg",
+  "S066__front-diag-side.jpg",
+  "S067__above-below.jpg",
+  "S067__front-diag-side.jpg",
+  "S068__diag-above.jpg",
+  "S069__above-below.jpg",
+  "S069__front-diag-side.jpg",
+  "S070__above-below.jpg",
+  "S070__front-diag-side.jpg",
+  "S071__front-diag-side.jpg",
+  "S072__below.jpg",
+  "S072__diag-side-above.jpg",
+  "S073__above-below.jpg",
+  "S073__front-diag-side.jpg",
+  "S074__front-diag-side.jpg",
+  "S075__above-below.jpg",
+  "S075__front-diag-side.jpg",
+  "S076__above-below.jpg",
+  "S076__front-diag-side.jpg",
+  "S077__above-below.jpg",
+  "S077__front-diag-side.jpg",
+  "S078__below.jpg",
+  "S078__front-diag-side.jpg",
+  "S079__above-below.jpg",
+  "S079__front-diag-side.jpg",
+  "S080__above-below.jpg",
+  "S080__front-diag-side.jpg",
+  "U001__above-below.jpg",
+  "U001__front-diag-side.jpg",
+  "U002__below.jpg",
+  "U002__front-diag-side.jpg",
+  "U003__above-below.jpg",
+  "U003__front-diag-side.jpg",
+  "U004__above-below.jpg",
+  "U004__front-diag-side.jpg",
+  "U005__above-below.jpg",
+  "U005__front-diag-side.jpg",
+  "U006__above-below.jpg",
+  "U006__front-diag-side.jpg",
+  "U007__front-diag-above.jpg",
+  "U008__below.jpg",
+  "U008__front-diag-side.jpg",
+  "U009__below.jpg",
+  "U009__front-diag-side.jpg",
+  "U010__above-below.jpg",
+  "U010__front-diag-side.jpg",
+  "U011__above-below.jpg",
+  "U011__front-diag-side.jpg",
+  "U012__above-below.jpg",
+  "U012__front-diag-side.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S064",
+   "angle": "below",
+   "kind": "line",
+   "reason": "faint point at left breast tip"
+  },
+  {
+   "set": "S065",
+   "angle": "front",
+   "kind": "line",
+   "reason": "clear nipple bump on breast"
+  },
+  {
+   "set": "S065",
+   "angle": "below",
+   "kind": "line",
+   "reason": "clear nipple bump on breast"
+  },
+  {
+   "set": "S066",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "compact dark spot at breast tip, possible nipple"
+  },
+  {
+   "set": "S074",
+   "angle": "front",
+   "kind": "line",
+   "reason": "nipple bump at breast tip"
+  },
+  {
+   "set": "S075",
+   "angle": "below",
+   "kind": "line",
+   "reason": "nipple bump at breast tip"
+  },
+  {
+   "set": "S077",
+   "angle": "above",
+   "kind": "line",
+   "reason": "nipple bump at breast tip"
+  },
+  {
+   "set": "U001",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "faint bump at left breast tip"
+  },
+  {
+   "set": "U003",
+   "angle": "above",
+   "kind": "line",
+   "reason": "small nipple bump at breast tip"
+  },
+  {
+   "set": "U006",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "male figure with modelled nipple on chest and groin bulge"
+  },
+  {
+   "set": "U010",
+   "angle": "above",
+   "kind": "line",
+   "reason": "clear nipple bump at breast tip"
+  },
+  {
+   "set": "U011",
+   "angle": "above",
+   "kind": "line",
+   "reason": "male chest with faint nipple mark"
+  },
+  {
+   "set": "U011",
+   "angle": "front",
+   "kind": "line",
+   "reason": "faint nipple bump on right breast"
+  }
+ ]
+}
