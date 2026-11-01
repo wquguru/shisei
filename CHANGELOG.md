@@ -8,6 +8,11 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- Six libraries on the site: props, furniture, animals, scenes and lighting join the costumes, each with a page per
+  language (`<lib>/`, one template `web/library.html` + `library.js`). A "Library" menu in the desktop nav and a full
+  screen menu on phones (below 1100 px, where the nav links were hidden) from `common.js`. The tray holds a pose plus
+  one item per library, maps the pose angle to each library's views and joins a combined prompt. The home band shows
+  the six libraries. Library images go to a second Pages project (`--media`): one deployment holds 20,000 files.
 - Costumes on the site: a costume library page per language (`costume/`, 484 items with a passing view, grey tiers
   only; the transparent versions stay in the download packs) with category, gender and view filters, a four-view
   lightbox and lingerie blurred like the suggestive poses. A pairing tray (`web/tray.js`) keeps one pose and one

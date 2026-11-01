@@ -120,7 +120,8 @@ python3 -I tools/import_fills.py ~/Downloads/muse-fill-r1-batchNN ~/Downloads/po
 python3 -I tools/import_descs.py ~/Downloads/pose-prompts-export   # desc_en from the generator's own prompts
 python3 tools/qc_merge.py data/qc-input               # apply review results (docs/qc/README.md)
 python3 tools/build_site.py --link-images && python3 -m http.server 8000 -d site   # preview the gallery
-python3 -I tools/build_site.py --public --site https://shisei.indaloop.app   # deploy build (D-05); share cards need Chrome, --no-og skips
+python3 -I tools/build_site.py --public --site https://shisei.indaloop.app --media https://shisei-media.pages.dev/
+  # deploy build (D-05): site/ to Pages project shisei, site-media/ (library images) to shisei-media; --no-og skips cards
 python3 -I tools/pack_release.py 0.2.0 std=… upper=… sexy=… duo=… digi=…   # dist/*.zip + sha256, data/packs.json
 ```
 
