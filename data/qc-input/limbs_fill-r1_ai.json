@@ -1,0 +1,444 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "S028__side.jpg",
+  "S031__side.jpg",
+  "S034__front-diag.jpg",
+  "S034__side-above.jpg",
+  "S040__above.jpg",
+  "S041__front.jpg",
+  "S043__front.jpg",
+  "S046__diag-side.jpg",
+  "S048__side.jpg",
+  "S049__front-below.jpg",
+  "S054__side.jpg",
+  "S055__side.jpg",
+  "S056__side.jpg",
+  "S057__diag.jpg",
+  "S058__front.jpg",
+  "S059__diag.jpg",
+  "S060__front-side.jpg",
+  "S068__side.jpg",
+  "U054__front-diag.jpg",
+  "U056__above.jpg",
+  "U058__diag-above.jpg",
+  "U063__diag.jpg",
+  "U064__below.jpg",
+  "U065__diag.jpg",
+  "U066__front.jpg",
+  "U069__side.jpg",
+  "U070__above.jpg",
+  "U075__side.jpg",
+  "U076__side.jpg",
+  "U079__above-below.jpg"
+ ],
+ "panels": [
+  {
+   "set": "S028",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm: shoulder to elbow to R hand flat on floor in front of hip; far arm: shoulder to elbow to L hand flat on floor behind. Raised-knee leg: foot flat at right; folded leg: foot extends left on floor.",
+   "note": ""
+  },
+  {
+   "set": "S031",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm: shoulder up to elbow behind head, forearm to hand cluster at upper left; second arm hidden behind head/near arm, only a small stub near the nape. Both legs kneeling, feet at lower left.",
+   "note": "Second arm only partly visible behind the head; hand cluster may be two overlapped hands. Judged hidden, not extra."
+  },
+  {
+   "set": "S034",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands in hair at crown, elbows out; legs folded kneeling, a foot out at each side of the hips.",
+   "note": ""
+  },
+  {
+   "set": "S034",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm raised, hand at crown; far arm raised, hand at crown; legs kneeling, near foot at lower left, far foot small near knee.",
+   "note": ""
+  },
+  {
+   "set": "S034",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm: shoulder to elbow to hand on top of head; far arm parallel behind it, hand overlapped at top. Legs kneeling, both feet behind hips at bottom right.",
+   "note": "Two arms stacked closely in side view."
+  },
+  {
+   "set": "S034",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands on sides of head from top; legs spread with feet at upper left and right.",
+   "note": ""
+  },
+  {
+   "set": "S040",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands flat on floor at bottom beside head; both feet up at top, raised legs bent at the knees.",
+   "note": ""
+  },
+  {
+   "set": "S041",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands on floor at bottom; one leg raised straight up, foot at top; other leg kneeling, foot tucked behind knee.",
+   "note": ""
+  },
+  {
+   "set": "S043",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms hang at sides, hands open at thighs; both legs kneeling, feet visible at lower sides.",
+   "note": ""
+  },
+  {
+   "set": "S046",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm shoulder to elbow to hand on thigh; upper arm folded, hand on lower ribs. Lower leg extended to foot at lower right; upper leg bent, foot at center.",
+   "note": ""
+  },
+  {
+   "set": "S046",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "One arm along the floor to elbow, hand at hip; the other bent, hand near chest at upper centre. Lower leg extended, upper leg bent with foot on the lower leg.",
+   "note": "Arms overlap at the chest; read as two."
+  },
+  {
+   "set": "S048",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Near arm: shoulder to elbow to R hand on floor at lower left; far arm hidden behind it, its hand on floor beside. Both legs trail right, feet at far right.",
+   "note": ""
+  },
+  {
+   "set": "S049",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms stretched out to the sides, hands at the bottom corners; one leg straight up, foot at top; other leg bent, foot flat at lower left.",
+   "note": ""
+  },
+  {
+   "set": "S049",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms raised, hands at upper left and right; one leg raised, foot at top; other leg toward the viewer, foot large at bottom.",
+   "note": ""
+  },
+  {
+   "set": "S054",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both forearms on floor at lower left, hands at far left; hips high; one leg up with foot at top right; second shin and foot at right.",
+   "note": "Odd bulge at lower right behind the leg, around (530,490); could be a third lower leg or an overlapped calf. Check."
+  },
+  {
+   "set": "S055",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Arms along floor, near hand at lower right, second hand just above it. Both legs raised in V, feet at upper right.",
+   "note": ""
+  },
+  {
+   "set": "S056",
+   "angle": "side",
+   "arms": 1,
+   "hands": 1,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Visible arm: shoulder to elbow up to hand at upper left. Both legs together down to feet at bottom right.",
+   "note": "Only one arm visible; second arm not shown."
+  },
+  {
+   "set": "S057",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both forearms forward, two fists at right on floor; one leg raised with foot at upper left, other leg extended with foot at far left.",
+   "note": ""
+  },
+  {
+   "set": "S058",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Raised arm: shoulder to elbow to hand holding the ankle; other arm: shoulder down to elbow to hand flat on floor. Raised leg foot at top; lower leg foot at right.",
+   "note": ""
+  },
+  {
+   "set": "S059",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Arm 1: shoulder to elbow to hand at lower right; arm 2: hand at far left. Legs: knees up, two shins to feet on floor at lower right, plus a third thigh piece rising to a knee at top.",
+   "note": "Three thigh/knee shapes: knee at (460,310) with a thigh and no shin, in addition to the two knees with shins to the floor."
+  },
+  {
+   "set": "S060",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Hands on floor at bottom; legs apart in frog position, feet at top left and right.",
+   "note": ""
+  },
+  {
+   "set": "S060",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 1,
+   "feet": 1,
+   "trace": "Two forearms forward on floor, hands at far left; one leg bent with foot at upper right; second leg and foot not visible.",
+   "note": "Only one leg and foot seen."
+  },
+  {
+   "set": "S068",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "Both arms stretched along the floor, hands at far left. Legs folded over, one foot visible toes at right.",
+   "note": "Two legs trace but only one foot visible; both legs converge at one ankle. Check."
+  },
+  {
+   "set": "U054",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand flat on chest; L hand on hip.",
+   "note": "Legs cropped by frame."
+  },
+  {
+   "set": "U054",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand on chest; L hand on hip.",
+   "note": "Legs cropped."
+  },
+  {
+   "set": "U056",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L arm hangs, hand at lower left; R arm bent, fingers at shoulder top.",
+   "note": "Legs cropped."
+  },
+  {
+   "set": "U058",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Both hands joined at crown; elbows out.",
+   "note": "Legs cropped."
+  },
+  {
+   "set": "U058",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Both hands joined above head; elbows out.",
+   "note": "Legs cropped."
+  },
+  {
+   "set": "U063",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L arm behind back, hand hidden; R arm behind back, hand at hip right.",
+   "note": "One hand hidden behind body; legs cropped."
+  },
+  {
+   "set": "U064",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Arm 1: hand on chest; arm 2: hand large forward toward viewer.",
+   "note": "Legs cropped."
+  },
+  {
+   "set": "U065",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "Both hands on floor at bottom; left leg kneeling with foot up at far left; right knee at bottom.",
+   "note": "Hip-level crop; one foot visible."
+  },
+  {
+   "set": "U066",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "L arm: hand on chest; R arm: hand on floor at lower right. Kneeling legs, knees at bottom, one small foot behind.",
+   "note": "Feet mostly cropped."
+  },
+  {
+   "set": "U069",
+   "angle": "side",
+   "arms": 2,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Near arm bent, hand behind head; far arm hidden behind head.",
+   "note": "Far arm hidden; legs cropped."
+  },
+  {
+   "set": "U070",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "L hand pointing finger up at chest; R arm hangs, hand at lower right.",
+   "note": "Legs cropped."
+  },
+  {
+   "set": "U075",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Two arms raised overhead, hands at upper left.",
+   "note": "Legs cropped."
+  },
+  {
+   "set": "U076",
+   "angle": "side",
+   "arms": 2,
+   "hands": 1,
+   "legs": 0,
+   "feet": 0,
+   "trace": "Near arm hangs down, hand at lower right; far arm hidden.",
+   "note": "Far arm hidden behind body; legs cropped."
+  },
+  {
+   "set": "U079",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand flat on chest; L arm hangs, hand at bottom left.",
+   "note": "Legs cropped."
+  },
+  {
+   "set": "U079",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 0,
+   "feet": 0,
+   "trace": "R hand flat on chest; L arm hangs, hand at bottom left.",
+   "note": "Legs cropped."
+  }
+ ],
+ "flags": [
+  {
+   "set": "S054",
+   "angle": "side",
+   "reason": "Odd bulge behind the shin around (530,490); possibly an extra lower leg or overlapped calf, unsure"
+  },
+  {
+   "set": "S056",
+   "angle": "side",
+   "reason": "Only one arm drawn although pose is arms overhead; second arm missing, not hidden by anything"
+  },
+  {
+   "set": "S059",
+   "angle": "diag",
+   "reason": "Third thigh/knee at top (circle at about 460,310) with no shin, besides the two knees with shins to the floor; extra leg"
+  },
+  {
+   "set": "S060",
+   "angle": "side",
+   "reason": "Only one leg and foot visible in prone side view; second leg missing or hidden, unsure"
+  },
+  {
+   "set": "S068",
+   "angle": "side",
+   "reason": "Two legs converge at one ankle and only one foot is visible; second foot missing or overlapped, unsure"
+  }
+ ]
+}

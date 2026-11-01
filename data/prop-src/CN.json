@@ -1,0 +1,133 @@
+{
+  "cat": "CN",
+  "note": "Chinese classical and antique objects. Every dial, cover and scroll is wordless: tick marks and plain motifs only. A stand or tripod is named in the desc when it is part of the object.",
+  "groups": {
+    "shade": {"zh": "伞与扇", "ja": "傘・扇", "en": "Umbrellas & Fans", "ko": "우산·부채"},
+    "lantern": {"zh": "灯笼", "ja": "灯籠・提灯", "en": "Lanterns", "ko": "등롱"},
+    "vessel": {"zh": "茶酒与食盒", "ja": "茶器・酒器・食籠", "en": "Tea, Wine & Food Boxes", "ko": "다기·주기·찬합"},
+    "study": {"zh": "文房与佩饰", "ja": "文房具・佩玉", "en": "Scholar's Objects & Ornaments", "ko": "문방구·패옥"},
+    "vintage": {"zh": "复古器物", "ja": "アンティーク", "en": "Antiques", "ko": "앤티크"}
+  },
+  "forms": [
+    {
+      "key": "umbrella-open", "group": "shade", "place": "float", "size": "L",
+      "name": {"zh": "油纸伞（撑开）", "ja": "油紙傘（開き）", "en": "Oil-paper Umbrella, Open", "ko": "유지산(펼침)"},
+      "desc": "an open Chinese oil-paper umbrella floating upright with the shaft vertical: a shallow dome canopy of {paper} oiled paper about 90 cm across, {paint}, stretched over many thin bamboo ribs radiating evenly from a small wrapped top cap to the rim, the inner frame under the canopy showing a ring of short bamboo stretchers and a band of coloured thread woven around the runner, a straight round bamboo shaft and a plain bamboo handle; no characters, no seals, no metal parts",
+      "keep": "open oil-paper umbrella, shallow dome {paper} canopy, {paint}, thin bamboo ribs radiating from a wrapped top cap, woven thread band inside, straight bamboo shaft and handle",
+      "checks": ["伞面浅弧、竹骨均匀放射", "伞内撑骨和彩线编织", "竹柄笔直", "伞面无字无印"],
+      "variants": [
+        {"key": "red-plum", "name": {"zh": "红底梅花", "ja": "赤地に梅", "en": "Red with Plum", "ko": "홍색 매화"}, "vars": {"paper": "deep red", "paint": "painted with one branch of white plum blossom near the rim"}}
+      ]
+    },
+    {
+      "key": "tuanshan", "group": "shade", "place": "float", "size": "M",
+      "name": {"zh": "团扇", "ja": "団扇（中国の絹団扇）", "en": "Round Silk Fan", "ko": "단선"},
+      "desc": "a Chinese round silk fan (tuanshan) floating upright: a flat perfectly circular leaf of {silk} silk about 25 cm across stretched taut over a thin round {frame} rim, painted with {flower} in soft gongbi colours off-centre, a straight round {frame} handle running from the bottom of the rim downward, ending in a small knotted cord and a short silk tassel; no characters, no seals, no ribs showing through the silk",
+      "keep": "circular {silk} silk leaf on a thin {frame} rim, painted {flower} (the painting shows faintly through the silk from behind), straight {frame} handle below, small tassel at the handle end",
+      "checks": ["正圆扇面", "工笔花卉一枝", "直柄加小流苏", "无字无印"],
+      "variants": [
+        {"key": "peony", "name": {"zh": "米白牡丹", "ja": "生成りに牡丹", "en": "Cream with Peony", "ko": "크림 모란"}, "bg": "dark", "vars": {"silk": "translucent cream", "frame": "dark brown bamboo", "flower": "one pink peony with two leaves"}}
+      ]
+    },
+    {
+      "key": "folding-fan", "group": "shade", "probe": true, "place": "float", "size": "M",
+      "name": {"zh": "折扇（展开）", "ja": "扇子（中国の折扇・開き）", "en": "Folding Fan, Open", "ko": "접부채(펼침)"},
+      "desc": "an open Chinese folding fan floating upright with the pivot at the bottom: opened to a 150-degree arc, a pleated {leaf} paper leaf on the upper half, {paint}, and below it the bare bamboo sticks; exactly sixteen sticks in total, fourteen thin inner sticks plus two wider outer guard sticks at the left and right edges, all fanning out evenly from one small round pivot rivet, the leaf folded into evenly spaced pleats one per stick; no characters, no calligraphy, no seals, no tassel",
+      "keep": "open folding fan, 150-degree arc, pleated {leaf} paper leaf with {paint}, sixteen bamboo sticks (fourteen inner, two outer guards) from one pivot at the bottom",
+      "checks": ["展开约 150 度", "共十六根扇骨（内十四、两侧大骨各一）", "扇面折痕均匀", "扇面无字无印"],
+      "variants": [
+        {"key": "blank", "name": {"zh": "素面", "ja": "無地", "en": "Blank", "ko": "무지"}, "bg": "dark", "vars": {"leaf": "plain ivory", "paint": "left blank"}}
+      ]
+    },
+    {
+      "key": "palace-lantern", "group": "lantern", "probe": true, "place": "float", "size": "M",
+      "name": {"zh": "宫灯", "ja": "宮灯", "en": "Palace Lantern", "ko": "궁등"},
+      "desc": "a Chinese hexagonal palace lantern hanging from a short {cord} silk cord: a six-sided frame of carved {wood} wood, exactly six tall rectangular panels of {silk} silk each painted with a small flower spray, a carved hexagonal top crown with six upturned corners, a short red silk tassel hanging from each of the six corners, a narrower carved hexagonal base with a small turned finial at the bottom; unlit; no characters, no seals",
+      "keep": "hexagonal palace lantern, carved {wood} frame, six {silk} silk panels with small flower sprays, top crown with six upturned corners and six red tassels, carved base with finial",
+      "checks": ["六角形、六面绢片", "顶部六个上翘角、各挂一穗", "底部小葫芦顶", "绢面只画花、无字"],
+      "variants": [
+        {"key": "rosewood", "name": {"zh": "红木", "ja": "紅木", "en": "Rosewood", "ko": "홍목"}, "vars": {"cord": "red", "wood": "dark reddish-brown rosewood", "silk": "cream"}}
+      ]
+    },
+    {
+      "key": "red-lantern", "group": "lantern", "place": "float", "size": "M",
+      "name": {"zh": "红灯笼", "ja": "赤い提灯（中国式）", "en": "Red Silk Lantern", "ko": "홍등롱"},
+      "desc": "a round Chinese red silk lantern hanging from a short red cord: a squat globe of plain glossy red silk stretched over vertical bamboo ribs that show as evenly spaced faint vertical lines, a short {cap} cylindrical cap at the top and at the bottom, a long red silk tassel hanging from the bottom cap; unlit; completely plain red silk with no characters, no symbols and no gold lettering",
+      "keep": "round red silk lantern, faint vertical rib lines, short {cap} top and bottom caps, long red tassel, plain silk with no characters",
+      "checks": ["扁圆球形", "竖向骨线", "上下各一个圆筒帽", "灯面全素、没有福字"],
+      "variants": [
+        {"key": "gold-cap", "name": {"zh": "金边", "ja": "金縁", "en": "Gold Caps", "ko": "금장"}, "vars": {"cap": "gilded"}}
+      ]
+    },
+    {
+      "key": "gaiwan", "group": "vessel", "place": "stand", "size": "S",
+      "name": {"zh": "盖碗", "ja": "蓋碗", "en": "Lidded Tea Bowl", "ko": "개완"},
+      "desc": "a Chinese porcelain gaiwan in three separate pieces stacked as one: a shallow round saucer at the bottom, a flared tea bowl about 9 cm high sitting in it, and a domed lid with a small round knob resting inside the bowl rim, {glaze}; lid on; no tea visible, no spoon, no characters or marks",
+      "keep": "three-piece gaiwan: saucer, flared bowl, domed lid with knob, {glaze}",
+      "checks": ["三件：托、碗、盖", "盖子扣在碗里", "盖上小圆钮", "无字、无款"],
+      "variants": [
+        {"key": "blue-white", "name": {"zh": "青花", "ja": "染付", "en": "Blue and White", "ko": "청화"}, "bg": "dark", "vars": {"glaze": "white porcelain painted with a cobalt-blue lotus scroll"}}
+      ]
+    },
+    {
+      "key": "scroll", "group": "study", "place": "stand", "size": "S",
+      "name": {"zh": "卷轴（收卷）", "ja": "掛軸（巻いた状態）", "en": "Rolled Hanging Scroll", "ko": "족자(말림)"},
+      "desc": "a rolled Chinese hanging scroll lying horizontally on an invisible floor: a cylinder about 60 cm long covered in {silk} silk brocade mounting with a small woven cloud pattern, tied around the middle with a thin flat cord that wraps twice and ends in a small {pin} toggle, and a round {knob} roller knob protruding from each end; rolled shut, no painting visible, no label, no characters",
+      "keep": "rolled scroll lying horizontally, {silk} brocade mounting, thin cord wrapped twice with a {pin} toggle, {knob} roller knob at each end, rolled shut",
+      "checks": ["横放、收卷状态", "中间系带一道", "两端各一个轴头", "无签条、无字"],
+      "variants": [
+        {"key": "blue", "name": {"zh": "蓝锦", "ja": "藍の錦", "en": "Blue Brocade", "ko": "남색 비단"}, "vars": {"silk": "muted blue", "pin": "pale jade", "knob": "dark rosewood"}}
+      ]
+    },
+    {
+      "key": "pocket-watch", "group": "vintage", "place": "float", "size": "S",
+      "name": {"zh": "怀表", "ja": "懐中時計", "en": "Pocket Watch", "ko": "회중시계"},
+      "desc": "an open-face antique pocket watch in {metal} hanging from its bow: a round case with a domed crystal, a plain {dial} dial marked only by twelve short tick marks with no numerals, no letters and no brand name, two slim black hands, a ridged crown at the top, and a short {metal} chain looping down from the bow",
+      "keep": "round open-face {metal} case, plain {dial} dial with twelve tick marks and no numerals, two black hands, ridged crown, short {metal} chain",
+      "checks": ["表盘只有十二道刻度、没有数字", "没有品牌字样", "顶部表冠和吊环", "一段短链"],
+      "variants": [
+        {"key": "gold", "name": {"zh": "金色", "ja": "ゴールド", "en": "Gold", "ko": "골드"}, "vars": {"metal": "warm gold-toned brass", "dial": "ivory enamel"}}
+      ]
+    },
+    {
+      "key": "telescope", "group": "vintage", "place": "stand", "size": "L",
+      "name": {"zh": "黄铜望远镜", "ja": "真鍮の望遠鏡", "en": "Brass Telescope", "ko": "황동 망원경"},
+      "desc": "an antique brass refracting telescope on its own wooden tripod: a long polished brass tube of three telescoping sections held level with the wide objective end toward image-right and the narrow eyepiece toward image-left, mounted by a brass yoke on top of a {wood} tripod with three straight legs ending in brass feet, no engraving, no lettering",
+      "keep": "polished brass tube of three telescoping sections, wide objective end and narrow eyepiece, brass yoke mount, {wood} tripod with three straight legs and brass feet",
+      "checks": ["三节伸缩铜镜筒", "一端粗一端细（物镜、目镜）", "三脚木架", "没有刻字"],
+      "variants": [
+        {"key": "mahogany", "name": {"zh": "桃花心木架", "ja": "マホガニー三脚", "en": "Mahogany Tripod", "ko": "마호가니 삼각대"}, "vars": {"wood": "dark mahogany"}}
+      ]
+    },
+    {
+      "key": "oil-lantern", "group": "vintage", "place": "stand", "size": "S",
+      "name": {"zh": "煤油提灯", "ja": "オイルランタン", "en": "Oil Lantern", "ko": "석유 랜턴"},
+      "desc": "an antique hurricane oil lantern, unlit: a {metal} frame with a round fuel tank at the base, a clear glass globe protected by four vertical wire guards, a vented cap on top and a wire bail handle standing upright, a dark wick visible inside, no flame, no glow, no light, no lettering",
+      "keep": "{metal} frame, round fuel tank, clear glass globe inside four wire guards, vented cap, upright wire bail handle, unlit with no flame",
+      "checks": ["不点燃、没有火焰和光", "玻璃灯罩外四根护条", "底部圆油箱", "顶部提手竖起"],
+      "variants": [
+        {"key": "brass", "name": {"zh": "黄铜", "ja": "真鍮", "en": "Brass", "ko": "황동"}, "vars": {"metal": "aged brass"}}
+      ]
+    },
+    {
+      "key": "crystal-ball", "group": "vintage", "place": "stand", "size": "S",
+      "name": {"zh": "水晶球", "ja": "水晶玉", "en": "Crystal Ball", "ko": "수정 구슬"},
+      "desc": "a clear glass crystal ball about 12 cm across resting in an integral {metal} cradle stand: a round cup holding the ball, a short turned stem and three curled feet, the ball perfectly clear and empty with only soft reflections, no glow, no smoke, no image inside, no engraving",
+      "keep": "clear empty glass ball, {metal} cradle stand with round cup, short turned stem and three curled feet, no glow",
+      "checks": ["透明球体、里面什么都没有", "底座三只卷脚", "不发光、没有烟雾", "没有刻字或符号"],
+      "variants": [
+        {"key": "brass", "name": {"zh": "黄铜座", "ja": "真鍮台", "en": "Brass Stand", "ko": "황동 받침"}, "vars": {"metal": "polished brass"}}
+      ]
+    },
+    {
+      "key": "hourglass", "group": "vintage", "probe": true, "place": "stand", "size": "S",
+      "name": {"zh": "沙漏", "ja": "砂時計", "en": "Hourglass", "ko": "모래시계"},
+      "desc": "an antique hourglass about 25 cm tall: two identical clear glass bulbs joined at one narrow waist, held between two round {wood} end plates connected by three turned {wood} posts, pale sand filling most of the lower bulb in a smooth mound with a small amount left in the upper bulb and a thin stream falling through the waist, no engraving, no numbers",
+      "keep": "two equal clear glass bulbs joined at one narrow waist, two round {wood} end plates, three turned {wood} posts, pale sand mostly in the lower bulb with a thin falling stream",
+      "checks": ["上下两个对称玻璃泡、只有一个细腰", "三根车旋木柱", "沙子大多在下半、细流落下", "玻璃形状对称、不扭曲"],
+      "variants": [
+        {"key": "walnut", "name": {"zh": "胡桃木", "ja": "ウォルナット", "en": "Walnut", "ko": "월넛"}, "vars": {"wood": "dark walnut"}}
+      ]
+    }
+  ]
+}

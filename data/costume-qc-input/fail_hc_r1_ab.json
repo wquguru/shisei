@@ -1,0 +1,53 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C033",
+  "C034",
+  "C035",
+  "C036",
+  "C037",
+  "C038",
+  "C039",
+  "C040",
+  "C041",
+  "C042",
+  "C043",
+  "C044",
+  "C045",
+  "C046",
+  "C047",
+  "C048",
+  "C049",
+  "C050",
+  "C051",
+  "C052",
+  "C053",
+  "C054",
+  "C055",
+  "C056",
+  "C057",
+  "C058",
+  "C059",
+  "C060"
+ ],
+ "fails": [
+  {
+   "id": "C034",
+   "view": "side",
+   "status": "consistency",
+   "reason": "inner garment and skirt read dark/black with a dark rounded blob at the collar (looks like a mannequin neck), while front/back/diag show a white inner jacket and grey skirt"
+  },
+  {
+   "id": "C043",
+   "view": "side",
+   "status": "matte",
+   "reason": "skirt hem fades out into a blurry, feathered edge instead of a clean cut-out"
+  },
+  {
+   "id": "C059",
+   "view": "diag",
+   "status": "consistency",
+   "reason": "jacket shows a stand collar with a centre row of frog buttons, unlike the cross collar on the front panel; sheer sleeve streamers also look different. Unsure, please check"
+  }
+ ]
+}

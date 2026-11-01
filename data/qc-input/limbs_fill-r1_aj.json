@@ -1,0 +1,73 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "S069__above.jpg",
+  "S072__front.jpg",
+  "S076__diag.jpg",
+  "S078__below.jpg",
+  "S079__diag-above.jpg"
+ ],
+ "panels": [
+  {
+   "set": "S069",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands out low by the head, spread on the floor; both feet raised at top of frame, each from its own knee/leg",
+   "note": ""
+  },
+  {
+   "set": "S072",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms hang from shoulders down to hands splayed at bottom corners; both legs from hips down to feet at bottom centre",
+   "note": ""
+  },
+  {
+   "set": "S076",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "L hand on lower back/hip at left of torso; R arm bent at elbow, small R hand at torso edge upper right; legs in V, feet at top left and top right",
+   "note": "R hand small and partly behind torso; traced to R forearm, judged present"
+  },
+  {
+   "set": "S078",
+   "angle": "below",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands behind head at neck, elbows out; both knees bent wide, feet at bottom with soles to viewer",
+   "note": ""
+  },
+  {
+   "set": "S079",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "R and L arms down to floor, hands at bottom left and bottom centre; one leg straight up with foot at top, other bent with foot on floor right",
+   "note": ""
+  },
+  {
+   "set": "S079",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands splayed at bottom corners; one leg straight up, foot at top; other knee bent with foot at right",
+   "note": ""
+  }
+ ],
+ "flags": []
+}

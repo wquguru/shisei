@@ -1,0 +1,32 @@
+{
+  "IN": {
+    "order": 1, "target": 16,
+    "name": {"zh": "室内", "ja": "室内", "en": "Interiors", "ko": "실내"},
+    "rules": "A tidy interior of the stated kind: either a lived-in contemporary home at real residential scale (ceiling about 2.7 m) or a generic commercial or public space open for business but empty of people; furniture stands along the walls so the centre of the floor stays clear.",
+    "negatives": "No children's rooms, toys or school items, no classrooms, no hospital beds, no family photos or posters with faces, no television or screen showing an image, no product packaging, menus or price boards with lettering, no recognisable chain-store design, no transit-operator marks, no clutter in the centre of the floor."
+  },
+  "UR": {
+    "order": 2, "target": 12,
+    "name": {"zh": "城市户外", "ja": "街・屋外", "en": "Urban Outdoors", "ko": "도시 야외"},
+    "rules": "A generic city exterior that could be in many cities, with a clear stretch of pavement or ground in the centre.",
+    "negatives": "No real landmark or identifiable skyline, no cars driving through the centre, no readable shop signs, no street names, no licence plates, no traffic accidents, no graffiti lettering."
+  },
+  "NT": {
+    "order": 3, "target": 19,
+    "name": {"zh": "自然与度假", "ja": "自然・リゾート", "en": "Nature & Travel", "ko": "자연·여행지"},
+    "rules": "A natural landscape or an original holiday spot of the stated kind, built as a generic place rather than any real resort, island, town or landmark, with a clear, walkable stretch of dry ground or deck in the centre (path, sand, grass, rock, snow or boards) well back from any edge or water.",
+    "negatives": "No named or recognisable natural landmark, real resort, hotel or village, no hotel or shop names, no lettering on boats, walls or tiles, no temples, shrines, churches, domes, bell towers or offerings, no carved statues, no fences or power lines unless stated, no people, no wild animals or birds in the foreground, no branded floats, umbrellas or towels, no vehicles, no drones, no fantasy elements."
+  },
+  "HF": {
+    "order": 4, "target": 15,
+    "name": {"zh": "历史与幻想", "ja": "歴史・ファンタジー", "en": "Historical & Fantasy", "ko": "역사·판타지"},
+    "rules": "Either a historically accurate setting of the stated period and region or an original fantasy or science-fiction location, always built as an original generic place that is physically plausible, with period- or world-correct materials and a clear floor or ground in the centre.",
+    "negatives": "No temples, shrines, churches or other places of worship, no altars, religious statues or symbols, no real palace or monument, not any existing game, anime, film or franchise location, no modern objects in historical settings, no electric light before the 1890s, no mixing of periods, no glowing magic effects in the centre, no creatures, robots or spacecraft insignia, no readable signs, holograms or screens."
+  },
+  "ST": {
+    "order": 5, "target": 6,
+    "name": {"zh": "影棚背景", "ja": "スタジオ背景", "en": "Studio Sets", "ko": "스튜디오 배경"},
+    "rules": "A photographic studio set seen only as its backdrop and floor: no lights, stands, cables or equipment in frame, the backdrop filling the whole background.",
+    "negatives": "No visible studio equipment, no props, no furniture unless stated, no text."
+  }
+}

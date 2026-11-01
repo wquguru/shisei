@@ -1,0 +1,59 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C115",
+  "C116",
+  "C117",
+  "C118",
+  "C119",
+  "C120",
+  "C121",
+  "C122",
+  "C123",
+  "C124",
+  "C125",
+  "C126",
+  "C127",
+  "C128",
+  "C129",
+  "C130",
+  "C131",
+  "C132",
+  "C133",
+  "C134",
+  "C135",
+  "C136",
+  "C137",
+  "C138",
+  "C139",
+  "C140",
+  "C141",
+  "C142"
+ ],
+ "fails": [
+  {
+   "id": "C115",
+   "view": "diag",
+   "status": "consistency",
+   "reason": "T-shirt under the jacket looks dark grey here, white in front view"
+  },
+  {
+   "id": "C118",
+   "view": "front",
+   "status": "form",
+   "reason": "only one chest-level patch pocket clearly visible (image-left); second pocket on the other side not seen, 要点 3 wants two"
+  },
+  {
+   "id": "C126",
+   "view": "side",
+   "status": "matte",
+   "reason": "shoes almost completely lost: only a faint dark smudge below the skirt, other views show beige slingback heels"
+  },
+  {
+   "id": "C140",
+   "view": "diag",
+   "status": "consistency",
+   "reason": "inner blouse reads dark/black instead of white round-collar shirt, and left part of skirt has a black patch"
+  }
+ ]
+}

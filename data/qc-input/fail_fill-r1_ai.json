@@ -1,0 +1,71 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "S034__above.jpg",
+  "S034__front-diag-side.jpg",
+  "S040__above.jpg",
+  "S041__front.jpg",
+  "S043__front.jpg",
+  "S046__diag-side.jpg",
+  "S048__side.jpg",
+  "S049__front-below.jpg",
+  "S054__side.jpg",
+  "S055__side.jpg",
+  "S056__side.jpg",
+  "S057__diag.jpg",
+  "S058__front.jpg",
+  "S059__diag.jpg",
+  "S060__front-side.jpg",
+  "S068__side.jpg",
+  "U054__front-diag.jpg",
+  "U056__above.jpg",
+  "U058__diag-above.jpg",
+  "U063__diag.jpg",
+  "U064__below.jpg",
+  "U065__diag.jpg",
+  "U066__front.jpg",
+  "U069__side.jpg",
+  "U070__above.jpg",
+  "U075__side.jpg",
+  "U076__side.jpg",
+  "U079__above-below.jpg"
+ ],
+ "fails": [
+  {
+   "set": "S056",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "figure is an upright diagonal lean with one arm up; not a supine arch, no arch in the torso, second arm missing"
+  },
+  {
+   "set": "S059",
+   "angle": "diag",
+   "kind": "structure",
+   "reason": "one raised leg ends in a knee circle with no shin; thigh/shin chain of the knees-up legs cannot be traced"
+  },
+  {
+   "set": "U065",
+   "angle": "diag",
+   "kind": "line",
+   "reason": "cluster of small stray circles scattered on the abdomen"
+  },
+  {
+   "set": "U075",
+   "angle": "side",
+   "kind": "structure",
+   "reason": "both arms point straight up from the shoulder, not overhead past the head; no arch"
+  },
+  {
+   "set": "U079",
+   "angle": "above",
+   "kind": "structure",
+   "reason": "fingers point up-left across the chest, not down"
+  },
+  {
+   "set": "U079",
+   "angle": "below",
+   "kind": "structure",
+   "reason": "fingers point sideways across the chest, not down"
+  }
+ ]
+}

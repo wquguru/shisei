@@ -117,6 +117,18 @@ Muse 按格补画的机位（docs/GENERATION.md），只审新格：`review_shee
 `qc_merge.py` 按格判断来源（catalog `fills`），所以原画旧的不通过不会压住新格，新格也不吃旧结论。新格没出现在任何一张已审审图上时拒绝合并。
 - 第 1 批：1 个 Sonnet 逐格（`fail_fill-r1_aa.json`，3 格不过），1 个 Sonnet 肢体计数（`limbs_fill-r1_aa.json`，标 2 格：P009 斜侧已不过；
   P014 侧面远侧手臂被身体挡住，目视判为遮挡，保留，待人复核）。
+- 第 2–7 批同样每批 1 个 Sonnet 逐格 + 1 个 Sonnet 肢体计数（`fail_fill-r1_ab…ag.json`、`limbs_fill-r1_ab…ag.json`）。
+  P068 俯视两个代理都放过，目视判为姿势不符（不是前屈）写进 `fail_fill-r1_manual.json`。理由里不要写 "pose mismatch"：
+  `qc_merge.py` 会在整套姿势名检查不是 no 时丢掉这类条目。待人复核：P014 侧面、P071 侧面（远侧手臂遮挡）、U021 俯视（头顶小鼓包）。
+- 合计 7 批 42 格新图：25 过，17 不过（std 5、upper 8 structure/line）。
+- 第 8–19 批（第 15 批未交）78 格一起审：2 个 Sonnet 逐格（`fail_fill-r1_ah/ai.json`，19 格不过），2 个 Sonnet 肢体计数
+  （`limbs_fill-r1_ah/ai.json`，标 11 格）。肢体标记和逐格代理点名的边界格逐张目视，另判 13 格不过写进 `fail_fill-r1_manual.json`：
+  D024 正面 / 俯视 / 仰视与 D034 侧面（女方比同深度男方小得多，同第二轮儿童比例规则），D019 侧面、D020 斜侧 / 俯视、D026 正面、
+  D037 仰视、D039 侧面、S054 侧面（缺肢或肢体归属不清），S068 侧面、U070 俯视（姿势不对）。合计 49 过、29 不过。
+  `line_dups.py` 把 U034 侧面（第 6 批）标成和斜侧重复（差值 4.7），目视是正侧脸对四分之三侧，误报，已从 `dups_fill-r1.json` 删掉。
+- 第 15 批 6 格：1 个 Sonnet 逐格（`fail_fill-r1_aj.json`，S072 正面不过），1 个 Sonnet 肢体计数（`limbs_fill-r1_aj.json`，0 标记），
+  目视复看其余 5 格无问题。`line_dups.py` 每次重写 `dups_fill-r1.json` 都会再标出 U034 侧面，重跑后要再删掉这条。
+  部分 Muse 图背景有 254 灰度的抖动纹（审图上像淡字），原画同样有，肉眼不可见，不算问题。
 
 ## 复审 / 新系列
 ```bash

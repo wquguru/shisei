@@ -1,0 +1,128 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C133",
+  "C140",
+  "C149",
+  "C151",
+  "C153",
+  "C158",
+  "C160",
+  "C171",
+  "C177",
+  "C178",
+  "C181",
+  "C182",
+  "C186",
+  "C189",
+  "C227",
+  "C231",
+  "C235",
+  "C236",
+  "C253",
+  "C064",
+  "C067",
+  "C071",
+  "C074",
+  "C076",
+  "C081"
+ ],
+ "fails": [
+  {
+   "id": "C140",
+   "view": "diag",
+   "status": "consistency",
+   "reason": "Diag shows dark/black shirt and black skirt instead of white blouse and navy skirt seen in other panels"
+  },
+  {
+   "id": "C151",
+   "view": "front",
+   "status": "matte",
+   "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater"
+  },
+  {
+   "id": "C181",
+   "view": "front",
+   "status": "form",
+   "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee"
+  },
+  {
+   "id": "C151",
+   "view": "back",
+   "status": "matte",
+   "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater"
+  },
+  {
+   "id": "C181",
+   "view": "back",
+   "status": "form",
+   "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee"
+  },
+  {
+   "id": "C151",
+   "view": "side",
+   "status": "matte",
+   "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater"
+  },
+  {
+   "id": "C181",
+   "view": "side",
+   "status": "form",
+   "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee"
+  },
+  {
+   "id": "C151",
+   "view": "diag",
+   "status": "matte",
+   "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater"
+  },
+  {
+   "id": "C181",
+   "view": "diag",
+   "status": "form",
+   "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee"
+  },
+  {
+   "id": "C186",
+   "view": "back",
+   "status": "content",
+   "reason": "Grey mannequin-neck-like cap visible behind the collar at the back neck (unsure; please check)"
+  },
+  {
+   "id": "C186",
+   "view": "side",
+   "status": "consistency",
+   "reason": "Skirt is dark red/black velvet, not the tan corduroy of the other panels"
+  },
+  {
+   "id": "C253",
+   "view": "back",
+   "status": "content",
+   "reason": "Grey/silver neck-like cap visible inside the back collar, may be mannequin neck (unsure; please check)"
+  },
+  {
+   "id": "C236",
+   "view": "side",
+   "status": "matte",
+   "reason": "Sneaker has grey translucent/glassy block patches left from background"
+  },
+  {
+   "id": "C236",
+   "view": "diag",
+   "status": "matte",
+   "reason": "Sneaker has grey translucent/glassy block patches left from background"
+  },
+  {
+   "id": "C067",
+   "view": "side",
+   "status": "matte",
+   "reason": "Dark smeared halo at chest cord and black smudge streaks over the hakama"
+  },
+  {
+   "id": "C081",
+   "view": "back",
+   "status": "consistency",
+   "reason": "Trousers are grey and blurry here but white in the other panels"
+  }
+ ]
+}

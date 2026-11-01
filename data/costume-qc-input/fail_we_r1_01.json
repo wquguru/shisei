@@ -1,0 +1,125 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C061",
+  "C062",
+  "C063",
+  "C064",
+  "C065",
+  "C066",
+  "C067",
+  "C068",
+  "C069",
+  "C070",
+  "C071",
+  "C072",
+  "C073",
+  "C074",
+  "C075",
+  "C076",
+  "C077",
+  "C078",
+  "C079",
+  "C080",
+  "C081",
+  "C082",
+  "C083",
+  "C084",
+  "C085",
+  "C086",
+  "C087",
+  "C088"
+ ],
+ "fails": [
+  {
+   "id": "C064",
+   "view": "front",
+   "status": "content",
+   "reason": "Grey mannequin neck/shoulder form visible inside the collar opening"
+  },
+  {
+   "id": "C064",
+   "view": "diag",
+   "status": "content",
+   "reason": "Grey mannequin neck/shoulder form visible inside the collar opening"
+  },
+  {
+   "id": "C067",
+   "view": "side",
+   "status": "matte",
+   "reason": "Dark smeared streak on the hakama side, looks like leftover background or matte artefact"
+  },
+  {
+   "id": "C071",
+   "view": "front",
+   "status": "content",
+   "reason": "Grey mannequin neck/head form visible at the collar"
+  },
+  {
+   "id": "C071",
+   "view": "diag",
+   "status": "content",
+   "reason": "Grey mannequin neck form visible at the collar"
+  },
+  {
+   "id": "C074",
+   "view": "front",
+   "status": "matte",
+   "reason": "Soft grey haze/ghosting around the trouser hems"
+  },
+  {
+   "id": "C074",
+   "view": "side",
+   "status": "matte",
+   "reason": "Trouser legs look ghosted with soft grey edges"
+  },
+  {
+   "id": "C076",
+   "view": "front",
+   "status": "form",
+   "reason": "Front fastened with gold buttons, no brooch pins (要点 2 kerongsang); unsure"
+  },
+  {
+   "id": "C076",
+   "view": "diag",
+   "status": "form",
+   "reason": "Front fastened with gold buttons, no brooch pins (要点 2 kerongsang); unsure"
+  },
+  {
+   "id": "C081",
+   "view": "back",
+   "status": "consistency",
+   "reason": "Trousers are dark/black on the back, white on the other three panels"
+  },
+  {
+   "id": "C082",
+   "view": "back",
+   "status": "content",
+   "reason": "White rounded form above the collar looks like a mannequin neck/stand, not part of the garment"
+  },
+  {
+   "id": "C087",
+   "view": "front",
+   "status": "form",
+   "reason": "Dropped sleeve (要点 2) appears on the wearer's left (image-right), 要点 says right sleeve; check"
+  },
+  {
+   "id": "C087",
+   "view": "side",
+   "status": "matte",
+   "reason": "Flat solid black block inside the draped sleeve, looks like a cut-out hole"
+  },
+  {
+   "id": "C088",
+   "view": "front",
+   "status": "form",
+   "reason": "Dropped/bundled sleeve appears on the wearer's left (image-right), 要点 says right sleeve; check"
+  },
+  {
+   "id": "C088",
+   "view": "back",
+   "status": "matte",
+   "reason": "Grey ghost smudge left around the upper-left shoulder/neck"
+  }
+ ]
+}

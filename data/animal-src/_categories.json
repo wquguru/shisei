@@ -1,0 +1,44 @@
+{
+  "CT": {
+    "order": 1, "target": 27,
+    "name": {"zh": "猫", "ja": "猫", "en": "Cats", "ko": "고양이"},
+    "rules": "An adult domestic cat of the stated build (standard, cobby, large longhair or slender), shown through body proportion, head shape, ears and tail rather than coat; four legs, five toes on each front paw and four on each hind paw where visible, one tail, two ears; hind legs bend backward at the hock.",
+    "negatives": "No kittens, no extra or missing legs or tails, no human-like posture, no clothing."
+  },
+  "DG": {
+    "order": 2, "target": 40,
+    "name": {"zh": "狗", "ja": "犬", "en": "Dogs", "ko": "개"},
+    "rules": "An adult dog of the stated build (small, short-legged, medium, large, sighthound or brachycephalic), with the proportions, ear set, muzzle length and tail type stated; the named breed is only a build reference, not a portrait of a show standard; four legs, one tail; hind legs bend backward at the hock.",
+    "negatives": "No puppies, no extra or missing legs or tails, no human-like posture, no clothing, no leash, no collar."
+  },
+  "SM": {
+    "order": 3, "target": 8,
+    "name": {"zh": "小型宠物", "ja": "小動物", "en": "Small Pets", "ko": "소동물"},
+    "rules": "An adult small pet of the stated species with its correct body plan and leg count.",
+    "negatives": "No cages, no food, no extra or missing limbs, no clothing."
+  },
+  "FA": {
+    "order": 4, "target": 10,
+    "name": {"zh": "马与家畜", "ja": "馬・家畜", "en": "Horses & Farm Animals", "ko": "말·가축"},
+    "rules": "An adult horse or farm animal of the stated species; four legs with the correct joints (a horse's knee bends forward, its hock backward), one tail, correct hooves.",
+    "negatives": "No saddle, bridle, harness or rider, no cart, no slaughter or injury."
+  },
+  "BD": {
+    "order": 5, "target": 8,
+    "name": {"zh": "鸟", "ja": "鳥", "en": "Birds", "ko": "새"},
+    "rules": "An adult bird of the stated species: two legs, two wings, one beak, correct wing shape and feather layout in silhouette.",
+    "negatives": "No perch, branch or cage, no extra wings or legs, no prey."
+  },
+  "WL": {
+    "order": 6, "target": 12,
+    "name": {"zh": "野生动物", "ja": "野生動物", "en": "Wild Animals", "ko": "야생동물"},
+    "rules": "An adult wild animal of the stated species in a calm, natural posture with its correct body plan.",
+    "negatives": "No hunting, no prey, no blood, no bared fangs attacking, no injury, no captivity."
+  },
+  "MY": {
+    "order": 7, "target": 10,
+    "name": {"zh": "幻想生物", "ja": "幻想生物", "en": "Mythical Creatures", "ko": "환상 생물"},
+    "rules": "An original design of the stated mythical creature built from a coherent real-animal anatomy, with the body plan stated (number of legs, wings, horns, tails).",
+    "negatives": "Original design, not any existing game, anime, film or franchise creature; no rider, no armour, no fire or magic effects, no religious iconography."
+  }
+}

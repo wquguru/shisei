@@ -1,0 +1,540 @@
+{
+  "cat": "AC",
+  "note": "Accessories set (D-11): hats, Chinese headwear, world headwear (no religious headwear) and bags. Each item is a single floating product photograph; era is the sub-group. No brand lookalikes: no monogram canvas, signature quilting, turn-locks, H-buckles or logo hardware; hardware is described as plain and generic. `lower` is unused for AC.",
+  "forms": [
+    {
+      "key": "fedora", "era": "hat", "gender": "U", "lower": "hem",
+      "name": {"zh": "软呢帽", "ja": "中折れハット", "en": "Fedora", "ko": "페도라"},
+      "desc": "a fedora hat in {c} wool felt, smooth with no pattern, with a teardrop-pinched crown that has a centre crease and two front pinches, a medium snap brim about 6 cm wide turned down at the front and up at the back, and a {band} grosgrain ribbon band with a small flat bow on the left side, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} felt, teardrop crown with centre crease and two front pinches, 6 cm snap brim down at front and up at back, {band} ribbon band with left-side bow",
+      "checks": ["帽顶中缝加前侧两个捏痕", "帽檐前低后翘、约 6 厘米宽", "罗缎帽带、侧边一个小结", "毛毡无图案"],
+      "colorways": [
+        {"key": "charcoal", "name": {"zh": "炭灰", "ja": "チャコール", "en": "Charcoal", "ko": "차콜"}, "bg": "light", "vars": {"c": "charcoal grey", "band": "black"}},
+        {"key": "camel", "name": {"zh": "驼色", "ja": "キャメル", "en": "Camel", "ko": "카멜"}, "bg": "light", "vars": {"c": "camel", "band": "dark brown"}}
+      ]
+    },
+    {
+      "key": "beret", "era": "hat", "gender": "F", "lower": "hem",
+      "name": {"zh": "贝雷帽", "ja": "ベレー帽", "en": "Beret", "ko": "베레모"},
+      "desc": "a classic beret in {c} boiled wool, smooth with no pattern, a soft flat round crown about 27 cm across that droops slightly to the right, a narrow turned edge band, and a short stalk-like tab at the centre of the top, held in its worn shape tilted as if on an invisible head, with nothing inside",
+      "keep": "{c} boiled wool, flat round crown drooping to the right, narrow edge band, short centre tab on top",
+      "checks": ["扁平圆顶、略向一侧垂", "帽顶正中一根短尾柄", "窄的帽口边", "羊毛无图案"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "砖红", "ja": "レンガ色", "en": "Brick Red", "ko": "벽돌색"}, "bg": "light", "vars": {"c": "brick red"}},
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"c": "black"}}
+      ]
+    },
+    {
+      "key": "boater", "era": "hat", "gender": "M", "lower": "hem",
+      "name": {"zh": "硬草帽", "ja": "カンカン帽", "en": "Straw Boater", "ko": "보터 밀짚모자"},
+      "desc": "a straw boater hat in {c} stiff sennit straw with a visible braided texture, a flat-topped cylindrical crown about 9 cm tall with straight vertical sides, a flat stiff brim about 6 cm wide that is perfectly horizontal all round, and a wide {band} grosgrain band around the crown, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} braided straw, flat-topped straight-sided crown, flat horizontal 6 cm brim, wide {band} band",
+      "checks": ["平顶直筒帽身", "帽檐平直水平、不下垂", "宽条纹帽带", "编辫草纹理"],
+      "colorways": [
+        {"key": "natural", "name": {"zh": "本色", "ja": "生成り", "en": "Natural", "ko": "내추럴"}, "bg": "light", "vars": {"c": "natural golden", "band": "navy-and-red striped"}}
+      ]
+    },
+    {
+      "key": "sun-hat", "era": "hat", "gender": "F", "lower": "hem",
+      "name": {"zh": "宽檐遮阳帽", "ja": "つば広帽", "en": "Wide-Brim Sun Hat", "ko": "챙 넓은 햇"},
+      "desc": "a wide-brim women's sun hat in {c} woven raffia straw, a rounded low crown and a soft floppy brim about 15 cm wide that dips gently at the front and back, and a {band} cotton ribbon band tied in a bow at the back with two short tails, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} raffia, low rounded crown, soft 15 cm brim dipping front and back, {band} ribbon band with bow at the back",
+      "checks": ["帽檐很宽、软而下垂", "低圆帽顶", "帽带在后面打结垂两尾", "拉菲草编织"],
+      "colorways": [
+        {"key": "natural", "name": {"zh": "本色", "ja": "ナチュラル", "en": "Natural", "ko": "내추럴"}, "bg": "light", "vars": {"c": "natural tan", "band": "black"}}
+      ]
+    },
+    {
+      "key": "bucket-hat", "era": "hat", "gender": "U", "lower": "hem",
+      "name": {"zh": "渔夫帽", "ja": "バケットハット", "en": "Bucket Hat", "ko": "버킷햇"},
+      "desc": "a bucket hat in {c} cotton twill, smooth with no pattern and no label, a six-panel rounded crown with a flat top, a downward-sloping brim about 6 cm wide with many rows of parallel topstitching, and two small metal eyelets on each side of the crown, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} twill, six-panel crown with flat top, sloping 6 cm brim with parallel topstitching, two eyelets each side",
+      "checks": ["帽檐整圈向下斜", "帽檐多道平行明线", "两侧各两个小气眼", "无图案无标"],
+      "colorways": [
+        {"key": "khaki", "name": {"zh": "卡其", "ja": "カーキ", "en": "Khaki", "ko": "카키"}, "bg": "light", "vars": {"c": "khaki"}}
+      ]
+    },
+    {
+      "key": "baseball-cap", "era": "hat", "gender": "U", "lower": "hem",
+      "name": {"zh": "棒球帽", "ja": "キャップ", "en": "Baseball Cap", "ko": "야구모자"},
+      "desc": "a plain baseball cap in {c} cotton twill with no logo, text, patch or embroidery, a six-panel structured crown with a fabric-covered button on top and a stitched eyelet on each panel, a curved pre-shaped visor with rows of topstitching, and an adjustable strap with a plain metal slide buckle across the back opening, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} twill, blank six-panel crown with top button and eyelets, curved visor, strap with plain slide buckle at back",
+      "checks": ["前片空白、无字无标", "帽顶一颗包布扣", "弯帽舌", "后部调节带加金属扣"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青", "ja": "ネイビー", "en": "Navy", "ko": "네이비"}, "bg": "light", "vars": {"c": "navy"}}
+      ]
+    },
+    {
+      "key": "beanie", "era": "hat", "gender": "U", "lower": "hem",
+      "name": {"zh": "毛线帽", "ja": "ニット帽", "en": "Beanie", "ko": "비니"},
+      "desc": "a knitted beanie in {c} chunky ribbed wool, a close-fitting dome with vertical rib knit throughout and a wide folded-up cuff about 7 cm deep, no pompom and no label, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} chunky rib knit, close dome, 7 cm folded cuff, no pompom, no label",
+      "checks": ["贴头圆顶", "竖向罗纹", "下口翻边约 7 厘米", "无毛球无标"],
+      "colorways": [
+        {"key": "mustard", "name": {"zh": "芥末黄", "ja": "マスタード", "en": "Mustard", "ko": "머스터드"}, "bg": "light", "vars": {"c": "mustard yellow"}}
+      ]
+    },
+    {
+      "key": "flat-cap", "era": "hat", "gender": "M", "lower": "hem",
+      "name": {"zh": "平顶鸭舌帽", "ja": "ハンチング", "en": "Flat Cap", "ko": "헌팅캡"},
+      "desc": "a men's flat cap in {c} wool tweed with a fine herringbone weave, a single-piece rounded crown pulled forward and stitched down onto a short stiff brim, low and flat in profile and slightly higher at the back, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} herringbone tweed, one-piece crown pulled forward over short stiff brim, low flat profile",
+      "checks": ["一整片帽身前压盖住帽舌", "侧面低平、后部略高", "短硬帽舌", "人字纹粗花呢"],
+      "colorways": [
+        {"key": "brown", "name": {"zh": "棕色", "ja": "ブラウン", "en": "Brown", "ko": "브라운"}, "bg": "light", "vars": {"c": "brown"}}
+      ]
+    },
+    {
+      "key": "newsboy", "era": "hat", "gender": "M", "lower": "hem",
+      "name": {"zh": "报童帽", "ja": "キャスケット", "en": "Newsboy Cap", "ko": "뉴스보이캡"},
+      "desc": "a newsboy cap in {c} wool, smooth with no pattern, a full puffy crown made of eight triangular panels meeting at a fabric-covered button on top, gathered onto a short stiff brim, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} wool, puffy eight-panel crown, covered button on top, short stiff brim",
+      "checks": ["八片拼成的蓬松帽身", "帽顶一颗包布扣", "短硬帽舌", "比平顶帽高而蓬"],
+      "colorways": [
+        {"key": "grey", "name": {"zh": "灰色", "ja": "グレー", "en": "Grey", "ko": "회색"}, "bg": "light", "vars": {"c": "mid grey"}}
+      ]
+    },
+    {
+      "key": "cloche", "era": "hat", "gender": "F", "lower": "hem",
+      "name": {"zh": "钟形帽", "ja": "クロッシュ", "en": "Cloche", "ko": "클로슈"},
+      "desc": "a 1920s cloche hat in {c} felt, smooth with no pattern, a deep bell-shaped crown that would sit low to the eyebrows, a very narrow brim turned down all round, and a {band} petersham band with a flat ribbon rosette on the left side, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} felt, deep bell crown, very narrow downturned brim, {band} band with left-side rosette",
+      "checks": ["深钟形帽身", "极窄帽檐整圈下翻", "侧面一朵扁丝带花", "毛毡无图案"],
+      "colorways": [
+        {"key": "claret", "name": {"zh": "酒红", "ja": "ワインレッド", "en": "Claret", "ko": "와인색"}, "bg": "light", "vars": {"c": "claret red", "band": "black"}}
+      ]
+    },
+    {
+      "key": "top-hat", "era": "hat", "gender": "M", "lower": "hem",
+      "name": {"zh": "高礼帽", "ja": "シルクハット", "en": "Top Hat", "ko": "실크햇"},
+      "desc": "a men's top hat in {c} silk plush with a soft sheen, a tall straight cylindrical crown about 17 cm high with a flat top, a narrow brim about 5 cm wide curled up at both sides, and a {c} grosgrain band, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} silk plush, tall straight cylinder crown with flat top, narrow brim curled up at the sides, grosgrain band",
+      "checks": ["高直筒帽身、平顶", "窄帽檐两侧上卷", "罗缎帽带", "丝绒光泽"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"c": "black"}}
+      ]
+    },
+    {
+      "key": "cowboy", "era": "hat", "gender": "U", "lower": "hem",
+      "name": {"zh": "牛仔帽", "ja": "カウボーイハット", "en": "Cowboy Hat", "ko": "카우보이모자"},
+      "desc": "a western cowboy hat in {c} felt, smooth with no pattern, a tall crown with a long centre crease and two front pinches, a wide brim about 10 cm curving up at both sides and dipping at the front and back, and a thin {band} leather band with a plain round metal buckle, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} felt, tall crown with centre crease and front pinches, 10 cm brim curled up at the sides, thin {band} band with round buckle",
+      "checks": ["高帽顶、中缝加前捏", "宽檐两侧上卷、前后下压", "细皮帽带加圆扣", "毛毡无图案"],
+      "colorways": [
+        {"key": "tan", "name": {"zh": "浅棕", "ja": "タン", "en": "Tan", "ko": "탠"}, "bg": "light", "vars": {"c": "tan", "band": "dark brown"}}
+      ]
+    },
+    {
+      "key": "panama", "era": "hat", "gender": "M", "lower": "hem",
+      "name": {"zh": "巴拿马草帽", "ja": "パナマ帽", "en": "Panama Hat", "ko": "파나마모자"},
+      "desc": "a panama hat in {c} finely woven toquilla straw, fedora-shaped with a centre-creased crown pinched at the front, a flat brim about 6 cm wide, and a {band} grosgrain band, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} fine straw, centre-creased pinched crown, flat 6 cm brim, {band} band",
+      "checks": ["细密草编", "帽顶中缝加前捏", "帽檐平、约 6 厘米", "深色罗缎帽带"],
+      "colorways": [
+        {"key": "ivory", "name": {"zh": "象牙白", "ja": "アイボリー", "en": "Ivory", "ko": "아이보리"}, "bg": "dark", "vars": {"c": "ivory", "band": "black"}}
+      ]
+    },
+    {
+      "key": "sun-visor", "era": "hat", "gender": "F", "lower": "hem",
+      "name": {"zh": "空顶遮阳帽", "ja": "サンバイザー", "en": "Sun Visor", "ko": "선바이저"},
+      "desc": "a sun visor in {c} cotton twill with no logo or text, a padded headband that is open at the top with no crown, a long curved stiff visor with parallel rows of topstitching, and an elastic back with a plain hook-and-loop tab, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} twill, open-top headband with no crown, long curved visor with topstitching, elastic back with tab",
+      "checks": ["没有帽顶、上方空", "长弯帽舌", "帽舌多道明线", "无字无标"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白色", "ja": "白", "en": "White", "ko": "흰색"}, "bg": "dark", "vars": {"c": "white"}}
+      ]
+    },
+    {
+      "key": "fengguan", "era": "cn", "gender": "F", "lower": "hem",
+      "name": {"zh": "凤冠", "ja": "鳳冠", "en": "Phoenix Crown", "ko": "봉관"},
+      "desc": "a Ming-dynasty Chinese bridal phoenix crown (fengguan): a domed black lacquered gauze cap base covered with gilt-gold openwork, decorated with blue kingfisher-feather-style enamel clouds and flowers, small gold phoenixes on the top and sides each holding a short pearl string in its beak, rows of seed pearls, and a pair of pearl-strung wing panels (boyin) spreading from the lower back sides like broad fins, held in its worn shape as if on an invisible head, with nothing inside, no veil",
+      "keep": "black gauze dome base, gilt openwork, blue enamel clouds and flowers, gold phoenixes with pearl strings, two pearl wing panels at the back sides",
+      "checks": ["黑纱冠胎上满布金饰", "点翠蓝色云朵花片", "金凤口衔珠串", "后部两侧展开的珠翅（博鬓）"],
+      "colorways": [
+        {"key": "gold-blue", "name": {"zh": "金翠", "ja": "金翠", "en": "Gold & Kingfisher", "ko": "금취"}, "bg": "light", "vars": {}}
+      ]
+    },
+    {
+      "key": "buyao-set", "era": "cn", "gender": "F", "lower": "hem",
+      "name": {"zh": "步摇发簪组", "ja": "歩揺と簪", "en": "Buyao Hairpin Set", "ko": "보요 비녀 세트"},
+      "desc": "a set of Chinese hairpins and a buyao: one long {m} buyao hairpin topped with a filigree flower and a phoenix head from which several strings of small {bead} beads and leaf pendants dangle, two straight {m} hairpins with plum-blossom heads, and a small crescent-shaped {m} comb, arranged in their worn positions as if in an invisible hair bun, with no hair",
+      "keep": "one {m} buyao with dangling {bead} bead strings, two {m} plum-blossom hairpins, one crescent {m} comb, bun positions",
+      "checks": ["一支带垂珠的步摇", "两支梅花头直簪", "一把月牙小梳", "按发髻位置排布、没有头发"],
+      "colorways": [
+        {"key": "gold", "name": {"zh": "金·珊瑚", "ja": "金・珊瑚", "en": "Gold & Coral", "ko": "금·산호"}, "bg": "light", "vars": {"m": "gilt-gold", "bead": "red coral"}},
+        {"key": "silver", "name": {"zh": "银·翠", "ja": "銀・翡翠", "en": "Silver & Jade", "ko": "은·비취"}, "bg": "light", "vars": {"m": "silver", "bead": "jade-green"}}
+      ]
+    },
+    {
+      "key": "tang-futou", "era": "cn", "gender": "M", "lower": "hem",
+      "name": {"zh": "唐软脚幞头", "ja": "唐の軟脚幞頭", "en": "Tang Soft-Tail Futou", "ko": "당 연각복두"},
+      "desc": "a Tang-dynasty Chinese men's futou headwear in {c} gauze: a rounded raised crown with a two-lobed top over a firm inner frame, a cloth band across the forehead, and two soft {c} cloth tails tied at the back and hanging down loosely behind to the nape, no stiff wings, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} gauze, two-lobed raised crown, forehead band, two soft tails hanging behind, no stiff wings",
+      "checks": ["黑纱", "顶部两瓣隆起", "脑后两条软脚垂下", "没有硬翅"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"c": "black"}}
+      ]
+    },
+    {
+      "key": "song-zhanjiao", "era": "cn", "gender": "M", "lower": "hem",
+      "name": {"zh": "宋展脚幞头", "ja": "宋の展脚幞頭", "en": "Song Winged Futou", "ko": "송 전각복두"},
+      "desc": "a Song-dynasty Chinese official's zhanjiao futou in {c} lacquered gauze: a stiff square-topped cap with a raised step at the rear, and two long, straight, flat stiff wings extending horizontally to the left and right from the back of the cap, each about one and a half times the cap width, perfectly level and symmetrical, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} lacquered gauze, square-topped cap with raised rear step, two long straight level wings left and right",
+      "checks": ["黑漆纱硬帽", "方顶、后部高起一阶", "两侧平直长翅水平伸出", "两翅等长对称"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"c": "black"}}
+      ]
+    },
+    {
+      "key": "ming-fangjin", "era": "cn", "gender": "M", "lower": "hem",
+      "name": {"zh": "网巾·四方平定巾", "ja": "網巾・四方平定巾", "en": "Ming Square Cap & Net", "ko": "망건·사방평정건"},
+      "desc": "a Ming-dynasty Chinese scholar's sifang pingding jin: a tall stiff {c} gauze cap with a flat square top, its four sides flat panels that widen slightly toward the top, worn over a {c} horsehair wangjin net whose fine mesh shows as a narrow band around the lower edge at the forehead, no wings and no tails, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} tall square-topped cap widening upward, four flat sides, narrow mesh net band at the lower edge, no wings, no tails",
+      "checks": ["黑纱高方帽、上口略宽", "四面平直", "帽口下露一圈网巾", "无翅无脚"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"c": "black"}}
+      ]
+    },
+    {
+      "key": "dongpo-jin", "era": "cn", "gender": "M", "lower": "hem",
+      "name": {"zh": "东坡巾", "ja": "東坡巾", "en": "Dongpo Cap", "ko": "동파건"},
+      "desc": "a Song-style Chinese Dongpo jin scholar's cap in {c} gauze: a tall square inner cap, and a lower square outer wall turned 45 degrees so that one of its corners points to the centre of the forehead, the outer wall slightly lower than the inner cap, with flat stiff sides, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} gauze, tall square inner cap, lower outer wall turned 45 degrees with a corner at the forehead centre",
+      "checks": ["黑纱高方巾", "内外两层墙、外墙稍低", "外墙转 45° 以角朝前", "正面一角对着额头中间"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"c": "black"}}
+      ]
+    },
+    {
+      "key": "tang-huachai", "era": "cn", "gender": "F", "lower": "hem",
+      "name": {"zh": "唐花钗", "ja": "唐の花釵", "en": "Tang Flower Hairpins", "ko": "당 화채"},
+      "desc": "a set of Tang-dynasty Chinese huachai hairpins: eight matching {m} two-pronged hairpins whose heads are large flat openwork flower sprays set with small {stone} stones, arranged symmetrically in a fan, four on each side, in their worn positions as if in an invisible tall hair bun, with no hair",
+      "keep": "eight matching {m} two-pronged pins, flat openwork flower-spray heads with {stone} stones, symmetric fan four per side",
+      "checks": ["八支同款两股钗", "钗头为镂空花枝", "左右各四支对称成扇形", "没有头发"],
+      "colorways": [
+        {"key": "gold", "name": {"zh": "金·红", "ja": "金・紅", "en": "Gold & Red", "ko": "금·홍"}, "bg": "light", "vars": {"m": "gilt-gold", "stone": "red"}}
+      ]
+    },
+    {
+      "key": "qitou", "era": "cn", "gender": "F", "lower": "hem",
+      "name": {"zh": "旗头", "ja": "旗頭", "en": "Manchu Qitou", "ko": "기두"},
+      "desc": "a Qing-dynasty Manchu women's liangbatou-style qitou headdress: a wide flat horizontal crosspiece covered in black satin over a frame, extending equally to the left and right above the head like a flat board, set on a small black base, decorated at the centre front with a cluster of {flower} silk flowers and with a long {tassel} silk tassel hanging from the right end, held in its worn shape as if on an invisible head, with no hair",
+      "keep": "black satin wide flat crosspiece extending equally left and right, small black base, {flower} flower cluster at centre front, {tassel} tassel at right end",
+      "checks": ["黑缎横向扁平大翅", "左右对称伸出", "正中一簇绢花", "一侧垂流苏"],
+      "colorways": [
+        {"key": "pink-red", "name": {"zh": "粉花·红穗", "ja": "桃花・紅房", "en": "Pink & Red", "ko": "분홍꽃·붉은 술"}, "bg": "light", "vars": {"flower": "pink", "tassel": "red"}}
+      ]
+    },
+    {
+      "key": "moe", "era": "cn", "gender": "F", "lower": "hem",
+      "name": {"zh": "抹额", "ja": "抹額", "en": "Mo'e Forehead Band", "ko": "말액"},
+      "desc": "a Chinese mo'e forehead band in {c} satin about 5 cm wide, with {trim} cloud embroidery along its length and one small round pearl at the centre front, running round the forehead and tied at the back with two short hanging ties, held in its worn shape as a ring as if on an invisible head, with nothing inside",
+      "keep": "{c} satin band 5 cm wide, {trim} cloud embroidery, one pearl at centre front, tied at back with two short ties",
+      "checks": ["窄带约 5 厘米", "通身云纹刺绣", "正中一颗珍珠", "脑后系结垂两短带"],
+      "colorways": [
+        {"key": "crimson", "name": {"zh": "绛红", "ja": "深紅", "en": "Crimson", "ko": "진홍"}, "bg": "light", "vars": {"c": "crimson", "trim": "gold"}},
+        {"key": "navy", "name": {"zh": "藏青", "ja": "紺", "en": "Navy", "ko": "감색"}, "bg": "light", "vars": {"c": "dark navy blue", "trim": "silver"}}
+      ]
+    },
+    {
+      "key": "weimao", "era": "cn", "gender": "F", "lower": "hem",
+      "name": {"zh": "帷帽", "ja": "帷帽", "en": "Weimao Veiled Hat", "ko": "유모"},
+      "desc": "a Tang-dynasty Chinese weimao veiled hat: a {c} woven rattan hat with a low rounded crown and a flat brim about 10 cm wide, with a sheer {veil} gauze veil hanging evenly from the edge of the brim all round down to shoulder level, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} low rounded crown and flat 10 cm brim, sheer {veil} veil hanging all round to shoulder level",
+      "checks": ["低圆顶平檐笠", "帽檐一圈垂纱", "纱半透明", "纱长到肩、四周等长"],
+      "colorways": [
+        {"key": "black-smoke", "name": {"zh": "黑笠·烟纱", "ja": "黒笠・煙紗", "en": "Black & Smoke", "ko": "흑립·연사"}, "bg": "light", "vars": {"c": "black lacquered", "veil": "smoke-grey"}}
+      ]
+    },
+    {
+      "key": "douli", "era": "cn", "gender": "U", "lower": "hem",
+      "name": {"zh": "斗笠", "ja": "笠（竹笠）", "en": "Douli Bamboo Hat", "ko": "삿갓"},
+      "desc": "a Chinese douli bamboo hat: a broad shallow cone about 60 cm across woven from {c} split bamboo in a fine hexagonal weave, with a small rounded knob at the peak, a bound rim, and a thin cord chin strap hanging below in a loop, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} split bamboo, broad shallow cone, hexagonal weave, small knob at the peak, bound rim, cord chin strap loop",
+      "checks": ["宽而浅的圆锥", "六角竹编", "顶尖一个小圆钮", "下垂一圈细绳颏带"],
+      "colorways": [
+        {"key": "natural", "name": {"zh": "本色", "ja": "生成り", "en": "Natural", "ko": "내추럴"}, "bg": "light", "vars": {"c": "natural tan"}}
+      ]
+    },
+    {
+      "key": "binhua", "era": "cn", "gender": "F", "lower": "hem",
+      "name": {"zh": "鬓花", "ja": "鬢花", "en": "Side-Hair Flowers", "ko": "빈화"},
+      "desc": "a pair of Chinese binhua side-hair flowers: two matching {c} silk peony flowers each about 9 cm across with layered petals and a few small green silk leaves, each mounted on a short gilt hairpin, arranged in their worn positions at either side as if at the temples of an invisible head, with no hair",
+      "keep": "two matching {c} silk peonies about 9 cm, layered petals, small green leaves, gilt pins, placed left and right",
+      "checks": ["一对、左右各一", "绢制牡丹、花瓣层叠", "带小绿叶", "没有头发"],
+      "colorways": [
+        {"key": "pink", "name": {"zh": "粉色", "ja": "桃色", "en": "Pink", "ko": "분홍"}, "bg": "light", "vars": {"c": "soft pink"}}
+      ]
+    },
+    {
+      "key": "shufa-guan", "era": "cn", "gender": "M", "lower": "hem",
+      "name": {"zh": "束发冠", "ja": "束髪冠", "en": "Topknot Crown", "ko": "속발관"},
+      "desc": "a Chinese men's shufa guan topknot crown: a small {c} crown about 8 cm long shaped like an arched lotus-petal cup with raised ridges running front to back, pierced crosswise by one long {pin} hairpin through its two side holes, held in its worn position as if on an invisible topknot, with no hair",
+      "keep": "small {c} arched crown with front-to-back ridges, one long {pin} hairpin through the sides",
+      "checks": ["小冠只罩发髻", "前后拱起的梁", "横穿一支长簪", "没有头发"],
+      "colorways": [
+        {"key": "jade", "name": {"zh": "白玉", "ja": "白玉", "en": "White Jade", "ko": "백옥"}, "bg": "dark", "vars": {"c": "white jade", "pin": "white jade"}},
+        {"key": "gilt", "name": {"zh": "鎏金", "ja": "鍍金", "en": "Gilt", "ko": "도금"}, "bg": "light", "vars": {"c": "gilt-gold", "pin": "gold"}}
+      ]
+    },
+    {
+      "key": "tam", "era": "world", "gender": "U", "lower": "hem",
+      "name": {"zh": "苏格兰圆扁帽", "ja": "タモシャンター", "en": "Tam o' Shanter", "ko": "탐오섄터"},
+      "desc": "a Scottish tam o' shanter: a large flat round bonnet in {c} knitted wool about 28 cm across, smooth with no pattern, sitting slightly tilted, with a narrow ribbed headband and a big fluffy {pom} pompom (toorie) at the centre of the top, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} knitted wool, large flat round crown, ribbed headband, {pom} pompom at centre top",
+      "checks": ["大而扁的圆顶", "罗纹窄帽口", "帽顶正中一个大毛球", "无图案"],
+      "colorways": [
+        {"key": "navy-red", "name": {"zh": "藏青·红球", "ja": "紺・赤ボンボン", "en": "Navy & Red", "ko": "감색·빨간 방울"}, "bg": "light", "vars": {"c": "navy", "pom": "red"}}
+      ]
+    },
+    {
+      "key": "sombrero", "era": "world", "gender": "M", "lower": "hem",
+      "name": {"zh": "墨西哥宽边帽", "ja": "ソンブレロ", "en": "Sombrero", "ko": "솜브레로"},
+      "desc": "a Mexican charro sombrero in {c} felt, a tall conical crown with a rounded peak, a very wide stiff brim about 20 cm wide that rolls up at the outer edge, and {trim} embroidered scrolls running round the brim and the base of the crown, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} felt, tall conical crown, 20 cm brim rolled up at the edge, {trim} scroll embroidery on brim and crown",
+      "checks": ["高锥形帽顶", "极宽帽檐、外缘上卷", "帽檐和帽身绣卷草纹", "毛毡"],
+      "colorways": [
+        {"key": "black-silver", "name": {"zh": "黑·银绣", "ja": "黒・銀刺繍", "en": "Black & Silver", "ko": "검정·은자수"}, "bg": "light", "vars": {"c": "black", "trim": "silver"}}
+      ]
+    },
+    {
+      "key": "chullo", "era": "world", "gender": "U", "lower": "hem",
+      "name": {"zh": "安第斯护耳帽", "ja": "チューヨ", "en": "Andean Chullo", "ko": "추요"},
+      "desc": "an Andean chullo hat in hand-knitted alpaca wool with a stranded-knit band pattern of zigzags and diamonds in {c}, a pointed close-fitting crown with a small tassel at the tip, and two long earflaps hanging down at the sides, each ending in a braided cord with a small pompom, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} zigzag and diamond knit bands, pointed crown with tip tassel, two long earflaps with braided cords and pompoms",
+      "checks": ["尖顶加顶端小穗", "两侧长护耳", "护耳下接编绳和小毛球", "横条锯齿菱形针织纹"],
+      "colorways": [
+        {"key": "red-multi", "name": {"zh": "红底多彩", "ja": "赤地多色", "en": "Red Multicolour", "ko": "빨강 다색"}, "bg": "light", "vars": {"c": "red, cream, black and turquoise"}}
+      ]
+    },
+    {
+      "key": "non-la", "era": "world", "gender": "U", "lower": "hem",
+      "name": {"zh": "越南斗笠", "ja": "ノンラー", "en": "Vietnamese Nón Lá", "ko": "논라"},
+      "desc": "a Vietnamese nón lá conical leaf hat: a smooth steep cone about 40 cm across made of {c} dried palm leaves stitched in concentric rings over thin bamboo hoops, with a pointed tip and no knob, and a {strap} silk chin ribbon hanging below in a loop, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} palm-leaf steep cone with concentric stitched rings, pointed tip, {strap} chin ribbon loop",
+      "checks": ["陡峭的尖圆锥", "叶面一圈圈同心缝线", "尖顶无钮", "下垂丝带颏带"],
+      "colorways": [
+        {"key": "natural", "name": {"zh": "本色", "ja": "生成り", "en": "Natural", "ko": "내추럴"}, "bg": "dark", "vars": {"c": "pale cream", "strap": "light blue"}}
+      ]
+    },
+    {
+      "key": "gat", "era": "world", "gender": "M", "lower": "hem",
+      "name": {"zh": "朝鲜笠", "ja": "カッ（朝鮮の笠）", "en": "Korean Gat", "ko": "갓"},
+      "desc": "a Korean Joseon-era heungnip gat: a {c} horsehair-and-bamboo hat with a tall cylindrical crown that narrows slightly upward and a broad flat circular brim about 18 cm wide, both woven so fine they are semi-transparent, with a long chin string of small {bead} beads hanging below in a loop, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} semi-transparent fine weave, tall cylinder crown narrowing upward, broad flat round brim, {bead} bead chin string",
+      "checks": ["高筒帽身、上略收", "宽平圆檐", "半透明细编", "下垂珠串颏带"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"c": "black", "bead": "amber"}}
+      ]
+    },
+    {
+      "key": "alpine", "era": "world", "gender": "M", "lower": "hem",
+      "name": {"zh": "巴伐利亚登山帽", "ja": "チロリアンハット", "en": "Bavarian Alpine Hat", "ko": "알파인 모자"},
+      "desc": "a Bavarian alpine hat in {c} wool felt, smooth with no pattern, a tapered crown pinched at the front, a narrow brim turned up at the back and down at the front, a twisted {cord} cord band, and a small upright feather tucked into the band on the left side, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} felt, tapered pinched crown, narrow brim up at back and down at front, twisted {cord} cord band, small feather on the left",
+      "checks": ["上收的帽顶、前捏", "窄檐前低后翘", "扭绳帽带", "侧插一根小羽毛"],
+      "colorways": [
+        {"key": "green", "name": {"zh": "墨绿", "ja": "深緑", "en": "Loden Green", "ko": "짙은 녹색"}, "bg": "light", "vars": {"c": "loden green", "cord": "dark green"}}
+      ]
+    },
+    {
+      "key": "ushanka", "era": "world", "gender": "U", "lower": "hem",
+      "name": {"zh": "护耳毛帽", "ja": "ウシャンカ", "en": "Ushanka", "ko": "우샨카"},
+      "desc": "a Russian ushanka hat with a {c} leather crown and thick {fur} faux-fur on the front flap and earflaps, the earflaps folded up and tied together on top with a short cord, and the front flap turned up against the crown, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} leather crown, thick {fur} faux fur, earflaps tied up on top, front flap turned up",
+      "checks": ["皮革帽顶", "厚人造毛翻边", "两侧护耳上翻在顶部系住", "前帘上翻"],
+      "colorways": [
+        {"key": "brown-grey", "name": {"zh": "棕皮·灰毛", "ja": "茶革・灰ファー", "en": "Brown & Grey", "ko": "갈색·회색 털"}, "bg": "light", "vars": {"c": "dark brown", "fur": "grey"}}
+      ]
+    },
+    {
+      "key": "fez", "era": "world", "gender": "M", "lower": "hem",
+      "name": {"zh": "菲斯帽", "ja": "フェズ帽", "en": "Moroccan Fez", "ko": "페즈"},
+      "desc": "a Moroccan fez: a short truncated cone of {c} felt about 12 cm tall with a flat top and no brim, smooth with no pattern, with a {tassel} silk tassel attached at the centre of the top and falling over the right side, held in its worn shape as if on an invisible head, with nothing inside",
+      "keep": "{c} felt truncated cone with flat top, no brim, {tassel} tassel from centre top falling right",
+      "checks": ["上窄下宽的截锥", "平顶无檐", "顶心垂下一束流苏", "毛毡无图案"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "红色", "ja": "赤", "en": "Red", "ko": "빨강"}, "bg": "light", "vars": {"c": "deep red", "tassel": "black"}}
+      ]
+    },
+    {
+      "key": "leather-tote", "era": "bag", "gender": "F", "lower": "hem",
+      "name": {"zh": "皮托特包", "ja": "レザートート", "en": "Leather Tote", "ko": "가죽 토트백"},
+      "desc": "a large rectangular tote bag in {c} smooth leather with no pattern and no logo, an open top held by a small tab with a hidden magnetic snap, two long flat shoulder handles stitched onto the outside of the front and back panels, side gussets, and painted edges, the handles standing up in a loose arch",
+      "keep": "{c} smooth leather, open-top rectangle with small snap tab, two long flat handles stitched outside, side gussets",
+      "checks": ["长方形开口托特", "两条长提手缝在外侧", "侧面有风琴边", "无标无五金装饰"],
+      "colorways": [
+        {"key": "tan", "name": {"zh": "浅棕", "ja": "タン", "en": "Tan", "ko": "탠"}, "bg": "light", "vars": {"c": "tan"}},
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"c": "black"}}
+      ]
+    },
+    {
+      "key": "crossbody", "era": "bag", "gender": "F", "lower": "hem",
+      "name": {"zh": "斜挎小包", "ja": "ショルダーポシェット", "en": "Crossbody Bag", "ko": "크로스백"},
+      "desc": "a small crossbody bag in {c} pebbled leather with no logo, a soft rectangle with a front flap closed by a hidden magnetic snap, and a long thin adjustable strap with a plain metal pin buckle rising in a loose arch above",
+      "keep": "{c} pebbled leather, small soft rectangle, front flap with no visible hardware, long thin strap with plain buckle",
+      "checks": ["小长方形软包", "前盖、无外露扣件", "细长肩带一个针扣", "荔枝纹皮"],
+      "colorways": [
+        {"key": "olive", "name": {"zh": "橄榄绿", "ja": "オリーブ", "en": "Olive", "ko": "올리브"}, "bg": "light", "vars": {"c": "olive green"}}
+      ]
+    },
+    {
+      "key": "hobo", "era": "bag", "gender": "F", "lower": "hem",
+      "name": {"zh": "单肩包", "ja": "ショルダーバッグ", "en": "Shoulder Bag", "ko": "숄더백"},
+      "desc": "a slouchy shoulder bag in {c} suede with no logo, a crescent-shaped hobo body with a top zip, and one wide short shoulder strap joined to both ends with plain round metal rings, the strap rising in an arch above",
+      "keep": "{c} suede, crescent hobo body, top zip, one wide short strap on plain round rings",
+      "checks": ["月牙形软包身", "顶部拉链", "一条宽短肩带", "两端素圆环连接"],
+      "colorways": [
+        {"key": "cognac", "name": {"zh": "干邑棕", "ja": "コニャック", "en": "Cognac", "ko": "코냑"}, "bg": "light", "vars": {"c": "cognac brown"}}
+      ]
+    },
+    {
+      "key": "top-handle", "era": "bag", "gender": "F", "lower": "hem",
+      "name": {"zh": "手提包", "ja": "ハンドバッグ", "en": "Top-Handle Bag", "ko": "탑핸들백"},
+      "desc": "a structured top-handle bag in {c} smooth leather with no logo, a trapezoid body wider at the base, a zip top with no flap and no lock, one rigid rolled handle fixed with two plain rectangular metal loops, and a flat base with four small metal feet",
+      "keep": "{c} smooth leather, trapezoid body wider at base, zip top, no flap, one rolled handle on two plain loops, four base feet",
+      "checks": ["梯形硬挺包身", "顶部拉链、无盖无锁", "一条圆筒提手", "包底四颗金属脚钉"],
+      "colorways": [
+        {"key": "burgundy", "name": {"zh": "酒红", "ja": "バーガンディ", "en": "Burgundy", "ko": "버건디"}, "bg": "light", "vars": {"c": "burgundy"}},
+        {"key": "cream", "name": {"zh": "奶油白", "ja": "クリーム", "en": "Cream", "ko": "크림"}, "bg": "dark", "vars": {"c": "cream white"}}
+      ]
+    },
+    {
+      "key": "clutch", "era": "bag", "gender": "F", "lower": "hem",
+      "name": {"zh": "信封手拿包", "ja": "クラッチバッグ", "en": "Envelope Clutch", "ko": "클러치백"},
+      "desc": "an envelope clutch in {c} patent leather, a flat rectangle about 28 cm wide with a triangular envelope flap closed by a hidden magnetic snap, no strap and no hardware or logo on the front",
+      "keep": "{c} patent leather, flat 28 cm rectangle, triangular envelope flap, no strap, no hardware",
+      "checks": ["扁长方形", "三角信封盖", "无肩带", "正面无五金无标"],
+      "colorways": [
+        {"key": "emerald", "name": {"zh": "祖母绿", "ja": "エメラルド", "en": "Emerald", "ko": "에메랄드"}, "bg": "light", "vars": {"c": "emerald green"}}
+      ]
+    },
+    {
+      "key": "backpack", "era": "bag", "gender": "U", "lower": "hem",
+      "name": {"zh": "双肩包", "ja": "リュック", "en": "Backpack", "ko": "백팩"},
+      "desc": "a daypack backpack in {c} waxed canvas with no logo, a tall rectangle with a rounded top and a two-way zip around it, a flat front zip pocket, brown leather zip pulls, a short top grab handle, and two padded shoulder straps on the back whose lower ends show at the sides",
+      "keep": "{c} waxed canvas, rounded-top rectangle, two-way zip, front zip pocket, brown leather pulls, top handle, two shoulder straps",
+      "checks": ["圆顶长方形包身", "正面一个拉链口袋", "顶部短提手", "背后两条肩带"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青", "ja": "ネイビー", "en": "Navy", "ko": "네이비"}, "bg": "light", "vars": {"c": "navy"}},
+        {"key": "olive", "name": {"zh": "军绿", "ja": "オリーブ", "en": "Olive", "ko": "올리브"}, "bg": "light", "vars": {"c": "olive"}}
+      ]
+    },
+    {
+      "key": "messenger", "era": "bag", "gender": "M", "lower": "hem",
+      "name": {"zh": "邮差包", "ja": "メッセンジャーバッグ", "en": "Messenger Bag", "ko": "메신저백"},
+      "desc": "a messenger bag in {c} heavy cotton canvas with no logo, a wide landscape rectangle with a full front flap closed by two {t} leather straps with plain metal buckles, and a wide adjustable shoulder strap rising in an arch above",
+      "keep": "{c} canvas, wide landscape body, full front flap, two {t} leather buckle straps, wide shoulder strap",
+      "checks": ["横宽长方形", "整片前盖", "两条皮扣带", "宽肩带"],
+      "colorways": [
+        {"key": "grey", "name": {"zh": "灰色", "ja": "グレー", "en": "Grey", "ko": "회색"}, "bg": "light", "vars": {"c": "slate grey", "t": "brown"}}
+      ]
+    },
+    {
+      "key": "bucket-bag", "era": "bag", "gender": "F", "lower": "hem",
+      "name": {"zh": "水桶包", "ja": "巾着バッグ", "en": "Bucket Bag", "ko": "버킷백"},
+      "desc": "a bucket bag in {c} smooth leather with no pattern and no logo, a tall cylinder with a round flat base, a leather drawstring threaded through plain metal eyelets gathering the top opening, and a single adjustable shoulder strap rising in an arch above",
+      "keep": "{c} leather, tall cylinder with round base, drawstring through plain eyelets, single shoulder strap",
+      "checks": ["圆筒包身、圆底", "抽绳收口", "一圈金属气眼", "单条肩带"],
+      "colorways": [
+        {"key": "rust", "name": {"zh": "铁锈红", "ja": "ラスト", "en": "Rust", "ko": "러스트"}, "bg": "light", "vars": {"c": "rust orange"}}
+      ]
+    },
+    {
+      "key": "canvas-tote", "era": "bag", "gender": "U", "lower": "hem",
+      "name": {"zh": "帆布袋", "ja": "キャンバストート", "en": "Canvas Tote", "ko": "캔버스 토트"},
+      "desc": "a plain canvas tote bag in {c} heavy cotton canvas with no print, text or logo, a flat tall rectangle with no gusset, and two long cotton webbing handles standing up in a loose arch",
+      "keep": "{c} canvas, flat tall rectangle, no gusset, no print, two long webbing handles",
+      "checks": ["扁平竖长方形", "无侧边", "两条长织带提手", "无印花无字"],
+      "colorways": [
+        {"key": "ecru", "name": {"zh": "米白", "ja": "生成り", "en": "Ecru", "ko": "에크루"}, "bg": "dark", "vars": {"c": "natural ecru"}}
+      ]
+    },
+    {
+      "key": "belt-bag", "era": "bag", "gender": "U", "lower": "hem",
+      "name": {"zh": "腰包", "ja": "ウエストバッグ", "en": "Belt Bag", "ko": "벨트백"},
+      "desc": "a belt bag in {c} nylon with no logo, a small curved crescent pouch with a horizontal top zip and a smaller front zip pocket, and a wide adjustable webbing belt with a plain plastic side-release buckle, the belt curving out to both sides in a loose loop",
+      "keep": "{c} nylon, small crescent pouch, top zip and front zip pocket, wide webbing belt with plain plastic buckle",
+      "checks": ["小月牙形包身", "两道拉链", "宽织带腰带", "塑料插扣"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"c": "black"}}
+      ]
+    },
+    {
+      "key": "briefcase", "era": "bag", "gender": "M", "lower": "hem",
+      "name": {"zh": "公文包", "ja": "ブリーフケース", "en": "Briefcase", "ko": "서류가방"},
+      "desc": "a men's briefcase in {c} smooth leather with no logo, a slim rigid landscape rectangle with a top zip, one short leather top handle on two plain metal rings, and a detachable shoulder strap clipped to both sides and hanging in a loose loop below",
+      "keep": "{c} leather, slim rigid landscape rectangle, top zip, short top handle on plain rings, detachable shoulder strap",
+      "checks": ["扁平硬挺横长方形", "顶部拉链", "一条短提手", "可拆肩带"],
+      "colorways": [
+        {"key": "dark-brown", "name": {"zh": "深棕", "ja": "ダークブラウン", "en": "Dark Brown", "ko": "다크브라운"}, "bg": "light", "vars": {"c": "dark brown"}}
+      ]
+    },
+    {
+      "key": "duffel", "era": "bag", "gender": "U", "lower": "hem",
+      "name": {"zh": "旅行袋", "ja": "ボストンバッグ", "en": "Duffel Bag", "ko": "더플백"},
+      "desc": "a duffel bag in {c} heavy canvas with {t} leather trim and no logo, a long soft barrel shape with a full-length top zip, two rolled {t} leather carry handles joined by a leather wrap, leather end panels and base corners, shown lengthwise",
+      "keep": "{c} canvas, long barrel shape, full top zip, two rolled {t} leather handles with wrap, leather ends and corners",
+      "checks": ["长筒形包身、横放", "顶部通长拉链", "两条提手合在一起的包裹皮", "两端皮革包边"],
+      "colorways": [
+        {"key": "navy-tan", "name": {"zh": "藏青·棕皮", "ja": "紺・タン革", "en": "Navy & Tan", "ko": "네이비·탠"}, "bg": "light", "vars": {"c": "navy", "t": "tan"}}
+      ]
+    },
+    {
+      "key": "straw-bag", "era": "bag", "gender": "F", "lower": "hem",
+      "name": {"zh": "草编沙滩包", "ja": "かごバッグ", "en": "Straw Beach Bag", "ko": "라탄 비치백"},
+      "desc": "a straw beach bag in {c} woven seagrass with a basket weave, a wide open rectangular basket shape slightly wider at the top, and two {h} leather handles standing up in short arches",
+      "keep": "{c} seagrass basket weave, wide open rectangle widening upward, two {h} leather handles",
+      "checks": ["篮式编织", "开口、上宽下窄", "两条短皮提手", "无盖"],
+      "colorways": [
+        {"key": "natural", "name": {"zh": "本色", "ja": "ナチュラル", "en": "Natural", "ko": "내추럴"}, "bg": "light", "vars": {"c": "natural golden-tan", "h": "dark brown"}}
+      ]
+    },
+    {
+      "key": "minaudiere", "era": "bag", "gender": "F", "lower": "hem",
+      "name": {"zh": "硬壳晚宴包", "ja": "ミノディエール", "en": "Evening Minaudière", "ko": "미노디에르"},
+      "desc": "an evening minaudière: a small hard-shell box clutch in {c} brushed metal shaped like a rounded rectangle, with no jewels, no figures and no logo, a plain frame kiss-clasp of two small balls at the top, and a thin detachable chain strap hanging in a loose loop",
+      "keep": "{c} brushed metal rounded-rectangle hard shell, plain two-ball kiss clasp, thin chain strap",
+      "checks": ["小硬壳圆角盒", "拉丝金属", "顶部双珠口金扣", "细链条"],
+      "colorways": [
+        {"key": "gold", "name": {"zh": "金色", "ja": "ゴールド", "en": "Gold", "ko": "골드"}, "bg": "light", "vars": {"c": "gold"}}
+      ]
+    },
+    {
+      "key": "hebao", "era": "bag", "gender": "U", "lower": "hem",
+      "name": {"zh": "荷包", "ja": "荷包（巾着袋）", "en": "Embroidered Hebao Pouch", "ko": "하포 주머니"},
+      "desc": "a Chinese embroidered hebao pouch: a small rounded heart-shaped pouch in {c} satin about 10 cm tall, with {emb} embroidery of a lotus flower on the front, a drawstring top gathered by two cords, a knotted hanging cord above, and a long silk tassel hanging from the bottom",
+      "keep": "{c} satin heart-shaped pouch about 10 cm, {emb} lotus embroidery, drawstring top, knotted hanging cord, long bottom tassel",
+      "checks": ["小鸡心形缎面袋", "正面一朵荷花刺绣", "抽绳收口、顶上挂绳", "底下垂长流苏"],
+      "colorways": [
+        {"key": "crimson", "name": {"zh": "绛红", "ja": "深紅", "en": "Crimson", "ko": "진홍"}, "bg": "light", "vars": {"c": "crimson", "emb": "gold and pink"}}
+      ]
+    },
+    {
+      "key": "baofu", "era": "bag", "gender": "U", "lower": "hem",
+      "name": {"zh": "包袱", "ja": "風呂敷包み", "en": "Baofu Cloth Bundle", "ko": "보자기 보따리"},
+      "desc": "a Song-style Chinese baofu cloth bundle: a square of {c} cotton cloth with a small scattered white flower print, wrapped around a box-shaped load, two opposite corners tied in a firm knot on top forming a short carry handle, the other two corners folded in at the sides",
+      "keep": "{c} cotton with small white flower print, box-shaped bundle, one firm knot on top as handle",
+      "checks": ["方布包成方块", "顶上一个结做提手", "两侧折角", "小白花碎花布"],
+      "colorways": [
+        {"key": "indigo", "name": {"zh": "靛蓝", "ja": "藍", "en": "Indigo", "ko": "쪽빛"}, "bg": "light", "vars": {"c": "indigo blue"}}
+      ]
+    },
+    {
+      "key": "satchel", "era": "bag", "gender": "U", "lower": "hem",
+      "name": {"zh": "翻盖皮挎包", "ja": "サッチェル", "en": "Satchel", "ko": "새첼백"},
+      "desc": "a satchel in {c} stiff leather with no logo, a rectangular body with side gussets and a full front flap closed by two narrow straps with plain metal pin buckles, a short top handle, and an adjustable shoulder strap rising in an arch above",
+      "keep": "{c} stiff leather, rectangular body with gussets, full flap with two plain buckle straps, top handle, shoulder strap",
+      "checks": ["长方形硬包身带侧边", "整片前盖", "两条针扣带", "顶部短提手加肩带"],
+      "colorways": [
+        {"key": "chestnut", "name": {"zh": "栗色", "ja": "チェスナット", "en": "Chestnut", "ko": "밤색"}, "bg": "light", "vars": {"c": "chestnut brown"}}
+      ]
+    }
+  ],
+  "eras": {
+    "hat": {"zh": "帽子", "ja": "帽子", "en": "Hats", "ko": "모자"},
+    "cn": {"zh": "中国头饰", "ja": "中国の冠・髪飾り", "en": "Chinese Headwear", "ko": "중국 머리장식"},
+    "world": {"zh": "世界民族头饰", "ja": "世界の民族帽", "en": "World Headwear", "ko": "세계 민족 모자"},
+    "bag": {"zh": "包", "ja": "バッグ", "en": "Bags", "ko": "가방"}
+  }
+}

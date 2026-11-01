@@ -1,0 +1,91 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C171",
+  "C172",
+  "C173",
+  "C174",
+  "C175",
+  "C176",
+  "C177",
+  "C178",
+  "C179",
+  "C180",
+  "C181",
+  "C182",
+  "C183",
+  "C184",
+  "C185",
+  "C186",
+  "C187",
+  "C188",
+  "C189",
+  "C190",
+  "C191",
+  "C192",
+  "C193",
+  "C194"
+ ],
+ "fails": [
+  {
+   "id": "C177",
+   "view": "back",
+   "status": "consistency",
+   "reason": "sleeve pocket sits on the image-left sleeve (wearer's right) while front and side show it on the wearer's left upper arm; please check"
+  },
+  {
+   "id": "C178",
+   "view": "side",
+   "status": "form",
+   "reason": "要点③ hood should lie flat behind; here it stands up above the collar with an open face like a worn hood; please check"
+  },
+  {
+   "id": "C178",
+   "view": "diag",
+   "status": "form",
+   "reason": "要点③ hood rises high around the neck as if worn up instead of lying flat at the back; please check"
+  },
+  {
+   "id": "C181",
+   "view": "side",
+   "status": "form",
+   "reason": "要点④ hood looks raised/held open above the collar rather than lying flat at the back; please check"
+  },
+  {
+   "id": "C186",
+   "view": "back",
+   "status": "content",
+   "reason": "grey mannequin neck/stub visible above the collar"
+  },
+  {
+   "id": "C186",
+   "view": "side",
+   "status": "content",
+   "reason": "grey mannequin neck/head stub visible above the turtleneck"
+  },
+  {
+   "id": "C189",
+   "view": "front",
+   "status": "matte",
+   "reason": "trousers cut off at the bottom edge of the panel, no hem or shoes visible"
+  },
+  {
+   "id": "C189",
+   "view": "back",
+   "status": "matte",
+   "reason": "trousers cut off at the bottom edge of the panel, no hem or shoes visible"
+  },
+  {
+   "id": "C189",
+   "view": "side",
+   "status": "matte",
+   "reason": "trousers cut off at the bottom edge of the panel, no hem or shoes visible"
+  },
+  {
+   "id": "C189",
+   "view": "diag",
+   "status": "matte",
+   "reason": "trousers cut off at the bottom edge of the panel, no hem or shoes visible"
+  }
+ ]
+}

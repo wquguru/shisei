@@ -1,0 +1,132 @@
+{
+  "cat": "MU",
+  "note": "Musical instruments for playing and holding poses. Counts are the whole point: every desc states the number of strings, tuning pegs, valves, holes or bridges, because the model adds or drops them. Handheld instruments use place=float shown upright (flutes vertical, headjoint or blowing end at the top); instruments that rest on the ground or lie flat (cello, snare drum, the two zithers) use place=stand. Generic designs only: no brand headstock or body outline, no logo, no case, no stand, no strap, no sheet music. The erhu bow is part of the instrument (its hair passes between the strings) and is always shown; the violin is shown with its bow by request; no other bow, plectrum or stick appears.",
+  "groups": {
+    "western": {"zh": "吉他与提琴", "ja": "ギター・弦楽器", "en": "Guitars & Strings", "ko": "기타·현악기"},
+    "band": {"zh": "管乐与鼓", "ja": "管楽器・ドラム", "en": "Wind, Brass & Drum", "ko": "관악기·드럼"},
+    "cn-string": {"zh": "民族弦乐", "ja": "中国の弦楽器", "en": "Chinese Strings", "ko": "중국 현악기"},
+    "cn-wind": {"zh": "民族吹管", "ja": "中国の管楽器", "en": "Chinese Winds", "ko": "중국 관악기"}
+  },
+  "forms": [
+    {
+      "key": "acoustic-guitar", "group": "western", "place": "float", "size": "L",
+      "name": {"zh": "木吉他", "ja": "アコースティックギター", "en": "Acoustic Guitar", "ko": "어쿠스틱 기타"},
+      "desc": "a generic steel-string acoustic guitar with a full rounded dreadnought body, a {top} spruce top and {back} back and sides, one round soundhole with a plain thin ring rosette, a plain teardrop pickguard, a rectangular dark bridge with exactly six bridge pins, exactly six strings running the full length, a dark fretboard with twenty frets and small dot inlays, and a plain flat-topped headstock with exactly three tuning pegs on each side, six in total; no logo on the headstock, no strap, no pick",
+      "keep": "{top} spruce top, {back} back and sides, one round soundhole, teardrop pickguard, rectangular bridge with six pins, six strings, dot-inlay fretboard, plain headstock with three pegs per side",
+      "checks": ["六根弦", "琴头左右各三个弦钮，共六个", "一个圆音孔", "琴头无标志"],
+      "variants": [
+        {"key": "natural", "name": {"zh": "原木色", "ja": "ナチュラル", "en": "Natural", "ko": "내추럴"}, "vars": {"top": "pale natural", "back": "warm brown mahogany"}}
+      ]
+    },
+    {
+      "key": "electric-guitar", "group": "western", "place": "float", "size": "L",
+      "name": {"zh": "电吉他", "ja": "エレキギター", "en": "Electric Guitar", "ko": "일렉트릭 기타"},
+      "desc": "a generic solid-body electric guitar of original design in {finish}: a compact symmetrical body with two short equal rounded horns and a soft round lower bout, a plain black pickguard, two black covered pickups, a fixed bridge, three round control knobs and one small switch, a bolt-on maple neck with a dark fretboard, twenty-two frets and dot inlays, exactly six strings, and a small symmetrical rounded headstock with exactly three tuning pegs on each side, six in total; no pointed horns, no single cutaway, no six-in-line headstock, no carved arched top, no logo, no strap, no cable",
+      "keep": "{finish} symmetrical two-horn body, black pickguard, two black pickups, fixed bridge, three knobs and one switch, maple neck, six strings, small rounded headstock with three pegs per side",
+      "checks": ["六根弦", "琴头左右各三个弦钮", "两个拾音器、三个旋钮", "不像任何品牌琴型、无标志"],
+      "variants": [
+        {"key": "red", "name": {"zh": "樱桃红", "ja": "チェリーレッド", "en": "Cherry Red", "ko": "체리 레드"}, "vars": {"finish": "glossy cherry red"}}
+      ]
+    },
+    {
+      "key": "violin", "group": "western", "place": "float", "size": "M",
+      "name": {"zh": "小提琴", "ja": "バイオリン", "en": "Violin", "ko": "바이올린"},
+      "desc": "a violin in {varnish} varnish with its bow: an hourglass-shaped body with a carved spruce top and flamed maple back, two f-shaped sound holes, a raised maple bridge, exactly four strings running over a black ebony fingerboard with no frets, a black tailpiece and black chinrest, a pegbox with exactly four black tuning pegs, two on each side, ending in a carved scroll; the bow, a long thin dark wooden stick with pale horsehair and a black frog, floats just behind and parallel to the violin at a slight diagonal; no case, no shoulder rest",
+      "keep": "{varnish} violin, hourglass body, two f-holes, four strings, fretless black fingerboard, four pegs two per side, carved scroll, bow floating behind at a slight diagonal",
+      "checks": ["四根弦、指板无品", "两个 f 孔", "弦轴两边各二、顶端琴头涡卷", "附一把琴弓"],
+      "variants": [
+        {"key": "amber", "name": {"zh": "琥珀色", "ja": "アンバー", "en": "Amber", "ko": "앰버"}, "vars": {"varnish": "warm golden-amber"}}
+      ]
+    },
+    {
+      "key": "cello", "group": "western", "place": "stand", "size": "L",
+      "name": {"zh": "大提琴", "ja": "チェロ", "en": "Cello", "ko": "첼로"},
+      "desc": "a full-size cello in {varnish} varnish standing upright on its extended steel endpin: an hourglass-shaped body about 75 cm long with a carved spruce top and flamed maple back, two f-shaped sound holes, a tall maple bridge, exactly four strings over a long black ebony fingerboard with no frets, a black tailpiece, a pegbox with exactly four tuning pegs, two on each side, ending in a carved scroll; no bow, no case, no stand",
+      "keep": "{varnish} cello standing on its endpin, hourglass body, two f-holes, tall bridge, four strings, fretless black fingerboard, four pegs two per side, carved scroll",
+      "checks": ["四根弦、指板无品", "两个 f 孔", "底部尾针着地", "没有琴弓"],
+      "variants": [
+        {"key": "brown", "name": {"zh": "红棕", "ja": "赤茶", "en": "Reddish Brown", "ko": "적갈색"}, "vars": {"varnish": "deep reddish-brown"}}
+      ]
+    },
+    {
+      "key": "alto-sax", "group": "band", "place": "float", "size": "L",
+      "name": {"zh": "中音萨克斯", "ja": "アルトサックス", "en": "Alto Saxophone", "ko": "알토 색소폰"},
+      "desc": "an alto saxophone in {finish}: a conical body standing upright with a U-shaped bottom bow and an upturned flared bell facing forward, a curved neck at the top with a black mouthpiece and a metal ligature, rows of padded key cups along the body with pearl finger touches, rod linkages and key guards, the bell plain without engraving; no strap, no stand, no case",
+      "keep": "{finish} alto sax, upright conical body, U-shaped bottom bow, upturned bell facing forward, curved neck with black mouthpiece, rows of key cups with pearl touches, plain bell",
+      "checks": ["上弯曲颈加黑色吹嘴", "底部 U 形弯、喇叭口朝上朝前", "按键整齐排列", "喇叭口无刻字"],
+      "variants": [
+        {"key": "gold", "name": {"zh": "金色漆", "ja": "ゴールドラッカー", "en": "Gold Lacquer", "ko": "골드 래커"}, "vars": {"finish": "gold-lacquered brass"}}
+      ]
+    },
+    {
+      "key": "trumpet", "group": "band", "place": "float", "size": "M",
+      "name": {"zh": "小号", "ja": "トランペット", "en": "Trumpet", "ko": "트럼펫"},
+      "desc": "a B-flat trumpet in {finish}, oriented horizontally with the bell pointing to the right and the mouthpiece at the left: a flared bell, a long wrapped leadpipe ending in a mouthpiece at the left, exactly three upright piston valves in one row with round pearl finger buttons on top, the main tuning slide curving forward, a small first-valve slide ring and a water key, the bell plain without engraving; no case, no mute",
+      "keep": "{finish} trumpet, bell to the right, mouthpiece to the left, three piston valves in a row with pearl buttons, main tuning slide, plain bell",
+      "checks": ["三个活塞阀、一排", "喇叭口在一端、吹嘴在另一端", "调音管弯回", "无刻字"],
+      "variants": [
+        {"key": "brass", "name": {"zh": "金色", "ja": "ゴールド", "en": "Brass", "ko": "골드"}, "vars": {"finish": "clear-lacquered yellow brass"}}
+      ]
+    },
+    {
+      "key": "flute", "group": "band", "place": "float", "size": "L",
+      "name": {"zh": "长笛", "ja": "フルート", "en": "Concert Flute", "ko": "플루트"},
+      "desc": "a silver concert flute shown vertically with the headjoint at the top: a straight slim tube about 67 cm long in three joined sections, a headjoint with a raised lip plate and embouchure hole and a round crown cap, a body with a row of closed round key cups and rod linkages along one side, and a short foot joint with a few keys at the bottom; plain metal, no engraving, no case",
+      "keep": "silver flute standing vertical, headjoint with lip plate at the top, three sections, row of closed key cups with rods, short foot joint at the bottom",
+      "checks": ["竖放、吹口在上", "三节：头管、主管、尾管", "一个吹口唇托", "按键闭孔排成一列"],
+      "variants": [
+        {"key": "silver", "name": {"zh": "银色", "ja": "シルバー", "en": "Silver", "ko": "실버"}}
+      ]
+    },
+    {
+      "key": "guzheng", "group": "cn-string", "probe": true, "place": "stand", "size": "S",
+      "name": {"zh": "古筝", "ja": "古箏", "en": "Guzheng", "ko": "고쟁"},
+      "desc": "a Chinese guzheng about 163 cm long lying flat on an invisible floor, its long side facing the camera: a long box body in {wood} with a gently arched paulownia soundboard, exactly twenty-one strings running lengthwise, each string resting on its own small movable bridge, the twenty-one bridges forming one diagonal line across the soundboard, a fixed curved bridge near each end, a row of tuning pins under a carved cover at the right end, a narrow plain decorative band at the left end; no legs, no stand, no picks, no characters or seals on the body",
+      "keep": "{wood} guzheng lying flat, arched soundboard, twenty-one strings each on its own movable bridge, bridges in one diagonal line, fixed end bridges, tuning pins at the right end",
+      "checks": ["二十一根弦", "每弦一个雁柱、斜排成一线", "面板拱起", "无字、无印"],
+      "variants": [
+        {"key": "rosewood", "name": {"zh": "红木", "ja": "紅木", "en": "Rosewood", "ko": "홍목"}, "vars": {"wood": "dark reddish-brown rosewood"}}
+      ]
+    },
+    {
+      "key": "pipa", "group": "cn-string", "probe": true, "place": "float", "size": "L",
+      "name": {"zh": "琵琶", "ja": "琵琶", "en": "Pipa", "ko": "비파"},
+      "desc": "a Chinese pipa held upright: a pear-shaped body in {wood} with a flat pale paulownia soundboard and no soundhole, a small low string-holder bridge near the bottom, exactly four strings, a short neck carrying exactly four tall wedge-shaped wooden frets (xiang), then ten thin bamboo frets set into the upper soundboard below them, a pegbox bent slightly back with exactly four lateral tuning pegs, two on each side, topped by a small plain curled head; no dragon or bat carving, no plectrum or nail picks",
+      "keep": "{wood} pear-shaped pipa, flat soundboard with no soundhole, low bridge, four strings, four wedge frets on the neck, ten bamboo frets on the soundboard, bent-back pegbox with two pegs per side, plain curled head",
+      "checks": ["四根弦", "琴颈四个相、面板十个品", "弦轴左右各二", "面板无音孔"],
+      "variants": [
+        {"key": "hongmu", "name": {"zh": "红木", "ja": "紅木", "en": "Rosewood", "ko": "홍목"}, "vars": {"wood": "dark reddish-brown rosewood"}}
+      ]
+    },
+    {
+      "key": "erhu", "group": "cn-string", "place": "float", "size": "L",
+      "name": {"zh": "二胡", "ja": "二胡", "en": "Erhu", "ko": "얼후"},
+      "desc": "a Chinese erhu held upright with its bow: a small hexagonal wooden sound box in {wood} at the bottom, its front covered with a plain {membrane} synthetic membrane, not snakeskin, a long thin round wooden neck rising straight up about 80 cm with no fingerboard, exactly two tuning pegs near the top, one above the other, both projecting to the same side, exactly two parallel strings from the pegs down over a small bridge on the membrane, a cord loop (qianjin) binding the strings to the neck about one third down, a small carved wooden foot under the sound box; the bow, a thin bamboo stick with pale horsehair, lies diagonally across the sound box with its hair passing between the two strings; no plectrum, no stand",
+      "keep": "{wood} erhu, hexagonal sound box with plain {membrane} membrane, long thin neck, two pegs on the same side, two strings, cord loop on the neck, bridge on the membrane, bow hair between the strings",
+      "checks": ["两根弦", "上方两个弦轴、同一侧", "六角琴筒、素面蒙皮（非蛇皮纹）", "弓毛夹在两弦之间"],
+      "variants": [
+        {"key": "zitan", "name": {"zh": "紫檀色", "ja": "紫檀", "en": "Zitan", "ko": "자단"}, "vars": {"wood": "deep purple-black zitan", "membrane": "smooth matte beige"}}
+      ]
+    },
+    {
+      "key": "guqin", "group": "cn-string", "probe": true, "place": "stand", "size": "S",
+      "name": {"zh": "古琴", "ja": "古琴", "en": "Guqin", "ko": "고금"},
+      "desc": "a Chinese guqin about 120 cm long lying flat on an invisible floor, its long side facing the camera, seen from the player's side: a long narrow slightly arched wooden body in {lacquer} lacquer with fine crackle lines, the head end (right) wider than the tail end (left), a pair of shallow waist notches, exactly seven strings running lengthwise with no bridges and no frets, exactly thirteen small round mother-of-pearl hui dots in one row along the near edge of the top, a low hardwood ridge at the head end where the strings start, seven tuning pegs under the head with short silk tassels hanging down; no legs, no table, no characters or seals",
+      "keep": "{lacquer} guqin lying flat, long narrow arched body with crackle lines, wider head at the right, seven strings with no bridges or frets, thirteen mother-of-pearl hui dots along the near edge, short tassels under the head",
+      "checks": ["七弦", "十三徽、沿一侧排成一行", "无琴柱、无品", "无字、无印"],
+      "variants": [
+        {"key": "black", "name": {"zh": "黑漆", "ja": "黒漆", "en": "Black Lacquer", "ko": "흑칠"}, "vars": {"lacquer": "deep black"}}
+      ]
+    },
+    {
+      "key": "dizi", "group": "cn-wind", "place": "float", "size": "L",
+      "name": {"zh": "笛子", "ja": "笛子（中国の横笛）", "en": "Dizi", "ko": "디즈"},
+      "desc": "a Chinese bamboo dizi transverse flute shown vertically, about 60 cm long, in {bamboo} bamboo: from the top, a plugged end, one blowing hole, one membrane hole covered with a thin translucent white membrane, exactly six finger holes in one straight row, then two small end holes near the bottom; several narrow bands of {binding} silk thread wrapped around the tube; no tassel, no characters",
+      "keep": "{bamboo} bamboo dizi standing vertical, one blowing hole, one membrane hole with white membrane, six finger holes in a row, {binding} thread bands",
+      "checks": ["一个吹孔、一个膜孔贴白膜", "六个按孔一排", "竹质、缠线箍", "无字、无穗"],
+      "variants": [
+        {"key": "natural", "name": {"zh": "原色竹", "ja": "白竹", "en": "Natural Bamboo", "ko": "자연 대나무"}, "vars": {"bamboo": "pale golden natural", "binding": "black lacquered"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "cat": "NT",
+  "note": "Nature and travel spots. Buildings appear only where the desc states them; resort and town scenes are original generic places, never a real island, hotel or village (docs/scene/PLAN.md §5).",
+  "groups": {
+    "forest": {"zh": "森林与花木", "ja": "森・花木", "en": "Forests & Groves", "ko": "숲·꽃나무"},
+    "mountain": {"zh": "山地与雪原", "ja": "山・雪原", "en": "Mountains & Snow", "ko": "산·설원"},
+    "field": {"zh": "田野与花海", "ja": "田畑・花畑", "en": "Fields & Flowers", "ko": "들판·꽃밭"},
+    "arid": {"zh": "沙漠与岩地", "ja": "砂漠・岩場", "en": "Desert & Rock", "ko": "사막·바위"},
+    "water": {"zh": "海岸与水边", "ja": "海辺・水辺", "en": "Coast & Water", "ko": "해안·물가"},
+    "coast": {"zh": "海岸与海岛", "ja": "海岸・島", "en": "Coasts & Islands", "ko": "해안·섬"},
+    "resort": {"zh": "度假酒店", "ja": "リゾート", "en": "Resorts", "ko": "리조트"},
+    "town": {"zh": "旅行小镇", "ja": "旅先の町", "en": "Travel Towns", "ko": "여행지 마을"}
+  },
+  "forms": [
+    {
+      "key": "forest-path", "group": "forest",
+      "name": {"zh": "林间小路", "ja": "森の小道", "en": "Forest Path", "ko": "숲길"},
+      "desc": "a temperate mixed forest of tall beech and oak trees, a packed-earth footpath about two metres wide running straight from the camera into the far distance, thick trunks and green undergrowth of ferns along the left and right edges, the canopy closing overhead with gaps of sky, the path fading into green depth far ahead, and a clear walkable stretch of bare earth path in the centre about 4 metres from the camera",
+      "keep": "tall beech and oak trunks on both sides, ferns along the edges, packed-earth path running straight ahead, canopy overhead with small gaps of sky, same sky and weather, empty path in the centre",
+      "checks": ["小路笔直伸向远处", "两侧树干和蕨类", "树冠在头顶合拢、露出少量天空", "中央路面空着"],
+      "variants": [
+        {"key": "summer", "name": {"zh": "夏日", "ja": "夏の昼", "en": "Summer Day", "ko": "여름 낮"}, "light": "Summer midday, bright sun filtering through the canopy in dappled patches on the path, deep green leaves"}
+      ]
+    },
+    {
+      "key": "bamboo-grove", "group": "forest",
+      "name": {"zh": "竹林", "ja": "竹林", "en": "Bamboo Grove", "ko": "대나무 숲"},
+      "desc": "a dense grove of tall green moso bamboo, straight culms rising close together along the left and right sides of a narrow earth path covered with dry bamboo leaves, the path leading straight ahead and curving slightly right in the far distance, the bamboo tops meeting high overhead with slivers of sky, no lanterns or fences, and a clear walkable patch of leaf-covered path in the centre about 4 metres from the camera",
+      "keep": "tall green bamboo culms close on both sides, leaf-covered earth path leading ahead and curving right far away, bamboo tops meeting overhead with slivers of sky, same sky and weather, no fences or lanterns, empty path in the centre",
+      "checks": ["竹竿笔直密集", "路面铺着干竹叶", "没有栅栏或灯笼", "中央路面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft daylight filtered green through the bamboo leaves, thin bright streaks of sun on the path"}
+      ]
+    },
+    {
+      "key": "cherry-grove", "group": "forest",
+      "name": {"zh": "樱花林", "ja": "桜並木", "en": "Cherry Blossom Grove", "ko": "벚꽃 숲"},
+      "desc": "a grove of old cherry trees in full pale pink bloom on a gentle grassy slope, the trees standing in loose rows on the left and right with their branches arching over a wide gravel path, fallen petals scattered on the path and the grass, more blossoming trees fading into the far distance, no lanterns, no tents, no buildings, and a clear walkable patch of petal-strewn gravel path in the centre about 4 metres from the camera",
+      "keep": "old cherry trees in full pale pink bloom on both sides, branches arching over the path, wide gravel path with fallen petals, grass under the trees, same sky and weather, no lanterns or buildings, empty path in the centre",
+      "checks": ["樱花满开、淡粉色", "砾石路上有落花", "没有灯笼、帐篷、建筑", "中央路面空着"],
+      "variants": [
+        {"key": "spring", "name": {"zh": "春日", "ja": "春の昼", "en": "Spring Day", "ko": "봄 낮"}, "light": "Bright spring afternoon, pale blue sky with thin high clouds showing through the blossoms, soft sun from the left"}
+      ]
+    },
+    {
+      "key": "mountain-ridge", "group": "mountain",
+      "name": {"zh": "山脊", "ja": "山の尾根", "en": "Mountain Ridge", "ko": "산 능선"},
+      "desc": "a broad grassy and rocky mountain summit ridge above the tree line, the ridge running straight away from the camera and dropping steeply on the left and right, a range of rugged unnamed peaks stretching across the far distance below the horizon, scattered grey rocks and low alpine grass on the ridge, no cairns, no signposts, no huts, and a clear walkable patch of flat ground on the ridge crest in the centre about 4 metres from the camera",
+      "keep": "broad ridge running straight ahead and dropping away left and right, low alpine grass and grey rocks, range of unnamed peaks in the far distance, same sky, clouds and weather, no cairns, signposts or huts, empty ridge crest in the centre",
+      "checks": ["山脊笔直伸向远处、两侧陡降", "远山不是可辨认的名山", "没有路牌、石堆、小屋", "中央脊顶平地空着"],
+      "variants": [
+        {"key": "sea-of-clouds", "name": {"zh": "云海日出", "ja": "雲海の朝日", "en": "Sunrise over Clouds", "ko": "운해 일출"}, "light": "Sunrise, a sea of white clouds filling the valleys below the ridge with only the far peaks rising out of it, warm orange light from the low sun on the right, pale gold sky"}
+      ]
+    },
+    {
+      "key": "snowfield", "group": "mountain",
+      "name": {"zh": "雪原", "ja": "雪原", "en": "Snowfield", "ko": "설원"},
+      "desc": "a wide open snowfield of smooth untouched snow, a few snow-laden spruce trees at the left edge, a low snow-covered rocky rise at the right edge, the snow plain stretching to a line of snowy mountains in the far distance, the snow surface showing gentle wind ripples but no footprints, no ski tracks, no poles, and a clear walkable patch of smooth firm snow in the centre about 4 metres from the camera",
+      "keep": "smooth untouched snow with wind ripples, snow-laden spruces at the left, snowy rocky rise at the right, snowy mountains in the far distance, no footprints or tracks, same sky and weather, empty snow in the centre",
+      "checks": ["雪面平整、没有脚印和雪道", "雪面有层次不过曝", "左侧雪松、右侧雪坡", "中央雪地空着"],
+      "variants": [
+        {"key": "sunny", "name": {"zh": "晴天", "ja": "晴れ", "en": "Sunny", "ko": "맑음"}, "light": "Clear winter day, low sun from the left, deep blue sky, crisp blue shadows on the snow with visible surface texture, exposure set so the snow is bright but not blown out"}
+      ]
+    },
+    {
+      "key": "rice-terraces", "group": "field",
+      "name": {"zh": "梯田", "ja": "棚田", "en": "Rice Terraces", "ko": "계단식 논"},
+      "desc": "hillside rice terraces with curving stepped paddies of {crop} descending away from the camera and wrapping around the slope, a grassy earth bund about a metre wide running straight ahead along the top terrace, steeper terraced slopes rising on the left, the terraces falling away into a valley on the right, forested hills in the far distance, no huts, no farmers, no power lines, and a clear walkable patch of the grassy bund in the centre about 4 metres from the camera",
+      "keep": "curving stepped terraces of {crop}, grassy bund running straight ahead, terraces rising on the left and falling into a valley on the right, forested hills far away, same sky and weather, no huts or power lines, empty bund in the centre",
+      "checks": ["弧形层层梯田", "站位在田埂上不在水田里", "没有房屋、电线", "中央田埂空着"],
+      "variants": [
+        {"key": "summer", "name": {"zh": "夏季青苗", "ja": "夏の青田", "en": "Summer Green", "ko": "여름 초록"}, "vars": {"crop": "young bright green rice"}, "light": "Summer afternoon, bright sun, blue sky with white clouds, the green rice vivid"}
+      ]
+    },
+    {
+      "key": "sunflower-field", "group": "field",
+      "name": {"zh": "向日葵花田", "ja": "ひまわり畑", "en": "Sunflower Field", "ko": "해바라기 밭"},
+      "desc": "a large field of tall sunflowers in full bloom, the flower heads all facing the camera, dense rows of sunflowers about 1.5 metres tall filling the left and right sides and stretching to the horizon, a mown grass path about three metres wide cut straight through the field away from the camera, a line of trees on the far horizon, no buildings, no signs, and a clear walkable patch of mown grass path in the centre about 4 metres from the camera with no sunflowers standing in it",
+      "keep": "tall sunflowers in full bloom on both sides facing the camera, mown grass path running straight ahead, sunflowers stretching to a tree line on the horizon, same sky and weather, no buildings, empty path in the centre",
+      "checks": ["花盘朝向镜头", "割草小路笔直、路上没有向日葵", "地平线有树线", "中央草路空着"],
+      "variants": [
+        {"key": "summer", "name": {"zh": "盛夏", "ja": "真夏", "en": "Midsummer", "ko": "한여름"}, "light": "Midsummer late morning, strong sun from behind the camera, saturated blue sky with a few white clouds"}
+      ]
+    },
+    {
+      "key": "desert-dunes", "group": "arid",
+      "name": {"zh": "沙丘", "ja": "砂丘", "en": "Desert Dunes", "ko": "사막 사구"},
+      "desc": "a sea of smooth orange sand dunes, a tall dune with a sharp curving crest rising on the left, lower rolling dunes on the right, rows of dunes receding to the horizon far ahead, fine wind ripples on the sand and no footprints, no vegetation, no camels, no vehicles, and a clear walkable patch of flat rippled sand in a shallow hollow in the centre about 4 metres from the camera",
+      "keep": "smooth orange dunes, tall sharp-crested dune on the left, lower dunes on the right, dunes receding to the horizon, wind ripples and no footprints, same sky and weather, no camels or vehicles, empty sand in the centre",
+      "checks": ["左侧高沙丘、锋利沙脊", "沙面风纹、没有脚印", "没有骆驼和车辆", "中央沙地空着"],
+      "variants": [
+        {"key": "sunset", "name": {"zh": "日落", "ja": "夕日", "en": "Sunset", "ko": "일몰"}, "light": "Sunset, low sun from the right, the dune crests glowing deep orange with strong blue-violet shadows on their far sides, warm gradient sky"}
+      ]
+    },
+    {
+      "key": "waterfall-pool", "group": "water", "probe": true,
+      "name": {"zh": "瀑布潭边", "ja": "滝つぼのほとり", "en": "Waterfall Pool", "ko": "폭포 소"},
+      "desc": "a waterfall about 12 metres high pouring down a mossy dark rock cliff in the far centre into a clear green pool, the pool filling the middle distance, wet ferns and moss on rock walls along the left and right, a broad flat bank of dry grey slate in the foreground at the near edge of the pool, nothing built and no railings, and a clear walkable patch of flat dry slate in the centre about 4 metres from the camera, well back from the water",
+      "keep": "waterfall pouring down a mossy rock cliff in the far centre, clear green pool in the middle distance, ferns and moss on rock walls left and right, flat dry slate bank in the foreground, same sky and weather, no railings, empty slate in the centre",
+      "checks": ["瀑布在远处正中", "前景是干燥平整的石板岸", "站位在水外、不是水里", "中央石面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft overcast daylight in the gorge, fine spray mist around the base of the falls, no harsh shadows"}
+      ]
+    },
+    {
+      "key": "lake-dock", "group": "water",
+      "name": {"zh": "高山湖码头", "ja": "山上湖の桟橋", "en": "Mountain Lake Dock", "ko": "산정호수 선착장"},
+      "desc": "a short wooden dock of weathered grey planks running straight out from a pebble shore into a calm glacial lake of milky turquoise water, the dock ending about 10 metres ahead, a single plain red wooden canoe with no markings resting on the water tied at the left side of the dock, dense dark green fir forest along the left and right shores, steep grey rock mountains with snow in their gullies rising behind the lake across the far side and reflected in the still water, no buildings, no signs, and a clear walkable stretch of dock planks in the centre about 4 metres from the camera",
+      "keep": "weathered grey plank dock running straight out 10 metres into milky turquoise lake, plain red canoe tied at the left side, dark fir forest along both shores, steep grey snow-streaked mountains behind the lake reflected in the still water, same sky and light, no buildings or signs, empty dock in the centre",
+      "checks": ["湖水是乳白青绿色", "码头左侧一只红色独木舟、没有字", "远处雪沟岩山倒映在水里", "中央码头空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "清晨", "ja": "早朝", "en": "Early Morning", "ko": "이른 아침"}, "light": "Still early morning, the first sun lighting the mountain tops pink and gold while the lake is in soft shade, mirror-calm water, thin mist at the far shore"}
+      ]
+    },
+    {
+      "key": "cliff-overlook", "group": "coast", "probe": true,
+      "name": {"zh": "崖顶海景", "ja": "断崖の海の見晴らし", "en": "Cliff-Top Sea View", "ko": "절벽 위 바다 전망"},
+      "desc": "the flat grassy top of a high pale limestone sea cliff on a tropical coast, short green grass and a few low wind-bent shrubs on the headland, the cliff edge running straight across the view about 12 metres ahead with a low weathered wooden post-and-rail fence along it, beyond the edge a vast turquoise and deep blue sea far below and the straight horizon, a second rugged limestone headland with sheer white cliff faces and green tops rising from the sea at the right, a pandanus tree leaning at the left edge, no buildings, no boats, and a clear walkable patch of short grass in the centre about 4 metres from the camera, well back from the fence and the edge",
+      "keep": "flat grassy limestone headland, low wooden post-and-rail fence along the cliff edge 12 metres ahead, turquoise and deep blue sea far below, straight horizon, second limestone headland with white cliffs at the right, pandanus tree at the left edge, same sky, clouds and weather, no buildings or boats, empty grass in the centre well back from the edge",
+      "checks": ["站位在崖顶平地、离崖边很远", "崖边一道低矮木栏", "右侧白色石灰岩海岬", "海平线水平、没有建筑和船"],
+      "variants": [
+        {"key": "day", "name": {"zh": "晴天", "ja": "晴れ", "en": "Sunny Day", "ko": "맑은 날"}, "light": "Bright late-morning sun from the left, deep blue sky with a few white cumulus clouds, vivid turquoise water near the cliffs"},
+        {"key": "sunset", "name": {"zh": "日落", "ja": "夕日", "en": "Sunset", "ko": "일몰"}, "light": "Sunset, the sun low over the sea just right of the second headland, orange and pink sky, warm side light on the grass, the cliffs glowing gold"}
+      ]
+    },
+    {
+      "key": "palm-beach", "group": "coast",
+      "name": {"zh": "椰林白沙滩", "ja": "ヤシの白砂ビーチ", "en": "Palm Beach", "ko": "야자수 백사장"},
+      "desc": "a tropical beach of fine white sand, clear turquoise shallow water lapping gently about 10 metres ahead and turning deep blue toward the straight horizon, three tall coconut palms leaning out over the sand from the left edge with their fronds overhead, dense green tropical foliage along the right edge, a small low green island on the horizon at the far left, no umbrellas, no loungers, no boats, no huts, and a clear walkable patch of smooth dry white sand in the centre about 4 metres from the camera",
+      "keep": "fine white sand, turquoise shallows turning deep blue, straight horizon, three coconut palms leaning in from the left edge with fronds overhead, green foliage along the right edge, small low island on the horizon at the far left, same sky and weather, no umbrellas, loungers, boats or huts, empty sand in the centre",
+      "checks": ["白沙、浅水是青绿色", "三棵椰子树从左边斜伸出来", "没有遮阳伞、躺椅、船", "中央沙地空着"],
+      "variants": [
+        {"key": "golden", "name": {"zh": "黄金时刻", "ja": "ゴールデンアワー", "en": "Golden Hour", "ko": "골든아워"}, "light": "Late afternoon golden hour, the sun low from the right, warm gold light on the sand and palm trunks, long palm shadows stretching left, a soft peach sky"}
+      ]
+    },
+    {
+      "key": "overwater-deck", "group": "coast",
+      "name": {"zh": "水上木栈道", "ja": "水上の桟橋デッキ", "en": "Overwater Boardwalk", "ko": "수상 데크"},
+      "desc": "a wide boardwalk of weathered pale teak planks raised on wooden piles over a clear turquoise lagoon, the boardwalk running straight ahead from the camera and ending at a square deck about 25 metres away, simple wooden handrails along both sides, two thatched-roof overwater bungalows on stilts standing in the lagoon at the left and one at the right in the middle distance, each joined by its own short walkway, the lagoon shading from pale turquoise to deep blue at the straight horizon, a low green island ridge at the far right, no boats, no people, no signs, and a clear walkable stretch of boardwalk planks in the centre about 4 metres from the camera",
+      "keep": "pale teak boardwalk on piles running straight ahead to a square deck 25 metres away, wooden handrails on both sides, two thatched overwater bungalows on stilts at the left and one at the right, turquoise lagoon turning deep blue, straight horizon, low island ridge at the far right, same sky and weather, no boats or signs, empty boardwalk in the centre",
+      "checks": ["栈道笔直通向远处平台", "左两栋右一栋茅草顶水上屋", "水是清澈青绿色", "中央栈道空着"],
+      "variants": [
+        {"key": "sunset", "name": {"zh": "日落", "ja": "夕日", "en": "Sunset", "ko": "일몰"}, "light": "Sunset, the sun setting on the horizon at the end of the boardwalk, the lagoon reflecting orange and violet, warm lamps just switched on under the bungalow eaves"}
+      ]
+    },
+    {
+      "key": "infinity-pool", "group": "resort", "probe": true,
+      "name": {"zh": "无边泳池", "ja": "インフィニティプール", "en": "Infinity Pool", "ko": "인피니티 풀"},
+      "desc": "the deck of an infinity pool on a hillside resort above the sea: a long rectangular pool with a vanishing edge running across the view about 6 metres ahead, its still blue surface appearing to merge with the open sea and the straight horizon far below, a deck of pale travertine stone in the foreground, a row of tall slender palms in large planters along the left edge, a low white rendered wall with a tropical flowering shrub at the right edge, dense green jungle canopy sloping down to the sea below the pool edge, no loungers, no umbrellas, no towels, no people in the water, and a clear walkable patch of dry travertine deck in the centre about 4 metres from the camera, well back from the water",
+      "keep": "pale travertine deck, long infinity pool with a vanishing edge 6 metres ahead merging with the sea, straight horizon, row of slender palms in planters along the left edge, low white wall with flowering shrub at the right edge, green jungle slope down to the sea, same sky and weather, no loungers, umbrellas or towels, empty deck in the centre",
+      "checks": ["池边看起来和海平面连在一起", "站位在石材池边、不在水里", "左侧一排棕榈、右侧白矮墙", "没有躺椅、遮阳伞、毛巾"],
+      "variants": [
+        {"key": "dusk", "name": {"zh": "黄昏亮灯", "ja": "夕暮れの灯り", "en": "Dusk Lights", "ko": "황혼 조명"}, "light": "Blue hour just after sunset, the sky deep blue with a warm orange band at the horizon, the pool glowing turquoise from underwater lights, small warm lights in the palm planters"}
+      ]
+    },
+    {
+      "key": "jungle-swing", "group": "resort",
+      "name": {"zh": "丛林秋千平台", "ja": "ジャングルのブランコ台", "en": "Jungle Swing Deck", "ko": "정글 그네 데크"},
+      "desc": "a wooden viewing deck at the edge of a deep jungle valley: a deck of dark weathered planks in the foreground ending in a sturdy wooden railing about 7 metres ahead, beyond it a steep river valley filled with dense green jungle and coconut palms, misty forested ridges layered into the distance, a tall frame of two thick timber posts at the far left edge of the deck with a rope swing hanging still beside the railing, a thatched shade roof at the right edge, no people, no signs, and a clear walkable patch of deck planks in the centre about 4 metres from the camera, the swing well to the left and nothing hanging in the centre",
+      "keep": "dark plank deck with a wooden railing 7 metres ahead, steep jungle valley with coconut palms beyond, misty forested ridges layered into the distance, tall timber swing frame with a still rope swing at the far left edge, thatched shade roof at the right edge, same sky, mist and weather, no signs, empty deck in the centre",
+      "checks": ["秋千在最左边、中央没有挂东西", "栏杆外是很深的丛林山谷", "远处多层雾气山脊", "中央平台空着"],
+      "variants": [
+        {"key": "mist", "name": {"zh": "晨雾", "ja": "朝霧", "en": "Morning Mist", "ko": "아침 안개"}, "light": "Early morning, soft mist lying in the valley and between the ridges, the low sun behind the far ridge making a gentle glow, cool fresh green tones"}
+      ]
+    },
+    {
+      "key": "aegean-lane", "group": "town",
+      "name": {"zh": "白墙蓝窗小巷", "ja": "白壁と青い窓の路地", "en": "Whitewashed Island Lane", "ko": "하얀 벽 파란 창 골목"},
+      "desc": "a narrow stepped lane in an original whitewashed island village: smooth white-painted walls of cubic houses with rounded edges on the left and right, doors and window shutters painted deep blue, a cascade of magenta bougainvillea spilling over a wall on the left, a few terracotta pots with green plants along the steps, the lane paved in grey stone with white-painted joints rising gently in shallow steps away from the camera and opening at the far end to a glimpse of deep blue sea and sky, flat roofs only, no domes, no bell towers, no churches, no signs, and a clear walkable landing of paving in the centre about 4 metres from the camera",
+      "keep": "white cubic houses on both sides, deep blue doors and shutters, magenta bougainvillea over the left wall, terracotta pots along the steps, grey paving with white joints rising in shallow steps, glimpse of deep blue sea at the far end, flat roofs, same sky and light, no domes, towers or signs, empty paving in the centre",
+      "checks": ["白墙、深蓝门窗", "左侧紫红色三角梅", "没有圆顶、钟楼、教堂", "中央台阶平台空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Brilliant Mediterranean midday, hard sun from high right, crisp shadows on the white walls, intense blue sky"}
+      ]
+    },
+    {
+      "key": "harbour-village", "group": "town",
+      "name": {"zh": "彩色渔港小镇", "ja": "カラフルな港町", "en": "Colourful Harbour Village", "ko": "알록달록 항구 마을"},
+      "desc": "the stone quay of an original small fishing village harbour: worn grey flagstones in the foreground, a low stone harbour wall with iron mooring rings along the right edge above calm green water, tall narrow houses painted ochre, terracotta, pink, yellow and pale green with green shutters climbing the steep hillside across the far side of the little harbour and along the left, a few small wooden rowing boats with plain hulls moored on the water at the right, no names on the boats, no signs, no cars, and a clear walkable patch of flagstones in the centre about 4 metres from the camera",
+      "keep": "grey flagstone quay, low stone harbour wall with iron rings at the right, calm green water, tall narrow houses in ochre, terracotta, pink, yellow and pale green with green shutters climbing the far hillside and along the left, small plain wooden rowing boats moored at the right, same sky and light, no boat names, signs or cars, empty flagstones in the centre",
+      "checks": ["对岸山坡上一排排彩色窄楼", "右侧石砌港墙和小木船", "船身没有名字、没有招牌", "中央石板地空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "上午", "ja": "午前", "en": "Morning", "ko": "오전"}, "light": "Clear morning, sun from the left lighting the coloured houses across the harbour, their reflections wobbling in the calm green water, soft blue sky"}
+      ]
+    },
+    {
+      "key": "cypress-road", "group": "field",
+      "name": {"zh": "柏树小路", "ja": "糸杉の小道", "en": "Cypress Road", "ko": "사이프러스 길"},
+      "desc": "a pale gravel country road winding gently away from the camera between two rows of tall slender dark cypress trees, rolling green and golden hills of farmland stretching to the left and right, a lone original stone farmhouse with a terracotta roof on a low hilltop at the far end where the road leads, a low dry-stone wall along the right edge of the road, no cars, no signs, no power lines, and a clear walkable stretch of gravel road in the centre about 4 metres from the camera",
+      "keep": "pale gravel road winding away between two rows of tall slender cypresses, rolling green and golden hills on both sides, lone stone farmhouse with a terracotta roof on a hilltop at the far end, dry-stone wall along the right, same sky and light, no cars, signs or power lines, empty road in the centre",
+      "checks": ["两排细高的柏树夹道", "路尽头山顶一座石头农舍", "没有车、路牌、电线", "中央路面空着"],
+      "variants": [
+        {"key": "golden", "name": {"zh": "黄金时刻", "ja": "ゴールデンアワー", "en": "Golden Hour", "ko": "골든아워"}, "light": "Late afternoon golden hour, low sun from the right, long cypress shadows striping the road and the hills, warm amber haze"}
+      ]
+    }
+  ]
+}

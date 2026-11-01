@@ -1,0 +1,519 @@
+{
+ "cat": "PL",
+ "note": "Furniture library (docs/furniture/PLAN.md). dims are real centimetres: the front prompt quotes w/d/h and intake scales every piece to one px/cm; seat is the sitting height a composited figure uses.",
+ "groups": {
+  "step": {
+   "zh": "台阶与梯",
+   "ja": "階段・脚立",
+   "en": "Steps & Ladders",
+   "ko": "계단·사다리"
+  },
+  "block": {
+   "zh": "造型台",
+   "ja": "撮影台",
+   "en": "Posing Blocks",
+   "ko": "포즈 블록"
+  },
+  "set": {
+   "zh": "布景结构",
+   "ja": "セット構造物",
+   "en": "Set Pieces",
+   "ko": "세트 구조물"
+  }
+ },
+ "forms": [
+  {
+   "key": "step-ladder",
+   "group": "step",
+   "name": {
+    "zh": "木梯凳",
+    "ja": "木の脚立",
+    "en": "Wooden Step Ladder",
+    "ko": "나무 사다리"
+   },
+   "desc": "an opened A-frame wooden step ladder about 150 cm high in {wood}, with four flat steps on the front, plain back legs joined by cross braces, and a small flat top platform",
+   "keep": "{wood} A-frame ladder, opened, four flat front steps, braced back legs, flat top platform",
+   "checks": [
+    "A 字展开",
+    "前面四级踏板",
+    "后腿有横撑",
+    "顶部小平台"
+   ],
+   "variants": [
+    {
+     "key": "natural",
+     "name": {
+      "zh": "原木",
+      "ja": "白木",
+      "en": "Natural Wood",
+      "ko": "원목"
+     },
+     "vars": {
+      "wood": "pale natural wood with paint splashes worn off"
+     }
+    }
+   ],
+   "dims": {
+    "w": 45,
+    "d": 60,
+    "h": 150
+   }
+  },
+  {
+   "key": "apple-box",
+   "group": "block",
+   "name": {
+    "zh": "苹果箱（整）",
+    "ja": "アップルボックス（フル）",
+    "en": "Full Apple Box",
+    "ko": "애플박스 (풀)"
+   },
+   "desc": "a photo-studio full apple box in {wood}: a rectangular plywood box 51 cm long and 30 cm wide lying flat on its broadest face, so its flat top surface is 20 cm high, built as a hollow box with an internal centre brace, an oval hand-hole cut-out near each end of both long sides, visible plywood edge joints and nail heads, plain unmarked faces with no stencilled text, no logo and no numbers",
+   "keep": "{wood} full apple box, 51 by 30 cm, lying flat, top surface 20 cm high, built as a hollow box with an internal centre brace, an oval hand-hole cut-out near each end of both long sides, visible plywood edge joints and nail heads, no text",
+   "checks": [
+    "平放、顶面约 20 厘米高",
+    "长宽 51×30 厘米",
+    "侧面两端有手扣孔",
+    "箱面没有字和编号"
+   ],
+   "variants": [
+    {
+     "key": "natural",
+     "name": {
+      "zh": "原色胶合板",
+      "ja": "合板の素地",
+      "en": "Natural Plywood",
+      "ko": "원목 합판"
+     },
+     "vars": {
+      "wood": "pale birch plywood with dark edge grain and slightly worn corners"
+     }
+    }
+   ],
+   "dims": {
+    "w": 51,
+    "d": 30,
+    "h": 20,
+    "seat": 20
+   }
+  },
+  {
+   "key": "apple-half",
+   "group": "block",
+   "name": {
+    "zh": "苹果箱（半）",
+    "ja": "アップルボックス（ハーフ）",
+    "en": "Half Apple Box",
+    "ko": "애플박스 (하프)"
+   },
+   "desc": "a photo-studio half apple box in {wood}: a rectangular plywood box 51 cm long and 30 cm wide lying flat on its broadest face, so its flat top surface is 10 cm high, built as a shallow hollow box, a long slot hand-hole near each end of both long sides, visible plywood edge joints, plain unmarked faces with no stencilled text, no logo and no numbers",
+   "keep": "{wood} half apple box, 51 by 30 cm, lying flat, top surface 10 cm high, built as a shallow hollow box, a long slot hand-hole near each end of both long sides, visible plywood edge joints, no text",
+   "checks": [
+    "平放、顶面约 10 厘米高",
+    "长宽 51×30 厘米",
+    "侧面两端有手扣孔",
+    "箱面没有字和编号"
+   ],
+   "variants": [
+    {
+     "key": "natural",
+     "name": {
+      "zh": "原色胶合板",
+      "ja": "合板の素地",
+      "en": "Natural Plywood",
+      "ko": "원목 합판"
+     },
+     "vars": {
+      "wood": "pale birch plywood with dark edge grain and slightly worn corners"
+     }
+    }
+   ],
+   "dims": {
+    "w": 51,
+    "d": 30,
+    "h": 10,
+    "seat": 10
+   }
+  },
+  {
+   "key": "apple-quarter",
+   "group": "block",
+   "name": {
+    "zh": "苹果箱（四分之一）",
+    "ja": "アップルボックス（クォーター）",
+    "en": "Quarter Apple Box",
+    "ko": "애플박스 (쿼터)"
+   },
+   "desc": "a photo-studio quarter apple box in {wood}: a rectangular plywood box 51 cm long and 30 cm wide lying flat on its broadest face, so its flat top surface is 5 cm high, built as a solid slab of laminated plywood with no hand-holes, visible layered edges, plain unmarked faces with no stencilled text, no logo and no numbers",
+   "keep": "{wood} quarter apple box, 51 by 30 cm, lying flat, top surface 5 cm high, built as a solid slab of laminated plywood with no hand-holes, visible layered edges, no text",
+   "checks": [
+    "平放、顶面约 5 厘米高",
+    "长宽 51×30 厘米",
+    "一块实心厚板、没有手孔",
+    "表面没有字和编号"
+   ],
+   "variants": [
+    {
+     "key": "natural",
+     "name": {
+      "zh": "原色胶合板",
+      "ja": "合板の素地",
+      "en": "Natural Plywood",
+      "ko": "원목 합판"
+     },
+     "vars": {
+      "wood": "pale birch plywood with dark edge grain and slightly worn corners"
+     }
+    }
+   ],
+   "dims": {
+    "w": 51,
+    "d": 30,
+    "h": 5,
+    "seat": 5
+   }
+  },
+  {
+   "key": "posing-cube",
+   "group": "block",
+   "name": {
+    "zh": "造型方台",
+    "ja": "撮影用キューブ",
+    "en": "Posing Cube",
+    "ko": "포즈 큐브"
+   },
+   "desc": "a photo-studio posing cube: a plain solid cube 45 cm on every side with a flat top surface 45 cm high, painted {paint} with a smooth even satin finish, crisp straight edges with slightly softened corners, no seams visible, no feet, no handles, no text",
+   "keep": "{paint} cube 45 cm on each side, flat top 45 cm high, smooth satin finish, crisp slightly softened edges, no feet or handles",
+   "checks": [
+    "正立方体、每边 45 厘米",
+    "顶面 45 厘米高",
+    "表面平滑无接缝",
+    "没有字、没有把手"
+   ],
+   "variants": [
+    {
+     "key": "white",
+     "name": {
+      "zh": "白色",
+      "ja": "白",
+      "en": "White",
+      "ko": "흰색"
+     },
+     "bg": "dark",
+     "vars": {
+      "paint": "matt white"
+     }
+    }
+   ],
+   "dims": {
+    "w": 45,
+    "d": 45,
+    "h": 45,
+    "seat": 45
+   }
+  },
+  {
+   "key": "stair-block",
+   "group": "step",
+   "probe": true,
+   "name": {
+    "zh": "三级台阶块",
+    "ja": "3段の階段ブロック",
+    "en": "Three-step Stair Block",
+    "ko": "3단 계단 블록"
+   },
+   "desc": "a photo-studio stair block of three straight steps in {paint}: a solid freestanding wedge of steps 90 cm wide, each step a 20 cm rise and a 30 cm deep tread, so the treads stand 20, 40 and 60 cm high from front to back, the top step 30 cm deep, the back a flat vertical face 60 cm high, both sides flat stepped profiles showing the three-step outline, no handrail, no nosing, no text",
+   "keep": "{paint} three-step block 90 cm wide, three equal steps with 20 cm rises and 30 cm treads at 20, 40 and 60 cm, flat vertical back 60 cm high, flat stepped side profiles, no handrail",
+   "checks": [
+    "正好三级台阶、高度 20/40/60 厘米",
+    "每级踏面 30 厘米深、等宽",
+    "背面是 60 厘米高的竖直平面",
+    "侧面是实心阶梯轮廓、没有扶手"
+   ],
+   "variants": [
+    {
+     "key": "grey",
+     "name": {
+      "zh": "浅灰",
+      "ja": "ライトグレー",
+      "en": "Light Grey",
+      "ko": "밝은 회색"
+     },
+     "vars": {
+      "paint": "matt light-grey painted wood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 60,
+    "seat": 40
+   }
+  },
+  {
+   "key": "plaster-wall",
+   "group": "set",
+   "name": {
+    "zh": "矮灰泥墙段",
+    "ja": "低い漆喰壁",
+    "en": "Low Plaster Wall Segment",
+    "ko": "낮은 회벽 세그먼트"
+   },
+   "desc": "a freestanding photo-set wall segment: a straight solid low wall 150 cm long, 25 cm thick and 100 cm high with a flat top surface 100 cm high for leaning on or resting an arm on, rendered in {plaster} with a softly hand-trowelled texture, slightly rounded top edges, plain flat ends showing the 25 cm thickness, no cracks, no graffiti, no text",
+   "keep": "{plaster} wall segment 150 cm long, 25 cm thick, flat top 100 cm high, hand-trowelled texture, softly rounded top edges, flat ends",
+   "checks": [
+    "直墙段、顶面 100 厘米高",
+    "厚 25 厘米、两端是平截面",
+    "手抹灰泥质感",
+    "没有裂缝、涂鸦、文字"
+   ],
+   "variants": [
+    {
+     "key": "off-white",
+     "name": {
+      "zh": "米白",
+      "ja": "オフホワイト",
+      "en": "Off-white",
+      "ko": "오프화이트"
+     },
+     "bg": "dark",
+     "vars": {
+      "plaster": "warm off-white lime plaster"
+     }
+    }
+   ],
+   "dims": {
+    "w": 150,
+    "d": 25,
+    "h": 100
+   }
+  },
+  {
+   "key": "railing",
+   "group": "set",
+   "name": {
+    "zh": "木栏杆段",
+    "ja": "木の手すり",
+    "en": "Wooden Railing Segment",
+    "ko": "나무 난간"
+   },
+   "desc": "a freestanding photo-set railing segment in {wood}: a straight railing 180 cm long with a flat-topped handrail 100 cm high, two square end posts, nine plain square balusters evenly spaced between a top rail and a bottom rail 10 cm above the base, each end post bolted to a flat wooden foot 40 cm long that runs front to back so it stands on its own",
+   "keep": "{wood} railing 180 cm long, flat handrail 100 cm high, two square end posts, nine square balusters between top and bottom rails, two flat front-to-back feet",
+   "checks": [
+    "扶手顶 100 厘米高",
+    "两根端柱、中间九根方栏杆",
+    "底横档离地约 10 厘米",
+    "两端有前后方向的平脚、能自己立住"
+   ],
+   "variants": [
+    {
+     "key": "walnut-stain",
+     "name": {
+      "zh": "胡桃色",
+      "ja": "ウォルナット色",
+      "en": "Walnut Stain",
+      "ko": "월넛 색"
+     },
+     "vars": {
+      "wood": "walnut-stained pine with a satin finish"
+     }
+    }
+   ],
+   "dims": {
+    "w": 180,
+    "d": 40,
+    "h": 100
+   }
+  },
+  {
+   "key": "door-frame",
+   "group": "set",
+   "name": {
+    "zh": "独立门框",
+    "ja": "自立式ドア枠",
+    "en": "Freestanding Door Frame",
+    "ko": "독립형 문틀"
+   },
+   "desc": "a freestanding photo-set door frame in {paint}: a plain rectangular door frame with two flat side jambs and a head jamb with simple flat casing trim, an open doorway 80 cm wide and 200 cm high with no door, no hinges and no threshold, the outside of the frame 100 cm wide and 215 cm high, each jamb fixed to a flat foot plate 50 cm long running front to back so it stands on its own, open empty space visible through the doorway",
+   "keep": "{paint} freestanding door frame, flat casing trim, empty opening 80 by 200 cm with no door, outer size 100 by 215 cm, two flat front-to-back foot plates",
+   "checks": [
+    "只有门框、没有门扇和合页",
+    "门洞 80×200 厘米、空的",
+    "平板门套线",
+    "两侧底部有前后向平脚"
+   ],
+   "variants": [
+    {
+     "key": "white",
+     "name": {
+      "zh": "白色",
+      "ja": "白",
+      "en": "White",
+      "ko": "흰색"
+     },
+     "bg": "dark",
+     "vars": {
+      "paint": "matt white painted wood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 100,
+    "d": 50,
+    "h": 215
+   }
+  },
+  {
+   "key": "window-frame",
+   "group": "set",
+   "probe": true,
+   "name": {
+    "zh": "独立窗框",
+    "ja": "自立式の窓枠",
+    "en": "Freestanding Window Frame",
+    "ko": "독립형 창틀"
+   },
+   "desc": "a freestanding photo-set window frame in {paint}: a rectangular wooden window frame 100 cm wide and 120 cm high divided by one vertical and one horizontal muntin into four open panes, completely empty with no glass, no reflections and no curtains, a projecting flat sill at the bottom whose top is 90 cm above the floor, carried on two square legs that rise from flat foot plates running front to back, so the whole piece stands on its own 210 cm high",
+   "keep": "{paint} freestanding window frame 100 by 120 cm, cross muntins forming four open panes with no glass, projecting flat sill 90 cm high, two square legs on flat front-to-back foot plates",
+   "checks": [
+    "十字窗棂分成四格",
+    "窗格是空的、没有玻璃和反光",
+    "窗台突出、离地 90 厘米",
+    "两条腿立在前后向平脚上"
+   ],
+   "variants": [
+    {
+     "key": "sage",
+     "name": {
+      "zh": "灰绿",
+      "ja": "セージグリーン",
+      "en": "Sage Green",
+      "ko": "세이지 그린"
+     },
+     "vars": {
+      "paint": "weathered sage-green painted wood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 100,
+    "d": 50,
+    "h": 210
+   }
+  },
+  {
+   "key": "posing-stool",
+   "group": "block",
+   "name": {
+    "zh": "升降造型凳",
+    "ja": "昇降式撮影スツール",
+    "en": "Adjustable Posing Stool",
+    "ko": "높이 조절 포즈 스툴"
+   },
+   "desc": "a generic photo-studio posing stool with adjustable height: a round flat padded seat 40 cm across covered in {seat}, set at 65 cm high on a single chrome height-adjustment column with a small lever under the seat, a round chrome foot ring halfway down, and a five-spoke chrome base without castors, no backrest, no logo",
+   "keep": "round {seat} padded seat 40 cm across at 65 cm high, single chrome column with lever, chrome foot ring, five-spoke chrome base without castors, no back",
+   "checks": [
+    "圆座面、约 65 厘米高",
+    "单根镀铬升降柱、座下拨杆",
+    "中段一圈脚踏环",
+    "五爪底座、没有轮子和靠背"
+   ],
+   "variants": [
+    {
+     "key": "black",
+     "name": {
+      "zh": "黑色",
+      "ja": "黒",
+      "en": "Black",
+      "ko": "검정"
+     },
+     "vars": {
+      "seat": "black faux leather"
+     }
+    }
+   ],
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 65,
+    "seat": 65
+   }
+  },
+  {
+   "key": "pallet-stack",
+   "group": "block",
+   "name": {
+    "zh": "木托盘堆",
+    "ja": "パレットの積み重ね",
+    "en": "Wooden Pallet Stack",
+    "ko": "나무 팔레트 더미"
+   },
+   "desc": "a stack of three identical plain wooden shipping pallets lying flat and squarely aligned, each 120 cm long, 80 cm wide and about 14 cm high, made of {wood} with five top deck boards, three bottom boards and three rows of square blocks between them, so the top deck stands 43 cm high, plain boards with no stamps, no marks and no text",
+   "keep": "three aligned {wood} pallets stacked flat, five top deck boards, three rows of blocks, top surface 43 cm high, no stamps",
+   "checks": [
+    "三个托盘整齐叠放、顶面约 43 厘米",
+    "每个托盘面板五条",
+    "板之间三排方木块",
+    "没有印章、字或标记"
+   ],
+   "variants": [
+    {
+     "key": "raw",
+     "name": {
+      "zh": "原木",
+      "ja": "白木",
+      "en": "Raw Pine",
+      "ko": "생소나무"
+     },
+     "vars": {
+      "wood": "rough raw pale pine"
+     }
+    }
+   ],
+   "dims": {
+    "w": 120,
+    "d": 80,
+    "h": 43,
+    "seat": 43
+   }
+  },
+  {
+   "key": "column",
+   "group": "set",
+   "name": {
+    "zh": "圆柱段",
+    "ja": "円柱",
+    "en": "Column Segment",
+    "ko": "원기둥"
+   },
+   "desc": "a plain freestanding photo-set column segment: a smooth straight cylinder 40 cm across and 110 cm high in {finish}, standing on a plain square base slab 50 cm wide and 10 cm thick, its flat round top 120 cm high, no fluting, no capital, no carving, no text",
+   "keep": "{finish} smooth straight cylinder 40 cm across on a square base slab, flat round top 120 cm high, no fluting, no capital",
+   "checks": [
+    "光滑直圆柱、没有凹槽",
+    "没有柱头装饰",
+    "底下一块方形底座",
+    "柱顶平、约 120 厘米高"
+   ],
+   "variants": [
+    {
+     "key": "concrete",
+     "name": {
+      "zh": "清水混凝土",
+      "ja": "打ち放しコンクリート",
+      "en": "Concrete",
+      "ko": "노출 콘크리트"
+     },
+     "vars": {
+      "finish": "smooth pale grey cast concrete with faint form marks"
+     }
+    }
+   ],
+   "dims": {
+    "w": 50,
+    "d": 50,
+    "h": 120
+   }
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C329",
+  "C330",
+  "C336",
+  "C341",
+  "C342",
+  "C359",
+  "C360",
+  "C366",
+  "C367",
+  "C012",
+  "C018",
+  "C023",
+  "C034",
+  "C043",
+  "C059",
+  "C384",
+  "C389",
+  "C391",
+  "C397",
+  "C399",
+  "C403",
+  "C115",
+  "C118",
+  "C124",
+  "C126"
+ ],
+ "fails": [
+  {
+   "id": "C341",
+   "view": "diag",
+   "status": "matte",
+   "reason": "dark grey smudge/blotch on the inner garment and skirt, leftover background"
+  },
+  {
+   "id": "C360",
+   "view": "back",
+   "status": "consistency",
+   "reason": "fur trim at back neckline looks dark/black while the collar and cuffs are white fur on the other panels"
+  },
+  {
+   "id": "C034",
+   "view": "side",
+   "status": "consistency",
+   "reason": "inner sleeve and skirt read black/dark grey, but they are white/moon-white in front, back and diag"
+  },
+  {
+   "id": "C391",
+   "view": "side",
+   "status": "content",
+   "reason": "white mannequin shoulder visible in the armhole"
+  },
+  {
+   "id": "C397",
+   "view": "back",
+   "status": "matte",
+   "reason": "grey cloudy gradient block over the white back panel; background left in the cut-out"
+  },
+  {
+   "id": "C115",
+   "view": "diag",
+   "status": "consistency",
+   "reason": "T-shirt is dark grey/black, but white in the front panel"
+  },
+  {
+   "id": "C126",
+   "view": "side",
+   "status": "consistency",
+   "reason": "shoes are dark brown suede, but nude/beige in front and diag"
+  }
+ ]
+}

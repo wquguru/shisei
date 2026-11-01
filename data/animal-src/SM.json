@@ -1,0 +1,47 @@
+{
+ "cat": "SM",
+ "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "groups": {
+  "rabbit": {
+   "zh": "兔",
+   "ja": "ウサギ",
+   "en": "Rabbit",
+   "ko": "토끼"
+  }
+ },
+ "forms": [
+  {
+   "key": "rabbit-up",
+   "group": "rabbit",
+   "probe": true,
+   "species": "rabbit",
+   "tail": "a short round tail",
+   "coat": "soft brown fur",
+   "name": {
+    "zh": "兔·直立张望",
+    "ja": "ウサギ・立ち上がり",
+    "en": "Rabbit Standing Up",
+    "ko": "토끼 일어서기"
+   },
+   "desc": "rising up on its long hind feet to look around: body upright, hind feet flat on the ground, front paws held loosely in front of the chest off the ground, long ears straight up, head facing forward",
+   "keep": "upright on long hind feet, front paws held at the chest, long ears straight up",
+   "checks": [
+    "后脚整只着地、身体直立",
+    "前爪收在胸前、不着地",
+    "两只长耳朵竖起",
+    "短圆尾"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C405",
+  "C406",
+  "C410",
+  "C411",
+  "C416",
+  "C419",
+  "C420",
+  "C421",
+  "C425",
+  "C427",
+  "C429",
+  "C435",
+  "C450",
+  "C462",
+  "C196",
+  "C197",
+  "C198",
+  "C206",
+  "C212",
+  "C213",
+  "C215",
+  "C217",
+  "C220",
+  "C325",
+  "C326"
+ ],
+ "fails": [
+  {
+   "id": "C213",
+   "view": "back",
+   "status": "consistency",
+   "reason": "shoes in back panel are black and almost invisible on the dark background; other panels show silver pumps"
+  },
+  {
+   "id": "C425",
+   "view": "diag",
+   "status": "consistency",
+   "reason": "top shows two tall upright plates and a taller box body, unlike the stepped low block in front/back/side; wings attach at a different height"
+  },
+  {
+   "id": "C435",
+   "view": "back",
+   "status": "consistency",
+   "reason": "back panel shows a large open slot exposing the hollow interior; front, side and diag are closed petals"
+  },
+  {
+   "id": "C435",
+   "view": "front",
+   "status": "form",
+   "reason": "point 2 (arched bridge bar running front to back) not visible from the front; only petals and the cross pin are seen"
+  },
+  {
+   "id": "C462",
+   "view": "side",
+   "status": "matte",
+   "reason": "bottom tassel is nearly black and ghost-like against the background, partly lost in the cut-out"
+  }
+ ]
+}

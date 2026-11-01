@@ -1,0 +1,254 @@
+{
+ "cat": "FX",
+ "note": "Light presets (docs/light/PLAN.md). Directions are given in image terms for the front camera; the subject never changes, so the light is the only variable.",
+ "groups": {
+  "colour": {
+   "zh": "色彩",
+   "ja": "カラー",
+   "en": "Colour",
+   "ko": "컬러"
+  },
+  "pattern": {
+   "zh": "投影与体积光",
+   "ja": "投影・ボリュームライト",
+   "en": "Patterns & Volume",
+   "ko": "패턴·볼륨"
+  }
+ },
+ "forms": [
+  {
+   "key": "teal-orange",
+   "group": "colour",
+   "name": {
+    "zh": "青橙双色",
+    "ja": "ティール&オレンジ",
+    "en": "Teal & Orange",
+    "ko": "틸 & 오렌지"
+   },
+   "setting": "standing on a seamless dark charcoal studio backdrop and floor",
+   "desc": "an orange-gelled light at 60 degrees to image-left and a teal-gelled light at 60 degrees to image-right, the two colours wrapping the two sides of the mannequin and the sphere and blending to a muted tone at the centre",
+   "keep": "orange gel from image-left, teal gel from image-right, blending at the centre",
+   "checks": [
+    "左橙右青",
+    "两色在中间过渡",
+    "背景深灰"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "red-gel",
+   "group": "colour",
+   "name": {
+    "zh": "单色红光",
+    "ja": "赤一色",
+    "en": "Single Red Gel",
+    "ko": "레드 젤"
+   },
+   "setting": "standing on a seamless dark charcoal studio backdrop and floor",
+   "desc": "one deep red-gelled hard light from 45 degrees image-left, the whole lit side saturated red, the shadow side black, intense moody look",
+   "keep": "single deep red hard light from 45 degrees image-left, shadow side black",
+   "checks": [
+    "只有红色光",
+    "来自左前方",
+    "暗部全黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "purple-blue",
+   "group": "colour",
+   "name": {
+    "zh": "紫蓝渐变",
+    "ja": "パープル&ブルー",
+    "en": "Purple & Blue",
+    "ko": "퍼플 & 블루"
+   },
+   "setting": "standing on a seamless dark charcoal studio backdrop and floor",
+   "desc": "a soft violet light from above-left and a soft blue light from low image-right, the backdrop washed with a violet-to-blue gradient",
+   "keep": "soft violet from above-left, soft blue from low right, violet-to-blue backdrop gradient",
+   "checks": [
+    "紫光从左上",
+    "蓝光从右下",
+    "背景紫蓝渐变"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "god-rays",
+   "group": "pattern",
+   "name": {
+    "zh": "丁达尔光束",
+    "ja": "光芒（ヤコブの梯子）",
+    "en": "God Rays in Haze",
+    "ko": "빛내림"
+   },
+   "setting": "standing in an empty dark warehouse with light haze in the air, a high window at image-left",
+   "desc": "visible parallel beams of sunlight slanting down through the haze from a high window at image-left, one beam falling across the mannequin, dust in the beams, the rest dim",
+   "keep": "visible slanting light beams through haze from a high window image-left, one beam on the figure",
+   "checks": [
+    "空气中可见光束",
+    "光束斜向从左上来",
+    "一道光落在人台上"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "fog-back",
+   "group": "pattern",
+   "name": {
+    "zh": "雾中逆光",
+    "ja": "霧の逆光",
+    "en": "Backlit Fog",
+    "ko": "안개 역광"
+   },
+   "setting": "standing in thick fog on open ground",
+   "desc": "a single strong light far behind the mannequin glowing through thick fog, the mannequin a soft grey silhouette against a bright glowing haze, light scattering around the outline",
+   "keep": "strong light behind glowing through thick fog, soft silhouette, scattered outline glow",
+   "checks": [
+    "浓雾",
+    "背后强光透雾",
+    "人台是柔和剪影"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gobo-window",
+   "group": "pattern",
+   "name": {
+    "zh": "窗格投影",
+    "ja": "窓枠の投影",
+    "en": "Window Gobo",
+    "ko": "창틀 그림자"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "a hard warm light from 45 degrees image-left projecting a sharp shadow of a four-pane window frame across the mannequin, the sphere and the backdrop",
+   "keep": "hard warm light from image-left projecting a four-pane window shadow across figure and backdrop",
+   "checks": [
+    "四格窗框的投影",
+    "投影落在人台和背景",
+    "光从左前方"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gobo-leaves",
+   "group": "pattern",
+   "name": {
+    "zh": "树叶投影",
+    "ja": "木の葉の投影",
+    "en": "Leaf Gobo",
+    "ko": "나뭇잎 그림자"
+   },
+   "setting": "standing on a seamless mid-grey studio backdrop and floor",
+   "desc": "a hard warm light from 45 degrees image-left through a branch of leaves out of frame, projecting sharp leaf shadows across the mannequin, the sphere and the backdrop",
+   "keep": "hard warm light from image-left projecting leaf shadows across figure and backdrop",
+   "checks": [
+    "叶影投在人台和背景",
+    "光从左前方",
+    "没有可见树枝"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "disco",
+   "group": "colour",
+   "name": {
+    "zh": "彩色舞厅点光",
+    "ja": "ディスコの光の粒",
+    "en": "Disco Light Spots",
+    "ko": "디스코 조명"
+   },
+   "setting": "standing on a seamless dark charcoal studio backdrop and floor, light haze in the air",
+   "desc": "many small round spots of coloured light (pink, blue, yellow, green) scattered across the mannequin, the sphere, the floor and the backdrop as if from a mirror ball out of frame, dim ambient light",
+   "keep": "many small coloured light spots scattered across figure, sphere, floor and backdrop, dim ambient",
+   "checks": [
+    "许多彩色小光点",
+    "光点散落在人台、地面、背景",
+    "镜球不入画"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

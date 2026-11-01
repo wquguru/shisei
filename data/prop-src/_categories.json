@@ -1,0 +1,38 @@
+{
+ "MU": {
+  "order": 1,
+  "target": 12,
+  "name": {
+   "zh": "乐器",
+   "ja": "楽器",
+   "en": "Musical Instruments",
+   "ko": "악기"
+  },
+  "rules": "An accurately constructed musical instrument of the stated type with the correct number of strings, keys, holes or frets, real materials.",
+  "negatives": "No brand headstock shapes or logos, no case, no stand, no sheet music, no extra strings or keys, no plectrum or bow unless stated."
+ },
+ "CN": {
+  "order": 2,
+  "target": 12,
+  "name": {
+   "zh": "古风与复古器物",
+   "ja": "古典・アンティーク小物",
+   "en": "Classical & Antique Objects",
+   "ko": "고전·앤티크 소품"
+  },
+  "rules": "Either a historically plausible Chinese object of the stated period in natural materials (bamboo, silk, paper, lacquer, porcelain, bronze) with traditional motifs only, or an antique object that is physically plausible as a crafted thing in brass, glass, leather, wood or parchment.",
+  "negatives": "No readable characters, calligraphy, letters or numerals, no seals, no religious or occult objects or symbols, no incense, no Japanese or Korean features on the Chinese objects, no plastic or modern hardware, no weapons, wands or staffs, no glowing magic effects, no skulls or bones, not any franchise item."
+ },
+ "HD": {
+  "order": 3,
+  "target": 12,
+  "name": {
+   "zh": "手持与运动器材",
+   "ja": "手持ち・スポーツ用品",
+   "en": "Handheld & Sports Gear",
+   "ko": "휴대·스포츠 용품"
+  },
+  "rules": "A generic object of the stated type and era at real size, with realistic proportions, correct technical details and plausible materials; screens shown dark or a plain colour.",
+  "negatives": "No brand logos, sponsor marks or team crests, no recognisable signature product design, no readable printing or screen content, no weapons, no archery, no firearms, no cigarettes, vapes, alcohol or medicine."
+ }
+}

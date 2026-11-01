@@ -1,0 +1,187 @@
+{
+  "cat": "IN",
+  "note": "Lounge, swim and intimates set. Adult catalogue cuts only, every fabric opaque, nothing sheer, no fetish styling. Sleep, lounge, robe and swim forms are general; bikini, bra-and-brief set and slip nightdress carry rating suggestive (PLAN §4.10, AGENTS §2 Ratings).",
+  "forms": [
+    {
+      "key": "satin-pyjamas-f", "era": "sleep", "gender": "F", "lower": "hem",
+      "name": {"zh": "缎面睡衣套装", "ja": "サテンパジャマ", "en": "Satin Pyjama Set", "ko": "새틴 파자마 세트"},
+      "desc": "a women's two-piece pyjama set in {main} satin: a long-sleeved button-front shirt with a notched collar, a chest patch pocket and {piping} contrast piping along the collar, front edges, pocket and cuffs, over full-length straight trousers with an elastic waist and {piping} piping at the hems",
+      "keep": "{main} satin pyjama shirt and trousers, notched collar, chest pocket, {piping} contrast piping on collar, front edges, pocket, cuffs and trouser hems",
+      "checks": ["翻驳领长袖开襟睡衣", "左胸贴袋", "领、门襟、袋口、袖口撞色滚边", "松紧腰直筒长裤"],
+      "colorways": [
+        {"key": "rose", "name": {"zh": "豆沙粉·白边", "ja": "ローズ・白パイピング", "en": "Rose & White", "ko": "로즈·흰 파이핑"}, "bg": "light", "vars": {"main": "dusty rose", "piping": "white"}},
+        {"key": "emerald", "name": {"zh": "祖母绿·黑边", "ja": "エメラルド・黒パイピング", "en": "Emerald & Black", "ko": "에메랄드·검정 파이핑"}, "bg": "light", "vars": {"main": "emerald green", "piping": "black"}}
+      ]
+    },
+    {
+      "key": "cotton-pyjamas-m", "era": "sleep", "gender": "M", "lower": "hem",
+      "name": {"zh": "男士棉睡衣", "ja": "メンズ綿パジャマ", "en": "Men's Cotton Pyjamas", "ko": "남성 면 파자마"},
+      "desc": "a men's two-piece pyjama set in {main} cotton poplin with a {pattern}: a long-sleeved button-front shirt with a notched collar and a chest patch pocket, and full-length straight trousers with a drawstring waist",
+      "keep": "{main} cotton pyjama shirt and trousers with {pattern}, notched collar, chest pocket, drawstring waist, full length",
+      "checks": ["男式翻领开襟睡衣", "全身同一种细纹样", "左胸贴袋", "抽绳腰直筒长裤"],
+      "colorways": [
+        {"key": "blue-stripe", "name": {"zh": "蓝白条纹", "ja": "青白ストライプ", "en": "Blue Stripe", "ko": "파랑 스트라이프"}, "bg": "light", "vars": {"main": "mid blue", "pattern": "fine white vertical stripe"}},
+        {"key": "grey-check", "name": {"zh": "灰色细格", "ja": "グレーチェック", "en": "Grey Check", "ko": "회색 체크"}, "bg": "light", "vars": {"main": "grey", "pattern": "small charcoal windowpane check"}}
+      ]
+    },
+    {
+      "key": "flannel-pyjamas", "era": "sleep", "gender": "U", "lower": "hem",
+      "name": {"zh": "法兰绒格纹睡衣", "ja": "フランネルのチェックパジャマ", "en": "Flannel Check Pyjamas", "ko": "플란넬 체크 파자마"},
+      "desc": "a unisex two-piece pyjama set in brushed cotton flannel with a {main} buffalo check: a relaxed long-sleeved button-front shirt with a notched collar and a chest patch pocket, and roomy full-length trousers with an elastic waist and cuffed hems",
+      "keep": "{main} buffalo-check flannel pyjama shirt and trousers, relaxed fit, notched collar, chest pocket, elastic waist, cuffed hems",
+      "checks": ["法兰绒大方格", "宽松翻领开襟上衣", "左胸贴袋", "松紧腰长裤裤口收口"],
+      "colorways": [
+        {"key": "red-black", "name": {"zh": "红黑格", "ja": "赤黒チェック", "en": "Red & Black Check", "ko": "빨강·검정 체크"}, "bg": "light", "vars": {"main": "red and black"}},
+        {"key": "green-navy", "name": {"zh": "绿藏青格", "ja": "緑紺チェック", "en": "Green & Navy Check", "ko": "초록·감색 체크"}, "bg": "light", "vars": {"main": "forest green and navy"}}
+      ]
+    },
+    {
+      "key": "jersey-lounge-set", "era": "lounge", "gender": "U", "lower": "hem",
+      "name": {"zh": "卫衣家居套装", "ja": "スウェットのルームウェア", "en": "Sweatshirt Lounge Set", "ko": "스웨트 홈웨어 세트"},
+      "desc": "a unisex lounge set in {main} brushed cotton fleece: a relaxed crew-neck sweatshirt with dropped shoulders and ribbed neckband, cuffs and hem, and matching tapered jogger trousers with a drawstring waist, side pockets and ribbed ankle cuffs",
+      "keep": "{main} fleece crew-neck sweatshirt with dropped shoulders and ribbed trims, matching tapered joggers with drawstring and ribbed ankle cuffs",
+      "checks": ["圆领落肩卫衣、无帽", "领口袖口下摆罗纹", "同色束脚卫裤", "抽绳腰、侧袋"],
+      "colorways": [
+        {"key": "heather-grey", "name": {"zh": "麻灰", "ja": "杢グレー", "en": "Heather Grey", "ko": "멜란지 그레이"}, "bg": "light", "vars": {"main": "heather grey"}},
+        {"key": "sage", "name": {"zh": "灰绿", "ja": "セージ", "en": "Sage", "ko": "세이지"}, "bg": "light", "vars": {"main": "sage green"}}
+      ]
+    },
+    {
+      "key": "rib-knit-lounge-f", "era": "lounge", "gender": "F", "lower": "hem",
+      "name": {"zh": "罗纹针织家居服", "ja": "リブニットのルームウェア", "en": "Rib-Knit Lounge Set", "ko": "골지 니트 홈웨어"},
+      "desc": "a women's lounge set in soft {main} rib-knit: a long-sleeved V-neck button cardigan worn over a matching scoop-neck knit top, and wide-leg full-length knit trousers with a smooth elastic waist",
+      "keep": "{main} rib-knit V-neck button cardigan over a matching scoop-neck top, wide-leg knit trousers, elastic waist",
+      "checks": ["V 领开衫有纽扣", "里面同色圆领针织上衣", "竖向罗纹肌理", "阔腿针织长裤"],
+      "colorways": [
+        {"key": "oatmeal", "name": {"zh": "燕麦色", "ja": "オートミール", "en": "Oatmeal", "ko": "오트밀"}, "bg": "light", "vars": {"main": "oatmeal beige"}},
+        {"key": "mocha", "name": {"zh": "摩卡", "ja": "モカ", "en": "Mocha", "ko": "모카"}, "bg": "light", "vars": {"main": "mocha brown"}}
+      ]
+    },
+    {
+      "key": "waffle-lounge-m", "era": "lounge", "gender": "M", "lower": "hem",
+      "name": {"zh": "男士华夫格家居服", "ja": "メンズワッフルルームウェア", "en": "Men's Waffle Lounge Set", "ko": "남성 와플 홈웨어"},
+      "desc": "a men's lounge set in {main} cotton waffle knit: a long-sleeved henley top with a three-button placket and ribbed cuffs, and straight full-length lounge trousers with a drawstring waist",
+      "keep": "{main} waffle-knit henley with three-button placket and ribbed cuffs, straight drawstring lounge trousers",
+      "checks": ["华夫格肌理", "三粒扣亨利领", "长袖罗纹袖口", "抽绳腰直筒长裤"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青", "ja": "ネイビー", "en": "Navy", "ko": "네이비"}, "bg": "light", "vars": {"main": "navy"}}
+      ]
+    },
+    {
+      "key": "terry-bathrobe", "era": "robe", "gender": "U", "lower": "hem",
+      "name": {"zh": "毛巾浴袍", "ja": "タオル地バスローブ", "en": "Terry Bathrobe", "ko": "타월 목욕 가운"},
+      "desc": "a unisex bathrobe in thick {main} cotton terry towelling: a calf-length wrap robe with a wide shawl collar, long sleeves with turned-back cuffs, two hip patch pockets and a matching tie belt knotted at the waist, the front fully closed and overlapping",
+      "keep": "calf-length {main} terry robe, wide shawl collar, turned-back cuffs, two hip pockets, matching belt knotted at the waist, front closed",
+      "checks": ["厚毛巾布纹理", "宽青果领", "腰带系结、前襟交叠合拢", "两侧胯部贴袋、及小腿"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白", "ja": "白", "en": "White", "ko": "흰색"}, "bg": "dark", "vars": {"main": "white"}},
+        {"key": "navy", "name": {"zh": "藏青", "ja": "ネイビー", "en": "Navy", "ko": "네이비"}, "bg": "light", "vars": {"main": "navy"}}
+      ]
+    },
+    {
+      "key": "satin-robe-f", "era": "robe", "gender": "F", "lower": "hem",
+      "name": {"zh": "缎面晨袍", "ja": "サテンのガウン", "en": "Satin Dressing Gown", "ko": "새틴 드레싱 가운"},
+      "desc": "a women's dressing gown in {main} satin: a knee-length wrap robe with wide three-quarter kimono-style sleeves, a flat {trim} band collar running down both front edges, and a matching tie belt knotted at the waist, the front fully closed and overlapping",
+      "keep": "knee-length {main} satin wrap robe, wide three-quarter sleeves, {trim} band collar down the front edges, belt knotted at the waist, front closed",
+      "checks": ["缎面光泽", "七分宽袖", "撞色平领条一直到下摆", "腰带系结、前襟合拢"],
+      "colorways": [
+        {"key": "burgundy", "name": {"zh": "酒红·黑边", "ja": "ワインレッド・黒", "en": "Burgundy & Black", "ko": "버건디·검정"}, "bg": "light", "vars": {"main": "burgundy", "trim": "black"}}
+      ]
+    },
+    {
+      "key": "one-piece-swimsuit", "era": "swim", "gender": "F", "lower": "hem",
+      "name": {"zh": "连体泳衣", "ja": "ワンピース水着", "en": "One-Piece Swimsuit", "ko": "원피스 수영복"},
+      "desc": "a women's one-piece swimsuit in {main} matte stretch swim fabric: a scoop neckline, wide shoulder straps, a moderate-cut leg line, a fully lined opaque body and a {detail}",
+      "keep": "{main} matte one-piece swimsuit, scoop neck, wide straps, moderate leg line, {detail}",
+      "checks": ["连体泳衣", "圆领宽肩带", "腿口中等高度", "面料不透"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black", "detail": "plain scooped back"}},
+        {"key": "red", "name": {"zh": "红", "ja": "赤", "en": "Red", "ko": "빨강"}, "bg": "light", "vars": {"main": "red", "detail": "ruched front panel"}},
+        {"key": "cobalt", "name": {"zh": "钴蓝·白边", "ja": "コバルト・白ライン", "en": "Cobalt & White", "ko": "코발트·흰 라인"}, "bg": "light", "vars": {"main": "cobalt blue", "detail": "thin white contrast stripe down each side"}}
+      ]
+    },
+    {
+      "key": "surf-suit", "era": "swim", "gender": "U", "lower": "hem",
+      "name": {"zh": "冲浪连体服", "ja": "サーフスーツ", "en": "Surf Suit", "ko": "서프 슈트"},
+      "desc": "a unisex long-sleeved surf suit in {main} smooth neoprene: a one-piece suit with a round neck, a back zip with a long pull cord, long sleeves, legs ending at the knee, and {panel} contrast panels along the shoulders and down the outer sides",
+      "keep": "{main} neoprene surf suit, long sleeves, knee-length legs, back zip with pull cord, {panel} shoulder and side panels",
+      "checks": ["长袖及膝连体潜水料", "背后拉链带长拉绳", "肩部和两侧撞色拼块", "圆领、无帽"],
+      "colorways": [
+        {"key": "black-teal", "name": {"zh": "黑·青绿", "ja": "黒・ティール", "en": "Black & Teal", "ko": "검정·틸"}, "bg": "light", "vars": {"main": "black", "panel": "teal"}},
+        {"key": "navy-orange", "name": {"zh": "藏青·橙", "ja": "紺・オレンジ", "en": "Navy & Orange", "ko": "네이비·오렌지"}, "bg": "light", "vars": {"main": "navy", "panel": "orange"}}
+      ]
+    },
+    {
+      "key": "swim-trunks-m", "era": "swim", "gender": "M", "lower": "hem",
+      "name": {"zh": "男士沙滩泳裤", "ja": "メンズ海水パンツ", "en": "Men's Swim Trunks", "ko": "남성 수영 반바지"},
+      "desc": "a pair of men's swim trunks in {main} quick-dry nylon {pattern}, with an elastic waistband and a white drawstring, side slash pockets, a mesh-lined inner, and legs ending at mid-thigh",
+      "keep": "{main} {pattern} swim trunks, elastic waist with white drawstring, side pockets, mid-thigh length",
+      "checks": ["男式短泳裤到大腿中部", "松紧腰白色抽绳", "两侧斜插袋", "面料不透"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青素色", "ja": "ネイビー無地", "en": "Plain Navy", "ko": "네이비 무지"}, "bg": "light", "vars": {"main": "navy", "pattern": "in a plain solid colour"}},
+        {"key": "palm", "name": {"zh": "珊瑚·棕榈叶", "ja": "コーラル・パーム柄", "en": "Coral Palm Print", "ko": "코럴·야자잎"}, "bg": "light", "vars": {"main": "coral", "pattern": "with a white palm-leaf print"}}
+      ]
+    },
+    {
+      "key": "swim-jammers-m", "era": "swim", "gender": "M", "lower": "hem",
+      "name": {"zh": "男士及膝竞技泳裤", "ja": "メンズスパッツ水着", "en": "Men's Swim Jammers", "ko": "남성 재머 수영복"},
+      "desc": "a pair of men's competition swim jammers in {main} matte compression swim fabric, close-fitting from the waist to just above the knee, with a flat drawcord waist and {panel} contrast panels down the outer sides",
+      "keep": "{main} close-fitting jammers from waist to just above the knee, flat drawcord waist, {panel} side panels",
+      "checks": ["紧身及膝竞技泳裤", "侧缝撞色拼条", "平抽绳腰", "哑光不透"],
+      "colorways": [
+        {"key": "black-blue", "name": {"zh": "黑·蓝条", "ja": "黒・青ライン", "en": "Black & Blue", "ko": "검정·파랑"}, "bg": "light", "vars": {"main": "black", "panel": "royal blue"}}
+      ]
+    },
+    {
+      "key": "rash-guard-set", "era": "swim", "gender": "U", "lower": "hem",
+      "name": {"zh": "长袖防晒泳衣", "ja": "ラッシュガード", "en": "Rash Guard Set", "ko": "래시가드 세트"},
+      "desc": "a unisex two-piece rash guard set in {main} stretch swim fabric: a fitted long-sleeved crew-neck rash guard with flatlock seams and {panel} contrast panels on the sleeves, over knee-length board shorts in {shorts} with a lace-up fly",
+      "keep": "{main} fitted long-sleeved rash guard with flatlock seams and {panel} sleeve panels, knee-length {shorts} board shorts with lace-up fly",
+      "checks": ["长袖圆领紧身防晒衣", "平缝线、袖子撞色拼块", "及膝冲浪短裤", "短裤前门系带"],
+      "colorways": [
+        {"key": "white-navy", "name": {"zh": "白·藏青", "ja": "白・ネイビー", "en": "White & Navy", "ko": "흰색·네이비"}, "bg": "dark", "vars": {"main": "white", "panel": "navy", "shorts": "navy"}},
+        {"key": "teal-grey", "name": {"zh": "青绿·灰", "ja": "ティール・グレー", "en": "Teal & Grey", "ko": "틸·회색"}, "bg": "light", "vars": {"main": "teal", "panel": "charcoal", "shorts": "charcoal grey"}}
+      ]
+    },
+    {
+      "key": "bikini", "era": "swim", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "比基尼", "ja": "ビキニ", "en": "Bikini", "ko": "비키니"},
+      "desc": "a women's two-piece bikini in {main} matte opaque swim fabric {pattern}: a full-coverage bralette top with wide straps and a straight neckline, and a mid-rise full-coverage brief, both fully lined",
+      "keep": "{main} {pattern} bikini, full-coverage bralette with wide straps and straight neckline, mid-rise full-coverage brief",
+      "checks": ["两件式", "宽肩带全罩杯上衣", "中腰全包下装", "面料不透"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青", "ja": "ネイビー", "en": "Navy", "ko": "네이비"}, "bg": "light", "vars": {"main": "navy", "pattern": "in a plain solid colour"}},
+        {"key": "lemon", "name": {"zh": "柠檬印花", "ja": "レモン柄", "en": "Lemon Print", "ko": "레몬 프린트"}, "bg": "light", "vars": {"main": "sky blue", "pattern": "with a small yellow lemon print"}}
+      ]
+    },
+    {
+      "key": "lingerie-set", "era": "intimates", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "文胸内裤套装", "ja": "ブラジャー＆ショーツセット", "en": "Bra and Brief Set", "ko": "브라·팬티 세트"},
+      "desc": "a women's matching bra and brief set in {main} smooth opaque microfibre: a full-cup underwire bra with adjustable straps and a small centre bow, and a mid-rise full-coverage brief, with a narrow band of opaque {main} scalloped edging at the cup tops and the waistband",
+      "keep": "{main} full-cup bra with adjustable straps and centre bow, mid-rise full-coverage brief, scalloped edging at cups and waistband",
+      "checks": ["全罩杯文胸", "中腰全包内裤", "杯口和腰头波浪边", "不透明、无透视"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}},
+        {"key": "dusty-blue", "name": {"zh": "雾霾蓝", "ja": "ダスティブルー", "en": "Dusty Blue", "ko": "더스티 블루"}, "bg": "light", "vars": {"main": "dusty blue"}}
+      ]
+    },
+    {
+      "key": "slip-nightdress", "era": "intimates", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "吊带睡裙", "ja": "スリップナイトドレス", "en": "Slip Nightdress", "ko": "슬립 나이트드레스"},
+      "desc": "a women's slip nightdress in {main} opaque satin: a bias-cut dress reaching the mid-calf, with a straight neckline, adjustable spaghetti straps and a softly flowing skirt",
+      "keep": "mid-calf {main} satin bias-cut slip, straight neckline, spaghetti straps, flowing skirt",
+      "checks": ["细吊带", "平直领口", "斜裁缎面到小腿中部", "不透明、无透视"],
+      "colorways": [
+        {"key": "champagne", "name": {"zh": "香槟", "ja": "シャンパン", "en": "Champagne", "ko": "샴페인"}, "bg": "dark", "vars": {"main": "champagne"}},
+        {"key": "navy", "name": {"zh": "藏青", "ja": "ネイビー", "en": "Navy", "ko": "네이비"}, "bg": "light", "vars": {"main": "deep navy"}}
+      ]
+    }
+  ],
+  "eras": {
+    "sleep": {"zh": "睡衣", "ja": "パジャマ", "en": "Sleepwear", "ko": "잠옷"},
+    "lounge": {"zh": "家居服", "ja": "ルームウェア", "en": "Loungewear", "ko": "홈웨어"},
+    "robe": {"zh": "浴袍与晨袍", "ja": "ガウン", "en": "Robes", "ko": "가운"},
+    "swim": {"zh": "泳装", "ja": "水着", "en": "Swimwear", "ko": "수영복"},
+    "intimates": {"zh": "内衣", "ja": "下着", "en": "Intimates", "ko": "속옷"}
+  }
+}

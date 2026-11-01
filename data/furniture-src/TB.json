@@ -1,0 +1,298 @@
+{
+ "cat": "TB",
+ "note": "Furniture library (docs/furniture/PLAN.md). dims are real centimetres: the front prompt quotes w/d/h and intake scales every piece to one px/cm; seat is the sitting height a composited figure uses.",
+ "groups": {
+  "dining": {
+   "zh": "餐桌",
+   "ja": "ダイニングテーブル",
+   "en": "Dining Tables",
+   "ko": "식탁"
+  },
+  "low": {
+   "zh": "茶几边几",
+   "ja": "ローテーブル",
+   "en": "Low & Side Tables",
+   "ko": "낮은 테이블"
+  },
+  "desk": {
+   "zh": "书桌",
+   "ja": "デスク",
+   "en": "Desks",
+   "ko": "책상"
+  },
+  "counter": {
+   "zh": "吧台与梳妆台",
+   "ja": "カウンター・ドレッサー",
+   "en": "Counters & Vanities",
+   "ko": "카운터·화장대"
+  }
+ },
+ "forms": [
+  {
+   "key": "cafe-table",
+   "group": "dining",
+   "name": {
+    "zh": "小圆桌",
+    "ja": "カフェテーブル",
+    "en": "Bistro Table",
+    "ko": "비스트로 테이블"
+   },
+   "desc": "a small round bistro table 72 cm high with a {top} top 60 cm across on a single central pedestal and a round cast-iron base in black",
+   "keep": "round {top} top, single central pedestal, round black cast-iron base",
+   "checks": [
+    "圆桌面",
+    "中间单柱",
+    "圆形铸铁底座",
+    "桌上没有东西"
+   ],
+   "variants": [
+    {
+     "key": "marble",
+     "name": {
+      "zh": "白大理石",
+      "ja": "白大理石",
+      "en": "White Marble",
+      "ko": "화이트 마블"
+     },
+     "bg": "dark",
+     "vars": {
+      "top": "white marble"
+     }
+    }
+   ],
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 72
+   }
+  },
+  {
+   "key": "dining-table",
+   "group": "dining",
+   "probe": true,
+   "name": {
+    "zh": "长方餐桌",
+    "ja": "長方形ダイニングテーブル",
+    "en": "Rectangular Dining Table",
+    "ko": "직사각 식탁"
+   },
+   "desc": "a rectangular six-seat dining table 75 cm high with a solid {wood} top 180 by 90 cm and 4 cm thick, four straight square legs set at the corners and a plain apron 8 cm deep under the top on all four sides, smooth oiled finish, empty top",
+   "keep": "{wood} table, rectangular 180 by 90 cm top, four straight square corner legs, plain apron on all four sides, empty top",
+   "checks": [
+    "长方形桌面、约 75 厘米高",
+    "四条方直腿在四角",
+    "桌面下一圈素裙板",
+    "桌上没有东西"
+   ],
+   "variants": [
+    {
+     "key": "oak",
+     "name": {
+      "zh": "橡木",
+      "ja": "オーク",
+      "en": "Oak",
+      "ko": "오크"
+     },
+     "vars": {
+      "wood": "light oak"
+     }
+    }
+   ],
+   "dims": {
+    "w": 180,
+    "d": 90,
+    "h": 75
+   }
+  },
+  {
+   "key": "coffee-table",
+   "group": "low",
+   "name": {
+    "zh": "长方茶几",
+    "ja": "長方形ローテーブル",
+    "en": "Coffee Table",
+    "ko": "직사각 커피 테이블"
+   },
+   "desc": "a rectangular coffee table 40 cm high with a {top} top 120 by 60 cm, four straight square {frame} legs and one open lower shelf of the same material 12 cm above the floor joining the legs, both the top and the shelf empty",
+   "keep": "{top} top 120 by 60 cm, four straight square {frame} legs, one open lower shelf, both empty",
+   "checks": [
+    "约 40 厘米高",
+    "四条方直腿",
+    "下方一层空搁板",
+    "桌面和搁板都没有东西"
+   ],
+   "variants": [
+    {
+     "key": "oak",
+     "name": {
+      "zh": "橡木",
+      "ja": "オーク",
+      "en": "Oak",
+      "ko": "오크"
+     },
+     "vars": {
+      "top": "light oak",
+      "frame": "light oak"
+     }
+    }
+   ],
+   "dims": {
+    "w": 120,
+    "d": 60,
+    "h": 40
+   }
+  },
+  {
+   "key": "writing-desk",
+   "group": "desk",
+   "name": {
+    "zh": "抽屉书桌",
+    "ja": "引き出し付きデスク",
+    "en": "Writing Desk with Drawers",
+    "ko": "서랍 책상"
+   },
+   "desc": "a writing desk 75 cm high in solid {wood} with a rectangular top 120 by 60 cm, a pedestal of three stacked drawers under the right side of the top, each drawer with one small round wooden knob, two straight square legs at the left end, and an open knee space with a plain modesty panel at the back, all drawers closed, empty top",
+   "keep": "{wood} desk, 120 by 60 cm top, right pedestal of three drawers with one round knob each, two square legs at the left, open knee space, back modesty panel, drawers closed, empty top",
+   "checks": [
+    "右侧三个抽屉、各一个圆钮",
+    "左侧两条方腿",
+    "中间留出放腿空间",
+    "桌上没有东西"
+   ],
+   "variants": [
+    {
+     "key": "oak",
+     "name": {
+      "zh": "橡木",
+      "ja": "オーク",
+      "en": "Oak",
+      "ko": "오크"
+     },
+     "vars": {
+      "wood": "light oak"
+     }
+    }
+   ],
+   "dims": {
+    "w": 120,
+    "d": 60,
+    "h": 75
+   }
+  },
+  {
+   "key": "dressing-table",
+   "group": "counter",
+   "name": {
+    "zh": "带镜梳妆台",
+    "ja": "鏡付きドレッサー",
+    "en": "Dressing Table with Mirror",
+    "ko": "거울 화장대"
+   },
+   "desc": "a dressing table in {finish} with a rectangular top 100 by 45 cm at 75 cm high, two stacked drawers under the top on each side of a central open knee space, each drawer with one small round knob, four straight square legs, and a plain rectangular mirror 70 cm wide and 60 cm high in a thin matching frame fixed upright on two short posts at the back edge of the top, the mirror glass showing only a flat even mid-grey and reflecting nothing, no room, no person, no camera, no light, all drawers closed, empty top",
+   "keep": "{finish} dressing table, top 75 cm high, two drawers on each side of a central knee space with one round knob each, four square legs, plain rectangular mirror on two posts at the back edge showing only flat grey, drawers closed, empty top",
+   "checks": [
+    "镜面只显示均匀灰色、不反射任何东西",
+    "左右各两个抽屉、中间放腿空间",
+    "镜子立在桌面后沿两根短柱上",
+    "台面上没有化妆品"
+   ],
+   "variants": [
+    {
+     "key": "white",
+     "name": {
+      "zh": "白色",
+      "ja": "白",
+      "en": "White",
+      "ko": "화이트"
+     },
+     "bg": "dark",
+     "vars": {
+      "finish": "white painted wood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 100,
+    "d": 45,
+    "h": 150
+   }
+  },
+  {
+   "key": "bar-counter",
+   "group": "counter",
+   "name": {
+    "zh": "吧台段",
+    "ja": "バーカウンター",
+    "en": "Bar Counter Segment",
+    "ko": "바 카운터"
+   },
+   "desc": "a straight free-standing bar counter segment 105 cm high and 150 cm long with a thick {top} top 60 cm deep overhanging the front by 20 cm, a closed front panel of vertical {panel} tongue-and-groove boards, a brushed steel foot rail running along the front 20 cm above the base on three short brackets, and an open back with one fixed full-length shelf halfway down, empty top and shelf",
+   "keep": "{top} top 105 cm high and 150 cm long overhanging the front, closed front of vertical {panel} boards, brushed steel foot rail on three brackets, open back with one empty shelf, empty top",
+   "checks": [
+    "台面约 105 厘米高",
+    "正面竖板封闭、底部一根钢脚踏杆",
+    "背面开放、一层空搁板",
+    "台面上没有杯瓶"
+   ],
+   "variants": [
+    {
+     "key": "oak-dark",
+     "name": {
+      "zh": "橡木面深色板",
+      "ja": "オーク天板・濃色板",
+      "en": "Oak & Dark Wood",
+      "ko": "오크·다크 우드"
+     },
+     "vars": {
+      "top": "light oak",
+      "panel": "dark stained wood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 150,
+    "d": 60,
+    "h": 105
+   }
+  },
+  {
+   "key": "picnic-table",
+   "group": "dining",
+   "probe": true,
+   "name": {
+    "zh": "连椅野餐桌",
+    "ja": "ベンチ一体型ピクニックテーブル",
+    "en": "Picnic Table with Benches",
+    "ko": "벤치 일체형 피크닉 테이블"
+   },
+   "desc": "a wooden picnic table with attached benches in {wood}, a rectangular top 180 cm long and 75 cm high made of five lengthwise planks, two long bench seats 45 cm high one on each long side, each made of two lengthwise planks, all carried by two end frames, each end frame made of two straight legs crossing in an X under the top seen from the end and a horizontal crossbar 45 cm high that runs out under both benches, empty top",
+   "keep": "{wood} picnic table, five-plank top 180 cm long, two attached two-plank benches on the long sides, two X-crossed end frames with crossbars under both benches, empty top",
+   "checks": [
+    "桌面五块长木板、约 75 厘米高",
+    "两侧各一条连体长凳、各两块板",
+    "两端各一组 X 形交叉腿",
+    "横撑同时托住两条凳"
+   ],
+   "variants": [
+    {
+     "key": "pine",
+     "name": {
+      "zh": "风化松木",
+      "ja": "風化パイン",
+      "en": "Weathered Pine",
+      "ko": "풍화 소나무"
+     },
+     "vars": {
+      "wood": "weathered grey-brown pine"
+     }
+    }
+   ],
+   "dims": {
+    "w": 180,
+    "d": 150,
+    "h": 75,
+    "seat": 45
+   }
+  }
+ ]
+}

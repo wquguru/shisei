@@ -1,0 +1,9 @@
+{
+ "run": "sp_run01",
+ "missing": {
+  "C251_back": "skipped: no accepted front",
+  "C251_diag": "skipped: no accepted front",
+  "C251_front": "parent fix wave: edit-deletion route on the cleaner main-wave a2 candidate (8 frog pairs; main wave used 3 attempts: 8, 8, 9 pairs); edit 1 used the prescribed text (remove the pair at the lower waist, exactly seven remain) - enlarged recount: still 8 pairs, the edit re-rendered the front without de",
+  "C251_side": "skipped: no accepted front"
+ }
+}

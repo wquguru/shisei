@@ -1,0 +1,1840 @@
+{
+ "views": [
+  "front",
+  "back",
+  "side",
+  "diag",
+  "above"
+ ],
+ "retired": {},
+ "items": [
+  {
+   "id": "F001",
+   "key": "SE:dining-chair:oak",
+   "cat": "SE",
+   "form": "dining-chair",
+   "group": "chair",
+   "rating": "general",
+   "dims": {
+    "w": 45,
+    "d": 50,
+    "h": 85,
+    "seat": 45
+   },
+   "name_zh": "实木餐椅（橡木）",
+   "name_ja": "木製ダイニングチェア（オーク）",
+   "name_en": "Wooden Dining Chair (Oak)",
+   "name_ko": "원목 식탁 의자 (오크)",
+   "group_zh": "单椅",
+   "group_ja": "椅子",
+   "group_en": "Chairs",
+   "group_ko": "의자",
+   "desc_en": "a simple solid light oak dining chair with four straight square legs, a flat seat 45 cm high, a backrest of five vertical spindles under a curved top rail, and low stretchers joining the legs, smooth oiled finish",
+   "keep_en": "light oak chair, four square legs, flat seat, five vertical spindles under a curved top rail, low stretchers",
+   "checks": [
+    "四条直腿加横撑",
+    "靠背五根竖条",
+    "座面平、约 45 厘米高",
+    "没有坐垫"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F002",
+   "key": "SE:office-chair:black",
+   "cat": "SE",
+   "form": "office-chair",
+   "group": "chair",
+   "rating": "general",
+   "dims": {
+    "w": 65,
+    "d": 65,
+    "h": 105,
+    "seat": 48
+   },
+   "name_zh": "办公转椅（黑色）",
+   "name_ja": "オフィスチェア（黒）",
+   "name_en": "Office Swivel Chair (Black)",
+   "name_ko": "사무용 회전의자 (블랙)",
+   "group_zh": "单椅",
+   "group_ja": "椅子",
+   "group_en": "Chairs",
+   "group_ko": "의자",
+   "desc_en": "a generic office swivel chair with a black mesh backrest, a padded black seat 48 cm high, fixed black armrests, a single central gas-lift column and a five-star base with five black castors",
+   "keep_en": "black mesh back, padded black seat, fixed armrests, central gas-lift column, five-star base with five castors",
+   "checks": [
+    "五星脚、五个轮子",
+    "网布靠背",
+    "中间一根升降杆",
+    "没有品牌标识"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F003",
+   "key": "SE:armchair:mustard",
+   "cat": "SE",
+   "form": "armchair",
+   "group": "lounge",
+   "rating": "general",
+   "dims": {
+    "w": 75,
+    "d": 80,
+    "h": 80,
+    "seat": 42
+   },
+   "name_zh": "单人扶手沙发椅（芥末黄）",
+   "name_ja": "一人掛けアームチェア（マスタード）",
+   "name_en": "Upholstered Armchair (Mustard)",
+   "name_ko": "1인용 암체어 (머스터드)",
+   "group_zh": "休闲椅",
+   "group_ja": "ラウンジチェア",
+   "group_en": "Lounge Chairs",
+   "group_ko": "라운지 체어",
+   "desc_en": "a mid-century upholstered armchair in mustard yellow wool with a tight seat cushion 42 cm high, a gently reclined padded back, wide padded arms, and four tapered splayed wooden legs in walnut",
+   "keep_en": "mustard yellow wool armchair, tight seat cushion, reclined padded back, wide padded arms, four tapered splayed walnut legs",
+   "checks": [
+    "宽扶手、软包",
+    "靠背略后仰",
+    "四条外撇锥形木腿",
+    "单人"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F004",
+   "key": "SE:rattan-chair:natural",
+   "cat": "SE",
+   "form": "rattan-chair",
+   "group": "lounge",
+   "rating": "general",
+   "dims": {
+    "w": 75,
+    "d": 70,
+    "h": 80,
+    "seat": 40
+   },
+   "name_zh": "藤编椅（原色）",
+   "name_ja": "ラタンチェア（ナチュラル）",
+   "name_en": "Rattan Lounge Chair (Natural)",
+   "name_ko": "라탄 체어 (내추럴)",
+   "group_zh": "休闲椅",
+   "group_ja": "ラウンジチェア",
+   "group_en": "Lounge Chairs",
+   "group_ko": "라운지 체어",
+   "desc_en": "a natural rattan lounge chair with a rounded woven backrest that curves into the arms, an open-weave seat 40 cm high with a plain off-white linen seat cushion, and four bent-rattan legs",
+   "keep_en": "natural rattan, rounded woven back curving into the arms, off-white linen seat cushion, four bent-rattan legs",
+   "checks": [
+    "藤编、可见编织纹理",
+    "靠背弧形连到扶手",
+    "一个素色坐垫",
+    "四条弯藤腿"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F005",
+   "key": "SE:rocking-chair:maple",
+   "cat": "SE",
+   "form": "rocking-chair",
+   "group": "lounge",
+   "rating": "general",
+   "probe": true,
+   "dims": {
+    "w": 60,
+    "d": 90,
+    "h": 100,
+    "seat": 42
+   },
+   "name_zh": "摇椅（枫木）",
+   "name_ja": "ロッキングチェア（メープル）",
+   "name_en": "Rocking Chair (Maple)",
+   "name_ko": "흔들의자 (메이플)",
+   "group_zh": "休闲椅",
+   "group_ja": "ラウンジチェア",
+   "group_en": "Lounge Chairs",
+   "group_ko": "라운지 체어",
+   "desc_en": "a plain honey maple rocking chair with a flat wooden seat 42 cm high at the front edge, a backrest of seven vertical slats under a curved top rail, two flat armrests, four turned legs, and two long curved runners, one under each side, each runner joining the front and back leg of its side and extending past both, standing at rest with both runners touching the floor line at their middle",
+   "keep_en": "honey maple rocker, flat seat, seven vertical back slats under a curved top rail, two flat armrests, four turned legs, two curved runners one per side joining front and back legs",
+   "checks": [
+    "两条弧形摇脚、每侧一条",
+    "摇脚连接同侧前后腿",
+    "靠背七根竖条",
+    "两个平扶手、没有坐垫"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F006",
+   "key": "SE:bar-stool:black-oak",
+   "cat": "SE",
+   "form": "bar-stool",
+   "group": "stool",
+   "rating": "general",
+   "dims": {
+    "w": 40,
+    "d": 40,
+    "h": 75,
+    "seat": 75
+   },
+   "name_zh": "吧台高脚凳（黑腿橡木面）",
+   "name_ja": "バースツール（黒脚・オーク座）",
+   "name_en": "Bar Stool (Black & Oak)",
+   "name_ko": "바 스툴 (블랙·오크)",
+   "group_zh": "凳子",
+   "group_ja": "スツール",
+   "group_en": "Stools",
+   "group_ko": "스툴",
+   "desc_en": "a backless bar stool with a round oak seat 75 cm high, four slim matte black metal legs splaying slightly outward, and a ring footrest about 25 cm below the seat joining all four legs",
+   "keep_en": "round oak seat, four slim matte black legs splayed slightly, ring footrest below the seat, backless",
+   "checks": [
+    "无靠背",
+    "圆座面约 75 厘米高",
+    "四条细腿",
+    "一圈脚踏环"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F007",
+   "key": "SE:wooden-stool:pine",
+   "cat": "SE",
+   "form": "wooden-stool",
+   "group": "stool",
+   "rating": "general",
+   "dims": {
+    "w": 35,
+    "d": 35,
+    "h": 45,
+    "seat": 45
+   },
+   "name_zh": "木方凳（松木）",
+   "name_ja": "木の角スツール（パイン）",
+   "name_en": "Square Wooden Stool (Pine)",
+   "name_ko": "원목 스툴 (소나무)",
+   "group_zh": "凳子",
+   "group_ja": "スツール",
+   "group_en": "Stools",
+   "group_ko": "스툴",
+   "desc_en": "a low square wooden stool in pale pine with a thick flat square seat 45 cm high and four straight square legs joined by stretchers on all four sides",
+   "keep_en": "pale pine stool, thick flat square seat, four straight legs, stretchers on all sides",
+   "checks": [
+    "方形厚座面",
+    "四条直腿",
+    "四面都有横撑",
+    "约 45 厘米高"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F008",
+   "key": "SE:sofa-3:grey",
+   "cat": "SE",
+   "form": "sofa-3",
+   "group": "sofa",
+   "rating": "general",
+   "probe": true,
+   "dims": {
+    "w": 210,
+    "d": 90,
+    "h": 80,
+    "seat": 44
+   },
+   "name_zh": "三人沙发（浅灰）",
+   "name_ja": "三人掛けソファ（ライトグレー）",
+   "name_en": "Three-seat Sofa (Light Grey)",
+   "name_ko": "3인 소파 (라이트 그레이)",
+   "group_zh": "沙发与躺具",
+   "group_ja": "ソファ・寝椅子",
+   "group_en": "Sofas & Loungers",
+   "group_ko": "소파·라운저",
+   "desc_en": "a modern three-seat sofa in light grey woven fabric with three loose seat cushions 44 cm high, three back cushions, low square arms, and short black block legs, about 210 cm wide",
+   "keep_en": "light grey woven fabric three-seat sofa, three seat and three back cushions, low square arms, short black block legs",
+   "checks": [
+    "三个座垫、三个靠垫",
+    "方形低扶手",
+    "短方腿",
+    "没有抱枕和毯子"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F009",
+   "key": "SE:chaise:blush",
+   "cat": "SE",
+   "form": "chaise",
+   "group": "sofa",
+   "rating": "general",
+   "dims": {
+    "w": 180,
+    "d": 70,
+    "h": 75,
+    "seat": 40
+   },
+   "name_zh": "贵妃榻（藕粉丝绒）",
+   "name_ja": "シェーズロング（ピンクベルベット）",
+   "name_en": "Chaise Longue (Blush Velvet)",
+   "name_ko": "셰이즈 롱 (블러시 벨벳)",
+   "group_zh": "沙发与躺具",
+   "group_ja": "ソファ・寝椅子",
+   "group_en": "Sofas & Loungers",
+   "group_ko": "소파·라운저",
+   "desc_en": "a classic chaise longue in dusty pink velvet with a long padded seat 40 cm high, a raised scrolled headrest at the left end, a low partial backrest along the back, and four short turned gilded legs, about 180 cm long",
+   "keep_en": "dusty pink velvet chaise, long padded seat, scrolled headrest at the left end, low partial back, four turned gilded legs",
+   "checks": [
+    "长座面可躺",
+    "一端高起卷头",
+    "半截靠背",
+    "四条短车旋腿"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F010",
+   "key": "SE:bean-bag:teddy",
+   "cat": "SE",
+   "form": "bean-bag",
+   "group": "sofa",
+   "rating": "general",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 100,
+    "seat": 40
+   },
+   "bg": "dark",
+   "name_zh": "懒人豆袋（奶白羊羔绒）",
+   "name_ja": "ビーズクッション（ボア・オフホワイト）",
+   "name_en": "Bean Bag (Cream Teddy)",
+   "name_ko": "빈백 (크림 테디)",
+   "group_zh": "沙发与躺具",
+   "group_ja": "ソファ・寝椅子",
+   "group_en": "Sofas & Loungers",
+   "group_ko": "소파·라운저",
+   "desc_en": "a large pear-shaped bean bag in cream teddy fleece, slumped naturally with a soft dent in the seat, visible seams running from top to base",
+   "keep_en": "cream teddy fleece pear-shaped bean bag, soft seat dent, vertical seams",
+   "checks": [
+    "梨形",
+    "座位处自然凹陷",
+    "竖向缝线",
+    "没有标签"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F011",
+   "key": "SE:swing-chair:natural",
+   "cat": "SE",
+   "form": "swing-chair",
+   "group": "sofa",
+   "rating": "general",
+   "dims": {
+    "w": 100,
+    "d": 100,
+    "h": 195,
+    "seat": 50
+   },
+   "name_zh": "吊篮椅（原色藤）",
+   "name_ja": "ハンギングチェア（ナチュラル）",
+   "name_en": "Hanging Egg Chair (Natural Rattan)",
+   "name_ko": "행잉 체어 (내추럴 라탄)",
+   "group_zh": "沙发与躺具",
+   "group_ja": "ソファ・寝椅子",
+   "group_en": "Sofas & Loungers",
+   "group_ko": "소파·라운저",
+   "desc_en": "a hanging egg chair: a teardrop-shaped open-front basket woven in natural rattan, with a round white cushion inside, hanging from a short chain on a curved black steel stand with a round base",
+   "keep_en": "teardrop natural rattan basket open at the front, round white cushion, short chain, curved black steel stand with round base",
+   "checks": [
+    "水滴形吊篮、正面开口",
+    "弧形黑钢支架",
+    "圆形底座",
+    "内有圆坐垫"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F012",
+   "key": "SE:double-bed:grey",
+   "cat": "SE",
+   "form": "double-bed",
+   "group": "bed",
+   "rating": "general",
+   "dims": {
+    "w": 165,
+    "d": 215,
+    "h": 120,
+    "seat": 55
+   },
+   "bg": "dark",
+   "name_zh": "软包床头双人床（浅灰）",
+   "name_ja": "布張りヘッドボードのダブルベッド（ライトグレー）",
+   "name_en": "Upholstered Double Bed (Light Grey)",
+   "name_ko": "패브릭 헤드보드 더블 침대 (라이트 그레이)",
+   "group_zh": "床",
+   "group_ja": "ベッド",
+   "group_en": "Beds",
+   "group_ko": "침대",
+   "desc_en": "a double bed with a tall upholstered headboard in light grey linen divided into six vertical padded channels, upholstered side rails and footboard rail in the same fabric, short hidden legs, and one mattress whose top is 55 cm high, neatly made with a white fitted sheet, one white duvet laid flat, and exactly two white pillows side by side, no throw and no extra pillows",
+   "keep_en": "light grey linen headboard with six vertical channels, upholstered rails, hidden legs, white sheet, flat white duvet, two white pillows",
+   "checks": [
+    "床头六条竖向软包",
+    "床框同色软包",
+    "两个枕头并排",
+    "没有抱枕和搭毯"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F013",
+   "key": "SE:park-bench:green",
+   "cat": "SE",
+   "form": "park-bench",
+   "group": "outdoor",
+   "rating": "general",
+   "dims": {
+    "w": 180,
+    "d": 60,
+    "h": 80,
+    "seat": 45
+   },
+   "name_zh": "公园长椅（墨绿铁架）",
+   "name_ja": "公園のベンチ（深緑の鉄脚）",
+   "name_en": "Park Bench (Green Iron)",
+   "name_ko": "공원 벤치 (녹색 철제)",
+   "group_zh": "户外座具",
+   "group_ja": "屋外の椅子",
+   "group_en": "Outdoor Seating",
+   "group_ko": "야외 좌석",
+   "desc_en": "a classic three-seat park bench 180 cm long with weathered teak wooden slats forming the seat and backrest and two dark green cast-iron end frames with scrolled armrests, seat 45 cm high, no plaque",
+   "keep_en": "180 cm bench, weathered teak slat seat and back, two dark green cast-iron end frames with scrolled arms, no plaque",
+   "checks": [
+    "木条座面和靠背",
+    "两端铸铁框架带扶手",
+    "约三人长度",
+    "没有铭牌文字"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F014",
+   "key": "SE:adirondack-chair:white",
+   "cat": "SE",
+   "form": "adirondack-chair",
+   "group": "outdoor",
+   "rating": "general",
+   "dims": {
+    "w": 75,
+    "d": 90,
+    "h": 95,
+    "seat": 35
+   },
+   "bg": "dark",
+   "name_zh": "阿迪朗达克椅（白色）",
+   "name_ja": "アディロンダックチェア（白）",
+   "name_en": "Adirondack-Style Chair (White)",
+   "name_ko": "애디론댁 체어 (화이트)",
+   "group_zh": "户外座具",
+   "group_ja": "屋外の椅子",
+   "group_en": "Outdoor Seating",
+   "group_ko": "야외 좌석",
+   "desc_en": "a wooden Adirondack-style garden chair painted white, with a tall fan-shaped backrest of seven vertical slats with a rounded top edge, a low slatted seat sloping backward that is 35 cm high at the front edge, wide flat armrests on front posts, and two straight back legs, no cushion",
+   "keep_en": "white painted wood, tall fan-shaped back of seven slats with a rounded top, low sloping slatted seat, wide flat armrests, no cushion",
+   "checks": [
+    "扇形高靠背、七根竖条",
+    "座面低且后倾",
+    "宽平扶手",
+    "没有坐垫"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F015",
+   "key": "SE:sun-lounger:teak",
+   "cat": "SE",
+   "form": "sun-lounger",
+   "group": "outdoor",
+   "rating": "general",
+   "dims": {
+    "w": 65,
+    "d": 200,
+    "h": 85,
+    "seat": 35
+   },
+   "name_zh": "柚木躺椅（柚木）",
+   "name_ja": "チーク製サンラウンジャー（チーク）",
+   "name_en": "Teak Sun Lounger (Teak)",
+   "name_ko": "티크 선베드 (티크)",
+   "group_zh": "户外座具",
+   "group_ja": "屋外の椅子",
+   "group_en": "Outdoor Seating",
+   "group_ko": "야외 좌석",
+   "desc_en": "a teak sun lounger 200 cm long with a flat slatted bed of crosswise slats 35 cm high, the backrest section at the head end raised to about 45 degrees on a hidden ratchet, four short square legs with two small wheels on the head-end legs, oiled honey teak, no cushion, no towel",
+   "keep_en": "oiled honey teak lounger 200 cm long, crosswise slats, backrest raised about 45 degrees, four square legs, two small wheels at the head end, no cushion",
+   "checks": [
+    "横向木条床面",
+    "头部靠背约 45 度抬起",
+    "头端两个小轮",
+    "没有垫子和毛巾"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F016",
+   "key": "SE:porch-swing:cedar",
+   "cat": "SE",
+   "form": "porch-swing",
+   "group": "outdoor",
+   "rating": "general",
+   "probe": true,
+   "dims": {
+    "w": 220,
+    "d": 140,
+    "h": 200,
+    "seat": 45
+   },
+   "name_zh": "带架秋千椅（雪松木）",
+   "name_ja": "スタンド付きブランコベンチ（シダー）",
+   "name_en": "Porch Swing on Frame (Cedar)",
+   "name_ko": "프레임 그네 벤치 (삼나무)",
+   "group_zh": "户外座具",
+   "group_ja": "屋外の椅子",
+   "group_en": "Outdoor Seating",
+   "group_ko": "야외 좌석",
+   "desc_en": "a two-seat wooden porch swing bench with a slatted seat 45 cm high and a slatted back, flat armrests at both ends, hung still and level by two straight galvanised steel chains at each end from the top beam of a free-standing A-frame stand in the same reddish cedar, the stand made of two A-shaped end frames joined by the top beam, no cushion",
+   "keep_en": "reddish cedar two-seat slatted swing bench with arms, two galvanised steel chains at each end, free-standing A-frame stand of two A-shaped end frames and a top beam, hanging still and level",
+   "checks": [
+    "秋千两端各两根链条",
+    "两端 A 字形架加顶梁",
+    "秋千静止、水平",
+    "木条座面和靠背、没有垫子"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F017",
+   "key": "TB:cafe-table:marble",
+   "cat": "TB",
+   "form": "cafe-table",
+   "group": "dining",
+   "rating": "general",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 72
+   },
+   "bg": "dark",
+   "name_zh": "小圆桌（白大理石）",
+   "name_ja": "カフェテーブル（白大理石）",
+   "name_en": "Bistro Table (White Marble)",
+   "name_ko": "비스트로 테이블 (화이트 마블)",
+   "group_zh": "餐桌",
+   "group_ja": "ダイニングテーブル",
+   "group_en": "Dining Tables",
+   "group_ko": "식탁",
+   "desc_en": "a small round bistro table 72 cm high with a white marble top 60 cm across on a single central pedestal and a round cast-iron base in black",
+   "keep_en": "round white marble top, single central pedestal, round black cast-iron base",
+   "checks": [
+    "圆桌面",
+    "中间单柱",
+    "圆形铸铁底座",
+    "桌上没有东西"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F018",
+   "key": "TB:dining-table:oak",
+   "cat": "TB",
+   "form": "dining-table",
+   "group": "dining",
+   "rating": "general",
+   "probe": true,
+   "dims": {
+    "w": 180,
+    "d": 90,
+    "h": 75
+   },
+   "name_zh": "长方餐桌（橡木）",
+   "name_ja": "長方形ダイニングテーブル（オーク）",
+   "name_en": "Rectangular Dining Table (Oak)",
+   "name_ko": "직사각 식탁 (오크)",
+   "group_zh": "餐桌",
+   "group_ja": "ダイニングテーブル",
+   "group_en": "Dining Tables",
+   "group_ko": "식탁",
+   "desc_en": "a rectangular six-seat dining table 75 cm high with a solid light oak top 180 by 90 cm and 4 cm thick, four straight square legs set at the corners and a plain apron 8 cm deep under the top on all four sides, smooth oiled finish, empty top",
+   "keep_en": "light oak table, rectangular 180 by 90 cm top, four straight square corner legs, plain apron on all four sides, empty top",
+   "checks": [
+    "长方形桌面、约 75 厘米高",
+    "四条方直腿在四角",
+    "桌面下一圈素裙板",
+    "桌上没有东西"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F019",
+   "key": "TB:coffee-table:oak",
+   "cat": "TB",
+   "form": "coffee-table",
+   "group": "low",
+   "rating": "general",
+   "dims": {
+    "w": 120,
+    "d": 60,
+    "h": 40
+   },
+   "name_zh": "长方茶几（橡木）",
+   "name_ja": "長方形ローテーブル（オーク）",
+   "name_en": "Coffee Table (Oak)",
+   "name_ko": "직사각 커피 테이블 (오크)",
+   "group_zh": "茶几边几",
+   "group_ja": "ローテーブル",
+   "group_en": "Low & Side Tables",
+   "group_ko": "낮은 테이블",
+   "desc_en": "a rectangular coffee table 40 cm high with a light oak top 120 by 60 cm, four straight square light oak legs and one open lower shelf of the same material 12 cm above the floor joining the legs, both the top and the shelf empty",
+   "keep_en": "light oak top 120 by 60 cm, four straight square light oak legs, one open lower shelf, both empty",
+   "checks": [
+    "约 40 厘米高",
+    "四条方直腿",
+    "下方一层空搁板",
+    "桌面和搁板都没有东西"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F020",
+   "key": "TB:writing-desk:oak",
+   "cat": "TB",
+   "form": "writing-desk",
+   "group": "desk",
+   "rating": "general",
+   "dims": {
+    "w": 120,
+    "d": 60,
+    "h": 75
+   },
+   "name_zh": "抽屉书桌（橡木）",
+   "name_ja": "引き出し付きデスク（オーク）",
+   "name_en": "Writing Desk with Drawers (Oak)",
+   "name_ko": "서랍 책상 (오크)",
+   "group_zh": "书桌",
+   "group_ja": "デスク",
+   "group_en": "Desks",
+   "group_ko": "책상",
+   "desc_en": "a writing desk 75 cm high in solid light oak with a rectangular top 120 by 60 cm, a pedestal of three stacked drawers under the right side of the top, each drawer with one small round wooden knob, two straight square legs at the left end, and an open knee space with a plain modesty panel at the back, all drawers closed, empty top",
+   "keep_en": "light oak desk, 120 by 60 cm top, right pedestal of three drawers with one round knob each, two square legs at the left, open knee space, back modesty panel, drawers closed, empty top",
+   "checks": [
+    "右侧三个抽屉、各一个圆钮",
+    "左侧两条方腿",
+    "中间留出放腿空间",
+    "桌上没有东西"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F021",
+   "key": "TB:dressing-table:white",
+   "cat": "TB",
+   "form": "dressing-table",
+   "group": "counter",
+   "rating": "general",
+   "dims": {
+    "w": 100,
+    "d": 45,
+    "h": 150
+   },
+   "bg": "dark",
+   "name_zh": "带镜梳妆台（白色）",
+   "name_ja": "鏡付きドレッサー（白）",
+   "name_en": "Dressing Table with Mirror (White)",
+   "name_ko": "거울 화장대 (화이트)",
+   "group_zh": "吧台与梳妆台",
+   "group_ja": "カウンター・ドレッサー",
+   "group_en": "Counters & Vanities",
+   "group_ko": "카운터·화장대",
+   "desc_en": "a dressing table in white painted wood with a rectangular top 100 by 45 cm at 75 cm high, two stacked drawers under the top on each side of a central open knee space, each drawer with one small round knob, four straight square legs, and a plain rectangular mirror 70 cm wide and 60 cm high in a thin matching frame fixed upright on two short posts at the back edge of the top, the mirror glass showing only a flat even mid-grey and reflecting nothing, no room, no person, no camera, no light, all drawers closed, empty top",
+   "keep_en": "white painted wood dressing table, top 75 cm high, two drawers on each side of a central knee space with one round knob each, four square legs, plain rectangular mirror on two posts at the back edge showing only flat grey, drawers closed, empty top",
+   "checks": [
+    "镜面只显示均匀灰色、不反射任何东西",
+    "左右各两个抽屉、中间放腿空间",
+    "镜子立在桌面后沿两根短柱上",
+    "台面上没有化妆品"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F022",
+   "key": "TB:bar-counter:oak-dark",
+   "cat": "TB",
+   "form": "bar-counter",
+   "group": "counter",
+   "rating": "general",
+   "dims": {
+    "w": 150,
+    "d": 60,
+    "h": 105
+   },
+   "name_zh": "吧台段（橡木面深色板）",
+   "name_ja": "バーカウンター（オーク天板・濃色板）",
+   "name_en": "Bar Counter Segment (Oak & Dark Wood)",
+   "name_ko": "바 카운터 (오크·다크 우드)",
+   "group_zh": "吧台与梳妆台",
+   "group_ja": "カウンター・ドレッサー",
+   "group_en": "Counters & Vanities",
+   "group_ko": "카운터·화장대",
+   "desc_en": "a straight free-standing bar counter segment 105 cm high and 150 cm long with a thick light oak top 60 cm deep overhanging the front by 20 cm, a closed front panel of vertical dark stained wood tongue-and-groove boards, a brushed steel foot rail running along the front 20 cm above the base on three short brackets, and an open back with one fixed full-length shelf halfway down, empty top and shelf",
+   "keep_en": "light oak top 105 cm high and 150 cm long overhanging the front, closed front of vertical dark stained wood boards, brushed steel foot rail on three brackets, open back with one empty shelf, empty top",
+   "checks": [
+    "台面约 105 厘米高",
+    "正面竖板封闭、底部一根钢脚踏杆",
+    "背面开放、一层空搁板",
+    "台面上没有杯瓶"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F023",
+   "key": "TB:picnic-table:pine",
+   "cat": "TB",
+   "form": "picnic-table",
+   "group": "dining",
+   "rating": "general",
+   "probe": true,
+   "dims": {
+    "w": 180,
+    "d": 150,
+    "h": 75,
+    "seat": 45
+   },
+   "name_zh": "连椅野餐桌（风化松木）",
+   "name_ja": "ベンチ一体型ピクニックテーブル（風化パイン）",
+   "name_en": "Picnic Table with Benches (Weathered Pine)",
+   "name_ko": "벤치 일체형 피크닉 테이블 (풍화 소나무)",
+   "group_zh": "餐桌",
+   "group_ja": "ダイニングテーブル",
+   "group_en": "Dining Tables",
+   "group_ko": "식탁",
+   "desc_en": "a wooden picnic table with attached benches in weathered grey-brown pine, a rectangular top 180 cm long and 75 cm high made of five lengthwise planks, two long bench seats 45 cm high one on each long side, each made of two lengthwise planks, all carried by two end frames, each end frame made of two straight legs crossing in an X under the top seen from the end and a horizontal crossbar 45 cm high that runs out under both benches, empty top",
+   "keep_en": "weathered grey-brown pine picnic table, five-plank top 180 cm long, two attached two-plank benches on the long sides, two X-crossed end frames with crossbars under both benches, empty top",
+   "checks": [
+    "桌面五块长木板、约 75 厘米高",
+    "两侧各一条连体长凳、各两块板",
+    "两端各一组 X 形交叉腿",
+    "横撑同时托住两条凳"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F024",
+   "key": "CN:quanyi:huanghuali",
+   "cat": "CN",
+   "form": "quanyi",
+   "group": "seat",
+   "rating": "general",
+   "probe": true,
+   "dims": {
+    "w": 60,
+    "d": 47,
+    "h": 100,
+    "seat": 48
+   },
+   "name_zh": "明式圈椅（黄花梨色）",
+   "name_ja": "明式圏椅（黄花梨）",
+   "name_en": "Ming Horseshoe Armchair (Huanghuali)",
+   "name_ko": "명식 권의 (황화리)",
+   "group_zh": "椅凳",
+   "group_ja": "椅子・腰掛",
+   "group_en": "Chairs & Stools",
+   "group_ko": "의자",
+   "desc_en": "a Ming-style Chinese horseshoe armchair (quanyi) in golden-brown huanghuali rosewood: one continuous curved top rail that sweeps from the back down and forward to form both armrests ending in outward-turned hand grips, an S-curved solid back splat with a small plain carved panel, a woven soft-mat seat 48 cm high framed in wood, four round legs with a footrest stretcher at the front, clean lines with no inlay",
+   "keep_en": "golden-brown huanghuali rosewood quanyi, one continuous horseshoe rail forming back and arms with outward hand grips, S-curved back splat, framed seat, four round legs, front footrest stretcher",
+   "checks": [
+    "一条连续的马蹄形扶手（靠背到扶手不断开）",
+    "S 形单板靠背",
+    "前脚踏横枨",
+    "圆腿、无镶嵌"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F025",
+   "key": "CN:guanmaoyi:jichi",
+   "cat": "CN",
+   "form": "guanmaoyi",
+   "group": "seat",
+   "rating": "general",
+   "dims": {
+    "w": 58,
+    "d": 46,
+    "h": 110,
+    "seat": 48
+   },
+   "name_zh": "南官帽椅（鸡翅木色）",
+   "name_ja": "南官帽椅（鶏翅木）",
+   "name_en": "Southern Official's Hat Chair (Jichimu)",
+   "name_ko": "남관모의 (계시목)",
+   "group_zh": "椅凳",
+   "group_ja": "椅子・腰掛",
+   "group_en": "Chairs & Stools",
+   "group_ko": "의자",
+   "desc_en": "a Ming-style southern official's hat chair (nanguanmaoyi) in dark brown jichimu wood with feather-like grain: a straight top rail whose ends curve down and join the back posts without projecting, straight armrests whose front ends also turn down into the front posts, a curved plain back splat, a framed seat 48 cm high, four round legs with stepped stretchers",
+   "keep_en": "dark brown jichimu wood with feather-like grain chair, top rail ends turning down into the posts without projecting, straight arms joining the front posts, plain curved splat, framed seat, stepped stretchers",
+   "checks": [
+    "搭脑两端不出头、向下接后腿",
+    "扶手不出头",
+    "单板弯靠背",
+    "步步高横枨"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F026",
+   "key": "CN:drum-stool:celadon",
+   "cat": "CN",
+   "form": "drum-stool",
+   "group": "seat",
+   "rating": "general",
+   "dims": {
+    "w": 40,
+    "d": 40,
+    "h": 45,
+    "seat": 45
+   },
+   "name_zh": "鼓墩（青瓷）",
+   "name_ja": "鼓墩（陶の腰掛）（青磁）",
+   "name_en": "Porcelain Drum Stool (Celadon)",
+   "name_ko": "도자 고돈 (청자)",
+   "group_zh": "椅凳",
+   "group_ja": "椅子・腰掛",
+   "group_en": "Chairs & Stools",
+   "group_ko": "의자",
+   "desc_en": "a Chinese porcelain garden drum stool 45 cm high, barrel-shaped with a flat round top, two rows of raised studs around the top and bottom rims, two small pierced openings on the sides, glazed in plain pale celadon green",
+   "keep_en": "barrel-shaped porcelain stool, flat top, two rows of raised studs at the rims, two pierced side openings, in plain pale celadon green glaze",
+   "checks": [
+    "鼓形",
+    "上下两圈乳钉",
+    "侧面镂空开光",
+    "瓷质釉面"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F027",
+   "key": "CN:taishiyi:hongmu",
+   "cat": "CN",
+   "form": "taishiyi",
+   "group": "seat",
+   "rating": "general",
+   "dims": {
+    "w": 68,
+    "d": 52,
+    "h": 105,
+    "seat": 50
+   },
+   "name_zh": "太师椅（红木色）",
+   "name_ja": "太師椅（紅木）",
+   "name_en": "Qing Taishi Armchair (Rosewood)",
+   "name_ko": "태사의 (홍목)",
+   "group_zh": "椅凳",
+   "group_ja": "椅子・腰掛",
+   "group_en": "Chairs & Stools",
+   "group_ko": "의자",
+   "desc_en": "a Qing-dynasty Chinese taishi armchair in reddish-brown rosewood: a broad rectangular seat 50 cm high with a waisted apron (shuyao) below the seat frame, a tall solid three-panel screen-style back whose centre panel is highest and carries a plain carved ruyi-cloud scroll, matching lower solid screen panels forming the two armrests, four square legs ending in inward-turned horse-hoof feet standing on a continuous floor-level base stretcher frame, no inlay, no characters",
+   "keep_en": "reddish-brown rosewood taishi armchair, broad waisted seat, three-panel screen back with the tall centre panel and plain scroll carving, solid screen armrests, square legs with horse-hoof feet on a floor-level base frame",
+   "checks": [
+    "座面下有束腰",
+    "屏风式靠背、中间高两边低",
+    "马蹄足落在托泥上",
+    "雕饰只是卷云纹、没有文字"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F028",
+   "key": "CN:changdeng:elm",
+   "cat": "CN",
+   "form": "changdeng",
+   "group": "seat",
+   "rating": "general",
+   "dims": {
+    "w": 120,
+    "d": 30,
+    "h": 50,
+    "seat": 50
+   },
+   "name_zh": "长凳（老榆木）",
+   "name_ja": "長腰掛（長凳）（楡材）",
+   "name_en": "Long Bench (Elm)",
+   "name_ko": "장등 (느릅나무)",
+   "group_zh": "椅凳",
+   "group_ja": "椅子・腰掛",
+   "group_en": "Chairs & Stools",
+   "group_ko": "의자",
+   "desc_en": "a plain Chinese long bench (changdeng) in weathered honey-brown elm with open grain: a single thick plank seat 120 cm long and 50 cm high, two pairs of splayed round legs set in from the ends and joined by side stretchers, simple plain spandrels under the seat, no back, no carving",
+   "keep_en": "weathered honey-brown elm with open grain long bench, one thick plank seat, two pairs of splayed legs set in from the ends, side stretchers, plain spandrels, no back",
+   "checks": [
+    "一块厚板凳面",
+    "腿缩进、四腿外撇（侧脚）",
+    "腿间有横枨",
+    "没有靠背、没有雕刻"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F029",
+   "key": "CN:luohanchuang:hongmu",
+   "cat": "CN",
+   "form": "luohanchuang",
+   "group": "bed",
+   "rating": "general",
+   "dims": {
+    "w": 200,
+    "d": 95,
+    "h": 80,
+    "seat": 45
+   },
+   "name_zh": "罗汉床（红木色）",
+   "name_ja": "羅漢床（紅木）",
+   "name_en": "Luohan Daybed (Rosewood)",
+   "name_ko": "나한상 (홍목)",
+   "group_zh": "床榻",
+   "group_ja": "床・榻",
+   "group_en": "Beds & Daybeds",
+   "group_ko": "침상",
+   "desc_en": "a Chinese luohan daybed in reddish-brown rosewood, about 200 cm long: a wide flat platform seat 45 cm high with a woven mat, low solid railings on three sides (back and both ends) with plain panels, short cabriole legs ending in hoof feet, and a small low kang table in the same wood placed at the centre of the seat",
+   "keep_en": "reddish-brown rosewood luohan daybed, wide flat mat seat, low solid railings on back and both ends, short cabriole legs with hoof feet, small kang table at the centre",
+   "checks": [
+    "三面矮围子",
+    "宽平床面",
+    "马蹄足",
+    "中间一张小炕桌"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F030",
+   "key": "CN:baxianzhuo:hongmu",
+   "cat": "CN",
+   "form": "baxianzhuo",
+   "group": "table",
+   "rating": "general",
+   "dims": {
+    "w": 92,
+    "d": 92,
+    "h": 86
+   },
+   "name_zh": "八仙桌（红木色）",
+   "name_ja": "八仙卓（紅木）",
+   "name_en": "Eight Immortals Table (Rosewood)",
+   "name_ko": "팔선탁 (홍목)",
+   "group_zh": "桌案",
+   "group_ja": "卓・案",
+   "group_en": "Tables",
+   "group_ko": "탁자",
+   "desc_en": "a Ming-style Chinese square table (baxianzhuo) in reddish-brown rosewood: a square top 86 cm high, a waisted apron (shuyao) below the top with a plain shaped apron, four square legs at the corners ending in inward-turned horse-hoof feet, each leg braced to the underside of the top by a curved S-shaped giant's arm brace (bawangcheng), no stretchers between the legs, no carving beyond a beaded edge, empty top, no stools or benches",
+   "keep_en": "reddish-brown rosewood square table, waisted apron, four corner legs with horse-hoof feet, four curved giant's arm braces from the legs to the top, no low stretchers, empty top",
+   "checks": [
+    "正方桌面、四角落腿",
+    "束腰",
+    "马蹄足",
+    "四根霸王枨、腿间没有横枨"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F031",
+   "key": "CN:huaan:huanghuali",
+   "cat": "CN",
+   "form": "huaan",
+   "group": "table",
+   "rating": "general",
+   "dims": {
+    "w": 170,
+    "d": 75,
+    "h": 82
+   },
+   "name_zh": "画案（黄花梨色）",
+   "name_ja": "画案（黄花梨）",
+   "name_en": "Ming Painting Table (Huanghuali)",
+   "name_ko": "화안 (황화리)",
+   "group_zh": "桌案",
+   "group_ja": "卓・案",
+   "group_en": "Tables",
+   "group_ko": "탁자",
+   "desc_en": "a Ming-style Chinese painting table (hua'an) in golden-brown huanghuali rosewood: a long flat rectangular top 82 cm high with no waist and no raised ends, four round legs recessed well in from the ends and joined to the top by a plain spandrel apron (jiatousun bridle joint), the legs on each end linked by two horizontal side stretchers, legs slightly splayed outward, plain surfaces with no carving or inlay, empty top",
+   "keep_en": "golden-brown huanghuali rosewood painting table, long flat top without raised ends, four round legs recessed from the ends, plain spandrel apron, two side stretchers per end, slight leg splay, empty top",
+   "checks": [
+    "腿缩进安装（案的结构，不是四角腿）",
+    "夹头榫牙板",
+    "两侧腿间各两根横枨",
+    "平头、没有翘头、桌面空"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F032",
+   "key": "CN:chabudai:dark",
+   "cat": "CN",
+   "form": "chabudai",
+   "group": "world",
+   "rating": "general",
+   "dims": {
+    "w": 80,
+    "d": 120,
+    "h": 33,
+    "seat": 6
+   },
+   "name_zh": "矮饭桌与坐垫（深茶）",
+   "name_ja": "ちゃぶ台と座布団（焦げ茶）",
+   "name_en": "Chabudai with Zabuton (Dark Brown)",
+   "name_ko": "자부다이와 방석 (짙은 갈색)",
+   "group_zh": "世界与年代风格",
+   "group_ja": "世界・時代の様式",
+   "group_en": "World & Period Styles",
+   "group_ko": "세계·시대 스타일",
+   "desc_en": "a Japanese Showa-era chabudai: a round low table 80 cm across with a top 33 cm high in dark brown lacquered wood, four short straight legs that fold under the top, a plain apron ring, and one square flat zabuton floor cushion in indigo cotton lying flat on the floor in front of the table, its back edge just under the table rim, about 6 cm thick with a tuft at the centre, empty table top",
+   "keep_en": "round dark brown lacquered wood chabudai on four short legs, plain apron ring, one square indigo cotton zabuton lying flat in front with its back edge under the rim, empty top",
+   "checks": [
+    "圆形矮桌约 33 厘米高、四条短腿",
+    "桌前地上一个方坐垫、中心有一个线结",
+    "只有一个坐垫",
+    "桌面空"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F033",
+   "key": "CN:bergere:grey-ivory",
+   "cat": "CN",
+   "form": "bergere",
+   "group": "world",
+   "rating": "general",
+   "probe": true,
+   "dims": {
+    "w": 72,
+    "d": 75,
+    "h": 95,
+    "seat": 45
+   },
+   "bg": "dark",
+   "name_zh": "路易十五式扶手椅（灰白）",
+   "name_ja": "ルイ15世様式ベルジェール（グレーとアイボリー）",
+   "name_en": "Louis XV-style Bergère (Grey & Ivory)",
+   "name_ko": "루이 15세풍 베르제르 (회백)",
+   "group_zh": "世界与年代风格",
+   "group_ja": "世界・時代の様式",
+   "group_en": "World & Period Styles",
+   "group_ko": "세계·시대 스타일",
+   "desc_en": "a generic Louis XV-style French bergère armchair: a carved soft grey painted beech frame with a curved cartouche-shaped top rail, closed upholstered sides under padded armrests, four slender cabriole legs ending in scroll toes, a serpentine front seat rail with a small carved flower at the centre, the back, sides and a loose seat cushion 45 cm high upholstered in plain ivory linen, no gilding, no crests",
+   "keep_en": "soft grey painted beech bergère, cartouche-shaped back, closed upholstered sides with padded arms, four cabriole legs with scroll toes, serpentine carved front rail, loose seat cushion, plain ivory linen upholstery",
+   "checks": [
+    "弧形盾徽状靠背",
+    "扶手下面是封闭软包侧板",
+    "四条弯腿（卡布里腿）",
+    "座前横档呈 S 弯、带一朵小雕花"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F034",
+   "key": "CN:button-back:green",
+   "cat": "CN",
+   "form": "button-back",
+   "group": "world",
+   "rating": "general",
+   "dims": {
+    "w": 70,
+    "d": 80,
+    "h": 95,
+    "seat": 44
+   },
+   "name_zh": "维多利亚拉扣扶手椅（墨绿丝绒）",
+   "name_ja": "ヴィクトリアン・ボタンバックチェア（深緑ベルベット）",
+   "name_en": "Victorian Button-back Armchair (Bottle-green Velvet)",
+   "name_ko": "빅토리아풍 버튼백 암체어 (짙은 녹색 벨벳)",
+   "group_zh": "世界与年代风格",
+   "group_ja": "世界・時代の様式",
+   "group_en": "World & Period Styles",
+   "group_ko": "세계·시대 스타일",
+   "desc_en": "a Victorian button-back armchair: a rounded spoon-shaped back and low open-sided arms in one continuous curve, deep-buttoned upholstery in bottle-green velvet with diamond pleats on the inside of the back, a sprung seat 44 cm high, a polished mahogany show-wood frame along the top and arm fronts, two turned front legs on small brass castors and two plain splayed back legs",
+   "keep_en": "bottle-green velvet deep-buttoned spoon back curving into low arms, sprung seat, mahogany show-wood frame, two turned front legs on brass castors, two splayed back legs",
+   "checks": [
+    "勺形圆靠背连到矮扶手",
+    "靠背内侧深拉扣、菱形褶",
+    "两条车削前腿带铜脚轮",
+    "桃花心木外露木框"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F035",
+   "key": "CN:club-chair:cognac",
+   "cat": "CN",
+   "form": "club-chair",
+   "group": "world",
+   "rating": "general",
+   "dims": {
+    "w": 85,
+    "d": 85,
+    "h": 75,
+    "seat": 42
+   },
+   "name_zh": "装饰艺术俱乐部椅（干邑色皮）",
+   "name_ja": "アールデコ・クラブチェア（コニャックレザー）",
+   "name_en": "Art Deco Club Chair (Cognac Leather)",
+   "name_ko": "아르데코 클럽 체어 (코냑 가죽)",
+   "group_zh": "世界与年代风格",
+   "group_ja": "世界・時代の様式",
+   "group_en": "World & Period Styles",
+   "group_ko": "세계·시대 스타일",
+   "desc_en": "a generic 1930s Art Deco club armchair upholstered in worn cognac-brown leather: a low rounded tub shape, a curved back flowing into thick rounded arms of the same height, a deep loose seat cushion 42 cm high, piped seams following the curves, a plain recessed plinth base in dark wood with no visible legs",
+   "keep_en": "worn cognac-brown leather club chair, low rounded tub shape, curved back flowing into thick rounded arms, loose seat cushion, piped seams, recessed dark wood plinth",
+   "checks": [
+    "靠背和扶手连成一圈圆弧",
+    "扶手粗圆、与靠背同高",
+    "缝线有滚边",
+    "底下是缩进的木座、看不见腿"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F036",
+   "key": "PL:step-ladder:natural",
+   "cat": "PL",
+   "form": "step-ladder",
+   "group": "step",
+   "rating": "general",
+   "dims": {
+    "w": 45,
+    "d": 60,
+    "h": 150
+   },
+   "name_zh": "木梯凳（原木）",
+   "name_ja": "木の脚立（白木）",
+   "name_en": "Wooden Step Ladder (Natural Wood)",
+   "name_ko": "나무 사다리 (원목)",
+   "group_zh": "台阶与梯",
+   "group_ja": "階段・脚立",
+   "group_en": "Steps & Ladders",
+   "group_ko": "계단·사다리",
+   "desc_en": "an opened A-frame wooden step ladder about 150 cm high in pale natural wood with paint splashes worn off, with four flat steps on the front, plain back legs joined by cross braces, and a small flat top platform",
+   "keep_en": "pale natural wood with paint splashes worn off A-frame ladder, opened, four flat front steps, braced back legs, flat top platform",
+   "checks": [
+    "A 字展开",
+    "前面四级踏板",
+    "后腿有横撑",
+    "顶部小平台"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F037",
+   "key": "PL:apple-box:natural",
+   "cat": "PL",
+   "form": "apple-box",
+   "group": "block",
+   "rating": "general",
+   "dims": {
+    "w": 51,
+    "d": 30,
+    "h": 20,
+    "seat": 20
+   },
+   "name_zh": "苹果箱（整）（原色胶合板）",
+   "name_ja": "アップルボックス（フル）（合板の素地）",
+   "name_en": "Full Apple Box (Natural Plywood)",
+   "name_ko": "애플박스 (풀) (원목 합판)",
+   "group_zh": "造型台",
+   "group_ja": "撮影台",
+   "group_en": "Posing Blocks",
+   "group_ko": "포즈 블록",
+   "desc_en": "a photo-studio full apple box in pale birch plywood with dark edge grain and slightly worn corners: a rectangular plywood box 51 cm long and 30 cm wide lying flat on its broadest face, so its flat top surface is 20 cm high, built as a hollow box with an internal centre brace, an oval hand-hole cut-out near each end of both long sides, visible plywood edge joints and nail heads, plain unmarked faces with no stencilled text, no logo and no numbers",
+   "keep_en": "pale birch plywood with dark edge grain and slightly worn corners full apple box, 51 by 30 cm, lying flat, top surface 20 cm high, built as a hollow box with an internal centre brace, an oval hand-hole cut-out near each end of both long sides, visible plywood edge joints and nail heads, no text",
+   "checks": [
+    "平放、顶面约 20 厘米高",
+    "长宽 51×30 厘米",
+    "侧面两端有手扣孔",
+    "箱面没有字和编号"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F038",
+   "key": "PL:apple-half:natural",
+   "cat": "PL",
+   "form": "apple-half",
+   "group": "block",
+   "rating": "general",
+   "dims": {
+    "w": 51,
+    "d": 30,
+    "h": 10,
+    "seat": 10
+   },
+   "name_zh": "苹果箱（半）（原色胶合板）",
+   "name_ja": "アップルボックス（ハーフ）（合板の素地）",
+   "name_en": "Half Apple Box (Natural Plywood)",
+   "name_ko": "애플박스 (하프) (원목 합판)",
+   "group_zh": "造型台",
+   "group_ja": "撮影台",
+   "group_en": "Posing Blocks",
+   "group_ko": "포즈 블록",
+   "desc_en": "a photo-studio half apple box in pale birch plywood with dark edge grain and slightly worn corners: a rectangular plywood box 51 cm long and 30 cm wide lying flat on its broadest face, so its flat top surface is 10 cm high, built as a shallow hollow box, a long slot hand-hole near each end of both long sides, visible plywood edge joints, plain unmarked faces with no stencilled text, no logo and no numbers",
+   "keep_en": "pale birch plywood with dark edge grain and slightly worn corners half apple box, 51 by 30 cm, lying flat, top surface 10 cm high, built as a shallow hollow box, a long slot hand-hole near each end of both long sides, visible plywood edge joints, no text",
+   "checks": [
+    "平放、顶面约 10 厘米高",
+    "长宽 51×30 厘米",
+    "侧面两端有手扣孔",
+    "箱面没有字和编号"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F039",
+   "key": "PL:apple-quarter:natural",
+   "cat": "PL",
+   "form": "apple-quarter",
+   "group": "block",
+   "rating": "general",
+   "dims": {
+    "w": 51,
+    "d": 30,
+    "h": 5,
+    "seat": 5
+   },
+   "name_zh": "苹果箱（四分之一）（原色胶合板）",
+   "name_ja": "アップルボックス（クォーター）（合板の素地）",
+   "name_en": "Quarter Apple Box (Natural Plywood)",
+   "name_ko": "애플박스 (쿼터) (원목 합판)",
+   "group_zh": "造型台",
+   "group_ja": "撮影台",
+   "group_en": "Posing Blocks",
+   "group_ko": "포즈 블록",
+   "desc_en": "a photo-studio quarter apple box in pale birch plywood with dark edge grain and slightly worn corners: a rectangular plywood box 51 cm long and 30 cm wide lying flat on its broadest face, so its flat top surface is 5 cm high, built as a solid slab of laminated plywood with no hand-holes, visible layered edges, plain unmarked faces with no stencilled text, no logo and no numbers",
+   "keep_en": "pale birch plywood with dark edge grain and slightly worn corners quarter apple box, 51 by 30 cm, lying flat, top surface 5 cm high, built as a solid slab of laminated plywood with no hand-holes, visible layered edges, no text",
+   "checks": [
+    "平放、顶面约 5 厘米高",
+    "长宽 51×30 厘米",
+    "一块实心厚板、没有手孔",
+    "表面没有字和编号"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F040",
+   "key": "PL:posing-cube:white",
+   "cat": "PL",
+   "form": "posing-cube",
+   "group": "block",
+   "rating": "general",
+   "dims": {
+    "w": 45,
+    "d": 45,
+    "h": 45,
+    "seat": 45
+   },
+   "bg": "dark",
+   "name_zh": "造型方台（白色）",
+   "name_ja": "撮影用キューブ（白）",
+   "name_en": "Posing Cube (White)",
+   "name_ko": "포즈 큐브 (흰색)",
+   "group_zh": "造型台",
+   "group_ja": "撮影台",
+   "group_en": "Posing Blocks",
+   "group_ko": "포즈 블록",
+   "desc_en": "a photo-studio posing cube: a plain solid cube 45 cm on every side with a flat top surface 45 cm high, painted matt white with a smooth even satin finish, crisp straight edges with slightly softened corners, no seams visible, no feet, no handles, no text",
+   "keep_en": "matt white cube 45 cm on each side, flat top 45 cm high, smooth satin finish, crisp slightly softened edges, no feet or handles",
+   "checks": [
+    "正立方体、每边 45 厘米",
+    "顶面 45 厘米高",
+    "表面平滑无接缝",
+    "没有字、没有把手"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F041",
+   "key": "PL:stair-block:grey",
+   "cat": "PL",
+   "form": "stair-block",
+   "group": "step",
+   "rating": "general",
+   "probe": true,
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 60,
+    "seat": 40
+   },
+   "name_zh": "三级台阶块（浅灰）",
+   "name_ja": "3段の階段ブロック（ライトグレー）",
+   "name_en": "Three-step Stair Block (Light Grey)",
+   "name_ko": "3단 계단 블록 (밝은 회색)",
+   "group_zh": "台阶与梯",
+   "group_ja": "階段・脚立",
+   "group_en": "Steps & Ladders",
+   "group_ko": "계단·사다리",
+   "desc_en": "a photo-studio stair block of three straight steps in matt light-grey painted wood: a solid freestanding wedge of steps 90 cm wide, each step a 20 cm rise and a 30 cm deep tread, so the treads stand 20, 40 and 60 cm high from front to back, the top step 30 cm deep, the back a flat vertical face 60 cm high, both sides flat stepped profiles showing the three-step outline, no handrail, no nosing, no text",
+   "keep_en": "matt light-grey painted wood three-step block 90 cm wide, three equal steps with 20 cm rises and 30 cm treads at 20, 40 and 60 cm, flat vertical back 60 cm high, flat stepped side profiles, no handrail",
+   "checks": [
+    "正好三级台阶、高度 20/40/60 厘米",
+    "每级踏面 30 厘米深、等宽",
+    "背面是 60 厘米高的竖直平面",
+    "侧面是实心阶梯轮廓、没有扶手"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F042",
+   "key": "PL:plaster-wall:off-white",
+   "cat": "PL",
+   "form": "plaster-wall",
+   "group": "set",
+   "rating": "general",
+   "dims": {
+    "w": 150,
+    "d": 25,
+    "h": 100
+   },
+   "bg": "dark",
+   "name_zh": "矮灰泥墙段（米白）",
+   "name_ja": "低い漆喰壁（オフホワイト）",
+   "name_en": "Low Plaster Wall Segment (Off-white)",
+   "name_ko": "낮은 회벽 세그먼트 (오프화이트)",
+   "group_zh": "布景结构",
+   "group_ja": "セット構造物",
+   "group_en": "Set Pieces",
+   "group_ko": "세트 구조물",
+   "desc_en": "a freestanding photo-set wall segment: a straight solid low wall 150 cm long, 25 cm thick and 100 cm high with a flat top surface 100 cm high for leaning on or resting an arm on, rendered in warm off-white lime plaster with a softly hand-trowelled texture, slightly rounded top edges, plain flat ends showing the 25 cm thickness, no cracks, no graffiti, no text",
+   "keep_en": "warm off-white lime plaster wall segment 150 cm long, 25 cm thick, flat top 100 cm high, hand-trowelled texture, softly rounded top edges, flat ends",
+   "checks": [
+    "直墙段、顶面 100 厘米高",
+    "厚 25 厘米、两端是平截面",
+    "手抹灰泥质感",
+    "没有裂缝、涂鸦、文字"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F043",
+   "key": "PL:railing:walnut-stain",
+   "cat": "PL",
+   "form": "railing",
+   "group": "set",
+   "rating": "general",
+   "dims": {
+    "w": 180,
+    "d": 40,
+    "h": 100
+   },
+   "name_zh": "木栏杆段（胡桃色）",
+   "name_ja": "木の手すり（ウォルナット色）",
+   "name_en": "Wooden Railing Segment (Walnut Stain)",
+   "name_ko": "나무 난간 (월넛 색)",
+   "group_zh": "布景结构",
+   "group_ja": "セット構造物",
+   "group_en": "Set Pieces",
+   "group_ko": "세트 구조물",
+   "desc_en": "a freestanding photo-set railing segment in walnut-stained pine with a satin finish: a straight railing 180 cm long with a flat-topped handrail 100 cm high, two square end posts, nine plain square balusters evenly spaced between a top rail and a bottom rail 10 cm above the base, each end post bolted to a flat wooden foot 40 cm long that runs front to back so it stands on its own",
+   "keep_en": "walnut-stained pine with a satin finish railing 180 cm long, flat handrail 100 cm high, two square end posts, nine square balusters between top and bottom rails, two flat front-to-back feet",
+   "checks": [
+    "扶手顶 100 厘米高",
+    "两根端柱、中间九根方栏杆",
+    "底横档离地约 10 厘米",
+    "两端有前后方向的平脚、能自己立住"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F044",
+   "key": "PL:door-frame:white",
+   "cat": "PL",
+   "form": "door-frame",
+   "group": "set",
+   "rating": "general",
+   "dims": {
+    "w": 100,
+    "d": 50,
+    "h": 215
+   },
+   "bg": "dark",
+   "name_zh": "独立门框（白色）",
+   "name_ja": "自立式ドア枠（白）",
+   "name_en": "Freestanding Door Frame (White)",
+   "name_ko": "독립형 문틀 (흰색)",
+   "group_zh": "布景结构",
+   "group_ja": "セット構造物",
+   "group_en": "Set Pieces",
+   "group_ko": "세트 구조물",
+   "desc_en": "a freestanding photo-set door frame in matt white painted wood: a plain rectangular door frame with two flat side jambs and a head jamb with simple flat casing trim, an open doorway 80 cm wide and 200 cm high with no door, no hinges and no threshold, the outside of the frame 100 cm wide and 215 cm high, each jamb fixed to a flat foot plate 50 cm long running front to back so it stands on its own, open empty space visible through the doorway",
+   "keep_en": "matt white painted wood freestanding door frame, flat casing trim, empty opening 80 by 200 cm with no door, outer size 100 by 215 cm, two flat front-to-back foot plates",
+   "checks": [
+    "只有门框、没有门扇和合页",
+    "门洞 80×200 厘米、空的",
+    "平板门套线",
+    "两侧底部有前后向平脚"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F045",
+   "key": "PL:window-frame:sage",
+   "cat": "PL",
+   "form": "window-frame",
+   "group": "set",
+   "rating": "general",
+   "probe": true,
+   "dims": {
+    "w": 100,
+    "d": 50,
+    "h": 210
+   },
+   "name_zh": "独立窗框（灰绿）",
+   "name_ja": "自立式の窓枠（セージグリーン）",
+   "name_en": "Freestanding Window Frame (Sage Green)",
+   "name_ko": "독립형 창틀 (세이지 그린)",
+   "group_zh": "布景结构",
+   "group_ja": "セット構造物",
+   "group_en": "Set Pieces",
+   "group_ko": "세트 구조물",
+   "desc_en": "a freestanding photo-set window frame in weathered sage-green painted wood: a rectangular wooden window frame 100 cm wide and 120 cm high divided by one vertical and one horizontal muntin into four open panes, completely empty with no glass, no reflections and no curtains, a projecting flat sill at the bottom whose top is 90 cm above the floor, carried on two square legs that rise from flat foot plates running front to back, so the whole piece stands on its own 210 cm high",
+   "keep_en": "weathered sage-green painted wood freestanding window frame 100 by 120 cm, cross muntins forming four open panes with no glass, projecting flat sill 90 cm high, two square legs on flat front-to-back foot plates",
+   "checks": [
+    "十字窗棂分成四格",
+    "窗格是空的、没有玻璃和反光",
+    "窗台突出、离地 90 厘米",
+    "两条腿立在前后向平脚上"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F046",
+   "key": "PL:posing-stool:black",
+   "cat": "PL",
+   "form": "posing-stool",
+   "group": "block",
+   "rating": "general",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 65,
+    "seat": 65
+   },
+   "name_zh": "升降造型凳（黑色）",
+   "name_ja": "昇降式撮影スツール（黒）",
+   "name_en": "Adjustable Posing Stool (Black)",
+   "name_ko": "높이 조절 포즈 스툴 (검정)",
+   "group_zh": "造型台",
+   "group_ja": "撮影台",
+   "group_en": "Posing Blocks",
+   "group_ko": "포즈 블록",
+   "desc_en": "a generic photo-studio posing stool with adjustable height: a round flat padded seat 40 cm across covered in black faux leather, set at 65 cm high on a single chrome height-adjustment column with a small lever under the seat, a round chrome foot ring halfway down, and a five-spoke chrome base without castors, no backrest, no logo",
+   "keep_en": "round black faux leather padded seat 40 cm across at 65 cm high, single chrome column with lever, chrome foot ring, five-spoke chrome base without castors, no back",
+   "checks": [
+    "圆座面、约 65 厘米高",
+    "单根镀铬升降柱、座下拨杆",
+    "中段一圈脚踏环",
+    "五爪底座、没有轮子和靠背"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F047",
+   "key": "PL:pallet-stack:raw",
+   "cat": "PL",
+   "form": "pallet-stack",
+   "group": "block",
+   "rating": "general",
+   "dims": {
+    "w": 120,
+    "d": 80,
+    "h": 43,
+    "seat": 43
+   },
+   "name_zh": "木托盘堆（原木）",
+   "name_ja": "パレットの積み重ね（白木）",
+   "name_en": "Wooden Pallet Stack (Raw Pine)",
+   "name_ko": "나무 팔레트 더미 (생소나무)",
+   "group_zh": "造型台",
+   "group_ja": "撮影台",
+   "group_en": "Posing Blocks",
+   "group_ko": "포즈 블록",
+   "desc_en": "a stack of three identical plain wooden shipping pallets lying flat and squarely aligned, each 120 cm long, 80 cm wide and about 14 cm high, made of rough raw pale pine with five top deck boards, three bottom boards and three rows of square blocks between them, so the top deck stands 43 cm high, plain boards with no stamps, no marks and no text",
+   "keep_en": "three aligned rough raw pale pine pallets stacked flat, five top deck boards, three rows of blocks, top surface 43 cm high, no stamps",
+   "checks": [
+    "三个托盘整齐叠放、顶面约 43 厘米",
+    "每个托盘面板五条",
+    "板之间三排方木块",
+    "没有印章、字或标记"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  },
+  {
+   "id": "F048",
+   "key": "PL:column:concrete",
+   "cat": "PL",
+   "form": "column",
+   "group": "set",
+   "rating": "general",
+   "dims": {
+    "w": 50,
+    "d": 50,
+    "h": 120
+   },
+   "name_zh": "圆柱段（清水混凝土）",
+   "name_ja": "円柱（打ち放しコンクリート）",
+   "name_en": "Column Segment (Concrete)",
+   "name_ko": "원기둥 (노출 콘크리트)",
+   "group_zh": "布景结构",
+   "group_ja": "セット構造物",
+   "group_en": "Set Pieces",
+   "group_ko": "세트 구조물",
+   "desc_en": "a plain freestanding photo-set column segment: a smooth straight cylinder 40 cm across and 110 cm high in smooth pale grey cast concrete with faint form marks, standing on a plain square base slab 50 cm wide and 10 cm thick, its flat round top 120 cm high, no fluting, no capital, no carving, no text",
+   "keep_en": "smooth pale grey cast concrete with faint form marks smooth straight cylinder 40 cm across on a square base slab, flat round top 120 cm high, no fluting, no capital",
+   "checks": [
+    "光滑直圆柱、没有凹槽",
+    "没有柱头装饰",
+    "底下一块方形底座",
+    "柱顶平、约 120 厘米高"
+   ],
+   "views": {
+    "front": null,
+    "back": null,
+    "side": null,
+    "diag": null,
+    "above": null
+   },
+   "gaps": {}
+  }
+ ]
+}

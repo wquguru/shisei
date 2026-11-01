@@ -1,6 +1,19 @@
 {
  "source": "fill-r1",
  "fails": [
-  {"set": "P068", "angle": "above", "kind": "structure", "reason": "wrong pose, judged by eye: from above it shows the chest and buttocks of an upright figure, not a body bent forward at the hips (fill-r1 batch 03)"}
+  {"set": "P068", "angle": "above", "kind": "structure", "reason": "wrong pose, judged by eye: from above it shows the chest and buttocks of an upright figure, not a body bent forward at the hips (fill-r1 batch 03)"},
+  {"set": "D024", "angle": "front", "kind": "structure", "reason": "woman much smaller than the man at the same depth (child proportions), judged by eye (fill-r1 batches 08-19)"},
+  {"set": "D024", "angle": "above", "kind": "structure", "reason": "woman much smaller than the man at the same depth (child proportions), judged by eye (fill-r1 batches 08-19)"},
+  {"set": "D024", "angle": "below", "kind": "structure", "reason": "woman much smaller than the man at the same depth (child proportions), judged by eye (fill-r1 batches 08-19)"},
+  {"set": "D034", "angle": "side", "kind": "structure", "reason": "woman's head and body far smaller than the man's at the same depth (child proportions), judged by eye (fill-r1 batches 08-19)"},
+  {"set": "D020", "angle": "above", "kind": "structure", "reason": "inner figure far smaller than the outer one and heads overlap; cannot tell whose limbs are whose, judged by eye (fill-r1 batches 08-19)"},
+  {"set": "D020", "angle": "diag", "kind": "structure", "reason": "the two bodies merge; limbs cannot be traced to either figure, judged by eye (fill-r1 batches 08-19)"},
+  {"set": "D019", "angle": "side", "kind": "structure", "reason": "woman has only the raised leg; her second leg is missing, judged by eye (fill-r1 batches 08-19)"},
+  {"set": "D037", "angle": "below", "kind": "structure", "reason": "eye-level, not a low angle; man's second arm is missing, judged by eye (fill-r1 batches 08-19)"},
+  {"set": "D039", "angle": "side", "kind": "structure", "reason": "tangled legs: the foot behind the man's head and the hand on the knee cannot be traced to a hip or shoulder, judged by eye (fill-r1 batches 08-19)"},
+  {"set": "D026", "angle": "front", "kind": "structure", "reason": "raised palms beside the woman's shoulders cannot be assigned to either figure and are not stretched forward, judged by eye (fill-r1 batches 08-19)"},
+  {"set": "S054", "angle": "side", "kind": "structure", "reason": "two shins and a bulge rise from one knee; legs cannot be traced, judged by eye (fill-r1 batches 08-19)"},
+  {"set": "S068", "angle": "side", "kind": "structure", "reason": "legs bent above the torso, not folded past the head with toes down, judged by eye (fill-r1 batches 08-19)"},
+  {"set": "U070", "angle": "above", "kind": "structure", "reason": "raised finger is in front of the chest, not vertical at the face, judged by eye (fill-r1 batches 08-19)"}
  ]
 }

@@ -1,0 +1,406 @@
+{
+ "cat": "PO",
+ "note": "Portrait light positions (docs/light/PLAN.md). Subject: the plaster head-and-shoulders cast (series_kit.LIGHT_SUBJECTS['bust']), because loop, Rembrandt and butterfly read only on a nose and cheek planes. Directions are given in image terms for the front camera.",
+ "groups": {
+  "key": {
+   "zh": "主光位",
+   "ja": "キーライト位置",
+   "en": "Key Positions",
+   "ko": "키라이트 위치"
+  },
+  "pattern": {
+   "zh": "组合布光",
+   "ja": "組み合わせライティング",
+   "en": "Combined Setups",
+   "ko": "조합 조명"
+  },
+  "tone": {
+   "zh": "影调",
+   "ja": "トーン",
+   "en": "Tonal Keys",
+   "ko": "톤"
+  }
+ },
+ "forms": [
+  {
+   "key": "flat-front",
+   "group": "key",
+   "name": {
+    "zh": "正面平光",
+    "ja": "正面フラットライト",
+    "en": "Flat Front",
+    "ko": "정면 플랫"
+   },
+   "setting": "on a plinth in front of a seamless mid-grey studio backdrop",
+   "desc": "one large soft light directly behind the camera at lens height, even shadowless light across the whole face, both cheeks and the nose lit equally, almost no shadow under the nose or chin, the sphere lit almost evenly with the highlight at its centre",
+   "keep": "large soft light on the camera axis, shadowless face, no nose shadow, centred sphere highlight",
+   "checks": [
+    "脸部两侧一样亮、几乎没有阴影",
+    "鼻下、下巴下几乎没有影子",
+    "球的高光在正中"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "butterfly",
+   "group": "key",
+   "name": {
+    "zh": "蝴蝶光（派拉蒙光）",
+    "ja": "バタフライライト",
+    "en": "Butterfly (Paramount)",
+    "ko": "버터플라이"
+   },
+   "setting": "on a plinth in front of a seamless mid-grey studio backdrop",
+   "desc": "one hard light directly in front of the cast and 45 degrees above it, a small symmetrical butterfly-shaped shadow straight down under the nose tip, both cheekbones lit equally with soft shadow beneath them, a shadow under the chin on the neck, the sphere's highlight at top centre",
+   "keep": "hard light straight in front and 45 degrees up, symmetrical butterfly shadow under the nose, shadow under the chin, sphere highlight top-centre",
+   "checks": [
+    "鼻下一个左右对称的蝶形小影",
+    "两侧颧骨一样亮、颧骨下有阴影",
+    "球高光在顶部正中"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "loop",
+   "group": "key",
+   "name": {
+    "zh": "环形光",
+    "ja": "ループライト",
+    "en": "Loop Light",
+    "ko": "루프"
+   },
+   "setting": "on a plinth in front of a seamless mid-grey studio backdrop",
+   "desc": "one soft key light 30 degrees to image-left and 30 degrees above, the nose shadow forming a small loop falling down and toward image-right that does not touch the cheek shadow, the image-right side of the face in gentle shadow, the sphere's highlight upper-left",
+   "keep": "soft key 30 degrees image-left and 30 degrees up, small loop nose shadow to the lower right not touching the cheek shadow, sphere highlight upper-left",
+   "checks": [
+    "鼻影是一个小环、偏向画面右下",
+    "鼻影没有和脸颊阴影连上",
+    "球高光在左上"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "rembrandt",
+   "group": "key",
+   "name": {
+    "zh": "伦勃朗光",
+    "ja": "レンブラントライト",
+    "en": "Rembrandt Light",
+    "ko": "렘브란트"
+   },
+   "setting": "on a plinth in front of a seamless mid-grey studio backdrop",
+   "desc": "one key light 45 degrees to image-left and 45 degrees above, no fill, the image-right side of the face in deep shadow except a small lit inverted triangle on the shadow-side cheek under the eye socket, bounded by the nose shadow and the cheek shadow, the sphere half lit with the terminator crossing diagonally",
+   "keep": "key 45 degrees image-left and 45 up, no fill, lit inverted triangle on the shadow-side cheek, nose shadow joining the cheek shadow, diagonal terminator on the sphere",
+   "checks": [
+    "主光左前上 45 度",
+    "暗侧脸颊眼窝下一个倒三角亮区",
+    "鼻影和脸颊阴影连在一起、没有补光"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "split",
+   "group": "key",
+   "name": {
+    "zh": "侧光（分割光）",
+    "ja": "スプリットライト",
+    "en": "Split Light",
+    "ko": "스플릿"
+   },
+   "setting": "on a plinth in front of a seamless mid-grey studio backdrop",
+   "desc": "one hard light exactly 90 degrees to image-left at head height, the face split vertically down the line of the nose: image-left half fully lit, image-right half in deep shadow with no lit patch on that cheek, the sphere exactly half lit",
+   "keep": "hard light 90 degrees image-left at head height, face split down the nose line, no light on the shadow cheek, sphere exactly half lit",
+   "checks": [
+    "光从正左侧 90 度",
+    "脸沿鼻梁一半亮一半暗",
+    "暗侧脸颊没有三角亮区"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "rim",
+   "group": "pattern",
+   "name": {
+    "zh": "轮廓光",
+    "ja": "リムライト",
+    "en": "Rim Light",
+    "ko": "림 라이트"
+   },
+   "setting": "on a plinth in front of a seamless black studio backdrop",
+   "desc": "two hard lights behind the cast, one at image-left rear and one at image-right rear, both 30 degrees above, drawing thin bright edges along both sides of the skull, jaw, neck and shoulders, the face and front almost black, the sphere showing two thin crescent edges",
+   "keep": "two rear lights tracing thin bright edges on both sides of the head and shoulders, near-black face, black backdrop",
+   "checks": [
+    "头、下颌、肩两侧细亮轮廓",
+    "脸部正面几乎全黑",
+    "背景黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "top",
+   "group": "key",
+   "name": {
+    "zh": "顶光",
+    "ja": "トップライト",
+    "en": "Top Light",
+    "ko": "탑 라이트"
+   },
+   "setting": "on a plinth in front of a seamless mid-grey studio backdrop",
+   "desc": "one hard light directly overhead, the top of the skull, the brow ridge, nose bridge and shoulders bright, the eye sockets falling into dark pools, a short shadow straight down under the nose and a dark band under the chin, the sphere lit only on top",
+   "keep": "hard light straight overhead, bright skull top and brow, dark eye-socket pools, short shadows straight down",
+   "checks": [
+    "光从正上方",
+    "眼窝是两团深影",
+    "鼻下、下巴下影子笔直向下"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "under",
+   "group": "key",
+   "name": {
+    "zh": "底光",
+    "ja": "アンダーライト",
+    "en": "Under Light",
+    "ko": "언더 라이트"
+   },
+   "setting": "on a plinth in front of a seamless mid-grey studio backdrop",
+   "desc": "one light low in front of the cast below chin height pointing up, the underside of the chin, the nose and the brow ridge lit, shadows cast upward above the nose and over the forehead, the top of the skull darker than the jaw, an unnatural eerie look, the sphere lit from below",
+   "keep": "light low in front pointing up, lit undersides of chin, nose and brow, upward shadows on the forehead",
+   "checks": [
+    "光从前下方往上",
+    "下巴、鼻底、眉弓底被照亮",
+    "影子向上投到额头"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "clamshell",
+   "group": "pattern",
+   "name": {
+    "zh": "蚌壳光",
+    "ja": "クラムシェル",
+    "en": "Clamshell",
+    "ko": "클램셸"
+   },
+   "setting": "on a plinth in front of a seamless mid-grey studio backdrop",
+   "desc": "a large soft light in front and 40 degrees above plus a soft fill below in front at chest height, very even flattering light on the face, the eye sockets filled in, only a faint shadow under the nose and chin, two catch-like highlights on the sphere (one near the top, one near the bottom)",
+   "keep": "soft key above front plus soft fill below front, even face, filled eye sockets, two sphere highlights",
+   "checks": [
+    "上下两盏柔光",
+    "眼窝被补亮、脸部均匀",
+    "球上下各一个高光"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "three-point",
+   "group": "pattern",
+   "name": {
+    "zh": "三点布光",
+    "ja": "三点照明",
+    "en": "Three-point Lighting",
+    "ko": "3점 조명"
+   },
+   "setting": "on a plinth in front of a seamless mid-grey studio backdrop",
+   "desc": "a soft key 45 degrees to image-left and 30 degrees above, a weaker fill from image-right at camera height keeping the shadow side readable, and a hard hair light from behind and above tracing the top of the skull and the shoulders, moderate contrast, the sphere showing the key highlight upper-left and a faint rim on top",
+   "keep": "soft key 45 degrees image-left, weaker fill from image-right, rear top light on the skull and shoulders",
+   "checks": [
+    "左前主光、右侧阴影仍可读",
+    "右侧较弱补光",
+    "头顶和肩上有背光亮边"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "high-key",
+   "group": "tone",
+   "name": {
+    "zh": "高调",
+    "ja": "ハイキー",
+    "en": "High-key",
+    "ko": "하이키"
+   },
+   "setting": "on a plinth in front of a seamless pure white studio backdrop",
+   "desc": "bright soft light flooding the whole set from the front and both sides, the backdrop pure white, the cast light and airy with only very faint soft shadows beside the nose and under the chin, almost no dark tones",
+   "keep": "bright soft even light everywhere, pure white backdrop, very faint shadows on the face",
+   "checks": [
+    "背景纯白",
+    "脸上几乎没有暗部",
+    "阴影极淡"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "low-key",
+   "group": "tone",
+   "name": {
+    "zh": "低调",
+    "ja": "ローキー",
+    "en": "Low-key",
+    "ko": "로우키"
+   },
+   "setting": "on a plinth in front of a seamless black studio backdrop",
+   "desc": "one narrow soft light 60 degrees to image-left and above, lighting only the image-left planes of the forehead, cheekbone, nose and shoulder and the left side of the sphere, everything else falling into black, the backdrop black",
+   "keep": "one narrow light 60 degrees image-left, only the left face planes lit, black everywhere else",
+   "checks": [
+    "大部分画面是黑色",
+    "只有左侧额头、颧骨、鼻梁几个面被照亮",
+    "背景全黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "silhouette",
+   "group": "tone",
+   "name": {
+    "zh": "剪影",
+    "ja": "シルエット",
+    "en": "Silhouette",
+    "ko": "실루엣"
+   },
+   "setting": "on a plinth in front of a seamless white backdrop that is lit brightly from behind",
+   "desc": "the backdrop evenly bright white, no light on the front of the cast or the sphere, both reading as clean solid dark silhouettes with a crisp profile of head, neck and shoulders",
+   "keep": "bright white backdrop, no front light, clean dark silhouettes of the cast and sphere",
+   "checks": [
+    "背景亮白",
+    "胸像和球是纯黑剪影",
+    "头颈肩轮廓清晰"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

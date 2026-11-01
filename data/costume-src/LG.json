@@ -1,0 +1,203 @@
+{
+  "cat": "LG",
+  "note": "Lingerie and adult party costumes, all suggestive (D-11): lined and opaque, no cut-outs at nipples or crotch, no restraints, nothing school- or minor-coded, no police or military, no real insignia.",
+  "forms": [
+    {
+      "key": "lace-bra-set", "era": "lingerie", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "蕾丝内衣套装", "ja": "レースランジェリーセット", "en": "Lace Bra Set", "ko": "레이스 속옷 세트"},
+      "desc": "a women's lingerie set in {main}: a balconette bra with fully lined opaque cups covered in corded lace, adjustable straps and a centre bow, and a matching high-waisted full-coverage brief with a lined lace front panel and scalloped edges",
+      "keep": "{main} lined lace balconette bra with centre bow, matching high-waisted full-coverage brief, scalloped edges",
+      "checks": ["半杯文胸、罩杯有衬不透", "中心蝴蝶结", "高腰全包内裤", "蕾丝扇贝边"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}},
+        {"key": "wine", "name": {"zh": "酒红", "ja": "ワインレッド", "en": "Wine", "ko": "와인"}, "bg": "light", "vars": {"main": "deep wine red"}}
+      ]
+    },
+    {
+      "key": "garter-set", "era": "lingerie", "gender": "F", "lower": "shoes", "rating": "suggestive",
+      "name": {"zh": "吊袜带套装", "ja": "ガーターセット", "en": "Garter Set", "ko": "가터 세트"},
+      "desc": "a women's garter lingerie set in {main} satin: a lined opaque plunge bra, a wide garter belt sitting at the natural waist with four suspender straps clipped to opaque {main} thigh-high stockings with lace tops, and a matching full-coverage brief worn over the straps, shown down to the feet",
+      "keep": "{main} satin plunge bra, wide waist garter belt with four suspender straps, opaque thigh-high stockings with lace tops, full-coverage brief",
+      "checks": ["腰部宽吊袜带", "四条吊带夹住长筒袜", "长筒袜不透明、袜口蕾丝", "全包内裤"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}},
+        {"key": "red", "name": {"zh": "正红", "ja": "赤", "en": "Red", "ko": "빨강"}, "bg": "light", "vars": {"main": "true red"}}
+      ]
+    },
+    {
+      "key": "babydoll", "era": "lingerie", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "娃娃裙睡衣", "ja": "ベビードール", "en": "Babydoll", "ko": "베이비돌"},
+      "desc": "a women's babydoll in {main}: a lined opaque underwired bust with thin straps, a ribbon tie directly under the bust, and a fully lined opaque flared satin skirt falling to the upper thigh, with a matching full-coverage brief",
+      "keep": "{main} babydoll, lined bust with thin straps, ribbon tie under the bust, opaque flared skirt to the upper thigh, matching brief",
+      "checks": ["胸下系带", "细肩带", "裙摆外张到大腿上部", "面料不透"],
+      "colorways": [
+        {"key": "blush", "name": {"zh": "藕粉", "ja": "ブラッシュピンク", "en": "Blush", "ko": "블러시 핑크"}, "bg": "light", "vars": {"main": "dusty blush pink"}},
+        {"key": "navy", "name": {"zh": "午夜蓝", "ja": "ミッドナイトブルー", "en": "Midnight", "ko": "미드나잇 블루"}, "bg": "light", "vars": {"main": "midnight navy"}}
+      ]
+    },
+    {
+      "key": "corset", "era": "lingerie", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "束腰胸衣", "ja": "コルセット", "en": "Overbust Corset", "ko": "코르셋"},
+      "desc": "a women's overbust corset in {main} satin with vertical boning channels, a sweetheart top edge covering the bust, front busk closure, lacing at the back, and a matching full-coverage brief",
+      "keep": "{main} overbust satin corset with vertical boning, sweetheart top edge, front busk, back lacing, matching brief",
+      "checks": ["覆胸式束腰（盖住胸部）", "竖向鱼骨", "前排扣", "背后系带"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑缎", "ja": "黒サテン", "en": "Black Satin", "ko": "검정 새틴"}, "bg": "light", "vars": {"main": "black"}},
+        {"key": "emerald", "name": {"zh": "祖母绿", "ja": "エメラルド", "en": "Emerald", "ko": "에메랄드"}, "bg": "light", "vars": {"main": "emerald green"}}
+      ]
+    },
+    {
+      "key": "cutout-bodysuit", "era": "lingerie", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "侧腰镂空连体衣", "ja": "サイドカットボディスーツ", "en": "Side-cutout Bodysuit", "ko": "사이드 컷아웃 바디수트"},
+      "desc": "a women's {main} stretch bodysuit with a high round neck, long sleeves and full opaque coverage of the chest and the crotch, with two oval cut-outs only at the sides of the waist and an open back between the shoulder blades",
+      "keep": "{main} long-sleeved high-neck bodysuit, oval cut-outs only at the waist sides, open upper back",
+      "checks": ["高领长袖连体衣", "镂空只在腰两侧和背部", "胸前和裆部完整覆盖", "面料不透"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}},
+        {"key": "mocha", "name": {"zh": "摩卡", "ja": "モカ", "en": "Mocha", "ko": "모카"}, "bg": "light", "vars": {"main": "dark mocha brown"}}
+      ]
+    },
+    {
+      "key": "strappy-set", "era": "lingerie", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "绑带装饰内衣", "ja": "ストラップデザインランジェリー", "en": "Strappy Lingerie Set", "ko": "스트랩 란제리 세트"},
+      "desc": "a women's lingerie set in {main}: a lined opaque bralette with decorative thin straps crossing above the bust and around the ribs, sewn to the garment and fastened with small {metal} rings, and a matching high-waisted brief with strap details at the hips; decorative straps only, no cuffs, no collar, no chains",
+      "keep": "{main} lined bralette with decorative crossing straps and small {metal} rings, matching high-waisted brief with hip straps",
+      "checks": ["胸上方交叉装饰细带", "小金属环", "高腰内裤侧带", "没有手铐、项圈、锁链"],
+      "colorways": [
+        {"key": "black-gold", "name": {"zh": "黑·金扣", "ja": "黒・金", "en": "Black & Gold", "ko": "검정·금색"}, "bg": "light", "vars": {"main": "black", "metal": "gold"}},
+        {"key": "plum-silver", "name": {"zh": "梅紫·银扣", "ja": "プラム・銀", "en": "Plum & Silver", "ko": "자두색·은색"}, "bg": "light", "vars": {"main": "plum", "metal": "silver"}}
+      ]
+    },
+    {
+      "key": "robe-chemise", "era": "lingerie", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "缎面睡袍套装", "ja": "サテンローブセット", "en": "Satin Robe & Chemise", "ko": "새틴 로브 세트"},
+      "desc": "a women's set in {main} satin: a short lined chemise slip with a V-neck and lace trim, ending at mid-thigh, worn under a matching open short kimono-sleeved robe with a tie belt hanging loose, robe hem at mid-thigh",
+      "keep": "{main} mid-thigh lined chemise with V-neck lace trim, matching open short robe with loose tie belt",
+      "checks": ["短款吊带衬裙到大腿中部", "外罩敞开的短睡袍", "腰带松垂", "面料不透"],
+      "colorways": [
+        {"key": "champagne", "name": {"zh": "香槟", "ja": "シャンパン", "en": "Champagne", "ko": "샴페인"}, "bg": "dark", "vars": {"main": "champagne"}},
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}}
+      ]
+    },
+    {
+      "key": "highcut-swim", "era": "swim", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "高叉泳衣", "ja": "ハイレグ水着", "en": "High-cut Swimsuit", "ko": "하이컷 수영복"},
+      "desc": "a women's {main} high-cut one-piece swimsuit with a high leg line reaching the hip bone, a scoop neck, thin straps and a low scoop back, fully lined and opaque",
+      "keep": "{main} high-leg one-piece with scoop neck, thin straps, low scoop back",
+      "checks": ["一件式", "腿口开到髋骨", "细肩带", "低背"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白", "ja": "白", "en": "White", "ko": "흰색"}, "bg": "dark", "vars": {"main": "white"}},
+        {"key": "red", "name": {"zh": "红", "ja": "赤", "en": "Red", "ko": "빨강"}, "bg": "light", "vars": {"main": "red"}}
+      ]
+    },
+    {
+      "key": "cutout-swim", "era": "swim", "gender": "F", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "镂空连体泳衣", "ja": "カットアウト水着", "en": "Cut-out Swimsuit", "ko": "컷아웃 수영복"},
+      "desc": "a women's {main} one-piece swimsuit with a halter neck, a single round cut-out at the centre front just below the bust and above the navel, side cut-outs at the waist, fully lined and opaque everywhere else",
+      "keep": "{main} halter one-piece, round centre cut-out below the bust, waist side cut-outs",
+      "checks": ["挂脖", "胸下正中圆形镂空", "腰侧镂空", "胸部和裆部完整覆盖"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}},
+        {"key": "cobalt", "name": {"zh": "钴蓝", "ja": "コバルトブルー", "en": "Cobalt", "ko": "코발트"}, "bg": "light", "vars": {"main": "cobalt blue"}}
+      ]
+    },
+    {
+      "key": "men-silk-robe", "era": "lingerie", "gender": "M", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "男士丝缎睡袍套装", "ja": "メンズサテンローブ", "en": "Men's Satin Robe Set", "ko": "남성 새틴 로브 세트"},
+      "desc": "a men's {main} satin set: knee-length robe with a shawl collar and piped edges worn open with the belt hanging loose, over matching loose satin boxer shorts ending at mid-thigh",
+      "keep": "{main} open knee-length robe with shawl collar and piping, loose belt, matching satin boxers",
+      "checks": ["敞开的青果领睡袍", "滚边", "腰带松垂", "同色平角短裤"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青", "ja": "紺", "en": "Navy", "ko": "감색"}, "bg": "light", "vars": {"main": "navy"}}
+      ]
+    },
+    {
+      "key": "men-brief-set", "era": "lingerie", "gender": "M", "lower": "hem", "rating": "suggestive",
+      "name": {"zh": "男士内衣套装", "ja": "メンズアンダーウェアセット", "en": "Men's Underwear Set", "ko": "남성 속옷 세트"},
+      "desc": "a men's {main} underwear set: a fitted ribbed tank top and matching trunk-style boxer briefs with a wide plain elastic waistband, opaque cotton",
+      "keep": "{main} ribbed tank and matching trunks with wide plain waistband",
+      "checks": ["罗纹背心", "平角紧身内裤", "宽腰头无字", "面料不透"],
+      "colorways": [
+        {"key": "charcoal", "name": {"zh": "炭灰", "ja": "チャコール", "en": "Charcoal", "ko": "차콜"}, "bg": "light", "vars": {"main": "charcoal grey"}}
+      ]
+    },
+    {
+      "key": "bunny-suit", "era": "roleplay", "gender": "F", "lower": "shoes", "rating": "suggestive",
+      "name": {"zh": "兔女郎装", "ja": "バニースーツ", "en": "Bunny Suit", "ko": "바니 수트"},
+      "desc": "an adult party bunny costume: a strapless {main} satin corseted bodysuit with a straight-across top edge covering the bust and a moderate leg line, a round white tail at the back, a white detached shirt collar with a {main} bow tie, white shirt cuffs at the wrists, opaque black tights and {main} pumps; a {main} bunny-ear headband held upright above the collar",
+      "keep": "{main} strapless corseted bodysuit, white tail, white collar with {main} bow tie, white cuffs, black tights, {main} pumps, bunny-ear headband",
+      "checks": ["抹胸连体衣（盖住胸部）", "白领子配领结", "白袖口", "背后白色兔尾"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}},
+        {"key": "red", "name": {"zh": "红", "ja": "赤", "en": "Red", "ko": "빨강"}, "bg": "light", "vars": {"main": "red"}}
+      ]
+    },
+    {
+      "key": "party-maid", "era": "roleplay", "gender": "F", "lower": "shoes", "rating": "suggestive",
+      "name": {"zh": "派对女仆装", "ja": "パーティーメイド服", "en": "Party Maid Costume", "ko": "파티 메이드 의상"},
+      "desc": "an adult party maid costume: a short {main} dress with puff sleeves, a sweetheart neckline and a flared skirt ending at mid-thigh with a ruffled petticoat edge, a white frilled half apron tied at the waist with a large back bow, white wrist cuffs, opaque black thigh-high stockings and black Mary Jane heels; no cap",
+      "keep": "{main} short puff-sleeved dress, white frilled apron with back bow, white cuffs, black stockings, black heels",
+      "checks": ["短泡袖连衣裙", "白色荷叶边围裙背后大蝴蝶结", "白袖口", "没有学生元素、没有头饰"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑白", "ja": "黒白", "en": "Black & White", "ko": "흑백"}, "bg": "light", "vars": {"main": "black"}},
+        {"key": "navy", "name": {"zh": "藏青白", "ja": "紺白", "en": "Navy & White", "ko": "감색·흰색"}, "bg": "light", "vars": {"main": "navy"}}
+      ]
+    },
+    {
+      "key": "party-nurse", "era": "roleplay", "gender": "F", "lower": "shoes", "rating": "suggestive",
+      "name": {"zh": "派对护士装", "ja": "パーティーナース服", "en": "Party Nurse Costume", "ko": "파티 간호사 의상"},
+      "desc": "an adult party nurse costume: a fitted short white dress with a zip front, short sleeves, {trim} piping along the collar, cuffs and hem, ending at mid-thigh, a {trim} waist belt, white opaque stockings and white heels; no cross, no symbol, no badge, no cap",
+      "keep": "white fitted short zip-front dress with {trim} piping, {trim} belt, white stockings, white heels",
+      "checks": ["白色修身短裙前拉链", "滚边和腰带异色", "没有十字或任何标志", "没有护士帽"],
+      "colorways": [
+        {"key": "pink", "name": {"zh": "白·粉边", "ja": "白・ピンク", "en": "White & Pink", "ko": "흰색·분홍"}, "bg": "dark", "vars": {"trim": "pink"}}
+      ]
+    },
+    {
+      "key": "party-devil", "era": "roleplay", "gender": "F", "lower": "shoes", "rating": "suggestive",
+      "name": {"zh": "小恶魔派对装", "ja": "小悪魔パーティー衣装", "en": "Party Devil Costume", "ko": "파티 악마 의상"},
+      "desc": "an adult party devil costume: a {main} satin corset top covering the bust with a sweetheart edge, a short flared {main} skirt to mid-thigh with a pointed-hem overlay, a thin {main} tail with a spade tip hanging at the back, opaque black tights and black ankle boots; no wings, no horns",
+      "keep": "{main} corset top, short pointed-hem {main} skirt, spade-tipped tail, black tights, black boots",
+      "checks": ["覆胸胸衣", "尖角下摆短裙", "背后桃心尖尾巴", "没有翅膀和角"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "红", "ja": "赤", "en": "Red", "ko": "빨강"}, "bg": "light", "vars": {"main": "red"}},
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black"}}
+      ]
+    },
+    {
+      "key": "party-angel", "era": "roleplay", "gender": "F", "lower": "shoes", "rating": "suggestive",
+      "name": {"zh": "小天使派对装", "ja": "天使パーティー衣装", "en": "Party Angel Costume", "ko": "파티 천사 의상"},
+      "desc": "an adult party angel costume: a white satin halter mini dress with a draped cowl neck covering the bust, a gold cord belt at the natural waist, a lined opaque layered skirt ending at mid-thigh, white opaque stockings and gold sandals; no wings, no halo",
+      "keep": "white halter mini dress with cowl neck, gold cord belt, layered skirt to mid-thigh, white stockings, gold sandals",
+      "checks": ["白色挂脖短裙", "金色细腰绳", "多层裙摆到大腿中部", "没有翅膀和光环"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白·金", "ja": "白・金", "en": "White & Gold", "ko": "흰색·금색"}, "bg": "dark", "vars": {}}
+      ]
+    },
+    {
+      "key": "party-stewardess", "era": "roleplay", "gender": "F", "lower": "shoes", "rating": "suggestive",
+      "name": {"zh": "空乘风派对装", "ja": "CA風パーティー衣装", "en": "Party Stewardess Costume", "ko": "승무원 파티 의상"},
+      "desc": "an adult party stewardess costume: a fitted short {main} sheath dress with a V-neck and gold buttons, cap sleeves, a contrasting {scarf} silk neckerchief tied at the side of the neck, hem at mid-thigh, opaque tights and {main} pumps; no wings badge, no airline logo, no name tag, no hat",
+      "keep": "{main} fitted short sheath dress with gold buttons, {scarf} neckerchief, opaque tights, {main} pumps",
+      "checks": ["修身短款连衣裙金扣", "颈侧系丝巾", "没有航司标识和胸牌", "没有帽子"],
+      "colorways": [
+        {"key": "navy", "name": {"zh": "藏青·红巾", "ja": "紺・赤スカーフ", "en": "Navy & Red", "ko": "감색·빨강"}, "bg": "light", "vars": {"main": "navy", "scarf": "red"}}
+      ]
+    },
+    {
+      "key": "party-cheer", "era": "roleplay", "gender": "F", "lower": "shoes", "rating": "suggestive",
+      "name": {"zh": "啦啦队风派对装", "ja": "チア風パーティー衣装", "en": "Party Cheer Costume", "ko": "치어 파티 의상"},
+      "desc": "an adult party cheer-style costume: a fitted sleeveless {main} crop top with a V-neck and {trim} chevron stripes, a pleated {main} mini skirt with {trim} hem stripes, and white sneakers with ankle socks; plain, no letters, no numbers, no school name, no emblem",
+      "keep": "{main} sleeveless crop top with {trim} chevrons, pleated {main} mini skirt with {trim} stripes, white sneakers",
+      "checks": ["无袖 V 领短上衣", "百褶短裙", "没有字母、数字、校名", "成人剪裁"],
+      "colorways": [
+        {"key": "red-white", "name": {"zh": "红白", "ja": "赤白", "en": "Red & White", "ko": "빨강·흰색"}, "bg": "light", "vars": {"main": "red", "trim": "white"}}
+      ]
+    }
+  ],
+  "eras": {
+    "lingerie": {"zh": "内衣", "ja": "ランジェリー", "en": "Lingerie", "ko": "란제리"},
+    "swim": {"zh": "泳装", "ja": "水着", "en": "Swim", "ko": "수영복"},
+    "roleplay": {"zh": "派对角色装", "ja": "パーティー衣装", "en": "Party Role-play", "ko": "파티 의상"}
+  }
+}

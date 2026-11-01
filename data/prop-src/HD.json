@@ -1,0 +1,132 @@
+{
+  "cat": "HD",
+  "note": "Handheld and sports gear a figure holds, wears or rides: kept to things whose grip, strap or stance is hard to describe in words (docs/prop/PLAN.md §3).",
+  "groups": {
+    "carry": {"zh": "伞与花", "ja": "傘・花", "en": "Umbrellas & Flowers", "ko": "우산·꽃"},
+    "camera": {"zh": "相机", "ja": "カメラ", "en": "Cameras", "ko": "카메라"},
+    "audio": {"zh": "音频", "ja": "オーディオ", "en": "Audio", "ko": "오디오"},
+    "sport": {"zh": "运动器材", "ja": "スポーツ用品", "en": "Sports Gear", "ko": "스포츠 용품"}
+  },
+  "forms": [
+    {
+      "key": "umbrella-open", "group": "carry", "place": "float", "size": "L",
+      "name": {"zh": "长柄伞（撑开）", "ja": "長傘（開き）", "en": "Long Umbrella, Open", "ko": "장우산（펼침）"},
+      "desc": "an opened long stick umbrella held upright, a domed {canopy} canopy of exactly eight panels stretched over eight ribs with a small metal tip at the end of each rib and a short finial on top, a straight shaft down the centre to a J-shaped crook handle in {handle}, no pattern, no logo",
+      "keep": "open umbrella, domed {canopy} canopy of eight panels on eight ribs, rib tips, top finial, straight central shaft, J-shaped {handle} crook handle, no logo",
+      "checks": ["撑开状态、八片伞面八根伞骨", "中间直杆、J 形弯柄", "伞面素色", "没有 logo"],
+      "variants": [
+        {"key": "red", "name": {"zh": "红色", "ja": "赤", "en": "Red", "ko": "레드"}, "vars": {"canopy": "solid scarlet red", "handle": "natural wood"}}
+      ]
+    },
+    {
+      "key": "bouquet", "group": "carry", "place": "float", "size": "M",
+      "name": {"zh": "纸包花束", "ja": "紙包みの花束", "en": "Wrapped Bouquet", "ko": "꽃다발"},
+      "desc": "a hand-tied bouquet held upright with the flowers at the top: {flowers} with a few green leaves, wrapped in a cone of {paper} paper folded in overlapping layers and tied at the narrow base with a {ribbon} ribbon bow, the stems' cut ends just showing below the wrap, no card, no tag, no printing",
+      "keep": "upright bouquet, {flowers}, cone of {paper} paper in overlapping layers, {ribbon} ribbon bow at the base, cut stem ends below, no card, no printing",
+      "checks": ["花朝上、纸包成锥形", "底部一个丝带结", "没有卡片和印字包装纸", "花材与配色一致"],
+      "variants": [
+        {"key": "roses", "name": {"zh": "红玫瑰", "ja": "赤いバラ", "en": "Red Roses", "ko": "빨간 장미"}, "vars": {"flowers": "about a dozen deep red roses", "paper": "plain brown kraft", "ribbon": "cream satin"}}
+      ]
+    },
+    {
+      "key": "film-slr", "group": "camera", "probe": true, "place": "float", "size": "S",
+      "name": {"zh": "35mm 胶片单反", "ja": "35mm フィルム一眼レフ", "en": "35mm Film SLR", "ko": "35mm 필름 SLR"},
+      "desc": "a generic 1970s 35mm film SLR camera with a {body} metal body and black leatherette covering, a pointed pentaprism hump on top with no nameplate, a film-advance lever, a shutter-speed dial and a rewind crank on the top plate, and a black 50 mm prime lens with a knurled focus ring, lens cap off, no brand name, no engraved numbers readable",
+      "keep": "{body} metal body with black leatherette, pentaprism hump with no nameplate, advance lever, speed dial and rewind crank on top, black 50 mm lens with knurled focus ring, no brand name",
+      "checks": ["顶部五棱镜凸起，没有铭牌", "过片扳手、速度盘、倒片摇柄", "一支 50mm 定焦镜头", "机身没有品牌字样"],
+      "variants": [
+        {"key": "chrome", "name": {"zh": "银黑", "ja": "シルバー", "en": "Chrome", "ko": "실버"}, "vars": {"body": "satin chrome"}}
+      ]
+    },
+    {
+      "key": "instant-camera", "group": "camera", "place": "float", "size": "S",
+      "name": {"zh": "拍立得相机", "ja": "インスタントカメラ", "en": "Instant Camera", "ko": "즉석 카메라"},
+      "desc": "a generic chunky instant-film camera with a rounded rectangular {colour} plastic body, one large round lens barrel at the centre of the front, a small rectangular optical viewfinder window at the upper left, a round flash window at the upper right, a wide horizontal print-exit slot across the top edge, no rainbow stripe, no brand name, no printed markings",
+      "keep": "rounded rectangular {colour} body, one large centred lens barrel, small viewfinder window upper left, round flash window upper right, print slot across the top, no stripe, no brand name",
+      "checks": ["正中一个大圆镜头", "左上取景窗、右上闪光灯", "顶部出相纸口", "没有彩虹条纹、品牌和文字"],
+      "variants": [
+        {"key": "mint", "name": {"zh": "薄荷绿", "ja": "ミント", "en": "Mint", "ko": "민트"}, "vars": {"colour": "pastel mint green"}}
+      ]
+    },
+    {
+      "key": "headphones", "group": "audio", "place": "float", "size": "S",
+      "name": {"zh": "头戴耳机", "ja": "ヘッドホン", "en": "Over-ear Headphones", "ko": "헤드폰"},
+      "desc": "a pair of generic over-ear headphones standing upright as if worn by an invisible head: a padded {band} headband, two slim metal sliders, two oval {cup} ear cups with thick {pad} protein-leather cushions facing each other, no cable, no logo on the cups",
+      "keep": "padded {band} headband, two metal sliders, two oval {cup} ear cups with thick {pad} cushions facing inward, upright, no cable, no logo",
+      "checks": ["两个椭圆耳罩、相对", "头梁加两根滑杆", "没有线", "耳罩上没有 logo"],
+      "variants": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "블랙"}, "vars": {"band": "black", "cup": "matte black", "pad": "black"}}
+      ]
+    },
+    {
+      "key": "stage-mic", "group": "audio", "place": "float", "size": "S",
+      "name": {"zh": "手持舞台麦克风", "ja": "ハンドマイク", "en": "Handheld Stage Microphone", "ko": "핸드 마이크"},
+      "desc": "a generic handheld dynamic stage microphone held vertically with the head up: a round {grille} steel mesh ball grille on top, a {body} tapered metal handle narrowing toward the bottom, one small flush on-off switch, and a plain cable socket at the base with no cable attached, no brand name",
+      "keep": "vertical microphone, round {grille} mesh ball grille on top, tapered {body} handle, one small flush switch, cable socket at the base, no cable, no brand name",
+      "checks": ["球形网罩朝上", "锥形手柄", "不带线", "没有品牌字样"],
+      "variants": [
+        {"key": "black", "name": {"zh": "黑色", "ja": "黒", "en": "Black", "ko": "블랙"}, "vars": {"grille": "dark grey", "body": "matte black"}}
+      ]
+    },
+    {
+      "key": "vintage-mic", "group": "audio", "place": "float", "size": "M",
+      "name": {"zh": "复古电容麦", "ja": "ヴィンテージマイク", "en": "Vintage Condenser Microphone", "ko": "빈티지 콘덴서 마이크"},
+      "desc": "a vintage-style large condenser microphone in polished {metal}: a tall capsule-shaped body with a rounded top whose upper half is a fine woven mesh head and lower half a solid cylinder, mounted in a U-shaped yoke with two side knobs, floating upright with no stand, no cable, no badge and no lettering",
+      "keep": "polished {metal} capsule-shaped body, mesh upper half, solid lower half, U-shaped yoke with two side knobs, upright, no stand, no badge, no lettering",
+      "checks": ["胶囊形机身、上半部网罩", "U 形支架两侧旋钮", "没有落地支架和线", "没有铭牌和字"],
+      "variants": [
+        {"key": "chrome", "name": {"zh": "亮铬", "ja": "クローム", "en": "Chrome", "ko": "크롬"}, "vars": {"metal": "chrome"}}
+      ]
+    },
+    {
+      "key": "tennis-racket", "group": "sport", "place": "float", "size": "M",
+      "name": {"zh": "网球拍", "ja": "テニスラケット", "en": "Tennis Racket", "ko": "테니스 라켓"},
+      "desc": "a modern tennis racket held vertically with the head at the top, the string face toward the camera: an oval head in {frame} graphite, an open triangular throat, a tight grid of {string} strings (sixteen vertical, nineteen horizontal), a straight shaft ending in a black wrapped grip with a flat butt cap, no lettering or stencil on the frame or strings",
+      "keep": "{frame} graphite oval head, open triangular throat, {string} string grid, black wrapped grip, no lettering",
+      "checks": ["椭圆拍框、拍喉三角镂空", "拍线纵横网格", "黑色缠绕握把", "拍框和拍线上没有字或标志"],
+      "variants": [
+        {"key": "black-yellow", "name": {"zh": "黑框黄线", "ja": "黒フレーム・黄ガット", "en": "Black & Yellow", "ko": "블랙·옐로"}, "vars": {"frame": "matte black", "string": "pale yellow"}}
+      ]
+    },
+    {
+      "key": "skateboard", "group": "sport", "place": "float", "size": "M",
+      "name": {"zh": "滑板", "ja": "スケートボード", "en": "Skateboard", "ko": "스케이트보드"},
+      "desc": "a standard street skateboard, wheels down: a seven-ply maple deck with an upturned kicktail at each end, plain black grip tape on top, two silver metal trucks each with two {wheel} urethane wheels (four wheels total), and a plain natural-maple underside with no graphic, no logo, no lettering",
+      "keep": "seven-ply maple deck with two kicktails, plain black grip tape, two silver trucks, four {wheel} wheels, plain maple underside",
+      "checks": ["两端翘起的板头板尾", "顶面纯黑砂纸", "两个支架四个轮子", "板底素面、没有图案"],
+      "variants": [
+        {"key": "maple", "name": {"zh": "原木白轮", "ja": "メープル・白ウィール", "en": "Maple & White", "ko": "메이플·화이트"}, "vars": {"wheel": "off-white"}}
+      ]
+    },
+    {
+      "key": "surfboard", "group": "sport", "place": "stand", "size": "L",
+      "name": {"zh": "长板冲浪板", "ja": "ロングボード", "en": "Longboard Surfboard", "ko": "롱보드 서프보드"},
+      "desc": "a 9-foot longboard surfboard standing upright on its tail, deck facing the camera, rounded nose at the top: a glossy {colour} resin finish, a thin dark wooden stringer running from nose to tail down the centre, soft rounded rails, and a single centre fin on the underside near the tail, no leash, no wax pattern, no logo, no lettering",
+      "keep": "9-foot longboard upright on its tail, rounded nose, glossy {colour} finish, thin dark wooden centre stringer, single centre fin underneath, no leash",
+      "checks": ["长板、圆头", "中间一条深色木龙骨线", "底部一个尾鳍", "没有脚绳、没有字和标志"],
+      "variants": [
+        {"key": "seafoam", "name": {"zh": "薄荷绿", "ja": "シーフォーム", "en": "Seafoam", "ko": "씨폼"}, "vars": {"colour": "seafoam green"}}
+      ]
+    },
+    {
+      "key": "roller-skate", "group": "sport", "probe": true, "place": "float", "size": "M",
+      "name": {"zh": "复古四轮旱冰鞋", "ja": "クアッドローラースケート", "en": "Quad Roller Skate", "ko": "쿼드 롤러스케이트"},
+      "desc": "a single right-foot retro quad roller skate: a high-top {boot} leather boot laced with white laces through eight pairs of eyelets, a silver metal plate under the sole, two axles carrying four {wheel} wheels in two pairs (two at the front, two at the back), and one round rubber toe stop under the toe, no logo, no lettering",
+      "keep": "single high-top {boot} leather boot, white laces, silver plate, four {wheel} wheels in two pairs, one round toe stop",
+      "checks": ["只有一只鞋", "四个轮子、前后各两个", "鞋头下方一个圆刹车块", "没有标志"],
+      "variants": [
+        {"key": "white-pink", "name": {"zh": "白鞋粉轮", "ja": "白ブーツ・ピンク", "en": "White & Pink", "ko": "화이트·핑크"}, "bg": "dark", "vars": {"boot": "white", "wheel": "pastel pink"}}
+      ]
+    },
+    {
+      "key": "city-bike", "group": "sport", "probe": true, "place": "stand", "size": "L",
+      "name": {"zh": "城市自行车", "ja": "シティサイクル", "en": "City Bicycle", "ko": "시티 자전거"},
+      "desc": "a classic city bicycle standing upright on its kickstand: a step-through {frame} steel frame, two equal 28-inch wheels each with thirty-two thin silver spokes and black tyres, upswept handlebars with brown grips, a brown sprung leather saddle, full chrome mudguards over both wheels, a single front chainring and rear sprocket joined by a chain under a chain guard, two pedals, a small flat rear rack, no basket, no lights, no lettering or decals on the frame",
+      "keep": "step-through {frame} steel frame, two equal spoked wheels, upswept bars with brown grips, brown sprung saddle, chrome mudguards, chain guard, flat rear rack, kickstand down, no decals",
+      "checks": ["车架结构合理（两轮一样大、链条接到后轮）", "低跨式车架、弯把", "前后挡泥板、链罩", "车架上没有字和贴标"],
+      "variants": [
+        {"key": "mint", "name": {"zh": "薄荷绿", "ja": "ミントグリーン", "en": "Mint Green", "ko": "민트 그린"}, "vars": {"frame": "mint green"}}
+      ]
+    }
+  ]
+}

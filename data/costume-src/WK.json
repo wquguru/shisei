@@ -1,0 +1,189 @@
+{
+  "cat": "WK",
+  "note": "Workwear & uniforms set. Generic, modest workwear only: no real institution, airline, company or country insignia, badges, flags or name tags; no police or military; no hats, no tools, no sexualised variants (PLAN §4.6).",
+  "forms": [
+    {
+      "key": "doctor-coat", "era": "medical", "gender": "U", "lower": "shoes",
+      "name": {"zh": "医生白大褂", "ja": "医師の白衣", "en": "Doctor's White Coat", "ko": "의사 가운"},
+      "desc": "a doctor's work outfit: a knee-length white cotton-twill white coat worn open, with notched lapels, long sleeves, a single row of four white buttons, two lower patch pockets and a chest pocket, all plain with no badge, name tag or embroidery, over a {shirt} collared shirt and slim {pants} trousers, with {shoes} leather shoes",
+      "keep": "knee-length white coat worn open, notched lapels, four buttons, three patch pockets, no badge, {shirt} shirt, {pants} trousers, {shoes} shoes",
+      "checks": ["及膝白大褂敞开穿", "翻驳领、三个贴袋", "里面衬衫和长裤", "无胸牌无刺绣无听诊器"],
+      "colorways": [
+        {"key": "blue-navy", "name": {"zh": "浅蓝衬衫·藏青裤", "ja": "水色シャツ・紺パンツ", "en": "Blue Shirt & Navy", "ko": "하늘색 셔츠·감색 바지"}, "bg": "dark", "vars": {"shirt": "pale blue", "pants": "navy blue", "shoes": "black"}},
+        {"key": "grey-charcoal", "name": {"zh": "灰衬衫·炭灰裤", "ja": "グレーシャツ・チャコール", "en": "Grey Shirt & Charcoal", "ko": "회색 셔츠·차콜"}, "bg": "dark", "vars": {"shirt": "light grey", "pants": "charcoal grey", "shoes": "dark brown"}}
+      ]
+    },
+    {
+      "key": "scrubs", "era": "medical", "gender": "U", "lower": "shoes",
+      "name": {"zh": "手术服", "ja": "スクラブ", "en": "Surgical Scrubs", "ko": "수술복"},
+      "desc": "a set of medical scrubs: a loose short-sleeved {main} scrub top with a V-neck, one chest pocket and two lower patch pockets, and matching straight-leg {main} scrub trousers with a drawstring waist, in smooth poly-cotton with no print, badge or name tag, with {shoes} closed slip-on clogs",
+      "keep": "short-sleeved V-neck {main} scrub top with three pockets, straight {main} drawstring trousers, {shoes} clogs, no badge",
+      "checks": ["短袖 V 领手术上衣", "胸袋和两个下袋", "抽绳直筒裤", "包头洞洞鞋"],
+      "colorways": [
+        {"key": "ceil", "name": {"zh": "浅天蓝", "ja": "セイルブルー", "en": "Ceil Blue", "ko": "연하늘색"}, "bg": "light", "vars": {"main": "ceil blue", "shoes": "white"}},
+        {"key": "green", "name": {"zh": "手术绿", "ja": "手術グリーン", "en": "Surgical Green", "ko": "수술 그린"}, "bg": "light", "vars": {"main": "surgical green", "shoes": "navy blue"}}
+      ]
+    },
+    {
+      "key": "nurse-f", "era": "medical", "gender": "F", "lower": "shoes",
+      "name": {"zh": "护士服", "ja": "看護師の制服", "en": "Nurse's Uniform", "ko": "간호사복"},
+      "desc": "a plain modest women's nurse uniform: a loose hip-length {tunic} tunic with a short stand collar, a centre front zip, short sleeves reaching the elbow, {trim} piping along the collar and pocket edges and two lower patch pockets, over loose straight {pants} trousers, in matte poly-cotton with no badge, name tag or cross symbol, with {shoes} closed slip-on nursing shoes",
+      "keep": "loose hip-length {tunic} tunic with stand collar, front zip, elbow sleeves, {trim} piping, loose {pants} trousers, {shoes} nursing shoes, no badge or cross",
+      "checks": ["宽松及胯立领上衣配长裤（朴素款）", "前中拉链、短袖到肘", "领口和口袋滚边", "无胸牌、无十字标志"],
+      "colorways": [
+        {"key": "white-blue", "name": {"zh": "白·浅蓝边", "ja": "白・水色", "en": "White & Light Blue", "ko": "흰색·하늘색"}, "bg": "dark", "vars": {"tunic": "white", "trim": "light blue", "pants": "white", "shoes": "white"}},
+        {"key": "pink", "name": {"zh": "浅粉", "ja": "ペールピンク", "en": "Pale Pink", "ko": "연분홍"}, "bg": "light", "vars": {"tunic": "pale pink", "trim": "white", "pants": "pale pink", "shoes": "white"}}
+      ]
+    },
+    {
+      "key": "chef", "era": "food", "gender": "U", "lower": "shoes",
+      "name": {"zh": "厨师服", "ja": "コックコート", "en": "Chef's Whites", "ko": "조리복"},
+      "desc": "a chef's uniform: a hip-length {jacket} double-breasted chef jacket with a short stand collar, two vertical rows of five {button} knot buttons, long sleeves turned back at the cuff, in thick cotton drill, a knee-length {apron} waist apron tied at the front, and {pants} chef trousers, with black non-slip kitchen clogs, no hat, no neckerchief, no embroidery",
+      "keep": "hip-length {jacket} double-breasted chef jacket with stand collar and two rows of {button} knot buttons, knee-length {apron} waist apron, {pants} trousers, black clogs, no hat",
+      "checks": ["双排扣厨师上衣、立领", "两列布结扣", "及膝腰围裙前面系结", "无厨师帽"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白·千鸟格裤", "ja": "白・千鳥格子", "en": "White & Houndstooth", "ko": "흰색·하운드투스"}, "bg": "dark", "vars": {"jacket": "white", "button": "white", "apron": "white", "pants": "black-and-white houndstooth"}},
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"jacket": "black", "button": "black", "apron": "charcoal grey", "pants": "black"}}
+      ]
+    },
+    {
+      "key": "barista", "era": "food", "gender": "U", "lower": "shoes",
+      "name": {"zh": "咖啡师围裙装", "ja": "バリスタエプロン", "en": "Barista Apron Outfit", "ko": "바리스타 앞치마"},
+      "desc": "a barista's work outfit: a knee-length {apron} canvas bib apron with leather neck and cross-back straps, brass rivets at the corners and a wide divided front pocket, worn over a {shirt} shirt with the sleeves rolled to the elbow and slim {pants} trousers, with {shoes} leather shoes, plain with no logo or text",
+      "keep": "knee-length {apron} canvas bib apron with leather straps crossing at the back, brass rivets, divided front pocket, {shirt} rolled-sleeve shirt, {pants} trousers, {shoes} shoes",
+      "checks": ["及膝帆布挂脖围裙", "背后皮带交叉", "铆钉、分格大口袋", "衬衫袖子卷到肘"],
+      "colorways": [
+        {"key": "denim", "name": {"zh": "牛仔蓝·白", "ja": "デニム・白", "en": "Denim & White", "ko": "데님·흰색"}, "bg": "light", "vars": {"apron": "denim blue", "shirt": "white oxford", "pants": "black", "shoes": "brown"}},
+        {"key": "tan", "name": {"zh": "驼色·黑", "ja": "キャメル・黒", "en": "Tan & Black", "ko": "탄·검정"}, "bg": "light", "vars": {"apron": "tan brown", "shirt": "black", "pants": "khaki", "shoes": "black"}}
+      ]
+    },
+    {
+      "key": "waiter-m", "era": "food", "gender": "M", "lower": "shoes",
+      "name": {"zh": "餐厅侍应", "ja": "ウェイター", "en": "Waiter's Uniform", "ko": "웨이터 유니폼"},
+      "desc": "a men's restaurant waiter uniform: a white long-sleeved dress shirt with a {tie} bow tie, a fitted {vest} five-button waistcoat, slim {pants} trousers, and a long {apron} bistro apron wrapped around the waist reaching the shin with ties at the front, with polished black shoes, no name tag",
+      "keep": "white shirt, {tie} bow tie, {vest} five-button waistcoat, {pants} trousers, long {apron} bistro apron to the shin, black shoes",
+      "checks": ["白衬衫配领结", "五粒扣马甲", "长及小腿的腰围裙", "黑皮鞋"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"tie": "black", "vest": "black", "pants": "black", "apron": "black"}},
+        {"key": "burgundy", "name": {"zh": "酒红·黑", "ja": "ボルドー・黒", "en": "Burgundy & Black", "ko": "버건디·검정"}, "bg": "light", "vars": {"tie": "burgundy", "vest": "burgundy", "pants": "black", "apron": "white"}}
+      ]
+    },
+    {
+      "key": "flight-attendant-f", "era": "transport", "gender": "F", "lower": "shoes",
+      "name": {"zh": "空乘制服", "ja": "客室乗務員の制服", "en": "Flight Attendant Uniform", "ko": "승무원 유니폼"},
+      "desc": "a generic women's flight attendant uniform: a fitted hip-length {jacket} jacket with a notched collar, a single row of three plain buttons and long sleeves, over a white blouse, a knee-length straight {jacket} pencil skirt with a short back vent, and a small {scarf} silk scarf knotted at the side of the neck, with {shoes} low-heeled court shoes, no wings badge, logo, insignia or name tag",
+      "keep": "fitted {jacket} jacket with three plain buttons, white blouse, knee-length {jacket} pencil skirt, {scarf} neck scarf knotted at the side, {shoes} low heels, no badge",
+      "checks": ["收腰单排三粒扣外套", "及膝铅笔裙", "颈侧打结小丝巾", "无航司徽章、翅膀标和名牌"],
+      "colorways": [
+        {"key": "navy-red", "name": {"zh": "藏青·红巾", "ja": "紺・赤スカーフ", "en": "Navy & Red Scarf", "ko": "감색·빨간 스카프"}, "bg": "light", "vars": {"jacket": "navy blue", "scarf": "red", "shoes": "navy blue"}},
+        {"key": "teal-gold", "name": {"zh": "孔雀蓝·金巾", "ja": "ティール・金スカーフ", "en": "Teal & Gold Scarf", "ko": "청록·금색 스카프"}, "bg": "light", "vars": {"jacket": "deep teal", "scarf": "gold and white", "shoes": "black"}}
+      ]
+    },
+    {
+      "key": "pilot", "era": "transport", "gender": "U", "lower": "shoes",
+      "name": {"zh": "机长制服", "ja": "パイロットの制服", "en": "Pilot Uniform", "ko": "기장 제복"},
+      "desc": "a generic airline pilot uniform: a {jacket} double-breasted uniform jacket with peaked lapels, six {stripe} buttons and four {stripe} braid stripes around each cuff, over a white shirt with plain shoulder epaulettes and a {tie} tie, and straight {jacket} trousers, with black leather shoes, no wings badge, logo, insignia, flag or name tag",
+      "keep": "{jacket} double-breasted jacket with peaked lapels, six {stripe} buttons, four {stripe} cuff stripes, white shirt, {tie} tie, {jacket} trousers, black shoes, no badge",
+      "checks": ["双排扣制服外套、戗驳领", "袖口四道杠", "白衬衫打领带", "无飞行徽章、航司标和国旗"],
+      "colorways": [
+        {"key": "navy-gold", "name": {"zh": "藏青·金", "ja": "紺・金", "en": "Navy & Gold", "ko": "감색·금색"}, "bg": "light", "vars": {"jacket": "navy blue", "stripe": "gold", "tie": "navy blue"}},
+        {"key": "black-silver", "name": {"zh": "黑·银", "ja": "黒・銀", "en": "Black & Silver", "ko": "검정·은색"}, "bg": "light", "vars": {"jacket": "black", "stripe": "silver", "tie": "black"}}
+      ]
+    },
+    {
+      "key": "firefighter", "era": "emergency", "gender": "U", "lower": "shoes",
+      "name": {"zh": "消防战斗服", "ja": "消防防火服", "en": "Firefighter Turnout Gear", "ko": "소방 방화복"},
+      "desc": "a firefighter's turnout gear: a thick, stiff, thigh-length {main} turnout coat with a high stand collar, a front closure under a wide storm flap fastened with metal hooks, large bellows pockets, and {band} reflective bands around the chest, hem and sleeves, over matching {main} turnout trousers held by red suspenders, with {band} reflective bands around the shins, in heavy flame-resistant canvas that holds a boxy shape, with black rubber firefighting boots, no helmet, no lettering, no badge",
+      "keep": "thick thigh-length {main} turnout coat with high collar, storm flap, bellows pockets and {band} reflective bands, {main} turnout trousers with suspenders and shin bands, black boots, no lettering",
+      "checks": ["厚硬及大腿的防火外套、高立领", "胸、下摆、袖口反光带", "同色防火裤配吊带", "黑色胶靴、背后无字"],
+      "colorways": [
+        {"key": "tan", "name": {"zh": "沙褐", "ja": "タン", "en": "Tan", "ko": "황갈색"}, "bg": "light", "vars": {"main": "tan khaki", "band": "yellow and silver"}},
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"main": "black", "band": "lime yellow and silver"}}
+      ]
+    },
+    {
+      "key": "construction-m", "era": "trades", "gender": "M", "lower": "shoes",
+      "name": {"zh": "工装·反光背心", "ja": "作業着・安全ベスト", "en": "Workwear & Hi-Vis Vest", "ko": "작업복·안전 조끼"},
+      "desc": "a men's construction work outfit: a {vest} high-visibility safety vest with a zip front and two horizontal silver reflective stripes around the body and two over the shoulders, worn over a long-sleeved {shirt} work shirt, and {pants} heavy cotton-canvas work trousers with knee-pad pockets and cargo pockets, with tan leather steel-toe work boots, no lettering, logo or tools",
+      "keep": "{vest} hi-vis vest with silver reflective stripes, long-sleeved {shirt} work shirt, {pants} canvas work trousers with knee-pad pockets, tan work boots",
+      "checks": ["荧光安全背心带银色反光条", "长袖工作衬衫", "带护膝袋的帆布工装裤", "钢头工作靴"],
+      "colorways": [
+        {"key": "orange", "name": {"zh": "荧光橙", "ja": "蛍光オレンジ", "en": "Hi-Vis Orange", "ko": "형광 주황"}, "bg": "light", "vars": {"vest": "fluorescent orange", "shirt": "navy blue", "pants": "navy blue"}},
+        {"key": "yellow", "name": {"zh": "荧光黄", "ja": "蛍光イエロー", "en": "Hi-Vis Yellow", "ko": "형광 노랑"}, "bg": "light", "vars": {"vest": "fluorescent yellow", "shirt": "grey", "pants": "charcoal grey"}}
+      ]
+    },
+    {
+      "key": "gardener", "era": "trades", "gender": "U", "lower": "shoes",
+      "name": {"zh": "园丁工作服", "ja": "庭師の作業着", "en": "Gardener's Workwear", "ko": "정원사 작업복"},
+      "desc": "a gardener's work outfit: a long-sleeved {shirt} work shirt with the sleeves rolled to the forearm, {pants} heavy canvas work trousers with reinforced knee panels, and a {apron} waxed-canvas waist apron reaching mid-thigh with a row of deep empty pockets, with {boots} calf-high rubber garden boots, no gloves, no tools",
+      "keep": "{shirt} rolled-sleeve work shirt, {pants} canvas trousers with knee panels, {apron} mid-thigh waist apron with empty pockets, {boots} rubber boots",
+      "checks": ["卷袖工作衬衫", "膝部加固的帆布裤", "大腿中部长的腰围裙一排空口袋", "及小腿胶靴、无工具"],
+      "colorways": [
+        {"key": "plaid-olive", "name": {"zh": "格纹·橄榄", "ja": "チェック・オリーブ", "en": "Plaid & Olive", "ko": "체크·올리브"}, "bg": "light", "vars": {"shirt": "red-and-green plaid flannel", "pants": "olive green", "apron": "brown", "boots": "dark green"}},
+        {"key": "chambray-tan", "name": {"zh": "青年布·卡其", "ja": "シャンブレー・ベージュ", "en": "Chambray & Tan", "ko": "샴브레이·탄"}, "bg": "light", "vars": {"shirt": "chambray blue", "pants": "tan", "apron": "olive green", "boots": "black"}}
+      ]
+    },
+    {
+      "key": "painter-overalls", "era": "trades", "gender": "U", "lower": "shoes",
+      "name": {"zh": "画家工作服", "ja": "ペインターオーバーオール", "en": "Painter's Overalls", "ko": "페인터 작업복"},
+      "desc": "painter's work overalls: loose {main} cotton-canvas bib overalls with adjustable shoulder straps and metal buckles, a bib pocket, a hammer loop and wide straight legs rolled once at the ankle, lightly marked with a scatter of small {paint} paint spots, worn over a {tee} short-sleeved T-shirt, with {shoes} canvas sneakers, no brushes or tools",
+      "keep": "loose {main} bib overalls with buckled straps and bib pocket, small {paint} paint spots, legs rolled once at the ankle, {tee} T-shirt, {shoes} canvas sneakers",
+      "checks": ["宽松背带裤、金属扣肩带", "胸前口袋", "零星小颜料点", "裤脚卷一道、帆布鞋"],
+      "colorways": [
+        {"key": "cream", "name": {"zh": "米白·彩点", "ja": "生成り・カラフル", "en": "Cream & Colour Spots", "ko": "크림·컬러 얼룩"}, "bg": "dark", "vars": {"main": "cream", "paint": "blue, yellow and red", "tee": "grey", "shoes": "white"}},
+        {"key": "denim", "name": {"zh": "牛仔蓝·白点", "ja": "デニム・白", "en": "Denim & White Spots", "ko": "데님·흰 얼룩"}, "bg": "light", "vars": {"main": "mid-blue denim", "paint": "white", "tee": "white", "shoes": "black"}}
+      ]
+    },
+    {
+      "key": "lab-coat", "era": "science", "gender": "U", "lower": "shoes",
+      "name": {"zh": "实验服", "ja": "実験用白衣", "en": "Lab Coat", "ko": "실험복"},
+      "desc": "a laboratory work outfit: a knee-length white lab coat fully closed with a front row of five white snap fasteners up to a short convertible collar, long sleeves ending in close-fitting white knit cuffs, two lower patch pockets and a chest pocket, in thick white poly-cotton with no badge or name tag, over {pants} straight trousers, with {shoes} closed-toe leather shoes",
+      "keep": "knee-length white lab coat fully closed with snaps to the collar, knit cuffs, three pockets, {pants} trousers, {shoes} closed shoes, no badge",
+      "checks": ["及膝白色实验服全扣合", "按扣门襟到领口", "罗纹针织袖口", "无胸牌"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白·深灰裤", "ja": "白・ダークグレー", "en": "White & Dark Grey", "ko": "흰색·짙은 회색"}, "bg": "dark", "vars": {"pants": "dark grey", "shoes": "black"}}
+      ]
+    },
+    {
+      "key": "astronaut-eva", "era": "science", "gender": "U", "lower": "shoes",
+      "name": {"zh": "舱外宇航服", "ja": "船外活動宇宙服", "en": "EVA Spacesuit", "ko": "선외 우주복"},
+      "desc": "a generic white extravehicular spacesuit without a helmet: the upper torso is one smooth moulded hard white shell with no fabric wrinkles, topped by an empty metal neck ring, with a compact rectangular life-support backpack on the back and a small rectangular control box on the chest; the arms and legs are thick white layered fabric with soft bellows rings at the shoulders, elbows and knees and narrow {accent} bands on the upper arms, the sleeves ending at bare metal wrist rings with no gloves; the legs end in integrated white boots with thick soles; no flags, no mission patches, no logo, no text",
+      "keep": "white suit, one smooth hard torso shell with empty metal neck ring, rectangular backpack, chest control box, bellows rings at joints, {accent} arm bands, metal wrist rings with no gloves, integrated white boots, no helmet, no flags",
+      "checks": ["上身是整块光滑硬壳无褶", "空颈环、无头盔", "背后长方形生命维持背包", "无手套、无国旗和任务徽章"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白·橙条", "ja": "白・オレンジ", "en": "White & Orange", "ko": "흰색·주황"}, "bg": "dark", "vars": {"accent": "orange"}}
+      ]
+    },
+    {
+      "key": "victorian-maid-f", "era": "service", "gender": "F", "lower": "shoes",
+      "name": {"zh": "古典女仆装", "ja": "クラシカルメイド服", "en": "Victorian Maid Uniform", "ko": "클래식 메이드복"},
+      "desc": "a modest Victorian housemaid uniform: a floor-length {dress} dress with a high round neck, a narrow white turn-down collar, long fitted sleeves with white cuffs, a fitted bodice buttoned down the centre front and a full gathered skirt to the ankle, covered by a long white cotton pinafore apron with a bib pinned at the chest, wide shoulder straps crossing at the back and an apron skirt reaching nearly to the dress hem, tied in a plain bow at the back waist, with black leather lace-up ankle boots, no cap, no ruffles beyond the apron edges",
+      "keep": "floor-length {dress} dress with high neck, white collar and cuffs, long sleeves, long white pinafore apron with bib and straps crossing at the back, bow at back waist, black ankle boots, no cap",
+      "checks": ["及地长裙、高领长袖", "白领白袖口", "白色长围裙带护胸、背后交叉肩带", "朴素端庄、无头饰无短裙"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "黑", "ja": "黒", "en": "Black", "ko": "검정"}, "bg": "light", "vars": {"dress": "black"}},
+        {"key": "lilac-print", "name": {"zh": "淡紫细纹", "ja": "藤色プリント", "en": "Lilac Print", "ko": "연보라 프린트"}, "bg": "light", "vars": {"dress": "lilac cotton print with a fine white stripe"}}
+      ]
+    },
+    {
+      "key": "butler-m", "era": "service", "gender": "M", "lower": "shoes",
+      "name": {"zh": "管家礼服", "ja": "執事の制服", "en": "Butler's Uniform", "ko": "집사 제복"},
+      "desc": "a men's butler's uniform: a {coat} tailcoat with peaked lapels cut away at the front waist into long tails reaching the back of the knee, a {vest} single-breasted waistcoat, a white wing-collar dress shirt with a {tie} long tie, and {pants} trousers, with polished black oxford shoes, no gloves, no badge",
+      "keep": "{coat} tailcoat with peaked lapels and tails to the back of the knee, {vest} waistcoat, white wing-collar shirt, {tie} tie, {pants} trousers, black oxfords",
+      "checks": ["前短后长燕尾外套、尾到膝后", "单排扣马甲", "翼领白衬衫配领带", "黑色牛津鞋"],
+      "colorways": [
+        {"key": "black-stripe", "name": {"zh": "黑·灰条纹裤", "ja": "黒・縞ズボン", "en": "Black & Striped Trousers", "ko": "검정·줄무늬 바지"}, "bg": "light", "vars": {"coat": "black", "vest": "dove grey", "tie": "silver grey", "pants": "grey-and-black striped"}},
+        {"key": "midnight", "name": {"zh": "午夜蓝", "ja": "ミッドナイトブルー", "en": "Midnight Blue", "ko": "미드나잇 블루"}, "bg": "light", "vars": {"coat": "midnight blue", "vest": "midnight blue", "tie": "black", "pants": "midnight blue"}}
+      ]
+    }
+  ],
+  "eras": {
+    "medical": {"zh": "医护", "ja": "医療", "en": "Medical", "ko": "의료"},
+    "food": {"zh": "餐饮", "ja": "飲食", "en": "Food & Drink", "ko": "요식"},
+    "transport": {"zh": "航空", "ja": "航空", "en": "Aviation", "ko": "항공"},
+    "emergency": {"zh": "消防", "ja": "消防", "en": "Fire Service", "ko": "소방"},
+    "trades": {"zh": "工匠与户外作业", "ja": "職人・現場", "en": "Trades", "ko": "기술·현장"},
+    "science": {"zh": "科研与航天", "ja": "研究・宇宙", "en": "Science & Space", "ko": "연구·우주"},
+    "service": {"zh": "家政与侍从", "ja": "家事・給仕", "en": "Household Service", "ko": "가사·시종"}
+  }
+}

@@ -1,0 +1,342 @@
+{
+ "cat": "SN",
+ "note": "Light presets (docs/light/PLAN.md). Directions are given in image terms for the front camera; the subject never changes, so the light is the only variable.",
+ "groups": {
+  "window": {
+   "zh": "窗光",
+   "ja": "窓の光",
+   "en": "Window Light",
+   "ko": "창문 빛"
+  },
+  "outdoor": {
+   "zh": "户外空间",
+   "ja": "屋外の空間",
+   "en": "Outdoor Spaces",
+   "ko": "야외 공간"
+  }
+ },
+ "forms": [
+  {
+   "key": "north-window",
+   "group": "window",
+   "name": {
+    "zh": "北窗柔光",
+    "ja": "北窓の柔らかい光",
+    "en": "Soft Window Light",
+    "ko": "북창 부드러운 빛"
+   },
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, a tall window in the wall at image-left just out of frame",
+   "desc": "soft indirect daylight from a large window at image-left, no direct sun, the mannequin's right side brightly lit falling off gradually to shadow on its left side, the far wall darker, soft shadow edge",
+   "keep": "large soft window light from image-left, gradual fall-off to the right, no direct sun",
+   "checks": [
+    "光从左侧窗户来",
+    "明暗过渡很缓",
+    "没有直射光斑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "sun-patch",
+   "group": "window",
+   "name": {
+    "zh": "窗口直射光斑",
+    "ja": "窓からの直射光",
+    "en": "Sunbeam Through a Window",
+    "ko": "창으로 드는 햇살"
+   },
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, a window high in the wall at image-left",
+   "desc": "direct afternoon sun through the window at image-left falling as a sharp-edged bright rectangle across the mannequin's torso and onto the floor, the rest of the room in dim warm bounce light, hard contrast",
+   "keep": "sharp-edged sun rectangle across the torso and floor from image-left, dim room around",
+   "checks": [
+    "一块边缘清晰的方形光斑",
+    "光斑落在躯干和地面",
+    "其余部分暗"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "blinds",
+   "group": "window",
+   "name": {
+    "zh": "百叶窗条纹光",
+    "ja": "ブラインドの縞模様",
+    "en": "Venetian Blind Stripes",
+    "ko": "블라인드 줄무늬"
+   },
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, venetian blinds on a window at image-left",
+   "desc": "hard sunlight through half-open venetian blinds at image-left, parallel slanted stripes of light and shadow across the mannequin, the sphere and the back wall, warm 4500 K",
+   "keep": "parallel slanted light stripes from blinds at image-left across figure, sphere and wall",
+   "checks": [
+    "平行斜条纹光",
+    "条纹落在人台、球和墙上",
+    "光源方向一致"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "sheer",
+   "group": "window",
+   "name": {
+    "zh": "纱帘柔光",
+    "ja": "レースカーテン越し",
+    "en": "Through Sheer Curtains",
+    "ko": "시어 커튼 빛"
+   },
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, a wide window with white sheer curtains filling the wall behind the mannequin",
+   "desc": "bright daylight glowing through white sheer curtains directly behind the mannequin, the mannequin softly backlit with a light halo on its outline, its front in gentle low-contrast shade, airy high-key mood",
+   "keep": "bright sheer-curtain backlight, soft outline halo, gentle front shade, high-key",
+   "checks": [
+    "背后纱帘发亮",
+    "轮廓柔和的亮边",
+    "整体明亮通透"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "skylight",
+   "group": "window",
+   "name": {
+    "zh": "天窗顶光",
+    "ja": "天窓のトップライト",
+    "en": "Skylight",
+    "ko": "천창 빛"
+   },
+   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor, a square skylight in the ceiling directly above",
+   "desc": "soft daylight falling straight down from a skylight above, bright tops of the head and shoulders, the sphere lit on top, a soft round pool of light on the floor around the feet, the room edges dark",
+   "keep": "soft top light from a skylight, bright tops, pool of light on the floor, dark edges",
+   "checks": [
+    "光从正上方来",
+    "地面一圈光池",
+    "四周偏暗"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "doorway",
+   "group": "window",
+   "name": {
+    "zh": "暗室门口光",
+    "ja": "暗い部屋の戸口の光",
+    "en": "Doorway Chiaroscuro",
+    "ko": "문간 명암"
+   },
+   "setting": "standing just inside a dark room with dark walls, an open doorway at image-right",
+   "desc": "daylight entering only through an open doorway at image-right, strong side light on the mannequin's left side, the rest of the figure falling into deep shadow, the room around almost black, painterly chiaroscuro",
+   "keep": "single doorway light from image-right, strong side light, deep shadow, near-black room",
+   "checks": [
+    "光只从右侧门口进来",
+    "半边亮半边暗",
+    "房间几乎全黑"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "open-shade",
+   "group": "outdoor",
+   "name": {
+    "zh": "建筑阴影下",
+    "ja": "日陰",
+    "en": "Open Shade",
+    "ko": "그늘"
+   },
+   "setting": "standing in the open shade of a tall plain building wall behind the camera, a sunny street in the distance behind",
+   "desc": "soft cool light from the open sky above and in front, no direct sun on the mannequin, very soft shadows, the sunlit background behind brighter and warmer than the figure",
+   "keep": "open shade, soft cool sky light, no sun on the figure, brighter warm background",
+   "checks": [
+    "人台不受直射光",
+    "阴影非常柔",
+    "背景比人亮"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dappled",
+   "group": "outdoor",
+   "name": {
+    "zh": "树荫斑驳光",
+    "ja": "木漏れ日",
+    "en": "Dappled Canopy Light",
+    "ko": "나뭇잎 그늘 빛"
+   },
+   "setting": "standing on a forest path under a leafy tree canopy",
+   "desc": "midday sun filtering through the leaves above, scattered round bright dapples of sunlight on the mannequin, the sphere and the ground, the rest in soft green-tinted shade",
+   "keep": "scattered sun dapples through leaves on figure, sphere and ground, green-tinted shade",
+   "checks": [
+    "身上和地上有斑驳光点",
+    "阴影略带绿色",
+    "光点形状圆、大小不一"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ],
+   "probe": true
+  },
+  {
+   "key": "snow-bounce",
+   "group": "outdoor",
+   "name": {
+    "zh": "雪地反光",
+    "ja": "雪の照り返し",
+    "en": "Snow Bounce",
+    "ko": "눈 반사광"
+   },
+   "setting": "standing on a flat snowfield under a clear sky",
+   "desc": "bright winter sun from image-left at 25 degrees with strong light bouncing up from the white snow, the shadow side and the undersides of the arms and chin filled brightly, very bright overall, cool blue shadows on the snow",
+   "keep": "winter sun from image-left, strong upward snow bounce filling undersides, bright overall, blue snow shadows",
+   "checks": [
+    "雪地向上反光",
+    "下巴、腋下也被照亮",
+    "雪上影子偏蓝"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "water-caustic",
+   "group": "outdoor",
+   "name": {
+    "zh": "水面反光",
+    "ja": "水面の反射光",
+    "en": "Water Reflections",
+    "ko": "수면 반사광"
+   },
+   "setting": "standing on a stone poolside edge, a sunlit pool of water just in front of the feet",
+   "desc": "sun from behind the mannequin reflecting off rippling water in front, moving bright caustic ripple patterns projected onto the mannequin's front and the sphere, soft overall light",
+   "keep": "rippling caustic light patterns from the water on the front of the figure and the sphere",
+   "checks": [
+    "人台正面有水波纹光",
+    "光纹来自前方水面",
+    "太阳在身后"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tunnel",
+   "group": "outdoor",
+   "name": {
+    "zh": "隧道口逆光",
+    "ja": "トンネル出口の逆光",
+    "en": "Tunnel Mouth Backlight",
+    "ko": "터널 입구 역광"
+   },
+   "setting": "standing inside a plain concrete tunnel near its mouth, the bright opening behind",
+   "desc": "the bright daylit tunnel opening behind the mannequin, the figure nearly silhouetted with a thin bright outline, light reflecting along the tunnel floor toward the camera, front very dark",
+   "keep": "bright tunnel mouth behind, near-silhouette with thin outline, floor reflection",
+   "checks": [
+    "身后是明亮的隧道口",
+    "人台接近剪影",
+    "细亮轮廓"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "标准",
+      "ja": "標準",
+      "en": "Standard",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

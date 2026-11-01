@@ -1,0 +1,162 @@
+{
+  "cat": "HF",
+  "note": "Historical and fantasy settings. Historical scenes keep to one period and region; fantasy and science-fiction scenes are original designs that could be built (docs/scene/PLAN.md §5).",
+  "groups": {
+    "east": {"zh": "东方古典", "ja": "東洋の古典", "en": "Classical East Asia", "ko": "동양 고전"},
+    "west": {"zh": "西方古典与近代", "ja": "西洋の古典・近代", "en": "Old Europe & Early Modern", "ko": "서양 고전·근대"},
+    "scifi": {"zh": "科幻", "ja": "SF", "en": "Science Fiction", "ko": "SF"},
+    "fantasy": {"zh": "奇幻与仙侠", "ja": "ファンタジー・仙侠", "en": "Fantasy & Xianxia", "ko": "판타지·선협"}
+  },
+  "forms": [
+    {
+      "key": "siheyuan", "group": "east", "probe": true,
+      "name": {"zh": "四合院", "ja": "四合院", "en": "Siheyuan Courtyard", "ko": "사합원"},
+      "desc": "the inner courtyard of an original Qing-dynasty Beijing-style siheyuan, seen from just inside the chuihua gate: grey brick paving laid in a square pattern, the single-storey main hall across the far side raised on a low stone plinth with three red-lacquered timber bays, carved wooden lattice doors and windows backed with white paper, grey tile gable roof with curved ridge ends and a covered veranda with red columns, matching side wing halls on the left and right with their own lattice doors and verandas, a covered corridor joining the corners, a crabapple tree in a square bed at the left edge and a large glazed water vat at the right edge, and an empty patch of brick paving in the centre about four metres from the camera",
+      "keep": "grey square brick paving, main hall with three red bays and paper-backed lattice doors across the far side, grey tile roofs with red-columned verandas, side wing halls left and right, corner corridors, crabapple tree at the left edge, water vat at the right edge, empty centre paving",
+      "checks": ["正房三开间、红柱前廊、坐在石台基上", "东西厢房对称、门窗是糊纸木棂格", "灰瓦硬山屋顶、没有电线和电灯", "中央砖地空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Clear autumn afternoon, low sun from the left casting the eave shadows across the right wing, pale blue sky above the roofs"}
+      ]
+    },
+    {
+      "key": "water-town", "group": "east",
+      "name": {"zh": "江南水乡", "ja": "江南の水郷", "en": "Jiangnan Water Town", "ko": "강남 수향"},
+      "desc": "a lane in an original Ming–Qing Jiangnan water town: a narrow canal of still green water running along the left edge with a stone embankment and granite mooring posts, two-storey whitewashed houses with black timber window frames and dark grey tile roofs lining the far side of the canal, stepped horse-head gable walls rising between them, a humpbacked single-arch stone bridge crossing the canal in the far distance, a wooden-shuttered shopfront with a blank wooden signboard and two unlit red paper lanterns on the right, granite flagstone paving along the lane, a small wooden boat moored empty against the left bank, and an empty stretch of flagstones in the centre about four metres from the camera",
+      "keep": "canal along the left edge with stone embankment, whitewashed two-storey houses with black frames and grey tile roofs across the canal, horse-head gables, humpbacked stone bridge in the distance, shuttered shopfront with blank signboard and red lanterns on the right, granite flagstones, empty moored boat, empty centre flagstones",
+      "checks": ["白墙黛瓦、阶梯状马头墙", "左侧河道与石驳岸、远处单孔石拱桥", "招牌空白、没有现代物件", "中央石板路空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft hazy spring daylight, the white walls reflected in the still canal"}
+      ]
+    },
+    {
+      "key": "garden-corridor", "group": "east",
+      "name": {"zh": "园林回廊", "ja": "庭園の回廊", "en": "Garden Corridor", "ko": "정원 회랑"},
+      "desc": "an original classical Suzhou-style private garden seen from a covered walkway: a covered corridor with dark red timber columns, a grey tile roof and low built-in wooden bench railings running along the right edge, a whitewashed garden wall on the right pierced by ornamental leak windows with grey tile lattice, a pond with taihu rocks and lotus leaves along the left edge, a small hexagonal pavilion with upturned eaves standing on rocks across the pond at the far side, bamboo and a pine behind it, a grey brick-paved terrace where the corridor opens out, and an empty patch of paving in the centre about four metres from the camera",
+      "keep": "red-columned covered corridor with bench railings along the right, whitewashed wall with tile-lattice leak windows, pond with taihu rocks and lotus on the left, hexagonal pavilion with upturned eaves at the far side, bamboo and pine, grey brick terrace, empty centre paving",
+      "checks": ["回廊带美人靠、白墙上有漏窗", "六角亭翼角起翘", "太湖石和荷叶", "中央铺地空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright early-summer morning, dappled sunlight through the corridor columns, calm reflections in the pond"}
+      ]
+    },
+    {
+      "key": "edo-street", "group": "east",
+      "name": {"zh": "江户街道", "ja": "江戸の町並み", "en": "Edo Street", "ko": "에도 거리"},
+      "desc": "a street in an original Edo-period Japanese town: packed earth road with a shallow stone gutter on each side, two-storey wooden machiya townhouses with dark lattice fronts, low second floors with mushiko plastered windows, black-tiled roofs and deep eaves lining the left and right, plain indigo noren curtains with no crest and no lettering hanging over the shop entrances, a wooden fire-water barrel stack at the right edge, a wooden kido gate frame closing the far end of the street with tiled roofs beyond, and an empty patch of earth road in the centre about four metres from the camera",
+      "keep": "packed earth road with stone gutters, two-storey machiya with dark lattice fronts and mushiko windows on both sides, black tiled roofs and deep eaves, plain indigo noren with no crest or lettering, fire-water barrels at the right edge, wooden kido gate at the far end, empty centre road",
+      "checks": ["两层町家、格子门面、二层虫笼窗", "暖帘素色无纹无字", "土路两侧石砌排水沟、没有电线杆", "中央路面空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "清晨", "ja": "朝", "en": "Morning", "ko": "아침"}, "light": "Early morning, low sun from the left lighting the right-hand facades, long shadows across the road, a light haze"}
+      ]
+    },
+    {
+      "key": "song-teahouse", "group": "east",
+      "name": {"zh": "宋代茶肆", "ja": "宋代の茶館", "en": "Song Teahouse", "ko": "송대 찻집"},
+      "desc": "the interior of an original Song-dynasty teahouse: plain unpainted timber posts and beams, whitewashed walls, a wide window opening on the left wall with rolled-up bamboo blinds looking onto a green willow outside, a long wooden serving counter across the far wall with a charcoal brazier, black-glazed tea bowls and a stack of lacquered trays, square wooden tables with long benches placed along the left and right walls, a plain undecorated paper folding screen in the far right corner, stone-paved floor, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "unpainted timber posts and beams, whitewashed walls, left window with rolled bamboo blinds and willow outside, wooden counter with brazier and black tea bowls across the far wall, square tables and benches along both side walls, plain screen far right, stone floor, empty centre floor",
+      "checks": ["素木梁柱、白墙、风格简素", "黑釉茶盏和炭炉", "桌凳靠两侧墙", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright soft daylight from the left window, faint steam rising from a kettle on the brazier"}
+      ]
+    },
+    {
+      "key": "ming-study", "group": "east",
+      "name": {"zh": "明式书斋", "ja": "明代の書斎", "en": "Ming Scholar's Study", "ko": "명대 서재"},
+      "desc": "an original Ming-dynasty scholar's study: a large plain huanghuali painting table with a brush pot, an inkstone and a few rolled scrolls standing against the far wall, a low-backed official's armchair behind it, an open bookcase of plain huali wood on the right wall stacked with thread-bound books in blue cloth cases with no visible titles, a round moon window with wooden lattice on the left wall looking onto bamboo, a blank plain silk scroll hanging on the far wall, a pair of tall wooden candle stands in the far corners, polished grey square floor tiles, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "huanghuali painting table with brush pot and inkstone against the far wall, official's armchair, huali bookcase with blue-cased thread-bound books on the right, round lattice moon window with bamboo on the left, blank silk scroll on the far wall, candle stands in the far corners, grey square tiles, empty centre floor",
+      "checks": ["明式家具线条简练（画案、官帽椅）", "线装书函套、无字", "左墙圆形月洞窗外竹子", "中央地面空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft green-tinted daylight through the moon window, gentle shadows of the lattice on the floor"}
+      ]
+    },
+    {
+      "key": "medieval-street", "group": "west",
+      "name": {"zh": "中世纪村街", "ja": "中世の村の通り", "en": "Medieval Village Street", "ko": "중세 마을 거리"},
+      "desc": "a street in an original 14th-century Northern European village: an uneven cobbled street curving gently away, two-storey half-timbered houses with dark oak framing, cream wattle-and-daub infill, jettied upper floors and steep thatched or clay-tile roofs lining the left and right, small leaded windows with diamond panes, a timber well with a wooden roof at the left edge, stacked firewood and a wooden cart at the right edge, wooded hills beyond the far end of the street with no church spire or tower, and an empty patch of cobbles in the centre about four metres from the camera",
+      "keep": "uneven cobbled street, half-timbered houses with dark oak frames and cream infill on both sides, jettied upper floors, thatched and clay-tile roofs, diamond-pane leaded windows, timber well at the left edge, firewood and cart at the right edge, wooded hills at the far end, empty centre cobbles",
+      "checks": ["木构架外露、上层出挑", "菱形铅条小窗", "远处没有教堂尖塔", "中央石子路空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Overcast late-morning daylight, soft even light, damp cobbles"}
+      ]
+    },
+    {
+      "key": "baroque-ballroom", "group": "west",
+      "name": {"zh": "巴洛克舞厅", "ja": "バロックの舞踏室", "en": "Baroque Ballroom", "ko": "바로크 무도회장"},
+      "desc": "an original late-17th-century Baroque ballroom in a private palace: white and gold carved wall panelling with gilded scrolls, tall arched windows down the left wall with heavy crimson silk drapes, a row of tall mirrors in gilded frames between gilded pilasters on the right wall reflecting only the windows opposite, a painted ceiling of sky and clouds with no figures, three crystal chandeliers holding wax candles, a musicians' balcony with a gilded balustrade across the far wall, inlaid parquet floor in a geometric star pattern, and an empty expanse of parquet in the centre about four metres from the camera",
+      "keep": "white and gold panelling with gilded scrolls, arched windows with crimson drapes on the left, gilded mirrors between pilasters on the right, sky-and-cloud ceiling with no figures, three candle crystal chandeliers, musicians' balcony across the far wall, star-pattern parquet, empty centre floor",
+      "checks": ["白金雕饰墙板、镀金壁柱", "水晶吊灯点的是蜡烛", "天顶画只有天空、镜子里没有人", "中央拼花地板空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the windows deep blue, the room glowing gold from hundreds of candles in the chandeliers and wall sconces"}
+      ]
+    },
+    {
+      "key": "deco-lobby", "group": "west",
+      "name": {"zh": "装饰艺术酒店大堂", "ja": "アールデコのホテルロビー", "en": "Art Deco Hotel Lobby", "ko": "아르데코 호텔 로비"},
+      "desc": "an original 1920s Art Deco grand hotel lobby: cream and black marble walls with stepped geometric bronze inlays, a curved reception desk of black lacquer and brass with no lettering against the far wall, a pair of bronze-framed lift doors with sunburst patterns behind it, fluted marble columns on the left and right, low curved velvet armchairs in emerald green at the left and right edges, fan-shaped frosted-glass wall sconces, a stepped coffered ceiling, a polished black and white marble floor in a geometric chevron pattern, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "cream and black marble walls with geometric bronze inlays, curved black lacquer and brass desk without lettering against the far wall, sunburst bronze lift doors, fluted columns on both sides, emerald velvet armchairs at the edges, fan-shaped frosted sconces, stepped ceiling, chevron marble floor, empty centre floor",
+      "checks": ["阶梯形几何纹、放射形太阳纹", "前台和电梯门没有文字", "1920 年代灯具，没有现代设备", "中央地面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Evening, warm golden light from the frosted sconces and a stepped glass ceiling fixture, polished reflections on the marble floor"}
+      ]
+    },
+    {
+      "key": "cyber-alley", "group": "scifi", "probe": true,
+      "name": {"zh": "赛博朋克小巷", "ja": "サイバーパンクの路地", "en": "Cyberpunk Alley", "ko": "사이버펑크 골목"},
+      "desc": "a narrow back alley in an original near-future megacity: tall grimy concrete walls on the left and right crowded with air-conditioner units, tangled cables, metal fire escapes and pipes, several rectangular holographic panels projecting from the walls that show only blank flat fields of magenta and cyan colour with no text, symbols or faces, a row of tightly packed towers with lit windows closing the far end, steam venting from a grate at the right edge, stacked plastic crates at the left edge, wet asphalt reflecting the coloured light, and an empty patch of wet asphalt in the centre about four metres from the camera",
+      "keep": "grimy concrete walls with AC units, cables, fire escapes and pipes on both sides, holographic panels showing only blank magenta and cyan fields, packed towers at the far end, steam grate at the right edge, crates at the left edge, wet reflective asphalt, empty centre asphalt",
+      "checks": ["两侧墙面挤满空调外机、管线、消防梯", "全息屏只有纯色、没有文字符号或人脸", "地面湿反光、远处高楼密集", "中央地面空着、没有光效"],
+      "variants": [
+        {"key": "night-rain", "name": {"zh": "雨夜", "ja": "雨の夜", "en": "Rainy Night", "ko": "비 오는 밤"}, "light": "Night in light rain, magenta and cyan light from the blank holographic panels, cold white light from a few bare tube lamps, puddles reflecting the colours"}
+      ]
+    },
+    {
+      "key": "ship-corridor", "group": "scifi",
+      "name": {"zh": "飞船走廊", "ja": "宇宙船の通路", "en": "Starship Corridor", "ko": "우주선 복도"},
+      "desc": "a corridor inside an original large starship: a hexagonal cross-section with matte white composite wall panels and dark grey structural ribs at regular intervals, recessed white strip lights along the upper edges, conduit bundles and handrails along the left and right walls, a closed sliding pressure door with a plain grey surface and no markings at the far end, a few small blank wall screens showing only soft blue, a grated metal deck floor over a solid sub-floor, and an empty stretch of deck in the centre about four metres from the camera",
+      "keep": "hexagonal corridor with matte white panels and grey ribs, recessed white strip lights, conduits and handrails on both walls, plain grey sliding pressure door at the far end, small blank blue wall screens, grated metal deck, empty centre deck",
+      "checks": ["六边形断面、规则的结构肋", "远端压力门没有标志和编号", "墙上屏幕只有纯色", "中央甲板空着"],
+      "variants": [
+        {"key": "standard", "name": {"zh": "常规照明", "ja": "通常照明", "en": "Standard Lighting", "ko": "일반 조명"}, "light": "Even cool white light from the recessed strips, soft reflections on the panels"}
+      ]
+    },
+    {
+      "key": "fantasy-tavern", "group": "fantasy",
+      "name": {"zh": "奇幻酒馆", "ja": "ファンタジーの酒場", "en": "Fantasy Tavern", "ko": "판타지 선술집"},
+      "desc": "the common room of an original fantasy tavern: rough plastered walls between dark oak timber posts, a heavy beamed ceiling with dried herbs and iron lanterns hanging from it, a long wooden bar counter with wooden casks stacked behind it across the far wall, a large stone fireplace on the left wall, sturdy wooden tables and benches along the right wall, a wooden staircase rising at the far right, a blank wooden board with no writing on a post, worn wide plank floor, and an empty patch of floor in the centre about four metres from the camera",
+      "keep": "plaster walls between dark oak posts, beamed ceiling with dried herbs and iron lanterns, wooden bar with casks across the far wall, stone fireplace on the left, tables and benches on the right, staircase at the far right, blank wooden board, plank floor, empty centre floor",
+      "checks": ["木梁顶挂草药和铁灯笼", "远墙吧台和酒桶、左墙石壁炉", "木板上没有文字", "中央地面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, warm firelight from the fireplace and candles inside the iron lanterns, deep amber shadows in the corners"}
+      ]
+    },
+    {
+      "key": "floating-island", "group": "fantasy",
+      "name": {"zh": "浮空岛悬崖", "ja": "浮遊島の崖", "en": "Floating Island Edge", "ko": "부유섬 절벽"},
+      "desc": "the grassy edge of an original floating island high above the clouds: a level meadow of short grass and wildflowers with a worn earth path, the ground ending in a rocky cliff edge across the far side beyond which a sea of white clouds stretches to the horizon, two other smaller floating islands with trees and hanging roots drifting in the far distance on the left and right, a weathered stone arch ruin at the left edge, a gnarled windswept tree at the right edge, and an empty patch of grass in the centre about four metres from the camera, well back from the cliff",
+      "keep": "short grass meadow with wildflowers and earth path, rocky cliff edge across the far side, sea of white clouds to the horizon, two small floating islands with hanging roots in the distance left and right, stone arch ruin at the left edge, windswept tree at the right edge, empty centre grass back from the edge",
+      "checks": ["远处是悬崖边、下面云海", "远处左右两座小浮岛、垂着树根", "左侧石拱遗迹、右侧风吹歪的树", "中央草地空着、离崖边有距离"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright clear day, high sun, deep blue sky, crisp shadows on the grass, the cloud sea brilliant white"}
+      ]
+    },
+    {
+      "key": "xianxia-terrace", "group": "fantasy", "probe": true,
+      "name": {"zh": "仙山云台", "ja": "仙山の雲台", "en": "Immortal Cloud Terrace", "ko": "선산 운대"},
+      "desc": "an original xianxia mountain terrace high above a sea of clouds: a wide flat platform of pale white jade-like stone slabs with a carved white stone balustrade along the far edge, beyond it a vast sea of rolling clouds with sharp green-cloaked karst peaks rising out of it into the distance, a pavilion of red timber with sweeping upturned eaves and grey glazed tiles standing on a rock outcrop at the left edge, a twisted old pine growing from the cliff at the right edge, a long waterfall falling from a distant peak into the clouds, and an empty stretch of stone terrace in the centre about four metres from the camera",
+      "keep": "pale white stone slab terrace, carved white balustrade along the far edge, sea of clouds with sharp green karst peaks beyond, red timber pavilion with upturned eaves on an outcrop at the left edge, twisted pine at the right edge, distant waterfall, empty centre terrace",
+      "checks": ["白石平台与石栏杆", "栏外云海、尖峰从云中冒出", "左侧飞檐红亭、右侧古松，没有神像和香炉", "中央石台空着、没有光效"],
+      "variants": [
+        {"key": "dawn", "name": {"zh": "日出", "ja": "日の出", "en": "Sunrise", "ko": "일출"}, "light": "Sunrise, the sun just above the cloud sea on the right, the clouds lit gold and rose, cool blue shadows on the terrace"}
+      ]
+    },
+    {
+      "key": "wuxia-inn", "group": "fantasy",
+      "name": {"zh": "竹林客栈", "ja": "竹林の宿", "en": "Bamboo Forest Inn", "ko": "죽림 객잔"},
+      "desc": "the courtyard of an original wuxia-style country inn in a bamboo forest: a two-storey timber inn building with a covered upper gallery, wooden lattice doors and a grey tile roof across the far side, a blank wooden signboard over the door and a blank cloth banner on a tall bamboo pole at the left edge, a low wooden fence and dense tall green bamboo grove closing the left and right, a stone well and stacked wine jars with plain red paper seals at the right edge, a packed earth yard, and an empty patch of earth in the centre about four metres from the camera",
+      "keep": "two-storey timber inn with upper gallery, lattice doors and grey tile roof across the far side, blank signboard over the door, blank cloth banner on a bamboo pole at the left edge, low wooden fence and dense bamboo grove left and right, stone well and wine jars with plain red seals at the right edge, packed earth yard, empty centre earth",
+      "checks": ["两层木构客栈、二层回廊", "招牌和酒旗空白无字", "四周密竹林、右侧水井酒坛", "中央土地空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft green-filtered daylight through the bamboo, light mist among the stalks"}
+      ]
+    }
+  ]
+}

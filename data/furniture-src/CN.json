@@ -1,0 +1,491 @@
+{
+ "cat": "CN",
+ "note": "Furniture library (docs/furniture/PLAN.md). dims are real centimetres: the front prompt quotes w/d/h and intake scales every piece to one px/cm; seat is the sitting height a composited figure uses.",
+ "groups": {
+  "seat": {
+   "zh": "椅凳",
+   "ja": "椅子・腰掛",
+   "en": "Chairs & Stools",
+   "ko": "의자"
+  },
+  "bed": {
+   "zh": "床榻",
+   "ja": "床・榻",
+   "en": "Beds & Daybeds",
+   "ko": "침상"
+  },
+  "table": {
+   "zh": "桌案",
+   "ja": "卓・案",
+   "en": "Tables",
+   "ko": "탁자"
+  },
+  "world": {
+   "zh": "世界与年代风格",
+   "ja": "世界・時代の様式",
+   "en": "World & Period Styles",
+   "ko": "세계·시대 스타일"
+  }
+ },
+ "forms": [
+  {
+   "key": "quanyi",
+   "group": "seat",
+   "probe": true,
+   "name": {
+    "zh": "明式圈椅",
+    "ja": "明式圏椅",
+    "en": "Ming Horseshoe Armchair",
+    "ko": "명식 권의"
+   },
+   "desc": "a Ming-style Chinese horseshoe armchair (quanyi) in {wood}: one continuous curved top rail that sweeps from the back down and forward to form both armrests ending in outward-turned hand grips, an S-curved solid back splat with a small plain carved panel, a woven soft-mat seat 48 cm high framed in wood, four round legs with a footrest stretcher at the front, clean lines with no inlay",
+   "keep": "{wood} quanyi, one continuous horseshoe rail forming back and arms with outward hand grips, S-curved back splat, framed seat, four round legs, front footrest stretcher",
+   "checks": [
+    "一条连续的马蹄形扶手（靠背到扶手不断开）",
+    "S 形单板靠背",
+    "前脚踏横枨",
+    "圆腿、无镶嵌"
+   ],
+   "variants": [
+    {
+     "key": "huanghuali",
+     "name": {
+      "zh": "黄花梨色",
+      "ja": "黄花梨",
+      "en": "Huanghuali",
+      "ko": "황화리"
+     },
+     "vars": {
+      "wood": "golden-brown huanghuali rosewood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 60,
+    "d": 47,
+    "h": 100,
+    "seat": 48
+   }
+  },
+  {
+   "key": "guanmaoyi",
+   "group": "seat",
+   "name": {
+    "zh": "南官帽椅",
+    "ja": "南官帽椅",
+    "en": "Southern Official's Hat Chair",
+    "ko": "남관모의"
+   },
+   "desc": "a Ming-style southern official's hat chair (nanguanmaoyi) in {wood}: a straight top rail whose ends curve down and join the back posts without projecting, straight armrests whose front ends also turn down into the front posts, a curved plain back splat, a framed seat 48 cm high, four round legs with stepped stretchers",
+   "keep": "{wood} chair, top rail ends turning down into the posts without projecting, straight arms joining the front posts, plain curved splat, framed seat, stepped stretchers",
+   "checks": [
+    "搭脑两端不出头、向下接后腿",
+    "扶手不出头",
+    "单板弯靠背",
+    "步步高横枨"
+   ],
+   "variants": [
+    {
+     "key": "jichi",
+     "name": {
+      "zh": "鸡翅木色",
+      "ja": "鶏翅木",
+      "en": "Jichimu",
+      "ko": "계시목"
+     },
+     "vars": {
+      "wood": "dark brown jichimu wood with feather-like grain"
+     }
+    }
+   ],
+   "dims": {
+    "w": 58,
+    "d": 46,
+    "h": 110,
+    "seat": 48
+   }
+  },
+  {
+   "key": "drum-stool",
+   "group": "seat",
+   "name": {
+    "zh": "鼓墩",
+    "ja": "鼓墩（陶の腰掛）",
+    "en": "Porcelain Drum Stool",
+    "ko": "도자 고돈"
+   },
+   "desc": "a Chinese porcelain garden drum stool 45 cm high, barrel-shaped with a flat round top, two rows of raised studs around the top and bottom rims, two small pierced openings on the sides, glazed {glaze}",
+   "keep": "barrel-shaped porcelain stool, flat top, two rows of raised studs at the rims, two pierced side openings, {glaze} glaze",
+   "checks": [
+    "鼓形",
+    "上下两圈乳钉",
+    "侧面镂空开光",
+    "瓷质釉面"
+   ],
+   "variants": [
+    {
+     "key": "celadon",
+     "name": {
+      "zh": "青瓷",
+      "ja": "青磁",
+      "en": "Celadon",
+      "ko": "청자"
+     },
+     "vars": {
+      "glaze": "in plain pale celadon green"
+     }
+    }
+   ],
+   "dims": {
+    "w": 40,
+    "d": 40,
+    "h": 45,
+    "seat": 45
+   }
+  },
+  {
+   "key": "taishiyi",
+   "group": "seat",
+   "name": {
+    "zh": "太师椅",
+    "ja": "太師椅",
+    "en": "Qing Taishi Armchair",
+    "ko": "태사의"
+   },
+   "desc": "a Qing-dynasty Chinese taishi armchair in {wood}: a broad rectangular seat 50 cm high with a waisted apron (shuyao) below the seat frame, a tall solid three-panel screen-style back whose centre panel is highest and carries a plain carved ruyi-cloud scroll, matching lower solid screen panels forming the two armrests, four square legs ending in inward-turned horse-hoof feet standing on a continuous floor-level base stretcher frame, no inlay, no characters",
+   "keep": "{wood} taishi armchair, broad waisted seat, three-panel screen back with the tall centre panel and plain scroll carving, solid screen armrests, square legs with horse-hoof feet on a floor-level base frame",
+   "checks": [
+    "座面下有束腰",
+    "屏风式靠背、中间高两边低",
+    "马蹄足落在托泥上",
+    "雕饰只是卷云纹、没有文字"
+   ],
+   "variants": [
+    {
+     "key": "hongmu",
+     "name": {
+      "zh": "红木色",
+      "ja": "紅木",
+      "en": "Rosewood",
+      "ko": "홍목"
+     },
+     "vars": {
+      "wood": "reddish-brown rosewood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 68,
+    "d": 52,
+    "h": 105,
+    "seat": 50
+   }
+  },
+  {
+   "key": "changdeng",
+   "group": "seat",
+   "name": {
+    "zh": "长凳",
+    "ja": "長腰掛（長凳）",
+    "en": "Long Bench",
+    "ko": "장등"
+   },
+   "desc": "a plain Chinese long bench (changdeng) in {wood}: a single thick plank seat 120 cm long and 50 cm high, two pairs of splayed round legs set in from the ends and joined by side stretchers, simple plain spandrels under the seat, no back, no carving",
+   "keep": "{wood} long bench, one thick plank seat, two pairs of splayed legs set in from the ends, side stretchers, plain spandrels, no back",
+   "checks": [
+    "一块厚板凳面",
+    "腿缩进、四腿外撇（侧脚）",
+    "腿间有横枨",
+    "没有靠背、没有雕刻"
+   ],
+   "variants": [
+    {
+     "key": "elm",
+     "name": {
+      "zh": "老榆木",
+      "ja": "楡材",
+      "en": "Elm",
+      "ko": "느릅나무"
+     },
+     "vars": {
+      "wood": "weathered honey-brown elm with open grain"
+     }
+    }
+   ],
+   "dims": {
+    "w": 120,
+    "d": 30,
+    "h": 50,
+    "seat": 50
+   }
+  },
+  {
+   "key": "luohanchuang",
+   "group": "bed",
+   "name": {
+    "zh": "罗汉床",
+    "ja": "羅漢床",
+    "en": "Luohan Daybed",
+    "ko": "나한상"
+   },
+   "desc": "a Chinese luohan daybed in {wood}, about 200 cm long: a wide flat platform seat 45 cm high with a woven mat, low solid railings on three sides (back and both ends) with plain panels, short cabriole legs ending in hoof feet, and a small low kang table in the same wood placed at the centre of the seat",
+   "keep": "{wood} luohan daybed, wide flat mat seat, low solid railings on back and both ends, short cabriole legs with hoof feet, small kang table at the centre",
+   "checks": [
+    "三面矮围子",
+    "宽平床面",
+    "马蹄足",
+    "中间一张小炕桌"
+   ],
+   "variants": [
+    {
+     "key": "hongmu",
+     "name": {
+      "zh": "红木色",
+      "ja": "紅木",
+      "en": "Rosewood",
+      "ko": "홍목"
+     },
+     "vars": {
+      "wood": "reddish-brown rosewood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 200,
+    "d": 95,
+    "h": 80,
+    "seat": 45
+   }
+  },
+  {
+   "key": "baxianzhuo",
+   "group": "table",
+   "name": {
+    "zh": "八仙桌",
+    "ja": "八仙卓",
+    "en": "Eight Immortals Table",
+    "ko": "팔선탁"
+   },
+   "desc": "a Ming-style Chinese square table (baxianzhuo) in {wood}: a square top 86 cm high, a waisted apron (shuyao) below the top with a plain shaped apron, four square legs at the corners ending in inward-turned horse-hoof feet, each leg braced to the underside of the top by a curved S-shaped giant's arm brace (bawangcheng), no stretchers between the legs, no carving beyond a beaded edge, empty top, no stools or benches",
+   "keep": "{wood} square table, waisted apron, four corner legs with horse-hoof feet, four curved giant's arm braces from the legs to the top, no low stretchers, empty top",
+   "checks": [
+    "正方桌面、四角落腿",
+    "束腰",
+    "马蹄足",
+    "四根霸王枨、腿间没有横枨"
+   ],
+   "variants": [
+    {
+     "key": "hongmu",
+     "name": {
+      "zh": "红木色",
+      "ja": "紅木",
+      "en": "Rosewood",
+      "ko": "홍목"
+     },
+     "vars": {
+      "wood": "reddish-brown rosewood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 92,
+    "d": 92,
+    "h": 86
+   }
+  },
+  {
+   "key": "huaan",
+   "group": "table",
+   "name": {
+    "zh": "画案",
+    "ja": "画案",
+    "en": "Ming Painting Table",
+    "ko": "화안"
+   },
+   "desc": "a Ming-style Chinese painting table (hua'an) in {wood}: a long flat rectangular top 82 cm high with no waist and no raised ends, four round legs recessed well in from the ends and joined to the top by a plain spandrel apron (jiatousun bridle joint), the legs on each end linked by two horizontal side stretchers, legs slightly splayed outward, plain surfaces with no carving or inlay, empty top",
+   "keep": "{wood} painting table, long flat top without raised ends, four round legs recessed from the ends, plain spandrel apron, two side stretchers per end, slight leg splay, empty top",
+   "checks": [
+    "腿缩进安装（案的结构，不是四角腿）",
+    "夹头榫牙板",
+    "两侧腿间各两根横枨",
+    "平头、没有翘头、桌面空"
+   ],
+   "variants": [
+    {
+     "key": "huanghuali",
+     "name": {
+      "zh": "黄花梨色",
+      "ja": "黄花梨",
+      "en": "Huanghuali",
+      "ko": "황화리"
+     },
+     "vars": {
+      "wood": "golden-brown huanghuali rosewood"
+     }
+    }
+   ],
+   "dims": {
+    "w": 170,
+    "d": 75,
+    "h": 82
+   }
+  },
+  {
+   "key": "chabudai",
+   "group": "world",
+   "name": {
+    "zh": "矮饭桌与坐垫",
+    "ja": "ちゃぶ台と座布団",
+    "en": "Chabudai with Zabuton",
+    "ko": "자부다이와 방석"
+   },
+   "desc": "a Japanese Showa-era chabudai: a round low table 80 cm across with a top 33 cm high in {wood}, four short straight legs that fold under the top, a plain apron ring, and one square flat zabuton floor cushion in {cushion} lying flat on the floor in front of the table, its back edge just under the table rim, about 6 cm thick with a tuft at the centre, empty table top",
+   "keep": "round {wood} chabudai on four short legs, plain apron ring, one square {cushion} zabuton lying flat in front with its back edge under the rim, empty top",
+   "checks": [
+    "圆形矮桌约 33 厘米高、四条短腿",
+    "桌前地上一个方坐垫、中心有一个线结",
+    "只有一个坐垫",
+    "桌面空"
+   ],
+   "variants": [
+    {
+     "key": "dark",
+     "name": {
+      "zh": "深茶",
+      "ja": "焦げ茶",
+      "en": "Dark Brown",
+      "ko": "짙은 갈색"
+     },
+     "vars": {
+      "wood": "dark brown lacquered wood",
+      "cushion": "indigo cotton"
+     }
+    }
+   ],
+   "dims": {
+    "w": 80,
+    "d": 120,
+    "h": 33,
+    "seat": 6
+   }
+  },
+  {
+   "key": "bergere",
+   "group": "world",
+   "probe": true,
+   "name": {
+    "zh": "路易十五式扶手椅",
+    "ja": "ルイ15世様式ベルジェール",
+    "en": "Louis XV-style Bergère",
+    "ko": "루이 15세풍 베르제르"
+   },
+   "desc": "a generic Louis XV-style French bergère armchair: a carved {frame} frame with a curved cartouche-shaped top rail, closed upholstered sides under padded armrests, four slender cabriole legs ending in scroll toes, a serpentine front seat rail with a small carved flower at the centre, the back, sides and a loose seat cushion 45 cm high upholstered in {fabric}, no gilding, no crests",
+   "keep": "{frame} bergère, cartouche-shaped back, closed upholstered sides with padded arms, four cabriole legs with scroll toes, serpentine carved front rail, loose seat cushion, {fabric} upholstery",
+   "checks": [
+    "弧形盾徽状靠背",
+    "扶手下面是封闭软包侧板",
+    "四条弯腿（卡布里腿）",
+    "座前横档呈 S 弯、带一朵小雕花"
+   ],
+   "variants": [
+    {
+     "key": "grey-ivory",
+     "name": {
+      "zh": "灰白",
+      "ja": "グレーとアイボリー",
+      "en": "Grey & Ivory",
+      "ko": "회백"
+     },
+     "bg": "dark",
+     "vars": {
+      "frame": "soft grey painted beech",
+      "fabric": "plain ivory linen"
+     }
+    }
+   ],
+   "dims": {
+    "w": 72,
+    "d": 75,
+    "h": 95,
+    "seat": 45
+   }
+  },
+  {
+   "key": "button-back",
+   "group": "world",
+   "name": {
+    "zh": "维多利亚拉扣扶手椅",
+    "ja": "ヴィクトリアン・ボタンバックチェア",
+    "en": "Victorian Button-back Armchair",
+    "ko": "빅토리아풍 버튼백 암체어"
+   },
+   "desc": "a Victorian button-back armchair: a rounded spoon-shaped back and low open-sided arms in one continuous curve, deep-buttoned upholstery in {fabric} with diamond pleats on the inside of the back, a sprung seat 44 cm high, a polished mahogany show-wood frame along the top and arm fronts, two turned front legs on small brass castors and two plain splayed back legs",
+   "keep": "{fabric} deep-buttoned spoon back curving into low arms, sprung seat, mahogany show-wood frame, two turned front legs on brass castors, two splayed back legs",
+   "checks": [
+    "勺形圆靠背连到矮扶手",
+    "靠背内侧深拉扣、菱形褶",
+    "两条车削前腿带铜脚轮",
+    "桃花心木外露木框"
+   ],
+   "variants": [
+    {
+     "key": "green",
+     "name": {
+      "zh": "墨绿丝绒",
+      "ja": "深緑ベルベット",
+      "en": "Bottle-green Velvet",
+      "ko": "짙은 녹색 벨벳"
+     },
+     "vars": {
+      "fabric": "bottle-green velvet"
+     }
+    }
+   ],
+   "dims": {
+    "w": 70,
+    "d": 80,
+    "h": 95,
+    "seat": 44
+   }
+  },
+  {
+   "key": "club-chair",
+   "group": "world",
+   "name": {
+    "zh": "装饰艺术俱乐部椅",
+    "ja": "アールデコ・クラブチェア",
+    "en": "Art Deco Club Chair",
+    "ko": "아르데코 클럽 체어"
+   },
+   "desc": "a generic 1930s Art Deco club armchair upholstered in {leather}: a low rounded tub shape, a curved back flowing into thick rounded arms of the same height, a deep loose seat cushion 42 cm high, piped seams following the curves, a plain recessed plinth base in dark wood with no visible legs",
+   "keep": "{leather} club chair, low rounded tub shape, curved back flowing into thick rounded arms, loose seat cushion, piped seams, recessed dark wood plinth",
+   "checks": [
+    "靠背和扶手连成一圈圆弧",
+    "扶手粗圆、与靠背同高",
+    "缝线有滚边",
+    "底下是缩进的木座、看不见腿"
+   ],
+   "variants": [
+    {
+     "key": "cognac",
+     "name": {
+      "zh": "干邑色皮",
+      "ja": "コニャックレザー",
+      "en": "Cognac Leather",
+      "ko": "코냑 가죽"
+     },
+     "vars": {
+      "leather": "worn cognac-brown leather"
+     }
+    }
+   ],
+   "dims": {
+    "w": 85,
+    "d": 85,
+    "h": 75,
+    "seat": 42
+   }
+  }
+ ]
+}

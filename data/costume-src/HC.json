@@ -1,0 +1,369 @@
+{
+  "cat": "HC",
+  "note": "Chinese historical set. desc/keep use {placeholders} filled per colorway; checks are the 形制要点 QC judges against (docs/costume/PLAN.md §4.1).",
+  "forms": [
+    {
+      "key": "shang-yichang", "era": "shang", "gender": "M", "lower": "hem",
+      "name": {"zh": "上衣下裳·蔽膝", "ja": "上衣下裳・蔽膝", "en": "Yi-Shang with Bixi", "ko": "상의하상·폐슬"},
+      "desc": "a Shang-dynasty Chinese men's yichang ensemble: a hip-length upper garment whose hem ends at the hip line, with slim straight tube sleeves and a cross collar, in {top} silk with black woven borders at the collar and cuffs; a separate black pleated lower skirt reaching the ankle; a rectangular bixi knee-cover panel in {top} hanging from a wide sash belt at the front centre down to the knees",
+      "keep": "{top} hip-length top with black borders, separate black ankle-length pleated skirt, rectangular bixi panel to the knees, wide sash",
+      "checks": ["上衣和下裳是分开的两件", "上衣到胯、窄袖", "腰前垂一块长方形蔽膝", "交领右衽"],
+      "colorways": [
+        {"key": "ochre", "name": {"zh": "黄褐", "ja": "黄褐", "en": "Ochre", "ko": "황갈"}, "bg": "light", "vars": {"top": "yellow-brown"}},
+        {"key": "cinnabar", "name": {"zh": "赭红", "ja": "赭", "en": "Cinnabar", "ko": "주홍"}, "bg": "light", "vars": {"top": "cinnabar-red"}}
+      ]
+    },
+    {
+      "key": "han-quju", "era": "han", "gender": "F", "lower": "hem",
+      "name": {"zh": "曲裾深衣", "ja": "曲裾深衣", "en": "Quju Shenyi", "ko": "곡거심의"},
+      "desc": "a Western-Han Chinese women's quju shenyi: a one-piece floor-length robe with a cross collar and wide sleeves that narrow at the cuffs, in {main} silk with wide {trim} borders on the collar, cuffs, hem and the wrapped front edge; the extended front panel is a flat tailored panel, not loose draped cloth: it wraps tightly around the body in a spiral, so its bordered edge runs as a crisp diagonal line from the waist around the lower body toward the back; a narrow {trim} belt",
+      "keep": "{main} one-piece robe, wide {trim} borders, tailored spiral wrap with a crisp diagonal bordered edge, narrow belt, floor length",
+      "checks": ["连身长袍及地", "绕襟是贴身的裁片、镶边斜着绕向身后（不是披挂的布）", "宽镶边", "交领右衽"],
+      "colorways": [
+        {"key": "umber", "name": {"zh": "赭褐", "ja": "赭褐", "en": "Umber", "ko": "적갈"}, "bg": "light", "vars": {"main": "deep red-brown", "trim": "black"}},
+        {"key": "teal", "name": {"zh": "青绿", "ja": "青緑", "en": "Teal", "ko": "청록"}, "bg": "light", "vars": {"main": "muted teal", "trim": "vermilion"}}
+      ]
+    },
+    {
+      "key": "han-zhiju", "era": "han", "gender": "M", "lower": "hem",
+      "name": {"zh": "直裾深衣", "ja": "直裾深衣", "en": "Zhiju Shenyi", "ko": "직거심의"},
+      "desc": "a Han-dynasty Chinese men's zhiju shenyi: a one-piece robe to the ankle in {main} silk with a cross collar, wide sleeves narrowing at the cuffs, the front overlap falling straight and vertical down the side of the body (no spiral wrap), wide {trim} borders on the collar, cuffs, front edge and hem, and a sash belt",
+      "keep": "{main} robe, straight vertical front edge, wide {trim} borders, wide sleeves, sash belt, ankle length",
+      "checks": ["衣襟垂直下来、不绕身", "宽袖袖口收", "宽镶边", "交领右衽"],
+      "colorways": [
+        {"key": "black", "name": {"zh": "玄色", "ja": "玄", "en": "Black", "ko": "현색"}, "bg": "light", "vars": {"main": "black", "trim": "vermilion"}},
+        {"key": "brown", "name": {"zh": "褐色", "ja": "褐", "en": "Brown", "ko": "갈색"}, "bg": "light", "vars": {"main": "warm brown", "trim": "black"}}
+      ]
+    },
+    {
+      "key": "weijin-daxiu", "era": "weijin", "gender": "F", "lower": "hem",
+      "struct_ref": "HC:weijin-daxiu:sky-ink",
+      "name": {"zh": "大袖衫·间色裙", "ja": "大袖衫・間色裙", "en": "Daxiu Shan with Striped Skirt", "ko": "대수삼·간색군"},
+      "desc": "a Wei-Jin Chinese women's ensemble: a {top} open-front daxiu shan coat with very wide sleeves and parallel collar bands, worn over a short cross-collar jacket, and a high-waisted floor-length jianse skirt made of alternating vertical stripes of {s1} and {s2} panels, tied with a narrow sash at the high waist",
+      "keep": "{top} wide-sleeved open coat, short cross-collar inner jacket, high-waisted skirt of alternating {s1} and {s2} vertical stripes",
+      "checks": ["对襟大袖外衫", "高腰", "裙子是竖条间色", "交领内衣右衽"],
+      "colorways": [
+        {"key": "white-red", "name": {"zh": "白·朱绿", "ja": "白・朱緑", "en": "White & Red-Green", "ko": "백·주록"}, "bg": "dark", "vars": {"top": "white sheer silk", "s1": "red", "s2": "dark green"}},
+        {"key": "sky-ink", "name": {"zh": "天青·墨蓝", "ja": "天青・墨藍", "en": "Sky & Ink", "ko": "천청·묵람"}, "bg": "light", "vars": {"top": "pale sky-blue silk", "s1": "ink-blue", "s2": "ivory"}}
+      ]
+    },
+    {
+      "key": "weijin-zaju", "era": "weijin", "gender": "F", "lower": "hem",
+      "name": {"zh": "杂裾垂髾服", "ja": "雑裾垂髾服", "en": "Zaju Chuishao Fu", "ko": "잡거수소복"},
+      "desc": "a Wei-Jin Chinese women's zaju chuishao fu: a {top} cross-collar jacket with very wide sleeves, a long {skirt} skirt to the floor, and around the waist a ring of many pointed triangular {tabs} cloth tabs hanging below the belt in layers like swallowtails, with long narrow {tabs} ribbons hanging from under the tabs down toward the hem",
+      "keep": "{top} wide-sleeved jacket, {skirt} floor skirt, layered ring of pointed {tabs} triangular tabs at the waist, long {tabs} ribbons",
+      "checks": ["腰间一圈层叠的三角形尖角布片", "布片下垂下长飘带", "大袖", "交领右衽"],
+      "colorways": [
+        {"key": "white-ink", "name": {"zh": "白·墨蓝", "ja": "白・墨藍", "en": "White & Ink", "ko": "백·묵람"}, "bg": "light", "vars": {"top": "white", "skirt": "ink-blue", "tabs": "red"}}
+      ]
+    },
+    {
+      "key": "weijin-baoyi", "era": "weijin", "gender": "M", "lower": "hem",
+      "name": {"zh": "褒衣博带", "ja": "褒衣博帯", "en": "Baoyi Bodai Robe", "ko": "포의박대"},
+      "desc": "a Wei-Jin Chinese scholar's robe in the baoyi bodai style: a loose, voluminous {main} cross-collar robe to the ankle with enormous wide sleeves hanging low, worn with a very wide {sash} sash belt tied at the natural waist with long hanging ends",
+      "keep": "voluminous {main} robe, enormous hanging sleeves, very wide {sash} sash with long ends, ankle length",
+      "checks": ["宽大松垂的袍", "极宽大袖", "很宽的腰带、垂下长带头", "交领右衽"],
+      "colorways": [
+        {"key": "ivory", "name": {"zh": "月白", "ja": "月白", "en": "Moon White", "ko": "월백"}, "bg": "dark", "vars": {"main": "moon-white ramie", "sash": "black"}},
+        {"key": "grey", "name": {"zh": "苍灰", "ja": "蒼灰", "en": "Slate", "ko": "창회"}, "bg": "light", "vars": {"main": "slate-grey silk", "sash": "deep indigo"}}
+      ]
+    },
+    {
+      "key": "tang-qixiong", "era": "tang", "gender": "F", "lower": "hem",
+      "struct_ref": "HC:tang-qixiong:lotus",
+      "name": {"zh": "齐胸襦裙", "ja": "斉胸襦裙", "en": "Qixiong Ruqun", "ko": "제흉유군"},
+      "desc": "a Tang-dynasty Chinese women's qixiong ruqun: a {skirt} silk skirt whose top band sits HIGH ON THE CHEST, above the bust, just below the collarbones, tied with a matching sash knotted at the centre front of the chest; the skirt falls straight to the floor and covers the body of a short {top} jacket, so of the jacket mainly the cross collar above the skirt band and the two narrow sleeves remain visible; a long {shawl} sheer silk pibo shawl draped across the back and hanging over both sleeves. No sash or skirt band at the waist, no frog buttons",
+      "keep": "{skirt} skirt tied high on the chest with a front chest knot, short {top} jacket mostly covered, {shawl} pibo over both sleeves, floor length, no waist band",
+      "checks": ["裙头在胸上方（锁骨下）", "襦衫衣身大部分被裙子盖住", "腰部没有系带", "披帛"],
+      "colorways": [
+        {"key": "pomegranate", "name": {"zh": "石榴红", "ja": "柘榴色", "en": "Pomegranate", "ko": "석류빛"}, "bg": "light", "vars": {"skirt": "pomegranate-red", "top": "ivory-white", "shawl": "pale celadon-green"}},
+        {"key": "lotus", "name": {"zh": "藕荷", "ja": "藕荷", "en": "Lotus", "ko": "연분홍"}, "bg": "light", "vars": {"skirt": "dusty lotus-pink", "top": "pale moon-white", "shawl": "light lilac"}}
+      ]
+    },
+    {
+      "key": "tang-gaoyao", "era": "tang", "gender": "F", "lower": "hem",
+      "struct_ref": "HC:weijin-daxiu:sky-ink",
+      "name": {"zh": "交领高腰襦裙", "ja": "交領高腰襦裙", "en": "High-waist Ruqun", "ko": "교령고요유군"},
+      "desc": "an early-Tang Chinese women's ensemble: a short {top} cross-collar ru jacket with narrow tight sleeves, a short-sleeved {vest} banbi half-jacket worn over it, and a floor-length high-waisted skirt with narrow vertical stripes of {s1} and {s2}, tied just below the bust",
+      "keep": "{top} narrow-sleeved jacket, {vest} short-sleeved banbi on top, high-waisted {s1} and {s2} striped skirt tied below the bust",
+      "checks": ["窄袖短襦", "外罩短袖半臂", "高腰（胸下）条纹裙", "交领右衽"],
+      "colorways": [
+        {"key": "red-stripe", "name": {"zh": "朱白条", "ja": "朱白縞", "en": "Red Stripe", "ko": "주백 줄무늬"}, "bg": "light", "vars": {"top": "ivory", "vest": "deep green brocade", "s1": "red", "s2": "ivory"}},
+        {"key": "yellow-stripe", "name": {"zh": "黄绿条", "ja": "黄緑縞", "en": "Yellow-Green Stripe", "ko": "황록 줄무늬"}, "bg": "light", "vars": {"top": "pale yellow", "vest": "red brocade", "s1": "mustard yellow", "s2": "dark green"}}
+      ]
+    },
+    {
+      "key": "tang-yuanlingpao", "era": "tang", "gender": "M", "lower": "shoes",
+      "name": {"zh": "圆领袍", "ja": "円領袍", "en": "Round-collar Robe", "ko": "원령포"},
+      "desc": "a Tang-dynasty Chinese men's yuanlingpao: a round-collar robe in {main} silk twill closing on the wearer's right side with the overlap fastened at the right shoulder, narrow tight sleeves, side slits from the hip down, length to mid-calf, a black leather belt with small square metal plaques at the waist, and black knee-high leather boots",
+      "keep": "{main} round-collar robe, right-shoulder fastening, narrow sleeves, side slits, black plaque belt, mid-calf length, black boots",
+      "checks": ["圆领（不是交领）", "窄袖", "带銙腰带", "长靴"],
+      "colorways": [
+        {"key": "ochre", "name": {"zh": "赭黄", "ja": "赭黄", "en": "Ochre", "ko": "자황"}, "bg": "light", "vars": {"main": "ochre-yellow"}},
+        {"key": "crimson", "name": {"zh": "绯红", "ja": "緋", "en": "Crimson", "ko": "비홍"}, "bg": "light", "vars": {"main": "crimson-red"}}
+      ]
+    },
+    {
+      "key": "tang-daxiushan", "era": "tang", "gender": "F", "lower": "hem",
+      "name": {"zh": "大袖衫礼服", "ja": "大袖衫礼服", "en": "Late-Tang Daxiu Shan", "ko": "대수삼 예복"},
+      "desc": "a late-Tang Chinese women's formal ensemble: a long {outer} sheer gauze daxiu shan with enormous wide sleeves reaching below the knee, worn open over a {skirt} qixiong skirt tied high on the chest, and a long {shawl} pibo shawl draped over the arms; the inner skirt is visible through the sheer outer gauze",
+      "keep": "{outer} sheer wide-sleeved outer gauze, {skirt} chest-high skirt visible through it, {shawl} pibo",
+      "checks": ["半透明大袖外衫", "袖长过膝", "里面是齐胸裙", "披帛"],
+      "colorways": [
+        {"key": "gold-red", "name": {"zh": "金纱·绛红", "ja": "金紗・絳", "en": "Gold Gauze & Crimson", "ko": "금사·강홍"}, "bg": "light", "vars": {"outer": "pale gold", "skirt": "deep crimson", "shawl": "sea-green"}},
+        {"key": "blue-white", "name": {"zh": "青纱·月白", "ja": "青紗・月白", "en": "Blue Gauze & White", "ko": "청사·월백"}, "bg": "light", "vars": {"outer": "pale blue", "skirt": "moon-white", "shawl": "soft lavender"}}
+      ]
+    },
+    {
+      "key": "song-beizi", "era": "song", "gender": "F", "lower": "hem",
+      "name": {"zh": "褙子·抹胸·宋裤", "ja": "褙子・抹胸・宋褲", "en": "Beizi with Song Trousers", "ko": "배자·말흉·송고"},
+      "desc": "a Song-dynasty Chinese women's ensemble: a knee-length {coat} silk beizi coat with a straight parallel collar band running down both front edges, worn open at the front with no fastening, narrow sleeves, long side slits from the hip down, plain solid collar bands with no embroidery; underneath a {band} wrapped mo-xiong chest band and {pants} straight wide-leg trousers that fall loose and straight to the ankle, not gathered or cuffed at the ankle",
+      "keep": "{coat} open beizi with plain parallel collar bands, side slits, {band} chest band, {pants} straight wide-leg trousers not gathered at the ankle",
+      "checks": ["对襟直领、敞开不系", "两侧开衩", "里面能看到抹胸", "宋裤直筒、裤脚不收口"],
+      "colorways": [
+        {"key": "moon", "name": {"zh": "月白", "ja": "月白", "en": "Moon White", "ko": "월백"}, "bg": "dark", "vars": {"coat": "moon-white", "band": "pale pink", "pants": "pale grey-blue"}},
+        {"key": "celadon", "name": {"zh": "天水碧", "ja": "天水碧", "en": "Celadon", "ko": "천수벽"}, "bg": "light", "vars": {"coat": "pale celadon-green", "band": "ivory", "pants": "light beige"}}
+      ]
+    },
+    {
+      "key": "song-baidie", "era": "song", "gender": "F", "lower": "hem",
+      "name": {"zh": "交领短衫·百迭裙", "ja": "交領短衫・百迭裙", "en": "Short Jacket & Baidie Skirt", "ko": "교령단삼·백첩군"},
+      "desc": "a Song-dynasty Chinese women's ensemble: a hip-length {top} cross-collar short jacket with narrow sleeves, worn over a floor-length {skirt} baidie skirt made of many fine narrow knife pleats all around, tied at the natural waist with a narrow sash",
+      "keep": "{top} hip-length cross-collar jacket, {skirt} skirt with many fine pleats all around, narrow waist sash",
+      "checks": ["及胯短衫", "裙子满是细密褶", "系在自然腰", "交领右衽"],
+      "colorways": [
+        {"key": "rose", "name": {"zh": "檀色", "ja": "檀色", "en": "Rosewood", "ko": "단색"}, "bg": "light", "vars": {"top": "dusty rosewood-pink", "skirt": "pale beige"}},
+        {"key": "indigo", "name": {"zh": "缥青", "ja": "縹", "en": "Light Indigo", "ko": "표청"}, "bg": "dark", "vars": {"top": "light indigo-blue", "skirt": "ivory"}}
+      ]
+    },
+    {
+      "key": "song-zhiduo", "era": "song", "gender": "M", "lower": "shoes",
+      "name": {"zh": "直裰", "ja": "直裰", "en": "Zhiduo Robe", "ko": "직철"},
+      "desc": "a Song-dynasty Chinese men's zhiduo: a long {main} cross-collar robe to the ankle with wide sleeves, a centre back seam, closed sides with no slits, a contrasting {trim} collar band, a narrow sash belt, and black cloth shoes",
+      "keep": "{main} ankle robe, {trim} collar band, wide sleeves, closed sides without slits, narrow sash, black shoes",
+      "checks": ["长及脚踝", "两侧不开衩", "领缘异色", "交领右衽"],
+      "colorways": [
+        {"key": "brown", "name": {"zh": "茶褐", "ja": "茶褐", "en": "Tea Brown", "ko": "다갈"}, "bg": "light", "vars": {"main": "tea-brown", "trim": "black"}},
+        {"key": "blue", "name": {"zh": "鸦青", "ja": "鴉青", "en": "Raven Blue", "ko": "아청"}, "bg": "light", "vars": {"main": "deep raven-blue", "trim": "white"}}
+      ]
+    },
+    {
+      "key": "song-lanshan", "era": "song", "gender": "M", "lower": "shoes",
+      "name": {"zh": "襕衫", "ja": "襴衫", "en": "Lanshan Robe", "ko": "난삼"},
+      "desc": "a Song-dynasty Chinese scholar's lanshan: a {main} round-collar robe with wide sleeves, a horizontal {trim} lan band sewn across the lower robe at knee height, a {trim} border at the cuffs and hem, a narrow belt, and black cloth shoes",
+      "keep": "{main} round-collar robe, horizontal {trim} lan band at knee height, {trim} cuffs and hem, wide sleeves, black shoes",
+      "checks": ["圆领", "膝部一道横襕", "宽袖", "下摆和袖口异色缘"],
+      "colorways": [
+        {"key": "white", "name": {"zh": "白·皂缘", "ja": "白・皂縁", "en": "White & Black", "ko": "백·조연"}, "bg": "dark", "vars": {"main": "off-white", "trim": "black"}},
+        {"key": "blue", "name": {"zh": "蓝·皂缘", "ja": "藍・皂縁", "en": "Blue & Black", "ko": "남·조연"}, "bg": "light", "vars": {"main": "mid blue", "trim": "black"}}
+      ]
+    },
+    {
+      "key": "yuan-zhisun", "era": "yuan", "gender": "M", "lower": "shoes",
+      "name": {"zh": "质孙服", "ja": "質孫服", "en": "Jisun Robe", "ko": "질손복"},
+      "desc": "a Yuan-dynasty Mongol men's jisun robe: a {main} silk robe with a cross collar and narrow tight sleeves, a fitted upper body, the waist sewn with a wide band of many fine horizontal pleats, below it a full densely pleated skirt to mid-calf, a gold woven border on the collar, and black leather boots",
+      "keep": "{main} robe, fitted narrow-sleeved top, wide band of fine horizontal pleats at the waist, densely pleated skirt to mid-calf, gold collar border, black boots",
+      "checks": ["上身合体、窄袖", "腰部一圈密集横向细褶", "下摆是打褶宽裙", "交领右衽"],
+      "colorways": [
+        {"key": "blue", "name": {"zh": "宝蓝", "ja": "宝藍", "en": "Royal Blue", "ko": "보람"}, "bg": "light", "vars": {"main": "deep blue"}},
+        {"key": "umber", "name": {"zh": "驼褐", "ja": "駱駝褐", "en": "Camel", "ko": "낙타갈"}, "bg": "light", "vars": {"main": "camel-brown"}}
+      ]
+    },
+    {
+      "key": "ming-shuling", "era": "ming", "gender": "F", "lower": "hem",
+      "name": {"zh": "竖领长袄·马面裙", "ja": "竪領長襖・馬面裙", "en": "Standing-collar Ao & Mamianqun", "ko": "수령장오·마면군"},
+      "desc": "a Ming-dynasty Chinese women's ensemble: a mid-thigh-length {top} silk long jacket with a standing collar and a diagonal right-side front opening, fastened by two pairs of small round gold metal ball buttons placed ON the standing collar itself (not frog toggles, not on the shoulder); pipa sleeves that are wide and softly rounded along the lower edge and taper to a narrow cuff without any gathered band (not puffed balloon sleeves); worn over a floor-length {skirt} mamianqun horse-face skirt with a flat smooth front panel, pleats only on the sides, and a single gold woven border band near the hem",
+      "keep": "{top} mid-thigh jacket with standing collar and two gold ball-button pairs on the collar, rounded pipa sleeves tapering to the cuff, {skirt} horse-face skirt with flat front panel, side pleats and one gold hem band",
+      "checks": ["立领、领上金属子母扣", "琵琶袖（下缘圆弧、袖口收窄，不是泡泡袖）", "马面裙前面平幅、两侧打褶", "袄长到大腿中段"],
+      "colorways": [
+        {"key": "indigo-red", "name": {"zh": "靛蓝·朱红", "ja": "藍・朱", "en": "Indigo & Red", "ko": "남·주홍"}, "bg": "light", "vars": {"top": "deep indigo-blue", "skirt": "deep red"}},
+        {"key": "rose-green", "name": {"zh": "藕粉·松绿", "ja": "藕粉・松緑", "en": "Rose & Pine", "ko": "분홍·송록"}, "bg": "light", "vars": {"top": "dusty rose-pink", "skirt": "pine-green"}}
+      ]
+    },
+    {
+      "key": "ming-jiaoling-ao", "era": "ming", "gender": "F", "lower": "hem",
+      "name": {"zh": "交领短袄·马面裙", "ja": "交領短襖・馬面裙", "en": "Cross-collar Ao & Mamianqun", "ko": "교령단오·마면군"},
+      "desc": "a Ming-dynasty Chinese women's ensemble: a hip-length {top} cross-collar short jacket with a white inner collar strip and pipa sleeves tapering to the cuff, worn over a floor-length {skirt} mamianqun horse-face skirt with a flat front panel, side pleats and a wide gold woven xilan band with cloud patterns near the hem",
+      "keep": "{top} hip-length cross-collar jacket with white collar strip, pipa sleeves, {skirt} horse-face skirt with flat front panel, side pleats, wide gold cloud band near the hem",
+      "checks": ["及胯交领短袄", "白色护领", "马面裙前面平幅、两侧打褶", "宽织金裙襕"],
+      "colorways": [
+        {"key": "green-yellow", "name": {"zh": "葱绿·缃黄", "ja": "葱緑・緗", "en": "Leek Green & Yellow", "ko": "총록·상황"}, "bg": "light", "vars": {"top": "leek-green", "skirt": "pale yellow"}},
+        {"key": "white-blue", "name": {"zh": "素白·宝蓝", "ja": "素白・宝藍", "en": "White & Blue", "ko": "소백·보람"}, "bg": "light", "vars": {"top": "plain white", "skirt": "royal blue"}}
+      ]
+    },
+    {
+      "key": "ming-bijia", "era": "ming", "gender": "F", "lower": "hem",
+      "name": {"zh": "比甲·袄裙", "ja": "比甲・襖裙", "en": "Bijia over Ao-Qun", "ko": "비갑·오군"},
+      "desc": "a Ming-dynasty Chinese women's ensemble: a sleeveless {vest} bijia long vest with a straight open front, reaching below the knee, with side slits, worn over a {top} standing-collar jacket with long narrow sleeves and a floor-length {skirt} horse-face skirt with side pleats",
+      "keep": "{vest} sleeveless knee-length bijia with open front and side slits, {top} long-sleeved standing-collar jacket, {skirt} horse-face skirt",
+      "checks": ["无袖长比甲、对襟", "比甲长过膝、侧开衩", "里面立领袄的长袖露出", "马面裙"],
+      "colorways": [
+        {"key": "blue-white", "name": {"zh": "石青·月白", "ja": "石青・月白", "en": "Azurite & White", "ko": "석청·월백"}, "bg": "light", "vars": {"vest": "azurite-blue", "top": "moon-white", "skirt": "light grey"}},
+        {"key": "purple-pink", "name": {"zh": "青莲·桃红", "ja": "青蓮・桃", "en": "Lotus Purple & Peach", "ko": "청련·도홍"}, "bg": "light", "vars": {"vest": "muted lotus-purple", "top": "pale peach", "skirt": "ivory"}}
+      ]
+    },
+    {
+      "key": "ming-daopao", "era": "ming", "gender": "M", "lower": "shoes",
+      "name": {"zh": "道袍", "ja": "道袍", "en": "Daopao Robe", "ko": "도포"},
+      "desc": "a Ming-dynasty Chinese men's daopao: a long {main} cross-collar robe to the ankle with a white inner collar strip, very wide sleeves narrowing at the cuffs, hidden side panels (anbai) folded inside the side slits, a narrow {sash} silk cord belt, and black cloth shoes",
+      "keep": "{main} ankle robe, white collar strip, very wide sleeves, side slits with inner panels, {sash} cord belt, black shoes",
+      "checks": ["白色护领", "大袖收口", "两侧开衩、内有暗摆", "交领右衽"],
+      "colorways": [
+        {"key": "blue", "name": {"zh": "宝蓝", "ja": "宝藍", "en": "Royal Blue", "ko": "보람"}, "bg": "light", "vars": {"main": "royal blue", "sash": "black"}},
+        {"key": "beige", "name": {"zh": "驼色", "ja": "駱駝色", "en": "Camel", "ko": "낙타색"}, "bg": "light", "vars": {"main": "light camel", "sash": "dark brown"}}
+      ]
+    },
+    {
+      "key": "ming-yesa", "era": "ming", "gender": "M", "lower": "shoes",
+      "name": {"zh": "曳撒", "ja": "曳撒", "en": "Yesa Robe", "ko": "예살"},
+      "desc": "a Ming-dynasty Chinese men's yesa: a {main} cross-collar robe whose upper body and lower skirt are cut separately and joined at the waist, the front skirt split into a flat centre panel with pleats on both sides, the back skirt pleated all around, narrow sleeves, a {trim} band at the waist seam, and black boots",
+      "keep": "{main} robe joined at the waist, flat front centre panel with side pleats, narrow sleeves, {trim} waist band, black boots",
+      "checks": ["上衣下裳在腰部相连", "下摆前中平片、两侧打褶", "窄袖", "交领右衽"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "大红", "ja": "大紅", "en": "Scarlet", "ko": "대홍"}, "bg": "light", "vars": {"main": "scarlet", "trim": "gold"}},
+        {"key": "green", "name": {"zh": "墨绿", "ja": "墨緑", "en": "Dark Green", "ko": "묵록"}, "bg": "light", "vars": {"main": "dark green", "trim": "gold"}}
+      ]
+    },
+    {
+      "key": "ming-buzi", "era": "ming", "gender": "M", "lower": "shoes",
+      "name": {"zh": "圆领补服", "ja": "円領補服", "en": "Round-collar Rank Robe", "ko": "원령보복"},
+      "desc": "a Ming-dynasty Chinese official's round-collar robe: a {main} robe to the ankle with a round collar, very wide sleeves, a square embroidered badge on the chest showing a crane among clouds and waves, a stiff hoop belt with jade plaques sitting loosely around the waist, and black boots",
+      "keep": "{main} round-collar ankle robe, very wide sleeves, square crane badge on the chest, loose jade-plaque hoop belt, black boots",
+      "checks": ["圆领", "极宽袖", "胸前方形补子", "腰间松挂的玉带"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "绯色", "ja": "緋", "en": "Crimson", "ko": "비색"}, "bg": "light", "vars": {"main": "crimson-red"}},
+        {"key": "blue", "name": {"zh": "青色", "ja": "青", "en": "Blue", "ko": "청색"}, "bg": "light", "vars": {"main": "deep blue"}}
+      ]
+    },
+    {
+      "key": "ming-pifeng", "era": "ming", "gender": "U", "lower": "hem",
+      "name": {"zh": "披风", "ja": "披風", "en": "Pifeng Overcoat", "ko": "피풍"},
+      "desc": "a Ming-dynasty Chinese pifeng overcoat: a {main} open-front coat with a short straight collar band, a single pair of gold metal buttons at the chest, wide sleeves, long side slits, length to mid-calf, worn over a {inner} long skirt",
+      "keep": "{main} open-front coat with short straight collar, one pair of gold buttons at the chest, wide sleeves, side slits, mid-calf, {inner} skirt below",
+      "checks": ["对襟直领短领", "胸前一对扣", "两侧开衩", "长到小腿"],
+      "colorways": [
+        {"key": "jade", "name": {"zh": "玉色", "ja": "玉色", "en": "Jade", "ko": "옥색"}, "bg": "light", "vars": {"main": "pale jade-green with small woven cloud pattern", "inner": "ivory"}},
+        {"key": "plum", "name": {"zh": "绛紫", "ja": "絳紫", "en": "Plum", "ko": "강자"}, "bg": "light", "vars": {"main": "deep plum", "inner": "pale pink"}}
+      ]
+    },
+    {
+      "key": "qing-changyi", "era": "qing", "gender": "F", "lower": "hem",
+      "name": {"zh": "氅衣", "ja": "氅衣", "en": "Changyi Robe", "ko": "창의"},
+      "desc": "a late-Qing Manchu women's changyi: a straight-cut {main} robe to the floor with a round neck and a curved dajin front opening running from the neck across to the wearer's right underarm and down the side, wide sleeves with broad contrasting {trim} cuffs, very wide layered decorative borders in {trim} edging the neck, opening, slits and hem, and tall ruyi-shaped side slits",
+      "keep": "{main} straight floor-length robe, curved opening to the right underarm, wide layered {trim} borders, wide cuffs, ruyi side slits",
+      "checks": ["圆领大襟（斜向右腋）", "宽镶边多层", "直身宽袍及地", "如意头开衩"],
+      "colorways": [
+        {"key": "lilac", "name": {"zh": "雪青", "ja": "雪青", "en": "Lilac", "ko": "설청"}, "bg": "light", "vars": {"main": "lilac silk with small woven flowers", "trim": "black and gold"}},
+        {"key": "peach", "name": {"zh": "桃红", "ja": "桃紅", "en": "Peach", "ko": "도홍"}, "bg": "light", "vars": {"main": "peach-pink silk", "trim": "deep blue and white"}}
+      ]
+    },
+    {
+      "key": "qing-magua", "era": "qing", "gender": "M", "lower": "shoes",
+      "name": {"zh": "长袍马褂", "ja": "長袍馬褂", "en": "Changpao & Magua", "ko": "장포마괘"},
+      "desc": "a late-Qing Chinese men's ensemble: a {robe} standing-collar changpao robe to the ankle with a curved opening to the wearer's right underarm and side slits, worn under a hip-length {coat} magua jacket with a straight centre-front opening and five knotted cloth buttons, wide short sleeves, and black cloth shoes",
+      "keep": "{robe} ankle-length robe with curved right opening, {coat} hip-length centre-opening jacket with five knot buttons, black shoes",
+      "checks": ["长袍立领、大襟向右", "外套对襟短马褂", "马褂一排布结扣", "长袍及踝"],
+      "colorways": [
+        {"key": "blue-black", "name": {"zh": "宝蓝·玄", "ja": "宝藍・玄", "en": "Blue & Black", "ko": "보람·현"}, "bg": "light", "vars": {"robe": "royal blue", "coat": "black"}},
+        {"key": "grey-navy", "name": {"zh": "灰·藏青", "ja": "灰・紺", "en": "Grey & Navy", "ko": "회·장청"}, "bg": "light", "vars": {"robe": "light grey", "coat": "navy"}}
+      ]
+    },
+    {
+      "key": "qing-hanao", "era": "qing", "gender": "F", "lower": "hem",
+      "name": {"zh": "汉女袄裙", "ja": "漢女襖裙", "en": "Qing Han Women's Ao-Qun", "ko": "청대 한족 오군"},
+      "desc": "a late-Qing Han Chinese women's ensemble: a hip-length {top} jacket with a low standing collar and a curved dajin opening to the wearer's right underarm, wide sleeves with broad embroidered {trim} borders, worn over a floor-length {skirt} horse-face skirt with a flat front panel, side pleats and an embroidered panel at the front",
+      "keep": "{top} hip-length jacket with curved right opening and broad {trim} borders, wide sleeves, {skirt} horse-face skirt with flat embroidered front panel and side pleats",
+      "checks": ["大襟袄（斜向右腋）", "宽镶边", "宽袖", "马面裙前平幅"],
+      "colorways": [
+        {"key": "pink-black", "name": {"zh": "粉·玄裙", "ja": "桃・玄裙", "en": "Pink & Black", "ko": "분홍·현군"}, "bg": "light", "vars": {"top": "pale pink", "trim": "blue", "skirt": "black"}},
+        {"key": "blue-red", "name": {"zh": "湖蓝·红裙", "ja": "湖藍・紅裙", "en": "Lake Blue & Red", "ko": "호람·홍군"}, "bg": "light", "vars": {"top": "lake-blue", "trim": "white", "skirt": "red"}}
+      ]
+    },
+    {
+      "key": "rc-daodaxiu", "era": "rc", "gender": "F", "lower": "hem",
+      "name": {"zh": "倒大袖旗袍", "ja": "倒大袖旗袍", "en": "1920s Bell-sleeve Qipao", "ko": "1920년대 도대수 치파오"},
+      "desc": "a 1920s Chinese women's qipao: a straight, loose-cut {main} dress to the mid-calf with a low standing collar, a curved opening from the collar to the wearer's right underarm fastened with cloth frog buttons, elbow-length bell-shaped trumpet sleeves widening at the end, and thin {trim} piping",
+      "keep": "{main} straight loose dress to mid-calf, low standing collar, curved right opening with frog buttons, elbow-length bell sleeves, {trim} piping",
+      "checks": ["直身宽松", "倒大袖（喇叭口到肘）", "斜襟盘扣", "长到小腿中段"],
+      "colorways": [
+        {"key": "blue", "name": {"zh": "阴丹士林蓝", "ja": "インダンスレンブルー", "en": "Indanthrene Blue", "ko": "인단스렌 청"}, "bg": "light", "vars": {"main": "indanthrene blue cotton", "trim": "white"}},
+        {"key": "floral", "name": {"zh": "米色碎花", "ja": "生成り小花", "en": "Cream Floral", "ko": "베이지 잔꽃"}, "bg": "light", "vars": {"main": "cream cotton with small blue floral print", "trim": "blue"}}
+      ]
+    },
+    {
+      "key": "rc-qipao", "era": "rc", "gender": "F", "lower": "hem",
+      "name": {"zh": "改良旗袍", "ja": "改良旗袍", "en": "1930s Qipao", "ko": "1930년대 치파오"},
+      "desc": "a 1930s Chinese women's qipao in {main} silk: a standing mandarin collar, a diagonal opening from the collar across to the right underarm fastened with {trim} knotted frog buttons, fitted silhouette, short cap sleeves, calf length, side slits whose tops reach the knee line, thin {trim} piping along the collar, opening and hem",
+      "keep": "{main} fitted qipao, mandarin collar, diagonal right opening with {trim} frog buttons, cap sleeves, calf length, side slits to the knee, {trim} piping",
+      "checks": ["立领", "斜襟到右腋、盘扣", "修身、盖肩袖", "开衩到膝"],
+      "colorways": [
+        {"key": "teal", "name": {"zh": "孔雀蓝", "ja": "孔雀青", "en": "Peacock Teal", "ko": "공작청"}, "bg": "light", "vars": {"main": "dark teal", "trim": "black"}},
+        {"key": "wine", "name": {"zh": "酒红", "ja": "ワインレッド", "en": "Wine", "ko": "와인레드"}, "bg": "light", "vars": {"main": "wine-red with small woven pattern", "trim": "gold"}}
+      ]
+    },
+    {
+      "key": "rc-changshan", "era": "rc", "gender": "M", "lower": "shoes",
+      "name": {"zh": "长衫", "ja": "長衫", "en": "Changshan", "ko": "장삼"},
+      "desc": "a Republican-era Chinese men's changshan: a plain {main} long gown to the ankle with a standing collar, a curved opening from the collar to the wearer's right underarm fastened with cloth knot buttons, long straight sleeves with turned-back white cuffs, side slits, and black cloth shoes",
+      "keep": "{main} plain ankle gown, standing collar, curved right opening with knot buttons, straight sleeves with white turned-back cuffs, side slits, black shoes",
+      "checks": ["立领", "大襟向右", "素色长及踝", "侧开衩"],
+      "colorways": [
+        {"key": "grey", "name": {"zh": "灰布", "ja": "灰木綿", "en": "Grey Cotton", "ko": "회색 면"}, "bg": "light", "vars": {"main": "mid-grey cotton"}},
+        {"key": "navy", "name": {"zh": "藏青", "ja": "紺", "en": "Navy", "ko": "장청"}, "bg": "light", "vars": {"main": "navy silk"}}
+      ]
+    },
+    {
+      "key": "rc-zhongshan", "era": "rc", "gender": "M", "lower": "shoes",
+      "name": {"zh": "中山装", "ja": "中山服", "en": "Zhongshan Suit", "ko": "중산복"},
+      "desc": "a Chinese men's Zhongshan suit: a {main} wool jacket with a turn-down collar closed at the neck, five front buttons, four patch pockets with buttoned flaps (two chest, two lower), three-button cuffs, matching straight trousers, and black leather shoes",
+      "keep": "{main} jacket with turn-down closed collar, five front buttons, four flap pockets, matching trousers, black shoes",
+      "checks": ["立翻领", "五粒扣", "四个贴袋", "同色直筒裤"],
+      "colorways": [
+        {"key": "grey", "name": {"zh": "灰", "ja": "グレー", "en": "Grey", "ko": "회색"}, "bg": "light", "vars": {"main": "mid-grey"}},
+        {"key": "navy", "name": {"zh": "藏青", "ja": "紺", "en": "Navy", "ko": "장청"}, "bg": "light", "vars": {"main": "navy-blue"}}
+      ]
+    },
+    {
+      "key": "wed-ming", "era": "wed", "gender": "F", "lower": "hem",
+      "name": {"zh": "明制婚服", "ja": "明制婚礼服", "en": "Ming Bridal Robe", "ko": "명제 혼례복"},
+      "desc": "a Ming-style Chinese bridal ensemble: a deep red silk daxiu shan robe with very wide sleeves and a round collar, a long gold-embroidered xiapei stole hanging from the shoulders straight down the front of the chest in two parallel bands ending in a gold pendant, worn over a red horse-face skirt with a flat front panel, side pleats and a wide gold cloud band; no headdress",
+      "keep": "deep red wide-sleeved robe, two parallel gold xiapei bands down the front with a pendant, red horse-face skirt with gold band",
+      "checks": ["大红大袖", "胸前两条平行霞帔", "霞帔末端坠子", "马面裙"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "大红", "ja": "大紅", "en": "Scarlet", "ko": "대홍"}, "bg": "light", "vars": {}}
+      ]
+    },
+    {
+      "key": "wed-tang", "era": "wed", "gender": "F", "lower": "hem",
+      "name": {"zh": "唐制婚服", "ja": "唐制婚礼服", "en": "Tang Bridal Robe", "ko": "당제 혼례복"},
+      "desc": "a Tang-style Chinese bridal chaidian liyi ensemble: a {outer} wide-sleeved outer robe with a cross collar, worn over layered long skirts in {skirt} reaching the floor with a long train, a wide {sash} sash high on the chest with long hanging ribbons, and a long sheer pibo shawl over the arms; no headdress",
+      "keep": "{outer} wide-sleeved outer robe, layered {skirt} skirts with a train, {sash} chest sash with ribbons, sheer pibo",
+      "checks": ["大袖礼衣", "层叠长裙拖尾", "胸前宽带垂绦", "交领右衽"],
+      "colorways": [
+        {"key": "green", "name": {"zh": "青绿", "ja": "青緑", "en": "Blue-Green", "ko": "청록"}, "bg": "light", "vars": {"outer": "deep blue-green", "skirt": "red and dark green", "sash": "gold"}}
+      ]
+    },
+    {
+      "key": "wed-ming-m", "era": "wed", "gender": "M", "lower": "shoes",
+      "name": {"zh": "明制男婚服", "ja": "明制新郎服", "en": "Ming Groom's Robe", "ko": "명제 신랑복"},
+      "desc": "a Ming-style Chinese groom's robe: a scarlet silk round-collar robe to the ankle with wide sleeves, a square gold-embroidered badge on the chest, a stiff hoop belt with gold plaques sitting loosely around the waist, and black boots; no hat",
+      "keep": "scarlet round-collar ankle robe, wide sleeves, gold chest badge, loose gold-plaque hoop belt, black boots",
+      "checks": ["大红圆领", "宽袖", "胸前方补", "松挂的革带"],
+      "colorways": [
+        {"key": "red", "name": {"zh": "大红", "ja": "大紅", "en": "Scarlet", "ko": "대홍"}, "bg": "light", "vars": {}}
+      ]
+    }
+  ],
+  "eras": {
+    "shang": {"zh": "商", "ja": "殷", "en": "Shang", "ko": "상"},
+    "han": {"zh": "汉", "ja": "漢", "en": "Han", "ko": "한"},
+    "weijin": {"zh": "魏晋", "ja": "魏晋", "en": "Wei-Jin", "ko": "위진"},
+    "tang": {"zh": "唐", "ja": "唐", "en": "Tang", "ko": "당"},
+    "song": {"zh": "宋", "ja": "宋", "en": "Song", "ko": "송"},
+    "yuan": {"zh": "元", "ja": "元", "en": "Yuan", "ko": "원"},
+    "ming": {"zh": "明", "ja": "明", "en": "Ming", "ko": "명"},
+    "qing": {"zh": "清", "ja": "清", "en": "Qing", "ko": "청"},
+    "rc": {"zh": "民国", "ja": "民国", "en": "Republican", "ko": "민국"},
+    "wed": {"zh": "婚服", "ja": "婚礼服", "en": "Wedding", "ko": "혼례복"}
+  }
+}

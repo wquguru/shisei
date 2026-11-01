@@ -1,0 +1,124 @@
+{
+  "cat": "UR",
+  "note": "Urban outdoors. Streets are emptied of people and moving traffic; buildings, stalls and street furniture stand along the edges so a patch of pavement stays clear in the centre. Signs exist only as blank boards or plain-colour light shapes, and no skyline or landmark can be identified (docs/scene/PLAN.md §3).",
+  "groups": {
+    "street": {"zh": "街道", "ja": "通り", "en": "Streets", "ko": "거리"},
+    "lane": {"zh": "老街巷", "ja": "路地・古い町並み", "en": "Old Lanes", "ko": "골목·옛 거리"},
+    "open": {"zh": "公园、广场与屋顶", "ja": "公園・広場・屋上", "en": "Parks, Plazas & Rooftops", "ko": "공원·광장·옥상"},
+    "water": {"zh": "滨水", "ja": "水辺", "en": "Waterfront", "ko": "수변"},
+    "transit": {"zh": "交通设施", "ja": "交通施設", "en": "Transit Spaces", "ko": "교통 시설"}
+  },
+  "forms": [
+    {
+      "key": "crosswalk", "group": "street", "probe": true,
+      "name": {"zh": "十字路口斑马线", "ja": "交差点の横断歩道", "en": "Crosswalk", "ko": "횡단보도"},
+      "desc": "a wide city street seen from the middle of a zebra crossing, the road completely empty of cars, bicycles and people, white crossing stripes running away from the camera to the far pavement, generic six-storey office and apartment buildings with plain facades lining the left and right sides, traffic lights on plain grey poles at the far corners, plain street trees along both pavements, a vanishing view of more generic buildings with no recognisable skyline, and an empty patch of crossing stripes in the centre about 4 metres from the camera",
+      "keep": "empty road, white zebra stripes leading to the far pavement, generic six-storey buildings on both sides, traffic lights on grey poles at the far corners, street trees on both pavements, generic buildings in the distance, empty centre patch of crossing",
+      "checks": ["路上没有车和行人", "斑马线通向远处人行道", "没有路牌、店招文字和车牌", "中央斑马线空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Clear midday sun, blue sky, crisp short shadows from the buildings on the right"},
+        {"key": "rain-night", "name": {"zh": "雨夜", "ja": "雨の夜", "en": "Rainy Night", "ko": "비 오는 밤"}, "light": "Rainy night, the wet asphalt reflecting street lamps and the red and green of the traffic lights, fine rain visible against the lamps"}
+      ]
+    },
+    {
+      "key": "back-alley", "group": "street",
+      "name": {"zh": "后巷", "ja": "裏路地", "en": "Back Alley", "ko": "뒷골목"},
+      "desc": "a narrow city back alley between two five-storey brick buildings, rusty fire escapes and air-conditioning units on the left wall, plain grey metal back doors and closed lidded bins along the right wall, black pipes running up the walls, cables strung overhead between the buildings, a damp cobbled and asphalt ground, a brighter street visible at the far end, and an empty stretch of alley ground in the centre about 4 metres from the camera",
+      "keep": "two brick buildings, fire escapes and AC units on the left wall, metal doors and lidded bins on the right, pipes on the walls, overhead cables, damp cobbles and asphalt, bright street at the far end, empty centre ground",
+      "checks": ["两侧砖楼、左墙消防梯", "右侧铁门和垃圾桶", "墙上没有涂鸦文字", "中央地面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, one bare wall lamp over a back door casting warm light on the wet ground, the far street glowing cool blue"}
+      ]
+    },
+    {
+      "key": "neon-street", "group": "street", "probe": true,
+      "name": {"zh": "霓虹夜街", "ja": "ネオンの夜の街", "en": "Neon Night Street", "ko": "네온 밤거리"},
+      "desc": "a narrow pedestrian shopping street at night lined on the left and right with small two- and three-storey shops whose shutters are half down, each shopfront crowned by a blank signboard and a plain neon tube shape in a single colour — circles, bars and arcs in pink, cyan and amber — with no letters, characters or symbols, paper-free shop windows showing only soft light, strings of bare bulbs crossing overhead, wet stone paving running to the far end, and an empty patch of paving in the centre about 4 metres from the camera",
+      "keep": "small shops on both sides with half-down shutters, blank signboards, plain neon shapes in pink, cyan and amber with no lettering, strings of bulbs overhead, wet stone paving, empty centre paving",
+      "checks": ["两侧小店、霓虹只是几何色块", "招牌和霓虹没有任何文字或字符", "街上没有人", "中央路面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the paving lit by the coloured neon glow and the warm bulbs, deep blue sky above the roofline"}
+      ]
+    },
+    {
+      "key": "hk-street", "group": "street", "probe": true,
+      "name": {"zh": "港式街道", "ja": "香港風の街並み", "en": "Hong Kong-style Street", "ko": "홍콩풍 거리"},
+      "desc": "a dense Hong Kong-style street of narrow twelve-storey tenement blocks with balconies, window grilles and air-conditioning units packed along the left and right sides, many blank rectangular signboards in plain colours jutting out over the street on metal brackets with no characters or letters on them, ground-floor shops with rolled-down shutters, a plain asphalt road with no vehicles, no people and no tram tracks running to the far end, and an empty patch of road in the centre about 4 metres from the camera",
+      "keep": "narrow tall tenement blocks on both sides with balconies, grilles and AC units, blank coloured signboards jutting over the street, ground-floor shutters, empty road, no vehicles, empty centre road",
+      "checks": ["两侧高密度唐楼和外挑招牌", "招牌全是空白、没有字", "街上没有车和人", "中央路面空着"],
+      "variants": [
+        {"key": "night", "name": {"zh": "夜晚", "ja": "夜", "en": "Night", "ko": "밤"}, "light": "Night, the blank signboards backlit in plain warm white and red, apartment windows lit above, the street glowing"}
+      ]
+    },
+    {
+      "key": "lilong", "group": "lane",
+      "name": {"zh": "上海弄堂", "ja": "上海の路地（里弄）", "en": "Shanghai Lilong Lane", "ko": "상하이 골목"},
+      "desc": "a Shanghai-style shikumen lilong lane, two-storey grey brick terraced houses with red brick bands lining the left and right sides, black-lacquered wooden doors in carved stone door frames with no inscriptions, bamboo laundry poles with a few plain cloths hanging high up from upper windows, potted plants beside the doorsteps, a stone-paved lane running to an arched passage at the far end, and an empty patch of paving in the centre about 4 metres from the camera",
+      "keep": "two-storey grey and red brick terraced houses on both sides, black doors in stone frames without inscriptions, bamboo laundry poles high up, potted plants by the doors, stone-paved lane, arched passage at the far end, empty centre paving",
+      "checks": ["两侧石库门联排", "门楣上没有字", "高处竹竿晾衣", "中央石板路空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Soft afternoon sun falling on the right-hand houses, the left side in cool shade"}
+      ]
+    },
+    {
+      "key": "stair-street", "group": "lane",
+      "name": {"zh": "坡道台阶街", "ja": "階段のある坂道", "en": "Stepped Hillside Street", "ko": "계단 골목"},
+      "desc": "a steep residential stepped street climbing away from the camera between small plastered houses painted in faded cream, ochre and pale blue, potted plants and a few bicycles leaning on the walls along the left and right sides, a plain iron handrail running up the left side, rooftops and a strip of sky above the top of the steps, and an empty flat landing of paving stones in the centre about 4 metres from the camera",
+      "keep": "stepped street climbing away, small plastered houses in cream, ochre and pale blue on both sides, potted plants and bicycles along the walls, iron handrail on the left, sky above the top of the steps, empty flat landing in the centre",
+      "checks": ["台阶向远处上升", "两侧彩色小屋", "左侧铁扶手", "中央平台空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Bright late-morning sun, warm light on the right-hand walls, clear blue sky above the steps"}
+      ]
+    },
+    {
+      "key": "park-path", "group": "open",
+      "name": {"zh": "城市公园小径", "ja": "公園の小道", "en": "City Park Path", "ko": "공원 산책로"},
+      "desc": "a paved path through a city park curving gently away from the camera, mature broadleaf trees and neat lawns on the left and right, plain wooden slatted benches on black iron legs along the left edge, a black iron lamp post on the right, a low hedge in the middle distance, glimpses of generic mid-rise buildings above the trees with no recognisable skyline, and an empty patch of path in the centre about 4 metres from the camera",
+      "keep": "curving paved path, mature trees and lawns on both sides, wooden benches on the left edge, iron lamp post on the right, low hedge in the middle distance, generic buildings above the trees, empty centre path",
+      "checks": ["小径向远处弯曲", "左侧长椅、右侧路灯", "远处没有可认出的天际线", "中央小径空着"],
+      "variants": [
+        {"key": "morning", "name": {"zh": "清晨", "ja": "朝", "en": "Morning", "ko": "아침"}, "light": "Early morning, low golden sun through the trees, long soft shadows across the path, light mist"}
+      ]
+    },
+    {
+      "key": "rooftop", "group": "open",
+      "name": {"zh": "屋顶露台", "ja": "屋上テラス", "en": "Rooftop Terrace", "ko": "옥상 테라스"},
+      "desc": "a city rooftop terrace with grey hardwood decking, a waist-high glass balustrade across the far edge, large planters with ornamental grasses along the left and right edges, two low outdoor sofas and a coffee table against the right edge, festoon bulbs strung on posts above the edges, a soft-focus city of generic towers beyond the glass with no recognisable skyline, and an empty patch of decking in the centre about 4 metres from the camera",
+      "keep": "grey hardwood decking, glass balustrade across the far edge, planters with grasses on both sides, outdoor sofas on the right, festoon bulbs on posts, generic city towers beyond, empty centre decking",
+      "checks": ["远处玻璃栏板", "右侧户外沙发", "城市不是真实天际线", "中央甲板空着"],
+      "variants": [
+        {"key": "dusk", "name": {"zh": "黄昏", "ja": "夕暮れ", "en": "Dusk", "ko": "황혼"}, "light": "Dusk, warm orange sky fading to blue, the festoon bulbs glowing, windows lighting up in the distant towers"}
+      ]
+    },
+    {
+      "key": "basketball-court", "group": "open",
+      "name": {"zh": "室外篮球场", "ja": "屋外バスケットコート", "en": "Outdoor Basketball Court", "ko": "야외 농구장"},
+      "desc": "an outdoor public basketball court with a green and red acrylic surface and white painted lines, a basketball hoop with a plain white backboard and no markings at the far end, a tall chain-link fence around the left and right sides, floodlight poles at the corners, generic mid-rise apartment blocks beyond the fence with no recognisable skyline, and an empty patch of court surface in the centre about 4 metres from the camera",
+      "keep": "green and red court surface with white lines, hoop with plain white backboard at the far end, chain-link fence on both sides, floodlight poles at the corners, generic apartment blocks beyond, empty centre court",
+      "checks": ["远端篮架、篮板空白", "两侧铁丝网", "场地和围栏上没有字或标志", "中央场地空着"],
+      "variants": [
+        {"key": "day", "name": {"zh": "白天", "ja": "昼", "en": "Day", "ko": "낮"}, "light": "Late afternoon sun from the left, long chain-link fence shadows stretching across the court"}
+      ]
+    },
+    {
+      "key": "riverside", "group": "water",
+      "name": {"zh": "滨江步道", "ja": "川沿いの遊歩道", "en": "Riverside Promenade", "ko": "강변 산책로"},
+      "desc": "a wide riverside promenade of pale stone paving, a black iron railing along the right edge with a calm wide river beyond, a row of tall street lamps and young trees along the left edge, low stone benches between the trees, the far bank showing a low line of generic mid-rise buildings with no recognisable skyline, the promenade running straight into the distance, and an empty patch of paving in the centre about 4 metres from the camera",
+      "keep": "pale stone paving, black iron railing on the right with the river beyond, street lamps and young trees on the left, stone benches, generic far bank buildings, straight promenade into the distance, empty centre paving",
+      "checks": ["右侧铁栏杆和江面", "左侧路灯和树", "对岸不是真实天际线", "中央步道空着"],
+      "variants": [
+        {"key": "dusk", "name": {"zh": "黄昏", "ja": "夕暮れ", "en": "Dusk", "ko": "황혼"}, "light": "Golden hour, the sun low over the far bank, the river glowing orange, the street lamps just coming on"}
+      ]
+    },
+    {
+      "key": "bus-shelter", "group": "transit",
+      "name": {"zh": "公交候车亭", "ja": "バス停の待合所", "en": "Bus Stop Shelter", "ko": "버스 정류장"},
+      "desc": "a city pavement beside a modern glass bus shelter standing along the left edge, a slim steel frame and a plain glass roof, a narrow bench inside, a blank lit panel on the shelter's end with no advert, timetable or lettering, a kerb and an empty road on the right, generic apartment buildings across the road, and an empty patch of pavement in the centre about 4 metres from the camera",
+      "keep": "glass bus shelter along the left edge with steel frame, glass roof and bench, blank lit panel, kerb and empty road on the right, generic buildings across the road, empty centre pavement",
+      "checks": ["左侧玻璃候车亭", "灯箱空白、没有广告和站牌字", "路上没有车", "中央人行道空着"],
+      "variants": [
+        {"key": "rain-night", "name": {"zh": "雨夜", "ja": "雨の夜", "en": "Rainy Night", "ko": "비 오는 밤"}, "light": "Rainy night, the blank panel glowing white, rain falling through the street lamp light, puddles on the pavement"}
+      ]
+    }
+  ]
+}

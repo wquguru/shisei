@@ -27,6 +27,9 @@ two are rated suggestive. Plus photo renders for 23 std sets, a four-language ca
   Nipple marks, exposure, genital detail and a figure that reads as a minor are generation errors: they fail QC.
   A per-pose rating change is a human decision recorded in `data/rating_overrides.json`, not a catalog edit:
   `import_series.py` applies it on re-import and `verify.py` checks it.
+  Costumes follow the same rules; the LG (性感内衣) category is all `suggestive` and its boundary is D-11: no sheer
+  fabric, no cut-outs or openings at the nipple or crotch, no restraints, nothing school-coded or minor-coded, no
+  police or military, no real insignia.
 - **IDs are stable.** `P001`… never get renumbered or reused (P023 and P028 are retired). New poses take the next
   free number; the source-list number goes in `orig_id`.
 - **Full-size originals stay out of git.** Commit only the `w300`, `w600` and `w900` tiers; downloads ship as Release
@@ -52,11 +55,18 @@ data/qc.json         per-view and per-photo QC status, reason and file name; per
                      redrawn sets (docs/qc/README.md)
 data/qc-input/       every reviewer result behind qc.json; `qc_merge.py data/qc-input` rebuilds it exactly
 data/rating_overrides.json   per-pose rating decisions that win over the category rule (human-decided)
+data/costume-src/    costume library source (D-10): _categories.json + one <CAT>.json of forms × colorways
+data/costumes.json   costume items C###, expanded by tools/costume_cards.py; views front/back/side/diag
+data/{scene,prop,furniture,light,animal}-src/  planned libraries (D-12–D-17, not approved): category rules + cards,
+                     expanded by tools/series_cards.py into data/{scenes,props,furniture,lights,animals}.json
+                     (E### / T### / F### / L### / A###)
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
 images/line/w300/    grid tier for 1x screens and thumbnails, 300 px wide WebP q70
 images/line/w600/    grid tier for 2x / 3x screens, 600×800 WebP q72
 images/line/w900/    lightbox/download tier, 900×1200 WebP q75
 images/photo/…       same two tiers for photo renders
+images/costume/      costume views: grey/{w300,w600,w900}/ on #D9D9D9 and alpha/w900/ transparent (D-10),
+                     costume_<ID>_<view>.webp; QC in data/costume-qc.json from data/costume-qc-input/
 web/                 gallery source: index.html template, app.js, app.css, i18n.js, common.js (share sheet, copy,
                      language links), favicon.svg, changelog.yaml (reader-facing changelog, four languages)
 site/                build output of tools/build_site.py (git-ignored; deploy this): home, pose pages and changelog
@@ -65,9 +75,11 @@ site/                build output of tools/build_site.py (git-ignored; deploy th
 build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.py,
                      import_series.py, import_redraws.py, import_fills.py, import_descs.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py,
-                     export_csv.py
+                     export_csv.py, costume_cards.py, costume_brief.py (docs/costume/PLAN.md),
+                     series_kit.py + series_cards.py + series_brief.py (scene / prop / furniture / light / animal plans)
 docs/qc/             QC method, results and the reviewer prompts (panels, name, limbs, proportion, photo, rating)
 .claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
+docs/{scene,prop,furniture,light,animal}/PLAN.md   plans for the next libraries, awaiting D-12–D-17
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
 docs/DECISIONS.md    open questions and decisions awaiting a human
 docs/GENERATION.md   how the sets were made, gap log

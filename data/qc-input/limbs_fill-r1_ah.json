@@ -1,0 +1,469 @@
+{
+ "source": "fill-r1",
+ "reviewed": [
+  "D003__diag.jpg",
+  "D004__front-diag.jpg",
+  "D006__above.jpg",
+  "D007__above.jpg",
+  "D009__above-below.jpg",
+  "D010__front-side.jpg",
+  "D019__side.jpg",
+  "D020__diag-above.jpg",
+  "D024__below.jpg",
+  "D024__front-above.jpg",
+  "D026__front.jpg",
+  "D028__diag-above.jpg",
+  "D032__above.jpg",
+  "D032__front-diag.jpg",
+  "D034__side-above.jpg",
+  "D036__front.jpg",
+  "D037__below.jpg",
+  "D039__side.jpg",
+  "D041__diag.jpg",
+  "D047__diag.jpg",
+  "D049__front-above.jpg",
+  "D051__front.jpg",
+  "D053__side.jpg",
+  "D055__front.jpg",
+  "S004__above.jpg",
+  "S006__diag-side.jpg",
+  "S016__front.jpg",
+  "S022__above.jpg",
+  "S024__diag.jpg",
+  "S027__above.jpg"
+ ],
+ "panels": [
+  {
+   "set": "D003",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man: R hand hangs at side, L hand grips woman's raised ankle; feet planted left/bottom. Woman lying: one hand up at right, one hand out bottom-left; two legs raised in V, both feet at top.",
+   "note": ""
+  },
+  {
+   "set": "D004",
+   "angle": "front",
+   "arms": 3,
+   "hands": 3,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man kneeling: hands hang at sides, two feet under him at bottom. Woman lying across top: near arm out to left with hand; both legs straight up, feet at top.",
+   "note": "Woman's far arm hidden behind her body."
+  },
+  {
+   "set": "D004",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 3,
+   "trace": "Man kneeling: L hand on floor left, R hand at right; one foot visible lower left. Woman lying: both arms extended right, two hands at far right; both legs up, feet at top.",
+   "note": "Man's second foot hidden under his legs."
+  },
+  {
+   "set": "D006",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man: both hands meet at woman's hips at centre; feet at bottom corners. Woman inverted: hands hang at bottom centre; legs in V up to corner feet at top.",
+   "note": ""
+  },
+  {
+   "set": "D007",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man bent over: hands on woman's hips/thighs at left and right; feet wide at bottom corners. Woman: hands on her own knees at centre; feet together at bottom centre.",
+   "note": ""
+  },
+  {
+   "set": "D009",
+   "angle": "above",
+   "arms": 4,
+   "hands": 3,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man's arms wrap woman's waist, forearms cross at centre and hands are hidden behind her; woman's hands rest on man's thighs at sides; man's feet wide at bottom corners, woman's feet together at centre.",
+   "note": "Man's hands hidden behind woman's body."
+  },
+  {
+   "set": "D009",
+   "angle": "below",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man's arms reach around woman, hands clasped with hers at centre belly (cluster of hands); man's large feet at bottom corners, woman's feet together at centre.",
+   "note": ""
+  },
+  {
+   "set": "D010",
+   "angle": "front",
+   "arms": 3,
+   "hands": 4,
+   "legs": 4,
+   "feet": 3,
+   "trace": "Man: both forearms forward, hands clasped at centre on woman's lap; two feet at bottom left. Woman sitting sideways: near hand on her thigh; far arm hidden; legs together to right, one foot visible at right.",
+   "note": "Woman's far arm hidden; her two shins overlap into one visible foot, second foot hidden behind. Low-confidence flag."
+  },
+  {
+   "set": "D010",
+   "angle": "side",
+   "arms": 3,
+   "hands": 4,
+   "legs": 4,
+   "feet": 3,
+   "trace": "Man: forearms forward with hands clasped at centre; feet at lower left. Woman: near hand hangs on her thigh; far arm hidden; one foot visible lower right.",
+   "note": "Woman's far arm and one foot hidden."
+  },
+  {
+   "set": "D019",
+   "angle": "side",
+   "arms": 3,
+   "hands": 3,
+   "legs": 3,
+   "feet": 3,
+   "trace": "Man kneeling: near hand on his knee; far arm reaches toward woman's thigh with no clear hand. Woman lying: near arm lies along body with hand on man's hip; one leg raised high, foot at top. Man's feet at lower left and lower centre.",
+   "note": "Woman's far arm hidden; her second leg not traceable (see flag)."
+  },
+  {
+   "set": "D020",
+   "angle": "diag",
+   "arms": 3,
+   "hands": 3,
+   "legs": 3,
+   "feet": 3,
+   "trace": "Two figures lying stacked diagonally; only one hand clearly seen at centre-right, three feet seen at top right; the rest overlap.",
+   "note": "Heavy overlap; count unreliable, see flag."
+  },
+  {
+   "set": "D020",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man: arms out at far sides, hands raised at left/right; legs long with two feet at top. Woman: arms near her sides, hands inward; two shorter legs, feet at top.",
+   "note": ""
+  },
+  {
+   "set": "D024",
+   "angle": "below",
+   "arms": 4,
+   "hands": 2,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Woman: both hands on her knees at centre; feet together at bottom. Man: arms go to elbows at sides then behind woman, hands hidden; large feet at bottom corners.",
+   "note": "Man's hands hidden behind woman."
+  },
+  {
+   "set": "D024",
+   "angle": "front",
+   "arms": 4,
+   "hands": 2,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Woman: both hands hang at her knees at centre; feet together bottom centre. Man: forearms wrap her waist, hands hidden behind her; feet at bottom corners.",
+   "note": "Man's hands hidden behind woman."
+  },
+  {
+   "set": "D024",
+   "angle": "above",
+   "arms": 4,
+   "hands": 2,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Woman: both hands joined at her shins near bottom centre; feet at bottom centre. Man: arms reach to her sides, hands hidden under her; feet at bottom outer corners.",
+   "note": "Man's hands hidden behind woman."
+  },
+  {
+   "set": "D026",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Woman: both hands raised with open palms at left/right of shoulders. Man behind: both hands on her waist at centre. Woman's feet centre, man's feet outside, all four at bottom.",
+   "note": ""
+  },
+  {
+   "set": "D028",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Woman A upper right: one hand at right beside body, other hand extended top-left. Woman B lower left: one hand raised left, other hand extended right. Two legs of each end in four feet, two at top and two at bottom.",
+   "note": ""
+  },
+  {
+   "set": "D028",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Top woman: arms out, hands at left/right. Bottom woman: arms out, hands left/right. Four legs cross in an X in centre, four feet at the X ends.",
+   "note": ""
+  },
+  {
+   "set": "D032",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man on all fours: hands at bottom left/right; legs at top, feet at top centre. Woman beneath: arms up, hands at left/right mid-height; two small feet at left/right of man's hips.",
+   "note": "Overlapping arms on each side; woman's legs mostly hidden under man. Counts best-effort."
+  },
+  {
+   "set": "D032",
+   "angle": "front",
+   "arms": 4,
+   "hands": 3,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man on all fours: both hands on floor, two knees/feet under him. Woman lying below: near hand at lower middle; far hand hidden; both feet at far left.",
+   "note": "Woman's far hand hidden behind her body."
+  },
+  {
+   "set": "D032",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 3,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man: L hand on floor left, R hand on woman's chest; two feet at upper right. Woman lying: near hand at right bottom; far hand hidden behind man's hand; two feet at lower left.",
+   "note": "Woman's far hand hidden."
+  },
+  {
+   "set": "D034",
+   "angle": "side",
+   "arms": 3,
+   "hands": 2,
+   "legs": 3,
+   "feet": 3,
+   "trace": "Man seated cross-legged: near hand on woman's waist; far arm hidden; two feet at lower left. Woman on lap: near hand on his shoulder at right; far arm hidden; one leg bent with foot at left.",
+   "note": "Far arms and woman's far leg hidden behind bodies."
+  },
+  {
+   "set": "D034",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man: hands cross on woman's lower back at left/right centre. Woman: hands cross at front centre; man's feet cross at bottom, woman's feet at bottom centre.",
+   "note": ""
+  },
+  {
+   "set": "D036",
+   "angle": "front",
+   "arms": 4,
+   "hands": 3,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man behind: one hand on woman's belly at centre, other hand hidden behind her. Woman: hands hang at her sides; feet bottom centre; man's feet outside.",
+   "note": "Man's R hand hidden behind woman."
+  },
+  {
+   "set": "D037",
+   "angle": "below",
+   "arms": 3,
+   "hands": 3,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man standing: one hand on woman's hip at upper centre; second arm not found. Woman bent forward: both hands on floor lower right; man's feet lower left, woman's feet bottom centre (overlapped).",
+   "note": "Man's second arm not traceable; see flag."
+  },
+  {
+   "set": "D039",
+   "angle": "side",
+   "arms": 4,
+   "hands": 3,
+   "legs": 4,
+   "feet": 3,
+   "trace": "Man kneeling: one hand on his knee, other hand at woman's raised knee. Woman lying: hand at bottom left on floor, other arm behind; one foot raised top centre, other foot top left behind man's head; man's foot lower left.",
+   "note": "Tangled; see flag."
+  },
+  {
+   "set": "D041",
+   "angle": "diag",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Left woman: hand at far left on partner's waist; other hand on partner's back at right. Right woman: hand on far right back edge and hand at centre. Four feet along bottom.",
+   "note": ""
+  },
+  {
+   "set": "D047",
+   "angle": "diag",
+   "arms": 3,
+   "hands": 2,
+   "legs": 4,
+   "feet": 3,
+   "trace": "Woman: R hand on her belly at centre; leg raised, foot at top; other leg extended right to foot. Man: hand at left on her back; far arm hidden; foot at bottom centre.",
+   "note": "Man's second arm, hand and foot hidden behind woman."
+  },
+  {
+   "set": "D049",
+   "angle": "front",
+   "arms": 3,
+   "hands": 3,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man: R hand hangs at left; other hand behind woman at right. Woman: near hand on man's chest; far arm hidden; one leg draped to foot at centre bottom, other leg behind man's leg. Man's feet at bottom.",
+   "note": "Woman's far arm and second leg hidden."
+  },
+  {
+   "set": "D049",
+   "angle": "above",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man lying: hand at bottom right; other arm under woman, hand at centre right. Woman: hand on man's upper arm; two legs to right, feet at far right.",
+   "note": ""
+  },
+  {
+   "set": "D051",
+   "angle": "front",
+   "arms": 4,
+   "hands": 3,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Woman on back: hands on her thighs at centre; feet up at top. Man kneeling: R hand on her shin at lower right; far arm hidden; feet at bottom centre and right.",
+   "note": "Man's far arm hidden behind torso."
+  },
+  {
+   "set": "D053",
+   "angle": "side",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Man behind: hands clasped on woman's hip at centre (two hands). Woman bent: near hand on her knee; other hand hidden behind; man's feet bottom left, woman's feet bottom right.",
+   "note": ""
+  },
+  {
+   "set": "D055",
+   "angle": "front",
+   "arms": 4,
+   "hands": 4,
+   "legs": 4,
+   "feet": 4,
+   "trace": "Woman: both hands on her knees at centre. Man behind: one hand on her L knee at left, other hand at right on her thigh; feet at far left/right and woman's at bottom centre.",
+   "note": ""
+  },
+  {
+   "set": "S004",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands on knees at lower centre; feet at bottom centre.",
+   "note": ""
+  },
+  {
+   "set": "S006",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands hang forward at left; two feet at bottom.",
+   "note": ""
+  },
+  {
+   "set": "S006",
+   "angle": "side",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both arms reach forward, hands at right; feet at bottom.",
+   "note": ""
+  },
+  {
+   "set": "S016",
+   "angle": "front",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 1,
+   "trace": "L hand flat on floor at lower left; R hand on floor at right; legs folded to right with one foot visible at far right.",
+   "note": "Second leg ends in a ball with no foot; see flag."
+  },
+  {
+   "set": "S022",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands out at sides at mid height; feet at bottom corners.",
+   "note": ""
+  },
+  {
+   "set": "S024",
+   "angle": "diag",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands clasped at shin at centre; feet at lower left and lower right.",
+   "note": ""
+  },
+  {
+   "set": "S027",
+   "angle": "above",
+   "arms": 2,
+   "hands": 2,
+   "legs": 2,
+   "feet": 2,
+   "trace": "Both hands on floor at bottom centre; feet at lower left/right.",
+   "note": ""
+  }
+ ],
+ "flags": [
+  {
+   "set": "D010",
+   "angle": "front",
+   "reason": "Woman's two shins overlap into one visible foot at right; second foot may be missing. Low confidence."
+  },
+  {
+   "set": "D019",
+   "angle": "side",
+   "reason": "Woman has one traced leg (raised); second leg not found. Man's far arm ends with no clear hand."
+  },
+  {
+   "set": "D020",
+   "angle": "diag",
+   "reason": "Overlap too heavy to trace all limbs; only three feet and one hand identified."
+  },
+  {
+   "set": "D037",
+   "angle": "below",
+   "reason": "Man's second arm not found; only the arm on the woman's hip is traced."
+  },
+  {
+   "set": "D039",
+   "angle": "side",
+   "reason": "Tangled legs: foot behind man's head and woman's far hand cannot be traced to a hip/shoulder."
+  },
+  {
+   "set": "S016",
+   "angle": "front",
+   "reason": "Second folded leg ends in a ball joint at lower right with no foot drawn."
+  }
+ ]
+}

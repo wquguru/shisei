@@ -1,0 +1,9012 @@
+{
+ "views": [
+  "front",
+  "diag",
+  "side",
+  "back"
+ ],
+ "items": {
+  "C001": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C002": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C003": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C004": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C005": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C006": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C007": {
+   "front": {
+    "status": "missing",
+    "reason": "Best attempt a1 kept in work/gateD (media-generation-costume-hc-c007-front-a1...png) 3/4: open white sheer daxiu + red/dark-green vertical jianse stripes + inner cross-collar to image-left OK, but ski",
+    "by": "gen_hc_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   }
+  },
+  "C008": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C009": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C010": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C011": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C012": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C013": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C014": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 3/4: narrow long ivory sleeves + deep green short-sleeved banbi over + red/ivory vertical striped skirt + cross collar slanting to image-left all ok, but skirt band at natural waist not just below ",
+    "by": "gen_hc_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   }
+  },
+  "C015": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 3/4 at best on garment points 1-2 + stripes: long narrow pale yellow sleeves + red short-sleeved banbi over + mustard/dark-green vertical striped skirt present, but skirt tied at natural waist with",
+    "by": "gen_hc_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_hc_run01.json"
+   }
+  },
+  "C016": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C017": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C018": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C019": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C020": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C021": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C022": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C023": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C024": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C025": {
+   "front": {
+    "status": "pass",
+    "reason": "belt tail shade only",
+    "by": "manual_hc_r1.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C026": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C027": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C028": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C029": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C030": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C031": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C032": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_aa.json"
+   }
+  },
+  "C033": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C034": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "consistency",
+    "reason": "inner sleeve and skirt read black/dark grey, but they are white/moon-white in front, back and diag",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C035": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C036": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C037": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C038": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C039": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C040": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C041": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C042": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C043": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C044": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C045": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C046": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C047": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C048": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C049": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C050": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C051": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C052": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C053": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C054": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C055": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C056": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C057": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C058": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C059": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C060": {
+   "front": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_hc_r1_ab.json"
+   }
+  },
+  "C061": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C062": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C063": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C064": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C065": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C066": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C067": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "Dark smeared halo at chest cord and black smudge streaks over the hakama",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C068": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C069": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C070": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C071": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C072": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C073": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C074": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C075": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C076": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C077": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C078": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C079": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C080": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C081": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "consistency",
+    "reason": "Trousers are grey and blurry here but white in the other panels",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C082": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "consistency",
+    "reason": "dupatta shawl not visible across the back shoulders, only dark tips at hem; front and side show it",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C083": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C084": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C085": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C086": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_01.json"
+   }
+  },
+  "C087": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "form",
+    "reason": "long right sleeve hanging behind the body (point 2) not visible in back view; low confidence",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C088": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "content",
+    "reason": "dark mannequin neck/stand visible above the collar",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C089": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C090": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C091": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C092": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C093": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C094": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C095": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C096": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C097": {
+   "front": {
+    "status": "consistency",
+    "reason": "no tights/white socks between skirt and shoes, back/side/diag show dark legwear and white socks",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C098": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C099": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C100": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C101": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C102": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C103": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C104": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C105": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C106": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C107": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C108": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C109": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C110": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C111": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C112": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C113": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C114": {
+   "front": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_we_r1_02.json"
+   }
+  },
+  "C115": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "T-shirt is dark grey/black, but white in the front panel",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C116": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C117": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C118": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C119": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C120": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C121": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C122": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C123": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C124": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C125": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C126": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "consistency",
+    "reason": "shoes are dark brown suede, but nude/beige in front and diag",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C127": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C128": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C129": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C130": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C131": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C132": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C133": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C134": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C135": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C136": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C137": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C138": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C139": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C140": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "Diag shows dark/black shirt and black skirt instead of white blouse and navy skirt seen in other panels",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C141": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C142": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_01.json"
+   }
+  },
+  "C143": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C144": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C145": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C146": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C147": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C148": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C149": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C150": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C151": {
+   "front": {
+    "status": "matte",
+    "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "matte",
+    "reason": "Stripe pattern smeared with grey haze/blocks, background residue in the sweater",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C152": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C153": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C154": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C155": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C156": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C157": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C158": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C159": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C160": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C161": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C162": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C163": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C164": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C165": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C166": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C167": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C168": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C169": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C170": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_02.json"
+   }
+  },
+  "C171": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C172": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C173": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C174": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C175": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C176": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C177": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C178": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C179": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C180": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C181": {
+   "front": {
+    "status": "form",
+    "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "form",
+    "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "form",
+    "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "form",
+    "reason": "Coat hem ends above the knee (mid-thigh), point 1 wants a long coat to below the knee",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C182": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C183": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C184": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C185": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C186": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "consistency",
+    "reason": "caramel corduroy skirt renders near-black with red sheen",
+    "by": "manual_mix_r2.json"
+   },
+   "back": {
+    "status": "pass",
+    "reason": "turtleneck, not a mannequin neck",
+    "by": "manual_mix_r2.json"
+   }
+  },
+  "C187": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C188": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C189": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C190": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C191": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C192": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C193": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C194": {
+   "front": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_md_r1_03.json"
+   }
+  },
+  "C195": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C196": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C197": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C198": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C199": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C200": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C201": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C202": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C203": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C204": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C205": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C206": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C207": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C208": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C209": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C210": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C211": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C212": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C213": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "consistency",
+    "reason": "shoes in back panel are black and almost invisible on the dark background; other panels show silver pumps",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C214": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C215": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C216": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C217": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C218": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C219": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C220": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C221": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C222": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C223": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C224": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fm_r1_01.json"
+   }
+  },
+  "C225": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C226": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C227": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C228": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C229": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C230": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C231": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C232": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C233": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C234": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C235": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C236": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "Sneaker has grey translucent/glassy block patches left from background",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "Sneaker has grey translucent/glassy block patches left from background",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C237": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C238": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C239": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C240": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C241": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C242": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C243": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C244": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C245": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C246": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C247": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C248": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C249": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C250": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C251": {
+   "front": {
+    "status": "missing",
+    "reason": "parent fix wave: edit-deletion route on the cleaner main-wave a2 candidate (8 frog pairs; main wave used 3 attempts: 8, 8, 9 pairs); edit 1 used the prescribed text (remove the pair at the lower waist",
+    "by": "gen_sp_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_sp_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_sp_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped: no accepted front",
+    "by": "gen_sp_run01.json"
+   }
+  },
+  "C252": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C253": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_02.json"
+   },
+   "back": {
+    "status": "content",
+    "reason": "Grey/silver neck-like cap visible inside the back collar, may be mannequin neck (unsure; please check)",
+    "by": "fail_mix_r2_02.json"
+   }
+  },
+  "C254": {
+   "front": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_sp_r1_01.json"
+   }
+  },
+  "C255": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C256": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C257": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C258": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C259": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C260": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C261": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C262": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C263": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C264": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C265": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C266": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C267": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C268": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C269": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C270": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C271": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C272": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C273": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C274": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C275": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C276": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C277": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C278": {
+   "front": {
+    "status": "content",
+    "reason": "dark mannequin neck stub visible above the T-shirt collar; low confidence",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "content",
+    "reason": "dark mannequin neck stub visible above the T-shirt collar; low confidence",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "content",
+    "reason": "dark mannequin neck stub visible above the T-shirt collar; low confidence",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C279": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C280": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C281": {
+   "front": {
+    "status": "matte",
+    "reason": "apron bib is grey, translucent and smeared instead of white; grey halo at left edge",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "matte",
+    "reason": "apron and cross straps are grey, translucent and smeared, not solid white",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C282": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C283": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wk_r1_01.json"
+   }
+  },
+  "C284": {
+   "front": {
+    "status": "form",
+    "reason": "collar looks like a plain turn-down collar, not a wing collar (point 3); unsure at this size",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "form",
+    "reason": "collar looks like a plain turn-down collar, not a wing collar (point 3); unsure at this size",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C285": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C286": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C287": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C288": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C289": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C290": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C291": {
+   "front": {
+    "status": "matte",
+    "reason": "grey smoky halo around lace cuffs",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "grey smoky smudges at collar and lace cuff",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "matte",
+    "reason": "grey smoky halo around lace cuff on right sleeve",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C292": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C293": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C294": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C295": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C296": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C297": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C298": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C299": {
+   "front": {
+    "status": "matte",
+    "reason": "grey block filling the V of the blouse collar, looks like leftover background or neck form",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C300": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C301": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C302": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C303": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C304": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C305": {
+   "front": {
+    "status": "form",
+    "reason": "dress is burgundy red, header says navy (藏青) with white dots; shoes are navy",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "content",
+    "reason": "dark mannequin neck visible at the neckline",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C306": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C307": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "consistency",
+    "reason": "shoe is dark navy/black, other panels show white pumps",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C308": {
+   "front": {
+    "status": "matte",
+    "reason": "grey block visible inside the open collar (neck form or leftover background)",
+    "by": "fail_mix_r2_03.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "grey block visible inside the open collar (neck form or leftover background)",
+    "by": "fail_mix_r2_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_03.json"
+   }
+  },
+  "C309": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C310": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C311": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C312": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C313": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C314": {
+   "front": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_wh_r1_01.json"
+   }
+  },
+  "C315": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C316": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C317": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C318": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C319": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C320": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C321": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C322": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C323": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C324": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C325": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C326": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C327": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C328": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C329": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C330": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C331": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C332": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C333": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C334": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C335": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C336": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C337": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C338": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C339": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C340": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_01.json"
+   }
+  },
+  "C341": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "dark grey smudge/blotch on the inner garment and skirt, leftover background",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C342": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C343": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C344": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C345": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C346": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C347": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C348": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C349": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C350": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C351": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C352": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C353": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C354": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fn_r1_02.json"
+   }
+  },
+  "C355": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C356": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C357": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C358": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C359": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C360": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "consistency",
+    "reason": "fur trim at back neckline looks dark/black while the collar and cuffs are white fur on the other panels",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C361": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C362": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C363": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C364": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C365": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C366": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C367": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C368": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C369": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C370": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C371": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C372": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C373": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C374": {
+   "front": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_fs_r1_01.json"
+   }
+  },
+  "C375": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C376": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C377": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C378": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C379": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C380": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C381": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C382": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C383": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C384": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C385": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C386": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C387": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C388": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C389": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C390": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C391": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "content",
+    "reason": "white mannequin shoulder visible in the armhole",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C392": {
+   "front": {
+    "status": "pass",
+    "reason": "shorty length is a proportion difference",
+    "by": "manual_run01_r1.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C393": {
+   "front": {
+    "status": "pass",
+    "reason": "shorty length is a proportion difference",
+    "by": "manual_run01_r1.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C394": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C395": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C396": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C397": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "matte",
+    "reason": "grey cloudy gradient block over the white back panel; background left in the cut-out",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C398": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C399": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C400": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C401": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C402": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C403": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_01.json"
+   }
+  },
+  "C404": {
+   "front": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_in_r1_01.json"
+   }
+  },
+  "C405": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C406": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C407": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C408": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C409": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C410": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C411": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "parent fix top-up, fresh view-transfer route: refs = refs/C411_front.png (image 1) + the fix-accepted img/C411_side.png (image 2, exactly two eyelets), AC three-quarter template plus the mandated sent",
+    "by": "gen_ac_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C412": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C413": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C414": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C415": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C416": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C417": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C418": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C419": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "Parent FIX wave (FIXAC2), 2 further attempts after main-wave 2, both failed the viewpoint point. Fix a1 used the mandated geometry lock (centre crease as ONE ridge line image-left front to image-right",
+    "by": "gen_ac_run01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C420": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C421": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C422": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C423": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C424": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C425": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "top shows two tall upright plates and a taller box body, unlike the stepped low block in front/back/side; wings attach at a different height",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C426": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C427": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C428": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C429": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C430": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C431": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C432": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C433": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C434": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_01.json"
+   }
+  },
+  "C435": {
+   "front": {
+    "status": "form",
+    "reason": "point 2 (arched bridge bar running front to back) not visible from the front; only petals and the cross pin are seen",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "consistency",
+    "reason": "back panel shows a large open slot exposing the hollow interior; front, side and diag are closed petals",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C436": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C437": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C438": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C439": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C440": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C441": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C442": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C443": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C444": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C445": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C446": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C447": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C448": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C449": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C450": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C451": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C452": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C453": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C454": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C455": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C456": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C457": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C458": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C459": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C460": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C461": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C462": {
+   "front": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "bottom tassel is nearly black and ghost-like against the background, partly lost in the cut-out",
+    "by": "fail_mix_r2_00.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_mix_r2_00.json"
+   }
+  },
+  "C463": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C464": {
+   "front": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_ac_r1_02.json"
+   }
+  },
+  "C465": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C466": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C467": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 refused by generator with full template (black satin garter set, lined opaque, ghost mannequin); a2 refused by generator using catalogue-style rewording (fully lined opaque satin bra with covered c",
+    "by": "gen_lg_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "front refused not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "front refused not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "front refused not attempted",
+    "by": "gen_lg_run01.json"
+   }
+  },
+  "C468": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 refused by generator with full template (true red satin garter set, lined opaque, ghost mannequin); a2 refused by generator using catalogue-style rewording (fully lined opaque satin bra with covere",
+    "by": "gen_lg_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "front refused not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "front refused not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "front refused not attempted",
+    "by": "gen_lg_run01.json"
+   }
+  },
+  "C469": {
+   "front": {
+    "status": "matte",
+    "reason": "grey smudge halo above the briefs",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "grey smudge halo above the briefs",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C470": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 refused with original babydoll desc; a2 attempted with de-sensitized wording (satin nightdress set, fully lined opaque fitted bust with thin shoulder straps, ribbon tie in bow directly under bust, ",
+    "by": "gen_lg_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "front refused not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "front refused not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "front refused not attempted",
+    "by": "gen_lg_run01.json"
+   }
+  },
+  "C471": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C472": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C473": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "white background blob left in the waist cut-out",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "matte",
+    "reason": "white background block left in the back cut-out",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C474": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "dark grey fill left in the waist cut-out",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C475": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C476": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "matte",
+    "reason": "detached strap fragment floating below the bralette; unsure if cut off",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C477": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C478": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C479": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "grey/lilac block filling the leg opening",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "grey block filling the leg opening",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C480": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C481": {
+   "front": {
+    "status": "matte",
+    "reason": "grey disc left in the round under-bust cut-out",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "white/grey disc left in the under-bust cut-out",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "grey fill left in the waist cut-out",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C482": {
+   "front": {
+    "status": "matte",
+    "reason": "white disc left in the round under-bust cut-out",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C483": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C484": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "white background block visible inside the armhole/neck",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C485": {
+   "front": {
+    "status": "missing",
+    "reason": "refused - a1 full template refused; a2 stage-party rewording refused; a3 magician-assistant rewording also refused (parent final attempt); no views attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "front refused, not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "front refused, not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "front refused, not attempted",
+    "by": "gen_lg_run01.json"
+   }
+  },
+  "C486": {
+   "front": {
+    "status": "missing",
+    "reason": "refused - a1 full template refused; a2 stage-party rewording refused; a3 magician-assistant rewording also refused (parent final attempt); no views attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "front refused, not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "front refused, not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "front refused, not attempted",
+    "by": "gen_lg_run01.json"
+   }
+  },
+  "C487": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C488": {
+   "front": {
+    "status": "matte",
+    "reason": "white/grey patch under the hem at left thigh plus grey haze at the hem; unsure",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "grey haze below the skirt hem; unsure",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C489": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C490": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 original devil wording refused; a2 reworded as red satin masquerade party costume with structured corset-style top sweetheart edge fully covering bust short flared pointed-hem skirt thin costume ta",
+    "by": "gen_lg_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "front refused after 3 attempts not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "front refused after 3 attempts not attempted",
+    "by": "gen_lg_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "front refused after 3 attempts not attempted",
+    "by": "gen_lg_run01.json"
+   }
+  },
+  "C491": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C492": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C493": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "grey disc left in the sleeve armhole",
+    "by": "fail_lg_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  },
+  "C494": {
+   "front": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "Both attempts fell into the branded-sneaker attractor: a1 had embossed AIR wording on the sole; rewrite 'soles entirely blank, NO AIR text, smooth blank white sides, no tick or swoosh shape' -> a2 sti",
+    "by": "gen_lg_run01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_lg_r1_01.json"
+   }
+  }
+ }
+}

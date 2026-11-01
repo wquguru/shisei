@@ -1,0 +1,197 @@
+{
+ "cat": "DG",
+ "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "groups": {
+  "medium": {
+   "zh": "中型犬",
+   "ja": "中型犬",
+   "en": "Medium Dog",
+   "ko": "중형견"
+  },
+  "large": {
+   "zh": "大型犬",
+   "ja": "大型犬",
+   "en": "Large Dog",
+   "ko": "대형견"
+  },
+  "shortleg": {
+   "zh": "短腿长身犬",
+   "ja": "短足胴長犬",
+   "en": "Short-Legged Dog",
+   "ko": "단족 장신견"
+  },
+  "sighthound": {
+   "zh": "细长视觉猎犬",
+   "ja": "サイトハウンド",
+   "en": "Sighthound",
+   "ko": "시각 하운드"
+  }
+ },
+ "forms": [
+  {
+   "key": "dog-m-sit",
+   "group": "medium",
+   "probe": true,
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "a segmented curled tail",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·坐",
+    "ja": "中型犬・お座り",
+    "en": "Medium Dog Sitting",
+    "ko": "중형견 앉기"
+   },
+   "desc": "sitting on its haunches with straight front legs side by side, hind legs folded with the hocks flat on the ground, chest up, head raised and facing forward, ears upright, tail curled over the back",
+   "keep": "sit, straight front legs side by side, folded hind legs with hocks on the ground, ears upright, tail curled over the back",
+   "checks": [
+    "前腿并排伸直",
+    "后腿折叠、跗关节贴地",
+    "立耳",
+    "尾巴卷在背上"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-gallop",
+   "group": "medium",
+   "probe": true,
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "a segmented curled tail",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·奔跑",
+    "ja": "中型犬・疾走",
+    "en": "Medium Dog Running",
+    "ko": "중형견 달리기"
+   },
+   "desc": "running at full gallop in the extended phase: both front legs stretched far forward, both hind legs stretched far back, all four paws off the ground, body long and level, head forward, ears back",
+   "keep": "full gallop extended phase, both front legs forward, both hind legs back, all paws off the ground, level body",
+   "checks": [
+    "四只脚都离地",
+    "两条前腿向前伸",
+    "两条后腿向后伸",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-l-down",
+   "group": "large",
+   "probe": true,
+   "species": "large dog with drop ears and a long straight tail",
+   "tail": "a long segmented tail",
+   "coat": "golden medium-length coat",
+   "name": {
+    "zh": "大型犬·趴下",
+    "ja": "大型犬・伏せ",
+    "en": "Large Dog Lying Down",
+    "ko": "대형견 엎드리기"
+   },
+   "desc": "lying down in a sphinx position: belly on the ground, front legs stretched straight forward parallel, hind legs folded under the hips, head raised and facing forward, drop ears hanging, tail lying straight behind",
+   "keep": "sphinx down, belly on the ground, front legs straight forward and parallel, hind legs folded under the hips, head up, drop ears, tail straight behind",
+   "checks": [
+    "腹部贴地",
+    "前腿平行前伸",
+    "后腿收在臀下",
+    "垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-s-down",
+   "group": "shortleg",
+   "probe": true,
+   "species": "long-bodied short-legged dog of dachshund build: a long low back, very short legs, a deep chest close to the ground, long drop ears and a long muzzle",
+   "tail": "a long segmented tail",
+   "coat": "short smooth red fur",
+   "name": {
+    "zh": "短腿犬·趴下",
+    "ja": "短足犬・伏せ",
+    "en": "Short-Legged Dog Lying Down",
+    "ko": "단족견 엎드리기"
+   },
+   "desc": "lying down in a sphinx position: belly on the ground along the whole long body, short front legs stretched forward parallel, short hind legs folded under the hips, head raised and facing forward, long drop ears hanging, tail lying straight behind",
+   "keep": "sphinx down, long low body flat on the ground, short front legs forward and parallel, hind legs folded under the hips, head up, long drop ears, tail straight behind",
+   "checks": [
+    "身长明显大于身高的两倍",
+    "腿很短、胸口几乎贴地",
+    "前腿平行前伸",
+    "长垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-h-gallop",
+   "group": "sighthound",
+   "probe": true,
+   "species": "lean sighthound of greyhound build: a long narrow head, a deep chest, a very tucked-up waist, long thin legs, small folded rose ears and a long thin tail",
+   "tail": "a long thin segmented tail",
+   "coat": "short smooth grey fur",
+   "name": {
+    "zh": "视觉猎犬·奔跑",
+    "ja": "サイトハウンド・疾走",
+    "en": "Sighthound Running",
+    "ko": "시각 하운드 달리기"
+   },
+   "desc": "running at full gallop in the gathered phase: back strongly arched, hind legs swung forward past the front legs, front legs reaching back underneath the body, all four paws off the ground, head low and forward, ears folded back, tail low behind",
+   "keep": "full gallop gathered phase, back arched, hind legs forward ahead of the front legs, all paws off the ground, head low",
+   "checks": [
+    "四只脚都离地",
+    "后腿越过前腿",
+    "背部拱起、腰细收",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

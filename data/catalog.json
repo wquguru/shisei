@@ -2205,12 +2205,13 @@
    "front": "sexy_S004_front.webp",
    "diag": "sexy_S004_diag.webp",
    "side": "sexy_S004_side.webp",
-   "above": null,
+   "above": "sexy_S004_above.webp",
    "below": "sexy_S004_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "above": "line"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -2256,16 +2257,19 @@
   "views": {
    "front": null,
    "diag": null,
-   "side": null,
+   "side": "sexy_S006_side.webp",
    "above": "sexy_S006_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
    "front": "missing",
-   "diag": "line",
-   "side": "line",
+   "diag": "structure",
    "below": "line"
+  },
+  "fills": {
+   "diag": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {
@@ -2514,15 +2518,16 @@
   "name_kr": "옆으로 앉아 한 손 짚고 몸 비틀기",
   "desc_en": "sitting side-saddle with both legs swept to one side, one hand placed on the floor beside her, her torso curved gracefully to the side",
   "views": {
-   "front": null,
+   "front": "sexy_S016_front.webp",
    "diag": "sexy_S016_diag.webp",
    "side": "sexy_S016_side.webp",
    "above": "sexy_S016_above.webp",
    "below": "sexy_S016_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure"
+  "gaps": {},
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -2678,7 +2683,10 @@
   "photos": {},
   "gaps": {
    "front": "missing",
-   "above": "line"
+   "above": "structure"
+  },
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -2723,15 +2731,17 @@
   "desc_en": "sitting on the floor hugging both legs with her arms, knees spread apart to the sides",
   "views": {
    "front": "sexy_S024_front.webp",
-   "diag": null,
+   "diag": "sexy_S024_diag.webp",
    "side": "sexy_S024_side.webp",
    "above": "sexy_S024_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "diag": "structure",
    "below": "missing"
+  },
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -2803,12 +2813,13 @@
    "front": "sexy_S027_front.webp",
    "diag": "sexy_S027_diag.webp",
    "side": "sexy_S027_side.webp",
-   "above": null,
+   "above": "sexy_S027_above.webp",
    "below": "sexy_S027_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "above": "missing"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -2829,13 +2840,14 @@
   "views": {
    "front": "sexy_S028_front.webp",
    "diag": "sexy_S028_diag.webp",
-   "side": null,
+   "side": "sexy_S028_side.webp",
    "above": "sexy_S028_above.webp",
    "below": "sexy_S028_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -2908,13 +2920,14 @@
   "views": {
    "front": "sexy_S031_front.webp",
    "diag": "sexy_S031_diag.webp",
-   "side": null,
+   "side": "sexy_S031_side.webp",
    "above": "sexy_S031_above.webp",
    "below": "sexy_S031_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -2985,18 +2998,19 @@
   "name_kr": "정좌 머리 손",
   "desc_en": "kneeling sitting back on her heels in seiza style, both hands raised to her head with fingers in her hair",
   "views": {
-   "front": null,
-   "diag": null,
-   "side": null,
-   "above": null,
+   "front": "sexy_S034_front.webp",
+   "diag": "sexy_S034_diag.webp",
+   "side": "sexy_S034_side.webp",
+   "above": "sexy_S034_above.webp",
    "below": "sexy_S034_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "line",
-   "diag": "line",
-   "side": "line",
-   "above": "line"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1",
+   "diag": "fill-r1",
+   "front": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {
@@ -3156,12 +3170,13 @@
    "front": "sexy_S040_front.webp",
    "diag": "sexy_S040_diag.webp",
    "side": "sexy_S040_side.webp",
-   "above": null,
+   "above": "sexy_S040_above.webp",
    "below": "sexy_S040_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "above": "structure"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -3180,15 +3195,16 @@
   "name_kr": "네발 엎드려 한 다리 뒤로 들기",
   "desc_en": "on all fours on her hands and knees with one leg lifted high behind her",
   "views": {
-   "front": null,
+   "front": "sexy_S041_front.webp",
    "diag": "sexy_S041_diag.webp",
    "side": "sexy_S041_side.webp",
    "above": "sexy_S041_above.webp",
    "below": "sexy_S041_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure"
+  "gaps": {},
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -3234,7 +3250,7 @@
   "name_kr": "무릎 서기 골반 앞으로",
   "desc_en": "kneeling upright on both knees with her hips pushed forward, back slightly arched",
   "views": {
-   "front": null,
+   "front": "sexy_S043_front.webp",
    "diag": "sexy_S043_diag.webp",
    "side": "sexy_S043_side.webp",
    "above": null,
@@ -3242,8 +3258,10 @@
   },
   "photos": {},
   "gaps": {
-   "front": "structure",
    "above": "structure"
+  },
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -3316,16 +3334,18 @@
   "desc_en": "lying on her side on the floor with her waist curved, one leg bent at the knee",
   "views": {
    "front": "sexy_S046_front.webp",
-   "diag": null,
-   "side": null,
+   "diag": "sexy_S046_diag.webp",
+   "side": "sexy_S046_side.webp",
    "above": "sexy_S046_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "diag": "line",
-   "side": "missing",
    "below": "missing"
+  },
+  "fills": {
+   "diag": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {
@@ -3371,13 +3391,14 @@
   "views": {
    "front": "sexy_S048_front.webp",
    "diag": "sexy_S048_diag.webp",
-   "side": null,
+   "side": "sexy_S048_side.webp",
    "above": "sexy_S048_above.webp",
    "below": "sexy_S048_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -3396,16 +3417,17 @@
   "name_kr": "누워 골반 들고 한 다리 들기",
   "desc_en": "lying on her back with her hips lifted off the floor in a partial bridge, one leg raised high",
   "views": {
-   "front": null,
+   "front": "sexy_S049_front.webp",
    "diag": "sexy_S049_diag.webp",
    "side": "sexy_S049_side.webp",
    "above": "sexy_S049_above.webp",
-   "below": null
+   "below": "sexy_S049_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure",
-   "below": "structure"
+  "gaps": {},
+  "fills": {
+   "below": "fill-r1",
+   "front": "fill-r1"
   }
  },
  {
@@ -3542,7 +3564,10 @@
   },
   "photos": {},
   "gaps": {
-   "side": "line"
+   "side": "structure"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -3563,13 +3588,14 @@
   "views": {
    "front": "sexy_S055_front.webp",
    "diag": "sexy_S055_diag.webp",
-   "side": null,
+   "side": "sexy_S055_side.webp",
    "above": "sexy_S055_above.webp",
    "below": "sexy_S055_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -3596,8 +3622,11 @@
   },
   "photos": {},
   "gaps": {
-   "side": "line",
+   "side": "structure",
    "below": "structure"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -3617,15 +3646,17 @@
   "desc_en": "lying face down, looking back over her shoulder, one knee bent out to the side",
   "views": {
    "front": null,
-   "diag": null,
+   "diag": "sexy_S057_diag.webp",
    "side": "sexy_S057_side.webp",
    "above": "sexy_S057_above.webp",
    "below": "sexy_S057_below.webp"
   },
   "photos": {},
   "gaps": {
-   "front": "line",
-   "diag": "structure"
+   "front": "line"
+  },
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -3644,15 +3675,16 @@
   "name_kr": "옆으로 누워 윗다리 들고 발목 잡기",
   "desc_en": "lying on her side with her upper leg raised high, holding that leg's ankle with her hand",
   "views": {
-   "front": null,
+   "front": "sexy_S058_front.webp",
    "diag": "sexy_S058_diag.webp",
    "side": "sexy_S058_side.webp",
    "above": "sexy_S058_above.webp",
    "below": "sexy_S058_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "structure"
+  "gaps": {},
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -3683,6 +3715,9 @@
    "diag": "structure",
    "above": "structure",
    "below": "structure"
+  },
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -3701,16 +3736,17 @@
   "name_kr": "엎드려 개구리 다리",
   "desc_en": "lying face down with both knees bent and spread out to the sides like a frog, feet up behind her",
   "views": {
-   "front": null,
+   "front": "sexy_S060_front.webp",
    "diag": "sexy_S060_diag.webp",
-   "side": null,
+   "side": "sexy_S060_side.webp",
    "above": "sexy_S060_above.webp",
    "below": "sexy_S060_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "missing",
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "front": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {
@@ -3916,8 +3952,11 @@
   "photos": {},
   "gaps": {
    "front": "line",
-   "side": "line",
+   "side": "structure",
    "below": "line"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -3939,12 +3978,13 @@
    "front": "sexy_S069_front.webp",
    "diag": "sexy_S069_diag.webp",
    "side": "sexy_S069_side.webp",
-   "above": null,
+   "above": "sexy_S069_above.webp",
    "below": "sexy_S069_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "above": "structure"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -4025,6 +4065,9 @@
   "photos": {},
   "gaps": {
    "front": "structure"
+  },
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -4122,14 +4165,15 @@
   "desc_en": "in a shoulder stand balanced on her shoulders with both legs spread apart in a V shape, hands supporting her back",
   "views": {
    "front": "sexy_S076_front.webp",
-   "diag": null,
+   "diag": "sexy_S076_diag.webp",
    "side": "sexy_S076_side.webp",
    "above": "sexy_S076_above.webp",
    "below": "sexy_S076_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "diag": "structure"
+  "gaps": {},
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -4177,12 +4221,14 @@
    "diag": "sexy_S078_diag.webp",
    "side": "sexy_S078_side.webp",
    "above": null,
-   "below": null
+   "below": "sexy_S078_below.webp"
   },
   "photos": {},
   "gaps": {
-   "above": "structure",
-   "below": "missing"
+   "above": "structure"
+  },
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {
@@ -4202,15 +4248,16 @@
   "desc_en": "in a bridge pose on her shoulders and one foot with hips raised high, the other leg extended straight up toward the ceiling",
   "views": {
    "front": "sexy_S079_front.webp",
-   "diag": null,
+   "diag": "sexy_S079_diag.webp",
    "side": "sexy_S079_side.webp",
-   "above": null,
+   "above": "sexy_S079_above.webp",
    "below": "sexy_S079_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "diag": "structure",
-   "above": "structure"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1",
+   "diag": "fill-r1"
   }
  },
  {
@@ -5684,16 +5731,17 @@
   "name_kr": "한 손 가슴·한 손 허리",
   "desc_en": "one hand placed flat over her chest, the other hand resting on her hip",
   "views": {
-   "front": null,
-   "diag": null,
+   "front": "upper_U054_front.webp",
+   "diag": "upper_U054_diag.webp",
    "side": "upper_U054_side.webp",
    "above": "upper_U054_above.webp",
    "below": "upper_U054_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "missing",
-   "diag": "missing"
+  "gaps": {},
+  "fills": {
+   "diag": "fill-r1",
+   "front": "fill-r1"
   }
  },
  {
@@ -5740,12 +5788,13 @@
    "front": "upper_U056_front.webp",
    "diag": "upper_U056_diag.webp",
    "side": "upper_U056_side.webp",
-   "above": null,
+   "above": "upper_U056_above.webp",
    "below": "upper_U056_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "above": "structure"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -5792,15 +5841,16 @@
   "desc_en": "both hands clasped behind her head, elbows pointing out to the sides",
   "views": {
    "front": "upper_U058_front.webp",
-   "diag": null,
+   "diag": "upper_U058_diag.webp",
    "side": "upper_U058_side.webp",
-   "above": null,
+   "above": "upper_U058_above.webp",
    "below": "upper_U058_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "diag": "missing",
-   "above": "structure"
+  "gaps": {},
+  "fills": {
+   "above": "fill-r1",
+   "diag": "fill-r1"
   }
  },
  {
@@ -5922,15 +5972,17 @@
   "desc_en": "both arms reaching down behind her back, chest pushed forward",
   "views": {
    "front": "upper_U063_front.webp",
-   "diag": null,
+   "diag": "upper_U063_diag.webp",
    "side": "upper_U063_side.webp",
    "above": "upper_U063_above.webp",
    "below": null
   },
   "photos": {},
   "gaps": {
-   "diag": "missing",
    "below": "missing"
+  },
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -5953,11 +6005,12 @@
    "diag": "upper_U064_diag.webp",
    "side": "upper_U064_side.webp",
    "above": "upper_U064_above.webp",
-   "below": null
+   "below": "upper_U064_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "below": "structure"
+  "gaps": {},
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {
@@ -5984,8 +6037,11 @@
   },
   "photos": {},
   "gaps": {
-   "diag": "structure",
+   "diag": "line",
    "below": "missing"
+  },
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -6004,15 +6060,16 @@
   "name_kr": "네발 기어 한 손 가슴",
   "desc_en": "on all fours with one hand placed at the center of her chest",
   "views": {
-   "front": null,
+   "front": "upper_U066_front.webp",
    "diag": "upper_U066_diag.webp",
    "side": "upper_U066_side.webp",
    "above": "upper_U066_above.webp",
    "below": "upper_U066_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "front": "missing"
+  "gaps": {},
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -6086,13 +6143,14 @@
   "views": {
    "front": "upper_U069_front.webp",
    "diag": "upper_U069_diag.webp",
-   "side": null,
+   "side": "upper_U069_side.webp",
    "above": "upper_U069_above.webp",
    "below": "upper_U069_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "line"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -6120,6 +6178,9 @@
   "photos": {},
   "gaps": {
    "above": "structure"
+  },
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -6250,6 +6311,9 @@
   "photos": {},
   "gaps": {
    "side": "structure"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -6270,13 +6334,14 @@
   "views": {
    "front": "upper_U076_front.webp",
    "diag": "upper_U076_diag.webp",
-   "side": null,
+   "side": "upper_U076_side.webp",
    "above": "upper_U076_above.webp",
    "below": "upper_U076_below.webp"
   },
   "photos": {},
-  "gaps": {
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -6360,6 +6425,10 @@
   "gaps": {
    "above": "structure",
    "below": "structure"
+  },
+  "fills": {
+   "above": "fill-r1",
+   "below": "fill-r1"
   }
  },
  {
@@ -6461,15 +6530,16 @@
   "desc_en": "the female figure lying on her back with both legs raised vertically, the male figure standing beside her holding one of her ankles",
   "views": {
    "front": "duo_D003_front.webp",
-   "diag": null,
+   "diag": "duo_D003_diag.webp",
    "side": "duo_D003_side.webp",
    "above": "duo_D003_above.webp",
    "below": "duo_D003_below.webp"
   },
   "photos": [],
   "bodies": "MF",
-  "gaps": {
-   "diag": "structure"
+  "gaps": {},
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -6501,6 +6571,10 @@
    "diag": "structure",
    "above": "structure",
    "below": "missing"
+  },
+  "fills": {
+   "diag": "fill-r1",
+   "front": "fill-r1"
   }
  },
  {
@@ -6554,7 +6628,10 @@
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "above": "line"
+   "above": "structure"
+  },
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -6576,14 +6653,16 @@
    "front": "duo_D007_front.webp",
    "diag": null,
    "side": "duo_D007_side.webp",
-   "above": null,
+   "above": "duo_D007_above.webp",
    "below": "duo_D007_below.webp"
   },
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "diag": "missing",
-   "above": "structure"
+   "diag": "missing"
+  },
+  "fills": {
+   "above": "fill-r1"
   }
  },
  {
@@ -6631,14 +6710,17 @@
    "front": "duo_D009_front.webp",
    "diag": "duo_D009_diag.webp",
    "side": "duo_D009_side.webp",
-   "above": null,
+   "above": "duo_D009_above.webp",
    "below": null
   },
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "above": "structure",
    "below": "structure"
+  },
+  "fills": {
+   "above": "fill-r1",
+   "below": "fill-r1"
   }
  },
  {
@@ -6657,7 +6739,7 @@
   "name_kr": "무릎 위 옆으로 앉아 안기기",
   "desc_en": "the male figure seated, the female figure seated sideways across his lap, his arms wrapped around her",
   "views": {
-   "front": null,
+   "front": "duo_D010_front.webp",
    "diag": "duo_D010_diag.webp",
    "side": null,
    "above": "duo_D010_above.webp",
@@ -6666,8 +6748,11 @@
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "front": "structure",
    "side": "structure"
+  },
+  "fills": {
+   "front": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {
@@ -6925,6 +7010,9 @@
   "gaps": {
    "side": "structure",
    "above": "structure"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -6952,8 +7040,12 @@
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "diag": "line",
-   "above": "line"
+   "diag": "structure",
+   "above": "structure"
+  },
+  "fills": {
+   "above": "fill-r1",
+   "diag": "fill-r1"
   }
  },
  {
@@ -7070,6 +7162,11 @@
    "front": "structure",
    "above": "structure",
    "below": "structure"
+  },
+  "fills": {
+   "above": "fill-r1",
+   "below": "fill-r1",
+   "front": "fill-r1"
   }
  },
  {
@@ -7123,7 +7220,10 @@
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "front": "missing"
+   "front": "structure"
+  },
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -7169,7 +7269,7 @@
   "desc_en": "two figures lying on the floor head-to-toe in opposite directions, overlapping with legs intertwined",
   "views": {
    "front": "duo_D028_front.webp",
-   "diag": null,
+   "diag": "duo_D028_diag.webp",
    "side": null,
    "above": null,
    "below": "duo_D028_below.webp"
@@ -7177,9 +7277,12 @@
   "photos": [],
   "bodies": "FF",
   "gaps": {
-   "diag": "structure",
    "side": "structure",
    "above": "structure"
+  },
+  "fills": {
+   "above": "fill-r1",
+   "diag": "fill-r1"
   }
  },
  {
@@ -7285,18 +7388,21 @@
   "desc_en": "the female figure lying on her back, the male figure on all fours over her facing her",
   "views": {
    "front": null,
-   "diag": null,
+   "diag": "duo_D032_diag.webp",
    "side": "duo_D032_side.webp",
-   "above": null,
+   "above": "duo_D032_above.webp",
    "below": null
   },
   "photos": [],
   "bodies": "MF",
   "gaps": {
    "front": "structure",
-   "diag": "structure",
-   "above": "structure",
    "below": "structure"
+  },
+  "fills": {
+   "above": "fill-r1",
+   "diag": "fill-r1",
+   "front": "fill-r1"
   }
  },
  {
@@ -7344,14 +7450,17 @@
    "front": "duo_D034_front.webp",
    "diag": "duo_D034_diag.webp",
    "side": null,
-   "above": null,
+   "above": "duo_D034_above.webp",
    "below": "duo_D034_below.webp"
   },
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "side": "structure",
-   "above": "structure"
+   "side": "structure"
+  },
+  "fills": {
+   "above": "fill-r1",
+   "side": "fill-r1"
   }
  },
  {
@@ -7396,7 +7505,7 @@
   "name_kr": "뒤에서 앞으로 팔 두르기",
   "desc_en": "the male figure seated, the female figure seated on his lap with her back to the viewer, his hands placed on her chest from behind",
   "views": {
-   "front": null,
+   "front": "duo_D036_front.webp",
    "diag": "duo_D036_diag.webp",
    "side": "duo_D036_side.webp",
    "above": "duo_D036_above.webp",
@@ -7405,8 +7514,10 @@
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "front": "missing",
    "below": "structure"
+  },
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -7435,6 +7546,9 @@
   "bodies": "MF",
   "gaps": {
    "below": "structure"
+  },
+  "fills": {
+   "below": "fill-r1"
   }
  },
  {
@@ -7489,7 +7603,10 @@
   "bodies": "MF",
   "gaps": {
    "diag": "structure",
-   "side": "line"
+   "side": "structure"
+  },
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -7535,15 +7652,16 @@
   "desc_en": "two figures standing face to face in a close embrace, legs intertwined, arms around each other",
   "views": {
    "front": "duo_D041_front.webp",
-   "diag": null,
+   "diag": "duo_D041_diag.webp",
    "side": "duo_D041_side.webp",
    "above": "duo_D041_above.webp",
    "below": "duo_D041_below.webp"
   },
   "photos": [],
   "bodies": "FF",
-  "gaps": {
-   "diag": "structure"
+  "gaps": {},
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -7697,15 +7815,16 @@
   "desc_en": "both figures seated on the floor in an embrace, the female figure seated sideways with one leg raised high and extended",
   "views": {
    "front": "duo_D047_front.webp",
-   "diag": null,
+   "diag": "duo_D047_diag.webp",
    "side": "duo_D047_side.webp",
    "above": "duo_D047_above.webp",
    "below": "duo_D047_below.webp"
   },
   "photos": [],
   "bodies": "MF",
-  "gaps": {
-   "diag": "structure"
+  "gaps": {},
+  "fills": {
+   "diag": "fill-r1"
   }
  },
  {
@@ -7755,18 +7874,20 @@
   "name_kr": "다리 걸고 기대어 자기",
   "desc_en": "the male figure lying on his back, the female figure lying curled against his side with her head on his chest and one leg draped over his legs",
   "views": {
-   "front": null,
+   "front": "duo_D049_front.webp",
    "diag": "duo_D049_diag.webp",
    "side": null,
-   "above": null,
+   "above": "duo_D049_above.webp",
    "below": "duo_D049_below.webp"
   },
   "photos": [],
   "bodies": "MF",
   "gaps": {
-   "front": "missing",
-   "side": "missing",
-   "above": "structure"
+   "side": "missing"
+  },
+  "fills": {
+   "above": "fill-r1",
+   "front": "fill-r1"
   }
  },
  {
@@ -7828,6 +7949,9 @@
   "gaps": {
    "front": "structure",
    "below": "structure"
+  },
+  "fills": {
+   "front": "fill-r1"
   }
  },
  {
@@ -7877,14 +8001,15 @@
   "views": {
    "front": "duo_D053_front.webp",
    "diag": "duo_D053_diag.webp",
-   "side": null,
+   "side": "duo_D053_side.webp",
    "above": "duo_D053_above.webp",
    "below": "duo_D053_below.webp"
   },
   "photos": [],
   "bodies": "MF",
-  "gaps": {
-   "side": "structure"
+  "gaps": {},
+  "fills": {
+   "side": "fill-r1"
   }
  },
  {
@@ -7934,7 +8059,7 @@
   "name_kr": "상대 무릎 사이 등 돌려 앉기",
   "desc_en": "the male figure seated with legs apart, the female figure seated on his lap facing forward with knees spread wide, his arms around her from behind",
   "views": {
-   "front": null,
+   "front": "duo_D055_front.webp",
    "diag": "duo_D055_diag.webp",
    "side": "duo_D055_side.webp",
    "above": "duo_D055_above.webp",
@@ -7942,8 +8067,9 @@
   },
   "photos": [],
   "bodies": "MF",
-  "gaps": {
-   "front": "missing"
+  "gaps": {},
+  "fills": {
+   "front": "fill-r1"
   }
  }
 ]
