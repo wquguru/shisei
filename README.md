@@ -4,8 +4,8 @@
 
 # Shisei 姿勢
 
-**A free (CC0) mannequin pose reference library: 280 poses in four series × 5 camera angles, drawn as clean line art
-for Nano Banana, ChatGPT, ComfyUI, Midjourney and other AI image tools.**
+**A free (CC0) mannequin pose reference library: 280 poses in four series × 5 camera angles, drawn as clean line art,
+most views also as clay, depth and normal maps, for Nano Banana, ChatGPT, ComfyUI, Midjourney and other AI image tools.**
 
 English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md)
 
@@ -28,7 +28,7 @@ English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readm
 > nudity detail). They stay out of previews and search pages, and the gallery shows them blurred until you tap one
 > or flip the switch.
 
-[![Shisei gallery: hero with a marquee of mannequin poses on pastel category tiles](docs/screenshot.png)](https://shisei.indaloop.app/en/)
+[![Shisei gallery: hero with a marquee mixing line-art poses on pastel tiles with clay, depth and normal maps](docs/screenshot.png)](https://shisei.indaloop.app/en/)
 
 Shisei is a self-made pose reference library. Every pose is a faceless mannequin drawn from five angles — front,
 three-quarter, side, above and below — so you can feed the same pose to an image model from whichever camera you
@@ -73,8 +73,9 @@ the figure consistent across shots. Face, clothing and background come from your
 | `w900` | `images/*/w900/` | 900 × 1200 | ~29 KB |
 | full | [original zip](#downloads) | 1344 × 1792 (photos 1120 × 2240, redrawn sets 900 × 1200) | ~100 KB |
 
-The repository holds the three web tiers (about 63 MB). The full-size originals and ready-made zips are on the
-[Releases](https://github.com/wquguru/shisei/releases) page.
+The repository holds the three web tiers: about 145 MB for the poses (line art, photos and the clay, depth and
+normal maps), plus about 150 MB for the costume library. The full-size originals and ready-made zips are on the
+[Releases](https://github.com/wquguru/shisei/releases) page; most people only need a zip.
 
 ### Downloads
 

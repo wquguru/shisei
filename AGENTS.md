@@ -7,7 +7,8 @@ includes this file.
 A self-made pose reference library: faceless mannequin line art, each pose drawn from five angles (front, diag,
 side, above, below), for people who drive AI image tools with pose references. Four series: `std` full body
 (P###, 73 sets), `upper` upper body (U###, 80), `sexy` full body (S###, 80) and `duo` two figures (D###, 55); the last
-two are rated suggestive. Plus photo renders for 23 std sets, a four-language catalog (ja / zh / en / ko) and a static gallery in `web/`.
+two are rated suggestive. Plus photo renders for 23 std sets, clay / depth / normal maps for most passed views (made
+from the line art and aligned with it), a four-language catalog (ja / zh / en / ko) and a static gallery in `web/`.
 
 ## 2. Hard rules
 - **No outside images.** Never download, cache, mirror, re-encode or trace images from ai-pose-gallery

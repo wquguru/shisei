@@ -6,7 +6,7 @@ window.I18N = {
     navHow: '使用方法',
     madeTag: '方法论', madeText: '21 小时从零做出这套图库',
     langLabel: '切换语言', theme: '切换深色模式',
-    heroTitle: ['姿势线稿参考', '五机位'],
+    heroTitle: ['姿势参考', '五机位'],
     heroSub: (n, v) => n + ' 套无脸素体姿势、' + v + ' 张线稿，正面、斜侧、侧面、俯视、仰视最多五个机位；大部分机位另有白模、深度图和法线图。拖进你的 AI 绘图工具，姿势就定住了。',
     browse: (n) => '浏览 ' + n + ' 套姿势', downloadAll: '下载图包', worksWith: '适用于',
     allTitle: '全部姿势', all: '全部', angleAll: '全部机位',

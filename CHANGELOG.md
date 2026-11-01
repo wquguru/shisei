@@ -7,6 +7,13 @@ the catalog schema.
 
 ## [Unreleased]
 
+### Changed
+- Chinese hero title 姿势参考 · 五机位: the site has five formats now, so the title names none of them; 线稿 stays in
+  the line below and in the page title.
+- README: the tagline in all four languages mentions the clay, depth and normal maps; the repository size note covers
+  the maps and the costume library (it said 63 MB); a new screenshot of the hero with the mixed-format marquee.
+  AGENTS.md describes the maps in §1.
+
 ## [0.4.1] - 2026-10-31
 
 ### Changed
