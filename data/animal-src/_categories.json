@@ -35,6 +35,7 @@
     "negatives": "No perch, branch or cage, no extra wings or legs, no prey."
   },
   "WL": {
+    "main": "side",
     "order": 6, "target": 12,
     "name": {"zh": "野生动物", "ja": "野生動物", "en": "Wild Animals", "ko": "야생동물"},
     "rules": "An adult wild animal of the stated species in a calm, natural posture with its correct body plan.",

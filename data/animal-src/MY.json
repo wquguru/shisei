@@ -1,12 +1,30 @@
 {
  "cat": "MY",
- "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "note": "Mythical creatures (docs/animal/PLAN.md §3). Original designs built from real anatomy; every desc states the body plan (legs, wings, horns, tails, toes) because the model adds or drops parts. Not any franchise creature; no rider, armour, fire, magic effects or religious iconography.",
  "groups": {
   "eastern": {
    "zh": "东方龙",
    "ja": "東洋の竜",
    "en": "Eastern Dragon",
    "ko": "동양 용"
+  },
+  "western": {
+   "zh": "西方龙",
+   "ja": "西洋の竜",
+   "en": "Western Dragon",
+   "ko": "서양 용"
+  },
+  "hoofed": {
+   "zh": "独角兽与麒麟",
+   "ja": "ユニコーン・麒麟",
+   "en": "Unicorns & Qilin",
+   "ko": "유니콘·기린"
+  },
+  "hybrid": {
+   "zh": "狮鹫与灵兽",
+   "ja": "グリフォン・霊獣",
+   "en": "Griffins & Spirit Beasts",
+   "ko": "그리핀·영수"
   }
  },
  "forms": [
@@ -30,6 +48,295 @@
     "正好四条短腿、每只四爪",
     "两只鹿角形角",
     "不是任何作品里的龙"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "long-fly",
+   "group": "eastern",
+   "species": "Chinese long dragon: a long serpentine body with four short legs each ending in four claws, two antler-like horns and a flowing whisker on each side of the snout",
+   "tail": "a long tapering serpentine tail",
+   "coat": "iridescent blue-green scales",
+   "name": {
+    "zh": "中国龙·腾飞",
+    "ja": "中国の竜・飛翔",
+    "en": "Chinese Dragon Flying",
+    "ko": "중국 용 비상"
+   },
+   "desc": "flying forward through the air with no wings, the long body undulating in three gentle waves behind the head, head stretched forward facing the camera, front legs reaching forward with claws open, hind legs trailing back, whiskers streaming back, tail trailing at the end",
+   "keep": "wingless flight, body in three gentle waves, head forward, front legs reaching forward, hind legs trailing, whiskers streaming back",
+   "checks": [
+    "没有翅膀",
+    "正好四条短腿、每只四爪",
+    "两只鹿角形角",
+    "不是任何作品里的龙"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "drake-stand",
+   "group": "western",
+   "species": "original western dragon: a heavy four-legged reptile body with two separate bat-like wings growing from the shoulders, two backswept horns and a row of low spines along the back",
+   "tail": "one long smooth tapering tail",
+   "coat": "dark green scales with a paler belly",
+   "name": {
+    "zh": "西方龙·收翼站立",
+    "ja": "西洋の竜・翼をたたんで立つ",
+    "en": "Western Dragon Standing",
+    "ko": "서양 용 날개 접고 서기"
+   },
+   "desc": "standing on all four legs, the two wings folded tight against the sides of the body, neck raised in a gentle curve, head level facing forward, mouth closed, tail lying along the ground behind; each foot with four clawed toes; six limbs in total: four legs and two wings",
+   "keep": "four-leg stand, two wings folded at the sides, raised curved neck, level head, mouth closed, tail on the ground",
+   "checks": [
+    "四条腿加两只翅膀，共六肢",
+    "两只后掠角",
+    "嘴闭合、没有火",
+    "不是任何作品里的龙"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "drake-spread",
+   "group": "western",
+   "species": "original western dragon: a heavy four-legged reptile body with two separate bat-like wings growing from the shoulders, two backswept horns and a row of low spines along the back",
+   "tail": "one long smooth tapering tail",
+   "coat": "dark green scales with a paler belly",
+   "name": {
+    "zh": "西方龙·展翼",
+    "ja": "西洋の竜・翼を広げる",
+    "en": "Western Dragon Wings Spread",
+    "ko": "서양 용 날개 펼치기"
+   },
+   "desc": "standing on its two hind legs and leaning slightly forward with the two front legs held off the ground in front of the chest, both wings spread fully open and raised above the shoulders with the wing membranes stretched between four long finger bones each, neck raised, mouth closed, tail on the ground behind for balance",
+   "keep": "standing on the hind legs, front legs held in front of the chest, both wings fully spread above the shoulders, raised neck, mouth closed, tail on the ground",
+   "checks": [
+    "两只翅膀完全展开、每只四根翼指",
+    "后腿站立、前腿抬起",
+    "正好四条腿",
+    "嘴闭合、没有火"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "unicorn-stand",
+   "group": "hoofed",
+   "main": "side",
+   "species": "original unicorn: a slender horse with a single straight spiralled horn on the forehead and cloven hooves",
+   "tail": "a long flowing tail",
+   "coat": "white coat with a pale silver mane",
+   "name": {
+    "zh": "独角兽·站立",
+    "ja": "ユニコーン・立ち姿",
+    "en": "Unicorn Standing",
+    "ko": "유니콘 서기"
+   },
+   "desc": "standing calmly on all four legs, front legs straight, hind legs set back with the hocks angled backward, neck arched, head level, one straight spiralled horn in the middle of the forehead, mane falling on one side, tail hanging down",
+   "keep": "calm four-leg stand, arched neck, level head, one spiralled horn on the forehead, mane on one side, tail hanging",
+   "checks": [
+    "只有一只角、在额头正中",
+    "正好四条腿",
+    "马的前膝向前弯、跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "unicorn-rear",
+   "group": "hoofed",
+   "main": "side",
+   "species": "original unicorn: a slender horse with a single straight spiralled horn on the forehead and cloven hooves",
+   "tail": "a long flowing tail",
+   "coat": "white coat with a pale silver mane",
+   "name": {
+    "zh": "独角兽·扬蹄",
+    "ja": "ユニコーン・前足を上げる",
+    "en": "Unicorn Rearing",
+    "ko": "유니콘 앞발 들기"
+   },
+   "desc": "rearing up on both hind legs with the hind hooves planted on the ground, body raised at about 60 degrees, both front legs lifted and folded at the knee in front of the chest, neck arched, head raised, one spiralled horn on the forehead, tail flowing down behind",
+   "keep": "rearing on both hind legs, body at about 60 degrees, both front legs folded in front of the chest, arched neck, one spiralled horn",
+   "checks": [
+    "两只后蹄着地",
+    "两条前腿抬起、在膝处折",
+    "只有一只角",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "griffin-stand",
+   "group": "hybrid",
+   "main": "side",
+   "species": "original griffin: the head, two wings and two front legs of an eagle with taloned feet, joined to the body, two hind legs and tail of a lion",
+   "tail": "one long lion tail with a tuft at the tip",
+   "coat": "golden-brown feathers in front blending into tawny fur behind",
+   "name": {
+    "zh": "狮鹫·站立",
+    "ja": "グリフォン・立ち姿",
+    "en": "Griffin Standing",
+    "ko": "그리핀 서기"
+   },
+   "desc": "standing on all four legs, the two front legs feathered with eagle talons, the two hind legs furred with lion paws, two feathered wings half-folded and raised slightly from the back, eagle head level facing forward, hooked beak closed, lion tail curving behind",
+   "keep": "four-leg stand, eagle front legs with talons, lion hind legs with paws, two half-folded wings, eagle head level, beak closed, lion tail",
+   "checks": [
+    "前腿是鹰爪、后腿是狮爪",
+    "两只翅膀",
+    "正好四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "qilin-stand",
+   "group": "hoofed",
+   "main": "side",
+   "species": "original qilin: a deer-like body with cloven hooves, a single curved backswept horn, a flowing mane and a dragon-like head with whiskers, scales on the back and flanks",
+   "tail": "an ox-like tail with a flowing tuft",
+   "coat": "scales in green and gold with a cream mane",
+   "name": {
+    "zh": "麒麟·站立",
+    "ja": "麒麟・立ち姿",
+    "en": "Qilin Standing",
+    "ko": "기린(영수) 서기"
+   },
+   "desc": "standing calmly on all four slender legs with one front leg raised and bent at the knee, neck raised, head facing forward, one curved backswept horn, two whiskers, mane and tail flowing, no flames, no clouds",
+   "keep": "calm stand, one front leg raised and bent, raised neck, one backswept horn, two whiskers, flowing mane and tail, no flames",
+   "checks": [
+    "偶蹄、正好四条腿",
+    "只有一只后弯角",
+    "没有火焰和云"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ninetail-sit",
+   "group": "hybrid",
+   "species": "original nine-tailed fox: an adult fox body with exactly nine long bushy tails",
+   "tail": "exactly nine long bushy tails fanned out behind",
+   "coat": "white coat with pale gold tail tips",
+   "name": {
+    "zh": "九尾狐·坐",
+    "ja": "九尾の狐・お座り",
+    "en": "Nine-Tailed Fox Sitting",
+    "ko": "구미호 앉기"
+   },
+   "desc": "sitting upright on its haunches with straight front legs together and hind legs folded at the sides, head level facing forward, upright pointed ears, exactly nine separate bushy tails rising from the base of the spine and fanned out evenly behind the body like a half circle, each tail clearly separate and countable",
+   "keep": "upright sit, front legs together, hind legs folded, head level, upright ears, exactly nine separate tails fanned in a half circle",
+   "checks": [
+    "正好九条尾巴、每条可数",
+    "正好四条腿",
+    "两只竖立尖耳",
+    "不像任何作品里的角色"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "firebird-spread",
+   "group": "hybrid",
+   "species": "original mythical bird: a pheasant-like body with a long neck, a small crest of three plumes on the head and very long trailing tail plumes",
+   "tail": "five very long trailing tail plumes",
+   "coat": "crimson and gold plumage",
+   "name": {
+    "zh": "神鸟·展翅",
+    "ja": "霊鳥・翼を広げる",
+    "en": "Mythical Bird Wings Spread",
+    "ko": "신조 날개 펼치기"
+   },
+   "desc": "hovering upright in the air with both wings spread wide to the sides and slightly raised, primaries splayed, both legs tucked under the body, long neck raised, head level facing forward, three crest plumes on the head, five long tail plumes trailing down in gentle curves; no fire, no glow",
+   "keep": "upright hover, both wings spread wide and raised, legs tucked, long raised neck, three crest plumes, five long tail plumes trailing down",
+   "checks": [
+    "正好两只翅膀、两条腿",
+    "头顶三根冠羽",
+    "五根长尾羽",
+    "没有火焰和光效"
    ],
    "variants": [
     {

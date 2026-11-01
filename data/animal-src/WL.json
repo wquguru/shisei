@@ -1,0 +1,415 @@
+{
+ "cat": "WL",
+ "note": "Wild animals (docs/animal/PLAN.md §3). Calm natural postures only: no hunting, prey, blood, bared fangs, injury or captivity. Main view is the side, where leg order and joint direction read clearly (D-14).",
+ "groups": {
+  "hoof": {
+   "zh": "有蹄类",
+   "ja": "有蹄類",
+   "en": "Hoofed Animals",
+   "ko": "유제류"
+  },
+  "canine": {
+   "zh": "狐与狼",
+   "ja": "キツネ・オオカミ",
+   "en": "Foxes & Wolves",
+   "ko": "여우·늑대"
+  },
+  "bear": {
+   "zh": "熊与熊猫",
+   "ja": "クマ・パンダ",
+   "en": "Bears & Pandas",
+   "ko": "곰·판다"
+  },
+  "bigcat": {
+   "zh": "大型猫科",
+   "ja": "大型ネコ科",
+   "en": "Big Cats",
+   "ko": "대형 고양이과"
+  },
+  "small": {
+   "zh": "小型野生动物",
+   "ja": "小型の野生動物",
+   "en": "Small Wild Animals",
+   "ko": "소형 야생동물"
+  }
+ },
+ "forms": [
+  {
+   "key": "deer-stand",
+   "group": "hoof",
+   "species": "red deer stag with a pair of branched antlers",
+   "tail": "a short smooth tail",
+   "coat": "reddish-brown coat",
+   "name": {
+    "zh": "鹿·站立",
+    "ja": "シカ・立ち姿",
+    "en": "Deer Standing",
+    "ko": "사슴 서기"
+   },
+   "desc": "standing calmly on all four slender legs, front legs straight and parallel, hind legs set back with the hocks angled backward, neck raised, head level and alert, two branched antlers with matching points on each side, ears up",
+   "keep": "calm four-leg stand, straight parallel front legs, hind legs set back with backward hocks, raised neck, two branched antlers",
+   "checks": [
+    "正好四条腿",
+    "后腿跗关节向后弯",
+    "左右两只分叉鹿角"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fox-sit",
+   "group": "canine",
+   "species": "red fox",
+   "tail": "one long bushy tail",
+   "coat": "orange-red coat with a white chest and black legs",
+   "name": {
+    "zh": "狐狸·坐",
+    "ja": "キツネ・お座り",
+    "en": "Fox Sitting",
+    "ko": "여우 앉기"
+   },
+   "desc": "sitting on its haunches with straight front legs together, hind legs folded at the sides, bushy tail wrapped forward around the front paws, pointed muzzle, large upright pointed ears, head level facing forward",
+   "keep": "upright sit, front legs together, hind legs folded at the sides, bushy tail wrapped around the front paws, upright pointed ears",
+   "checks": [
+    "正好四条腿",
+    "一条蓬松尾巴绕到前爪",
+    "两只竖立尖耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fox-curl",
+   "group": "canine",
+   "species": "red fox",
+   "tail": "one long bushy tail",
+   "coat": "orange-red coat with a white tail tip",
+   "name": {
+    "zh": "狐狸·团睡",
+    "ja": "キツネ・丸まって寝る",
+    "en": "Fox Curled Asleep",
+    "ko": "여우 웅크려 자기"
+   },
+   "desc": "lying curled into a tight round ball asleep, back rounded, head tucked against the hind legs, bushy tail wrapped all the way around covering the nose and front paws, ears flattened",
+   "keep": "tight curled ball, rounded back, head tucked to the hind legs, bushy tail wrapped around covering the nose",
+   "checks": [
+    "身体蜷成圆形",
+    "尾巴绕一圈盖住鼻子",
+    "没有多出来的腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "wolf-stand",
+   "group": "canine",
+   "species": "grey wolf",
+   "tail": "one long straight bushy tail",
+   "coat": "grey and cream coat",
+   "name": {
+    "zh": "狼·站立",
+    "ja": "オオカミ・立ち姿",
+    "en": "Wolf Standing",
+    "ko": "늑대 서기"
+   },
+   "desc": "standing calmly on all four legs, front legs straight under the deep chest, hind legs set back with the hocks angled backward, long straight back, head level, mouth closed, ears up, tail hanging low and straight",
+   "keep": "calm four-leg stand, straight front legs, hind legs set back with backward hocks, level head, mouth closed, tail hanging low",
+   "checks": [
+    "正好四条腿",
+    "嘴闭合、不露牙",
+    "尾巴自然下垂"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bear-walk",
+   "group": "bear",
+   "species": "brown bear",
+   "tail": "a short stubby tail",
+   "coat": "dark brown fur",
+   "name": {
+    "zh": "棕熊·四足行走",
+    "ja": "ヒグマ・四足歩行",
+    "en": "Bear Walking",
+    "ko": "불곰 걷기"
+   },
+   "desc": "walking on all four legs mid-stride: the right front and left hind legs forward, the left front and right hind legs back, heavy shoulder hump, head held low and level, flat-footed hind paws with the heel touching the ground, mouth closed",
+   "keep": "four-leg walk mid-stride with diagonal legs paired, shoulder hump, low head, flat-footed hind paws, mouth closed",
+   "checks": [
+    "正好四条腿、对角腿同步",
+    "肩部隆起",
+    "后脚掌整个着地",
+    "嘴闭合"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bear-upright",
+   "group": "bear",
+   "species": "brown bear",
+   "tail": "a short stubby tail",
+   "coat": "dark brown fur",
+   "name": {
+    "zh": "棕熊·直立观望",
+    "ja": "ヒグマ・立ち上がる",
+    "en": "Bear Standing Upright",
+    "ko": "불곰 일어서기"
+   },
+   "desc": "standing calmly upright on both flat hind feet to look around, body vertical, front legs hanging relaxed in front of the chest with the paws down, head raised and level, ears up, mouth closed; not threatening, no raised claws",
+   "keep": "calm upright stand on flat hind feet, vertical body, front paws hanging relaxed in front of the chest, raised level head, mouth closed",
+   "checks": [
+    "后脚掌着地直立",
+    "前爪自然下垂、不是攻击姿势",
+    "嘴闭合、不露牙"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tiger-down",
+   "group": "bigcat",
+   "species": "tiger",
+   "tail": "one long smooth tail",
+   "coat": "orange coat with black stripes and a white belly",
+   "name": {
+    "zh": "老虎·趴卧",
+    "ja": "トラ・伏せ",
+    "en": "Tiger Lying Down",
+    "ko": "호랑이 엎드리기"
+   },
+   "desc": "lying in a calm sphinx position: belly on the ground, front legs stretched straight forward and parallel, hind legs folded under the hips, head raised level facing forward, mouth closed, tail lying along the ground in a curve",
+   "keep": "calm sphinx down, belly on the ground, straight parallel front legs, hind legs folded under the hips, raised head, mouth closed, tail curved on the ground",
+   "checks": [
+    "腹部贴地",
+    "前腿平行前伸",
+    "嘴闭合、不露牙",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lion-sit",
+   "group": "bigcat",
+   "species": "adult male lion with a full mane",
+   "tail": "one long tail with a tuft at the tip",
+   "coat": "tawny coat with a darker mane",
+   "name": {
+    "zh": "狮子·坐",
+    "ja": "ライオン・お座り",
+    "en": "Lion Sitting",
+    "ko": "사자 앉기"
+   },
+   "desc": "sitting upright on its haunches, front legs straight and close together, hind legs folded at the sides, chest out, head held high facing forward with the full mane around it, mouth closed, tail curled forward along the ground",
+   "keep": "upright sit, straight front legs together, hind legs folded at the sides, head high with full mane, mouth closed, tail curled forward",
+   "checks": [
+    "正好四条腿",
+    "鬃毛围绕头部",
+    "尾巴末端有一簇毛",
+    "嘴闭合"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "elephant-stand",
+   "group": "hoof",
+   "species": "African elephant",
+   "tail": "a thin tail with a tuft at the tip",
+   "coat": "wrinkled grey skin",
+   "name": {
+    "zh": "大象·站立",
+    "ja": "ゾウ・立ち姿",
+    "en": "Elephant Standing",
+    "ko": "코끼리 서기"
+   },
+   "desc": "standing calmly on four thick pillar-like legs, the knees of the front legs bending forward and the hind legs bending backward, large ears relaxed against the head, trunk hanging straight down with the tip curled slightly forward, two short tusks",
+   "keep": "calm four-leg stand on pillar legs, large relaxed ears, trunk hanging straight with the tip curled, two short tusks",
+   "checks": [
+    "正好四条腿",
+    "一条鼻子自然下垂",
+    "两根象牙",
+    "两只大耳朵"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "giraffe-stand",
+   "group": "hoof",
+   "species": "giraffe",
+   "tail": "a long thin tail with a dark tuft",
+   "coat": "pale coat with large brown patches",
+   "name": {
+    "zh": "长颈鹿·站立",
+    "ja": "キリン・立ち姿",
+    "en": "Giraffe Standing",
+    "ko": "기린 서기"
+   },
+   "desc": "standing calmly on four long legs, front legs slightly longer than the hind legs so the back slopes down to the hips, very long neck raised at about 60 degrees, head level, two short ossicone horns, ears out to the sides",
+   "keep": "calm four-leg stand, back sloping down to the hips, very long raised neck, level head, two short ossicones",
+   "checks": [
+    "正好四条腿",
+    "背部从肩向臀下斜",
+    "头顶两只短角"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "panda-sit",
+   "group": "bear",
+   "main": "front",
+   "species": "giant panda",
+   "tail": "a short white tail",
+   "coat": "black and white fur",
+   "name": {
+    "zh": "熊猫·坐",
+    "ja": "パンダ・座る",
+    "en": "Panda Sitting",
+    "ko": "판다 앉기"
+   },
+   "desc": "sitting upright on its bottom with the hind legs stretched forward and apart on the ground, back rounded and leaning slightly back, front paws resting on the belly, round head facing forward, round ears up",
+   "keep": "sitting on its bottom, hind legs stretched forward and apart, rounded back, front paws on the belly, round ears up",
+   "checks": [
+    "坐在屁股上、后腿向前伸开",
+    "前爪放在肚子上",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "red-panda-stand",
+   "group": "small",
+   "species": "red panda",
+   "tail": "one long bushy ringed tail",
+   "coat": "russet coat with a white face and dark legs",
+   "name": {
+    "zh": "小熊猫·站立",
+    "ja": "レッサーパンダ・立ち姿",
+    "en": "Red Panda Standing",
+    "ko": "레서판다 서기"
+   },
+   "desc": "standing calmly on all four short legs, back slightly arched, head level facing forward with the white face, rounded upright ears, long bushy tail held out behind and curving slightly down",
+   "keep": "calm four-leg stand on short legs, slightly arched back, level head, rounded upright ears, bushy tail out behind",
+   "checks": [
+    "正好四条腿",
+    "一条蓬松环纹尾巴",
+    "圆耳朵竖起"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  }
+ ]
+}

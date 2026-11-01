@@ -1,12 +1,18 @@
 {
  "cat": "FA",
- "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "note": "Horses and farm animals (docs/animal/PLAN.md §3). The main view is the side profile (D-14). A horse's knee (carpus) bends forward, its hock backward; every desc says where each of the four legs is because gaits are read by leg pairs. No saddle, bridle, halter, harness, rider, cart, bell, ear tag or rope; no slaughter or injury.",
  "groups": {
   "horse": {
    "zh": "马",
    "ja": "馬",
    "en": "Horse",
    "ko": "말"
+  },
+  "farm": {
+   "zh": "驴与家畜",
+   "ja": "ロバ・家畜",
+   "en": "Donkey & Livestock",
+   "ko": "당나귀·가축"
   }
  },
  "forms": [
@@ -30,6 +36,294 @@
     "前腿抬起、膝盖向前弯",
     "四条腿、蹄子正确",
     "没有马鞍缰绳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "horse-stand",
+   "group": "horse",
+   "species": "adult horse with a deep chest, long legs, a long arched neck and a flowing mane",
+   "tail": "a long flowing tail",
+   "coat": "chestnut coat with a flaxen mane and tail",
+   "name": {
+    "zh": "马·站立",
+    "ja": "馬・立ち姿",
+    "en": "Horse Standing",
+    "ko": "말 서기"
+   },
+   "desc": "standing square on level ground with all four hooves planted: both front legs straight and vertical under the chest, both hind legs set under the hips with the hocks bending backward and the cannons vertical, back level, tail hanging straight down, neck raised in a natural curve, head level, ears pricked forward",
+   "keep": "square stand, four hooves planted, straight vertical front legs, hind legs under the hips with backward hocks, level back, tail down, ears forward",
+   "checks": [
+    "四蹄着地站稳",
+    "前腿笔直、后腿跗关节向后弯",
+    "四条腿、一条尾",
+    "没有马鞍缰绳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "horse-walk",
+   "group": "horse",
+   "species": "adult horse with a deep chest, long legs, a long arched neck and a flowing mane",
+   "tail": "a long flowing tail",
+   "coat": "grey dappled coat with a white mane and tail",
+   "name": {
+    "zh": "马·慢步",
+    "ja": "馬・常歩",
+    "en": "Horse Walking",
+    "ko": "말 평보"
+   },
+   "desc": "walking calmly with three hooves on the ground: near front leg lifted with the knee bent forward and the hoof just off the ground, far front leg straight and planted, near hind leg planted behind, far hind leg stepping forward under the belly, back level, tail hanging relaxed, neck stretched slightly forward and low, ears forward",
+   "keep": "calm walk, near front leg lifted with knee bent forward, three hooves on the ground, far hind stepping under the belly, relaxed tail, low neck",
+   "checks": [
+    "三蹄着地、一条前腿抬起",
+    "抬起的前腿膝盖向前弯",
+    "后腿跗关节向后弯",
+    "四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "horse-trot",
+   "group": "horse",
+   "species": "adult horse with a deep chest, long legs, a long arched neck and a flowing mane",
+   "tail": "a long flowing tail",
+   "coat": "black coat with a black mane and tail",
+   "name": {
+    "zh": "马·快步",
+    "ja": "馬・速歩",
+    "en": "Horse Trotting",
+    "ko": "말 속보"
+   },
+   "desc": "trotting with diagonal legs moving together: near front leg and far hind leg swung forward and lifted with the near knee bent forward, far front leg and near hind leg planted and angled back, body level, tail lifted slightly and flowing behind, neck raised, head on the vertical line, ears forward",
+   "keep": "trot, near front with far hind lifted forward, far front with near hind planted, knee bent forward, level body, tail flowing",
+   "checks": [
+    "对角两条腿一起抬起",
+    "另一对角两条腿着地",
+    "膝盖向前弯、跗关节向后弯",
+    "四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "horse-canter",
+   "group": "horse",
+   "species": "adult horse with a deep chest, long legs, a long arched neck and a flowing mane",
+   "tail": "a long flowing tail",
+   "coat": "bay coat with a black mane and tail",
+   "name": {
+    "zh": "马·跑步伸展",
+    "ja": "馬・駈歩",
+    "en": "Horse Cantering",
+    "ko": "말 구보"
+   },
+   "desc": "cantering in the extended moment: both front legs reaching forward with the leading front hoof about to land, both hind legs stretched back with the near hind hoof just leaving the ground, body long and slightly rising at the front, mane and tail streaming back, neck stretched forward, ears forward",
+   "keep": "canter extended, both front legs reaching forward, both hind legs stretched back, body long, mane and tail streaming",
+   "checks": [
+    "两条前腿向前伸",
+    "两条后腿向后伸",
+    "膝盖向前弯、跗关节向后弯",
+    "四条腿、一条尾"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "horse-lie",
+   "group": "horse",
+   "species": "adult horse with a deep chest, long legs, a long arched neck and a flowing mane",
+   "tail": "a long flowing tail",
+   "coat": "palomino coat with a white mane and tail",
+   "name": {
+    "zh": "马·卧下",
+    "ja": "馬・伏せて休む",
+    "en": "Horse Lying Down",
+    "ko": "말 엎드려 쉬기"
+   },
+   "desc": "lying down resting on its chest and belly: both front legs folded under the chest with the knees bent forward and the hooves tucked beneath, both hind legs folded along the near side of the body with the hocks pointing back, back level, tail lying on the ground behind, neck upright, head raised, ears forward",
+   "keep": "lying on chest and belly, front legs folded under the chest with knees forward, hind legs folded at the side with hocks back, neck upright, head raised",
+   "checks": [
+    "胸腹着地卧下",
+    "前腿折在胸下、膝盖向前",
+    "后腿折在身侧、跗关节向后",
+    "四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "donkey-stand",
+   "group": "farm",
+   "species": "adult donkey with a sturdy body, straight back, long upright ears, a large head and an upright short mane",
+   "tail": "a thin tail with a tuft at the end",
+   "coat": "grey-brown coat with a pale muzzle and belly",
+   "name": {
+    "zh": "驴·站立",
+    "ja": "ロバ・立ち姿",
+    "en": "Donkey Standing",
+    "ko": "당나귀 서기"
+   },
+   "desc": "standing square on level ground: both front legs straight and vertical under the chest, both hind legs under the hips with the hocks bending backward, straight back, thin tufted tail hanging down, neck level, large head slightly low, long ears upright",
+   "keep": "square stand, straight front legs, hind legs with backward hocks, straight back, tufted tail, very long upright ears",
+   "checks": [
+    "四蹄着地",
+    "耳朵很长、竖起",
+    "尾巴细、末端一撮毛",
+    "后腿跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cow-stand",
+   "group": "farm",
+   "species": "adult dairy cow with a large rectangular body, a straight back, prominent hip bones, short horns and a broad muzzle",
+   "tail": "a long thin tail with a tuft at the end",
+   "coat": "black and white patched coat",
+   "name": {
+    "zh": "牛·站立",
+    "ja": "牛・立ち姿",
+    "en": "Cow Standing",
+    "ko": "소 서기"
+   },
+   "desc": "standing square on level ground: both front legs straight under the chest, both hind legs under the hips with the hocks bending backward, long straight back with the hip bones showing, long thin tufted tail hanging down to the hocks, neck level, head level, two short horns and ears out to the sides",
+   "keep": "square stand, rectangular body, straight back with hip bones, front legs straight, backward hocks, long tufted tail, two short horns",
+   "checks": [
+    "四条腿、蹄子分两瓣",
+    "身体长方、背平",
+    "两只短角",
+    "没有耳标、铃铛、绳子"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "goat-stand",
+   "group": "farm",
+   "species": "adult goat with a lean body, slim legs, curved back-sweeping horns and a small beard",
+   "tail": "a short upright tail",
+   "coat": "white coat",
+   "name": {
+    "zh": "山羊·站立",
+    "ja": "ヤギ・立ち姿",
+    "en": "Goat Standing",
+    "ko": "염소 서기"
+   },
+   "desc": "standing alert on flat ground with all four hooves planted: both front legs straight under the chest, both hind legs under the hips with the hocks bending backward, back level, short tail flicked up, neck raised, head up and facing forward, two horns curving back, small beard under the chin, ears out to the sides",
+   "keep": "alert stand on flat ground, four hooves planted, backward hocks, short upright tail, head up, two back-curving horns, small beard",
+   "checks": [
+    "四蹄着地",
+    "两只角向后弯",
+    "下巴有小胡子",
+    "后腿跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sheep-stand",
+   "group": "farm",
+   "species": "adult sheep with a rounded body covered in a thick woolly fleece, slim legs and a narrow face",
+   "tail": "a short tail",
+   "coat": "thick cream wool with a dark face and dark legs",
+   "name": {
+    "zh": "绵羊·站立",
+    "ja": "ヒツジ・立ち姿",
+    "en": "Sheep Standing",
+    "ko": "양 서기"
+   },
+   "desc": "standing square on level ground: rounded fleecy body level, both thin front legs straight under the chest, both thin hind legs under the hips with the hocks bending backward, short tail hanging down at the rump, neck short, head level and facing forward, ears out to the sides, no horns",
+   "keep": "square stand, rounded woolly body, thin straight front legs, hind legs with backward hocks, short tail, narrow face, no horns",
+   "checks": [
+    "身体被厚羊毛包成圆形",
+    "四条细腿着地",
+    "后腿跗关节向后弯",
+    "没有角"
    ],
    "variants": [
     {

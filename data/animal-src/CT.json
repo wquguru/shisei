@@ -1,12 +1,30 @@
 {
  "cat": "CT",
- "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "note": "Cats by build (docs/animal/PLAN.md §3): the standard build carries the full action list, cobby, large longhair and slender builds four signature actions each. Main view is the side; the build shows through proportion, head, ears and tail, never coat (D-14).",
  "groups": {
   "cat": {
-   "zh": "猫",
-   "ja": "猫",
-   "en": "Cat",
-   "ko": "고양이"
+   "zh": "标准体型",
+   "ja": "標準体型",
+   "en": "Standard Build",
+   "ko": "표준 체형"
+  },
+  "cobby": {
+   "zh": "圆脸矮壮",
+   "ja": "丸顔ずんぐり",
+   "en": "Cobby Build",
+   "ko": "둥근 얼굴 단단한 체형"
+  },
+  "longhair": {
+   "zh": "长毛大型",
+   "ja": "長毛大型",
+   "en": "Large Longhair",
+   "ko": "장모 대형"
+  },
+  "slender": {
+   "zh": "细长",
+   "ja": "スレンダー",
+   "en": "Slender Build",
+   "ko": "날씬한 체형"
   }
  },
  "forms": [
@@ -96,6 +114,774 @@
     "头埋向后腿",
     "尾巴绕一圈盖住鼻子",
     "没有多出来的腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-stand",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short brown tabby fur",
+   "name": {
+    "zh": "站立",
+    "ja": "立ち姿",
+    "en": "Standing",
+    "ko": "서기"
+   },
+   "desc": "standing still on all four paws in a calm square stance: back level, front legs straight and vertical under the shoulders, hind legs set slightly back with the hocks angled backward, tail held low in a gentle curve behind, head level and facing forward, ears up; exactly four paws on the ground",
+   "keep": "square stand on four paws, level back, straight front legs, hind legs set back with backward hocks, low curved tail, head level",
+   "checks": [
+    "四只脚都着地",
+    "后腿跗关节向后弯",
+    "背部水平、尾巴低垂成弧",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-walk",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short silver tabby fur",
+   "name": {
+    "zh": "走",
+    "ja": "歩く",
+    "en": "Walking",
+    "ko": "걷기"
+   },
+   "desc": "walking forward at a relaxed pace: left front paw and right hind paw lifted mid-step while the other two paws stay planted, back level, tail raised to half height with a soft curve at the tip, head level and looking ahead, ears forward",
+   "keep": "relaxed walk, diagonal pair lifted (left front and right hind), other two paws planted, level back, half-raised tail, head level",
+   "checks": [
+    "对角两只脚抬起、另两只着地",
+    "背部水平",
+    "尾巴半举",
+    "后腿跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-run",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short ginger fur",
+   "name": {
+    "zh": "奔跑",
+    "ja": "走る",
+    "en": "Running",
+    "ko": "달리기"
+   },
+   "desc": "running in the extended phase of the gallop: body long and low, both front legs stretched far forward, both hind legs stretched far back, all four paws just off the ground, tail straight out behind, head forward and level, ears back; not the gathered phase, not hind legs ahead of the front legs",
+   "keep": "extended gallop, front legs forward, hind legs back, all paws off the ground, long low body, tail straight behind",
+   "checks": [
+    "四只脚都离地",
+    "两前腿向前、两后腿向后",
+    "身体拉长放低",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-leap",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short black fur",
+   "name": {
+    "zh": "跳",
+    "ja": "ジャンプ",
+    "en": "Leaping Up",
+    "ko": "뛰어오르기"
+   },
+   "desc": "leaping upward and forward in mid-air: body angled up at about 45 degrees, front legs reaching forward and up with the paws together, hind legs fully extended down and back as if just pushed off, tail trailing down behind, head up toward the landing point, ears forward",
+   "keep": "upward leap at 45 degrees, front legs reaching up together, hind legs extended down and back, trailing tail, head up",
+   "checks": [
+    "身体向上约 45 度腾空",
+    "前腿并拢向上伸",
+    "后腿向后下方蹬直",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-sphinx",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short cream fur",
+   "name": {
+    "zh": "趴（狮身人面式）",
+    "ja": "伏せ（スフィンクス）",
+    "en": "Sphinx Lie",
+    "ko": "엎드리기(스핑크스)"
+   },
+   "desc": "lying down in a sphinx position: belly and chest on the ground, front legs stretched forward side by side flat on the ground, hind legs folded under the body with the hind paws tucked beside the hips, tail lying along the ground beside the body, head raised and level, ears up",
+   "keep": "sphinx lie, belly down, front legs forward flat and side by side, hind legs folded under, tail along the ground, head raised",
+   "checks": [
+    "腹部贴地",
+    "前腿平行前伸贴地",
+    "后腿折在身下",
+    "尾巴贴地放在体侧"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-loaf",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short grey and white fur",
+   "name": {
+    "zh": "揣手趴",
+    "ja": "香箱座り",
+    "en": "Loaf",
+    "ko": "식빵 자세"
+   },
+   "desc": "lying in a compact loaf: body an even rounded block on the ground, both front paws folded inward and hidden under the chest so no front legs show, hind legs fully tucked under with no paws visible, tail wrapped along the side of the body, head upright and level, ears up",
+   "keep": "compact loaf, front paws tucked under the chest out of sight, hind legs tucked, tail along the side, head upright",
+   "checks": [
+    "前爪完全收在胸下看不见",
+    "身体是整块圆润的长方形",
+    "尾巴绕在体侧",
+    "没有多出来的腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-side-lie",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short brown tabby fur",
+   "name": {
+    "zh": "侧卧",
+    "ja": "横向きに寝る",
+    "en": "Lying on Side",
+    "ko": "옆으로 눕기"
+   },
+   "desc": "lying flat on its right side, relaxed: back gently curved, both front legs extended forward one above the other, both hind legs extended back one above the other, tail lying straight out behind, head resting on the ground with the chin forward, eyes area closed and smooth, ears relaxed",
+   "keep": "lying on its right side, front legs extended forward stacked, hind legs extended back stacked, tail straight behind, head resting on the ground",
+   "checks": [
+    "身体侧躺、背微弯",
+    "前腿一上一下向前伸",
+    "后腿一上一下向后伸",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-belly-up",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short orange and white fur",
+   "name": {
+    "zh": "仰躺露肚",
+    "ja": "へそ天",
+    "en": "Belly Up",
+    "ko": "배 보이고 눕기"
+   },
+   "desc": "lying on its back with the belly facing up, spine slightly twisted so the hips tip toward the viewer: front legs bent with the paws curled loosely above the chest, hind legs bent and splayed outward with the hind paws in the air, tail lying flat on the ground, head turned sideways on the ground, ears relaxed",
+   "keep": "on its back belly up, front paws curled above the chest, hind legs bent and splayed in the air, tail flat on the ground, head turned sideways",
+   "checks": [
+    "背着地、肚子朝上",
+    "前爪蜷在胸前",
+    "后腿弯曲向外张开",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-look-back",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short silver tabby fur",
+   "name": {
+    "zh": "回头",
+    "ja": "振り返る",
+    "en": "Looking Back",
+    "ko": "뒤돌아보기"
+   },
+   "desc": "standing on all four paws with the body facing forward but the neck turned so the head looks back over its left shoulder toward its own tail: front legs straight, hind legs set back with backward hocks, tail held low in a curve, ears turned toward the back",
+   "keep": "four-paw stand, body forward, head turned back over the left shoulder, ears turned back, low curved tail",
+   "checks": [
+    "四脚站立",
+    "头转向后、越过左肩",
+    "身体仍朝前",
+    "后腿跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-lick-paw",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short black and white fur",
+   "name": {
+    "zh": "舔爪",
+    "ja": "前足をなめる",
+    "en": "Licking a Paw",
+    "ko": "앞발 핥기"
+   },
+   "desc": "sitting upright on its haunches and grooming: the left front paw lifted to mouth height with the wrist bent, the right front leg straight and planted, hind legs folded flat at the sides, tail curled around the planted front paw, head lowered and turned slightly toward the raised paw, ears up",
+   "keep": "upright sit, left front paw raised to the mouth, right front leg planted, hind legs folded at the sides, tail around the planted paw, head lowered to the paw",
+   "checks": [
+    "一只前爪抬到嘴边",
+    "另一只前腿撑地",
+    "后腿折在两侧",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-crouch",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short brown tabby fur",
+   "name": {
+    "zh": "低伏",
+    "ja": "低く構える",
+    "en": "Low Crouch",
+    "ko": "낮게 웅크리기"
+   },
+   "desc": "crouching low and still with the belly just above the ground: front legs bent with the elbows raised above the back line, hind legs bent and gathered under the hips with the hocks flat on the ground, back level and long, tail lying straight out behind along the ground, head low and level, ears forward; calm and watchful, nothing in front of it",
+   "keep": "low crouch, belly just above the ground, bent front legs with raised elbows, hind legs gathered with hocks flat, long level back, tail straight along the ground",
+   "checks": [
+    "身体压低、腹部接近地面",
+    "前肘高过背线",
+    "后腿收在臀下、跗关节贴地",
+    "尾巴贴地伸直"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cat-arch",
+   "group": "cat",
+   "species": "domestic cat of standard American Shorthair build: a medium muscular body, a rounded head with medium upright ears, and medium-length legs",
+   "tail": "one smooth tapering tail",
+   "coat": "short grey fur",
+   "name": {
+    "zh": "拱背伸展",
+    "ja": "背伸び（アーチ）",
+    "en": "Arched Back Stretch",
+    "ko": "등 구부려 기지개"
+   },
+   "desc": "standing on all four straight legs with the back arched high into a rounded hump at the middle: all four paws planted close together, front legs and hind legs straight and vertical, tail raised and curving down at the tip, head lowered slightly below the shoulders, ears up; relaxed stretch, not hissing",
+   "keep": "high rounded arch in the back, four straight legs with paws close together, raised tail curving at the tip, head slightly lowered",
+   "checks": [
+    "背部高高拱起成弧",
+    "四条腿伸直、脚掌靠拢",
+    "尾巴举起",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cob-sit",
+   "group": "cobby",
+   "species": "domestic cat of cobby British Shorthair build: a round broad head, a short muzzle, small rounded ears set wide apart, a short thick-set body with a broad chest and short sturdy legs",
+   "tail": "one thick short smooth tail",
+   "coat": "dense short blue-grey fur",
+   "name": {
+    "zh": "圆脸·坐",
+    "ja": "ずんぐり・お座り",
+    "en": "Cobby Sitting",
+    "ko": "단단한 체형 앉기"
+   },
+   "desc": "sitting upright on its haunches: a short round body, short front legs straight and close together under the broad chest, hind legs folded flat at the sides, thick tail curled around the front paws, round head level with the short muzzle forward, small rounded ears up",
+   "keep": "upright sit, short round body, short straight front legs together, hind legs folded at the sides, thick tail around the paws, round head",
+   "checks": [
+    "身体短而圆、胸宽",
+    "腿明显短粗",
+    "尾巴粗短绕到前爪",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cob-loaf",
+   "group": "cobby",
+   "species": "domestic cat of cobby British Shorthair build: a round broad head, a short muzzle, small rounded ears set wide apart, a short thick-set body with a broad chest and short sturdy legs",
+   "tail": "one thick short smooth tail",
+   "coat": "dense short blue-grey fur",
+   "name": {
+    "zh": "圆脸·揣手趴",
+    "ja": "ずんぐり・香箱座り",
+    "en": "Cobby Loaf",
+    "ko": "단단한 체형 식빵 자세"
+   },
+   "desc": "lying in a compact loaf: the short round body a wide rounded block on the ground, front paws tucked out of sight under the chest, hind legs tucked under, thick tail wrapped along the side, round head upright with the short muzzle forward, small rounded ears up",
+   "keep": "compact loaf, wide round body, front paws tucked out of sight, hind legs tucked, thick tail along the side, round head",
+   "checks": [
+    "身体是宽而圆的一块",
+    "前爪收在胸下看不见",
+    "圆头、短吻、小圆耳",
+    "没有多出来的腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cob-stand",
+   "group": "cobby",
+   "species": "domestic cat of cobby British Shorthair build: a round broad head, a short muzzle, small rounded ears set wide apart, a short thick-set body with a broad chest and short sturdy legs",
+   "tail": "one thick short smooth tail",
+   "coat": "dense short cream fur",
+   "name": {
+    "zh": "圆脸·站立",
+    "ja": "ずんぐり・立ち姿",
+    "en": "Cobby Standing",
+    "ko": "단단한 체형 서기"
+   },
+   "desc": "standing square on all four short sturdy legs: a deep broad chest, a short level back, front legs straight and vertical, hind legs set slightly back with backward hocks, thick short tail held low, round head level, small rounded ears up",
+   "keep": "square stand, short sturdy legs, broad chest, short level back, backward hocks, thick short low tail",
+   "checks": [
+    "四脚站立",
+    "腿短粗、身体短",
+    "后腿跗关节向后弯",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cob-side-lie",
+   "group": "cobby",
+   "species": "domestic cat of cobby British Shorthair build: a round broad head, a short muzzle, small rounded ears set wide apart, a short thick-set body with a broad chest and short sturdy legs",
+   "tail": "one thick short smooth tail",
+   "coat": "long cream and white fur with a full ruff",
+   "name": {
+    "zh": "圆脸·侧卧",
+    "ja": "ずんぐり・横向き寝",
+    "en": "Cobby Lying on Side",
+    "ko": "단단한 체형 옆으로 눕기"
+   },
+   "desc": "lying flat on its right side: the short round body gently curved, short front legs extended forward one above the other, short hind legs extended back one above the other, thick tail lying straight behind, round head resting on the ground with the short muzzle forward, small rounded ears relaxed",
+   "keep": "lying on its right side, short round body, short front legs forward stacked, short hind legs back stacked, thick tail straight behind",
+   "checks": [
+    "身体侧躺",
+    "四条短腿两两叠着伸",
+    "圆头短吻",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lh-side-lie",
+   "group": "longhair",
+   "species": "large domestic cat of Maine Coon build: a long, big-boned rectangular body, a broad chest, a squarish muzzle, large tall ears with tufted tips, long sturdy legs and large round paws",
+   "tail": "one long plumed tail",
+   "coat": "long brown tabby coat with a full ruff",
+   "name": {
+    "zh": "长毛·侧卧",
+    "ja": "長毛・横向き寝",
+    "en": "Longhair Lying on Side",
+    "ko": "장모 옆으로 눕기"
+   },
+   "desc": "lying flat on its right side, stretched out to its full long length: back gently curved, both front legs extended forward one above the other, both hind legs extended back one above the other, long plumed tail lying straight out behind, large head resting on the ground with the squarish muzzle forward, large tufted ears relaxed",
+   "keep": "lying on its right side at full length, front legs forward stacked, hind legs back stacked, long plumed tail straight behind, large head resting",
+   "checks": [
+    "身体很长、侧躺伸展",
+    "前后腿各两条叠着伸",
+    "大耳尖有簇毛",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lh-stand",
+   "group": "longhair",
+   "species": "large domestic cat of Maine Coon build: a long, big-boned rectangular body, a broad chest, a squarish muzzle, large tall ears with tufted tips, long sturdy legs and large round paws",
+   "tail": "one long plumed tail",
+   "coat": "long brown tabby coat with a full ruff",
+   "name": {
+    "zh": "长毛·站立",
+    "ja": "長毛・立ち姿",
+    "en": "Longhair Standing",
+    "ko": "장모 서기"
+   },
+   "desc": "standing square on all four long sturdy legs: a long rectangular body with a level back, broad chest, front legs straight and vertical, hind legs set back with backward hocks, long plumed tail held low and straight behind, large head level, large tufted ears up",
+   "keep": "square stand, long rectangular body, level back, long sturdy legs, backward hocks, long plumed tail low behind",
+   "checks": [
+    "身体长方、背水平",
+    "腿长而粗壮",
+    "后腿跗关节向后弯",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lh-walk",
+   "group": "longhair",
+   "species": "large domestic cat of Maine Coon build: a long, big-boned rectangular body, a broad chest, a squarish muzzle, large tall ears with tufted tips, long sturdy legs and large round paws",
+   "tail": "one long plumed tail",
+   "coat": "long red tabby coat with a full ruff",
+   "name": {
+    "zh": "长毛·走",
+    "ja": "長毛・歩く",
+    "en": "Longhair Walking",
+    "ko": "장모 걷기"
+   },
+   "desc": "walking forward at a steady pace: left front paw and right hind paw lifted mid-step while the other two paws stay planted, long back level, long plumed tail raised to half height with a gentle curve, large head level and looking ahead, large tufted ears forward",
+   "keep": "steady walk, diagonal pair lifted (left front and right hind), other two planted, long level back, half-raised plumed tail",
+   "checks": [
+    "对角两只脚抬起、另两只着地",
+    "身体长、背水平",
+    "尾巴半举、毛蓬",
+    "后腿跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lh-sit",
+   "group": "longhair",
+   "species": "large domestic cat of Maine Coon build: a long, big-boned rectangular body, a broad chest, a squarish muzzle, large tall ears with tufted tips, long sturdy legs and large round paws",
+   "tail": "one long plumed tail",
+   "coat": "long black smoke coat with a full ruff",
+   "name": {
+    "zh": "长毛·坐",
+    "ja": "長毛・お座り",
+    "en": "Longhair Sitting",
+    "ko": "장모 앉기"
+   },
+   "desc": "sitting upright on its haunches: tall and big-boned, long front legs straight and close together under the broad chest, hind legs folded flat at the sides with the large hind paws forward, long plumed tail wrapped around the front paws, large head level, large tufted ears up",
+   "keep": "upright sit, long straight front legs together, hind legs folded at the sides, plumed tail around the paws, large head level",
+   "checks": [
+    "坐姿高大、骨架粗",
+    "前腿长而并拢",
+    "尾巴蓬松绕到前爪",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sl-stand",
+   "group": "slender",
+   "species": "slender domestic cat of Siamese build: a long, fine-boned tubular body, a long wedge-shaped head with large pointed ears set low and wide, long thin legs with small oval paws and a long neck",
+   "tail": "one long thin whip-like tail",
+   "coat": "short cream coat with dark seal points",
+   "name": {
+    "zh": "细长·站立",
+    "ja": "スレンダー・立ち姿",
+    "en": "Slender Standing",
+    "ko": "날씬한 체형 서기"
+   },
+   "desc": "standing square on all four long thin legs: a long tubular body with a level back, front legs straight and vertical, hind legs set back with backward hocks and slightly higher hips, long thin tail held low in a gentle curve, long wedge head level on the long neck, large pointed ears up",
+   "keep": "square stand, long tubular body, long thin legs, backward hocks, long thin low tail, wedge head on a long neck",
+   "checks": [
+    "身体细长、腿细长",
+    "楔形头、大尖耳",
+    "后腿跗关节向后弯",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sl-walk",
+   "group": "slender",
+   "species": "slender domestic cat of Siamese build: a long, fine-boned tubular body, a long wedge-shaped head with large pointed ears set low and wide, long thin legs with small oval paws and a long neck",
+   "tail": "one long thin whip-like tail",
+   "coat": "short cream coat with dark seal points",
+   "name": {
+    "zh": "细长·走",
+    "ja": "スレンダー・歩く",
+    "en": "Slender Walking",
+    "ko": "날씬한 체형 걷기"
+   },
+   "desc": "walking forward with a long graceful stride: left front paw and right hind paw lifted mid-step while the other two paws stay planted, long back level, long thin tail raised high in a smooth curve, wedge head level on the long neck, large pointed ears forward",
+   "keep": "long stride, diagonal pair lifted (left front and right hind), other two planted, level back, thin tail raised high",
+   "checks": [
+    "对角两只脚抬起、另两只着地",
+    "步幅长、腿细长",
+    "尾巴高举",
+    "后腿跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sl-sit",
+   "group": "slender",
+   "species": "slender domestic cat of Siamese build: a long, fine-boned tubular body, a long wedge-shaped head with large pointed ears set low and wide, long thin legs with small oval paws and a long neck",
+   "tail": "one long thin whip-like tail",
+   "coat": "short white coat with blue points",
+   "name": {
+    "zh": "细长·坐",
+    "ja": "スレンダー・お座り",
+    "en": "Slender Sitting",
+    "ko": "날씬한 체형 앉기"
+   },
+   "desc": "sitting upright and tall on its haunches: long thin front legs straight and close together, hind legs folded at the sides, long thin tail laid straight along the ground beside the body, long neck upright, wedge head level, large pointed ears up",
+   "keep": "tall upright sit, long thin front legs together, hind legs folded, thin tail straight along the ground, long upright neck",
+   "checks": [
+    "坐姿高、颈长",
+    "前腿细长并拢",
+    "尾巴细长平放体侧",
+    "四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sl-stretch",
+   "group": "slender",
+   "species": "slender domestic cat of Siamese build: a long, fine-boned tubular body, a long wedge-shaped head with large pointed ears set low and wide, long thin legs with small oval paws and a long neck",
+   "tail": "one long thin whip-like tail",
+   "coat": "short cream coat with chocolate points",
+   "name": {
+    "zh": "细长·伸懒腰",
+    "ja": "スレンダー・伸び",
+    "en": "Slender Stretch",
+    "ko": "날씬한 체형 기지개"
+   },
+   "desc": "a full forward stretch: long front legs reaching far forward flat on the ground with the chest lowered close to the ground, hind legs straight with the hips raised high, long back sloping down from the hips to the shoulders, long thin tail raised straight up, wedge head level between the front legs, large pointed ears up",
+   "keep": "forward stretch, long front legs flat forward, chest low, hips high on straight hind legs, thin tail straight up",
+   "checks": [
+    "前腿前伸贴地、胸口压低",
+    "后腿伸直、臀部翘高",
+    "身体和腿都细长",
+    "后腿跗关节向后弯"
    ],
    "variants": [
     {

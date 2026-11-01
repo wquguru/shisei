@@ -1,12 +1,30 @@
 {
  "cat": "BD",
- "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "note": "Birds (docs/animal/PLAN.md §3). Every bird stands on or moves over an invisible flat ground or is in the air: no perch, branch, water surface or cage. Each desc counts wings, legs and toes, because the model adds legs or drops a wing in foreshortened views.",
  "groups": {
   "corvid": {
    "zh": "鸦",
    "ja": "カラス",
    "en": "Crow",
    "ko": "까마귀"
+  },
+  "songbird": {
+   "zh": "鸽与小鸟",
+   "ja": "ハト・小鳥",
+   "en": "Pigeons & Parrots",
+   "ko": "비둘기·앵무새"
+  },
+  "water": {
+   "zh": "水鸟与涉禽",
+   "ja": "水鳥・渉禽",
+   "en": "Waterbirds & Waders",
+   "ko": "물새·섭금류"
+  },
+  "raptor": {
+   "zh": "猛禽与猫头鹰",
+   "ja": "猛禽・フクロウ",
+   "en": "Raptors & Owls",
+   "ko": "맹금류·올빼미"
   }
  },
  "forms": [
@@ -30,6 +48,231 @@
     "飞羽末端像手指一样分开",
     "脚收在身下",
     "扇形尾羽"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "crow-stand",
+   "group": "corvid",
+   "main": "side",
+   "species": "crow",
+   "tail": "a wedge-shaped tail of feathers",
+   "coat": "glossy black plumage",
+   "name": {
+    "zh": "乌鸦·站立",
+    "ja": "カラス・立ち姿",
+    "en": "Crow Standing",
+    "ko": "까마귀 서기"
+   },
+   "desc": "standing upright on both feet on flat ground, wings folded neatly against the body with the wingtips resting over the tail, body tilted about 30 degrees from vertical, head turned slightly to its left, strong straight beak closed; exactly two legs, each foot with three toes forward and one toe back",
+   "keep": "standing on both feet, wings folded with tips over the tail, body tilted about 30 degrees, head turned slightly, beak closed",
+   "checks": [
+    "正好两条腿、每只脚三前一后四个趾",
+    "两只翅膀收拢、翅尖压在尾上",
+    "喙闭合"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pigeon-walk",
+   "group": "songbird",
+   "main": "side",
+   "species": "pigeon",
+   "tail": "a short rounded fan of tail feathers",
+   "coat": "grey plumage with an iridescent green-purple neck",
+   "name": {
+    "zh": "鸽子·踱步",
+    "ja": "ハト・歩く",
+    "en": "Pigeon Walking",
+    "ko": "비둘기 걷기"
+   },
+   "desc": "walking mid-step: the right foot planted flat, the left foot lifted forward off the ground, plump chest out, head pushed forward on the neck, wings folded against the body, tail level; exactly two legs, each foot with three toes forward and one back",
+   "keep": "mid-step walk, right foot planted, left foot lifted forward, chest out, head forward, wings folded, tail level",
+   "checks": [
+    "正好两条腿、一只抬起一只着地",
+    "胸部饱满、头前伸",
+    "翅膀收拢"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "swan-glide",
+   "group": "water",
+   "main": "side",
+   "species": "mute swan",
+   "tail": "a short pointed tail of feathers",
+   "coat": "white plumage and an orange beak",
+   "name": {
+    "zh": "天鹅·浮游姿态",
+    "ja": "白鳥・浮かぶ姿",
+    "en": "Swan Gliding Pose",
+    "ko": "백조 떠 있는 자세"
+   },
+   "desc": "resting in its swimming posture with the body level and the legs hidden beneath it as if afloat, but with no water drawn: wings folded and slightly raised over the back, long neck in a graceful S-curve, head level with the beak pointing slightly down",
+   "keep": "level body in swimming posture, legs hidden, wings folded and slightly raised, long S-curved neck, beak slightly down",
+   "checks": [
+    "脖子 S 形弯曲",
+    "两只翅膀收拢微微拱起",
+    "没有画水面"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "owl-stand",
+   "group": "raptor",
+   "species": "owl",
+   "tail": "a short rounded tail of feathers",
+   "coat": "mottled brown and buff plumage",
+   "name": {
+    "zh": "猫头鹰·立姿",
+    "ja": "フクロウ・立ち姿",
+    "en": "Owl Standing",
+    "ko": "올빼미 서기"
+   },
+   "desc": "standing upright on both feet on flat ground with no branch, round body upright, wings folded at the sides, round flat facial disc facing forward, two short ear tufts, feathered legs, each foot with two toes forward and two back",
+   "keep": "upright stance on flat ground, round upright body, wings folded, flat round facial disc facing forward, two ear tufts",
+   "checks": [
+    "站在平地上、没有树枝",
+    "圆形面盘朝前",
+    "两只耳羽簇",
+    "正好两条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eagle-land",
+   "group": "raptor",
+   "species": "eagle",
+   "tail": "a broad fan-shaped tail of feathers",
+   "coat": "dark brown plumage with a white head",
+   "name": {
+    "zh": "鹰·展翅落地",
+    "ja": "ワシ・着地",
+    "en": "Eagle Landing",
+    "ko": "독수리 착지"
+   },
+   "desc": "the moment before landing: both wings spread wide and raised in a high V above the back with the primaries splayed, body tilted back almost upright, both legs reaching forward and down with talons open, tail fanned and pressed down as a brake, head level looking ahead; no prey",
+   "keep": "about to land, both wings raised in a high V with splayed primaries, body tilted back, both legs forward with open talons, fanned tail pressed down",
+   "checks": [
+    "两只翅膀高举成 V 形",
+    "两条腿前伸、爪张开",
+    "没有猎物",
+    "尾羽展开下压"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "parrot-stand",
+   "group": "songbird",
+   "main": "side",
+   "species": "macaw parrot",
+   "tail": "a long pointed tail of feathers",
+   "coat": "bright red, yellow and blue plumage",
+   "name": {
+    "zh": "鹦鹉·站立",
+    "ja": "オウム・立ち姿",
+    "en": "Parrot Standing",
+    "ko": "앵무새 서기"
+   },
+   "desc": "standing upright on both feet on flat ground, body leaning slightly forward, wings folded at the sides, long tail hanging straight down behind, large curved hooked beak, head turned three-quarter toward image-left; each foot with two toes forward and two back",
+   "keep": "upright stance on both feet, body leaning slightly forward, wings folded, long tail straight down, hooked beak, head turned three-quarter",
+   "checks": [
+    "每只脚二前二后",
+    "弯钩大喙",
+    "长尾垂直向下",
+    "正好两条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "crane-one-leg",
+   "group": "water",
+   "main": "side",
+   "species": "red-crowned crane",
+   "tail": "a short tail hidden under the curved inner wing feathers",
+   "coat": "white plumage with black neck and inner wing feathers and a red crown",
+   "name": {
+    "zh": "鹤·单腿站立",
+    "ja": "ツル・片足立ち",
+    "en": "Crane Standing on One Leg",
+    "ko": "두루미 한 다리 서기"
+   },
+   "desc": "standing still on one long straight leg on flat ground, the other leg folded up under the body with the foot hidden in the belly feathers, long straight neck held upright, long straight beak level, wings folded with the curved inner feathers drooping over the tail",
+   "keep": "one-leg stance, one long straight leg down, the other folded up and hidden, upright neck, level beak, wings folded",
+   "checks": [
+    "只有一条腿着地",
+    "另一条腿收起藏在腹下",
+    "脖子挺直、长喙水平"
    ],
    "variants": [
     {

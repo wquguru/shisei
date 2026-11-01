@@ -1,12 +1,24 @@
 {
  "cat": "SM",
- "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "note": "Small pets (docs/animal/PLAN.md §3). The main view is the side profile (D-14), so every desc is written to read from the left side: where each pair of legs is, how the back curves, where the ears point. Adults only; no cages, food, bedding or toys.",
  "groups": {
   "rabbit": {
    "zh": "兔",
    "ja": "ウサギ",
    "en": "Rabbit",
    "ko": "토끼"
+  },
+  "rodent": {
+   "zh": "豚鼠与仓鼠",
+   "ja": "モルモット・ハムスター",
+   "en": "Guinea Pig & Hamster",
+   "ko": "기니피그·햄스터"
+  },
+  "ferret": {
+   "zh": "雪貂",
+   "ja": "フェレット",
+   "en": "Ferret",
+   "ko": "페럿"
   }
  },
  "forms": [
@@ -30,6 +42,230 @@
     "前爪收在胸前、不着地",
     "两只长耳朵竖起",
     "短圆尾"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rabbit-loaf",
+   "group": "rabbit",
+   "species": "adult domestic rabbit with a rounded body, long hind feet, short front legs and two long upright ears",
+   "tail": "a short round tail",
+   "coat": "soft grey fur",
+   "name": {
+    "zh": "兔·趴坐",
+    "ja": "ウサギ・香箱座り",
+    "en": "Rabbit Loafing",
+    "ko": "토끼 웅크려 앉기"
+   },
+   "desc": "sitting low and compact on all four feet with the body rounded like a loaf: front paws tucked side by side under the chest and barely visible, long hind feet folded flat along the sides of the body with the heels under the hips, back a smooth rounded hump, short round tail against the rump, head level, long ears laid back flat along the back",
+   "keep": "compact loaf, front paws tucked under the chest, hind feet folded flat at the sides, rounded back, ears laid back along the back",
+   "checks": [
+    "身体团成圆面包形",
+    "前爪收在胸下",
+    "后脚平贴身体两侧",
+    "两只长耳朵向后贴背"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rabbit-flop",
+   "group": "rabbit",
+   "species": "adult domestic rabbit with a rounded body, long hind feet, short front legs and two long upright ears",
+   "tail": "a short round tail",
+   "coat": "white fur with brown patches",
+   "name": {
+    "zh": "兔·侧身瘫卧",
+    "ja": "ウサギ・横に伸びて寝る",
+    "en": "Rabbit Stretched Out",
+    "ko": "토끼 길게 눕기"
+   },
+   "desc": "lying fully stretched out on its belly and slightly onto one side: front legs stretched straight forward in front of the chest, both long hind legs stretched straight out behind the body with the soles of the hind feet facing up and back, body long and flat on the ground, short round tail at the rump, head resting low on the ground between the front paws, long ears laid flat along the neck",
+   "keep": "stretched flat on the belly, front legs straight forward, both hind legs stretched straight back with soles up, head low, ears flat",
+   "checks": [
+    "身体拉长贴地",
+    "前腿向前伸直",
+    "两条后腿向后伸直、脚底朝后上",
+    "四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rabbit-hop",
+   "group": "rabbit",
+   "species": "adult domestic rabbit with a rounded body, long hind feet, short front legs and two long upright ears",
+   "tail": "a short round tail",
+   "coat": "soft brown fur",
+   "name": {
+    "zh": "兔·跳跃",
+    "ja": "ウサギ・ジャンプ",
+    "en": "Rabbit Mid-Hop",
+    "ko": "토끼 점프"
+   },
+   "desc": "mid-hop in the extended phase with all four feet off the ground: body long and stretched forward at a slight upward angle, both front legs reaching forward and down together ready to land, both long hind legs stretched straight back behind the body with the hind feet pointing back, short round tail raised, head forward, long ears up and angled back",
+   "keep": "airborne extended hop, front legs reaching forward together, hind legs stretched straight back, tail raised, ears up and back",
+   "checks": [
+    "四只脚都离地",
+    "两条前腿一起向前下方伸",
+    "两条后腿向后伸直",
+    "四条腿、一条短尾"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rabbit-groom",
+   "group": "rabbit",
+   "species": "adult domestic rabbit with a rounded body, long hind feet, short front legs and two long upright ears",
+   "tail": "a short round tail",
+   "coat": "soft black fur",
+   "name": {
+    "zh": "兔·洗脸",
+    "ja": "ウサギ・顔を洗う",
+    "en": "Rabbit Grooming",
+    "ko": "토끼 세수하기"
+   },
+   "desc": "sitting back on its haunches to wash its face: body tilted upright at about 60 degrees, both long hind feet flat on the ground along the sides with the heels under the hips, both front paws raised together to the face and rubbing over the nose, short round tail against the ground behind, head tilted slightly down, long ears folded forward and down over the paws",
+   "keep": "sitting back on the haunches, hind feet flat along the sides, both front paws raised to the face, short tail on the ground, ears folded forward",
+   "checks": [
+    "坐在后腿上、身体约 60 度立起",
+    "两只前爪一起抬到脸前",
+    "后脚平贴地面",
+    "四条腿、一条短尾"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "guineapig-stand",
+   "group": "rodent",
+   "species": "adult guinea pig with a round barrel-shaped body, no visible neck, very short legs, a blunt rounded head and small petal-shaped ears",
+   "tail": "no visible tail",
+   "coat": "smooth tricolour fur in white, ginger and black",
+   "name": {
+    "zh": "豚鼠·站立",
+    "ja": "モルモット・立ち姿",
+    "en": "Guinea Pig Standing",
+    "ko": "기니피그 서기"
+   },
+   "desc": "standing on all four short legs: round barrel body held level just above the ground, both short front legs straight under the chest, both short hind legs under the hips with the feet flat, no tail at all, blunt head level and facing forward, small ears drooping at the sides",
+   "keep": "level barrel body on four short legs, front legs under the chest, hind feet flat under the hips, no tail, blunt head, drooping ears",
+   "checks": [
+    "四条短腿着地",
+    "身体圆桶形、没有脖子",
+    "没有尾巴",
+    "耳朵小、下垂"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hamster-up",
+   "group": "rodent",
+   "species": "adult Syrian hamster with a round compact body, short legs, a short blunt muzzle and small round upright ears",
+   "tail": "a tiny stub tail",
+   "coat": "golden fur with a white belly",
+   "name": {
+    "zh": "仓鼠·后腿站立",
+    "ja": "ハムスター・立ち上がり",
+    "en": "Hamster Sitting Up",
+    "ko": "햄스터 일어서기"
+   },
+   "desc": "sitting up on its hind legs: round body upright, both hind feet flat on the ground with the heels down, both front paws held together in front of the chest, round belly forward, tiny stub tail touching the ground behind, head up and facing forward, small round ears upright",
+   "keep": "upright on flat hind feet, front paws together at the chest, round belly, stub tail behind, round ears up",
+   "checks": [
+    "后脚平着地、身体直立",
+    "两只前爪并在胸前",
+    "尾巴很短",
+    "两只圆耳竖起"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ferret-walk",
+   "group": "ferret",
+   "species": "adult ferret with a very long slim tube-like body, short legs, a small pointed head and small round ears",
+   "tail": "one long smooth bushy tail",
+   "coat": "sable fur with a pale mask",
+   "name": {
+    "zh": "雪貂·伸长行走",
+    "ja": "フェレット・歩く",
+    "en": "Ferret Walking",
+    "ko": "페럿 걷기"
+   },
+   "desc": "walking with the long body stretched low and level and the back slightly arched in the middle: near front leg stepping forward and far front leg back, near hind leg back and far hind leg forward, all four short legs visible under the long body, long tail held low and straight behind, head low and forward, small round ears up",
+   "keep": "long low body with a slight arch, walking step with diagonal legs, four short legs visible, long low tail, head low and forward",
+   "checks": [
+    "身体很长、贴近地面",
+    "四条短腿都看得到",
+    "后腿跗关节向后弯",
+    "一条长尾巴"
    ],
    "variants": [
     {

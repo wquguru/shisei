@@ -1,6 +1,6 @@
 {
  "cat": "DG",
- "note": "Probe forms only (docs/animal/PLAN.md §6). Full action lists are written after the probe decides the style (D-14).",
+ "note": "Dog actions by body build (docs/animal/PLAN.md §3, D-14): the medium build carries the full action list, the other five builds the actions that show their skeleton. The side view is the main image, so every pose reads from the side.",
  "groups": {
   "medium": {
    "zh": "中型犬",
@@ -25,6 +25,18 @@
    "ja": "サイトハウンド",
    "en": "Sighthound",
    "ko": "시각 하운드"
+  },
+  "small": {
+   "zh": "小型犬",
+   "ja": "小型犬",
+   "en": "Small Dog",
+   "ko": "소형견"
+  },
+  "brachy": {
+   "zh": "短鼻壮实犬",
+   "ja": "短頭種の犬",
+   "en": "Short-Nosed Dog",
+   "ko": "단두종 개"
   }
  },
  "forms": [
@@ -180,6 +192,1126 @@
     "胸深、腰明显细收",
     "腿明显细长、比中型犬长",
     "后腿跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-stand",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·站",
+    "ja": "中型犬・立ち",
+    "en": "Medium Dog Standing",
+    "ko": "중형견 서기"
+   },
+   "desc": "standing square on all four paws, back level, front legs straight and parallel under the shoulders, hind legs set back with the hocks angled backward and the hind paws flat, tail curled over the back, head raised and facing forward, ears upright",
+   "keep": "square stand, level back, straight front legs, hind legs set back with backward hocks, tail curled over the back, head up, ears upright",
+   "checks": [
+    "四脚着地站稳、背平",
+    "后腿跗关节向后弯",
+    "尾巴卷在背上",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-down",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·趴",
+    "ja": "中型犬・伏せ",
+    "en": "Medium Dog Lying Down",
+    "ko": "중형견 엎드리기"
+   },
+   "desc": "lying down in a sphinx position: belly flat on the ground, front legs stretched straight forward and parallel, hind legs folded under the hips with the hind paws tucked beside the body, tail curled to one side on the ground, head raised and facing forward, ears upright",
+   "keep": "sphinx down, belly on the ground, front legs straight forward and parallel, hind legs folded under the hips, head up, ears upright",
+   "checks": [
+    "腹部贴地",
+    "前腿平行前伸",
+    "后腿收在臀下",
+    "立耳、头抬起"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-side-lie",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·侧卧",
+    "ja": "中型犬・横寝",
+    "en": "Medium Dog Lying on Its Side",
+    "ko": "중형견 옆으로 눕기"
+   },
+   "desc": "lying flat on its left side fully relaxed, back toward the camera's top edge, all four legs stretched out loosely in the same direction toward image-right, the upper legs resting on the lower legs, tail lying straight out behind on the ground, head resting flat on the ground, ears relaxed",
+   "keep": "flat on its side, all four legs stretched loosely to one side, upper legs on lower legs, tail straight out behind, head flat on the ground",
+   "checks": [
+    "身体侧躺贴地",
+    "四条腿朝同一侧伸出",
+    "头平放在地上",
+    "正好四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-curl",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·团睡",
+    "ja": "中型犬・丸まって寝る",
+    "en": "Medium Dog Curled Asleep",
+    "ko": "중형견 웅크려 자기"
+   },
+   "desc": "lying curled into a tight ring on the ground, back rounded, all four legs tucked in under the body, head resting on the hind legs with the nose near the base of the tail, tail curled around the front of the body over the nose, ears folded back",
+   "keep": "tight curled ring, rounded back, legs tucked under, head resting on the hind legs, tail wrapped over the nose",
+   "checks": [
+    "身体蜷成一圈",
+    "头靠在后腿上",
+    "尾巴绕过来盖住鼻子",
+    "没有多出来的腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-walk",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·走",
+    "ja": "中型犬・歩く",
+    "en": "Medium Dog Walking",
+    "ko": "중형견 걷기"
+   },
+   "desc": "walking forward at a calm pace toward image-left, back level, the near front leg reaching forward with its paw just touching down while the far front leg is back under the chest, the near hind leg pushing back with the hock angled backward while the far hind leg swings forward, three paws on the ground, tail curled over the back, head level and facing forward, ears upright",
+   "keep": "calm walk toward image-left, level back, near front leg reaching forward, near hind leg pushing back, three paws on the ground, tail curled over the back",
+   "checks": [
+    "三只脚着地、一只抬起",
+    "前后腿交替",
+    "后腿跗关节向后弯",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-jump",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·跳",
+    "ja": "中型犬・ジャンプ",
+    "en": "Medium Dog Jumping",
+    "ko": "중형견 점프"
+   },
+   "desc": "leaping upward and forward toward image-left at the top of a jump, body angled up at the front, both front legs folded up under the chest, both hind legs stretched back and down after the push-off, all four paws off the ground, tail streaming out behind, head up and forward, ears upright",
+   "keep": "leap toward image-left, body angled up, front legs folded under the chest, hind legs stretched back, all paws off the ground, tail out behind",
+   "checks": [
+    "四只脚都离地",
+    "前腿收在胸下",
+    "后腿向后伸直",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-playbow",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·玩耍鞠躬",
+    "ja": "中型犬・プレイバウ",
+    "en": "Medium Dog Play Bow",
+    "ko": "중형견 플레이 바우"
+   },
+   "desc": "a play bow: front legs bent flat on the ground with the forearms and chest lowered close to the ground, hind legs straight with the hips raised high, back sloping down from the hips to the shoulders, tail raised and curled over the back, head up between the front legs and facing forward, ears upright",
+   "keep": "play bow, forearms and chest low on the ground, hips high on straight hind legs, back sloping down to the front, tail curled up, head up",
+   "checks": [
+    "前臂和胸口贴近地面",
+    "后腿伸直、臀部翘高",
+    "尾巴竖起卷着",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-lookback",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·回头",
+    "ja": "中型犬・振り返る",
+    "en": "Medium Dog Looking Back",
+    "ko": "중형견 뒤돌아보기"
+   },
+   "desc": "standing on all four paws facing image-left, body still, front legs straight, hind legs set back with backward hocks, neck turned sharply back over the near shoulder so the head faces image-right toward the tail, tail curled over the back, ears upright",
+   "keep": "standing facing image-left, four paws down, neck turned back over the near shoulder, head facing the tail, tail curled over the back",
+   "checks": [
+    "身体朝左站着",
+    "脖子扭过来、头朝向尾巴",
+    "四脚着地",
+    "后腿跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-lick",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·舔爪",
+    "ja": "中型犬・足を舐める",
+    "en": "Medium Dog Licking a Paw",
+    "ko": "중형견 발 핥기"
+   },
+   "desc": "lying down in a sphinx position with the belly on the ground, the near front paw lifted slightly and turned inward, head lowered and turned toward that paw with the muzzle touching it, the far front leg flat forward on the ground, hind legs folded under the hips, tail curled on the ground beside the body, ears upright",
+   "keep": "sphinx down, belly on the ground, near front paw lifted and turned in, head lowered to the paw, far front leg flat, hind legs folded under",
+   "checks": [
+    "腹部贴地",
+    "一只前爪抬起、嘴靠近它",
+    "另一只前腿平放",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-belly",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·仰躺露肚",
+    "ja": "中型犬・へそ天",
+    "en": "Medium Dog Belly Up",
+    "ko": "중형견 배 보이기"
+   },
+   "desc": "lying on its back on the ground with the belly facing up, the spine curved slightly to one side, both front legs folded loosely at the wrists and bent over the chest, both hind legs splayed open and bent at the knees with the paws in the air, tail lying on the ground, head tilted back on the ground with the ears flopped open",
+   "keep": "on its back, belly up, front legs folded over the chest, hind legs splayed with paws in the air, head tilted back on the ground",
+   "checks": [
+    "背着地、肚子朝上",
+    "前腿弯在胸前",
+    "后腿张开、爪子朝天",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-scratch",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·挠痒",
+    "ja": "中型犬・耳の後ろを掻く",
+    "en": "Medium Dog Scratching",
+    "ko": "중형견 긁기"
+   },
+   "desc": "sitting on its haunches, front legs straight and planted, the near hind leg lifted forward and up so the hind paw scratches behind the near ear, the far hind leg folded on the ground, tail curled on the ground behind, head tilted toward the scratching paw, ears upright",
+   "keep": "sit, front legs planted, near hind leg lifted to scratch behind the ear, far hind leg folded, head tilted to the paw",
+   "checks": [
+    "坐姿、前腿撑地",
+    "一条后腿抬起挠耳后",
+    "另一条后腿折在地上",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-shake",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·抖毛",
+    "ja": "中型犬・ブルブル",
+    "en": "Medium Dog Shaking Off",
+    "ko": "중형견 몸 털기"
+   },
+   "desc": "standing square on all four paws with the legs braced slightly apart, back level, the head and neck twisted to one side in mid-shake, ears flung out sideways, tail curled over the back",
+   "keep": "braced stand, legs slightly apart, level back, head and neck twisted in mid-shake, ears flung out",
+   "checks": [
+    "四脚叉开撑稳",
+    "头和脖子扭向一侧",
+    "耳朵甩开",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-m-paw-up",
+   "group": "medium",
+   "species": "medium-sized dog with upright ears and a curled tail",
+   "tail": "one smooth tail curled over the back",
+   "coat": "short cream and tan fur",
+   "name": {
+    "zh": "中型犬·抬前爪",
+    "ja": "中型犬・お手",
+    "en": "Medium Dog Paw Raised",
+    "ko": "중형견 앞발 들기"
+   },
+   "desc": "sitting on its haunches with the chest up, the near front leg lifted forward at shoulder height with the paw relaxed and pointing down, the far front leg straight on the ground, hind legs folded with the hocks flat on the ground, tail curled on the ground, head raised and facing forward, ears upright",
+   "keep": "sit, chest up, near front leg lifted forward to shoulder height, far front leg straight down, hind legs folded, head up",
+   "checks": [
+    "坐姿",
+    "一只前爪抬到肩高",
+    "另一只前腿伸直撑地",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-l-stand",
+   "group": "large",
+   "species": "large dog with drop ears and a long straight tail",
+   "tail": "one long smooth tapering tail",
+   "coat": "golden medium-length coat",
+   "name": {
+    "zh": "大型犬·站",
+    "ja": "大型犬・立ち",
+    "en": "Large Dog Standing",
+    "ko": "대형견 서기"
+   },
+   "desc": "standing square on all four paws, back level, front legs straight and parallel under the deep chest, hind legs set back with the hocks angled backward, long tail hanging down with a slight curve at the tip, head raised on a strong neck and facing forward, drop ears hanging beside the cheeks",
+   "keep": "square stand, level back, straight front legs, hind legs set back with backward hocks, tail hanging, head up, drop ears",
+   "checks": [
+    "四脚着地站稳",
+    "后腿跗关节向后弯",
+    "尾巴自然下垂",
+    "垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-l-sit",
+   "group": "large",
+   "species": "large dog with drop ears and a long straight tail",
+   "tail": "one long smooth tapering tail",
+   "coat": "golden medium-length coat",
+   "name": {
+    "zh": "大型犬·坐",
+    "ja": "大型犬・お座り",
+    "en": "Large Dog Sitting",
+    "ko": "대형견 앉기"
+   },
+   "desc": "sitting on its haunches with a broad chest up, front legs straight and side by side, hind legs folded at the sides with the hocks flat on the ground, long tail lying on the ground curving forward beside the hind paws, head raised and facing forward, drop ears hanging",
+   "keep": "sit, broad chest up, straight front legs side by side, folded hind legs with hocks on the ground, tail on the ground, drop ears",
+   "checks": [
+    "前腿并排伸直",
+    "后腿折叠、跗关节贴地",
+    "尾巴平放在地上",
+    "垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-l-side-lie",
+   "group": "large",
+   "species": "large dog with drop ears and a long straight tail",
+   "tail": "one long smooth tapering tail",
+   "coat": "golden medium-length coat",
+   "name": {
+    "zh": "大型犬·侧卧",
+    "ja": "大型犬・横寝",
+    "en": "Large Dog Lying on Its Side",
+    "ko": "대형견 옆으로 눕기"
+   },
+   "desc": "lying flat on its left side fully relaxed, all four legs stretched out loosely in the same direction toward image-right, the upper legs resting on the lower legs, long tail lying straight out behind, head resting flat on the ground, drop ears lying open",
+   "keep": "flat on its side, all four legs stretched loosely to one side, tail straight out behind, head flat on the ground, drop ears",
+   "checks": [
+    "身体侧躺贴地",
+    "四条腿朝同一侧伸出",
+    "头平放在地上",
+    "正好四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-l-walk",
+   "group": "large",
+   "species": "large dog with drop ears and a long straight tail",
+   "tail": "one long smooth tapering tail",
+   "coat": "golden medium-length coat",
+   "name": {
+    "zh": "大型犬·走",
+    "ja": "大型犬・歩く",
+    "en": "Large Dog Walking",
+    "ko": "대형견 걷기"
+   },
+   "desc": "walking forward at a calm pace toward image-left, back level, the near front leg reaching forward with its paw just touching down, the far front leg back under the chest, the near hind leg pushing back with the hock angled backward, the far hind leg swinging forward, three paws on the ground, tail carried level behind, head level, drop ears hanging",
+   "keep": "calm walk toward image-left, level back, near front leg reaching forward, near hind leg pushing back, three paws on the ground, tail level, drop ears",
+   "checks": [
+    "三只脚着地、一只抬起",
+    "前后腿交替",
+    "后腿跗关节向后弯",
+    "垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-s-stand",
+   "group": "shortleg",
+   "species": "long-bodied short-legged dog of dachshund build: a long low back, very short legs, a deep chest close to the ground, long drop ears and a long muzzle",
+   "tail": "one long smooth tapering tail",
+   "coat": "short smooth red fur",
+   "name": {
+    "zh": "短腿犬·站",
+    "ja": "短足犬・立ち",
+    "en": "Short-Legged Dog Standing",
+    "ko": "단족견 서기"
+   },
+   "desc": "standing on all four very short legs, the long back level and more than twice as long as the dog is tall, the deep chest only a hand's width above the ground, front legs short and slightly turned out, hind legs short with the hocks angled backward, long tail carried level behind, head raised and facing forward, long drop ears hanging",
+   "keep": "stand on four very short legs, long level back, deep chest close to the ground, short front legs, hind legs with backward hocks, tail level, long drop ears",
+   "checks": [
+    "身长明显大于身高的两倍",
+    "腿很短、胸口离地很近",
+    "后腿跗关节向后弯",
+    "长垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-s-sit",
+   "group": "shortleg",
+   "species": "long-bodied short-legged dog of dachshund build: a long low back, very short legs, a deep chest close to the ground, long drop ears and a long muzzle",
+   "tail": "one long smooth tapering tail",
+   "coat": "short smooth red fur",
+   "name": {
+    "zh": "短腿犬·坐",
+    "ja": "短足犬・お座り",
+    "en": "Short-Legged Dog Sitting",
+    "ko": "단족견 앉기"
+   },
+   "desc": "sitting upright on its haunches, the long body rising steeply from the hips to the raised chest, short front legs straight and side by side, short hind legs folded flat at the sides, long tail lying on the ground behind, head raised and facing forward, long drop ears hanging",
+   "keep": "sit, long body rising steeply to the chest, short straight front legs side by side, hind legs folded flat, tail on the ground, long drop ears",
+   "checks": [
+    "长身体斜着坐起",
+    "前腿短、并排伸直",
+    "后腿折在身体两侧",
+    "长垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-s-walk",
+   "group": "shortleg",
+   "species": "long-bodied short-legged dog of dachshund build: a long low back, very short legs, a deep chest close to the ground, long drop ears and a long muzzle",
+   "tail": "one long smooth tapering tail",
+   "coat": "short smooth red fur",
+   "name": {
+    "zh": "短腿犬·走",
+    "ja": "短足犬・歩く",
+    "en": "Short-Legged Dog Walking",
+    "ko": "단족견 걷기"
+   },
+   "desc": "walking forward toward image-left, the long low back level, the near front leg stepping forward, the near hind leg pushing back with the hock angled backward, three short legs on the ground, the deep chest close to the ground, long tail carried level behind, head level, long drop ears swinging",
+   "keep": "walk toward image-left, long low level back, short legs stepping, three paws on the ground, deep chest near the ground, tail level, long drop ears",
+   "checks": [
+    "身长明显大于身高",
+    "三只脚着地、一只抬起",
+    "后腿跗关节向后弯",
+    "长垂耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-s-belly",
+   "group": "shortleg",
+   "species": "long-bodied short-legged dog of dachshund build: a long low back, very short legs, a deep chest close to the ground, long drop ears and a long muzzle",
+   "tail": "one long smooth tapering tail",
+   "coat": "short smooth red fur",
+   "name": {
+    "zh": "短腿犬·仰躺露肚",
+    "ja": "短足犬・へそ天",
+    "en": "Short-Legged Dog Belly Up",
+    "ko": "단족견 배 보이기"
+   },
+   "desc": "lying on its back with the long belly facing up, the long body straight along the ground, short front legs folded over the chest, short hind legs splayed open with the paws in the air, long tail lying on the ground, head tilted back with the long drop ears spread open on the ground",
+   "keep": "on its back, long belly up, short front legs folded over the chest, short hind legs splayed, head tilted back, ears spread on the ground",
+   "checks": [
+    "背着地、长肚子朝上",
+    "前腿弯在胸前",
+    "后腿张开、爪子朝天",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-h-sit",
+   "group": "sighthound",
+   "species": "lean sighthound of greyhound build: a long narrow head, a deep chest, a very tucked-up waist, long thin legs, small folded rose ears and a long thin tail",
+   "tail": "one long thin smooth tapering tail",
+   "coat": "short smooth grey fur",
+   "name": {
+    "zh": "视觉猎犬·坐",
+    "ja": "サイトハウンド・お座り",
+    "en": "Sighthound Sitting",
+    "ko": "시각 하운드 앉기"
+   },
+   "desc": "sitting upright on its haunches, long thin front legs straight and side by side under the deep chest, long hind legs folded with the hocks flat on the ground reaching forward past the hips, the waist sharply tucked, long thin tail lying on the ground curving forward, long neck raised, head level, small rose ears folded back",
+   "keep": "sit, long straight front legs side by side, long hind legs folded with hocks on the ground, sharply tucked waist, tail on the ground, long neck raised",
+   "checks": [
+    "腿明显细长",
+    "胸深、腰明显细收",
+    "后腿折叠、跗关节贴地",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-h-down",
+   "group": "sighthound",
+   "species": "lean sighthound of greyhound build: a long narrow head, a deep chest, a very tucked-up waist, long thin legs, small folded rose ears and a long thin tail",
+   "tail": "one long thin smooth tapering tail",
+   "coat": "short smooth grey fur",
+   "name": {
+    "zh": "视觉猎犬·趴",
+    "ja": "サイトハウンド・伏せ",
+    "en": "Sighthound Lying Down",
+    "ko": "시각 하운드 엎드리기"
+   },
+   "desc": "lying down in a sphinx position: the deep chest and belly on the ground, long thin front legs stretched straight forward and parallel, long hind legs folded under the hips with the hocks flat, long thin tail lying along the ground, long neck raised, head level, small rose ears folded back",
+   "keep": "sphinx down, chest on the ground, long front legs straight forward and parallel, hind legs folded under, tail along the ground, long neck raised",
+   "checks": [
+    "胸腹贴地",
+    "前腿细长、平行前伸",
+    "后腿收在臀下",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-h-side-lie",
+   "group": "sighthound",
+   "species": "lean sighthound of greyhound build: a long narrow head, a deep chest, a very tucked-up waist, long thin legs, small folded rose ears and a long thin tail",
+   "tail": "one long thin smooth tapering tail",
+   "coat": "short smooth grey fur",
+   "name": {
+    "zh": "视觉猎犬·侧卧",
+    "ja": "サイトハウンド・横寝",
+    "en": "Sighthound Lying on Its Side",
+    "ko": "시각 하운드 옆으로 눕기"
+   },
+   "desc": "lying flat on its left side fully relaxed, the deep chest and sharply tucked waist visible in outline, all four long thin legs stretched loosely toward image-right, long thin tail lying straight out behind, long neck and head resting flat on the ground, rose ears folded",
+   "keep": "flat on its side, tucked waist visible, four long legs stretched to one side, tail straight out, head flat on the ground",
+   "checks": [
+    "身体侧躺贴地",
+    "腰明显细收",
+    "四条细长腿朝同一侧",
+    "正好四条腿、一条尾巴"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-h-trot",
+   "group": "sighthound",
+   "species": "lean sighthound of greyhound build: a long narrow head, a deep chest, a very tucked-up waist, long thin legs, small folded rose ears and a long thin tail",
+   "tail": "one long thin smooth tapering tail",
+   "coat": "short smooth grey fur",
+   "name": {
+    "zh": "视觉猎犬·小跑",
+    "ja": "サイトハウンド・速歩",
+    "en": "Sighthound Trotting",
+    "ko": "시각 하운드 속보"
+   },
+   "desc": "trotting toward image-left with long reaching strides, back level, the near front leg and the far hind leg reaching forward together, the far front leg and the near hind leg pushing back together with the hock angled backward, two paws on the ground, long thin tail carried low behind, long neck extended, head level, rose ears folded back",
+   "keep": "trot toward image-left, level back, diagonal leg pairs, two paws on the ground, long reaching legs, tail low, neck extended",
+   "checks": [
+    "对角两条腿同时着地",
+    "腿明显细长",
+    "后腿跗关节向后弯",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-t-sit",
+   "group": "small",
+   "species": "small toy dog of pomeranian build: a compact short body, short fine legs, small upright pointed ears, a short muzzle and a plumed tail carried flat over the back",
+   "tail": "one short smooth plumed tail carried flat over the back",
+   "coat": "long fluffy orange fur",
+   "name": {
+    "zh": "小型犬·坐",
+    "ja": "小型犬・お座り",
+    "en": "Small Dog Sitting",
+    "ko": "소형견 앉기"
+   },
+   "desc": "sitting upright on its haunches, the compact body short and round, short fine front legs straight and side by side, hind legs folded at the sides with the hocks flat on the ground, plumed tail carried flat over the back, head raised with a short muzzle, small upright pointed ears",
+   "keep": "sit, compact round body, short straight front legs side by side, hind legs folded, plumed tail flat over the back, small upright ears",
+   "checks": [
+    "身体短而圆",
+    "前腿短细、并排伸直",
+    "尾巴平铺在背上",
+    "小立耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-t-stand",
+   "group": "small",
+   "species": "small toy dog of pomeranian build: a compact short body, short fine legs, small upright pointed ears, a short muzzle and a plumed tail carried flat over the back",
+   "tail": "one short smooth plumed tail carried flat over the back",
+   "coat": "long fluffy orange fur",
+   "name": {
+    "zh": "小型犬·站",
+    "ja": "小型犬・立ち",
+    "en": "Small Dog Standing",
+    "ko": "소형견 서기"
+   },
+   "desc": "standing square on four short fine legs, the compact body about as long as it is tall, back level, hind legs with the hocks angled backward, plumed tail carried flat over the back, head raised with a short muzzle, small upright pointed ears",
+   "keep": "square stand on short fine legs, compact body, level back, backward hocks, plumed tail over the back, small upright ears",
+   "checks": [
+    "身长约等于身高",
+    "腿短细",
+    "尾巴平铺在背上",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-t-beg",
+   "group": "small",
+   "species": "small toy dog of pomeranian build: a compact short body, short fine legs, small upright pointed ears, a short muzzle and a plumed tail carried flat over the back",
+   "tail": "one short smooth plumed tail carried flat over the back",
+   "coat": "long fluffy orange fur",
+   "name": {
+    "zh": "小型犬·后腿站立作揖",
+    "ja": "小型犬・ちんちん",
+    "en": "Small Dog Begging Up",
+    "ko": "소형견 두 발로 서기"
+   },
+   "desc": "sitting up on its haunches with the body raised upright, balanced on the folded hind legs with the hocks flat on the ground, both front paws lifted together in front of the chest, plumed tail on the ground behind for balance, head raised and facing forward, small upright pointed ears",
+   "keep": "sit up, body upright on folded hind legs, both front paws lifted together in front of the chest, tail on the ground behind, head up",
+   "checks": [
+    "上身立起、坐在后腿上",
+    "两只前爪并在胸前",
+    "后腿跗关节贴地",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-t-down",
+   "group": "small",
+   "species": "small toy dog of pomeranian build: a compact short body, short fine legs, small upright pointed ears, a short muzzle and a plumed tail carried flat over the back",
+   "tail": "one short smooth plumed tail carried flat over the back",
+   "coat": "long fluffy orange fur",
+   "name": {
+    "zh": "小型犬·趴",
+    "ja": "小型犬・伏せ",
+    "en": "Small Dog Lying Down",
+    "ko": "소형견 엎드리기"
+   },
+   "desc": "lying down in a sphinx position: belly on the ground, short front legs stretched forward and parallel, hind legs folded under the hips, plumed tail resting over the back, head raised and facing forward, small upright pointed ears",
+   "keep": "sphinx down, belly on the ground, short front legs forward and parallel, hind legs folded under, tail over the back, head up",
+   "checks": [
+    "腹部贴地",
+    "前腿平行前伸",
+    "后腿收在臀下",
+    "小立耳"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-t-playbow",
+   "group": "small",
+   "species": "small toy dog of pomeranian build: a compact short body, short fine legs, small upright pointed ears, a short muzzle and a plumed tail carried flat over the back",
+   "tail": "one short smooth plumed tail carried flat over the back",
+   "coat": "long fluffy orange fur",
+   "name": {
+    "zh": "小型犬·玩耍鞠躬",
+    "ja": "小型犬・プレイバウ",
+    "en": "Small Dog Play Bow",
+    "ko": "소형견 플레이 바우"
+   },
+   "desc": "a play bow: short front legs bent flat on the ground with the chest lowered close to the ground, hind legs straight with the hips raised high, back sloping down from the hips to the shoulders, plumed tail raised over the back, head up and facing forward, small upright pointed ears",
+   "keep": "play bow, chest low on the ground, hips high on straight hind legs, back sloping down, plumed tail up, head up",
+   "checks": [
+    "胸口贴近地面",
+    "后腿伸直、臀部翘高",
+    "尾巴竖在背上",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-b-stand",
+   "group": "brachy",
+   "species": "compact muscular short-nosed dog of French bulldog build: a broad deep chest, a short wide body, short sturdy legs, a large square head with a very short flat muzzle, large upright rounded bat ears and a very short tail",
+   "tail": "one very short smooth stub tail",
+   "coat": "short smooth fawn fur",
+   "name": {
+    "zh": "短鼻犬·站",
+    "ja": "短頭犬・立ち",
+    "en": "Short-Nosed Dog Standing",
+    "ko": "단두견 서기"
+   },
+   "desc": "standing square on four short sturdy legs set wide apart under the broad deep chest, the short wide body tapering slightly to the hips, back level, hind legs with the hocks angled backward, very short stub tail, large square head held level with a very short flat muzzle, large upright rounded bat ears",
+   "keep": "square stand, short sturdy legs wide apart, broad deep chest, short body, backward hocks, stub tail, square head with flat muzzle, bat ears",
+   "checks": [
+    "胸宽、四腿短而分开",
+    "嘴很短、脸平",
+    "大蝙蝠耳竖起",
+    "后腿跗关节向后弯"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-b-sit",
+   "group": "brachy",
+   "species": "compact muscular short-nosed dog of French bulldog build: a broad deep chest, a short wide body, short sturdy legs, a large square head with a very short flat muzzle, large upright rounded bat ears and a very short tail",
+   "tail": "one very short smooth stub tail",
+   "coat": "short smooth fawn fur",
+   "name": {
+    "zh": "短鼻犬·坐",
+    "ja": "短頭犬・お座り",
+    "en": "Short-Nosed Dog Sitting",
+    "ko": "단두견 앉기"
+   },
+   "desc": "sitting on its haunches with the broad chest up, short sturdy front legs straight and set apart, hind legs folded at the sides with the hocks flat on the ground, stub tail hidden behind, large square head raised with a very short flat muzzle, large upright bat ears",
+   "keep": "sit, broad chest up, short front legs straight and apart, hind legs folded, square head with flat muzzle, bat ears",
+   "checks": [
+    "胸宽、前腿分开伸直",
+    "后腿折叠、跗关节贴地",
+    "嘴很短、脸平",
+    "大蝙蝠耳竖起"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-b-down",
+   "group": "brachy",
+   "species": "compact muscular short-nosed dog of French bulldog build: a broad deep chest, a short wide body, short sturdy legs, a large square head with a very short flat muzzle, large upright rounded bat ears and a very short tail",
+   "tail": "one very short smooth stub tail",
+   "coat": "short smooth fawn fur",
+   "name": {
+    "zh": "短鼻犬·趴",
+    "ja": "短頭犬・伏せ",
+    "en": "Short-Nosed Dog Lying Down",
+    "ko": "단두견 엎드리기"
+   },
+   "desc": "lying down in a sphinx position: the broad chest and belly on the ground, short front legs stretched forward and apart, hind legs splayed flat behind the hips with the soles of the hind paws facing up, large square head raised, very short flat muzzle, large upright bat ears",
+   "keep": "sphinx down, broad chest on the ground, short front legs forward, hind legs splayed flat behind, square head up, bat ears",
+   "checks": [
+    "胸腹贴地",
+    "后腿向后平摊",
+    "嘴很短、脸平",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-b-side-lie",
+   "group": "brachy",
+   "species": "compact muscular short-nosed dog of French bulldog build: a broad deep chest, a short wide body, short sturdy legs, a large square head with a very short flat muzzle, large upright rounded bat ears and a very short tail",
+   "tail": "one very short smooth stub tail",
+   "coat": "short smooth fawn fur",
+   "name": {
+    "zh": "短鼻犬·侧卧",
+    "ja": "短頭犬・横寝",
+    "en": "Short-Nosed Dog Lying on Its Side",
+    "ko": "단두견 옆으로 눕기"
+   },
+   "desc": "lying flat on its left side fully relaxed, the short wide body and broad chest in outline, all four short legs stretched loosely toward image-right, stub tail, large square head resting flat on the ground, bat ears relaxed",
+   "keep": "flat on its side, short wide body, four short legs stretched to one side, square head flat on the ground",
+   "checks": [
+    "身体侧躺贴地",
+    "四条短腿朝同一侧",
+    "头方、嘴短",
+    "正好四条腿"
+   ],
+   "variants": [
+    {
+     "key": "base",
+     "name": {
+      "zh": "基础",
+      "ja": "基本",
+      "en": "Base",
+      "ko": "기본"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dog-b-walk",
+   "group": "brachy",
+   "species": "compact muscular short-nosed dog of French bulldog build: a broad deep chest, a short wide body, short sturdy legs, a large square head with a very short flat muzzle, large upright rounded bat ears and a very short tail",
+   "tail": "one very short smooth stub tail",
+   "coat": "short smooth fawn fur",
+   "name": {
+    "zh": "短鼻犬·走",
+    "ja": "短頭犬・歩く",
+    "en": "Short-Nosed Dog Walking",
+    "ko": "단두견 걷기"
+   },
+   "desc": "walking forward toward image-left with a short rolling stride, back level, the near front leg stepping forward, the near hind leg pushing back with the hock angled backward, three paws on the ground, legs set wide under the broad chest, stub tail, square head level, very short flat muzzle, upright bat ears",
+   "keep": "walk toward image-left, short rolling stride, level back, three paws on the ground, legs wide under a broad chest, square head, bat ears",
+   "checks": [
+    "三只脚着地、一只抬起",
+    "胸宽、腿短而分开",
+    "后腿跗关节向后弯",
+    "大蝙蝠耳竖起"
    ],
    "variants": [
     {
