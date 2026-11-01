@@ -1,0 +1,688 @@
+{
+ "views": [
+  "front",
+  "back",
+  "side",
+  "diag"
+ ],
+ "items": {
+  "T001": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T002": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "body reads pale pink-red and the pickguard grey, versus glossy cherry red and black pickguard in the other panels",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T003": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T004": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T005": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "view",
+    "reason": "nearly the same angle as the front panel (bell right, same key side); not a distinct 45 degree three-quarter view",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T006": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "view",
+    "reason": "bell right and mouthpiece left, same orientation as the front panel, so it reads as the front again; the opposite side should have the bell on the left",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "view",
+    "reason": "bell left, valves right: looks like the true back, or a mirror of the front, not a profile; back and side seem swapped",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T007": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T008": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T009": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T010": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 box octagonal not hexagonal; a2 hexagon fixed but strings faint; a3 hexagon + two strings + same-side pegs + plain membrane pass; bow hair still not clearly threaded between the two strings",
+    "by": "gen_prop_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "front failed  skipped",
+    "by": "gen_prop_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "front failed  skipped",
+    "by": "gen_prop_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "front failed  skipped",
+    "by": "gen_prop_run01.json"
+   }
+  },
+  "T011": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T012": {
+   "front": {
+    "status": "missing",
+    "reason": "never reached six finger holes: grounding counts a1=7 in row (plus one extra lower hole and an oversized protruding membrane blob) a2=9 (membrane flush fixed) a3=7 (membrane flush; bare stretch below ",
+    "by": "gen_prop_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "front failed  skipped",
+    "by": "gen_prop_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "front failed  skipped",
+    "by": "gen_prop_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "front failed  skipped",
+    "by": "gen_prop_run01.json"
+   }
+  },
+  "T013": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T014": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T015": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T016": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "view",
+    "reason": "looks identical to the front panel (same panels, same flower sprays in the same places), likely a copy of the front",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "consistency",
+    "reason": "centre silk panel is olive green and opaque, while the panels in the other views are dark and see-through",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T017": {
+   "front": {
+    "status": "content",
+    "reason": "the card's own red cord leaves the frame at the top edge, so a string holding the lantern is visible",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "content",
+    "reason": "the card's own red cord leaves the frame at the top edge, so a string holding the lantern is visible",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "content",
+    "reason": "the card's own red cord leaves the frame at the top edge, so a string holding the lantern is visible",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "content",
+    "reason": "the card's own red cord leaves the frame at the top edge, so a string holding the lantern is visible",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T018": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T019": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T020": {
+   "front": {
+    "status": "content",
+    "reason": "a chain runs from the bow ring up past the top edge of the panel, a chain holding the watch, as well as the short loop chain",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "content",
+    "reason": "a chain runs from the bow ring up past the top edge of the panel, a chain holding the watch",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "content",
+    "reason": "a chain runs up past the top edge from the bow ring, and the hanging chain is also cut off at the bottom edge",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "content",
+    "reason": "a chain runs from the bow ring up past the top edge of the panel, a chain holding the watch",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T021": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "view",
+    "reason": "shows the open objective end and a 3/4 angle from the front end, not the opposite long side; tripod and tube read as a front-right view",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "view",
+    "reason": "almost the same view as the front panel with only a slight turn",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T022": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T023": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T024": {
+   "front": {
+    "status": "form",
+    "reason": "only two turned posts visible; the third post is not seen through the glass, as it is in the back view",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "form",
+    "reason": "lower bulb outline looks lopsided and wispy, so the glass is not symmetric and undistorted",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "form",
+    "reason": "lower bulb outline looks lopsided and wispy, so the glass is not symmetric and undistorted",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T025": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T026": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T027": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T028": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T029": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "Stayed frontal with two separated cups on both attempts despite rewrite to overlapping single-cup profile; kept a2 (cleaner no logo mark); view is not a true 90-degree side profile",
+    "by": "gen_prop_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T030": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T031": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T032": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T033": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "view-fail best attempt kept; a1 repeated the long side profile; a2 rewrite end-on gave a foreshortened end three-quarter showing width/thickness and near truck large but not a true 90-degree end view;",
+    "by": "gen_prop_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T034": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "consistency",
+    "reason": "the fin shows as a pale hollow U outline at the tail, not the solid brown fin seen in the side and diag panels",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T035": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  },
+  "T036": {
+   "front": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_prop_r1_01.json"
+   }
+  }
+ }
+}

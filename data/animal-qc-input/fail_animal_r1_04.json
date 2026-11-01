@@ -1,0 +1,12 @@
+{
+  "prompt": "animal_prompt.md",
+  "reviewed": ["A074","A076","A077","A078","A079","A080","A081","A082","A084","A085","A086","A087","A088","A089","A090","A091","A092","A093","A094","A095","A096"],
+  "fails": [
+    {"id": "A076", "view": "side", "status": "form", "reason": "ears point up and back behind the head; the card says ears folded forward and down over the paws (front panel shows them drooping, so side and front also disagree)"},
+    {"id": "A078", "view": "above", "status": "view", "reason": "looks like the front view again (face, nose, chest paws, belly); no back visible from above"},
+    {"id": "A081", "view": "below", "status": "limbs", "reason": "front end shows about three front legs (a raised bent leg plus two hanging legs with hooves); pose also reads as head-up rearing instead of a calm walk"},
+    {"id": "A082", "view": "below", "status": "consistency", "reason": "neck and chest rise steeply with head thrown back and one huge hoof, reads as rearing rather than the level diagonal trot of the main view"},
+    {"id": "A091", "view": "below", "status": "view", "reason": "wings and back feathers are visible on top, looks like a side or slightly-above view; the underside of the breast and belly is not shown"},
+    {"id": "A095", "view": "above", "status": "view", "reason": "flat side profile almost identical to the main side view with dots along the back; no top-down perspective, back not shown"}
+  ]
+}

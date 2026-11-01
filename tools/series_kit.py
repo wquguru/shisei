@@ -110,6 +110,9 @@ FURN_BACK_RULE = ("The back is the piece's real back, not a mirror of the front:
 
 # ---- animals (A###): probe only until the style is decided (docs/animal/PLAN.md, D-14) -----------------------
 # Same five camera positions as the pose library, so an animal reference can sit beside a pose reference.
+# The first image of each item is its `main` view and every other view references it. Quadrupeds use the side:
+# lying, stretching and running hide their key shape (hip height, leg phase) in depth, and both probes drew them
+# wrong from the front; birds and the coiled dragon read best from the front.
 ANIMAL_VIEWS = ("front", "diag", "side", "above", "below")
 ANIMAL_VIEW_TEXT = {
     "front": "straight front view, the camera level with the animal's shoulder and facing its chest",
@@ -122,24 +125,37 @@ ANIMAL_VIEW_TEXT = {
     "below": "low-angle view from about 45 degrees below, in front and slightly to the left, so the underside of "
              "the jaw, chest and belly are visible and the nearest paws look larger than the head",
 }
-# Style A follows the pose library: a featureless articulated mannequin in black construction lines, so one card
-# serves every breed and coat. Style B is a photograph, only tried in the probe to decide D-14.
+# Style A follows the pose library's line art: one smooth organic contour with light construction lines, so one
+# card serves every breed and coat. probe-all01 asked for a "wooden artist's mannequin" with a "segmented neck" and
+# got robots (tube segments, bolts, coiled-spring tails), so the prompt now names the drawing style instead of a
+# jointed toy and forbids the mechanical parts. Style B is a photograph, only tried in the probe to decide D-14.
 ANIMAL_LINE = (
-    "Clean black-line construction drawing for a pose reference: a smooth featureless wooden artist's mannequin "
-    "of an adult {species}, with the real anatomy and proportions of the animal, ball joints at the shoulders, "
-    "elbows, wrists, hips, knees and hocks, a segmented neck and {tail}, no fur, no eyes, no mouth detail, no "
-    "markings. Pose: {desc}. {view}. Whole body in frame with even margins, thin even black lines with light "
-    "construction lines on pure white, no shading, no colour, no ground, no background, 3:4 vertical.\n{rules}\n"
-    "No people, no hands, no other animals, no text, no watermark. {negatives}")
+    "Clean black-line figure drawing for a pose reference, in the style of an artist's anatomy construction "
+    "sketch: an adult {species} drawn as one smooth, continuous organic outer contour that follows the real "
+    "anatomy, muscle masses and proportions of the animal, with a few thin light construction lines inside (a "
+    "spine line, cross-contour curves over the ribcage and pelvis) and small light circles marking the shoulder, "
+    "elbow, hip, knee and hock joints; a smooth neck that flows into the body and {tail}; no fur, no eyes, no "
+    "mouth detail, no markings. Pose: {desc}. {view}. Whole body in frame with even margins, thin even black "
+    "lines on pure white, no shading, no colour, no ground, no background, 3:4 vertical.\n{rules}\n"
+    "Not a robot, toy or wooden puppet: no mechanical parts, no cylinders or tube segments, no bolts, pins, screws "
+    "or hinges, no ribbed or segmented neck or tail, no coiled-spring tail. No people, no hands, no other animals, "
+    "no text, no watermark. {negatives}")
 ANIMAL_PHOTO = (
     "Realistic photograph of an adult {species} with {coat}. Pose: {desc}. {view}. Whole body in frame with even "
     "margins, soft even studio lighting, uniform flat light grey background with no gradient, no floor shadow, "
     "3:4 vertical.\n{rules}\nNo people, no hands, no collar, no clothing, no props, no other animals, no text, no "
     "watermark. {negatives}")
+# Order after the main view: the opposite flat view (front for a side main, side for a front main), then the three
+# in-between views. probe-r3-01 turned a lone side reference into a "three-quarter" that stayed a flat profile, so
+# the in-between views reference both flat views, as the prop library does.
+ANIMAL_ORDER = {"side": ("side", "front", "diag", "above", "below"),
+                "front": ("front", "side", "diag", "above", "below")}
+ANIMAL_REFS = {"one": "Image 1 is the {main} view of a pose reference.",
+               "two": "Image 1 is the {main} view and image 2 is the {second} view of the same pose reference."}
 ANIMAL_TURN = (
-    "Image 1 is the front view of a pose reference. Draw exactly the same animal in exactly the same pose from "
-    "{view}. Keep these identical: {keep}; the same style, line weight and proportions. The pose must not change, "
-    "only the camera moves; do not mirror image 1. No people, no text.")
+    "{refs} Draw exactly the same animal in exactly the same pose from {view}. Keep these identical: {keep}; the "
+    "same style, line weight and proportions. The pose must not change, only the camera moves; do not mirror the "
+    "references. No people, no text.")
 
 # ---- light presets (L###): one light setup on a fixed neutral subject, three eye-level camera positions ---------
 # Light is an attribute, not an object: the subject never changes within a category, so the only variable is the
@@ -149,11 +165,17 @@ ANIMAL_TURN = (
 # cannot read portrait patterns: at full length the head is tiny and an egg-shaped head has no nose to cast the
 # loop or Rembrandt shadow, so the studio positions (PO) use `bust`, a plaster cast with facial planes but no eyes,
 # mouth or hair, framed head and shoulders. Both carry a grey sphere, the photographer's standard light reader.
+# probe-r2-01: naming a female chest (even "no nipples") got three indoor presets refused, so the figure is
+# described only as a slim fashion-drawing mannequin with a simplified torso.
 LIGHT_VIEWS = ("front", "diag", "side")
 LIGHT_SUBJECTS = {
     "figure": {
-        "long": "a life-size matte light-grey faceless artist's mannequin with a smooth egg-shaped head, ball joints "
-                "and neutral adult proportions, standing upright facing the camera with arms relaxed at its sides, "
+        "long": "a life-size faceless fashion-drawing mannequin: one smooth seamless matte light-grey shell "
+                "with slim, tall adult proportions and a smooth simplified torso, a smooth egg-shaped head with no "
+                "features, small "
+                "spherical joints only at the shoulders, elbows, wrists, hips, knees and ankles, and hands with "
+                "separated fingers, not a wooden artist's dummy: no wood grain, no blocky segments, no hinges, no "
+                "screws; standing upright facing the camera with arms relaxed at its sides, "
                 "and a matte mid-grey sphere 25 cm across on a slim grey pedestal at hip height, placed one metre in "
                 "front of it and one metre to its right (image-left), so the sphere stays visible from the front, "
                 "three-quarter and side views",
@@ -168,7 +190,7 @@ LIGHT_SUBJECTS = {
             "side": "the camera moved 90 degrees around to the mannequin's left side, showing it in profile facing "
                     "image-left, same height and distance",
         },
-        "negatives": "No people, no real face, no hair, no clothing, no text, no logo, no watermark.",
+        "negatives": "No people, no real face, no hair, no clothing, no wooden artist's dummy, no blocky or hinged joints, no text, no logo, no watermark.",
     },
     "bust": {
         "long": "a life-size matte light-grey plaster head-and-shoulders drawing cast of a generic adult on a grey "
@@ -221,13 +243,35 @@ def light_turn(subject: str) -> str:
 
 LIBS = {
     "scene": {"letter": "E", "src": "data/scene-src", "out": "data/scenes.json", "views": SCENE_VIEWS,
-              "label": "场景库", "plan": "docs/scene/PLAN.md"},
+              "label": "场景库", "plan": "docs/scene/PLAN.md", "matte": False,
+              "statuses": ("content", "spot", "view", "consistency", "form")},
     "prop": {"letter": "T", "src": "data/prop-src", "out": "data/props.json", "views": PROP_VIEWS,
-             "label": "道具库", "plan": "docs/prop/PLAN.md"},
+             "label": "道具库", "plan": "docs/prop/PLAN.md", "matte": True,
+             "statuses": ("content", "matte", "view", "consistency", "form")},
     "furniture": {"letter": "F", "src": "data/furniture-src", "out": "data/furniture.json", "views": FURN_VIEWS,
-                  "label": "家具库", "plan": "docs/furniture/PLAN.md"},
+                  "label": "家具库", "plan": "docs/furniture/PLAN.md", "matte": True,
+                  "statuses": ("content", "matte", "view", "consistency", "form", "scale")},
     "light": {"letter": "L", "src": "data/light-src", "out": "data/lights.json", "views": LIGHT_VIEWS,
-              "label": "光线库", "plan": "docs/light/PLAN.md"},
+              "label": "光线库", "plan": "docs/light/PLAN.md", "matte": False,
+              "statuses": ("content", "subject", "light", "turn")},
     "animal": {"letter": "A", "src": "data/animal-src", "out": "data/animals.json", "views": ANIMAL_VIEWS,
-               "label": "动物库", "plan": "docs/animal/PLAN.md"},
+               "label": "动物库", "plan": "docs/animal/PLAN.md", "matte": False,
+               "statuses": ("content", "style", "limbs", "view", "consistency", "form")},
 }
+
+# Image tiers once a view passes QC (series_build.py, verify.py). Matted libraries (prop, furniture) follow the costume
+# library: house grey #D9D9D9 at q60 in three widths plus a transparent cut-out at w900 only (D-10 7). The others keep
+# their own background and use the pose tiers. Settings checked side by side on run01 samples, 2026-11-01.
+LOOKS = {
+    True: {"grey": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}, "alpha": {"w900": (900, 1200)}},
+    False: {"plain": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}},
+}
+CWEBP = {"grey": ["-q", "60", "-m", "6", "-sharp_yuv"],
+         "alpha": ["-q", "65", "-alpha_q", "80", "-m", "6", "-sharp_yuv"],
+         "plain": {"w300": ["-q", "70", "-m", "6"], "w600": ["-q", "72", "-m", "6"], "w900": ["-q", "75", "-m", "6"]}}
+STATUSES_ALL = ("pass", "missing")
+
+
+def qc_paths(lib: str) -> tuple:
+    """(qc input dir, qc json) for a library, e.g. data/prop-qc-input, data/prop-qc.json."""
+    return f"data/{lib}-qc-input", f"data/{lib}-qc.json"

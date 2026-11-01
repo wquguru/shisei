@@ -10,3 +10,4 @@
 # share-card render cache (tools/og_cards.py)
 /build/
 /.wrangler/
+__pycache__/

@@ -1,0 +1,129 @@
+{
+ "prompt": "furniture_prompt.md",
+ "reviewed": [
+  "F025",
+  "F026",
+  "F027",
+  "F028",
+  "F029",
+  "F030",
+  "F032",
+  "F033",
+  "F034",
+  "F035",
+  "F036",
+  "F037",
+  "F038",
+  "F039",
+  "F040",
+  "F042",
+  "F044",
+  "F045",
+  "F046",
+  "F048"
+ ],
+ "fails": [
+  {
+   "id": "F028",
+   "view": "back",
+   "status": "consistency",
+   "reason": "back panel shows a much thicker seat slab with its underside visible and a taller leg/seat height ratio than the front"
+  },
+  {
+   "id": "F029",
+   "view": "side",
+   "status": "form",
+   "reason": "from the left end the near end railing is missing (open end with kang table visible); 要点 says low railings on three sides incl. both ends"
+  },
+  {
+   "id": "F032",
+   "view": "back",
+   "status": "view",
+   "reason": "identical to the front: cushion still in front of the table instead of hidden behind it, so it is the front again"
+  },
+  {
+   "id": "F032",
+   "view": "front",
+   "status": "scale",
+   "reason": "table looks about 0.6 as tall as wide, stated 33 cm high x 80 cm across (about 0.4)"
+  },
+  {
+   "id": "F033",
+   "view": "back",
+   "status": "consistency",
+   "reason": "dark grey-blue flat panel under the seat cushion at the back looks like a different material or a matte leftover; rest is ivory linen"
+  },
+  {
+   "id": "F037",
+   "view": "back",
+   "status": "consistency",
+   "reason": "back face is flush with two oval holes, while front, diag and above show the long face recessed in a thick open frame"
+  },
+  {
+   "id": "F039",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey smudge patch on the top surface"
+  },
+  {
+   "id": "F040",
+   "view": "front",
+   "status": "scale",
+   "reason": "not a cube: about 305 px wide by 358 px tall (about 1.17:1), stated 45 cm on every side"
+  },
+  {
+   "id": "F040",
+   "view": "back",
+   "status": "scale",
+   "reason": "not a cube: about 305 px wide by 358 px tall (about 1.17:1), stated 45 cm on every side"
+  },
+  {
+   "id": "F040",
+   "view": "side",
+   "status": "scale",
+   "reason": "not a cube: about 305 px wide by 358 px tall (about 1.17:1), stated 45 cm on every side"
+  },
+  {
+   "id": "F042",
+   "view": "front",
+   "status": "scale",
+   "reason": "wall looks about 1.15:1 wide to high, stated 150 cm long x 100 cm high (1.5:1)"
+  },
+  {
+   "id": "F042",
+   "view": "back",
+   "status": "scale",
+   "reason": "wall looks about 1.15:1 wide to high, stated 150 cm long x 100 cm high (1.5:1)"
+  },
+  {
+   "id": "F048",
+   "view": "front",
+   "status": "scale",
+   "reason": "square base slab is about 1.9x the column width, stated 50 cm vs 40 cm (about 1.25x)"
+  },
+  {
+   "id": "F048",
+   "view": "back",
+   "status": "scale",
+   "reason": "square base slab is about 1.9x the column width, stated 50 cm vs 40 cm (about 1.25x)"
+  },
+  {
+   "id": "F048",
+   "view": "side",
+   "status": "scale",
+   "reason": "square base slab is about 1.9x the column width, stated 50 cm vs 40 cm (about 1.25x)"
+  },
+  {
+   "id": "F048",
+   "view": "diag",
+   "status": "scale",
+   "reason": "square base slab is about 1.9x the column width, stated 50 cm vs 40 cm (about 1.25x)"
+  },
+  {
+   "id": "F048",
+   "view": "above",
+   "status": "matte",
+   "reason": "base slab rendered dark charcoal with smudged edges, like a leftover shadow patch; pale grey in the other views"
+  }
+ ]
+}

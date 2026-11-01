@@ -1,7 +1,6 @@
 # 动物库计划（草案，2026-10-30）
 
-> 状态：**计划，未开工，待 D-14**。按 AGENTS §8 要人点头。和场景、道具不同，动物库的画风还没定，
-> 所以现在只写了大类、试验卡和试验简报；完整动作清单等试验定了画风再写，免得卡片白写。
+> 状态：**2026-11-01 开工（D-14）**：画风定为 A 线稿，四足动物侧面主图；7 类 115 件动作卡已写好（`data/animal-src/`）。
 
 ## 1. 定位
 
@@ -48,10 +47,12 @@
 ## 4. 提示词
 
 模板在 `tools/series_kit.py`（`ANIMAL_LINE` / `ANIMAL_PHOTO` / `ANIMAL_TURN` / `ANIMAL_VIEW_TEXT`）。
-- **A 线稿**：`Clean black-line construction drawing for a pose reference: a smooth featureless wooden artist's mannequin of an adult {species}, … ball joints at the shoulders, elbows, wrists, hips, knees and hocks, a segmented neck and {tail}, no fur, no eyes … Pose: {desc}. {view}. …`
+- **A 线稿**：`Clean black-line figure drawing for a pose reference, in the style of an artist's anatomy construction sketch: an adult {species} drawn as one smooth, continuous organic outer contour …, small light circles marking the shoulder, elbow, hip, knee and hock joints …` 末尾明确否定机械件（圆筒分节、螺栓、铰链、分节脖子和尾巴、弹簧尾巴）。
+  probe-all01 用“木制关节人偶 + 分节脖子”的写法画成了机器人，2026-10-31 改成照姿势库线稿的画法写。
   画风沿用 Muse 的 `pose_lineart_gallery` 定稿线稿（线宽、留白），只换素体。
 - **B 照片**：同一句 Pose，加 `{coat}`，浅灰底。
-- **转机位**：以 A 正面为参考，“同一只动物、同一个姿势，只有相机动，不要镜像”。五个机位的写法对齐姿势库：俯视约 30° 看到头顶和整条背，仰视约 45° 看到下颌、胸腹底面、近处爪子比头大。
+- **主图**：每件先画一张主图，其余机位都参考它。猫、狗、兔、马用侧面（趴、伸懒腰、奔跑的臀高和腿的前后在正面看不出来，两轮试验正面都画错），鸟和龙用正面；卡片字段 `main`，大类给默认值。
+- **转机位**：先画第二张平面视角（主图是侧面就画正面，反之亦然），只参考主图；斜侧、俯视、仰视同时参考这两张（只给一张侧面时斜侧转不动，probe-r3-01）。都要求“同一只动物、同一个姿势，只有相机动，不要镜像”。五个机位的写法对齐姿势库：俯视约 30° 看到头顶和整条背，仰视约 45° 看到下颌、胸腹底面、近处爪子比头大。
 - **desc 写法**：整体姿态 → 前腿 → 后腿 → 尾巴 → 头和耳朵，每个部位写位置；会被画错的写成否定句。
 
 ## 5. 禁区
@@ -66,10 +67,24 @@
 ## 7. 试验（animal-probe01）
 
 12 个动作，覆盖六类里最难的：猫端坐 / 伸懒腰 / 团睡，中型犬坐 / 腾空奔跑，大型犬趴，兔直立，马扬蹄，乌鸦展翅，中国龙盘曲；
-外加两件体型测试：短腿犬（腊肠体型）趴、视觉猎犬（灵缇体型）收拢相奔跑，和中型犬、大型犬的同类动作对照。
+外加两件体型测试：短腿犬（腊肠体型）趴、视觉猎犬（灵缇体型）站立（A013；原收拢相奔跑 A012 三次画不对，体型测试用站姿就够，A012 退役），和中型犬、大型犬的同类动作对照。
 A 画全部五个机位（60 张），B 只画正面（12 张），共 72 张：
 `python3 -I tools/series_brief.py animal --probe ~/Downloads/animal-probe01`
 
 看四件事：A 能不能稳定画成“关节素体”而不是卡通或真毛；腿和尾巴的数量、关节方向；五机位是不是同一个姿势；
-不画毛时体型差别还读不读得出来（腊肠趴和大型犬趴、灵缇跑和中型犬跑放在一起比）。读不出来就退回“只分小 / 中 / 大”。
+不画毛时体型差别还读不读得出来（腊肠趴和大型犬趴、灵缇站和中型犬坐、跑放在一起比）。读不出来就退回“只分小 / 中 / 大”。
 通过后在 D-14 定画风，再按第 3 节写全部动作卡。
+
+## 8. 第一轮结果（run01，2026-11-01）
+
+五个 Muse 对话交付（`run01-7-animal-CT` 到 `run01-11-animal-BD-WL-MY`），575 格交 389 张 ok；按 D-14，画不对的视角不交。
+线稿不抠图；5 个 Sonnet 按 [animal_prompt.md](../qc/animal_prompt.md) 审（每张审图三列、两行，五格都够大能数腿）。
+**342 / 575 通过，100 / 115 个动作上架**，出 `images/animal/plain/{w300,w600,w900}/`。
+- 交付阶段的缺口（186 格）：侧卧（A040、A053、A061、A071）和团睡（A041、A098）主图画不出；走、小跑换机位步态就乱；趴姿转正面变坐；
+  博美、法斗走、乌鸦飞行、九尾狐尾数。狗后一半只交 39 / 100。
+- 审图再刷掉 47 格：consistency 13、view 12、limbs 8、style 8（A032 画出了完整眼睛和涂黑鼻子，A064 博美尾巴画成毛）、
+  content 3（A047、A068 腹下凸起像生殖器，从严判）、form 3。
+- **主图被审掉的动作**：A019、A064、A066、A076 的主图（侧面）没过，但其余视角各自过了审。D-14 写“主图必须通过”，
+  是否因此撤下这几件的其余视角，**要人定**；现在按逐格结果入库。
+- 小眼眶、鼻头轮廓、一条淡地面线按提示词放行（执行者交付时已这样判）；要不要收紧也等人定。
+审图子代理放行但拿不准的格子记在 `data/animal-qc-input/review_notes_r1.md`，人工复核还没做。

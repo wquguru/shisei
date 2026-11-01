@@ -59,9 +59,10 @@ data/qc-input/       every reviewer result behind qc.json; `qc_merge.py data/qc-
 data/rating_overrides.json   per-pose rating decisions that win over the category rule (human-decided)
 data/costume-src/    costume library source (D-10): _categories.json + one <CAT>.json of forms × colorways
 data/costumes.json   costume items C###, expanded by tools/costume_cards.py; views front/back/side/diag
-data/{scene,prop,furniture,light,animal}-src/  planned libraries (D-12–D-17, not approved): category rules + cards,
-                     expanded by tools/series_cards.py into data/{scenes,props,furniture,lights,animals}.json
-                     (E### / T### / F### / L### / A###)
+data/{scene,prop,furniture,light,animal}-src/  scene / prop / furniture / light / animal libraries (D-12–D-17, go-ahead
+                     2026-11-01): category rules + cards, expanded by tools/series_cards.py into
+                     data/{scenes,props,furniture,lights,animals}.json (E### / T### / F### / L### / A###);
+                     QC in data/<lib>-qc.json from data/<lib>-qc-input/ (tools/series_qc.py)
 data/catalog.csv     tools/export_csv.py output (o = passed, x = failed QC, - = not generated)
 images/line/w300/    grid tier for 1x screens and thumbnails, 300 px wide WebP q70
 images/line/w600/    grid tier for 2x / 3x screens, 600×800 WebP q72
@@ -71,6 +72,8 @@ images/{clay,depth,normal}/  maps of passed line views (catalog `maps`), same th
                      art, made from it and pixel-aligned (docs/GENERATION.md); QC in qc.json `maps`
 images/costume/      costume views: grey/{w300,w600,w900}/ on #D9D9D9 and alpha/w900/ transparent (D-10),
                      costume_<ID>_<view>.webp; QC in data/costume-qc.json from data/costume-qc-input/
+images/{prop,furniture}/   grey/{w300,w600,w900}/ on #D9D9D9 and alpha/w900/ transparent, as costumes
+images/{scene,light,animal}/   plain/{w300,w600,w900}/ as delivered (pose tier quality); <lib>_<ID>_<view>.webp
 web/                 gallery source: index.html template, app.js, app.css, i18n.js, common.js (share sheet, copy,
                      language links), favicon.svg, changelog.yaml (reader-facing changelog, four languages), fonts/ (self-hosted
                      Latin subsets of Inter Tight and JetBrains Mono with their OFL files; CJK uses system fonts)
@@ -81,10 +84,12 @@ build/og-cache/      share-card render cache (git-ignored)
 tools/               build_images.py, build_site.py (+ site_pages.py, og_cards.py), verify.py, pack_release.py,
                      import_series.py, import_redraws.py, import_fills.py, import_descs.py, review_sheets.py, line_dups.py, qc_merge.py, rating_check.py,
                      export_csv.py, costume_cards.py, costume_brief.py (docs/costume/PLAN.md),
-                     series_kit.py + series_cards.py + series_brief.py (scene / prop / furniture / light / animal plans)
-docs/qc/             QC method, results and the reviewer prompts (panels, name, limbs, proportion, photo, rating)
+                     series_kit.py + series_cards.py + series_brief.py, series_intake.py + series_sheets.py +
+                     series_qc.py + series_build.py (scene / prop / furniture / light / animal libraries)
+docs/qc/             QC method, results and the reviewer prompts (panels, name, limbs, proportion, photo, rating,
+                     costume, scene, prop, furniture, light, animal)
 .claude/agents/      qc-reviewer: the Sonnet sub-agent every QC batch is sent to
-docs/{scene,prop,furniture,light,animal}/PLAN.md   plans for the next libraries, awaiting D-12–D-17
+docs/{scene,prop,furniture,light,animal}/PLAN.md   plans and run results for the five new libraries (D-12–D-17)
 docs/DESIGN.md       gallery layout, tokens, interaction spec (agent-facing copy of the design canvas)
 docs/DECISIONS.md    open questions and decisions awaiting a human
 docs/GENERATION.md   how the sets were made, gap log

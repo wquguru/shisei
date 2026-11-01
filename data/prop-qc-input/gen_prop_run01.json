@@ -1,0 +1,15 @@
+{
+ "run": "prop_run01",
+ "missing": {
+  "T010_back": "front failed  skipped",
+  "T010_diag": "front failed  skipped",
+  "T010_front": "a1 box octagonal not hexagonal; a2 hexagon fixed but strings faint; a3 hexagon + two strings + same-side pegs + plain membrane pass; bow hair still not clearly threaded between the two strings",
+  "T010_side": "front failed  skipped",
+  "T012_back": "front failed  skipped",
+  "T012_diag": "front failed  skipped",
+  "T012_front": "never reached six finger holes: grounding counts a1=7 in row (plus one extra lower hole and an oversized protruding membrane blob) a2=9 (membrane flush fixed) a3=7 (membrane flush; bare stretch below row and two tiny end holes correct). Best attempt a3 kept on disk; one blowing hole + membrane pass;",
+  "T012_side": "front failed  skipped",
+  "T029_side": "Stayed frontal with two separated cups on both attempts despite rewrite to overlapping single-cup profile; kept a2 (cleaner no logo mark); view is not a true 90-degree side profile",
+  "T033_side": "view-fail best attempt kept; a1 repeated the long side profile; a2 rewrite end-on gave a foreshortened end three-quarter showing width/thickness and near truck large but not a true 90-degree end view; object points all hit (kicktails/grip/two trucks four wheels/plain underside). Rewrite used: show t"
+ }
+}

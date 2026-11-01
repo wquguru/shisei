@@ -1,0 +1,66 @@
+{
+ "prompt": "scene_prompt.md",
+ "reviewed": [
+  "E001",
+  "E002",
+  "E003",
+  "E004",
+  "E005",
+  "E006",
+  "E007",
+  "E008",
+  "E010",
+  "E011",
+  "E012",
+  "E013",
+  "E014",
+  "E015",
+  "E017",
+  "E018",
+  "E019",
+  "E020",
+  "E021",
+  "E022",
+  "E023",
+  "E024",
+  "E025",
+  "E026",
+  "E027",
+  "E028",
+  "E029",
+  "E030",
+  "E031",
+  "E032",
+  "E033",
+  "E034",
+  "E035",
+  "E036",
+  "E037"
+ ],
+ "fails": [
+  {
+   "id": "E006",
+   "view": "above",
+   "status": "form",
+   "reason": "large white slab stands tilted on the left floor, distorted geometry that fills the left side; 要点 4 (left floor empty) is doubtful"
+  },
+  {
+   "id": "E021",
+   "view": "eye",
+   "status": "view",
+   "reason": "eye view is tilted up: tenement verticals converge strongly and the street vanishing point sits near the bottom of the frame, far from the middle"
+  },
+  {
+   "id": "E032",
+   "view": "below",
+   "status": "view",
+   "reason": "ridge ground fills about 55-60% of the frame, not a low upward view with ground only along the bottom edge"
+  },
+  {
+   "id": "E034",
+   "view": "below",
+   "status": "view",
+   "reason": "bund and paddies fill roughly half the frame; does not read as a 0.4 m camera with ground only along the bottom"
+  }
+ ]
+}

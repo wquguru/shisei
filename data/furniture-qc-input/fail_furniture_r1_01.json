@@ -1,0 +1,168 @@
+{
+ "prompt": "furniture_prompt.md",
+ "reviewed": [
+  "F001",
+  "F002",
+  "F003",
+  "F004",
+  "F005",
+  "F006",
+  "F007",
+  "F008",
+  "F009",
+  "F010",
+  "F011",
+  "F012",
+  "F013",
+  "F014",
+  "F015",
+  "F016",
+  "F017",
+  "F018",
+  "F019",
+  "F020",
+  "F021",
+  "F022",
+  "F024"
+ ],
+ "fails": [
+  {
+   "id": "F021",
+   "view": "front",
+   "status": "matte",
+   "reason": "mirror glass is cut out and shows the dark background instead of flat mid-grey"
+  },
+  {
+   "id": "F021",
+   "view": "diag",
+   "status": "matte",
+   "reason": "mirror glass is cut out and shows the dark background instead of flat mid-grey"
+  },
+  {
+   "id": "F004",
+   "view": "side",
+   "status": "matte",
+   "reason": "dark patch showing through the side arm opening; seat cushion not visible"
+  },
+  {
+   "id": "F004",
+   "view": "diag",
+   "status": "consistency",
+   "reason": "seat cushion appears dark/black here, off-white in front and above views; dark hole in arm"
+  },
+  {
+   "id": "F004",
+   "view": "above",
+   "status": "matte",
+   "reason": "dark circular hole/patch in the side of the backrest/arm"
+  },
+  {
+   "id": "F009",
+   "view": "side",
+   "status": "view",
+   "reason": "looks like the front view mirrored (long face with seat and rear backrest), not a profile of the left end"
+  },
+  {
+   "id": "F011",
+   "view": "front",
+   "status": "form",
+   "reason": "cushion is dark grey/black, 要点 and desc say round white cushion"
+  },
+  {
+   "id": "F011",
+   "view": "side",
+   "status": "consistency",
+   "reason": "large open window in the basket side and white cushion sticking out of the basket; front shows closed sides"
+  },
+  {
+   "id": "F011",
+   "view": "diag",
+   "status": "consistency",
+   "reason": "basket has big cut-out openings in the side not seen in front/back; cushion dark or missing"
+  },
+  {
+   "id": "F011",
+   "view": "above",
+   "status": "consistency",
+   "reason": "basket sides have large open cut-outs; cushion grey and dark, not white"
+  },
+  {
+   "id": "F016",
+   "view": "side",
+   "status": "form",
+   "reason": "seat looks tilted and not hung level in the A-frame; check 'still and level'"
+  },
+  {
+   "id": "F018",
+   "view": "front",
+   "status": "scale",
+   "reason": "180x90 cm table drawn nearly square, far too short in length for its 75 cm height"
+  },
+  {
+   "id": "F019",
+   "view": "front",
+   "status": "scale",
+   "reason": "120x60 cm coffee table drawn almost square and tall"
+  },
+  {
+   "id": "F022",
+   "view": "front",
+   "status": "scale",
+   "reason": "150 cm long x 60 cm deep bar counter drawn too narrow, about 1:1 plan and taller than wide"
+  },
+  {
+   "id": "F018",
+   "view": "back",
+   "status": "scale",
+   "reason": "180x90 cm table drawn nearly square, far too short in length for its 75 cm height"
+  },
+  {
+   "id": "F019",
+   "view": "back",
+   "status": "scale",
+   "reason": "120x60 cm coffee table drawn almost square and tall"
+  },
+  {
+   "id": "F022",
+   "view": "back",
+   "status": "scale",
+   "reason": "150 cm long x 60 cm deep bar counter drawn too narrow, about 1:1 plan and taller than wide"
+  },
+  {
+   "id": "F018",
+   "view": "diag",
+   "status": "scale",
+   "reason": "180x90 cm table drawn nearly square, far too short in length for its 75 cm height"
+  },
+  {
+   "id": "F019",
+   "view": "diag",
+   "status": "scale",
+   "reason": "120x60 cm coffee table drawn almost square and tall"
+  },
+  {
+   "id": "F022",
+   "view": "diag",
+   "status": "scale",
+   "reason": "150 cm long x 60 cm deep bar counter drawn too narrow, about 1:1 plan and taller than wide"
+  },
+  {
+   "id": "F018",
+   "view": "above",
+   "status": "scale",
+   "reason": "180x90 cm table drawn nearly square, far too short in length for its 75 cm height"
+  },
+  {
+   "id": "F019",
+   "view": "above",
+   "status": "scale",
+   "reason": "120x60 cm coffee table drawn almost square and tall"
+  },
+  {
+   "id": "F022",
+   "view": "above",
+   "status": "scale",
+   "reason": "150 cm long x 60 cm deep bar counter drawn too narrow, about 1:1 plan and taller than wide"
+  }
+ ]
+}

@@ -33,10 +33,10 @@
     "琴头无标志"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T001_front.webp",
+    "back": "prop_T001_back.webp",
+    "side": "prop_T001_side.webp",
+    "diag": "prop_T001_diag.webp"
    },
    "gaps": {}
   },
@@ -66,12 +66,14 @@
     "不像任何品牌琴型、无标志"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
+    "front": "prop_T002_front.webp",
+    "back": "prop_T002_back.webp",
+    "side": "prop_T002_side.webp",
     "diag": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "consistency"
+   }
   },
   {
    "id": "T003",
@@ -99,10 +101,10 @@
     "附一把琴弓"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T003_front.webp",
+    "back": "prop_T003_back.webp",
+    "side": "prop_T003_side.webp",
+    "diag": "prop_T003_diag.webp"
    },
    "gaps": {}
   },
@@ -132,10 +134,10 @@
     "没有琴弓"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T004_front.webp",
+    "back": "prop_T004_back.webp",
+    "side": "prop_T004_side.webp",
+    "diag": "prop_T004_diag.webp"
    },
    "gaps": {}
   },
@@ -165,12 +167,14 @@
     "喇叭口无刻字"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
+    "front": "prop_T005_front.webp",
+    "back": "prop_T005_back.webp",
+    "side": "prop_T005_side.webp",
     "diag": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "view"
+   }
   },
   {
    "id": "T006",
@@ -198,12 +202,15 @@
     "无刻字"
    ],
    "views": {
-    "front": null,
+    "front": "prop_T006_front.webp",
     "back": null,
     "side": null,
-    "diag": null
+    "diag": "prop_T006_diag.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "back": "view",
+    "side": "view"
+   }
   },
   {
    "id": "T007",
@@ -231,10 +238,10 @@
     "按键闭孔排成一列"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T007_front.webp",
+    "back": "prop_T007_back.webp",
+    "side": "prop_T007_side.webp",
+    "diag": "prop_T007_diag.webp"
    },
    "gaps": {}
   },
@@ -265,10 +272,10 @@
     "无字、无印"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T008_front.webp",
+    "back": "prop_T008_back.webp",
+    "side": "prop_T008_side.webp",
+    "diag": "prop_T008_diag.webp"
    },
    "gaps": {}
   },
@@ -290,19 +297,19 @@
    "group_ja": "中国の弦楽器",
    "group_en": "Chinese Strings",
    "group_ko": "중국 현악기",
-   "desc_en": "a Chinese pipa held upright: a pear-shaped body in dark reddish-brown rosewood with a flat pale paulownia soundboard and no soundhole, a small low string-holder bridge near the bottom, exactly four strings, a short neck carrying exactly four tall wedge-shaped wooden frets (xiang), then ten thin bamboo frets set into the upper soundboard below them, a pegbox bent slightly back with exactly four lateral tuning pegs, two on each side, topped by a small plain curled head; no dragon or bat carving, no plectrum or nail picks",
-   "keep_en": "dark reddish-brown rosewood pear-shaped pipa, flat soundboard with no soundhole, low bridge, four strings, four wedge frets on the neck, ten bamboo frets on the soundboard, bent-back pegbox with two pegs per side, plain curled head",
+   "desc_en": "a Chinese pipa held upright: a pear-shaped body in dark reddish-brown rosewood with a flat pale paulownia soundboard and no soundhole, a small low string-holder bridge near the bottom, exactly four strings, a short neck carrying exactly six tall wedge-shaped wooden frets (xiang), then a long evenly spaced run of thin bamboo frets set into the soundboard below them, reaching about two-thirds of the way down, a pegbox bent slightly back with exactly four lateral tuning pegs, two on each side, topped by a small plain curled head; no dragon or bat carving, no plectrum or nail picks",
+   "keep_en": "dark reddish-brown rosewood pear-shaped pipa, flat soundboard with no soundhole, low bridge, four strings, six wedge frets on the neck, a long run of bamboo frets on the soundboard, bent-back pegbox with two pegs per side, plain curled head",
    "checks": [
     "四根弦",
-    "琴颈四个相、面板十个品",
+    "琴颈六个相、面板一长排竹品",
     "弦轴左右各二",
     "面板无音孔"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T009_front.webp",
+    "back": "prop_T009_back.webp",
+    "side": "prop_T009_side.webp",
+    "diag": "prop_T009_diag.webp"
    },
    "gaps": {}
   },
@@ -337,7 +344,12 @@
     "side": null,
     "diag": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "back": "missing",
+    "side": "missing",
+    "diag": "missing"
+   }
   },
   {
    "id": "T011",
@@ -366,10 +378,10 @@
     "无字、无印"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T011_front.webp",
+    "back": "prop_T011_back.webp",
+    "side": "prop_T011_side.webp",
+    "diag": "prop_T011_diag.webp"
    },
    "gaps": {}
   },
@@ -404,7 +416,12 @@
     "side": null,
     "diag": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "back": "missing",
+    "side": "missing",
+    "diag": "missing"
+   }
   },
   {
    "id": "T013",
@@ -432,10 +449,10 @@
     "伞面无字无印"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T013_front.webp",
+    "back": "prop_T013_back.webp",
+    "side": "prop_T013_side.webp",
+    "diag": "prop_T013_diag.webp"
    },
    "gaps": {}
   },
@@ -466,10 +483,10 @@
     "无字无印"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T014_front.webp",
+    "back": "prop_T014_back.webp",
+    "side": "prop_T014_side.webp",
+    "diag": "prop_T014_diag.webp"
    },
    "gaps": {}
   },
@@ -492,19 +509,19 @@
    "group_ja": "傘・扇",
    "group_en": "Umbrellas & Fans",
    "group_ko": "우산·부채",
-   "desc_en": "an open Chinese folding fan floating upright with the pivot at the bottom: opened to a 150-degree arc, a pleated plain ivory paper leaf on the upper half, left blank, and below it the bare bamboo sticks; exactly sixteen sticks in total, fourteen thin inner sticks plus two wider outer guard sticks at the left and right edges, all fanning out evenly from one small round pivot rivet, the leaf folded into evenly spaced pleats one per stick; no characters, no calligraphy, no seals, no tassel",
-   "keep_en": "open folding fan, 150-degree arc, pleated plain ivory paper leaf with left blank, sixteen bamboo sticks (fourteen inner, two outer guards) from one pivot at the bottom",
+   "desc_en": "an open Chinese folding fan floating upright with the pivot at the bottom: opened wide to an arc of about 120 degrees, clearly wider than a right angle, a pleated plain ivory paper leaf on the upper half, left blank, and below it the bare bamboo sticks; exactly sixteen sticks in total, fourteen thin inner sticks plus two wider outer guard sticks at the left and right edges, all fanning out evenly from one small round pivot rivet, the leaf folded into evenly spaced pleats one per stick; no characters, no calligraphy, no seals, no tassel",
+   "keep_en": "open folding fan, about 120-degree arc, pleated plain ivory paper leaf with left blank, sixteen bamboo sticks (fourteen inner, two outer guards) from one pivot at the bottom",
    "checks": [
-    "展开约 150 度",
+    "展开约 120 度（明显超过直角）",
     "共十六根扇骨（内十四、两侧大骨各一）",
     "扇面折痕均匀",
     "扇面无字无印"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T015_front.webp",
+    "back": "prop_T015_back.webp",
+    "side": "prop_T015_side.webp",
+    "diag": "prop_T015_diag.webp"
    },
    "gaps": {}
   },
@@ -535,12 +552,15 @@
     "绢面只画花、无字"
    ],
    "views": {
-    "front": null,
+    "front": "prop_T016_front.webp",
     "back": null,
     "side": null,
-    "diag": null
+    "diag": "prop_T016_diag.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "back": "view",
+    "side": "consistency"
+   }
   },
   {
    "id": "T017",
@@ -573,7 +593,12 @@
     "side": null,
     "diag": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "content",
+    "back": "content",
+    "side": "content",
+    "diag": "content"
+   }
   },
   {
    "id": "T018",
@@ -602,10 +627,10 @@
     "无字、无款"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T018_front.webp",
+    "back": "prop_T018_back.webp",
+    "side": "prop_T018_side.webp",
+    "diag": "prop_T018_diag.webp"
    },
    "gaps": {}
   },
@@ -635,10 +660,10 @@
     "无签条、无字"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T019_front.webp",
+    "back": "prop_T019_back.webp",
+    "side": "prop_T019_side.webp",
+    "diag": "prop_T019_diag.webp"
    },
    "gaps": {}
   },
@@ -673,7 +698,12 @@
     "side": null,
     "diag": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "content",
+    "back": "content",
+    "side": "content",
+    "diag": "content"
+   }
   },
   {
    "id": "T021",
@@ -701,12 +731,15 @@
     "没有刻字"
    ],
    "views": {
-    "front": null,
+    "front": "prop_T021_front.webp",
     "back": null,
-    "side": null,
+    "side": "prop_T021_side.webp",
     "diag": null
    },
-   "gaps": {}
+   "gaps": {
+    "back": "view",
+    "diag": "view"
+   }
   },
   {
    "id": "T022",
@@ -734,10 +767,10 @@
     "顶部提手竖起"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T022_front.webp",
+    "back": "prop_T022_back.webp",
+    "side": "prop_T022_side.webp",
+    "diag": "prop_T022_diag.webp"
    },
    "gaps": {}
   },
@@ -767,10 +800,10 @@
     "没有刻字或符号"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T023_front.webp",
+    "back": "prop_T023_back.webp",
+    "side": "prop_T023_side.webp",
+    "diag": "prop_T023_diag.webp"
    },
    "gaps": {}
   },
@@ -804,9 +837,13 @@
     "front": null,
     "back": null,
     "side": null,
-    "diag": null
+    "diag": "prop_T024_diag.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "form",
+    "back": "form",
+    "side": "form"
+   }
   },
   {
    "id": "T025",
@@ -834,10 +871,10 @@
     "没有 logo"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T025_front.webp",
+    "back": "prop_T025_back.webp",
+    "side": "prop_T025_side.webp",
+    "diag": "prop_T025_diag.webp"
    },
    "gaps": {}
   },
@@ -867,10 +904,10 @@
     "花材与配色一致"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T026_front.webp",
+    "back": "prop_T026_back.webp",
+    "side": "prop_T026_side.webp",
+    "diag": "prop_T026_diag.webp"
    },
    "gaps": {}
   },
@@ -901,10 +938,10 @@
     "机身没有品牌字样"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T027_front.webp",
+    "back": "prop_T027_back.webp",
+    "side": "prop_T027_side.webp",
+    "diag": "prop_T027_diag.webp"
    },
    "gaps": {}
   },
@@ -934,10 +971,10 @@
     "没有彩虹条纹、品牌和文字"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T028_front.webp",
+    "back": "prop_T028_back.webp",
+    "side": "prop_T028_side.webp",
+    "diag": "prop_T028_diag.webp"
    },
    "gaps": {}
   },
@@ -967,12 +1004,14 @@
     "耳罩上没有 logo"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "prop_T029_front.webp",
+    "back": "prop_T029_back.webp",
     "side": null,
-    "diag": null
+    "diag": "prop_T029_diag.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "missing"
+   }
   },
   {
    "id": "T030",
@@ -1000,10 +1039,10 @@
     "没有品牌字样"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T030_front.webp",
+    "back": "prop_T030_back.webp",
+    "side": "prop_T030_side.webp",
+    "diag": "prop_T030_diag.webp"
    },
    "gaps": {}
   },
@@ -1033,10 +1072,10 @@
     "没有铭牌和字"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T031_front.webp",
+    "back": "prop_T031_back.webp",
+    "side": "prop_T031_side.webp",
+    "diag": "prop_T031_diag.webp"
    },
    "gaps": {}
   },
@@ -1066,10 +1105,10 @@
     "拍框和拍线上没有字或标志"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T032_front.webp",
+    "back": "prop_T032_back.webp",
+    "side": "prop_T032_side.webp",
+    "diag": "prop_T032_diag.webp"
    },
    "gaps": {}
   },
@@ -1099,12 +1138,14 @@
     "板底素面、没有图案"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "prop_T033_front.webp",
+    "back": "prop_T033_back.webp",
     "side": null,
-    "diag": null
+    "diag": "prop_T033_diag.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "missing"
+   }
   },
   {
    "id": "T034",
@@ -1132,12 +1173,14 @@
     "没有脚绳、没有字和标志"
    ],
    "views": {
-    "front": null,
+    "front": "prop_T034_front.webp",
     "back": null,
-    "side": null,
-    "diag": null
+    "side": "prop_T034_side.webp",
+    "diag": "prop_T034_diag.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "back": "consistency"
+   }
   },
   {
    "id": "T035",
@@ -1167,10 +1210,10 @@
     "没有标志"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T035_front.webp",
+    "back": "prop_T035_back.webp",
+    "side": "prop_T035_side.webp",
+    "diag": "prop_T035_diag.webp"
    },
    "gaps": {}
   },
@@ -1201,10 +1244,10 @@
     "车架上没有字和贴标"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null
+    "front": "prop_T036_front.webp",
+    "back": "prop_T036_back.webp",
+    "side": "prop_T036_side.webp",
+    "diag": "prop_T036_diag.webp"
    },
    "gaps": {}
   }

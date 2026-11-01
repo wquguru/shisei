@@ -30,9 +30,9 @@
     "明暗反差很小"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L001_front.webp",
+    "diag": "light_L001_diag.webp",
+    "side": "light_L001_side.webp"
    },
    "gaps": {}
   },
@@ -61,11 +61,14 @@
     "受光面暖橙、阴影面偏冷蓝"
    ],
    "views": {
-    "front": null,
+    "front": "light_L002_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L003",
@@ -91,9 +94,9 @@
     "中性偏暖白光"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L003_front.webp",
+    "diag": "light_L003_diag.webp",
+    "side": "light_L003_side.webp"
    },
    "gaps": {}
   },
@@ -122,9 +125,9 @@
     "下颌、腋下处黑影重"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L004_front.webp",
+    "diag": "light_L004_diag.webp",
+    "side": "light_L004_side.webp"
    },
    "gaps": {}
   },
@@ -152,11 +155,14 @@
     "影子朝镜头方向"
    ],
    "views": {
-    "front": null,
+    "front": "light_L005_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L006",
@@ -186,7 +192,11 @@
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing"
+   }
   },
   {
    "id": "L007",
@@ -213,9 +223,9 @@
     "影子朝向镜头"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L007_front.webp",
+    "diag": "light_L007_diag.webp",
+    "side": "light_L007_side.webp"
    },
    "gaps": {}
   },
@@ -243,11 +253,13 @@
     "阴影很柔"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "light_L008_front.webp",
+    "diag": "light_L008_diag.webp",
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "side": "turn"
+   }
   },
   {
    "id": "L009",
@@ -273,9 +285,9 @@
     "整体冷蓝、反差低"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L009_front.webp",
+    "diag": "light_L009_diag.webp",
+    "side": "light_L009_side.webp"
    },
    "gaps": {}
   },
@@ -303,11 +315,14 @@
     "阴影面几乎全黑"
    ],
    "views": {
-    "front": null,
+    "front": "light_L010_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L011",
@@ -333,9 +348,9 @@
     "只有脚下淡淡的接触阴影"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L011_front.webp",
+    "diag": "light_L011_diag.webp",
+    "side": "light_L011_side.webp"
    },
    "gaps": {}
   },
@@ -363,11 +378,14 @@
     "人亮、背景暗"
    ],
    "views": {
-    "front": null,
+    "front": "light_L012_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L013",
@@ -394,11 +412,14 @@
     "没有直射光斑"
    ],
    "views": {
-    "front": null,
+    "front": "light_L013_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L014",
@@ -424,11 +445,14 @@
     "其余部分暗"
    ],
    "views": {
-    "front": null,
+    "front": "light_L014_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L015",
@@ -455,11 +479,14 @@
     "光源方向一致"
    ],
    "views": {
-    "front": null,
+    "front": "light_L015_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L016",
@@ -485,9 +512,9 @@
     "整体明亮通透"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L016_front.webp",
+    "diag": "light_L016_diag.webp",
+    "side": "light_L016_side.webp"
    },
    "gaps": {}
   },
@@ -515,9 +542,9 @@
     "四周偏暗"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L017_front.webp",
+    "diag": "light_L017_diag.webp",
+    "side": "light_L017_side.webp"
    },
    "gaps": {}
   },
@@ -545,9 +572,9 @@
     "房间几乎全黑"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L018_front.webp",
+    "diag": "light_L018_diag.webp",
+    "side": "light_L018_side.webp"
    },
    "gaps": {}
   },
@@ -575,9 +602,9 @@
     "背景比人亮"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L019_front.webp",
+    "diag": "light_L019_diag.webp",
+    "side": "light_L019_side.webp"
    },
    "gaps": {}
   },
@@ -606,9 +633,9 @@
     "光点形状圆、大小不一"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L020_front.webp",
+    "diag": "light_L020_diag.webp",
+    "side": "light_L020_side.webp"
    },
    "gaps": {}
   },
@@ -636,11 +663,14 @@
     "雪上影子偏蓝"
    ],
    "views": {
-    "front": null,
+    "front": "light_L021_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L022",
@@ -666,9 +696,9 @@
     "太阳在身后"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L022_front.webp",
+    "diag": "light_L022_diag.webp",
+    "side": "light_L022_side.webp"
    },
    "gaps": {}
   },
@@ -696,9 +726,9 @@
     "细亮轮廓"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L023_front.webp",
+    "diag": "light_L023_diag.webp",
+    "side": "light_L023_side.webp"
    },
    "gaps": {}
   },
@@ -710,7 +740,7 @@
    "group": "home",
    "rating": "general",
    "probe": true,
-   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor at night, a fabric-shaded table lamp on a low side table at image-left, visible in frame",
+   "setting": "standing beside a plain wooden writing desk in a simple study with plain white plaster walls and a pale wooden floor in the evening, a fabric-shaded table lamp on the desk at image-left, visible in frame",
    "name_zh": "台灯暖光（标准）",
    "name_ja": "スタンドの暖色光（標準）",
    "name_en": "Warm Table Lamp (Standard)",
@@ -719,19 +749,22 @@
    "group_ja": "室内照明",
    "group_en": "Indoor Lamps",
    "group_ko": "실내 조명",
-   "desc_en": "the only light is the warm 2700 K table lamp at image-left at waist height, strong warm fall-off across the mannequin from image-left to near darkness at image-right, cozy dim room, soft-edged shadow on the wall to image-right",
-   "keep_en": "single warm table lamp at image-left visible, steep fall-off to the right, dim room",
+   "desc_en": "the only light is the warm 2700 K table lamp at image-left at waist height, strong warm fall-off across the mannequin from image-left to near darkness at image-right, the rest of the study dark, soft-edged shadow on the wall to image-right",
+   "keep_en": "single warm table lamp on the desk at image-left visible, steep fall-off to the right, dark study",
    "checks": [
     "唯一光源是左侧台灯（入画）",
     "光从左到右迅速衰减",
     "暖黄色"
    ],
    "views": {
-    "front": null,
+    "front": "light_L024_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L025",
@@ -757,9 +790,9 @@
     "阴影弱"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L025_front.webp",
+    "diag": "light_L025_diag.webp",
+    "side": "light_L025_side.webp"
    },
    "gaps": {}
   },
@@ -787,11 +820,14 @@
     "背景全黑"
    ],
    "views": {
-    "front": null,
+    "front": "light_L026_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L027",
@@ -817,9 +853,9 @@
     "背景是夜色"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L027_front.webp",
+    "diag": "light_L027_diag.webp",
+    "side": "light_L027_side.webp"
    },
    "gaps": {}
   },
@@ -847,11 +883,13 @@
     "霓虹管上没有字"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "light_L028_front.webp",
+    "diag": "light_L028_diag.webp",
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "side": "turn"
+   }
   },
   {
    "id": "L029",
@@ -878,11 +916,13 @@
     "四周夜色"
    ],
    "views": {
-    "front": null,
+    "front": "light_L029_front.webp",
     "diag": null,
-    "side": null
+    "side": "light_L029_side.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing"
+   }
   },
   {
    "id": "L030",
@@ -908,11 +948,14 @@
     "身后漆黑"
    ],
    "views": {
-    "front": null,
+    "front": "light_L030_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L031",
@@ -938,9 +981,9 @@
     "整体暖、暗"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L031_front.webp",
+    "diag": "light_L031_diag.webp",
+    "side": "light_L031_side.webp"
    },
    "gaps": {}
   },
@@ -968,11 +1011,14 @@
     "四周夜黑"
    ],
    "views": {
-    "front": null,
+    "front": "light_L032_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L033",
@@ -998,11 +1044,13 @@
     "光从前上方"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "light_L033_front.webp",
+    "diag": "light_L033_diag.webp",
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "side": "turn"
+   }
   },
   {
    "id": "L034",
@@ -1028,11 +1076,14 @@
     "窗外是蓝色黄昏"
    ],
    "views": {
-    "front": null,
+    "front": "light_L034_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L035",
@@ -1059,9 +1110,9 @@
     "球的高光在正中"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L035_front.webp",
+    "diag": "light_L035_diag.webp",
+    "side": "light_L035_side.webp"
    },
    "gaps": {}
   },
@@ -1090,9 +1141,9 @@
     "球高光在顶部正中"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L036_front.webp",
+    "diag": "light_L036_diag.webp",
+    "side": "light_L036_side.webp"
    },
    "gaps": {}
   },
@@ -1122,11 +1173,13 @@
     "球高光在左上"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "light_L037_front.webp",
+    "diag": "light_L037_diag.webp",
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "side": "subject"
+   }
   },
   {
    "id": "L038",
@@ -1154,9 +1207,9 @@
     "鼻影和脸颊阴影连在一起、没有补光"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L038_front.webp",
+    "diag": "light_L038_diag.webp",
+    "side": "light_L038_side.webp"
    },
    "gaps": {}
   },
@@ -1190,7 +1243,11 @@
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing"
+   }
   },
   {
    "id": "L040",
@@ -1221,7 +1278,11 @@
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing"
+   }
   },
   {
    "id": "L041",
@@ -1248,9 +1309,9 @@
     "鼻下、下巴下影子笔直向下"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L041_front.webp",
+    "diag": "light_L041_diag.webp",
+    "side": "light_L041_side.webp"
    },
    "gaps": {}
   },
@@ -1283,7 +1344,11 @@
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing"
+   }
   },
   {
    "id": "L043",
@@ -1310,9 +1375,9 @@
     "球上下各一个高光"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L043_front.webp",
+    "diag": "light_L043_diag.webp",
+    "side": "light_L043_side.webp"
    },
    "gaps": {}
   },
@@ -1341,9 +1406,9 @@
     "头顶和肩上有背光亮边"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L044_front.webp",
+    "diag": "light_L044_diag.webp",
+    "side": "light_L044_side.webp"
    },
    "gaps": {}
   },
@@ -1372,9 +1437,9 @@
     "阴影极淡"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L045_front.webp",
+    "diag": "light_L045_diag.webp",
+    "side": "light_L045_side.webp"
    },
    "gaps": {}
   },
@@ -1403,9 +1468,9 @@
     "背景全黑"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L046_front.webp",
+    "diag": "light_L046_diag.webp",
+    "side": "light_L046_side.webp"
    },
    "gaps": {}
   },
@@ -1434,9 +1499,9 @@
     "头颈肩轮廓清晰"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L047_front.webp",
+    "diag": "light_L047_diag.webp",
+    "side": "light_L047_side.webp"
    },
    "gaps": {}
   },
@@ -1465,11 +1530,14 @@
     "背景深灰"
    ],
    "views": {
-    "front": null,
+    "front": "light_L048_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L049",
@@ -1499,7 +1567,11 @@
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing"
+   }
   },
   {
    "id": "L050",
@@ -1525,11 +1597,14 @@
     "背景紫蓝渐变"
    ],
    "views": {
-    "front": null,
+    "front": "light_L050_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L051",
@@ -1556,11 +1631,14 @@
     "一道光落在人台上"
    ],
    "views": {
-    "front": null,
+    "front": "light_L051_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L052",
@@ -1586,11 +1664,13 @@
     "人台是柔和剪影"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "light_L052_front.webp",
+    "diag": "light_L052_diag.webp",
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "side": "turn"
+   }
   },
   {
    "id": "L053",
@@ -1616,11 +1696,14 @@
     "光从左前方"
    ],
    "views": {
-    "front": null,
+    "front": "light_L053_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "side": "turn"
+   }
   },
   {
    "id": "L054",
@@ -1646,11 +1729,14 @@
     "没有可见树枝"
    ],
    "views": {
-    "front": null,
+    "front": "light_L054_front.webp",
     "diag": null,
     "side": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "turn",
+    "side": "turn"
+   }
   },
   {
    "id": "L055",
@@ -1676,9 +1762,9 @@
     "镜球不入画"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null
+    "front": "light_L055_front.webp",
+    "diag": "light_L055_diag.webp",
+    "side": "light_L055_side.webp"
    },
    "gaps": {}
   }

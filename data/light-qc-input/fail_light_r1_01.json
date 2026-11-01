@@ -1,0 +1,167 @@
+{
+ "prompt": "light_prompt.md",
+ "reviewed": [
+  "L001",
+  "L002",
+  "L003",
+  "L004",
+  "L005",
+  "L007",
+  "L008",
+  "L009",
+  "L010",
+  "L011",
+  "L012",
+  "L013",
+  "L014",
+  "L015",
+  "L016",
+  "L017",
+  "L018",
+  "L019",
+  "L020",
+  "L021",
+  "L022",
+  "L023",
+  "L024",
+  "L025",
+  "L026",
+  "L027",
+  "L028",
+  "L029"
+ ],
+ "fails": [
+  {
+   "id": "L002",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Sun glow, lit side and long shadows stay image-left/right as in front; after camera moves toward subject's left the sun should swing behind the subject"
+  },
+  {
+   "id": "L002",
+   "view": "side",
+   "status": "turn",
+   "reason": "Sun glow, lit side and long shadows stay image-left/right as in front; after camera moves toward subject's left the sun should swing behind the subject"
+  },
+  {
+   "id": "L005",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Sun should come round toward the camera side (front-lit, shadow falling back); panel still shows shadow toward camera/image-left as in front"
+  },
+  {
+   "id": "L005",
+   "view": "side",
+   "status": "turn",
+   "reason": "Sun should come round toward the camera side (front-lit, shadow falling back); panel still shows shadow toward camera/image-left as in front"
+  },
+  {
+   "id": "L008",
+   "view": "side",
+   "status": "turn",
+   "reason": "Pink light still hits the sphere and figure from image-right; after the camera moves toward that side it should be front-lit"
+  },
+  {
+   "id": "L010",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Moon should be behind/rim-lighting the subject after the camera moves away from it; light and shadows stay image-left to image-right as in front"
+  },
+  {
+   "id": "L010",
+   "view": "side",
+   "status": "turn",
+   "reason": "Moon should be behind/rim-lighting the subject after the camera moves away from it; light and shadows stay image-left to image-right as in front"
+  },
+  {
+   "id": "L012",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Light shaft and sun side stay at image-left with shadows to image-right; did not rotate with the camera move"
+  },
+  {
+   "id": "L012",
+   "view": "side",
+   "status": "turn",
+   "reason": "Light shaft and sun side stay at image-left with shadows to image-right; did not rotate with the camera move"
+  },
+  {
+   "id": "L013",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Window stays at image-left with the same lit side and wall falloff; light followed the camera"
+  },
+  {
+   "id": "L013",
+   "view": "side",
+   "status": "turn",
+   "reason": "Window stays at image-left with the same lit side and wall falloff; light followed the camera"
+  },
+  {
+   "id": "L014",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Window and sun patch stay at image-left with torso lit from the same side; light followed the camera"
+  },
+  {
+   "id": "L014",
+   "view": "side",
+   "status": "turn",
+   "reason": "Window and sun patch stay at image-left with torso lit from the same side; light followed the camera"
+  },
+  {
+   "id": "L015",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Blind stripes and window stay at image-left with the same slant and lit side; light followed the camera"
+  },
+  {
+   "id": "L015",
+   "view": "side",
+   "status": "turn",
+   "reason": "Blind stripes and window stay at image-left with the same slant and lit side; light followed the camera"
+  },
+  {
+   "id": "L021",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Sun stays image-left with shadows running to image-right on all panels; should end up behind the subject"
+  },
+  {
+   "id": "L021",
+   "view": "side",
+   "status": "turn",
+   "reason": "Sun stays image-left with shadows running to image-right on all panels; should end up behind the subject"
+  },
+  {
+   "id": "L024",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Lamp stays at image-left lighting the figure from the same side; should end up behind the subject"
+  },
+  {
+   "id": "L024",
+   "view": "side",
+   "status": "turn",
+   "reason": "Lamp stays at image-left lighting the figure from the same side; should end up behind the subject"
+  },
+  {
+   "id": "L026",
+   "view": "diag",
+   "status": "turn",
+   "reason": "Candles stay at image-left lighting the figure from the same side; should end up behind the subject"
+  },
+  {
+   "id": "L026",
+   "view": "side",
+   "status": "turn",
+   "reason": "Candles stay at image-left lighting the figure from the same side; should end up behind the subject"
+  },
+  {
+   "id": "L028",
+   "view": "side",
+   "status": "turn",
+   "reason": "Magenta left and cyan right as in front; with the camera moved to the cyan side the subject should be cyan-lit on the camera side with magenta only as rim"
+  }
+ ]
+}

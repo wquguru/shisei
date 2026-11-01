@@ -1,0 +1,88 @@
+{
+ "prompt": "animal_prompt.md",
+ "reviewed": [
+  "A048",
+  "A049",
+  "A050",
+  "A051",
+  "A052",
+  "A054",
+  "A055",
+  "A056",
+  "A057",
+  "A058",
+  "A059",
+  "A060",
+  "A062",
+  "A064",
+  "A065",
+  "A066",
+  "A067",
+  "A068",
+  "A069",
+  "A070",
+  "A073"
+ ],
+ "fails": [
+  {
+   "id": "A049",
+   "view": "diag",
+   "status": "view",
+   "reason": "Diag is almost the same flat profile as the side main view, only slightly turned; no real 45 degree three-quarter"
+  },
+  {
+   "id": "A058",
+   "view": "below",
+   "status": "consistency",
+   "reason": "Ears read as pointed prick ears (left ear) and head looks different from the drop ears spread open in the main view"
+  },
+  {
+   "id": "A064",
+   "view": "side",
+   "status": "style",
+   "reason": "Plumed tail is drawn with fur hair strokes (fur rendering) rather than a smooth contour; card asks for plume, borderline"
+  },
+  {
+   "id": "A064",
+   "view": "diag",
+   "status": "style",
+   "reason": "Plumed tail drawn with fur hair strokes (fur rendering); borderline"
+  },
+  {
+   "id": "A064",
+   "view": "above",
+   "status": "style",
+   "reason": "Plumed tail drawn with fur hair strokes (fur rendering); borderline"
+  },
+  {
+   "id": "A066",
+   "view": "side",
+   "status": "form",
+   "reason": "Yoko main view: no plumed tail resting over the back is visible; only a rounded rump outline, tail unclear"
+  },
+  {
+   "id": "A067",
+   "view": "below",
+   "status": "limbs",
+   "reason": "Only one hind leg is clearly drawn (right); the other hind leg is not visible or traceable, head/tail arrangement odd"
+  },
+  {
+   "id": "A068",
+   "view": "front",
+   "status": "content",
+   "reason": "Small nub under the belly between the front legs reads as a male genital sheath"
+  },
+  {
+   "id": "A068",
+   "view": "diag",
+   "status": "content",
+   "reason": "Small nub hanging under the belly near the hind leg reads as a male genital sheath, separate from the stub tail at the rump"
+  },
+  {
+   "id": "A073",
+   "view": "diag",
+   "status": "view",
+   "reason": "Diag is nearly identical to the side profile, still a flat profile, not a 45 degree three-quarter"
+  }
+ ]
+}

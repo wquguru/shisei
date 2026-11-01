@@ -1,0 +1,18 @@
+{
+  "prompt": "animal_prompt.md",
+  "reviewed": ["A024","A025","A026","A027","A029","A030","A031","A032","A033","A034","A035","A036","A037","A038","A039","A042","A043","A044","A045","A046","A047"],
+  "fails": [
+    {"id":"A029","view":"front","status":"style","reason":"detailed face with iris eyes, nose and mouth drawn, not the faceless construction sketch; head also upright while main view has head resting on the ground"},
+    {"id":"A029","view":"above","status":"view","reason":"same drawing as the side main view at the same angle, not a view from above"},
+    {"id":"A030","view":"diag","status":"consistency","reason":"head raised and front paws crossed like a sphinx, main view is stretched flat on its side with head on the ground"},
+    {"id":"A031","view":"below","status":"consistency","reason":"head faces right and tail is at image-left, orientation reversed compared with the main view (head left)"},
+    {"id":"A032","view":"front","status":"style","reason":"detailed eyes with irises, shaded nose and black filled ear tips"},
+    {"id":"A032","view":"diag","status":"style","reason":"detailed eyes with irises and black filled ear interior"},
+    {"id":"A032","view":"above","status":"style","reason":"black filled ear interiors and fur shading"},
+    {"id":"A034","view":"below","status":"limbs","reason":"paw count unclear, about five paws: a large overlapped pair at lower left plus three on the right (one raised on a thin leg)"},
+    {"id":"A036","view":"above","status":"view","reason":"reads as an eye-level front or three-quarter view of the sitting cat, back not visible from above"},
+    {"id":"A045","view":"diag","status":"view","reason":"flat profile almost identical to the main side view, no 45 degree turn"},
+    {"id":"A047","view":"diag","status":"content","reason":"small genital-like protrusion drawn under the tail base; when in doubt, a person should look"},
+    {"id":"A047","view":"above","status":"consistency","reason":"front legs splayed straight out to the sides and hind paws together at the belly, main view has front legs bent over the chest and hind legs splayed"}
+  ]
+}

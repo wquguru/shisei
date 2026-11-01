@@ -89,6 +89,7 @@ def main() -> int:
                 if m.group(1) != packs["version"] or m.group(2) not in files:
                     errs.append(f"{md}: download link {m.group(2)} is not in data/packs.json v{packs['version']}")
     errs += check_costumes()
+    errs += check_series()
     for s in sorted({p["series"] for p in cat}):
         ps = [p for p in cat if p["series"] == s]
         shown = [p for p in ps if any(p["views"].values())]
@@ -133,6 +134,48 @@ def check_costumes() -> list:
     shown = [i for i in data["items"] if any(i["views"].values())]
     n = sum(1 for i in data["items"] for v in data["views"] if i["views"].get(v))
     print(f"costume: {len(shown)}/{len(data['items'])} items shown, {n}/{len(data['items']) * len(data['views'])} views pass")
+    return errs
+
+
+def check_series() -> list:
+    """Scene / prop / furniture / light / animal libraries: data/<lib>.json ↔ data/<lib>-qc.json ↔ images/<lib>/."""
+    sys.path.insert(0, str(ROOT / "tools"))
+    import series_kit as K
+    errs = []
+    for lib, cfg in K.LIBS.items():
+        path = ROOT / cfg["out"]
+        if not path.exists():
+            continue
+        data, want = json.loads(path.read_text()), set()
+        qc_path = ROOT / K.qc_paths(lib)[1]
+        qc = json.loads(qc_path.read_text())["items"] if qc_path.exists() else {}
+        looks = K.LOOKS[cfg["matte"]]
+        ids = [i["id"] for i in data["items"]]
+        if len(ids) != len(set(ids)) or set(ids) & set(data.get("retired", {}).values()):
+            errs.append(f"{path.name}: duplicate or reused ids")
+        for it in data["items"]:
+            for k in ("form", "desc_en", "name_zh", "name_ja", "name_en", "name_ko"):
+                if not it.get(k):
+                    errs.append(f"{it['id']}: empty {k}")
+            for v in data["views"]:
+                f, st = it["views"].get(v), qc.get(it["id"], {}).get(v, {}).get("status")
+                if f:
+                    if st != "pass":
+                        errs.append(f"{it['id']} {v}: in {path.name} but {qc_path.name} says {st}")
+                    for look, tiers in looks.items():
+                        for t in tiers:
+                            want.add(ROOT / "images" / lib / look / t / f)
+                            if not (ROOT / "images" / lib / look / t / f).exists():
+                                errs.append(f"{it['id']} {v}: images/{lib}/{look}/{t}/{f} missing")
+                else:
+                    if st == "pass":
+                        errs.append(f"{it['id']} {v}: {qc_path.name} pass but view is null (run series_build.py)")
+                    if st and it.get("gaps", {}).get(v) != st:
+                        errs.append(f"{it['id']} {v}: gaps entry should be {st}")
+        errs += [f"orphan {f.relative_to(ROOT)}" for f in (ROOT / "images" / lib).glob("*/*/*.webp") if f not in want]
+        shown = [i for i in data["items"] if any(i["views"].values())]
+        n = sum(1 for i in data["items"] for v in data["views"] if i["views"].get(v))
+        print(f"{lib}: {len(shown)}/{len(data['items'])} items shown, {n}/{len(data['items']) * len(data['views'])} views pass")
     return errs
 
 

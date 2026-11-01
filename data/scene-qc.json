@@ -1,0 +1,997 @@
+{
+ "views": [
+  "eye",
+  "above",
+  "below"
+ ],
+ "items": {
+  "E001": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E002": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E003": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E004": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E005": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 floor ~42%; a2 floor ~33% - quantified rewrite did not take; all content checks pass, below angle criterion missed. File delivered, marked wrong. Rewrite: \"The floor must appear only as a narrow st",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E006": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "form",
+    "reason": "large white slab stands tilted on the left floor, distorted geometry that fills the left side; 要点 4 (left floor empty) is doubtful",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 floor ~32%; a2 floor ~25%, ceiling top ~40% but floor not a bottom strip. File delivered, marked wrong. Rewrite: \"The floor must appear only as a narrow strip along the very bottom edge, less than ",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E007": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E008": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 floor ~27%; a2 floor ~21%, ceiling fills top third but floor at/above the >=21% line applied consistently this run; coordinator re-judged wrong, parent visual re-check confirmed floor visibly large",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E009": {
+   "eye": {
+    "status": "missing",
+    "reason": "SEVEN bar stools counted enlarged on all 3 attempts (check 1 needs exactly six); bottles unlabelled, no neon text, centre empty all pass. Coordinator spot-check confirmed 7 stools. Rewrite a2: \"Space ",
+    "by": "gen_scene_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped: eye failed",
+    "by": "gen_scene_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "skipped: eye failed",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E010": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 floor ~44%; a2 floor ~36% - tilt present but weak. File delivered, marked wrong. Rewrite: \"The floor must appear only as a narrow strip along the very bottom edge, less than 15 percent of the frame",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E011": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E012": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E013": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 floor ~34%; a2 floor ~25% - coordinator re-judged wrong by the run-wide >20% line (worker had delivered as best pass). File delivered, marked wrong. Rewrite: \"The black rubber floor must occupy les",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E014": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E015": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E016": {
+   "eye": {
+    "status": "missing",
+    "reason": "a1: slanted panels completely blank (diagram attractor beaten) but pinpoint red marks above both side doors on 3x crops; a2: flat band clean, no red marks, but far connecting door lost its small windo",
+    "by": "gen_scene_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped: eye failed",
+    "by": "gen_scene_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "skipped: eye failed",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E017": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E018": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 ground ~37%; a2 ground ~28-32%. File delivered, marked wrong. Rewrite: same ground/sky sentence as E017_below.",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E019": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E020": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "PROBE FAILURE REPEATS even with the quantified rewrite mandated this run: a1 ground ~35%; a2 ground ~23%, sky top third, signboards blank / neon geometric zero letters at 2x. File delivered, marked wr",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E021": {
+   "eye": {
+    "status": "view",
+    "reason": "eye view is tilted up: tenement verticals converge strongly and the street vanishing point sits near the bottom of the frame, far from the middle",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E022": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E023": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E024": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 ground/path ~35-40%; a2 horizon lowered, sky/trees top third, thin curb strip at bottom BUT receding path itself still ~25% of lower frame - coordinator re-judged wrong (ground is ground, cf. E027)",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E025": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 decking ~28%; a2 decking ~25-27% - quantified rewrite ineffective here. Content clean enlarged both attempts. Best attempt a2 delivered on disk, marked wrong. Rewrite view clause: \"a low-angle view",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E026": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 court ~33%; a2 court ~50% (rewrite made it worse). Best attempt a1 delivered on disk, marked wrong. Backboard blank in both. Rewrite: same view clause as E025_below.",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E027": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 paving ~48% (near eye-level); a2 paving ~25%, true low angle otherwise, sky/river top third. File delivered, marked wrong. Rewrite view clause: \"a low-angle view: the camera 0.4 metres above the gr",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E028": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E029": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E030": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E031": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E032": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "view",
+    "reason": "ridge ground fills about 55-60% of the frame, not a low upward view with ground only along the bottom edge",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E033": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E034": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "view",
+    "reason": "bund and paddies fill roughly half the frame; does not read as a 0.4 m camera with ground only along the bottom",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E035": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E036": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E037": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_01.json"
+   }
+  },
+  "E038": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E039": {
+   "eye": {
+    "status": "view",
+    "reason": "horizon sits at about 20% from the top, well outside the middle third; camera reads as tilted down, not a level eye view",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E040": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E041": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E042": {
+   "eye": {
+    "status": "view",
+    "reason": "horizon at about 20% from the top, outside the middle third; boardwalk fills the lower half",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "view",
+    "reason": "boardwalk deck fills about 40% of the frame, more than the one-third limit for a low upward view",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E043": {
+   "eye": {
+    "status": "missing",
+    "reason": "pool far edge never merged with the sea in 3 attempts: the model always inserts the jungle slope as a band between pool water and sea. a1 pre-emptive sentence: 'The far edge of the pool water is at ex",
+    "by": "gen_scene_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped: eye failed",
+    "by": "gen_scene_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "skipped: eye failed",
+    "by": "gen_scene_run01.json"
+   }
+  },
+  "E044": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E045": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E046": {
+   "eye": {
+    "status": "form",
+    "reason": "要点1 wrong: far shore shows four low single-storey red-roofed huts on flat ground, not tall narrow coloured houses climbing a hillside",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "form",
+    "reason": "要点1 wrong: far shore shows four low single-storey red-roofed huts on flat ground, not tall narrow coloured houses climbing a hillside",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "form",
+    "reason": "要点1 wrong: far shore shows four low single-storey red-roofed huts on flat ground, not tall narrow coloured houses climbing a hillside",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E047": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E048": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E049": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E050": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E051": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E052": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E053": {
+   "eye": {
+    "status": "spot",
+    "reason": "large bright lattice-shaped sun patch on the floor sits just left of and into the centre standing area (light effect on the spot)",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "spot",
+    "reason": "large bright lattice-shaped sun patch on the floor right beside/under the central standing spot (light effect on the spot)",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E054": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E055": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E056": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E057": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E058": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E059": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E060": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E061": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E062": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E063": {
+   "eye": {
+    "status": "spot",
+    "reason": "grey smudge/shadow blob on the floor in the central standing area of a shadowless white set",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "spot",
+    "reason": "dark grey smudge/shadow blob on the floor at the centre of the frame, on the standing spot",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E064": {
+   "eye": {
+    "status": "view",
+    "reason": "floor/wall line sits at about 75% from the top, well below the middle third; nearly all wall, little floor",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E065": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E066": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E067": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   }
+  },
+  "E068": {
+   "eye": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_scene_r1_02.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 black wedges at both upper corners + top roll visible; a2 rewrite reduced to a small black sliver at top-left corner plus faint top roll shadow - still an edge leak so marked wrong; colours/no lamp",
+    "by": "gen_scene_run01.json"
+   }
+  }
+ }
+}

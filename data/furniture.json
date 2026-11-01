@@ -38,11 +38,11 @@
     "没有坐垫"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F001_front.webp",
+    "back": "furniture_F001_back.webp",
+    "side": "furniture_F001_side.webp",
+    "diag": "furniture_F001_diag.webp",
+    "above": "furniture_F001_above.webp"
    },
    "gaps": {}
   },
@@ -76,11 +76,11 @@
     "没有品牌标识"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F002_front.webp",
+    "back": "furniture_F002_back.webp",
+    "side": "furniture_F002_side.webp",
+    "diag": "furniture_F002_diag.webp",
+    "above": "furniture_F002_above.webp"
    },
    "gaps": {}
   },
@@ -114,11 +114,11 @@
     "单人"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F003_front.webp",
+    "back": "furniture_F003_back.webp",
+    "side": "furniture_F003_side.webp",
+    "diag": "furniture_F003_diag.webp",
+    "above": "furniture_F003_above.webp"
    },
    "gaps": {}
   },
@@ -152,13 +152,17 @@
     "四条弯藤腿"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F004_front.webp",
+    "back": "furniture_F004_back.webp",
     "side": null,
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "side": "matte",
+    "diag": "consistency",
+    "above": "matte"
+   }
   },
   {
    "id": "F005",
@@ -191,11 +195,11 @@
     "两个平扶手、没有坐垫"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F005_front.webp",
+    "back": "furniture_F005_back.webp",
+    "side": "furniture_F005_side.webp",
+    "diag": "furniture_F005_diag.webp",
+    "above": "furniture_F005_above.webp"
    },
    "gaps": {}
   },
@@ -229,11 +233,11 @@
     "一圈脚踏环"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F006_front.webp",
+    "back": "furniture_F006_back.webp",
+    "side": "furniture_F006_side.webp",
+    "diag": "furniture_F006_diag.webp",
+    "above": "furniture_F006_above.webp"
    },
    "gaps": {}
   },
@@ -267,11 +271,11 @@
     "约 45 厘米高"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F007_front.webp",
+    "back": "furniture_F007_back.webp",
+    "side": "furniture_F007_side.webp",
+    "diag": "furniture_F007_diag.webp",
+    "above": "furniture_F007_above.webp"
    },
    "gaps": {}
   },
@@ -306,11 +310,11 @@
     "没有抱枕和毯子"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F008_front.webp",
+    "back": "furniture_F008_back.webp",
+    "side": "furniture_F008_side.webp",
+    "diag": "furniture_F008_diag.webp",
+    "above": "furniture_F008_above.webp"
    },
    "gaps": {}
   },
@@ -344,13 +348,15 @@
     "四条短车旋腿"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F009_front.webp",
+    "back": "furniture_F009_back.webp",
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F009_diag.webp",
+    "above": "furniture_F009_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "view"
+   }
   },
   {
    "id": "F010",
@@ -383,11 +389,11 @@
     "没有标签"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F010_front.webp",
+    "back": "furniture_F010_back.webp",
+    "side": "furniture_F010_side.webp",
+    "diag": "furniture_F010_diag.webp",
+    "above": "furniture_F010_above.webp"
    },
    "gaps": {}
   },
@@ -422,12 +428,17 @@
    ],
    "views": {
     "front": null,
-    "back": null,
+    "back": "furniture_F011_back.webp",
     "side": null,
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "form",
+    "side": "consistency",
+    "diag": "consistency",
+    "above": "consistency"
+   }
   },
   {
    "id": "F012",
@@ -460,11 +471,11 @@
     "没有抱枕和搭毯"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F012_front.webp",
+    "back": "furniture_F012_back.webp",
+    "side": "furniture_F012_side.webp",
+    "diag": "furniture_F012_diag.webp",
+    "above": "furniture_F012_above.webp"
    },
    "gaps": {}
   },
@@ -498,11 +509,11 @@
     "没有铭牌文字"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F013_front.webp",
+    "back": "furniture_F013_back.webp",
+    "side": "furniture_F013_side.webp",
+    "diag": "furniture_F013_diag.webp",
+    "above": "furniture_F013_above.webp"
    },
    "gaps": {}
   },
@@ -537,13 +548,15 @@
     "没有坐垫"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F014_front.webp",
+    "back": "furniture_F014_back.webp",
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F014_diag.webp",
+    "above": "furniture_F014_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "missing"
+   }
   },
   {
    "id": "F015",
@@ -575,11 +588,11 @@
     "没有垫子和毛巾"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F015_front.webp",
+    "back": "furniture_F015_back.webp",
+    "side": "furniture_F015_side.webp",
+    "diag": "furniture_F015_diag.webp",
+    "above": "furniture_F015_above.webp"
    },
    "gaps": {}
   },
@@ -614,13 +627,15 @@
     "木条座面和靠背、没有垫子"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F016_front.webp",
+    "back": "furniture_F016_back.webp",
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F016_diag.webp",
+    "above": "furniture_F016_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "form"
+   }
   },
   {
    "id": "F017",
@@ -652,11 +667,11 @@
     "桌上没有东西"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F017_front.webp",
+    "back": "furniture_F017_back.webp",
+    "side": "furniture_F017_side.webp",
+    "diag": "furniture_F017_diag.webp",
+    "above": "furniture_F017_above.webp"
    },
    "gaps": {}
   },
@@ -692,11 +707,16 @@
    "views": {
     "front": null,
     "back": null,
-    "side": null,
+    "side": "furniture_F018_side.webp",
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "scale",
+    "back": "scale",
+    "diag": "scale",
+    "above": "scale"
+   }
   },
   {
    "id": "F019",
@@ -733,7 +753,13 @@
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "scale",
+    "back": "scale",
+    "side": "missing",
+    "diag": "scale",
+    "above": "scale"
+   }
   },
   {
    "id": "F020",
@@ -764,13 +790,15 @@
     "桌上没有东西"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F020_front.webp",
+    "back": "furniture_F020_back.webp",
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F020_diag.webp",
+    "above": "furniture_F020_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "missing"
+   }
   },
   {
    "id": "F021",
@@ -803,12 +831,17 @@
    ],
    "views": {
     "front": null,
-    "back": null,
+    "back": "furniture_F021_back.webp",
     "side": null,
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "matte",
+    "side": "missing",
+    "diag": "matte",
+    "above": "missing"
+   }
   },
   {
    "id": "F022",
@@ -841,11 +874,16 @@
    "views": {
     "front": null,
     "back": null,
-    "side": null,
+    "side": "furniture_F022_side.webp",
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "scale",
+    "back": "scale",
+    "diag": "scale",
+    "above": "scale"
+   }
   },
   {
    "id": "F023",
@@ -884,7 +922,13 @@
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "back": "missing",
+    "side": "missing",
+    "diag": "missing",
+    "above": "missing"
+   }
   },
   {
    "id": "F024",
@@ -917,11 +961,11 @@
     "圆腿、无镶嵌"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F024_front.webp",
+    "back": "furniture_F024_back.webp",
+    "side": "furniture_F024_side.webp",
+    "diag": "furniture_F024_diag.webp",
+    "above": "furniture_F024_above.webp"
    },
    "gaps": {}
   },
@@ -955,11 +999,11 @@
     "步步高横枨"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F025_front.webp",
+    "back": "furniture_F025_back.webp",
+    "side": "furniture_F025_side.webp",
+    "diag": "furniture_F025_diag.webp",
+    "above": "furniture_F025_above.webp"
    },
    "gaps": {}
   },
@@ -993,11 +1037,11 @@
     "瓷质釉面"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F026_front.webp",
+    "back": "furniture_F026_back.webp",
+    "side": "furniture_F026_side.webp",
+    "diag": "furniture_F026_diag.webp",
+    "above": "furniture_F026_above.webp"
    },
    "gaps": {}
   },
@@ -1031,11 +1075,11 @@
     "雕饰只是卷云纹、没有文字"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F027_front.webp",
+    "back": "furniture_F027_back.webp",
+    "side": "furniture_F027_side.webp",
+    "diag": "furniture_F027_diag.webp",
+    "above": "furniture_F027_above.webp"
    },
    "gaps": {}
   },
@@ -1069,13 +1113,15 @@
     "没有靠背、没有雕刻"
    ],
    "views": {
-    "front": null,
+    "front": "furniture_F028_front.webp",
     "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "side": "furniture_F028_side.webp",
+    "diag": "furniture_F028_diag.webp",
+    "above": "furniture_F028_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "back": "consistency"
+   }
   },
   {
    "id": "F029",
@@ -1107,13 +1153,15 @@
     "中间一张小炕桌"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F029_front.webp",
+    "back": "furniture_F029_back.webp",
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F029_diag.webp",
+    "above": "furniture_F029_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "form"
+   }
   },
   {
    "id": "F030",
@@ -1144,11 +1192,11 @@
     "四根霸王枨、腿间没有横枨"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F030_front.webp",
+    "back": "furniture_F030_back.webp",
+    "side": "furniture_F030_side.webp",
+    "diag": "furniture_F030_diag.webp",
+    "above": "furniture_F030_above.webp"
    },
    "gaps": {}
   },
@@ -1187,7 +1235,13 @@
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "back": "missing",
+    "side": "missing",
+    "diag": "missing",
+    "above": "missing"
+   }
   },
   {
    "id": "F032",
@@ -1223,9 +1277,14 @@
     "back": null,
     "side": null,
     "diag": null,
-    "above": null
+    "above": "furniture_F032_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "scale",
+    "back": "view",
+    "side": "missing",
+    "diag": "missing"
+   }
   },
   {
    "id": "F033",
@@ -1259,13 +1318,15 @@
     "座前横档呈 S 弯、带一朵小雕花"
    ],
    "views": {
-    "front": null,
+    "front": "furniture_F033_front.webp",
     "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "side": "furniture_F033_side.webp",
+    "diag": "furniture_F033_diag.webp",
+    "above": "furniture_F033_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "back": "consistency"
+   }
   },
   {
    "id": "F034",
@@ -1297,11 +1358,11 @@
     "桃花心木外露木框"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F034_front.webp",
+    "back": "furniture_F034_back.webp",
+    "side": "furniture_F034_side.webp",
+    "diag": "furniture_F034_diag.webp",
+    "above": "furniture_F034_above.webp"
    },
    "gaps": {}
   },
@@ -1335,11 +1396,11 @@
     "底下是缩进的木座、看不见腿"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F035_front.webp",
+    "back": "furniture_F035_back.webp",
+    "side": "furniture_F035_side.webp",
+    "diag": "furniture_F035_diag.webp",
+    "above": "furniture_F035_above.webp"
    },
    "gaps": {}
   },
@@ -1372,11 +1433,11 @@
     "顶部小平台"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F036_front.webp",
+    "back": "furniture_F036_back.webp",
+    "side": "furniture_F036_side.webp",
+    "diag": "furniture_F036_diag.webp",
+    "above": "furniture_F036_above.webp"
    },
    "gaps": {}
   },
@@ -1410,13 +1471,15 @@
     "箱面没有字和编号"
    ],
    "views": {
-    "front": null,
+    "front": "furniture_F037_front.webp",
     "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "side": "furniture_F037_side.webp",
+    "diag": "furniture_F037_diag.webp",
+    "above": "furniture_F037_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "back": "consistency"
+   }
   },
   {
    "id": "F038",
@@ -1448,13 +1511,15 @@
     "箱面没有字和编号"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F038_front.webp",
+    "back": "furniture_F038_back.webp",
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F038_diag.webp",
+    "above": "furniture_F038_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "missing"
+   }
   },
   {
    "id": "F039",
@@ -1486,13 +1551,16 @@
     "表面没有字和编号"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F039_front.webp",
+    "back": "furniture_F039_back.webp",
     "side": null,
     "diag": null,
-    "above": null
+    "above": "furniture_F039_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "missing",
+    "diag": "matte"
+   }
   },
   {
    "id": "F040",
@@ -1528,10 +1596,14 @@
     "front": null,
     "back": null,
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F040_diag.webp",
+    "above": "furniture_F040_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "scale",
+    "back": "scale",
+    "side": "scale"
+   }
   },
   {
    "id": "F041",
@@ -1570,7 +1642,13 @@
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "back": "missing",
+    "side": "missing",
+    "diag": "missing",
+    "above": "missing"
+   }
   },
   {
    "id": "F042",
@@ -1605,10 +1683,14 @@
     "front": null,
     "back": null,
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F042_diag.webp",
+    "above": "furniture_F042_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "scale",
+    "back": "scale",
+    "side": "missing"
+   }
   },
   {
    "id": "F043",
@@ -1645,7 +1727,13 @@
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "back": "missing",
+    "side": "missing",
+    "diag": "missing",
+    "above": "missing"
+   }
   },
   {
    "id": "F044",
@@ -1677,13 +1765,15 @@
     "两侧底部有前后向平脚"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F044_front.webp",
+    "back": "furniture_F044_back.webp",
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F044_diag.webp",
+    "above": "furniture_F044_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "missing"
+   }
   },
   {
    "id": "F045",
@@ -1715,11 +1805,11 @@
     "两条腿立在前后向平脚上"
    ],
    "views": {
-    "front": null,
-    "back": null,
-    "side": null,
-    "diag": null,
-    "above": null
+    "front": "furniture_F045_front.webp",
+    "back": "furniture_F045_back.webp",
+    "side": "furniture_F045_side.webp",
+    "diag": "furniture_F045_diag.webp",
+    "above": "furniture_F045_above.webp"
    },
    "gaps": {}
   },
@@ -1753,13 +1843,15 @@
     "五爪底座、没有轮子和靠背"
    ],
    "views": {
-    "front": null,
-    "back": null,
+    "front": "furniture_F046_front.webp",
+    "back": "furniture_F046_back.webp",
     "side": null,
-    "diag": null,
-    "above": null
+    "diag": "furniture_F046_diag.webp",
+    "above": "furniture_F046_above.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "side": "missing"
+   }
   },
   {
    "id": "F047",
@@ -1797,7 +1889,13 @@
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "back": "missing",
+    "side": "missing",
+    "diag": "missing",
+    "above": "missing"
+   }
   },
   {
    "id": "F048",
@@ -1834,7 +1932,13 @@
     "diag": null,
     "above": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "scale",
+    "back": "scale",
+    "side": "scale",
+    "diag": "scale",
+    "above": "matte"
+   }
   }
  ]
 }

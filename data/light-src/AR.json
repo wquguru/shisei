@@ -31,9 +31,9 @@
     "en": "Warm Table Lamp",
     "ko": "따뜻한 스탠드"
    },
-   "setting": "standing in the middle of an empty room with plain white plaster walls and a pale wooden floor at night, a fabric-shaded table lamp on a low side table at image-left, visible in frame",
-   "desc": "the only light is the warm 2700 K table lamp at image-left at waist height, strong warm fall-off across the mannequin from image-left to near darkness at image-right, cozy dim room, soft-edged shadow on the wall to image-right",
-   "keep": "single warm table lamp at image-left visible, steep fall-off to the right, dim room",
+   "setting": "standing beside a plain wooden writing desk in a simple study with plain white plaster walls and a pale wooden floor in the evening, a fabric-shaded table lamp on the desk at image-left, visible in frame",
+   "desc": "the only light is the warm 2700 K table lamp at image-left at waist height, strong warm fall-off across the mannequin from image-left to near darkness at image-right, the rest of the study dark, soft-edged shadow on the wall to image-right",
+   "keep": "single warm table lamp on the desk at image-left visible, steep fall-off to the right, dark study",
    "checks": [
     "唯一光源是左侧台灯（入画）",
     "光从左到右迅速衰减",

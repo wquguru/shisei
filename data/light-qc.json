@@ -1,0 +1,836 @@
+{
+ "views": [
+  "front",
+  "diag",
+  "side"
+ ],
+ "items": {
+  "L001": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L002": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Sun glow, lit side and long shadows stay image-left/right as in front; after camera moves toward subject's left the sun should swing behind the subject",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Sun glow, lit side and long shadows stay image-left/right as in front; after camera moves toward subject's left the sun should swing behind the subject",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L003": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L004": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L005": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Sun should come round toward the camera side (front-lit, shadow falling back); panel still shows shadow toward camera/image-left as in front",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Sun should come round toward the camera side (front-lit, shadow falling back); panel still shows shadow toward camera/image-left as in front",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L006": {
+   "front": {
+    "status": "missing",
+    "reason": "never-ok; front golden wash and warm sky correct in all attempts but cast shadow always spreads diagonally to image-right foreground instead of straight back behind figure; best attempt a3 kept (spher",
+    "by": "gen_light_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped - front failed",
+    "by": "gen_light_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped - front failed",
+    "by": "gen_light_run01.json"
+   }
+  },
+  "L007": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L008": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Pink light still hits the sphere and figure from image-right; after the camera moves toward that side it should be front-lit",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L009": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L010": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Moon should be behind/rim-lighting the subject after the camera moves away from it; light and shadows stay image-left to image-right as in front",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Moon should be behind/rim-lighting the subject after the camera moves away from it; light and shadows stay image-left to image-right as in front",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L011": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L012": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Light shaft and sun side stay at image-left with shadows to image-right; did not rotate with the camera move",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Light shaft and sun side stay at image-left with shadows to image-right; did not rotate with the camera move",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L013": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Window stays at image-left with the same lit side and wall falloff; light followed the camera",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Window stays at image-left with the same lit side and wall falloff; light followed the camera",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L014": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Window and sun patch stay at image-left with torso lit from the same side; light followed the camera",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Window and sun patch stay at image-left with torso lit from the same side; light followed the camera",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L015": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Blind stripes and window stay at image-left with the same slant and lit side; light followed the camera",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Blind stripes and window stay at image-left with the same slant and lit side; light followed the camera",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L016": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L017": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L018": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L019": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L020": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L021": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Sun stays image-left with shadows running to image-right on all panels; should end up behind the subject",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Sun stays image-left with shadows running to image-right on all panels; should end up behind the subject",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L022": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L023": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L024": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Lamp stays at image-left lighting the figure from the same side; should end up behind the subject",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Lamp stays at image-left lighting the figure from the same side; should end up behind the subject",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L025": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L026": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "Candles stay at image-left lighting the figure from the same side; should end up behind the subject",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Candles stay at image-left lighting the figure from the same side; should end up behind the subject",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L027": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L028": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "Magenta left and cyan right as in front; with the camera moved to the cyan side the subject should be cyan-lit on the camera side with magenta only as rim",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L029": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "best-wrong kept on disk: a1 light/view correct (lamp, orange cone, night) but both feet have clear block heels; a2 generation was refused by the tool so no fix landed within the 2-attempt limit",
+    "by": "gen_light_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_01.json"
+   }
+  },
+  "L030": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "blue screen stays at bottom of frame, sphere highlight at its base in same place in all panels; screen does not move to image-left in side view",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "blue screen stays at bottom of frame, sphere highlight at its base in same place in all panels; screen does not move to image-left in side view",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L031": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L032": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "two headlight glows stay at bottom of frame and road/shadow layout unchanged; headlights should rotate to image-left in side view",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "two headlight glows stay at bottom of frame and road/shadow layout unchanged; headlights should rotate to image-left in side view",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L033": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "spotlight fixture stays at top-left of frame as in front; light source did not move with the 90 degree camera turn (in doubt)",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L034": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "floor lamp at left and window at right stay in the same frame positions in all panels while the mannequin turns; warm-left/cool-right followed the camera",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "floor lamp at left and window at right stay in the same frame positions in all panels while the mannequin turns; warm-left/cool-right followed the camera",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L035": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L036": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L037": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "subject",
+    "reason": "bust is a thin slanted wedge unlike the front/diag bust and the sphere moved behind the head to image-right",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L038": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L039": {
+   "front": {
+    "status": "missing",
+    "reason": "最佳=a2保留; a1 光型满分但暗侧有嘴唇形; a2 无嘴但球明暗界偏离正中约60/40; a3 球出现裂缝+脸中缝; 改写句: 暗侧下脸完全平滑无嘴+球竖直正半分",
+    "by": "gen_light_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "正面未过, 按规则跳过",
+    "by": "gen_light_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "正面未过, 按规则跳过",
+    "by": "gen_light_run01.json"
+   }
+  },
+  "L040": {
+   "front": {
+    "status": "missing",
+    "reason": "最佳=a3保留; a1 胸肩正面亮+球单月牙; a2 脸仍灰+暖色边光+眼睑; a3 脸近黑+双侧细边光+球双月牙, 但胸部正面仍灰色渐变未近黑; 改写句: 无任何正面光补光+正面近纯黑",
+    "by": "gen_light_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "正面未过, 按规则跳过",
+    "by": "gen_light_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "正面未过, 按规则跳过",
+    "by": "gen_light_run01.json"
+   }
+  },
+  "L041": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L042": {
+   "front": {
+    "status": "missing",
+    "reason": "最佳=a2保留; a1 光型满分但眼睑+嘴线齐全; a2 无嘴但鼻成黑色槽, 鼻底未亮; a3 下脸出现嘴部弧线影; 改写句: 空白蛋头+鼻为正常石膏鼻且底面受光",
+    "by": "gen_light_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "正面未过, 按规则跳过",
+    "by": "gen_light_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "正面未过, 按规则跳过",
+    "by": "gen_light_run01.json"
+   }
+  },
+  "L043": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L044": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L045": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L046": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L047": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L048": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "orange-left / teal-right split stays fixed in frame on diag and side; light followed the camera",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "orange-left / teal-right split stays fixed in frame on diag and side; light followed the camera",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L049": {
+   "front": {
+    "status": "missing",
+    "reason": "best-wrong kept (attempt 2): a1 mixed neutral white light and shadow side not black plus elbow screw dot; a2 rewrite 'the ONLY light is saturated deep red; no white or neutral grey light anywhere; sha",
+    "by": "gen_light_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: front failed; no file",
+    "by": "gen_light_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped: front failed; no file",
+    "by": "gen_light_run01.json"
+   }
+  },
+  "L050": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "violet upper-left / blue lower-right and backdrop gradient identical in frame on all panels; light followed the camera",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "violet upper-left / blue lower-right and backdrop gradient identical in frame on all panels; light followed the camera",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L051": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "window and slanting beams identical in frame on all panels; light followed the camera",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "window and slanting beams identical in frame on all panels; light followed the camera",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L052": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "glow behind the figure still centred behind it in the side view; a light far behind should shift to image-right (in doubt)",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L053": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "best-wrong kept (attempt 2): a1 true diag but feet became high-heeled boots (subject gate fail); rewrite 'smooth bare mannequin feet exactly as in image 1: no shoes no boots no high heels' removed sho",
+    "by": "gen_light_run01.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "window-frame shadow on wall identical to front in frame position; light followed the camera (in doubt)",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L054": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "turn",
+    "reason": "leaf-shadow pattern on backdrop identical in frame to front; light followed the camera (in doubt)",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "turn",
+    "reason": "leaf-shadow pattern on backdrop identical in frame to front; light followed the camera (in doubt)",
+    "by": "fail_light_r1_02.json"
+   }
+  },
+  "L055": {
+   "front": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_light_r1_02.json"
+   }
+  }
+ }
+}

@@ -32,9 +32,9 @@
     {
       "key": "folding-fan", "group": "shade", "probe": true, "place": "float", "size": "M",
       "name": {"zh": "折扇（展开）", "ja": "扇子（中国の折扇・開き）", "en": "Folding Fan, Open", "ko": "접부채(펼침)"},
-      "desc": "an open Chinese folding fan floating upright with the pivot at the bottom: opened to a 150-degree arc, a pleated {leaf} paper leaf on the upper half, {paint}, and below it the bare bamboo sticks; exactly sixteen sticks in total, fourteen thin inner sticks plus two wider outer guard sticks at the left and right edges, all fanning out evenly from one small round pivot rivet, the leaf folded into evenly spaced pleats one per stick; no characters, no calligraphy, no seals, no tassel",
-      "keep": "open folding fan, 150-degree arc, pleated {leaf} paper leaf with {paint}, sixteen bamboo sticks (fourteen inner, two outer guards) from one pivot at the bottom",
-      "checks": ["展开约 150 度", "共十六根扇骨（内十四、两侧大骨各一）", "扇面折痕均匀", "扇面无字无印"],
+      "desc": "an open Chinese folding fan floating upright with the pivot at the bottom: opened wide to an arc of about 120 degrees, clearly wider than a right angle, a pleated {leaf} paper leaf on the upper half, {paint}, and below it the bare bamboo sticks; exactly sixteen sticks in total, fourteen thin inner sticks plus two wider outer guard sticks at the left and right edges, all fanning out evenly from one small round pivot rivet, the leaf folded into evenly spaced pleats one per stick; no characters, no calligraphy, no seals, no tassel",
+      "keep": "open folding fan, about 120-degree arc, pleated {leaf} paper leaf with {paint}, sixteen bamboo sticks (fourteen inner, two outer guards) from one pivot at the bottom",
+      "checks": ["展开约 120 度（明显超过直角）", "共十六根扇骨（内十四、两侧大骨各一）", "扇面折痕均匀", "扇面无字无印"],
       "variants": [
         {"key": "blank", "name": {"zh": "素面", "ja": "無地", "en": "Blank", "ko": "무지"}, "bg": "dark", "vars": {"leaf": "plain ivory", "paint": "left blank"}}
       ]
