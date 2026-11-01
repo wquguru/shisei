@@ -4,6 +4,22 @@
 # tag: new | improve | announce | removed. link: an in-site path without language prefix (/, /changelog/, /pose/P001/),
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
+  - date: 2026-11-01
+    tag: new
+    title: Costumes to pair with your pose
+    desc: 484 ghost-mannequin outfits, each from four views. Pick a costume for any pose; a tray keeps the pair and gives both images with a combined prompt.
+    link: /costume/
+    cta: Browse costumes
+    title_zh: 新增服装，给姿势配上
+    desc_zh: 484 件隐形人台服装，每件四个视角。给任意姿势配一件，底部托盘记住这一组，给出两张图和合成描述。
+    cta_zh: 浏览服装
+    title_ja: ポーズに衣装を合わせる
+    desc_ja: ゴーストマネキンの衣装 484 点、各 4 アングル。好きなポーズに合わせると、トレイが組み合わせを保持し、2 枚の画像と合成プロンプトを出します。
+    cta_ja: 衣装を見る
+    title_ko: 포즈에 의상 입히기
+    desc_ko: 고스트 마네킹 의상 484벌, 각 4앵글. 원하는 포즈에 맞추면 트레이가 조합을 기억하고 두 이미지와 합성 프롬프트를 줍니다.
+    cta_ko: 의상 보기
+
   - date: 2026-10-31
     tag: improve
     title: Clearer downloads

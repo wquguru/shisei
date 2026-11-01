@@ -7,6 +7,13 @@ the catalog schema.
 
 ## [Unreleased]
 
+### Added
+- Costumes on the site: a costume library page per language (`costume/`, 484 items with a passing view, grey tiers
+  only; the transparent versions stay in the download packs) with category, gender and view filters, a four-view
+  lightbox and lingerie blurred like the suggestive poses. A pairing tray (`web/tray.js`) keeps one pose and one
+  costume across both pages, maps the pose angle to the costume view and gives the combined prompt and both images
+  (phones: one share sheet). The pose lightbox gets "Pick a costume for this pose"; the home page a band after the grid.
+
 ### Changed
 - Performance: fonts are self-hosted Latin subsets (Inter Tight, JetBrains Mono; 65 KB, OFL files in `web/fonts/`)
   and CJK text uses system fonts, replacing Google Fonts (28 requests, 1.6 MB, often unreachable from mainland China).

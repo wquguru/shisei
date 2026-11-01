@@ -166,9 +166,42 @@
     document.querySelector('[data-i18n="browse"]').textContent = T.browse(n);
     $('heroSeries').innerHTML = SERIES.map((k) => [k, poses.filter((p) => p.series === k).length]).filter((x) => x[1])
       .map(([k, c]) => '<span><i style="background:' + SERIES_TINT[k] + '"></i>' + esc(T.series[k]) + '<b>' + c + '</b></span>').join('');
+    renderBand();
     $('howList').innerHTML = T.how.map((s) => '<li>' + esc(s) + '</li>').join('');
     $('termsList').innerHTML = T.termsItems.map((s) => '<li>' + esc(s) + '</li>').join('');
   }
+
+  /* costumes: a band after the grid and the pairing tray (web/tray.js); poses stay the anchor (docs/DESIGN.md) */
+  const TRAY = window.ShiseiTray;
+  const TC = () => window.I18N_COSTUME[S.lang];
+  function renderBand() {
+    const C = window.SHISEI.costumes;
+    $('cBand').hidden = !C;
+    if (!C) return;
+    $('cBandEyebrow').textContent = TC().bandEyebrow;
+    $('cBandT').textContent = TC().bandTitle;
+    $('cBandSub').textContent = TC().bandSub;
+    $('cBandCta').textContent = TC().bandCta(C.n);
+    $('cBandImgs').innerHTML = C.files.map((f) => '<img src="' + src('costume/grey', 'w300', f) + '" alt="" width="108" height="144" loading="lazy" decoding="async">').join('');
+  }
+  TRAY.setPage('pose');
+  // The tray's pose slot opens that pose here rather than reloading the page.
+  TRAY.onSlot = (kind, st) => {
+    if (kind !== 'pose' || !st.pose || !byId.has(st.pose.id)) return false;
+    openLb(st.pose.id, st.pose.v, 'line');
+    return true;
+  };
+  window.addEventListener('shisei:combo', () => { if ($('lb').open) renderLb(); });
+  function pairPose() {
+    const p = byId.get(LB.id);
+    const v = p.line[LB.v] ? LB.v : firstView(p.line);
+    TRAY.set('pose', { id: p.id, v, file: p.line[v], tint: p.tint, desc: p.desc_en || '', names: TRAY.names(p, 'pose') });
+    // With a costume waiting, closing the lightbox shows the tray's opened pair.
+    if (TRAY.get().costume) $('lb').close();
+    // No costume yet: off to the library to pick one; the tray keeps the pose.
+    else location.href = BASE + PREFIX[S.lang] + 'costume/';
+  }
+  $('lbPairBtn').addEventListener('click', pairPose);
 
   /* hero */
   function renderMarquee() {
@@ -758,6 +791,9 @@
 
     if (veil) [$('lbDl'), dl2].forEach((a) => { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); });
 
+    const cos = TRAY.get().costume;
+    $('lbPairText').textContent = cos ? TC().pairCostume(cos.id) : TC().startPose;
+    $('lbPairBtn').disabled = veil || !p.line.some(Boolean);
     clearTimeout(lbTip.timer);
     $('lbTip').hidden = true;
     // Static pose pages exist only for general std poses (tools/site_pages.py).

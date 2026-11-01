@@ -147,6 +147,75 @@ window.I18N = {
   }
 };
 
+// The costume library and the pairing tray (docs/DESIGN.md, 服装与搭配). Category names come from
+// data/costume-src/_categories.json, item names from data/costumes.json.
+window.I18N_COSTUME = {
+  zh: {
+    nav: '服装', crumb: '素材库 / 服装',
+    title: (n) => '服装 · ' + n + ' 件', sub: '隐形人台商品照，正面、斜侧、侧面、背面四个视角。挑一件配到任意姿势上，两张图一起交给 AI 换装或角色设定。',
+    gender: { all: '全部', F: '女装', M: '男装', U: '中性' }, genderLabel: '性别', cat: '大类', all: '全部',
+    views: ['正面', '斜侧', '侧面', '背面'], viewLabel: '视角', count: (n, all) => n + ' / ' + all + ' 件', empty: '没有找到匹配的服装',
+    open: (id) => '打开 ' + id + ' 大图', gap: '这个视角暂缺', download: '下载这张 · 900', save: '保存到相册',
+    descLabel: '英文服装描述，可直接放进提示词', adultOn: '性感内衣：显示', adultOff: '性感内衣：模糊', adultHint: '性感内衣默认模糊；点单张可单独查看，点这里全部显示', veilTitle: '性感内衣，已模糊',
+    pairWith: (id) => '配上 ' + id, startWith: '用这件搭配姿势', pairCostume: (id) => '配上 ' + id, startPose: '给这个姿势配服装',
+    paired: (id) => '已配上 ' + id,
+    tray: '搭配', slotPose: '姿势', slotCostume: '服装', pickPose: '选姿势', pickCostume: '挑服装', picking: '在挑',
+    soon: '道具 · 制作中', done: '完成', hide: '收起', end: '结束搭配',
+    group: '这一组', prompt: '合成描述', dlPose: '下载姿势', dlCostume: '下载服装', saveGroup: '保存这一组', holdGroup: '长按每张图，选「保存图片」',
+    viewNote: (v) => '服装视角跟随姿势：' + v,
+    bandEyebrow: '素材库', bandTitle: '给姿势配上服装', bandSub: '在任意姿势的大图里点「给这个姿势配服装」，或者先来这里挑。', bandCta: (n) => '浏览 ' + n + ' 件服装',
+    keys: '← → 换视角　↑ ↓ 换一件　Esc 关闭'
+  },
+  ja: {
+    nav: '衣装', crumb: '素材ライブラリ / 衣装',
+    title: (n) => '衣装 · ' + n + ' 点', sub: 'ゴーストマネキンの商品写真。正面・斜め・横・背面の 4 アングル。好きなポーズに合わせて、2 枚まとめて AI の着せ替えやキャラ設定に。',
+    gender: { all: 'すべて', F: 'レディース', M: 'メンズ', U: 'ユニセックス' }, genderLabel: '性別', cat: 'カテゴリ', all: 'すべて',
+    views: ['正面', '斜め', '横', '背面'], viewLabel: 'アングル', count: (n, all) => n + ' / ' + all + ' 点', empty: '該当する衣装がありません',
+    open: (id) => id + ' を拡大', gap: 'このアングルは準備中', download: 'この画像をダウンロード · 900', save: '写真に保存',
+    descLabel: '英語の衣装説明（プロンプトにそのまま使えます）', adultOn: 'ランジェリー：表示', adultOff: 'ランジェリー：ぼかし', adultHint: 'ランジェリーは初期状態でぼかしています。1 点ずつタップで表示、ここで全部表示できます', veilTitle: 'セクシーランジェリー（ぼかし中）',
+    pairWith: (id) => id + ' に合わせる', startWith: 'この衣装でポーズを選ぶ', pairCostume: (id) => id + ' を合わせる', startPose: 'このポーズに衣装を合わせる',
+    paired: (id) => id + ' を合わせました',
+    tray: 'コーデ', slotPose: 'ポーズ', slotCostume: '衣装', pickPose: 'ポーズを選ぶ', pickCostume: '衣装を選ぶ', picking: '選択中',
+    soon: '小物 · 制作中', done: '完成', hide: '閉じる', end: 'コーデを終了',
+    group: 'この組み合わせ', prompt: '合成プロンプト', dlPose: 'ポーズを保存', dlCostume: '衣装を保存', saveGroup: '2 枚とも保存', holdGroup: '各画像を長押しして「画像を保存」',
+    viewNote: (v) => '衣装のアングルはポーズに合わせます：' + v,
+    bandEyebrow: '素材ライブラリ', bandTitle: 'ポーズに衣装を合わせる', bandSub: 'ポーズの拡大表示で「このポーズに衣装を合わせる」を押すか、ここから選んでください。', bandCta: (n) => n + ' 点の衣装を見る',
+    keys: '← → アングル　↑ ↓ 前後の衣装　Esc 閉じる'
+  },
+  en: {
+    nav: 'Costumes', crumb: 'Library / Costumes',
+    title: (n) => 'Costumes · ' + n, sub: 'Ghost-mannequin product shots from the front, three-quarter, side and back. Pick one, pair it with any pose and hand both images to your AI outfit or character tool.',
+    gender: { all: 'All', F: 'Women', M: 'Men', U: 'Unisex' }, genderLabel: 'Gender', cat: 'Category', all: 'All',
+    views: ['Front', '3/4', 'Side', 'Back'], viewLabel: 'View', count: (n, all) => n + ' / ' + all, empty: 'No costumes match',
+    open: (id) => 'Open ' + id, gap: 'This view is not ready yet', download: 'Download · 900', save: 'Save to Photos',
+    descLabel: 'English costume description, ready for a prompt', adultOn: 'Lingerie: shown', adultOff: 'Lingerie: blurred', adultHint: 'Lingerie is blurred by default; tap one to see it, or show them all here', veilTitle: 'Lingerie, blurred',
+    pairWith: (id) => 'Pair with ' + id, startWith: 'Find a pose for this', pairCostume: (id) => 'Pair with ' + id, startPose: 'Pick a costume for this pose',
+    paired: (id) => 'Paired with ' + id,
+    tray: 'Pairing', slotPose: 'Pose', slotCostume: 'Costume', pickPose: 'Pick a pose', pickCostume: 'Pick a costume', picking: 'picking',
+    soon: 'Props · coming', done: 'Done', hide: 'Hide', end: 'End pairing',
+    group: 'This pair', prompt: 'Combined prompt', dlPose: 'Pose image', dlCostume: 'Costume image', saveGroup: 'Save both', holdGroup: 'Long-press each image and choose “Save Image”',
+    viewNote: (v) => 'Costume view follows the pose: ' + v,
+    bandEyebrow: 'Library', bandTitle: 'Dress your pose', bandSub: 'Open any pose and tap “Pick a costume for this pose”, or start here.', bandCta: (n) => 'Browse ' + n + ' costumes',
+    keys: '← → view　↑ ↓ costume　Esc close'
+  },
+  ko: {
+    nav: '의상', crumb: '소재 라이브러리 / 의상',
+    title: (n) => '의상 · ' + n + '벌', sub: '고스트 마네킹 상품 사진. 정면·사선·측면·뒷면 4개 앵글. 원하는 포즈에 맞춰 두 장을 함께 AI 의상 변경이나 캐릭터 설정에 쓰세요.',
+    gender: { all: '전체', F: '여성', M: '남성', U: '공용' }, genderLabel: '성별', cat: '분류', all: '전체',
+    views: ['정면', '사선', '측면', '뒷면'], viewLabel: '앵글', count: (n, all) => n + ' / ' + all + '벌', empty: '조건에 맞는 의상이 없습니다',
+    open: (id) => id + ' 크게 보기', gap: '이 앵글은 준비 중', download: '이 이미지 다운로드 · 900', save: '사진에 저장',
+    descLabel: '영어 의상 설명 (프롬프트에 바로 사용)', adultOn: '란제리: 표시', adultOff: '란제리: 흐림', adultHint: '란제리는 기본으로 흐리게 표시됩니다. 하나씩 눌러 보거나 여기서 모두 표시하세요', veilTitle: '란제리, 흐림 처리됨',
+    pairWith: (id) => id + '에 맞추기', startWith: '이 의상으로 포즈 고르기', pairCostume: (id) => id + ' 맞추기', startPose: '이 포즈에 의상 맞추기',
+    paired: (id) => id + ' 맞춤 완료',
+    tray: '코디', slotPose: '포즈', slotCostume: '의상', pickPose: '포즈 고르기', pickCostume: '의상 고르기', picking: '고르는 중',
+    soon: '소품 · 제작 중', done: '완료', hide: '접기', end: '코디 끝내기',
+    group: '이 조합', prompt: '합성 프롬프트', dlPose: '포즈 저장', dlCostume: '의상 저장', saveGroup: '두 장 모두 저장', holdGroup: '각 이미지를 길게 눌러 「이미지 저장」',
+    viewNote: (v) => '의상 앵글은 포즈를 따릅니다: ' + v,
+    bandEyebrow: '소재 라이브러리', bandTitle: '포즈에 의상 입히기', bandSub: '포즈를 크게 열고 「이 포즈에 의상 맞추기」를 누르거나 여기서 먼저 고르세요.', bandCta: (n) => '의상 ' + n + '벌 보기',
+    keys: '← → 앵글　↑ ↓ 이전·다음 의상　Esc 닫기'
+  }
+};
+
 // Strings shared with the build: tools/build_site.py reads this block with json.loads to write the static pages
 // (pose pages, changelog, 404) and their meta tags, so keep it strict JSON between the two marker lines.
 // {name}-style slots are filled at build time or by common.js.
@@ -154,6 +223,7 @@ window.I18N_PAGES = // BEGIN-JSON
 {
   "zh": {
     "langName": "中文", "langShort": "中", "ogLocale": "zh_CN",
+    "navCostumes": "服装", "costumeTitle": "服装参考 · {n} 件 × 4 视角 | Shisei", "costumeDesc": "{n} 件隐形人台服装参考图：中国历代、世界民族、现代日常、礼服、制服、幻想等，每件正面、斜侧、侧面、背面四个视角，CC0。",
     "navPoses": "姿势", "navChangelog": "更新日志",
     "views": ["正面", "斜侧", "侧面", "俯视", "仰视"],
     "descLabel": "英文姿势描述，可直接放进提示词", "copy": "复制", "copied": "已复制",
@@ -182,6 +252,7 @@ window.I18N_PAGES = // BEGIN-JSON
   },
   "ja": {
     "langName": "日本語", "langShort": "日", "ogLocale": "ja_JP",
+    "navCostumes": "衣装", "costumeTitle": "衣装リファレンス · {n} 点 × 4 アングル | Shisei", "costumeDesc": "ゴーストマネキンの衣装リファレンス {n} 点。中国の歴代衣装、世界の民族衣装、現代服、フォーマル、制服、ファンタジーなど。各 4 アングル、CC0。",
     "navPoses": "ポーズ", "navChangelog": "更新履歴",
     "views": ["正面", "斜め", "横", "上から", "下から"],
     "descLabel": "英語のポーズ説明（プロンプトにそのまま使えます）", "copy": "コピー", "copied": "コピーしました",
@@ -210,6 +281,7 @@ window.I18N_PAGES = // BEGIN-JSON
   },
   "en": {
     "langName": "English", "langShort": "EN", "ogLocale": "en_US",
+    "navCostumes": "Costumes", "costumeTitle": "Costume reference · {n} outfits × 4 views | Shisei", "costumeDesc": "{n} ghost-mannequin costume references: Chinese historical, world traditional, everyday, formal, workwear, fantasy and more, each from the front, three-quarter, side and back. CC0.",
     "navPoses": "Poses", "navChangelog": "Changelog",
     "views": ["Front", "3/4", "Side", "Above", "Below"],
     "descLabel": "Pose description, ready for a prompt", "copy": "Copy", "copied": "Copied",
@@ -238,6 +310,7 @@ window.I18N_PAGES = // BEGIN-JSON
   },
   "ko": {
     "langName": "한국어", "langShort": "한", "ogLocale": "ko_KR",
+    "navCostumes": "의상", "costumeTitle": "의상 레퍼런스 · {n}벌 × 4앵글 | Shisei", "costumeDesc": "고스트 마네킹 의상 레퍼런스 {n}벌. 중국 역대 복식, 세계 전통 의상, 데일리, 포멀, 유니폼, 판타지 등. 각 4앵글, CC0.",
     "navPoses": "포즈", "navChangelog": "변경 내역",
     "views": ["정면", "대각선", "옆", "위에서", "아래에서"],
     "descLabel": "영문 포즈 설명 (프롬프트에 바로 사용)", "copy": "복사", "copied": "복사됨",

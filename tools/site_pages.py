@@ -148,6 +148,7 @@ class Site:
   <a class="brand" href="{home}">{LOGO.format(s=40)}<span>Shisei</span></a>
   <div class="nav-links">
     <a href="{home}#all">{esc(T["navPoses"])}</a>
+    <a href="{rel}{PREFIX[loc]}costume/">{esc(T["navCostumes"])}</a>
     <a href="{rel}{PREFIX[loc]}changelog/">{esc(T["navChangelog"])}</a>
   </div>
   <div class="nav-tools">
