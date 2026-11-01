@@ -8,10 +8,11 @@
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
-**[갤러리 열기](https://shisei.indaloop.app/ko/) · [전체 다운로드 (w900, 36.5 MB)](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) · [다른 다운로드](#다운로드)**
+**[갤러리 열기](https://shisei.indaloop.app/ko/) · [선화 다운로드 (36.5 MB)](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-all-v0.4.1.zip) · [다른 다운로드](#다운로드)**
 
 [![Poses](https://img.shields.io/badge/포즈-280-15171A?style=flat-square)](../../data/catalog.json)
 [![Line art](https://img.shields.io/badge/선화-1212%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Maps](https://img.shields.io/badge/클레이·깊이·노멀-944-4A4A4A?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/실사-89-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/이름-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/런타임%20의존성-0-E07A52?style=flat-square)](../../web)
@@ -63,18 +64,20 @@ Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는
 
 ### 다운로드
 
-v0.4.0, 갤러리 다운로드 패널과 같은 파일입니다. 품질 검사를 통과한 앵글의 w900(선화와 실사, 마지막 두 개는 클레이와 깊이·노멀)에 LICENSE, LICENSE-images, NOTICE가 들어 있고, zip마다 옆에 `.sha256`이 있습니다.
+v0.4.1, 갤러리 다운로드 패널과 같은 파일입니다. 원본을 빼면 모두 품질 검사를 통과한 앵글의 900 px 판이고 LICENSE, LICENSE-images, NOTICE가 들어 있으며, zip마다 옆에 `.sha256`이 있습니다. 대부분은 선화만 있으면 됩니다. 클레이·깊이·노멀은 원래 900 px이라 원본이 없습니다.
 
-| zip | 세트 | 이미지 | 크기 |
-|---|---:|---:|---:|
-| [전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) (추천) | 280 | 1301 | 36.5 MB |
-| [전신・표준](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-std-v0.4.0.zip) | 71 | 389 | 9.4 MB |
-| [상반신](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-upper-v0.4.0.zip) | 80 | 359 | 10.0 MB |
-| [전신・섹시](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-sexy-v0.4.0.zip) (선정적) | 80 | 352 | 9.3 MB |
-| [2인](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-duo-v0.4.0.zip) (선정적) | 49 | 201 | 7.7 MB |
-| [클레이 · 전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-clay-v0.4.0.zip) | 270 | 944 | 9.2 MB |
-| [깊이 + 노멀 · 전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-controlnet-v0.4.0.zip) (ControlNet) | 270 | 1888 | 23.3 MB |
-| [원본](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-original-v0.4.0.zip) | 280 | 1301 | 152.3 MB |
+| zip | 내용 | 세트 | 이미지 | 크기 |
+|---|---|---:|---:|---:|
+| [선화 · 전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-all-v0.4.1.zip) (추천) | 선화 + 실사 | 280 | 1301 | 36.5 MB |
+| [모든 형식 · 전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-complete-v0.4.1.zip) | 선화, 실사, 클레이, 깊이, 노멀 | 280 | 4133 | 69.0 MB |
+| [클레이 · 전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-clay-v0.4.1.zip) | 클레이 | 270 | 944 | 9.2 MB |
+| [깊이 · 전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-depth-v0.4.1.zip) | 깊이 맵, ControlNet Depth용 | 270 | 944 | 7.1 MB |
+| [노멀 · 전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-normal-v0.4.1.zip) | 노멀 맵, ControlNet Normal용 | 270 | 944 | 16.2 MB |
+| [전신・표준](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-std-v0.4.1.zip) | 선화 + 실사 | 71 | 389 | 9.4 MB |
+| [상반신](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-upper-v0.4.1.zip) | 선화 | 80 | 359 | 10.0 MB |
+| [전신・섹시](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-sexy-v0.4.1.zip) (선정적) | 선화 | 80 | 352 | 9.3 MB |
+| [2인](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-duo-v0.4.1.zip) (선정적) | 선화 | 49 | 201 | 7.7 MB |
+| [원본](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-original-v0.4.1.zip) | 선화 + 실사, 원본 크기 | 280 | 1301 | 152.3 MB |
 
 ## 갤러리
 

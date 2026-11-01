@@ -1,53 +1,65 @@
 {
- "version": "0.4.0",
+ "version": "0.4.1",
  "packs": {
   "std": {
-   "file": "shisei-std-v0.4.0.zip",
+   "file": "shisei-std-v0.4.1.zip",
    "bytes": 9409110,
    "sets": 71,
    "images": 389
   },
   "upper": {
-   "file": "shisei-upper-v0.4.0.zip",
+   "file": "shisei-upper-v0.4.1.zip",
    "bytes": 10037299,
    "sets": 80,
    "images": 359
   },
   "sexy": {
-   "file": "shisei-sexy-v0.4.0.zip",
+   "file": "shisei-sexy-v0.4.1.zip",
    "bytes": 9304519,
    "sets": 80,
    "images": 352
   },
   "duo": {
-   "file": "shisei-duo-v0.4.0.zip",
+   "file": "shisei-duo-v0.4.1.zip",
    "bytes": 7744472,
    "sets": 49,
    "images": 201
   },
   "all": {
-   "file": "shisei-all-v0.4.0.zip",
+   "file": "shisei-all-v0.4.1.zip",
    "bytes": 36472222,
    "sets": 280,
    "images": 1301
   },
   "original": {
-   "file": "shisei-original-v0.4.0.zip",
+   "file": "shisei-original-v0.4.1.zip",
    "bytes": 152266742,
    "sets": 280,
    "images": 1301
   },
   "clay": {
-   "file": "shisei-clay-v0.4.0.zip",
+   "file": "shisei-clay-v0.4.1.zip",
    "bytes": 9227811,
    "sets": 270,
    "images": 944
   },
-  "controlnet": {
-   "file": "shisei-controlnet-v0.4.0.zip",
-   "bytes": 23287880,
+  "depth": {
+   "file": "shisei-depth-v0.4.1.zip",
+   "bytes": 7110041,
    "sets": 270,
-   "images": 1888
+   "images": 944
+  },
+  "normal": {
+   "file": "shisei-normal-v0.4.1.zip",
+   "bytes": 16185565,
+   "sets": 270,
+   "images": 944
+  },
+  "complete": {
+   "file": "shisei-complete-v0.4.1.zip",
+   "bytes": 68972461,
+   "sets": 280,
+   "images": 4133
   }
  }
 }

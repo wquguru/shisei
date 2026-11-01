@@ -4,14 +4,15 @@
 
 # Shisei 姿勢
 
-**免费（CC0）白模姿势参考库：四个系列 280 套无脸白模（素体）姿势，每套 5 个机位，线稿可直接喂给 Nano Banana、ChatGPT、ComfyUI、Midjourney 等 AI 绘图工具。**
+**免费（CC0）姿势线稿库：四个系列 280 套无脸素体姿势，每套 5 个机位；大部分机位另有白模、深度图和法线图。可直接喂给 Nano Banana、ChatGPT、ComfyUI、Midjourney 等 AI 绘图工具。**
 
 [English](../../README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-**[打开画廊](https://shisei.indaloop.app/) · [下载全部（w900，36.5 MB）](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) · [其他下载](#下载)**
+**[打开画廊](https://shisei.indaloop.app/) · [下载线稿（36.5 MB）](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-all-v0.4.1.zip) · [其他下载](#下载)**
 
 [![Poses](https://img.shields.io/badge/姿势-280-15171A?style=flat-square)](../../data/catalog.json)
 [![Line art](https://img.shields.io/badge/线稿-1212%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Maps](https://img.shields.io/badge/白模·深度·法线-944-4A4A4A?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/实拍-89-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/运行时依赖-0-E07A52?style=flat-square)](../../web)
@@ -63,18 +64,20 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 
 ### 下载
 
-v0.4.0，和画廊下载面板里的是同一批文件。每个包里是质检通过的机位的 w900 档（线稿和实拍；最后两个是白模，以及深度图和法线图），外加 LICENSE、LICENSE-images 和 NOTICE；每个压缩包旁边都有一个 `.sha256` 校验文件。
+v0.4.1，和画廊下载面板里的是同一批文件。除原图包外，每个包都是质检通过的机位的 900 px 档，外加 LICENSE、LICENSE-images 和 NOTICE，旁边各有一个 `.sha256`。大多数人只要线稿包。白模、深度、法线没有原图包：它们本来就是 900 px。
 
-| 压缩包 | 套数 | 图片 | 大小 |
-|---|---:|---:|---:|
-| [全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip)（推荐） | 280 | 1301 | 36.5 MB |
-| [全身・标准](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-std-v0.4.0.zip) | 71 | 389 | 9.4 MB |
-| [上半身](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-upper-v0.4.0.zip) | 80 | 359 | 10.0 MB |
-| [全身・性感](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-sexy-v0.4.0.zip)（偏性感） | 80 | 352 | 9.3 MB |
-| [双人](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-duo-v0.4.0.zip)（偏性感） | 49 | 201 | 7.7 MB |
-| [白模 · 全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-clay-v0.4.0.zip) | 270 | 944 | 9.2 MB |
-| [深度 + 法线 · 全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-controlnet-v0.4.0.zip)（ControlNet） | 270 | 1888 | 23.3 MB |
-| [原图](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-original-v0.4.0.zip) | 280 | 1301 | 152.3 MB |
+| 压缩包 | 内容 | 套数 | 图片 | 大小 |
+|---|---|---:|---:|---:|
+| [线稿 · 全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-all-v0.4.1.zip)（推荐） | 线稿 + 实拍 | 280 | 1301 | 36.5 MB |
+| [全部格式 · 全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-complete-v0.4.1.zip) | 线稿、实拍、白模、深度、法线 | 280 | 4133 | 69.0 MB |
+| [白模 · 全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-clay-v0.4.1.zip) | 白模 | 270 | 944 | 9.2 MB |
+| [深度 · 全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-depth-v0.4.1.zip) | 深度图，给 ControlNet Depth | 270 | 944 | 7.1 MB |
+| [法线 · 全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-normal-v0.4.1.zip) | 法线图，给 ControlNet Normal | 270 | 944 | 16.2 MB |
+| [全身・标准](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-std-v0.4.1.zip) | 线稿 + 实拍 | 71 | 389 | 9.4 MB |
+| [上半身](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-upper-v0.4.1.zip) | 线稿 | 80 | 359 | 10.0 MB |
+| [全身・性感](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-sexy-v0.4.1.zip)（偏性感） | 线稿 | 80 | 352 | 9.3 MB |
+| [双人](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-duo-v0.4.1.zip)（偏性感） | 线稿 | 49 | 201 | 7.7 MB |
+| [原图](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-original-v0.4.1.zip) | 线稿 + 实拍，原始尺寸 | 280 | 1301 | 152.3 MB |
 
 ## 画廊
 

@@ -9,10 +9,11 @@ for Nano Banana, ChatGPT, ComfyUI, Midjourney and other AI image tools.**
 
 English · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [한국어](docs/readme/README.ko.md)
 
-**[Open the gallery](https://shisei.indaloop.app/en/) · [Download all, w900 (36.5 MB)](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) · [Other downloads](#downloads)**
+**[Open the gallery](https://shisei.indaloop.app/en/) · [Download line art (36.5 MB)](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-all-v0.4.1.zip) · [Other downloads](#downloads)**
 
 [![Poses](https://img.shields.io/badge/poses-280-15171A?style=flat-square)](data/catalog.json)
 [![Line art](https://img.shields.io/badge/line%20art-1212%20QC%20passed-1A5CC8?style=flat-square)](docs/GENERATION.md)
+[![Maps](https://img.shields.io/badge/clay%20·%20depth%20·%20normal-944-4A4A4A?style=flat-square)](docs/GENERATION.md)
 [![Photos](https://img.shields.io/badge/photos-89-5B616A?style=flat-square)](docs/GENERATION.md)
 [![Languages](https://img.shields.io/badge/names-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/runtime%20deps-0-E07A52?style=flat-square)](web)
@@ -77,19 +78,20 @@ The repository holds the three web tiers (about 63 MB). The full-size originals 
 
 ### Downloads
 
-v0.4.0, the same files the gallery's download panel offers. Each holds the w900 tier, line art and photo renders (the last two: clay, or depth and
-normal maps), of the views that passed QC, plus LICENSE, LICENSE-images and NOTICE; a `.sha256` sits next to each zip.
+v0.4.1, the same files the gallery's download panel offers. Every zip is the 900 px tier of the views that passed QC (the originals excepted), with LICENSE, LICENSE-images and NOTICE; a `.sha256` sits next to each. Most people only need the line-art zip. Clay, depth and normal have no originals: they are 900 px to begin with.
 
-| Pack | Sets | Images | Size |
-|---|---:|---:|---:|
-| [All series](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) (recommended) | 280 | 1301 | 36.5 MB |
-| [Full body · standard](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-std-v0.4.0.zip) | 71 | 389 | 9.4 MB |
-| [Upper body](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-upper-v0.4.0.zip) | 80 | 359 | 10.0 MB |
-| [Full body · sexy](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-sexy-v0.4.0.zip) (suggestive) | 80 | 352 | 9.3 MB |
-| [Duo](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-duo-v0.4.0.zip) (suggestive) | 49 | 201 | 7.7 MB |
-| [Clay maps, all series](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-clay-v0.4.0.zip) | 270 | 944 | 9.2 MB |
-| [Depth + normal maps, all series](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-controlnet-v0.4.0.zip) (ControlNet) | 270 | 1888 | 23.3 MB |
-| [Originals, full size](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-original-v0.4.0.zip) | 280 | 1301 | 152.3 MB |
+| Pack | Contents | Sets | Images | Size |
+|---|---|---:|---:|---:|
+| [Line art · all series](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-all-v0.4.1.zip) (recommended) | line art + photos | 280 | 1301 | 36.5 MB |
+| [Every format · all series](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-complete-v0.4.1.zip) | line art, photos, clay, depth, normal | 280 | 4133 | 69.0 MB |
+| [Clay · all series](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-clay-v0.4.1.zip) | clay maps | 270 | 944 | 9.2 MB |
+| [Depth · all series](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-depth-v0.4.1.zip) | depth maps, for ControlNet Depth | 270 | 944 | 7.1 MB |
+| [Normal · all series](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-normal-v0.4.1.zip) | normal maps, for ControlNet Normal | 270 | 944 | 16.2 MB |
+| [Full body · standard](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-std-v0.4.1.zip) | line art + photos | 71 | 389 | 9.4 MB |
+| [Upper body](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-upper-v0.4.1.zip) | line art | 80 | 359 | 10.0 MB |
+| [Full body · sexy](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-sexy-v0.4.1.zip) (suggestive) | line art | 80 | 352 | 9.3 MB |
+| [Duo](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-duo-v0.4.1.zip) (suggestive) | line art | 49 | 201 | 7.7 MB |
+| [Originals](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-original-v0.4.1.zip) | line art + photos at full size | 280 | 1301 | 152.3 MB |
 
 ## Gallery
 

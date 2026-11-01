@@ -8,10 +8,11 @@
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
-**[ギャラリーを開く](https://shisei.indaloop.app/ja/) · [すべてダウンロード（w900、36.5 MB）](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) · [ほかのダウンロード](#ダウンロード)**
+**[ギャラリーを開く](https://shisei.indaloop.app/ja/) · [線画をダウンロード（36.5 MB）](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-all-v0.4.1.zip) · [ほかのダウンロード](#ダウンロード)**
 
 [![Poses](https://img.shields.io/badge/ポーズ-280-15171A?style=flat-square)](../../data/catalog.json)
 [![Line art](https://img.shields.io/badge/線画-1212%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Maps](https://img.shields.io/badge/クレイ·深度·法線-944-4A4A4A?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/実写-89-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/ランタイム依存-0-E07A52?style=flat-square)](../../web)
@@ -63,18 +64,20 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 
 ### ダウンロード
 
-v0.4.0。ギャラリーのダウンロードパネルと同じファイルです。品質チェックを通ったアングルの w900（線画と実写。最後の 2 つはクレイ、深度と法線）に、LICENSE、LICENSE-images、NOTICE が入っています。各 zip の隣に `.sha256` があります。
+v0.4.1。ギャラリーのダウンロードパネルと同じファイルです。原寸以外はどれも品質チェックを通ったアングルの 900 px 版で、LICENSE、LICENSE-images、NOTICE 入り。各 zip の隣に `.sha256` があります。ほとんどの人は線画だけで十分です。クレイ・深度・法線は元から 900 px なので原寸版はありません。
 
-| zip | セット | 画像 | サイズ |
-|---|---:|---:|---:|
-| [全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip)（おすすめ） | 280 | 1301 | 36.5 MB |
-| [全身・標準](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-std-v0.4.0.zip) | 71 | 389 | 9.4 MB |
-| [上半身](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-upper-v0.4.0.zip) | 80 | 359 | 10.0 MB |
-| [全身・セクシー](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-sexy-v0.4.0.zip)（やや性的） | 80 | 352 | 9.3 MB |
-| [ふたり](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-duo-v0.4.0.zip)（やや性的） | 49 | 201 | 7.7 MB |
-| [クレイ・全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-clay-v0.4.0.zip) | 270 | 944 | 9.2 MB |
-| [深度 + 法線・全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-controlnet-v0.4.0.zip)（ControlNet） | 270 | 1888 | 23.3 MB |
-| [原寸](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-original-v0.4.0.zip) | 280 | 1301 | 152.3 MB |
+| zip | 内容 | セット | 画像 | サイズ |
+|---|---|---:|---:|---:|
+| [線画・全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-all-v0.4.1.zip)（おすすめ） | 線画 + 実写 | 280 | 1301 | 36.5 MB |
+| [全形式・全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-complete-v0.4.1.zip) | 線画、実写、クレイ、深度、法線 | 280 | 4133 | 69.0 MB |
+| [クレイ・全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-clay-v0.4.1.zip) | クレイ | 270 | 944 | 9.2 MB |
+| [深度・全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-depth-v0.4.1.zip) | 深度マップ（ControlNet Depth 用） | 270 | 944 | 7.1 MB |
+| [法線・全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-normal-v0.4.1.zip) | 法線マップ（ControlNet Normal 用） | 270 | 944 | 16.2 MB |
+| [全身・標準](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-std-v0.4.1.zip) | 線画 + 実写 | 71 | 389 | 9.4 MB |
+| [上半身](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-upper-v0.4.1.zip) | 線画 | 80 | 359 | 10.0 MB |
+| [全身・セクシー](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-sexy-v0.4.1.zip)（やや性的） | 線画 | 80 | 352 | 9.3 MB |
+| [ふたり](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-duo-v0.4.1.zip)（やや性的） | 線画 | 49 | 201 | 7.7 MB |
+| [原寸](https://github.com/wquguru/shisei/releases/download/v0.4.1/shisei-original-v0.4.1.zip) | 線画 + 実写、原寸 | 280 | 1301 | 152.3 MB |
 
 ## ギャラリー
 

@@ -7,6 +7,18 @@ the catalog schema.
 
 ## [Unreleased]
 
+## [0.4.1] - 2026-10-31
+
+### Changed
+- Downloads say what each zip holds. The panel leads with "Line art · all series" (line art and photos, chips with
+  the counts), then a new `shisei-complete` zip with every format (69 MB), one zip per map format
+  (`shisei-clay`, `shisei-depth`, `shisei-normal`: depth and normal were one `shisei-controlnet` zip, but people pick
+  one ControlNet and the normals are twice the size), the series zips marked line art + photos, and the originals
+  marked line art + photos at full size, with a note that the maps have no originals. The hero download button no
+  longer shows the line-art zip's size as if it were everything. README download tables gain a contents column.
+- Chinese copy: 白模 now only names the clay format; the mannequin line art is 素体 (hero title 姿势线稿参考, page
+  title, share card, pose-page descriptions, README). Every language's hero line mentions the three map formats.
+
 ## [0.4.0] - 2026-10-31
 
 ### Added
@@ -180,7 +192,8 @@ First version, prepared for open-sourcing.
   Release asset.
 - `tools/verify.py` (catalog ↔ files, known gaps), `tools/build_images.sh`, `tools/pack_release.sh`, CI.
 
-[Unreleased]: ../../compare/v0.4.0...HEAD
+[Unreleased]: ../../compare/v0.4.1...HEAD
+[0.4.1]: ../../compare/v0.4.0...v0.4.1
 [0.4.0]: ../../compare/v0.3.0...v0.4.0
 [0.3.0]: ../../compare/v0.2.0...v0.3.0
 [0.2.0]: ../../compare/v0.1.0...v0.2.0
