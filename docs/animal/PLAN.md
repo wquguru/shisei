@@ -48,7 +48,8 @@
 ## 4. 提示词
 
 模板在 `tools/series_kit.py`（`ANIMAL_LINE` / `ANIMAL_PHOTO` / `ANIMAL_TURN` / `ANIMAL_VIEW_TEXT`）。
-- **A 线稿**：`Clean black-line construction drawing for a pose reference: a smooth featureless wooden artist's mannequin of an adult {species}, … ball joints at the shoulders, elbows, wrists, hips, knees and hocks, a segmented neck and {tail}, no fur, no eyes … Pose: {desc}. {view}. …`
+- **A 线稿**：`Clean black-line figure drawing for a pose reference, in the style of an artist's anatomy construction sketch: an adult {species} drawn as one smooth, continuous organic outer contour …, small light circles marking the shoulder, elbow, hip, knee and hock joints …` 末尾明确否定机械件（圆筒分节、螺栓、铰链、分节脖子和尾巴、弹簧尾巴）。
+  probe-all01 用“木制关节人偶 + 分节脖子”的写法画成了机器人，2026-10-31 改成照姿势库线稿的画法写。
   画风沿用 Muse 的 `pose_lineart_gallery` 定稿线稿（线宽、留白），只换素体。
 - **B 照片**：同一句 Pose，加 `{coat}`，浅灰底。
 - **转机位**：以 A 正面为参考，“同一只动物、同一个姿势，只有相机动，不要镜像”。五个机位的写法对齐姿势库：俯视约 30° 看到头顶和整条背，仰视约 45° 看到下颌、胸腹底面、近处爪子比头大。

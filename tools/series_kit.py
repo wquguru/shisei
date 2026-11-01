@@ -122,15 +122,21 @@ ANIMAL_VIEW_TEXT = {
     "below": "low-angle view from about 45 degrees below, in front and slightly to the left, so the underside of "
              "the jaw, chest and belly are visible and the nearest paws look larger than the head",
 }
-# Style A follows the pose library: a featureless articulated mannequin in black construction lines, so one card
-# serves every breed and coat. Style B is a photograph, only tried in the probe to decide D-14.
+# Style A follows the pose library's line art: one smooth organic contour with light construction lines, so one
+# card serves every breed and coat. probe-all01 asked for a "wooden artist's mannequin" with a "segmented neck" and
+# got robots (tube segments, bolts, coiled-spring tails), so the prompt now names the drawing style instead of a
+# jointed toy and forbids the mechanical parts. Style B is a photograph, only tried in the probe to decide D-14.
 ANIMAL_LINE = (
-    "Clean black-line construction drawing for a pose reference: a smooth featureless wooden artist's mannequin "
-    "of an adult {species}, with the real anatomy and proportions of the animal, ball joints at the shoulders, "
-    "elbows, wrists, hips, knees and hocks, a segmented neck and {tail}, no fur, no eyes, no mouth detail, no "
-    "markings. Pose: {desc}. {view}. Whole body in frame with even margins, thin even black lines with light "
-    "construction lines on pure white, no shading, no colour, no ground, no background, 3:4 vertical.\n{rules}\n"
-    "No people, no hands, no other animals, no text, no watermark. {negatives}")
+    "Clean black-line figure drawing for a pose reference, in the style of an artist's anatomy construction "
+    "sketch: an adult {species} drawn as one smooth, continuous organic outer contour that follows the real "
+    "anatomy, muscle masses and proportions of the animal, with a few thin light construction lines inside (a "
+    "spine line, cross-contour curves over the ribcage and pelvis) and small light circles marking the shoulder, "
+    "elbow, hip, knee and hock joints; a smooth neck that flows into the body and {tail}; no fur, no eyes, no "
+    "mouth detail, no markings. Pose: {desc}. {view}. Whole body in frame with even margins, thin even black "
+    "lines on pure white, no shading, no colour, no ground, no background, 3:4 vertical.\n{rules}\n"
+    "Not a robot, toy or wooden puppet: no mechanical parts, no cylinders or tube segments, no bolts, pins, screws "
+    "or hinges, no ribbed or segmented neck or tail, no coiled-spring tail. No people, no hands, no other animals, "
+    "no text, no watermark. {negatives}")
 ANIMAL_PHOTO = (
     "Realistic photograph of an adult {species} with {coat}. Pose: {desc}. {view}. Whole body in frame with even "
     "margins, soft even studio lighting, uniform flat light grey background with no gradient, no floor shadow, "
@@ -152,8 +158,12 @@ ANIMAL_TURN = (
 LIGHT_VIEWS = ("front", "diag", "side")
 LIGHT_SUBJECTS = {
     "figure": {
-        "long": "a life-size matte light-grey faceless artist's mannequin with a smooth egg-shaped head, ball joints "
-                "and neutral adult proportions, standing upright facing the camera with arms relaxed at its sides, "
+        "long": "a life-size faceless figure-drawing mannequin: one smooth seamless matte "
+                "light-grey shell with slim adult female proportions (a softly defined chest with no nipples or other "
+                "anatomical detail, narrow waist, rounded hips), a smooth egg-shaped head with no features, small "
+                "spherical joints only at the shoulders, elbows, wrists, hips, knees and ankles, and hands with "
+                "separated fingers, not a wooden artist's dummy: no wood grain, no blocky segments, no hinges, no "
+                "screws; standing upright facing the camera with arms relaxed at its sides, "
                 "and a matte mid-grey sphere 25 cm across on a slim grey pedestal at hip height, placed one metre in "
                 "front of it and one metre to its right (image-left), so the sphere stays visible from the front, "
                 "three-quarter and side views",
@@ -168,7 +178,7 @@ LIGHT_SUBJECTS = {
             "side": "the camera moved 90 degrees around to the mannequin's left side, showing it in profile facing "
                     "image-left, same height and distance",
         },
-        "negatives": "No people, no real face, no hair, no clothing, no text, no logo, no watermark.",
+        "negatives": "No people, no real face, no hair, no clothing, no wooden artist's dummy, no blocky or hinged joints, no text, no logo, no watermark.",
     },
     "bust": {
         "long": "a life-size matte light-grey plaster head-and-shoulders drawing cast of a generic adult on a grey "

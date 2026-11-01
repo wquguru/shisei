@@ -15,7 +15,7 @@
    "group": "cat",
    "probe": true,
    "species": "domestic cat",
-   "tail": "a segmented tail",
+   "tail": "one smooth tapering tail",
    "coat": "short grey tabby fur",
    "name": {
     "zh": "端坐",
@@ -48,7 +48,7 @@
    "group": "cat",
    "probe": true,
    "species": "domestic cat",
-   "tail": "a segmented tail",
+   "tail": "one smooth tapering tail",
    "coat": "short ginger fur",
    "name": {
     "zh": "伸懒腰",
@@ -81,7 +81,7 @@
    "group": "cat",
    "probe": true,
    "species": "domestic cat",
-   "tail": "a segmented tail",
+   "tail": "one smooth tapering tail",
    "coat": "black and white bicolour fur",
    "name": {
     "zh": "团成一团睡",
