@@ -91,9 +91,9 @@
     {
       "key": "pipa", "group": "cn-string", "probe": true, "place": "float", "size": "L",
       "name": {"zh": "琵琶", "ja": "琵琶", "en": "Pipa", "ko": "비파"},
-      "desc": "a Chinese pipa held upright: a pear-shaped body in {wood} with a flat pale paulownia soundboard and no soundhole, a small low string-holder bridge near the bottom, exactly four strings, a short neck carrying exactly four tall wedge-shaped wooden frets (xiang), then ten thin bamboo frets set into the upper soundboard below them, a pegbox bent slightly back with exactly four lateral tuning pegs, two on each side, topped by a small plain curled head; no dragon or bat carving, no plectrum or nail picks",
-      "keep": "{wood} pear-shaped pipa, flat soundboard with no soundhole, low bridge, four strings, four wedge frets on the neck, ten bamboo frets on the soundboard, bent-back pegbox with two pegs per side, plain curled head",
-      "checks": ["四根弦", "琴颈四个相、面板十个品", "弦轴左右各二", "面板无音孔"],
+      "desc": "a Chinese pipa held upright: a pear-shaped body in {wood} with a flat pale paulownia soundboard and no soundhole, a small low string-holder bridge near the bottom, exactly four strings, a short neck carrying exactly six tall wedge-shaped wooden frets (xiang), then a long evenly spaced run of thin bamboo frets set into the soundboard below them, reaching about two-thirds of the way down, a pegbox bent slightly back with exactly four lateral tuning pegs, two on each side, topped by a small plain curled head; no dragon or bat carving, no plectrum or nail picks",
+      "keep": "{wood} pear-shaped pipa, flat soundboard with no soundhole, low bridge, four strings, six wedge frets on the neck, a long run of bamboo frets on the soundboard, bent-back pegbox with two pegs per side, plain curled head",
+      "checks": ["四根弦", "琴颈六个相、面板一长排竹品", "弦轴左右各二", "面板无音孔"],
       "variants": [
         {"key": "hongmu", "name": {"zh": "红木", "ja": "紅木", "en": "Rosewood", "ko": "홍목"}, "vars": {"wood": "dark reddish-brown rosewood"}}
       ]

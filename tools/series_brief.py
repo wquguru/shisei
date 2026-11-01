@@ -7,8 +7,8 @@ The counterpart of costume_brief.py. Either one category, or --probe: the first 
 Usage: python3 -I tools/series_brief.py scene IN ~/Downloads/scene-IN-run01 [--only E001,E002] [--skip E003] [--gate 10]
        python3 -I tools/series_brief.py scene IN,UR ~/Downloads/scene-IN-UR-run01   (several categories, one paste)
        python3 -I tools/series_brief.py prop --probe ~/Downloads/prop-probe01
-Writes OUT/brief.md and OUT/manifest.json; items that already have every view are skipped. The animal library only
-has its --probe brief, which draws every probe item in two styles to decide D-14 (docs/animal/PLAN.md).
+Writes OUT/brief.md and OUT/manifest.json; items that already have every view are skipped. The animal --probe brief
+also draws a B-style photo front of every item (it decided D-14); animal production briefs are line art only.
 """
 import argparse, json, pathlib, sys
 
@@ -158,20 +158,30 @@ def light_parts(cats: dict, cat_list: list) -> list:
     return L
 
 
-def animal_parts(cats: dict, cat_list: list) -> list:
-    return [
+def animal_parts(cats: dict, cat_list: list, probe: bool = True) -> list:
+    # The probe drew a B-style photo beside each line drawing to decide D-14; production is line art only (D-14:
+    # A style, main view must pass, the other views are best effort and a failed one becomes a gap).
+    L = ([
         "## 这轮要回答的问题",
         "动物库用哪种画风（D-14）：A = 和姿势库线稿同一种画法（平滑的解剖轮廓 + 浅结构线，不是机器人或木偶）；B = 写实照片。每个动作两种都画正面，"
         "A 再做全部五个机位。notes.md 最后给出你的判断：哪种更稳、哪种肢体更不容易错。",
         "",
+    ] if probe else [])
+    L += [
         "## 规则",
-        "1. 一次一张图。每个动作的顺序：A 主图（每个动作标了“主图”：猫狗兔马是侧面，鸟和龙是正面）→ B 正面 → "
-        "A 第二张（主图是侧面就画正面，主图是正面就画侧面，参考主图）→ A 斜侧 / 俯视 / 仰视（同时参考主图和第二张）。",
+        "1. 一次一张图。每个动作的顺序：A 主图（每个动作标了“主图”：猫狗兔马和野生动物是侧面，鸟和幻想生物多是正面）"
+        + ("→ B 正面 " if probe else "")
+        + "→ A 第二张（主图是侧面就画正面，主图是正面就画侧面，参考主图）→ A 斜侧 / 俯视 / 仰视（同时参考主图和第二张）。",
         "2. 主图最多 3 次，其余各最多 2 次。每张先数腿、尾巴、翅膀、耳朵，再对“要点”；多一条少一条都算错。",
         "3. 关节方向：猫狗的后腿在跗关节处向后弯，马的前膝向前弯；画反算错。",
         "4. 不要幼崽，不要项圈、衣服、道具、地面和背景元素；不要和任何作品里的角色像。",
         "5. A 风格沿用 pose_lineart_gallery 定稿线稿的线条粗细、留白和画法：一条平滑的外轮廓 + 少量浅色结构线，关节只画小圆；"
         "画成圆筒分节、螺栓、铰链、分节脖子或弹簧尾巴的都算错。",
+    ]
+    if not probe:
+        L += ["6. 主图不过，这个动作后面都不做，记 wrong。第二张不过，斜侧 / 俯视 / 仰视照做，只参考主图一张（{refs} 用单图那句）；"
+              "其余视角画不对的就记 wrong 留空，不要拿姿势不对的图凑数。"]
+    L += [
         "",
         "## A 主图模板（线稿；{species} {tail} {desc} 换成该动作的字段，{view} 按主图选下面一行）",
         "```",
@@ -180,10 +190,11 @@ def animal_parts(cats: dict, cat_list: list) -> list:
         f"- 主图是侧面：{K.ANIMAL_VIEW_TEXT['side']}",
         f"- 主图是正面：{K.ANIMAL_VIEW_TEXT['front']}",
         "",
-        "## B 正面模板（照片；多一个 {coat}）",
-        "```",
-        K.ANIMAL_PHOTO.replace("{view}", K.ANIMAL_VIEW_TEXT["front"]),
-        "```",
+    ]
+    if probe:
+        L += ["## B 正面模板（照片；多一个 {coat}）", "```", K.ANIMAL_PHOTO.replace("{view}", K.ANIMAL_VIEW_TEXT["front"]),
+              "```"]
+    L += [
         "大类规则：",
         cat_rules(cats, cat_list),
         "",
@@ -195,9 +206,10 @@ def animal_parts(cats: dict, cat_list: list) -> list:
         + K.ANIMAL_REFS["two"] + "”。{main} {second} 填 side / front。",
         *[f"- {v} 的 {{view}}：{K.ANIMAL_VIEW_TEXT[v]}" for v in ("front", "side", "diag", "above", "below")],
     ]
+    return L
 
 
-def item_lines(lib: str, i: dict) -> list:
+def item_lines(lib: str, i: dict, probe: bool = True) -> list:
     head = f"### {i['id']} {i['cat']} · {i['group_zh']} · {i['name_zh']}"
     if lib == "scene":
         meta = [f"light：{i['light']}"]
@@ -209,7 +221,7 @@ def item_lines(lib: str, i: dict) -> list:
         meta = [f"主体：{'石膏胸像' if i.get('subject') == 'bust' else '全身人台'}", f"setting：{i['setting']}"]
     elif lib == "animal":
         meta = [f"主图：{VIEW_ZH[i.get('main', 'front')]}", f"species：{i['species']}", f"tail：{i['tail']}",
-                f"coat（仅 B）：{i['coat']}"]
+                *([f"coat（仅 B）：{i['coat']}"] if probe else [])]
     else:
         meta = [f"place = {'落地' if i.get('place') == 'stand' else '悬浮'}；"
                 f"fill = {dict(S='小', M='中', L='大')[i.get('size', 'M')]}；"
@@ -230,8 +242,6 @@ def main() -> None:
     a = ap.parse_args()
     if bool(a.cat) == a.probe:
         raise SystemExit("give either a category or --probe")
-    if a.lib == "animal" and not a.probe:
-        raise SystemExit("the animal library only has a --probe brief until D-14 decides its style")
     cfg = K.LIBS[a.lib]
     views = cfg["views"]
     cats = json.loads((ROOT / cfg["src"] / "_categories.json").read_text())
@@ -251,7 +261,7 @@ def main() -> None:
     run = out.name
     order = (lambda i: K.ANIMAL_ORDER[i.get("main", "front")]) if a.lib == "animal" else (lambda i: views)
     need = {i["id"]: [v for v in order(i) if not i["views"].get(v)] for i in items}  # drawing order: references first
-    n_img = sum(len(v) for v in need.values()) + (len(items) if a.lib == "animal" else 0)  # + one B-style front each
+    n_img = sum(len(v) for v in need.values()) + (len(items) if a.lib == "animal" and a.probe else 0)  # + B-style fronts
     cat_list = sorted({i["cat"] for i in items}, key=lambda c: cats[c]["order"])
     title = ("试验（每个大类挑几件，验证能不能稳定生成）" if a.probe
              else "、".join(f"{cats[c]['name']['zh']}（{c}）" for c in cat_list))
@@ -267,17 +277,18 @@ def main() -> None:
          + ("这是试验轮：每张都要认真自查，notes.md 写清楚哪类稳、哪类不稳、改写后怎样，这份记录决定正式生产的模板。"
             if a.probe else ""),
          "", *gate,
-         *{"scene": scene_parts, "prop": prop_parts, "furniture": furniture_parts, "light": light_parts, "animal": animal_parts}[a.lib](cats, cat_list),
+         *(animal_parts(cats, cat_list, a.probe) if a.lib == "animal" else
+           {"scene": scene_parts, "prop": prop_parts, "furniture": furniture_parts, "light": light_parts}[a.lib](cats, cat_list)),
          "", "## 交付",
          f"打包成 {run}.zip（太大可以分成 {run}-part1.zip、part2…）：",
          f"- img/<ID>_<view>.png，view = {' / '.join(views)}，例如 img/{items[0]['id']}_{views[0]}.png；1344×1792 PNG"
-         + ("；B 风格正面存为 img/<ID>_photo.png" if a.lib == "animal" else ""),
+         + ("；B 风格正面存为 img/<ID>_photo.png" if a.lib == "animal" and a.probe else ""),
          "- attempts.csv：file,attempts,outcome,hits,note（outcome = ok / refused / wrong；hits = 要点命中数如 4/4）",
          "- notes.md：按大类总结一次就对的、改写才对的、怎么写都不对的，以及改写用过的句子",
          f"做完给我下载链接，回复最后一行写：DONE {run} ok=<数> refused=<数> wrong=<数>",
          "", f"## {len(items)} {unit}"]
     for i in items:
-        L += item_lines(a.lib, i)
+        L += item_lines(a.lib, i, a.probe)
     (out / "brief.md").write_text("\n".join(L) + "\n")
     (out / "manifest.json").write_text(json.dumps({"run": run, "lib": a.lib, "cat": a.cat or "probe",
                                                    "need": need}, indent=1) + "\n")
