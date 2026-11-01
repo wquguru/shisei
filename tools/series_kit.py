@@ -243,13 +243,35 @@ def light_turn(subject: str) -> str:
 
 LIBS = {
     "scene": {"letter": "E", "src": "data/scene-src", "out": "data/scenes.json", "views": SCENE_VIEWS,
-              "label": "场景库", "plan": "docs/scene/PLAN.md"},
+              "label": "场景库", "plan": "docs/scene/PLAN.md", "matte": False,
+              "statuses": ("content", "spot", "view", "consistency", "form")},
     "prop": {"letter": "T", "src": "data/prop-src", "out": "data/props.json", "views": PROP_VIEWS,
-             "label": "道具库", "plan": "docs/prop/PLAN.md"},
+             "label": "道具库", "plan": "docs/prop/PLAN.md", "matte": True,
+             "statuses": ("content", "matte", "view", "consistency", "form")},
     "furniture": {"letter": "F", "src": "data/furniture-src", "out": "data/furniture.json", "views": FURN_VIEWS,
-                  "label": "家具库", "plan": "docs/furniture/PLAN.md"},
+                  "label": "家具库", "plan": "docs/furniture/PLAN.md", "matte": True,
+                  "statuses": ("content", "matte", "view", "consistency", "form", "scale")},
     "light": {"letter": "L", "src": "data/light-src", "out": "data/lights.json", "views": LIGHT_VIEWS,
-              "label": "光线库", "plan": "docs/light/PLAN.md"},
+              "label": "光线库", "plan": "docs/light/PLAN.md", "matte": False,
+              "statuses": ("content", "subject", "light", "turn")},
     "animal": {"letter": "A", "src": "data/animal-src", "out": "data/animals.json", "views": ANIMAL_VIEWS,
-               "label": "动物库", "plan": "docs/animal/PLAN.md"},
+               "label": "动物库", "plan": "docs/animal/PLAN.md", "matte": False,
+               "statuses": ("content", "style", "limbs", "view", "consistency", "form")},
 }
+
+# Image tiers once a view passes QC (series_build.py, verify.py). Matted libraries (prop, furniture) follow the costume
+# library: house grey #D9D9D9 at q60 in three widths plus a transparent cut-out at w900 only (D-10 7). The others keep
+# their own background and use the pose tiers. Settings checked side by side on run01 samples, 2026-11-01.
+LOOKS = {
+    True: {"grey": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}, "alpha": {"w900": (900, 1200)}},
+    False: {"plain": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}},
+}
+CWEBP = {"grey": ["-q", "60", "-m", "6", "-sharp_yuv"],
+         "alpha": ["-q", "65", "-alpha_q", "80", "-m", "6", "-sharp_yuv"],
+         "plain": {"w300": ["-q", "70", "-m", "6"], "w600": ["-q", "72", "-m", "6"], "w900": ["-q", "75", "-m", "6"]}}
+STATUSES_ALL = ("pass", "missing")
+
+
+def qc_paths(lib: str) -> tuple:
+    """(qc input dir, qc json) for a library, e.g. data/prop-qc-input, data/prop-qc.json."""
+    return f"data/{lib}-qc-input", f"data/{lib}-qc.json"
