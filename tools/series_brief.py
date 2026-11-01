@@ -164,17 +164,21 @@ def animal_parts(cats: dict, cat_list: list) -> list:
         "A 再做全部五个机位。notes.md 最后给出你的判断：哪种更稳、哪种肢体更不容易错。",
         "",
         "## 规则",
-        "1. 一次一张图。每个动作的顺序：A 正面 → B 正面 → A 斜侧 / 侧面 / 俯视 / 仰视（都参考 A 正面）。",
+        "1. 一次一张图。每个动作先画 A 主图（每个动作标了“主图”：猫狗兔马是侧面，鸟和龙是正面）→ B 正面 → "
+        "A 其余四个机位（都参考 A 主图）。",
         "2. 正面最多 3 次，其余各最多 2 次。每张先数腿、尾巴、翅膀、耳朵，再对“要点”；多一条少一条都算错。",
         "3. 关节方向：猫狗的后腿在跗关节处向后弯，马的前膝向前弯；画反算错。",
         "4. 不要幼崽，不要项圈、衣服、道具、地面和背景元素；不要和任何作品里的角色像。",
         "5. A 风格沿用 pose_lineart_gallery 定稿线稿的线条粗细、留白和画法：一条平滑的外轮廓 + 少量浅色结构线，关节只画小圆；"
         "画成圆筒分节、螺栓、铰链、分节脖子或弹簧尾巴的都算错。",
         "",
-        "## A 正面模板（线稿；{species} {tail} {desc} 换成该动作的字段）",
+        "## A 主图模板（线稿；{species} {tail} {desc} 换成该动作的字段，{view} 按主图选下面一行）",
         "```",
-        K.ANIMAL_LINE.replace("{view}", K.ANIMAL_VIEW_TEXT["front"]),
+        K.ANIMAL_LINE,
         "```",
+        f"- 主图是侧面：{K.ANIMAL_VIEW_TEXT['side']}",
+        f"- 主图是正面：{K.ANIMAL_VIEW_TEXT['front']}",
+        "",
         "## B 正面模板（照片；多一个 {coat}）",
         "```",
         K.ANIMAL_PHOTO.replace("{view}", K.ANIMAL_VIEW_TEXT["front"]),
@@ -182,11 +186,11 @@ def animal_parts(cats: dict, cat_list: list) -> list:
         "大类规则：",
         cat_rules(cats, cat_list),
         "",
-        "## A 转机位模板（参考 A 正面；{keep} 用该动作的“保持不变”）",
+        "## A 转机位模板（参考 A 主图；{keep} 用该动作的“保持不变”，{ref} 写 side 或 front）",
         "```",
         K.ANIMAL_TURN,
         "```",
-        *[f"- {v} 的 {{view}}：{K.ANIMAL_VIEW_TEXT[v]}" for v in ("diag", "side", "above", "below")],
+        *[f"- {v} 的 {{view}}：{K.ANIMAL_VIEW_TEXT[v]}" for v in ("front", "diag", "side", "above", "below")],
     ]
 
 
@@ -201,7 +205,8 @@ def item_lines(lib: str, i: dict) -> list:
     elif lib == "light":
         meta = [f"主体：{'石膏胸像' if i.get('subject') == 'bust' else '全身人台'}", f"setting：{i['setting']}"]
     elif lib == "animal":
-        meta = [f"species：{i['species']}", f"tail：{i['tail']}", f"coat（仅 B）：{i['coat']}"]
+        meta = [f"主图：{VIEW_ZH[i.get('main', 'front')]}", f"species：{i['species']}", f"tail：{i['tail']}",
+                f"coat（仅 B）：{i['coat']}"]
     else:
         meta = [f"place = {'落地' if i.get('place') == 'stand' else '悬浮'}；"
                 f"fill = {dict(S='小', M='中', L='大')[i.get('size', 'M')]}；"
@@ -235,7 +240,8 @@ def main() -> None:
     out = pathlib.Path(a.out).expanduser()
     out.mkdir(parents=True, exist_ok=True)
     run = out.name
-    need = {i["id"]: [v for v in views if not i["views"].get(v)] for i in items}
+    need = {i["id"]: [v for v in sorted(views, key=lambda v: v != i.get("main", views[0])) if not i["views"].get(v)]
+            for i in items}  # main view first: it is drawn first and the rest reference it
     n_img = sum(len(v) for v in need.values()) + (len(items) if a.lib == "animal" else 0)  # + one B-style front each
     cat_list = sorted({i["cat"] for i in items}, key=lambda c: cats[c]["order"])
     title = "试验（每个大类挑几件，验证能不能稳定生成）" if a.probe else f"{cats[a.cat]['name']['zh']}（{a.cat}）"

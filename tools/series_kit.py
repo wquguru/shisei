@@ -110,6 +110,9 @@ FURN_BACK_RULE = ("The back is the piece's real back, not a mirror of the front:
 
 # ---- animals (A###): probe only until the style is decided (docs/animal/PLAN.md, D-14) -----------------------
 # Same five camera positions as the pose library, so an animal reference can sit beside a pose reference.
+# The first image of each item is its `main` view and every other view references it. Quadrupeds use the side:
+# lying, stretching and running hide their key shape (hip height, leg phase) in depth, and both probes drew them
+# wrong from the front; birds and the coiled dragon read best from the front.
 ANIMAL_VIEWS = ("front", "diag", "side", "above", "below")
 ANIMAL_VIEW_TEXT = {
     "front": "straight front view, the camera level with the animal's shoulder and facing its chest",
@@ -143,7 +146,7 @@ ANIMAL_PHOTO = (
     "3:4 vertical.\n{rules}\nNo people, no hands, no collar, no clothing, no props, no other animals, no text, no "
     "watermark. {negatives}")
 ANIMAL_TURN = (
-    "Image 1 is the front view of a pose reference. Draw exactly the same animal in exactly the same pose from "
+    "Image 1 is the {ref} view of a pose reference. Draw exactly the same animal in exactly the same pose from "
     "{view}. Keep these identical: {keep}; the same style, line weight and proportions. The pose must not change, "
     "only the camera moves; do not mirror image 1. No people, no text.")
 
@@ -155,12 +158,14 @@ ANIMAL_TURN = (
 # cannot read portrait patterns: at full length the head is tiny and an egg-shaped head has no nose to cast the
 # loop or Rembrandt shadow, so the studio positions (PO) use `bust`, a plaster cast with facial planes but no eyes,
 # mouth or hair, framed head and shoulders. Both carry a grey sphere, the photographer's standard light reader.
+# probe-r2-01: naming a female chest (even "no nipples") got three indoor presets refused, so the figure is
+# described only as a slim fashion-drawing mannequin with a simplified torso.
 LIGHT_VIEWS = ("front", "diag", "side")
 LIGHT_SUBJECTS = {
     "figure": {
-        "long": "a life-size faceless figure-drawing mannequin: one smooth seamless matte "
-                "light-grey shell with slim adult female proportions (a softly defined chest with no nipples or other "
-                "anatomical detail, narrow waist, rounded hips), a smooth egg-shaped head with no features, small "
+        "long": "a life-size faceless fashion-drawing mannequin: one smooth seamless matte light-grey shell "
+                "with slim, tall adult proportions and a smooth simplified torso, a smooth egg-shaped head with no "
+                "features, small "
                 "spherical joints only at the shoulders, elbows, wrists, hips, knees and ankles, and hands with "
                 "separated fingers, not a wooden artist's dummy: no wood grain, no blocky segments, no hinges, no "
                 "screws; standing upright facing the camera with arms relaxed at its sides, "

@@ -63,7 +63,7 @@ def main() -> None:
                 vars_ = v.get("vars", {})
                 # library-specific fields: scenes carry the variant's light, props their placement and size,
                 # animals their species, lights their subject; anything not set falls back to the form, then the category
-                extra = {k: v.get(k, form.get(k, cats[cat].get(k))) for k in ("light", "season", "place", "size", "species", "tail", "coat", "setting", "subject", "dims", "bg")
+                extra = {k: v.get(k, form.get(k, cats[cat].get(k))) for k in ("light", "season", "place", "size", "species", "tail", "coat", "setting", "subject", "dims", "bg", "main")
                          if v.get(k, form.get(k, cats[cat].get(k))) is not None}
                 for k in ("light", "setting"):
                     if k in extra:
