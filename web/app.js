@@ -163,11 +163,6 @@
     document.querySelector('[data-i18n="browse"]').textContent = T.browse(n);
     $('heroSeries').innerHTML = SERIES.map((k) => [k, poses.filter((p) => p.series === k).length]).filter((x) => x[1])
       .map(([k, c]) => '<span><i style="background:' + SERIES_TINT[k] + '"></i>' + esc(T.series[k]) + '<b>' + c + '</b></span>').join('');
-    document.querySelectorAll('[data-pack-size]').forEach((el) => {
-      const k = PACKS && PACKS.packs[el.dataset.packSize];
-      el.textContent = k ? mb(k.bytes) : '';
-      el.hidden = !k;
-    });
     $('howList').innerHTML = T.how.map((s) => '<li>' + esc(s) + '</li>').join('');
     $('termsList').innerHTML = T.termsItems.map((s) => '<li>' + esc(s) + '</li>').join('');
   }
@@ -458,18 +453,31 @@
     }
     const P = PACKS.packs;
     const url = (k) => esc(window.SHISEI.repo + '/releases/download/v' + PACKS.version + '/' + P[k].file);
+    // Every row says what is inside it (docs/DESIGN.md): the line-art zip is the recommended one, the complete zip
+    // holds every format, each map format has its own zip, and the originals are line art and photos only.
+    const chip = (k, n) => '<span class="fmt-chip ' + k + '">' + esc(T[k]) + (n ? ' ' + n.toLocaleString('en-US') : '') + '</span>';
+    const nLine = poses.reduce((a, p) => a + p.line.filter(Boolean).length, 0);
+    const nPhoto = poses.reduce((a, p) => a + p.photo.filter(Boolean).length, 0);
+    const nMap = poses.reduce((a, p) => a + p.clay.filter(Boolean).length, 0);
+    const size = (k, cls) => '<span class="dl-s"><span class="' + (cls || 'mono') + '">' + mb(P[k].bytes) + '</span>' + DL_ICON + '</span>';
     const row = (k, cls, title, sub, dot) => '<a class="dl-row ' + cls + '" href="' + url(k) + '" download>' +
       '<span class="dl-t">' + (dot ? '<i style="background:' + dot + '"></i>' : '') + '<span><b>' + title + '</b>' + (sub ? '<small>' + esc(sub) + '</small>' : '') + '</span></span>' +
-      '<span class="dl-s"><span class="' + (cls === 'main' ? 'size-tag' : 'mono') + '">' + mb(P[k].bytes) + '</span>' + DL_ICON + '</span></a>';
+      size(k) + '</a>';
+    const card = (k, title, chips, sub, cls) => '<a class="dl-row ' + cls + '" href="' + url(k) + '" download>' +
+      '<span class="dl-t"><span><b>' + title + '</b><span class="fmt-chips">' + chips + '</span>' + (sub ? '<small>' + esc(sub) + '</small>' : '') + '</span></span>' +
+      size(k, cls === 'main' ? 'size-tag' : '') + '</a>';
     const series = SERIES.filter((k) => P[k]);
+    const maps = MAP_KINDS.filter((k) => P[k]);
     $('dlBody').innerHTML =
-      '<p class="dl-note">' + esc(T.dlNote(Math.round(P.original.bytes / P.all.bytes))) + '</p>' +
-      row('all', 'main', esc(T.dlAll) + ' <em>' + esc(T.dlRec) + '</em>', T.dlSetsAll(P.all.sets)) +
-      '<h3>' + esc(T.dlBySeries) + '</h3>' +
-      series.map((k) => row(k, '', esc(T.series[k]), T.dlSets(P[k].sets), SERIES_TINT[k])).join('') +
-      (P.clay && P.controlnet ? '<h3>' + esc(T.dlMaps) + '</h3>' + row('clay', '', esc(T.dlClay), T.dlClaySub) + row('controlnet', '', esc(T.dlCn), T.dlCnSub) : '') +
-      '<h3 class="dl-sep">' + esc(T.dlOriginal) + '</h3>' +
-      row('original', 'orig', esc(T.dlOriginalAll), '');
+      card('all', esc(T.dlLine) + ' <em>' + esc(T.dlRec) + '</em>', chip('line', nLine) + (nPhoto ? chip('photo', nPhoto) : ''), T.dlLineSub(P.all.sets), 'main') +
+      (P.complete ? card('complete', esc(T.dlComplete), ['line', 'photo'].concat(MAP_KINDS).map((k) => chip(k)).join(''), '', 'every') : '') +
+      (maps.length ? '<h3>' + esc(T.dlMaps(nMap)) + '</h3><div class="dl-maps">' + maps.map((k) =>
+        '<a class="dl-map" href="' + url(k) + '" download><span class="dl-map-h"><i class="sw ' + k + '"></i><b>' + esc(T[k]) + '</b></span>' +
+        '<span class="mono">' + mb(P[k].bytes) + '</span><small>' + esc(T.dlMapSub[k]) + '</small></a>').join('') + '</div>' : '') +
+      '<h3>' + esc(T.dlBySeries) + '</h3><div class="dl-series">' +
+      series.map((k) => row(k, '', esc(T.series[k]), T.dlSets(P[k].sets), SERIES_TINT[k])).join('') + '</div>' +
+      (nPhoto ? '<p class="dl-foot">' + esc(T.dlPhotoNote) + '</p>' : '') +
+      row('original', 'orig', esc(T.dlOriginalAll), T.dlOriginalSub);
   }
 
   $('theme').addEventListener('click', () => {

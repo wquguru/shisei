@@ -5,6 +5,22 @@
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
   - date: 2026-10-31
+    tag: improve
+    title: Clearer downloads
+    desc: Each zip now says what it holds. Line art stays the recommended one; every format can come in one zip, and clay, depth and normal each have their own.
+    link: /
+    cta: Open the gallery
+    title_zh: 下载更清楚了
+    desc_zh: 每个压缩包都写明装了什么。推荐的仍是线稿包；也可以一次下完全部格式，白模、深度、法线各有单独的包。
+    cta_zh: 打开图库
+    title_ja: ダウンロードをわかりやすく
+    desc_ja: 各 zip に中身を明記しました。おすすめは引き続き線画。すべての形式をまとめた zip と、クレイ・深度・法線それぞれの zip もあります。
+    cta_ja: ギャラリーを開く
+    title_ko: 다운로드를 알기 쉽게
+    desc_ko: 각 zip에 무엇이 들어 있는지 적었습니다. 추천은 여전히 선화이고, 모든 형식을 한 번에 받는 zip과 클레이·깊이·노멀 각각의 zip도 있습니다.
+    cta_ko: 갤러리 열기
+
+  - date: 2026-10-31
     tag: new
     title: Clay, depth and normal maps
     desc: "Most angles now have three formats aligned with the line art: a shaded grey clay mannequin, plus depth and normal maps for ControlNet. Switch in the lightbox; a slider overlays the line art."
