@@ -171,18 +171,24 @@
     $('termsList').innerHTML = T.termsItems.map((s) => '<li>' + esc(s) + '</li>').join('');
   }
 
-  /* costumes: a band after the grid and the pairing tray (web/tray.js); poses stay the anchor (docs/DESIGN.md) */
+  /* libraries: a band after the grid and the tray (web/tray.js); poses stay the anchor (docs/DESIGN.md) */
   const TRAY = window.ShiseiTray;
-  const TC = () => window.I18N_COSTUME[S.lang];
+  const NAV = window.SHISEI_NAV;
+  const TC = () => window.I18N_LIB[S.lang];
   function renderBand() {
-    const C = window.SHISEI.costumes;
-    $('cBand').hidden = !C;
-    if (!C) return;
+    $('cBand').hidden = !NAV || !NAV.libs.length;
+    if ($('cBand').hidden) return;
+    const T = t();
     $('cBandEyebrow').textContent = TC().bandEyebrow;
     $('cBandT').textContent = TC().bandTitle;
     $('cBandSub').textContent = TC().bandSub;
-    $('cBandCta').textContent = TC().bandCta(C.n);
-    $('cBandImgs').innerHTML = C.files.map((f) => '<img src="' + src('costume/grey', 'w300', f) + '" alt="" width="108" height="144" loading="lazy" decoding="async">').join('');
+    $('cBandCount').textContent = TC().bandCount(NAV.libs.reduce((a, l) => a + l.n, 0), NAV.libs.reduce((a, l) => a + l.imgs, 0).toLocaleString('en-US'));
+    $('cBandLibs').innerHTML = NAV.libs.map((l) => {
+      const L = T.libs[l.key];
+      return '<a class="c-lib ' + l.kind + '" href="' + l.key + '/"><span class="c-lib-img">' +
+        (l.thumb ? '<img src="' + esc(NAV.media + 'images/' + l.dir + '/w300/' + l.thumb) + '" alt="" width="200" height="267" loading="lazy" decoding="async">' : '') + '</span>' +
+        '<span class="c-lib-t"><b>' + esc(L.name) + '</b><span>' + esc(L.role) + '</span><span class="mono">' + l.n + ' ' + esc(L.unit) + '</span></span></a>';
+    }).join('');
   }
   TRAY.setPage('pose');
   // The tray's pose slot opens that pose here rather than reloading the page.
@@ -195,11 +201,10 @@
   function pairPose() {
     const p = byId.get(LB.id);
     const v = p.line[LB.v] ? LB.v : firstView(p.line);
-    TRAY.set('pose', { id: p.id, v, file: p.line[v], tint: p.tint, desc: p.desc_en || '', names: TRAY.names(p, 'pose') });
-    // With a costume waiting, closing the lightbox shows the tray's opened pair.
-    if (TRAY.get().costume) $('lb').close();
-    // No costume yet: off to the library to pick one; the tray keeps the pose.
-    else location.href = BASE + PREFIX[S.lang] + 'costume/';
+    TRAY.set('pose', { id: p.id, v, file: p.line[v], tint: p.tint, desc: p.desc_en || '', names: TRAY.names(p) });
+    $('lb').close();
+    // Nothing picked yet: the tray lists the libraries to go to next.
+    if (!TRAY.count()) TRAY.showAdd();
   }
   $('lbPairBtn').addEventListener('click', pairPose);
 
@@ -791,8 +796,7 @@
 
     if (veil) [$('lbDl'), dl2].forEach((a) => { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); });
 
-    const cos = TRAY.get().costume;
-    $('lbPairText').textContent = cos ? TC().pairCostume(cos.id) : TC().startPose;
+    $('lbPairText').textContent = TRAY.count() ? TC().pairItems(TRAY.count()) : TC().startPose;
     $('lbPairBtn').disabled = veil || !p.line.some(Boolean);
     clearTimeout(lbTip.timer);
     $('lbTip').hidden = true;

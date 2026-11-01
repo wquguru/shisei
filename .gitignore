@@ -11,3 +11,4 @@
 /build/
 /.wrangler/
 __pycache__/
+site-media/

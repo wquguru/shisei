@@ -6,6 +6,22 @@
 entries:
   - date: 2026-11-01
     tag: new
+    title: Props, furniture, animals, scenes and light
+    desc: Five more libraries to build around a pose, 287 items in all, and a menu on phones. The tray keeps a pose with one pick from each library.
+    link: /scene/
+    cta: Browse scenes
+    title_zh: 新增道具、家具、动物、场景、光线
+    desc_zh: 又多五个素材库，共 287 件，都能配到姿势上；手机上多了菜单。托盘里一个姿势，每个库各配一件。
+    cta_zh: 浏览场景
+    title_ja: 小物・家具・動物・背景・ライティング
+    desc_ja: ポーズに合わせる素材ライブラリが 5 つ増え、計 287 点。スマホにメニューも。トレイにポーズ 1 つと各ライブラリから 1 点ずつ。
+    cta_ja: 背景を見る
+    title_ko: 소품·가구·동물·배경·조명 추가
+    desc_ko: 포즈에 맞추는 소재 라이브러리 다섯 개, 모두 287개. 휴대폰 메뉴도 생겼습니다. 트레이에 포즈 하나와 라이브러리별 하나씩.
+    cta_ko: 배경 보기
+
+  - date: 2026-11-01
+    tag: new
     title: Costumes to pair with your pose
     desc: 484 ghost-mannequin outfits, each from four views. Pick a costume for any pose; a tray keeps the pair and gives both images with a combined prompt.
     link: /costume/

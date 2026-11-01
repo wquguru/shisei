@@ -59,24 +59,81 @@ def library_stats(catalog, ver, updated):
             "photos": sum(len(p.get("photos") or {}) for p in shown), "languages": 4, "series": series}
 
 
-def costume_data():
-    """The costume library as the costume page reads it (docs/DESIGN.md, 服装与搭配): items with at least one view that
-    passed QC (data/costume-qc.json decides what is in data/costumes.json), trimmed to what the page shows. Lingerie is
-    public and blurred like the suggestive poses (D-06, D-11)."""
-    src = json.loads((ROOT / "data/costumes.json").read_text())
-    cats = json.loads((ROOT / "data/costume-src/_categories.json").read_text())
+# The libraries that attach to a pose (docs/DESIGN.md, 素材库与搭配), in menu and tray order. dir: the image folder
+# under images/; kind: how a tile shows it (grey product shot, photo, or line art multiplied on a tint like the poses);
+# group: the menu group; views: the library's own angles, in the order its files are listed.
+LIBS = {
+    "costume": {"data": "costumes", "src": "costume", "dir": "costume/grey", "kind": "grey", "group": "wear",
+                "views": ("front", "diag", "side", "back")},
+    "prop": {"data": "props", "src": "prop", "dir": "prop/grey", "kind": "grey", "group": "wear",
+             "views": ("front", "diag", "side", "back")},
+    "furniture": {"data": "furniture", "src": "furniture", "dir": "furniture/grey", "kind": "grey", "group": "near",
+                  "views": ("front", "diag", "side", "back", "above")},
+    "animal": {"data": "animals", "src": "animal", "dir": "animal/plain", "kind": "line", "group": "near",
+               "views": ("front", "diag", "side", "above", "below")},
+    "scene": {"data": "scenes", "src": "scene", "dir": "scene/plain", "kind": "photo", "group": "env",
+              "views": ("eye", "above", "below")},
+    "light": {"data": "lights", "src": "light", "dir": "light/plain", "kind": "photo", "group": "env",
+              "views": ("front", "diag", "side")},
+}
+
+
+def first_clause(s):
+    return re.split(r"[,;:]", s or "", 1)[0].strip()
+
+
+def clause(lib, c):
+    """How the item joins the pose's prompt in the tray: pose desc_en, then these, in LIBS order."""
+    if lib == "costume":
+        return "wearing " + c.get("keep_en", "")
+    if lib == "prop":
+        return "holding " + first_clause(c.get("desc_en"))
+    if lib == "furniture":
+        return "with " + first_clause(c.get("desc_en"))
+    if lib == "animal":
+        return "with a " + first_clause(c.get("species") or c.get("group_en", "animal")) + " " + first_clause(c.get("desc_en"))
+    if lib == "scene":
+        return "in " + first_clause(c.get("desc_en"))
+    return "lit by " + first_clause(c.get("keep_en"))
+
+
+def library_data(lib):
+    """One library as its page reads it: items with at least one view that passed QC (the library's qc.json decides
+    what is in its data file), trimmed to what the page shows. Lingerie is public and blurred like the suggestive
+    poses (D-06, D-11)."""
+    L = LIBS[lib]
+    src = json.loads((ROOT / f"data/{L['data']}.json").read_text())
+    cats = json.loads((ROOT / f"data/{L['src']}-src/_categories.json").read_text())
     items = []
     for c in src["items"]:
-        v = [c["views"].get(k) for k in C_VIEWS]
+        v = [(c.get("views") or {}).get(k) for k in L["views"]]
         if not any(v):
             continue
-        items.append({"id": c["id"], "cat": c["cat"], "g": c.get("gender", "U"), "r": c.get("rating", "general"),
-                      "n": {l: c["name_" + l] for l in LOCS},
-                      "era": {l: c.get("era_" + l) or c.get("era_en") or "" for l in LOCS} if c.get("era_en") else None,
-                      "desc": c.get("desc_en", ""), "keep": c.get("keep_en", ""), "v": v})
+        sub = "era" if lib == "costume" else "group"
+        main = L["views"].index(c["main"]) if c.get("main") in L["views"] else 0
+        item = {"id": c["id"], "cat": c["cat"], "r": c.get("rating", "general"), "n": {l: c["name_" + l] for l in LOCS},
+                "sub": {l: c.get(f"{sub}_{l}") or c.get(f"{sub}_en") or "" for l in LOCS} if c.get(f"{sub}_en") else None,
+                "desc": c.get("desc_en", ""), "clause": clause(lib, c), "v": v, "m": main if v[main] else v.index(next(f for f in v if f))}
+        if lib == "costume":
+            item["g"] = c.get("gender", "U")
+        items.append(item)
     order = sorted(cats, key=lambda k: cats[k]["order"])
-    return {"cats": [{"key": k, "name": cats[k]["name"]} for k in order if any(i["cat"] == k for i in items)],
+    return {"lib": lib, "views": list(L["views"]), "dir": L["dir"], "kind": L["kind"],
+            "cats": [{"key": k, "name": cats[k]["name"]} for k in order if any(i["cat"] == k for i in items)],
             "items": items}
+
+
+def nav_data(libs, catalog):
+    """What every page's menu and tray need, inlined per page: counts, a thumbnail per library, each library's views."""
+    shown = [p for p in catalog if any(p["views"].values())]
+    series = [[k, sum(1 for p in shown if p.get("series", "std") == k)] for k in ("std", "upper", "sexy", "duo")]
+    out = []
+    for lib, D in libs.items():
+        gen = [i for i in D["items"] if i["r"] == "general"]
+        thumb = gen[0]["v"][gen[0]["m"]] if gen else None
+        out.append({"key": lib, "n": len(D["items"]), "views": D["views"], "dir": D["dir"], "kind": D["kind"],
+                    "group": LIBS[lib]["group"], "thumb": thumb, "imgs": sum(1 for i in D["items"] for f in i["v"] if f)})
+    return {"poses": len(shown), "series": [s for s in series if s[1]], "libs": out}
 
 
 def git_day(path):
@@ -151,9 +208,9 @@ def audit_changelog(entries, pose_ids):
                     bad.append(f"{at}: {k}{sfx} uses internal term {hit[0]!r}")
         link = e.get("link", "")
         path = re.split(r"[?#]", link, 1)[0]
-        ok = path in ("/", "/changelog/", "/costume/") or (re.fullmatch(r"/pose/(P\d{3})/", path) and path[6:10] in pose_ids)
+        ok = path in ("/", "/changelog/") or path.strip("/") in LIBS or (re.fullmatch(r"/pose/(P\d{3})/", path) and path[6:10] in pose_ids)
         if link and not ok:
-            bad.append(f"{at}: link {link} is not a site page (/, /changelog/, /costume/ or /pose/<id>/ of a catalog pose)")
+            bad.append(f"{at}: link {link} is not a site page (/, /changelog/, a library page or /pose/<id>/ of a catalog pose)")
     return bad
 
 
@@ -230,8 +287,12 @@ HEADERS = """/assets/*
 /og/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=86400
 """
-STAMPED = ("app.css", "app.js", "common.js", "i18n.js", "tray.js", "costume.js")
-C_VIEWS = ("front", "diag", "side", "back")
+STAMPED = ("app.css", "app.js", "common.js", "i18n.js", "tray.js", "library.js")
+# The image host (a second Pages project) answers the tray's fetch() for the phone share sheet, so it allows any origin.
+MEDIA_HEADERS = """/images/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+"""
 
 
 def stamp_assets(out, ver):
@@ -258,6 +319,8 @@ def main() -> None:
     ap.add_argument("--link-images", action="store_true")
     ap.add_argument("--no-og", action="store_true")
     ap.add_argument("--public", action="store_true")
+    ap.add_argument("--media", default="", help="absolute URL of the image host for the libraries (DESIGN.md)")
+    ap.add_argument("--media-out", default="site-media")
     args = ap.parse_args()
     site_url = args.site.rstrip("/")
 
@@ -326,13 +389,9 @@ def main() -> None:
     packs = json.loads(packs_file.read_text()) if packs_file.exists() else None
     if packs and packs["version"] != ver:
         print(f"warning: data/packs.json is for v{packs['version']}, the site is v{ver}", file=sys.stderr)
-    costumes = costume_data()
-    # The home band shows three general fronts; the same three in every language.
-    pick = [c for c in costumes["items"] if c["r"] == "general" and c["v"][0]]
-    want = [c for c in pick if c["id"] in ("C061", "C195", "C003")] or pick[:3]
-    teaser = json.dumps({"n": len(costumes["items"]), "files": [c["v"][0] for c in want[:3]]}, separators=(",", ":"))
-    ctpl = (ROOT / "web/costume.html").read_text()
-    ccompact = json.dumps(costumes, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    libs = {lib: library_data(lib) for lib in LIBS}
+    nav = nav_data(libs, catalog)
+    ltpl = (ROOT / "web/library.html").read_text()
     for loc in LOCS:
         T = S[loc]
         rel = Site.rel(PREFIX[loc])
@@ -354,22 +413,26 @@ def main() -> None:
                .replace("__SKIP__", esc(T["skip"])).replace("__NOSCRIPT__", noscript)
                .replace("__CHANGELOG__", f"{rel}{PREFIX[loc]}changelog/").replace("__BASE__", rel)
                .replace("__CATALOG__", compact).replace("__REPO__", site.repo).replace("__VERSION__", ver)
-               .replace("__PACKS__", json.dumps(packs, separators=(",", ":"))).replace("__COSTUME_TEASER__", teaser))
+               .replace("__PACKS__", json.dumps(packs, separators=(",", ":"))))
         write(PREFIX[loc], doc)
 
-        # The costume library page, one per language like the gallery.
-        crel = Site.rel(PREFIX[loc] + "costume/")
-        n = len(costumes["items"])
-        chead = site.head(loc, "costume/", fill(T["costumeTitle"], n=n), fill(T["costumeDesc"], n=n),
-                          site.og_image(loc, "home"), T["ogAlt"], None)
-        cnoscript = "<noscript><ul class=\"wrap\">" + "".join(
-            f'<li>{c["id"]} {esc(c["n"][loc])}</li>' for c in costumes["items"]) + "</ul></noscript>"
-        cdoc = (ctpl.replace("__HEAD__", chead).replace("__HTMLLANG__", HTML_LANG[loc]).replace("__LOC__", loc)
-                .replace("__SKIP__", esc(T["skip"])).replace("__NOSCRIPT__", cnoscript)
-                .replace("__HOME__", crel + PREFIX[loc] or "./").replace("__CHANGELOG__", f"{crel}{PREFIX[loc]}changelog/")
-                .replace("__BASE__", crel).replace("__COSTUMES__", ccompact).replace("__REPO__", site.repo)
-                .replace("__VERSION__", ver))
-        write(PREFIX[loc] + "costume/", cdoc)
+        # One page per library and language, like the gallery.
+        for lib, D in libs.items():
+            key = lib + "/"
+            lrel = Site.rel(PREFIX[loc] + key)
+            n, L = len(D["items"]), T["libs"][lib]
+            meta = dict(name=L["name"], n=n, unit=L["unit"], sub=L["sub"])
+            lhead = site.head(loc, key, fill(T["libTitle"], **meta), fill(T["libDesc"], **meta),
+                              site.og_image(loc, "home"), T["ogAlt"], None)
+            lnoscript = "<noscript><ul class=\"wrap\">" + "".join(
+                f'<li>{c["id"]} {esc(c["n"][loc])}</li>' for c in D["items"]) + "</ul></noscript>"
+            ldoc = (ltpl.replace("__HEAD__", lhead).replace("__HTMLLANG__", HTML_LANG[loc]).replace("__LOC__", loc)
+                    .replace("__SKIP__", esc(T["skip"])).replace("__NOSCRIPT__", lnoscript)
+                    .replace("__HOME__", lrel + PREFIX[loc] or "./").replace("__CHANGELOG__", f"{lrel}{PREFIX[loc]}changelog/")
+                    .replace("__BASE__", lrel).replace("__DATAFILE__", f"{lrel}{LIBS[lib]['data']}.json")
+                    .replace("__LIBDATA__", json.dumps(D, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
+                    .replace("__REPO__", site.repo).replace("__VERSION__", ver))
+            write(PREFIX[loc] + key, ldoc)
 
         for i in range(len(poses)):
             write(*site.pose_page(loc, i))
@@ -380,12 +443,13 @@ def main() -> None:
 
     # Static files
     for f in (ROOT / "web").iterdir():
-        if f.is_file() and f.name not in ("index.html", "costume.html", "changelog.yaml"):
+        if f.is_file() and f.name not in ("index.html", "library.html", "changelog.yaml"):
             shutil.copy2(f, out / f.name)
     # Self-hosted Latin font subsets and their OFL licences (docs/LICENSING.md).
     shutil.copytree(ROOT / "web/fonts", out / "fonts")
     (out / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=1) + "\n")
-    (out / "costumes.json").write_text(json.dumps(costumes, ensure_ascii=False, indent=1) + "\n")
+    for lib, D in libs.items():
+        (out / f"{LIBS[lib]['data']}.json").write_text(json.dumps(D, ensure_ascii=False, indent=1) + "\n")
     (out / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=1) + "\n")
     if args.link_images:
         (out / "images").symlink_to(ROOT / "images", target_is_directory=True)
@@ -396,15 +460,35 @@ def main() -> None:
                 (out / "images" / kind / tier).mkdir(parents=True)
                 for f in sorted(files):
                     shutil.copy2(ROOT / "images" / kind / tier / f, out / "images" / kind / tier / f)
-        # Costumes: the grey tiers only. The transparent versions ship in the download packs, not on the site
-        # (a Pages deployment holds 20,000 files).
-        cfiles = sorted({f for c in costumes["items"] for f in c["v"] if f})
-        for tier in ("w300", "w600", "w900"):
-            (out / "images/costume/grey" / tier).mkdir(parents=True)
-            for f in cfiles:
-                shutil.copy2(ROOT / "images/costume/grey" / tier / f, out / "images/costume/grey" / tier / f)
     else:
         shutil.copytree(ROOT / "images", out / "images", ignore=shutil.ignore_patterns("full"))
+    # Library images: on the media host when there is one (a Pages deployment holds 20,000 files, and the libraries
+    # would take the site past that), else beside the pages. Costumes and props ship their grey tiers only; the
+    # transparent versions stay in the download packs.
+    if args.public:
+        mout = ROOT / args.media_out if args.media else out
+        if args.media:
+            shutil.rmtree(mout, ignore_errors=True)
+            mout.mkdir()
+            (mout / "_headers").write_text(MEDIA_HEADERS)
+            (mout / "index.html").write_text(f'<!doctype html><meta charset="utf-8"><title>Shisei media</title><a href="{site_url}/">Shisei</a>\n')
+        for lib, D in libs.items():
+            for tier in ("w300", "w600", "w900"):
+                d = mout / "images" / D["dir"] / tier
+                d.mkdir(parents=True, exist_ok=True)
+                for f in sorted({f for i in D["items"] for f in i["v"] if f}):
+                    shutil.copy2(ROOT / "images" / D["dir"] / tier / f, d / f)
+    # Every page gets the menu and tray data, and where library images live, before its scripts run.
+    media = args.media.rstrip("/") + "/" if args.media else None
+    for f in out.rglob("*.html"):
+        doc = f.read_text()
+        m = re.search(r'<script src="([./]*)i18n\.js', doc)
+        if not m:
+            continue
+        rel = m.group(1)
+        data = dict(nav, root=rel, media=media or rel)
+        tag = "<script>window.SHISEI_NAV = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";</script>\n"
+        f.write_text(doc[:m.start()] + tag + doc[m.start():])
     icons = [{"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml"}]
     if chrome:
         icons += [{"src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png"},
@@ -419,7 +503,8 @@ def main() -> None:
     # sitemap.xml with hreflang alternates and the line art as image entries; robots.txt
     cat_day, cl_day = git_day("data/catalog.json"), entries[0]["date"]
     rows = []
-    for key, day, imgs in ([("", cat_day, []), ("costume/", git_day("data/costumes.json"), []), ("changelog/", cl_day, [])] +
+    for key, day, imgs in ([("", cat_day, []), ("changelog/", cl_day, [])] +
+                           [(lib + "/", git_day(f"data/{LIBS[lib]['data']}.json"), []) for lib in LIBS] +
                            [(f"pose/{p['id']}/", cat_day, [f for f in p["line"] if f]) for p in poses]):
         alts = "".join(f'<xhtml:link rel="alternate" hreflang="{HTML_LANG[l]}" href="{esc(site.abs(PREFIX[l] + key))}"/>'
                        for l in LOCS) + f'<xhtml:link rel="alternate" hreflang="x-default" href="{esc(site.abs(key))}"/>'
