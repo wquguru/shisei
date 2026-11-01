@@ -178,18 +178,27 @@
         // Every other tile shows one of the map formats of the same view, so the hero says what each set holds.
         const mk = k % 2 ? MAP_KINDS[(k >> 1) % 3] : null;
         if (mk && p[mk][vi]) {
-          tiles.push('<span class="mq-tile map"><img src="' + src(mk, 'w300', p[mk][vi]) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"><b>' + esc(t()[mk]) + '</b></span>');
+          tiles.push('<span class="mq-tile map" data-mq="' + p.id + ',' + vi + ',' + mk + '"><img src="' + src(mk, 'w300', p[mk][vi]) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"><b>' + esc(t()[mk]) + '</b></span>');
           continue;
         }
-        const f = p.line[vi] || p.line[firstView(p.line)];
-        tiles.push('<span class="mq-tile" style="background:' + p.tint + '"><img src="' + src('line', 'w300', f) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"></span>');
+        const v = p.line[vi] ? vi : firstView(p.line);
+        tiles.push('<span class="mq-tile" data-mq="' + p.id + ',' + v + ',line" style="background:' + p.tint + '"><img src="' + src('line', 'w300', p.line[v]) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"></span>');
       }
       return tiles.join('') + tiles.join('');
     };
     $('mq1').innerHTML = row(0);
     $('mq2').innerHTML = row(3);
+    // A tile opens its pose in the lightbox, at that angle and in that format. The rows stay aria-hidden and out of
+    // the tab order (each tile is there twice); the grid below is the keyboard and screen-reader way in.
     $('tools').innerHTML = TOOLS.map((x) => '<span>' + esc(x) + '</span>').join('');
   }
+
+  document.querySelector('.marquee').addEventListener('click', (e) => {
+    const tile = e.target.closest('[data-mq]');
+    if (!tile) return;
+    const [id, v, m] = tile.dataset.mq.split(',');
+    openLb(id, +v, m);
+  });
 
   /* filters */
   function renderCats() {

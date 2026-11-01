@@ -87,7 +87,7 @@ img { display: block; }
 @keyframes mq-l { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @keyframes mq-r { from { transform: translateX(-50%); } to { transform: translateX(0); } }
 @media (prefers-reduced-motion: reduce) { .mq-l, .mq-r { animation: none; } html { scroll-behavior: auto; } }
-.mq-tile { width: 146px; height: 146px; flex: 0 0 auto; border-radius: 30px; overflow: hidden; box-shadow: 0 10px 24px -14px rgba(24,24,27,0.25); }
+.mq-tile { width: 146px; height: 146px; flex: 0 0 auto; border-radius: 30px; overflow: hidden; cursor: pointer; box-shadow: 0 10px 24px -14px rgba(24,24,27,0.25); }
 .mq-tile img, .tile img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
 /* language menu: an explicit list, the current one checked */
 .lang-menu { position: relative; }
@@ -587,3 +587,6 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .dl-series { grid-template-columns: minmax(0, 1fr); }
 }
 .dl-s { white-space: nowrap; flex: 0 0 auto; }
+
+/* Marquee tiles open their pose (app.js); a slight lift says so, the row already pauses on hover. */
+@media (hover: hover) { .mq-tile { transition: transform 0.15s ease; } .mq-tile:hover { transform: translateY(-4px); } }

@@ -7,6 +7,10 @@ the catalog schema.
 
 ## [Unreleased]
 
+### Added
+- Home marquee: a tile opens its pose in the lightbox at that angle and in that format (a depth tile opens depth).
+  The rows pause on hover as before and stay out of the tab order; the grid remains the keyboard way in.
+
 ### Changed
 - Chinese hero title 姿势参考 · 五机位: the site has five formats now, so the title names none of them; 线稿 stays in
   the line below and in the page title.
