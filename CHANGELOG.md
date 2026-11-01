@@ -20,6 +20,8 @@ the catalog schema.
   (phones: one share sheet). The pose lightbox gets "Pick a costume for this pose"; the home page a band after the grid.
 
 ### Changed
+- Pose cards claim 290 px in `sizes`, so 2x desktop screens load the w600 tier instead of w900 (about 40% fewer
+  bytes per card).
 - Performance: fonts are self-hosted Latin subsets (Inter Tight, JetBrains Mono; 65 KB, OFL files in `web/fonts/`)
   and CJK text uses system fonts, replacing Google Fonts (28 requests, 1.6 MB, often unreachable from mainland China).
   The lightbox fetches what is on screen first and preloads only afterwards, two at a time, cancelled on every step;

@@ -315,12 +315,14 @@
     const cur = curView(p);
     const f = arr[cur];
     const kind = photo ? 'photo' : 'line';
+    // Cards are about 300-330 px wide on desktop; claiming 290px keeps 2x screens on w600 (~20 KB) instead of w900
+    // (~33 KB). The line art barely changes at that scale and the grid is most of the site's traffic.
     const dots = VIEWS.map((_, i) => '<button type="button" data-dot="' + i + '" aria-label="' + esc(T.views[i]) + '" aria-pressed="' + (i === cur) + '"' + (arr[i] ? '' : ' disabled') + '><i></i></button>').join('');
     // The gap box sits beside the tile link, not in it: its button cannot nest inside an <a>.
     const veil = veiled(p);
     return '<article class="card' + (veil ? ' veiled' : '') + '" data-id="' + p.id + '" style="--tint:' + p.tint + '">' +
       '<div class="tile-box"><a class="tile" href="#' + p.id + '-' + VIEWS[cur] + '" data-tile aria-label="' + esc(T.open(p.id) + ' ' + nameOf(p)) + '">' +
-        '<img' + (f ? ' src="' + src(kind, 'w300', f) + '" srcset="' + srcset(kind, f) + '"' : '') + ' sizes="(max-width: 720px) 50vw, 320px" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[cur]) + '" loading="lazy" decoding="async"' + (f ? '' : ' hidden') + '>' +
+        '<img' + (f ? ' src="' + src(kind, 'w300', f) + '" srcset="' + srcset(kind, f) + '"' : '') + ' sizes="(max-width: 720px) 50vw, 290px" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[cur]) + '" loading="lazy" decoding="async"' + (f ? '' : ' hidden') + '>' +
         (!photo && p.photo.some(Boolean) ? '<span class="badge ph">' + esc(T.hasPhoto) + '</span>' : '') +
         '<span class="vlabel">' + esc(T.views[cur]) + ' ' + (cur + 1) + '/5</span>' +
       '</a><div class="missing"' + (f ? ' hidden>' : '>' + cardGapHtml(arr, cur, photo)) + '</div>' + (veil ? veilBtn(p) : '') + '</div>' +
