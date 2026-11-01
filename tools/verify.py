@@ -8,6 +8,8 @@
 - every redrawn pose (catalog `source`) was merged as such: qc.json `sources` names the same source;
 - every single-view fill (catalog `fills`) was merged as such (qc.json `fills`) and sits in an original set (D-09);
 - every photo has a `pass` in qc.json photos and exists in both tiers; nothing under images/ is unreferenced;
+- every map view (catalog `maps`) belongs to a passed line view of the same file, has a `pass` in qc.json maps and
+  exists as clay, depth and normal in every tier;
 - every README download link names a zip of the data/packs.json version.
 """
 import json, pathlib, re, sys
@@ -21,7 +23,7 @@ README_FILES = ("README.md", "docs/readme/README.zh-CN.md", "docs/readme/README.
 def main() -> int:
     cat = json.loads((ROOT / "data/catalog.json").read_text())
     qcd = json.loads((ROOT / "data/qc.json").read_text())
-    qc, qc_photos = qcd["views"], qcd.get("photos", {})
+    qc, qc_photos, qc_maps = qcd["views"], qcd.get("photos", {}), qcd.get("maps", {})
     errs, want = [], set()
     ov_path = ROOT / "data/rating_overrides.json"
     for pid, o in (json.loads(ov_path.read_text()) if ov_path.exists() else {}).items():
@@ -64,6 +66,16 @@ def main() -> int:
                 want.add(("photo", t, f))
                 if not (ROOT / "images/photo" / t / f).exists():
                     errs.append(f"{p['id']} photo {v}: images/photo/{t}/{f} missing")
+        for v, f in (p.get("maps") or {}).items():
+            if p["views"].get(v) != f:
+                errs.append(f"{p['id']} maps {v}: not the line view's file")
+            if qc_maps.get(p["id"], {}).get(v, {}) != {"file": f, "status": "pass"}:
+                errs.append(f"{p['id']} maps {v}: in catalog without a qc pass")
+            for k in ("clay", "depth", "normal"):
+                for t in TIERS:
+                    want.add((k, t, f))
+                    if not (ROOT / "images" / k / t / f).exists():
+                        errs.append(f"{p['id']} maps {v}: images/{k}/{t}/{f} missing")
     for f in (ROOT / "images").glob("*/*/*.webp"):
         if (f.parent.parent.name, f.parent.name, f.name) not in want:
             errs.append(f"orphan {f.relative_to(ROOT)}")

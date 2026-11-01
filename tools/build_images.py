@@ -5,10 +5,13 @@ Usage: python3 tools/build_images.py std=~/Downloads/pose-gallery-std73 sexy=...
 Line art comes from <src>/img/<file>, photos from <src>/photo/<file>. A pose with a catalog `source` (a redrawn set,
 tools/import_redraws.py) is read from the source set given under that name instead, e.g. digi=~/Downloads/....
 A single view filled later (catalog `fills`, tools/import_fills.py) is read from its fill source, e.g. fill-r1=....
+Clay, depth and normal maps (catalog `maps`) are read from maps=SRC/<kind>/<file>, e.g. maps=~/Downloads/pose-gallery-clay.
 Only catalog views (non-null) and catalog
 photos are built; any other file under images/ is deleted, so a view that fails QC leaves the repo.
 Re-encoding is downscale-only from already-lossy sources: w900 q75 (lightbox/download),
-w600 q72 (grid on 2x and 3x screens), w300 q70 (grid on 1x screens, thumbnails).
+w600 q72 (grid on 2x and 3x screens), w300 q70 (grid on 1x screens, thumbnails). The depth maps alone are lossless
+at the source; q75 moves them by half a grey level on average on the body (checked on 60 views, 2026-10-31), far below
+what a ControlNet preprocessor's own resize does.
 """
 import json, pathlib, subprocess, sys
 
@@ -24,6 +27,7 @@ def main() -> None:
                 for v, f in p["views"].items() if f]
         # Photo renders were made from the original drawings, so they always come from the series source.
         jobs += [("photo", srcs[p["series"]] / "photo" / f) for f in (p.get("photos") or {}).values()]
+        jobs += [(k, srcs["maps"] / k / f) for f in (p.get("maps") or {}).values() for k in ("clay", "depth", "normal")]
         for kind, src in jobs:
             for tier, width, q in TIERS:
                 dst = ROOT / "images" / kind / tier / src.name

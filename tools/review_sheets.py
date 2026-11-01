@@ -15,13 +15,19 @@ Modes (each pairs with a prompt in docs/qc/):
   rating      first 3 views of a set on one sheet           rating_prompt.md      <id>.jpg
   photo       up to 3 photo renders per sheet, 400x800      photo_prompt.md       <id>__<view>-<view>.jpg
   limbs       up to 2 views per sheet, 600x800 each        limbs_prompt.md       <id>__<view>-<view>.jpg
+  maps        2 views per sheet, one row each: line, clay, line over clay, depth, normal (360x480)
+                                                            maps_prompt.md        <id>__<view>-<view>.jpg
+              Usage: review_sheets.py OUT --mode maps maps=~/Downloads/pose-gallery-clay
+              Line art comes from images/line/w900 (the maps were made from it); only catalog views are drawn.
+  mapclay     3 clay renders per sheet, 600x800 each      maps_nipple_prompt.md <id>__<view>-<view>-<view>.jpg
+              The surface-detail pass: nipple bumps are too small to judge on the five-panel maps sheet.
 Views are every generated file (catalog or qc.json), so a failed view can be re-reviewed; --passed keeps only the
 views now in the catalog — use it for proportion and rating, which judge what ships.
 A batch file for a reviewer is just a list of sheet paths: `ls OUT_DIR/*.jpg | split -l 35 - OUT_DIR/batch_`.
 """
 import argparse, json, pathlib
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageChops, ImageDraw
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 VIEWS = ("front", "diag", "side", "above", "below")
@@ -34,7 +40,9 @@ EXPECT = {
 BODIES = {"MF": "1 man (broad shoulders) + 1 woman", "FF": "2 women"}
 # panel size, views per sheet (None = all), per-set sheet name
 MODES = {"panels": ((600, 800), 3, False), "name": ((600, 800), 3, True), "proportion": ((360, 480), None, True),
-         "rating": ((600, 800), 3, True), "photo": ((400, 800), 3, False), "limbs": ((600, 800), 2, False)}
+         "rating": ((600, 800), 3, True), "photo": ((400, 800), 3, False), "limbs": ((600, 800), 2, False), "maps": ((360, 480), 2, False),
+         "mapclay": ((600, 800), 3, False)}
+MAP_KINDS = ("clay", "depth", "normal")
 
 
 def sheet(path, title, panels, size):
@@ -48,6 +56,47 @@ def sheet(path, title, panels, size):
     sh.save(path, quality=88)
 
 
+def map_sheet(path, title, rows, size):
+    """One row per view: line, clay, line art in red over the clay (alignment), depth, normal."""
+    w, h = size
+    sh = Image.new("RGB", (w * 5, (h + 22) * len(rows) + 30), "white")
+    dr = ImageDraw.Draw(sh)
+    dr.text((8, 6), title, fill="black")
+    for r, (view, line, maps) in enumerate(rows):
+        y = 30 + r * (h + 22)
+        ln = Image.open(line).convert("L").resize((w, h))
+        clay = Image.open(maps / "clay" / line.name).convert("RGB").resize((w, h))
+        over = ImageChops.multiply(clay, Image.merge("RGB", (Image.new("L", (w, h), 255), ln, ln)))
+        tiles = [ln.convert("RGB"), clay, over] + [Image.open(maps / k / line.name).convert("RGB").resize((w, h))
+                                                     for k in MAP_KINDS[1:]]
+        for j, (label, t) in enumerate(zip(("line", "clay", "line over clay", "depth", "normal"), tiles)):
+            sh.paste(t, (j * w, y + 18))
+            dr.text((j * w + 8, y + 4), f"{view} · {label}", fill="red")
+    sh.save(path, quality=88)
+
+
+def maps_main(out, srcs, clay_only=False):
+    maps, n = srcs["maps"], 0
+    for p in json.loads((ROOT / "data/catalog.json").read_text()):
+        rows = [(v, ROOT / "images/line/w900" / f) for v in VIEWS if (f := p["views"].get(v))
+                and all((maps / k / f).exists() for k in MAP_KINDS)]
+        expect = EXPECT[p["series"]] + (f" ({BODIES[p['bodies']]})" if p.get("bodies") else "")
+        if clay_only:
+            for i in range(0, len(rows), 3):
+                chunk = rows[i:i + 3]
+                sheet(out / f"{p['id']}__{'-'.join(v for v, _ in chunk)}.jpg", f"{p['id']} | {p['name_en']} | clay",
+                      [(v, maps / "clay" / f.name) for v, f in chunk], MODES["mapclay"][0])
+                n += 1
+            continue
+        for i in range(0, len(rows), 2):
+            chunk = rows[i:i + 2]
+            map_sheet(out / f"{p['id']}__{'-'.join(v for v, _ in chunk)}.jpg",
+                      f"{p['id']} | {p['name_en']} | expected: {expect}", [(v, f, maps) for v, f in chunk],
+                      MODES["maps"][0])
+            n += 1
+    print(f"maps: {n} sheets in {out}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("out")
@@ -59,6 +108,8 @@ def main() -> None:
     srcs = {k: pathlib.Path(v).expanduser() for k, v in (s.split("=", 1) for s in a.srcs)}
     out = pathlib.Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
+    if a.mode in ("maps", "mapclay"):
+        return maps_main(out, srcs, a.mode == "mapclay")
     size, per, per_set = MODES[a.mode]
     qc_path = ROOT / "data/qc.json"
     qc = json.loads(qc_path.read_text()) if qc_path.exists() else {}

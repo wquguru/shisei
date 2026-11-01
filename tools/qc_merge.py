@@ -4,6 +4,9 @@
 Usage: python3 tools/qc_merge.py QC_DIR [--date YYYY-MM-DD]
 QC_DIR holds fail_*.json (panel review), name_*.json (pose-name check), optionally dups.json (tools/line_dups.py)
 and photo_*.json (photo-render review, docs/qc/photo_prompt.md). Without photo_*.json the previous photo results stay.
+maps_*.json judge the clay / depth / normal maps of a line view (docs/qc/maps_prompt.md): the reviewers' files list
+the sheets they saw in `reviewed`, tools/map_align.py's file lists its views in `checked` and only adds fails. A view
+gets maps only when its line art passes and a reviewer saw it; without maps_*.json the previous map results stay.
 A result file with a top-level "source" applies only to poses whose catalog `source` matches; files without one apply
 to poses without one. A redrawn set (tools/import_redraws.py) is therefore judged only on reviews of its new drawing,
 while the old files stay so the old results remain reproducible (dups*.json from line_dups.py works the same way).
@@ -26,6 +29,11 @@ HARMLESS = re.compile(r"floor|ground", re.I)
 REAL = re.compile(r"textur|scribbl|shadow|speckl|chair|furniture|noise|box|guide|blob|malform|melt|wall|hatch|table|"
                   r"background|ruled|nipple|areola|crop", re.I)
 MISMATCH = re.compile(r"pose mismatch", re.I)
+# Map heads: the clay keeps the drawing's nose-and-chin profile, which the reviewers judged unevenly. A profile alone
+# is not a face (docs/qc/README.md, round 5); eyes, ears, hair, a realistic face or anything below the neck still fail.
+PROFILE = re.compile(r"\bnose|\blips?\b|\bchin|profile|mouth", re.I)
+FACE = re.compile(r"\beyes?\b|eyelid|eye-socket|\bbrow|\bears?\b|hair|realistic|skin|breast|chest|nipple|areola|genital|crotch|bulge|"
+                  r"cloth|prop|text|colou?r", re.I)
 
 
 def main() -> None:
@@ -117,8 +125,45 @@ def main() -> None:
             photos[p["id"]] = row
             p["photos"] = {v: r["file"] for v, r in row.items() if r["status"] == "pass"}
 
+    map_files = sorted(d.glob("maps_*.json"))
+    maps = old.get("maps", {})
+    if map_files:
+        docs = [json.loads(f.read_text()) for f in map_files]
+        # Two reviews per view (the five-panel sheet and the clay close-up, maps_nipple_*); a view counts as seen
+        # only when every review that has run listed it.
+        passes = {}
+        for f, doc in zip(map_files, docs):
+            for n in doc.get("reviewed", []):
+                passes.setdefault(f.name.startswith("maps_nipple_"), set()).update(
+                    (n.split("__")[0], v) for v in n.split("__")[1].removesuffix(".jpg").split("-"))
+        seen = set.intersection(*passes.values()) if passes else set()
+        mfail = {}
+        for x in (x for doc in docs for x in doc["fails"]):
+            if x["kind"] == "line" and PROFILE.search(x["reason"]) and not FACE.search(x["reason"]):
+                continue
+            key = (x["set"], x["angle"])
+            if key not in mfail or (x["kind"] == "structure" and mfail[key]["kind"] == "line"):
+                mfail[key] = x
+        maps = {}
+        for p in cat:
+            row = {v: ({"file": f, "status": mfail[(p["id"], v)]["kind"], "reason": mfail[(p["id"], v)]["reason"]}
+                       if (p["id"], v) in mfail else {"file": f, "status": "pass"})
+                   for v, f in p["views"].items() if f and (p["id"], v) in seen}
+            if row:
+                maps[p["id"]] = row
+    for p in cat:
+        # Maps belong to the line drawing they were made from: a view whose line art no longer passes, or was
+        # redrawn under the same name since, loses them until it is reviewed again.
+        row = {v: r["file"] for v, r in maps.get(p["id"], {}).items()
+               if r["status"] == "pass" and p["views"].get(v) == r["file"]}
+        if row:
+            p["maps"] = row
+        else:
+            p.pop("maps", None)
+
     qc = {"schema": 1, "reviewed": a.date, "method": "docs/qc/README.md", "sets": set_notes,
-          "sources": {pid: s for pid, s in src.items() if s}, "fills": fills, "views": views, "photos": photos}
+          "sources": {pid: s for pid, s in src.items() if s}, "fills": fills, "views": views, "photos": photos,
+          "maps": maps}
     qc_path.write_text(json.dumps(qc, ensure_ascii=False, indent=1) + "\n")
     cat_path.write_text(json.dumps(cat, ensure_ascii=False, indent=1) + "\n")
 
@@ -133,6 +178,7 @@ def main() -> None:
         print(s, t)
     print("photos", sum(r["status"] == "pass" for row in photos.values() for r in row.values()), "/",
           sum(len(row) for row in photos.values()), "pass")
+    print("maps", sum(len(p.get("maps", {})) for p in cat), "/", sum(len(row) for row in maps.values()), "pass")
 
 
 if __name__ == "__main__":

@@ -8,6 +8,8 @@ Writes to dist/:
   shisei-original-v<ver>.zip   every series at the source resolution, from <src>/img and <src>/photo; redrawn sets
                                (catalog `source`) and single-view fills (catalog `fills`) from their source set,
                                at its resolution (digi: 900x1200)
+  shisei-clay-v<ver>.zip       clay maps of every series, w900 (catalog `maps`)
+  shisei-controlnet-v<ver>.zip depth and normal maps of every series, w900, for ControlNet Depth / Normal
 Only files the catalog lists go in, so a view that failed QC never ships, even though the source sets still hold it.
 Every zip carries LICENSE-images (CC0, the images), LICENSE (Apache-2.0) and NOTICE, which credits the pose list. The
 images are already lossy WebP, so deflate barely shrinks them; it is used anyway because it costs nothing for the text.
@@ -21,10 +23,17 @@ READMES = ("README.md", "docs/readme/README.zh-CN.md", "docs/readme/README.ja.md
 LINK = re.compile(r"releases/download/v[\d.]+/shisei-(\w+)-v[\d.]+\.zip")
 
 
-def entries(poses, original, srcs):
-    """(path on disk, path in the zip) for every catalog line-art view and photo of these poses."""
+MAP_PACKS = {"clay": ("clay",), "controlnet": ("depth", "normal")}
+
+
+def entries(poses, original, srcs, maps=()):
+    """(path on disk, path in the zip) for every catalog line-art view and photo of these poses, or with `maps`, for
+    their clay / depth / normal maps (w900 only: the sources are 900 px already, so there is no original to offer)."""
     out = []
     for p in poses:
+        if maps:
+            out += [(ROOT / "images" / k / "w900" / f, f"{k}/{f}") for k in maps for v, f in sorted(p["maps"].items())]
+            continue
         for kind, key, sub in (("line", "views", "img"), ("photo", "photos", "photo")):
             for v, f in sorted((v, f) for v, f in (p.get(key) or {}).items() if f):
                 root = (srcs[p.get("fills", {}).get(v) or p.get("source") or p["series"]] if kind == "line"
@@ -86,9 +95,11 @@ def main() -> None:
 
     jobs = [(s, f"shisei-{s}-v{ver}.zip", [p for p in catalog if p["series"] == s], False) for s in SERIES]
     jobs += [("all", f"shisei-all-v{ver}.zip", catalog, False), ("original", f"shisei-original-v{ver}.zip", catalog, True)]
+    with_maps = [p for p in catalog if p.get("maps")]
+    jobs += [(k, f"shisei-{k}-v{ver}.zip", with_maps, False) for k in MAP_PACKS if with_maps]
     packs = {}
     for key, name, poses, original in jobs:
-        files = entries(poses, original, srcs)
+        files = entries(poses, original, srcs, MAP_PACKS.get(key, ()))
         missing = [str(d) for d, _ in files if not d.exists()]
         if missing:
             sys.exit(f"{name}: {len(missing)} files missing, e.g. {missing[0]}")

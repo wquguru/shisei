@@ -343,7 +343,7 @@ def main() -> None:
     if args.link_images:
         (out / "images").symlink_to(ROOT / "images", target_is_directory=True)
     elif args.public:
-        for kind, key in (("line", "views"), ("photo", "photos")):
+        for kind, key in (("line", "views"), ("photo", "photos"), ("clay", "maps"), ("depth", "maps"), ("normal", "maps")):
             files = {f for p in catalog for f in (p.get(key) or {}).values() if f}
             for tier in ("w300", "w600", "w900"):
                 (out / "images" / kind / tier).mkdir(parents=True)
