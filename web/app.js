@@ -200,7 +200,9 @@
     const tile = e.target.closest('[data-mq]');
     if (!tile) return;
     const [id, v, m] = tile.dataset.mq.split(',');
-    openLb(id, +v, m);
+    // The overview, with the tile's own format outlined: same landing as a grid card, and the click still shows its result.
+    LB.hl = m;
+    openLb(id, +v, 'compare');
   });
 
   /* filters */
@@ -520,7 +522,9 @@
   // its own column; a tile opens that format alone, and "← all formats" comes back. A set with nothing beyond line
   // art has no overview and opens on the line art. The grid of poses stays line art: it is for picking a pose.
   // more: the phone lightbox keeps names, description and secondary actions folded away so one set fits one screen.
-  const LB = { id: null, v: 0, medium: 'line', more: false };
+  // hl: the format a marquee tile was, outlined in the overview it opens. pushed: a tile opened from the overview
+  // added a history entry, so the browser's back (a phone's back gesture) returns to the overview first.
+  const LB = { id: null, v: 0, medium: 'line', more: false, hl: null, pushed: false };
   const MEDIA = ['line', 'clay', 'depth', 'normal', 'photo', 'compare'];
   const isMap = (m) => MAP_KINDS.includes(m);
   const hasMedium = (p, m) => m === 'line' || (m === 'compare' ? p.photo.some(Boolean) || p.clay.some(Boolean) : p[m].some(Boolean));
@@ -620,7 +624,7 @@
   function overviewHtml(p, T) {
     const v = LB.v;
     const tile = (k, f) => f
-      ? '<button type="button" class="lb-tile ' + k + '" data-lbopen="' + k + '"><img src="' + src(k, 'w600', f) + '" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[v] + ' · ' + T[k]) + '"><span>' + esc(T[k]) + '</span></button>'
+      ? '<button type="button" class="lb-tile ' + k + (LB.hl === k ? ' hl' : '') + '" data-lbopen="' + k + '">' + (LB.hl === k ? '<em class="lb-hl">' + esc(T.youClicked) + '</em>' : '') + '<img src="' + src(k, 'w600', f) + '" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[v] + ' · ' + T[k]) + '"><span>' + esc(T[k]) + '</span></button>'
       : '<div class="lb-tile ' + k + ' gap"><span class="lb-tile-gap">' + gapIcon(k === 'photo' ? true : k === 'line' ? false : k) + '<b>' + esc(k === 'photo' ? T.gapPhoto : k === 'line' ? T.gapLine : T.gapMap(T[k])) + '</b></span><span>' + esc(T[k]) + '</span></div>';
     const kinds = ['line'].concat(p.clay.some(Boolean) ? MAP_KINDS : []);
     const hasPhoto = p.photo.some(Boolean);
@@ -667,9 +671,10 @@
     pair.hidden = !compare;
     pair.innerHTML = compare ? overviewHtml(p, T) : '';
     const back = hasMedium(p, 'compare') && !compare;
-    $('lbBack').hidden = !back;
+    $('lbBack').hidden = $('lbBack2').hidden = !back;
     $('lb').classList.toggle('has-back', back);
-    $('lbBackText').textContent = T.overview;
+    $('lbBackText').textContent = $('lbBack2Text').textContent = T.overview;
+    $('lbBackFmt').textContent = back ? '· ' + T[m] : '';
     const miss = $('lbMissing');
     miss.hidden = !!f || compare;
     miss.innerHTML = f || compare ? '' : lbGapHtml(p, arr, m, T);
@@ -722,6 +727,7 @@
   // Same rule as tools/build_site.py: only general-rated std poses get a static page.
   const hasPosePage = (p) => p.series === 'std' && !p.suggestive;
   function stepAngle(d) {
+    LB.hl = null;
     const arr = lbFiles(byId.get(LB.id), LB.medium);
     for (let k = 1; k <= 5; k++) {
       const i = (LB.v + d * k + 25) % 5;
@@ -730,6 +736,7 @@
     renderLb();
   }
   function stepPose(d) {
+    LB.hl = null;
     const list = lbList();
     const i = list.findIndex((p) => p.id === LB.id);
     const next = list[(i + d + list.length) % list.length];
@@ -753,9 +760,31 @@
   });
   $('lbPair').addEventListener('click', (e) => {
     const b = e.target.closest('[data-lbopen]');
-    if (b) openLb(LB.id, LB.v, b.dataset.lbopen, true);
+    if (!b) return;
+    LB.hl = null;
+    history.pushState(null, '', location.href);
+    LB.pushed = true;
+    openLb(LB.id, LB.v, b.dataset.lbopen, true);
   });
-  $('lbBack').addEventListener('click', () => openLb(LB.id, LB.v, 'compare', true));
+  // Back to the overview: through history when a tile pushed an entry, so back button, Esc and the browser's back
+  // all land on the same entry.
+  function toOverview() {
+    if (LB.pushed) history.back();
+    else openLb(LB.id, LB.v, 'compare', true);
+  }
+  $('lbBack').addEventListener('click', toOverview);
+  $('lbBack2').addEventListener('click', toOverview);
+  window.addEventListener('popstate', () => {
+    if (!LB.pushed) return;
+    LB.pushed = false;
+    // Closed while enlarged: the step back only unwinds the entry; drop its hash so nothing reopens.
+    if (!$('lb').open) history.replaceState(null, '', location.pathname + location.search);
+    else openLb(LB.id, LB.v, 'compare', true);
+  });
+  // Esc on an enlarged format goes back to the overview first; a second Esc closes.
+  $('lb').addEventListener('cancel', (e) => {
+    if (LB.medium !== 'compare' && hasMedium(byId.get(LB.id), 'compare')) { e.preventDefault(); toOverview(); }
+  });
   $('lbMedium').addEventListener('click', (e) => {
     const b = e.target.closest('[data-lbm]');
     if (b && !b.disabled) openLb(LB.id, LB.v, b.dataset.lbm, true);
@@ -778,7 +807,11 @@
       image: new URL(src('line', 'w900', f), location.href).href
     });
   });
-  $('lb').addEventListener('close', () => history.replaceState(null, '', location.pathname + location.search));
+  $('lb').addEventListener('close', () => {
+    LB.hl = null;
+    history.replaceState(null, '', location.pathname + location.search);
+    if (LB.pushed) history.back();
+  });
   // On document, not the dialog: re-rendering the chips or clicking the image drops focus to <body>,
   // and a dialog-scoped listener would then miss every key until the reader tabbed back in.
   document.addEventListener('keydown', (e) => {

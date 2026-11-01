@@ -624,3 +624,25 @@ button.lb-tile:hover img, button.lb-tile:focus-visible img { outline: 2px solid 
   /* The arrows would sit on the tiles; swiping the stage changes the angle. */
   .lb.compare .lb-nav { display: none; }
 }
+
+/* The way back from one format to the overview (2026-11-01): on desktop a black pill on the stage that also names the
+   format in view, the angle counter moving to the right to make room; on phones it lives in the bottom bar with the
+   other actions (thumb reach), and the details button steps aside while it is there. */
+.lb-back { height: 48px; padding: 0 20px 0 14px; gap: 8px; background: var(--btn); color: var(--btn-ink); font-size: 15px; box-shadow: 0 8px 22px -12px rgba(24,24,27,0.7); }
+.lb-back-fmt { font-weight: 500; opacity: 0.7; }
+.lb.has-back .lb-counter { top: 26px; left: auto; right: 20px; }
+.lb-back2[hidden] { display: none; }
+/* A marquee tile opens the overview with its own format outlined; the label fades, the outline stays. */
+.lb-tile { position: relative; }
+.lb-stage .lb-tile.hl img { outline: 3px solid var(--ink); outline-offset: 3px; }
+.lb-tile.hl > span { color: var(--ink); font-weight: 700; }
+.lb-hl { position: absolute; left: 10px; top: 10px; z-index: 1; padding: 4px 10px; border-radius: 999px; background: var(--btn); color: var(--btn-ink); font-size: 12px; font-style: normal; font-weight: 700; animation: lb-hl 0.4s ease 4s forwards; }
+@keyframes lb-hl { to { opacity: 0; visibility: hidden; } }
+@media (max-width: 860px) {
+  .lb-back { display: none; }
+  .lb.has-back .lb-counter { top: 12px; left: 12px; right: auto; }
+  .lb-pose .lb-back2 { display: inline-flex; align-items: center; gap: 6px; flex: 0 0 auto; height: 48px; padding: 0 14px 0 10px; border: 1.5px solid var(--ink); background: var(--card); font-size: 14px; font-weight: 700; }
+  .lb.has-back #lbMore { display: none; }
+  .lb-dls .pill { min-width: 0; overflow: hidden; }
+  .lb-dls .pill span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+}

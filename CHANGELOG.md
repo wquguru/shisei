@@ -13,6 +13,11 @@ the catalog schema.
   format bar is gone; sets with only line art open on the line art. `#P001-diag` is the overview, `-line` and the other
   format suffixes open one format, and the old `-compare` links land on the overview. Strings in all four languages.
 
+### Changed
+- Back to the overview is a black "← All formats · Clay" pill on the stage (desktop) or the first button of the bottom
+  bar (phones); Esc and the browser's back go to the overview before closing. Marquee tiles open the overview with
+  their format outlined and a short-lived "The one you clicked" label. Strings in all four languages.
+
 ### Fixed
 - Lightbox ← → sometimes did nothing: opening a map format focused the line-art slider first, which took the keys.
   The close button now takes the first focus and the slider no longer swallows the arrow keys.
