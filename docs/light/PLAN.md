@@ -91,3 +91,4 @@ sphere, how soft the shadow edge is and which way the cast shadow falls.
 - subject 1：L037 侧面胸像变形、灰球移位。
 - **要人定**：“人台原地转、光不动”在物理上也自洽，作为“同一盏光打在不同朝向的人身上”的参考也有用。若接受这种读法，
   这 39 格大多可以放行（改提示词口径后重审，不是手动改判）；若坚持“相机绕行”，这些预设要换写法重画（例如明确写出新机位下光源应在画面哪一侧）。
+审图子代理放行但拿不准的格子记在 `data/light-qc-input/review_notes_r1.md`，人工复核还没做。

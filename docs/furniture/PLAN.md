@@ -91,3 +91,4 @@ around it unless stated, no text, no logo … {negatives}
 - consistency 7 / matte 6：F011 吊篮椅坐垫颜色在白和深灰之间跳；F004 藤编扶手被抠出洞；F021 梳妆镜面被抠空。
 - **还没做**：§7 说的“入库按 `dims.h` 统一缩放到同一 px/cm”。最矮 5 cm、最高 120 cm，统一缩放后小件在 w300 上只剩几个像素，
   先按交付构图入库，`dims` 留在数据里，等网站要并排比较时再定缩放方式。
+审图子代理放行但拿不准的格子记在 `data/furniture-qc-input/review_notes_r1.md`，人工复核还没做。
