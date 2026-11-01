@@ -624,15 +624,29 @@
   function overviewHtml(p, T) {
     const v = LB.v;
     const tile = (k, f) => f
-      ? '<button type="button" class="lb-tile ' + k + (LB.hl === k ? ' hl' : '') + '" data-lbopen="' + k + '">' + (LB.hl === k ? '<em class="lb-hl">' + esc(T.youClicked) + '</em>' : '') + '<img src="' + src(k, 'w600', f) + '" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[v] + ' · ' + T[k]) + '"><span>' + esc(T[k]) + '</span></button>'
+      ? '<button type="button" class="lb-tile ' + k + (LB.hl === k ? ' hl' : '') + '" data-lbopen="' + k + '">' + '<img src="' + src(k, 'w600', f) + '" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[v] + ' · ' + T[k]) + '"><span>' + esc(T[k]) + '</span></button>'
       : '<div class="lb-tile ' + k + ' gap"><span class="lb-tile-gap">' + gapIcon(k === 'photo' ? true : k === 'line' ? false : k) + '<b>' + esc(k === 'photo' ? T.gapPhoto : k === 'line' ? T.gapLine : T.gapMap(T[k])) + '</b></span><span>' + esc(T[k]) + '</span></div>';
     const kinds = ['line'].concat(p.clay.some(Boolean) ? MAP_KINDS : []);
     const hasPhoto = p.photo.some(Boolean);
     $('lb').classList.toggle('ov-one', kinds.length === 1);
     $('lb').classList.toggle('ov-photo', hasPhoto);
     return '<div class="lb-ov"><div class="lb-ov-grid">' + kinds.map((k) => tile(k, p[k][v])).join('') + '</div>' +
-      (hasPhoto ? tile('photo', p.photo[v]) : '') + '</div>' +
-      (hasPhoto && p.photo[v] ? '<button type="button" class="lb-ov-row" data-lbopen="photo"><img src="' + src('photo', 'w300', p.photo[v]) + '" alt=""><span>' + esc(T.photoRow) + '</span>' + ARROW + '</button>' : '');
+      (hasPhoto ? tile('photo', p.photo[v]) : '') + '</div>';
+  }
+  // The formats this set has, in the order of the format row and the vertical swipe: the overview first.
+  const fmtList = (p) => (hasMedium(p, 'compare') ? ['compare', 'line'] : ['line'])
+    .concat(p.clay.some(Boolean) ? MAP_KINDS : [], p.photo.some(Boolean) ? ['photo'] : []);
+  // The format row under an enlarged image (design X1): one tap to any other format, and its first item, the
+  // overview, is the way back. A format this angle lacks stays in place, disabled.
+  function fmtsHtml(p, T) {
+    const v = LB.v;
+    return fmtList(p).map((k) => {
+      const f = k === 'compare' ? true : p[k][v];
+      const ic = k === 'compare' ? '<span class="fmt-all" aria-hidden="true"><i></i><i></i><i></i><i></i></span>'
+        : f ? '<img src="' + src(k, 'w300', f) + '" alt="">' : '<span class="fmt-gap">' + ICON[isMap(k) ? 'map' : k] + '</span>';
+      return '<button type="button" class="' + k + '" data-lbfmt="' + k + '" aria-pressed="' + (LB.medium === k) + '"' + (f ? '' : ' disabled') + '>' +
+        ic + '<span>' + esc(k === 'compare' ? T.allShort : T[k]) + '</span></button>';
+    }).join('');
   }
   function renderLb() {
     const T = t();
@@ -670,11 +684,13 @@
     const pair = $('lbPair');
     pair.hidden = !compare;
     pair.innerHTML = compare ? overviewHtml(p, T) : '';
-    const back = hasMedium(p, 'compare') && !compare;
-    $('lbBack').hidden = $('lbBack2').hidden = !back;
-    $('lb').classList.toggle('has-back', back);
-    $('lbBackText').textContent = $('lbBack2Text').textContent = T.overview;
-    $('lbBackFmt').textContent = back ? '· ' + T[m] : '';
+    // The format row replaces the back buttons; they stay in the markup, hidden.
+    const fmts = hasMedium(p, 'compare') && !compare;
+    $('lbBack').hidden = $('lbBack2').hidden = true;
+    $('lb').classList.toggle('has-fmts', fmts);
+    $('lbFmts').hidden = !fmts;
+    $('lbFmts').setAttribute('aria-label', T.medium);
+    $('lbFmts').innerHTML = fmts ? fmtsHtml(p, T) : '';
     const miss = $('lbMissing');
     miss.hidden = !!f || compare;
     miss.innerHTML = f || compare ? '' : lbGapHtml(p, arr, m, T);
@@ -682,7 +698,9 @@
     // With one view or none there is nowhere to step; a live-looking arrow that does nothing reads as broken.
     $('lbPrev').disabled = $('lbNext').disabled = arr.filter(Boolean).length < 2;
     const list = lbList();
-    $('lbMeta').textContent = p.id + ' · ' + T.series[p.series] + ' · ' + catLabel(p) + ' · ' + (list.indexOf(p) + 1) + '/' + list.length;
+    // Phones keep only the ID and category in this line (.lb-mx hides the rest) to give the image the height.
+    $('lbMeta').innerHTML = esc(p.id) + '<span class="lb-mx"> · ' + esc(T.series[p.series]) + '</span> · ' + esc(catLabel(p)) +
+      '<span class="lb-mx"> · ' + (list.indexOf(p) + 1) + '/' + list.length + '</span>';
     $('lb').classList.toggle('more', LB.more);
     $('lbMore').setAttribute('aria-expanded', String(LB.more));
     $('lbTitle').textContent = nameOf(p);
@@ -773,6 +791,25 @@
     else openLb(LB.id, LB.v, 'compare', true);
   }
   $('lbBack').addEventListener('click', toOverview);
+  $('lbFmts').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-lbfmt]');
+    if (b && !b.disabled) pickFormat(b.dataset.lbfmt);
+  });
+  // Switching from one enlarged format to another replaces the entry; the overview goes back through history.
+  function pickFormat(k) {
+    if (k === LB.medium) return;
+    if (k === 'compare') return toOverview();
+    // Leaving the overview pushes one entry, as a tile tap does, so back returns to it.
+    if (LB.medium === 'compare') { history.pushState(null, '', location.href); LB.pushed = true; }
+    openLb(LB.id, LB.v, k, true);
+  }
+  function flash(label) {
+    const el = $('lbFlash');
+    el.textContent = label;
+    el.classList.remove('on');
+    void el.offsetWidth;  // restart the fade
+    el.classList.add('on');
+  }
   $('lbBack2').addEventListener('click', toOverview);
   window.addEventListener('popstate', () => {
     if (!LB.pushed) return;
@@ -836,12 +873,18 @@
   $('lbWipeRange').addEventListener('input', setWipe);
   $('lbWipeBar').addEventListener('pointerdown', (e) => e.stopPropagation());
   let swipeX = null;
-  $('lbStage').addEventListener('pointerdown', (e) => { swipeX = e.clientX; });
+  let swipeY = null;
+  $('lbStage').addEventListener('pointerdown', (e) => { swipeX = e.clientX; swipeY = e.clientY; });
   $('lbStage').addEventListener('pointerup', (e) => {
     if (swipeX === null) return;
-    const dx = e.clientX - swipeX;
-    swipeX = null;
-    if (Math.abs(dx) > 50) stepAngle(dx < 0 ? 1 : -1);
+    const dx = e.clientX - swipeX, dy = e.clientY - swipeY;
+    swipeX = swipeY = null;
+    // Phones: up / down steps through the formats in the row's order (not while the details panel scrolls).
+    if (ALBUM && !LB.more && Math.abs(dy) > 50 && Math.abs(dy) > Math.abs(dx)) {
+      const p = byId.get(LB.id), list = fmtList(p).filter((k) => k === 'compare' || p[k][LB.v]);
+      const i = list.indexOf(LB.medium), next = list[i + (dy < 0 ? 1 : -1)];
+      if (next) { pickFormat(next); flash(next === 'compare' ? t().overview : t()[next]); }
+    } else if (Math.abs(dx) > 50) stepAngle(dx < 0 ? 1 : -1);
   });
 
   // Deep links: #P001 and #P001-diag open the overview (as do the older #P001-diag-compare links);

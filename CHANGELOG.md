@@ -8,6 +8,15 @@ the catalog schema.
 ## [Unreleased]
 
 ### Changed
+- Enlarged formats get a format row under the image: "All" (the overview) and each format of the set, one tap to switch;
+  it replaces the "← All formats" buttons. On phones, swiping up and down on the image steps through the same row and
+  flashes the format name. The phone overview shows all five images (three columns, the photo filling the third), and
+  the "This pose also has a photo" row is gone. Marquee tiles still outline their format, without the label.
+
+### Fixed
+- Phone lightbox cramped on first open: the box is 100dvh, about 180 px shorter while the address bar shows, and only the
+  image gave way. The meta line, angle row and format note are trimmed on phones so the image keeps its height.
+
 - The lightbox opens on an overview of the angle: line art, clay, depth and normal in a 2×2 grid and the photo in a
   column beside it (a row under it on phones). Click a tile to see that format alone, "← All formats" goes back. The
   format bar is gone; sets with only line art open on the line art. `#P001-diag` is the overview, `-line` and the other
