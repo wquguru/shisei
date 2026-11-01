@@ -8,6 +8,9 @@ the catalog schema.
 ## [Unreleased]
 
 ### Changed
+- The lightbox preloads what the next step needs once the shown images are in: the overview's other angles, an
+  enlarged format's other angles and this angle's other formats, and the next pose's opening view. Low priority,
+  skipped on Save-Data and 2G connections.
 - Enlarged formats get a format row under the image: "All" (the overview) and each format of the set, one tap to switch;
   it replaces the "← All formats" buttons. On phones, swiping up and down on the image steps through the same row and
   flashes the format name. The phone overview shows all five images (three columns, the photo filling the third), and

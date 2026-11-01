@@ -740,6 +740,43 @@
     if (hasPage) $('lbPage').href = posePage(p.id);
     // No suffix is the overview (the default); the line art alone is -line.
     history.replaceState(null, '', location.pathname + location.search + '#' + p.id + '-' + VIEWS[LB.v] + (m === 'compare' ? '' : '-' + m));
+    preloadAround(p, m);
+  }
+  /* Preloading: once the shown images are in, fetch what the next step needs, so ← → and the format row are instant.
+     Overview: the other angles' tiles (w600). One format: its other angles (w900), and this angle in the set's other
+     formats (w900, for the format row and the vertical swipe). Then the next pose's opening view. Skipped on
+     Save-Data and 2G; the fetches are low priority and the browser cache (images: a week) keeps them. */
+  const WARM = new Set();
+  const SLOW = (() => { const c = navigator.connection; return !!c && (c.saveData || /2g/.test(c.effectiveType || '')); })();
+  function warm(urls) {
+    urls.forEach((u) => {
+      if (WARM.has(u)) return;
+      WARM.add(u);
+      const im = new Image();
+      im.decoding = 'async';
+      if ('fetchPriority' in im) im.fetchPriority = 'low';
+      im.src = u;
+    });
+  }
+  let warmTimer = 0;
+  function preloadAround(p, m) {
+    if (SLOW || veiled(p)) return;
+    clearTimeout(warmTimer);
+    const v = LB.v, others = VIEWS.map((_, i) => i).filter((i) => i !== v);
+    const kinds = ['line'].concat(p.clay.some(Boolean) ? MAP_KINDS : [], p.photo.some(Boolean) ? ['photo'] : []);
+    const urls = [];
+    if (m === 'compare') others.forEach((i) => kinds.forEach((k) => { if (p[k][i]) urls.push(src(k, 'w600', p[k][i])); }));
+    else {
+      const arr = lbFiles(p, m), kind = m === 'compare' ? 'line' : m;
+      others.forEach((i) => { if (arr[i]) urls.push(src(kind, 'w900', arr[i])); });
+      kinds.forEach((k) => { if (k !== kind && p[k][v]) urls.push(src(k, 'w900', p[k][v])); });
+    }
+    const list = lbList(), next = list[(list.indexOf(p) + 1) % list.length];
+    if (next && next !== p && !veiled(next)) kinds.forEach((k) => { if (next[k] && next[k][v]) urls.push(src(k, m === 'compare' ? 'w600' : 'w900', next[k][v])); });
+    // After the images on screen have had their turn.
+    const go = () => warm(urls);
+    const img = $('lbImg');
+    warmTimer = setTimeout(() => (img.complete || m === 'compare' ? go() : img.addEventListener('load', go, { once: true })), 250);
   }
   const posePage = (id) => BASE + PREFIX[S.lang] + 'pose/' + id + '/';
   // Same rule as tools/build_site.py: only general-rated std poses get a static page.
