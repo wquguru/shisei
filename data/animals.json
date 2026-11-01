@@ -6,7 +6,9 @@
   "above",
   "below"
  ],
- "retired": {},
+ "retired": {
+  "DG:dog-h-gallop:base": "A012"
+ },
  "items": [
   {
    "id": "A001",
@@ -416,10 +418,10 @@
    "gaps": {}
   },
   {
-   "id": "A012",
-   "key": "DG:dog-h-gallop:base",
+   "id": "A013",
+   "key": "DG:dog-h-stand:base",
    "cat": "DG",
-   "form": "dog-h-gallop",
+   "form": "dog-h-stand",
    "group": "sighthound",
    "rating": "general",
    "probe": true,
@@ -427,21 +429,21 @@
    "tail": "one long thin smooth tapering tail",
    "coat": "short smooth grey fur",
    "main": "side",
-   "name_zh": "视觉猎犬·奔跑（基础）",
-   "name_ja": "サイトハウンド・疾走（基本）",
-   "name_en": "Sighthound Running (Base)",
-   "name_ko": "시각 하운드 달리기 (기본)",
+   "name_zh": "视觉猎犬·站立（基础）",
+   "name_ja": "サイトハウンド・立ち姿（基本）",
+   "name_en": "Sighthound Standing (Base)",
+   "name_ko": "시각 하운드 서기 (기본)",
    "group_zh": "细长视觉猎犬",
    "group_ja": "サイトハウンド",
    "group_en": "Sighthound",
    "group_ko": "시각 하운드",
-   "desc_en": "running at full gallop in the gathered phase: back strongly arched, hind legs swung forward past the front legs, front legs reaching back underneath the body, all four paws off the ground, head low and forward, ears folded back, tail low behind",
-   "keep_en": "full gallop gathered phase, back arched, hind legs forward ahead of the front legs, all paws off the ground, head low",
+   "desc_en": "standing square and still on all four paws: front legs straight and parallel under the deep chest, hind legs set back with a clear backward angle at the hock, a long gently arched back rising over the loin, the waist sharply tucked up behind the ribcage, long neck raised, head level, small rose ears folded back, long thin tail hanging low in a slight curve",
+   "keep_en": "square stand on four paws, straight parallel front legs, hind legs set back with backward hocks, arched back, sharply tucked waist, long raised neck, low curved tail",
    "checks": [
-    "四只脚都离地",
-    "后腿越过前腿",
-    "背部拱起、腰细收",
-    "正好四条腿"
+    "四脚着地站稳",
+    "胸深、腰明显细收",
+    "腿明显细长、比中型犬长",
+    "后腿跗关节向后弯"
    ],
    "views": {
     "front": null,

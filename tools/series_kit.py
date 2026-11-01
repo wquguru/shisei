@@ -145,10 +145,17 @@ ANIMAL_PHOTO = (
     "margins, soft even studio lighting, uniform flat light grey background with no gradient, no floor shadow, "
     "3:4 vertical.\n{rules}\nNo people, no hands, no collar, no clothing, no props, no other animals, no text, no "
     "watermark. {negatives}")
+# Order after the main view: the opposite flat view (front for a side main, side for a front main), then the three
+# in-between views. probe-r3-01 turned a lone side reference into a "three-quarter" that stayed a flat profile, so
+# the in-between views reference both flat views, as the prop library does.
+ANIMAL_ORDER = {"side": ("side", "front", "diag", "above", "below"),
+                "front": ("front", "side", "diag", "above", "below")}
+ANIMAL_REFS = {"one": "Image 1 is the {main} view of a pose reference.",
+               "two": "Image 1 is the {main} view and image 2 is the {second} view of the same pose reference."}
 ANIMAL_TURN = (
-    "Image 1 is the {ref} view of a pose reference. Draw exactly the same animal in exactly the same pose from "
-    "{view}. Keep these identical: {keep}; the same style, line weight and proportions. The pose must not change, "
-    "only the camera moves; do not mirror image 1. No people, no text.")
+    "{refs} Draw exactly the same animal in exactly the same pose from {view}. Keep these identical: {keep}; the "
+    "same style, line weight and proportions. The pose must not change, only the camera moves; do not mirror the "
+    "references. No people, no text.")
 
 # ---- light presets (L###): one light setup on a fixed neutral subject, three eye-level camera positions ---------
 # Light is an attribute, not an object: the subject never changes within a category, so the only variable is the

@@ -164,9 +164,9 @@ def animal_parts(cats: dict, cat_list: list) -> list:
         "A 再做全部五个机位。notes.md 最后给出你的判断：哪种更稳、哪种肢体更不容易错。",
         "",
         "## 规则",
-        "1. 一次一张图。每个动作先画 A 主图（每个动作标了“主图”：猫狗兔马是侧面，鸟和龙是正面）→ B 正面 → "
-        "A 其余四个机位（都参考 A 主图）。",
-        "2. 正面最多 3 次，其余各最多 2 次。每张先数腿、尾巴、翅膀、耳朵，再对“要点”；多一条少一条都算错。",
+        "1. 一次一张图。每个动作的顺序：A 主图（每个动作标了“主图”：猫狗兔马是侧面，鸟和龙是正面）→ B 正面 → "
+        "A 第二张（主图是侧面就画正面，主图是正面就画侧面，参考主图）→ A 斜侧 / 俯视 / 仰视（同时参考主图和第二张）。",
+        "2. 主图最多 3 次，其余各最多 2 次。每张先数腿、尾巴、翅膀、耳朵，再对“要点”；多一条少一条都算错。",
         "3. 关节方向：猫狗的后腿在跗关节处向后弯，马的前膝向前弯；画反算错。",
         "4. 不要幼崽，不要项圈、衣服、道具、地面和背景元素；不要和任何作品里的角色像。",
         "5. A 风格沿用 pose_lineart_gallery 定稿线稿的线条粗细、留白和画法：一条平滑的外轮廓 + 少量浅色结构线，关节只画小圆；"
@@ -186,11 +186,13 @@ def animal_parts(cats: dict, cat_list: list) -> list:
         "大类规则：",
         cat_rules(cats, cat_list),
         "",
-        "## A 转机位模板（参考 A 主图；{keep} 用该动作的“保持不变”，{ref} 写 side 或 front）",
+        "## A 转机位模板（{keep} 用该动作的“保持不变”）",
         "```",
         K.ANIMAL_TURN,
         "```",
-        *[f"- {v} 的 {{view}}：{K.ANIMAL_VIEW_TEXT[v]}" for v in ("front", "diag", "side", "above", "below")],
+        "- {refs}：第二张只给主图一张，写“" + K.ANIMAL_REFS["one"] + "”；斜侧 / 俯视 / 仰视给两张（主图 + 第二张），写“"
+        + K.ANIMAL_REFS["two"] + "”。{main} {second} 填 side / front。",
+        *[f"- {v} 的 {{view}}：{K.ANIMAL_VIEW_TEXT[v]}" for v in ("front", "side", "diag", "above", "below")],
     ]
 
 
@@ -240,8 +242,8 @@ def main() -> None:
     out = pathlib.Path(a.out).expanduser()
     out.mkdir(parents=True, exist_ok=True)
     run = out.name
-    need = {i["id"]: [v for v in sorted(views, key=lambda v: v != i.get("main", views[0])) if not i["views"].get(v)]
-            for i in items}  # main view first: it is drawn first and the rest reference it
+    order = (lambda i: K.ANIMAL_ORDER[i.get("main", "front")]) if a.lib == "animal" else (lambda i: views)
+    need = {i["id"]: [v for v in order(i) if not i["views"].get(v)] for i in items}  # drawing order: references first
     n_img = sum(len(v) for v in need.values()) + (len(items) if a.lib == "animal" else 0)  # + one B-style front each
     cat_list = sorted({i["cat"] for i in items}, key=lambda c: cats[c]["order"])
     title = "试验（每个大类挑几件，验证能不能稳定生成）" if a.probe else f"{cats[a.cat]['name']['zh']}（{a.cat}）"
