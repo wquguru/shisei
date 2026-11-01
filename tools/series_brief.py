@@ -4,7 +4,8 @@
 The counterpart of costume_brief.py. Either one category, or --probe: the first variant of every form marked
 `probe`, across all categories, to test each category before the full run (the costume-probe01 step).
 
-Usage: python3 -I tools/series_brief.py scene IN ~/Downloads/scene-IN-run01 [--only E001,E002] [--gate 10]
+Usage: python3 -I tools/series_brief.py scene IN ~/Downloads/scene-IN-run01 [--only E001,E002] [--skip E003] [--gate 10]
+       python3 -I tools/series_brief.py scene IN,UR ~/Downloads/scene-IN-UR-run01   (several categories, one paste)
        python3 -I tools/series_brief.py prop --probe ~/Downloads/prop-probe01
 Writes OUT/brief.md and OUT/manifest.json; items that already have every view are skipped. The animal library only
 has its --probe brief, which draws every probe item in two styles to decide D-14 (docs/animal/PLAN.md).
@@ -223,6 +224,7 @@ def main() -> None:
     ap.add_argument("cat", nargs="?", default="")
     ap.add_argument("out")
     ap.add_argument("--only", default="")
+    ap.add_argument("--skip", default="")  # items held back, e.g. still failing their probe
     ap.add_argument("--probe", action="store_true")
     ap.add_argument("--gate", type=int, default=10)
     a = ap.parse_args()
@@ -234,8 +236,13 @@ def main() -> None:
     views = cfg["views"]
     cats = json.loads((ROOT / cfg["src"] / "_categories.json").read_text())
     only = set(filter(None, a.only.split(",")))
+    skip = set(filter(None, a.skip.split(",")))
+    want = set(filter(None, a.cat.split(",")))
+    if want - set(cats):
+        raise SystemExit(f"unknown category: {', '.join(sorted(want - set(cats)))}")
     items = [i for i in json.loads((ROOT / cfg["out"]).read_text())["items"]
-             if (i.get("probe") if a.probe else i["cat"] == a.cat) and (not only or i["id"] in only)
+             if (i.get("probe") if a.probe else i["cat"] in want) and (not only or i["id"] in only)
+             and i["id"] not in skip
              and not all(i["views"].get(v) for v in views)]
     if not items:
         raise SystemExit("nothing to brief")
@@ -246,12 +253,14 @@ def main() -> None:
     need = {i["id"]: [v for v in order(i) if not i["views"].get(v)] for i in items}  # drawing order: references first
     n_img = sum(len(v) for v in need.values()) + (len(items) if a.lib == "animal" else 0)  # + one B-style front each
     cat_list = sorted({i["cat"] for i in items}, key=lambda c: cats[c]["order"])
-    title = "试验（每个大类挑几件，验证能不能稳定生成）" if a.probe else f"{cats[a.cat]['name']['zh']}（{a.cat}）"
+    title = ("试验（每个大类挑几件，验证能不能稳定生成）" if a.probe
+             else "、".join(f"{cats[c]['name']['zh']}（{c}）" for c in cat_list))
     unit = {"scene": "个场景", "light": "个光线预设", "animal": "个动作"}.get(a.lib, "件")
     view_zh = "、".join(VIEW_ZH[v] for v in views)
     gate = ([] if a.probe else [
-        f"**自检闸**：先做前 {a.gate} {unit}的第一张（{VIEW_ZH[views[0]]}）。通过少于 {round(a.gate * 0.7)} {unit}就停下，"
-        "把问题写进 notes.md 交付，不要继续；达到了再做完其余。", ""])
+        f"**自检闸**：{'每个大类' if len(cat_list) > 1 else ''}先做前 {a.gate} {unit}的第一张（{VIEW_ZH[views[0]]}）。"
+        f"通过少于 {round(a.gate * 0.7)} {unit}就停下这个大类，把问题写进 notes.md，"
+        + ("接着做下一个大类" if len(cat_list) > 1 else "不要继续") + "；达到了再做完其余。", ""])
 
     L = [f"# shisei {cfg['label']} · {title} · {run}", "",
          f"共 {len(items)} {unit}、{n_img} 张（视角：{view_zh}）。规格见下，每{unit}的字段已经给好，照模板拼即可。"
