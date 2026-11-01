@@ -260,14 +260,14 @@ LIBS = {
 }
 
 # Image tiers once a view passes QC (series_build.py, verify.py). Matted libraries (prop, furniture) follow the costume
-# library: house grey #D9D9D9 at q60 in three widths plus a transparent cut-out at w900 only (D-10 7). The others keep
-# their own background and use the pose tiers. Settings checked side by side on run01 samples, 2026-11-01.
+# library: house grey #D9D9D9 at q60 in three widths (D-10 7); the transparent cut-out stays in the source set (D-18).
+# The others keep their own background and use the pose tiers. Settings checked side by side on run01 samples,
+# 2026-11-01.
 LOOKS = {
-    True: {"grey": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}, "alpha": {"w900": (900, 1200)}},
+    True: {"grey": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}},
     False: {"plain": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}},
 }
 CWEBP = {"grey": ["-q", "60", "-m", "6", "-sharp_yuv"],
-         "alpha": ["-q", "65", "-alpha_q", "80", "-m", "6", "-sharp_yuv"],
          "plain": {"w300": ["-q", "70", "-m", "6"], "w600": ["-q", "72", "-m", "6"], "w900": ["-q", "75", "-m", "6"]}}
 STATUSES_ALL = ("pass", "missing")
 

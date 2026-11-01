@@ -101,7 +101,7 @@ def main() -> int:
 
 
 def check_costumes() -> list:
-    """Costume library (D-10): data/costumes.json ↔ data/costume-qc.json ↔ images/costume/grey/<tier>/ + alpha/w900/."""
+    """Costume library (D-10): data/costumes.json ↔ data/costume-qc.json ↔ images/costume/grey/<tier>/."""
     path = ROOT / "data/costumes.json"
     if not path.exists():
         return []
@@ -120,11 +120,10 @@ def check_costumes() -> list:
             if f:
                 if st != "pass":
                     errs.append(f"{it['id']} {v}: in costumes.json but costume-qc says {st}")
-                for look, tiers in (("grey", TIERS), ("alpha", ("w900",))):  # transparent ships at w900 only
-                    for t in tiers:
-                        want.add(ROOT / "images/costume" / look / t / f)
-                        if not (ROOT / "images/costume" / look / t / f).exists():
-                            errs.append(f"{it['id']} {v}: images/costume/{look}/{t}/{f} missing")
+                for t in TIERS:
+                    want.add(ROOT / "images/costume/grey" / t / f)
+                    if not (ROOT / "images/costume/grey" / t / f).exists():
+                        errs.append(f"{it['id']} {v}: images/costume/grey/{t}/{f} missing")
             else:
                 if st == "pass":
                     errs.append(f"{it['id']} {v}: costume-qc pass but view is null (run costume_build.py)")

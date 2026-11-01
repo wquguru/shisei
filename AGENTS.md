@@ -70,9 +70,9 @@ images/line/w900/    lightbox/download tier, 900×1200 WebP q75
 images/photo/…       same two tiers for photo renders
 images/{clay,depth,normal}/  maps of passed line views (catalog `maps`), same three tiers and file names as the line
                      art, made from it and pixel-aligned (docs/GENERATION.md); QC in qc.json `maps`
-images/costume/      costume views: grey/{w300,w600,w900}/ on #D9D9D9 and alpha/w900/ transparent (D-10),
+images/costume/      costume views: grey/{w300,w600,w900}/ on #D9D9D9 (D-10; no transparent tier, D-18),
                      costume_<ID>_<view>.webp; QC in data/costume-qc.json from data/costume-qc-input/
-images/{prop,furniture}/   grey/{w300,w600,w900}/ on #D9D9D9 and alpha/w900/ transparent, as costumes
+images/{prop,furniture}/   grey/{w300,w600,w900}/ on #D9D9D9, as costumes
 images/{scene,light,animal}/   plain/{w300,w600,w900}/ as delivered (pose tier quality); <lib>_<ID>_<view>.webp
 web/                 gallery source: index.html template, app.js, app.css, i18n.js, common.js (share sheet, copy,
                      language links), favicon.svg, changelog.yaml (reader-facing changelog, four languages), fonts/ (self-hosted

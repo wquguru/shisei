@@ -39,6 +39,11 @@ the catalog schema.
   flashes the format name. The phone overview shows all five images (three columns, the photo filling the third), and
   the "This pose also has a photo" row is gone. Marquee tiles still outline their format, without the label.
 
+### Removed
+- The transparent w900 tier of costumes, furniture and props (`images/*/alpha/`, 2,166 files, 89 MB): the site never
+  showed it and no download pack carried it. Only the #D9D9D9 grey tiers remain; the cut-outs stay in the source sets
+  (D-18). Removed from all history as well, so a fresh clone is about 89 MB smaller.
+
 ### Fixed
 - Costume library: the lingerie category's repair round brings it to 1889 of 1976 views and 484 of 494 items
   (was 1870 and 482). Background left inside cut-outs and leg openings by the matte is cleared, and pale floating

@@ -4,7 +4,7 @@
 Only views with `pass` in data/<lib>-qc.json are built; everything else under images/<lib>/ is removed, and the
 item's view becomes null with the QC status in `gaps` (same rule as poses, AGENTS §2). Looks and quality come from
 series_kit.LOOKS / CWEBP:
-  prop, furniture   images/<lib>/grey/{w300,w600,w900}/  on #D9D9D9, and images/<lib>/alpha/w900/ transparent
+  prop, furniture   images/<lib>/grey/{w300,w600,w900}/  on #D9D9D9 (the transparent cut-out stays in the source set, D-18)
   scene, light, animal   images/<lib>/plain/{w300,w600,w900}/  the delivered image as is
 File names <lib>_<ID>_<view>.webp. Full-size originals stay out of git (release packs only).
 Usage: python3 -I tools/series_build.py prop ~/Downloads/run01-src/prop [more source sets…]
@@ -15,7 +15,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import series_kit as K
 
-SRC_DIR = {"grey": "grey", "alpha": "alpha", "plain": "raw"}
+SRC_DIR = {"grey": "grey", "plain": "raw"}
 
 
 def cwebp(src: pathlib.Path, dst: pathlib.Path, w: int, h: int, look: str, tier: str) -> None:

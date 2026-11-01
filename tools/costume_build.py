@@ -2,19 +2,18 @@
 """Build the costume image tiers from the costume source set and record them in data/costumes.json.
 
 Only views with `pass` in data/costume-qc.json are built; everything else under images/costume/ is removed, and the
-item's view becomes null with the QC status in `gaps` (same rule as poses, AGENTS §2). Two looks per view (D-10):
+item's view becomes null with the QC status in `gaps` (same rule as poses, AGENTS §2). One look per view (D-10, D-18):
   images/costume/grey/{w300,w600,w900}/costume_<ID>_<view>.webp    on the house background #D9D9D9
-  images/costume/alpha/w900/costume_<ID>_<view>.webp               transparent cut-out, download size only (D-10)
-Quality was set by a side-by-side check (2026-10-31): no visible loss at 2x, about 45% smaller than q75 + lossless alpha.
+The transparent cut-out stays in the source set only (D-18): nothing showed or shipped it, and it was 76 MB of git.
+Quality was set by a side-by-side check (2026-10-31): no visible loss at 2x, about 21% smaller than q75.
 Usage: python3 -I tools/costume_build.py ~/Downloads/costume-hc [more source sets…]
 """
 import json, pathlib, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 # look -> tier -> (width, height); the flat grey background compresses well, so q60 holds up where poses need q70+
-TIERS = {"grey": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}, "alpha": {"w900": (900, 1200)}}
-ARGS = {"grey": ["-q", "60", "-m", "6", "-sharp_yuv"],
-        "alpha": ["-q", "65", "-alpha_q", "80", "-m", "6", "-sharp_yuv"]}
+TIERS = {"grey": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}}
+ARGS = {"grey": ["-q", "60", "-m", "6", "-sharp_yuv"]}
 LOOKS = tuple(TIERS)
 OUT = ROOT / "images/costume"
 

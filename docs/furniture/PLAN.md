@@ -85,7 +85,7 @@ around it unless stated, no text, no logo … {negatives}
 
 两个 Muse 对话交付（`run01-4-furniture-SE-TB`、`run01-5-furniture-CN-PL`），240 格交 203 张 ok（F023、F031、F041、F043、F047
 正面不过）。抠图换底同道具；2 个 Sonnet 按 [furniture_prompt.md](../qc/furniture_prompt.md) 审。**163 / 240 通过，41 / 48 件上架**，
-出 `images/furniture/grey/{w300,w600,w900}/` 和 `alpha/w900/`。
+出 `images/furniture/grey/{w300,w600,w900}/` 和 `alpha/w900/`（透明版 2026-11-01 撤出仓库，见 D-18）。
 - scale 22：模型把长桌画成近方形——F018 餐桌（180×90×75）、F019 茶几、F022 吧台四张全不过，F040 方台、F042、F048 也是比例。
   这是 §8“模型对尺寸没概念”的实证，返工要在提示词里写长宽比（“宽是高的 2.4 倍”）而不是厘米数。
 - consistency 7 / matte 6：F011 吊篮椅坐垫颜色在白和深灰之间跳；F004 藤编扶手被抠出洞；F021 梳妆镜面被抠空。
