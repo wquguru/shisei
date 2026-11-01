@@ -13,6 +13,9 @@ the catalog schema.
 - README: the tagline in all four languages mentions the clay, depth and normal maps; the repository size note covers
   the maps and the costume library (it said 63 MB); a new screenshot of the hero with the mixed-format marquee.
   AGENTS.md describes the maps in §1.
+- Page titles, meta descriptions and home share cards in ja / en / ko (and the zh description) mention the clay,
+  depth and normal maps, so search results show them; the home card subtitle breaks only between phrases.
+  AGENTS.md §6 gains the format names per language and the wording rules (白模 is only the clay format).
 
 ## [0.4.1] - 2026-10-31
 

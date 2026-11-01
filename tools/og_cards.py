@@ -75,7 +75,7 @@ def home_card(loc, T, picks):
     """picks: six (tint, file) pairs for the 3×2 tile grid."""
     tiles = "".join(f'<div class="t" style="background:{t}"><img src="{_img(f)}"></div>' for t, f in picks)
     body = (f'<div class="l"><div class="brand">{LOGO.format(s=64)}</div><div class="big">Shisei</div>'
-            f'<div class="line">{html.escape(T["ogLine"])}</div><div class="sub">{html.escape(T["ogSub"])}</div></div>'
+            f'<div class="line">{html.escape(T["ogLine"])}</div><div class="sub" style="word-break:keep-all">{html.escape(T["ogSub"])}</div></div>'
             f'<div class="r" style="grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr">{tiles}</div>')
     return _page(loc, body)
 

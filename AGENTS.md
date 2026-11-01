@@ -125,6 +125,13 @@ python3 -I tools/pack_release.py 0.2.0 std=… upper=… sexy=… duo=… digi=�
   → `export_csv.py` → CHANGELOG line and a GENERATION.md note.
 - **Translations**: ja is the original naming; zh / en / ko are translations. Keep names short (`動作・手の位置`
   shape); change all four together.
+- **Formats and wording** (2026-10-31): the site has five formats: line art, photos, and clay / depth / normal maps.
+  In Chinese, 白模 names only the clay format; the faceless mannequin is 素体 (never 白模（素体）). Format names:
+  zh 线稿 / 实拍 / 白模 / 深度 / 法线, ja 線画 / 実写 / クレイ / 深度 / 法線, en line art / photo / clay / depth / normal,
+  ko 선화 / 실사 / 클레이 / 깊이 / 노멀. Hero titles name no single format (zh 姿势参考); the hero line, page title, meta
+  description, share card and README taglines say what the library holds in all four languages, so a new format or
+  count changes all of them together. Describe the maps by what they are (clay: usable as a reference image; depth and
+  normal: for ControlNet) and never claim an effect nobody has tested. Every download names its contents.
 - **Web**: follow docs/DESIGN.md. Every UI string lives in `web/i18n.js` in all four languages; `index.html` placeholders
   (`__CATALOG__`, `__REPO__`, `__VERSION__`) are filled by `build_site.py`. Zero runtime dependencies, works at 390×844 without horizontal scroll, every
   string in all four languages, images lazy-loaded with `alt` = ID + name + view, keyboard: ← → angle, ↑ ↓ pose,
