@@ -267,8 +267,10 @@ def main() -> None:
              else "、".join(f"{cats[c]['name']['zh']}（{c}）" for c in cat_list))
     unit = {"scene": "个场景", "light": "个光线预设", "animal": "个动作"}.get(a.lib, "件")
     view_zh = "、".join(VIEW_ZH[v] for v in views)
+    # Animals start from each action's main view (side for most), not the library's first view.
+    first = ("主图" if a.lib == "animal" else VIEW_ZH[views[0]])
     gate = ([] if a.probe else [
-        f"**自检闸**：{'每个大类' if len(cat_list) > 1 else ''}先做前 {a.gate} {unit}的第一张（{VIEW_ZH[views[0]]}）。"
+        f"**自检闸**：{'每个大类' if len(cat_list) > 1 else ''}先做前 {a.gate} {unit}的第一张（{first}）。"
         f"通过少于 {round(a.gate * 0.7)} {unit}就停下这个大类，把问题写进 notes.md，"
         + ("接着做下一个大类" if len(cat_list) > 1 else "不要继续") + "；达到了再做完其余。", ""])
 
