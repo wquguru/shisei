@@ -138,9 +138,7 @@ class Site:
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 {head}
 <meta name="theme-color" content="#F5F2ED">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="preload" href="{rel}fonts/inter-tight-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{rel}app.css?v={self.version}">
 </head>
 <body class="static {cls}">

@@ -203,6 +203,8 @@ def check_site(out, site):
 # the same when a view is redrawn, so images get a week plus background revalidation rather than immutable.
 HEADERS = """/assets/*
   Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
 /images/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 /og/*
@@ -338,6 +340,8 @@ def main() -> None:
     for f in (ROOT / "web").iterdir():
         if f.is_file() and f.name not in ("index.html", "changelog.yaml"):
             shutil.copy2(f, out / f.name)
+    # Self-hosted Latin font subsets and their OFL licences (docs/LICENSING.md).
+    shutil.copytree(ROOT / "web/fonts", out / "fonts")
     (out / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=1) + "\n")
     (out / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=1) + "\n")
     if args.link_images:

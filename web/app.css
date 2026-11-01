@@ -1,3 +1,8 @@
+/* Self-hosted Latin subsets (2026-11-01): Google Fonts sent 1.6 MB in 28 requests (Noto Sans SC in slices) and is
+   often unreachable from mainland China, where its stylesheet held up the first render. Chinese, Japanese and Korean
+   text use the reader's system fonts. Paths are relative to the stamped stylesheet in assets/. */
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 500 800; font-display: swap; src: url(../fonts/inter-tight-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url(../fonts/jetbrains-mono-500-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 :root {
   --bg: #F5F2ED; --bg2: #ECE7DF; --field: #F8F6F2; --card: #FFFFFF;
   --line: #DCD6CC; --line2: #E4DFD7;
@@ -6,7 +11,9 @@
   --tile: #ECE7DF; --tile-photo: #ECE7DF; --tile-photo-on: #E3DDD3;
   --btn: #18181B; --btn-ink: #FFFFFF;
   --glow: #F3E6DC;
-  --f: 'Inter Tight', 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans', 'Apple SD Gothic Neo', system-ui, sans-serif;
+  /* Latin from the two self-hosted fonts (web/fonts, OFL); CJK from the reader's system, per page language. */
+  --cjk: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC';
+  --f: 'Inter Tight', var(--cjk), system-ui, sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, monospace;
   color-scheme: light;
 }
@@ -32,6 +39,8 @@
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+html:lang(ja) { --cjk: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP'; }
+html:lang(ko) { --cjk: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans CJK KR', 'Noto Sans KR'; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
 a { color: inherit; }
 button, input { font: inherit; color: inherit; }
@@ -674,3 +683,13 @@ button.lb-tile:hover img, button.lb-tile:focus-visible img { outline: 2px solid 
   /* The vertical swipe needs the stage's own vertical gestures (not while Details is open and the panel scrolls). */
   .lb:not(.more) .lb-stage { touch-action: none; }
 }
+
+/* Loading states (2026-11-01): a tile waits on a light placeholder; an image being swapped stays, dimmed, until the
+   new one is decoded; a failed one offers a retry. */
+.lb-stage .lb-tile img { background: var(--bg2); }
+.lb-stage img.wait { opacity: 0.55; transition: opacity 0.15s; }
+.lb-retry { position: absolute; left: 50%; top: 45%; transform: translate(-50%, -50%); z-index: 3; min-height: 40px; padding: 0 16px; border: 0; border-radius: 999px; background: var(--btn); color: var(--btn-ink); font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+/* The grid renders all poses; cards far off screen skip layout and paint until they come near. The margin keeps the
+   hover shadow and focus ring inside the card's own box, which content-visibility clips to. */
+.grid > .card { content-visibility: auto; contain-intrinsic-size: auto 380px; padding: 24px; margin: -24px; }
+@media (max-width: 720px) { .grid > .card { padding: 0; margin: 0; contain-intrinsic-size: auto 260px; } }

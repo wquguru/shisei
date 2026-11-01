@@ -11,7 +11,7 @@
 
 姿势目录沿用 ギア（@giaaibusi）的 ai-pose-gallery 公开目录（https://ai-pose-gallery.pages.dev/），zh / en / ko 名是它的译名；改名前 288 套的日文名和分类与原目录逐字相同，2026-10-29 中性化改名后仍有 231 个名称、191 个分类相同。这部分不是我们的，不能授权给别人，README 和 NOTICE 里写明出处，并声明与原作者无关联。没有征求原作者同意（人定）；以后可以把名称全部用自己的话改写，去掉这层依赖。
 
-外部贡献：代码和文档按 Apache-2.0 §5 入站即出站；图片和数据按 CC0 提交，提交即表示同意放弃权利。不另签 CLA。画廊零运行时依赖。网页字体 Inter Tight、Noto Sans SC、JetBrains Mono（均为 SIL OFL 1.1）由 Google Fonts 加载，不进仓库、不随站点分发；以后改成自托管时要附 OFL.txt。
+外部贡献：代码和文档按 Apache-2.0 §5 入站即出站；图片和数据按 CC0 提交，提交即表示同意放弃权利。不另签 CLA。画廊零运行时依赖。网页字体（2026-11-01 起自托管）：Inter Tight 和 JetBrains Mono 的拉丁子集放在 `web/fonts/`，随站点分发，同目录附各自的 OFL 1.1 全文（`OFL-InterTight.txt`、`OFL-JetBrainsMono.txt`）；中日韩文字用读者系统自带的字体，不再加载 Noto Sans SC，也不再连 Google Fonts。
 
 ## 规则（硬性）
 1. **不用外部图片。** 不下载、缓存、镜像、重新编码或描摹 ai-pose-gallery（ギア @giaaibusi）、它的各种镜像或其他姿势站的图片：原作条款禁止再分发图片数据，加工后的副本也算；镜像自带的开源许可证最多只覆盖它自己的代码。仓库和站点里不点名、不链接这些镜像（人定，不给再分发图片的站引流）。界面思路可以参考，代码和文案不抄。

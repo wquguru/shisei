@@ -180,14 +180,18 @@
         const vi = (k * 2 + offset) % 5;
         // Every other tile shows one of the map formats of the same view, so the hero says what each set holds.
         const mk = k % 2 ? MAP_KINDS[(k >> 1) % 3] : null;
+        // Only the first tiles of the first row load at once; the rest (and the whole second row, hidden on phones)
+        // load as they scroll into view.
+        const lazy = offset || k >= 8 ? ' loading="lazy"' : '';
         if (mk && p[mk][vi]) {
-          tiles.push('<span class="mq-tile map" data-mq="' + p.id + ',' + vi + ',' + mk + '"><img src="' + src(mk, 'w300', p[mk][vi]) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"><b>' + esc(t()[mk]) + '</b></span>');
+          tiles.push('<span class="mq-tile map" data-mq="' + p.id + ',' + vi + ',' + mk + '"><img src="' + src(mk, 'w300', p[mk][vi]) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"' + lazy + '><b>' + esc(t()[mk]) + '</b></span>');
           continue;
         }
         const v = p.line[vi] ? vi : firstView(p.line);
-        tiles.push('<span class="mq-tile" data-mq="' + p.id + ',' + v + ',line" style="background:' + p.tint + '"><img src="' + src('line', 'w300', p.line[v]) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"></span>');
+        tiles.push('<span class="mq-tile" data-mq="' + p.id + ',' + v + ',line" style="background:' + p.tint + '"><img src="' + src('line', 'w300', p.line[v]) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"' + lazy + '></span>');
       }
-      return tiles.join('') + tiles.join('');
+      // The copy that makes the loop seamless is always off screen at first: lazy.
+      return tiles.join('') + tiles.join('').replace(/fetchpriority="low"(?! loading)/g, 'fetchpriority="low" loading="lazy"');
     };
     $('mq1').innerHTML = row(0);
     $('mq2').innerHTML = row(3);
@@ -559,12 +563,12 @@
     if (a.href) prefetchFile(a.href, a.getAttribute('download'));
   }
   function prefetchFile(url, name) {
-    if (!SHARE_FILES || FILES.has(url)) return;
+    if (!SHARE_FILES || FILES.has(url)) return Promise.resolve();
     const entry = { file: null };
     FILES.set(url, entry);
     // About 60 KB each; keep the recent ones so stepping back and forth needs no refetch.
     if (FILES.size > 30) FILES.delete(FILES.keys().next().value);
-    fetch(url).then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
+    return fetch(url).then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
       .then((b) => { entry.file = new File([b], name, { type: 'image/webp' }); })
       .catch(() => FILES.delete(url));
   }
@@ -642,7 +646,7 @@
   function overviewHtml(p, T) {
     const v = LB.v;
     const tile = (k, f) => f
-      ? '<button type="button" class="lb-tile ' + k + (LB.hl === k ? ' hl' : '') + '" data-lbopen="' + k + '">' + '<img src="' + src(k, 'w600', f) + '" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[v] + ' · ' + T[k]) + '"><span>' + esc(T[k]) + '</span></button>'
+      ? '<button type="button" class="lb-tile ' + k + (LB.hl === k ? ' hl' : '') + '" data-lbopen="' + k + '">' + '<img src="' + src(k, 'w600', f) + '" srcset="' + src(k, 'w300', f) + ' 300w, ' + src(k, 'w600', f) + ' 600w" sizes="(max-width: 860px) 31vw, 260px" fetchpriority="high" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[v] + ' · ' + T[k]) + '"><span>' + esc(T[k]) + '</span></button>'
       : '<div class="lb-tile ' + k + ' gap"><span class="lb-tile-gap">' + gapIcon(k === 'photo' ? true : k === 'line' ? false : k) + '<b>' + esc(k === 'photo' ? T.gapPhoto : k === 'line' ? T.gapLine : T.gapMap(T[k])) + '</b></span><span>' + esc(T[k]) + '</span></div>';
     const kinds = ['line'].concat(p.clay.some(Boolean) ? MAP_KINDS : []);
     const hasPhoto = p.photo.some(Boolean);
@@ -688,7 +692,7 @@
     $('lbVeilOne').textContent = T.veilOne;
     $('lbVeilAll').textContent = T.veilAll;
     const img = $('lbImg');
-    if (f && !compare) { img.src = src(kind, 'w900', f); img.alt = p.id + ' ' + nameOf(p) + ' · ' + T.views[LB.v]; }
+    if (f && !compare) { img.fetchPriority = 'high'; swapSrc(img, src(kind, 'w900', f), ''); img.alt = p.id + ' ' + nameOf(p) + ' · ' + T.views[LB.v]; }
     img.hidden = !f || compare;
     // Maps are drawn over the line art, so the line art can be wiped in over them to check the fit.
     const wipe = isMap(m) && f && p.line[LB.v];
@@ -701,14 +705,14 @@
     }
     const pair = $('lbPair');
     pair.hidden = !compare;
-    pair.innerHTML = compare ? overviewHtml(p, T) : '';
+    morph(pair, compare ? overviewHtml(p, T) : '');
     // The format row replaces the back buttons; they stay in the markup, hidden.
     const fmts = hasMedium(p, 'compare') && !compare;
     $('lbBack').hidden = $('lbBack2').hidden = true;
     $('lb').classList.toggle('has-fmts', fmts);
     $('lbFmts').hidden = !fmts;
     $('lbFmts').setAttribute('aria-label', T.medium);
-    $('lbFmts').innerHTML = fmts ? fmtsHtml(p, T) : '';
+    morph($('lbFmts'), fmts ? fmtsHtml(p, T) : '');
     const miss = $('lbMissing');
     miss.hidden = !!f || compare;
     miss.innerHTML = f || compare ? '' : lbGapHtml(p, arr, m, T);
@@ -726,12 +730,12 @@
       .map((s) => '<dt>' + NAME_LABEL[s] + '</dt><dd>' + esc(p['name_' + s]) + '</dd>').join('');
     $('lbChips').setAttribute('aria-label', T.angle);
     // Overview thumbnails show the line art when there is one.
-    $('lbChips').innerHTML = VIEWS.map((_, i) => {
+    morph($('lbChips'), VIEWS.map((_, i) => {
       const tk = compare ? (p.line[i] ? 'line' : p.clay[i] ? 'clay' : 'photo') : kind;
       const both = false;
       return '<button type="button" data-lbv="' + i + '" aria-pressed="' + (i === LB.v) + '"' + (arr[i] ? '' : ' disabled') + '>' +
         '<span class="' + tk + (both ? ' both' : '') + '">' + (arr[i] ? '<img src="' + src(tk, 'w300', arr[i]) + '" alt="">' : ICON[isMap(kind) ? 'map' : kind]) + '</span>' + esc(T.views[i]) + '</button>';
-    }).join('');
+    }).join(''));
     const hasPhoto = p.photo.some(Boolean), hasMaps = p.clay.some(Boolean);
     $('lb').classList.toggle('no-photo', !hasPhoto && !hasMaps);
     $('lbMedium').setAttribute('aria-label', T.medium);
@@ -751,9 +755,9 @@
     SAVE_SET = ALBUM && compare && !veil ? angleFiles(p) : null;
     if (compare) setDl($('lbDl'), ALBUM ? (SHARE_FILES ? T.saveAngle : T.howSave) : T.download + ' · ' + T.line + ' 900×1200', p.line[LB.v], 'line', p);
     else setDl($('lbDl'), ALBUM ? T.saveFmt(T[kind]) : T.download + ' · ' + (isMap(m) ? T[m] + ' ' : '') + (photo ? '900×1800' : '900×1200'), f, kind, p);
-    if (SAVE_SET) SAVE_SET.forEach((x) => prefetchFile(x.url, x.name));
+
     if (veil) [$('lbDl'), dl2].forEach((a) => { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); });
-    else [$('lbDl'), dl2].forEach((a) => { if (!a.hidden) prefetch(a); });
+
     clearTimeout(lbTip.timer);
     $('lbTip').hidden = true;
     // Static pose pages exist only for general std poses (tools/site_pages.py).
@@ -770,20 +774,48 @@
      Save-Data and 2G; the fetches are low priority and the browser cache (images: a week) keeps them. */
   const WARM = new Set();
   const SLOW = (() => { const c = navigator.connection; return !!c && (c.saveData || /2g/.test(c.effectiveType || '')); })();
-  function warm(urls) {
-    urls.forEach((u) => {
-      if (WARM.has(u)) return;
-      WARM.add(u);
+  // One queue for everything fetched ahead: at most two at a time, and a new render (another angle, format or pose)
+  // drops whatever has not started, so stale preloads never compete with what is on screen now.
+  const Q = { gen: 0, jobs: [], running: 0 };
+  function pump() {
+    while (Q.running < 2 && Q.jobs.length) {
+      const j = Q.jobs.shift();
+      if (j.gen !== Q.gen) continue;
+      Q.running++;
+      j.run().catch(() => {}).then(() => { Q.running--; pump(); });
+    }
+  }
+  function warmImg(u) {
+    if (WARM.has(u)) return Promise.resolve();
+    WARM.add(u);
+    return new Promise((res) => {
       const im = new Image();
       im.decoding = 'async';
       if ('fetchPriority' in im) im.fetchPriority = 'low';
+      im.onload = im.onerror = res;
       im.src = u;
     });
   }
-  let warmTimer = 0;
+  // Resolves when every image on the stage has loaded (or failed), or after 4 s at most.
+  function stageReady() {
+    const imgs = [...$('lbStage').querySelectorAll('#lbImg:not([hidden]), #lbPair img')].filter((im) => !im.complete || im.classList.contains('wait'));
+    const one = (im) => new Promise((res) => {
+      if (im.complete && !im.classList.contains('wait')) return res();
+      im.addEventListener('load', res, { once: true });
+      im.addEventListener('error', res, { once: true });
+      im.addEventListener('swapped', res, { once: true });
+    });
+    return Promise.race([Promise.all(imgs.map(one)), new Promise((res) => setTimeout(res, 4000))]);
+  }
   function preloadAround(p, m) {
-    if (SLOW || veiled(p)) return;
-    clearTimeout(warmTimer);
+    const gen = ++Q.gen;
+    Q.jobs = [];
+    if (veiled(p)) return;
+    const first = [];
+    // Phones: the save button's files first (the overview's whole angle, or the one image), so a tap can share them.
+    if (SAVE_SET) SAVE_SET.forEach((x) => first.push(() => prefetchFile(x.url, x.name)));
+    else if (ALBUM && $('lbDl').href) first.push(() => prefetchFile($('lbDl').href, $('lbDl').getAttribute('download')));
+    if (SLOW) { stageReady().then(() => { if (gen === Q.gen) { first.forEach((run) => Q.jobs.push({ gen, run })); pump(); } }); return; }
     const v = LB.v, others = VIEWS.map((_, i) => i).filter((i) => i !== v);
     const kinds = ['line'].concat(p.clay.some(Boolean) ? MAP_KINDS : [], p.photo.some(Boolean) ? ['photo'] : []);
     const urls = [];
@@ -795,10 +827,73 @@
     }
     const list = lbList(), next = list[(list.indexOf(p) + 1) % list.length];
     if (next && next !== p && !veiled(next)) kinds.forEach((k) => { if (next[k] && next[k][v]) urls.push(src(k, m === 'compare' ? 'w600' : 'w900', next[k][v])); });
-    // After the images on screen have had their turn.
-    const go = () => warm(urls);
-    const img = $('lbImg');
-    warmTimer = setTimeout(() => (img.complete || m === 'compare' ? go() : img.addEventListener('load', go, { once: true })), 250);
+    // Only once the images on screen are in.
+    stageReady().then(() => {
+      if (gen !== Q.gen) return;
+      first.forEach((run) => Q.jobs.push({ gen, run }));
+      urls.forEach((u) => Q.jobs.push({ gen, run: () => warmImg(u) }));
+      pump();
+    });
+  }
+  /* Re-render without rebuilding: morph() keeps the existing nodes and only changes what differs, so switching angle
+     no longer recreates every image (which flashed even from cache). Images change through swapSrc(): the new one is
+     decoded off-screen and replaces the old in one step; until then the old one stays, dimmed (.wait). */
+  function morph(el, html) {
+    const tpl = document.createElement('template');
+    tpl.innerHTML = html;
+    syncKids(el, tpl.content);
+  }
+  function syncKids(a, b) {
+    const A = [...a.childNodes], B = [...b.childNodes];
+    if (A.length !== B.length || A.some((n, i) => n.nodeType !== B[i].nodeType || n.nodeName !== B[i].nodeName)) {
+      a.replaceChildren(...B);
+      a.querySelectorAll('img').forEach(watchImg);
+      return;
+    }
+    A.forEach((n, i) => {
+      const m = B[i];
+      if (n.nodeType === 3) { if (n.data !== m.data) n.data = m.data; return; }
+      if (n.nodeType !== 1) return;
+      for (const at of [...n.attributes]) if (!m.hasAttribute(at.name) && !(n.tagName === 'IMG' && /^(src|srcset|class|data-want)$/.test(at.name))) n.removeAttribute(at.name);
+      for (const at of [...m.attributes]) if (!(n.tagName === 'IMG' && /^(src|srcset)$/.test(at.name)) && n.getAttribute(at.name) !== at.value) n.setAttribute(at.name, at.value);
+      if (n.tagName === 'IMG') swapSrc(n, m.getAttribute('src'), m.getAttribute('srcset') || '');
+      else syncKids(n, m);
+    });
+  }
+  function swapSrc(img, s, ss) {
+    if ((img.dataset.want || img.getAttribute('src')) === s && (img.getAttribute('srcset') || '') === ss) return;
+    img.dataset.want = s;
+    if (!img.getAttribute('src')) { if (ss) img.srcset = ss; img.src = s; watchImg(img); return; }
+    img.classList.add('wait');
+    const im = new Image();
+    if (ss) { im.sizes = img.sizes; im.srcset = ss; }
+    im.src = s;
+    im.decode().catch(() => {}).then(() => {
+      if (img.dataset.want !== s) return;
+      if (ss) img.srcset = ss; else img.removeAttribute('srcset');
+      img.src = s;
+      img.classList.remove('wait');
+      img.dispatchEvent(new Event('swapped'));
+    });
+  }
+  // A failed image gets a retry button instead of a blank box.
+  function watchImg(img) {
+    img.addEventListener('error', () => {
+      const box = img.closest('.lb-tile, .lb-stage');
+      if (!box || box.querySelector(':scope > .lb-retry')) return;
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'lb-retry';
+      b.textContent = t().retry;
+      b.addEventListener('click', (e) => {
+        e.stopPropagation();
+        b.remove();
+        const u = img.getAttribute('src').split('?')[0] + '?r=' + Date.now();
+        img.removeAttribute('srcset');
+        img.src = u;
+      });
+      box.appendChild(b);
+    }, { once: true });
   }
   const posePage = (id) => BASE + PREFIX[S.lang] + 'pose/' + id + '/';
   // Same rule as tools/build_site.py: only general-rated std poses get a static page.
@@ -932,6 +1027,7 @@
   $('lbWipeRange').addEventListener('input', setWipe);
   $('lbWipeBar').addEventListener('pointerdown', (e) => e.stopPropagation());
   let swipeX = null;
+  watchImg($('lbImg'));
   let swipeY = null;
   $('lbStage').addEventListener('pointerdown', (e) => { swipeX = e.clientX; swipeY = e.clientY; });
   $('lbStage').addEventListener('pointerup', (e) => {

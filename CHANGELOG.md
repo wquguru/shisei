@@ -8,6 +8,12 @@ the catalog schema.
 ## [Unreleased]
 
 ### Changed
+- Performance: fonts are self-hosted Latin subsets (Inter Tight, JetBrains Mono; 65 KB, OFL files in `web/fonts/`)
+  and CJK text uses system fonts, replacing Google Fonts (28 requests, 1.6 MB, often unreachable from mainland China).
+  The lightbox fetches what is on screen first and preloads only afterwards, two at a time, cancelled on every step;
+  overview tiles pick 300 or 600 px by screen. Re-renders keep existing nodes and swap decoded images, so changing angle
+  no longer flashes; failed images offer a retry. Marquee tiles past the first eight load lazily (25 images on first
+  load instead of 53); grid cards use content-visibility.
 - Phones: the overview's button is "Save this angle" and hands every format of the angle (up to five images) to
   the share sheet at once ("Save 5 Images" on iOS); an enlarged format saves just that image ("Save clay"). Browsers
   that cannot share files, such as WeChat, show "How to save" with a long-press hint. Desktop is unchanged.
