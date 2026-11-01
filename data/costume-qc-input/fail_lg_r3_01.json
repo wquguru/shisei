@@ -1,0 +1,6 @@
+{"prompt":"costume_prompt.md","reviewed":["C469","C473","C476","C481","C482","C493"],"fails":[
+{"id":"C469","view":"front","status":"matte","reason":"dark patch with a thin white sliver in the gap between the skirt hem and the briefs waist, looks like leftover background"},
+{"id":"C469","view":"diag","status":"matte","reason":"same dark patch with white sliver between skirt hem and briefs; also odd dark/lace-like fragment on the right skirt edge"},
+{"id":"C482","view":"diag","status":"matte","reason":"near-side shoulder strap missing and the upper-left edge ends in a chopped pointed corner; front shows two straps"},
+{"id":"C493","view":"back","status":"matte","reason":"white sliver at the back neckline that appears in no other view, possibly leftover background or an extra collar"}
+]}

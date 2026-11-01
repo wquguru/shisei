@@ -8466,7 +8466,7 @@
   "C467": {
    "front": {
     "status": "missing",
-    "reason": "a1 refused by generator with full template (black satin garter set, lined opaque, ghost mannequin); a2 refused by generator using catalogue-style rewording (fully lined opaque satin bra with covered c",
+    "reason": "a1 refused by generator with full template (black satin garter set, lined opaque, ghost mannequin); a2 refused by generator using catalogue hosiery wording; a3 refused by generator in this session usi",
     "by": "gen_lg_run01.json"
    },
    "diag": {
@@ -8488,7 +8488,7 @@
   "C468": {
    "front": {
     "status": "missing",
-    "reason": "a1 refused by generator with full template (true red satin garter set, lined opaque, ghost mannequin); a2 refused by generator using catalogue-style rewording (fully lined opaque satin bra with covere",
+    "reason": "a1 full template refused; a2 catalogue hosiery refused; a3 sleepwear-and-hosiery wording refused by generator - no retry per instruction",
     "by": "gen_lg_run01.json"
    },
    "diag": {
@@ -8509,28 +8509,28 @@
   },
   "C469": {
    "front": {
-    "status": "matte",
-    "reason": "grey smudge halo above the briefs",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "reason": "real gap between skirt and briefs, matches the raw",
+    "by": "manual_lg_r3.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "grey smudge halo above the briefs",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "reason": "real gap between skirt and briefs, matches the raw",
+    "by": "manual_lg_r3.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    }
   },
   "C470": {
    "front": {
     "status": "missing",
-    "reason": "a1 refused with original babydoll desc; a2 attempted with de-sensitized wording (satin nightdress set, fully lined opaque fitted bust with thin shoulder straps, ribbon tie in bow directly under bust, ",
+    "reason": "a1/a2 full template refused in earlier run02 sessions; a3 pyjama-catalogue wording refused this session - last attempt allowed",
     "by": "gen_lg_run01.json"
    },
    "diag": {
@@ -8588,40 +8588,37 @@
   "C473": {
    "front": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "white background blob left in the waist cut-out",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_01.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "white background block left in the back cut-out",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_01.json"
    }
   },
   "C474": {
    "front": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "dark grey fill left in the waist cut-out",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    }
   },
   "C475": {
@@ -8645,20 +8642,19 @@
   "C476": {
    "front": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    },
    "back": {
-    "status": "matte",
-    "reason": "detached strap fragment floating below the bralette; unsure if cut off",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_01.json"
    }
   },
   "C477": {
@@ -8700,21 +8696,21 @@
   "C479": {
    "front": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    },
    "diag": {
     "status": "matte",
-    "reason": "grey/lilac block filling the leg opening",
-    "by": "fail_lg_r1_01.json"
+    "reason": "grey disc left in leg opening",
+    "by": "fail_lg_r2_01.json"
    },
    "side": {
     "status": "matte",
-    "reason": "grey block filling the leg opening",
-    "by": "fail_lg_r1_01.json"
+    "reason": "darker disc left in leg opening and armhole",
+    "by": "fail_lg_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    }
   },
   "C480": {
@@ -8737,42 +8733,39 @@
   },
   "C481": {
    "front": {
-    "status": "matte",
-    "reason": "grey disc left in the round under-bust cut-out",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_01.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "white/grey disc left in the under-bust cut-out",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "grey fill left in the waist cut-out",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    }
   },
   "C482": {
    "front": {
-    "status": "matte",
-    "reason": "white disc left in the round under-bust cut-out",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "reason": "strap as drawn in the raw, nothing chopped",
+    "by": "manual_lg_r3.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    }
   },
   "C483": {
@@ -8796,63 +8789,60 @@
   "C484": {
    "front": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    },
    "diag": {
-    "status": "matte",
-    "reason": "white background block visible inside the armhole/neck",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r2_01.json"
    },
    "side": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    }
   },
   "C485": {
    "front": {
     "status": "missing",
-    "reason": "refused - a1 full template refused; a2 stage-party rewording refused; a3 magician-assistant rewording also refused (parent final attempt); no views attempted",
+    "reason": "front attempt 3 was a local edit to shorten shorts-length bodysuit legs (extending to mid-thigh / romper) into a moderate leg line at the hip crease; edit refused by generator - no image produced; bac",
     "by": "gen_lg_run01.json"
    },
    "diag": {
     "status": "missing",
-    "reason": "front refused, not attempted",
+    "reason": "generated from front only because back and side were refused so prescribed front+side refs unavailable; three-quarter view preserves bodysuit, collar+bow tie, cuffs, tights, pumps and headband; tail n",
     "by": "gen_lg_run01.json"
    },
    "side": {
     "status": "missing",
-    "reason": "front refused, not attempted",
+    "reason": "a1 refused; a2 refused with reworded front+diag refs (substitution: front+diag used instead of front+back - back being redone in parallel and refused before); no file saved; attempt limit reached",
     "by": "gen_lg_run01.json"
    },
    "back": {
     "status": "missing",
-    "reason": "front refused, not attempted",
+    "reason": "a1 refused by generator in earlier session on back transfer; a2 refused by generator in this session using reworded transfer prompt (front reference, straight back view, round white tail centred at ba",
     "by": "gen_lg_run01.json"
    }
   },
   "C486": {
    "front": {
-    "status": "missing",
-    "reason": "refused - a1 full template refused; a2 stage-party rewording refused; a3 magician-assistant rewording also refused (parent final attempt); no views attempted",
-    "by": "gen_lg_run01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_02.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "front refused, not attempted",
-    "by": "gen_lg_run01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_02.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "front refused, not attempted",
-    "by": "gen_lg_run01.json"
+    "status": "form",
+    "reason": "要点4 white bunny tail: in near-profile the hip/rear silhouette shows no white pom tail; a person should check",
+    "by": "fail_lg_r3_02.json"
    },
    "back": {
     "status": "missing",
-    "reason": "front refused, not attempted",
+    "reason": "a1 refused by generator (back transfer from approved front); a2 refused by generator with reworded prompt (straight back view, round white tail centred at back waist, closed back, garment cuffs wordin",
     "by": "gen_lg_run01.json"
    }
   },
@@ -8876,22 +8866,22 @@
   },
   "C488": {
    "front": {
-    "status": "matte",
-    "reason": "white/grey patch under the hem at left thigh plus grey haze at the hem; unsure",
-    "by": "fail_lg_r1_01.json"
+    "status": "form",
+    "reason": "sleeve ends show dark ruffle, not white cuffs (point 3); other views have white cuffs",
+    "by": "fail_lg_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "grey haze below the skirt hem; unsure",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r2_01.json"
    },
    "back": {
-    "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "status": "form",
+    "reason": "sleeve ends show dark ruffle, not white cuffs (point 3); side/diag have white cuffs",
+    "by": "fail_lg_r2_01.json"
    }
   },
   "C489": {
@@ -8914,24 +8904,20 @@
   },
   "C490": {
    "front": {
-    "status": "missing",
-    "reason": "a1 original devil wording refused; a2 reworded as red satin masquerade party costume with structured corset-style top sweetheart edge fully covering bust short flared pointed-hem skirt thin costume ta",
-    "by": "gen_lg_run01.json"
+    "status": "pass",
+    "by": "fail_lg_r2_01.json"
    },
    "diag": {
-    "status": "missing",
-    "reason": "front refused after 3 attempts not attempted",
-    "by": "gen_lg_run01.json"
+    "status": "pass",
+    "by": "fail_lg_r2_01.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "front refused after 3 attempts not attempted",
-    "by": "gen_lg_run01.json"
+    "status": "pass",
+    "by": "fail_lg_r2_01.json"
    },
    "back": {
-    "status": "missing",
-    "reason": "front refused after 3 attempts not attempted",
-    "by": "gen_lg_run01.json"
+    "status": "pass",
+    "by": "fail_lg_r2_01.json"
    }
   },
   "C491": {
@@ -8973,39 +8959,38 @@
   "C493": {
    "front": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r3_01.json"
    },
    "side": {
-    "status": "matte",
-    "reason": "grey disc left in the sleeve armhole",
-    "by": "fail_lg_r1_01.json"
+    "status": "pass",
+    "by": "fail_lg_r3_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "reason": "blouse collar from the raw, not background",
+    "by": "manual_lg_r3.json"
    }
   },
   "C494": {
    "front": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    },
    "diag": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    },
    "side": {
-    "status": "missing",
-    "reason": "Both attempts fell into the branded-sneaker attractor: a1 had embossed AIR wording on the sole; rewrite 'soles entirely blank, NO AIR text, smooth blank white sides, no tick or swoosh shape' -> a2 sti",
-    "by": "gen_lg_run01.json"
+    "status": "pass",
+    "by": "fail_lg_r2_01.json"
    },
    "back": {
     "status": "pass",
-    "by": "fail_lg_r1_01.json"
+    "by": "fail_lg_r2_01.json"
    }
   }
  }

@@ -1,0 +1,10 @@
+{
+ "note": "Human spot check of the LG repair round (2026-11-01), against Muse's raw images: C469 has a real gap between skirt hem and briefs (the raw shows background there, the lace edge is the briefs'); C482 diag's strap ends as drawn in the raw, the matte cut nothing; C493 back's white sliver is the blouse collar in the raw. C479 side/diag keep the reviewer's matte: the leg-opening lining is nearly the background grey and the matte makes it half-transparent.",
+ "reviewed": [],
+ "fails": [
+  {"id": "C469", "view": "front", "status": "pass", "reason": "real gap between skirt and briefs, matches the raw"},
+  {"id": "C469", "view": "diag", "status": "pass", "reason": "real gap between skirt and briefs, matches the raw"},
+  {"id": "C482", "view": "diag", "status": "pass", "reason": "strap as drawn in the raw, nothing chopped"},
+  {"id": "C493", "view": "back", "status": "pass", "reason": "blouse collar from the raw, not background"}
+ ]
+}
