@@ -4,24 +4,26 @@
 Only views with `pass` in data/costume-qc.json are built; everything else under images/costume/ is removed, and the
 item's view becomes null with the QC status in `gaps` (same rule as poses, AGENTS §2). Two looks per view (D-10):
   images/costume/grey/{w300,w600,w900}/costume_<ID>_<view>.webp    on the house background #D9D9D9
-  images/costume/alpha/{w300,w600,w900}/costume_<ID>_<view>.webp   transparent cut-out
+  images/costume/alpha/w900/costume_<ID>_<view>.webp               transparent cut-out, download size only (D-10)
+Quality was set by a side-by-side check (2026-10-31): no visible loss at 2x, about 45% smaller than q75 + lossless alpha.
 Usage: python3 -I tools/costume_build.py ~/Downloads/costume-hc [more source sets…]
 """
 import json, pathlib, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-TIERS = {"w300": (300, 400, 70), "w600": (600, 800, 72), "w900": (900, 1200, 75)}  # same sizes and q as poses
-LOOKS = ("grey", "alpha")
+# look -> tier -> (width, height); the flat grey background compresses well, so q60 holds up where poses need q70+
+TIERS = {"grey": {"w300": (300, 400), "w600": (600, 800), "w900": (900, 1200)}, "alpha": {"w900": (900, 1200)}}
+ARGS = {"grey": ["-q", "60", "-m", "6", "-sharp_yuv"],
+        "alpha": ["-q", "65", "-alpha_q", "80", "-m", "6", "-sharp_yuv"]}
+LOOKS = tuple(TIERS)
 OUT = ROOT / "images/costume"
 
 
-def cwebp(src: pathlib.Path, dst: pathlib.Path, w: int, h: int, q: int, alpha: bool) -> None:
+def cwebp(src: pathlib.Path, dst: pathlib.Path, w: int, h: int, look: str) -> None:
     if dst.exists() and dst.stat().st_mtime >= src.stat().st_mtime:
         return
     dst.parent.mkdir(parents=True, exist_ok=True)
-    extra = ["-alpha_q", "100", "-exact"] if alpha else []
-    subprocess.run(["cwebp", "-quiet", "-q", str(q), "-resize", str(w), str(h), *extra, str(src), "-o", str(dst)],
-                   check=True)
+    subprocess.run(["cwebp", "-quiet", *ARGS[look], "-resize", str(w), str(h), str(src), "-o", str(dst)], check=True)
 
 
 def main() -> None:
@@ -40,9 +42,9 @@ def main() -> None:
                                if (s / look / f"{it['id']}_{v}.png").exists()), None) for look in LOOKS}
             if st == "pass" and all(src.values()):
                 for look in LOOKS:
-                    for t, (w, h, qual) in TIERS.items():
+                    for t, (w, h) in TIERS[look].items():
                         dst = OUT / look / t / name
-                        cwebp(src[look], dst, w, h, qual, look == "alpha")
+                        cwebp(src[look], dst, w, h, look)
                         want.add(dst)
                 it["views"][v] = name
                 it["gaps"].pop(v, None)
@@ -59,7 +61,7 @@ def main() -> None:
         if f not in want:
             f.unlink()
     (ROOT / "data/costumes.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
-    print(f"{built} views built ({built * 6} files)")
+    print(f"{built} views built ({built * sum(map(len, TIERS.values()))} files)")
 
 
 if __name__ == "__main__":

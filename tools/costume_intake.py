@@ -90,6 +90,10 @@ def main() -> None:
             # Remove the background colour mixed into soft edges: C = aF + (1-a)B  =>  F = (C - (1-a)B) / a.
             a3 = al[..., None]
             fg = np.where(a3 > 0.02, (rgb - (1 - a3) * bg) / np.maximum(a3, 1e-3), rgb).clip(0, 255)
+            # snap the model's faint floor and near-solid values: invisible, but they cost WebP bytes and leave
+            # a haze that some viewers show on dark backgrounds
+            al = np.where(al < 0.05, 0.0, np.where(al > 0.95, 1.0, al))
+            a3 = al[..., None]
             alpha8 = (al * 255).round().astype(np.uint8)
             Image.fromarray(np.dstack([fg.astype(np.uint8), alpha8]), "RGBA").save(src / "alpha" / f"{stem}.png")
             for sub, col in (("grey", HOUSE), ("dark", DARK)):
