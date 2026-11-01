@@ -8,6 +8,9 @@ the catalog schema.
 ## [Unreleased]
 
 ### Changed
+- Phones: the overview's button is "Save this angle" and hands every format of the angle (up to five images) to
+  the share sheet at once ("Save 5 Images" on iOS); an enlarged format saves just that image ("Save clay"). Browsers
+  that cannot share files, such as WeChat, show "How to save" with a long-press hint. Desktop is unchanged.
 - The lightbox preloads what the next step needs once the shown images are in: the overview's other angles, an
   enlarged format's other angles and this angle's other formats, and the next pose's opening view. Low priority,
   skipped on Save-Data and 2G connections.

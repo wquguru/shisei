@@ -556,14 +556,24 @@
   })();
   const FILES = new Map();
   function prefetch(a) {
-    if (!SHARE_FILES || !a.href || FILES.has(a.href)) return;
-    const url = a.href, entry = { file: null };
+    if (a.href) prefetchFile(a.href, a.getAttribute('download'));
+  }
+  function prefetchFile(url, name) {
+    if (!SHARE_FILES || FILES.has(url)) return;
+    const entry = { file: null };
     FILES.set(url, entry);
     // About 60 KB each; keep the recent ones so stepping back and forth needs no refetch.
-    if (FILES.size > 24) FILES.delete(FILES.keys().next().value);
+    if (FILES.size > 30) FILES.delete(FILES.keys().next().value);
     fetch(url).then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
-      .then((b) => { entry.file = new File([b], a.getAttribute('download'), { type: 'image/webp' }); })
+      .then((b) => { entry.file = new File([b], name, { type: 'image/webp' }); })
       .catch(() => FILES.delete(url));
+  }
+  // The overview's save button on phones takes every format of the angle in one share sheet ("Save 5 Images" on
+  // iOS). All files must already be fetched when the tap comes: share() has to run inside the gesture.
+  let SAVE_SET = null;
+  function angleFiles(p) {
+    return ['line'].concat(MAP_KINDS, ['photo']).filter((k) => p[k] && p[k][LB.v])
+      .map((k) => ({ url: src(k, 'w900', p[k][LB.v]), name: 'shisei_' + p.id + '_' + VIEWS[LB.v] + '_' + k + '.webp' }));
   }
   function lbTip(msg) {
     const el = $('lbTip');
@@ -576,6 +586,14 @@
     const a = e.currentTarget;
     if (!ALBUM || !a.href) return;
     e.preventDefault();
+    if (SAVE_SET && a.id === 'lbDl') {
+      if (!SHARE_FILES) return lbTip(t().holdMany);
+      const got = SAVE_SET.map((x) => FILES.get(x.url));
+      if (got.every((x) => x && x.file)) {
+        navigator.share({ files: got.map((x) => x.file) }).catch((err) => { if (err.name !== 'AbortError') lbTip(t().holdMany); });
+      } else { SAVE_SET.forEach((x) => prefetchFile(x.url, x.name)); lbTip(t().preparing); }
+      return;
+    }
     const entry = SHARE_FILES && FILES.get(a.href);
     if (entry && entry.file) {
       // Resolving only means the sheet closed, not that the image was saved, so success says nothing.
@@ -728,8 +746,12 @@
     const dl2 = $('lbDl2');
     dl2.hidden = true;
     // The overview downloads the line art of the angle; every other format downloads from its own enlarged view.
-    if (compare) setDl($('lbDl'), ALBUM ? T.saveAlbum : T.download + ' · ' + T.line + ' 900×1200', p.line[LB.v], 'line', p);
-    else setDl($('lbDl'), ALBUM ? T.saveAlbum : T.download + ' · ' + (isMap(m) ? T[m] + ' ' : '') + (photo ? '900×1800' : '900×1200'), f, kind, p);
+    // Phones: the overview saves every format of the angle at once (browsers that cannot share files get a hint
+    // instead); an enlarged format saves that one image. Desktop downloads one file either way.
+    SAVE_SET = ALBUM && compare && !veil ? angleFiles(p) : null;
+    if (compare) setDl($('lbDl'), ALBUM ? (SHARE_FILES ? T.saveAngle : T.howSave) : T.download + ' · ' + T.line + ' 900×1200', p.line[LB.v], 'line', p);
+    else setDl($('lbDl'), ALBUM ? T.saveFmt(T[kind]) : T.download + ' · ' + (isMap(m) ? T[m] + ' ' : '') + (photo ? '900×1800' : '900×1200'), f, kind, p);
+    if (SAVE_SET) SAVE_SET.forEach((x) => prefetchFile(x.url, x.name));
     if (veil) [$('lbDl'), dl2].forEach((a) => { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); });
     else [$('lbDl'), dl2].forEach((a) => { if (!a.hidden) prefetch(a); });
     clearTimeout(lbTip.timer);
