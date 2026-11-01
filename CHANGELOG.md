@@ -7,6 +7,12 @@ the catalog schema.
 
 ## [Unreleased]
 
+### Changed
+- The lightbox opens on an overview of the angle: line art, clay, depth and normal in a 2×2 grid and the photo in a
+  column beside it (a row under it on phones). Click a tile to see that format alone, "← All formats" goes back. The
+  format bar is gone; sets with only line art open on the line art. `#P001-diag` is the overview, `-line` and the other
+  format suffixes open one format, and the old `-compare` links land on the overview. Strings in all four languages.
+
 ### Fixed
 - Lightbox ← → sometimes did nothing: opening a map format focused the line-art slider first, which took the keys.
   The close button now takes the first focus and the slider no longer swallows the arrow keys.

@@ -424,14 +424,14 @@
     if (tile) {
       e.preventDefault();
       const p = byId.get(tile.closest('.card').dataset.id);
-      openLb(p.id, curView(p), S.medium);
+      openLb(p.id, curView(p), S.medium === 'photo' ? 'photo' : 'compare');
       return;
     }
     const s = e.target.closest('.stile');
     if (s) {
       e.preventDefault();
       if (s.classList.contains('veiled')) reveal(s.dataset.open);
-      else openLb(s.dataset.open, +s.dataset.v, S.medium);
+      else openLb(s.dataset.open, +s.dataset.v, S.medium === 'photo' ? 'photo' : 'compare');
     }
   });
   // An explicit list of the four languages: a single button that cycles them hid where the next click would land.
@@ -515,16 +515,17 @@
   });
 
   /* lightbox */
-  // medium: 'line' | 'clay' | 'depth' | 'normal' | 'photo' | 'compare'. The maps and compare exist only here, not in
-  // the grid: the grid is for picking a pose, which the line art does best; a side-by-side pair needs the room of one
-  // large image, and only the std sets with photos have anything to compare.
+  // medium: 'line' | 'clay' | 'depth' | 'normal' | 'photo' | 'compare'. 'compare' is the overview the lightbox opens
+  // on (2026-11-01, design B1): every format of the angle at once, the four aligned ones in a 2×2 grid and the photo in
+  // its own column; a tile opens that format alone, and "← all formats" comes back. A set with nothing beyond line
+  // art has no overview and opens on the line art. The grid of poses stays line art: it is for picking a pose.
   // more: the phone lightbox keeps names, description and secondary actions folded away so one set fits one screen.
   const LB = { id: null, v: 0, medium: 'line', more: false };
   const MEDIA = ['line', 'clay', 'depth', 'normal', 'photo', 'compare'];
   const isMap = (m) => MAP_KINDS.includes(m);
-  const hasMedium = (p, m) => m === 'line' || (m === 'compare' ? p.photo : p[m]).some(Boolean);
-  // In compare a view counts when either side has it; the missing side shows the usual gap box.
-  const lbFiles = (p, m) => (m === 'compare' ? p.line.map((f, i) => f || p.photo[i]) : isMap(m) ? p[m] : files(p, m === 'photo'));
+  const hasMedium = (p, m) => m === 'line' || (m === 'compare' ? p.photo.some(Boolean) || p.clay.some(Boolean) : p[m].some(Boolean));
+  // In the overview an angle counts when any format has it; missing tiles show the usual gap icon.
+  const lbFiles = (p, m) => (m === 'compare' ? p.line.map((f, i) => f || p.clay[i] || p.photo[i]) : isMap(m) ? p[m] : files(p, m === 'photo'));
   function lbList() {
     const list = pool();
     return list.some((p) => p.id === LB.id) ? list : poses;
@@ -535,7 +536,7 @@
     const p = byId.get(id);
     if (!p) return;
     LB.id = id;
-    LB.medium = MEDIA.includes(medium) && hasMedium(p, medium) ? medium : 'line';
+    LB.medium = MEDIA.includes(medium) && hasMedium(p, medium) ? medium : hasMedium(p, 'compare') ? 'compare' : 'line';
     const arr = lbFiles(p, LB.medium);
     LB.v = arr[v] || (keep && arr.some(Boolean)) ? v : firstView(arr);
     renderLb();
@@ -614,6 +615,21 @@
       '<span class="gap-sub">' + esc(photo ? (other ? T.gapPhotoSub : T.gapOther) : T.gapLineSub) + '</span>' +
       (acts.length ? '<span class="gap-acts">' + acts.join('') + '</span>' : '');
   }
+  // The overview: the aligned formats the set has in a 2×2 grid, then the photo column (on phones a row under the
+  // grid). A format missing at this angle keeps its place as a gap tile, so the grid never reshuffles between angles.
+  function overviewHtml(p, T) {
+    const v = LB.v;
+    const tile = (k, f) => f
+      ? '<button type="button" class="lb-tile ' + k + '" data-lbopen="' + k + '"><img src="' + src(k, 'w600', f) + '" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[v] + ' · ' + T[k]) + '"><span>' + esc(T[k]) + '</span></button>'
+      : '<div class="lb-tile ' + k + ' gap"><span class="lb-tile-gap">' + gapIcon(k === 'photo' ? true : k === 'line' ? false : k) + '<b>' + esc(k === 'photo' ? T.gapPhoto : k === 'line' ? T.gapLine : T.gapMap(T[k])) + '</b></span><span>' + esc(T[k]) + '</span></div>';
+    const kinds = ['line'].concat(p.clay.some(Boolean) ? MAP_KINDS : []);
+    const hasPhoto = p.photo.some(Boolean);
+    $('lb').classList.toggle('ov-one', kinds.length === 1);
+    $('lb').classList.toggle('ov-photo', hasPhoto);
+    return '<div class="lb-ov"><div class="lb-ov-grid">' + kinds.map((k) => tile(k, p[k][v])).join('') + '</div>' +
+      (hasPhoto ? tile('photo', p.photo[v]) : '') + '</div>' +
+      (hasPhoto && p.photo[v] ? '<button type="button" class="lb-ov-row" data-lbopen="photo"><img src="' + src('photo', 'w300', p.photo[v]) + '" alt=""><span>' + esc(T.photoRow) + '</span>' + ARROW + '</button>' : '');
+  }
   function renderLb() {
     const T = t();
     const p = byId.get(LB.id);
@@ -649,7 +665,11 @@
     }
     const pair = $('lbPair');
     pair.hidden = !compare;
-    pair.innerHTML = compare ? pairCell(p, 'line', p.line[LB.v], T) + pairCell(p, 'photo', p.photo[LB.v], T) : '';
+    pair.innerHTML = compare ? overviewHtml(p, T) : '';
+    const back = hasMedium(p, 'compare') && !compare;
+    $('lbBack').hidden = !back;
+    $('lb').classList.toggle('has-back', back);
+    $('lbBackText').textContent = T.overview;
     const miss = $('lbMissing');
     miss.hidden = !!f || compare;
     miss.innerHTML = f || compare ? '' : lbGapHtml(p, arr, m, T);
@@ -664,10 +684,10 @@
     $('lbNames').innerHTML = ['cn', 'jp', 'en', 'kr'].filter((s) => s !== T.suffix)
       .map((s) => '<dt>' + NAME_LABEL[s] + '</dt><dd>' + esc(p['name_' + s]) + '</dd>').join('');
     $('lbChips').setAttribute('aria-label', T.angle);
-    // Compare thumbnails show the line art when there is one; a dot marks the angles that have both sides.
+    // Overview thumbnails show the line art when there is one.
     $('lbChips').innerHTML = VIEWS.map((_, i) => {
-      const tk = compare ? (p.line[i] ? 'line' : 'photo') : kind;
-      const both = compare && p.line[i] && p.photo[i];
+      const tk = compare ? (p.line[i] ? 'line' : p.clay[i] ? 'clay' : 'photo') : kind;
+      const both = false;
       return '<button type="button" data-lbv="' + i + '" aria-pressed="' + (i === LB.v) + '"' + (arr[i] ? '' : ' disabled') + '>' +
         '<span class="' + tk + (both ? ' both' : '') + '">' + (arr[i] ? '<img src="' + src(tk, 'w300', arr[i]) + '" alt="">' : ICON[isMap(kind) ? 'map' : kind]) + '</span>' + esc(T.views[i]) + '</button>';
     }).join('');
@@ -677,16 +697,16 @@
     // A set without maps shows no map buttons at all; photo and compare stay, disabled, as before.
     $('lbMedium').innerHTML = MEDIA.filter((k) => !isMap(k) || hasMaps).map((k) => '<button type="button" data-lbm="' + k + '" aria-pressed="' + (m === k) + '"' +
       (hasMedium(p, k) ? '' : ' disabled') + (k === 'photo' && hasMaps ? ' class="gap-l"' : '') + '>' + esc(T[k]) + '</button>').join('');
-    $('lbNote').hidden = !isMap(m);
-    $('lbNote').textContent = isMap(m) ? T.fmtNote[m] : '';
+    $('lbMedium').hidden = true;
+    $('lbNote').hidden = !isMap(m) && !compare;
+    $('lbNote').textContent = compare ? T.overviewNote : isMap(m) ? T.fmtNote[m] : '';
     $('lbDesc').textContent = p.desc_en || '';
     $('lbDescBox').hidden = !p.desc_en;
     const dl2 = $('lbDl2');
-    dl2.hidden = !compare;
-    if (compare) {
-      setDl($('lbDl'), T.line + ' 900', p.line[LB.v], 'line', p);
-      setDl(dl2, T.photo + ' 900', p.photo[LB.v], 'photo', p);
-    } else setDl($('lbDl'), ALBUM ? T.saveAlbum : T.download + ' · ' + (isMap(m) ? T[m] + ' ' : '') + (photo ? '900×1800' : '900×1200'), f, kind, p);
+    dl2.hidden = true;
+    // The overview downloads the line art of the angle; every other format downloads from its own enlarged view.
+    if (compare) setDl($('lbDl'), ALBUM ? T.saveAlbum : T.download + ' · ' + T.line + ' 900×1200', p.line[LB.v], 'line', p);
+    else setDl($('lbDl'), ALBUM ? T.saveAlbum : T.download + ' · ' + (isMap(m) ? T[m] + ' ' : '') + (photo ? '900×1800' : '900×1200'), f, kind, p);
     if (veil) [$('lbDl'), dl2].forEach((a) => { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); });
     else [$('lbDl'), dl2].forEach((a) => { if (!a.hidden) prefetch(a); });
     clearTimeout(lbTip.timer);
@@ -695,7 +715,8 @@
     const hasPage = hasPosePage(p);
     $('lbPage').hidden = !hasPage;
     if (hasPage) $('lbPage').href = posePage(p.id);
-    history.replaceState(null, '', location.pathname + location.search + '#' + p.id + '-' + VIEWS[LB.v] + (m === 'line' ? '' : '-' + m));
+    // No suffix is the overview (the default); the line art alone is -line.
+    history.replaceState(null, '', location.pathname + location.search + '#' + p.id + '-' + VIEWS[LB.v] + (m === 'compare' ? '' : '-' + m));
   }
   const posePage = (id) => BASE + PREFIX[S.lang] + 'pose/' + id + '/';
   // Same rule as tools/build_site.py: only general-rated std poses get a static page.
@@ -730,6 +751,11 @@
     if (go) { LB.v = +go.dataset.lbgo; renderLb(); }
     else if (gm) openLb(LB.id, LB.v, gm.dataset.lbgm);
   });
+  $('lbPair').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-lbopen]');
+    if (b) openLb(LB.id, LB.v, b.dataset.lbopen, true);
+  });
+  $('lbBack').addEventListener('click', () => openLb(LB.id, LB.v, 'compare', true));
   $('lbMedium').addEventListener('click', (e) => {
     const b = e.target.closest('[data-lbm]');
     if (b && !b.disabled) openLb(LB.id, LB.v, b.dataset.lbm, true);
@@ -785,9 +811,10 @@
     if (Math.abs(dx) > 50) stepAngle(dx < 0 ? 1 : -1);
   });
 
-  // Deep links: #P001, #P001-diag, #P001-diag-photo, #P001-diag-compare, #P001-diag-clay (depth, normal)
+  // Deep links: #P001 and #P001-diag open the overview (as do the older #P001-diag-compare links);
+  // #P001-diag-line, -clay, -depth, -normal and -photo open one format.
   function openFromHash() {
-    const m = location.hash.match(/^#([PSUD]\d{3})(?:-(front|diag|side|above|below))?(?:-(clay|depth|normal|photo|compare))?$/);
+    const m = location.hash.match(/^#([PSUD]\d{3})(?:-(front|diag|side|above|below))?(?:-(line|clay|depth|normal|photo|compare))?$/);
     if (m && byId.has(m[1])) openLb(m[1], m[2] ? VIEWS.indexOf(m[2]) : 0, m[3]);
   }
   window.addEventListener('hashchange', openFromHash);

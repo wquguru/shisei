@@ -590,3 +590,37 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 
 /* Marquee tiles open their pose (app.js); a slight lift says so, the row already pauses on hover. */
 @media (hover: hover) { .mq-tile { transition: transform 0.15s ease; } .mq-tile:hover { transform: translateY(-4px); } }
+
+/* Overview (2026-11-01, design B1): the lightbox opens on every format of the angle. --h is one grid tile's image
+   height, sized so two rows (plus captions) fit the stage height and the grid plus the 1:2 photo column fit its width. */
+.lb.compare .lb-pair { width: auto; aspect-ratio: auto; display: block; }
+.lb-ov { --h: min(calc((100cqh - 100px) / 2), calc((100cqw - 220px) / 2.5)); display: flex; align-items: flex-start; gap: 16px; }
+.lb:not(.ov-photo) .lb-ov { --h: min(calc((100cqh - 100px) / 2), calc((100cqw - 220px) / 1.5)); }
+.lb.ov-one .lb-ov { --h: min(calc((100cqh - 100px) / 2), calc((100cqw - 220px) / 1.75)); }
+.lb-ov-grid { display: grid; grid-template-columns: repeat(2, auto); gap: 12px; }
+.lb.ov-one .lb-ov-grid { grid-template-columns: auto; }
+.lb-tile { display: flex; flex-direction: column; gap: 6px; padding: 0; border: 0; background: transparent; color: var(--ink2); font: inherit; font-size: 13px; text-align: left; }
+button.lb-tile { cursor: zoom-in; }
+.lb-stage .lb-tile img, .lb-tile .lb-tile-gap { display: block; width: calc(var(--h) * 0.75); height: var(--h); object-fit: cover; border-radius: 14px; background: #FFFFFF; mix-blend-mode: normal; box-sizing: border-box; }
+.lb.ov-one .lb-stage .lb-tile img, .lb.ov-one .lb-tile .lb-tile-gap { width: calc((var(--h) * 2 + 32px) * 0.75); height: calc(var(--h) * 2 + 32px); }
+.lb-stage .lb-tile.photo img, .lb-tile.photo .lb-tile-gap { width: calc(var(--h) + 16px); height: calc(var(--h) * 2 + 32px); }
+button.lb-tile:hover img, button.lb-tile:focus-visible img { outline: 2px solid var(--ink); outline-offset: 2px; }
+.lb-tile .lb-tile-gap { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 10px; text-align: center; background: rgba(255,255,255,0.45); color: var(--ink3); font-size: 12px; }
+.lb-ov-row { display: none; }
+.lb-back { position: absolute; left: 20px; top: 18px; z-index: 2; display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px; border: 0; border-radius: 999px; background: var(--card); color: var(--ink); font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; box-shadow: 0 4px 14px -8px rgba(24,24,27,0.4); }
+.lb-back[hidden] { display: none; }
+.lb.has-back .lb-counter { top: 62px; }
+@media (max-width: 860px) {
+  /* Phones: the 2×2 grid fills the width; the photo becomes a row under it. */
+  .lb-ov { --h: min(calc((100cqh - 120px) / 2), calc((100cqw - 32px) / 1.5)); }
+  .lb:not(.ov-photo) .lb-ov { --h: min(calc((100cqh - 60px) / 2), calc((100cqw - 32px) / 1.5)); }
+  .lb-ov > .lb-tile.photo { display: none; }
+  .lb-ov-grid { gap: 8px; }
+  .lb-ov-row { display: flex; align-items: center; gap: 10px; width: 100%; margin-top: 10px; min-height: 48px; padding: 4px 14px 4px 4px; box-sizing: border-box; border: 0; border-radius: 14px; background: var(--card); color: var(--ink); font: inherit; font-size: 14px; text-align: left; cursor: pointer; }
+  .lb-stage .lb-ov-row img { width: 20px; height: 40px; object-fit: cover; border-radius: 4px; mix-blend-mode: normal; }
+  .lb-ov-row svg { margin-left: auto; }
+  .lb-back { left: 12px; top: 12px; height: 32px; font-size: 13px; }
+  .lb.has-back .lb-counter { top: 52px; }
+  /* The arrows would sit on the tiles; swiping the stage changes the angle. */
+  .lb.compare .lb-nav { display: none; }
+}
