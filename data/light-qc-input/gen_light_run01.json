@@ -1,0 +1,22 @@
+{
+ "run": "light_run01",
+ "missing": {
+  "L006_diag": "skipped - front failed",
+  "L006_front": "never-ok; front golden wash and warm sky correct in all attempts but cast shadow always spreads diagonally to image-right foreground instead of straight back behind figure; best attempt a3 kept (sphere centre golden highlight)",
+  "L006_side": "skipped - front failed",
+  "L029_diag": "best-wrong kept on disk: a1 light/view correct (lamp, orange cone, night) but both feet have clear block heels; a2 generation was refused by the tool so no fix landed within the 2-attempt limit",
+  "L039_diag": "正面未过, 按规则跳过",
+  "L039_front": "最佳=a2保留; a1 光型满分但暗侧有嘴唇形; a2 无嘴但球明暗界偏离正中约60/40; a3 球出现裂缝+脸中缝; 改写句: 暗侧下脸完全平滑无嘴+球竖直正半分",
+  "L039_side": "正面未过, 按规则跳过",
+  "L040_diag": "正面未过, 按规则跳过",
+  "L040_front": "最佳=a3保留; a1 胸肩正面亮+球单月牙; a2 脸仍灰+暖色边光+眼睑; a3 脸近黑+双侧细边光+球双月牙, 但胸部正面仍灰色渐变未近黑; 改写句: 无任何正面光补光+正面近纯黑",
+  "L040_side": "正面未过, 按规则跳过",
+  "L042_diag": "正面未过, 按规则跳过",
+  "L042_front": "最佳=a2保留; a1 光型满分但眼睑+嘴线齐全; a2 无嘴但鼻成黑色槽, 鼻底未亮; a3 下脸出现嘴部弧线影; 改写句: 空白蛋头+鼻为正常石膏鼻且底面受光",
+  "L042_side": "正面未过, 按规则跳过",
+  "L049_diag": "skipped: front failed; no file",
+  "L049_front": "best-wrong kept (attempt 2): a1 mixed neutral white light and shadow side not black plus elbow screw dot; a2 rewrite 'the ONLY light is saturated deep red; no white or neutral grey light anywhere; shadow side pure black' gave saturated red from front-left but crown highlight still pale and shadow si",
+  "L049_side": "skipped: front failed; no file",
+  "L053_diag": "best-wrong kept (attempt 2): a1 true diag but feet became high-heeled boots (subject gate fail); rewrite 'smooth bare mannequin feet exactly as in image 1: no shoes no boots no high heels' removed shoes but camera over-turned to ~75 degrees near-profile not 45; lighting points all held; angle failed"
+ }
+}

@@ -39,11 +39,11 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A001_front.webp",
+    "diag": "animal_A001_diag.webp",
+    "side": "animal_A001_side.webp",
+    "above": "animal_A001_above.webp",
+    "below": "animal_A001_below.webp"
    },
    "gaps": {}
   },
@@ -76,11 +76,11 @@
     "后腿踝关节向后弯"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A002_front.webp",
+    "diag": "animal_A002_diag.webp",
+    "side": "animal_A002_side.webp",
+    "above": "animal_A002_above.webp",
+    "below": "animal_A002_below.webp"
    },
    "gaps": {}
   },
@@ -113,13 +113,15 @@
     "没有多出来的腿"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A003_front.webp",
     "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "side": "animal_A003_side.webp",
+    "above": "animal_A003_above.webp",
+    "below": "animal_A003_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "view"
+   }
   },
   {
    "id": "A004",
@@ -150,13 +152,16 @@
     "尾巴卷在背上"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A004_front.webp",
+    "diag": "animal_A004_diag.webp",
+    "side": "animal_A004_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A005",
@@ -189,11 +194,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
+    "side": "animal_A005_side.webp",
+    "above": "animal_A005_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "below": "view"
+   }
   },
   {
    "id": "A006",
@@ -225,12 +234,14 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "diag": "animal_A006_diag.webp",
+    "side": "animal_A006_side.webp",
+    "above": "animal_A006_above.webp",
+    "below": "animal_A006_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing"
+   }
   },
   {
    "id": "A007",
@@ -261,13 +272,17 @@
     "短圆尾"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A007_front.webp",
     "diag": null,
-    "side": null,
+    "side": "animal_A007_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A008",
@@ -298,13 +313,15 @@
     "没有马鞍缰绳"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A008_front.webp",
+    "diag": "animal_A008_diag.webp",
+    "side": "animal_A008_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A008_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing"
+   }
   },
   {
    "id": "A009",
@@ -341,7 +358,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A010",
@@ -372,11 +395,11 @@
     "不是任何作品里的龙"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A010_front.webp",
+    "diag": "animal_A010_diag.webp",
+    "side": "animal_A010_side.webp",
+    "above": "animal_A010_above.webp",
+    "below": "animal_A010_below.webp"
    },
    "gaps": {}
   },
@@ -411,11 +434,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
+    "side": "animal_A011_side.webp",
+    "above": "animal_A011_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A013",
@@ -446,13 +473,16 @@
     "后腿跗关节向后弯"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A013_front.webp",
     "diag": null,
-    "side": null,
+    "side": "animal_A013_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A013_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "above": "missing"
+   }
   },
   {
    "id": "A014",
@@ -482,11 +512,11 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A014_front.webp",
+    "diag": "animal_A014_diag.webp",
+    "side": "animal_A014_side.webp",
+    "above": "animal_A014_above.webp",
+    "below": "animal_A014_below.webp"
    },
    "gaps": {}
   },
@@ -518,11 +548,11 @@
     "后腿跗关节向后弯"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A015_front.webp",
+    "diag": "animal_A015_diag.webp",
+    "side": "animal_A015_side.webp",
+    "above": "animal_A015_above.webp",
+    "below": "animal_A015_below.webp"
    },
    "gaps": {}
   },
@@ -556,11 +586,14 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "side": "animal_A016_side.webp",
+    "above": "animal_A016_above.webp",
+    "below": "animal_A016_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "consistency",
+    "diag": "consistency"
+   }
   },
   {
    "id": "A017",
@@ -590,11 +623,11 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A017_front.webp",
+    "diag": "animal_A017_diag.webp",
+    "side": "animal_A017_side.webp",
+    "above": "animal_A017_above.webp",
+    "below": "animal_A017_below.webp"
    },
    "gaps": {}
   },
@@ -626,11 +659,11 @@
     "尾巴贴地放在体侧"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A018_front.webp",
+    "diag": "animal_A018_diag.webp",
+    "side": "animal_A018_side.webp",
+    "above": "animal_A018_above.webp",
+    "below": "animal_A018_below.webp"
    },
    "gaps": {}
   },
@@ -665,10 +698,15 @@
     "front": null,
     "diag": null,
     "side": null,
-    "above": null,
+    "above": "animal_A019_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "limbs",
+    "side": "limbs",
+    "below": "style"
+   }
   },
   {
    "id": "A020",
@@ -698,11 +736,11 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A020_front.webp",
+    "diag": "animal_A020_diag.webp",
+    "side": "animal_A020_side.webp",
+    "above": "animal_A020_above.webp",
+    "below": "animal_A020_below.webp"
    },
    "gaps": {}
   },
@@ -734,11 +772,11 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A021_front.webp",
+    "diag": "animal_A021_diag.webp",
+    "side": "animal_A021_side.webp",
+    "above": "animal_A021_above.webp",
+    "below": "animal_A021_below.webp"
    },
    "gaps": {}
   },
@@ -772,11 +810,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A022_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A022_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "consistency",
+    "diag": "consistency",
+    "above": "consistency"
+   }
   },
   {
    "id": "A023",
@@ -806,11 +848,11 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A023_front.webp",
+    "diag": "animal_A023_diag.webp",
+    "side": "animal_A023_side.webp",
+    "above": "animal_A023_above.webp",
+    "below": "animal_A023_below.webp"
    },
    "gaps": {}
   },
@@ -843,12 +885,15 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "diag": "animal_A024_diag.webp",
+    "side": "animal_A024_side.webp",
+    "above": "animal_A024_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A025",
@@ -878,11 +923,11 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A025_front.webp",
+    "diag": "animal_A025_diag.webp",
+    "side": "animal_A025_side.webp",
+    "above": "animal_A025_above.webp",
+    "below": "animal_A025_below.webp"
    },
    "gaps": {}
   },
@@ -914,11 +959,11 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A026_front.webp",
+    "diag": "animal_A026_diag.webp",
+    "side": "animal_A026_side.webp",
+    "above": "animal_A026_above.webp",
+    "below": "animal_A026_below.webp"
    },
    "gaps": {}
   },
@@ -951,12 +996,14 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "diag": "animal_A027_diag.webp",
+    "side": "animal_A027_side.webp",
+    "above": "animal_A027_above.webp",
+    "below": "animal_A027_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing"
+   }
   },
   {
    "id": "A028",
@@ -992,7 +1039,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A029",
@@ -1023,12 +1076,15 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
+    "diag": "animal_A029_diag.webp",
+    "side": "animal_A029_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A029_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "style",
+    "above": "view"
+   }
   },
   {
    "id": "A030",
@@ -1060,11 +1116,14 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "side": "animal_A030_side.webp",
+    "above": "animal_A030_above.webp",
+    "below": "animal_A030_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "consistency"
+   }
   },
   {
    "id": "A031",
@@ -1094,13 +1153,15 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A031_front.webp",
+    "diag": "animal_A031_diag.webp",
+    "side": "animal_A031_side.webp",
+    "above": "animal_A031_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "consistency"
+   }
   },
   {
    "id": "A032",
@@ -1132,11 +1193,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A032_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A032_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "style",
+    "diag": "style",
+    "above": "style"
+   }
   },
   {
    "id": "A033",
@@ -1166,11 +1231,11 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A033_front.webp",
+    "diag": "animal_A033_diag.webp",
+    "side": "animal_A033_side.webp",
+    "above": "animal_A033_above.webp",
+    "below": "animal_A033_below.webp"
    },
    "gaps": {}
   },
@@ -1202,13 +1267,15 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A034_front.webp",
+    "diag": "animal_A034_diag.webp",
+    "side": "animal_A034_side.webp",
+    "above": "animal_A034_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "limbs"
+   }
   },
   {
    "id": "A035",
@@ -1238,11 +1305,11 @@
     "后腿跗关节向后弯"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A035_front.webp",
+    "diag": "animal_A035_diag.webp",
+    "side": "animal_A035_side.webp",
+    "above": "animal_A035_above.webp",
+    "below": "animal_A035_below.webp"
    },
    "gaps": {}
   },
@@ -1274,13 +1341,15 @@
     "四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A036_front.webp",
+    "diag": "animal_A036_diag.webp",
+    "side": "animal_A036_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A036_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "above": "view"
+   }
   },
   {
    "id": "A037",
@@ -1310,11 +1379,11 @@
     "后腿跗关节向后弯"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A037_front.webp",
+    "diag": "animal_A037_diag.webp",
+    "side": "animal_A037_side.webp",
+    "above": "animal_A037_above.webp",
+    "below": "animal_A037_below.webp"
    },
    "gaps": {}
   },
@@ -1346,13 +1415,16 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A038_front.webp",
     "diag": null,
-    "side": null,
-    "above": null,
+    "side": "animal_A038_side.webp",
+    "above": "animal_A038_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A039",
@@ -1383,12 +1455,14 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "diag": "animal_A039_diag.webp",
+    "side": "animal_A039_side.webp",
+    "above": "animal_A039_above.webp",
+    "below": "animal_A039_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing"
+   }
   },
   {
    "id": "A040",
@@ -1424,7 +1498,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A041",
@@ -1460,7 +1540,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A042",
@@ -1492,11 +1578,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A042_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A042_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "above": "missing"
+   }
   },
   {
    "id": "A043",
@@ -1528,11 +1618,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
+    "side": "animal_A043_side.webp",
+    "above": "animal_A043_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A044",
@@ -1562,13 +1656,16 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A044_front.webp",
+    "diag": "animal_A044_diag.webp",
+    "side": "animal_A044_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A045",
@@ -1600,11 +1697,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
+    "side": "animal_A045_side.webp",
+    "above": "animal_A045_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "view",
+    "below": "missing"
+   }
   },
   {
    "id": "A046",
@@ -1636,11 +1737,16 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A046_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A047",
@@ -1672,11 +1778,16 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A047_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "content",
+    "above": "consistency",
+    "below": "missing"
+   }
   },
   {
    "id": "A048",
@@ -1706,11 +1817,11 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A048_front.webp",
+    "diag": "animal_A048_diag.webp",
+    "side": "animal_A048_side.webp",
+    "above": "animal_A048_above.webp",
+    "below": "animal_A048_below.webp"
    },
    "gaps": {}
   },
@@ -1742,13 +1853,17 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A049_front.webp",
     "diag": null,
-    "side": null,
+    "side": "animal_A049_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "view",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A050",
@@ -1778,13 +1893,16 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A050_front.webp",
     "diag": null,
-    "side": null,
+    "side": "animal_A050_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A050_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "above": "missing"
+   }
   },
   {
    "id": "A051",
@@ -1816,11 +1934,16 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A051_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A052",
@@ -1850,13 +1973,16 @@
     "垂耳"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A052_front.webp",
+    "diag": "animal_A052_diag.webp",
+    "side": "animal_A052_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A053",
@@ -1892,7 +2018,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A054",
@@ -1924,11 +2056,16 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A054_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A055",
@@ -1958,13 +2095,16 @@
     "长垂耳"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A055_front.webp",
+    "diag": "animal_A055_diag.webp",
+    "side": "animal_A055_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A056",
@@ -1994,13 +2134,16 @@
     "长垂耳"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A056_front.webp",
+    "diag": "animal_A056_diag.webp",
+    "side": "animal_A056_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A057",
@@ -2032,11 +2175,16 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A057_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A058",
@@ -2067,12 +2215,15 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "diag": "animal_A058_diag.webp",
+    "side": "animal_A058_side.webp",
+    "above": "animal_A058_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "below": "consistency"
+   }
   },
   {
    "id": "A059",
@@ -2102,13 +2253,15 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A059_front.webp",
+    "diag": "animal_A059_diag.webp",
+    "side": "animal_A059_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A059_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing"
+   }
   },
   {
    "id": "A060",
@@ -2140,11 +2293,14 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "side": "animal_A060_side.webp",
+    "above": "animal_A060_above.webp",
+    "below": "animal_A060_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing"
+   }
   },
   {
    "id": "A061",
@@ -2180,7 +2336,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A062",
@@ -2212,11 +2374,16 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A062_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A063",
@@ -2252,7 +2419,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A064",
@@ -2288,7 +2461,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "style",
+    "side": "style",
+    "above": "style",
+    "below": "missing"
+   }
   },
   {
    "id": "A065",
@@ -2318,13 +2497,15 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A065_front.webp",
     "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "side": "animal_A065_side.webp",
+    "above": "animal_A065_above.webp",
+    "below": "animal_A065_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing"
+   }
   },
   {
    "id": "A066",
@@ -2360,7 +2541,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "form",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A067",
@@ -2390,13 +2577,16 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A067_front.webp",
+    "diag": "animal_A067_diag.webp",
+    "side": "animal_A067_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "limbs"
+   }
   },
   {
    "id": "A068",
@@ -2428,11 +2618,16 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A068_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "content",
+    "diag": "content",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A069",
@@ -2462,13 +2657,16 @@
     "大蝙蝠耳竖起"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A069_front.webp",
+    "diag": "animal_A069_diag.webp",
+    "side": "animal_A069_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A070",
@@ -2500,11 +2698,16 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A070_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A071",
@@ -2540,7 +2743,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A072",
@@ -2576,7 +2785,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A073",
@@ -2608,11 +2823,16 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A073_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "view",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A074",
@@ -2643,12 +2863,16 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
+    "diag": "animal_A074_diag.webp",
+    "side": "animal_A074_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A075",
@@ -2684,7 +2908,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A076",
@@ -2714,13 +2944,18 @@
     "四条腿、一条短尾"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A076_front.webp",
     "diag": null,
     "side": null,
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "side": "form",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A077",
@@ -2750,13 +2985,15 @@
     "耳朵小、下垂"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A077_front.webp",
+    "diag": "animal_A077_diag.webp",
+    "side": "animal_A077_side.webp",
+    "above": "animal_A077_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "A078",
@@ -2786,13 +3023,16 @@
     "两只圆耳竖起"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A078_front.webp",
     "diag": null,
-    "side": null,
+    "side": "animal_A078_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A078_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "above": "view"
+   }
   },
   {
    "id": "A079",
@@ -2824,11 +3064,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
+    "side": "animal_A079_side.webp",
+    "above": "animal_A079_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A080",
@@ -2858,13 +3102,15 @@
     "没有马鞍缰绳"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A080_front.webp",
+    "diag": "animal_A080_diag.webp",
+    "side": "animal_A080_side.webp",
+    "above": "animal_A080_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "A081",
@@ -2896,11 +3142,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
+    "side": "animal_A081_side.webp",
+    "above": "animal_A081_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "below": "limbs"
+   }
   },
   {
    "id": "A082",
@@ -2930,13 +3180,15 @@
     "四条腿"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A082_front.webp",
+    "diag": "animal_A082_diag.webp",
+    "side": "animal_A082_side.webp",
+    "above": "animal_A082_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "consistency"
+   }
   },
   {
    "id": "A083",
@@ -2972,7 +3224,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A084",
@@ -3002,11 +3260,11 @@
     "四条腿"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A084_front.webp",
+    "diag": "animal_A084_diag.webp",
+    "side": "animal_A084_side.webp",
+    "above": "animal_A084_above.webp",
+    "below": "animal_A084_below.webp"
    },
    "gaps": {}
   },
@@ -3038,13 +3296,15 @@
     "后腿跗关节向后弯"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A085_front.webp",
+    "diag": "animal_A085_diag.webp",
+    "side": "animal_A085_side.webp",
+    "above": "animal_A085_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "A086",
@@ -3074,13 +3334,16 @@
     "没有耳标、铃铛、绳子"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A086_front.webp",
+    "diag": "animal_A086_diag.webp",
+    "side": "animal_A086_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A087",
@@ -3110,13 +3373,16 @@
     "后腿跗关节向后弯"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A087_front.webp",
+    "diag": "animal_A087_diag.webp",
+    "side": "animal_A087_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A088",
@@ -3146,13 +3412,15 @@
     "没有角"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A088_front.webp",
+    "diag": "animal_A088_diag.webp",
+    "side": "animal_A088_side.webp",
+    "above": "animal_A088_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "A089",
@@ -3181,11 +3449,11 @@
     "喙闭合"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A089_front.webp",
+    "diag": "animal_A089_diag.webp",
+    "side": "animal_A089_side.webp",
+    "above": "animal_A089_above.webp",
+    "below": "animal_A089_below.webp"
    },
    "gaps": {}
   },
@@ -3216,11 +3484,11 @@
     "翅膀收拢"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A090_front.webp",
+    "diag": "animal_A090_diag.webp",
+    "side": "animal_A090_side.webp",
+    "above": "animal_A090_above.webp",
+    "below": "animal_A090_below.webp"
    },
    "gaps": {}
   },
@@ -3251,13 +3519,15 @@
     "没有画水面"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A091_front.webp",
+    "diag": "animal_A091_diag.webp",
+    "side": "animal_A091_side.webp",
+    "above": "animal_A091_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "view"
+   }
   },
   {
    "id": "A092",
@@ -3287,11 +3557,11 @@
     "正好两条腿"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A092_front.webp",
+    "diag": "animal_A092_diag.webp",
+    "side": "animal_A092_side.webp",
+    "above": "animal_A092_above.webp",
+    "below": "animal_A092_below.webp"
    },
    "gaps": {}
   },
@@ -3323,11 +3593,11 @@
     "尾羽展开下压"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A093_front.webp",
+    "diag": "animal_A093_diag.webp",
+    "side": "animal_A093_side.webp",
+    "above": "animal_A093_above.webp",
+    "below": "animal_A093_below.webp"
    },
    "gaps": {}
   },
@@ -3359,11 +3629,11 @@
     "正好两条腿"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A094_front.webp",
+    "diag": "animal_A094_diag.webp",
+    "side": "animal_A094_side.webp",
+    "above": "animal_A094_above.webp",
+    "below": "animal_A094_below.webp"
    },
    "gaps": {}
   },
@@ -3394,13 +3664,17 @@
     "脖子挺直、长喙水平"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A095_front.webp",
     "diag": null,
-    "side": null,
+    "side": "animal_A095_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "above": "view",
+    "below": "missing"
+   }
   },
   {
    "id": "A096",
@@ -3429,13 +3703,16 @@
     "左右两只分叉鹿角"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A096_front.webp",
     "diag": null,
-    "side": null,
-    "above": null,
+    "side": "animal_A096_side.webp",
+    "above": "animal_A096_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A097",
@@ -3464,13 +3741,16 @@
     "两只竖立尖耳"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A097_front.webp",
     "diag": null,
-    "side": null,
-    "above": null,
+    "side": "animal_A097_side.webp",
+    "above": "animal_A097_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A098",
@@ -3505,7 +3785,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A099",
@@ -3534,13 +3820,16 @@
     "尾巴自然下垂"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A099_front.webp",
+    "diag": "animal_A099_diag.webp",
+    "side": "animal_A099_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "limbs"
+   }
   },
   {
    "id": "A100",
@@ -3570,11 +3859,11 @@
     "嘴闭合"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A100_front.webp",
+    "diag": "animal_A100_diag.webp",
+    "side": "animal_A100_side.webp",
+    "above": "animal_A100_above.webp",
+    "below": "animal_A100_below.webp"
    },
    "gaps": {}
   },
@@ -3606,12 +3895,15 @@
    ],
    "views": {
     "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "diag": "animal_A101_diag.webp",
+    "side": "animal_A101_side.webp",
+    "above": "animal_A101_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "view",
+    "below": "consistency"
+   }
   },
   {
    "id": "A102",
@@ -3641,13 +3933,15 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A102_front.webp",
     "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "side": "animal_A102_side.webp",
+    "above": "animal_A102_above.webp",
+    "below": "animal_A102_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing"
+   }
   },
   {
    "id": "A103",
@@ -3677,11 +3971,11 @@
     "嘴闭合"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A103_front.webp",
+    "diag": "animal_A103_diag.webp",
+    "side": "animal_A103_side.webp",
+    "above": "animal_A103_above.webp",
+    "below": "animal_A103_below.webp"
    },
    "gaps": {}
   },
@@ -3713,11 +4007,11 @@
     "两只大耳朵"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A104_front.webp",
+    "diag": "animal_A104_diag.webp",
+    "side": "animal_A104_side.webp",
+    "above": "animal_A104_above.webp",
+    "below": "animal_A104_below.webp"
    },
    "gaps": {}
   },
@@ -3748,13 +4042,15 @@
     "头顶两只短角"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A105_front.webp",
+    "diag": "animal_A105_diag.webp",
+    "side": "animal_A105_side.webp",
+    "above": "animal_A105_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "limbs"
+   }
   },
   {
    "id": "A106",
@@ -3785,11 +4081,14 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "side": "animal_A106_side.webp",
+    "above": "animal_A106_above.webp",
+    "below": "animal_A106_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "view",
+    "diag": "missing"
+   }
   },
   {
    "id": "A107",
@@ -3818,13 +4117,15 @@
     "圆耳朵竖起"
    ],
    "views": {
-    "front": null,
+    "front": "animal_A107_front.webp",
     "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "side": "animal_A107_side.webp",
+    "above": "animal_A107_above.webp",
+    "below": "animal_A107_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "diag": "missing"
+   }
   },
   {
    "id": "A108",
@@ -3854,13 +4155,15 @@
     "不是任何作品里的龙"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A108_front.webp",
+    "diag": "animal_A108_diag.webp",
+    "side": "animal_A108_side.webp",
+    "above": "animal_A108_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "form"
+   }
   },
   {
    "id": "A109",
@@ -3890,13 +4193,15 @@
     "不是任何作品里的龙"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A109_front.webp",
+    "diag": "animal_A109_diag.webp",
+    "side": "animal_A109_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A109_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "above": "consistency"
+   }
   },
   {
    "id": "A110",
@@ -3926,11 +4231,11 @@
     "嘴闭合、没有火"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A110_front.webp",
+    "diag": "animal_A110_diag.webp",
+    "side": "animal_A110_side.webp",
+    "above": "animal_A110_above.webp",
+    "below": "animal_A110_below.webp"
    },
    "gaps": {}
   },
@@ -3961,13 +4266,15 @@
     "马的前膝向前弯、跗关节向后弯"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
+    "front": "animal_A111_front.webp",
+    "diag": "animal_A111_diag.webp",
+    "side": "animal_A111_side.webp",
+    "above": "animal_A111_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "consistency"
+   }
   },
   {
    "id": "A112",
@@ -3997,13 +4304,16 @@
     "正好四条腿"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "animal_A112_front.webp",
+    "diag": "animal_A112_diag.webp",
+    "side": "animal_A112_side.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A113",
@@ -4032,11 +4342,11 @@
     "正好四条腿、一条尾巴"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A113_front.webp",
+    "diag": "animal_A113_diag.webp",
+    "side": "animal_A113_side.webp",
+    "above": "animal_A113_above.webp",
+    "below": "animal_A113_below.webp"
    },
    "gaps": {}
   },
@@ -4069,11 +4379,15 @@
    "views": {
     "front": null,
     "diag": null,
-    "side": null,
+    "side": "animal_A114_side.webp",
     "above": null,
-    "below": null
+    "below": "animal_A114_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "above": "limbs"
+   }
   },
   {
    "id": "A115",
@@ -4109,7 +4423,13 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "front": "missing",
+    "diag": "missing",
+    "side": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "A116",
@@ -4139,11 +4459,11 @@
     "没有火焰和光效"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "above": null,
-    "below": null
+    "front": "animal_A116_front.webp",
+    "diag": "animal_A116_diag.webp",
+    "side": "animal_A116_side.webp",
+    "above": "animal_A116_above.webp",
+    "below": "animal_A116_below.webp"
    },
    "gaps": {}
   }

@@ -32,9 +32,9 @@
     "墙上没有带人像或文字的画"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E001_eye.webp",
+    "above": "scene_E001_above.webp",
+    "below": "scene_E001_below.webp"
    },
    "gaps": {}
   },
@@ -63,9 +63,9 @@
     "墙上没有带人像或文字的画"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E002_eye.webp",
+    "above": "scene_E002_above.webp",
+    "below": "scene_E002_below.webp"
    },
    "gaps": {}
   },
@@ -94,9 +94,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E003_eye.webp",
+    "above": "scene_E003_above.webp",
+    "below": "scene_E003_below.webp"
    },
    "gaps": {}
   },
@@ -125,9 +125,9 @@
     "床尾地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E004_eye.webp",
+    "above": "scene_E004_above.webp",
+    "below": "scene_E004_below.webp"
    },
    "gaps": {}
   },
@@ -156,11 +156,13 @@
     "中央榻榻米空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E005_eye.webp",
+    "above": "scene_E005_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E006",
@@ -187,11 +189,14 @@
     "左侧地面空着"
    ],
    "views": {
-    "eye": null,
+    "eye": "scene_E006_eye.webp",
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "above": "form",
+    "below": "missing"
+   }
   },
   {
    "id": "E007",
@@ -218,9 +223,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E007_eye.webp",
+    "above": "scene_E007_above.webp",
+    "below": "scene_E007_below.webp"
    },
    "gaps": {}
   },
@@ -249,11 +254,13 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E008_eye.webp",
+    "above": "scene_E008_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E009",
@@ -285,7 +292,11 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "E010",
@@ -312,11 +323,13 @@
     "中央通道空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E010_eye.webp",
+    "above": "scene_E010_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E011",
@@ -343,9 +356,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E011_eye.webp",
+    "above": "scene_E011_above.webp",
+    "below": "scene_E011_below.webp"
    },
    "gaps": {}
   },
@@ -374,9 +387,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E012_eye.webp",
+    "above": "scene_E012_above.webp",
+    "below": "scene_E012_below.webp"
    },
    "gaps": {}
   },
@@ -405,11 +418,13 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E013_eye.webp",
+    "above": "scene_E013_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E014",
@@ -436,9 +451,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E014_eye.webp",
+    "above": "scene_E014_above.webp",
+    "below": "scene_E014_below.webp"
    },
    "gaps": {}
   },
@@ -467,9 +482,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E015_eye.webp",
+    "above": "scene_E015_above.webp",
+    "below": "scene_E015_below.webp"
    },
    "gaps": {}
   },
@@ -503,7 +518,11 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "E017",
@@ -531,9 +550,9 @@
     "中央斑马线空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E017_eye.webp",
+    "above": "scene_E017_above.webp",
+    "below": "scene_E017_below.webp"
    },
    "gaps": {}
   },
@@ -562,11 +581,13 @@
     "中央斑马线空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E018_eye.webp",
+    "above": "scene_E018_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E019",
@@ -593,9 +614,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E019_eye.webp",
+    "above": "scene_E019_above.webp",
+    "below": "scene_E019_below.webp"
    },
    "gaps": {}
   },
@@ -625,11 +646,13 @@
     "中央路面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E020_eye.webp",
+    "above": "scene_E020_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E021",
@@ -658,10 +681,12 @@
    ],
    "views": {
     "eye": null,
-    "above": null,
-    "below": null
+    "above": "scene_E021_above.webp",
+    "below": "scene_E021_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "view"
+   }
   },
   {
    "id": "E022",
@@ -688,9 +713,9 @@
     "中央石板路空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E022_eye.webp",
+    "above": "scene_E022_above.webp",
+    "below": "scene_E022_below.webp"
    },
    "gaps": {}
   },
@@ -719,9 +744,9 @@
     "中央平台空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E023_eye.webp",
+    "above": "scene_E023_above.webp",
+    "below": "scene_E023_below.webp"
    },
    "gaps": {}
   },
@@ -750,11 +775,13 @@
     "中央小径空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E024_eye.webp",
+    "above": "scene_E024_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E025",
@@ -781,11 +808,13 @@
     "中央甲板空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E025_eye.webp",
+    "above": "scene_E025_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E026",
@@ -812,11 +841,13 @@
     "中央场地空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E026_eye.webp",
+    "above": "scene_E026_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E027",
@@ -843,11 +874,13 @@
     "中央步道空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E027_eye.webp",
+    "above": "scene_E027_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   },
   {
    "id": "E028",
@@ -874,9 +907,9 @@
     "中央人行道空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E028_eye.webp",
+    "above": "scene_E028_above.webp",
+    "below": "scene_E028_below.webp"
    },
    "gaps": {}
   },
@@ -905,9 +938,9 @@
     "中央路面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E029_eye.webp",
+    "above": "scene_E029_above.webp",
+    "below": "scene_E029_below.webp"
    },
    "gaps": {}
   },
@@ -936,9 +969,9 @@
     "中央路面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E030_eye.webp",
+    "above": "scene_E030_above.webp",
+    "below": "scene_E030_below.webp"
    },
    "gaps": {}
   },
@@ -967,9 +1000,9 @@
     "中央路面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E031_eye.webp",
+    "above": "scene_E031_above.webp",
+    "below": "scene_E031_below.webp"
    },
    "gaps": {}
   },
@@ -998,11 +1031,13 @@
     "中央脊顶平地空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E032_eye.webp",
+    "above": "scene_E032_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "view"
+   }
   },
   {
    "id": "E033",
@@ -1029,9 +1064,9 @@
     "中央雪地空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E033_eye.webp",
+    "above": "scene_E033_above.webp",
+    "below": "scene_E033_below.webp"
    },
    "gaps": {}
   },
@@ -1060,11 +1095,13 @@
     "中央田埂空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E034_eye.webp",
+    "above": "scene_E034_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "view"
+   }
   },
   {
    "id": "E035",
@@ -1091,9 +1128,9 @@
     "中央草路空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E035_eye.webp",
+    "above": "scene_E035_above.webp",
+    "below": "scene_E035_below.webp"
    },
    "gaps": {}
   },
@@ -1122,9 +1159,9 @@
     "中央沙地空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E036_eye.webp",
+    "above": "scene_E036_above.webp",
+    "below": "scene_E036_below.webp"
    },
    "gaps": {}
   },
@@ -1154,9 +1191,9 @@
     "中央石面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E037_eye.webp",
+    "above": "scene_E037_above.webp",
+    "below": "scene_E037_below.webp"
    },
    "gaps": {}
   },
@@ -1185,9 +1222,9 @@
     "中央码头空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E038_eye.webp",
+    "above": "scene_E038_above.webp",
+    "below": "scene_E038_below.webp"
    },
    "gaps": {}
   },
@@ -1218,10 +1255,12 @@
    ],
    "views": {
     "eye": null,
-    "above": null,
-    "below": null
+    "above": "scene_E039_above.webp",
+    "below": "scene_E039_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "view"
+   }
   },
   {
    "id": "E040",
@@ -1248,9 +1287,9 @@
     "海平线水平、没有建筑和船"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E040_eye.webp",
+    "above": "scene_E040_above.webp",
+    "below": "scene_E040_below.webp"
    },
    "gaps": {}
   },
@@ -1279,9 +1318,9 @@
     "中央沙地空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E041_eye.webp",
+    "above": "scene_E041_above.webp",
+    "below": "scene_E041_below.webp"
    },
    "gaps": {}
   },
@@ -1311,10 +1350,13 @@
    ],
    "views": {
     "eye": null,
-    "above": null,
+    "above": "scene_E042_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "view",
+    "below": "view"
+   }
   },
   {
    "id": "E043",
@@ -1346,7 +1388,11 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "missing",
+    "above": "missing",
+    "below": "missing"
+   }
   },
   {
    "id": "E044",
@@ -1373,9 +1419,9 @@
     "中央平台空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E044_eye.webp",
+    "above": "scene_E044_above.webp",
+    "below": "scene_E044_below.webp"
    },
    "gaps": {}
   },
@@ -1404,9 +1450,9 @@
     "中央台阶平台空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E045_eye.webp",
+    "above": "scene_E045_above.webp",
+    "below": "scene_E045_below.webp"
    },
    "gaps": {}
   },
@@ -1439,7 +1485,11 @@
     "above": null,
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "form",
+    "above": "form",
+    "below": "form"
+   }
   },
   {
    "id": "E047",
@@ -1466,9 +1516,9 @@
     "中央路面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E047_eye.webp",
+    "above": "scene_E047_above.webp",
+    "below": "scene_E047_below.webp"
    },
    "gaps": {}
   },
@@ -1498,9 +1548,9 @@
     "中央砖地空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E048_eye.webp",
+    "above": "scene_E048_above.webp",
+    "below": "scene_E048_below.webp"
    },
    "gaps": {}
   },
@@ -1529,9 +1579,9 @@
     "中央石板路空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E049_eye.webp",
+    "above": "scene_E049_above.webp",
+    "below": "scene_E049_below.webp"
    },
    "gaps": {}
   },
@@ -1560,9 +1610,9 @@
     "中央铺地空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E050_eye.webp",
+    "above": "scene_E050_above.webp",
+    "below": "scene_E050_below.webp"
    },
    "gaps": {}
   },
@@ -1591,9 +1641,9 @@
     "中央路面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E051_eye.webp",
+    "above": "scene_E051_above.webp",
+    "below": "scene_E051_below.webp"
    },
    "gaps": {}
   },
@@ -1622,9 +1672,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E052_eye.webp",
+    "above": "scene_E052_above.webp",
+    "below": "scene_E052_below.webp"
    },
    "gaps": {}
   },
@@ -1655,9 +1705,12 @@
    "views": {
     "eye": null,
     "above": null,
-    "below": null
+    "below": "scene_E053_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "spot",
+    "above": "spot"
+   }
   },
   {
    "id": "E054",
@@ -1684,9 +1737,9 @@
     "中央石子路空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E054_eye.webp",
+    "above": "scene_E054_above.webp",
+    "below": "scene_E054_below.webp"
    },
    "gaps": {}
   },
@@ -1715,9 +1768,9 @@
     "中央拼花地板空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E055_eye.webp",
+    "above": "scene_E055_above.webp",
+    "below": "scene_E055_below.webp"
    },
    "gaps": {}
   },
@@ -1746,9 +1799,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E056_eye.webp",
+    "above": "scene_E056_above.webp",
+    "below": "scene_E056_below.webp"
    },
    "gaps": {}
   },
@@ -1778,9 +1831,9 @@
     "中央地面空着、没有光效"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E057_eye.webp",
+    "above": "scene_E057_above.webp",
+    "below": "scene_E057_below.webp"
    },
    "gaps": {}
   },
@@ -1809,9 +1862,9 @@
     "中央甲板空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E058_eye.webp",
+    "above": "scene_E058_above.webp",
+    "below": "scene_E058_below.webp"
    },
    "gaps": {}
   },
@@ -1840,9 +1893,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E059_eye.webp",
+    "above": "scene_E059_above.webp",
+    "below": "scene_E059_below.webp"
    },
    "gaps": {}
   },
@@ -1871,9 +1924,9 @@
     "中央草地空着、离崖边有距离"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E060_eye.webp",
+    "above": "scene_E060_above.webp",
+    "below": "scene_E060_below.webp"
    },
    "gaps": {}
   },
@@ -1903,9 +1956,9 @@
     "中央石台空着、没有光效"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E061_eye.webp",
+    "above": "scene_E061_above.webp",
+    "below": "scene_E061_below.webp"
    },
    "gaps": {}
   },
@@ -1934,9 +1987,9 @@
     "中央土地空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E062_eye.webp",
+    "above": "scene_E062_above.webp",
+    "below": "scene_E062_below.webp"
    },
    "gaps": {}
   },
@@ -1967,9 +2020,12 @@
    "views": {
     "eye": null,
     "above": null,
-    "below": null
+    "below": "scene_E063_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "spot",
+    "above": "spot"
+   }
   },
   {
    "id": "E064",
@@ -1997,10 +2053,12 @@
    ],
    "views": {
     "eye": null,
-    "above": null,
-    "below": null
+    "above": "scene_E064_above.webp",
+    "below": "scene_E064_below.webp"
    },
-   "gaps": {}
+   "gaps": {
+    "eye": "view"
+   }
   },
   {
    "id": "E065",
@@ -2027,9 +2085,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E065_eye.webp",
+    "above": "scene_E065_above.webp",
+    "below": "scene_E065_below.webp"
    },
    "gaps": {}
   },
@@ -2058,9 +2116,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E066_eye.webp",
+    "above": "scene_E066_above.webp",
+    "below": "scene_E066_below.webp"
    },
    "gaps": {}
   },
@@ -2090,9 +2148,9 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
-    "below": null
+    "eye": "scene_E067_eye.webp",
+    "above": "scene_E067_above.webp",
+    "below": "scene_E067_below.webp"
    },
    "gaps": {}
   },
@@ -2122,11 +2180,13 @@
     "中央地面空着"
    ],
    "views": {
-    "eye": null,
-    "above": null,
+    "eye": "scene_E068_eye.webp",
+    "above": "scene_E068_above.webp",
     "below": null
    },
-   "gaps": {}
+   "gaps": {
+    "below": "missing"
+   }
   }
  ]
 }

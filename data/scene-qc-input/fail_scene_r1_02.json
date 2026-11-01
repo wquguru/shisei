@@ -1,0 +1,17 @@
+{
+  "prompt": "scene_prompt.md",
+  "reviewed": ["E038","E039","E040","E041","E042","E044","E045","E046","E047","E048","E049","E050","E051","E052","E053","E054","E055","E056","E057","E058","E059","E060","E061","E062","E063","E064","E065","E066","E067","E068"],
+  "fails": [
+    {"id":"E039","view":"eye","status":"view","reason":"horizon sits at about 20% from the top, well outside the middle third; camera reads as tilted down, not a level eye view"},
+    {"id":"E042","view":"eye","status":"view","reason":"horizon at about 20% from the top, outside the middle third; boardwalk fills the lower half"},
+    {"id":"E042","view":"below","status":"view","reason":"boardwalk deck fills about 40% of the frame, more than the one-third limit for a low upward view"},
+    {"id":"E046","view":"eye","status":"form","reason":"要点1 wrong: far shore shows four low single-storey red-roofed huts on flat ground, not tall narrow coloured houses climbing a hillside"},
+    {"id":"E046","view":"above","status":"form","reason":"要点1 wrong: far shore shows four low single-storey red-roofed huts on flat ground, not tall narrow coloured houses climbing a hillside"},
+    {"id":"E046","view":"below","status":"form","reason":"要点1 wrong: far shore shows four low single-storey red-roofed huts on flat ground, not tall narrow coloured houses climbing a hillside"},
+    {"id":"E053","view":"eye","status":"spot","reason":"large bright lattice-shaped sun patch on the floor sits just left of and into the centre standing area (light effect on the spot)"},
+    {"id":"E053","view":"above","status":"spot","reason":"large bright lattice-shaped sun patch on the floor right beside/under the central standing spot (light effect on the spot)"},
+    {"id":"E063","view":"eye","status":"spot","reason":"grey smudge/shadow blob on the floor in the central standing area of a shadowless white set"},
+    {"id":"E063","view":"above","status":"spot","reason":"dark grey smudge/shadow blob on the floor at the centre of the frame, on the standing spot"},
+    {"id":"E064","view":"eye","status":"view","reason":"floor/wall line sits at about 75% from the top, well below the middle third; nearly all wall, little floor"}
+  ]
+}

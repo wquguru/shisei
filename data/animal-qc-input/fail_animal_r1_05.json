@@ -1,0 +1,13 @@
+{"prompt":"animal_prompt.md",
+"reviewed":["A097","A099","A100","A101","A102","A103","A104","A105","A106","A107","A108","A109","A110","A111","A112","A113","A114","A116"],
+"fails":[
+{"id":"A099","view":"below","status":"limbs","reason":"bottom-left front leg ends in a cluster of two overlapping paws; head cropped and leg count unclear"},
+{"id":"A101","view":"front","status":"view","reason":"head has no muzzle or nose, reads as seen from behind rather than a front view"},
+{"id":"A101","view":"below","status":"consistency","reason":"body leans and one leg is bent in a kneeling shape with a fist-like paw, not the calm upright stance of the main view"},
+{"id":"A105","view":"below","status":"limbs","reason":"four legs cannot be resolved; one foreshortened leg ends in an oversized cropped hoof at the panel edge"},
+{"id":"A106","view":"front","status":"view","reason":"main front view head has no muzzle or nose and reads as the back of the head"},
+{"id":"A108","view":"below","status":"form","reason":"both large front paws show about five claws each; the card asks for four per foot"},
+{"id":"A109","view":"above","status":"consistency","reason":"front legs are flung up and out and the hind legs splay like a sprawled lizard, not standing on four legs as in the main view"},
+{"id":"A111","view":"below","status":"consistency","reason":"head thrown back and body tilted like rearing, one huge front hoof; not the calm standing pose and the second front leg is unclear"},
+{"id":"A114","view":"above","status":"limbs","reason":"head shows two curved horns (card says only one); body also rears with both front legs raised, not one raised leg"}
+]}

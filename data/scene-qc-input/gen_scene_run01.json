@@ -1,0 +1,26 @@
+{
+ "run": "scene_run01",
+ "missing": {
+  "E005_below": "a1 floor ~42%; a2 floor ~33% - quantified rewrite did not take; all content checks pass, below angle criterion missed. File delivered, marked wrong. Rewrite: \"The floor must appear only as a narrow strip along the very bottom edge, less than 15 percent of the frame height, while the ceiling must fil",
+  "E006_below": "a1 floor ~32%; a2 floor ~25%, ceiling top ~40% but floor not a bottom strip. File delivered, marked wrong. Rewrite: \"The floor must appear only as a narrow strip along the very bottom edge, less than 15 percent of the frame height, while the ceiling must fill the entire top third of the frame.\"",
+  "E008_below": "a1 floor ~27%; a2 floor ~21%, ceiling fills top third but floor at/above the >=21% line applied consistently this run; coordinator re-judged wrong, parent visual re-check confirmed floor visibly larger than the passing band (worker had accepted as best). 3 tables counted, board blank at 2x. File del",
+  "E009_above": "skipped: eye failed",
+  "E009_below": "skipped: eye failed",
+  "E009_eye": "SEVEN bar stools counted enlarged on all 3 attempts (check 1 needs exactly six); bottles unlabelled, no neon text, centre empty all pass. Coordinator spot-check confirmed 7 stools. Rewrite a2: \"Space the six stools evenly with wide gaps along the bar so exactly six separate seats are clearly countab",
+  "E010_below": "a1 floor ~44%; a2 floor ~36% - tilt present but weak. File delivered, marked wrong. Rewrite: \"The floor must appear only as a narrow strip along the very bottom edge, less than 15 percent of the frame height, while the ceiling must fill the entire top third of the frame.\"",
+  "E013_below": "a1 floor ~34%; a2 floor ~25% - coordinator re-judged wrong by the run-wide >20% line (worker had delivered as best pass). File delivered, marked wrong. Rewrite: \"The black rubber floor must occupy less than 15% of the total image height, appearing only as a narrow strip along the very bottom edge of",
+  "E016_above": "skipped: eye failed",
+  "E016_below": "skipped: eye failed",
+  "E016_eye": "a1: slanted panels completely blank (diagram attractor beaten) but pinpoint red marks above both side doors on 3x crops; a2: flat band clean, no red marks, but far connecting door lost its small window; a3: diagram scribbles + red pictograms returned. Best attempt a1 delivered on disk, marked wrong;",
+  "E018_below": "a1 ground ~37%; a2 ground ~28-32%. File delivered, marked wrong. Rewrite: same ground/sky sentence as E017_below.",
+  "E020_below": "PROBE FAILURE REPEATS even with the quantified rewrite mandated this run: a1 ground ~35%; a2 ground ~23%, sky top third, signboards blank / neon geometric zero letters at 2x. File delivered, marked wrong. Rewrite: \"The paving must appear only as a narrow strip along the very bottom edge, less than 1",
+  "E024_below": "a1 ground/path ~35-40%; a2 horizon lowered, sky/trees top third, thin curb strip at bottom BUT receding path itself still ~25% of lower frame - coordinator re-judged wrong (ground is ground, cf. E027). File delivered, marked wrong. Rewrite view clause: \"a low-angle view: the camera 0.4 metres above ",
+  "E025_below": "a1 decking ~28%; a2 decking ~25-27% - quantified rewrite ineffective here. Content clean enlarged both attempts. Best attempt a2 delivered on disk, marked wrong. Rewrite view clause: \"a low-angle view: the camera 0.4 metres above the ground and tilted 35 degrees upward, still facing the same directi",
+  "E026_below": "a1 court ~33%; a2 court ~50% (rewrite made it worse). Best attempt a1 delivered on disk, marked wrong. Backboard blank in both. Rewrite: same view clause as E025_below.",
+  "E027_below": "a1 paving ~48% (near eye-level); a2 paving ~25%, true low angle otherwise, sky/river top third. File delivered, marked wrong. Rewrite view clause: \"a low-angle view: the camera 0.4 metres above the ground and tilted 35 degrees upward, still facing the same direction, the ground at the standing spot ",
+  "E043_above": "skipped: eye failed",
+  "E043_below": "skipped: eye failed",
+  "E043_eye": "pool far edge never merged with the sea in 3 attempts: the model always inserts the jungle slope as a band between pool water and sea. a1 pre-emptive sentence: 'The far edge of the pool water is at exactly the same height as the sea horizon behind it, so the pool surface and the sea form one continu",
+  "E068_below": "a1 black wedges at both upper corners + top roll visible; a2 rewrite reduced to a small black sliver at top-left corner plus faint top roll shadow - still an edge leak so marked wrong; colours/no lamp/centre empty met; file is final a2 attempt"
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "prompt": "light_prompt.md",
+ "reviewed": [
+  "L030",
+  "L031",
+  "L032",
+  "L033",
+  "L034",
+  "L035",
+  "L036",
+  "L037",
+  "L038",
+  "L041",
+  "L043",
+  "L044",
+  "L045",
+  "L046",
+  "L047",
+  "L048",
+  "L050",
+  "L051",
+  "L052",
+  "L053",
+  "L054",
+  "L055"
+ ],
+ "fails": [
+  {
+   "id": "L030",
+   "view": "diag",
+   "status": "turn",
+   "reason": "blue screen stays at bottom of frame, sphere highlight at its base in same place in all panels; screen does not move to image-left in side view"
+  },
+  {
+   "id": "L030",
+   "view": "side",
+   "status": "turn",
+   "reason": "blue screen stays at bottom of frame, sphere highlight at its base in same place in all panels; screen does not move to image-left in side view"
+  },
+  {
+   "id": "L032",
+   "view": "diag",
+   "status": "turn",
+   "reason": "two headlight glows stay at bottom of frame and road/shadow layout unchanged; headlights should rotate to image-left in side view"
+  },
+  {
+   "id": "L032",
+   "view": "side",
+   "status": "turn",
+   "reason": "two headlight glows stay at bottom of frame and road/shadow layout unchanged; headlights should rotate to image-left in side view"
+  },
+  {
+   "id": "L033",
+   "view": "side",
+   "status": "turn",
+   "reason": "spotlight fixture stays at top-left of frame as in front; light source did not move with the 90 degree camera turn (in doubt)"
+  },
+  {
+   "id": "L034",
+   "view": "diag",
+   "status": "turn",
+   "reason": "floor lamp at left and window at right stay in the same frame positions in all panels while the mannequin turns; warm-left/cool-right followed the camera"
+  },
+  {
+   "id": "L034",
+   "view": "side",
+   "status": "turn",
+   "reason": "floor lamp at left and window at right stay in the same frame positions in all panels while the mannequin turns; warm-left/cool-right followed the camera"
+  },
+  {
+   "id": "L037",
+   "view": "side",
+   "status": "subject",
+   "reason": "bust is a thin slanted wedge unlike the front/diag bust and the sphere moved behind the head to image-right"
+  },
+  {
+   "id": "L048",
+   "view": "diag",
+   "status": "turn",
+   "reason": "orange-left / teal-right split stays fixed in frame on diag and side; light followed the camera"
+  },
+  {
+   "id": "L048",
+   "view": "side",
+   "status": "turn",
+   "reason": "orange-left / teal-right split stays fixed in frame on diag and side; light followed the camera"
+  },
+  {
+   "id": "L050",
+   "view": "diag",
+   "status": "turn",
+   "reason": "violet upper-left / blue lower-right and backdrop gradient identical in frame on all panels; light followed the camera"
+  },
+  {
+   "id": "L050",
+   "view": "side",
+   "status": "turn",
+   "reason": "violet upper-left / blue lower-right and backdrop gradient identical in frame on all panels; light followed the camera"
+  },
+  {
+   "id": "L051",
+   "view": "diag",
+   "status": "turn",
+   "reason": "window and slanting beams identical in frame on all panels; light followed the camera"
+  },
+  {
+   "id": "L051",
+   "view": "side",
+   "status": "turn",
+   "reason": "window and slanting beams identical in frame on all panels; light followed the camera"
+  },
+  {
+   "id": "L052",
+   "view": "side",
+   "status": "turn",
+   "reason": "glow behind the figure still centred behind it in the side view; a light far behind should shift to image-right (in doubt)"
+  },
+  {
+   "id": "L053",
+   "view": "side",
+   "status": "turn",
+   "reason": "window-frame shadow on wall identical to front in frame position; light followed the camera (in doubt)"
+  },
+  {
+   "id": "L054",
+   "view": "diag",
+   "status": "turn",
+   "reason": "leaf-shadow pattern on backdrop identical in frame to front; light followed the camera (in doubt)"
+  },
+  {
+   "id": "L054",
+   "view": "side",
+   "status": "turn",
+   "reason": "leaf-shadow pattern on backdrop identical in frame to front; light followed the camera (in doubt)"
+  }
+ ]
+}

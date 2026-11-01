@@ -1,0 +1,1144 @@
+{
+ "views": [
+  "front",
+  "back",
+  "side",
+  "diag",
+  "above"
+ ],
+ "items": {
+  "F001": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F002": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F003": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F004": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "matte",
+    "reason": "dark patch showing through the side arm opening; seat cushion not visible",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "seat cushion appears dark/black here, off-white in front and above views; dark hole in arm",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "matte",
+    "reason": "dark circular hole/patch in the side of the backrest/arm",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F005": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F006": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F007": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F008": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F009": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "view",
+    "reason": "looks like the front view mirrored (long face with seat and rear backrest), not a profile of the left end",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F010": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F011": {
+   "front": {
+    "status": "form",
+    "reason": "cushion is dark grey/black, 要点 and desc say round white cushion",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "consistency",
+    "reason": "large open window in the basket side and white cushion sticking out of the basket; front shows closed sides",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "basket has big cut-out openings in the side not seen in front/back; cushion dark or missing",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "consistency",
+    "reason": "basket sides have large open cut-outs; cushion grey and dark, not white",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F012": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F013": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F014": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "a1 and a2 both stuck at about 70-80 degrees (both armrests fully visible, seat slats seen from above) instead of a true 90-degree profile; structure itself correct (7-slat fan back, sloping seat, wide",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F015": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F016": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "form",
+    "reason": "seat looks tilted and not hung level in the A-frame; check 'still and level'",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F017": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F018": {
+   "front": {
+    "status": "scale",
+    "reason": "180x90 cm table drawn nearly square, far too short in length for its 75 cm height",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "scale",
+    "reason": "180x90 cm table drawn nearly square, far too short in length for its 75 cm height",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "scale",
+    "reason": "180x90 cm table drawn nearly square, far too short in length for its 75 cm height",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "scale",
+    "reason": "180x90 cm table drawn nearly square, far too short in length for its 75 cm height",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F019": {
+   "front": {
+    "status": "scale",
+    "reason": "120x60 cm coffee table drawn almost square and tall",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "scale",
+    "reason": "120x60 cm coffee table drawn almost square and tall",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "四条要点全中但视角身份失败:a1仍为正面宽幅、未转成60cm窄侧面;a2改写句:'Show the narrow end of the table: the two legs on this side stand close together, only 60 cm apart, so the whole table is only about half as wide in the frame ",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "scale",
+    "reason": "120x60 cm coffee table drawn almost square and tall",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "scale",
+    "reason": "120x60 cm coffee table drawn almost square and tall",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F020": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "家具四条要点完整但视角身份失败:a1仍为正面(抽屉面正对镜头);a2改写句:'From this left side the drawer fronts and their round knobs are NOT visible face-on: only the plain flat side panel of the drawer pedestal is seen in profile, th",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F021": {
+   "front": {
+    "status": "matte",
+    "reason": "mirror glass is cut out and shows the dark background instead of flat mid-grey",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "a1深度轴正确(正面朝image-left、镜子在后沿呈薄边、镜面仅灰色无反射)但近侧抽屉面仍朝向镜头与纯侧面略有出入;a2改写句:'In this pure side profile no drawer front and no round knob faces the camera: both drawer stacks are seen only as plain white side pa",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "mirror glass is cut out and shows the dark background instead of flat mid-grey",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "桌面清晰/抽屉2+2/台面空三条中,但镜面下部出现白色带、非整面均匀灰(疑似反射台面),①失败;a2改写句:'The entire mirror glass from its top edge to its bottom edge is one uniform flat mid-grey with no white band, no shape and no reflection of the t",
+    "by": "gen_furniture_run01.json"
+   }
+  },
+  "F022": {
+   "front": {
+    "status": "scale",
+    "reason": "150 cm long x 60 cm deep bar counter drawn too narrow, about 1:1 plan and taller than wide",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "scale",
+    "reason": "150 cm long x 60 cm deep bar counter drawn too narrow, about 1:1 plan and taller than wide",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "scale",
+    "reason": "150 cm long x 60 cm deep bar counter drawn too narrow, about 1:1 plan and taller than wide",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "scale",
+    "reason": "150 cm long x 60 cm deep bar counter drawn too narrow, about 1:1 plan and taller than wide",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F023": {
+   "front": {
+    "status": "missing",
+    "reason": "a1端面视角:桌面恰五块长板/两侧长凳各两块板/近端X形交叉架加远端X架/45cm横撑托住两凳,四条要点全中,但视角为端面而非长边正面且底部多一条横栏,特此披露;a2改写句:'The camera faces the 180 cm long side straight on, slightly above the top so the top surface reads as five separ",
+    "by": "gen_furniture_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "blocked by front: F023 front failed after 3 attempts (long-side front five-plank count is a stable attractor; best attempt is an end view), later views not produced per rule 2. No file.",
+    "by": "gen_furniture_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "blocked by front: F023 front failed after 3 attempts (long-side front five-plank count is a stable attractor; best attempt is an end view), later views not produced per rule 2. No file.",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "blocked by front: F023 front failed after 3 attempts (long-side front five-plank count is a stable attractor; best attempt is an end view), later views not produced per rule 2. No file.",
+    "by": "gen_furniture_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "blocked by front: F023 front failed after 3 attempts (long-side front five-plank count is a stable attractor; best attempt is an end view), later views not produced per rule 2. No file.",
+    "by": "gen_furniture_run01.json"
+   }
+  },
+  "F024": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_01.json"
+   }
+  },
+  "F025": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F026": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F027": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F028": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "consistency",
+    "reason": "back panel shows a much thicker seat slab with its underside visible and a taller leg/seat height ratio than the front",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F029": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "form",
+    "reason": "from the left end the near end railing is missing (open end with kang table visible); 要点 says low railings on three sides incl. both ends",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F030": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F031": {
+   "front": {
+    "status": "missing",
+    "reason": "Never-ok. Attempt 1 hit point 2 (spandrel apron brackets) and point 4 (flat top, no raised ends, empty top) but missed point 1 (legs at corners, not recessed) and point 3 (two long stretchers along th",
+    "by": "gen_furniture_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   }
+  },
+  "F032": {
+   "front": {
+    "status": "scale",
+    "reason": "table looks about 0.6 as tall as wide, stated 33 cm high x 80 cm across (about 0.4)",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "view",
+    "reason": "identical to the front: cushion still in front of the table instead of hidden behind it, so it is the front again",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "a1 kept as best: true side profile, round top edge-on, one zabuton with tuft, empty top, BUT cushion is tucked under/centred beneath the table instead of in front on the image-left side; a2 put cushio",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "a1 kept as best: three-quarter round table, one zabuton in front with back edge under rim and centre tuft, empty top, BUT the far leg ends in mid-air above the cushion (only 3 legs reach ground); a2 k",
+    "by": "gen_furniture_run01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F033": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "consistency",
+    "reason": "dark grey-blue flat panel under the seat cushion at the back looks like a different material or a matte leftover; rest is ivory linen",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F034": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F035": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F036": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F037": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "consistency",
+    "reason": "back face is flush with two oval holes, while front, diag and above show the long face recessed in a thick open frame",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F038": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "both attempts returned long-side proportion (face ratio about 5:1 not 30:10=3:1) with no hole; best a1 saved; diag/above continued from front+this best side",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F039": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "a1 long-edge profile cropped at right edge; a2 stood slab on end; best a1 saved (flat solid slab; layered; no holes); diag/above continued from front+this best side",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "matte",
+    "reason": "grey smudge patch on the top surface",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F040": {
+   "front": {
+    "status": "scale",
+    "reason": "not a cube: about 305 px wide by 358 px tall (about 1.17:1), stated 45 cm on every side",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "scale",
+    "reason": "not a cube: about 305 px wide by 358 px tall (about 1.17:1), stated 45 cm on every side",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "scale",
+    "reason": "not a cube: about 305 px wide by 358 px tall (about 1.17:1), stated 45 cm on every side",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F041": {
+   "front": {
+    "status": "missing",
+    "reason": "Best=a2. Missed: point3 back/total height (a tall back panel rises above the top tread in a1/a2; a3 fixed height but showed 4 treads) and point4 side profile (a2 only left side stepped; right side fla",
+    "by": "gen_furniture_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   }
+  },
+  "F042": {
+   "front": {
+    "status": "scale",
+    "reason": "wall looks about 1.15:1 wide to high, stated 150 cm long x 100 cm high (1.5:1)",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "scale",
+    "reason": "wall looks about 1.15:1 wide to high, stated 150 cm long x 100 cm high (1.5:1)",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "never-ok: a1 correct end profile but invented 4 legs and floated wall; a2 removed legs but returned front view again; best=a1 saved; diag used this side as reference (dependency)",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F043": {
+   "front": {
+    "status": "missing",
+    "reason": "Best=a1. Missed: point1 handrail height/proportion (end posts with caps rise above the handrail and overall shape is ~1:1 not 180x100=1.8:1 in all attempts). a1 otherwise: exactly nine balusters count",
+    "by": "gen_furniture_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   }
+  },
+  "F044": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "never-ok: a1 was front view again; a2 correct single-jamb profile and one foot plate but added an extra floating cross plate and a metal plate at the base",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F045": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F046": {
+   "front": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "never-ok: foot ring drawn as a one-sided D-shaped half loop in profile on a1; a2 rewrite made it a single horizontal bar sticking out one side (worse). Best attempt a1 saved. Rewrite tried: foot ring ",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_furniture_r1_02.json"
+   }
+  },
+  "F047": {
+   "front": {
+    "status": "missing",
+    "reason": "never-ok: pallet count attractor - a1 about 5 pallets, a2 about 6, a3 about 4; never exactly 3 in 3 attempts, although 5 top deck boards, 3 rows of blocks and no stamps all hit. Best attempt a3 saved",
+    "by": "gen_furniture_run01.json"
+   },
+   "back": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped - front failed per instruction",
+    "by": "gen_furniture_run01.json"
+   }
+  },
+  "F048": {
+   "front": {
+    "status": "scale",
+    "reason": "square base slab is about 1.9x the column width, stated 50 cm vs 40 cm (about 1.25x)",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "back": {
+    "status": "scale",
+    "reason": "square base slab is about 1.9x the column width, stated 50 cm vs 40 cm (about 1.25x)",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "side": {
+    "status": "scale",
+    "reason": "square base slab is about 1.9x the column width, stated 50 cm vs 40 cm (about 1.25x)",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "diag": {
+    "status": "scale",
+    "reason": "square base slab is about 1.9x the column width, stated 50 cm vs 40 cm (about 1.25x)",
+    "by": "fail_furniture_r1_02.json"
+   },
+   "above": {
+    "status": "matte",
+    "reason": "base slab rendered dark charcoal with smudged edges, like a leftover shadow patch; pale grey in the other views",
+    "by": "fail_furniture_r1_02.json"
+   }
+  }
+ }
+}

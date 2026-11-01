@@ -1,0 +1,2774 @@
+{
+ "views": [
+  "front",
+  "diag",
+  "side",
+  "above",
+  "below"
+ ],
+ "items": {
+  "A001": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A002": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A003": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "view",
+    "reason": "diag panel is essentially identical to the flat side main view, no 45 degree turn",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A004": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "Best attempt saved is attempt 1: high angle correct (top of head and whole back visible) but near hind leg lifted with hock off ground and one ear folded - points 1 and 4 only; attempt 2 pose was 4/4 ",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Best attempt saved is attempt 2: low angle correct (underside of jaw/chest visible nearest paws enlarged) front legs straight side by side hind folded hocks flat and tail clearly curled over back; fai",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A005": {
+   "front": {
+    "status": "missing",
+    "reason": "Retry actually tested (earlier row was a tool path failure, not a pose test): attempt 1 vertical upright collapse - head lowered over a vertical torso, hind legs splayed at the sides not back in depth",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "Pose points all hit in both attempts (paws off ground, front legs forward, hind legs back, exactly 4 legs, 1 curled tail, 2 upright ears, smooth contour + small joint circles, no robot parts) but came",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "view",
+    "reason": "reads as a flat side view of the galloping dog; belly and chest underside not shown",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A006": {
+   "front": {
+    "status": "missing",
+    "reason": "dead attractor both attempts: upright sitting collapse belly off ground front legs vertical not horizontal foreshortened; attempt1 saved as best (front legs parallel hind paws visible at sides drop ea",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A007": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "camera stayed pure side profile on both attempts pose correct but no 45-degree turn",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "above attempts went to rear three-quarter only one hind foot visible",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "hind feet raised toward camera with dog-like paw pads not flat on ground",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A008": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "both attempts failed: attempt1 side-like with one hind hoof raised; attempt2 back visible but far hind leg truncated and hind hooves not planted",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A009": {
+   "front": {
+    "status": "missing",
+    "reason": "main failed - all 3 attempts cropped the wingtips at the frame edges (a1 also dorsal view); wings spread, legs tucked and fan tail present but whole body never in frame",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "main failed - skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "main failed - skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "main failed - skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "main failed - skipped",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A010": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A011": {
+   "front": {
+    "status": "missing",
+    "reason": "dead attractor: upright round ball body on long upright neck; sitting up not sphinx; chest off ground; body length in depth not shown; only long drop ears hit; attempt2 strong rewrite still not front ",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "pose points all hit in attempt1 but camera stayed true side profile - view fail; attempt2 moved camera but rear lifted off ground with hind paws airborne so attempt1 saved",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "both attempts: long upright neck and chest raised off ground; body compressed not long flat sphinx; front legs parallel forward and drop ear hit; attempt2 saved - tail corrected to straight behind; at",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A013": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "Pose points all present (4 paws planted; deep chest and sharply tucked waist; long thin legs; hind hocks backward; 1 long thin tail; rose ear) and style passes, but camera failed both attempts: image ",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "Attempt 1 saved as best: correct front-left high angle, top of head and whole back visible, full long thin tail (not a stub), deep chest/tucked waist/long thin legs/backward near hock present, but poi",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A014": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A015": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A016": {
+   "front": {
+    "status": "consistency",
+    "reason": "hind legs splay up and out to both sides of the body like a frog, but the side view has them level and stretched straight back",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "one hind leg points straight up, unlike the side view where both hind legs trail level behind",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A017": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A018": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A019": {
+   "front": {
+    "status": "missing",
+    "reason": "WRONG: both attempts drew the back of the head/body (rear view), camera never came to the front",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "limbs",
+    "reason": "same extra tube at the bottom left near the chest plus the tail; reads as a visible front paw or extra limb",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "limbs",
+    "reason": "two sausage-like tubes along the bottom, one at the far left under the chest; unclear which is the tail and the other may read as an extra paw, against the hidden-paws and no-extra-legs points",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "style",
+    "reason": "tail drawn as a thick smooth cylinder with a capped end and joint circle, reads as a mechanical tube",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A020": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A021": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A022": {
+   "front": {
+    "status": "consistency",
+    "reason": "cat is sitting on its haunches with hind legs folded, main view is standing on four paws; also a three-quarter profile, not a front",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "cat is seated with hind legs folded flat, main view is standing with backward hocks",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "consistency",
+    "reason": "hind legs folded in a sitting pose, main view stands on all four paws",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A023": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_01.json"
+   }
+  },
+  "A024": {
+   "front": {
+    "status": "missing",
+    "reason": "WRONG: a1 front legs like human arms akimbo + ground line; a2 plain upright sit, not a crouch",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "WRONG: a1 upright meerkat sit with ground line; a2 twisted mid-fall pose, not a crouch",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A025": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A026": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A027": {
+   "front": {
+    "status": "missing",
+    "reason": "WRONG: both attempts drew the back of the head/body (rear view), same attractor as A019 front",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A028": {
+   "front": {
+    "status": "missing",
+    "reason": "skipped: main failed",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: main failed",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "WRONG: body stays long, legs not short/sturdy, only near-side legs visible in all 3 attempts",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped: main failed",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "skipped: main failed",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A029": {
+   "front": {
+    "status": "style",
+    "reason": "detailed face with iris eyes, nose and mouth drawn, not the faceless construction sketch; head also upright while main view has head resting on the ground",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "view",
+    "reason": "same drawing as the side main view at the same angle, not a view from above",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A030": {
+   "front": {
+    "status": "missing",
+    "reason": "WRONG: a1 exact side profile duplicate; a2 vertical hanging stretch, pose lost",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "consistency",
+    "reason": "head raised and front paws crossed like a sphinx, main view is stretched flat on its side with head on the ground",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A031": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "consistency",
+    "reason": "head faces right and tail is at image-left, orientation reversed compared with the main view (head left)",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A032": {
+   "front": {
+    "status": "style",
+    "reason": "detailed eyes with irises, shaded nose and black filled ear tips",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "style",
+    "reason": "detailed eyes with irises and black filled ear interior",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "style",
+    "reason": "black filled ear interiors and fur shading",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A033": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A034": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "limbs",
+    "reason": "paw count unclear, about five paws: a large overlapped pair at lower left plus three on the right (one raised on a thin leg)",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A035": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A036": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "view",
+    "reason": "reads as an eye-level front or three-quarter view of the sitting cat, back not visible from above",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A037": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A038": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "Pose points all hit in both attempts (4 paws planted level back; hind hocks backward; 1 tail curled over back; exactly 4 legs; 2 upright ears) and style passes but camera never left pure side profile ",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Best attempt 2 saved: low angle correct with underside of jaw/chest/belly visible and both upright ears and a partial tail curl peeking over the back (points 3 partial and leg count present) but neare",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A039": {
+   "front": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved. Known sphinx-front attractor: body collapsed upright instead of a low flat sphinx - chest raised as a ball, belly not flat on the ground (point 1 fail); front legs splayed diagon",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A040": {
+   "front": {
+    "status": "missing",
+    "reason": "skipped: main (side) failed after max attempts, rest of action not attempted per rule 6",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: main (side) failed after max attempts, rest of action not attempted per rule 6",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "best is attempt1: body flat on side head flat on ground 4 legs 1 tail but front legs folded under chest not stretched same direction as hind legs; attempt2 became sphinx prone front forward hind back;",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped: main (side) failed after max attempts, rest of action not attempted per rule 6",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "skipped: main (side) failed after max attempts, rest of action not attempted per rule 6",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A041": {
+   "front": {
+    "status": "missing",
+    "reason": "skipped: main (side) failed after max attempts, rest of action not attempted per rule 6",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped: main (side) failed after max attempts, rest of action not attempted per rule 6",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "Best attempt1 saved; body curled into tight ring and no extra legs, but head not resting on hind legs and tail not wrapped over nose; ears drawn floppy/drop instead of upright-folded",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped: main (side) failed after max attempts, rest of action not attempted per rule 6",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "skipped: main (side) failed after max attempts, rest of action not attempted per rule 6",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A042": {
+   "front": {
+    "status": "missing",
+    "reason": "Best saved is attempt 2: true straight front view (chest facing camera ears symmetric body foreshortened in depth tail peeking above back) but walk collapsed to a standing pose - all 4 paws on the gro",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "Pose points all hit in both attempts (3 paws on ground far front lifted and bent front/hind alternating hind hocks backward exactly 4 legs 1 curled tail 2 upright ears smooth contour small joint circl",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "Best saved is attempt 1: high angle present (top of head both ears and whole back visible) alternating legs hind hock backward and exactly 4 legs / 1 curled tail hit but point 1 fails - far hind paw i",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   }
+  },
+  "A043": {
+   "front": {
+    "status": "missing",
+    "reason": "Attempt 1 pose 4/4 but camera stayed pure side profile; attempt 2 head-on front view with exactly 4 legs / 1 tail / all paws off ground and hind legs trailing back in depth, but front legs stretched s",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "Pose points all hit in both attempts (all paws off ground, front legs folded under chest, hind legs stretched back, exactly 4 legs, 1 curled tail, 2 upright ears, smooth contour + small joint circles)",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Low-angle view itself achieved in both attempts (underside of jaw/chest/belly visible, nearest paws larger than head, all paws off ground, exactly 4 legs / 1 tail) but front legs reached straight towa",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A044": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: correct high angle from front-left (top of head and whole back visible), forearms flat, hips high on straight near hind leg, tail curled up, but point 4 fails: far hind leg is on",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: correct low angle from front-left (underside of jaw/chest visible, nearest front paw larger than the head), forearms flat, hips high on straight near hind leg, tail curled up, bu",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A045": {
+   "front": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: non-mirrored and standing with 4 legs, backward hocks and curled tail (points 1, 3, 4), but it is not a front view at all - it stayed a side/three-quarter view - and the head tur",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "view",
+    "reason": "flat profile almost identical to the main side view, no 45 degree turn",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Best attempt 2 saved: correct low angle (underside of jaw/chest/belly visible, nearest paw enlarged), head turned back toward the tail, 4 legs and curled tail present, but the nearest front paw is sti",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A046": {
+   "front": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved. Known sphinx-front upright collapse: torso rose vertical, belly not flat on the ground (point 1 fail), and the lowered muzzle stayed in the centre far from the lifted front paw a",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "Pose points all hit in attempt 1 (belly on the ground, lifted front paw with muzzle close to it, other front leg flat, exactly 4 legs / 1 curled tail, 2 upright ears, smooth contour + small joint circ",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: high angle present (top of head and whole back visible) with the far front leg extended forward (point 3) and 4 legs / 1 curled tail present (point 4), but the body ran steeply d",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: low angle present (underside of jaw/chest visible, nearest flat front paw much larger than the head), muzzle right beside the lifted front paw (point 2) and the other front leg f",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A047": {
+   "front": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: all 4 pose points present (belly up, front legs folded over chest, hind legs splayed with paws in air, exactly 4 legs, 1 tail), but the camera is a top-down full-length belly pla",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "content",
+    "reason": "small genital-like protrusion drawn under the tail base; when in doubt, a person should look",
+    "by": "fail_animal_r1_02.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_02.json"
+   },
+   "above": {
+    "status": "consistency",
+    "reason": "front legs splayed straight out to the sides and hind paws together at the belly, main view has front legs bent over the chest and hind legs splayed",
+    "by": "fail_animal_r1_02.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: all 4 pose points present (belly up, front legs folded, hind legs splayed with paws in air, exactly 4 legs, 1 tail, underside of jaw visible), but the camera reads as a belly pla",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A048": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   }
+  },
+  "A049": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "view",
+    "reason": "Diag is almost the same flat profile as the side main view, only slightly turned; no real 45 degree three-quarter",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "Best attempt 2 saved: all four points hit (4 legs braced apart with all paws visible, head/neck twisted, both ears flung out, exactly 4 legs, 1 curled tail) but the camera azimuth is wrong: it is a hi",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: correct low angle from front-left (underside of jaw, chest and belly visible, nearest front paws larger than the head), braced stand on exactly 4 legs, head/neck twisted, but poi",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A050": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: all four pose points hit (sit, lifted front leg, straight planted front leg, exactly 4 legs, both hind legs folded, 1 curled tail, 2 upright ears, head image-left) but the camera",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "Best attempt 2 saved: all four pose points hit (sit, lifted front leg, straight planted front leg, exactly 4 legs, both hind legs folded with paws flat, 1 curled tail, 2 upright ears) but the camera c",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   }
+  },
+  "A051": {
+   "front": {
+    "status": "missing",
+    "reason": "Best attempt 2 saved: true straight front view facing chest and muzzle to camera with both drop ears (point 4) and hind legs set back visible (point 2) but one hind paw lifted/floating so not 4 paws p",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "Pose points all hit in both attempts (4 paws planted; hind hocks backward; 1 long tail hanging; drop ears; exactly 4 legs) and style passes but camera never clearly left pure side profile - head in fu",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: high angle with whole back visible hind hock backward tail hanging and drop ears present but camera is from behind/side not in front and slightly to the left and the far front an",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Best attempt 2 saved: low angle with underside of jaw/chest/belly visible tail hanging between hind legs and exactly 4 legs present (points 3 and leg count) but head is tilted up/howling not level dro",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A052": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "Best attempt 2 saved: exactly one tail lying flat on the ground and the whole back visible with a drop ear, but the camera azimuth is wrong (high view from behind-left, not from in front and slightly ",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "Best attempt 1 saved: correct low angle from front-left with underside of jaw, chest and belly visible and the nearest front paws larger than the head; both front legs straight and side by side, both ",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A053": {
+   "front": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "gate main failed: side-lying attractor split front/hind legs along body axis; a2 front leg grew from mid-chest across belly; tail missing in a1",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A054": {
+   "front": {
+    "status": "missing",
+    "reason": "camera never straight front facing chest: a1 three-quarter with head in profile, a2 head turned side-on and tail protruding sideways; only one drop ear clear",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "pose points preserved (4 legs, 1 tail, 3 paws down, hock backward, drop ear) but camera stayed pure side profile in both attempts, not 45-degree three-quarter",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "high angle attempted but pose changed: back steeply sloping not level, tail raised not level, both hind legs off ground so only 2 paws down",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "low angle with underside of jaw and enlarged near paw, but head raised/upturned, back sloping, tail shortened to stub not long level, second ear dangling from jaw and near paw grossly oversized",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A055": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "两次均近俯视斜放构图: a1尾尖出右下框且仅3腿可见; a2尾巴入框但远侧前腿只剩身侧一小截不可读, 右耳短尖非长垂耳, 后腿跗关节方向不可判; 仅长身与短腿两项可读, 留空",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "两次机位要素(下颌/胸腹底面可见, 近爪显大)虽到, 但头都被画成竖直朝天似仰头嚎叫(原姿势头平直向前, 姿势已变), 胸部膨胀为同心圆球, 长身被压成右侧一段与主体脱节; 仅短腿与垂耳两项可读, 留空",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A056": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "a1 wrong: body stretched flat diagonally - steep sit lost and only 2 paws visible; a2 camera correct (top of head and back visible) but only 3 paws visible (2 front + 1 hind; other hind missing) and h",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 camera correct (jaw/chest/belly underside; near paw enlarged) but left front paw lifted with sole to camera; only 3 legs visible; ears shortish; a2 worse: duplicate partial body fragment at upper r",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A057": {
+   "front": {
+    "status": "missing",
+    "reason": "both attempts stayed three-quarter/side, never straight front facing chest; a1 diag-like with 4 legs/1 tail/drop ears, a2 pure profile head, tail cropped at edge and tongue added",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "both attempts remained pure side profile, camera did not move 45deg; front paws lifted together/crossed instead of three paws on ground; long body and drop ear kept",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "both attempts tilted body diagonally into a leaping pose, front legs hidden/stunted and hind legs tangled, leg count not clearly 4, ears not both long drop; back visible but walk pose lost",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "both attempts reared head up with giant claw-like front paws, ears became short, tail short/drooping and cropped in a1; low walk pose and proportions lost, no clean jaw/chest/belly underside view",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A058": {
+   "front": {
+    "status": "missing",
+    "reason": "pose points all present (back on ground belly up front folded hind splayed 4 legs) but both attempts rendered a top-down belly view with full body length and no front end-on foreshortening; not straig",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "below": {
+    "status": "consistency",
+    "reason": "Ears read as pointed prick ears (left ear) and head looks different from the drop ears spread open in the main view",
+    "by": "fail_animal_r1_03.json"
+   }
+  },
+  "A059": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "两次均跑偏成背后上方扭曲视图:仅一条前腿清晰另一前爪缩在中央,爪卷起离地不成并排,腿数不清,坐姿变形;留空",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   }
+  },
+  "A060": {
+   "front": {
+    "status": "missing",
+    "reason": "both attempts changed sphinx down into upright sitting pose: chest not on ground, front legs vertical not stretched forward, hind paws splayed sideways; leg/tail counts correct (4 legs, 1 tail), a2 al",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "pose points all hit (sphinx, front legs parallel forward, hind folded, 4 legs/1 tail) but camera stayed pure side profile in both attempts, no real 45-degree three-quarter turn; a1 also added eye/nose",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   }
+  },
+  "A061": {
+   "front": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "gate main failed: side-lying attractor pulled back to prone with hind legs folded; a3 lay flat but front legs reversed toward head and tucked waist lost",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A062": {
+   "front": {
+    "status": "missing",
+    "reason": "a1 and a2 both stayed three-quarter/side with head in profile instead of straight front facing the chest; a2 kept diagonal two-down gait and 4 legs but camera never became front",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "points all hit on a1/a2 (4 legs/1 tail/diagonal pair down/long thin legs/hock back) but camera stayed essentially pure side profile; no real 45-degree turn or foreshortening",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "high angle reached (top of head and back visible) but pose collapsed into a steep diagonal dive; legs splayed/tangled and diagonal ground contact unreadable; no level trot preserved",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "low angle reached (jaw underside visible) but nearest front leg/paw grotesquely enlarged into a thick monster claw; body reared up steeply instead of a level trot; hock direction unreadable",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A063": {
+   "front": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "main failed: all 3 attempts show elongated tall sitting body not short round; oversized plumed tail not short; only 3 legs visible in side view (2 front + 1 folded hind, far hind occluded); small upri",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A064": {
+   "front": {
+    "status": "missing",
+    "reason": "both attempts cat-like round head with nose/mouth detail drawn; a1 legs splayed at body sides, a2 tail split into two side puffs instead of one tail over the back; front view not accepted",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "style",
+    "reason": "Plumed tail drawn with fur hair strokes (fur rendering); borderline",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "style",
+    "reason": "Plumed tail is drawn with fur hair strokes (fur rendering) rather than a smooth contour; card asks for plume, borderline",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "style",
+    "reason": "Plumed tail drawn with fur hair strokes (fur rendering); borderline",
+    "by": "fail_animal_r1_03.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "both attempts: head tilted up with muzzle pointing skyward (pose changed from level head), only one ear visible, nearest paw grossly oversized; low angle and belly/chest underside were achieved but he",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A065": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "pose correct both attempts but camera stayed in near-pure side profile, no real 45-degree three-quarter turn; left empty",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   }
+  },
+  "A066": {
+   "front": {
+    "status": "missing",
+    "reason": "both attempts changed sphinx down into upright sitting pose with belly off the ground and vertical front legs; a2 also split the tail to both sides of the body and added nose/mouth detail",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "both attempts stayed in pure side profile, camera did not move 45 degrees; a2 also showed only one hind paw",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "form",
+    "reason": "Yoko main view: no plumed tail resting over the back is visible; only a rounded rump outline, tail unclear",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "high angle achieved but front legs drawn far too long, only one hind paw visible, one ear flopped over, tail twisted into a thick band across the back in a1 and detached-looking in a2",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "tail missing in both attempts, only one hind paw visible, neck too long with chest raised upright; nearest paws enlarged and jaw underside visible but pose drifted from sphinx down",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A067": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "both attempts failed point 2 leg placement/count: a1 4 paws but far hind leg folded with paw displaced under ribcage (not straight/grounded, 3/4); a2 far hind leg missing except a tip under belly (onl",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "limbs",
+    "reason": "Only one hind leg is clearly drawn (right); the other hind leg is not visible or traceable, head/tail arrangement odd",
+    "by": "fail_animal_r1_03.json"
+   }
+  },
+  "A068": {
+   "front": {
+    "status": "content",
+    "reason": "Small nub under the belly between the front legs reads as a male genital sheath",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "content",
+    "reason": "Small nub hanging under the belly near the hind leg reads as a male genital sheath, separate from the stub tail at the rump",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "a1 high angle taken from behind (rump/rear view, only 3 legs); a2 correct front-left high angle with top of head and whole back visible but only 3 legs clearly reaching the ground, far hind leg not dr",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "both attempts broke the square stand into a leaping/on-back pose with legs kicked and splayed; a1 also curled tail and only 1 ear, a2 ears flopped sideways and detailed paw pads; underside and enlarge",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A069": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "a1 high view from behind-top front legs not apart/leg count unclear ears distorted; a2 back/side high view only one front leg visible muzzle not visible; left empty",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "a1 ears collapsed to small folds and nearest paw hugely distorted sole leg count unclear; a2 low angle and pose/4 legs correct but only one bat ear visible; left empty",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A070": {
+   "front": {
+    "status": "missing",
+    "reason": "both attempts added nose/mouth facial detail and splayed hind legs sideways horizontally instead of flat behind, body reads sitting upright not sphinx down; only muzzle shape and 4-leg count hit",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "both attempts stayed near pure side profile, 45-degree camera move not achieved; a2 second hind leg only a paw peeking behind hip",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "camera rose but neck/body elongated out of short wide proportions, one front leg folded under head instead of both forward, one ear folded flat; hind splay and 4 legs kept",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "both attempts show only 3 legs (second hind leg missing), body raised diagonally instead of chest on ground, second ear reduced to small point",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A071": {
+   "front": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "a1/a2 side-lying with head flat but only 3 legs visible (1 front + 2 hind, far front leg missing); a2 rewrite with two-parallel-pairs sentence still 3 legs; a3 has 4 legs but flipped to sphinx/prone w",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A072": {
+   "front": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "main failed: a1 extra front leg (5 legs); a2/a3 four legs correct but all 4 paws on ground not 3 ground 1 lifted",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "main failed, skipped",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A073": {
+   "front": {
+    "status": "missing",
+    "reason": "ears drawn as drooping lop ears at sides instead of laid back along back hind feet splayed",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "view",
+    "reason": "Diag is nearly identical to the side profile, still a flat profile, not a 45 degree three-quarter",
+    "by": "fail_animal_r1_03.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_03.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "only near hind foot visible on both attempts far hind foot missing",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "body became upright sitting with long front paws dangling not tucked loaf; first attempt also had black shading fill",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A074": {
+   "front": {
+    "status": "missing",
+    "reason": "camera became top-down dorsal view instead of front on both attempts ears splayed sideways",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "fully top-down overhead instead of 30-degree front high angle; second attempt ears narrow and pointed",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "first attempt was top-down dorsal view; second attempt distorted with upright ears and huge dog-like paw pads",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A075": {
+   "front": {
+    "status": "missing",
+    "reason": "skipped - main (side) failed, whole action stopped per rules",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped - main (side) failed, whole action stopped per rules",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "best attempt1 kept: airborne front forward tail ok but hind legs bent at hock not fully straight back; attempts2-3 tail elongated / hind merged",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped - main (side) failed, whole action stopped per rules",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "skipped - main (side) failed, whole action stopped per rules",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A076": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "camera went to rear three-quarter mirrored orientation ears swept back",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "form",
+    "reason": "ears point up and back behind the head; the card says ears folded forward and down over the paws (front panel shows them drooping, so side and front also disagree)",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "rear top-down view ears splayed sideways only one hind foot in first attempt",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "pose points met in second attempt but camera stayed eye-level side three-quarter with no low-angle underside; first attempt hind feet raised with paw pads",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A077": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "below failed both attempts: leg splayed sideways / distorted proportions, pose changed; file deleted",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A078": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "diag failed both attempts: camera stayed in pure side profile, no 45deg turn; file deleted",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "view",
+    "reason": "looks like the front view again (face, nose, chest paws, belly); no back visible from above",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A079": {
+   "front": {
+    "status": "missing",
+    "reason": "front failed both attempts: cartoon face with eyes, long legs, tail hanging between hind legs, second attempt mirrored; file deleted, later views used side ref only",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "diag failed both attempts: stayed pure side, second attempt changed pose to leaping with feet off ground; file deleted",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "below failed both attempts: head raised and neck stretched upright, low walking pose lost; file deleted",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A080": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "both attempts: low-angle foreshortening turned front hooves into elongated triangular flippers; proportions and hoof shape wrong",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A081": {
+   "front": {
+    "status": "missing",
+    "reason": "both attempts gave front three-quarter with full barrel visible instead of straight front facing chest; walk pose itself retained",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "pose points all retained but camera stayed in pure side profile in both attempts; no 45 degree move",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "limbs",
+    "reason": "front end shows about three front legs (a raised bent leg plus two hanging legs with hooves); pose also reads as head-up rearing instead of a calm walk",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A082": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "consistency",
+    "reason": "neck and chest rise steeply with head thrown back and one huge hoof, reads as rearing rather than the level diagonal trot of the main view",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A083": {
+   "front": {
+    "status": "missing",
+    "reason": "skipped - main (side) failed, whole action stopped per rules",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "skipped - main (side) failed, whole action stopped per rules",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "canter extended unstable: attempt1 pose correct (front forward/hind back) but tail tip cropped at right edge - kept as best try; attempt2 near hind hoof missing; attempt3 near hind bent under body not",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "skipped - main (side) failed, whole action stopped per rules",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "skipped - main (side) failed, whole action stopped per rules",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A084": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A085": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "generation refused; no file; not retried per system instruction",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A086": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "attempt 1 was rear-above with one hind hoof lifted; attempt 2 front-above but only one horn visible and tail cropped at frame edge",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "both attempts distorted: head and neck raised, horns lost, front hooves solid instead of cloven, hind legs cropped",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A087": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "attempt 1 only 3 legs visible (far hind missing); attempt 2 four legs but second horn curves down along cheek instead of back",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "attempt 1 horns straightened, beard and tail missing, nearest hoof distorted; attempt 2 head thrown back and horns reduced to small spikes",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A088": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "attempt 1 only 3 legs visible with one front leg lifted diagonally; attempt 2 refused",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A089": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A090": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A091": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "view",
+    "reason": "wings and back feathers are visible on top, looks like a side or slightly-above view; the underside of the breast and belly is not shown",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A092": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A093": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A094": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   }
+  },
+  "A095": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "camera never moved - both attempts stayed pure side profile, chest front never visible; pose points all present but view failed",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "view",
+    "reason": "flat side profile almost identical to the main side view with dots along the back; no top-down perspective, back not shown",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "both attempts tilted the head up so the beak points up at about 30-45 degrees instead of level; one leg down, other hidden, low angle and enlarged foot correct",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A096": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "camera stayed at true side profile in both attempts despite full-45-degrees rewrite",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_04.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "hooves and front legs deformed into bell/flipper shapes in both attempts",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A097": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "camera stayed at true side profile in both attempts despite full-45-degrees rewrite",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "only 1 ear visible in both attempts",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A098": {
+   "front": {
+    "status": "missing",
+    "reason": "main failed - skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "main failed - skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "tail never wrapped over the nose in 3 attempts (closest 2/3)",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "main failed - skipped",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "main failed - skipped",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A099": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "far front leg lifted/curled off the ground in both attempts; all-four-paws-flat rewrite did not fix",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "limbs",
+    "reason": "bottom-left front leg ends in a cluster of two overlapping paws; head cropped and leg count unclear",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A100": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A101": {
+   "front": {
+    "status": "view",
+    "reason": "head has no muzzle or nose, reads as seen from behind rather than a front view",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "consistency",
+    "reason": "body leans and one leg is bent in a kneeling shape with a fist-like paw, not the calm upright stance of the main view",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A102": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "small fang under the jaw in both attempts despite no-fangs rewrite",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A103": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A104": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A105": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "limbs",
+    "reason": "four legs cannot be resolved; one foreshortened leg ends in an oversized cropped hoof at the panel edge",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A106": {
+   "front": {
+    "status": "view",
+    "reason": "main front view head has no muzzle or nose and reads as the back of the head",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "att1 side-profile copy of second view; att2 mirrored to image-right",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A107": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "att1 side-profile copy; att2 turned but far hind leg lifted off ground",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A108": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "form",
+    "reason": "both large front paws show about five claws each; the card asks for four per foot",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A109": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "consistency",
+    "reason": "front legs are flung up and out and the hind legs splay like a sprawled lizard, not standing on four legs as in the main view",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A110": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A111": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "consistency",
+    "reason": "head thrown back and body tilted like rearing, one huge front hoof; not the calm standing pose and the second front leg is unclear",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A112": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "best attempt on disk: far hind leg tucked instead of planted and camera stayed side-on in both tries",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "generation refused on the single attempt; no file produced and the request was not repeated",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A113": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A114": {
+   "front": {
+    "status": "missing",
+    "reason": "best attempt on disk: horn rendered as two prongs in both tries",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "best attempt on disk: two separate horns rendered in both tries",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "limbs",
+    "reason": "head shows two curved horns (card says only one); body also rears with both front legs raised, not one raised leg",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  },
+  "A115": {
+   "front": {
+    "status": "missing",
+    "reason": "best attempt on disk: tail count never nine (about eleven then eight then ten across three tries)",
+    "by": "gen_animal_run01.json"
+   },
+   "diag": {
+    "status": "missing",
+    "reason": "main failed - not attempted",
+    "by": "gen_animal_run01.json"
+   },
+   "side": {
+    "status": "missing",
+    "reason": "main failed - not attempted",
+    "by": "gen_animal_run01.json"
+   },
+   "above": {
+    "status": "missing",
+    "reason": "main failed - not attempted",
+    "by": "gen_animal_run01.json"
+   },
+   "below": {
+    "status": "missing",
+    "reason": "main failed - not attempted",
+    "by": "gen_animal_run01.json"
+   }
+  },
+  "A116": {
+   "front": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "diag": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "side": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "above": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   },
+   "below": {
+    "status": "pass",
+    "by": "fail_animal_r1_05.json"
+   }
+  }
+ }
+}
