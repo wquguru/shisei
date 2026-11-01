@@ -8,10 +8,10 @@
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
-**[ギャラリーを開く](https://shisei.indaloop.app/ja/) · [すべてダウンロード（w900、34.1 MB）](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip) · [ほかのダウンロード](#ダウンロード)**
+**[ギャラリーを開く](https://shisei.indaloop.app/ja/) · [すべてダウンロード（w900、36.5 MB）](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) · [ほかのダウンロード](#ダウンロード)**
 
 [![Poses](https://img.shields.io/badge/ポーズ-280-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/線画-1133%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Line art](https://img.shields.io/badge/線画-1212%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/実写-89-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/ランタイム依存-0-E07A52?style=flat-square)](../../web)
@@ -34,10 +34,10 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 
 | シリーズ | 表示ポーズ | 品質チェック合格 | サイトでの扱い |
 |---|---:|---:|---|
-| 全身・標準（`std`、P###） | 71 / 73 | 287 / 365 | 表示 |
-| 上半身（`upper`、U###） | 80 / 80 | 337 / 400 | 表示 |
-| 全身・セクシー（`sexy`、S###） | 80 / 80 | 323 / 400 | ぼかし（タップかスイッチで表示） |
-| ふたり（`duo`、D###） | 49 / 55 | 186 / 275 | ぼかし（タップかスイッチで表示） |
+| 全身・標準（`std`、P###） | 71 / 73 | 300 / 365 | 表示 |
+| 上半身（`upper`、U###） | 80 / 80 | 359 / 400 | 表示 |
+| 全身・セクシー（`sexy`、S###） | 80 / 80 | 352 / 400 | ぼかし（タップかスイッチで表示） |
+| ふたり（`duo`、D###） | 49 / 55 | 201 / 275 | ぼかし（タップかスイッチで表示） |
 
 `suggestive` のポーズ（全身・セクシー、ふたり、上半身のセクシー系・胸元強調系）はギャラリーで初期状態ぼかし表示で、トップのスクロール、ポーズページ、シェアカード、sitemap には入りません。1 枚ずつタップで表示でき、スイッチひとつでまとめて表示できます。
 
@@ -45,6 +45,7 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 - 元の絵が 2 アングル以下、または名前と違うポーズだった 43 セットは、別の生成元で描き直しました（catalog の `source: digi`。少し違うマネキンで、俯瞰・あおりの角度は控えめ。セット単位で差し替え、混在はさせません）。P038 と P052 は名前と絵が合わないため非表示のままです。
 - 生成できなかったアングルは、崩れた絵で埋めずに空けています。
 - **実写 89 枚**（std の P001–P022 と P050。P019・P020・P022 は旧い絵のポーズなので外しています）。線画と同じく品質チェック済みです。AI 生成の成人で、実在の人物ではありません。
+- **クレイ・深度・法線マップ**：線画 944 アングル（270 セット）ぶん。線画から作り、ピクセル単位で重なります。クレイは立体感と陰影のあるグレーのマネキン、深度と法線は ControlNet 用です。線画と同じく品質チェック済みで、拡大表示で切り替えられます。
 - `data/catalog.json` / `catalog.csv`：シリーズ、レーティング、4 言語の分類と名前、std の英語ポーズ説明、アングルごとのファイル、空欄の理由。
 
 ## 使い方
@@ -62,16 +63,18 @@ Shisei は自作のポーズ参照ライブラリです。すべてのポーズ�
 
 ### ダウンロード
 
-v0.3.0。ギャラリーのダウンロードパネルと同じファイルです。品質チェックを通ったアングルの w900（線画と実写）に、LICENSE、LICENSE-images、NOTICE が入っています。各 zip の隣に `.sha256` があります。
+v0.4.0。ギャラリーのダウンロードパネルと同じファイルです。品質チェックを通ったアングルの w900（線画と実写。最後の 2 つはクレイ、深度と法線）に、LICENSE、LICENSE-images、NOTICE が入っています。各 zip の隣に `.sha256` があります。
 
 | zip | セット | 画像 | サイズ |
 |---|---:|---:|---:|
-| [全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip)（おすすめ） | 280 | 1222 | 34.1 MB |
-| [全身・標準](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-std-v0.3.0.zip) | 71 | 376 | 9.0 MB |
-| [上半身](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-upper-v0.3.0.zip) | 80 | 337 | 9.4 MB |
-| [全身・セクシー](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-sexy-v0.3.0.zip)（やや性的） | 80 | 323 | 8.5 MB |
-| [ふたり](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-duo-v0.3.0.zip)（やや性的） | 49 | 186 | 7.1 MB |
-| [原寸](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-original-v0.3.0.zip) | 280 | 1222 | 144.8 MB |
+| [全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip)（おすすめ） | 280 | 1301 | 36.5 MB |
+| [全身・標準](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-std-v0.4.0.zip) | 71 | 389 | 9.4 MB |
+| [上半身](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-upper-v0.4.0.zip) | 80 | 359 | 10.0 MB |
+| [全身・セクシー](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-sexy-v0.4.0.zip)（やや性的） | 80 | 352 | 9.3 MB |
+| [ふたり](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-duo-v0.4.0.zip)（やや性的） | 49 | 201 | 7.7 MB |
+| [クレイ・全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-clay-v0.4.0.zip) | 270 | 944 | 9.2 MB |
+| [深度 + 法線・全シリーズ](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-controlnet-v0.4.0.zip)（ControlNet） | 270 | 1888 | 23.3 MB |
+| [原寸](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-original-v0.4.0.zip) | 280 | 1301 | 152.3 MB |
 
 ## ギャラリー
 
@@ -105,7 +108,7 @@ python3 tools/verify.py
 
 ## 状況とロードマップ
 
-現在 **v0.3.0**。4 シリーズ 280 ポーズで、カタログは安定しており ID は変わりません。リリースノートは [CHANGELOG.md](../../CHANGELOG.md)、未決事項は [DECISIONS.md](../DECISIONS.md) にあります。
+現在 **v0.4.0**。4 シリーズ 280 ポーズで、カタログは安定しており ID は変わりません。リリースノートは [CHANGELOG.md](../../CHANGELOG.md)、未決事項は [DECISIONS.md](../DECISIONS.md) にあります。
 
 | マイルストーン | 状況 |
 |---|---|
@@ -114,6 +117,7 @@ python3 tools/verify.py
 | 実写を品質チェック後に公開（D-03） | ✅ 公開 |
 | 公開ギャラリー [shisei.indaloop.app](https://shisei.indaloop.app/ja/)（Cloudflare Pages） | ✅ 公開中 |
 | アングルが少ない・別のポーズだった 43 セットをセット単位で描き直し（D-09） | ✅ v0.3.0 |
+| 944 アングルのクレイ・深度・法線マップ（線画と位置合わせ） | ✅ v0.4.0 |
 | P038・P052：絵が別のポーズ | ☐ 未解決 |
 | P062 の下からのアングル | ☐ 未解決 |
 

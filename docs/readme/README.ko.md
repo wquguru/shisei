@@ -8,10 +8,10 @@
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
-**[갤러리 열기](https://shisei.indaloop.app/ko/) · [전체 다운로드 (w900, 34.1 MB)](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip) · [다른 다운로드](#다운로드)**
+**[갤러리 열기](https://shisei.indaloop.app/ko/) · [전체 다운로드 (w900, 36.5 MB)](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) · [다른 다운로드](#다운로드)**
 
 [![Poses](https://img.shields.io/badge/포즈-280-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/선화-1133%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Line art](https://img.shields.io/badge/선화-1212%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/실사-89-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/이름-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/런타임%20의존성-0-E07A52?style=flat-square)](../../web)
@@ -34,10 +34,10 @@ Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는
 
 | 시리즈 | 표시 포즈 | 품질 검사 통과 앵글 | 사이트에서 |
 |---|---:|---:|---|
-| 전신・표준 (`std`, P###) | 71 / 73 | 287 / 365 | 표시 |
-| 상반신 (`upper`, U###) | 80 / 80 | 337 / 400 | 표시 |
-| 전신・섹시 (`sexy`, S###) | 80 / 80 | 323 / 400 | 흐림 (탭 또는 스위치로 표시) |
-| 2인 (`duo`, D###) | 49 / 55 | 186 / 275 | 흐림 (탭 또는 스위치로 표시) |
+| 전신・표준 (`std`, P###) | 71 / 73 | 300 / 365 | 표시 |
+| 상반신 (`upper`, U###) | 80 / 80 | 359 / 400 | 표시 |
+| 전신・섹시 (`sexy`, S###) | 80 / 80 | 352 / 400 | 흐림 (탭 또는 스위치로 표시) |
+| 2인 (`duo`, D###) | 49 / 55 | 201 / 275 | 흐림 (탭 또는 스위치로 표시) |
 
 `suggestive` 등급 포즈(전신・섹시, 2인, 상반신의 섹시계·가슴 강조계)는 갤러리에서 기본으로 흐리게 표시되며, 첫 화면 스크롤, 포즈 페이지, 공유 카드, sitemap에는 들어가지 않습니다. 하나씩 탭해서 볼 수 있고, 스위치 하나로 모두 표시할 수 있습니다.
 
@@ -45,6 +45,7 @@ Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는
 - 원래 그림이 2앵글 이하였거나 이름과 다른 포즈였던 43개 세트는 다른 생성원으로 다시 그렸습니다(catalog의 `source: digi`. 약간 다른 마네킹이고 위·아래 앵글이 완만합니다. 세트 단위로 교체하며 섞지 않습니다). P038과 P052는 그림이 이름과 달라 계속 숨깁니다.
 - 생성하지 못한 앵글은 잘못된 그림으로 채우지 않고 비워 둡니다.
 - **실사 89장** (std의 P001–P022, P050. P019·P020·P022는 예전 그림의 포즈라 뺐습니다). 선화와 같이 품질 검사를 거쳤습니다. AI로 생성한 성인이며 실존 인물이 아닙니다.
+- **클레이·깊이·노멀 맵**: 선화 944개 앵글(270세트)마다 하나씩 있으며, 선화로 만들어 픽셀 단위로 겹칩니다. 클레이는 입체감과 명암이 있는 회색 마네킹, 깊이와 노멀은 ControlNet용입니다. 선화와 같이 품질 검사를 거쳤고 큰 화면에서 바꿀 수 있습니다.
 - `data/catalog.json` / `catalog.csv`: 시리즈, 등급, 4개 언어 분류와 이름, std의 영문 포즈 설명, 앵글별 파일, 빈 앵글의 이유.
 
 ## 사용 방법
@@ -62,16 +63,18 @@ Shisei는 직접 만든 포즈 참고 라이브러리입니다. 모든 포즈는
 
 ### 다운로드
 
-v0.3.0, 갤러리 다운로드 패널과 같은 파일입니다. 품질 검사를 통과한 앵글의 w900(선화와 실사)에 LICENSE, LICENSE-images, NOTICE가 들어 있고, zip마다 옆에 `.sha256`이 있습니다.
+v0.4.0, 갤러리 다운로드 패널과 같은 파일입니다. 품질 검사를 통과한 앵글의 w900(선화와 실사, 마지막 두 개는 클레이와 깊이·노멀)에 LICENSE, LICENSE-images, NOTICE가 들어 있고, zip마다 옆에 `.sha256`이 있습니다.
 
 | zip | 세트 | 이미지 | 크기 |
 |---|---:|---:|---:|
-| [전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip) (추천) | 280 | 1222 | 34.1 MB |
-| [전신・표준](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-std-v0.3.0.zip) | 71 | 376 | 9.0 MB |
-| [상반신](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-upper-v0.3.0.zip) | 80 | 337 | 9.4 MB |
-| [전신・섹시](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-sexy-v0.3.0.zip) (선정적) | 80 | 323 | 8.5 MB |
-| [2인](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-duo-v0.3.0.zip) (선정적) | 49 | 186 | 7.1 MB |
-| [원본](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-original-v0.3.0.zip) | 280 | 1222 | 144.8 MB |
+| [전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) (추천) | 280 | 1301 | 36.5 MB |
+| [전신・표준](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-std-v0.4.0.zip) | 71 | 389 | 9.4 MB |
+| [상반신](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-upper-v0.4.0.zip) | 80 | 359 | 10.0 MB |
+| [전신・섹시](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-sexy-v0.4.0.zip) (선정적) | 80 | 352 | 9.3 MB |
+| [2인](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-duo-v0.4.0.zip) (선정적) | 49 | 201 | 7.7 MB |
+| [클레이 · 전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-clay-v0.4.0.zip) | 270 | 944 | 9.2 MB |
+| [깊이 + 노멀 · 전체 시리즈](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-controlnet-v0.4.0.zip) (ControlNet) | 270 | 1888 | 23.3 MB |
+| [원본](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-original-v0.4.0.zip) | 280 | 1301 | 152.3 MB |
 
 ## 갤러리
 
@@ -105,7 +108,7 @@ python3 tools/verify.py
 
 ## 현황과 로드맵
 
-현재 **v0.3.0**입니다. 4개 시리즈 280가지 포즈이며, 카탈로그는 안정적이고 ID는 바뀌지 않습니다. 릴리스 노트는 [CHANGELOG.md](../../CHANGELOG.md), 미결 사항은 [DECISIONS.md](../DECISIONS.md)에 있습니다.
+현재 **v0.4.0**입니다. 4개 시리즈 280가지 포즈이며, 카탈로그는 안정적이고 ID는 바뀌지 않습니다. 릴리스 노트는 [CHANGELOG.md](../../CHANGELOG.md), 미결 사항은 [DECISIONS.md](../DECISIONS.md)에 있습니다.
 
 | 마일스톤 | 상태 |
 |---|---|
@@ -114,6 +117,7 @@ python3 tools/verify.py
 | 실사는 품질 검사 후 공개 (D-03) | ✅ 공개 |
 | 공개 갤러리 [shisei.indaloop.app](https://shisei.indaloop.app/ko/) (Cloudflare Pages) | ✅ 운영 중 |
 | 앵글이 적거나 다른 포즈였던 43개 세트를 세트 단위로 다시 그림 (D-09) | ✅ v0.3.0 |
+| 944개 앵글의 클레이·깊이·노멀 맵(선화와 정렬) | ✅ v0.4.0 |
 | P038・P052: 그림이 다른 포즈 | ☐ 미해결 |
 | P062 아래 앵글 채우기 | ☐ 미해결 |
 

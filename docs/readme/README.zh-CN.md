@@ -8,10 +8,10 @@
 
 [English](../../README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-**[打开画廊](https://shisei.indaloop.app/) · [下载全部（w900，34.1 MB）](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip) · [其他下载](#下载)**
+**[打开画廊](https://shisei.indaloop.app/) · [下载全部（w900，36.5 MB）](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip) · [其他下载](#下载)**
 
 [![Poses](https://img.shields.io/badge/姿势-280-15171A?style=flat-square)](../../data/catalog.json)
-[![Line art](https://img.shields.io/badge/线稿-1133%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
+[![Line art](https://img.shields.io/badge/线稿-1212%20QC%20passed-1A5CC8?style=flat-square)](../GENERATION.md)
 [![Photos](https://img.shields.io/badge/实拍-89-5B616A?style=flat-square)](../GENERATION.md)
 [![Languages](https://img.shields.io/badge/名称-ja%20·%20zh%20·%20en%20·%20ko-0aa06e?style=flat-square)](../../data/catalog.csv)
 [![Dependencies](https://img.shields.io/badge/运行时依赖-0-E07A52?style=flat-square)](../../web)
@@ -34,10 +34,10 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 
 | 系列 | 显示的套数 | 质检通过的机位 | 页面上 |
 |---|---:|---:|---|
-| 全身・标准（`std`，P###） | 71 / 73 | 287 / 365 | 默认显示 |
-| 上半身（`upper`，U###） | 80 / 80 | 337 / 400 | 默认显示 |
-| 全身・性感（`sexy`，S###） | 80 / 80 | 323 / 400 | 默认模糊，点按或开关显示 |
-| 双人（`duo`，D###） | 49 / 55 | 186 / 275 | 默认模糊，点按或开关显示 |
+| 全身・标准（`std`，P###） | 71 / 73 | 300 / 365 | 默认显示 |
+| 上半身（`upper`，U###） | 80 / 80 | 359 / 400 | 默认显示 |
+| 全身・性感（`sexy`，S###） | 80 / 80 | 352 / 400 | 默认模糊，点按或开关显示 |
+| 双人（`duo`，D###） | 49 / 55 | 201 / 275 | 默认模糊，点按或开关显示 |
 
 标为 `suggestive` 的姿势（全身・性感、双人，上半身的性感系、胸线强调系）在图库里默认模糊，不进首屏滚动方块、姿势页、分享卡和 sitemap；点单张可单独查看，一个开关就能全部显示。
 
@@ -45,6 +45,7 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 - 原画只有两个以下可用机位、或画的不是这个姿势的 43 套，用另一个生成源整套重画（catalog 里 `source: digi`；素体略有不同，俯视、仰视角度更缓；整套替换，不混用）。P038、P052 仍然和名字对不上，继续不显示。
 - 没生成出来的机位宁可留空，也不放一张画错的。
 - **89 张实拍**，覆盖 std 的 P001–P022 和 P050（P019、P020、P022 拍的是旧画的姿势，已拿掉），和线稿一样过了质检，都是 AI 生成的成年人物，不对应任何真人。
+- **白模、深度图、法线图**：944 个线稿机位（270 套）各有一份，按线稿做成、逐像素对齐：白模是带体积明暗的灰色人台，深度图和法线图给 ControlNet 用。和线稿一样过了质检，大图里可以切换。
 - `data/catalog.json` 和 `catalog.csv` 里有系列、分级、四语分类和名称、std 的英文姿势描述、每个机位的文件，以及机位为空的原因。
 
 ## 怎么用
@@ -62,16 +63,18 @@ Shisei 是一套自己生成的姿势参考库。每个姿势都是无脸素体�
 
 ### 下载
 
-v0.3.0，和画廊下载面板里的是同一批文件。每个包里是质检通过的机位的 w900 档（线稿和实拍），外加 LICENSE、LICENSE-images 和 NOTICE；每个压缩包旁边都有一个 `.sha256` 校验文件。
+v0.4.0，和画廊下载面板里的是同一批文件。每个包里是质检通过的机位的 w900 档（线稿和实拍；最后两个是白模，以及深度图和法线图），外加 LICENSE、LICENSE-images 和 NOTICE；每个压缩包旁边都有一个 `.sha256` 校验文件。
 
 | 压缩包 | 套数 | 图片 | 大小 |
 |---|---:|---:|---:|
-| [全部系列](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-all-v0.3.0.zip)（推荐） | 280 | 1222 | 34.1 MB |
-| [全身・标准](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-std-v0.3.0.zip) | 71 | 376 | 9.0 MB |
-| [上半身](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-upper-v0.3.0.zip) | 80 | 337 | 9.4 MB |
-| [全身・性感](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-sexy-v0.3.0.zip)（偏性感） | 80 | 323 | 8.5 MB |
-| [双人](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-duo-v0.3.0.zip)（偏性感） | 49 | 186 | 7.1 MB |
-| [原图](https://github.com/wquguru/shisei/releases/download/v0.3.0/shisei-original-v0.3.0.zip) | 280 | 1222 | 144.8 MB |
+| [全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-all-v0.4.0.zip)（推荐） | 280 | 1301 | 36.5 MB |
+| [全身・标准](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-std-v0.4.0.zip) | 71 | 389 | 9.4 MB |
+| [上半身](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-upper-v0.4.0.zip) | 80 | 359 | 10.0 MB |
+| [全身・性感](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-sexy-v0.4.0.zip)（偏性感） | 80 | 352 | 9.3 MB |
+| [双人](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-duo-v0.4.0.zip)（偏性感） | 49 | 201 | 7.7 MB |
+| [白模 · 全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-clay-v0.4.0.zip) | 270 | 944 | 9.2 MB |
+| [深度 + 法线 · 全部系列](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-controlnet-v0.4.0.zip)（ControlNet） | 270 | 1888 | 23.3 MB |
+| [原图](https://github.com/wquguru/shisei/releases/download/v0.4.0/shisei-original-v0.4.0.zip) | 280 | 1301 | 152.3 MB |
 
 ## 画廊
 
@@ -105,7 +108,7 @@ python3 tools/verify.py
 
 ## 状态与路线
 
-当前 **v0.3.0**：四个系列共 280 套姿势，catalog 已稳定，编号不会变。发布说明见 [CHANGELOG.md](../../CHANGELOG.md)，待定事项见 [DECISIONS.md](../DECISIONS.md)。
+当前 **v0.4.0**：四个系列共 280 套姿势，catalog 已稳定，编号不会变。发布说明见 [CHANGELOG.md](../../CHANGELOG.md)，待定事项见 [DECISIONS.md](../DECISIONS.md)。
 
 | 里程碑 | 状态 |
 |---|---|
@@ -114,6 +117,7 @@ python3 tools/verify.py
 | 实拍图过质检后公开（D-03） | ✅ 公开 |
 | 公开画廊 [shisei.indaloop.app](https://shisei.indaloop.app/)（Cloudflare Pages） | ✅ 已上线 |
 | 43 套机位过少或画错姿势的整套重画（D-09） | ✅ v0.3.0 |
+| 944 个机位的白模、深度图、法线图，和线稿对齐 | ✅ v0.4.0 |
 | P038、P052：画的是别的姿势 | ☐ 未解决 |
 | 补上 P062 仰视 | ☐ 未解决 |
 
