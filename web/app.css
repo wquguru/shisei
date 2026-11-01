@@ -555,6 +555,8 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
 .lb-note { margin: 0; font-size: 13px; line-height: 1.55; color: var(--ink2); }
 @media (max-width: 860px) {
   .lb-note { order: 3; margin: 6px 12px 0; font-size: 12px; flex-shrink: 0; }
-  .lb-side .seg button { min-height: 36px; padding: 0 12px; font-size: 14px; }
+  .lb-side .seg button { min-height: 36px; padding: 0 12px; font-size: 14px; flex: 0 0 auto; }
+  /* Six formats in English or Korean are wider than a phone: one row that scrolls, like the grid's filter rows. */
+  .lb.has-maps .lb-side .seg { flex-wrap: nowrap; overflow-x: auto; max-width: calc(100% - 24px); box-sizing: border-box; scrollbar-width: none; }
   .lb-wipebar { width: calc(100% - 100px); bottom: 10px; }
 }
