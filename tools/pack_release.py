@@ -9,7 +9,9 @@ Writes to dist/:
                                (catalog `source`) and single-view fills (catalog `fills`) from their source set,
                                at its resolution (digi: 900x1200)
   shisei-clay-v<ver>.zip       clay maps of every series, w900 (catalog `maps`)
-  shisei-controlnet-v<ver>.zip depth and normal maps of every series, w900, for ControlNet Depth / Normal
+  shisei-depth-v<ver>.zip      depth maps, likewise; shisei-normal-v<ver>.zip normal maps. One format per zip: people
+                               pick one ControlNet, and the normals alone are twice the depth maps.
+  shisei-complete-v<ver>.zip   every format of every series in one zip: line art, photos and the three maps, w900
 Only files the catalog lists go in, so a view that failed QC never ships, even though the source sets still hold it.
 Every zip carries LICENSE-images (CC0, the images), LICENSE (Apache-2.0) and NOTICE, which credits the pose list. The
 images are already lossy WebP, so deflate barely shrinks them; it is used anyway because it costs nothing for the text.
@@ -23,7 +25,7 @@ READMES = ("README.md", "docs/readme/README.zh-CN.md", "docs/readme/README.ja.md
 LINK = re.compile(r"releases/download/v[\d.]+/shisei-(\w+)-v[\d.]+\.zip")
 
 
-MAP_PACKS = {"clay": ("clay",), "controlnet": ("depth", "normal")}
+MAP_PACKS = {"clay": ("clay",), "depth": ("depth",), "normal": ("normal",)}
 
 
 def entries(poses, original, srcs, maps=()):
@@ -97,9 +99,14 @@ def main() -> None:
     jobs += [("all", f"shisei-all-v{ver}.zip", catalog, False), ("original", f"shisei-original-v{ver}.zip", catalog, True)]
     with_maps = [p for p in catalog if p.get("maps")]
     jobs += [(k, f"shisei-{k}-v{ver}.zip", with_maps, False) for k in MAP_PACKS if with_maps]
+    if with_maps:
+        jobs.append(("complete", f"shisei-complete-v{ver}.zip", catalog, False))
     packs = {}
     for key, name, poses, original in jobs:
-        files = entries(poses, original, srcs, MAP_PACKS.get(key, ()))
+        if key == "complete":
+            files = entries(poses, False, srcs) + entries(with_maps, False, srcs, ("clay", "depth", "normal"))
+        else:
+            files = entries(poses, original, srcs, MAP_PACKS.get(key, ()))
         missing = [str(d) for d, _ in files if not d.exists()]
         if missing:
             sys.exit(f"{name}: {len(missing)} files missing, e.g. {missing[0]}")
