@@ -646,7 +646,7 @@
   function overviewHtml(p, T) {
     const v = LB.v;
     const tile = (k, f) => f
-      ? '<button type="button" class="lb-tile ' + k + (LB.hl === k ? ' hl' : '') + '" data-lbopen="' + k + '">' + '<img src="' + src(k, 'w600', f) + '" srcset="' + src(k, 'w300', f) + ' 300w, ' + src(k, 'w600', f) + ' 600w" sizes="(max-width: 860px) 31vw, 260px" fetchpriority="high" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[v] + ' · ' + T[k]) + '"><span>' + esc(T[k]) + '</span></button>'
+      ? '<button type="button" class="lb-tile ' + k + (LB.hl === k ? ' hl' : '') + '" data-lbopen="' + k + '">' + '<img src="' + src(k, 'w600', f) + '" srcset="' + tileSet(k, f) + '" sizes="' + TILE_SIZES + '" fetchpriority="high" alt="' + esc(p.id + ' ' + nameOf(p) + ' · ' + T.views[v] + ' · ' + T[k]) + '"><span>' + esc(T[k]) + '</span></button>'
       : '<div class="lb-tile ' + k + ' gap"><span class="lb-tile-gap">' + gapIcon(k === 'photo' ? true : k === 'line' ? false : k) + '<b>' + esc(k === 'photo' ? T.gapPhoto : k === 'line' ? T.gapLine : T.gapMap(T[k])) + '</b></span><span>' + esc(T[k]) + '</span></div>';
     const kinds = ['line'].concat(p.clay.some(Boolean) ? MAP_KINDS : []);
     const hasPhoto = p.photo.some(Boolean);
@@ -785,14 +785,20 @@
       j.run().catch(() => {}).then(() => { Q.running--; pump(); });
     }
   }
-  function warmImg(u) {
-    if (WARM.has(u)) return Promise.resolve();
-    WARM.add(u);
+  // An overview tile is warmed with the tile's own srcset and sizes, so the browser fetches the same 300 or 600 px
+  // file it will pick when the tile shows.
+  const TILE_SIZES = '(max-width: 860px) 31vw, 260px';
+  const tileSet = (k, f) => src(k, 'w300', f) + ' 300w, ' + src(k, 'w600', f) + ' 600w';
+  function warmImg(u, ss) {
+    const key = ss || u;
+    if (WARM.has(key)) return Promise.resolve();
+    WARM.add(key);
     return new Promise((res) => {
       const im = new Image();
       im.decoding = 'async';
       if ('fetchPriority' in im) im.fetchPriority = 'low';
       im.onload = im.onerror = res;
+      if (ss) { im.sizes = TILE_SIZES; im.srcset = ss; }
       im.src = u;
     });
   }
@@ -819,19 +825,19 @@
     const v = LB.v, others = VIEWS.map((_, i) => i).filter((i) => i !== v);
     const kinds = ['line'].concat(p.clay.some(Boolean) ? MAP_KINDS : [], p.photo.some(Boolean) ? ['photo'] : []);
     const urls = [];
-    if (m === 'compare') others.forEach((i) => kinds.forEach((k) => { if (p[k][i]) urls.push(src(k, 'w600', p[k][i])); }));
+    if (m === 'compare') others.forEach((i) => kinds.forEach((k) => { if (p[k][i]) urls.push([src(k, 'w600', p[k][i]), tileSet(k, p[k][i])]); }));
     else {
       const arr = lbFiles(p, m), kind = m === 'compare' ? 'line' : m;
       others.forEach((i) => { if (arr[i]) urls.push(src(kind, 'w900', arr[i])); });
       kinds.forEach((k) => { if (k !== kind && p[k][v]) urls.push(src(k, 'w900', p[k][v])); });
     }
     const list = lbList(), next = list[(list.indexOf(p) + 1) % list.length];
-    if (next && next !== p && !veiled(next)) kinds.forEach((k) => { if (next[k] && next[k][v]) urls.push(src(k, m === 'compare' ? 'w600' : 'w900', next[k][v])); });
+    if (next && next !== p && !veiled(next)) kinds.forEach((k) => { if (next[k] && next[k][v]) urls.push(m === 'compare' ? [src(k, 'w600', next[k][v]), tileSet(k, next[k][v])] : src(k, 'w900', next[k][v])); });
     // Only once the images on screen are in.
     stageReady().then(() => {
       if (gen !== Q.gen) return;
       first.forEach((run) => Q.jobs.push({ gen, run }));
-      urls.forEach((u) => Q.jobs.push({ gen, run: () => warmImg(u) }));
+      urls.forEach((u) => Q.jobs.push({ gen, run: () => (Array.isArray(u) ? warmImg(u[0], u[1]) : warmImg(u)) }));
       pump();
     });
   }
