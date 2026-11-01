@@ -6,6 +6,7 @@
   const LANGS = ['zh', 'ja', 'en', 'ko'];
   const VIEWS = ['front', 'diag', 'side', 'above', 'below'];
   const SERIES = ['std', 'upper', 'sexy', 'duo'];
+  const MAP_KINDS = ['clay', 'depth', 'normal'];
   // Categories per series, keyed by the catalog's class_en. std's order matches I18N[*].cats (its catalog names are
   // long); the other series use their catalog class_* names as labels.
   const CATS = {
@@ -39,8 +40,10 @@
   const poses = CATALOG.filter((p) => VIEWS.some((v) => p.views[v])).map((p) => {
     const ci = Math.max(0, (CATS[p.series] || CATS.std).findIndex((c) => c[0] === p.class_en));
     const line = VIEWS.map((v) => p.views[v] || null);
+    // Clay, depth and normal share the line art's file name, one folder each (tools/build_images.py).
+    const maps = VIEWS.map((v) => (p.maps && p.maps[v]) || null);
     return {
-      ...p, ci, line,
+      ...p, ci, line, clay: maps, depth: maps, normal: maps,
       tint: (CATS[p.series] || CATS.std)[ci][1],
       suggestive: p.rating === 'suggestive',
       photo: VIEWS.map((v) => (p.photos && p.photos[v]) || null)
@@ -177,6 +180,12 @@
       for (let k = 0; k < 18; k++) {
         const p = safe[(k * 7 + offset * 11) % safe.length];
         const vi = (k * 2 + offset) % 5;
+        // Every other tile shows one of the map formats of the same view, so the hero says what each set holds.
+        const mk = k % 2 ? MAP_KINDS[(k >> 1) % 3] : null;
+        if (mk && p[mk][vi]) {
+          tiles.push('<span class="mq-tile map"><img src="' + src(mk, 'w300', p[mk][vi]) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"><b>' + esc(t()[mk]) + '</b></span>');
+          continue;
+        }
         const f = p.line[vi] || p.line[firstView(p.line)];
         tiles.push('<span class="mq-tile" style="background:' + p.tint + '"><img src="' + src('line', 'w300', f) + '" alt="" width="146" height="146" decoding="async" fetchpriority="low"></span>');
       }
@@ -458,6 +467,7 @@
       row('all', 'main', esc(T.dlAll) + ' <em>' + esc(T.dlRec) + '</em>', T.dlSetsAll(P.all.sets)) +
       '<h3>' + esc(T.dlBySeries) + '</h3>' +
       series.map((k) => row(k, '', esc(T.series[k]), T.dlSets(P[k].sets), SERIES_TINT[k])).join('') +
+      (P.clay && P.controlnet ? '<h3>' + esc(T.dlMaps) + '</h3>' + row('clay', '', esc(T.dlClay), T.dlClaySub) + row('controlnet', '', esc(T.dlCn), T.dlCnSub) : '') +
       '<h3 class="dl-sep">' + esc(T.dlOriginal) + '</h3>' +
       row('original', 'orig', esc(T.dlOriginalAll), '');
   }
@@ -485,13 +495,16 @@
   });
 
   /* lightbox */
-  // medium: 'line' | 'photo' | 'compare'. Compare exists only here, not in the grid: a side-by-side pair
-  // needs the room of one large image, and only the std sets with photos have anything to compare.
+  // medium: 'line' | 'clay' | 'depth' | 'normal' | 'photo' | 'compare'. The maps and compare exist only here, not in
+  // the grid: the grid is for picking a pose, which the line art does best; a side-by-side pair needs the room of one
+  // large image, and only the std sets with photos have anything to compare.
   // more: the phone lightbox keeps names, description and secondary actions folded away so one set fits one screen.
   const LB = { id: null, v: 0, medium: 'line', more: false };
-  const MEDIA = ['line', 'photo', 'compare'];
+  const MEDIA = ['line', 'clay', 'depth', 'normal', 'photo', 'compare'];
+  const isMap = (m) => MAP_KINDS.includes(m);
+  const hasMedium = (p, m) => m === 'line' || (m === 'compare' ? p.photo : p[m]).some(Boolean);
   // In compare a view counts when either side has it; the missing side shows the usual gap box.
-  const lbFiles = (p, m) => (m === 'compare' ? p.line.map((f, i) => f || p.photo[i]) : files(p, m === 'photo'));
+  const lbFiles = (p, m) => (m === 'compare' ? p.line.map((f, i) => f || p.photo[i]) : isMap(m) ? p[m] : files(p, m === 'photo'));
   function lbList() {
     const list = pool();
     return list.some((p) => p.id === LB.id) ? list : poses;
@@ -500,7 +513,7 @@
     const p = byId.get(id);
     if (!p) return;
     LB.id = id;
-    LB.medium = MEDIA.includes(medium) && p.photo.some(Boolean) ? medium : 'line';
+    LB.medium = MEDIA.includes(medium) && hasMedium(p, medium) ? medium : 'line';
     const arr = lbFiles(p, LB.medium);
     LB.v = arr[v] ? v : firstView(arr);
     renderLb();
@@ -545,7 +558,7 @@
   }
   function setDl(a, label, f, kind, p) {
     a.querySelector('span').textContent = label;
-    if (f) { a.href = src(kind, 'w900', f); a.setAttribute('download', 'shisei_' + p.id + '_' + VIEWS[LB.v] + (kind === 'photo' ? '_photo' : '') + '.webp'); a.removeAttribute('aria-disabled'); }
+    if (f) { a.href = src(kind, 'w900', f); a.setAttribute('download', 'shisei_' + p.id + '_' + VIEWS[LB.v] + (kind === 'line' ? '' : '_' + kind) + '.webp'); a.removeAttribute('aria-disabled'); }
     else { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); }
   }
   function pairCell(p, kind, f, T) {
@@ -576,9 +589,12 @@
     const photo = m === 'photo', compare = m === 'compare';
     const arr = lbFiles(p, m);
     const f = arr[LB.v];
-    const kind = photo ? 'photo' : 'line';
+    const kind = compare ? 'line' : m;
     $('lb').style.setProperty('--tint', m === 'line' ? p.tint : 'var(--tile)');
     $('lb').classList.toggle('photo', photo);
+    $('lb').classList.toggle('map', isMap(m));
+    $('lb').classList.toggle('has-maps', p.clay.some(Boolean));
+    $('lb').dataset.medium = m;
     $('lb').classList.toggle('compare', compare);
     // A veiled pose opens blurred, all five angles with it; downloads wait until it is shown.
     const veil = veiled(p);
@@ -590,6 +606,15 @@
     const img = $('lbImg');
     if (f && !compare) { img.src = src(kind, 'w900', f); img.alt = p.id + ' ' + nameOf(p) + ' · ' + T.views[LB.v]; }
     img.hidden = !f || compare;
+    // Maps are drawn over the line art, so the line art can be wiped in over them to check the fit.
+    const wipe = isMap(m) && f && p.line[LB.v];
+    $('lbWipe').hidden = $('lbWipeBar').hidden = !wipe;
+    if (wipe) {
+      $('lbWipeImg').src = src('line', 'w900', p.line[LB.v]);
+      $('lbWipeRange').setAttribute('aria-label', T.overlay);
+      $('lbWipeLabel').textContent = T.overlay;
+      setWipe();
+    }
     const pair = $('lbPair');
     pair.hidden = !compare;
     pair.innerHTML = compare ? pairCell(p, 'line', p.line[LB.v], T) + pairCell(p, 'photo', p.photo[LB.v], T) : '';
@@ -614,11 +639,14 @@
       return '<button type="button" data-lbv="' + i + '" aria-pressed="' + (i === LB.v) + '"' + (arr[i] ? '' : ' disabled') + '>' +
         '<span class="' + tk + (both ? ' both' : '') + '">' + (arr[i] ? '<img src="' + src(tk, 'w300', arr[i]) + '" alt="">' : ICON[kind]) + '</span>' + esc(T.views[i]) + '</button>';
     }).join('');
-    const hasPhoto = p.photo.some(Boolean);
-    $('lb').classList.toggle('no-photo', !hasPhoto);
+    const hasPhoto = p.photo.some(Boolean), hasMaps = p.clay.some(Boolean);
+    $('lb').classList.toggle('no-photo', !hasPhoto && !hasMaps);
     $('lbMedium').setAttribute('aria-label', T.medium);
-    $('lbMedium').innerHTML = MEDIA.map((k) => '<button type="button" data-lbm="' + k + '" aria-pressed="' + (m === k) + '"' +
-      (k === 'line' || hasPhoto ? '' : ' disabled') + '>' + esc(T[k]) + '</button>').join('');
+    // A set without maps shows no map buttons at all; photo and compare stay, disabled, as before.
+    $('lbMedium').innerHTML = MEDIA.filter((k) => !isMap(k) || hasMaps).map((k) => '<button type="button" data-lbm="' + k + '" aria-pressed="' + (m === k) + '"' +
+      (hasMedium(p, k) ? '' : ' disabled') + (k === 'photo' && hasMaps ? ' class="gap-l"' : '') + '>' + esc(T[k]) + '</button>').join('');
+    $('lbNote').hidden = !isMap(m);
+    $('lbNote').textContent = isMap(m) ? T.fmtNote[m] : '';
     $('lbDesc').textContent = p.desc_en || '';
     $('lbDescBox').hidden = !p.desc_en;
     const dl2 = $('lbDl2');
@@ -626,7 +654,7 @@
     if (compare) {
       setDl($('lbDl'), T.line + ' 900', p.line[LB.v], 'line', p);
       setDl(dl2, T.photo + ' 900', p.photo[LB.v], 'photo', p);
-    } else setDl($('lbDl'), ALBUM ? T.saveAlbum : T.download + ' · ' + (photo ? '900×1800' : '900×1200'), f, kind, p);
+    } else setDl($('lbDl'), ALBUM ? T.saveAlbum : T.download + ' · ' + (isMap(m) ? T[m] + ' ' : '') + (photo ? '900×1800' : '900×1200'), f, kind, p);
     if (veil) [$('lbDl'), dl2].forEach((a) => { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); });
     else [$('lbDl'), dl2].forEach((a) => { if (!a.hidden) prefetch(a); });
     clearTimeout(lbTip.timer);
@@ -703,9 +731,19 @@
     else if (e.key === 'ArrowUp') { e.preventDefault(); stepPose(-1); }
     else if (e.key === 'ArrowDown') { e.preventDefault(); stepPose(1); }
     else if (e.key === 'l' || e.key === 'L') {
-      if (byId.get(LB.id).photo.some(Boolean)) openLb(LB.id, LB.v, MEDIA[(MEDIA.indexOf(LB.medium) + 1) % 3]);
+      const p = byId.get(LB.id), have = MEDIA.filter((k) => hasMedium(p, k));
+      if (have.length > 1) openLb(LB.id, LB.v, have[(have.indexOf(LB.medium) + 1) % have.length]);
     }
   });
+  // The wipe: line art over the map, cut at the slider. Its own pointer events must not reach the stage's swipe.
+  function setWipe() {
+    const x = +$('lbWipeRange').value;
+    // On the image itself: a clipped wrapper would be its own stacking context and the multiply would see white.
+    $('lbWipeImg').style.clipPath = 'inset(0 ' + (100 - x) + '% 0 0)';
+    $('lbWipeBar').style.setProperty('--x', x + '%');
+  }
+  $('lbWipeRange').addEventListener('input', setWipe);
+  $('lbWipeBar').addEventListener('pointerdown', (e) => e.stopPropagation());
   let swipeX = null;
   $('lbStage').addEventListener('pointerdown', (e) => { swipeX = e.clientX; });
   $('lbStage').addEventListener('pointerup', (e) => {
@@ -715,9 +753,9 @@
     if (Math.abs(dx) > 50) stepAngle(dx < 0 ? 1 : -1);
   });
 
-  // Deep links: #P001, #P001-diag, #P001-diag-photo, #P001-diag-compare
+  // Deep links: #P001, #P001-diag, #P001-diag-photo, #P001-diag-compare, #P001-diag-clay (depth, normal)
   function openFromHash() {
-    const m = location.hash.match(/^#([PSUD]\d{3})(?:-(front|diag|side|above|below))?(?:-(photo|compare))?$/);
+    const m = location.hash.match(/^#([PSUD]\d{3})(?:-(front|diag|side|above|below))?(?:-(clay|depth|normal|photo|compare))?$/);
     if (m && byId.has(m[1])) openLb(m[1], m[2] ? VIEWS.indexOf(m[2]) : 0, m[3]);
   }
   window.addEventListener('hashchange', openFromHash);

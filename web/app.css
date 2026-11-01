@@ -535,3 +535,26 @@ dialog::backdrop { background: rgba(38, 34, 30, 0.55); }
   .nudge { left: 16px; right: 16px; transform: none; font-size: 14px; border-radius: 18px; }
   .nudge span { flex: 1; }
 }
+
+/* Clay, depth and normal maps (lightbox and marquee). Their own backgrounds are part of the image, so no multiply;
+   the line art wipes in over them at the slider, multiplied so its strokes land on the body (pixel-aligned,
+   tools/map_align.py): reading the fit is the point, not a side-by-side. */
+.mq-tile.map { position: relative; background: var(--tile); }
+.mq-tile.map img { object-fit: cover; mix-blend-mode: normal; }
+.mq-tile.map b { position: absolute; left: 10px; bottom: 9px; padding: 2px 8px; border-radius: 999px; background: rgba(24,24,27,0.72); color: #fff; font-size: 11px; font-weight: 600; }
+.lb.map .lb-stage img, .lb.map .lb-chips img { mix-blend-mode: normal; }
+.lb-wipe { display: contents; }
+.lb-wipe[hidden] { display: none; }
+.lb-stage .lb-wipe img { position: absolute; inset: 0; pointer-events: none; }
+.lb.map .lb-wipe img { mix-blend-mode: multiply; }
+.lb-wipebar { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); display: flex; align-items: center; gap: 10px; width: min(360px, calc(100% - 120px)); padding: 6px 14px; border-radius: 999px; background: var(--card, #fff); color: var(--ink); font-size: 12px; box-shadow: 0 6px 18px -10px rgba(24,24,27,0.5); z-index: 2; }
+.lb-wipebar span { white-space: nowrap; }
+.lb-wipebar input { flex: 1 1 auto; min-width: 0; accent-color: var(--btn); }
+.lb.has-maps .lb-side .seg button { padding: 0 11px; font-size: 14px; }
+.lb-side .seg .gap-l { margin-left: 6px; }
+.lb-note { margin: 0; font-size: 13px; line-height: 1.55; color: var(--ink2); }
+@media (max-width: 860px) {
+  .lb-note { order: 3; margin: 6px 12px 0; font-size: 12px; flex-shrink: 0; }
+  .lb-side .seg button { min-height: 36px; padding: 0 12px; font-size: 14px; }
+  .lb-wipebar { width: calc(100% - 100px); bottom: 10px; }
+}
