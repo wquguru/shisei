@@ -48,6 +48,7 @@ CONTRIBUTING.md      contributor guide; SECURITY.md, CODE_OF_CONDUCT.md; .github
 CHANGELOG.md         Keep a Changelog; every user-visible change adds a line under [Unreleased]
 data/catalog.json    288 poses: id, orig_id, series, rating, added_in, class_*, name_* (jp/cn/en/kr), desc_en,
                      views{front..below} (file or null), gaps{view: missing|line|structure}, photos{view: file},
+                     maps{view: file} (clay / depth / normal of that line view),
                      bodies (duo only: MF / FF), source (redrawn sets only: digi, D-09),
                      fills{view: source} (single views redrawn later by the original generator)
 data/packs.json      Release download zips: file, bytes, sets (tools/pack_release.py; the gallery shows the sizes)
@@ -65,6 +66,8 @@ images/line/w300/    grid tier for 1x screens and thumbnails, 300 px wide WebP q
 images/line/w600/    grid tier for 2x / 3x screens, 600×800 WebP q72
 images/line/w900/    lightbox/download tier, 900×1200 WebP q75
 images/photo/…       same two tiers for photo renders
+images/{clay,depth,normal}/  maps of passed line views (catalog `maps`), same three tiers and file names as the line
+                     art, made from it and pixel-aligned (docs/GENERATION.md); QC in qc.json `maps`
 images/costume/      costume views: grey/{w300,w600,w900}/ on #D9D9D9 and alpha/w900/ transparent (D-10),
                      costume_<ID>_<view>.webp; QC in data/costume-qc.json from data/costume-qc-input/
 web/                 gallery source: index.html template, app.js, app.css, i18n.js, common.js (share sheet, copy,
@@ -99,8 +102,9 @@ All series share `data/catalog.json`; a new series gets its own prefix and ID le
 ```bash
 python3 tools/build_images.py std=~/Downloads/pose-gallery-std73 sexy=~/Downloads/pose-gallery-sexy80 \
   upper=~/Downloads/pose-gallery-upper80 duo=~/Downloads/pose-gallery-duo55 \
-  digi=~/Downloads/pose-gallery-digi66 fill-r1=~/Downloads/pose-gallery-fill-r1   # passing views only; prunes the rest
-  # digi = redrawn sets (D-09); fill-r1 = single views refilled by Muse
+  digi=~/Downloads/pose-gallery-digi66 fill-r1=~/Downloads/pose-gallery-fill-r1 \
+  maps=~/Downloads/pose-gallery-clay                   # passing views only; prunes the rest
+  # digi = redrawn sets (D-09); fill-r1 = single views refilled by Muse; maps = clay / depth / normal
 python3 tools/verify.py                                # catalog ↔ qc.json ↔ images, gaps, orphans
 python3 tools/import_series.py SRC --series X --added 0.2.0 [--general Cute]   # merge a new series
 python3 -I tools/import_redraws.py SRC OUT --source digi --only P019,…   # whole-set redraws, then QC (D-09)
@@ -158,3 +162,4 @@ adding a new image series.
 | Relabel the 23 std sets whose drawing is another pose (D-07) | ◐ 21 redrawn (D-09); P038, P052 open |
 | Redraw gaps from a second source, whole sets only (D-09) | ✅ 43 sets, 2026-10-29 |
 | Rewrite failed views out of git history before going public (D-08) | ✅ 2026-10-29 |
+| Clay, depth and normal maps for passed line views, QC round 5 | ✅ v0.4.0 (2026-10-31) |

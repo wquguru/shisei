@@ -43,6 +43,17 @@
 ## 实拍
 P001–P022 每套 5 机位（拍摄批），另有 P050 正面，共 112 张；质检通过 103 张列入 catalog。
 
+## 白模、深度图、法线图（2026-10-31，maps）
+每个通过质检的线稿机位都按线稿做了三种图，源包 `~/Downloads/pose-gallery-clay/`（不进仓库，900×1200，文件名和线稿相同）：
+- 白模 clay：Qwen-Image-Edit-2511 FP8（Apache-2.0），提示词 clay7，12 步、cfg 4、seed 7，以线稿为输入重绘成灰色无脸人台；
+  28 格 seed 7 画错后改用 seed 8 或 9（源包 README 有清单）；出图后去色成纯灰（去掉米色的头和手）。WebP q92。
+- 深度 depth：Depth Anything V2 Small（Apache-2.0）从白模估计，白近黑远，无损灰度。
+- 法线 normal：Marigold Normals v1-1（openrail++）从白模估计。WebP q92。
+- 入库：质检见 qc/README.md 第五轮，一个机位的三种图同进同出；`build_images.py maps=…` 出三档，深度图 q75 后人体部分平均差半个灰度级。
+  生成方自己标的「仍然错」清单（三个 seed 都画错的姿势、两头融合、躺姿浮空、真人脸）一律不收（`maps_manual.json`）。
+- 已知问题：上半身系列常被画成全身、比例和线稿不同，对不齐的由 `tools/map_align.py` 拦下；白模常带出侧脸的鼻子和嘴唇轮廓（线稿本身也有，放行）
+  和乳头凸点（不通过，第二遍专门查）。没通过的格以后可以按线稿重画再审。
+
 ## 单格补图 fill-r1（2026-10-30 起，Muse）
 原 Muse 套里没过质检或没生成的格，由 Muse 按格重画（同一生成器、同一素体，和同套其他机位放在一起不算混画；digi 套不补，D-09）。
 - 范围：至少还有一个通过机位的原 Muse 套，共 223 格（138 套），分 19 批（`~/Downloads/muse-fill-r1/`：每批简报、参考机位、manifest）；

@@ -130,6 +130,21 @@ Muse 按格补画的机位（docs/GENERATION.md），只审新格：`review_shee
   目视复看其余 5 格无问题。`line_dups.py` 每次重写 `dups_fill-r1.json` 都会再标出 U034 侧面，重跑后要再删掉这条。
   部分 Muse 图背景有 254 灰度的抖动纹（审图上像淡字），原画同样有，肉眼不可见，不算问题。
 
+## 第五轮（2026-10-31）：白模、深度图、法线图
+新素材（docs/GENERATION.md「白模、深度图、法线图」），每个机位一个结论，三种图同进同出，结果写在 `qc.json` 的 `maps`，catalog 只给线稿通过、
+而且两遍审图都看过的机位写 `maps`：
+- 对齐：`tools/map_align.py` 量线稿笔画落在深度剪影（外扩 8 px）里的比例，低于 0.9 判 structure（`maps_align.json`）。
+  人工对照过：0.92 以上叠上去严丝合缝，0.81 以下明显错位。43 格不过，多数是上半身被画成全身。
+- 五格审图：`review_sheets.py --mode maps`（线稿、白模、线稿叠白模、深度、法线），提示词 [maps_prompt.md](maps_prompt.md)，
+  11 个 Sonnet 审 704 张（`maps_a?.json`）：错位、换了姿势、肢体、浮空、像儿童、深度或法线坏了判 structure；脸、头发、衣物道具、乳头判 line。
+- 近看：人工抽查发现五格审图上看不出乳头凸点（P071 俯视、P013 正面、U010 俯视、U040 正面），于是加一遍只看白模的 600×800 审图
+  `--mode mapclay`，提示词 [maps_nipple_prompt.md](maps_nipple_prompt.md)，10 个 Sonnet 审 513 张（`maps_nipple_a?.json`）。
+  男性人台胸前的乳头同样不通过。两遍都看过的机位才算审过（`qc_merge.py` 检查）。
+- 侧脸：白模常带出鼻子、嘴唇、下巴的侧面轮廓，线稿本身也是这个轮廓，各代理判法不一；统一放行只提到鼻子 / 嘴唇 / 下巴 / 轮廓的 line 结论，
+  提到眼睛、耳朵、头发、真人脸的照样不通过（`qc_merge.py` 的 PROFILE / FACE 规则）。
+- 生成方自己标的错图（源包 README「Still wrong」）直接写进 `maps_manual.json`。
+- 结果：1,212 个机位审过，944 个通过（270 套有图）；不过的 268 个里 102 个 structure（43 个对不齐），166 个 line（多为乳头凸点和带耳朵的脸）。另抽 24 张通过的白模放大看胸口，无漏网。
+
 ## 复审 / 新系列
 ```bash
 SRC="std=$HOME/Downloads/pose-gallery-std73 sexy=$HOME/Downloads/pose-gallery-sexy80 upper=$HOME/Downloads/pose-gallery-upper80 duo=$HOME/Downloads/pose-gallery-duo55 digi=$HOME/Downloads/pose-gallery-digi66"
