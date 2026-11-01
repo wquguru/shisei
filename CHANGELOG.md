@@ -26,6 +26,9 @@ the catalog schema.
   the "This pose also has a photo" row is gone. Marquee tiles still outline their format, without the label.
 
 ### Fixed
+- Costume library: the lingerie category's repair round brings it to 1889 of 1976 views and 484 of 494 items
+  (was 1870 and 482). Background left inside cut-outs and leg openings by the matte is cleared, and pale floating
+  pieces it dropped (white cuffs, a collar) are restored, with the new `tools/costume_holes.py`.
 - Phone lightbox cramped on first open: the box is 100dvh, about 180 px shorter while the address bar shows, and only the
   image gave way. The meta line, angle row and format note are trimmed on phones so the image keeps its height.
 

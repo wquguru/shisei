@@ -16144,15 +16144,12 @@
     "面料不透"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "costume_C469_front.webp",
+    "diag": "costume_C469_diag.webp",
     "side": "costume_C469_side.webp",
     "back": "costume_C469_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "diag": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C470",
@@ -16290,13 +16287,10 @@
    "views": {
     "front": "costume_C473_front.webp",
     "diag": "costume_C473_diag.webp",
-    "side": null,
-    "back": null
+    "side": "costume_C473_side.webp",
+    "back": "costume_C473_back.webp"
    },
-   "gaps": {
-    "side": "matte",
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C474",
@@ -16327,12 +16321,10 @@
    "views": {
     "front": "costume_C474_front.webp",
     "diag": "costume_C474_diag.webp",
-    "side": null,
+    "side": "costume_C474_side.webp",
     "back": "costume_C474_back.webp"
    },
-   "gaps": {
-    "side": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C475",
@@ -16398,11 +16390,9 @@
     "front": "costume_C476_front.webp",
     "diag": "costume_C476_diag.webp",
     "side": "costume_C476_side.webp",
-    "back": null
+    "back": "costume_C476_back.webp"
    },
-   "gaps": {
-    "back": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C477",
@@ -16570,16 +16560,12 @@
     "胸部和裆部完整覆盖"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
+    "front": "costume_C481_front.webp",
+    "diag": "costume_C481_diag.webp",
+    "side": "costume_C481_side.webp",
     "back": "costume_C481_back.webp"
    },
-   "gaps": {
-    "front": "matte",
-    "diag": "matte",
-    "side": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C482",
@@ -16608,14 +16594,12 @@
     "胸部和裆部完整覆盖"
    ],
    "views": {
-    "front": null,
+    "front": "costume_C482_front.webp",
     "diag": "costume_C482_diag.webp",
     "side": "costume_C482_side.webp",
     "back": "costume_C482_back.webp"
    },
-   "gaps": {
-    "front": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C483",
@@ -16679,13 +16663,11 @@
    ],
    "views": {
     "front": "costume_C484_front.webp",
-    "diag": null,
+    "diag": "costume_C484_diag.webp",
     "side": "costume_C484_side.webp",
     "back": "costume_C484_back.webp"
    },
-   "gaps": {
-    "diag": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C485",
@@ -16753,15 +16735,13 @@
     "背后白色兔尾"
    ],
    "views": {
-    "front": null,
-    "diag": null,
+    "front": "costume_C486_front.webp",
+    "diag": "costume_C486_diag.webp",
     "side": null,
     "back": null
    },
    "gaps": {
-    "front": "missing",
-    "diag": "missing",
-    "side": "missing",
+    "side": "form",
     "back": "missing"
    }
   },
@@ -16828,12 +16808,12 @@
    "views": {
     "front": null,
     "diag": "costume_C488_diag.webp",
-    "side": null,
-    "back": "costume_C488_back.webp"
+    "side": "costume_C488_side.webp",
+    "back": null
    },
    "gaps": {
-    "front": "matte",
-    "side": "matte"
+    "front": "form",
+    "back": "form"
    }
   },
   {
@@ -16897,17 +16877,12 @@
     "没有翅膀和角"
    ],
    "views": {
-    "front": null,
-    "diag": null,
-    "side": null,
-    "back": null
+    "front": "costume_C490_front.webp",
+    "diag": "costume_C490_diag.webp",
+    "side": "costume_C490_side.webp",
+    "back": "costume_C490_back.webp"
    },
-   "gaps": {
-    "front": "missing",
-    "diag": "missing",
-    "side": "missing",
-    "back": "missing"
-   }
+   "gaps": {}
   },
   {
    "id": "C491",
@@ -17006,12 +16981,10 @@
    "views": {
     "front": "costume_C493_front.webp",
     "diag": "costume_C493_diag.webp",
-    "side": null,
+    "side": "costume_C493_side.webp",
     "back": "costume_C493_back.webp"
    },
-   "gaps": {
-    "side": "matte"
-   }
+   "gaps": {}
   },
   {
    "id": "C494",
@@ -17042,12 +17015,10 @@
    "views": {
     "front": "costume_C494_front.webp",
     "diag": "costume_C494_diag.webp",
-    "side": null,
+    "side": "costume_C494_side.webp",
     "back": "costume_C494_back.webp"
    },
-   "gaps": {
-    "side": "missing"
-   }
+   "gaps": {}
   }
  ]
 }

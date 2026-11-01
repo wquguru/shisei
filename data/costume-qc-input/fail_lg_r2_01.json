@@ -1,0 +1,128 @@
+{
+ "prompt": "costume_prompt.md",
+ "reviewed": [
+  "C469",
+  "C473",
+  "C474",
+  "C476",
+  "C479",
+  "C481",
+  "C482",
+  "C484",
+  "C486",
+  "C488",
+  "C490",
+  "C493",
+  "C494"
+ ],
+ "fails": [
+  {
+   "id": "C469",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey strip/block visible between skirt hem and briefs"
+  },
+  {
+   "id": "C469",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey strip/block visible between skirt hem and briefs"
+  },
+  {
+   "id": "C473",
+   "view": "side",
+   "status": "matte",
+   "reason": "light grey disc left in the waist cut-out"
+  },
+  {
+   "id": "C476",
+   "view": "back",
+   "status": "matte",
+   "reason": "grey block under crop top and grey blob floating above briefs"
+  },
+  {
+   "id": "C476",
+   "view": "side",
+   "status": "matte",
+   "reason": "dark grey blob left in the strap/armhole area"
+  },
+  {
+   "id": "C479",
+   "view": "side",
+   "status": "matte",
+   "reason": "darker disc left in leg opening and armhole"
+  },
+  {
+   "id": "C479",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey disc left in leg opening"
+  },
+  {
+   "id": "C481",
+   "view": "front",
+   "status": "matte",
+   "reason": "grey disc left in the chest circle cut-out"
+  },
+  {
+   "id": "C481",
+   "view": "diag",
+   "status": "matte",
+   "reason": "grey disc left in the chest circle cut-out"
+  },
+  {
+   "id": "C482",
+   "view": "front",
+   "status": "matte",
+   "reason": "white/grey disc left in the chest circle cut-out"
+  },
+  {
+   "id": "C482",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey smudge left inside the waist cut-out"
+  },
+  {
+   "id": "C482",
+   "view": "diag",
+   "status": "matte",
+   "reason": "white/grey disc left in the chest circle cut-out"
+  },
+  {
+   "id": "C486",
+   "view": "front",
+   "status": "form",
+   "reason": "no white cuffs (point 3) visible; only collar/bow present"
+  },
+  {
+   "id": "C486",
+   "view": "side",
+   "status": "form",
+   "reason": "no white cuffs and no white rabbit tail visible"
+  },
+  {
+   "id": "C486",
+   "view": "diag",
+   "status": "form",
+   "reason": "no white cuffs and no tail visible"
+  },
+  {
+   "id": "C488",
+   "view": "front",
+   "status": "form",
+   "reason": "sleeve ends show dark ruffle, not white cuffs (point 3); other views have white cuffs"
+  },
+  {
+   "id": "C488",
+   "view": "back",
+   "status": "form",
+   "reason": "sleeve ends show dark ruffle, not white cuffs (point 3); side/diag have white cuffs"
+  },
+  {
+   "id": "C493",
+   "view": "side",
+   "status": "matte",
+   "reason": "grey disc left in the armhole"
+  }
+ ]
+}
