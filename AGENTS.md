@@ -65,6 +65,8 @@ images/line/w300/    grid tier for 1x screens and thumbnails, 300 px wide WebP q
 images/line/w600/    grid tier for 2x / 3x screens, 600×800 WebP q72
 images/line/w900/    lightbox/download tier, 900×1200 WebP q75
 images/photo/…       same two tiers for photo renders
+images/costume/      costume views: grey/{w300,w600,w900}/ on #D9D9D9 and alpha/w900/ transparent (D-10),
+                     costume_<ID>_<view>.webp; QC in data/costume-qc.json from data/costume-qc-input/
 web/                 gallery source: index.html template, app.js, app.css, i18n.js, common.js (share sheet, copy,
                      language links), favicon.svg, changelog.yaml (reader-facing changelog, four languages)
 site/                build output of tools/build_site.py (git-ignored; deploy this): home, pose pages and changelog
