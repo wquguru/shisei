@@ -101,9 +101,12 @@
   const ICON = {
     line: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L19 9a2.1 2.1 0 0 0-3-3L5 17v3z"/><path d="M14 8l3 3"/></svg>',
     photo: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-2.5h6L17 8h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>',
+    // Clay, depth and normal share one icon: stacked layers, as they are layers over the line art.
+    map: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4l8 4-8 4-8-4z"/><path d="M4 12l8 4 8-4"/><path d="M4 16l8 4 8-4"/></svg>',
   };
   const ARROW = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
-  const gapIcon = (photo) => '<span class="gap-ic">' + ICON[photo ? 'photo' : 'line'] + '</span>';
+  // kind: 'line' | 'photo' | a map format (true / false still mean photo / line for the grid's two media).
+  const gapIcon = (kind) => '<span class="gap-ic">' + ICON[kind === true ? 'photo' : !kind ? 'line' : MAP_KINDS.includes(kind) ? 'map' : kind] + '</span>';
   // Grid card: the way out is the nearest angle in the same medium (the medium switch is page-wide).
   function cardGapHtml(arr, v, photo) {
     const T = t();
@@ -526,13 +529,15 @@
     const list = pool();
     return list.some((p) => p.id === LB.id) ? list : poses;
   }
-  function openLb(id, v, medium) {
+  // keep: a format switch inside the lightbox stays on this angle even when the new format lacks it; the gap box
+  // then offers the way out (the line art of this angle, or the nearest angle that has the format).
+  function openLb(id, v, medium, keep) {
     const p = byId.get(id);
     if (!p) return;
     LB.id = id;
     LB.medium = MEDIA.includes(medium) && hasMedium(p, medium) ? medium : 'line';
     const arr = lbFiles(p, LB.medium);
-    LB.v = arr[v] ? v : firstView(arr);
+    LB.v = arr[v] || (keep && arr.some(Boolean)) ? v : firstView(arr);
     renderLb();
     if (!$('lb').open) $('lb').showModal();
   }
@@ -586,8 +591,18 @@
       '<figcaption>' + esc(label) + '</figcaption></figure>';
   }
   // Lightbox gap: the same angle in the other medium is the best way out when it exists, else the nearest angle.
-  function lbGapHtml(p, arr, photo, T) {
+  // A map that did not pass QC points back to the line art it was drawn from, then to the nearest angle with that map.
+  function lbGapHtml(p, arr, m, T) {
     const v = LB.v;
+    if (isMap(m)) {
+      const n = nearView(arr, v);
+      const go = (attr, label, dark) => '<button type="button" class="gap-go' + (dark ? ' dark' : '') + '" ' + attr + '>' + esc(label) + (dark ? ARROW : '') + '</button>';
+      const acts = (p.line[v] ? [go('data-lbgm="line"', T.goLine, true)] : []).concat(n >= 0 ? [go('data-lbgo="' + n + '"', T.goView(T.views[n]), !p.line[v])] : []);
+      return gapIcon(m) + '<b>' + esc(T.views[v] + ' · ' + T.gapMap(T[m])) + '</b>' +
+        '<span class="gap-sub">' + esc(p.line[v] ? T.gapPhotoSub : T.gapOther) + '</span>' +
+        (acts.length ? '<span class="gap-acts">' + acts.join('') + '</span>' : '');
+    }
+    const photo = m === 'photo';
     const other = photo ? p.line[v] : p.photo[v];
     const n = nearView(arr, v);
     const btn = (attr, label, dark) => '<button type="button" class="gap-go' + (dark ? ' dark' : '') + '" ' + attr + '>' + esc(label) + (dark ? ARROW : '') + '</button>';
@@ -637,7 +652,7 @@
     pair.innerHTML = compare ? pairCell(p, 'line', p.line[LB.v], T) + pairCell(p, 'photo', p.photo[LB.v], T) : '';
     const miss = $('lbMissing');
     miss.hidden = !!f || compare;
-    miss.innerHTML = f || compare ? '' : lbGapHtml(p, arr, photo, T);
+    miss.innerHTML = f || compare ? '' : lbGapHtml(p, arr, m, T);
     $('lbCounter').textContent = T.views[LB.v] + ' ' + (LB.v + 1) + '/5';
     // With one view or none there is nowhere to step; a live-looking arrow that does nothing reads as broken.
     $('lbPrev').disabled = $('lbNext').disabled = arr.filter(Boolean).length < 2;
@@ -654,7 +669,7 @@
       const tk = compare ? (p.line[i] ? 'line' : 'photo') : kind;
       const both = compare && p.line[i] && p.photo[i];
       return '<button type="button" data-lbv="' + i + '" aria-pressed="' + (i === LB.v) + '"' + (arr[i] ? '' : ' disabled') + '>' +
-        '<span class="' + tk + (both ? ' both' : '') + '">' + (arr[i] ? '<img src="' + src(tk, 'w300', arr[i]) + '" alt="">' : ICON[kind]) + '</span>' + esc(T.views[i]) + '</button>';
+        '<span class="' + tk + (both ? ' both' : '') + '">' + (arr[i] ? '<img src="' + src(tk, 'w300', arr[i]) + '" alt="">' : ICON[isMap(kind) ? 'map' : kind]) + '</span>' + esc(T.views[i]) + '</button>';
     }).join('');
     const hasPhoto = p.photo.some(Boolean), hasMaps = p.clay.some(Boolean);
     $('lb').classList.toggle('no-photo', !hasPhoto && !hasMaps);
@@ -717,7 +732,7 @@
   });
   $('lbMedium').addEventListener('click', (e) => {
     const b = e.target.closest('[data-lbm]');
-    if (b && !b.disabled) openLb(LB.id, LB.v, b.dataset.lbm);
+    if (b && !b.disabled) openLb(LB.id, LB.v, b.dataset.lbm, true);
   });
   $('lbVeilOne').addEventListener('click', () => reveal(LB.id));
   $('lbVeilAll').addEventListener('click', () => setAdult(true));
@@ -742,7 +757,7 @@
   // and a dialog-scoped listener would then miss every key until the reader tabbed back in.
   document.addEventListener('keydown', (e) => {
     // The share sheet opens on top of the lightbox; its keys are its own.
-    if (!$('lb').open || document.querySelector('dialog[open]:not(#lb)') || e.target.closest('input, textarea')) return;
+    if (!$('lb').open || document.querySelector('dialog[open]:not(#lb)') || e.target.closest('textarea, input:not([type="range"])')) return;
     if (e.key === 'ArrowLeft') { e.preventDefault(); stepAngle(-1); }
     else if (e.key === 'ArrowRight') { e.preventDefault(); stepAngle(1); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); stepPose(-1); }

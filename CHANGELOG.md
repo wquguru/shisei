@@ -7,6 +7,13 @@ the catalog schema.
 
 ## [Unreleased]
 
+### Fixed
+- Lightbox ← → sometimes did nothing: opening a map format focused the line-art slider first, which took the keys.
+  The close button now takes the first focus and the slider no longer swallows the arrow keys.
+- Angle thumbnails for a view without clay, depth or normal said "undefined"; they show a layers icon like the line
+  and photo gaps. Switching format on such an angle stays there and shows the gap box ("斜侧 · 暂无白模") with the
+  ways out (this angle's line art, the nearest angle with that format) instead of jumping to another angle.
+
 ### Added
 - Home marquee: a tile opens its pose in the lightbox at that angle and in that format (a depth tile opens depth).
   The rows pause on hover as before and stay out of the tab order; the grid remains the keyboard way in.
