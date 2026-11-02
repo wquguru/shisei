@@ -77,7 +77,8 @@ images/{scene,light,animal}/   plain/{w300,w600,w900}/ as delivered (pose tier q
 web/                 gallery source: index.html template, app.js, app.css, i18n.js, common.js (share sheet, copy,
                      language links), favicon.svg, changelog.yaml (reader-facing changelog, four languages), fonts/ (self-hosted
                      Latin subsets of Inter Tight and JetBrains Mono with their OFL files; CJK uses system fonts)
-site/                build output of tools/build_site.py (git-ignored; deploy this): home, pose pages and changelog
+site/                build output of tools/build_site.py (git-ignored; deploy this): home, pose pages, library pages,
+                     library item pages (<lib>/<ID>/, general only) and changelog
                      per language (zh at the root, ja/ en/ ko/), og/ share cards, sitemap, robots, 404, manifest,
                      _headers (Cloudflare cache rules)
 build/og-cache/      share-card render cache (git-ignored)

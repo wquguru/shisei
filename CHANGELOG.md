@@ -8,6 +8,16 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- Library items can be shared: the library lightbox gets Share and an item-page link. Every general-rated item has a
+  page per language (`<lib>/<ID>/`, `site_pages.item_page`: views, names, prompt, previous / next, same category) with
+  its own 1200×630 card, and each library page a card of its own instead of the home card (`og_cards.item_card`,
+  `lib_card`). Library cards sit on the image host beside the library images (`--media`), so `site/` stays under the
+  Pages file cap; sitemap lists the item pages. Lingerie (suggestive) gets no page or card and shares the library
+  link with its hash (D-06, D-11).
+
+### Changed
+- One phone save path: the album prefetch and share-sheet save shared by the pose lightbox, the library lightbox and
+  the tray now live in `common.js` (`ShiseiAlbum`) instead of three copies.
 - Hero badge split in two: the making-of thread plus a GPU referral link to UCloud Compshare (`rel="sponsored"`,
   tooltip discloses the commission), shorter copy on phones so it stays one line.
 - Six libraries on the site: props, furniture, animals, scenes and lighting join the costumes, each with a page per
