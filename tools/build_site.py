@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Build the static site into site/ from web/, data/catalog.json and web/changelog.yaml.
 
-Writes, per language (zh unprefixed, ja/ en/ ko/): the gallery home, one page per pose, the changelog and its Atom
-feed; plus share cards (og/), sitemap.xml, robots.txt, 404.html, manifest and icons. Fails on a bad changelog entry,
+Writes, per language (zh unprefixed, ja/ en/ ko/): the gallery home, one page per pose, each library page and one
+page per general-rated library item (<lib>/<ID>/), the changelog and its Atom feed; plus share cards (og/; the library
+ones on the image host with --media), sitemap.xml, robots.txt, 404.html, manifest and icons. Fails on a bad changelog entry,
 a page without its share tags, or a relative link that points nowhere.
 
 Usage: python3 tools/build_site.py [--site URL] [--repo URL] [--link-images] [--no-og] [--out site]
@@ -245,7 +246,7 @@ class Refs(HTMLParser):
             self.links[a["rel"]] = a.get("href")
 
 
-def check_site(out, site):
+def check_site(out, site, media=None):
     bad = []
     for f in out.rglob("*.html"):
         if f.name == "404.html":
@@ -259,8 +260,10 @@ def check_site(out, site):
                 bad.append(f"{where}: no {need}")
         if not (r.links.get("canonical") or "").startswith(site):
             bad.append(f"{where}: canonical missing or not on {site}")
-        if (r.meta.get("og:image") or "") and not r.meta["og:image"].startswith(site):
-            bad.append(f"{where}: og:image is not absolute on {site}")
+        # Library pages' cards live on the image host (--media) beside the library images.
+        hosts = (site,) + ((media,) if media else ())
+        if (r.meta.get("og:image") or "") and not r.meta["og:image"].startswith(hosts):
+            bad.append(f"{where}: og:image is not absolute on {' or '.join(hosts)}")
         for ref in r.refs:
             if re.match(r"^(?:[a-z]+:|#|//|__)", ref):
                 continue
@@ -292,6 +295,8 @@ STAMPED = ("app.css", "app.js", "common.js", "i18n.js", "tray.js", "library.js")
 MEDIA_HEADERS = """/images/*
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+/og/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
 """
 
 
@@ -378,7 +383,12 @@ def main() -> None:
         fresh = og_cards.render(jobs, chrome)
         print(f"share cards: {len(jobs)} ({fresh} rendered, {len(jobs) - fresh} cached)")
 
-    site = Site(site_url, args.repo.rstrip("/"), ver, S, poses, og=bool(chrome))
+    # Library images and library share cards go to the image host when there is one (DESIGN.md, 素材库与搭配).
+    media = args.media.rstrip("/") + "/" if args.media else None
+    libs = {lib: library_data(lib) for lib in LIBS}
+    # Item pages and cards: general-rated items only, as for poses (D-06; the lingerie category is all suggestive, D-11).
+    general = {lib: [c for c in D["items"] if c["r"] != "suggestive"] for lib, D in libs.items()}
+    site = Site(site_url, args.repo.rstrip("/"), ver, S, poses, og=bool(chrome), media=media)
     write = lambda page, doc: ((out / page).mkdir(parents=True, exist_ok=True), (out / page / "index.html").write_text(doc))
 
     # Gallery home per language
@@ -389,7 +399,6 @@ def main() -> None:
     packs = json.loads(packs_file.read_text()) if packs_file.exists() else None
     if packs and packs["version"] != ver:
         print(f"warning: data/packs.json is for v{packs['version']}, the site is v{ver}", file=sys.stderr)
-    libs = {lib: library_data(lib) for lib in LIBS}
     nav = nav_data(libs, catalog)
     ltpl = (ROOT / "web/library.html").read_text()
     for loc in LOCS:
@@ -422,8 +431,10 @@ def main() -> None:
             lrel = Site.rel(PREFIX[loc] + key)
             n, L = len(D["items"]), T["libs"][lib]
             meta = dict(name=L["name"], n=n, unit=L["unit"], sub=L["sub"])
+            first = general[lib][0]
             lhead = site.head(loc, key, fill(T["libTitle"], **meta), fill(T["libDesc"], **meta),
-                              site.og_image(loc, "home"), T["ogAlt"], None)
+                              site.lib_card(loc, f"lib-{lib}", f"images/{D['dir']}/w900/{first['v'][first['m']]}"),
+                              fill(T["libTitle"], **meta), None)
             lnoscript = "<noscript><ul class=\"wrap\">" + "".join(
                 f'<li>{c["id"]} {esc(c["n"][loc])}</li>' for c in D["items"]) + "</ul></noscript>"
             ldoc = (ltpl.replace("__HEAD__", lhead).replace("__HTMLLANG__", HTML_LANG[loc]).replace("__LOC__", loc)
@@ -433,6 +444,8 @@ def main() -> None:
                     .replace("__LIBDATA__", json.dumps(D, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
                     .replace("__REPO__", site.repo).replace("__VERSION__", ver))
             write(PREFIX[loc] + key, ldoc)
+            for i in range(len(general[lib])):
+                write(*site.item_page(loc, lib, D, general[lib], i))
 
         for i in range(len(poses)):
             write(*site.pose_page(loc, i))
@@ -479,7 +492,38 @@ def main() -> None:
                 for f in sorted({f for i in D["items"] for f in i["v"] if f}):
                     shutil.copy2(ROOT / "images" / D["dir"] / tier / f, d / f)
     # Every page gets the menu and tray data, and where library images live, before its scripts run.
-    media = args.media.rstrip("/") + "/" if args.media else None
+    # Library share cards, after the image host is laid out (it is rebuilt from scratch above): one per general item
+    # and language, and one per library page. They sit beside the library images so site/ stays under the file cap.
+    if chrome:
+        croot = (ROOT / args.media_out) if media else out
+        jobs = []
+        for loc in LOCS:
+            T = S[loc]
+            for lib, D in libs.items():
+                L = T["libs"][lib]
+                cats = {k["key"]: k["name"][loc] for k in D["cats"]}
+                vn = [T["libViews"][v] for v in D["views"]]
+                # One main-view image from each of the first categories, so the card shows the library's range.
+                picks, seen = [], set()
+                for c in general[lib]:
+                    if c["cat"] not in seen:
+                        seen.add(c["cat"]); picks.append(c["v"][c["m"]])
+                for c in general[lib]:
+                    if len(picks) >= 5:
+                        break
+                    if c["v"][c["m"]] not in picks:
+                        picks.append(c["v"][c["m"]])
+                n = len(D["items"])
+                jobs.append((og_cards.lib_card(loc, L["name"], fill(T["libOgLine"], n=n, unit=L["unit"]), L["sub"], picks[:5],
+                                               D["kind"], D["dir"]), croot / f"og/{loc}/lib-{lib}.png", 1200, 630))
+                for c in general[lib]:
+                    have = [vn[k] for k, f in enumerate(c["v"]) if f]
+                    meta = " · ".join(x for x in (c["id"], cats.get(c["cat"], ""), c["sub"][loc] if c.get("sub") else "") if x)
+                    item = {"id": c["id"], "name": c["n"][loc], "files": c["v"], "main": c["v"][c["m"]]}
+                    jobs.append((og_cards.item_card(loc, item, L["name"], meta, [fill(T["viewsN"], n=len(have))] + have,
+                                                    D["kind"], D["dir"]), croot / f"og/{loc}/{c['id']}.png", 1200, 630))
+        fresh = og_cards.render(jobs, chrome)
+        print(f"library share cards: {len(jobs)} ({fresh} rendered, {len(jobs) - fresh} cached) in {croot.relative_to(ROOT)}/og")
     for f in out.rglob("*.html"):
         doc = f.read_text()
         m = re.search(r'<script src="([./]*)i18n\.js', doc)
@@ -502,10 +546,12 @@ def main() -> None:
 
     # sitemap.xml with hreflang alternates and the line art as image entries; robots.txt
     cat_day, cl_day = git_day("data/catalog.json"), entries[0]["date"]
+    lib_day = {lib: git_day(f"data/{LIBS[lib]['data']}.json") for lib in LIBS}
     rows = []
     for key, day, imgs in ([("", cat_day, []), ("changelog/", cl_day, [])] +
-                           [(lib + "/", git_day(f"data/{LIBS[lib]['data']}.json"), []) for lib in LIBS] +
-                           [(f"pose/{p['id']}/", cat_day, [f for f in p["line"] if f]) for p in poses]):
+                           [(lib + "/", lib_day[lib], []) for lib in LIBS] +
+                           [(f"pose/{p['id']}/", cat_day, [f for f in p["line"] if f]) for p in poses] +
+                           [(f"{lib}/{c['id']}/", lib_day[lib], []) for lib in LIBS for c in general[lib]]):
         alts = "".join(f'<xhtml:link rel="alternate" hreflang="{HTML_LANG[l]}" href="{esc(site.abs(PREFIX[l] + key))}"/>'
                        for l in LOCS) + f'<xhtml:link rel="alternate" hreflang="x-default" href="{esc(site.abs(key))}"/>'
         im = "".join(f"<image:image><image:loc>{esc(site.abs('images/line/w900/' + f))}</image:loc></image:image>" for f in imgs)
@@ -516,11 +562,11 @@ def main() -> None:
         + "\n".join(rows) + "\n</urlset>\n")
     (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {site.abs('sitemap.xml')}\n")
 
-    bad = check_site(out, site_url)
+    bad = check_site(out, site_url, media)
     if bad:
         sys.exit("site check failed:\n  " + "\n  ".join(bad[:40]) + (f"\n  … {len(bad) - 40} more" if len(bad) > 40 else ""))
     print(f"built {out.relative_to(ROOT)}/ v{ver} for {site_url}{' (public)' if args.public else ''}: "
-          f"{len(catalog)} gallery poses, {len(poses)} pose pages × {len(LOCS)} languages, "
+          f"{len(catalog)} gallery poses, {len(poses)} pose pages and {sum(map(len, general.values()))} item pages × {len(LOCS)} languages, "
           f"{len(entries)} changelog entries, {len(rows)} sitemap URLs")
 
 

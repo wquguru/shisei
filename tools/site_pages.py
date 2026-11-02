@@ -66,10 +66,23 @@ def list_join(loc, items):
 class Site:
     """Build context: absolute site URL, strings, catalog, version, and where each page's files live."""
 
-    def __init__(self, site, repo, version, strings, poses, og):
+    def __init__(self, site, repo, version, strings, poses, og, media=None):
         self.site = site.rstrip("/")
         self.repo, self.version, self.S, self.poses, self.og = repo, version, strings, poses, og
         self.by_id = {p["id"]: p for p in poses}
+        # Library images, and the library share cards, live on the image host when there is one (--media): a Pages
+        # deployment holds 20,000 files and the site alone is near that. Absolute, with a trailing slash; None = here.
+        self.media = media
+
+    def lib_abs(self, path):
+        """Absolute URL of a library image or library card: on the image host when there is one."""
+        return (self.media or self.site + "/") + path
+
+    def lib_card(self, loc, key, fallback):
+        """(url, w, h) of a library card (an item id, or lib-<lib>); without cards, the given w900 image."""
+        if self.og:
+            return self.lib_abs(f"og/{loc}/{key}.png"), 1200, 630
+        return self.lib_abs(fallback), 900, 1200
 
     def abs(self, path):
         return f"{self.site}/{path}"
@@ -361,6 +374,96 @@ class Site:
   <icon>{x(self.abs("favicon.svg"))}</icon>{items}
 </feed>
 """
+
+    # ---- library item page: one per general-rated item (D-06, D-11), the page a library lightbox shares
+    def item_page(self, loc, lib, D, items, i):
+        """D: the library as its page reads it (build_site.library_data); items: its general-rated items, in order."""
+        T = self.S[loc]
+        c = items[i]
+        key = f"{lib}/{c['id']}/"
+        page = PREFIX[loc] + key
+        rel = self.rel(page)
+        home = rel + PREFIX[loc]
+        L = T["libs"][lib]
+        cats = {k["key"]: k["name"][loc] for k in D["cats"]}
+        cat = cats.get(c["cat"], "")
+        sub = c["sub"][loc] if c.get("sub") else ""
+        name = c["n"][loc]
+        names = [(T["libViews"][v], f, v) for v, f in zip(D["views"], c["v"]) if f]
+        views = list_join(loc, [n for n, _, _ in names])
+        n = len(names)
+        title = fill(T["itemTitle"], name=name, lib=L["name"], id=c["id"])
+        desc = fill(T["itemDesc"], name=name, lib=L["name"], cat=cat, n=n, views=views)
+        alt = fill(T["itemOgAlt"], id=c["id"], name=name, views=views)
+        base = self.media or rel
+        img = lambda tier, f: f"{base}images/{D['dir']}/{tier}/{f}"
+        absimg = lambda f: self.lib_abs(f"images/{D['dir']}/w900/{f}")
+        main = c["v"][c["m"]]
+        ld = {"@context": "https://schema.org", "@graph": [
+            {"@type": "ImageGallery", "@id": self.abs(page), "url": self.abs(page), "name": title, "description": desc,
+             "inLanguage": HTML_LANG[loc], "isPartOf": {"@type": "WebSite", "name": "Shisei", "url": self.abs(PREFIX[loc])},
+             "primaryImageOfPage": absimg(main),
+             "associatedMedia": [{"@type": "ImageObject", "contentUrl": absimg(f), "width": 900, "height": 1200,
+                                  "name": f"{c['id']} {name} · {vn}", **({"caption": c["desc"]} if c.get("desc") else {}),
+                                  "license": LICENSE, "acquireLicensePage": self.repo + "/blob/main/LICENSE-images",
+                                  "creditText": "Shisei", "copyrightNotice": COPYRIGHT, "creator": {"@type": "Organization", "name": "Shisei"}}
+                                 for vn, f, _ in names]},
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Shisei", "item": self.abs(PREFIX[loc])},
+                {"@type": "ListItem", "position": 2, "name": L["name"], "item": self.abs(PREFIX[loc] + lib + "/")},
+                {"@type": "ListItem", "position": 3, "name": f"{c['id']} {name}", "item": self.abs(page)}]}]}
+        head = self.head(loc, key, title, desc, self.lib_card(loc, c["id"], f"images/{D['dir']}/w900/{main}"), alt, ld,
+                         page_type="article")
+        others = "".join(f'<dt>{l.upper()}</dt><dd lang="{HTML_LANG[l]}">{esc(c["n"][l])}</dd>' for l in LOCS if l != loc)
+        lib_home = f"{home}{lib}/"
+        eager = lambda f: ' fetchpriority="high"' if f == main else ' loading="lazy"'
+        figs = "".join(
+            f'<figure class="pp-view"><a class="pp-tile" href="{lib_home}#{c["id"]}-{v}">'
+            f'<img src="{img("w900", f)}" srcset="{img("w300", f)} 300w, {img("w600", f)} 600w, {img("w900", f)} 900w" sizes="(max-width: 720px) 50vw, 280px" '
+            f'width="900" height="1200" alt="{esc(c["id"] + " " + name + " · " + vn)}"{eager(f)} decoding="async"></a>'
+            f'<figcaption><span>{esc(vn)}</span><a href="{img("w900", f)}" download="shisei_{c["id"]}_{v}.webp">'
+            f'{esc(T["downloadView"])}</a></figcaption></figure>' for vn, f, v in names)
+        prev, nxt = items[i - 1], items[(i + 1) % len(items)]
+        pn = lambda q, label, cls: (f'<a class="pp-pn-{cls}" href="../{q["id"]}/" rel="{"prev" if cls == "l" else "next"}">'
+                                    f'<span>{esc(label)}</span><b>{q["id"]} · {esc(q["n"][loc])}</b></a>')
+        same = [q for q in items if q["cat"] == c["cat"] and q["id"] != c["id"]][:8]
+        rel_cards = "".join(
+            f'<a class="pp-rel" href="../{q["id"]}/"><span class="pp-rel-t">'
+            f'<img src="{img("w300", q["v"][q["m"]])}" alt="" width="300" height="400" loading="lazy" decoding="async"></span>'
+            f'<span class="pp-rel-n"><b>{esc(q["n"][loc])}</b><span class="mono">{q["id"]}</span></span></a>' for q in same)
+        related = (f"""
+  <section class="pp-sec" aria-labelledby="rel-h">
+    <h2 id="rel-h">{esc(T["relatedItems"])}</h2>
+    <div class="pp-rels">{rel_cards}</div>
+  </section>""" if same else "")
+        share = (f'<button type="button" class="pill light small" data-share data-share-url="./" '
+                 f'data-share-heading="{esc(T["itemShareTitle"])}" '
+                 f'data-share-text="{esc(fill(T["itemShareText"], name=name, lib=L["name"]))}" data-share-image="{esc(absimg(main))}">'
+                 f'{SHARE_ICON}<span>{esc(T["share"])}</span></button>')
+        meta = " · ".join(x for x in (c["id"], cat, sub, fill(T["viewsN"], n=n)) if x)
+        desc_box = (f"""
+  <section class="lb-desc pp-desc" aria-label="{esc(T["itemDescLabel"])}">
+    <div class="lb-desc-h"><span>{esc(T["itemDescLabel"])}</span><button type="button" class="pill light tiny" data-copy="{esc(c["desc"])}">{esc(T["copy"])}</button></div>
+    <p lang="en">{esc(c["desc"])}</p>
+  </section>""" if c.get("desc") else "")
+        body = f"""<main id="main" class="wrap page pose-page">
+  <nav class="crumbs" aria-label="{esc(T["crumb"])}"><a href="{home}">Shisei</a><span aria-hidden="true">/</span><a href="{lib_home}">{esc(L["name"])}</a><span aria-hidden="true">/</span><a href="{lib_home}?cat={c["cat"]}#all">{esc(cat)}</a><span aria-hidden="true">/</span><span aria-current="page">{c["id"]}</span></nav>
+  <header class="pp-head">
+    <p class="pp-meta mono">{esc(meta)}</p>
+    <h1>{esc(name)}</h1>
+    <dl class="lb-names" aria-label="{esc(T["otherNames"])}">{others}</dl>
+    <div class="pp-actions">
+      <a class="pill dark small" href="{lib_home}#{c["id"]}-{D["views"][c["m"]]}">{esc(T["openInLibrary"])}</a>
+      {share}
+    </div>
+  </header>{desc_box}
+  <section class="pp-sec" aria-labelledby="angles-h">
+    <h2 id="angles-h">{esc(T["viewsTitle"])}</h2>
+    <div class="pp-views">{figs}</div>
+  </section>
+  <nav class="pp-pn" aria-label="{esc(T["prevItem"])} / {esc(T["nextItem"])}">{pn(prev, T["prevItem"], "l")}{pn(nxt, T["nextItem"], "r")}</nav>{related}
+</main>"""
+        return page, self.shell(loc, key, head, body, cls=f"item-page ip-{D['kind']}")
 
     def not_found(self):
         """One 404 for every language: hosts serve it at any depth, so links and assets are root-absolute."""

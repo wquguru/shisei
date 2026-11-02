@@ -2,8 +2,8 @@
 
 Chrome is the only compositor this repo can count on (no PIL, no ImageMagick), and a card is just HTML: line art
 multiplied onto its category colour, the same look as the gallery. Renders are cached in build/og-cache/ under a
-hash of the card's HTML and the image files it uses, so a rebuild only renders what changed. Only line art goes on
-cards (photo renders wait on docs/DECISIONS.md D-03).
+hash of the card's HTML and the image files it uses, so a rebuild only renders what changed. Pose cards carry line art
+only; library cards (item and library page) carry that library's own images, the same files its page shows.
 """
 import concurrent.futures, hashlib, html, os, pathlib, shutil, subprocess, tempfile
 
@@ -29,8 +29,9 @@ def find_chrome():
     return next((c for c in cands if c and pathlib.Path(c).exists()), None)
 
 
-def _img(f):
-    return (ROOT / "images/line/w900" / f).as_uri()
+def _img(f, d="line"):
+    """d: the image folder under images/ (line art, or a library's dir such as costume/grey)."""
+    return (ROOT / "images" / d / "w900" / f).as_uri()
 
 
 def _page(loc, body, w=W, h=H):
@@ -49,6 +50,9 @@ html,body{{margin:0;width:{w}px;height:{h}px;overflow:hidden;background:#F5F2ED;
 .r{{position:absolute;right:56px;top:56px;bottom:56px;width:584px;display:grid;gap:14px}}
 .t{{border-radius:28px;overflow:hidden;display:flex;align-items:center;justify-content:center}}
 .t img{{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}}
+.t.grey{{background:#D9D9D9}} .t.grey img{{mix-blend-mode:normal}}
+.t.photo{{background:#ECE7DF}} .t.photo img{{object-fit:cover;mix-blend-mode:normal}}
+.tag{{margin-left:4px;padding:8px 14px;border-radius:999px;background:#18181B;color:#F5F2ED;font-size:18px;font-weight:600;letter-spacing:0}}
 .big{{font:800 92px/1 'Helvetica Neue',sans-serif;letter-spacing:-0.05em;text-shadow:3px 4px 0 #EDB79C;margin-top:auto}}
 .line{{margin-top:22px;font-size:40px;font-weight:800;letter-spacing:-0.01em}}
 .sub{{margin-top:14px;font-size:24px;line-height:1.45;color:#55534E}}
@@ -76,6 +80,39 @@ def home_card(loc, T, picks):
     tiles = "".join(f'<div class="t" style="background:{t}"><img src="{_img(f)}"></div>' for t, f in picks)
     body = (f'<div class="l"><div class="brand">{LOGO.format(s=64)}</div><div class="big">Shisei</div>'
             f'<div class="line">{html.escape(T["ogLine"])}</div><div class="sub" style="word-break:keep-all">{html.escape(T["ogSub"])}</div></div>'
+            f'<div class="r" style="grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr">{tiles}</div>')
+    return _page(loc, body)
+
+
+def _tile(kind, f, d, extra=""):
+    """A library tile by how the library's images look: grey product shots and photos as they are, animal line art
+    multiplied on the paper tint like the poses."""
+    cls = kind if kind in ("grey", "photo") else ""
+    style = ("" if cls else "background:#ECE7DF;") + extra
+    return f'<div class="t {cls}"' + (f' style="{style}"' if style else "") + f'><img src="{_img(f, d)}"></div>'
+
+
+def item_card(loc, item, lib_name, meta, chips, kind, d):
+    """A library item's card, laid out like pose_card: item = {id, name, files} with files the item's views in the
+    library's order (None for a gap); chips = the names of the views it has."""
+    have = [f for f in item["files"] if f]
+    big = item["main"] if item.get("main") else have[0]
+    small = [f for f in have if f != big][:2]
+    tiles = _tile(kind, big, d, "grid-row:1/3") + "".join(_tile(kind, f, d) for f in small)
+    chip_html = f'<span class="chip y">{html.escape(chips[0])}</span>' + "".join(
+        f'<span class="chip">{html.escape(c)}</span>' for c in chips[1:])
+    body = (f'<div class="l"><div class="brand">{LOGO.format(s=52)}Shisei<span class="tag">{html.escape(lib_name)}</span></div>'
+            f'<div class="meta">{html.escape(meta)}</div>'
+            f'<h1 class="name">{html.escape(item["name"])}</h1><div class="chips">{chip_html}</div></div>'
+            f'<div class="r" style="grid-template-columns:388px 182px;grid-template-rows:1fr 1fr">{tiles}</div>')
+    return _page(loc, body)
+
+
+def lib_card(loc, name, line, sub, files, kind, d):
+    """A library page's card: the library's name big, its count and blurb, five of its images (one tall, four small)."""
+    tiles = _tile(kind, files[0], d, "grid-row:1/3") + "".join(_tile(kind, f, d) for f in files[1:5])
+    body = (f'<div class="l"><div class="brand">{LOGO.format(s=52)}Shisei</div><div class="big" style="font-size:80px;font-family:inherit">{html.escape(name)}</div>'
+            f'<div class="line">{html.escape(line)}</div><div class="sub" style="word-break:keep-all">{html.escape(sub)}</div></div>'
             f'<div class="r" style="grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr">{tiles}</div>')
     return _page(loc, body)
 
