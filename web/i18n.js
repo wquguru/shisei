@@ -4,7 +4,8 @@ window.I18N = {
   zh: {
     htmlLang: 'zh-CN', suffix: 'cn',
     navHow: '使用方法',
-    madeTag: '方法论', madeText: '21 小时从零做出这套图库',
+    madeTag: '方法论', madeText: '21 小时从零做出这套图库', madeShort: '21 小时做成',
+    gpuText: 'UCloud · Agent 友好的算力', gpuShort: 'UCloud 算力', gpuNote: '推荐链接，注册后作者可获返佣',
     langLabel: '切换语言', theme: '切换深色模式',
     heroTitle: ['姿势参考', '五机位'],
     heroSub: (n, v) => n + ' 套无脸素体姿势、' + v + ' 张线稿，正面、斜侧、侧面、俯视、仰视最多五个机位；大部分机位另有白模、深度图和法线图。拖进你的 AI 绘图工具，姿势就定住了。',
@@ -40,7 +41,8 @@ window.I18N = {
   ja: {
     htmlLang: 'ja', suffix: 'jp',
     navHow: '使い方',
-    madeTag: 'メイキング', madeText: 'このポーズ集の作り方（中国語）',
+    madeTag: 'メイキング', madeText: 'このポーズ集の作り方（中国語）', madeShort: '作り方',
+    gpuText: 'UCloud・エージェント向け GPU', gpuShort: 'UCloud GPU', gpuNote: '紹介リンク：登録すると作者に紹介報酬が入ります（中国語サイト）',
     langLabel: '言語を切り替え', theme: 'ダークモード切り替え',
     heroTitle: ['素体ポーズ集', '5アングル'],
     heroSub: (n, v) => '顔なし素体の線画 ' + n + ' ポーズ・' + v + ' 枚。正面・斜め・横・上から・下からの最大 5 アングルを収録し、ほとんどのアングルにクレイ・深度・法線マップもあります。AI 画像生成のポーズ参照にそのまま使えます。',
@@ -76,7 +78,8 @@ window.I18N = {
   en: {
     htmlLang: 'en', suffix: 'en',
     navHow: 'How to use',
-    madeTag: 'Making of', madeText: 'How this library was built (Chinese)',
+    madeTag: 'Making of', madeText: 'How this library was built (Chinese)', madeShort: 'How it’s made',
+    gpuText: 'UCloud · agent-friendly GPUs', gpuShort: 'UCloud GPUs', gpuNote: 'Referral link: the author earns a commission if you sign up (site in Chinese)',
     langLabel: 'Change language', theme: 'Toggle dark mode',
     heroTitle: ['Mannequin pose reference', 'in 5 angles'],
     heroSub: (n, v) => n + ' faceless mannequin poses in ' + v + ' line-art views, from up to five angles: front, three-quarter, side, above and below; most also come as clay, depth and normal maps. Drop one into your AI image tool and the pose holds.',
@@ -112,7 +115,8 @@ window.I18N = {
   ko: {
     htmlLang: 'ko', suffix: 'kr',
     navHow: '사용법',
-    madeTag: '제작기', madeText: '이 자료를 만든 방법 (중국어)',
+    madeTag: '제작기', madeText: '이 자료를 만든 방법 (중국어)', madeShort: '제작 과정',
+    gpuText: 'UCloud · 에이전트 친화 GPU', gpuShort: 'UCloud GPU', gpuNote: '추천 링크: 가입하면 제작자가 수수료를 받습니다 (중국어 사이트)',
     langLabel: '언어 변경', theme: '다크 모드 전환',
     heroTitle: ['마네킹 포즈 자료', '5앵글'],
     heroSub: (n, v) => '얼굴 없는 마네킹 선화 ' + n + '가지 포즈, ' + v + '장. 정면·대각선·옆·위·아래 최대 5개 앵글이며, 대부분의 앵글에 클레이·깊이·노멀 맵도 있습니다. AI 이미지 도구에 넣으면 포즈가 고정됩니다.',

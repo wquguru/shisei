@@ -8,6 +8,8 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- Hero badge split in two: the making-of thread plus a GPU referral link to UCloud Compshare (`rel="sponsored"`,
+  tooltip discloses the commission), shorter copy on phones so it stays one line.
 - Six libraries on the site: props, furniture, animals, scenes and lighting join the costumes, each with a page per
   language (`<lib>/`, one template `web/library.html` + `library.js`). A "Library" menu in the desktop nav and a full
   screen menu on phones (below 1100 px, where the nav links were hidden) from `common.js`. The tray holds a pose plus

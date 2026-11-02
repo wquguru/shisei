@@ -155,6 +155,7 @@
     });
     document.querySelectorAll('[data-i18n-ph]').forEach((el) => { el.placeholder = T[el.dataset.i18nPh]; });
     document.querySelectorAll('[data-i18n-aria]').forEach((el) => { el.setAttribute('aria-label', T[el.dataset.i18nAria]); });
+    document.querySelectorAll('[data-i18n-title]').forEach((el) => { el.title = T[el.dataset.i18nTitle]; });
     $('langName').textContent = I18N[S.lang].langName;
     $('langShort').textContent = I18N[S.lang].langShort;
     // The hero counts the whole published library, so the number does not move when suggestive poses are hidden.
