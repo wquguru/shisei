@@ -19,6 +19,8 @@ MON = ("January", "February", "March", "April", "May", "June", "July", "August",
        "December")
 
 LICENSE = "https://creativecommons.org/publicdomain/zero/1.0/"  # D-01: images and data are CC0; code is Apache-2.0
+# Google image metadata asks for copyrightNotice beside license; under CC0 it states the dedication, not a claim.
+COPYRIGHT = "Shisei, CC0 1.0: no rights reserved"
 esc = lambda s: html.escape(str(s), quote=True)
 CURRENT = ' aria-current="true"'
 LOGO = ('<svg class="logo" width="{s}" height="{s}" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="24" fill="#18181B"/>'
@@ -198,7 +200,7 @@ class Site:
              "associatedMedia": [{"@type": "ImageObject", "contentUrl": absimg(f), "width": 900, "height": 1200,
                                   "name": f"{p['id']} {name} · {T['views'][k]}", "caption": p["desc_en"],
                                   "license": LICENSE, "acquireLicensePage": self.repo + "/blob/main/LICENSE-images",
-                                  "creditText": "Shisei", "creator": {"@type": "Organization", "name": "Shisei"}}
+                                  "creditText": "Shisei", "copyrightNotice": COPYRIGHT, "creator": {"@type": "Organization", "name": "Shisei"}}
                                  for k, f in enumerate(p["line"]) if f]},
             {"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Shisei", "item": self.abs(PREFIX[loc])},
