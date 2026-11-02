@@ -138,11 +138,18 @@ def _shoot(chrome, doc, out, w, h):
     if not cached.exists():
         src = CACHE / f"{key}.html"
         src.write_text(doc)
-        with tempfile.TemporaryDirectory() as prof:
-            subprocess.run([chrome, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--no-first-run",
-                            "--no-default-browser-check", f"--user-data-dir={prof}", f"--window-size={w},{h}",
-                            "--virtual-time-budget=3000", f"--screenshot={cached}", src.as_uri()],
-                           check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=120)
+        # Thousands of headless launches in a row (the library cards) now and then lose one to a Chrome exit (status 2,
+        # 2026-11-02); retry with a fresh profile, and fail the build only when three tries in a row fail.
+        for attempt in range(3):
+            with tempfile.TemporaryDirectory() as prof:
+                r = subprocess.run([chrome, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--no-first-run",
+                                    "--no-default-browser-check", f"--user-data-dir={prof}", f"--window-size={w},{h}",
+                                    "--virtual-time-budget=3000", f"--screenshot={cached}", src.as_uri()],
+                                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=120)
+            if r.returncode == 0 and cached.exists():
+                break
+        else:
+            r.check_returncode()
         src.unlink()
         if not cached.exists():
             raise RuntimeError(f"chrome wrote no screenshot for {out.name}")
