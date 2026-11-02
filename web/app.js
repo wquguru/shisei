@@ -591,28 +591,9 @@
     renderLb();
     if (!$('lb').open) $('lb').showModal();
   }
-  /* Phones save to the photo album: <a download> lands in Files on iOS and in Downloads on Android, while the
-     system share sheet with the file attached offers "Save Image", which goes to Photos. share() has to run inside
-     the tap and an awaited fetch first loses the gesture on iOS, so the view on screen is fetched ahead of the tap.
-     Browsers without file sharing (WeChat, older ones) get a long-press hint instead of a dead download. */
-  const ALBUM = matchMedia('(pointer: coarse)').matches;
-  const SHARE_FILES = ALBUM && !!navigator.canShare && (() => {
-    try { return navigator.canShare({ files: [new File([''], 'a.webp', { type: 'image/webp' })] }); } catch (e) { return false; }
-  })();
-  const FILES = new Map();
-  function prefetch(a) {
-    if (a.href) prefetchFile(a.href, a.getAttribute('download'));
-  }
-  function prefetchFile(url, name) {
-    if (!SHARE_FILES || FILES.has(url)) return Promise.resolve();
-    const entry = { file: null };
-    FILES.set(url, entry);
-    // About 60 KB each; keep the recent ones so stepping back and forth needs no refetch.
-    if (FILES.size > 30) FILES.delete(FILES.keys().next().value);
-    return fetch(url).then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
-      .then((b) => { entry.file = new File([b], name, { type: 'image/webp' }); })
-      .catch(() => FILES.delete(url));
-  }
+  // Phones save to the photo album through the share sheet (common.js ShiseiAlbum, shared with the libraries).
+  const ALBUM = window.ShiseiAlbum.on, SHARE_FILES = window.ShiseiAlbum.canShare;
+  const prefetchFile = window.ShiseiAlbum.prefetch;
   // The overview's save button on phones takes every format of the angle in one share sheet ("Save 5 Images" on
   // iOS). All files must already be fetched when the tap comes: share() has to run inside the gesture.
   let SAVE_SET = null;
@@ -631,20 +612,9 @@
     const a = e.currentTarget;
     if (!ALBUM || !a.href) return;
     e.preventDefault();
-    if (SAVE_SET && a.id === 'lbDl') {
-      if (!SHARE_FILES) return lbTip(t().holdMany);
-      const got = SAVE_SET.map((x) => FILES.get(x.url));
-      if (got.every((x) => x && x.file)) {
-        navigator.share({ files: got.map((x) => x.file) }).catch((err) => { if (err.name !== 'AbortError') lbTip(t().holdMany); });
-      } else { SAVE_SET.forEach((x) => prefetchFile(x.url, x.name)); lbTip(t().preparing); }
-      return;
-    }
-    const entry = SHARE_FILES && FILES.get(a.href);
-    if (entry && entry.file) {
-      // Resolving only means the sheet closed, not that the image was saved, so success says nothing.
-      navigator.share({ files: [entry.file] }).catch((err) => { if (err.name !== 'AbortError') lbTip(t().holdToSave); });
-    } else if (SHARE_FILES) { prefetch(a); lbTip(t().preparing); }
-    else lbTip(t().holdToSave);
+    const many = !!SAVE_SET && a.id === 'lbDl';
+    window.ShiseiAlbum.save(many ? SAVE_SET : [{ url: a.href, name: a.getAttribute('download') }],
+      (why) => lbTip(why === 'preparing' ? t().preparing : many ? t().holdMany : t().holdToSave));
   }
   function setDl(a, label, f, kind, p) {
     a.querySelector('span').textContent = label;

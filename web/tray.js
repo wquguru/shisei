@@ -38,11 +38,8 @@
   let state = store.get();
   let open = false, adding = false;
   let page = 'pose';  // the slot this page fills: 'pose' or a library key
-  const ALBUM = matchMedia('(pointer: coarse)').matches;
-  const SHARE = ALBUM && !!navigator.canShare && (() => {
-    try { return navigator.canShare({ files: [new File([''], 'a.webp', { type: 'image/webp' })] }); } catch (e) { return false; }
-  })();
-  const files = new Map();
+  // Saving the set to the photo album goes through common.js (ShiseiAlbum), the same cache the lightboxes use.
+  const SHARE = window.ShiseiAlbum.canShare;
 
   // A library's view for the pose's angle: the same angle when the library has it; scenes put the three level angles
   // at eye level; anything else falls back to the front, then to the first view that exists.
@@ -150,13 +147,7 @@
   }
 
   // share() must run inside the tap, so the files are fetched as soon as the panel shows them.
-  function prefetch(url, name) {
-    if (files.has(url)) return;
-    const entry = { file: null };
-    files.set(url, entry);
-    fetch(url).then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
-      .then((b) => { entry.file = new File([b], name, { type: 'image/webp' }); }).catch(() => files.delete(url));
-  }
+  const prefetch = window.ShiseiAlbum.prefetch;
   function tip(msg) {
     const t = document.getElementById('trayTip');
     if (t) { t.textContent = msg; t.hidden = false; }
@@ -175,9 +166,8 @@
     else if (a === 'end') { state = { items: {} }; open = adding = false; save(); }
     else if (a === 'copy') window.ShiseiShare.copy(prompt());
     else if (a === 'save') {
-      const got = members().map((m) => files.get(m.src('w900')));
-      if (got.every((x) => x && x.file)) navigator.share({ files: got.map((x) => x.file) }).catch((err) => { if (err.name !== 'AbortError') tip(TC.holdGroup); });
-      else tip(T.preparing || TC.holdGroup);
+      window.ShiseiAlbum.save(members().map((m) => ({ url: m.src('w900'), name: m.file })),
+        (why) => tip(why === 'preparing' ? (T.preparing || TC.holdGroup) : TC.holdGroup));
     }
   });
   // Escape folds the panel or the add list; a click outside the tray folds the add list.

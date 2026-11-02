@@ -72,6 +72,41 @@
   }
   window.ShiseiShare = { open: open, copy: copy };
 
+  /* Phones save to the photo album: <a download> lands in Files on iOS and in Downloads on Android, while the
+     system share sheet with the file attached offers "Save Image", which goes to Photos. share() has to run inside
+     the tap and an awaited fetch first loses the gesture on iOS, so files are fetched ahead of the tap. Browsers
+     without file sharing (WeChat, older ones) get a long-press hint instead. One cache for the gallery lightbox, the
+     library lightbox and the tray, so a file one of them fetched is ready for the others. */
+  const ALBUM = matchMedia('(pointer: coarse)').matches;
+  const CAN_SHARE = ALBUM && !!navigator.canShare && (() => {
+    try { return navigator.canShare({ files: [new File([''], 'a.webp', { type: 'image/webp' })] }); } catch (e) { return false; }
+  })();
+  const FILES = new Map();
+  /** prefetch(url, name): fetch an image as a File for a later save(); resolves when done (or failed). */
+  function prefetch(url, name) {
+    if (!CAN_SHARE || !url) return Promise.resolve();
+    if (FILES.has(url)) return FILES.get(url).done;
+    const entry = { file: null };
+    FILES.set(url, entry);
+    // About 60 KB each; keep the recent ones so stepping back and forth needs no refetch.
+    if (FILES.size > 40) FILES.delete(FILES.keys().next().value);
+    entry.done = fetch(url).then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
+      .then((b) => { entry.file = new File([b], name, { type: 'image/webp' }); })
+      .catch(() => { FILES.delete(url); });
+    return entry.done;
+  }
+  /** save([{url, name}], hint): open the share sheet with the files if they are all fetched, else start fetching.
+      hint(why) gets 'preparing' (tap again in a moment), 'unsupported' (no file sharing: long-press) or 'failed'. */
+  function save(list, hint) {
+    if (!CAN_SHARE) { hint('unsupported'); return; }
+    const got = list.map((x) => FILES.get(x.url));
+    if (got.every((x) => x && x.file)) {
+      // Resolving only means the sheet closed, not that the image was saved, so success says nothing.
+      navigator.share({ files: got.map((x) => x.file) }).catch((err) => { if (err.name !== 'AbortError') hint('failed'); });
+    } else { list.forEach((x) => prefetch(x.url, x.name)); hint('preparing'); }
+  }
+  window.ShiseiAlbum = { on: ALBUM, canShare: CAN_SHARE, prefetch: prefetch, save: save };
+
   document.addEventListener('click', (e) => {
     const s = e.target.closest('[data-share]');
     if (s) {

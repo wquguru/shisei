@@ -182,19 +182,14 @@
 
   /* lightbox */
   const LB = { id: null, v: 0 };
-  const ALBUM = matchMedia('(pointer: coarse)').matches;
-  const SHARE = ALBUM && !!navigator.canShare && (() => {
-    try { return navigator.canShare({ files: [new File([''], 'a.webp', { type: 'image/webp' })] }); } catch (e) { return false; }
-  })();
-  const FILES = new Map();
-  function prefetch(url, name) {
-    if (!SHARE || FILES.has(url)) return;
-    const entry = { file: null };
-    FILES.set(url, entry);
-    if (FILES.size > 20) FILES.delete(FILES.keys().next().value);
-    fetch(url).then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
-      .then((b) => { entry.file = new File([b], name, { type: 'image/webp' }); }).catch(() => FILES.delete(url));
-  }
+  // Phones save to the photo album through the share sheet, as in the gallery (common.js ShiseiAlbum).
+  const ALBUM = window.ShiseiAlbum.on;
+  const prefetch = window.ShiseiAlbum.prefetch;
+  // General-rated items have a page of their own with its own share card (tools/site_pages.py item_page); a shared
+  // link goes there, since link previews never see a #fragment. Suggestive items have no page (D-06), so their link
+  // is the library page with the item's hash: it opens the item, with the library's card.
+  const hasPage = (c) => !c.suggestive;
+  const itemPage = (c) => BASE + PREFIX[loc] + LIB + '/' + c.id + '/';
   function lbList() { const l = pool(); return l.some((c) => c.id === LB.id) ? l : items; }
   function openLb(id, v) {
     const c = byId.get(id);
@@ -239,6 +234,10 @@
       dl.removeAttribute('aria-disabled');
       prefetch(dl.href, dl.getAttribute('download'));
     } else { dl.removeAttribute('href'); dl.setAttribute('aria-disabled', 'true'); }
+    $('clbShare').disabled = veil;
+    const pg = $('clbPage');
+    pg.hidden = !hasPage(c);
+    if (hasPage(c)) pg.href = itemPage(c);
     history.replaceState(null, '', location.pathname + location.search + '#' + c.id + '-' + VIEWS[LB.v]);
   }
   function stepView(d) {
@@ -267,10 +266,16 @@
     const a = e.currentTarget;
     if (!ALBUM || !a.href) return;
     e.preventDefault();
-    const entry = SHARE && FILES.get(a.href);
-    if (entry && entry.file) navigator.share({ files: [entry.file] }).catch((err) => { if (err.name !== 'AbortError') toast(T.holdToSave); });
-    else if (SHARE) { prefetch(a.href, a.getAttribute('download')); toast(T.preparing); }
-    else toast(T.holdToSave);
+    window.ShiseiAlbum.save([{ url: a.href, name: a.getAttribute('download') }], (why) => toast(why === 'preparing' ? T.preparing : T.holdToSave));
+  });
+  $('clbShare').addEventListener('click', () => {
+    const c = byId.get(LB.id), f = c.v[LB.v] || c.v[c.m];
+    window.ShiseiShare.open({
+      url: hasPage(c) ? itemPage(c) : BASE + PREFIX[loc] + LIB + '/#' + c.id + '-' + VIEWS[LB.v],
+      heading: T.itemShareTitle,
+      text: T.itemShareText.replace('{name}', c.n[loc]).replace('{lib}', LN.name),
+      image: hasPage(c) ? new URL(img('w900', f), location.href).href : undefined
+    });
   });
   document.addEventListener('keydown', (e) => {
     if (!$('clb').open) return;

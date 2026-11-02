@@ -4,6 +4,22 @@
 # tag: new | improve | announce | removed. link: an in-site path without language prefix (/, /changelog/, /pose/P001/),
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
+  - date: 2026-11-02
+    tag: improve
+    title: Share any costume, prop or scene
+    desc: Every library item now has its own page and share card. Open one and tap Share; the link preview shows the item from three views.
+    link: /costume/
+    cta: Try it on a costume
+    title_zh: 服装、道具、场景也能分享了
+    desc_zh: 每件素材都有自己的页面和分享卡片。打开大图点「分享」，链接预览会显示这件素材的三个视角。
+    cta_zh: 打开一件服装试试
+    title_ja: 衣装・小物・背景も共有できます
+    desc_ja: 素材ごとに専用ページと共有カードができました。拡大表示で「共有」を押すと、リンクのプレビューに 3 アングルが出ます。
+    cta_ja: 衣装で試す
+    title_ko: 의상·소품·배경도 공유할 수 있습니다
+    desc_ko: 소재마다 전용 페이지와 공유 카드가 생겼습니다. 크게 보기에서 「공유」를 누르면 링크 미리보기에 세 앵글이 나옵니다.
+    cta_ko: 의상으로 해 보기
+
   - date: 2026-11-01
     tag: new
     title: Props, furniture, animals, scenes and light
