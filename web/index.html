@@ -18,6 +18,7 @@ __HEAD__
   </a>
   <div class="nav-links">
     <a href="#all" data-i18n="navPoses"></a>
+    <a href="#studio" class="nav-studio"><span data-i18n="navStudio"></span><span class="nav-new">NEW</span></a>
     <button type="button" class="linklike" data-open="how" data-i18n="navHow"></button>
     <a href="__CHANGELOG__" data-i18n="navChangelog"></a>
   </div>
@@ -41,9 +42,9 @@ __HEAD__
 <main>
 <header class="hero">
   <div class="hero-badge">
-    <a class="hb-link" href="https://x.com/wquguru/status/2115972037403713688" target="_blank" rel="noopener">
-      <span class="hb-tag"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.65l-5.21-6.82-5.97 6.82H1.68l7.73-8.84L1.25 2.25h6.83l4.71 6.23zm-1.16 17.52h1.83L7.08 4.13H5.12z"/></svg><span data-i18n="madeTag"></span></span>
-      <span class="hb-text"><span class="hb-full" data-i18n="madeText"></span><span class="hb-short" data-i18n="madeShort"></span></span><span class="hb-go" aria-hidden="true">→</span>
+    <a class="hb-link" href="#studio">
+      <span class="hb-tag" data-i18n="studioBadgeTag"></span>
+      <span class="hb-text"><span class="hb-full" data-i18n="studioBadge"></span><span class="hb-short" data-i18n="studioBadgeShort"></span></span><span class="hb-go" aria-hidden="true">→</span>
     </a>
     <span class="hb-sep" aria-hidden="true"></span>
     <!-- Referral link (the author earns a commission on sign-ups): rel=sponsored, and the tooltip says so. -->
@@ -70,6 +71,30 @@ __HEAD__
     <div class="chips-static" id="tools"></div>
   </div>
 </header>
+
+<!-- dsh-shisei, the plugin that shoots short dramas with this library (docs/DESIGN.md, 官网：素材站 + dsh-shisei). -->
+<section class="wrap studio" id="studio" aria-labelledby="studioT">
+  <div class="studio-card">
+    <div class="studio-t">
+      <span class="studio-tag" data-i18n="studioTag"></span>
+      <h2 id="studioT" data-i18n="studioTitle"></h2>
+      <p data-i18n="studioSub"></p>
+      <div class="studio-stats">
+        <div><b>29.4 s</b><span data-i18n="studioS1"></span></div>
+        <div><b>~45 min</b><span data-i18n="studioS2"></span></div>
+        <div><b>≈ ¥3</b><span data-i18n="studioS3"></span></div>
+      </div>
+      <div class="studio-cta">
+        <a class="pill big studio-go" href="https://github.com/wquguru/dsh-shisei"><span data-i18n="studioCta"></span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14m0 0-6-6m6 6-6 6"/></svg></a>
+      </div>
+      <p class="studio-note" data-i18n="studioNote"></p>
+    </div>
+    <div class="studio-shot">
+      <img src="__BASE__studio-800.webp" srcset="__BASE__studio-800.webp 800w, __BASE__studio-1320.webp 1320w" sizes="(max-width: 1000px) 100vw, 640px" width="1320" height="1000" alt="" data-i18n-alt="studioAlt" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
 
 <section class="wrap section" id="all" aria-labelledby="all-title">
   <div class="sec-head">
@@ -107,6 +132,8 @@ __NOSCRIPT__
     </div>
     <nav class="foot-links" aria-label="Footer">
       <a href="__REPO__">GitHub</a>
+      <a href="https://github.com/wquguru/dsh-shisei">dsh-shisei</a>
+      <a href="https://x.com/wquguru/status/2115972037403713688" target="_blank" rel="noopener" data-i18n="madeTag"></a>
       <a href="__CHANGELOG__"><span data-i18n="navChangelog"></span> v__VERSION__</a>
       <a href="__BASE__catalog.json">catalog.json</a>
       <button type="button" class="linklike" data-share data-share-site data-i18n="shareSite"></button>

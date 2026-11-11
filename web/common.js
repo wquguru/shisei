@@ -184,7 +184,7 @@
             '<a class="sm-poses" href="' + esc(home + '#all') + '"><span>' + esc(T.navPoses) + '</span><span class="mono">' + esc(TL.poseSets(NAV.poses)) + ' →</span></a>' +
             '<div class="sm-series">' + NAV.series.map(([k, n]) => '<a href="' + esc(home + '?series=' + k + '#all') + '"><i style="background:' + tint[k] + '"></i><span>' + esc(ser[k] || k) + '</span><span class="mono">' + n + '</span></a>').join('') + '</div>' +
             '<span class="sm-label">' + esc(TL.libsLabel) + '</span><div class="sm-libs">' + NAV.libs.map((l) => libLink(l, 'sm-lib')).join('') + '</div>' +
-            '<div class="sm-links"><a href="' + esc(home + 'changelog/') + '">' + esc(T.navChangelog) + '</a><a href="' + esc(repo) + '">GitHub</a></div></nav>' +
+            '<div class="sm-links"><a href="' + esc(home + '#studio') + '">' + esc(T.navStudio) + '</a><a href="' + esc(home + 'changelog/') + '">' + esc(T.navChangelog) + '</a><a href="' + esc(repo) + '">GitHub</a></div></nav>' +
             '<div class="sm-foot"><div class="sm-langs">' + langs + '</div><button type="button" class="circle" data-menu-theme aria-label="' + esc(T.theme || '') + '"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button></div>';
           menu.addEventListener('click', (e) => {
             if (e.target === menu || e.target.closest('[data-menu-close]')) menu.close();

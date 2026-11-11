@@ -163,6 +163,7 @@ class Site:
   <a class="brand" href="{home}">{LOGO.format(s=40)}<span>Shisei</span></a>
   <div class="nav-links">
     <a href="{home}#all">{esc(T["navPoses"])}</a>
+    <a href="{home}#studio" class="nav-studio"><span>{esc(T["navStudio"])}</span><span class="nav-new">NEW</span></a>
     <a href="{rel}{PREFIX[loc]}changelog/">{esc(T["navChangelog"])}</a>
   </div>
   <div class="nav-tools">
@@ -175,6 +176,7 @@ class Site:
     <div class="foot-brand">{LOGO.format(s=28)}<strong>Shisei 姿勢</strong><span>{esc(T["footer"])}</span></div>
     <nav class="foot-links" aria-label="Footer">
       <a href="{self.repo}">GitHub</a>
+      <a href="https://github.com/wquguru/dsh-shisei">dsh-shisei</a>
       <a href="{rel}{PREFIX[loc]}changelog/">{esc(T["navChangelog"])} v{self.version}</a>
       <a href="{rel}catalog.json">catalog.json</a>
     </nav>

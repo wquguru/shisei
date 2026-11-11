@@ -4,6 +4,22 @@
 # tag: new | improve | announce | removed. link: an in-site path without language prefix (/, /changelog/, /pose/P001/),
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
+  - date: 2026-11-11
+    tag: announce
+    title: Shoot short dramas with the library
+    desc: dsh-shisei, a free plugin for DeepSeek Harness, turns a one-line story into a 9:16 short with dialogue and subtitles, using scenes, props and clothes from this library on your own cloud GPU.
+    link: /#studio
+    cta: See how it works
+    title_zh: 用素材库拍短剧
+    desc_zh: dsh-shisei 是 DeepSeek Harness 的免费插件：写一句话故事，用这里的场景、道具和衣服，在你自己的云 GPU 上拍成带对白和字幕的 9:16 竖屏短剧。
+    cta_zh: 看看怎么拍
+    title_ja: 素材でショートドラマを撮る
+    desc_ja: DeepSeek Harness の無料プラグイン dsh-shisei。一文のストーリーから、このライブラリの背景・小物・衣装を使い、自分のクラウド GPU で台詞と字幕つきの 9:16 縦型動画を作ります。
+    cta_ja: 仕組みを見る
+    title_ko: 소재로 숏드라마 찍기
+    desc_ko: DeepSeek Harness용 무료 플러그인 dsh-shisei. 한 줄 이야기와 이 라이브러리의 배경·소품·옷으로, 내 클라우드 GPU에서 대사와 자막이 있는 9:16 세로 숏폼을 만듭니다.
+    cta_ko: 어떻게 찍는지 보기
+
   - date: 2026-11-02
     tag: improve
     title: Share any costume, prop or scene

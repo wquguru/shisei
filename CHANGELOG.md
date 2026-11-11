@@ -8,6 +8,12 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- Home page makes room for dsh-shisei, the plugin that shoots short dramas with the library (design canvas
+  version B, library first): a dark band between the hero and the grid (`#studio`: what it does, the author's test
+  numbers, a link to the repo, its screenshot as `web/studio-{800,1320}.webp`), a "Short dramas · NEW" nav link on
+  every page and in the phone menu, the hero badge's first half pointing at the band, and a dsh-shisei footer link.
+  The making-of post moves from the hero badge to the footer. Four languages; the band says the plugin UI is
+  Chinese-only for now.
 - Library items can be shared: the library lightbox gets Share and an item-page link. Every general-rated item has a
   page per language (`<lib>/<ID>/`, `site_pages.item_page`: views, names, prompt, previous / next, same category) with
   its own 1200×630 card, and each library page a card of its own instead of the home card (`og_cards.item_card`,

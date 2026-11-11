@@ -1029,3 +1029,33 @@ body[data-kind="line"] .ctile img, body[data-kind="line"] .clb-stage > img, body
   .tp-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 .tray-st small { overflow: hidden; text-overflow: ellipsis; }
+
+/* dsh-shisei band (docs/DESIGN.md, 官网：素材站 + dsh-shisei): dark in both themes; the border keeps its edge on the
+   dark page. Placed between the hero and the grid, so the pose grid stays one scroll away. */
+.nav-studio { display: inline-flex; align-items: center; gap: 7px; }
+.nav-new { padding: 2px 7px; border-radius: 999px; background: var(--new); color: var(--new-ink); font: 500 11px var(--mono); letter-spacing: 0.02em; }
+.studio { padding-top: 16px; }
+.studio-card { display: flex; flex-wrap: wrap; overflow: hidden; border-radius: 34px; border: 1px solid var(--line); background: #18181B; color: #F2EFE9; }
+.studio-t { flex: 1 1 420px; min-width: 0; box-sizing: border-box; padding: 48px; display: flex; flex-direction: column; gap: 18px; }
+.studio-tag { align-self: flex-start; padding: 4px 12px; border-radius: 999px; background: var(--accent); color: #18181B; font: 500 13px var(--mono); }
+.studio h2 { margin: 0; font-size: clamp(30px, 3.4vw, 46px); line-height: 1.12; font-weight: 800; letter-spacing: -0.035em; text-wrap: balance; word-break: keep-all; }
+.studio-t p { margin: 0; font-size: 17px; line-height: 1.65; color: #D9D4CB; }
+.studio-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; padding: 6px 0; }
+.studio-stats div { display: flex; flex-direction: column; gap: 4px; }
+.studio-stats b { font: 500 26px var(--mono); color: #FFFFFF; white-space: nowrap; }
+.studio-stats span { font-size: 13px; line-height: 1.4; color: #B7B1A7; }
+.studio-cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.studio-go { background: #F2EFE9; color: #18181B; border-color: #F2EFE9; }
+.studio-go:hover { background: #FFFFFF; }
+.studio-t .studio-note { font-size: 13px; line-height: 1.55; color: #9E988E; }
+.studio-shot { flex: 1 1 520px; min-height: 420px; position: relative; background: #0E0E0F; }
+.studio-shot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top left; display: block; }
+@media (max-width: 640px) {
+  .studio-card { border-radius: 22px; }
+  .studio-t { padding: 28px 20px; gap: 14px; }
+  .studio-t p { font-size: 15px; }
+  .studio-stats { gap: 10px; }
+  .studio-stats b { font-size: 19px; }
+  .studio-stats span { font-size: 12px; }
+  .studio-shot { min-height: 0; aspect-ratio: 1320 / 1000; }
+}
