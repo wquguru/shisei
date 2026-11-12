@@ -4,6 +4,22 @@
 # tag: new | improve | announce | removed. link: an in-site path without language prefix (/, /changelog/, /pose/P001/),
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
+  - date: 2026-11-12
+    tag: improve
+    title: See which items work in dsh-shisei
+    desc: Scenes, props, furniture and clothes that dsh-shisei can use now say so on their page and in the viewer. The plugin reads the library online, so there is nothing to download.
+    link: /scene/
+    cta: Browse scenes
+    title_zh: 一眼看出哪些素材能在 dsh-shisei 里用
+    desc_zh: dsh-shisei 能用的场景、道具、家具和衣服，在大图和条目页上会标出来。插件在线读取素材库，不用下载。
+    cta_zh: 看看场景
+    title_ja: dsh-shisei で使える素材がひと目で
+    desc_ja: dsh-shisei で使える背景・小物・家具・衣装は、拡大表示と詳細ページにそう表示されます。プラグインはライブラリをオンラインで読むので、ダウンロードは不要です。
+    cta_ja: 背景を見る
+    title_ko: dsh-shisei에서 쓸 수 있는 소재 표시
+    desc_ko: dsh-shisei에서 쓸 수 있는 배경·소품·가구·옷은 크게 보기와 상세 페이지에 표시됩니다. 플러그인이 라이브러리를 온라인으로 읽어서 따로 받을 필요가 없습니다.
+    cta_ko: 배경 보기
+
   - date: 2026-11-11
     tag: announce
     title: Shoot short dramas with the library

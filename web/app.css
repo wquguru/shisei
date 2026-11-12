@@ -1059,3 +1059,12 @@ body[data-kind="line"] .ctile img, body[data-kind="line"] .clb-stage > img, body
   .studio-stats span { font-size: 12px; }
   .studio-shot { min-height: 0; aspect-ratio: 1320 / 1000; }
 }
+
+/* "Usable in dsh-shisei" on items of the four libraries the plugin reads (lightbox and item pages) */
+.in-plugin { display: inline-flex; align-items: center; gap: 8px; align-self: flex-start; max-width: 100%; padding: 4px 0;
+  color: var(--ink3); font-size: 13px; line-height: 1.4; text-decoration: none; }
+.in-plugin:hover, .in-plugin:focus-visible { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.in-plugin-tag { flex: none; padding: 1px 7px; border-radius: 999px; background: var(--new); color: var(--new-ink);
+  font: 500 11px var(--mono); text-decoration: none; }
+.pp-head .in-plugin { margin-top: 10px; }
+.in-plugin[hidden] { display: none; }

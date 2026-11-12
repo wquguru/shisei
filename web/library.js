@@ -238,6 +238,11 @@
     const pg = $('clbPage');
     pg.hidden = !hasPage(c);
     if (hasPage(c)) pg.href = itemPage(c);
+    // dsh-shisei lists general items of its four libraries only (it filters by rating itself).
+    const plug = $('clbPlugin');
+    plug.hidden = !DATA.plugin || c.r !== 'general';
+    plug.href = BASE + PREFIX[loc] + '#studio';
+    $('clbPluginText').textContent = T.inPlugin;
     history.replaceState(null, '', location.pathname + location.search + '#' + c.id + '-' + VIEWS[LB.v]);
   }
   function stepView(d) {
