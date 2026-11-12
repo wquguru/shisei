@@ -28,7 +28,28 @@
 - `#studio` 深色宣传带放在首屏和「全部姿势」之间，亮暗主题都是深色（深色主题靠描边分出边界）：标签、标题、一段说明、
   三个实测数字（29.4 s 成片、约 45 分钟、约 ¥3，注明是作者一次实测）、「了解 dsh-shisei」按钮（GitHub 仓库）、
   计费说明；右侧是插件截图（`web/studio-{800,1320}.webp`，里面是 AI 生成的虚构成年角色）。ja / en / ko 注明插件界面目前只有中文。
-- 文案只说插件能用的库（场景、道具、家具、衣服），不说姿势、动物、光线能带进插件。
+- 文案只说插件能用的库（场景、道具、家具、衣服），不说姿势、动物、光线能带进插件。插件在线读取素材库，不用下载或克隆；
+  界面有中 / 英 / 日 / 韩，剧本和字幕目前只有中文（`studioNote`）。
+- 这四个库里 `general` 的条目，大图和条目页上有一行「在 dsh-shisei 里拍短剧时 @ 它就能用」（`.in-plugin`），指向首页 `#studio`。
+  插件自己只列 `general`，所以 suggestive 的不标。
+
+### 插件读取的数据（约定，2026-11-12）
+dsh-shisei（`lib/library.js` 的 `parseOnlineSet`）在线读这四个文件，不需要本机克隆：
+
+| 地址 | 内容 |
+|---|---|
+| `<站点>/scenes.json`、`props.json`、`furniture.json`、`costumes.json` | `build_site.library_data()` 的输出 |
+| `<shisei-media>/images/<dir>/<w300\|w600\|w900>/<文件>` | 图片，三档 |
+
+插件依赖的字段：顶层 `schema`（现在是 1）、`plugin`、`dir`（`<库>/<变体>`，如 `scene/plain`）、`views`、`items`；
+每个条目 `id`（`E001` 形）、`r`（`general` / `suggestive`，插件只用 `general`）、`n`（四语名字）、`sub`（null 或四语）、
+`desc`、`clause`（衣服是 `wearing …`，插件去掉前缀用）、`cat`、`g`（衣服：`F` / `M` / `U`）、`v`（按 `views` 顺序的文件名或 null，
+文件名是 `<库>_<ID>_<视角>.webp`）。
+
+- **版本 1 只加不改**：可以加字段；改名、删字段、改含义要换新路径（如 `v2/scenes.json`），旧路径照旧生成，因为已经装好的插件不认识新版本号。
+  插件遇到比自己新的 `schema` 会提示升级插件，不会把它当成「连不上」。
+- `build_site.py` 构建时和 `verify.py` 都跑 `check_plugin_feed`，形状不对就停，不要放松它。
+- 地址不能动（见上）；图片换文件要保持文件名规则。
 
 ## 性能（2026-11-01）
 - 字体：只自托管 Inter Tight（可变字重）和 JetBrains Mono 500 的拉丁子集，共约 65 KB，`font-display: swap`，HTML 里预加载 Inter Tight；

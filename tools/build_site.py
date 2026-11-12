@@ -19,7 +19,7 @@ from html.parser import HTMLParser
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))  # -I drops the script dir from sys.path
 import og_cards, site_pages  # noqa: E402
-from site_pages import CAT_KEYS, HTML_LANG, LOCS, NAME_KEY, PREFIX, TINT, VIEWS, Site, esc, fill  # noqa: E402
+from site_pages import PLUGIN_LIBS, CAT_KEYS, HTML_LANG, LOCS, NAME_KEY, PREFIX, TINT, VIEWS, Site, esc, fill  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DEFAULT_SITE = "https://wquguru.github.io/shisei"
@@ -98,6 +98,53 @@ def clause(lib, c):
     return "lit by " + first_clause(c.get("keep_en"))
 
 
+# What dsh-shisei reads (docs/DESIGN.md, 插件读取的数据): the plugin fetches <site>/{scenes,props,furniture,costumes}.json
+# and the pictures at <media>/images/<dir>/<tier>/<file>. Version 1 may only grow (new fields); renaming or removing a
+# field, or changing what one means, ships under a new path instead, since plugins already installed cannot read a
+# bumped number. check_plugin_feed fails the build (and verify.py) when the shape the plugin relies on breaks.
+PLUGIN_SCHEMA = 1
+PLUGIN_ID = re.compile(r"^[A-Z][0-9]{3}$")
+
+
+def check_plugin_feed(lib, D):
+    """Errors in one library's data file against what dsh-shisei reads (lib/library.js parseOnlineSet)."""
+    L, errs = LIBS[lib], []
+    if D.get("schema") != PLUGIN_SCHEMA:
+        errs.append(f"{lib}: schema should be {PLUGIN_SCHEMA}")
+    if D.get("dir") != L["dir"] or not re.fullmatch(r"[a-z]{3,12}/[a-z]{2,12}", D.get("dir", "")) or D["dir"].split("/")[0] != lib:
+        errs.append(f"{lib}: dir {D.get('dir')!r} is not <library>/<variant>")
+    if list(D.get("views") or []) != list(L["views"]):
+        errs.append(f"{lib}: views differ from LIBS")
+    ids = set()
+    for it in D.get("items") or []:
+        i = it.get("id", "?")
+        if not PLUGIN_ID.match(str(i)) or i in ids:
+            errs.append(f"{lib} {i}: id not unique or not like E001")
+        ids.add(i)
+        if it.get("r") not in ("general", "suggestive"):
+            errs.append(f"{lib} {i}: r should be general or suggestive")
+        if not all(isinstance((it.get("n") or {}).get(l), str) and it["n"][l] for l in LOCS):
+            errs.append(f"{lib} {i}: n needs a name in every language")
+        if it.get("sub") is not None and not all(isinstance(it["sub"].get(l), str) for l in LOCS):
+            errs.append(f"{lib} {i}: sub is null or a name per language")
+        for k in ("desc", "clause", "cat"):
+            if not isinstance(it.get(k), str):
+                errs.append(f"{lib} {i}: {k} should be a string")
+        if lib == "costume" and it.get("g") not in ("F", "M", "U"):
+            errs.append(f"{lib} {i}: g should be F, M or U")
+        v = it.get("v")
+        if not isinstance(v, list) or len(v) != len(L["views"]) or not any(v):
+            errs.append(f"{lib} {i}: v should list one file or null per view")
+            continue
+        for view, f in zip(L["views"], v):
+            if f is not None and not re.fullmatch(r"[a-z]{3,10}_" + i + "_" + view + r"\.webp", f):
+                errs.append(f"{lib} {i}: {f!r} is not <library>_{i}_{view}.webp")
+            for t in ("w300", "w600", "w900") if f else ():
+                if not (ROOT / "images" / L["dir"] / t / f).exists():
+                    errs.append(f"{lib} {i}: images/{L['dir']}/{t}/{f} missing")
+    return errs
+
+
 def library_data(lib):
     """One library as its page reads it: items with at least one view that passed QC (the library's qc.json decides
     what is in its data file), trimmed to what the page shows. Lingerie is public and blurred like the suggestive
@@ -119,7 +166,7 @@ def library_data(lib):
             item["g"] = c.get("gender", "U")
         items.append(item)
     order = sorted(cats, key=lambda k: cats[k]["order"])
-    return {"lib": lib, "views": list(L["views"]), "dir": L["dir"], "kind": L["kind"],
+    return {"schema": PLUGIN_SCHEMA, "plugin": lib in PLUGIN_LIBS, "lib": lib, "views": list(L["views"]), "dir": L["dir"], "kind": L["kind"],
             "cats": [{"key": k, "name": cats[k]["name"]} for k in order if any(i["cat"] == k for i in items)],
             "items": items}
 
@@ -386,6 +433,9 @@ def main() -> None:
     # Library images and library share cards go to the image host when there is one (DESIGN.md, 素材库与搭配).
     media = args.media.rstrip("/") + "/" if args.media else None
     libs = {lib: library_data(lib) for lib in LIBS}
+    feed_errs = [e for lib in PLUGIN_LIBS for e in check_plugin_feed(lib, libs[lib])]
+    if feed_errs:
+        sys.exit("dsh-shisei data contract broken (docs/DESIGN.md):\n  " + "\n  ".join(feed_errs))
     # Item pages and cards: general-rated items only, as for poses (D-06; the lingerie category is all suggestive, D-11).
     general = {lib: [c for c in D["items"] if c["r"] != "suggestive"] for lib, D in libs.items()}
     site = Site(site_url, args.repo.rstrip("/"), ver, S, poses, og=bool(chrome), media=media)

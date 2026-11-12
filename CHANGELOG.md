@@ -8,6 +8,13 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- The four library files dsh-shisei reads (`scenes.json`, `props.json`, `furniture.json`, `costumes.json` at the
+  site root) carry `schema: 1` and `plugin: true`, and their shape is a contract (docs/DESIGN.md): `build_site.py`
+  and `verify.py` stop when a field the plugin relies on breaks (`check_plugin_feed`). Version 1 only grows; a
+  breaking change ships under a new path, since installed plugins cannot read a bumped number.
+- General items of those four libraries say "use it in dsh-shisei" in the lightbox and on their item page, linking to
+  the home page's `#studio` band; the band's note says the plugin reads the library online (nothing to download) and,
+  in ja / en / ko, that its interface now speaks the reader's language while scripts and subtitles stay Chinese.
 - Home page makes room for dsh-shisei, the plugin that shoots short dramas with the library (design canvas
   version B, library first): a dark band between the hero and the grid (`#studio`: what it does, the author's test
   numbers, a link to the repo, its screenshot as `web/studio-{800,1320}.webp`), a "Short dramas · NEW" nav link on

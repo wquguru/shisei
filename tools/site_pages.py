@@ -17,6 +17,8 @@ CAT_KEYS = ("Sitting", "Standing", "Kneeling", "Lying", "Side sit / W-sit", "Squ
 TINT = ("#D3D1E6", "#AFC3E0", "#BCD3C6", "#E3CBB0", "#EBC0BC", "#C7DCD6", "#E6B7A1", "#CBD0AC", "#DDB9C8")
 MON = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November",
        "December")
+# The libraries dsh-shisei reads (scenes, props, furniture, clothes); their general items say so on the site.
+PLUGIN_LIBS = ("scene", "prop", "furniture", "costume")
 
 LICENSE = "https://creativecommons.org/publicdomain/zero/1.0/"  # D-01: images and data are CC0; code is Apache-2.0
 # Google image metadata asks for copyrightNotice beside license; under CC0 it states the dedication, not a claim.
@@ -448,6 +450,8 @@ class Site:
     <div class="lb-desc-h"><span>{esc(T["itemDescLabel"])}</span><button type="button" class="pill light tiny" data-copy="{esc(c["desc"])}">{esc(T["copy"])}</button></div>
     <p lang="en">{esc(c["desc"])}</p>
   </section>""" if c.get("desc") else "")
+        plugin = (f'\n    <a class="in-plugin" href="{home}#studio"><span class="in-plugin-tag">dsh</span>{esc(T["inPlugin"])}<span aria-hidden="true">→</span></a>'
+                  if lib in PLUGIN_LIBS else "")
         body = f"""<main id="main" class="wrap page pose-page">
   <nav class="crumbs" aria-label="{esc(T["crumb"])}"><a href="{home}">Shisei</a><span aria-hidden="true">/</span><a href="{lib_home}">{esc(L["name"])}</a><span aria-hidden="true">/</span><a href="{lib_home}?cat={c["cat"]}#all">{esc(cat)}</a><span aria-hidden="true">/</span><span aria-current="page">{c["id"]}</span></nav>
   <header class="pp-head">
@@ -457,7 +461,7 @@ class Site:
     <div class="pp-actions">
       <a class="pill dark small" href="{lib_home}#{c["id"]}-{D["views"][c["m"]]}">{esc(T["openInLibrary"])}</a>
       {share}
-    </div>
+    </div>{plugin}
   </header>{desc_box}
   <section class="pp-sec" aria-labelledby="angles-h">
     <h2 id="angles-h">{esc(T["viewsTitle"])}</h2>

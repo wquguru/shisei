@@ -10,7 +10,8 @@
 - every photo has a `pass` in qc.json photos and exists in both tiers; nothing under images/ is unreferenced;
 - every map view (catalog `maps`) belongs to a passed line view of the same file, has a `pass` in qc.json maps and
   exists as clay, depth and normal in every tier;
-- every README download link names a zip of the data/packs.json version.
+- every README download link names a zip of the data/packs.json version;
+- the scene / prop / furniture / costume data files keep the shape dsh-shisei reads (docs/DESIGN.md).
 """
 import json, pathlib, re, sys
 
@@ -90,6 +91,7 @@ def main() -> int:
                     errs.append(f"{md}: download link {m.group(2)} is not in data/packs.json v{packs['version']}")
     errs += check_costumes()
     errs += check_series()
+    errs += check_plugin_feed()
     for s in sorted({p["series"] for p in cat}):
         ps = [p for p in cat if p["series"] == s]
         shown = [p for p in ps if any(p["views"].values())]
@@ -176,6 +178,13 @@ def check_series() -> list:
         n = sum(1 for i in data["items"] for v in data["views"] if i["views"].get(v))
         print(f"{lib}: {len(shown)}/{len(data['items'])} items shown, {n}/{len(data['items']) * len(data['views'])} views pass")
     return errs
+
+
+def check_plugin_feed() -> list:
+    """The library data files dsh-shisei reads, built as the site builds them (tools/build_site.py check_plugin_feed)."""
+    sys.path.insert(0, str(ROOT / "tools"))
+    import build_site as B
+    return [e for lib in B.PLUGIN_LIBS for e in B.check_plugin_feed(lib, B.library_data(lib))]
 
 
 if __name__ == "__main__":
