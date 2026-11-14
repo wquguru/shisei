@@ -5,6 +5,22 @@
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
   - date: 2026-11-13
+    tag: improve
+    title: All poses on their own page
+    desc: The pose grid with its filters now has a page of its own. The home page keeps the library intro and the moving tiles; old links to a pose still open it.
+    link: /poses/
+    cta: Browse all poses
+    title_zh: 全部姿势有了自己的页面
+    desc_zh: 姿势网格和筛选搬到了单独的页面，首页保留素材库介绍和滚动方块；以前分享的姿势链接照样能打开。
+    cta_zh: 浏览全部姿势
+    title_ja: すべてのポーズを専用ページに
+    desc_ja: ポーズの一覧と絞り込みは専用ページに移りました。トップページには素材ライブラリの紹介と流れるタイルが残り、以前のポーズのリンクもそのまま開けます。
+    cta_ja: すべてのポーズを見る
+    title_ko: 모든 포즈를 전용 페이지로
+    desc_ko: 포즈 목록과 필터가 전용 페이지로 옮겨졌습니다. 첫 화면에는 소재 라이브러리 소개와 흐르는 타일이 남고, 예전에 공유한 포즈 링크도 그대로 열립니다.
+    cta_ko: 모든 포즈 보기
+
+  - date: 2026-11-13
     tag: announce
     title: Shisei now leads with its video studio
     desc: The home page opens with dsh-shisei, the open-source DeepSeek Harness plugin for short dramas and dance remakes on your own GPU. The pose library and the other libraries are right below.
@@ -120,7 +136,7 @@ entries:
     tag: new
     title: Clay, depth and normal maps
     desc: "Most angles now have three formats aligned with the line art: a shaded grey clay mannequin, plus depth and normal maps for ControlNet. Switch in the lightbox; a slider overlays the line art."
-    link: /#P001-front-clay
+    link: /poses/#P001-front-clay
     cta: Try it on P001
     title_zh: 新增白模、深度图、法线图
     desc_zh: 大部分机位多了三种格式，都按线稿做成、和线稿逐像素对齐：带体积明暗的灰色白模，以及给 ControlNet 用的深度图和法线图。打开一套姿势就能切换，底部滑杆可以把线稿叠上去对照。
@@ -248,7 +264,7 @@ entries:
     tag: improve
     title: Sexy poses are blurred, not hidden
     desc: The sexy and duo series now sit in the gallery blurred instead of hidden. Tap one to see it, or flip the switch above the grid to show them all.
-    link: /?series=sexy
+    link: /poses/?series=sexy
     cta: See the series
     title_zh: 性感姿势改为模糊，不再隐藏
     desc_zh: 全身・性感和双人系列现在直接出现在图库里，只是先模糊。点一张就能单独看，或者拨一下网格上方的开关全部显示。
@@ -376,7 +392,7 @@ entries:
     tag: new
     title: 23 new lying, squatting, leaning, arching and twisting poses
     desc: Five lying, six squatting, six leaning forward, three arching back and three twisting poses, each drawn from five angles.
-    link: /?new=1#all
+    link: /poses/?new=1
     cta: See the new poses
     title_zh: 新增 23 套：躺、蹲、前倾、后仰、扭转
     desc_zh: 躺姿 5 套、蹲姿 6 套、前倾 6 套、后仰 3 套、扭转 3 套，每套都有五个机位。

@@ -51,7 +51,7 @@
     return want >= 0 && fs[want] ? want : fs.findIndex(Boolean);
   }
   const picked = () => ORDER.filter((k) => state.items[k]);
-  const poseHref = (p) => home + '#' + p.id + '-' + POSE_VIEWS[p.v];
+  const poseHref = (p) => home + 'poses/#' + p.id + '-' + POSE_VIEWS[p.v];
   const itemHref = (lib, x, v) => libPage(lib) + '#' + x.id + '-' + LIBS.get(lib).views[v];
   const libName = (lib) => T.libs[lib].name;
   const nameOf = (x) => (x.names && x.names[loc]) || x.id;
@@ -92,7 +92,7 @@
   }
   function emptySlot(kind) {
     const isPose = kind === 'pose';
-    return '<a class="tray-slot empty' + (page === kind ? ' cur' : '') + '" href="' + esc(isPose ? home + '#all' : libPage(kind)) + '" data-slot="' + kind + '">' +
+    return '<a class="tray-slot empty' + (page === kind ? ' cur' : '') + '" href="' + esc(isPose ? home + 'poses/' : libPage(kind)) + '" data-slot="' + kind + '">' +
       '<span class="tray-plus" aria-hidden="true">+</span><span class="tray-st"><small>' + esc(isPose ? TC.slotPose : libName(kind)) + '</small><b>' + esc(isPose ? TC.pickPose : libName(kind)) + '</b></span></a>';
   }
   function cardHtml(m) {
@@ -102,7 +102,7 @@
       (m.lib === 'pose' ? ' style="--tint:' + esc(m.x.tint || 'var(--tile)') + '"' : '') + '><img src="' + esc(m.src('w600')) + '" alt="' + esc(m.x.id + ' ' + nameOf(m.x)) + '" loading="lazy"></a>' +
       '<span class="tp-meta"><small>' + esc(lab + ' · ' + TC.views[views[m.v]]) + '</small><b>' + esc(nameOf(m.x)) + '</b><span class="mono">' + esc(m.x.id) + '</span></span>' +
       '<span class="tp-acts">' + (SHARE ? '' : '<a class="tp-ic" href="' + esc(m.src('w900')) + '" download="' + m.file + '" aria-label="' + esc(TC.dl + ' ' + m.x.id) + '">' + ICON_DL + '</a>') +
-      '<a class="tp-ic tp-change" href="' + esc(m.lib === 'pose' ? home + '#all' : libPage(m.lib)) + '">' + esc(TC.change) + '</a>' +
+      '<a class="tp-ic tp-change" href="' + esc(m.lib === 'pose' ? home + 'poses/' : libPage(m.lib)) + '">' + esc(TC.change) + '</a>' +
       (m.lib === 'pose' ? '' : '<button type="button" class="tp-ic" data-tray="remove:' + m.lib + '" aria-label="' + esc(TC.remove(lab)) + '">' + ICON_X + '</button>') + '</span></div>';
   }
 

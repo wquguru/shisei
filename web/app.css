@@ -1130,7 +1130,7 @@ body[data-kind="line"] .ctile img, body[data-kind="line"] .clb-stage > img, body
 .p-track { position: relative; height: 2px; margin: 10px 8px 0; background: var(--line); }
 .p-dot { position: absolute; top: -4px; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: var(--accent); animation: p-travel var(--dur, 7s) linear infinite; }
 .p-steps { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(var(--n, 5), minmax(0, 1fr)); gap: 6px; }
-.p-steps li { padding: 10px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); display: flex; flex-direction: column; gap: 6px; animation: p-lit var(--dur, 7s) linear infinite both; }
+.p-steps li { padding: 10px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); display: flex; flex-direction: column; gap: 6px; animation: p-lit var(--dur, 7s) linear infinite;  /* no backwards fill: steps waiting for their turn stay unlit */ }
 .p-steps span { font-size: 14px; font-weight: 600; line-height: 1.3; }
 .p-steps em { align-self: flex-start; padding: 2px 7px; border-radius: 6px; font: 500 11px var(--mono); font-style: normal; }
 .p-steps em.free { background: var(--ok-bg); color: var(--ok); }
@@ -1257,3 +1257,59 @@ body[data-kind="line"] .ctile img, body[data-kind="line"] .clb-stage > img, body
 html:lang(ko) .p-hero-in, html:lang(ko) .p-sec { word-break: keep-all; }
 html:lang(ja) .p-title { font-size: clamp(34px, 5vw, 72px); }
 @media (max-width: 720px) { html:lang(ja) .p-title { font-size: 32px; } }
+
+/* ---- Roomier home and the pose grid on its own page (2026-11-13, design canvas 「P2 宽松版」) ---- */
+[data-page="home"] .poses-only, [data-page="poses"] .home-only { display: none !important; }
+.poses-head { padding-top: 56px; padding-bottom: 8px; display: flex; flex-direction: column; gap: 14px; }
+.poses-head h1 { margin: 0; font-size: clamp(34px, 4.4vw, 60px); line-height: 1.1; font-weight: 600; letter-spacing: -0.03em; }
+.poses-cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.p-hero { padding-top: 136px; }
+.p-hero-in { gap: 36px; }
+.p-title { line-height: 1.14; }
+.p-lines { gap: 14px; margin-top: 8px; }
+.p-lead { margin-top: -8px; max-width: 640px; font-size: 19px; line-height: 1.75; }
+.p-cta { gap: 14px; margin-top: 4px; }
+.p-stage { margin-top: 68px; }
+.p-cap { margin-top: -12px; max-width: 760px; line-height: 1.7; }
+.p-sec { padding-top: 168px; }
+.p-promise { gap: 24px; }
+.p-card { padding: 40px 36px; gap: 16px; }
+.p-card p, .p-case-t > p, .p-install p { line-height: 1.8; }
+.p-head { margin-bottom: 64px; }
+.p-cases { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 24px; }
+.p-case { flex-direction: column; flex-wrap: nowrap; }
+.p-case-img { flex: none; min-height: 0; aspect-ratio: 16 / 9; }
+.p-case-t { flex: 1; padding: 40px; gap: 22px; }
+.p-legend { display: flex; gap: 18px; font-size: 12px; color: var(--ink4); }
+.p-legend > span { display: inline-flex; align-items: center; gap: 6px; }
+.p-legend i, .p-steps i { flex: none; width: 8px; height: 8px; border-radius: 50%; }
+.p-legend i.free, .p-steps i.free { background: var(--ok); }
+.p-legend i.gpu, .p-steps i.gpu { background: var(--ink2); }
+.p-steps { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.p-steps li { padding: 14px 12px; }
+.p-steps span { display: inline-flex; align-items: center; gap: 8px; font-weight: 500; }
+.p-install { padding: 72px 64px; gap: 64px; }
+.p-install .p-req { font-size: 14px; color: var(--ink4); }
+.lib-hero { padding-top: 168px; }
+.foot { margin-top: 168px; }
+@media (max-width: 720px) {
+  .p-hero { padding-top: 56px; }
+  .p-hero-in { gap: 24px; }
+  .p-lead { margin-top: 0; font-size: 16px; }
+  .p-stage { margin-top: 16px; }
+  .p-cap { margin-top: -8px; }
+  .p-sec { padding-top: 96px; }
+  .p-promise { gap: 14px; }
+  .p-card { padding: 24px 20px; gap: 6px 14px; }
+  .p-head { margin-bottom: 28px; }
+  .p-case-t { padding: 20px; gap: 14px; }
+  .p-steps { gap: 6px; }
+  .p-steps li { padding: 10px 8px; }
+  .p-install { padding: 28px 20px; gap: 20px; }
+  .lib-hero { padding-top: 96px; }
+  .poses-head { padding-top: 28px; }
+  .foot { margin-top: 112px; }
+}
+.poses-cta .pill { height: 46px; padding: 0 20px; font-size: 15px; }
+[data-page="poses"] #all { padding-top: 24px; }
+.p-cta-row .pill { height: 50px; padding: 0 24px; font-size: 16px; }

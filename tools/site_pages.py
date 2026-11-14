@@ -167,7 +167,7 @@ class Site:
     </div>
     <nav class="foot-cols" aria-label="{esc(T["fLabel"])}">
       <div><h3>{esc(T["fPlugin"])}</h3>{a(home + "#studio", T["navDrama"])}{a(home + "#cases", T["navCases"])}{a(home + "#install", T["navInstall"])}{a(PLUGIN_REPO + "/releases", T["fReleases"], True)}</div>
-      <div><h3>{esc(T["fLib"])}</h3>{a(home + "#all", T["navPoses"])}{libs}{a(self.repo + "/releases/latest", T["fDownload"], True)}</div>
+      <div><h3>{esc(T["fLib"])}</h3>{a(home + "poses/", T["navPoses"])}{libs}{a(self.repo + "/releases/latest", T["fDownload"], True)}</div>
       <div><h3>{esc(T["fHelp"])}</h3>{a(PLUGIN_REPO + "#readme", T["pInstSteps"], True)}{a(PLUGIN_REPO + "#readme", T["fFaq"], True)}{a(PLUGIN_REPO + "/issues", T["fIssues"], True)}{a(rel + PREFIX[loc] + "changelog/", T["navChangelog"] + " v" + self.version)}</div>
       <div><h3>{esc(T["fOss"])}</h3>{a(PLUGIN_REPO, T["fRepoPlugin"], True)}{a(self.repo, T["fRepoLib"], True)}{a(PLUGIN_REPO + "/blob/main/LICENSE", T["fLicense"], True)}{a(X_URL, T["fX"], True)}</div>
     </nav>
@@ -213,7 +213,7 @@ class Site:
     <a href="{home}#studio">{esc(T["navDrama"])}</a>
     <a href="{home}#cases">{esc(T["navCases"])}</a>
     <a href="{home}#install">{esc(T["navInstall"])}</a>
-    <a href="{home}#all" class="nav-lib">{esc(T["navPoses"])}</a>
+    <a href="{home}poses/" class="nav-lib nav-poses">{esc(T["navPoses"])}</a>
     <a href="{rel}{PREFIX[loc]}changelog/" class="nav-lib">{esc(T["navChangelog"])}</a>
   </div>
   <div class="nav-tools">
@@ -313,13 +313,13 @@ class Site:
                  f'data-share-text="{esc(fill(T["shareText"], name=name))}" data-share-image="{esc(absimg(first))}">'
                  f'{SHARE_ICON}<span>{esc(T["share"])}</span></button>')
         main = f"""<main id="main" class="wrap page pose-page" style="--tint:{TINT[p["ci"]]}">
-  <nav class="crumbs" aria-label="{esc(T["crumb"])}"><a href="{home}">Shisei</a><span aria-hidden="true">/</span><a href="{home}?cat={p["ci"]}#all">{esc(cat)}</a><span aria-hidden="true">/</span><span aria-current="page">{p["id"]}</span></nav>
+  <nav class="crumbs" aria-label="{esc(T["crumb"])}"><a href="{home}">Shisei</a><span aria-hidden="true">/</span><a href="{home}poses/?cat={p["ci"]}">{esc(cat)}</a><span aria-hidden="true">/</span><span aria-current="page">{p["id"]}</span></nav>
   <header class="pp-head">
     <p class="pp-meta mono">{p["id"]} · {esc(cat)} · {esc(fill(T["anglesN"], n=n))}</p>
     <h1>{esc(name)}</h1>
     <dl class="lb-names" aria-label="{esc(T["otherNames"])}">{others}</dl>
     <div class="pp-actions">
-      <a class="pill dark small" href="{home}#{p["id"]}-front">{esc(T["openInGallery"])}</a>
+      <a class="pill dark small" href="{home}poses/#{p["id"]}-front">{esc(T["openInGallery"])}</a>
       {share}
     </div>
   </header>

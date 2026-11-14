@@ -1,6 +1,11 @@
 (() => {
   'use strict';
 
+  // The pose grid moved to poses/ (2026-11-13); older home links (#P001-diag, #all, ?series=…) land there instead.
+  if (document.body.dataset.page === 'home' && (/^#(all$|[A-Z]\d{3})/.test(location.hash) || /[?&](series|cat|angle|src|view|new)=/.test(location.search))) {
+    location.replace('poses/' + location.search + (location.hash === '#all' ? '' : location.hash));
+    return;
+  }
   const CATALOG = JSON.parse(document.getElementById('catalog').textContent);
   const I18N = window.I18N;
   const LANGS = ['zh', 'ja', 'en', 'ko'];
@@ -190,8 +195,8 @@
       const dur = (paid.length * STEP_GAP) + 's';
       c.style.setProperty('--dur', dur);
       c.style.setProperty('--n', paid.length);
-      ol.innerHTML = T['p' + k + 'Steps'].map((name, i) => '<li style="animation-delay:' + (i * STEP_GAP) + 's"><span>' + esc(name) + '</span><em class="' +
-        (paid[i] ? 'gpu' : 'free') + '">' + esc(paid[i] ? T.pGpu : T.pFree) + '</em></li>').join('');
+      ol.innerHTML = T['p' + k + 'Steps'].map((name, i) => '<li style="animation-delay:' + (i * STEP_GAP) + 's"><span><i class="' +
+        (paid[i] ? 'gpu' : 'free') + '" title="' + esc(paid[i] ? T.pGpu : T.pFree) + '"></i>' + esc(name) + '</span></li>').join('');
       c.querySelector('.p-facts').innerHTML = T['p' + k + 'Facts'].map((f) => '<span>' + esc(f) + '</span>').join('');
       c.querySelector('.p-case-img img').alt = T['p' + k] + ' · ' + T['p' + k + 'Facts'][0];
     });
@@ -1087,7 +1092,7 @@
     const p = byId.get(LB.id);
     const f = p.line[LB.v] || p.line[firstView(p.line)];
     window.ShiseiShare.open({
-      url: hasPosePage(p) ? posePage(p.id) : BASE + PREFIX[S.lang] + '#' + p.id + '-' + VIEWS[LB.v],
+      url: hasPosePage(p) ? posePage(p.id) : BASE + PREFIX[S.lang] + 'poses/#' + p.id + '-' + VIEWS[LB.v],
       heading: t().shareTitle,
       text: t().shareText.replace('{name}', nameOf(p)),
       image: new URL(src('line', 'w900', f), location.href).href

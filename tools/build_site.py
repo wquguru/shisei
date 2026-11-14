@@ -256,9 +256,9 @@ def audit_changelog(entries, pose_ids):
                     bad.append(f"{at}: {k}{sfx} uses internal term {hit[0]!r}")
         link = e.get("link", "")
         path = re.split(r"[?#]", link, 1)[0]
-        ok = path in ("/", "/changelog/") or path.strip("/") in LIBS or (re.fullmatch(r"/pose/(P\d{3})/", path) and path[6:10] in pose_ids)
+        ok = path in ("/", "/poses/", "/changelog/") or path.strip("/") in LIBS or (re.fullmatch(r"/pose/(P\d{3})/", path) and path[6:10] in pose_ids)
         if link and not ok:
-            bad.append(f"{at}: link {link} is not a site page (/, /changelog/, a library page or /pose/<id>/ of a catalog pose)")
+            bad.append(f"{at}: link {link} is not a site page (/, /poses/, /changelog/, a library page or /pose/<id>/ of a catalog pose)")
     return bad
 
 
@@ -453,30 +453,40 @@ def main() -> None:
     ltpl = (ROOT / "web/library.html").read_text()
     for loc in LOCS:
         T = S[loc]
-        rel = Site.rel(PREFIX[loc])
-        home = site.abs(PREFIX[loc])
-        ld = {"@context": "https://schema.org", "@graph": [
-            {"@type": "WebSite", "name": "Shisei", "alternateName": "Shisei 姿勢", "url": home, "inLanguage": HTML_LANG[loc],
-             "description": T["metaDesc"]},
-            {"@type": "Dataset", "name": T["metaTitle"], "description": T["metaDesc"], "url": home,
-             "inLanguage": HTML_LANG[loc], "version": ver, "license": site_pages.LICENSE,
-             "dateModified": stats["updated"],
-             "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json",
-                               "contentUrl": site.abs("catalog.json")}]}]}
-        head = site.head(loc, "", T["metaTitle"], T["metaDesc"], site.og_image(loc, "home"), T["ogAlt"], ld,
-                         feed=f"{rel}{PREFIX[loc]}changelog/changelog.xml")
-        noscript = "<noscript><nav class=\"wrap section\"><ul>" + "".join(
-            f'<li><a href="{rel}{PREFIX[loc]}pose/{p["id"]}/">{p["id"]} {esc(p["name_" + NAME_KEY[loc]])}</a></li>'
-            for p in poses) + "</ul></nav></noscript>"
-        doc = (tpl.replace("__HEAD__", head).replace("__HTMLLANG__", HTML_LANG[loc]).replace("__LOC__", loc)
-               .replace("__SKIP__", esc(T["skip"])).replace("__NOSCRIPT__", noscript)
-               .replace("__CHANGELOG__", f"{rel}{PREFIX[loc]}changelog/").replace("__BASE__", rel)
-               .replace("__CATALOG__", compact).replace("__REPO__", site.repo).replace("__VERSION__", ver)
-               .replace("__PACKS__", json.dumps(packs, separators=(",", ":")))
-               .replace("__FOOTER__", site.footer(loc, rel, rel + PREFIX[loc] or "./", site.langs(loc, rel, ""),
-                        f'<button type="button" class="linklike" data-share data-share-site>{esc(T["shareSite"])}</button>'
-                        f'<button type="button" class="linklike" data-open="terms" data-i18n="terms"></button>')))
-        write(PREFIX[loc], doc)
+        # The home page (plugin first, library intro) and poses/ (the pose grid) come from one template; data-page
+        # picks what each shows, and the gallery app runs on both (the home marquee opens the same lightbox).
+        for key, page in (("", "home"), ("poses/", "poses")):
+            rel = Site.rel(PREFIX[loc] + key)
+            url = site.abs(PREFIX[loc] + key)
+            if page == "home":
+                ld = {"@context": "https://schema.org", "@graph": [
+                    {"@type": "WebSite", "name": "Shisei", "alternateName": "Shisei 姿勢", "url": url, "inLanguage": HTML_LANG[loc],
+                     "description": T["metaDesc"]},
+                    {"@type": "Dataset", "name": T["metaTitle"], "description": T["metaDesc"], "url": site.abs(PREFIX[loc] + "poses/"),
+                     "inLanguage": HTML_LANG[loc], "version": ver, "license": site_pages.LICENSE,
+                     "dateModified": stats["updated"],
+                     "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json",
+                                       "contentUrl": site.abs("catalog.json")}]}]}
+                head = site.head(loc, key, T["metaTitle"], T["metaDesc"], site.og_image(loc, "home"), T["ogAlt"], ld,
+                                 feed=f"{rel}{PREFIX[loc]}changelog/changelog.xml")
+            else:
+                ptitle, pdesc = fill(T["posesTitle"], n=stats["sets"]), fill(T["posesDesc"], n=stats["sets"], views=f'{stats["views"]:,}')
+                head = site.head(loc, key, ptitle, pdesc, site.og_image(loc, "home"), T["ogAlt"], None,
+                                 feed=f"{rel}{PREFIX[loc]}changelog/changelog.xml")
+            noscript = "<noscript><nav class=\"wrap section\"><ul>" + "".join(
+                f'<li><a href="{rel}{PREFIX[loc]}pose/{p["id"]}/">{p["id"]} {esc(p["name_" + NAME_KEY[loc]])}</a></li>'
+                for p in poses) + "</ul></nav></noscript>"
+            hrel = rel + PREFIX[loc] or "./"
+            doc = (tpl.replace("__HEAD__", head).replace("__HTMLLANG__", HTML_LANG[loc]).replace("__LOC__", loc)
+                   .replace("__PAGE__", page).replace("__HOME__", hrel).replace("__POSES__", rel + PREFIX[loc] + "poses/")
+                   .replace("__SKIP__", esc(T["skip"])).replace("__NOSCRIPT__", noscript)
+                   .replace("__CHANGELOG__", f"{rel}{PREFIX[loc]}changelog/").replace("__BASE__", rel)
+                   .replace("__CATALOG__", compact).replace("__REPO__", site.repo).replace("__VERSION__", ver)
+                   .replace("__PACKS__", json.dumps(packs, separators=(",", ":")))
+                   .replace("__FOOTER__", site.footer(loc, rel, hrel, site.langs(loc, rel, key),
+                            f'<button type="button" class="linklike" data-share data-share-site>{esc(T["shareSite"])}</button>'
+                            f'<button type="button" class="linklike" data-open="terms" data-i18n="terms"></button>')))
+            write(PREFIX[loc] + key, doc)
 
         # One page per library and language, like the gallery.
         for lib, D in libs.items():
@@ -603,7 +613,7 @@ def main() -> None:
     cat_day, cl_day = git_day("data/catalog.json"), entries[0]["date"]
     lib_day = {lib: git_day(f"data/{LIBS[lib]['data']}.json") for lib in LIBS}
     rows = []
-    for key, day, imgs in ([("", cat_day, []), ("changelog/", cl_day, [])] +
+    for key, day, imgs in ([("", cat_day, []), ("poses/", cat_day, []), ("changelog/", cl_day, [])] +
                            [(lib + "/", lib_day[lib], []) for lib in LIBS] +
                            [(f"pose/{p['id']}/", cat_day, [f for f in p["line"] if f]) for p in poses] +
                            [(f"{lib}/{c['id']}/", lib_day[lib], []) for lib in LIBS for c in general[lib]]):

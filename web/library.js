@@ -162,7 +162,7 @@
     // With a pose waiting, the tray opens the pair: that is the confirmation.
     if (tray.get().pose) return;
     // No pose yet: the pose is the anchor, so go and pick one; the tray keeps the item.
-    else location.href = BASE + PREFIX[loc] + '#all';
+    else location.href = BASE + PREFIX[loc] + 'poses/';
   }
   window.addEventListener('shisei:combo', () => {
     document.querySelectorAll('.ccard').forEach((card) => {

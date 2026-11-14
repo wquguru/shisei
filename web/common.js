@@ -149,7 +149,7 @@
         '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>' +
         '<div class="libnav-pop" id="libnavPop" hidden>' + groups.map(([g, ls]) => '<span class="libnav-g">' + esc(TL.groups[g]) + '</span><div class="libnav-row">' + ls.map((l) => libLink(l, 'lk')).join('') + '</div>').join('') + '</div>';
       // Right after the poses link: the plugin's links come first in the nav, the library after them.
-      const first = links.querySelector('a[href$="#all"]') || links.querySelector('a');
+      const first = links.querySelector('a.nav-poses') || links.querySelector('a');
       links.insertBefore(box, first ? first.nextSibling : links.firstChild);
       const btn = box.querySelector('button'), pop = box.querySelector('.libnav-pop');
       const setOpen = (o) => { btn.setAttribute('aria-expanded', String(o)); pop.hidden = !o; };
@@ -182,8 +182,8 @@
           menu.innerHTML = '<div class="sm-h"><a class="brand" href="' + esc(home || './') + '"><svg class="logo" width="36" height="36" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="24" fill="#18181B"/><circle cx="60" cy="23" r="8" fill="none" stroke="#F5F2ED" stroke-width="6"/><path d="M57 37C38 52 42 68 64 82" fill="none" stroke="#E07A52" stroke-width="11" stroke-linecap="round"/></svg><span>拾戏</span><span class="brand-sub">Shisei</span></a>' +
             '<button type="button" class="circle" data-menu-close aria-label="' + esc(T.close || '×') + '"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>' +
             '<nav class="sm-body" aria-label="' + esc(TL.menu) + '">' +
-            '<a class="sm-poses" href="' + esc(home + '#all') + '"><span>' + esc(T.navPoses) + '</span><span class="mono">' + esc(TL.poseSets(NAV.poses)) + ' →</span></a>' +
-            '<div class="sm-series">' + NAV.series.map(([k, n]) => '<a href="' + esc(home + '?series=' + k + '#all') + '"><i style="background:' + tint[k] + '"></i><span>' + esc(ser[k] || k) + '</span><span class="mono">' + n + '</span></a>').join('') + '</div>' +
+            '<a class="sm-poses" href="' + esc(home + 'poses/') + '"><span>' + esc(T.navPoses) + '</span><span class="mono">' + esc(TL.poseSets(NAV.poses)) + ' →</span></a>' +
+            '<div class="sm-series">' + NAV.series.map(([k, n]) => '<a href="' + esc(home + 'poses/?series=' + k) + '"><i style="background:' + tint[k] + '"></i><span>' + esc(ser[k] || k) + '</span><span class="mono">' + n + '</span></a>').join('') + '</div>' +
             '<span class="sm-label">' + esc(TL.libsLabel) + '</span><div class="sm-libs">' + NAV.libs.map((l) => libLink(l, 'sm-lib')).join('') + '</div>' +
             '<div class="sm-links"><a href="' + esc(home + '#studio') + '">' + esc(T.navDrama) + '</a><a href="' + esc(home + '#cases') + '">' + esc(T.navCases) + '</a><a href="' + esc(home + '#install') + '">' + esc(T.navInstall) + '</a><a href="' + esc(home + 'changelog/') + '">' + esc(T.navChangelog) + '</a><a href="' + esc(repo) + '">GitHub</a></div></nav>' +
             '<div class="sm-foot"><div class="sm-langs">' + langs + '</div><button type="button" class="circle" data-menu-theme aria-label="' + esc(T.theme || '') + '"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button></div>';
@@ -194,7 +194,7 @@
               const dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
               r.dataset.theme = dark ? 'light' : 'dark';
               try { localStorage.setItem('shisei.theme', r.dataset.theme); } catch (err) { /* private mode */ }
-            } else if (e.target.closest('a')) setTimeout(() => menu.close(), 0);  // same-page links (#all) still land
+            } else if (e.target.closest('a')) setTimeout(() => menu.close(), 0);  // same-page links (#install) still land
           });
           document.body.appendChild(menu);
         }
