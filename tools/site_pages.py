@@ -166,9 +166,9 @@ class Site:
       </div>
     </div>
     <nav class="foot-cols" aria-label="{esc(T["fLabel"])}">
-      <div><h3>{esc(T["fPlugin"])}</h3>{a(home + "#studio", T["navDrama"])}{a(home + "#cases", T["navCases"])}{a(home + "#install", T["navInstall"])}{a(PLUGIN_REPO + "/releases", T["fReleases"], True)}</div>
-      <div><h3>{esc(T["fLib"])}</h3>{a(home + "poses/", T["navPoses"])}{libs}{a(self.repo + "/releases/latest", T["fDownload"], True)}</div>
-      <div><h3>{esc(T["fHelp"])}</h3>{a(PLUGIN_REPO + "#readme", T["pInstSteps"], True)}{a(PLUGIN_REPO + "#readme", T["fFaq"], True)}{a(PLUGIN_REPO + "/issues", T["fIssues"], True)}{a(rel + PREFIX[loc] + "changelog/", T["navChangelog"] + " v" + self.version)}</div>
+      <div><h3>{esc(T["fPlugin"])}</h3>{a(home + "#studio", T["navDrama"])}{a(home + "#serial", T["navSeries"])}{a(home + "#cases", T["navCases"])}{a(home + "#install", T["navInstall"])}{a(rel + PREFIX[loc] + "changelog/?product=plugin", T["fPluginLog"] + (" · v" + self.plugin_version if getattr(self, "plugin_version", None) else ""))}</div>
+      <div><h3>{esc(T["fLib"])}</h3>{a(home + "poses/", T["navPoses"])}{libs}{a(self.repo + "/releases/latest", T["fDownload"], True)}{a(rel + PREFIX[loc] + "changelog/?product=library", T["fLibLog"] + " · v" + self.version)}</div>
+      <div><h3>{esc(T["fHelp"])}</h3>{a(PLUGIN_REPO + "#readme", T["pInstSteps"], True)}{a(PLUGIN_REPO + "#readme", T["fFaq"], True)}{a(PLUGIN_REPO + "/issues", T["fIssues"], True)}{a(PLUGIN_REPO + "/releases", T["fReleases"], True)}</div>
       <div><h3>{esc(T["fOss"])}</h3>{a(PLUGIN_REPO, T["fRepoPlugin"], True)}{a(self.repo, T["fRepoLib"], True)}{a(PLUGIN_REPO + "/blob/main/LICENSE", T["fLicense"], True)}{a(X_URL, T["fX"], True)}</div>
     </nav>
     <div class="foot-legal">
@@ -346,25 +346,29 @@ class Site:
         page = PREFIX[loc] + key
         rel = self.rel(page)
         f = lambda e, k: e[k] if loc == "en" else e[f"{k}_{loc}"]
-        link = lambda e: rel + PREFIX[loc] + e["link"].lstrip("/") if e["link"] != "/" else (rel + PREFIX[loc] or "./")
+        link = lambda e: (e["link"] if e["link"].startswith("http") else
+                          rel + PREFIX[loc] + e["link"].lstrip("/") if e["link"] != "/" else (rel + PREFIX[loc] or "./"))
+        ext = lambda e: ' rel="noopener"' if e["link"].startswith("http") else ""
         months = []
         for e in entries:
             if not months or months[-1][0] != e["date"][:7]:
                 months.append((e["date"][:7], []))
             months[-1][1].append(e)
         newest = entries[0]["date"]
-        art = lambda e: f"""<article id="{e["id"]}" data-tag="{e["tag"]}" class="cl-item">
+        # data-tag carries the product: the page filters by plugin / library (common.js), the type stays a label.
+        art = lambda e: f"""<article id="{e["id"]}" data-tag="{e["product"]}" class="cl-item">
           <time datetime="{e["date"]}" class="mono">{esc(fmt_day(loc, e["date"]))}</time>
           <div class="cl-body">
-            <span class="cl-tag t-{e["tag"]}">{esc(T["tags"][e["tag"]])}</span>
-            <h3><a href="{esc(link(e))}">{esc(f(e, "title"))}</a></h3>
+            <span class="cl-meta"><span class="cl-prod p-{e["product"]}">{esc(T["product"][e["product"]])}</span>{f'<span class="mono cl-ver">v{esc(e["version"])}</span>' if e.get("version") else ""}<span class="cl-tag t-{e["tag"]}">{esc(T["tags"][e["tag"]])}</span></span>
+            <h3><a href="{esc(link(e))}"{ext(e)}>{esc(f(e, "title"))}</a></h3>
             <p>{esc(f(e, "desc"))}</p>
-            <a class="cl-cta" href="{esc(link(e))}">{esc(f(e, "cta"))} →</a>
+            <a class="cl-cta" href="{esc(link(e))}"{ext(e)}>{esc(f(e, "cta"))} →</a>
           </div>
         </article>"""
-        tags = [t for t in ("new", "improve", "announce", "removed") if any(e["tag"] == t for e in entries)]
-        filters = "".join(f'<button type="button" class="chip" data-filter="{t}" aria-pressed="{str(t == "all").lower()}">'
-                          f'{esc(T["filterAll"] if t == "all" else T["tags"][t])}</button>' for t in ["all"] + tags)
+        prods = [p for p in ("plugin", "library") if any(e["product"] == p for e in entries)]
+        count = lambda p: len(entries) if p == "all" else sum(e["product"] == p for e in entries)
+        filters = "".join(f'<button type="button" class="chip" data-filter="{p}" aria-pressed="{str(p == "all").lower()}">'
+                          f'{esc(T["filterAll"] if p == "all" else T["product"][p])} <span class="mono">{count(p)}</span></button>' for p in ["all"] + prods)
         feed = "changelog.xml"
         title, desc = T["clMetaTitle"], T["clMetaDesc"]
         ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": self.abs(page),
@@ -400,7 +404,8 @@ class Site:
     <id>{x(page)}#{e["id"]}</id>
     <title>{x(f(e, "title"))}</title>
     <updated>{e["date"]}T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="{x(self.abs(PREFIX[loc] + e["link"].lstrip("/")))}"/>
+    <link rel="alternate" type="text/html" href="{x(e["link"] if e["link"].startswith("http") else self.abs(PREFIX[loc] + e["link"].lstrip("/")))}"/>
+    <category term="{e["product"]}" label="{x(T["product"][e["product"]])}"/>
     <category term="{e["tag"]}" label="{x(T["tags"][e["tag"]])}"/>
     <summary>{x(f(e, "desc"))}</summary>
   </entry>""" for e in entries)

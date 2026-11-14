@@ -226,15 +226,17 @@ def parse_changelog(text):
     return entries, errs
 
 
-def audit_changelog(entries, pose_ids):
+def audit_changelog(entries, pose_ids, plugin=False):
+    """plugin=True: dsh-shisei's site/changelog.yaml, which adds `version` and links to the plugin's GitHub pages."""
     bad = []
+    need = NEED + (["version"] if plugin else [])
     for e in entries:
         at = f"line {e['line']} {e.get('title', '')!r}"
-        for k in NEED:
+        for k in need:
             if not e.get(k):
                 bad.append(f"{at}: missing {k}")
         for k in e:
-            if k != "line" and k not in NEED:
+            if k != "line" and k not in need:
                 bad.append(f"{at}: unknown key {k}")
         d = e.get("date", "")
         try:
@@ -255,6 +257,10 @@ def audit_changelog(entries, pose_ids):
                 if hit:
                     bad.append(f"{at}: {k}{sfx} uses internal term {hit[0]!r}")
         link = e.get("link", "")
+        if plugin:
+            if not link.startswith(PLUGIN_REPO + "/"):
+                bad.append(f"{at}: link {link} is not a page of {PLUGIN_REPO}")
+            continue
         path = re.split(r"[?#]", link, 1)[0]
         ok = path in ("/", "/poses/", "/changelog/") or path.strip("/") in LIBS or (re.fullmatch(r"/pose/(P\d{3})/", path) and path[6:10] in pose_ids)
         if link and not ok:
@@ -262,15 +268,31 @@ def audit_changelog(entries, pose_ids):
     return bad
 
 
-def changelog_entries(pose_ids):
+PLUGIN_REPO = "https://github.com/wquguru/dsh-shisei"
+
+
+def changelog_entries(pose_ids, plugin_file=None):
+    """The library's entries (web/changelog.yaml) and, when given, the plugin's (dsh-shisei site/changelog.yaml),
+    merged newest first; each carries `product` (library | plugin). The plugin repo is the source of its own entries,
+    so the site shows them without copying them here (docs/DESIGN.md, 更新日志：插件 + 素材库)."""
     entries, errs = parse_changelog((ROOT / "web/changelog.yaml").read_text())
     bad = errs + audit_changelog(entries, pose_ids) + ([] if entries else ["no entries"])
     if bad:
         sys.exit("web/changelog.yaml:\n  " + "\n  ".join(bad))
+    for e in entries:
+        e["product"] = "library"
+    plugin = []
+    if plugin_file:
+        plugin, errs = parse_changelog(pathlib.Path(plugin_file).read_text())
+        bad = errs + audit_changelog(plugin, pose_ids, plugin=True)
+        if bad:
+            sys.exit(f"{plugin_file}:\n  " + "\n  ".join(bad))
+        for e in plugin:
+            e["product"] = "plugin"
     slug = lambda s: re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:48]
-    for k, e in enumerate(entries):
-        e["id"], e["i"] = f"{e['date']}-{slug(e['title'])}", k
-    return sorted(entries, key=lambda e: (-int(e["date"].replace("-", "")), e["i"]))
+    for k, e in enumerate(plugin + entries):
+        e["id"], e["i"] = f"{e['date']}-{'v' + e['version'].replace('.', '-') + '-' if e.get('version') else ''}{slug(e['title'])}", k
+    return sorted(plugin + entries, key=lambda e: (-int(e["date"].replace("-", "")), e["i"]))
 
 
 # ---- checks on the output
@@ -332,12 +354,14 @@ HEADERS = """/assets/*
   Cache-Control: public, max-age=31536000, immutable
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
+/demo/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 /images/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 /og/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=86400
 """
-STAMPED = ("app.css", "app.js", "common.js", "i18n.js", "tray.js", "library.js")
+STAMPED = ("app.css", "app.js", "common.js", "i18n.js", "tray.js", "library.js", "demo.js")
 # The image host (a second Pages project) answers the tray's fetch() for the phone share sheet, so it allows any origin.
 MEDIA_HEADERS = """/images/*
   Access-Control-Allow-Origin: *
@@ -373,6 +397,8 @@ def main() -> None:
     ap.add_argument("--public", action="store_true")
     ap.add_argument("--media", default="", help="absolute URL of the image host for the libraries (DESIGN.md)")
     ap.add_argument("--media-out", default="site-media")
+    ap.add_argument("--plugin-changelog", default=os.environ.get("SHISEI_PLUGIN_CHANGELOG", str(ROOT.parent / "dsh-shisei/site/changelog.yaml")),
+                    help="dsh-shisei's reader-facing changelog, merged into /changelog/")
     args = ap.parse_args()
     site_url = args.site.rstrip("/")
 
@@ -400,8 +426,14 @@ def main() -> None:
              for p in catalog if p.get("series", "std") == "std" and p.get("rating", "general") == "general"
              and any(p["views"].values())]
     ver = version()
-    entries = changelog_entries({p["id"] for p in poses})
-    stats = library_stats(catalog, ver, entries[0]["date"])
+    plugin_cl = args.plugin_changelog if pathlib.Path(args.plugin_changelog).is_file() else None
+    if not plugin_cl:
+        print(f"warning: no plugin changelog at {args.plugin_changelog}; /changelog/ shows the library only", file=sys.stderr)
+        if args.public:
+            sys.exit("--public needs the plugin changelog (--plugin-changelog or a dsh-shisei checkout beside this repo)")
+    entries = changelog_entries({p["id"] for p in poses}, plugin_cl)
+    lib_entries = [e for e in entries if e["product"] == "library"]
+    stats = library_stats(catalog, ver, lib_entries[0]["date"])
     S = strings()
     for T in S.values():  # every count on a page comes from stats, the same numbers stats.json publishes
         for k in ("metaTitle", "metaDesc", "ogLine"):
@@ -439,6 +471,8 @@ def main() -> None:
     # Item pages and cards: general-rated items only, as for poses (D-06; the lingerie category is all suggestive, D-11).
     general = {lib: [c for c in D["items"] if c["r"] != "suggestive"] for lib, D in libs.items()}
     site = Site(site_url, args.repo.rstrip("/"), ver, S, poses, og=bool(chrome), media=media)
+    # Versions the footer names: the plugin's newest release (its changelog) and this library's version.
+    site.plugin_version = next((e["version"] for e in entries if e["product"] == "plugin"), None)
     write = lambda page, doc: ((out / page).mkdir(parents=True, exist_ok=True), (out / page / "index.html").write_text(doc))
 
     # Gallery home per language
@@ -525,6 +559,8 @@ def main() -> None:
             shutil.copy2(f, out / f.name)
     # Self-hosted Latin font subsets and their OFL licences (docs/LICENSING.md).
     shutil.copytree(ROOT / "web/fonts", out / "fonts")
+    # The home page's live demo: small frames, clips and the two fixed voices from the author's own runs (web/demo.js).
+    shutil.copytree(ROOT / "web/demo", out / "demo")
     (out / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=1) + "\n")
     for lib, D in libs.items():
         (out / f"{LIBS[lib]['data']}.json").write_text(json.dumps(D, ensure_ascii=False, indent=1) + "\n")

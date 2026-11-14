@@ -4,6 +4,22 @@
 # tag: new | improve | announce | removed. link: an in-site path without language prefix (/, /changelog/, /pose/P001/),
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
+  - date: 2026-11-14
+    tag: new
+    title: Try the plugin right on the home page
+    desc: The plugin window on the home page now works: pick segments and takes, circle a frame, talk to the director. Real runs play as short clips, and a new section shows series with fixed voices.
+    link: /#studio
+    cta: Try the demo
+    title_zh: 在首页直接试插件
+    desc_zh: 首页的插件窗口可以直接点：选段、换条、在画面上画圈、跟导演说话。实测案例变成会动的短片，新增「拍成系列」一段，能听角色的固定声音。
+    cta_zh: 去试一试
+    title_ja: トップページでプラグインを試せます
+    desc_ja: トップのプラグイン画面が操作できるようになりました。パートやテイクを選び、画面に丸を描き、監督と話せます。作例は動く短い映像に、シリーズと固定ボイスの紹介も追加。
+    cta_ja: 試してみる
+    title_ko: 첫 화면에서 플러그인을 바로 체험
+    desc_ko: 첫 화면의 플러그인 창을 직접 눌러 볼 수 있습니다. 구간과 테이크를 고르고, 화면에 동그라미를 그리고, 감독과 대화하세요. 사례는 움직이는 짧은 영상이 되었고 시리즈와 고정 목소리 소개도 추가했습니다.
+    cta_ko: 체험하기
+
   - date: 2026-11-13
     tag: improve
     title: All poses on their own page

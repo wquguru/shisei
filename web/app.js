@@ -174,82 +174,50 @@
     $('heroSeries').innerHTML = SERIES.map((k) => [k, poses.filter((p) => p.series === k).length]).filter((x) => x[1])
       .map(([k, c]) => '<span><i style="background:' + SERIES_TINT[k] + '"></i>' + esc(T.series[k]) + '<b>' + c + '</b></span>').join('');
     renderBand();
-    renderPlugin(T);
+    renderPlugin();
     $('howList').innerHTML = T.how.map((s) => '<li>' + esc(s) + '</li>').join('');
     $('termsList').innerHTML = T.termsItems.map((s) => '<li>' + esc(s) + '</li>').join('');
   }
 
-  /* plugin first (docs/DESIGN.md, 首页：插件为主): the two lines switch the window every 7 s until the reader picks one */
+  /* plugin first (docs/DESIGN.md, 首页：插件为主): the two lines switch the live demo (web/demo.js) every 9 s until the
+     reader picks a line or clicks inside the demo; then it stays put. */
   const PL = { line: 'drama', pinned: false, timer: 0 };
-  const STEP_GAP = 1.2;  // seconds each step of a case stays lit
-  function renderPlugin(T) {
-    const stage = document.querySelector('.p-stage');
-    if (!stage) return;
-    const fill = (sel, list) => document.querySelectorAll(sel).forEach((el, i) => { el.textContent = list[i] || ''; });
-    fill('.p-chips-drama span', T.pChipsDrama);
-    fill('.p-chips-remake span', T.pChipsRemake);
-    document.querySelectorAll('.p-case').forEach((c) => {
-      const k = c.dataset.steps === 'drama' ? 'Drama' : 'Remake';
-      const ol = c.querySelector('.p-steps');
-      const paid = ol.dataset.paid.split(',').map(Number);
-      const dur = (paid.length * STEP_GAP) + 's';
-      c.style.setProperty('--dur', dur);
-      c.style.setProperty('--n', paid.length);
-      ol.innerHTML = T['p' + k + 'Steps'].map((name, i) => '<li style="animation-delay:' + (i * STEP_GAP) + 's"><span><i class="' +
-        (paid[i] ? 'gpu' : 'free') + '" title="' + esc(paid[i] ? T.pGpu : T.pFree) + '"></i>' + esc(name) + '</span></li>').join('');
-      c.querySelector('.p-facts').innerHTML = T['p' + k + 'Facts'].map((f) => '<span>' + esc(f) + '</span>').join('');
-      c.querySelector('.p-case-img img').alt = T['p' + k] + ' · ' + T['p' + k + 'Facts'][0];
-    });
-    setLine(PL.line);
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  function renderPlugin() {
+    if (document.querySelector('.p-stage')) setLine(PL.line);
   }
   function setLine(line) {
     const T = t();
-    const stage = document.querySelector('.p-stage');
     PL.line = line;
-    stage.dataset.line = line;
+    document.querySelector('.p-stage').dataset.line = line;
     document.querySelectorAll('.p-line').forEach((b) => {
-      const on = b.dataset.line === line;
-      b.setAttribute('aria-selected', String(on));
+      b.setAttribute('aria-selected', String(b.dataset.line === line));
       // Restart the progress bar on the line that just came up.
       const bar = b.querySelector('.p-bar');
       bar.style.animation = 'none'; void bar.offsetWidth; bar.style.animation = '';
     });
     $('pWinTitle').textContent = line === 'drama' ? T.pWinDrama : T.pWinRemake;
-    $('pCap').textContent = line === 'drama' ? T.pCapDrama : T.pCapRemake;
-    playDemo();
+    if (window.ShiseiDemo) window.ShiseiDemo.show(line);
   }
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  let demoSeen = false;
-  function playDemo() {
-    const v = $('pVideo');
-    if (!v) return;
-    if (PL.line === 'drama' && demoSeen && !reduced.matches) v.play().catch(() => {});
-    else v.pause();
+  function pin() {
+    PL.pinned = true;
+    document.querySelector('.p-lines').classList.add('pinned');
   }
   function initPlugin() {
-    const stage = document.querySelector('.p-stage');
-    if (!stage) return;
+    if (!document.querySelector('.p-stage')) return;
     document.querySelector('.p-lines').addEventListener('click', (e) => {
       const b = e.target.closest('.p-line');
       if (!b) return;
-      PL.pinned = true;
-      document.querySelector('.p-lines').classList.add('pinned');
+      pin();
       setLine(b.dataset.line);
     });
+    // Someone trying the demo should not have it switch under the mouse.
+    $('demoHost').addEventListener('pointerdown', pin);
     if (!reduced.matches) {
       PL.timer = setInterval(() => {
         if (!PL.pinned && !document.hidden) setLine(PL.line === 'drama' ? 'remake' : 'drama');
-      }, 7000);
-    } else document.querySelector('.p-lines').classList.add('pinned');
-    // The demo video loads and plays only once its window is on screen.
-    const v = $('pVideo');
-    if (v && 'IntersectionObserver' in window) {
-      new IntersectionObserver((es) => {
-        demoSeen = es[es.length - 1].isIntersecting;
-        if (demoSeen && v.preload === 'none') v.preload = 'auto';
-        playDemo();
-      }, { threshold: 0.2 }).observe(v);
-    }
+      }, 9000);
+    } else pin();
   }
   initPlugin();
 

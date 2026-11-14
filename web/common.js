@@ -217,5 +217,9 @@
       document.querySelectorAll('.cl-list section').forEach((s) => { s.hidden = !s.querySelector('article:not([hidden])'); });
       document.querySelector('[data-filter-empty]').hidden = n > 0;
     });
+    // The footer links straight to one product's entries (?product=plugin | library).
+    const want = new URLSearchParams(location.search).get('product');
+    const pre = want && g.querySelector('[data-filter="' + want + '"]');
+    if (pre) pre.click();
   }
 })();
