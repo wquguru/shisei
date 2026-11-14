@@ -13,6 +13,9 @@ the catalog schema.
   `web/case-remake.webp`, the DeepSeek Harness lockup `web/dsh-harness{,-white}.png`), three promises, real runs with
   step-by-step cost, and an install block. The site switches to the plugin's colour tokens (cool grey, one amber
   accent), and every page gets an open-source footer (`Site.footer`) modelled on the cicada site.
+- The pose grid moves to its own page, `poses/` (four languages, in the sitemap); the home page keeps the library
+  intro and marquee. Old home links (`#P001-diag`, `#all`, `?series=…`) redirect there. The home page drops the version
+  badge and the GPU referral capsule and gets more room between sections (design canvas 「P2 宽松版」).
 - The four library files dsh-shisei reads (`scenes.json`, `props.json`, `furniture.json`, `costumes.json` at the
   site root) carry `schema: 1` and `plugin: true`, and their shape is a contract (docs/DESIGN.md): `build_site.py`
   and `verify.py` stop when a field the plugin relies on breaks (`check_plugin_feed`). Version 1 only grows; a
