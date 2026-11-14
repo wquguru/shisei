@@ -31,6 +31,11 @@ LOGO = ('<svg class="logo" width="{s}" height="{s}" viewBox="0 0 100 100" aria-h
 SHARE_ICON = ('<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" '
               'stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3m0 0L7.5 7.5M12 3l4.5 4.5M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>')
 GH_ICON = '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>'
+PLUGIN_REPO = "https://github.com/wquguru/dsh-shisei"
+X_URL = "https://x.com/wquguru"
+LIB_ORDER = ("costume", "scene", "furniture", "prop", "light", "animal")
+
+
 FEED_ICON = ('<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" '
              'aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>')
 
@@ -140,21 +145,62 @@ class Site:
 <link rel="icon" href="{rel}favicon.svg" type="image/svg+xml">
 {touch}<link rel="manifest" href="{rel}manifest.webmanifest">{ld_tag}"""
 
+    # ---- site footer (docs/DESIGN.md, 首页：插件为主 · 页脚): the gallery, the library pages and the static pages share it
+    def footer(self, loc, rel, home, langs, extra=""):
+        """OSS-style footer after the cicada site: brand and install, four link columns, a legal row, a wordmark.
+        langs: the page's own language links; extra: page-only links for the legal row (share, terms, data file)."""
+        T = self.S[loc]
+        a = lambda href, text, ext=False: (f'<a href="{esc(href)}"' + (' rel="noopener"' if ext else "") + f'>{esc(text)}</a>')
+        libs = "".join(a(f"{home}{lib}/", T["libs"][lib]["name"]) for lib in LIB_ORDER)
+        return f"""<footer class="foot">
+  <div class="foot-wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="foot-row">{LOGO.format(s=44)}<b>拾戏</b><span class="foot-sub">Shisei</span><span class="reel" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></div>
+        <p class="foot-slogan">{esc(T["fSlogan"])}</p>
+        <p>{esc(T["fDesc"])}</p>
+      </div>
+      <div class="foot-dl">
+        <a class="pill accent" href="{home}#install">{esc(T["installBtn"])}</a>
+        <span>{esc(T["fMeta"])} · <a href="{PLUGIN_REPO}#readme">{esc(T["pInstSteps"])}</a></span>
+      </div>
+    </div>
+    <nav class="foot-cols" aria-label="{esc(T["fLabel"])}">
+      <div><h3>{esc(T["fPlugin"])}</h3>{a(home + "#studio", T["navDrama"])}{a(home + "#cases", T["navCases"])}{a(home + "#install", T["navInstall"])}{a(PLUGIN_REPO + "/releases", T["fReleases"], True)}</div>
+      <div><h3>{esc(T["fLib"])}</h3>{a(home + "#all", T["navPoses"])}{libs}{a(self.repo + "/releases/latest", T["fDownload"], True)}</div>
+      <div><h3>{esc(T["fHelp"])}</h3>{a(PLUGIN_REPO + "#readme", T["pInstSteps"], True)}{a(PLUGIN_REPO + "#readme", T["fFaq"], True)}{a(PLUGIN_REPO + "/issues", T["fIssues"], True)}{a(rel + PREFIX[loc] + "changelog/", T["navChangelog"] + " v" + self.version)}</div>
+      <div><h3>{esc(T["fOss"])}</h3>{a(PLUGIN_REPO, T["fRepoPlugin"], True)}{a(self.repo, T["fRepoLib"], True)}{a(PLUGIN_REPO + "/blob/main/LICENSE", T["fLicense"], True)}{a(X_URL, T["fX"], True)}</div>
+    </nav>
+    <div class="foot-legal">
+      <span>{esc(T["fCopy"])}</span>
+      <span>{esc(T["fBy"])} <a href="{X_URL}" rel="noopener">@wquguru</a></span>
+      <a href="{rel}catalog.json">catalog.json</a>{extra}
+      <nav class="foot-langs" aria-label="Language">{langs}</nav>
+      <span class="tm">{esc(T["fTm"])}</span>
+    </div>
+  </div>
+  <div class="wordmark" aria-hidden="true">Shisei</div>
+</footer>"""
+
+    def langs(self, loc, rel, key):
+        return "".join(
+            f'<a href="{(rel + PREFIX[l] + key) or "./"}" hreflang="{HTML_LANG[l]}" lang="{HTML_LANG[l]}" data-lang-link="{l}"'
+            f'{CURRENT if l == loc else ""}>{esc(self.S[l]["langName"])}</a>' for l in LOCS)
+
     # ---- page shell for the static pages (the gallery has its own template)
     def shell(self, loc, key, head, main, cls=""):
         T = self.S[loc]
         rel = self.rel(PREFIX[loc] + key)
         home = rel + PREFIX[loc] or "./"
-        langs = "".join(
-            f'<a href="{rel}{PREFIX[l]}{key}" hreflang="{HTML_LANG[l]}" lang="{HTML_LANG[l]}" data-lang-link="{l}"'
-            f'{CURRENT if l == loc else ""}>{esc(self.S[l]["langName"])}</a>' for l in LOCS)
+        langs = self.langs(loc, rel, key)
         return f"""<!doctype html>
 <html lang="{HTML_LANG[loc]}" data-loc="{loc}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 {head}
-<meta name="theme-color" content="#F5F2ED">
+<meta name="theme-color" content="#F7F8F9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101215" media="(prefers-color-scheme: dark)">
 <link rel="preload" href="{rel}fonts/inter-tight-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{rel}app.css?v={self.version}">
 </head>
@@ -162,29 +208,21 @@ class Site:
 <!-- Generated by tools/build_site.py from web/ and data/; edit the generator, not this file. -->
 <a class="skip" href="#main">{esc(T["skip"])}</a>
 <nav class="nav wrap" aria-label="Shisei">
-  <a class="brand" href="{home}">{LOGO.format(s=40)}<span>Shisei</span></a>
+  <a class="brand" href="{home}">{LOGO.format(s=40)}<span>拾戏</span><span class="brand-sub">Shisei</span></a>
   <div class="nav-links">
-    <a href="{home}#all">{esc(T["navPoses"])}</a>
-    <a href="{home}#studio" class="nav-studio"><span>{esc(T["navStudio"])}</span><span class="nav-new">NEW</span></a>
-    <a href="{rel}{PREFIX[loc]}changelog/">{esc(T["navChangelog"])}</a>
+    <a href="{home}#studio">{esc(T["navDrama"])}</a>
+    <a href="{home}#cases">{esc(T["navCases"])}</a>
+    <a href="{home}#install">{esc(T["navInstall"])}</a>
+    <a href="{home}#all" class="nav-lib">{esc(T["navPoses"])}</a>
+    <a href="{rel}{PREFIX[loc]}changelog/" class="nav-lib">{esc(T["navChangelog"])}</a>
   </div>
   <div class="nav-tools">
-    <a class="pill dark small gh" href="{self.repo}" aria-label="GitHub">{GH_ICON}<span>GitHub</span></a>
+    <a class="pill accent small nav-install" href="{home}#install">{esc(T["installBtn"])}</a>
+    <a class="pill light small gh" href="{self.repo}" aria-label="GitHub">{GH_ICON}<span>GitHub</span></a>
   </div>
 </nav>
 {main}
-<footer class="foot">
-  <div class="wrap foot-in">
-    <div class="foot-brand">{LOGO.format(s=28)}<strong>Shisei 姿勢</strong><span>{esc(T["footer"])}</span></div>
-    <nav class="foot-links" aria-label="Footer">
-      <a href="{self.repo}">GitHub</a>
-      <a href="https://github.com/wquguru/dsh-shisei">dsh-shisei</a>
-      <a href="{rel}{PREFIX[loc]}changelog/">{esc(T["navChangelog"])} v{self.version}</a>
-      <a href="{rel}catalog.json">catalog.json</a>
-    </nav>
-    <nav class="foot-langs" aria-label="Language">{langs}</nav>
-  </div>
-</footer>
+{self.footer(loc, rel, home, langs)}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="{rel}i18n.js?v={self.version}"></script>
 <script src="{rel}common.js?v={self.version}"></script>

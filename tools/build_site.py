@@ -472,7 +472,10 @@ def main() -> None:
                .replace("__SKIP__", esc(T["skip"])).replace("__NOSCRIPT__", noscript)
                .replace("__CHANGELOG__", f"{rel}{PREFIX[loc]}changelog/").replace("__BASE__", rel)
                .replace("__CATALOG__", compact).replace("__REPO__", site.repo).replace("__VERSION__", ver)
-               .replace("__PACKS__", json.dumps(packs, separators=(",", ":"))))
+               .replace("__PACKS__", json.dumps(packs, separators=(",", ":")))
+               .replace("__FOOTER__", site.footer(loc, rel, rel + PREFIX[loc] or "./", site.langs(loc, rel, ""),
+                        f'<button type="button" class="linklike" data-share data-share-site>{esc(T["shareSite"])}</button>'
+                        f'<button type="button" class="linklike" data-open="terms" data-i18n="terms"></button>')))
         write(PREFIX[loc], doc)
 
         # One page per library and language, like the gallery.
@@ -492,7 +495,9 @@ def main() -> None:
                     .replace("__HOME__", lrel + PREFIX[loc] or "./").replace("__CHANGELOG__", f"{lrel}{PREFIX[loc]}changelog/")
                     .replace("__BASE__", lrel).replace("__DATAFILE__", f"{lrel}{LIBS[lib]['data']}.json")
                     .replace("__LIBDATA__", json.dumps(D, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
-                    .replace("__REPO__", site.repo).replace("__VERSION__", ver))
+                    .replace("__REPO__", site.repo).replace("__VERSION__", ver)
+                    .replace("__FOOTER__", site.footer(loc, lrel, lrel + PREFIX[loc] or "./", site.langs(loc, lrel, key),
+                             f'<a href="{lrel}{LIBS[lib]["data"]}.json" id="cDataLink">{LIBS[lib]["data"]}.json</a>')))
             write(PREFIX[loc] + key, ldoc)
             for i in range(len(general[lib])):
                 write(*site.item_page(loc, lib, D, general[lib], i))
