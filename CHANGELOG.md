@@ -8,6 +8,9 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- The home hero title carries two tiny looping clips (a sunset after line one, a vertical dancer before line two)
+  and a scrubber under "AI video studio", sized in em so they follow every breakpoint and language; still under
+  `prefers-reduced-motion`.
 - The home page's plugin window is a live HTML demo of the plugin's Drama and Remake screens (`web/demo.js`, four
   languages, real frames and clips in `web/demo/`), the real runs are three moving cards, and a new section shows
   series with regulars and fixed voices (D-20). `/changelog/` merges the plugin's reader-facing changelog from

@@ -1075,7 +1075,7 @@ body[data-kind="line"] .ctile img, body[data-kind="line"] .clb-stage > img, body
 .p-mark { position: absolute; left: 100%; top: 0.04em; margin-left: 0.3em; height: 0.28em; width: auto; opacity: 0.92; }
 .p-lines { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 .p-line { position: relative; overflow: hidden; min-height: 56px; padding: 0 22px; border-radius: 16px; border: 1px solid transparent; background: var(--bg2); color: var(--ink2); font-size: 18px; cursor: pointer; display: inline-flex; align-items: center; gap: 10px; transition: background .3s, border-color .3s, color .3s; }
-.p-line b { font-weight: 600; }
+.p-line b { flex: none; font-weight: 600; white-space: nowrap; }
 .p-line[aria-selected="true"] { background: var(--card); border-color: var(--ink); color: var(--ink); }
 .p-bar { position: absolute; left: 0; bottom: 0; height: 3px; width: 0; background: var(--accent); }
 .p-line[aria-selected="true"] .p-bar { animation: p-fill 9s linear both; }
@@ -1562,3 +1562,59 @@ html:lang(ja) .p-title { font-size: clamp(34px, 5vw, 72px); }
 @media (prefers-reduced-motion: reduce) { .dm-ring, .dm-msg, .dm-typing i, .dm-scrub i, .s-wave i, .k-card { animation: none !important; transition: none !important; } }
 .cl-filter .chip[aria-pressed="true"] .mono { color: inherit; opacity: 0.7; }
 .cl-page .cl-cta { color: var(--acc-tx); }
+
+/* ---- Hero title clips (2026-11-14, design canvas 「A · 字里藏片」) ----
+   Two tiny looping "videos" sit in the title so the first thing on the page moves like footage: a sunset clip
+   after line A, a vertical dancer clip (the remake line) before line B, and a scrubber running under line B.
+   Sized in em so they follow the title through every breakpoint and language; the strings stay untouched. */
+.p-clip { position: relative; display: inline-block; overflow: hidden; font-style: normal; }
+.p-clip i { position: absolute; display: block; font-style: normal; }
+.p-clip-sun { width: 1.56em; height: 0.82em; margin: 0 0 0 0.22em; vertical-align: -0.08em; border-radius: 0.41em;
+  background: linear-gradient(110deg, var(--accent), #FFB547, #FF8FB1, #7C5CFF); background-size: 300% 300%;
+  box-shadow: 0 0.1em 0.3em -0.08em rgba(255, 138, 76, 0.45); animation: pc-sky 6s ease-in-out infinite alternate; }
+.p-sun { left: 0.5em; top: 0.2em; width: 0.34em; height: 0.34em; border-radius: 50%; background: #FFF3D6;
+  animation: pc-sun 6s ease-in-out infinite alternate; }
+.p-hill { left: 0; right: 0; bottom: 0; height: 0.29em; background: #2B1A3D;
+  clip-path: polygon(0 60%, 18% 20%, 34% 55%, 52% 5%, 70% 50%, 86% 25%, 100% 55%, 100% 100%, 0 100%); }
+.p-clip .p-rec { left: 0.36em; top: 0.13em; width: 0.08em; height: 0.08em; border-radius: 50%; background: #FF3B30;
+  box-shadow: 0 0 0 0.025em rgba(0, 0, 0, 0.25); animation: pc-blink 1.2s steps(1) infinite; }
+.p-clip-dance { width: 0.56em; height: 0.98em; margin-right: 0.22em; vertical-align: -0.16em; border-radius: 0.13em;
+  background: linear-gradient(180deg, #14B8A6, #2F6BEB); box-shadow: 0 0.1em 0.3em -0.08em rgba(47, 107, 235, 0.45); }
+.p-clip-dance::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 18%; background: rgba(255, 255, 255, 0.18); }
+.p-dancer { left: 30%; bottom: 13%; width: 40%; height: 58%; z-index: 1; animation: pc-bob 0.9s ease-in-out infinite; }
+.p-dancer i { background: #fff; border-radius: 0.04em; }
+.p-dancer .d-h { left: 25%; top: 0; width: 50%; height: 20%; border-radius: 50%; }
+.p-dancer .d-b { left: 12%; top: 23%; width: 76%; height: 42%; border-radius: 0.1em 0.1em 0.05em 0.05em; }
+.p-dancer .d-al, .p-dancer .d-ar { top: 26%; width: 14%; height: 30%; transform-origin: top center; }
+.p-dancer .d-al { left: 8%; animation: pc-arm-l 0.9s ease-in-out infinite; }
+.p-dancer .d-ar { left: 78%; animation: pc-arm-r 0.9s ease-in-out infinite; }
+.p-dancer .d-ll, .p-dancer .d-lr { top: 64%; width: 18%; height: 36%; }
+.p-dancer .d-ll { left: 22%; } .p-dancer .d-lr { left: 60%; }
+.p-prog { left: 9%; right: 9%; bottom: 5%; height: 3%; z-index: 1; border-radius: 1em; background: rgba(255, 255, 255, 0.35); }
+.p-prog i { left: 0; top: 0; bottom: 0; border-radius: 1em; background: #fff; animation: pc-fill 7s linear infinite; }
+.p-title-tx { position: relative; display: inline-block; }
+.p-scrub { position: absolute; left: 0.06em; right: 0.06em; bottom: -0.08em; height: 0.07em; border-radius: 1em; background: var(--line); }
+.p-scrub i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 1em; background: var(--accent); animation: pc-fill 7s linear infinite; }
+.p-scrub b { position: absolute; top: 50%; width: 0.2em; height: 0.2em; margin: -0.1em 0 0 -0.1em; box-sizing: border-box; border-radius: 50%;
+  border: 0.035em solid var(--accent); background: var(--bg); animation: pc-knob 7s linear infinite; }
+@keyframes pc-sky { from { background-position: 0% 50%; } to { background-position: 100% 50%; } }
+@keyframes pc-sun { 0% { transform: translate(-0.4em, 0.46em); } 50% { transform: translate(0.24em, -0.04em); } 100% { transform: translate(0.9em, 0.46em); } }
+@keyframes pc-blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0.15; } }
+@keyframes pc-bob { 0%, 100% { transform: translateY(0) rotate(-7deg); } 50% { transform: translateY(-8%) rotate(7deg); } }
+@keyframes pc-arm-l { 0%, 100% { transform: rotate(30deg); } 50% { transform: rotate(150deg); } }
+@keyframes pc-arm-r { 0%, 100% { transform: rotate(-30deg); } 50% { transform: rotate(-150deg); } }
+@keyframes pc-fill { from { width: 0; } to { width: 100%; } }
+@keyframes pc-knob { from { left: 0; } to { left: 100%; } }
+/* On a phone line A fills the width, so the sunset clip moves to the end of line B instead of wrapping alone. */
+.p-clip-m { display: none; }
+@media (max-width: 720px) {
+  .p-title > .p-clip-sun { display: none; }
+  .p-title .p-clip-m { display: inline-block; margin-left: 0.18em; }
+  .p-clip .p-rec { width: 0.12em; height: 0.12em; }
+  .p-scrub { bottom: -0.12em; height: 0.11em; }
+  .p-scrub b { width: 0.3em; height: 0.3em; margin: -0.15em 0 0 -0.15em; border-width: 0.06em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .p-clip, .p-clip i, .p-scrub i, .p-scrub b { animation: none !important; }
+  .p-scrub i { width: 62%; } .p-scrub b { left: 62%; }
+}
