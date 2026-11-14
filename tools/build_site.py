@@ -473,6 +473,8 @@ def main() -> None:
     site = Site(site_url, args.repo.rstrip("/"), ver, S, poses, og=bool(chrome), media=media)
     # Versions the footer names: the plugin's newest release (its changelog) and this library's version.
     site.plugin_version = next((e["version"] for e in entries if e["product"] == "plugin"), None)
+    if not site.plugin_version:
+        sys.exit("no plugin version: the home page installs dsh-shisei@<its newest release> (--plugin-changelog)")
     write = lambda page, doc: ((out / page).mkdir(parents=True, exist_ok=True), (out / page / "index.html").write_text(doc))
 
     # Gallery home per language
@@ -516,6 +518,7 @@ def main() -> None:
                    .replace("__SKIP__", esc(T["skip"])).replace("__NOSCRIPT__", noscript)
                    .replace("__CHANGELOG__", f"{rel}{PREFIX[loc]}changelog/").replace("__BASE__", rel)
                    .replace("__CATALOG__", compact).replace("__REPO__", site.repo).replace("__VERSION__", ver)
+                   .replace("__PLUGIN_VERSION__", site.plugin_version)
                    .replace("__PACKS__", json.dumps(packs, separators=(",", ":")))
                    .replace("__FOOTER__", site.footer(loc, rel, hrel, site.langs(loc, rel, key),
                             f'<button type="button" class="linklike" data-share data-share-site>{esc(T["shareSite"])}</button>'

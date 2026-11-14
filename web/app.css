@@ -1290,6 +1290,11 @@ html:lang(ja) .p-title { font-size: clamp(34px, 5vw, 72px); }
 .p-steps span { display: inline-flex; align-items: center; gap: 8px; font-weight: 500; }
 .p-install { padding: 72px 64px; gap: 64px; }
 .p-install .p-req { font-size: 14px; color: var(--ink4); }
+.p-ways { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 14px; line-height: 1.6; }
+.p-ways li { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: 12px; }
+.p-ways b { font-weight: 600; }
+.p-ways code { font-size: 13px; padding: 1px 6px; border-radius: 6px; background: var(--card); border: 1px solid var(--line); white-space: nowrap; }
+@media (max-width: 560px) { .p-ways li { grid-template-columns: 1fr; gap: 2px; } }
 .lib-hero { padding-top: 168px; }
 .foot { margin-top: 168px; }
 @media (max-width: 720px) {
