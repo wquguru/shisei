@@ -8,6 +8,11 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- Home page leads with dsh-shisei (拾戏 Shisei: Drama / Remake), wording from its README, and the pose library
+  follows as "also included" (D-19): a hero with two auto-switching lines and a demo window (`web/studio-demo.mp4`,
+  `web/case-remake.webp`, the DeepSeek Harness lockup `web/dsh-harness{,-white}.png`), three promises, real runs with
+  step-by-step cost, and an install block. The site switches to the plugin's colour tokens (cool grey, one amber
+  accent), and every page gets an open-source footer (`Site.footer`) modelled on the cicada site.
 - The four library files dsh-shisei reads (`scenes.json`, `props.json`, `furniture.json`, `costumes.json` at the
   site root) carry `schema: 1` and `plugin: true`, and their shape is a contract (docs/DESIGN.md): `build_site.py`
   and `verify.py` stop when a field the plugin relies on breaks (`check_plugin_feed`). Version 1 only grows; a

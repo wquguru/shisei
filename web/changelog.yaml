@@ -4,6 +4,22 @@
 # tag: new | improve | announce | removed. link: an in-site path without language prefix (/, /changelog/, /pose/P001/),
 # optionally with ?query and #hash; the build prefixes the reader's language. Newest first.
 entries:
+  - date: 2026-11-13
+    tag: announce
+    title: Shisei now leads with its video studio
+    desc: The home page opens with dsh-shisei, the open-source DeepSeek Harness plugin for short dramas and dance remakes on your own GPU. The pose library and the other libraries are right below.
+    link: /#studio
+    cta: See the studio
+    title_zh: 首页先讲拾戏视频工作台
+    desc_zh: 首页先介绍 dsh-shisei：开源、自托管的 DeepSeek Harness 插件，用你自己的云 GPU 拍短剧、做翻拍。姿势和各个素材库就在下面。
+    cta_zh: 看看拾戏
+    title_ja: トップページは動画スタジオから
+    desc_ja: トップページの最初は dsh-shisei。自分の GPU でショートドラマとダンスのリメイクを作る、オープンソースの DeepSeek Harness プラグインです。ポーズと素材ライブラリはそのすぐ下に。
+    cta_ja: スタジオを見る
+    title_ko: 첫 화면은 영상 스튜디오부터
+    desc_ko: 첫 화면에서 dsh-shisei를 먼저 소개합니다. 내 GPU로 숏드라마와 댄스 리메이크를 만드는 오픈소스 DeepSeek Harness 플러그인입니다. 포즈와 소재 라이브러리는 바로 아래에 있습니다.
+    cta_ko: 스튜디오 보기
+
   - date: 2026-11-12
     tag: improve
     title: See which items work in dsh-shisei
