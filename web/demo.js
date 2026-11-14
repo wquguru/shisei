@@ -6,7 +6,8 @@
   'use strict';
   const L = (window.SHISEI || {}).lang || 'zh';
   const T = (window.I18N || {})[L];
-  if (!T || !T.demo || !document.getElementById('demoHost')) return;
+  // Only the home page shows the demo; poses/ shares the template but must not build it (its stills would still load).
+  if (!T || !T.demo || !document.getElementById('demoHost') || document.body.dataset.page !== 'home') return;
   const D = T.demo;
   const BASE = (window.SHISEI.base || '') + 'demo/';
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

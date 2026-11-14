@@ -408,6 +408,8 @@
   }
 
   function renderGrid() {
+    // The home page keeps the grid hidden (the pose grid lives on poses/): skip ~280 cards and 8,000 DOM nodes there.
+    if (document.body.dataset.page === 'home') return;
     const T = t();
     const list = pool();
     const grid = $('grid');
