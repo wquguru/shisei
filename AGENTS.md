@@ -36,7 +36,8 @@ from the line art and aligned with it), a four-language catalog (ja / zh / en / 
 - **Full-size originals stay out of git.** Commit only the `w300`, `w600` and `w900` tiers; downloads ship as Release
   zips (`tools/pack_release.py`: w900 per series + all, recommended; originals), sizes in `data/packs.json`.
 - **Content safety.** Figures are mannequins or AI-generated adults. Nothing that reads as a minor, a real person or
-  explicit content enters the repo.
+  explicit content enters the repo. Exception by D-20: the plugin demo's remake character (AI, labelled 20) may look
+  young as long as nothing is sexual or revealing; library QC is unchanged.
 - **Do not publish the repo, create releases, deploy, post or spend money** without a human's OK (§8).
 - Never weaken `verify.py` to make it pass; never delete `docs/` content to "simplify" — fix it when outdated.
 

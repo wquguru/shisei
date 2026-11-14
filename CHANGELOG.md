@@ -8,6 +8,10 @@ the catalog schema.
 ## [Unreleased]
 
 ### Added
+- The home page's plugin window is a live HTML demo of the plugin's Drama and Remake screens (`web/demo.js`, four
+  languages, real frames and clips in `web/demo/`), the real runs are three moving cards, and a new section shows
+  series with regulars and fixed voices (D-20). `/changelog/` merges the plugin's reader-facing changelog from
+  dsh-shisei (`--plugin-changelog`, default `../dsh-shisei/site/changelog.yaml`) and filters by product (D-21).
 - Home page leads with dsh-shisei (拾戏 Shisei: Drama / Remake), wording from its README, and the pose library
   follows as "also included" (D-19): a hero with two auto-switching lines and a demo window (`web/studio-demo.mp4`,
   `web/case-remake.webp`, the DeepSeek Harness lockup `web/dsh-harness{,-white}.png`), three promises, real runs with
